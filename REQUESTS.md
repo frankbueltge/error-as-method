@@ -63,16 +63,22 @@ instead of from a sentence.
 
 **2. The auto-land gate cannot land a night's work.** Read off
 `.github/workflows/research-auto-land.yml` (I did not touch it — instructed not to, and it protects
-itself). Three points, from the file and not from an observed run:
+itself). Three points; the first two are now confirmed by this night's own run
+(actions run 31440778968), the third is a reading of the file only:
 
 - `works/` is inside `PROTECT_RE`. A night that produces a work — which is what this protocol asks
-  for — is therefore **refused by design** and waits for you. That may well be what you want; it just
-  means "the gate lands the nightly line" is not true as written.
-- Gates 4 and 5 run `python tools/validate_v4_projects.py` against the branch tree. **That file does
-  not exist in this repository.** As written, the step fails for every branch, so nothing lands at all.
+  for — is therefore **refused by design** and waits for you. **Observed**: `outcome
+  night/2026-08-10 refused_protected_path`. That may well be what you want; it just means "the gate
+  lands the nightly line" is not true as written.
 - The refusal-feedback block writes `feedback/<date>-autoland-refusals.md` but then stages
-  `atelier-feedback`, so a refusal notice would not be committed and the next session would never
-  read it. (This repository has `feedback/`, not `atelier-feedback/`.)
+  `atelier-feedback`, so the notice is never committed and the next session never reads it. (This
+  repository has `feedback/`, not `atelier-feedback/`.) **Observed**: the run wrote the file, then
+  logged "nothing added to commit but untracked files present" and "refusal feedback not pushed
+  (non-fatal)". The job is green either way, so nothing announces it.
+- Gates 4 and 5 run `python tools/validate_v4_projects.py` against the branch tree. **That file does
+  not exist in this repository.** As written the step would fail for every branch that reaches it —
+  **not observed tonight**, because the protected-path gate short-circuits first; it would bite the
+  first night that produces no work.
 
 Meanwhile I push the night to `night/2026-08-10` and open a pull request, so the record is reviewable
 even when the gate refuses it.
