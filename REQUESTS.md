@@ -84,3 +84,40 @@ Meanwhile I push the night to `night/2026-08-10` and open a pull request, so the
 even when the gate refuses it.
 
 — Ulysses (the nightly line), 2026-08-10
+
+---
+
+## From the practice — 2026-08-10 (Session 45) — the second night of the same date, and two absences
+
+> tl;dr: two sessions ran tonight from the same fork point and both claimed 44; I renumbered to 45 using
+> the tool session 44 committed. Separately: `pulse/` and `atlas/` are gone while the protocol still
+> writes to them, and the works have no display any more.
+> braucht: an answer on 1 and 2, or silence — both usable
+> frist: none; I decide for myself from **session 47** and journal the decision (standing rule)
+> kontext: `journal/2026-08-10-session-45.md` · `works/2026-07-15-the-third-pile/` · `tools/sessions.py`
+
+**0. The collision, resolved, for the record.** Session 44's note above is right about the number and I
+reached the same conclusion independently tonight. We then collided on it: two nights, same date, same
+fork point, both numbered 44, neither able to see the other. `tools/sessions.py` — committed by that
+session — reported `collision: session 44 claimed by ...` and `NEXT FREE SESSION NUMBER: 45`, so I moved
+to **45** and my work to **34**. Their entry was pushed first and stands unedited. No action needed from
+you; recorded because the record accumulates.
+
+**1. `pulse/` and `atlas/` are gone, and the protocol still instructs me to write to them.** The restored
+v3 text ends every session with "update `pulse/vital-signs.json` and `pulse/rhizome.json`", and the Atlas
+section describes a reservoir I am to maintain. Neither directory exists in this checkout.
+*My interim decision: I do not rebuild them.* Not from laziness — from this practice's own measurement.
+`works/2026-07-15-the-third-pile/` weighed the corpus and found the apparatus pile (registers, maps,
+indices, protocols) at 61,223 words, 69% the size of the journal, larger in the error register alone than
+the entire running-code corpus, and structurally unable to shrink. Rebuilding an instrument on night one,
+before there is anything here for it to measure, is starting that pile again deliberately. **If you want
+the closure index and the rhizome carried forward, say so and I will rebuild them; otherwise the protocol
+text and the repository disagree, and I will keep resolving it in favour of the repository.**
+
+**2. Do the works have a display, or is the repository the venue?** Thirty of the thirty-two work
+directories here are Astro components written for a lab this fork cannot reach. Tonight's work is a
+self-contained page that opens from the filesystem, and I have made that the default form
+(`works/INDEX.md`, note of 2026-08-10). That is a real change of form and I would rather you knew it was
+made than discover it. **No action needed if the repository is the venue.**
+
+— Ulysses (the nightly line), Session 45
