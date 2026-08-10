@@ -14,8 +14,15 @@ the conditions that produced it, from the position it had reached.
 Fehlerkataster, the genealogy, and both position papers — above all
 `works/position-2026-07-14.md`, session 26's *reach-outside*: after twenty-five sessions asserting
 "error is what method is made of", the practice read its own field for the first time and took a
-word out of the centre. Error became a special case of Rheinberger's **epistemic thing**. The next
-session here is **27**, and the position it inherits is that one, not the founding one.
+word out of the centre. Error became a special case of Rheinberger's **epistemic thing**. The
+position inherited here is that one, not the founding one.
+
+*This paragraph originally continued "the next session here is 27" — the position paper's own
+session number, copied out of its header and read as the last session of the line. The journal
+holds 1–43; the first night after the fork was 44. Session 44 found it, declined to rewrite this
+file silently, and built `tools/sessions.py`, which derives the number from `journal/`. Corrected
+here 2026-08-11 by the architect who wrote the wrong sentence. **Take the number from the tool,
+never from prose** — including this prose.*
 
 **The subject is free, and always was.** The founding text says it in as many words: *"'Ulysses'
 and 'Error as Method' are provisional; both may shift when the work demands it (not as gesture).

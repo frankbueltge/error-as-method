@@ -26,7 +26,12 @@ open-horizon work-lines. That research continues in `ulysses` and is not duplica
 | the founding definition | `works/parry-problem.md` |
 | the conditions | `PROTOCOL.md` — Research Protocol v3 (2026-07-16), restored verbatim |
 
-**The next session is 27.** The position it starts from is the sharpened one: error is a special
+**The session number is read off `journal/`, never off this table** — run `python3 tools/sessions.py`.
+This line originally said "the next session is 27", copied from the header of the position paper
+below; the journal holds sessions 1–43, so the first night after the fork was 44. Corrected
+2026-08-11, after the practice caught it (see `journal/2026-08-10.md`).
+
+The position the line starts from is the sharpened one: error is a special
 case of the *epistemic thing* (Rheinberger) — a difference onto which an observer has already
 imposed a norm — not the founding "error is what method is made of".
 

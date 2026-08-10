@@ -7,6 +7,7 @@
 # Mechanism (documented choice per migration patch M-05): direct merge in this workflow,
 # serialised by the concurrency group — same proven structure as the old workflow, plus a
 # per-branch validation gate. Branch forms:
+#   • night/*    — the nightly line's own runs (no PR; lands when the gate passes)
 #   • ulysses/*  — the scheduled research runs (no PR; lands when the gate passes)
 #   • claude/*   — a manually started routine/cloud session (opens a PR; lands only while
 #                  the PR is OPEN and not a draft — a closed PR is never resurrected)
@@ -26,7 +27,7 @@ name: Auto-land research
 
 on:
   push:
-    branches: ['ulysses/**', 'claude/**']
+    branches: ['night/**', 'ulysses/**', 'claude/**']
   pull_request:
     types: [opened, reopened, ready_for_review]
   schedule:
@@ -59,7 +60,8 @@ jobs:
           set -euo pipefail
           git config user.name "Atelier"
           git config user.email "ulysses@ulysses.invalid"
-          git fetch origin '+refs/heads/ulysses/*:refs/remotes/origin/ulysses/*' \
+          git fetch origin '+refs/heads/night/*:refs/remotes/origin/night/*' \
+                           '+refs/heads/ulysses/*:refs/remotes/origin/ulysses/*' \
                            '+refs/heads/claude/*:refs/remotes/origin/claude/*' || true
 
           # Allowlist and protected paths — keep in sync with governance/STANDING-DELEGATION.md §4/§5.
@@ -76,8 +78,13 @@ jobs:
           # its own check is not a gate. It could not weaken the check in the same run that
           # uses it — Gate 4 runs MAIN's validator against the branch tree — but it could land
           # a weakening in one run and use it in the next.
-          ALLOW_RE='^(projects/|journal/|atlas/|pulse/|memory/|encounters/|docs/research-notes/|tools/|\.github/workflows/|REQUESTS\.md$|PROTOCOL\.md$)'
-          PROTECT_RE='^(README\.md|LICENSE\.md|SITE-API\.md|governance/|works/|site-prs/|archive/|tools/validate_v4_projects\.py$|\.github/workflows/research-auto-land\.yml$)|(^|/)PUBLICATION\.json$'
+          # Adapted for this fork, 2026-08-11: `works/` is ALLOWED here, where the parent
+          # repo protects it. There it holds curated works awaiting a human publication
+          # decision; here a night's work IS the output, produced under Protocol v3 with
+          # no publication gate. Protecting it would mean the only thing this repo makes
+          # is the one thing that can never land — which is what happened on night one.
+          ALLOW_RE='^(works/|journal/|feedback/|projects/|atlas/|pulse/|memory/|encounters/|docs/research-notes/|tools/|\.github/workflows/|REQUESTS\.md$|PROTOCOL\.md$)'
+          PROTECT_RE='^(README\.md|LICENSE\.md|SITE-API\.md|governance/|site-prs/|archive/|tools/validate_v4_projects\.py$|\.github/workflows/research-auto-land\.yml$)|(^|/)PUBLICATION\.json$'
           # A step that reaches for a repository secret is the one thing a session must not
           # grant itself: the whole reason Actions is privileged is that the credentials live
           # there. Code that READS a credential out of its environment is fine and expected
