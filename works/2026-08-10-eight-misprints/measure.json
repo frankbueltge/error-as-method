@@ -1,0 +1,465 @@
+{
+ "target": "K. G. Wilson, Confinement of quarks, Phys. Rev. D 10, 2445 (1974)",
+ "corpus": {
+  "source": "INSPIRE-HEP REST API, /api/literature?q=refersto recid 89145",
+  "harvested_utc_date": "2026-08-10",
+  "citing_records_reported_by_inspire": 7183,
+  "citing_records_retrieved": 7008,
+  "records_carrying_a_raw_reference_string": 1708,
+  "note": "raw_refs are the reference as it stands in the citing manuscript (source: arXiv); INSPIRE stores them for a minority of records, overwhelmingly recent ones."
+ },
+ "N_reference_strings": 1708,
+ "flagged_by_the_automatic_pass": 28,
+ "verdicts": {
+  "ambiguous": 1,
+  "degenerate": 5,
+  "misprint": 8,
+  "misprint-outside-triple": 1,
+  "omission": 7,
+  "reprint-pagination": 6
+ },
+ "T_misprints": 8,
+ "D_distinct_misprints": 5,
+ "repeated_misprints": {
+  "year=1975": {
+   "records": 3,
+   "across_author_groups": true
+  },
+  "volume=80": {
+   "records": 2,
+   "across_author_groups": false
+  }
+ },
+ "misprint_rate_T_over_N": 0.00468,
+ "R_eq1_distinct_over_total": 0.625,
+ "R_eq8_finite_size_corrected": 0.624,
+ "comparison_simkin_2002_same_paper": {
+  "N": 2578,
+  "T": 263,
+  "D": 32,
+  "R_eq1": 0.12,
+  "R_eq8": 0.11
+ },
+ "misprint_rate_2002": 0.10202,
+ "citing_year_decades": {
+  "1970": 4,
+  "1980": 12,
+  "1990": 9,
+  "2000": 27,
+  "2010": 351,
+  "2020": 1305
+ },
+ "beyond_the_digits": {
+  "surname": {
+   "Wison": {
+    "records": [
+     2900045,
+     2933573
+    ],
+    "author_groups": [
+     "bairathi"
+    ]
+   }
+  },
+  "title-word": {
+   "qnarks": {
+    "records": [
+     1974492,
+     2031220,
+     2860162,
+     3082145
+    ],
+    "author_groups": [
+     "zhang"
+    ]
+   },
+   "qurks": {
+    "records": [
+     2834350
+    ],
+    "author_groups": [
+     "zhang-ruifeng-liang"
+    ]
+   }
+  }
+ },
+ "adjudication": [
+  {
+   "recid": 2173044,
+   "year": 1978,
+   "slots": [
+    "year"
+   ],
+   "verdict": "misprint",
+   "slot": "year",
+   "given": "1975",
+   "signature": "year=1975",
+   "author_group": "-",
+   "raw": "[52] K. Wilson, Phys. Rev. D10, 2445 (1975); About the QCD potential, see G. S. Bali, Phys. Rept. 343, 1 (2000)."
+  },
+  {
+   "recid": 144427,
+   "year": 1979,
+   "slots": [
+    "year"
+   ],
+   "verdict": "misprint",
+   "slot": "year",
+   "given": "1975",
+   "signature": "year=1975",
+   "author_group": "-",
+   "raw": "87.K. Wilson, Phys. Rev. D10, 2445 (1975)."
+  },
+  {
+   "recid": 267754,
+   "year": 1988,
+   "slots": [
+    "year"
+   ],
+   "verdict": "ambiguous",
+   "slot": "-",
+   "given": "Doering 1985",
+   "signature": "-",
+   "author_group": "-",
+   "raw": "Doering, C. R. (1985). Physical Review D, 10, 2445."
+  },
+  {
+   "recid": 1835048,
+   "year": 1990,
+   "slots": [
+    "volume"
+   ],
+   "verdict": "misprint",
+   "slot": "volume",
+   "given": "IO",
+   "signature": "volume=IO",
+   "author_group": "-",
+   "raw": "[2] K.G. Wilson, Phys. Rev. DIO (1974) 2445"
+  },
+  {
+   "recid": 1765257,
+   "year": 2017,
+   "slots": [
+    "volume"
+   ],
+   "verdict": "misprint",
+   "slot": "volume",
+   "given": "46",
+   "signature": "volume=46",
+   "author_group": "-",
+   "raw": "K. G. Wilson, Confinement of quarks, Physical Review D, vol.46, issue.8, pp.2445-2459, 1974.DOI : 10.1016/0370-2693(73)90150-0"
+  },
+  {
+   "recid": 1830982,
+   "year": 2018,
+   "slots": [
+    "page",
+    "volume"
+   ],
+   "verdict": "degenerate",
+   "slot": "-",
+   "given": "",
+   "signature": "-",
+   "author_group": "-",
+   "raw": "10.1103/PhysRevD.10.2445. url: http://link.aps.org/doi/10.1103/PhysRevD.10.2445"
+  },
+  {
+   "recid": 1799832,
+   "year": 2020,
+   "slots": [
+    "page",
+    "volume"
+   ],
+   "verdict": "reprint-pagination",
+   "slot": "-",
+   "given": "45-59",
+   "signature": "-",
+   "author_group": "-",
+   "raw": "[58] Kenneth G. Wilson. Confinement of Quarks. pages 45–59, 2 1974."
+  },
+  {
+   "recid": 1811497,
+   "year": 2020,
+   "slots": [
+    "page",
+    "volume"
+   ],
+   "verdict": "reprint-pagination",
+   "slot": "-",
+   "given": "45-59",
+   "signature": "-",
+   "author_group": "-",
+   "raw": "[18] Kenneth G. Wilson. “Confinement of Quarks”. In: (Feb. 1974), pp. 45–59. DOI: 10.1103/PhysRevD.10.2445."
+  },
+  {
+   "recid": 1817336,
+   "year": 2020,
+   "slots": [
+    "page",
+    "volume"
+   ],
+   "verdict": "degenerate",
+   "slot": "-",
+   "given": "",
+   "signature": "-",
+   "author_group": "-",
+   "raw": "[24] K. G. Wilson, Confinement of Quarks, ."
+  },
+  {
+   "recid": 1850374,
+   "year": 2020,
+   "slots": [
+    "page"
+   ],
+   "verdict": "omission",
+   "slot": "page",
+   "given": "",
+   "signature": "-",
+   "author_group": "-",
+   "raw": "[26] Kenneth G. Wilson. “Conﬁnement of quarks”. In: Phys. Rev. D 10.8 (Oct. 1974). doi: 10.1103/PhysRevD.10.2445. url: https://link.aps.org/ doi/10.1103/PhysRevD.10.2445."
+  },
+  {
+   "recid": 1989722,
+   "year": 2020,
+   "slots": [
+    "page",
+    "volume"
+   ],
+   "verdict": "reprint-pagination",
+   "slot": "-",
+   "given": "45",
+   "signature": "-",
+   "author_group": "-",
+   "raw": "[46] K. G. Wilson, “Confinement of Quarks”, edited by J. Taylor, 45 (1974)."
+  },
+  {
+   "recid": 1841274,
+   "year": 2021,
+   "slots": [
+    "page",
+    "volume"
+   ],
+   "verdict": "reprint-pagination",
+   "slot": "-",
+   "given": "45-59",
+   "signature": "-",
+   "author_group": "-",
+   "raw": "[124] Kenneth G. Wilson. Confinement of Quarks. Ed. by J.C. Taylor. Feb. 1974, pp. 45–59. DOI: 10.1103/PhysRevD.10.2445."
+  },
+  {
+   "recid": 1841346,
+   "year": 2021,
+   "slots": [
+    "page",
+    "volume"
+   ],
+   "verdict": "omission",
+   "slot": "volume+page",
+   "given": "",
+   "signature": "-",
+   "author_group": "-",
+   "raw": "[44] Kenneth G. Wilson. “Conﬁnement of quarks”. In: Phys. Rev. D (1974). doi: 10.1103/PhysRevD.10.2445."
+  },
+  {
+   "recid": 1881127,
+   "year": 2021,
+   "slots": [
+    "page",
+    "volume"
+   ],
+   "verdict": "degenerate",
+   "slot": "-",
+   "given": "",
+   "signature": "-",
+   "author_group": "-",
+   "raw": "[30] 10.1103/PhysRevD.10.2445 · doi:10.1103/PhysRevD.10.2445"
+  },
+  {
+   "recid": 1980647,
+   "year": 2021,
+   "slots": [
+    "volume"
+   ],
+   "verdict": "misprint",
+   "slot": "volume",
+   "given": "19",
+   "signature": "volume=19",
+   "author_group": "-",
+   "raw": "[117] KG Wilson, \"Confinement of quarks\", Phys.Rev.D,19,2445, DOI: 10.1103/PhysRevD.10.2445"
+  },
+  {
+   "recid": 2015258,
+   "year": 2021,
+   "slots": [
+    "page",
+    "volume"
+   ],
+   "verdict": "reprint-pagination",
+   "slot": "-",
+   "given": "45-59",
+   "signature": "-",
+   "author_group": "-",
+   "raw": "[17] Kenneth G. Wilson. “Confinement of Quarks.” In: (Feb. 1974). Ed. by J.C. Taylor, pp. 45–59. doi: 10.1103/PhysRevD.10.2445."
+  },
+  {
+   "recid": 2690092,
+   "year": 2023,
+   "slots": [
+    "page",
+    "volume"
+   ],
+   "verdict": "degenerate",
+   "slot": "-",
+   "given": "",
+   "signature": "-",
+   "author_group": "-",
+   "raw": "[8] K. G. Wilson. Confinement of Quarks. 10.1103/PhysRevD.10.2445."
+  },
+  {
+   "recid": 2691839,
+   "year": 2023,
+   "slots": [
+    "page"
+   ],
+   "verdict": "omission",
+   "slot": "page",
+   "given": "",
+   "signature": "-",
+   "author_group": "-",
+   "raw": "[6] K. G. Wilson. “Confinement of quarks”. Phys. Rev. D 10 (8 1974). doi: 10.1103/ PhysRevD.10.2445. url: https://link.aps.org/doi/10.1103/PhysRevD.10.2445 (cit. on p. 4)."
+  },
+  {
+   "recid": 2695397,
+   "year": 2023,
+   "slots": [
+    "page",
+    "volume"
+   ],
+   "verdict": "degenerate",
+   "slot": "-",
+   "given": "",
+   "signature": "-",
+   "author_group": "-",
+   "raw": "[95] , K.G. Wilson, Confinement of Quarks, , https://doi.org/10.1103/PhysRevD.10.2445 []."
+  },
+  {
+   "recid": 2746042,
+   "year": 2023,
+   "slots": [
+    "page"
+   ],
+   "verdict": "omission",
+   "slot": "page",
+   "given": "",
+   "signature": "-",
+   "author_group": "-",
+   "raw": "[1] K. G. Wilson, Confinement of quarks, Physical Review D 10 (1974) ."
+  },
+  {
+   "recid": 3096768,
+   "year": 2023,
+   "slots": [
+    "page",
+    "volume"
+   ],
+   "verdict": "reprint-pagination",
+   "slot": "-",
+   "given": "45-59",
+   "signature": "-",
+   "author_group": "-",
+   "raw": "[Wil74] Kenneth G. Wilson. \"Confinement of Quarks\". In:(Feb. 1974). Ed. by J.C. Taylor, pp. 45--59. DOI:10.1103/PhysRevD.10.2445."
+  },
+  {
+   "recid": 2767189,
+   "year": 2024,
+   "slots": [
+    "year"
+   ],
+   "verdict": "misprint",
+   "slot": "year",
+   "given": "1975",
+   "signature": "year=1975",
+   "author_group": "-",
+   "raw": "[17] K. Wilson, Phys. Rev. D10 2445 (1975)."
+  },
+  {
+   "recid": 2871020,
+   "year": 2025,
+   "slots": [
+    "page",
+    "volume"
+   ],
+   "verdict": "omission",
+   "slot": "volume+page",
+   "given": "",
+   "signature": "-",
+   "author_group": "-",
+   "raw": "[14] Kenneth G. Wilson. “Confinement of Quarks”. Physical Review D, Oct. 1974. doi: 10.1103/PhysRevD.10.2445."
+  },
+  {
+   "recid": 2904628,
+   "year": 2025,
+   "slots": [
+    "page"
+   ],
+   "verdict": "misprint-outside-triple",
+   "slot": "issue",
+   "given": "9",
+   "signature": "issue=9",
+   "author_group": "-",
+   "raw": "[40] K.G.Wilson, “Confinement of quarks,” Phys.Rev.D, vol. 10, no. 9, (1974). [Online]. Available: https://doi.org/10.1103/PhysRevD.10.2445."
+  },
+  {
+   "recid": 2939843,
+   "year": 2025,
+   "slots": [
+    "volume"
+   ],
+   "verdict": "misprint",
+   "slot": "volume",
+   "given": "80",
+   "signature": "volume=80",
+   "author_group": "panella-pacetti-immirzi",
+   "raw": "[13] K.G. Wilson, \"Confinement of quarks\", Phys.Rev.,80,2445, DOI: 10.1103/PhysRevD.10.2445"
+  },
+  {
+   "recid": 2971685,
+   "year": 2025,
+   "slots": [
+    "page"
+   ],
+   "verdict": "omission",
+   "slot": "page",
+   "given": "",
+   "signature": "-",
+   "author_group": "-",
+   "raw": "[Wil74] K. G. Wilson. “Confinement of Quarks”. In: Physical Review D 10 (Oct. 1974). doi: 10.1103/PhysRevD.10.2445."
+  },
+  {
+   "recid": 3064036,
+   "year": 2025,
+   "slots": [
+    "volume"
+   ],
+   "verdict": "misprint",
+   "slot": "volume",
+   "given": "80",
+   "signature": "volume=80",
+   "author_group": "panella-pacetti-immirzi",
+   "raw": "[21] K.G. Wilson, \"Confinement of quarks\", Phys.Rev.,80,2445, DOI: 10.1103/PhysRevD.10.2445"
+  },
+  {
+   "recid": 3188399,
+   "year": 2026,
+   "slots": [
+    "page"
+   ],
+   "verdict": "omission",
+   "slot": "page",
+   "given": "",
+   "signature": "-",
+   "author_group": "-",
+   "raw": "[3] K. G. Wilson, Confinement of quarks. Phys. Rev. D 10 (1974) ."
+  }
+ ]
+}
