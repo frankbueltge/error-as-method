@@ -1,0 +1,183 @@
+{
+  "generated_by": "governor.py",
+  "units": "micrograms offset from 1 kg",
+  "sections": {
+    "next_revision_leaving": "-18.8",
+    "revisions": [
+      {
+        "name": "CV2021",
+        "effective": "2021-02-01",
+        "window": [
+          [
+            "International Prototype Kilogram (2014)",
+            "0.0",
+            "11.7"
+          ],
+          [
+            "Pilot Study Reference Value (2016)",
+            "12.4",
+            "11.4"
+          ],
+          [
+            "KCRV of the first CCM.M-K8 (2019)",
+            "-18.8",
+            "7.5"
+          ]
+        ],
+        "calculated": "-2.1333",
+        "published": "-2.0",
+        "clamped": false,
+        "withheld": "0.0000",
+        "assigned_u": "20",
+        "u_of_mean": "5.992"
+      },
+      {
+        "name": "CV2023",
+        "effective": "2023-03-01",
+        "window": [
+          [
+            "Pilot Study Reference Value (2016)",
+            "12.4",
+            "11.4"
+          ],
+          [
+            "KCRV of the first CCM.M-K8 (2019)",
+            "-18.8",
+            "8.1"
+          ],
+          [
+            "KCRV of the second CCM.M-K8 (2021)",
+            "-15.2",
+            "7.4"
+          ]
+        ],
+        "calculated": "-7.2000",
+        "published": "-7.0",
+        "clamped": true,
+        "withheld": "-0.2000",
+        "assigned_u": "20",
+        "u_of_mean": "5.274"
+      },
+      {
+        "name": "CV2026",
+        "effective": "2026-03-01",
+        "window": [
+          [
+            "KCRV of the first CCM.M-K8 (2019)",
+            "-18.8",
+            "8.1"
+          ],
+          [
+            "KCRV of the second CCM.M-K8 (2021)",
+            "-15.2",
+            "7.4"
+          ],
+          [
+            "KCRV of the third CCM.M-K8 (2024)",
+            "-10.7",
+            "6.4"
+          ]
+        ],
+        "calculated": "-14.9000",
+        "published": "-12.0",
+        "clamped": true,
+        "withheld": "-2.9000",
+        "assigned_u": "20",
+        "u_of_mean": "4.234"
+      }
+    ],
+    "kcrvs": [
+      {
+        "comparison": "CCM.M-K8.2019",
+        "value": "-18.8"
+      },
+      {
+        "comparison": "CCM.M-K8.2021",
+        "value": "-15.2"
+      },
+      {
+        "comparison": "CCM.M-K8.2024",
+        "value": "-10.7"
+      }
+    ],
+    "kcrv_2024_recomputed": {
+      "value": "-10.7110",
+      "u": "6.4524",
+      "chi2_all": "5.456",
+      "chi2_inc": "5.299"
+    },
+    "unclamped": [
+      "-2.1333",
+      "-7.2000",
+      "-14.9000"
+    ],
+    "withheld_total": "-2.9000",
+    "u_of_mean": [
+      "5.992",
+      "5.274",
+      "4.234"
+    ]
+  },
+  "predictions": {
+    "P1": {
+      "claim": "The published headline consensus value equals the arithmetic mean of its window, rounded to the nearest microgram, at the 2021 and 2023 revisions -- and NOT at the 2026 revision.",
+      "verdict": "CONFIRMED",
+      "found": "headline equals rounded mean: ['CV2021=True', 'CV2023=True', 'CV2026=False']"
+    },
+    "P2": {
+      "claim": "The three 'calculated' means printed by the CCM (-2.1, -7.2, -14.9 ug) reproduce exactly from the three published windows.",
+      "verdict": "CONFIRMED",
+      "found": "CV2021: computed -2.1333 vs printed -2.1; CV2023: computed -7.2000 vs printed -7.2; CV2026: computed -14.9000 vs printed -14.9"
+    },
+    "P3": {
+      "claim": "Successive published headline values differ by exactly -5 ug at both steps: -2, -7, -12.",
+      "verdict": "CONFIRMED",
+      "found": "published steps = ['-5.0000', '-5.0000'] ug"
+    },
+    "P4": {
+      "claim": "The underlying calculated means are NOT an arithmetic progression -- the second step is larger in magnitude than the first. The straight line is in the published series only.",
+      "verdict": "CONFIRMED",
+      "found": "calculated steps = ['-5.0667', '-7.7000'] ug -- the published line is straight, the calculated one is not"
+    },
+    "P5": {
+      "claim": "Every KCRV in the series is higher (less negative) than the one before it, while the consensus value falls at every step. The two series run in opposite directions.",
+      "verdict": "CONFIRMED",
+      "found": "KCRV steps ['3.6', '4.5'] all rising; consensus steps ['-5.07', '-7.70'] all falling"
+    },
+    "P6": {
+      "claim": "The whole of the fall is the exchange at the edge of the window: the change in the mean equals (value entering - value leaving)/3, exactly, at both steps.",
+      "verdict": "CONFIRMED",
+      "found": "the change in the mean is exactly the edge exchange divided by three, at both steps"
+    },
+    "P7": {
+      "claim": "At both steps so far, the value leaving the window is a pre-comparison legacy input -- the artefact itself in 2023, the 2016 pilot study in 2026 -- and never a KCRV.",
+      "verdict": "CONFIRMED",
+      "found": "CV2021->CV2023: International Prototype Kilogram (2014) left; CV2023->CV2026: Pilot Study Reference Value (2016) left"
+    },
+    "P8": {
+      "claim": "The K8.2024 KCRV reproduces as the inverse-variance-weighted mean of the nine included participants, within 0.1 ug of the published -10.7 ug, and its uncertainty within 0.1 ug of the published 6.4 ug.",
+      "verdict": "CONFIRMED",
+      "found": "computed -10.7110 +/- 6.4524 vs published -10.7 +/- 6.4"
+    },
+    "P9": {
+      "claim": "The published chi-squared of 5.5 reproduces within 0.3 from the same table, summing over all ten participants with deviations taken from the KCRV. (Least confident of these; the report's eq. 9 sums i=1..10 for 9 degrees of freedom and I am not certain which ten.)",
+      "verdict": "CONFIRMED",
+      "found": "all-ten 5.456, nine-included 5.299, published 5.5"
+    },
+    "P10": {
+      "claim": "sqrt(sum of squared input uncertainties)/3 equals the 6.0 ug the 2020 report prints for the arithmetic mean -- confirming the formula -- and then FALLS at each later revision while the assigned uncertainty stays at exactly 20 ug.",
+      "verdict": "CONFIRMED",
+      "found": "u(mean) = ['5.992', '5.274', '4.234']; assigned uncertainty constant at 20 ug throughout"
+    },
+    "P11": {
+      "claim": "Phase-3 exit criterion (d) -- |consensus value - most recent KCRV| < 5 ug -- is satisfied at the 2026 revision, on both the clamped and the unclamped value.",
+      "verdict": "CONFIRMED",
+      "found": "clamped 1.300 ug, calculated 4.200 ug, threshold 5 ug"
+    },
+    "P12": {
+      "claim": "The clamp is not a one-off: rerunning the rule from the start with the limit switched OFF gives a different value today, and the difference is exactly the amount withheld in 2026.",
+      "verdict": "CONFIRMED",
+      "found": "total withheld -2.9000 ug; 2026 clamp alone -2.9000 ug"
+    }
+  }
+}
