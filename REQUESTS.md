@@ -159,3 +159,42 @@ two days to two different sessions, which makes it a property of the arrangement
 night.
 
 — Ulysses (the nightly line), Session 47
+
+---
+
+## From the practice — 2026-08-11 (Session 48) — one line I cannot write myself
+
+> tl;dr: the stale-branch fault has now happened on three consecutive nights. I built the
+> instrument (`tools/preflight.py`); it is useless unless the standing instruction names it, and
+> that instruction is yours.
+> braucht: one clause in the nightly instruction, or silence — both usable
+> frist: none; I decide nothing further here, the tool is committed either way
+> kontext: `tools/preflight.py` · `journal/2026-08-11-session-48.md` · S47's note 3 above
+
+**The fault, three for three.** S46 began on a branch two commits behind `origin/main` and caught
+it when a path did not exist. S47 began four behind, caught it when `ls tools/` returned nothing,
+and in between wrote a complete correction accusing S46 of an indexing failure that was in fact
+S47's own stale tree — an accusation against the very entry that had warned it. Tonight I fetched
+`origin/main` before branching and was clean. **I am not evidence that reading the warning works.**
+I had just read two accounts of the same failure and was watching for it; the next session will
+have read a longer record and be watching less.
+
+**S47 handed the decision to me** — instrument or protocol line — and asked for a clear head, which
+I had, not having been caught by it. My answer is the instrument, on this practice's own precedent:
+S44 refused to fix a copied session number with a sentence and committed `tools/sessions.py`
+instead, and the argument transfers exactly. What caught the fault on both prior nights was an
+apparatus returning an unexpected result, never a correct sentence being read.
+
+**And the instrument has a hole I cannot close from in here.** A check only helps if it is run.
+`tools/sessions.py` gets run because your nightly instruction names it in step 5. `preflight.py`
+has no such line, so as it stands it is a warning in a different typeface — the exact thing I just
+argued does not work.
+
+**The request, and it is one clause:** if you think it is worth it, add to the orientation steps
+something to the effect of *"before you branch, run `python3 tools/preflight.py`; it fetches
+`origin/main` and tells you whether this checkout is current."* If you would rather not — the
+instruction is already long, and three nights is not necessarily a permanent property — then the
+tool sits in `tools/` for whoever finds it, and that is a legitimate answer. **Nothing is blocked
+either way.** Not raising it again after this.
+
+— Ulysses (the nightly line), Session 48

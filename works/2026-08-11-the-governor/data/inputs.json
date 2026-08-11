@@ -1,0 +1,116 @@
+{
+  "_what": "Every number in this file is transcribed from a published BIPM or NIST document. Nothing here is computed by this practice; the computing is done by governor.py, which reads only this file. Each block carries the address it was read from and the date it was read.",
+  "_read": "2026-08-11",
+  "_units": "All masses in micrograms (ug), expressed as an offset from 1 kg. '0' means 'exactly 1 kg'.",
+
+  "consensus_values": {
+    "_source_2021": "CCM-TGPfD-kg, 'Calculation of the Consensus Value for the Kilogram 2020'. https://www.bipm.org/documents/20126/49759984/Calculation+of+the+consensus+value+2020/99498411-54a2-ddfd-5054-4d7beb1ae45f",
+    "_source_2023": "CCM-TGPfD-kg, 'Calculation of the Consensus Value for the Kilogram 2023', February 2023. https://www.bipm.org/documents/20126/81075702/Calculation+of+the+Consensus+Value+2023/f04cb7b4-c548-700b-9dd3-7c55bde4865b",
+    "_source_2026": "CCM-TGPfD-kg, 'Calculation of the Consensus Value for the Kilogram 2026', February 2026. https://www.bipm.org/documents/20126/286252479/Calculation+of+the+Consensus+Value+2026/c8f356c3-d209-e847-4177-15ec5a1b53bc",
+
+    "revisions": [
+      {
+        "name": "CV2021",
+        "calculated": "2020",
+        "effective": "2021-02-01",
+        "window": [
+          {"label": "International Prototype Kilogram (2014)", "value_ug": 0,     "u_ug": 11.7},
+          {"label": "Pilot Study Reference Value (2016)",      "value_ug": 12.4, "u_ug": 11.4},
+          {"label": "KCRV of the first CCM.M-K8 (2019)",       "value_ug": -18.8, "u_ug": 7.5}
+        ],
+        "published_calculated_mean_ug": -2.1,
+        "published_assigned_u_ug": 20,
+        "published_headline_ug": -2,
+        "_note_u_of_first_kcrv": "This document prints u = 7.5 ug for the 2019 KCRV. The 2023 and 2026 documents print 8.1 ug for the same KCRV. See governor.py, OBSERVATION O1."
+      },
+      {
+        "name": "CV2023",
+        "calculated": "2023",
+        "effective": "2023-03-01",
+        "window": [
+          {"label": "Pilot Study Reference Value (2016)",      "value_ug": 12.4,  "u_ug": 11.4},
+          {"label": "KCRV of the first CCM.M-K8 (2019)",       "value_ug": -18.8, "u_ug": 8.1},
+          {"label": "KCRV of the second CCM.M-K8 (2021)",      "value_ug": -15.2, "u_ug": 7.4}
+        ],
+        "published_calculated_mean_ug": -7.2,
+        "published_assigned_u_ug": 20,
+        "published_headline_ug": -7
+      },
+      {
+        "name": "CV2026",
+        "calculated": "2026",
+        "effective": "2026-03-01",
+        "window": [
+          {"label": "KCRV of the first CCM.M-K8 (2019)",       "value_ug": -18.8, "u_ug": 8.1},
+          {"label": "KCRV of the second CCM.M-K8 (2021)",      "value_ug": -15.2, "u_ug": 7.4},
+          {"label": "KCRV of the third CCM.M-K8 (2024)",       "value_ug": -10.7, "u_ug": 6.4}
+        ],
+        "published_calculated_mean_ug": -14.9,
+        "published_assigned_u_ug": 20,
+        "published_headline_ug": -12,
+        "_note_clamp": "This is the only revision at which the published headline differs from the calculated mean. The document states the methodology would give 1 kg - 15 ug, a change of -8 ug, and that the change was limited to -5 ug."
+      }
+    ]
+  },
+
+  "the_rule": {
+    "_source": "CCM, 'CCM detailed note on the dissemination process after the redefinition of the kilogram', approved at the 17th CCM meeting, 16-17 May 2019. https://www.bipm.org/documents/20126/41489673/CCM_Note-on-dissemination-after-redefinition.pdf/3743d0d0-d8cc-325c-3219-547a6ea47a47",
+    "quote_window": "On completion of subsequent Key Comparisons, expected to be organized every two years, the value of the consensus value will be calculated as the non-weighted mean from the three most recent data sets, thus reducing temporal changes in the consensus value.",
+    "quote_limit": "It is envisaged that the process by which the Consensus Value evolves will mean changes in the value are small. However, to ensure the continuity of the mass scale, changes in the Consensus Value between consecutive Key Comparisons will be reviewed and, if necessary, limited to +/- 5 parts in 10^9.",
+    "limit_ug": 5.0,
+    "window_size": 3,
+    "weighting": "arithmetic (non-weighted) mean"
+  },
+
+  "prior_uncertainty_of_the_artefact": {
+    "_source": "BIPM, SI Brochure 9th edition, Appendix 2 (mise en pratique for the definition of the kilogram), 07 July 2021. https://www.bipm.org/documents/20126/41489673/SI-App2-kilogram.pdf/5881b6b5-668d-5d2b-f12a-0ef8ca437176",
+    "quote": "The relative uncertainty of h recommended by the Task Group was assigned to the international prototype of the kilogram just after fixing the numerical value of h. As a consequence the 26th CGPM confirmed in its Resolution 1 that, just after the redefinition, the mass of the IPK was still 1 kg, but within an uncertainty of 1.0 x 10^-8.",
+    "series_ug": [
+      {"from": "1889-09-26", "u_ug": 0.0,  "basis": "definition: the IPK WAS the kilogram, so its mass had no uncertainty"},
+      {"from": "2019-05-20", "u_ug": 10.0, "basis": "stipulated: the relative uncertainty of h at the moment h was fixed, assigned to the artefact"},
+      {"from": "2021-02-01", "u_ug": 20.0, "basis": "agreed by the CCM-TGPfD-kg alongside the first consensus value"},
+      {"from": "2023-03-01", "u_ug": 20.0, "basis": "unchanged"},
+      {"from": "2026-03-01", "u_ug": 20.0, "basis": "unchanged"}
+    ]
+  },
+
+  "kcrv_2024_participants": {
+    "_source": "M. Stock et al., 'CCM.M-K8.2024 Key comparison of kilogram realizations - Final report', 8 December 2025, Table 6. doi:10.59161/QOFV3225 . https://www.bipm.org/documents/d/guest/ccm-m-k8-2024",
+    "_units": "Table 6 is printed in mg; transcribed here in ug (x1000). Values are the difference between the mass attributed to a 1 kg standard by the participant's realization experiment and by the BIPM working standards.",
+    "_kcrv_rule": "M. Stock et al., section 6.3: the KCRV is the inverse-variance-weighted mean of the participants' delta-m. 'Following the rules in [29], the result of CMS/ITRI is not included in the calculation because Chinese Taipei is not a member of the BIPM, but an Associate of the CGPM.'",
+    "published_kcrv_ug": -10.7,
+    "published_kcrv_u_ug": 6.4,
+    "published_chi_squared": 5.5,
+    "published_chi_squared_dof": 9,
+    "published_chi_squared_95_cutoff": 16.9,
+    "published_chi_squared_conservative_cutoff": 13.2,
+    "participants": [
+      {"institute": "BIPM",     "method": "Kibble balance", "dm_ug": -17.8, "u_ug": 36.1, "in_kcrv": true},
+      {"institute": "CMS/ITRI", "method": "XRCD",           "dm_ug":   4.0, "u_ug": 37.1, "in_kcrv": false},
+      {"institute": "LNE",      "method": "Kibble balance", "dm_ug":  -0.8, "u_ug": 36.8, "in_kcrv": true},
+      {"institute": "METAS",    "method": "Kibble balance", "dm_ug": -51.1, "u_ug": 54.1, "in_kcrv": true},
+      {"institute": "NIM",      "method": "Joule balance",  "dm_ug": -32.2, "u_ug": 29.3, "in_kcrv": true},
+      {"institute": "NIST",     "method": "Kibble balance", "dm_ug": -15.0, "u_ug": 13.5, "in_kcrv": true},
+      {"institute": "NMIJ",     "method": "XRCD",           "dm_ug": -21.5, "u_ug": 21.0, "in_kcrv": true},
+      {"institute": "NRC",      "method": "Kibble balance", "dm_ug":   9.5, "u_ug": 11.8, "in_kcrv": true},
+      {"institute": "PTB",      "method": "XRCD",           "dm_ug": -18.5, "u_ug": 13.7, "in_kcrv": true},
+      {"institute": "UME",      "method": "Kibble balance", "dm_ug": -35.9, "u_ug": 36.7, "in_kcrv": true}
+    ]
+  },
+
+  "the_two_best_experiments": {
+    "_source_2019_2021": "S. Davidson, 'Report of the CCM Working Group on Mass (inc. CCM-TGPfD-kg)', 20th CCM meeting, 26-27 June 2025. https://www.bipm.org/documents/20126/275177277/CCM-25_06-7_WGM_TGPfD-Kg-Report/44896737-0dae-2711-fe32-3493e211c763",
+    "_source_2024": "M. Stock et al., CCM.M-K8.2024 final report: 'The difference between the results of NRC and PTB is significantly reduced, compared to the last comparison. In CCM.M-K8.2021 the difference was 0.050 mg with a combined uncertainty of 0.018 mg. In the present comparison the difference is 0.028 mg with a combined uncertainty of 0.018 mg.'",
+    "nrc_minus_ptb_ug": [
+      {"comparison": "CCM.M-K8.2019", "participants": 7,  "value_ug": 36.4},
+      {"comparison": "CCM.M-K8.2021", "participants": 9,  "value_ug": 50.1, "combined_u_ug": 18},
+      {"comparison": "CCM.M-K8.2024", "participants": 10, "value_ug": 28.0, "combined_u_ug": 18}
+    ]
+  },
+
+  "phase_3_exit_criterion_d": {
+    "_source": "CCM detailed note on the dissemination process, section 4.3.1(d).",
+    "quote": "The difference between the Consensus Value for the kilogram (determined from three last 3 Key Comparison results) and the KCRV for the final Key Comparison is less than 5 parts in 10^9.",
+    "threshold_ug": 5.0
+  }
+}
