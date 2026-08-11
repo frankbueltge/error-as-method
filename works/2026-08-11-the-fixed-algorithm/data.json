@@ -1,0 +1,3130 @@
+{
+ "work": "The Fixed Algorithm",
+ "date": "2026-08-11",
+ "session": 46,
+ "author": "Ulysses",
+ "sources": {
+  "reg_1103_97": "https://eur-lex.europa.eu/eli/reg/1997/1103/oj/eng",
+  "reg_2866_98": "https://eur-lex.europa.eu/eli/reg/1998/2866/oj/eng",
+  "ieee754_2019": "https://doi.org/10.1109/IEEESTD.2019.8766229",
+  "python_decimal": "https://docs.python.org/3/library/decimal.html"
+ },
+ "note_on_granularity": "Art. 5 fixes the euro side at the cent and DELEGATES the national side to 'national law or practice'. MINOR_DECIMALS in this script is the author's modelling choice, not a claim about any national law.",
+ "m1_inverse_ban": [
+  {
+   "code": "BEF",
+   "name": "Belgian francs",
+   "rate": "40.3399",
+   "minor_decimals": 2,
+   "inverse_six_sig": "0.0247894",
+   "rate_gap_six_sig": "4.752268e-08",
+   "first_divergence_six_sig_minor_units": 3086,
+   "first_divergence_six_sig_currency_units": "30.86",
+   "systematic_from_minor_units": 10521294,
+   "systematic_from_currency_units": "105212.94",
+   "first_divergence_float64_minor_units": null,
+   "scan_minor_units": 200000,
+   "magnitude_windows": [
+    {
+     "from_minor_units": 100,
+     "window": 4000,
+     "six_sig_divergent": 1,
+     "six_sig_rate": 0.00025,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 1000,
+     "window": 4000,
+     "six_sig_divergent": 1,
+     "six_sig_rate": 0.00025,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 10000,
+     "window": 4000,
+     "six_sig_divergent": 3,
+     "six_sig_rate": 0.00075,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 100000,
+     "window": 4000,
+     "six_sig_divergent": 19,
+     "six_sig_rate": 0.00475,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 1000000,
+     "window": 4000,
+     "six_sig_divergent": 193,
+     "six_sig_rate": 0.04825,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 10000000,
+     "window": 4000,
+     "six_sig_divergent": 1898,
+     "six_sig_rate": 0.4745,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 100000000,
+     "window": 4000,
+     "six_sig_divergent": 4000,
+     "six_sig_rate": 1.0,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    }
+   ]
+  },
+  {
+   "code": "DEM",
+   "name": "German marks",
+   "rate": "1.95583",
+   "minor_decimals": 2,
+   "inverse_six_sig": "0.511292",
+   "rate_gap_six_sig": "1.188038e-07",
+   "first_divergence_six_sig_minor_units": 3011,
+   "first_divergence_six_sig_currency_units": "30.11",
+   "systematic_from_minor_units": 4208621,
+   "systematic_from_currency_units": "42086.21",
+   "first_divergence_float64_minor_units": null,
+   "scan_minor_units": 200000,
+   "magnitude_windows": [
+    {
+     "from_minor_units": 100,
+     "window": 4000,
+     "six_sig_divergent": 1,
+     "six_sig_rate": 0.00025,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 1000,
+     "window": 4000,
+     "six_sig_divergent": 2,
+     "six_sig_rate": 0.0005,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 10000,
+     "window": 4000,
+     "six_sig_divergent": 7,
+     "six_sig_rate": 0.00175,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 100000,
+     "window": 4000,
+     "six_sig_divergent": 48,
+     "six_sig_rate": 0.012,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 1000000,
+     "window": 4000,
+     "six_sig_divergent": 478,
+     "six_sig_rate": 0.1195,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 10000000,
+     "window": 4000,
+     "six_sig_divergent": 4000,
+     "six_sig_rate": 1.0,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 100000000,
+     "window": 4000,
+     "six_sig_divergent": 4000,
+     "six_sig_rate": 1.0,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    }
+   ]
+  },
+  {
+   "code": "ESP",
+   "name": "Spanish pesetas",
+   "rate": "166.386",
+   "minor_decimals": 0,
+   "inverse_six_sig": "0.00601012",
+   "rate_gap_six_sig": "1.043838e-09",
+   "first_divergence_six_sig_minor_units": 5237,
+   "first_divergence_six_sig_currency_units": "5237",
+   "systematic_from_minor_units": 4790017,
+   "systematic_from_currency_units": "4790017",
+   "first_divergence_float64_minor_units": null,
+   "scan_minor_units": 200000,
+   "magnitude_windows": [
+    {
+     "from_minor_units": 100,
+     "window": 4000,
+     "six_sig_divergent": 0,
+     "six_sig_rate": 0.0,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 1000,
+     "window": 4000,
+     "six_sig_divergent": 0,
+     "six_sig_rate": 0.0,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 10000,
+     "window": 4000,
+     "six_sig_divergent": 6,
+     "six_sig_rate": 0.0015,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 100000,
+     "window": 4000,
+     "six_sig_divergent": 43,
+     "six_sig_rate": 0.01075,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 1000000,
+     "window": 4000,
+     "six_sig_divergent": 420,
+     "six_sig_rate": 0.105,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 10000000,
+     "window": 4000,
+     "six_sig_divergent": 4000,
+     "six_sig_rate": 1.0,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 100000000,
+     "window": 4000,
+     "six_sig_divergent": 4000,
+     "six_sig_rate": 1.0,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    }
+   ]
+  },
+  {
+   "code": "FRF",
+   "name": "French francs",
+   "rate": "6.55957",
+   "minor_decimals": 2,
+   "inverse_six_sig": "0.152449",
+   "rate_gap_six_sig": "1.723741e-08",
+   "first_divergence_six_sig_minor_units": 9167,
+   "first_divergence_six_sig_currency_units": "91.67",
+   "systematic_from_minor_units": 29006678,
+   "systematic_from_currency_units": "290066.78",
+   "first_divergence_float64_minor_units": null,
+   "scan_minor_units": 200000,
+   "magnitude_windows": [
+    {
+     "from_minor_units": 100,
+     "window": 4000,
+     "six_sig_divergent": 0,
+     "six_sig_rate": 0.0,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 1000,
+     "window": 4000,
+     "six_sig_divergent": 0,
+     "six_sig_rate": 0.0,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 10000,
+     "window": 4000,
+     "six_sig_divergent": 1,
+     "six_sig_rate": 0.00025,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 100000,
+     "window": 4000,
+     "six_sig_divergent": 7,
+     "six_sig_rate": 0.00175,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 1000000,
+     "window": 4000,
+     "six_sig_divergent": 68,
+     "six_sig_rate": 0.017,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 10000000,
+     "window": 4000,
+     "six_sig_divergent": 689,
+     "six_sig_rate": 0.17225,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 100000000,
+     "window": 4000,
+     "six_sig_divergent": 4000,
+     "six_sig_rate": 1.0,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    }
+   ]
+  },
+  {
+   "code": "IEP",
+   "name": "Irish pounds",
+   "rate": "0.787564",
+   "minor_decimals": 2,
+   "inverse_six_sig": "1.26974",
+   "rate_gap_six_sig": "1.921571e-06",
+   "first_divergence_six_sig_minor_units": 2115,
+   "first_divergence_six_sig_currency_units": "21.15",
+   "systematic_from_minor_units": 260204,
+   "systematic_from_currency_units": "2602.04",
+   "first_divergence_float64_minor_units": null,
+   "scan_minor_units": 200000,
+   "magnitude_windows": [
+    {
+     "from_minor_units": 100,
+     "window": 4000,
+     "six_sig_divergent": 14,
+     "six_sig_rate": 0.0035,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 1000,
+     "window": 4000,
+     "six_sig_divergent": 24,
+     "six_sig_rate": 0.006,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 10000,
+     "window": 4000,
+     "six_sig_divergent": 90,
+     "six_sig_rate": 0.0225,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 100000,
+     "window": 4000,
+     "six_sig_divergent": 784,
+     "six_sig_rate": 0.196,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 1000000,
+     "window": 4000,
+     "six_sig_divergent": 4000,
+     "six_sig_rate": 1.0,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 10000000,
+     "window": 4000,
+     "six_sig_divergent": 4000,
+     "six_sig_rate": 1.0,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 100000000,
+     "window": 4000,
+     "six_sig_divergent": 4000,
+     "six_sig_rate": 1.0,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    }
+   ]
+  },
+  {
+   "code": "ITL",
+   "name": "Italian lire",
+   "rate": "1936.27",
+   "minor_decimals": 0,
+   "inverse_six_sig": "0.000516457",
+   "rate_gap_six_sig": "1.009105e-10",
+   "first_divergence_six_sig_minor_units": 10330,
+   "first_divergence_six_sig_currency_units": "10330",
+   "systematic_from_minor_units": 49548852,
+   "systematic_from_currency_units": "49548852",
+   "first_divergence_float64_minor_units": null,
+   "scan_minor_units": 200000,
+   "magnitude_windows": [
+    {
+     "from_minor_units": 100,
+     "window": 4000,
+     "six_sig_divergent": 0,
+     "six_sig_rate": 0.0,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 1000,
+     "window": 4000,
+     "six_sig_divergent": 0,
+     "six_sig_rate": 0.0,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 10000,
+     "window": 4000,
+     "six_sig_divergent": 1,
+     "six_sig_rate": 0.00025,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 100000,
+     "window": 4000,
+     "six_sig_divergent": 5,
+     "six_sig_rate": 0.00125,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 1000000,
+     "window": 4000,
+     "six_sig_divergent": 41,
+     "six_sig_rate": 0.01025,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 10000000,
+     "window": 4000,
+     "six_sig_divergent": 402,
+     "six_sig_rate": 0.1005,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 100000000,
+     "window": 4000,
+     "six_sig_divergent": 4000,
+     "six_sig_rate": 1.0,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    }
+   ]
+  },
+  {
+   "code": "LUF",
+   "name": "Luxembourg francs",
+   "rate": "40.3399",
+   "minor_decimals": 2,
+   "inverse_six_sig": "0.0247894",
+   "rate_gap_six_sig": "4.752268e-08",
+   "first_divergence_six_sig_minor_units": 3086,
+   "first_divergence_six_sig_currency_units": "30.86",
+   "systematic_from_minor_units": 10521294,
+   "systematic_from_currency_units": "105212.94",
+   "first_divergence_float64_minor_units": null,
+   "scan_minor_units": 200000,
+   "magnitude_windows": [
+    {
+     "from_minor_units": 100,
+     "window": 4000,
+     "six_sig_divergent": 1,
+     "six_sig_rate": 0.00025,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 1000,
+     "window": 4000,
+     "six_sig_divergent": 1,
+     "six_sig_rate": 0.00025,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 10000,
+     "window": 4000,
+     "six_sig_divergent": 3,
+     "six_sig_rate": 0.00075,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 100000,
+     "window": 4000,
+     "six_sig_divergent": 19,
+     "six_sig_rate": 0.00475,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 1000000,
+     "window": 4000,
+     "six_sig_divergent": 193,
+     "six_sig_rate": 0.04825,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 10000000,
+     "window": 4000,
+     "six_sig_divergent": 1898,
+     "six_sig_rate": 0.4745,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 100000000,
+     "window": 4000,
+     "six_sig_divergent": 4000,
+     "six_sig_rate": 1.0,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    }
+   ]
+  },
+  {
+   "code": "NLG",
+   "name": "Dutch guilders",
+   "rate": "2.20371",
+   "minor_decimals": 2,
+   "inverse_six_sig": "0.453780",
+   "rate_gap_six_sig": "2.160901e-07",
+   "first_divergence_six_sig_minor_units": 2791,
+   "first_divergence_six_sig_currency_units": "27.91",
+   "systematic_from_minor_units": 2313850,
+   "systematic_from_currency_units": "23138.50",
+   "first_divergence_float64_minor_units": null,
+   "scan_minor_units": 200000,
+   "magnitude_windows": [
+    {
+     "from_minor_units": 100,
+     "window": 4000,
+     "six_sig_divergent": 4,
+     "six_sig_rate": 0.001,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 1000,
+     "window": 4000,
+     "six_sig_divergent": 4,
+     "six_sig_rate": 0.001,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 10000,
+     "window": 4000,
+     "six_sig_divergent": 1,
+     "six_sig_rate": 0.00025,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 100000,
+     "window": 4000,
+     "six_sig_divergent": 82,
+     "six_sig_rate": 0.0205,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 1000000,
+     "window": 4000,
+     "six_sig_divergent": 862,
+     "six_sig_rate": 0.2155,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 10000000,
+     "window": 4000,
+     "six_sig_divergent": 4000,
+     "six_sig_rate": 1.0,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 100000000,
+     "window": 4000,
+     "six_sig_divergent": 4000,
+     "six_sig_rate": 1.0,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    }
+   ]
+  },
+  {
+   "code": "ATS",
+   "name": "Austrian schillings",
+   "rate": "13.7603",
+   "minor_decimals": 2,
+   "inverse_six_sig": "0.0726728",
+   "rate_gap_six_sig": "3.416786e-08",
+   "first_divergence_six_sig_minor_units": 10850,
+   "first_divergence_six_sig_currency_units": "108.50",
+   "systematic_from_minor_units": 14633636,
+   "systematic_from_currency_units": "146336.36",
+   "first_divergence_float64_minor_units": null,
+   "scan_minor_units": 200000,
+   "magnitude_windows": [
+    {
+     "from_minor_units": 100,
+     "window": 4000,
+     "six_sig_divergent": 0,
+     "six_sig_rate": 0.0,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 1000,
+     "window": 4000,
+     "six_sig_divergent": 0,
+     "six_sig_rate": 0.0,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 10000,
+     "window": 4000,
+     "six_sig_divergent": 1,
+     "six_sig_rate": 0.00025,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 100000,
+     "window": 4000,
+     "six_sig_divergent": 14,
+     "six_sig_rate": 0.0035,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 1000000,
+     "window": 4000,
+     "six_sig_divergent": 136,
+     "six_sig_rate": 0.034,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 10000000,
+     "window": 4000,
+     "six_sig_divergent": 1369,
+     "six_sig_rate": 0.34225,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 100000000,
+     "window": 4000,
+     "six_sig_divergent": 4000,
+     "six_sig_rate": 1.0,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    }
+   ]
+  },
+  {
+   "code": "PTE",
+   "name": "Portuguese escudos",
+   "rate": "200.482",
+   "minor_decimals": 0,
+   "inverse_six_sig": "0.00498798",
+   "rate_gap_six_sig": "1.029319e-09",
+   "first_divergence_six_sig_minor_units": 7487,
+   "first_divergence_six_sig_currency_units": "7487",
+   "systematic_from_minor_units": 4857579,
+   "systematic_from_currency_units": "4857579",
+   "first_divergence_float64_minor_units": null,
+   "scan_minor_units": 200000,
+   "magnitude_windows": [
+    {
+     "from_minor_units": 100,
+     "window": 4000,
+     "six_sig_divergent": 0,
+     "six_sig_rate": 0.0,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 1000,
+     "window": 4000,
+     "six_sig_divergent": 0,
+     "six_sig_rate": 0.0,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 10000,
+     "window": 4000,
+     "six_sig_divergent": 5,
+     "six_sig_rate": 0.00125,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 100000,
+     "window": 4000,
+     "six_sig_divergent": 45,
+     "six_sig_rate": 0.01125,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 1000000,
+     "window": 4000,
+     "six_sig_divergent": 384,
+     "six_sig_rate": 0.096,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 10000000,
+     "window": 4000,
+     "six_sig_divergent": 4000,
+     "six_sig_rate": 1.0,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 100000000,
+     "window": 4000,
+     "six_sig_divergent": 4000,
+     "six_sig_rate": 1.0,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    }
+   ]
+  },
+  {
+   "code": "FIM",
+   "name": "Finnish marks",
+   "rate": "5.94573",
+   "minor_decimals": 2,
+   "inverse_six_sig": "0.168188",
+   "rate_gap_six_sig": "7.353849e-08",
+   "first_divergence_six_sig_minor_units": 2958,
+   "first_divergence_six_sig_currency_units": "29.58",
+   "systematic_from_minor_units": 6799161,
+   "systematic_from_currency_units": "67991.61",
+   "first_divergence_float64_minor_units": null,
+   "scan_minor_units": 200000,
+   "magnitude_windows": [
+    {
+     "from_minor_units": 100,
+     "window": 4000,
+     "six_sig_divergent": 1,
+     "six_sig_rate": 0.00025,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 1000,
+     "window": 4000,
+     "six_sig_divergent": 1,
+     "six_sig_rate": 0.00025,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 10000,
+     "window": 4000,
+     "six_sig_divergent": 2,
+     "six_sig_rate": 0.0005,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 100000,
+     "window": 4000,
+     "six_sig_divergent": 32,
+     "six_sig_rate": 0.008,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 1000000,
+     "window": 4000,
+     "six_sig_divergent": 298,
+     "six_sig_rate": 0.0745,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 10000000,
+     "window": 4000,
+     "six_sig_divergent": 2947,
+     "six_sig_rate": 0.73675,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    },
+    {
+     "from_minor_units": 100000000,
+     "window": 4000,
+     "six_sig_divergent": 4000,
+     "six_sig_rate": 1.0,
+     "float64_divergent": 0,
+     "float64_rate": 0.0
+    }
+   ]
+  }
+ ],
+ "m2_permitted_set": {
+  "pairs": [
+   {
+    "from": "BEF",
+    "to": "DEM",
+    "first_divergence_minor_units": 51,
+    "first_divergence_currency_units": "0.51",
+    "divergent_amounts_in_scan": 204,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "BEF",
+    "to": "ESP",
+    "first_divergence_minor_units": 13,
+    "first_divergence_currency_units": "0.13",
+    "divergent_amounts_in_scan": 166,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "BEF",
+    "to": "FRF",
+    "first_divergence_minor_units": 3,
+    "first_divergence_currency_units": "0.03",
+    "divergent_amounts_in_scan": 692,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "BEF",
+    "to": "IEP",
+    "first_divergence_minor_units": 26,
+    "first_divergence_currency_units": "0.26",
+    "divergent_amounts_in_scan": 83,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "BEF",
+    "to": "ITL",
+    "first_divergence_minor_units": 2,
+    "first_divergence_currency_units": "0.02",
+    "divergent_amounts_in_scan": 2035,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "BEF",
+    "to": "NLG",
+    "first_divergence_minor_units": 10,
+    "first_divergence_currency_units": "0.10",
+    "divergent_amounts_in_scan": 242,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "BEF",
+    "to": "ATS",
+    "first_divergence_minor_units": 2,
+    "first_divergence_currency_units": "0.02",
+    "divergent_amounts_in_scan": 1459,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "BEF",
+    "to": "PTE",
+    "first_divergence_minor_units": 10,
+    "first_divergence_currency_units": "0.10",
+    "divergent_amounts_in_scan": 212,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "BEF",
+    "to": "FIM",
+    "first_divergence_minor_units": 3,
+    "first_divergence_currency_units": "0.03",
+    "divergent_amounts_in_scan": 627,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "DEM",
+    "to": "BEF",
+    "first_divergence_minor_units": 1,
+    "first_divergence_currency_units": "0.01",
+    "divergent_amounts_in_scan": 3097,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 3
+   },
+   {
+    "from": "DEM",
+    "to": "ESP",
+    "first_divergence_minor_units": 3,
+    "first_divergence_currency_units": "0.03",
+    "divergent_amounts_in_scan": 173,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "DEM",
+    "to": "FRF",
+    "first_divergence_minor_units": 7,
+    "first_divergence_currency_units": "0.07",
+    "divergent_amounts_in_scan": 690,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "DEM",
+    "to": "IEP",
+    "first_divergence_minor_units": 31,
+    "first_divergence_currency_units": "0.31",
+    "divergent_amounts_in_scan": 78,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "DEM",
+    "to": "ITL",
+    "first_divergence_minor_units": 2,
+    "first_divergence_currency_units": "0.02",
+    "divergent_amounts_in_scan": 2041,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "DEM",
+    "to": "LUF",
+    "first_divergence_minor_units": 1,
+    "first_divergence_currency_units": "0.01",
+    "divergent_amounts_in_scan": 3097,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 3
+   },
+   {
+    "from": "DEM",
+    "to": "NLG",
+    "first_divergence_minor_units": 4,
+    "first_divergence_currency_units": "0.04",
+    "divergent_amounts_in_scan": 257,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "DEM",
+    "to": "ATS",
+    "first_divergence_minor_units": 5,
+    "first_divergence_currency_units": "0.05",
+    "divergent_amounts_in_scan": 1450,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "DEM",
+    "to": "PTE",
+    "first_divergence_minor_units": 20,
+    "first_divergence_currency_units": "0.20",
+    "divergent_amounts_in_scan": 200,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "DEM",
+    "to": "FIM",
+    "first_divergence_minor_units": 12,
+    "first_divergence_currency_units": "0.12",
+    "divergent_amounts_in_scan": 616,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "ESP",
+    "to": "BEF",
+    "first_divergence_minor_units": 6,
+    "first_divergence_currency_units": "6",
+    "divergent_amounts_in_scan": 3094,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 3
+   },
+   {
+    "from": "ESP",
+    "to": "DEM",
+    "first_divergence_minor_units": 20,
+    "first_divergence_currency_units": "20",
+    "divergent_amounts_in_scan": 204,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "ESP",
+    "to": "FRF",
+    "first_divergence_minor_units": 8,
+    "first_divergence_currency_units": "8",
+    "divergent_amounts_in_scan": 689,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "ESP",
+    "to": "IEP",
+    "first_divergence_minor_units": 37,
+    "first_divergence_currency_units": "37",
+    "divergent_amounts_in_scan": 83,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "ESP",
+    "to": "ITL",
+    "first_divergence_minor_units": 4,
+    "first_divergence_currency_units": "4",
+    "divergent_amounts_in_scan": 2034,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "ESP",
+    "to": "LUF",
+    "first_divergence_minor_units": 6,
+    "first_divergence_currency_units": "6",
+    "divergent_amounts_in_scan": 3094,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 3
+   },
+   {
+    "from": "ESP",
+    "to": "NLG",
+    "first_divergence_minor_units": 17,
+    "first_divergence_currency_units": "17",
+    "divergent_amounts_in_scan": 225,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "ESP",
+    "to": "ATS",
+    "first_divergence_minor_units": 13,
+    "first_divergence_currency_units": "13",
+    "divergent_amounts_in_scan": 1442,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "ESP",
+    "to": "PTE",
+    "first_divergence_minor_units": 22,
+    "first_divergence_currency_units": "22",
+    "divergent_amounts_in_scan": 212,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "ESP",
+    "to": "FIM",
+    "first_divergence_minor_units": 22,
+    "first_divergence_currency_units": "22",
+    "divergent_amounts_in_scan": 626,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "FRF",
+    "to": "BEF",
+    "first_divergence_minor_units": 1,
+    "first_divergence_currency_units": "0.01",
+    "divergent_amounts_in_scan": 3097,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 3
+   },
+   {
+    "from": "FRF",
+    "to": "DEM",
+    "first_divergence_minor_units": 5,
+    "first_divergence_currency_units": "0.05",
+    "divergent_amounts_in_scan": 204,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "FRF",
+    "to": "ESP",
+    "first_divergence_minor_units": 2,
+    "first_divergence_currency_units": "0.02",
+    "divergent_amounts_in_scan": 180,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "FRF",
+    "to": "IEP",
+    "first_divergence_minor_units": 96,
+    "first_divergence_currency_units": "0.96",
+    "divergent_amounts_in_scan": 81,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "FRF",
+    "to": "ITL",
+    "first_divergence_minor_units": 1,
+    "first_divergence_currency_units": "0.01",
+    "divergent_amounts_in_scan": 2040,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "FRF",
+    "to": "LUF",
+    "first_divergence_minor_units": 1,
+    "first_divergence_currency_units": "0.01",
+    "divergent_amounts_in_scan": 3097,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 3
+   },
+   {
+    "from": "FRF",
+    "to": "NLG",
+    "first_divergence_minor_units": 43,
+    "first_divergence_currency_units": "0.43",
+    "divergent_amounts_in_scan": 231,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "FRF",
+    "to": "ATS",
+    "first_divergence_minor_units": 1,
+    "first_divergence_currency_units": "0.01",
+    "divergent_amounts_in_scan": 1426,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "FRF",
+    "to": "PTE",
+    "first_divergence_minor_units": 18,
+    "first_divergence_currency_units": "0.18",
+    "divergent_amounts_in_scan": 211,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "FRF",
+    "to": "FIM",
+    "first_divergence_minor_units": 7,
+    "first_divergence_currency_units": "0.07",
+    "divergent_amounts_in_scan": 623,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "IEP",
+    "to": "BEF",
+    "first_divergence_minor_units": 1,
+    "first_divergence_currency_units": "0.01",
+    "divergent_amounts_in_scan": 3094,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 3
+   },
+   {
+    "from": "IEP",
+    "to": "DEM",
+    "first_divergence_minor_units": 1,
+    "first_divergence_currency_units": "0.01",
+    "divergent_amounts_in_scan": 209,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "IEP",
+    "to": "ESP",
+    "first_divergence_minor_units": 5,
+    "first_divergence_currency_units": "0.05",
+    "divergent_amounts_in_scan": 176,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "IEP",
+    "to": "FRF",
+    "first_divergence_minor_units": 1,
+    "first_divergence_currency_units": "0.01",
+    "divergent_amounts_in_scan": 759,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "IEP",
+    "to": "ITL",
+    "first_divergence_minor_units": 2,
+    "first_divergence_currency_units": "0.02",
+    "divergent_amounts_in_scan": 2037,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "IEP",
+    "to": "LUF",
+    "first_divergence_minor_units": 1,
+    "first_divergence_currency_units": "0.01",
+    "divergent_amounts_in_scan": 3094,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 3
+   },
+   {
+    "from": "IEP",
+    "to": "NLG",
+    "first_divergence_minor_units": 12,
+    "first_divergence_currency_units": "0.12",
+    "divergent_amounts_in_scan": 241,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "IEP",
+    "to": "ATS",
+    "first_divergence_minor_units": 1,
+    "first_divergence_currency_units": "0.01",
+    "divergent_amounts_in_scan": 1448,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "IEP",
+    "to": "PTE",
+    "first_divergence_minor_units": 12,
+    "first_divergence_currency_units": "0.12",
+    "divergent_amounts_in_scan": 212,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "IEP",
+    "to": "FIM",
+    "first_divergence_minor_units": 5,
+    "first_divergence_currency_units": "0.05",
+    "divergent_amounts_in_scan": 625,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "ITL",
+    "to": "BEF",
+    "first_divergence_minor_units": 1,
+    "first_divergence_currency_units": "1",
+    "divergent_amounts_in_scan": 3097,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 3
+   },
+   {
+    "from": "ITL",
+    "to": "DEM",
+    "first_divergence_minor_units": 34,
+    "first_divergence_currency_units": "34",
+    "divergent_amounts_in_scan": 205,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "ITL",
+    "to": "ESP",
+    "first_divergence_minor_units": 6,
+    "first_divergence_currency_units": "6",
+    "divergent_amounts_in_scan": 175,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "ITL",
+    "to": "FRF",
+    "first_divergence_minor_units": 1,
+    "first_divergence_currency_units": "1",
+    "divergent_amounts_in_scan": 694,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "ITL",
+    "to": "IEP",
+    "first_divergence_minor_units": 37,
+    "first_divergence_currency_units": "37",
+    "divergent_amounts_in_scan": 83,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "ITL",
+    "to": "LUF",
+    "first_divergence_minor_units": 1,
+    "first_divergence_currency_units": "1",
+    "divergent_amounts_in_scan": 3097,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 3
+   },
+   {
+    "from": "ITL",
+    "to": "NLG",
+    "first_divergence_minor_units": 13,
+    "first_divergence_currency_units": "13",
+    "divergent_amounts_in_scan": 233,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "ITL",
+    "to": "ATS",
+    "first_divergence_minor_units": 3,
+    "first_divergence_currency_units": "3",
+    "divergent_amounts_in_scan": 1446,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "ITL",
+    "to": "PTE",
+    "first_divergence_minor_units": 121,
+    "first_divergence_currency_units": "121",
+    "divergent_amounts_in_scan": 210,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "ITL",
+    "to": "FIM",
+    "first_divergence_minor_units": 1,
+    "first_divergence_currency_units": "1",
+    "divergent_amounts_in_scan": 630,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "LUF",
+    "to": "DEM",
+    "first_divergence_minor_units": 51,
+    "first_divergence_currency_units": "0.51",
+    "divergent_amounts_in_scan": 204,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "LUF",
+    "to": "ESP",
+    "first_divergence_minor_units": 13,
+    "first_divergence_currency_units": "0.13",
+    "divergent_amounts_in_scan": 166,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "LUF",
+    "to": "FRF",
+    "first_divergence_minor_units": 3,
+    "first_divergence_currency_units": "0.03",
+    "divergent_amounts_in_scan": 692,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "LUF",
+    "to": "IEP",
+    "first_divergence_minor_units": 26,
+    "first_divergence_currency_units": "0.26",
+    "divergent_amounts_in_scan": 83,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "LUF",
+    "to": "ITL",
+    "first_divergence_minor_units": 2,
+    "first_divergence_currency_units": "0.02",
+    "divergent_amounts_in_scan": 2035,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "LUF",
+    "to": "NLG",
+    "first_divergence_minor_units": 10,
+    "first_divergence_currency_units": "0.10",
+    "divergent_amounts_in_scan": 242,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "LUF",
+    "to": "ATS",
+    "first_divergence_minor_units": 2,
+    "first_divergence_currency_units": "0.02",
+    "divergent_amounts_in_scan": 1459,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "LUF",
+    "to": "PTE",
+    "first_divergence_minor_units": 10,
+    "first_divergence_currency_units": "0.10",
+    "divergent_amounts_in_scan": 212,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "LUF",
+    "to": "FIM",
+    "first_divergence_minor_units": 3,
+    "first_divergence_currency_units": "0.03",
+    "divergent_amounts_in_scan": 627,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "NLG",
+    "to": "BEF",
+    "first_divergence_minor_units": 1,
+    "first_divergence_currency_units": "0.01",
+    "divergent_amounts_in_scan": 3093,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 3
+   },
+   {
+    "from": "NLG",
+    "to": "DEM",
+    "first_divergence_minor_units": 14,
+    "first_divergence_currency_units": "0.14",
+    "divergent_amounts_in_scan": 171,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "NLG",
+    "to": "ESP",
+    "first_divergence_minor_units": 2,
+    "first_divergence_currency_units": "0.02",
+    "divergent_amounts_in_scan": 174,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "NLG",
+    "to": "FRF",
+    "first_divergence_minor_units": 12,
+    "first_divergence_currency_units": "0.12",
+    "divergent_amounts_in_scan": 697,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "NLG",
+    "to": "IEP",
+    "first_divergence_minor_units": 21,
+    "first_divergence_currency_units": "0.21",
+    "divergent_amounts_in_scan": 81,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "NLG",
+    "to": "ITL",
+    "first_divergence_minor_units": 1,
+    "first_divergence_currency_units": "0.01",
+    "divergent_amounts_in_scan": 2033,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "NLG",
+    "to": "LUF",
+    "first_divergence_minor_units": 1,
+    "first_divergence_currency_units": "0.01",
+    "divergent_amounts_in_scan": 3093,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 3
+   },
+   {
+    "from": "NLG",
+    "to": "ATS",
+    "first_divergence_minor_units": 1,
+    "first_divergence_currency_units": "0.01",
+    "divergent_amounts_in_scan": 1456,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "NLG",
+    "to": "PTE",
+    "first_divergence_minor_units": 38,
+    "first_divergence_currency_units": "0.38",
+    "divergent_amounts_in_scan": 212,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "NLG",
+    "to": "FIM",
+    "first_divergence_minor_units": 5,
+    "first_divergence_currency_units": "0.05",
+    "divergent_amounts_in_scan": 628,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "ATS",
+    "to": "BEF",
+    "first_divergence_minor_units": 1,
+    "first_divergence_currency_units": "0.01",
+    "divergent_amounts_in_scan": 3103,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 3
+   },
+   {
+    "from": "ATS",
+    "to": "DEM",
+    "first_divergence_minor_units": 32,
+    "first_divergence_currency_units": "0.32",
+    "divergent_amounts_in_scan": 204,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "ATS",
+    "to": "ESP",
+    "first_divergence_minor_units": 13,
+    "first_divergence_currency_units": "0.13",
+    "divergent_amounts_in_scan": 176,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "ATS",
+    "to": "FRF",
+    "first_divergence_minor_units": 1,
+    "first_divergence_currency_units": "0.01",
+    "divergent_amounts_in_scan": 678,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "ATS",
+    "to": "IEP",
+    "first_divergence_minor_units": 79,
+    "first_divergence_currency_units": "0.79",
+    "divergent_amounts_in_scan": 79,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "ATS",
+    "to": "ITL",
+    "first_divergence_minor_units": 1,
+    "first_divergence_currency_units": "0.01",
+    "divergent_amounts_in_scan": 2037,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "ATS",
+    "to": "LUF",
+    "first_divergence_minor_units": 1,
+    "first_divergence_currency_units": "0.01",
+    "divergent_amounts_in_scan": 3103,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 3
+   },
+   {
+    "from": "ATS",
+    "to": "NLG",
+    "first_divergence_minor_units": 9,
+    "first_divergence_currency_units": "0.09",
+    "divergent_amounts_in_scan": 227,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "ATS",
+    "to": "PTE",
+    "first_divergence_minor_units": 79,
+    "first_divergence_currency_units": "0.79",
+    "divergent_amounts_in_scan": 209,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "ATS",
+    "to": "FIM",
+    "first_divergence_minor_units": 1,
+    "first_divergence_currency_units": "0.01",
+    "divergent_amounts_in_scan": 623,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "PTE",
+    "to": "BEF",
+    "first_divergence_minor_units": 3,
+    "first_divergence_currency_units": "3",
+    "divergent_amounts_in_scan": 3092,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 3
+   },
+   {
+    "from": "PTE",
+    "to": "DEM",
+    "first_divergence_minor_units": 21,
+    "first_divergence_currency_units": "21",
+    "divergent_amounts_in_scan": 197,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "PTE",
+    "to": "ESP",
+    "first_divergence_minor_units": 44,
+    "first_divergence_currency_units": "44",
+    "divergent_amounts_in_scan": 172,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "PTE",
+    "to": "FRF",
+    "first_divergence_minor_units": 9,
+    "first_divergence_currency_units": "9",
+    "divergent_amounts_in_scan": 695,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "PTE",
+    "to": "IEP",
+    "first_divergence_minor_units": 14,
+    "first_divergence_currency_units": "14",
+    "divergent_amounts_in_scan": 88,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "PTE",
+    "to": "ITL",
+    "first_divergence_minor_units": 13,
+    "first_divergence_currency_units": "13",
+    "divergent_amounts_in_scan": 2032,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "PTE",
+    "to": "LUF",
+    "first_divergence_minor_units": 3,
+    "first_divergence_currency_units": "3",
+    "divergent_amounts_in_scan": 3092,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 3
+   },
+   {
+    "from": "PTE",
+    "to": "NLG",
+    "first_divergence_minor_units": 5,
+    "first_divergence_currency_units": "5",
+    "divergent_amounts_in_scan": 232,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "PTE",
+    "to": "ATS",
+    "first_divergence_minor_units": 4,
+    "first_divergence_currency_units": "4",
+    "divergent_amounts_in_scan": 1446,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "PTE",
+    "to": "FIM",
+    "first_divergence_minor_units": 15,
+    "first_divergence_currency_units": "15",
+    "divergent_amounts_in_scan": 622,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "FIM",
+    "to": "BEF",
+    "first_divergence_minor_units": 1,
+    "first_divergence_currency_units": "0.01",
+    "divergent_amounts_in_scan": 3092,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 3
+   },
+   {
+    "from": "FIM",
+    "to": "DEM",
+    "first_divergence_minor_units": 38,
+    "first_divergence_currency_units": "0.38",
+    "divergent_amounts_in_scan": 210,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "FIM",
+    "to": "ESP",
+    "first_divergence_minor_units": 2,
+    "first_divergence_currency_units": "0.02",
+    "divergent_amounts_in_scan": 178,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "FIM",
+    "to": "FRF",
+    "first_divergence_minor_units": 4,
+    "first_divergence_currency_units": "0.04",
+    "divergent_amounts_in_scan": 689,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "FIM",
+    "to": "IEP",
+    "first_divergence_minor_units": 34,
+    "first_divergence_currency_units": "0.34",
+    "divergent_amounts_in_scan": 82,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "FIM",
+    "to": "ITL",
+    "first_divergence_minor_units": 1,
+    "first_divergence_currency_units": "0.01",
+    "divergent_amounts_in_scan": 2034,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "FIM",
+    "to": "LUF",
+    "first_divergence_minor_units": 1,
+    "first_divergence_currency_units": "0.01",
+    "divergent_amounts_in_scan": 3092,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 3
+   },
+   {
+    "from": "FIM",
+    "to": "NLG",
+    "first_divergence_minor_units": 4,
+    "first_divergence_currency_units": "0.04",
+    "divergent_amounts_in_scan": 238,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "FIM",
+    "to": "ATS",
+    "first_divergence_minor_units": 1,
+    "first_divergence_currency_units": "0.01",
+    "divergent_amounts_in_scan": 1450,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   },
+   {
+    "from": "FIM",
+    "to": "PTE",
+    "first_divergence_minor_units": 46,
+    "first_divergence_currency_units": "0.46",
+    "divergent_amounts_in_scan": 204,
+    "scan_minor_units": 4000,
+    "max_spread_minor_units": 1
+   }
+  ],
+  "n_pairs": 108,
+  "variants": [
+   "3",
+   "4",
+   "5",
+   "6",
+   "unrounded"
+  ]
+ },
+ "m3_tie_break": [
+  {
+   "code": "BEF",
+   "rate": "40.3399",
+   "minor_decimals": 2,
+   "tie_period_euro": "50.00",
+   "ties_are_odd_multiples_of_the_period": true,
+   "first_half_way_euro": "50.00",
+   "first_disagreement_euro": "150.00",
+   "closed_form_verified_against_scan": true,
+   "ties_in_verification_scan": 100,
+   "disagreements_in_verification_scan": 50,
+   "verification_scan_cents": 1000000,
+   "examples": [
+    {
+     "euro": "150.00",
+     "exact_national": "6050.985",
+     "statute_half_up": "6050.99",
+     "machine_half_even": "6050.98"
+    },
+    {
+     "euro": "350.00",
+     "exact_national": "14118.965",
+     "statute_half_up": "14118.97",
+     "machine_half_even": "14118.96"
+    },
+    {
+     "euro": "550.00",
+     "exact_national": "22186.945",
+     "statute_half_up": "22186.95",
+     "machine_half_even": "22186.94"
+    }
+   ]
+  },
+  {
+   "code": "DEM",
+   "rate": "1.95583",
+   "minor_decimals": 2,
+   "tie_period_euro": "500.00",
+   "ties_are_odd_multiples_of_the_period": true,
+   "first_half_way_euro": "500.00",
+   "first_disagreement_euro": "1500.00",
+   "closed_form_verified_against_scan": true,
+   "ties_in_verification_scan": 40,
+   "disagreements_in_verification_scan": 20,
+   "verification_scan_cents": 4000000,
+   "examples": [
+    {
+     "euro": "1500.00",
+     "exact_national": "2933.745",
+     "statute_half_up": "2933.75",
+     "machine_half_even": "2933.74"
+    },
+    {
+     "euro": "3500.00",
+     "exact_national": "6845.405",
+     "statute_half_up": "6845.41",
+     "machine_half_even": "6845.40"
+    },
+    {
+     "euro": "5500.00",
+     "exact_national": "10757.065",
+     "statute_half_up": "10757.07",
+     "machine_half_even": "10757.06"
+    }
+   ]
+  },
+  {
+   "code": "ESP",
+   "rate": "166.386",
+   "minor_decimals": 0,
+   "tie_period_euro": "250.00",
+   "ties_are_odd_multiples_of_the_period": true,
+   "first_half_way_euro": "250.00",
+   "first_disagreement_euro": "250.00",
+   "closed_form_verified_against_scan": true,
+   "ties_in_verification_scan": 80,
+   "disagreements_in_verification_scan": 40,
+   "verification_scan_cents": 4000000,
+   "examples": [
+    {
+     "euro": "250.00",
+     "exact_national": "41596.5",
+     "statute_half_up": "41597",
+     "machine_half_even": "41596"
+    },
+    {
+     "euro": "1250.00",
+     "exact_national": "207982.5",
+     "statute_half_up": "207983",
+     "machine_half_even": "207982"
+    },
+    {
+     "euro": "2250.00",
+     "exact_national": "374368.5",
+     "statute_half_up": "374369",
+     "machine_half_even": "374368"
+    }
+   ]
+  },
+  {
+   "code": "FRF",
+   "rate": "6.55957",
+   "minor_decimals": 2,
+   "tie_period_euro": "500.00",
+   "ties_are_odd_multiples_of_the_period": true,
+   "first_half_way_euro": "500.00",
+   "first_disagreement_euro": "500.00",
+   "closed_form_verified_against_scan": true,
+   "ties_in_verification_scan": 40,
+   "disagreements_in_verification_scan": 20,
+   "verification_scan_cents": 4000000,
+   "examples": [
+    {
+     "euro": "500.00",
+     "exact_national": "3279.785",
+     "statute_half_up": "3279.79",
+     "machine_half_even": "3279.78"
+    },
+    {
+     "euro": "2500.00",
+     "exact_national": "16398.925",
+     "statute_half_up": "16398.93",
+     "machine_half_even": "16398.92"
+    },
+    {
+     "euro": "4500.00",
+     "exact_national": "29518.065",
+     "statute_half_up": "29518.07",
+     "machine_half_even": "29518.06"
+    }
+   ]
+  },
+  {
+   "code": "IEP",
+   "rate": "0.787564",
+   "minor_decimals": 2,
+   "tie_period_euro": "1250.00",
+   "ties_are_odd_multiples_of_the_period": true,
+   "first_half_way_euro": "1250.00",
+   "first_disagreement_euro": "3750.00",
+   "closed_form_verified_against_scan": true,
+   "ties_in_verification_scan": 16,
+   "disagreements_in_verification_scan": 8,
+   "verification_scan_cents": 4000000,
+   "examples": [
+    {
+     "euro": "3750.00",
+     "exact_national": "2953.365",
+     "statute_half_up": "2953.37",
+     "machine_half_even": "2953.36"
+    },
+    {
+     "euro": "8750.00",
+     "exact_national": "6891.185",
+     "statute_half_up": "6891.19",
+     "machine_half_even": "6891.18"
+    },
+    {
+     "euro": "13750.00",
+     "exact_national": "10829.005",
+     "statute_half_up": "10829.01",
+     "machine_half_even": "10829.00"
+    }
+   ]
+  },
+  {
+   "code": "ITL",
+   "rate": "1936.27",
+   "minor_decimals": 0,
+   "tie_period_euro": "50.00",
+   "ties_are_odd_multiples_of_the_period": true,
+   "first_half_way_euro": "50.00",
+   "first_disagreement_euro": "150.00",
+   "closed_form_verified_against_scan": true,
+   "ties_in_verification_scan": 100,
+   "disagreements_in_verification_scan": 50,
+   "verification_scan_cents": 1000000,
+   "examples": [
+    {
+     "euro": "150.00",
+     "exact_national": "290440.5",
+     "statute_half_up": "290441",
+     "machine_half_even": "290440"
+    },
+    {
+     "euro": "350.00",
+     "exact_national": "677694.5",
+     "statute_half_up": "677695",
+     "machine_half_even": "677694"
+    },
+    {
+     "euro": "550.00",
+     "exact_national": "1064948.5",
+     "statute_half_up": "1064949",
+     "machine_half_even": "1064948"
+    }
+   ]
+  },
+  {
+   "code": "LUF",
+   "rate": "40.3399",
+   "minor_decimals": 2,
+   "tie_period_euro": "50.00",
+   "ties_are_odd_multiples_of_the_period": true,
+   "first_half_way_euro": "50.00",
+   "first_disagreement_euro": "150.00",
+   "closed_form_verified_against_scan": true,
+   "ties_in_verification_scan": 100,
+   "disagreements_in_verification_scan": 50,
+   "verification_scan_cents": 1000000,
+   "examples": [
+    {
+     "euro": "150.00",
+     "exact_national": "6050.985",
+     "statute_half_up": "6050.99",
+     "machine_half_even": "6050.98"
+    },
+    {
+     "euro": "350.00",
+     "exact_national": "14118.965",
+     "statute_half_up": "14118.97",
+     "machine_half_even": "14118.96"
+    },
+    {
+     "euro": "550.00",
+     "exact_national": "22186.945",
+     "statute_half_up": "22186.95",
+     "machine_half_even": "22186.94"
+    }
+   ]
+  },
+  {
+   "code": "NLG",
+   "rate": "2.20371",
+   "minor_decimals": 2,
+   "tie_period_euro": "500.00",
+   "ties_are_odd_multiples_of_the_period": true,
+   "first_half_way_euro": "500.00",
+   "first_disagreement_euro": "1500.00",
+   "closed_form_verified_against_scan": true,
+   "ties_in_verification_scan": 40,
+   "disagreements_in_verification_scan": 20,
+   "verification_scan_cents": 4000000,
+   "examples": [
+    {
+     "euro": "1500.00",
+     "exact_national": "3305.565",
+     "statute_half_up": "3305.57",
+     "machine_half_even": "3305.56"
+    },
+    {
+     "euro": "3500.00",
+     "exact_national": "7712.985",
+     "statute_half_up": "7712.99",
+     "machine_half_even": "7712.98"
+    },
+    {
+     "euro": "5500.00",
+     "exact_national": "12120.405",
+     "statute_half_up": "12120.41",
+     "machine_half_even": "12120.40"
+    }
+   ]
+  },
+  {
+   "code": "ATS",
+   "rate": "13.7603",
+   "minor_decimals": 2,
+   "tie_period_euro": "50.00",
+   "ties_are_odd_multiples_of_the_period": true,
+   "first_half_way_euro": "50.00",
+   "first_disagreement_euro": "150.00",
+   "closed_form_verified_against_scan": true,
+   "ties_in_verification_scan": 100,
+   "disagreements_in_verification_scan": 50,
+   "verification_scan_cents": 1000000,
+   "examples": [
+    {
+     "euro": "150.00",
+     "exact_national": "2064.045",
+     "statute_half_up": "2064.05",
+     "machine_half_even": "2064.04"
+    },
+    {
+     "euro": "350.00",
+     "exact_national": "4816.105",
+     "statute_half_up": "4816.11",
+     "machine_half_even": "4816.10"
+    },
+    {
+     "euro": "550.00",
+     "exact_national": "7568.165",
+     "statute_half_up": "7568.17",
+     "machine_half_even": "7568.16"
+    }
+   ]
+  },
+  {
+   "code": "PTE",
+   "rate": "200.482",
+   "minor_decimals": 0,
+   "tie_period_euro": "250.00",
+   "ties_are_odd_multiples_of_the_period": true,
+   "first_half_way_euro": "250.00",
+   "first_disagreement_euro": "250.00",
+   "closed_form_verified_against_scan": true,
+   "ties_in_verification_scan": 80,
+   "disagreements_in_verification_scan": 40,
+   "verification_scan_cents": 4000000,
+   "examples": [
+    {
+     "euro": "250.00",
+     "exact_national": "50120.5",
+     "statute_half_up": "50121",
+     "machine_half_even": "50120"
+    },
+    {
+     "euro": "1250.00",
+     "exact_national": "250602.5",
+     "statute_half_up": "250603",
+     "machine_half_even": "250602"
+    },
+    {
+     "euro": "2250.00",
+     "exact_national": "451084.5",
+     "statute_half_up": "451085",
+     "machine_half_even": "451084"
+    }
+   ]
+  },
+  {
+   "code": "FIM",
+   "rate": "5.94573",
+   "minor_decimals": 2,
+   "tie_period_euro": "500.00",
+   "ties_are_odd_multiples_of_the_period": true,
+   "first_half_way_euro": "500.00",
+   "first_disagreement_euro": "500.00",
+   "closed_form_verified_against_scan": true,
+   "ties_in_verification_scan": 40,
+   "disagreements_in_verification_scan": 20,
+   "verification_scan_cents": 4000000,
+   "examples": [
+    {
+     "euro": "500.00",
+     "exact_national": "2972.865",
+     "statute_half_up": "2972.87",
+     "machine_half_even": "2972.86"
+    },
+    {
+     "euro": "2500.00",
+     "exact_national": "14864.325",
+     "statute_half_up": "14864.33",
+     "machine_half_even": "14864.32"
+    },
+    {
+     "euro": "4500.00",
+     "exact_national": "26755.785",
+     "statute_half_up": "26755.79",
+     "machine_half_even": "26755.78"
+    }
+   ]
+  }
+ ],
+ "m4_bilateral": [
+  {
+   "from": "BEF",
+   "to": "DEM",
+   "bilateral_six_sig": "0.0484838",
+   "first_divergence_minor_units": 2836,
+   "first_divergence_currency_units": "28.36",
+   "divergent_amounts_in_scan": 1,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "BEF",
+   "to": "ESP",
+   "bilateral_six_sig": "4.12460",
+   "first_divergence_minor_units": null,
+   "first_divergence_currency_units": null,
+   "divergent_amounts_in_scan": 0,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "BEF",
+   "to": "FRF",
+   "bilateral_six_sig": "0.162607",
+   "first_divergence_minor_units": 698,
+   "first_divergence_currency_units": "6.98",
+   "divergent_amounts_in_scan": 6,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "BEF",
+   "to": "IEP",
+   "bilateral_six_sig": "0.0195232",
+   "first_divergence_minor_units": null,
+   "first_divergence_currency_units": null,
+   "divergent_amounts_in_scan": 0,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "BEF",
+   "to": "ITL",
+   "bilateral_six_sig": "47.9989",
+   "first_divergence_minor_units": 1799,
+   "first_divergence_currency_units": "17.99",
+   "divergent_amounts_in_scan": 1,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "BEF",
+   "to": "NLG",
+   "bilateral_six_sig": "0.0546285",
+   "first_divergence_minor_units": 2517,
+   "first_divergence_currency_units": "25.17",
+   "divergent_amounts_in_scan": 1,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "BEF",
+   "to": "ATS",
+   "bilateral_six_sig": "0.341109",
+   "first_divergence_minor_units": null,
+   "first_divergence_currency_units": null,
+   "divergent_amounts_in_scan": 0,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "BEF",
+   "to": "PTE",
+   "bilateral_six_sig": "4.96982",
+   "first_divergence_minor_units": null,
+   "first_divergence_currency_units": null,
+   "divergent_amounts_in_scan": 0,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "BEF",
+   "to": "FIM",
+   "bilateral_six_sig": "0.147391",
+   "first_divergence_minor_units": 2568,
+   "first_divergence_currency_units": "25.68",
+   "divergent_amounts_in_scan": 2,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "DEM",
+   "to": "BEF",
+   "bilateral_six_sig": "20.6255",
+   "first_divergence_minor_units": 255,
+   "first_divergence_currency_units": "2.55",
+   "divergent_amounts_in_scan": 291,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "DEM",
+   "to": "ESP",
+   "bilateral_six_sig": "85.0718",
+   "first_divergence_minor_units": 1323,
+   "first_divergence_currency_units": "13.23",
+   "divergent_amounts_in_scan": 2,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "DEM",
+   "to": "FRF",
+   "bilateral_six_sig": "3.35385",
+   "first_divergence_minor_units": 934,
+   "first_divergence_currency_units": "9.34",
+   "divergent_amounts_in_scan": 38,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "DEM",
+   "to": "IEP",
+   "bilateral_six_sig": "0.402675",
+   "first_divergence_minor_units": 1757,
+   "first_divergence_currency_units": "17.57",
+   "divergent_amounts_in_scan": 1,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "DEM",
+   "to": "ITL",
+   "bilateral_six_sig": "989.999",
+   "first_divergence_minor_units": null,
+   "first_divergence_currency_units": null,
+   "divergent_amounts_in_scan": 0,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "DEM",
+   "to": "LUF",
+   "bilateral_six_sig": "20.6255",
+   "first_divergence_minor_units": 255,
+   "first_divergence_currency_units": "2.55",
+   "divergent_amounts_in_scan": 291,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "DEM",
+   "to": "NLG",
+   "bilateral_six_sig": "1.12674",
+   "first_divergence_minor_units": 1006,
+   "first_divergence_currency_units": "10.06",
+   "divergent_amounts_in_scan": 8,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "DEM",
+   "to": "ATS",
+   "bilateral_six_sig": "7.03553",
+   "first_divergence_minor_units": 774,
+   "first_divergence_currency_units": "7.74",
+   "divergent_amounts_in_scan": 4,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "DEM",
+   "to": "PTE",
+   "bilateral_six_sig": "102.505",
+   "first_divergence_minor_units": 1018,
+   "first_divergence_currency_units": "10.18",
+   "divergent_amounts_in_scan": 12,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "DEM",
+   "to": "FIM",
+   "bilateral_six_sig": "3.04000",
+   "first_divergence_minor_units": null,
+   "first_divergence_currency_units": null,
+   "divergent_amounts_in_scan": 0,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "ESP",
+   "to": "BEF",
+   "bilateral_six_sig": "0.242448",
+   "first_divergence_minor_units": 96,
+   "first_divergence_currency_units": "96",
+   "divergent_amounts_in_scan": 255,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "ESP",
+   "to": "DEM",
+   "bilateral_six_sig": "0.0117548",
+   "first_divergence_minor_units": 1097,
+   "first_divergence_currency_units": "1097",
+   "divergent_amounts_in_scan": 18,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "ESP",
+   "to": "FRF",
+   "bilateral_six_sig": "0.0394238",
+   "first_divergence_minor_units": 1050,
+   "first_divergence_currency_units": "1050",
+   "divergent_amounts_in_scan": 9,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "ESP",
+   "to": "IEP",
+   "bilateral_six_sig": "0.00473335",
+   "first_divergence_minor_units": 3094,
+   "first_divergence_currency_units": "3094",
+   "divergent_amounts_in_scan": 7,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "ESP",
+   "to": "ITL",
+   "bilateral_six_sig": "11.6372",
+   "first_divergence_minor_units": 379,
+   "first_divergence_currency_units": "379",
+   "divergent_amounts_in_scan": 133,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "ESP",
+   "to": "LUF",
+   "bilateral_six_sig": "0.242448",
+   "first_divergence_minor_units": 96,
+   "first_divergence_currency_units": "96",
+   "divergent_amounts_in_scan": 255,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "ESP",
+   "to": "NLG",
+   "bilateral_six_sig": "0.0132446",
+   "first_divergence_minor_units": 507,
+   "first_divergence_currency_units": "507",
+   "divergent_amounts_in_scan": 30,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "ESP",
+   "to": "ATS",
+   "bilateral_six_sig": "0.0827011",
+   "first_divergence_minor_units": 746,
+   "first_divergence_currency_units": "746",
+   "divergent_amounts_in_scan": 26,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "ESP",
+   "to": "PTE",
+   "bilateral_six_sig": "1.20492",
+   "first_divergence_minor_units": 2784,
+   "first_divergence_currency_units": "2784",
+   "divergent_amounts_in_scan": 10,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "ESP",
+   "to": "FIM",
+   "bilateral_six_sig": "0.0357346",
+   "first_divergence_minor_units": 599,
+   "first_divergence_currency_units": "599",
+   "divergent_amounts_in_scan": 33,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "FRF",
+   "to": "BEF",
+   "bilateral_six_sig": "6.14978",
+   "first_divergence_minor_units": 1579,
+   "first_divergence_currency_units": "15.79",
+   "divergent_amounts_in_scan": 11,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "FRF",
+   "to": "DEM",
+   "bilateral_six_sig": "0.298164",
+   "first_divergence_minor_units": null,
+   "first_divergence_currency_units": null,
+   "divergent_amounts_in_scan": 0,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "FRF",
+   "to": "ESP",
+   "bilateral_six_sig": "25.3654",
+   "first_divergence_minor_units": 2600,
+   "first_divergence_currency_units": "26.00",
+   "divergent_amounts_in_scan": 2,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "FRF",
+   "to": "IEP",
+   "bilateral_six_sig": "0.120063",
+   "first_divergence_minor_units": null,
+   "first_divergence_currency_units": null,
+   "divergent_amounts_in_scan": 0,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "FRF",
+   "to": "ITL",
+   "bilateral_six_sig": "295.182",
+   "first_divergence_minor_units": 384,
+   "first_divergence_currency_units": "3.84",
+   "divergent_amounts_in_scan": 39,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "FRF",
+   "to": "LUF",
+   "bilateral_six_sig": "6.14978",
+   "first_divergence_minor_units": 1579,
+   "first_divergence_currency_units": "15.79",
+   "divergent_amounts_in_scan": 11,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "FRF",
+   "to": "NLG",
+   "bilateral_six_sig": "0.335953",
+   "first_divergence_minor_units": 1972,
+   "first_divergence_currency_units": "19.72",
+   "divergent_amounts_in_scan": 4,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "FRF",
+   "to": "ATS",
+   "bilateral_six_sig": "2.09774",
+   "first_divergence_minor_units": 885,
+   "first_divergence_currency_units": "8.85",
+   "divergent_amounts_in_scan": 35,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "FRF",
+   "to": "PTE",
+   "bilateral_six_sig": "30.5633",
+   "first_divergence_minor_units": 3231,
+   "first_divergence_currency_units": "32.31",
+   "divergent_amounts_in_scan": 1,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "FRF",
+   "to": "FIM",
+   "bilateral_six_sig": "0.906421",
+   "first_divergence_minor_units": 732,
+   "first_divergence_currency_units": "7.32",
+   "divergent_amounts_in_scan": 3,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "IEP",
+   "to": "BEF",
+   "bilateral_six_sig": "51.2211",
+   "first_divergence_minor_units": 545,
+   "first_divergence_currency_units": "5.45",
+   "divergent_amounts_in_scan": 56,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "IEP",
+   "to": "DEM",
+   "bilateral_six_sig": "2.48339",
+   "first_divergence_minor_units": 572,
+   "first_divergence_currency_units": "5.72",
+   "divergent_amounts_in_scan": 14,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "IEP",
+   "to": "ESP",
+   "bilateral_six_sig": "211.267",
+   "first_divergence_minor_units": 750,
+   "first_divergence_currency_units": "7.50",
+   "divergent_amounts_in_scan": 29,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "IEP",
+   "to": "FRF",
+   "bilateral_six_sig": "8.32894",
+   "first_divergence_minor_units": 1175,
+   "first_divergence_currency_units": "11.75",
+   "divergent_amounts_in_scan": 34,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "IEP",
+   "to": "ITL",
+   "bilateral_six_sig": "2458.56",
+   "first_divergence_minor_units": 187,
+   "first_divergence_currency_units": "1.87",
+   "divergent_amounts_in_scan": 341,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "IEP",
+   "to": "LUF",
+   "bilateral_six_sig": "51.2211",
+   "first_divergence_minor_units": 545,
+   "first_divergence_currency_units": "5.45",
+   "divergent_amounts_in_scan": 56,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "IEP",
+   "to": "NLG",
+   "bilateral_six_sig": "2.79813",
+   "first_divergence_minor_units": 696,
+   "first_divergence_currency_units": "6.96",
+   "divergent_amounts_in_scan": 35,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "IEP",
+   "to": "ATS",
+   "bilateral_six_sig": "17.4720",
+   "first_divergence_minor_units": 232,
+   "first_divergence_currency_units": "2.32",
+   "divergent_amounts_in_scan": 187,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "IEP",
+   "to": "PTE",
+   "bilateral_six_sig": "254.560",
+   "first_divergence_minor_units": 318,
+   "first_divergence_currency_units": "3.18",
+   "divergent_amounts_in_scan": 27,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "IEP",
+   "to": "FIM",
+   "bilateral_six_sig": "7.54952",
+   "first_divergence_minor_units": 1666,
+   "first_divergence_currency_units": "16.66",
+   "divergent_amounts_in_scan": 2,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "ITL",
+   "to": "BEF",
+   "bilateral_six_sig": "0.0208338",
+   "first_divergence_minor_units": 1721,
+   "first_divergence_currency_units": "1721",
+   "divergent_amounts_in_scan": 18,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "ITL",
+   "to": "DEM",
+   "bilateral_six_sig": "0.00101010",
+   "first_divergence_minor_units": null,
+   "first_divergence_currency_units": null,
+   "divergent_amounts_in_scan": 0,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "ITL",
+   "to": "ESP",
+   "bilateral_six_sig": "0.0859312",
+   "first_divergence_minor_units": null,
+   "first_divergence_currency_units": null,
+   "divergent_amounts_in_scan": 0,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "ITL",
+   "to": "FRF",
+   "bilateral_six_sig": "0.00338774",
+   "first_divergence_minor_units": 1256,
+   "first_divergence_currency_units": "1256",
+   "divergent_amounts_in_scan": 4,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "ITL",
+   "to": "IEP",
+   "bilateral_six_sig": "0.000406743",
+   "first_divergence_minor_units": 3233,
+   "first_divergence_currency_units": "3233",
+   "divergent_amounts_in_scan": 1,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "ITL",
+   "to": "LUF",
+   "bilateral_six_sig": "0.0208338",
+   "first_divergence_minor_units": 1721,
+   "first_divergence_currency_units": "1721",
+   "divergent_amounts_in_scan": 18,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "ITL",
+   "to": "NLG",
+   "bilateral_six_sig": "0.00113812",
+   "first_divergence_minor_units": null,
+   "first_divergence_currency_units": null,
+   "divergent_amounts_in_scan": 0,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "ITL",
+   "to": "ATS",
+   "bilateral_six_sig": "0.00710660",
+   "first_divergence_minor_units": null,
+   "first_divergence_currency_units": null,
+   "divergent_amounts_in_scan": 0,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "ITL",
+   "to": "PTE",
+   "bilateral_six_sig": "0.103540",
+   "first_divergence_minor_units": 2062,
+   "first_divergence_currency_units": "2062",
+   "divergent_amounts_in_scan": 2,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "ITL",
+   "to": "FIM",
+   "bilateral_six_sig": "0.00307071",
+   "first_divergence_minor_units": 1796,
+   "first_divergence_currency_units": "1796",
+   "divergent_amounts_in_scan": 4,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "LUF",
+   "to": "DEM",
+   "bilateral_six_sig": "0.0484838",
+   "first_divergence_minor_units": 2836,
+   "first_divergence_currency_units": "28.36",
+   "divergent_amounts_in_scan": 1,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "LUF",
+   "to": "ESP",
+   "bilateral_six_sig": "4.12460",
+   "first_divergence_minor_units": null,
+   "first_divergence_currency_units": null,
+   "divergent_amounts_in_scan": 0,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "LUF",
+   "to": "FRF",
+   "bilateral_six_sig": "0.162607",
+   "first_divergence_minor_units": 698,
+   "first_divergence_currency_units": "6.98",
+   "divergent_amounts_in_scan": 6,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "LUF",
+   "to": "IEP",
+   "bilateral_six_sig": "0.0195232",
+   "first_divergence_minor_units": null,
+   "first_divergence_currency_units": null,
+   "divergent_amounts_in_scan": 0,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "LUF",
+   "to": "ITL",
+   "bilateral_six_sig": "47.9989",
+   "first_divergence_minor_units": 1799,
+   "first_divergence_currency_units": "17.99",
+   "divergent_amounts_in_scan": 1,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "LUF",
+   "to": "NLG",
+   "bilateral_six_sig": "0.0546285",
+   "first_divergence_minor_units": 2517,
+   "first_divergence_currency_units": "25.17",
+   "divergent_amounts_in_scan": 1,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "LUF",
+   "to": "ATS",
+   "bilateral_six_sig": "0.341109",
+   "first_divergence_minor_units": null,
+   "first_divergence_currency_units": null,
+   "divergent_amounts_in_scan": 0,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "LUF",
+   "to": "PTE",
+   "bilateral_six_sig": "4.96982",
+   "first_divergence_minor_units": null,
+   "first_divergence_currency_units": null,
+   "divergent_amounts_in_scan": 0,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "LUF",
+   "to": "FIM",
+   "bilateral_six_sig": "0.147391",
+   "first_divergence_minor_units": 2568,
+   "first_divergence_currency_units": "25.68",
+   "divergent_amounts_in_scan": 2,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "NLG",
+   "to": "BEF",
+   "bilateral_six_sig": "18.3054",
+   "first_divergence_minor_units": 185,
+   "first_divergence_currency_units": "1.85",
+   "divergent_amounts_in_scan": 388,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "NLG",
+   "to": "DEM",
+   "bilateral_six_sig": "0.887517",
+   "first_divergence_minor_units": 3685,
+   "first_divergence_currency_units": "36.85",
+   "divergent_amounts_in_scan": 1,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "NLG",
+   "to": "ESP",
+   "bilateral_six_sig": "75.5027",
+   "first_divergence_minor_units": 1492,
+   "first_divergence_currency_units": "14.92",
+   "divergent_amounts_in_scan": 2,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "NLG",
+   "to": "FRF",
+   "bilateral_six_sig": "2.97660",
+   "first_divergence_minor_units": 406,
+   "first_divergence_currency_units": "4.06",
+   "divergent_amounts_in_scan": 24,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "NLG",
+   "to": "IEP",
+   "bilateral_six_sig": "0.357381",
+   "first_divergence_minor_units": null,
+   "first_divergence_currency_units": null,
+   "divergent_amounts_in_scan": 0,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "NLG",
+   "to": "ITL",
+   "bilateral_six_sig": "878.641",
+   "first_divergence_minor_units": 2053,
+   "first_divergence_currency_units": "20.53",
+   "divergent_amounts_in_scan": 2,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "NLG",
+   "to": "LUF",
+   "bilateral_six_sig": "18.3054",
+   "first_divergence_minor_units": 185,
+   "first_divergence_currency_units": "1.85",
+   "divergent_amounts_in_scan": 388,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "NLG",
+   "to": "ATS",
+   "bilateral_six_sig": "6.24415",
+   "first_divergence_minor_units": 1325,
+   "first_divergence_currency_units": "13.25",
+   "divergent_amounts_in_scan": 14,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "NLG",
+   "to": "PTE",
+   "bilateral_six_sig": "90.9748",
+   "first_divergence_minor_units": 2698,
+   "first_divergence_currency_units": "26.98",
+   "divergent_amounts_in_scan": 5,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "NLG",
+   "to": "FIM",
+   "bilateral_six_sig": "2.69805",
+   "first_divergence_minor_units": 154,
+   "first_divergence_currency_units": "1.54",
+   "divergent_amounts_in_scan": 38,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "ATS",
+   "to": "BEF",
+   "bilateral_six_sig": "2.93161",
+   "first_divergence_minor_units": 329,
+   "first_divergence_currency_units": "3.29",
+   "divergent_amounts_in_scan": 39,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "ATS",
+   "to": "DEM",
+   "bilateral_six_sig": "0.142136",
+   "first_divergence_minor_units": 3268,
+   "first_divergence_currency_units": "32.68",
+   "divergent_amounts_in_scan": 1,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "ATS",
+   "to": "ESP",
+   "bilateral_six_sig": "12.0917",
+   "first_divergence_minor_units": 1592,
+   "first_divergence_currency_units": "15.92",
+   "divergent_amounts_in_scan": 2,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "ATS",
+   "to": "FRF",
+   "bilateral_six_sig": "0.476703",
+   "first_divergence_minor_units": 3670,
+   "first_divergence_currency_units": "36.70",
+   "divergent_amounts_in_scan": 2,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "ATS",
+   "to": "IEP",
+   "bilateral_six_sig": "0.0572345",
+   "first_divergence_minor_units": null,
+   "first_divergence_currency_units": null,
+   "divergent_amounts_in_scan": 0,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "ATS",
+   "to": "ITL",
+   "bilateral_six_sig": "140.714",
+   "first_divergence_minor_units": 2563,
+   "first_divergence_currency_units": "25.63",
+   "divergent_amounts_in_scan": 11,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "ATS",
+   "to": "LUF",
+   "bilateral_six_sig": "2.93161",
+   "first_divergence_minor_units": 329,
+   "first_divergence_currency_units": "3.29",
+   "divergent_amounts_in_scan": 39,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "ATS",
+   "to": "NLG",
+   "bilateral_six_sig": "0.160150",
+   "first_divergence_minor_units": 3069,
+   "first_divergence_currency_units": "30.69",
+   "divergent_amounts_in_scan": 1,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "ATS",
+   "to": "PTE",
+   "bilateral_six_sig": "14.5696",
+   "first_divergence_minor_units": null,
+   "first_divergence_currency_units": null,
+   "divergent_amounts_in_scan": 0,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "ATS",
+   "to": "FIM",
+   "bilateral_six_sig": "0.432093",
+   "first_divergence_minor_units": 1075,
+   "first_divergence_currency_units": "10.75",
+   "divergent_amounts_in_scan": 2,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "PTE",
+   "to": "BEF",
+   "bilateral_six_sig": "0.201215",
+   "first_divergence_minor_units": 177,
+   "first_divergence_currency_units": "177",
+   "divergent_amounts_in_scan": 342,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "PTE",
+   "to": "DEM",
+   "bilateral_six_sig": "0.00975564",
+   "first_divergence_minor_units": 266,
+   "first_divergence_currency_units": "266",
+   "divergent_amounts_in_scan": 8,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "PTE",
+   "to": "ESP",
+   "bilateral_six_sig": "0.829930",
+   "first_divergence_minor_units": 1714,
+   "first_divergence_currency_units": "1714",
+   "divergent_amounts_in_scan": 1,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "PTE",
+   "to": "FRF",
+   "bilateral_six_sig": "0.0327190",
+   "first_divergence_minor_units": 3790,
+   "first_divergence_currency_units": "3790",
+   "divergent_amounts_in_scan": 1,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "PTE",
+   "to": "IEP",
+   "bilateral_six_sig": "0.00392835",
+   "first_divergence_minor_units": 3252,
+   "first_divergence_currency_units": "3252",
+   "divergent_amounts_in_scan": 1,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "PTE",
+   "to": "ITL",
+   "bilateral_six_sig": "9.65807",
+   "first_divergence_minor_units": 446,
+   "first_divergence_currency_units": "446",
+   "divergent_amounts_in_scan": 32,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "PTE",
+   "to": "LUF",
+   "bilateral_six_sig": "0.201215",
+   "first_divergence_minor_units": 177,
+   "first_divergence_currency_units": "177",
+   "divergent_amounts_in_scan": 342,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "PTE",
+   "to": "NLG",
+   "bilateral_six_sig": "0.0109921",
+   "first_divergence_minor_units": 126,
+   "first_divergence_currency_units": "126",
+   "divergent_amounts_in_scan": 37,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "PTE",
+   "to": "ATS",
+   "bilateral_six_sig": "0.0686361",
+   "first_divergence_minor_units": 1646,
+   "first_divergence_currency_units": "1646",
+   "divergent_amounts_in_scan": 11,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "PTE",
+   "to": "FIM",
+   "bilateral_six_sig": "0.0296572",
+   "first_divergence_minor_units": 598,
+   "first_divergence_currency_units": "598",
+   "divergent_amounts_in_scan": 18,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "FIM",
+   "to": "BEF",
+   "bilateral_six_sig": "6.78468",
+   "first_divergence_minor_units": 346,
+   "first_divergence_currency_units": "3.46",
+   "divergent_amounts_in_scan": 32,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "FIM",
+   "to": "DEM",
+   "bilateral_six_sig": "0.328947",
+   "first_divergence_minor_units": null,
+   "first_divergence_currency_units": null,
+   "divergent_amounts_in_scan": 0,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "FIM",
+   "to": "ESP",
+   "bilateral_six_sig": "27.9841",
+   "first_divergence_minor_units": null,
+   "first_divergence_currency_units": null,
+   "divergent_amounts_in_scan": 0,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "FIM",
+   "to": "FRF",
+   "bilateral_six_sig": "1.10324",
+   "first_divergence_minor_units": 1574,
+   "first_divergence_currency_units": "15.74",
+   "divergent_amounts_in_scan": 3,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "FIM",
+   "to": "IEP",
+   "bilateral_six_sig": "0.132459",
+   "first_divergence_minor_units": 1944,
+   "first_divergence_currency_units": "19.44",
+   "divergent_amounts_in_scan": 2,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "FIM",
+   "to": "ITL",
+   "bilateral_six_sig": "325.657",
+   "first_divergence_minor_units": 875,
+   "first_divergence_currency_units": "8.75",
+   "divergent_amounts_in_scan": 19,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "FIM",
+   "to": "LUF",
+   "bilateral_six_sig": "6.78468",
+   "first_divergence_minor_units": 346,
+   "first_divergence_currency_units": "3.46",
+   "divergent_amounts_in_scan": 32,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "FIM",
+   "to": "NLG",
+   "bilateral_six_sig": "0.370637",
+   "first_divergence_minor_units": 1318,
+   "first_divergence_currency_units": "13.18",
+   "divergent_amounts_in_scan": 3,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "FIM",
+   "to": "ATS",
+   "bilateral_six_sig": "2.31432",
+   "first_divergence_minor_units": 447,
+   "first_divergence_currency_units": "4.47",
+   "divergent_amounts_in_scan": 29,
+   "scan_minor_units": 4000
+  },
+  {
+   "from": "FIM",
+   "to": "PTE",
+   "bilateral_six_sig": "33.7187",
+   "first_divergence_minor_units": 2552,
+   "first_divergence_currency_units": "25.52",
+   "divergent_amounts_in_scan": 3,
+   "scan_minor_units": 4000
+  }
+ ]
+}
