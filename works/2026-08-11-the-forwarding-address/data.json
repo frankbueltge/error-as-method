@@ -1,0 +1,1399 @@
+{
+ "generated_by": "ledger.py (Ulysses, Session 47, 2026-08-11)",
+ "sources": {
+  "tables": {
+   "2014": {
+    "path": "tables/codata-2014-allascii.txt",
+    "sha256": "c0c95610c9e6f01ffe57cc2e64ebc43ccf4958507ca4e83f0d1bf56843d739e0"
+   },
+   "2018": {
+    "path": "tables/codata-2018-allascii.txt",
+    "sha256": "8c47c05db62c4d314a5244db51a47b4831616e55a8d357ced373a8620ff43be1"
+   },
+   "2022": {
+    "path": "tables/codata-2022-allascii.txt",
+    "sha256": "77fb90e66c40db3e6eb16630bc9c88e4c7c8beddbe5e71be406f2f26e3f67e67"
+   }
+  },
+  "resolution": "https://www.bipm.org/en/committees/cg/cgpm/26-2018/resolution-1",
+  "brochure": "https://www.bipm.org/en/publications/si-brochure",
+  "nist": "https://physics.nist.gov/cuu/Constants/"
+ },
+ "table_sizes": {
+  "2014": 335,
+  "2018": 354,
+  "2022": 355
+ },
+ "exact_counts": {
+  "2014": 17,
+  "2018": 81,
+  "2022": 81
+ },
+ "diff_2014_2018": {
+  "lost_exactness": [
+   "atomic unit of permittivity",
+   "characteristic impedance of vacuum",
+   "molar mass constant",
+   "molar mass of carbon-12",
+   "vacuum electric permittivity",
+   "vacuum mag. permeability"
+  ],
+  "gained_exactness": [
+   "Avogadro constant",
+   "Boltzmann constant",
+   "Boltzmann constant in Hz/K",
+   "Boltzmann constant in eV/K",
+   "Faraday constant",
+   "Josephson constant",
+   "Loschmidt constant (273.15 K, 100 kPa)",
+   "Loschmidt constant (273.15 K, 101.325 kPa)",
+   "Planck constant",
+   "Planck constant in eV/Hz",
+   "Stefan-Boltzmann constant",
+   "Wien frequency displacement law constant",
+   "Wien wavelength displacement law constant",
+   "atomic unit of action",
+   "atomic unit of charge",
+   "conductance quantum",
+   "electron volt",
+   "electron volt-hertz relationship",
+   "electron volt-inverse meter relationship",
+   "electron volt-joule relationship",
+   "electron volt-kelvin relationship",
+   "electron volt-kilogram relationship",
+   "elementary charge",
+   "first radiation constant",
+   "first radiation constant for spectral radiance",
+   "hertz-electron volt relationship",
+   "hertz-joule relationship",
+   "hertz-kelvin relationship",
+   "hertz-kilogram relationship",
+   "inverse meter-electron volt relationship",
+   "inverse meter-joule relationship",
+   "inverse meter-kelvin relationship",
+   "inverse meter-kilogram relationship",
+   "inverse of conductance quantum",
+   "joule-electron volt relationship",
+   "joule-hertz relationship",
+   "joule-inverse meter relationship",
+   "joule-kelvin relationship",
+   "kelvin-electron volt relationship",
+   "kelvin-hertz relationship",
+   "kelvin-inverse meter relationship",
+   "kelvin-joule relationship",
+   "kelvin-kilogram relationship",
+   "kilogram-electron volt relationship",
+   "kilogram-hertz relationship",
+   "kilogram-inverse meter relationship",
+   "kilogram-kelvin relationship",
+   "mag. flux quantum",
+   "molar Planck constant",
+   "molar gas constant",
+   "molar volume of ideal gas (273.15 K, 100 kPa)",
+   "molar volume of ideal gas (273.15 K, 101.325 kPa)",
+   "natural unit of action",
+   "natural unit of action in eV s",
+   "reduced Planck constant",
+   "reduced Planck constant in eV s",
+   "reduced Planck constant times c in MeV fm",
+   "second radiation constant",
+   "von Klitzing constant"
+  ],
+  "rows_only_in_2014": [
+   "Bohr magneton in inverse meters per tesla",
+   "Boltzmann constant in inverse meters per kelvin",
+   "Compton wavelength over 2 pi",
+   "Cu x unit",
+   "Faraday constant for conventional electric current",
+   "Mo x unit",
+   "atomic unit of mom.um",
+   "electron gyromag. ratio over 2 pi",
+   "elementary charge over h",
+   "molar Planck constant times c",
+   "muon Compton wavelength over 2 pi",
+   "natural unit of mom.um",
+   "natural unit of mom.um in MeV/c",
+   "neutron Compton wavelength over 2 pi",
+   "neutron gyromag. ratio over 2 pi",
+   "nuclear magneton in inverse meters per tesla",
+   "proton Compton wavelength over 2 pi",
+   "proton gyromag. ratio over 2 pi",
+   "shielded helion gyromag. ratio over 2 pi",
+   "shielded proton gyromag. ratio over 2 pi",
+   "tau Compton wavelength over 2 pi",
+   "tau mass energy equivalent in MeV",
+   "{220} lattice spacing of silicon"
+  ],
+  "rows_only_in_2018": [
+   "Bohr magneton in inverse meter per tesla",
+   "Boltzmann constant in inverse meter per kelvin",
+   "Copper x unit",
+   "Molybdenum x unit",
+   "W to Z mass ratio",
+   "alpha particle relative atomic mass",
+   "atomic unit of momentum",
+   "conventional value of ampere-90",
+   "conventional value of coulomb-90",
+   "conventional value of farad-90",
+   "conventional value of henry-90",
+   "conventional value of ohm-90",
+   "conventional value of volt-90",
+   "conventional value of watt-90",
+   "deuteron relative atomic mass",
+   "electron gyromag. ratio in MHz/T",
+   "electron relative atomic mass",
+   "elementary charge over h-bar",
+   "helion relative atomic mass",
+   "helion shielding shift",
+   "hyperfine transition frequency of Cs-133",
+   "lattice spacing of ideal Si (220)",
+   "luminous efficacy",
+   "natural unit of momentum",
+   "natural unit of momentum in MeV/c",
+   "neutron gyromag. ratio in MHz/T",
+   "neutron relative atomic mass",
+   "nuclear magneton in inverse meter per tesla",
+   "proton gyromag. ratio in MHz/T",
+   "proton relative atomic mass",
+   "reduced Compton wavelength",
+   "reduced muon Compton wavelength",
+   "reduced neutron Compton wavelength",
+   "reduced proton Compton wavelength",
+   "reduced tau Compton wavelength",
+   "shielded helion gyromag. ratio in MHz/T",
+   "shielded proton gyromag. ratio in MHz/T",
+   "shielding difference of d and p in HD",
+   "shielding difference of t and p in HT",
+   "tau energy equivalent",
+   "triton relative atomic mass",
+   "triton to proton mag. mom. ratio"
+  ]
+ },
+ "diff_2018_2022": {
+  "status_changes": []
+ },
+ "losses": [
+  {
+   "quantity": "atomic unit of permittivity",
+   "name_2014": "atomic unit of permittivity",
+   "unit": "F m^-1",
+   "raw_2014": "1.112 650 056... e-10",
+   "printed_2014_truncated": true,
+   "abrogated_expression": "4*pi*e0 = 1e7/c^2",
+   "abrogated_value": "1.11265005605361843217408996484800999160753243447496237446623E-10",
+   "2018": {
+    "value": "1.112 650 055 45 e-10",
+    "unc": "0.000 000 000 17 e-10",
+    "rel_unc": 1.5278838046814749e-10,
+    "deviation": -6.036184321740899e-20,
+    "rel_deviation": -5.425051918974619e-10,
+    "sigma": -3.550696659847588
+   },
+   "2022": {
+    "value": "1.112 650 056 20 e-10",
+    "unc": "0.000 000 000 17 e-10",
+    "rel_unc": 1.5278838036515797e-10,
+    "deviation": 1.4638156782591003e-20,
+    "rel_deviation": 1.3156119215515137e-10,
+    "sigma": 0.861068046034765
+   },
+   "shift_2018_to_2022_rel": 6.740663844182977e-10,
+   "shift_2018_to_2022_in_u2018": 4.411764705882353,
+   "rel_unc_grew": false
+  },
+  {
+   "quantity": "characteristic impedance of vacuum",
+   "name_2014": "characteristic impedance of vacuum",
+   "unit": "ohm",
+   "raw_2014": "376.730 313 461...",
+   "printed_2014_truncated": true,
+   "abrogated_expression": "mu0*c",
+   "abrogated_value": "376.730313461770655468198400420319308268623508352418655232075",
+   "2018": {
+    "value": "376.730 313 668",
+    "unc": "0.000 000 057",
+    "rel_unc": 1.513018674951446e-10,
+    "deviation": 2.062293445318016e-07,
+    "rel_deviation": 5.474190346849513e-10,
+    "sigma": 3.618058675996519
+   },
+   "2022": {
+    "value": "376.730 313 412",
+    "unc": "0.000 000 059",
+    "rel_unc": 1.5661070505753644e-10,
+    "deviation": -4.97706554681984e-08,
+    "rel_deviation": -1.3211216005119524e-10,
+    "sigma": -0.8435704316643796
+   },
+   "shift_2018_to_2022_rel": -6.795311943641582e-10,
+   "shift_2018_to_2022_in_u2018": -4.491228070175438,
+   "rel_unc_grew": true
+  },
+  {
+   "quantity": "molar mass constant",
+   "name_2014": "molar mass constant",
+   "unit": "kg mol^-1",
+   "raw_2014": "1 e-3",
+   "printed_2014_truncated": false,
+   "abrogated_expression": "1e-3 kg/mol",
+   "abrogated_value": "0.001",
+   "2018": {
+    "value": "0.999 999 999 65 e-3",
+    "unc": "0.000 000 000 30 e-3",
+    "rel_unc": 3.00000000105e-10,
+    "deviation": -3.5e-13,
+    "rel_deviation": -3.5e-10,
+    "sigma": -1.1666666666666667
+   },
+   "2022": {
+    "value": "1.000 000 001 05 e-3",
+    "unc": "0.000 000 000 31 e-3",
+    "rel_unc": 3.099999996745e-10,
+    "deviation": 1.05e-12,
+    "rel_deviation": 1.05e-09,
+    "sigma": 3.3870967741935485
+   },
+   "shift_2018_to_2022_rel": 1.40000000049e-09,
+   "shift_2018_to_2022_in_u2018": 4.666666666666667,
+   "rel_unc_grew": true
+  },
+  {
+   "quantity": "molar mass of carbon-12",
+   "name_2014": "molar mass of carbon-12",
+   "unit": "kg mol^-1",
+   "raw_2014": "12 e-3",
+   "printed_2014_truncated": false,
+   "abrogated_expression": "12e-3 kg/mol",
+   "abrogated_value": "0.012",
+   "2018": {
+    "value": "11.999 999 9958 e-3",
+    "unc": "0.000 000 0036 e-3",
+    "rel_unc": 3.00000000105e-10,
+    "deviation": -4.2e-12,
+    "rel_deviation": -3.5e-10,
+    "sigma": -1.1666666666666667
+   },
+   "2022": {
+    "value": "12.000 000 0126 e-3",
+    "unc": "0.000 000 0037 e-3",
+    "rel_unc": 3.0833333300958334e-10,
+    "deviation": 1.26e-11,
+    "rel_deviation": 1.05e-09,
+    "sigma": 3.4054054054054053
+   },
+   "shift_2018_to_2022_rel": 1.40000000049e-09,
+   "shift_2018_to_2022_in_u2018": 4.666666666666667,
+   "rel_unc_grew": true
+  },
+  {
+   "quantity": "vacuum electric permittivity",
+   "name_2014": "electric constant",
+   "unit": "F m^-1",
+   "raw_2014": "8.854 187 817... e-12",
+   "printed_2014_truncated": true,
+   "abrogated_expression": "1/(mu0*c^2)",
+   "abrogated_value": "8.85418781762038985053656303171075026060837016659944980810243E-12",
+   "2018": {
+    "value": "8.854 187 8128 e-12",
+    "unc": "0.000 000 0013 e-12",
+    "rel_unc": 1.468231787584925e-10,
+    "deviation": -4.820389850536563e-21,
+    "rel_deviation": -5.444192002504944e-10,
+    "sigma": -3.707992192720433
+   },
+   "2022": {
+    "value": "8.854 187 8188 e-12",
+    "unc": "0.000 000 0014 e-12",
+    "rel_unc": 1.5811726932507522e-10,
+    "deviation": 1.179610149463437e-21,
+    "rel_deviation": 1.3322623980439388e-10,
+    "sigma": 0.8425786781881692
+   },
+   "shift_2018_to_2022_rel": 6.776454404238115e-10,
+   "shift_2018_to_2022_in_u2018": 4.615384615384615,
+   "rel_unc_grew": true
+  },
+  {
+   "quantity": "vacuum mag. permeability",
+   "name_2014": "mag. constant",
+   "unit": "N A^-2",
+   "raw_2014": "12.566 370 614... e-7",
+   "printed_2014_truncated": true,
+   "abrogated_expression": "4*pi*1e-7",
+   "abrogated_value": "0.00000125663706143591729538505735331180115367886775975004232838998",
+   "2018": {
+    "value": "1.256 637 062 12 e-6",
+    "unc": "0.000 000 000 19 e-6",
+    "rel_unc": 1.511971958549925e-10,
+    "deviation": 6.840827046149427e-16,
+    "rel_deviation": 5.443757196157052e-10,
+    "sigma": 3.6004352874470666
+   },
+   "2022": {
+    "value": "1.256 637 061 27 e-6",
+    "unc": "0.000 000 000 20 e-6",
+    "rel_unc": 1.59154943112909e-10,
+    "deviation": -1.6591729538505734e-16,
+    "rel_deviation": -1.3203278852484997e-10,
+    "sigma": -0.8295864769252868
+   },
+   "shift_2018_to_2022_rel": -6.764085077723348e-10,
+   "shift_2018_to_2022_in_u2018": -4.473684210526316,
+   "rel_unc_grew": true
+  }
+ ],
+ "gains": [
+  {
+   "quantity": "Avogadro constant",
+   "unit": "mol^-1",
+   "stipulated": "6.022 140 76 e23",
+   "stipulated_truncated": false,
+   "measured_2014": "6.022 140 857 e23",
+   "unc_2014": "0.000 000 074 e23",
+   "rel_unc_2014": 1.2287988899161014e-08,
+   "deviation": -9700000000000000.0,
+   "rel_deviation": -1.6107228692143493e-08,
+   "sigma": -1.3108108108108107
+  },
+  {
+   "quantity": "Boltzmann constant",
+   "unit": "J K^-1",
+   "stipulated": "1.380 649 e-23",
+   "stipulated_truncated": false,
+   "measured_2014": "1.380 648 52 e-23",
+   "unc_2014": "0.000 000 79 e-23",
+   "rel_unc_2014": 5.721948696979011e-07,
+   "deviation": 4.8e-30,
+   "rel_deviation": 3.4766270563923104e-07,
+   "sigma": 0.6075949367088608
+  },
+  {
+   "quantity": "Boltzmann constant in Hz/K",
+   "unit": "Hz K^-1",
+   "stipulated": "2.083 661 912... e10",
+   "stipulated_truncated": true,
+   "measured_2014": "2.083 6612 e10",
+   "unc_2014": "0.000 0012 e10",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 5.759093656876656e-07,
+   "deviation": 7120.0,
+   "rel_deviation": 3.417062236413482e-07,
+   "sigma": 0.5933333333333334
+  },
+  {
+   "quantity": "Boltzmann constant in eV/K",
+   "unit": "eV K^-1",
+   "stipulated": "8.617 333 262... e-5",
+   "stipulated_truncated": true,
+   "measured_2014": "8.617 3303 e-5",
+   "unc_2014": "0.000 0050 e-5",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 5.802261055259771e-07,
+   "deviation": 2.962e-11,
+   "rel_deviation": 3.4372594491358885e-07,
+   "sigma": 0.5924
+  },
+  {
+   "quantity": "Faraday constant",
+   "unit": "C mol^-1",
+   "stipulated": "96 485.332 12...",
+   "stipulated_truncated": true,
+   "measured_2014": "96 485.332 89",
+   "unc_2014": "0.000 59",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 6.114919048604424e-09,
+   "deviation": -0.00077,
+   "rel_deviation": -7.98048757190747e-09,
+   "sigma": -1.305084745762712
+  },
+  {
+   "quantity": "Josephson constant",
+   "unit": "Hz V^-1",
+   "stipulated": "483 597.848 4... e9",
+   "stipulated_truncated": true,
+   "measured_2014": "483 597.8525 e9",
+   "unc_2014": "0.0030 e9",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 6.2035014930096286e-09,
+   "deviation": -4100000.0,
+   "rel_deviation": -8.478118707113159e-09,
+   "sigma": -1.3666666666666667
+  },
+  {
+   "quantity": "Loschmidt constant (273.15 K, 100 kPa)",
+   "unit": "m^-3",
+   "stipulated": "2.651 645 804... e25",
+   "stipulated_truncated": true,
+   "measured_2014": "2.651 6467 e25",
+   "unc_2014": "0.000 0015 e25",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 5.656862205662617e-07,
+   "deviation": -8.96e+18,
+   "rel_deviation": -3.3790323575158034e-07,
+   "sigma": -0.5973333333333334
+  },
+  {
+   "quantity": "Loschmidt constant (273.15 K, 101.325 kPa)",
+   "unit": "m^-3",
+   "stipulated": "2.686 780 111... e25",
+   "stipulated_truncated": true,
+   "measured_2014": "2.686 7811 e25",
+   "unc_2014": "0.000 0015 e25",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 5.582888758596672e-07,
+   "deviation": -9.89e+18,
+   "rel_deviation": -3.6809846548347387e-07,
+   "sigma": -0.6593333333333333
+  },
+  {
+   "quantity": "Planck constant",
+   "unit": "J Hz^-1",
+   "stipulated": "6.626 070 15 e-34",
+   "stipulated_truncated": false,
+   "measured_2014": "6.626 070 040 e-34",
+   "unc_2014": "0.000 000 081 e-34",
+   "rel_unc_2014": 1.2224440658040493e-08,
+   "deviation": 1.1e-41,
+   "rel_deviation": 1.660109225165993e-08,
+   "sigma": 1.3580246913580247
+  },
+  {
+   "quantity": "Planck constant in eV/Hz",
+   "unit": "eV Hz^-1",
+   "stipulated": "4.135 667 696... e-15",
+   "stipulated_truncated": true,
+   "measured_2014": "4.135 667 662 e-15",
+   "unc_2014": "0.000 000 025 e-15",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 6.044973156259383e-09,
+   "deviation": 3.4e-23,
+   "rel_deviation": 8.22116349251276e-09,
+   "sigma": 1.36
+  },
+  {
+   "quantity": "Stefan-Boltzmann constant",
+   "unit": "W m^-2 K^-4",
+   "stipulated": "5.670 374 419... e-8",
+   "stipulated_truncated": true,
+   "measured_2014": "5.670 367 e-8",
+   "unc_2014": "0.000 013 e-8",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 2.292620565829337e-06,
+   "deviation": 7.419e-14,
+   "rel_deviation": 1.3083809213759886e-06,
+   "sigma": 0.5706923076923077
+  },
+  {
+   "quantity": "Wien frequency displacement law constant",
+   "unit": "Hz K^-1",
+   "stipulated": "5.878 925 757... e10",
+   "stipulated_truncated": true,
+   "measured_2014": "5.878 9238 e10",
+   "unc_2014": "0.000 0034 e10",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 5.78337143951415e-07,
+   "deviation": 19570.0,
+   "rel_deviation": 3.328840560920351e-07,
+   "sigma": 0.5755882352941176
+  },
+  {
+   "quantity": "Wien wavelength displacement law constant",
+   "unit": "m K",
+   "stipulated": "2.897 771 955... e-3",
+   "stipulated_truncated": true,
+   "measured_2014": "2.897 7729 e-3",
+   "unc_2014": "0.000 0017 e-3",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 5.866574292278046e-07,
+   "deviation": -9.45e-10,
+   "rel_deviation": -3.261125121295737e-07,
+   "sigma": -0.5558823529411765
+  },
+  {
+   "quantity": "atomic unit of action",
+   "unit": "J s",
+   "stipulated": "1.054 571 817... e-34",
+   "stipulated_truncated": true,
+   "measured_2014": "1.054 571 800 e-34",
+   "unc_2014": "0.000 000 013 e-34",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 1.2327278237479895e-08,
+   "deviation": 1.7e-42,
+   "rel_deviation": 1.6120286925935247e-08,
+   "sigma": 1.3076923076923077
+  },
+  {
+   "quantity": "atomic unit of charge",
+   "unit": "C",
+   "stipulated": "1.602 176 634 e-19",
+   "stipulated_truncated": false,
+   "measured_2014": "1.602 176 6208 e-19",
+   "unc_2014": "0.000 000 0098 e-19",
+   "rel_unc_2014": 6.116678943365593e-09,
+   "deviation": 1.32e-27,
+   "rel_deviation": 8.2387920461659e-09,
+   "sigma": 1.346938775510204
+  },
+  {
+   "quantity": "conductance quantum",
+   "unit": "S",
+   "stipulated": "7.748 091 729... e-5",
+   "stipulated_truncated": true,
+   "measured_2014": "7.748 091 7310 e-5",
+   "unc_2014": "0.000 000 0018 e-5",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 2.3231526709966877e-10,
+   "deviation": -2e-14,
+   "rel_deviation": -2.5812807455518753e-10,
+   "sigma": -1.1111111111111112
+  },
+  {
+   "quantity": "electron volt",
+   "unit": "J",
+   "stipulated": "1.602 176 634 e-19",
+   "stipulated_truncated": false,
+   "measured_2014": "1.602 176 6208 e-19",
+   "unc_2014": "0.000 000 0098 e-19",
+   "rel_unc_2014": 6.116678943365593e-09,
+   "deviation": 1.32e-27,
+   "rel_deviation": 8.2387920461659e-09,
+   "sigma": 1.346938775510204
+  },
+  {
+   "quantity": "electron volt-hertz relationship",
+   "unit": "Hz",
+   "stipulated": "2.417 989 242... e14",
+   "stipulated_truncated": true,
+   "measured_2014": "2.417 989 262 e14",
+   "unc_2014": "0.000 000 015 e14",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 6.2035014942924095e-09,
+   "deviation": -2000000.0,
+   "rel_deviation": -8.271335325723212e-09,
+   "sigma": -1.3333333333333333
+  },
+  {
+   "quantity": "electron volt-inverse meter relationship",
+   "unit": "m^-1",
+   "stipulated": "8.065 543 937... e5",
+   "stipulated_truncated": true,
+   "measured_2014": "8.065 544 005 e5",
+   "unc_2014": "0.000 000 050 e5",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 6.199209869663342e-09,
+   "deviation": -0.0068,
+   "rel_deviation": -8.430925422742145e-09,
+   "sigma": -1.36
+  },
+  {
+   "quantity": "electron volt-joule relationship",
+   "unit": "J",
+   "stipulated": "1.602 176 634 e-19",
+   "stipulated_truncated": false,
+   "measured_2014": "1.602 176 6208 e-19",
+   "unc_2014": "0.000 000 0098 e-19",
+   "rel_unc_2014": 6.116678943365593e-09,
+   "deviation": 1.32e-27,
+   "rel_deviation": 8.2387920461659e-09,
+   "sigma": 1.346938775510204
+  },
+  {
+   "quantity": "electron volt-kelvin relationship",
+   "unit": "K",
+   "stipulated": "1.160 451 812... e4",
+   "stipulated_truncated": true,
+   "measured_2014": "1.160 452 21 e4",
+   "unc_2014": "0.000 000 67 e4",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 5.7736113062338e-07,
+   "deviation": -0.00398,
+   "rel_deviation": -3.429697462509033e-07,
+   "sigma": -0.5940298507462687
+  },
+  {
+   "quantity": "electron volt-kilogram relationship",
+   "unit": "kg",
+   "stipulated": "1.782 661 921... e-36",
+   "stipulated_truncated": true,
+   "measured_2014": "1.782 661 907 e-36",
+   "unc_2014": "0.000 000 011 e-36",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 6.170547514818243e-09,
+   "deviation": 1.4e-44,
+   "rel_deviation": 7.853424109768673e-09,
+   "sigma": 1.2727272727272727
+  },
+  {
+   "quantity": "elementary charge",
+   "unit": "C",
+   "stipulated": "1.602 176 634 e-19",
+   "stipulated_truncated": false,
+   "measured_2014": "1.602 176 6208 e-19",
+   "unc_2014": "0.000 000 0098 e-19",
+   "rel_unc_2014": 6.116678943365593e-09,
+   "deviation": 1.32e-27,
+   "rel_deviation": 8.2387920461659e-09,
+   "sigma": 1.346938775510204
+  },
+  {
+   "quantity": "first radiation constant",
+   "unit": "W m^2",
+   "stipulated": "3.741 771 852... e-16",
+   "stipulated_truncated": true,
+   "measured_2014": "3.741 771 790 e-16",
+   "unc_2014": "0.000 000 046 e-16",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 1.2293641243150213e-08,
+   "deviation": 6.2e-24,
+   "rel_deviation": 1.656969037120246e-08,
+   "sigma": 1.3478260869565217
+  },
+  {
+   "quantity": "first radiation constant for spectral radiance",
+   "unit": "W m^2 sr^-1",
+   "stipulated": "1.191 042 972... e-16",
+   "stipulated_truncated": true,
+   "measured_2014": "1.191 042 953 e-16",
+   "unc_2014": "0.000 000 015 e-16",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 1.259400423991258e-08,
+   "deviation": 1.9e-24,
+   "rel_deviation": 1.5952405370555933e-08,
+   "sigma": 1.2666666666666666
+  },
+  {
+   "quantity": "hertz-electron volt relationship",
+   "unit": "eV",
+   "stipulated": "4.135 667 696... e-15",
+   "stipulated_truncated": true,
+   "measured_2014": "4.135 667 662 e-15",
+   "unc_2014": "0.000 000 025 e-15",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 6.044973156259383e-09,
+   "deviation": 3.4e-23,
+   "rel_deviation": 8.22116349251276e-09,
+   "sigma": 1.36
+  },
+  {
+   "quantity": "hertz-joule relationship",
+   "unit": "J",
+   "stipulated": "6.626 070 15 e-34",
+   "stipulated_truncated": false,
+   "measured_2014": "6.626 070 040 e-34",
+   "unc_2014": "0.000 000 081 e-34",
+   "rel_unc_2014": 1.2224440658040493e-08,
+   "deviation": 1.1e-41,
+   "rel_deviation": 1.660109225165993e-08,
+   "sigma": 1.3580246913580247
+  },
+  {
+   "quantity": "hertz-kelvin relationship",
+   "unit": "K",
+   "stipulated": "4.799 243 073... e-11",
+   "stipulated_truncated": true,
+   "measured_2014": "4.799 2447 e-11",
+   "unc_2014": "0.000 0028 e-11",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 5.834251377096901e-07,
+   "deviation": -1.627e-17,
+   "rel_deviation": -3.3901167823345204e-07,
+   "sigma": -0.5810714285714286
+  },
+  {
+   "quantity": "hertz-kilogram relationship",
+   "unit": "kg",
+   "stipulated": "7.372 497 323... e-51",
+   "stipulated_truncated": true,
+   "measured_2014": "7.372 497 201 e-51",
+   "unc_2014": "0.000 000 091 e-51",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 1.2343171861449718e-08,
+   "deviation": 1.22e-58,
+   "rel_deviation": 1.6547988649416104e-08,
+   "sigma": 1.3406593406593406
+  },
+  {
+   "quantity": "inverse meter-electron volt relationship",
+   "unit": "eV",
+   "stipulated": "1.239 841 984... e-6",
+   "stipulated_truncated": true,
+   "measured_2014": "1.239 841 9739 e-6",
+   "unc_2014": "0.000 000 0076 e-6",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 6.129813443961514e-09,
+   "deviation": 1.01e-14,
+   "rel_deviation": 8.146199445264643e-09,
+   "sigma": 1.3289473684210527
+  },
+  {
+   "quantity": "inverse meter-joule relationship",
+   "unit": "J",
+   "stipulated": "1.986 445 857... e-25",
+   "stipulated_truncated": true,
+   "measured_2014": "1.986 445 824 e-25",
+   "unc_2014": "0.000 000 024 e-25",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 1.2081879963719564e-08,
+   "deviation": 3.3e-33,
+   "rel_deviation": 1.66125849501144e-08,
+   "sigma": 1.375
+  },
+  {
+   "quantity": "inverse meter-kelvin relationship",
+   "unit": "K",
+   "stipulated": "1.438 776 877... e-2",
+   "stipulated_truncated": true,
+   "measured_2014": "1.438 777 36 e-2",
+   "unc_2014": "0.000 000 83 e-2",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 5.768786909463185e-07,
+   "deviation": -4.83e-09,
+   "rel_deviation": -3.35701696056713e-07,
+   "sigma": -0.5819277108433735
+  },
+  {
+   "quantity": "inverse meter-kilogram relationship",
+   "unit": "kg",
+   "stipulated": "2.210 219 094... e-42",
+   "stipulated_truncated": true,
+   "measured_2014": "2.210 219 057 e-42",
+   "unc_2014": "0.000 000 027 e-42",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 1.2215983711880555e-08,
+   "deviation": 3.7e-50,
+   "rel_deviation": 1.6740422123688167e-08,
+   "sigma": 1.3703703703703705
+  },
+  {
+   "quantity": "inverse of conductance quantum",
+   "unit": "ohm",
+   "stipulated": "12 906.403 72...",
+   "stipulated_truncated": true,
+   "measured_2014": "12 906.403 7278",
+   "unc_2014": "0.000 0029",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 2.2469466019829277e-10,
+   "deviation": -7.8e-06,
+   "rel_deviation": -6.043511550160978e-10,
+   "sigma": -2.689655172413793
+  },
+  {
+   "quantity": "joule-electron volt relationship",
+   "unit": "eV",
+   "stipulated": "6.241 509 074... e18",
+   "stipulated_truncated": true,
+   "measured_2014": "6.241 509 126 e18",
+   "unc_2014": "0.000 000 038 e18",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 6.088271158926124e-09,
+   "deviation": -52000000000.0,
+   "rel_deviation": -8.331318428004169e-09,
+   "sigma": -1.368421052631579
+  },
+  {
+   "quantity": "joule-hertz relationship",
+   "unit": "Hz",
+   "stipulated": "1.509 190 179... e33",
+   "stipulated_truncated": true,
+   "measured_2014": "1.509 190 205 e33",
+   "unc_2014": "0.000 000 019 e33",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 1.258953307346704e-08,
+   "deviation": -2.6e+25,
+   "rel_deviation": -1.722778210053384e-08,
+   "sigma": -1.368421052631579
+  },
+  {
+   "quantity": "joule-inverse meter relationship",
+   "unit": "m^-1",
+   "stipulated": "5.034 116 567... e24",
+   "stipulated_truncated": true,
+   "measured_2014": "5.034 116 651 e24",
+   "unc_2014": "0.000 000 062 e24",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 1.2315964110145131e-08,
+   "deviation": -8.4e+16,
+   "rel_deviation": -1.6686144923422436e-08,
+   "sigma": -1.3548387096774193
+  },
+  {
+   "quantity": "joule-kelvin relationship",
+   "unit": "K",
+   "stipulated": "7.242 970 516... e22",
+   "stipulated_truncated": true,
+   "measured_2014": "7.242 9731 e22",
+   "unc_2014": "0.000 0042 e22",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 5.798723731281012e-07,
+   "deviation": -2.584e+16,
+   "rel_deviation": -3.5675957432452703e-07,
+   "sigma": -0.6152380952380953
+  },
+  {
+   "quantity": "kelvin-electron volt relationship",
+   "unit": "eV",
+   "stipulated": "8.617 333 262... e-5",
+   "stipulated_truncated": true,
+   "measured_2014": "8.617 3303 e-5",
+   "unc_2014": "0.000 0050 e-5",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 5.802261055259771e-07,
+   "deviation": 2.962e-11,
+   "rel_deviation": 3.4372594491358885e-07,
+   "sigma": 0.5924
+  },
+  {
+   "quantity": "kelvin-hertz relationship",
+   "unit": "Hz",
+   "stipulated": "2.083 661 912... e10",
+   "stipulated_truncated": true,
+   "measured_2014": "2.083 6612 e10",
+   "unc_2014": "0.000 0012 e10",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 5.759093656876656e-07,
+   "deviation": 7120.0,
+   "rel_deviation": 3.417062236413482e-07,
+   "sigma": 0.5933333333333334
+  },
+  {
+   "quantity": "kelvin-inverse meter relationship",
+   "unit": "m^-1",
+   "stipulated": "69.503 480 04...",
+   "stipulated_truncated": true,
+   "measured_2014": "69.503 457",
+   "unc_2014": "0.000 040",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 5.755109418514247e-07,
+   "deviation": 2.304e-05,
+   "rel_deviation": 3.3149430250642067e-07,
+   "sigma": 0.576
+  },
+  {
+   "quantity": "kelvin-joule relationship",
+   "unit": "J",
+   "stipulated": "1.380 649 e-23",
+   "stipulated_truncated": false,
+   "measured_2014": "1.380 648 52 e-23",
+   "unc_2014": "0.000 000 79 e-23",
+   "rel_unc_2014": 5.721948696979011e-07,
+   "deviation": 4.8e-30,
+   "rel_deviation": 3.4766270563923104e-07,
+   "sigma": 0.6075949367088608
+  },
+  {
+   "quantity": "kelvin-kilogram relationship",
+   "unit": "kg",
+   "stipulated": "1.536 179 187... e-40",
+   "stipulated_truncated": true,
+   "measured_2014": "1.536 178 65 e-40",
+   "unc_2014": "0.000 000 88 e-40",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 5.728500392841679e-07,
+   "deviation": 5.37e-47,
+   "rel_deviation": 3.495687171540888e-07,
+   "sigma": 0.6102272727272727
+  },
+  {
+   "quantity": "kilogram-electron volt relationship",
+   "unit": "eV",
+   "stipulated": "5.609 588 603... e35",
+   "stipulated_truncated": true,
+   "measured_2014": "5.609 588 650 e35",
+   "unc_2014": "0.000 000 034 e35",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 6.061050483621468e-09,
+   "deviation": -4.7e+27,
+   "rel_deviation": -8.378510962653207e-09,
+   "sigma": -1.3823529411764706
+  },
+  {
+   "quantity": "kilogram-hertz relationship",
+   "unit": "Hz",
+   "stipulated": "1.356 392 489... e50",
+   "stipulated_truncated": true,
+   "measured_2014": "1.356 392 512 e50",
+   "unc_2014": "0.000 000 017 e50",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 1.253324524398436e-08,
+   "deviation": -2.3e+42,
+   "rel_deviation": -1.6956743565390606e-08,
+   "sigma": -1.3529411764705883
+  },
+  {
+   "quantity": "kilogram-inverse meter relationship",
+   "unit": "m^-1",
+   "stipulated": "4.524 438 335... e41",
+   "stipulated_truncated": true,
+   "measured_2014": "4.524 438 411 e41",
+   "unc_2014": "0.000 000 056 e41",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 1.2377226721409337e-08,
+   "deviation": -7.6e+33,
+   "rel_deviation": -1.6797664836198385e-08,
+   "sigma": -1.3571428571428572
+  },
+  {
+   "quantity": "kilogram-kelvin relationship",
+   "unit": "K",
+   "stipulated": "6.509 657 260... e39",
+   "stipulated_truncated": true,
+   "measured_2014": "6.509 6595 e39",
+   "unc_2014": "0.000 0037 e39",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 5.68386103758576e-07,
+   "deviation": -2.24e+33,
+   "rel_deviation": -3.4410401957275953e-07,
+   "sigma": -0.6054054054054054
+  },
+  {
+   "quantity": "mag. flux quantum",
+   "unit": "Wb",
+   "stipulated": "2.067 833 848... e-15",
+   "stipulated_truncated": true,
+   "measured_2014": "2.067 833 831 e-15",
+   "unc_2014": "0.000 000 013 e-15",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 6.286772082509758e-09,
+   "deviation": 1.7e-23,
+   "rel_deviation": 8.22116349251276e-09,
+   "sigma": 1.3076923076923077
+  },
+  {
+   "quantity": "molar Planck constant",
+   "unit": "J Hz^-1 mol^-1",
+   "stipulated": "3.990 312 712... e-10",
+   "stipulated_truncated": true,
+   "measured_2014": "3.990 312 7110 e-10",
+   "unc_2014": "0.000 000 0018 e-10",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 4.5109246577041013e-10,
+   "deviation": 1e-19,
+   "rel_deviation": 2.506069254280056e-10,
+   "sigma": 0.5555555555555556
+  },
+  {
+   "quantity": "molar gas constant",
+   "unit": "J mol^-1 K^-1",
+   "stipulated": "8.314 462 618...",
+   "stipulated_truncated": true,
+   "measured_2014": "8.314 4598",
+   "unc_2014": "0.000 0048",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 5.773074998811107e-07,
+   "deviation": 2.818e-06,
+   "rel_deviation": 3.3892761138853544e-07,
+   "sigma": 0.5870833333333333
+  },
+  {
+   "quantity": "molar volume of ideal gas (273.15 K, 100 kPa)",
+   "unit": "m^3 mol^-1",
+   "stipulated": "22.710 954 64... e-3",
+   "stipulated_truncated": true,
+   "measured_2014": "22.710 947 e-3",
+   "unc_2014": "0.000 013 e-3",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 5.724111812686631e-07,
+   "deviation": 7.64e-09,
+   "rel_deviation": 3.3640164806866045e-07,
+   "sigma": 0.5876923076923077
+  },
+  {
+   "quantity": "molar volume of ideal gas (273.15 K, 101.325 kPa)",
+   "unit": "m^3 mol^-1",
+   "stipulated": "22.413 969 54... e-3",
+   "stipulated_truncated": true,
+   "measured_2014": "22.413 962 e-3",
+   "unc_2014": "0.000 013 e-3",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 5.799956295098564e-07,
+   "deviation": 7.54e-09,
+   "rel_deviation": 3.363974651157167e-07,
+   "sigma": 0.58
+  },
+  {
+   "quantity": "natural unit of action",
+   "unit": "J s",
+   "stipulated": "1.054 571 817... e-34",
+   "stipulated_truncated": true,
+   "measured_2014": "1.054 571 800 e-34",
+   "unc_2014": "0.000 000 013 e-34",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 1.2327278237479895e-08,
+   "deviation": 1.7e-42,
+   "rel_deviation": 1.6120286925935247e-08,
+   "sigma": 1.3076923076923077
+  },
+  {
+   "quantity": "natural unit of action in eV s",
+   "unit": "eV s",
+   "stipulated": "6.582 119 569... e-16",
+   "stipulated_truncated": true,
+   "measured_2014": "6.582 119 514 e-16",
+   "unc_2014": "0.000 000 040 e-16",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 6.077069842764329e-09,
+   "deviation": 5.5e-24,
+   "rel_deviation": 8.355971033800952e-09,
+   "sigma": 1.375
+  },
+  {
+   "quantity": "reduced Planck constant",
+   "unit": "J s",
+   "stipulated": "1.054 571 817... e-34",
+   "stipulated_truncated": true,
+   "measured_2014": "1.054 571 800 e-34",
+   "unc_2014": "0.000 000 013 e-34",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 1.2327278237479895e-08,
+   "deviation": 1.7e-42,
+   "rel_deviation": 1.6120286925935247e-08,
+   "sigma": 1.3076923076923077
+  },
+  {
+   "quantity": "reduced Planck constant in eV s",
+   "unit": "eV s",
+   "stipulated": "6.582 119 569... e-16",
+   "stipulated_truncated": true,
+   "measured_2014": "6.582 119 514 e-16",
+   "unc_2014": "0.000 000 040 e-16",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 6.077069842764329e-09,
+   "deviation": 5.5e-24,
+   "rel_deviation": 8.355971033800952e-09,
+   "sigma": 1.375
+  },
+  {
+   "quantity": "reduced Planck constant times c in MeV fm",
+   "unit": "MeV fm",
+   "stipulated": "197.326 980 4...",
+   "stipulated_truncated": true,
+   "measured_2014": "197.326 9788",
+   "unc_2014": "0.000 0012",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 6.081276910524512e-09,
+   "deviation": 1.6e-06,
+   "rel_deviation": 8.108369214032683e-09,
+   "sigma": 1.3333333333333333
+  },
+  {
+   "quantity": "second radiation constant",
+   "unit": "m K",
+   "stipulated": "1.438 776 877... e-2",
+   "stipulated_truncated": true,
+   "measured_2014": "1.438 777 36 e-2",
+   "unc_2014": "0.000 000 83 e-2",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 5.768786909463185e-07,
+   "deviation": -4.83e-09,
+   "rel_deviation": -3.35701696056713e-07,
+   "sigma": -0.5819277108433735
+  },
+  {
+   "quantity": "von Klitzing constant",
+   "unit": "ohm",
+   "stipulated": "25 812.807 45...",
+   "stipulated_truncated": true,
+   "measured_2014": "25 812.807 4555",
+   "unc_2014": "0.000 0059",
+   "note": "post-2019 exact value printed truncated; sigma limited by printed digits",
+   "rel_unc_2014": 2.2856870606466607e-10,
+   "deviation": -5.5e-06,
+   "rel_deviation": -2.130725226026548e-10,
+   "sigma": -0.9322033898305084
+  }
+ ],
+ "forwarding_addresses": [
+  {
+   "quantity_that_receives": "mass of the international prototype m(K)",
+   "constant_it_inherits_from": "Planck constant",
+   "uncertainty_stated_by_resolution": "1.0e-8",
+   "note": "not in these tables (an artefact, not a constant)",
+   "rel_unc_in_codata_2014": 1.2224440658040493e-08,
+   "matches_resolution": false
+  },
+  {
+   "quantity_that_receives": "vacuum magnetic permeability mu_0",
+   "constant_it_inherits_from": "fine-structure constant",
+   "uncertainty_stated_by_resolution": "2.3e-10",
+   "note": null,
+   "rel_unc_in_codata_2014": 2.3296119853486266e-10,
+   "matches_resolution": true
+  },
+  {
+   "quantity_that_receives": "triple point of water T_TPW",
+   "constant_it_inherits_from": "Boltzmann constant",
+   "uncertainty_stated_by_resolution": "3.7e-7",
+   "note": "not in these tables",
+   "rel_unc_in_codata_2014": 5.721948696979011e-07,
+   "matches_resolution": false
+  },
+  {
+   "quantity_that_receives": "molar mass of carbon 12 M(12C)",
+   "constant_it_inherits_from": "molar Planck constant",
+   "uncertainty_stated_by_resolution": "4.5e-10",
+   "note": null,
+   "rel_unc_in_codata_2014": 4.5109246577041013e-10,
+   "matches_resolution": true
+  }
+ ],
+ "invariants": [
+  {
+   "year": "2018",
+   "e0_mu0_c2_minus_1": -4.348093115777767e-14,
+   "Z0_over_mu0_c_minus_1": 3.043315067589357e-12,
+   "rel_dev_mu0_from_abrogated": 5.443757196157052e-10,
+   "rel_dev_e0_from_abrogated": -5.444192002504944e-10,
+   "product_residual_smaller_by_factor": 12519.87262279064
+  },
+  {
+   "year": "2022",
+   "e0_mu0_c2_minus_1": 1.1934512619536903e-12,
+   "Z0_over_mu0_c_minus_1": -7.937152635576888e-14,
+   "rel_dev_mu0_from_abrogated": -1.3203278852484997e-10,
+   "rel_dev_e0_from_abrogated": 1.3322623980439388e-10,
+   "product_residual_smaller_by_factor": 110.631068677837
+  }
+ ],
+ "census": {
+  "exact_2014": 17,
+  "exact_2018": 81,
+  "stayed_exact": 11,
+  "lost": 6,
+  "gained": 59,
+  "exact_and_new_in_2018": 11,
+  "adds_up": true,
+  "stayed_exact_names": [
+   "conventional value of Josephson constant",
+   "conventional value of von Klitzing constant",
+   "hertz-inverse meter relationship",
+   "inverse meter-hertz relationship",
+   "joule-kilogram relationship",
+   "kilogram-joule relationship",
+   "natural unit of velocity",
+   "speed of light in vacuum",
+   "standard acceleration of gravity",
+   "standard atmosphere",
+   "standard-state pressure"
+  ],
+  "exact_and_new_names": [
+   "Boltzmann constant in inverse meter per kelvin",
+   "conventional value of ampere-90",
+   "conventional value of coulomb-90",
+   "conventional value of farad-90",
+   "conventional value of henry-90",
+   "conventional value of ohm-90",
+   "conventional value of volt-90",
+   "conventional value of watt-90",
+   "elementary charge over h-bar",
+   "hyperfine transition frequency of Cs-133",
+   "luminous efficacy"
+  ]
+ },
+ "printing_resolution_check": [
+  {
+   "quantity": "atomic unit of permittivity",
+   "rel_unc_2018": 1.5278838046814749e-10,
+   "rel_unc_2022": 1.5278838036515797e-10,
+   "apparent_change": -1.0298951113386967e-19,
+   "one_unit_of_printing": 8.98755179224397e-12,
+   "change_in_units_of_last_printed_digit": 1.1459128527386848e-08,
+   "resolvable": false
+  },
+  {
+   "quantity": "characteristic impedance of vacuum",
+   "rel_unc_2018": 1.513018674951446e-10,
+   "rel_unc_2022": 1.5661070505753644e-10,
+   "apparent_change": 5.308837562391846e-12,
+   "one_unit_of_printing": 2.654418727984993e-12,
+   "change_in_units_of_last_printed_digit": 2.0000000400923406,
+   "resolvable": true
+  },
+  {
+   "quantity": "molar mass constant",
+   "rel_unc_2018": 3.00000000105e-10,
+   "rel_unc_2022": 3.099999996745e-10,
+   "apparent_change": 9.9999995695e-12,
+   "one_unit_of_printing": 1.00000000035e-11,
+   "change_in_units_of_last_printed_digit": 0.9999999566000001,
+   "resolvable": false
+  },
+  {
+   "quantity": "molar mass of carbon-12",
+   "rel_unc_2018": 3.00000000105e-10,
+   "rel_unc_2022": 3.0833333300958334e-10,
+   "apparent_change": 8.333332904583334e-12,
+   "one_unit_of_printing": 8.33333333625e-12,
+   "change_in_units_of_last_printed_digit": 0.9999999482,
+   "resolvable": false
+  },
+  {
+   "quantity": "vacuum electric permittivity",
+   "rel_unc_2018": 1.468231787584925e-10,
+   "rel_unc_2022": 1.5811726932507522e-10,
+   "apparent_change": 1.1294090566582745e-11,
+   "one_unit_of_printing": 1.1294090673730191e-11,
+   "change_in_units_of_last_printed_digit": 0.9999999905129638,
+   "resolvable": false
+  },
+  {
+   "quantity": "vacuum mag. permeability",
+   "rel_unc_2018": 1.511971958549925e-10,
+   "rel_unc_2022": 1.59154943112909e-10,
+   "apparent_change": 7.95774725791652e-12,
+   "one_unit_of_printing": 7.957747150262763e-12,
+   "change_in_units_of_last_printed_digit": 1.0000000135281701,
+   "resolvable": false
+  },
+  {
+   "quantity": "inverse fine-structure constant (the parent)",
+   "year": "2018",
+   "rel_unc": 1.5324440395495982e-10,
+   "rel_unc_of_mu0_same_year": 1.511971958549925e-10
+  },
+  {
+   "quantity": "inverse fine-structure constant (the parent)",
+   "year": "2022",
+   "rel_unc": 1.5324440385095993e-10,
+   "rel_unc_of_mu0_same_year": 1.59154943112909e-10
+  }
+ ],
+ "alpha_tracking": {
+  "inverse_alpha_2018": "137.035999084",
+  "inverse_alpha_2022": "137.035999177",
+  "rel_shift_of_alpha_2018_to_2022": -6.786537889433935e-10,
+  "rows": [
+   {
+    "quantity": "atomic unit of permittivity",
+    "parent": "alpha",
+    "power_of_alpha": -1,
+    "predicted_rel_shift": 6.786537889433935e-10,
+    "observed_rel_shift": 6.740663844182977e-10,
+    "ratio_observed_over_predicted": 0.9932404348139896
+   },
+   {
+    "quantity": "characteristic impedance of vacuum",
+    "parent": "alpha",
+    "power_of_alpha": 1,
+    "predicted_rel_shift": -6.786537889433935e-10,
+    "observed_rel_shift": -6.795311943641582e-10,
+    "ratio_observed_over_predicted": 1.0012928615960883
+   },
+   {
+    "quantity": "molar mass constant",
+    "parent": "alpha^-2 (approximately)",
+    "power_of_alpha": -2,
+    "predicted_rel_shift": 1.357307577886787e-09,
+    "observed_rel_shift": 1.40000000049e-09,
+    "ratio_observed_over_predicted": 1.0314537569072453
+   },
+   {
+    "quantity": "molar mass of carbon-12",
+    "parent": "alpha^-2 (approximately)",
+    "power_of_alpha": -2,
+    "predicted_rel_shift": 1.357307577886787e-09,
+    "observed_rel_shift": 1.40000000049e-09,
+    "ratio_observed_over_predicted": 1.0314537569072453
+   },
+   {
+    "quantity": "vacuum electric permittivity",
+    "parent": "alpha",
+    "power_of_alpha": -1,
+    "predicted_rel_shift": 6.786537889433935e-10,
+    "observed_rel_shift": 6.776454404238115e-10,
+    "ratio_observed_over_predicted": 0.998514193045099
+   },
+   {
+    "quantity": "vacuum mag. permeability",
+    "parent": "alpha",
+    "power_of_alpha": 1,
+    "predicted_rel_shift": -6.786537889433935e-10,
+    "observed_rel_shift": -6.764085077723348e-10,
+    "ratio_observed_over_predicted": 0.9966915661451556
+   }
+  ]
+ },
+ "gain_sigma_clusters": [
+  {
+   "sigma": 0.6,
+   "count": 14,
+   "examples": [
+    "Boltzmann constant",
+    "Boltzmann constant in Hz/K",
+    "Boltzmann constant in eV/K"
+   ]
+  },
+  {
+   "sigma": 1.3,
+   "count": 14,
+   "examples": [
+    "atomic unit of action",
+    "atomic unit of charge",
+    "electron volt"
+   ]
+  },
+  {
+   "sigma": -1.4,
+   "count": 8,
+   "examples": [
+    "Josephson constant",
+    "electron volt-inverse meter relationship",
+    "joule-electron volt relationship"
+   ]
+  },
+  {
+   "sigma": -0.6,
+   "count": 8,
+   "examples": [
+    "Loschmidt constant (273.15 K, 100 kPa)",
+    "Wien wavelength displacement law constant",
+    "electron volt-kelvin relationship"
+   ]
+  },
+  {
+   "sigma": 1.4,
+   "count": 8,
+   "examples": [
+    "Planck constant",
+    "Planck constant in eV/Hz",
+    "hertz-electron volt relationship"
+   ]
+  },
+  {
+   "sigma": -1.3,
+   "count": 3,
+   "examples": [
+    "Avogadro constant",
+    "Faraday constant",
+    "electron volt-hertz relationship"
+   ]
+  },
+  {
+   "sigma": -0.7,
+   "count": 1,
+   "examples": [
+    "Loschmidt constant (273.15 K, 101.325 kPa)"
+   ]
+  },
+  {
+   "sigma": -1.1,
+   "count": 1,
+   "examples": [
+    "conductance quantum"
+   ]
+  },
+  {
+   "sigma": -2.7,
+   "count": 1,
+   "examples": [
+    "inverse of conductance quantum"
+   ]
+  },
+  {
+   "sigma": -0.9,
+   "count": 1,
+   "examples": [
+    "von Klitzing constant"
+   ]
+  }
+ ]
+}

@@ -121,3 +121,41 @@ self-contained page that opens from the filesystem, and I have made that the def
 made than discover it. **No action needed if the repository is the venue.**
 
 — Ulysses (the nightly line), Session 45
+
+---
+
+## From the practice — 2026-08-11 (Session 47) — the two questions S45 filed, decided
+
+> tl;dr: no answer arrived, session 47 is the date S45 set for deciding alone, so both are now
+> settled. `atlas/` and `pulse/` are not rebuilt — closed, not deferred again. The display question
+> is answered by the scheduling instruction itself and is closed too.
+> braucht: nothing. Both are decisions, not requests. Reopen either by saying so.
+> kontext: S45's items 1 and 2 above · `journal/2026-08-11-session-47.md`
+
+**1. `pulse/` and `atlas/` stay unbuilt.** S45 declined to rebuild them on the first night after the
+fork, filed the question here, and set the standing rule: *decide for yourself from session 47.* This
+is session 47 and no answer came, which is a legitimate answer and I take it as one. The decision is
+the same as S45's interim one and now final rather than provisional, for one added reason beyond the
+third-pile measurement they cited: four nights have run without either instrument and the continuity
+they were built to carry has been carried instead by the journal, the works, and `tools/sessions.py`
+— a small ledger that reads the record rather than describing it. The protocol text (restored v3,
+"A session", step 5) still instructs both files. **The repository wins; the protocol text is out of
+date on this point and I am not silently editing it.** If you want the closure index and the rhizome
+back, say so and I will build them.
+
+**2. The display question is answered, and not by me.** S45 asked whether the works have a venue or
+whether the repository is it. The scheduling instruction that starts these nights now says a landed
+night is mirrored onto frankbueltge.de within hours and rendered at `/error-as-method/<slug>`, from
+the work's own `work.md` and its `figure.svg`, with the site linking back here for the evidence. That
+is an answer, so the question is closed. S46 had already adopted that form; tonight's work keeps it.
+Recorded here so the closure is on the record and not only in an instruction no future session reads.
+
+**3. One thing worth your attention, needing nothing from you.** Two nights running, a session has
+begun work on a branch cut from a stale `origin/main` — S46 caught it when a path did not exist, I
+caught it when `tools/` was missing, four commits behind. Both of us recovered, and both of us wasted
+work. It is not a request: `git fetch origin main` before branching is mine to remember, and the
+better fix is an instrument rather than a resolution. Noting it because it has now happened twice in
+two days to two different sessions, which makes it a property of the arrangement rather than of a
+night.
+
+— Ulysses (the nightly line), Session 47
