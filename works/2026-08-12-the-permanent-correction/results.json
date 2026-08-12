@@ -1,0 +1,1579 @@
+{
+ "object": "the Unicode Name property and its correction channel",
+ "unicode_version_measured": "17.0.0",
+ "runtime_unicodedata_version_for_the_record": "14.0.0",
+ "corrections_now": 39,
+ "characters_corrected": 39,
+ "series": [
+  {
+   "version": "5.0.0",
+   "year": 2006,
+   "corrections": 11,
+   "aliases_total": 11,
+   "new_this_version": [
+    "01A2",
+    "01A3",
+    "0CDE",
+    "0E9D",
+    "0E9F",
+    "0EA3",
+    "0EA5",
+    "0FD0",
+    "1D0C5",
+    "A015",
+    "FE18"
+   ]
+  },
+  {
+   "version": "5.1.0",
+   "year": 2008,
+   "corrections": 11,
+   "aliases_total": 11,
+   "new_this_version": []
+  },
+  {
+   "version": "5.2.0",
+   "year": 2009,
+   "corrections": 11,
+   "aliases_total": 11,
+   "new_this_version": []
+  },
+  {
+   "version": "6.0.0",
+   "year": 2010,
+   "corrections": 11,
+   "aliases_total": 11,
+   "new_this_version": []
+  },
+  {
+   "version": "6.1.0",
+   "year": 2012,
+   "corrections": 14,
+   "aliases_total": 449,
+   "new_this_version": [
+    "2118",
+    "2448",
+    "2449"
+   ]
+  },
+  {
+   "version": "6.2.0",
+   "year": 2012,
+   "corrections": 15,
+   "aliases_total": 450,
+   "new_this_version": [
+    "0709"
+   ]
+  },
+  {
+   "version": "6.3.0",
+   "year": 2013,
+   "corrections": 17,
+   "aliases_total": 457,
+   "new_this_version": [
+    "122D4",
+    "122D5"
+   ]
+  },
+  {
+   "version": "7.0.0",
+   "year": 2014,
+   "corrections": 17,
+   "aliases_total": 457,
+   "new_this_version": []
+  },
+  {
+   "version": "8.0.0",
+   "year": 2015,
+   "corrections": 19,
+   "aliases_total": 459,
+   "new_this_version": [
+    "2B7A",
+    "2B7C"
+   ]
+  },
+  {
+   "version": "9.0.0",
+   "year": 2016,
+   "corrections": 19,
+   "aliases_total": 459,
+   "new_this_version": []
+  },
+  {
+   "version": "10.0.0",
+   "year": 2017,
+   "corrections": 24,
+   "aliases_total": 464,
+   "new_this_version": [
+    "11EC",
+    "11ED",
+    "11EE",
+    "11EF",
+    "1B001"
+   ]
+  },
+  {
+   "version": "11.0.0",
+   "year": 2018,
+   "corrections": 28,
+   "aliases_total": 468,
+   "new_this_version": [
+    "16E56",
+    "16E57",
+    "16E76",
+    "16E77"
+   ]
+  },
+  {
+   "version": "12.0.0",
+   "year": 2019,
+   "corrections": 28,
+   "aliases_total": 468,
+   "new_this_version": []
+  },
+  {
+   "version": "12.1.0",
+   "year": 2019,
+   "corrections": 28,
+   "aliases_total": 468,
+   "new_this_version": []
+  },
+  {
+   "version": "13.0.0",
+   "year": 2020,
+   "corrections": 28,
+   "aliases_total": 468,
+   "new_this_version": []
+  },
+  {
+   "version": "14.0.0",
+   "year": 2021,
+   "corrections": 29,
+   "aliases_total": 470,
+   "new_this_version": [
+    "AA6E"
+   ]
+  },
+  {
+   "version": "15.0.0",
+   "year": 2022,
+   "corrections": 31,
+   "aliases_total": 473,
+   "new_this_version": [
+    "0616",
+    "1BBD"
+   ]
+  },
+  {
+   "version": "15.1.0",
+   "year": 2023,
+   "corrections": 31,
+   "aliases_total": 473,
+   "new_this_version": []
+  },
+  {
+   "version": "16.0.0",
+   "year": 2024,
+   "corrections": 35,
+   "aliases_total": 477,
+   "new_this_version": [
+    "12327",
+    "1680B",
+    "1E899",
+    "1E89A"
+   ]
+  },
+  {
+   "version": "17.0.0",
+   "year": 2025,
+   "corrections": 39,
+   "aliases_total": 481,
+   "new_this_version": [
+    "16881",
+    "1688E",
+    "168DC",
+    "1697D"
+   ]
+  }
+ ],
+ "table": [
+  {
+   "code": "01A2",
+   "name": "LATIN CAPITAL LETTER OI",
+   "correction": "LATIN CAPITAL LETTER GHA",
+   "encoded_version": "1.1",
+   "encoded_year": 1993,
+   "filed_version": "5.0.0",
+   "filed_year": 2006,
+   "unmarked_years": 13,
+   "years_since_filed": 19,
+   "kind": "replacement",
+   "edit_distance": 3,
+   "tokens_differing": 1
+  },
+  {
+   "code": "01A3",
+   "name": "LATIN SMALL LETTER OI",
+   "correction": "LATIN SMALL LETTER GHA",
+   "encoded_version": "1.1",
+   "encoded_year": 1993,
+   "filed_version": "5.0.0",
+   "filed_year": 2006,
+   "unmarked_years": 13,
+   "years_since_filed": 19,
+   "kind": "replacement",
+   "edit_distance": 3,
+   "tokens_differing": 1
+  },
+  {
+   "code": "0616",
+   "name": "ARABIC SMALL HIGH LIGATURE ALEF WITH LAM WITH YEH",
+   "correction": "ARABIC SMALL HIGH LIGATURE ALEF WITH YEH BARREE",
+   "encoded_version": "5.1",
+   "encoded_year": 2008,
+   "filed_version": "15.0.0",
+   "filed_year": 2022,
+   "unmarked_years": 14,
+   "years_since_filed": 3,
+   "kind": "replacement",
+   "edit_distance": 10,
+   "tokens_differing": null
+  },
+  {
+   "code": "0709",
+   "name": "SYRIAC SUBLINEAR COLON SKEWED RIGHT",
+   "correction": "SYRIAC SUBLINEAR COLON SKEWED LEFT",
+   "encoded_version": "3.0",
+   "encoded_year": 1999,
+   "filed_version": "6.2.0",
+   "filed_year": 2012,
+   "unmarked_years": 13,
+   "years_since_filed": 13,
+   "kind": "replacement",
+   "edit_distance": 4,
+   "tokens_differing": 1
+  },
+  {
+   "code": "0CDE",
+   "name": "KANNADA LETTER FA",
+   "correction": "KANNADA LETTER LLLA",
+   "encoded_version": "1.1",
+   "encoded_year": 1993,
+   "filed_version": "5.0.0",
+   "filed_year": 2006,
+   "unmarked_years": 13,
+   "years_since_filed": 19,
+   "kind": "replacement",
+   "edit_distance": 3,
+   "tokens_differing": 1
+  },
+  {
+   "code": "0E9D",
+   "name": "LAO LETTER FO TAM",
+   "correction": "LAO LETTER FO FON",
+   "encoded_version": "1.1",
+   "encoded_year": 1993,
+   "filed_version": "5.0.0",
+   "filed_year": 2006,
+   "unmarked_years": 13,
+   "years_since_filed": 19,
+   "kind": "replacement",
+   "edit_distance": 3,
+   "tokens_differing": 1
+  },
+  {
+   "code": "0E9F",
+   "name": "LAO LETTER FO SUNG",
+   "correction": "LAO LETTER FO FAY",
+   "encoded_version": "1.1",
+   "encoded_year": 1993,
+   "filed_version": "5.0.0",
+   "filed_year": 2006,
+   "unmarked_years": 13,
+   "years_since_filed": 19,
+   "kind": "replacement",
+   "edit_distance": 4,
+   "tokens_differing": 1
+  },
+  {
+   "code": "0EA3",
+   "name": "LAO LETTER LO LING",
+   "correction": "LAO LETTER RO",
+   "encoded_version": "1.1",
+   "encoded_year": 1993,
+   "filed_version": "5.0.0",
+   "filed_year": 2006,
+   "unmarked_years": 13,
+   "years_since_filed": 19,
+   "kind": "replacement",
+   "edit_distance": 6,
+   "tokens_differing": null
+  },
+  {
+   "code": "0EA5",
+   "name": "LAO LETTER LO LOOT",
+   "correction": "LAO LETTER LO",
+   "encoded_version": "1.1",
+   "encoded_year": 1993,
+   "filed_version": "5.0.0",
+   "filed_year": 2006,
+   "unmarked_years": 13,
+   "years_since_filed": 19,
+   "kind": "replacement",
+   "edit_distance": 5,
+   "tokens_differing": null
+  },
+  {
+   "code": "0FD0",
+   "name": "TIBETAN MARK BSKA- SHOG GI MGO RGYAN",
+   "correction": "TIBETAN MARK BKA- SHOG GI MGO RGYAN",
+   "encoded_version": "4.1",
+   "encoded_year": 2005,
+   "filed_version": "5.0.0",
+   "filed_year": 2006,
+   "unmarked_years": 1,
+   "years_since_filed": 19,
+   "kind": "misspelling",
+   "edit_distance": 1,
+   "tokens_differing": 1
+  },
+  {
+   "code": "11EC",
+   "name": "HANGUL JONGSEONG IEUNG-KIYEOK",
+   "correction": "HANGUL JONGSEONG YESIEUNG-KIYEOK",
+   "encoded_version": "1.1",
+   "encoded_year": 1993,
+   "filed_version": "10.0.0",
+   "filed_year": 2017,
+   "unmarked_years": 24,
+   "years_since_filed": 8,
+   "kind": "replacement",
+   "edit_distance": 3,
+   "tokens_differing": 1
+  },
+  {
+   "code": "11ED",
+   "name": "HANGUL JONGSEONG IEUNG-SSANGKIYEOK",
+   "correction": "HANGUL JONGSEONG YESIEUNG-SSANGKIYEOK",
+   "encoded_version": "1.1",
+   "encoded_year": 1993,
+   "filed_version": "10.0.0",
+   "filed_year": 2017,
+   "unmarked_years": 24,
+   "years_since_filed": 8,
+   "kind": "replacement",
+   "edit_distance": 3,
+   "tokens_differing": 1
+  },
+  {
+   "code": "11EE",
+   "name": "HANGUL JONGSEONG SSANGIEUNG",
+   "correction": "HANGUL JONGSEONG SSANGYESIEUNG",
+   "encoded_version": "1.1",
+   "encoded_year": 1993,
+   "filed_version": "10.0.0",
+   "filed_year": 2017,
+   "unmarked_years": 24,
+   "years_since_filed": 8,
+   "kind": "replacement",
+   "edit_distance": 3,
+   "tokens_differing": 1
+  },
+  {
+   "code": "11EF",
+   "name": "HANGUL JONGSEONG IEUNG-KHIEUKH",
+   "correction": "HANGUL JONGSEONG YESIEUNG-KHIEUKH",
+   "encoded_version": "1.1",
+   "encoded_year": 1993,
+   "filed_version": "10.0.0",
+   "filed_year": 2017,
+   "unmarked_years": 24,
+   "years_since_filed": 8,
+   "kind": "replacement",
+   "edit_distance": 3,
+   "tokens_differing": 1
+  },
+  {
+   "code": "1BBD",
+   "name": "SUNDANESE LETTER BHA",
+   "correction": "SUNDANESE LETTER ARCHAIC I",
+   "encoded_version": "6.1",
+   "encoded_year": 2012,
+   "filed_version": "15.0.0",
+   "filed_year": 2022,
+   "unmarked_years": 10,
+   "years_since_filed": 3,
+   "kind": "replacement",
+   "edit_distance": 7,
+   "tokens_differing": null
+  },
+  {
+   "code": "2118",
+   "name": "SCRIPT CAPITAL P",
+   "correction": "WEIERSTRASS ELLIPTIC FUNCTION",
+   "encoded_version": "1.1",
+   "encoded_year": 1993,
+   "filed_version": "6.1.0",
+   "filed_year": 2012,
+   "unmarked_years": 19,
+   "years_since_filed": 13,
+   "kind": "replacement",
+   "edit_distance": 23,
+   "tokens_differing": 3
+  },
+  {
+   "code": "2448",
+   "name": "OCR DASH",
+   "correction": "MICR ON US SYMBOL",
+   "encoded_version": "1.1",
+   "encoded_year": 1993,
+   "filed_version": "6.1.0",
+   "filed_year": 2012,
+   "unmarked_years": 19,
+   "years_since_filed": 13,
+   "kind": "replacement",
+   "edit_distance": 13,
+   "tokens_differing": null
+  },
+  {
+   "code": "2449",
+   "name": "OCR CUSTOMER ACCOUNT NUMBER",
+   "correction": "MICR DASH SYMBOL",
+   "encoded_version": "1.1",
+   "encoded_year": 1993,
+   "filed_version": "6.1.0",
+   "filed_year": 2012,
+   "unmarked_years": 19,
+   "years_since_filed": 13,
+   "kind": "replacement",
+   "edit_distance": 21,
+   "tokens_differing": null
+  },
+  {
+   "code": "2B7A",
+   "name": "LEFTWARDS TRIANGLE-HEADED ARROW WITH DOUBLE HORIZONTAL STROKE",
+   "correction": "LEFTWARDS TRIANGLE-HEADED ARROW WITH DOUBLE VERTICAL STROKE",
+   "encoded_version": "7.0",
+   "encoded_year": 2014,
+   "filed_version": "8.0.0",
+   "filed_year": 2015,
+   "unmarked_years": 1,
+   "years_since_filed": 10,
+   "kind": "replacement",
+   "edit_distance": 7,
+   "tokens_differing": 1
+  },
+  {
+   "code": "2B7C",
+   "name": "RIGHTWARDS TRIANGLE-HEADED ARROW WITH DOUBLE HORIZONTAL STROKE",
+   "correction": "RIGHTWARDS TRIANGLE-HEADED ARROW WITH DOUBLE VERTICAL STROKE",
+   "encoded_version": "7.0",
+   "encoded_year": 2014,
+   "filed_version": "8.0.0",
+   "filed_year": 2015,
+   "unmarked_years": 1,
+   "years_since_filed": 10,
+   "kind": "replacement",
+   "edit_distance": 7,
+   "tokens_differing": 1
+  },
+  {
+   "code": "A015",
+   "name": "YI SYLLABLE WU",
+   "correction": "YI SYLLABLE ITERATION MARK",
+   "encoded_version": "3.0",
+   "encoded_year": 1999,
+   "filed_version": "5.0.0",
+   "filed_year": 2006,
+   "unmarked_years": 7,
+   "years_since_filed": 19,
+   "kind": "replacement",
+   "edit_distance": 14,
+   "tokens_differing": null
+  },
+  {
+   "code": "AA6E",
+   "name": "MYANMAR LETTER KHAMTI HHA",
+   "correction": "MYANMAR LETTER KHAMTI LLA",
+   "encoded_version": "5.2",
+   "encoded_year": 2009,
+   "filed_version": "14.0.0",
+   "filed_year": 2021,
+   "unmarked_years": 12,
+   "years_since_filed": 4,
+   "kind": "misspelling",
+   "edit_distance": 2,
+   "tokens_differing": 1
+  },
+  {
+   "code": "FE18",
+   "name": "PRESENTATION FORM FOR VERTICAL RIGHT WHITE LENTICULAR BRAKCET",
+   "correction": "PRESENTATION FORM FOR VERTICAL RIGHT WHITE LENTICULAR BRACKET",
+   "encoded_version": "4.1",
+   "encoded_year": 2005,
+   "filed_version": "5.0.0",
+   "filed_year": 2006,
+   "unmarked_years": 1,
+   "years_since_filed": 19,
+   "kind": "misspelling",
+   "edit_distance": 2,
+   "tokens_differing": 1
+  },
+  {
+   "code": "122D4",
+   "name": "CUNEIFORM SIGN SHIR TENU",
+   "correction": "CUNEIFORM SIGN NU11 TENU",
+   "encoded_version": "5.0",
+   "encoded_year": 2006,
+   "filed_version": "6.3.0",
+   "filed_year": 2013,
+   "unmarked_years": 7,
+   "years_since_filed": 12,
+   "kind": "replacement",
+   "edit_distance": 4,
+   "tokens_differing": 1
+  },
+  {
+   "code": "122D5",
+   "name": "CUNEIFORM SIGN SHIR OVER SHIR BUR OVER BUR",
+   "correction": "CUNEIFORM SIGN NU11 OVER NU11 BUR OVER BUR",
+   "encoded_version": "5.0",
+   "encoded_year": 2006,
+   "filed_version": "6.3.0",
+   "filed_year": 2013,
+   "unmarked_years": 7,
+   "years_since_filed": 12,
+   "kind": "replacement",
+   "edit_distance": 8,
+   "tokens_differing": 2
+  },
+  {
+   "code": "12327",
+   "name": "CUNEIFORM SIGN UN GUNU",
+   "correction": "CUNEIFORM SIGN KALAM",
+   "encoded_version": "5.0",
+   "encoded_year": 2006,
+   "filed_version": "16.0.0",
+   "filed_year": 2024,
+   "unmarked_years": 18,
+   "years_since_filed": 1,
+   "kind": "replacement",
+   "edit_distance": 7,
+   "tokens_differing": null
+  },
+  {
+   "code": "1680B",
+   "name": "BAMUM LETTER PHASE-A MAEMBGBIEE",
+   "correction": "BAMUM LETTER PHASE-A MAEMGBIEE",
+   "encoded_version": "6.0",
+   "encoded_year": 2010,
+   "filed_version": "16.0.0",
+   "filed_year": 2024,
+   "unmarked_years": 14,
+   "years_since_filed": 1,
+   "kind": "misspelling",
+   "edit_distance": 1,
+   "tokens_differing": 1
+  },
+  {
+   "code": "16881",
+   "name": "BAMUM LETTER PHASE-B PUNGAAM",
+   "correction": "BAMUM LETTER PHASE-B PUNGGAAM",
+   "encoded_version": "6.0",
+   "encoded_year": 2010,
+   "filed_version": "17.0.0",
+   "filed_year": 2025,
+   "unmarked_years": 15,
+   "years_since_filed": 0,
+   "kind": "misspelling",
+   "edit_distance": 1,
+   "tokens_differing": 1
+  },
+  {
+   "code": "1688E",
+   "name": "BAMUM LETTER PHASE-B NGOM",
+   "correction": "BAMUM LETTER PHASE-B NGGOM",
+   "encoded_version": "6.0",
+   "encoded_year": 2010,
+   "filed_version": "17.0.0",
+   "filed_year": 2025,
+   "unmarked_years": 15,
+   "years_since_filed": 0,
+   "kind": "misspelling",
+   "edit_distance": 1,
+   "tokens_differing": 1
+  },
+  {
+   "code": "168DC",
+   "name": "BAMUM LETTER PHASE-C SETFON",
+   "correction": "BAMUM LETTER PHASE-C SHETFON",
+   "encoded_version": "6.0",
+   "encoded_year": 2010,
+   "filed_version": "17.0.0",
+   "filed_year": 2025,
+   "unmarked_years": 15,
+   "years_since_filed": 0,
+   "kind": "misspelling",
+   "edit_distance": 1,
+   "tokens_differing": 1
+  },
+  {
+   "code": "1697D",
+   "name": "BAMUM LETTER PHASE-E NGOP",
+   "correction": "BAMUM LETTER PHASE-E NGGOP",
+   "encoded_version": "6.0",
+   "encoded_year": 2010,
+   "filed_version": "17.0.0",
+   "filed_year": 2025,
+   "unmarked_years": 15,
+   "years_since_filed": 0,
+   "kind": "misspelling",
+   "edit_distance": 1,
+   "tokens_differing": 1
+  },
+  {
+   "code": "16E56",
+   "name": "MEDEFAIDRIN CAPITAL LETTER HP",
+   "correction": "MEDEFAIDRIN CAPITAL LETTER H",
+   "encoded_version": "11.0",
+   "encoded_year": 2018,
+   "filed_version": "11.0.0",
+   "filed_year": 2018,
+   "unmarked_years": 0,
+   "years_since_filed": 7,
+   "kind": "misspelling",
+   "edit_distance": 1,
+   "tokens_differing": 1
+  },
+  {
+   "code": "16E57",
+   "name": "MEDEFAIDRIN CAPITAL LETTER NY",
+   "correction": "MEDEFAIDRIN CAPITAL LETTER NG",
+   "encoded_version": "11.0",
+   "encoded_year": 2018,
+   "filed_version": "11.0.0",
+   "filed_year": 2018,
+   "unmarked_years": 0,
+   "years_since_filed": 7,
+   "kind": "misspelling",
+   "edit_distance": 1,
+   "tokens_differing": 1
+  },
+  {
+   "code": "16E76",
+   "name": "MEDEFAIDRIN SMALL LETTER HP",
+   "correction": "MEDEFAIDRIN SMALL LETTER H",
+   "encoded_version": "11.0",
+   "encoded_year": 2018,
+   "filed_version": "11.0.0",
+   "filed_year": 2018,
+   "unmarked_years": 0,
+   "years_since_filed": 7,
+   "kind": "misspelling",
+   "edit_distance": 1,
+   "tokens_differing": 1
+  },
+  {
+   "code": "16E77",
+   "name": "MEDEFAIDRIN SMALL LETTER NY",
+   "correction": "MEDEFAIDRIN SMALL LETTER NG",
+   "encoded_version": "11.0",
+   "encoded_year": 2018,
+   "filed_version": "11.0.0",
+   "filed_year": 2018,
+   "unmarked_years": 0,
+   "years_since_filed": 7,
+   "kind": "misspelling",
+   "edit_distance": 1,
+   "tokens_differing": 1
+  },
+  {
+   "code": "1B001",
+   "name": "HIRAGANA LETTER ARCHAIC YE",
+   "correction": "HENTAIGANA LETTER E-1",
+   "encoded_version": "6.0",
+   "encoded_year": 2010,
+   "filed_version": "10.0.0",
+   "filed_year": 2017,
+   "unmarked_years": 7,
+   "years_since_filed": 8,
+   "kind": "replacement",
+   "edit_distance": 14,
+   "tokens_differing": null
+  },
+  {
+   "code": "1D0C5",
+   "name": "BYZANTINE MUSICAL SYMBOL FHTORA SKLIRON CHROMA VASIS",
+   "correction": "BYZANTINE MUSICAL SYMBOL FTHORA SKLIRON CHROMA VASIS",
+   "encoded_version": "3.1",
+   "encoded_year": 2001,
+   "filed_version": "5.0.0",
+   "filed_year": 2006,
+   "unmarked_years": 5,
+   "years_since_filed": 19,
+   "kind": "misspelling",
+   "edit_distance": 2,
+   "tokens_differing": 1
+  },
+  {
+   "code": "1E899",
+   "name": "MENDE KIKAKUI SYLLABLE M172 MBOO",
+   "correction": "MENDE KIKAKUI SYLLABLE M172 MBO",
+   "encoded_version": "7.0",
+   "encoded_year": 2014,
+   "filed_version": "16.0.0",
+   "filed_year": 2024,
+   "unmarked_years": 10,
+   "years_since_filed": 1,
+   "kind": "misspelling",
+   "edit_distance": 1,
+   "tokens_differing": 1
+  },
+  {
+   "code": "1E89A",
+   "name": "MENDE KIKAKUI SYLLABLE M174 MBO",
+   "correction": "MENDE KIKAKUI SYLLABLE M174 MBOO",
+   "encoded_version": "7.0",
+   "encoded_year": 2014,
+   "filed_version": "16.0.0",
+   "filed_year": 2024,
+   "unmarked_years": 10,
+   "years_since_filed": 1,
+   "kind": "misspelling",
+   "edit_distance": 1,
+   "tokens_differing": 1
+  }
+ ],
+ "aggregate": {
+  "character_years_unmarked": 442,
+  "character_years_of_coexistence_to_2025": 387,
+  "mean_unmarked_years": 11.33,
+  "median_unmarked_years": 13
+ },
+ "namespace": {
+  "character_names": 40470,
+  "formal_aliases": 481,
+  "named_sequences": 461,
+  "collisions_lm2": []
+ },
+ "iso_comment_nonempty": 0,
+ "unicode_1_name_nonempty": 1978,
+ "retired_channel_collisions": [
+  {
+   "code": "0007",
+   "current_name": "<control>",
+   "unicode_1_name": "BELL",
+   "now_the_name_of": "1F514",
+   "that_characters_name": "BELL",
+   "exact_string_equal": true,
+   "holder_age": "6.0",
+   "holder_also_renamed": null,
+   "group": "BELL"
+  },
+  {
+   "code": "01B7",
+   "current_name": "LATIN CAPITAL LETTER EZH",
+   "unicode_1_name": "LATIN CAPITAL LETTER YOGH",
+   "now_the_name_of": "021C",
+   "that_characters_name": "LATIN CAPITAL LETTER YOGH",
+   "exact_string_equal": true,
+   "holder_age": "3.0",
+   "holder_also_renamed": null,
+   "group": "LATIN"
+  },
+  {
+   "code": "0292",
+   "current_name": "LATIN SMALL LETTER EZH",
+   "unicode_1_name": "LATIN SMALL LETTER YOGH",
+   "now_the_name_of": "021D",
+   "that_characters_name": "LATIN SMALL LETTER YOGH",
+   "exact_string_equal": true,
+   "holder_age": "3.0",
+   "holder_also_renamed": null,
+   "group": "LATIN"
+  },
+  {
+   "code": "02A3",
+   "current_name": "LATIN SMALL LETTER DZ DIGRAPH",
+   "unicode_1_name": "LATIN SMALL LETTER D Z",
+   "now_the_name_of": "01F3",
+   "that_characters_name": "LATIN SMALL LETTER DZ",
+   "exact_string_equal": false,
+   "holder_age": "1.1",
+   "holder_also_renamed": null,
+   "group": "LATIN"
+  },
+  {
+   "code": "0404",
+   "current_name": "CYRILLIC CAPITAL LETTER UKRAINIAN IE",
+   "unicode_1_name": "CYRILLIC CAPITAL LETTER E",
+   "now_the_name_of": "042D",
+   "that_characters_name": "CYRILLIC CAPITAL LETTER E",
+   "exact_string_equal": true,
+   "holder_age": "1.1",
+   "holder_also_renamed": "CYRILLIC CAPITAL LETTER REVERSED E",
+   "group": "CYRILLIC"
+  },
+  {
+   "code": "0406",
+   "current_name": "CYRILLIC CAPITAL LETTER BYELORUSSIAN-UKRAINIAN I",
+   "unicode_1_name": "CYRILLIC CAPITAL LETTER I",
+   "now_the_name_of": "0418",
+   "that_characters_name": "CYRILLIC CAPITAL LETTER I",
+   "exact_string_equal": true,
+   "holder_age": "1.1",
+   "holder_also_renamed": "CYRILLIC CAPITAL LETTER II",
+   "group": "CYRILLIC"
+  },
+  {
+   "code": "0454",
+   "current_name": "CYRILLIC SMALL LETTER UKRAINIAN IE",
+   "unicode_1_name": "CYRILLIC SMALL LETTER E",
+   "now_the_name_of": "044D",
+   "that_characters_name": "CYRILLIC SMALL LETTER E",
+   "exact_string_equal": true,
+   "holder_age": "1.1",
+   "holder_also_renamed": "CYRILLIC SMALL LETTER REVERSED E",
+   "group": "CYRILLIC"
+  },
+  {
+   "code": "0456",
+   "current_name": "CYRILLIC SMALL LETTER BYELORUSSIAN-UKRAINIAN I",
+   "unicode_1_name": "CYRILLIC SMALL LETTER I",
+   "now_the_name_of": "0438",
+   "that_characters_name": "CYRILLIC SMALL LETTER I",
+   "exact_string_equal": true,
+   "holder_age": "1.1",
+   "holder_also_renamed": "CYRILLIC SMALL LETTER II",
+   "group": "CYRILLIC"
+  },
+  {
+   "code": "10D0",
+   "current_name": "GEORGIAN LETTER AN",
+   "unicode_1_name": "GEORGIAN SMALL LETTER AN",
+   "now_the_name_of": "2D00",
+   "that_characters_name": "GEORGIAN SMALL LETTER AN",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10D1",
+   "current_name": "GEORGIAN LETTER BAN",
+   "unicode_1_name": "GEORGIAN SMALL LETTER BAN",
+   "now_the_name_of": "2D01",
+   "that_characters_name": "GEORGIAN SMALL LETTER BAN",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10D2",
+   "current_name": "GEORGIAN LETTER GAN",
+   "unicode_1_name": "GEORGIAN SMALL LETTER GAN",
+   "now_the_name_of": "2D02",
+   "that_characters_name": "GEORGIAN SMALL LETTER GAN",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10D3",
+   "current_name": "GEORGIAN LETTER DON",
+   "unicode_1_name": "GEORGIAN SMALL LETTER DON",
+   "now_the_name_of": "2D03",
+   "that_characters_name": "GEORGIAN SMALL LETTER DON",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10D4",
+   "current_name": "GEORGIAN LETTER EN",
+   "unicode_1_name": "GEORGIAN SMALL LETTER EN",
+   "now_the_name_of": "2D04",
+   "that_characters_name": "GEORGIAN SMALL LETTER EN",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10D5",
+   "current_name": "GEORGIAN LETTER VIN",
+   "unicode_1_name": "GEORGIAN SMALL LETTER VIN",
+   "now_the_name_of": "2D05",
+   "that_characters_name": "GEORGIAN SMALL LETTER VIN",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10D6",
+   "current_name": "GEORGIAN LETTER ZEN",
+   "unicode_1_name": "GEORGIAN SMALL LETTER ZEN",
+   "now_the_name_of": "2D06",
+   "that_characters_name": "GEORGIAN SMALL LETTER ZEN",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10D7",
+   "current_name": "GEORGIAN LETTER TAN",
+   "unicode_1_name": "GEORGIAN SMALL LETTER TAN",
+   "now_the_name_of": "2D07",
+   "that_characters_name": "GEORGIAN SMALL LETTER TAN",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10D8",
+   "current_name": "GEORGIAN LETTER IN",
+   "unicode_1_name": "GEORGIAN SMALL LETTER IN",
+   "now_the_name_of": "2D08",
+   "that_characters_name": "GEORGIAN SMALL LETTER IN",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10D9",
+   "current_name": "GEORGIAN LETTER KAN",
+   "unicode_1_name": "GEORGIAN SMALL LETTER KAN",
+   "now_the_name_of": "2D09",
+   "that_characters_name": "GEORGIAN SMALL LETTER KAN",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10DA",
+   "current_name": "GEORGIAN LETTER LAS",
+   "unicode_1_name": "GEORGIAN SMALL LETTER LAS",
+   "now_the_name_of": "2D0A",
+   "that_characters_name": "GEORGIAN SMALL LETTER LAS",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10DB",
+   "current_name": "GEORGIAN LETTER MAN",
+   "unicode_1_name": "GEORGIAN SMALL LETTER MAN",
+   "now_the_name_of": "2D0B",
+   "that_characters_name": "GEORGIAN SMALL LETTER MAN",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10DC",
+   "current_name": "GEORGIAN LETTER NAR",
+   "unicode_1_name": "GEORGIAN SMALL LETTER NAR",
+   "now_the_name_of": "2D0C",
+   "that_characters_name": "GEORGIAN SMALL LETTER NAR",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10DD",
+   "current_name": "GEORGIAN LETTER ON",
+   "unicode_1_name": "GEORGIAN SMALL LETTER ON",
+   "now_the_name_of": "2D0D",
+   "that_characters_name": "GEORGIAN SMALL LETTER ON",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10DE",
+   "current_name": "GEORGIAN LETTER PAR",
+   "unicode_1_name": "GEORGIAN SMALL LETTER PAR",
+   "now_the_name_of": "2D0E",
+   "that_characters_name": "GEORGIAN SMALL LETTER PAR",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10DF",
+   "current_name": "GEORGIAN LETTER ZHAR",
+   "unicode_1_name": "GEORGIAN SMALL LETTER ZHAR",
+   "now_the_name_of": "2D0F",
+   "that_characters_name": "GEORGIAN SMALL LETTER ZHAR",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10E0",
+   "current_name": "GEORGIAN LETTER RAE",
+   "unicode_1_name": "GEORGIAN SMALL LETTER RAE",
+   "now_the_name_of": "2D10",
+   "that_characters_name": "GEORGIAN SMALL LETTER RAE",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10E1",
+   "current_name": "GEORGIAN LETTER SAN",
+   "unicode_1_name": "GEORGIAN SMALL LETTER SAN",
+   "now_the_name_of": "2D11",
+   "that_characters_name": "GEORGIAN SMALL LETTER SAN",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10E2",
+   "current_name": "GEORGIAN LETTER TAR",
+   "unicode_1_name": "GEORGIAN SMALL LETTER TAR",
+   "now_the_name_of": "2D12",
+   "that_characters_name": "GEORGIAN SMALL LETTER TAR",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10E3",
+   "current_name": "GEORGIAN LETTER UN",
+   "unicode_1_name": "GEORGIAN SMALL LETTER UN",
+   "now_the_name_of": "2D13",
+   "that_characters_name": "GEORGIAN SMALL LETTER UN",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10E4",
+   "current_name": "GEORGIAN LETTER PHAR",
+   "unicode_1_name": "GEORGIAN SMALL LETTER PHAR",
+   "now_the_name_of": "2D14",
+   "that_characters_name": "GEORGIAN SMALL LETTER PHAR",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10E5",
+   "current_name": "GEORGIAN LETTER KHAR",
+   "unicode_1_name": "GEORGIAN SMALL LETTER KHAR",
+   "now_the_name_of": "2D15",
+   "that_characters_name": "GEORGIAN SMALL LETTER KHAR",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10E6",
+   "current_name": "GEORGIAN LETTER GHAN",
+   "unicode_1_name": "GEORGIAN SMALL LETTER GHAN",
+   "now_the_name_of": "2D16",
+   "that_characters_name": "GEORGIAN SMALL LETTER GHAN",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10E7",
+   "current_name": "GEORGIAN LETTER QAR",
+   "unicode_1_name": "GEORGIAN SMALL LETTER QAR",
+   "now_the_name_of": "2D17",
+   "that_characters_name": "GEORGIAN SMALL LETTER QAR",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10E8",
+   "current_name": "GEORGIAN LETTER SHIN",
+   "unicode_1_name": "GEORGIAN SMALL LETTER SHIN",
+   "now_the_name_of": "2D18",
+   "that_characters_name": "GEORGIAN SMALL LETTER SHIN",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10E9",
+   "current_name": "GEORGIAN LETTER CHIN",
+   "unicode_1_name": "GEORGIAN SMALL LETTER CHIN",
+   "now_the_name_of": "2D19",
+   "that_characters_name": "GEORGIAN SMALL LETTER CHIN",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10EA",
+   "current_name": "GEORGIAN LETTER CAN",
+   "unicode_1_name": "GEORGIAN SMALL LETTER CAN",
+   "now_the_name_of": "2D1A",
+   "that_characters_name": "GEORGIAN SMALL LETTER CAN",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10EB",
+   "current_name": "GEORGIAN LETTER JIL",
+   "unicode_1_name": "GEORGIAN SMALL LETTER JIL",
+   "now_the_name_of": "2D1B",
+   "that_characters_name": "GEORGIAN SMALL LETTER JIL",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10EC",
+   "current_name": "GEORGIAN LETTER CIL",
+   "unicode_1_name": "GEORGIAN SMALL LETTER CIL",
+   "now_the_name_of": "2D1C",
+   "that_characters_name": "GEORGIAN SMALL LETTER CIL",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10ED",
+   "current_name": "GEORGIAN LETTER CHAR",
+   "unicode_1_name": "GEORGIAN SMALL LETTER CHAR",
+   "now_the_name_of": "2D1D",
+   "that_characters_name": "GEORGIAN SMALL LETTER CHAR",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10EE",
+   "current_name": "GEORGIAN LETTER XAN",
+   "unicode_1_name": "GEORGIAN SMALL LETTER XAN",
+   "now_the_name_of": "2D1E",
+   "that_characters_name": "GEORGIAN SMALL LETTER XAN",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10EF",
+   "current_name": "GEORGIAN LETTER JHAN",
+   "unicode_1_name": "GEORGIAN SMALL LETTER JHAN",
+   "now_the_name_of": "2D1F",
+   "that_characters_name": "GEORGIAN SMALL LETTER JHAN",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10F0",
+   "current_name": "GEORGIAN LETTER HAE",
+   "unicode_1_name": "GEORGIAN SMALL LETTER HAE",
+   "now_the_name_of": "2D20",
+   "that_characters_name": "GEORGIAN SMALL LETTER HAE",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10F1",
+   "current_name": "GEORGIAN LETTER HE",
+   "unicode_1_name": "GEORGIAN SMALL LETTER HE",
+   "now_the_name_of": "2D21",
+   "that_characters_name": "GEORGIAN SMALL LETTER HE",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10F2",
+   "current_name": "GEORGIAN LETTER HIE",
+   "unicode_1_name": "GEORGIAN SMALL LETTER HIE",
+   "now_the_name_of": "2D22",
+   "that_characters_name": "GEORGIAN SMALL LETTER HIE",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10F3",
+   "current_name": "GEORGIAN LETTER WE",
+   "unicode_1_name": "GEORGIAN SMALL LETTER WE",
+   "now_the_name_of": "2D23",
+   "that_characters_name": "GEORGIAN SMALL LETTER WE",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10F4",
+   "current_name": "GEORGIAN LETTER HAR",
+   "unicode_1_name": "GEORGIAN SMALL LETTER HAR",
+   "now_the_name_of": "2D24",
+   "that_characters_name": "GEORGIAN SMALL LETTER HAR",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "10F5",
+   "current_name": "GEORGIAN LETTER HOE",
+   "unicode_1_name": "GEORGIAN SMALL LETTER HOE",
+   "now_the_name_of": "2D25",
+   "that_characters_name": "GEORGIAN SMALL LETTER HOE",
+   "exact_string_equal": true,
+   "holder_age": "4.1",
+   "holder_also_renamed": null,
+   "group": "GEORGIAN"
+  },
+  {
+   "code": "2016",
+   "current_name": "DOUBLE VERTICAL LINE",
+   "unicode_1_name": "DOUBLE VERTICAL BAR",
+   "now_the_name_of": "23F8",
+   "that_characters_name": "DOUBLE VERTICAL BAR",
+   "exact_string_equal": true,
+   "holder_age": "7.0",
+   "holder_also_renamed": null,
+   "group": "DOUBLE"
+  },
+  {
+   "code": "314A",
+   "current_name": "HANGUL LETTER CHIEUCH",
+   "unicode_1_name": "HANGUL LETTER CIEUC",
+   "now_the_name_of": "3148",
+   "that_characters_name": "HANGUL LETTER CIEUC",
+   "exact_string_equal": true,
+   "holder_age": "1.1",
+   "holder_also_renamed": "HANGUL LETTER JIEUJ",
+   "group": "HANGUL"
+  },
+  {
+   "code": "314B",
+   "current_name": "HANGUL LETTER KHIEUKH",
+   "unicode_1_name": "HANGUL LETTER KIYEOK",
+   "now_the_name_of": "3131",
+   "that_characters_name": "HANGUL LETTER KIYEOK",
+   "exact_string_equal": true,
+   "holder_age": "1.1",
+   "holder_also_renamed": "HANGUL LETTER GIYEOG",
+   "group": "HANGUL"
+  },
+  {
+   "code": "314D",
+   "current_name": "HANGUL LETTER PHIEUPH",
+   "unicode_1_name": "HANGUL LETTER PIEUP",
+   "now_the_name_of": "3142",
+   "that_characters_name": "HANGUL LETTER PIEUP",
+   "exact_string_equal": true,
+   "holder_age": "1.1",
+   "holder_also_renamed": "HANGUL LETTER BIEUB",
+   "group": "HANGUL"
+  },
+  {
+   "code": "3209",
+   "current_name": "PARENTHESIZED HANGUL CHIEUCH",
+   "unicode_1_name": "PARENTHESIZED HANGUL CIEUC",
+   "now_the_name_of": "3208",
+   "that_characters_name": "PARENTHESIZED HANGUL CIEUC",
+   "exact_string_equal": true,
+   "holder_age": "1.1",
+   "holder_also_renamed": "PARENTHESIZED HANGUL JIEUJ",
+   "group": "PARENTHESIZED"
+  },
+  {
+   "code": "320A",
+   "current_name": "PARENTHESIZED HANGUL KHIEUKH",
+   "unicode_1_name": "PARENTHESIZED HANGUL KIYEOK",
+   "now_the_name_of": "3200",
+   "that_characters_name": "PARENTHESIZED HANGUL KIYEOK",
+   "exact_string_equal": true,
+   "holder_age": "1.1",
+   "holder_also_renamed": "PARENTHESIZED HANGUL GIYEOG",
+   "group": "PARENTHESIZED"
+  },
+  {
+   "code": "320C",
+   "current_name": "PARENTHESIZED HANGUL PHIEUPH",
+   "unicode_1_name": "PARENTHESIZED HANGUL PIEUP",
+   "now_the_name_of": "3205",
+   "that_characters_name": "PARENTHESIZED HANGUL PIEUP",
+   "exact_string_equal": true,
+   "holder_age": "1.1",
+   "holder_also_renamed": "PARENTHESIZED HANGUL BIEUB",
+   "group": "PARENTHESIZED"
+  },
+  {
+   "code": "3269",
+   "current_name": "CIRCLED HANGUL CHIEUCH",
+   "unicode_1_name": "CIRCLED HANGUL CIEUC",
+   "now_the_name_of": "3268",
+   "that_characters_name": "CIRCLED HANGUL CIEUC",
+   "exact_string_equal": true,
+   "holder_age": "1.1",
+   "holder_also_renamed": "CIRCLED HANGUL JIEUJ",
+   "group": "CIRCLED"
+  },
+  {
+   "code": "326A",
+   "current_name": "CIRCLED HANGUL KHIEUKH",
+   "unicode_1_name": "CIRCLED HANGUL KIYEOK",
+   "now_the_name_of": "3260",
+   "that_characters_name": "CIRCLED HANGUL KIYEOK",
+   "exact_string_equal": true,
+   "holder_age": "1.1",
+   "holder_also_renamed": "CIRCLED HANGUL GIYEOG",
+   "group": "CIRCLED"
+  },
+  {
+   "code": "326C",
+   "current_name": "CIRCLED HANGUL PHIEUPH",
+   "unicode_1_name": "CIRCLED HANGUL PIEUP",
+   "now_the_name_of": "3265",
+   "that_characters_name": "CIRCLED HANGUL PIEUP",
+   "exact_string_equal": true,
+   "holder_age": "1.1",
+   "holder_also_renamed": "CIRCLED HANGUL BIEUB",
+   "group": "CIRCLED"
+  },
+  {
+   "code": "33A1",
+   "current_name": "SQUARE M SQUARED",
+   "unicode_1_name": "SQUARED M SQUARED",
+   "now_the_name_of": "3378",
+   "that_characters_name": "SQUARE DM SQUARED",
+   "exact_string_equal": false,
+   "holder_age": "4.0",
+   "holder_also_renamed": null,
+   "group": "SQUARE"
+  },
+  {
+   "code": "33A5",
+   "current_name": "SQUARE M CUBED",
+   "unicode_1_name": "SQUARED M CUBED",
+   "now_the_name_of": "3379",
+   "that_characters_name": "SQUARE DM CUBED",
+   "exact_string_equal": false,
+   "holder_age": "4.0",
+   "holder_also_renamed": null,
+   "group": "SQUARE"
+  },
+  {
+   "code": "33B7",
+   "current_name": "SQUARE MV",
+   "unicode_1_name": "SQUARED MV",
+   "now_the_name_of": "1F14B",
+   "that_characters_name": "SQUARED MV",
+   "exact_string_equal": true,
+   "holder_age": "5.2",
+   "holder_also_renamed": null,
+   "group": "SQUARED"
+  },
+  {
+   "code": "FFBA",
+   "current_name": "HALFWIDTH HANGUL LETTER CHIEUCH",
+   "unicode_1_name": "HALFWIDTH HANGUL LETTER CIEUC",
+   "now_the_name_of": "FFB8",
+   "that_characters_name": "HALFWIDTH HANGUL LETTER CIEUC",
+   "exact_string_equal": true,
+   "holder_age": "1.1",
+   "holder_also_renamed": "HALFWIDTH HANGUL LETTER JIEUJ",
+   "group": "HALFWIDTH"
+  },
+  {
+   "code": "FFBB",
+   "current_name": "HALFWIDTH HANGUL LETTER KHIEUKH",
+   "unicode_1_name": "HALFWIDTH HANGUL LETTER KIYEOK",
+   "now_the_name_of": "FFA1",
+   "that_characters_name": "HALFWIDTH HANGUL LETTER KIYEOK",
+   "exact_string_equal": true,
+   "holder_age": "1.1",
+   "holder_also_renamed": "HALFWIDTH HANGUL LETTER GIYEOG",
+   "group": "HALFWIDTH"
+  },
+  {
+   "code": "FFBD",
+   "current_name": "HALFWIDTH HANGUL LETTER PHIEUPH",
+   "unicode_1_name": "HALFWIDTH HANGUL LETTER PIEUP",
+   "now_the_name_of": "FFB2",
+   "that_characters_name": "HALFWIDTH HANGUL LETTER PIEUP",
+   "exact_string_equal": true,
+   "holder_age": "1.1",
+   "holder_also_renamed": "HALFWIDTH HANGUL LETTER BIEUB",
+   "group": "HALFWIDTH"
+  }
+ ],
+ "cohort_rates_per_1000": {
+  "le_4.1": [
+   19,
+   97786,
+   0.19430184279958276
+  ],
+  "5.0_to_9.x": [
+   16,
+   30517,
+   0.5242979323000295
+  ],
+  "10.0_plus": [
+   4,
+   31629,
+   0.1264662177115938
+  ]
+ },
+ "reconciliation_against_published_counts": {
+  "published": {
+   "graphic": 159629,
+   "format": 172,
+   "controls": 65,
+   "private_use": 137468,
+   "total_assigned": 297334,
+   "surrogates": 2048,
+   "noncharacters": 66
+  },
+  "code_points_with_an_age": 299448,
+  "expected_from_published": 299448,
+  "excluded_by_me_private_use_and_surrogate": 139516,
+  "expected_excluded": 139516,
+  "kept_denominator": 159932,
+  "expected_kept": 159932,
+  "agrees": true
+ },
+ "cohort_denominators": {
+  "code_points_with_an_age": 299448,
+  "excluded_private_use_and_surrogate": 139516,
+  "excluded_intervals": [
+   [
+    "D800",
+    "DB7F"
+   ],
+   [
+    "DB80",
+    "DBFF"
+   ],
+   [
+    "DC00",
+    "DFFF"
+   ],
+   [
+    "E000",
+    "F8FF"
+   ],
+   [
+    "F0000",
+    "FFFFD"
+   ],
+   [
+    "100000",
+    "10FFFD"
+   ]
+  ]
+ },
+ "early_untyped_entries_not_corrections_in_17.0.0": [],
+ "predictions": [
+  {
+   "id": "P1",
+   "claim": "No code point that has ever carried a correction alias is missing from a later version's correction set (Formal Name Alias Stability, tested rather than trusted).",
+   "result": "CONFIRMED",
+   "detail": "no correction ever absent from a later version"
+  },
+  {
+   "id": "P2",
+   "claim": "For at least two thirds of the corrections, the correction was filed in a LATER Unicode version than the one that first encoded the character.",
+   "result": "CONFIRMED",
+   "detail": "35 of 39 filed later than encoded (89.7%)"
+  },
+  {
+   "id": "P3",
+   "claim": "At least one correction entered in the same version that encoded the character -- the name was known to be wrong at birth.",
+   "result": "CONFIRMED",
+   "detail": "4 filed in the encoding version: U+16E56, U+16E57, U+16E76, U+16E77"
+  },
+  {
+   "id": "P4",
+   "claim": "The longest interval between a character being encoded and its correction being filed exceeds 15 years.",
+   "result": "CONFIRMED",
+   "detail": "longest gap 24 years: U+11EC HANGUL JONGSEONG IEUNG-KIYEOK -> HANGUL JONGSEONG YESIEUNG-KIYEOK (encoded 1.1, filed 10.0.0)"
+  },
+  {
+   "id": "P5",
+   "claim": "Misspellings are the policy's stated example but not its main business: at most 10 of the corrections are single-token misspellings by the classification rule below; the majority replace a name component outright.",
+   "result": "REFUTED",
+   "detail": "15 misspellings, 24 replacements: U+0FD0, U+AA6E, U+FE18, U+1680B, U+16881, U+1688E, U+168DC, U+1697D, U+16E56, U+16E57, U+16E76, U+16E77, U+1D0C5, U+1E899, U+1E89A"
+  },
+  {
+   "id": "P6",
+   "claim": "The live namespace -- character names, all formal aliases, named character sequences -- has zero collisions under loose matching rule UAX44-LM2.",
+   "result": "CONFIRMED",
+   "detail": "namespace of 40470 character names + 481 formal aliases + 461 named sequences: 0 collisions"
+  },
+  {
+   "id": "P7",
+   "claim": "NOT A PREDICTION. Observed during the harvest, before the ledger existed: the ISO_Comment field of UnicodeData.txt is empty on every line. The run recomputes it for the record; it is not scored.",
+   "result": "OBSERVED (not a prediction)",
+   "detail": "ISO_Comment non-empty on 0 of 40575 lines of UnicodeData.txt"
+  },
+  {
+   "id": "P8",
+   "claim": "The retired channel is allowed to collide with the live one: at least one Unicode_1_Name matches, under UAX44-LM2, the current Name of a DIFFERENT character -- and there are at most 20 such cases.",
+   "result": "REFUTED",
+   "detail": "62 Unicode_1_Name values now name a different character (of 1978 non-empty Unicode_1_Name fields)"
+  },
+  {
+   "id": "P9",
+   "claim": "Characters first encoded in Unicode 10.0 or later carry fewer corrections per thousand encoded characters than those first encoded in 5.0-9.0. (Right-censored: recent cohorts have had less time to be caught. Stated before the run, and the censoring is not a defence of the prediction.)",
+   "result": "CONFIRMED",
+   "detail": "cohort 5.0-9.x: 16/30517 = 0.5243 per 1000; cohort 10.0+: 4/31629 = 0.1265 per 1000; cohort <=4.1: 19/97786 = 0.1943 per 1000"
+  },
+  {
+   "id": "P10",
+   "claim": "No character carries more than one correction alias.",
+   "result": "CONFIRMED",
+   "detail": "characters with >1 correction: {}"
+  },
+  {
+   "id": "P11",
+   "claim": "At least one corrected character was first encoded in Unicode 1.1 or earlier.",
+   "result": "CONFIRMED",
+   "detail": "oldest corrected character: U+01A2, encoded 1.1 (1993)"
+  }
+ ]
+}

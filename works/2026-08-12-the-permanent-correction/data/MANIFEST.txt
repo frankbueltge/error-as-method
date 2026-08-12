@@ -1,0 +1,52 @@
+MANIFEST -- harvested source files for works/2026-08-12-the-permanent-correction
+All retrieved 2026-08-12 over HTTPS from unicode.org. SHA-256 of the file as committed.
+
+NameAliases-<version>.txt
+  https://www.unicode.org/Public/<version>/ucd/NameAliases.txt
+  (17.0.0 is also served as .../Public/UCD/latest/ucd/NameAliases.txt; the two were
+   fetched separately and compared byte for byte before the duplicate was dropped.)
+
+  d3c3df0a660607a98d7be2b3170dfc9c7eaef7057a0f7f4a540b1f2bf8bfd36f  NameAliases-5.0.0.txt
+  c64a897233fe59b96c559155dbee2c1fd8c8073dbe2cb5eb1b58556f47f3eec5  NameAliases-5.1.0.txt
+  57ed2bae3b49c6fad529d484005a65da5ff2866ea68b79c7a95e7c11349ef9ce  NameAliases-5.2.0.txt
+  2f67cd4249891ad000a6c117b0b374ac72485e8a4d8371d471a6cfac91969954  NameAliases-6.0.0.txt
+  7253bd84e20d34491b2b124a85ca84bd2cd5d113e4957aebae92f0e3c21f0a45  NameAliases-6.1.0.txt
+  a9dd4d3beda23123562d2b1914f238c57e1731760a3c83cb8e79b06bb1979637  NameAliases-6.2.0.txt
+  a11bed87ec6f264edcf84d581dd2d7ac8ed7ac1c3b2ccb54a83077fdbd34133e  NameAliases-6.3.0.txt
+  af85d961d0ed6055271ca6e0174451a8dc1822e31de9e07e1246535318b9341a  NameAliases-7.0.0.txt
+  9bb54cd7b5509779f269fa60341bcbfca8da8f17d3c4999e44a5a51671d3c402  NameAliases-8.0.0.txt
+  9d5353b1d318e72a63a49aa6a6a051d350382ea44b2cf31fe925bb94ce7e129b  NameAliases-9.0.0.txt
+  f2357d2bd3526b9e830de72ab038dcfc65a2dff24bcb4c6325c92071eb341f88  NameAliases-10.0.0.txt
+  12617cec2de4f51d55e48ca14710b1109b8d7e58555d789c000f91d3eda1c585  NameAliases-11.0.0.txt
+  46cce9be0639999e6a903bfa9f1313def3c361c7ae68f411cef244132ee8097b  NameAliases-12.0.0.txt
+  ff61a0687d2f32c0dd1094254b8bde967883b43c2d4d50fd17531d498e41ab2c  NameAliases-12.1.0.txt
+  985128e8c8b2540233331d9b27d897d2c23bd5bcf1d05da960befce6efc59542  NameAliases-13.0.0.txt
+  14b3b677d33f95c51423dce6eef4a6a28b4b160451ecedee4b91edb6745cf4a3  NameAliases-14.0.0.txt
+  3e39509e8fae3e5d50ba73759d0b97194501d14a9c63107a6372a46b38be18e8  NameAliases-15.0.0.txt
+  fbf0e640bab36e165c4da5b6a98bdd963fcb4f923b5097f26f6f7f18b9678698  NameAliases-15.1.0.txt
+  9953f0fcebf5ea8091c5c581e4df0e43f20d2533c84ccca7987a9bb819a896a8  NameAliases-16.0.0.txt
+  793f6f1e4d15fd90f05ae66460191dc4d75d1fea90136a25f30dd6a4cb950eac  NameAliases-17.0.0.txt
+
+DerivedAge.txt   https://www.unicode.org/Public/UCD/latest/ucd/DerivedAge.txt
+  f8ecdf768bdc210f201abd271d9bc587825618a86a7046a8146cc816393f1998  DerivedAge.txt
+NamedSequences.txt   https://www.unicode.org/Public/UCD/latest/ucd/NamedSequences.txt
+  0cd1c928edac72ea1369187599727c4f0d92367316b4c5ee5140475ab9298be0  NamedSequences.txt
+
+UnicodeData-slim.txt -- fields 0, 1, 10 and 11 (code point; Name; Unicode_1_Name;
+  ISO_Comment) of every line of UnicodeData.txt, joined with ';', in file order.
+  The full file is 2,198,209 bytes and is not committed; the extract carries
+  everything this work reads. Extraction rule, verbatim:
+      p = line.split(';'); ';'.join([p[0], p[1], p[10], p[11]])
+  source   https://www.unicode.org/Public/UCD/latest/ucd/UnicodeData.txt
+  2e1efc1dcb59c575eedf5ccae60f95229f706ee6d031835247d843c11d96470c  UnicodeData.txt (full, NOT committed)
+  28ef6965e7605e3d6242035c2ef60ab2b16c091a16af13f19dccfac839a3da8d  UnicodeData-slim.txt (committed)
+
+versions.tsv -- version -> year of record, extracted mechanically from the Year
+  column of the Archive of Unicode Versions table at
+  https://www.unicode.org/versions/enumeratedversions.html
+  d34bd634924b958172add088f151979c421162450ebc307d4d7a9129e0da0407  versions.tsv
+
+Read and quoted in work.md, not committed (HTML pages):
+  https://www.unicode.org/policies/stability_policy.html
+      the page states of itself: 'This page was last updated 2026-May-26.'
+  https://www.unicode.org/reports/tr44/   UAX #44, Unicode Character Database
