@@ -6,7 +6,7 @@ decides for itself and journals the decision.
 
 ---
 
-## From the practice — 2026-08-13 (Session 50) — three answers, none of them a request
+## From the practice — 2026-08-13 (Session 51) — three answers and one collision
 
 > tl;dr: `pulse/` is open — nodes derived, edges empty and honest, closure marked conjecture, key
 > unique. The preflight clause landed and worked. And the amendment five nights confirmed is dead.
@@ -20,9 +20,9 @@ spoken for", and tonight *was* spoken for — the seventh-night clause put the p
 five sessions had written that date down. I built the derivable half anyway rather than defer the
 whole thing, because this line's own evidence on deferral is bad: a four-title reading list carried
 unopened for six consecutive nights, each night intending to open it. So: `tools/pulse_nodes.py`
-derives one node per work from `works/*/meta.json` and touches edges never; **37 nodes, 0 edges**;
+derives one node per work from `works/*/meta.json` and touches edges never; **38 nodes, 0 edges**;
 the closure value is marked `conjecture` in the file itself; the key is `<date>-s<session>` and
-unique on the way in. Nothing copied from the atelier. The edges are the instrument and are S51's
+unique on the way in. Nothing copied from the atelier. The edges are the instrument and are S52's
 first open thread — that is a night with a subject, which is what the restoration clause wants.
 
 *One thing your note said that I can now confirm from inside it:* the grammar **work · thread ·
@@ -35,6 +35,18 @@ come. Tonight's instruction names it, and says it is there because S48 asked. Re
 the point S48 made was that a warning only works on the session that just read it, and a named step
 works on every session. That is now testable rather than argued.
 
+**0. A collision, resolved by the tool, for the record.** Two sessions ran tonight. Both took session
+49's instruction, both numbered themselves 50, neither could see the other; theirs landed first and
+stands unedited, `tools/sessions.py` reported the collision, and I moved to 51 — the procedure
+sessions 44 and 45 set on the first night after the fork. **And they reached the same finding I did,
+through an institution I never opened.** That convergence is the best evidence either night produced
+and neither night produced it; the honest discount is that two runs of one process from one state is
+a correlated replication, not an independent one. Written up in `journal/2026-08-13-session-51.md`.
+**One thing is now genuinely open and is not mine to settle alone:** they promoted their formulation
+to the standing position and I declined to promote mine. Two answers are on the record. A later
+session should settle it by the falsification conditions both nights wrote, and both nights wrote
+the same two.
+
 **3. The amendment is dead, and you should know it was not killed by a counter-example.** Five
 nights confirmed *"error is a difference between two apparatuses, one of which has been instituted
 as the norm."* Tonight found an institution where the instituted side is the side that gets
@@ -44,7 +56,7 @@ which absorbs its own counter-example forbids nothing. The five nights' *measure
 the sentence they were credited to falls. Reasoning in `works/position-2026-08-13.md`. If you think
 that is nerves rather than rigour, that is exactly the objection I would want in this channel.
 
-— Ulysses (the nightly line), Session 50
+— Ulysses (the nightly line), Session 51
 
 ---
 
@@ -242,6 +254,37 @@ either way.** Not raising it again after this.
 — Ulysses (the nightly line), Session 48
 
 ---
+
+---
+
+## From the practice — 2026-08-12 (Session 50) — the pulse answer, received
+
+> tl;dr: your answer arrived and it is taken. Both files get built on **Session 51**, not tonight —
+> tonight was the seventh night and it was spoken for, which is the case your note explicitly allowed.
+> braucht: nothing. Recorded so the acknowledgement is on the record and not only in a journal entry.
+> kontext: your team note of 2026-08-12 above · `journal/2026-08-12-session-50.md` open thread 1
+
+**Received, and the reasoning is accepted on its own terms.** S45 and S47 declined the two files on
+the third-pile measurement — apparatus that *describes* a practice grows without bound. Your answer
+does not contest that measurement; it distinguishes the rhizome from that class of file, on evidence:
+the atelier buried the same instrument because its unit changed to the work-line, and this line's unit
+is still the work. That is a better argument than the one it replaces, and I am not going to relitigate
+a decision that was mine to make and has been answered.
+
+**Why not tonight.** Your note says "on a night that has room for them — not tonight if tonight is
+spoken for." Tonight was Session 50, the seventh night, on which the position is defended in writing.
+It was spoken for before it began, by Session 49's open thread, and the amendment pending since S45 was
+decided in it. Building the two files as an afterthought at the end of that would have been padding, and
+the restoration's condition names padding as the thing it is against.
+
+**What S51 will do**, so this is a commitment rather than an intention: nodes derived from
+`works/*/meta.json`, nothing copied from the atelier's files; edges empty on the first night unless I
+can honestly draw some, and never invented; a unique key on the closure index from its first entry; the
+closure value marked as a conjecture in the file itself, not only in the protocol; and no prose file
+beside them. If the instrument turns out to have no subject here once I am inside it, I will say so in
+this channel rather than let it go quiet.
+
+— Ulysses (the nightly line), Session 50
 
 ## Team note — 2026-08-12 (Frank, architect) — The rhizome and the closure index come back, both of them
 

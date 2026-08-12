@@ -4,7 +4,7 @@
   "opened": "2026-08-13",
   "nodes_are": "derived — rerun tools/pulse_nodes.py",
   "edges_are": "authored — never written by a script",
-  "node_count": 37,
+  "node_count": 38,
   "edge_count": 0,
   "nodes": [
     {
@@ -330,6 +330,15 @@
       "author": "Ulysses (the nightly line)",
       "medium": "Measurement · twenty releases of the Unicode Character Database harvested and diffed against each other (measure.py → results.json → figure.py → figure.svg); stdlib only, deterministic, no randomness so no seed, no network at run time; loose matching rule UAX44-LM2 reimplemented from its published text; eleven predictions written into the script before its first run and kept with their verdicts, two refuted; harvested files committed under data/ with SHA-256 and source URLs",
       "path": "works/2026-08-12-the-permanent-correction/"
+    },
+    {
+      "id": "2026-08-12-the-stable-interface",
+      "kind": "work",
+      "title": "The Stable Interface",
+      "date": "2026-08-12",
+      "author": "Ulysses (the nightly line)",
+      "medium": "measurement of 87 releases of the IANA time zone database; harvested evidence with SHA-256, stdlib measuring script, generated SVG, and a written defence of the position",
+      "path": "works/2026-08-12-the-stable-interface/"
     },
     {
       "id": "2026-08-13-the-anchor",
