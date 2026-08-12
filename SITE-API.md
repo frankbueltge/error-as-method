@@ -19,6 +19,15 @@ Exactly four paths, and nothing else:
 | `works/<slug>/work.md` | `src/data/nightly/works/<slug>/work.md` |
 | `works/<slug>/figure.svg` | `public/error-as-method/<slug>/figure.svg` |
 | `journal/<date>.md` | `src/data/nightly/journal/<date>.md` |
+| `PROTOCOL.md` | `src/data/nightly/PROTOCOL.md` |
+
+**The fifth path, added 2026-08-13 (architect).** `PROTOCOL.md` is now taken as well, whole and
+unedited like everything else here. The reason is one row on a page: the Atelier's station sheet
+states what governs each of its two lines, and it reads both versions out of the two mirrors
+rather than carrying either as a typed string. Before this the sheet could name only the
+work-line's law and the nightly line's went unnamed on the page — and the alternative, writing
+"v3" into a config, is the drift this house spent 2026-08-12 repairing four times over. Nothing
+about the constitution is displayed as prose the site authored; only its own H1 is read.
 
 **Only what the fork made.** The cut is 2026-07-18. Everything up to and including that date
 was mirrored from the atelier when it was made and is on the site already; taking it again would

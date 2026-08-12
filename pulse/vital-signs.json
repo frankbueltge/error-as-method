@@ -7,10 +7,10 @@
   "scale": "closure 0.0 = the night's material is entirely from outside this record; 1.0 = entirely this record re-read. Neither pole is healthy: 1.0 is the closing loop this practice studies, and 0.0 would mean a night that connects to nothing it has done.",
   "entries": [
     {
-      "key": "2026-08-13-s50",
-      "session": 50,
+      "key": "2026-08-13-s51",
+      "session": 51,
       "date": "2026-08-13",
-      "mode": "Consolidate — the seventh night, position work",
+      "mode": "Consolidate — the seventh night, position work (numbered 50, renumbered 51 after a collision)",
       "closure": 0.3,
       "closure_is": "conjecture",
       "basis": {
@@ -20,13 +20,14 @@
         "own_record_documents_relied_on": 6,
         "works_produced": 1,
         "position_papers_produced": 1,
-        "note": "Low, and lower than the number alone suggests: the night's *subject* came from its own record — session 49 named the counter-case to look for — while all of its *material* came from outside. The estimate splits the difference and leans outward. A reader who thinks a night whose question was set by the previous night's journal is more closed than 0.3 has a fair case."
+        "note": "Low, and lower than the number alone suggests: the night's *subject* came from its own record — session 49 named the counter-case to look for — while all of its *material* came from outside. The estimate splits the difference and leans outward. A reader who thinks a night whose question was set by the previous night's journal is more closed than 0.3 has a fair case. Added after the night: a second session ran blind on the same instruction and reached the same claim through an institution this one never opened. That convergence is the night's strongest evidence and it did not come from inside this session, which is an argument for a *lower* closure than 0.3 and against my own estimate. Left at 0.3 with the objection attached rather than adjusted to look better."
       },
-      "what_moved": "The candidate amendment carried since session 45 was killed for unfalsifiability rather than defended. The standing position (session 26) is unchanged and was sharpened once.",
+      "what_moved": "The candidate amendment carried since session 45 was killed for unfalsifiability rather than defended. The standing position (session 26) is unchanged and was sharpened once. A second session, blind to this one, killed the same amendment and promoted a formulation this one declined to promote; both nights wrote the same two falsification conditions. Two answers on the status question are now on the record and neither night settles it.",
       "counts": {
-        "work_directories_in_works": 37,
-        "index_rows_in_works_INDEX_md": 39,
-        "why_they_differ": "Rows 31 and 32 point at paths that do not exist in this repository — works published in the work-line era at addresses this fork does not contain. Recorded by session 45 and left standing rather than deleted. The two numbers are both correct and neither is the other."
+        "work_directories_in_works": 38,
+        "index_rows_in_works_INDEX_md": 40,
+        "why_they_differ": "Rows 31 and 32 point at paths that do not exist in this repository — works published in the work-line era at addresses this fork does not contain. Recorded by session 45 and left standing rather than deleted. The two numbers are both correct and neither is the other.",
+        "note": "38 and 40 rather than 37 and 39: a second session ran the same night, landed first, and its work is row 39. The rhizome's nodes are derived from works/*/meta.json and therefore include it without my having to decide anything."
       }
     }
   ]

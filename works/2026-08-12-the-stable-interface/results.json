@@ -1,0 +1,5955 @@
+{
+ "backward_drops": [
+  {
+   "delta": -1,
+   "from": "2017b",
+   "to": "2017c"
+  },
+  {
+   "delta": -88,
+   "from": "2021b",
+   "to": "2021c"
+  },
+  {
+   "delta": -1,
+   "from": "2023c",
+   "to": "2023d"
+  }
+ ],
+ "backward_first": 110,
+ "backward_last": 256,
+ "backward_monotone": false,
+ "backward_series": [
+  {
+   "date": "2012-08-02",
+   "n": 110,
+   "tag": "2012e"
+  },
+  {
+   "date": "2012-09-12",
+   "n": 110,
+   "tag": "2012f"
+  },
+  {
+   "date": "2012-10-17",
+   "n": 110,
+   "tag": "2012g"
+  },
+  {
+   "date": "2012-10-26",
+   "n": 110,
+   "tag": "2012h"
+  },
+  {
+   "date": "2012-11-03",
+   "n": 110,
+   "tag": "2012i"
+  },
+  {
+   "date": "2012-11-12",
+   "n": 110,
+   "tag": "2012j"
+  },
+  {
+   "date": "2013-02-27",
+   "n": 110,
+   "tag": "2013a"
+  },
+  {
+   "date": "2013-03-10",
+   "n": 110,
+   "tag": "2013b"
+  },
+  {
+   "date": "2013-04-19",
+   "n": 110,
+   "tag": "2013c"
+  },
+  {
+   "date": "2013-07-05",
+   "n": 110,
+   "tag": "2013d"
+  },
+  {
+   "date": "2013-09-19",
+   "n": 112,
+   "tag": "2013e"
+  },
+  {
+   "date": "2013-09-24",
+   "n": 112,
+   "tag": "2013f"
+  },
+  {
+   "date": "2013-09-30",
+   "n": 112,
+   "tag": "2013g"
+  },
+  {
+   "date": "2013-10-25",
+   "n": 112,
+   "tag": "2013h"
+  },
+  {
+   "date": "2013-12-17",
+   "n": 112,
+   "tag": "2013i"
+  },
+  {
+   "date": "2014-03-07",
+   "n": 112,
+   "tag": "2014a"
+  },
+  {
+   "date": "2014-03-24",
+   "n": 112,
+   "tag": "2014b"
+  },
+  {
+   "date": "2014-05-13",
+   "n": 112,
+   "tag": "2014c"
+  },
+  {
+   "date": "2014-05-27",
+   "n": 112,
+   "tag": "2014d"
+  },
+  {
+   "date": "2014-06-12",
+   "n": 112,
+   "tag": "2014e"
+  },
+  {
+   "date": "2014-08-05",
+   "n": 115,
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-28",
+   "n": 115,
+   "tag": "2014g"
+  },
+  {
+   "date": "2014-09-25",
+   "n": 115,
+   "tag": "2014h"
+  },
+  {
+   "date": "2014-10-21",
+   "n": 115,
+   "tag": "2014i"
+  },
+  {
+   "date": "2014-11-10",
+   "n": 115,
+   "tag": "2014j"
+  },
+  {
+   "date": "2015-01-29",
+   "n": 115,
+   "tag": "2015a"
+  },
+  {
+   "date": "2015-03-19",
+   "n": 115,
+   "tag": "2015b"
+  },
+  {
+   "date": "2015-04-11",
+   "n": 116,
+   "tag": "2015c"
+  },
+  {
+   "date": "2015-04-24",
+   "n": 116,
+   "tag": "2015d"
+  },
+  {
+   "date": "2015-06-13",
+   "n": 116,
+   "tag": "2015e"
+  },
+  {
+   "date": "2015-08-10",
+   "n": 116,
+   "tag": "2015f"
+  },
+  {
+   "date": "2015-10-01",
+   "n": 116,
+   "tag": "2015g"
+  },
+  {
+   "date": "2016-01-26",
+   "n": 117,
+   "tag": "2016a"
+  },
+  {
+   "date": "2016-03-12",
+   "n": 117,
+   "tag": "2016b"
+  },
+  {
+   "date": "2016-03-23",
+   "n": 117,
+   "tag": "2016c"
+  },
+  {
+   "date": "2016-04-17",
+   "n": 117,
+   "tag": "2016d"
+  },
+  {
+   "date": "2016-06-14",
+   "n": 117,
+   "tag": "2016e"
+  },
+  {
+   "date": "2016-07-05",
+   "n": 117,
+   "tag": "2016f"
+  },
+  {
+   "date": "2016-09-13",
+   "n": 118,
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-10-19",
+   "n": 118,
+   "tag": "2016h"
+  },
+  {
+   "date": "2016-11-01",
+   "n": 118,
+   "tag": "2016i"
+  },
+  {
+   "date": "2016-11-22",
+   "n": 118,
+   "tag": "2016j"
+  },
+  {
+   "date": "2017-02-28",
+   "n": 119,
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-03-17",
+   "n": 119,
+   "tag": "2017b"
+  },
+  {
+   "date": "2017-10-20",
+   "n": 118,
+   "tag": "2017c"
+  },
+  {
+   "date": "2018-01-12",
+   "n": 118,
+   "tag": "2018a"
+  },
+  {
+   "date": "2018-01-17",
+   "n": 118,
+   "tag": "2018b"
+  },
+  {
+   "date": "2018-01-22",
+   "n": 118,
+   "tag": "2018c"
+  },
+  {
+   "date": "2018-03-22",
+   "n": 118,
+   "tag": "2018d"
+  },
+  {
+   "date": "2018-05-01",
+   "n": 118,
+   "tag": "2018e"
+  },
+  {
+   "date": "2018-10-18",
+   "n": 118,
+   "tag": "2018f"
+  },
+  {
+   "date": "2018-10-26",
+   "n": 118,
+   "tag": "2018g"
+  },
+  {
+   "date": "2018-12-23",
+   "n": 118,
+   "tag": "2018h"
+  },
+  {
+   "date": "2018-12-30",
+   "n": 118,
+   "tag": "2018i"
+  },
+  {
+   "date": "2019-03-25",
+   "n": 119,
+   "tag": "2019a"
+  },
+  {
+   "date": "2019-07-01",
+   "n": 119,
+   "tag": "2019b"
+  },
+  {
+   "date": "2019-09-11",
+   "n": 119,
+   "tag": "2019c"
+  },
+  {
+   "date": "2020-04-23",
+   "n": 120,
+   "tag": "2020a"
+  },
+  {
+   "date": "2020-10-06",
+   "n": 120,
+   "tag": "2020b"
+  },
+  {
+   "date": "2020-10-16",
+   "n": 120,
+   "tag": "2020c"
+  },
+  {
+   "date": "2020-10-21",
+   "n": 120,
+   "tag": "2020d"
+  },
+  {
+   "date": "2020-12-22",
+   "n": 121,
+   "tag": "2020e"
+  },
+  {
+   "date": "2020-12-29",
+   "n": 121,
+   "tag": "2020f"
+  },
+  {
+   "date": "2021-01-24",
+   "n": 121,
+   "tag": "2021a"
+  },
+  {
+   "date": "2021-09-24",
+   "n": 210,
+   "tag": "2021b"
+  },
+  {
+   "date": "2021-10-01",
+   "n": 122,
+   "tag": "2021c"
+  },
+  {
+   "date": "2021-10-15",
+   "n": 122,
+   "tag": "2021d"
+  },
+  {
+   "date": "2021-10-21",
+   "n": 122,
+   "tag": "2021e"
+  },
+  {
+   "date": "2022-03-15",
+   "n": 122,
+   "tag": "2022a"
+  },
+  {
+   "date": "2022-08-10",
+   "n": 123,
+   "tag": "2022b"
+  },
+  {
+   "date": "2022-08-15",
+   "n": 123,
+   "tag": "2022c"
+  },
+  {
+   "date": "2022-09-23",
+   "n": 125,
+   "tag": "2022d"
+  },
+  {
+   "date": "2022-10-11",
+   "n": 125,
+   "tag": "2022e"
+  },
+  {
+   "date": "2022-10-28",
+   "n": 243,
+   "tag": "2022f"
+  },
+  {
+   "date": "2022-11-29",
+   "n": 244,
+   "tag": "2022g"
+  },
+  {
+   "date": "2023-03-22",
+   "n": 245,
+   "tag": "2023a"
+  },
+  {
+   "date": "2023-03-23",
+   "n": 245,
+   "tag": "2023b"
+  },
+  {
+   "date": "2023-03-28",
+   "n": 245,
+   "tag": "2023c"
+  },
+  {
+   "date": "2023-12-21",
+   "n": 244,
+   "tag": "2023d"
+  },
+  {
+   "date": "2024-02-01",
+   "n": 244,
+   "tag": "2024a"
+  },
+  {
+   "date": "2024-09-04",
+   "n": 256,
+   "tag": "2024b"
+  },
+  {
+   "date": "2025-01-15",
+   "n": 256,
+   "tag": "2025a"
+  },
+  {
+   "date": "2025-03-22",
+   "n": 256,
+   "tag": "2025b"
+  },
+  {
+   "date": "2025-12-10",
+   "n": 256,
+   "tag": "2025c"
+  },
+  {
+   "date": "2026-03-01",
+   "n": 256,
+   "tag": "2026a"
+  },
+  {
+   "date": "2026-04-22",
+   "n": 256,
+   "tag": "2026b"
+  },
+  {
+   "date": "2026-07-08",
+   "n": 256,
+   "tag": "2026c"
+  }
+ ],
+ "demoted": [
+  {
+   "id": "Africa/Juba",
+   "target": "Africa/Khartoum",
+   "to": "2013e"
+  },
+  {
+   "id": "America/Anguilla",
+   "target": "America/Port_of_Spain",
+   "to": "2013e"
+  },
+  {
+   "id": "America/Aruba",
+   "target": "America/Curacao",
+   "to": "2013e"
+  },
+  {
+   "id": "America/Dominica",
+   "target": "America/Port_of_Spain",
+   "to": "2013e"
+  },
+  {
+   "id": "America/Grenada",
+   "target": "America/Port_of_Spain",
+   "to": "2013e"
+  },
+  {
+   "id": "America/Guadeloupe",
+   "target": "America/Port_of_Spain",
+   "to": "2013e"
+  },
+  {
+   "id": "America/Montserrat",
+   "target": "America/Port_of_Spain",
+   "to": "2013e"
+  },
+  {
+   "id": "America/St_Kitts",
+   "target": "America/Port_of_Spain",
+   "to": "2013e"
+  },
+  {
+   "id": "America/St_Lucia",
+   "target": "America/Port_of_Spain",
+   "to": "2013e"
+  },
+  {
+   "id": "America/St_Thomas",
+   "target": "America/Port_of_Spain",
+   "to": "2013e"
+  },
+  {
+   "id": "America/St_Vincent",
+   "target": "America/Port_of_Spain",
+   "to": "2013e"
+  },
+  {
+   "id": "America/Tortola",
+   "target": "America/Port_of_Spain",
+   "to": "2013e"
+  },
+  {
+   "id": "Antarctica/McMurdo",
+   "target": "Pacific/Auckland",
+   "to": "2013e"
+  },
+  {
+   "id": "Europe/Vaduz",
+   "target": "Europe/Zurich",
+   "to": "2013e"
+  },
+  {
+   "id": "Pacific/Johnston",
+   "target": "Pacific/Honolulu",
+   "to": "2013e"
+  },
+  {
+   "id": "Africa/Bamako",
+   "target": "Africa/Abidjan",
+   "to": "2014f"
+  },
+  {
+   "id": "Africa/Banjul",
+   "target": "Africa/Abidjan",
+   "to": "2014f"
+  },
+  {
+   "id": "Africa/Conakry",
+   "target": "Africa/Abidjan",
+   "to": "2014f"
+  },
+  {
+   "id": "Africa/Dakar",
+   "target": "Africa/Abidjan",
+   "to": "2014f"
+  },
+  {
+   "id": "Africa/Freetown",
+   "target": "Africa/Abidjan",
+   "to": "2014f"
+  },
+  {
+   "id": "Africa/Lome",
+   "target": "Africa/Abidjan",
+   "to": "2014f"
+  },
+  {
+   "id": "Africa/Nouakchott",
+   "target": "Africa/Abidjan",
+   "to": "2014f"
+  },
+  {
+   "id": "Africa/Ouagadougou",
+   "target": "Africa/Abidjan",
+   "to": "2014f"
+  },
+  {
+   "id": "Africa/Sao_Tome",
+   "target": "Africa/Abidjan",
+   "to": "2014f"
+  },
+  {
+   "id": "Asia/Chongqing",
+   "target": "Asia/Shanghai",
+   "to": "2014f"
+  },
+  {
+   "id": "Asia/Harbin",
+   "target": "Asia/Shanghai",
+   "to": "2014f"
+  },
+  {
+   "id": "Asia/Kashgar",
+   "target": "Asia/Urumqi",
+   "to": "2014f"
+  },
+  {
+   "id": "Atlantic/St_Helena",
+   "target": "Africa/Abidjan",
+   "to": "2014f"
+  },
+  {
+   "id": "Africa/Bangui",
+   "target": "Africa/Lagos",
+   "to": "2014g"
+  },
+  {
+   "id": "Africa/Brazzaville",
+   "target": "Africa/Lagos",
+   "to": "2014g"
+  },
+  {
+   "id": "Africa/Douala",
+   "target": "Africa/Lagos",
+   "to": "2014g"
+  },
+  {
+   "id": "Africa/Kinshasa",
+   "target": "Africa/Lagos",
+   "to": "2014g"
+  },
+  {
+   "id": "Africa/Libreville",
+   "target": "Africa/Lagos",
+   "to": "2014g"
+  },
+  {
+   "id": "Africa/Luanda",
+   "target": "Africa/Lagos",
+   "to": "2014g"
+  },
+  {
+   "id": "Africa/Malabo",
+   "target": "Africa/Lagos",
+   "to": "2014g"
+  },
+  {
+   "id": "Africa/Niamey",
+   "target": "Africa/Lagos",
+   "to": "2014g"
+  },
+  {
+   "id": "Africa/Porto-Novo",
+   "target": "Africa/Lagos",
+   "to": "2014g"
+  },
+  {
+   "id": "Africa/Blantyre",
+   "target": "Africa/Maputo",
+   "to": "2014h"
+  },
+  {
+   "id": "Africa/Bujumbura",
+   "target": "Africa/Maputo",
+   "to": "2014h"
+  },
+  {
+   "id": "Africa/Gaborone",
+   "target": "Africa/Maputo",
+   "to": "2014h"
+  },
+  {
+   "id": "Africa/Harare",
+   "target": "Africa/Maputo",
+   "to": "2014h"
+  },
+  {
+   "id": "Africa/Kigali",
+   "target": "Africa/Maputo",
+   "to": "2014h"
+  },
+  {
+   "id": "Africa/Lubumbashi",
+   "target": "Africa/Maputo",
+   "to": "2014h"
+  },
+  {
+   "id": "Africa/Lusaka",
+   "target": "Africa/Maputo",
+   "to": "2014h"
+  },
+  {
+   "id": "Africa/Maseru",
+   "target": "Africa/Johannesburg",
+   "to": "2014h"
+  },
+  {
+   "id": "Africa/Mbabane",
+   "target": "Africa/Johannesburg",
+   "to": "2014h"
+  },
+  {
+   "id": "Asia/Phnom_Penh",
+   "target": "Asia/Bangkok",
+   "to": "2014i"
+  },
+  {
+   "id": "Asia/Vientiane",
+   "target": "Asia/Bangkok",
+   "to": "2014i"
+  },
+  {
+   "id": "Africa/Addis_Ababa",
+   "target": "Africa/Nairobi",
+   "to": "2014j"
+  },
+  {
+   "id": "Africa/Asmara",
+   "target": "Africa/Nairobi",
+   "to": "2014j"
+  },
+  {
+   "id": "Africa/Dar_es_Salaam",
+   "target": "Africa/Nairobi",
+   "to": "2014j"
+  },
+  {
+   "id": "Africa/Djibouti",
+   "target": "Africa/Nairobi",
+   "to": "2014j"
+  },
+  {
+   "id": "Africa/Kampala",
+   "target": "Africa/Nairobi",
+   "to": "2014j"
+  },
+  {
+   "id": "Africa/Mogadishu",
+   "target": "Africa/Nairobi",
+   "to": "2014j"
+  },
+  {
+   "id": "Indian/Antananarivo",
+   "target": "Africa/Nairobi",
+   "to": "2014j"
+  },
+  {
+   "id": "Indian/Comoro",
+   "target": "Africa/Nairobi",
+   "to": "2014j"
+  },
+  {
+   "id": "Indian/Mayotte",
+   "target": "Africa/Nairobi",
+   "to": "2014j"
+  },
+  {
+   "id": "Asia/Aden",
+   "target": "Asia/Riyadh",
+   "to": "2015a"
+  },
+  {
+   "id": "Asia/Bahrain",
+   "target": "Asia/Qatar",
+   "to": "2015a"
+  },
+  {
+   "id": "Asia/Kuwait",
+   "target": "Asia/Riyadh",
+   "to": "2015a"
+  },
+  {
+   "id": "Asia/Muscat",
+   "target": "Asia/Dubai",
+   "to": "2015a"
+  },
+  {
+   "id": "America/Antigua",
+   "target": "America/Port_of_Spain",
+   "to": "2015b"
+  },
+  {
+   "id": "America/Cayman",
+   "target": "America/Panama",
+   "to": "2015b"
+  },
+  {
+   "id": "Pacific/Midway",
+   "target": "Pacific/Pago_Pago",
+   "to": "2015b"
+  },
+  {
+   "id": "Pacific/Saipan",
+   "target": "Pacific/Guam",
+   "to": "2015b"
+  },
+  {
+   "id": "America/Montreal",
+   "target": "America/Toronto",
+   "to": "2015c"
+  },
+  {
+   "id": "America/Cayman",
+   "target": "America/Panama",
+   "to": "2016a"
+  },
+  {
+   "id": "America/Santa_Isabel",
+   "target": "America/Tijuana",
+   "to": "2016a"
+  },
+  {
+   "id": "Asia/Rangoon",
+   "target": "Asia/Yangon",
+   "to": "2016g"
+  },
+  {
+   "id": "Etc/UCT",
+   "target": "Etc/UTC",
+   "to": "2019a"
+  },
+  {
+   "id": "America/Godthab",
+   "target": "America/Nuuk",
+   "to": "2020a"
+  },
+  {
+   "id": "Australia/Currie",
+   "target": "Australia/Hobart",
+   "to": "2020e"
+  },
+  {
+   "id": "Africa/Accra",
+   "target": "Africa/Abidjan",
+   "to": "2021b"
+  },
+  {
+   "id": "America/Atikokan",
+   "target": "America/Panama",
+   "to": "2021b"
+  },
+  {
+   "id": "America/Blanc-Sablon",
+   "target": "America/Puerto_Rico",
+   "to": "2021b"
+  },
+  {
+   "id": "America/Creston",
+   "target": "America/Phoenix",
+   "to": "2021b"
+  },
+  {
+   "id": "America/Curacao",
+   "target": "America/Puerto_Rico",
+   "to": "2021b"
+  },
+  {
+   "id": "America/Nassau",
+   "target": "America/Toronto",
+   "to": "2021b"
+  },
+  {
+   "id": "America/Port_of_Spain",
+   "target": "America/Puerto_Rico",
+   "to": "2021b"
+  },
+  {
+   "id": "Antarctica/DumontDUrville",
+   "target": "Pacific/Port_Moresby",
+   "to": "2021b"
+  },
+  {
+   "id": "Antarctica/Syowa",
+   "target": "Asia/Riyadh",
+   "to": "2021b"
+  },
+  {
+   "id": "Pacific/Enderbury",
+   "target": "Pacific/Kanton",
+   "to": "2021b"
+  },
+  {
+   "id": "Antarctica/Vostok",
+   "target": "Asia/Urumqi",
+   "to": "2022b"
+  },
+  {
+   "id": "Asia/Brunei",
+   "target": "Asia/Kuching",
+   "to": "2022b"
+  },
+  {
+   "id": "Asia/Kuala_Lumpur",
+   "target": "Asia/Singapore",
+   "to": "2022b"
+  },
+  {
+   "id": "Atlantic/Reykjavik",
+   "target": "Africa/Abidjan",
+   "to": "2022b"
+  },
+  {
+   "id": "Europe/Amsterdam",
+   "target": "Europe/Brussels",
+   "to": "2022b"
+  },
+  {
+   "id": "Europe/Copenhagen",
+   "target": "Europe/Berlin",
+   "to": "2022b"
+  },
+  {
+   "id": "Europe/Kiev",
+   "target": "Europe/Kyiv",
+   "to": "2022b"
+  },
+  {
+   "id": "Europe/Luxembourg",
+   "target": "Europe/Brussels",
+   "to": "2022b"
+  },
+  {
+   "id": "Europe/Monaco",
+   "target": "Europe/Paris",
+   "to": "2022b"
+  },
+  {
+   "id": "Europe/Oslo",
+   "target": "Europe/Berlin",
+   "to": "2022b"
+  },
+  {
+   "id": "Europe/Stockholm",
+   "target": "Europe/Berlin",
+   "to": "2022b"
+  },
+  {
+   "id": "Indian/Christmas",
+   "target": "Asia/Bangkok",
+   "to": "2022b"
+  },
+  {
+   "id": "Indian/Cocos",
+   "target": "Asia/Yangon",
+   "to": "2022b"
+  },
+  {
+   "id": "Indian/Kerguelen",
+   "target": "Indian/Maldives",
+   "to": "2022b"
+  },
+  {
+   "id": "Indian/Mahe",
+   "target": "Asia/Dubai",
+   "to": "2022b"
+  },
+  {
+   "id": "Indian/Reunion",
+   "target": "Asia/Dubai",
+   "to": "2022b"
+  },
+  {
+   "id": "Pacific/Chuuk",
+   "target": "Pacific/Port_Moresby",
+   "to": "2022b"
+  },
+  {
+   "id": "Pacific/Funafuti",
+   "target": "Pacific/Tarawa",
+   "to": "2022b"
+  },
+  {
+   "id": "Pacific/Majuro",
+   "target": "Pacific/Tarawa",
+   "to": "2022b"
+  },
+  {
+   "id": "Pacific/Pohnpei",
+   "target": "Pacific/Guadalcanal",
+   "to": "2022b"
+  },
+  {
+   "id": "Pacific/Wake",
+   "target": "Pacific/Tarawa",
+   "to": "2022b"
+  },
+  {
+   "id": "Pacific/Wallis",
+   "target": "Pacific/Tarawa",
+   "to": "2022b"
+  },
+  {
+   "id": "Europe/Uzhgorod",
+   "target": "Europe/Kyiv",
+   "to": "2022d"
+  },
+  {
+   "id": "Europe/Zaporozhye",
+   "target": "Europe/Kyiv",
+   "to": "2022d"
+  },
+  {
+   "id": "America/Nipigon",
+   "target": "America/Toronto",
+   "to": "2022f"
+  },
+  {
+   "id": "America/Rainy_River",
+   "target": "America/Winnipeg",
+   "to": "2022f"
+  },
+  {
+   "id": "America/Thunder_Bay",
+   "target": "America/Toronto",
+   "to": "2022f"
+  },
+  {
+   "id": "America/Pangnirtung",
+   "target": "America/Iqaluit",
+   "to": "2022g"
+  },
+  {
+   "id": "America/Yellowknife",
+   "target": "America/Edmonton",
+   "to": "2023a"
+  },
+  {
+   "id": "Asia/Choibalsan",
+   "target": "Asia/Ulaanbaatar",
+   "to": "2024b"
+  },
+  {
+   "id": "CET",
+   "target": "Europe/Brussels",
+   "to": "2024b"
+  },
+  {
+   "id": "CST6CDT",
+   "target": "America/Chicago",
+   "to": "2024b"
+  },
+  {
+   "id": "EET",
+   "target": "Europe/Athens",
+   "to": "2024b"
+  },
+  {
+   "id": "EST",
+   "target": "America/Panama",
+   "to": "2024b"
+  },
+  {
+   "id": "EST5EDT",
+   "target": "America/New_York",
+   "to": "2024b"
+  },
+  {
+   "id": "HST",
+   "target": "Pacific/Honolulu",
+   "to": "2024b"
+  },
+  {
+   "id": "MET",
+   "target": "Europe/Brussels",
+   "to": "2024b"
+  },
+  {
+   "id": "MST",
+   "target": "America/Phoenix",
+   "to": "2024b"
+  },
+  {
+   "id": "MST7MDT",
+   "target": "America/Denver",
+   "to": "2024b"
+  },
+  {
+   "id": "PST8PDT",
+   "target": "America/Los_Angeles",
+   "to": "2024b"
+  },
+  {
+   "id": "WET",
+   "target": "Europe/Lisbon",
+   "to": "2024b"
+  }
+ ],
+ "id_count_series": [
+  {
+   "date": "2012-08-02",
+   "n": 576,
+   "tag": "2012e"
+  },
+  {
+   "date": "2012-09-12",
+   "n": 576,
+   "tag": "2012f"
+  },
+  {
+   "date": "2012-10-17",
+   "n": 576,
+   "tag": "2012g"
+  },
+  {
+   "date": "2012-10-26",
+   "n": 576,
+   "tag": "2012h"
+  },
+  {
+   "date": "2012-11-03",
+   "n": 576,
+   "tag": "2012i"
+  },
+  {
+   "date": "2012-11-12",
+   "n": 576,
+   "tag": "2012j"
+  },
+  {
+   "date": "2013-02-27",
+   "n": 579,
+   "tag": "2013a"
+  },
+  {
+   "date": "2013-03-10",
+   "n": 579,
+   "tag": "2013b"
+  },
+  {
+   "date": "2013-04-19",
+   "n": 579,
+   "tag": "2013c"
+  },
+  {
+   "date": "2013-07-05",
+   "n": 579,
+   "tag": "2013d"
+  },
+  {
+   "date": "2013-09-19",
+   "n": 579,
+   "tag": "2013e"
+  },
+  {
+   "date": "2013-09-24",
+   "n": 579,
+   "tag": "2013f"
+  },
+  {
+   "date": "2013-09-30",
+   "n": 579,
+   "tag": "2013g"
+  },
+  {
+   "date": "2013-10-25",
+   "n": 579,
+   "tag": "2013h"
+  },
+  {
+   "date": "2013-12-17",
+   "n": 579,
+   "tag": "2013i"
+  },
+  {
+   "date": "2014-03-07",
+   "n": 579,
+   "tag": "2014a"
+  },
+  {
+   "date": "2014-03-24",
+   "n": 580,
+   "tag": "2014b"
+  },
+  {
+   "date": "2014-05-13",
+   "n": 580,
+   "tag": "2014c"
+  },
+  {
+   "date": "2014-05-27",
+   "n": 580,
+   "tag": "2014d"
+  },
+  {
+   "date": "2014-06-12",
+   "n": 580,
+   "tag": "2014e"
+  },
+  {
+   "date": "2014-08-05",
+   "n": 582,
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-28",
+   "n": 582,
+   "tag": "2014g"
+  },
+  {
+   "date": "2014-09-25",
+   "n": 582,
+   "tag": "2014h"
+  },
+  {
+   "date": "2014-10-21",
+   "n": 583,
+   "tag": "2014i"
+  },
+  {
+   "date": "2014-11-10",
+   "n": 583,
+   "tag": "2014j"
+  },
+  {
+   "date": "2015-01-29",
+   "n": 583,
+   "tag": "2015a"
+  },
+  {
+   "date": "2015-03-19",
+   "n": 583,
+   "tag": "2015b"
+  },
+  {
+   "date": "2015-04-11",
+   "n": 583,
+   "tag": "2015c"
+  },
+  {
+   "date": "2015-04-24",
+   "n": 583,
+   "tag": "2015d"
+  },
+  {
+   "date": "2015-06-13",
+   "n": 583,
+   "tag": "2015e"
+  },
+  {
+   "date": "2015-08-10",
+   "n": 583,
+   "tag": "2015f"
+  },
+  {
+   "date": "2015-10-01",
+   "n": 584,
+   "tag": "2015g"
+  },
+  {
+   "date": "2016-01-26",
+   "n": 584,
+   "tag": "2016a"
+  },
+  {
+   "date": "2016-03-12",
+   "n": 587,
+   "tag": "2016b"
+  },
+  {
+   "date": "2016-03-23",
+   "n": 587,
+   "tag": "2016c"
+  },
+  {
+   "date": "2016-04-17",
+   "n": 589,
+   "tag": "2016d"
+  },
+  {
+   "date": "2016-06-14",
+   "n": 589,
+   "tag": "2016e"
+  },
+  {
+   "date": "2016-07-05",
+   "n": 589,
+   "tag": "2016f"
+  },
+  {
+   "date": "2016-09-13",
+   "n": 590,
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-10-19",
+   "n": 590,
+   "tag": "2016h"
+  },
+  {
+   "date": "2016-11-01",
+   "n": 591,
+   "tag": "2016i"
+  },
+  {
+   "date": "2016-11-22",
+   "n": 593,
+   "tag": "2016j"
+  },
+  {
+   "date": "2017-02-28",
+   "n": 594,
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-03-17",
+   "n": 594,
+   "tag": "2017b"
+  },
+  {
+   "date": "2017-10-20",
+   "n": 593,
+   "tag": "2017c"
+  },
+  {
+   "date": "2018-01-12",
+   "n": 593,
+   "tag": "2018a"
+  },
+  {
+   "date": "2018-01-17",
+   "n": 593,
+   "tag": "2018b"
+  },
+  {
+   "date": "2018-01-22",
+   "n": 593,
+   "tag": "2018c"
+  },
+  {
+   "date": "2018-03-22",
+   "n": 593,
+   "tag": "2018d"
+  },
+  {
+   "date": "2018-05-01",
+   "n": 593,
+   "tag": "2018e"
+  },
+  {
+   "date": "2018-10-18",
+   "n": 593,
+   "tag": "2018f"
+  },
+  {
+   "date": "2018-10-26",
+   "n": 593,
+   "tag": "2018g"
+  },
+  {
+   "date": "2018-12-23",
+   "n": 594,
+   "tag": "2018h"
+  },
+  {
+   "date": "2018-12-30",
+   "n": 594,
+   "tag": "2018i"
+  },
+  {
+   "date": "2019-03-25",
+   "n": 594,
+   "tag": "2019a"
+  },
+  {
+   "date": "2019-07-01",
+   "n": 594,
+   "tag": "2019b"
+  },
+  {
+   "date": "2019-09-11",
+   "n": 594,
+   "tag": "2019c"
+  },
+  {
+   "date": "2020-04-23",
+   "n": 595,
+   "tag": "2020a"
+  },
+  {
+   "date": "2020-10-06",
+   "n": 594,
+   "tag": "2020b"
+  },
+  {
+   "date": "2020-10-16",
+   "n": 594,
+   "tag": "2020c"
+  },
+  {
+   "date": "2020-10-21",
+   "n": 594,
+   "tag": "2020d"
+  },
+  {
+   "date": "2020-12-22",
+   "n": 594,
+   "tag": "2020e"
+  },
+  {
+   "date": "2020-12-29",
+   "n": 594,
+   "tag": "2020f"
+  },
+  {
+   "date": "2021-01-24",
+   "n": 594,
+   "tag": "2021a"
+  },
+  {
+   "date": "2021-09-24",
+   "n": 595,
+   "tag": "2021b"
+  },
+  {
+   "date": "2021-10-01",
+   "n": 595,
+   "tag": "2021c"
+  },
+  {
+   "date": "2021-10-15",
+   "n": 595,
+   "tag": "2021d"
+  },
+  {
+   "date": "2021-10-21",
+   "n": 595,
+   "tag": "2021e"
+  },
+  {
+   "date": "2022-03-15",
+   "n": 595,
+   "tag": "2022a"
+  },
+  {
+   "date": "2022-08-10",
+   "n": 596,
+   "tag": "2022b"
+  },
+  {
+   "date": "2022-08-15",
+   "n": 596,
+   "tag": "2022c"
+  },
+  {
+   "date": "2022-09-23",
+   "n": 596,
+   "tag": "2022d"
+  },
+  {
+   "date": "2022-10-11",
+   "n": 596,
+   "tag": "2022e"
+  },
+  {
+   "date": "2022-10-28",
+   "n": 596,
+   "tag": "2022f"
+  },
+  {
+   "date": "2022-11-29",
+   "n": 597,
+   "tag": "2022g"
+  },
+  {
+   "date": "2023-03-22",
+   "n": 597,
+   "tag": "2023a"
+  },
+  {
+   "date": "2023-03-23",
+   "n": 597,
+   "tag": "2023b"
+  },
+  {
+   "date": "2023-03-28",
+   "n": 597,
+   "tag": "2023c"
+  },
+  {
+   "date": "2023-12-21",
+   "n": 597,
+   "tag": "2023d"
+  },
+  {
+   "date": "2024-02-01",
+   "n": 597,
+   "tag": "2024a"
+  },
+  {
+   "date": "2024-09-04",
+   "n": 597,
+   "tag": "2024b"
+  },
+  {
+   "date": "2025-01-15",
+   "n": 597,
+   "tag": "2025a"
+  },
+  {
+   "date": "2025-03-22",
+   "n": 598,
+   "tag": "2025b"
+  },
+  {
+   "date": "2025-12-10",
+   "n": 598,
+   "tag": "2025c"
+  },
+  {
+   "date": "2026-03-01",
+   "n": 598,
+   "tag": "2026a"
+  },
+  {
+   "date": "2026-04-22",
+   "n": 598,
+   "tag": "2026b"
+  },
+  {
+   "date": "2026-07-08",
+   "n": 598,
+   "tag": "2026c"
+  }
+ ],
+ "identifier_count_drops": [
+  {
+   "delta": -1,
+   "from": "2017b",
+   "to": "2017c"
+  },
+  {
+   "delta": -1,
+   "from": "2020a",
+   "to": "2020b"
+  }
+ ],
+ "identifier_count_monotone": false,
+ "identifiers_ever": 600,
+ "identifiers_ever_minus_last": 2,
+ "identifiers_first": 576,
+ "identifiers_last": 598,
+ "links_first": 139,
+ "links_last": 257,
+ "links_monotone": false,
+ "links_series": [
+  {
+   "date": "2012-08-02",
+   "n": 139,
+   "tag": "2012e"
+  },
+  {
+   "date": "2012-09-12",
+   "n": 139,
+   "tag": "2012f"
+  },
+  {
+   "date": "2012-10-17",
+   "n": 139,
+   "tag": "2012g"
+  },
+  {
+   "date": "2012-10-26",
+   "n": 139,
+   "tag": "2012h"
+  },
+  {
+   "date": "2012-11-03",
+   "n": 139,
+   "tag": "2012i"
+  },
+  {
+   "date": "2012-11-12",
+   "n": 139,
+   "tag": "2012j"
+  },
+  {
+   "date": "2013-02-27",
+   "n": 140,
+   "tag": "2013a"
+  },
+  {
+   "date": "2013-03-10",
+   "n": 140,
+   "tag": "2013b"
+  },
+  {
+   "date": "2013-04-19",
+   "n": 140,
+   "tag": "2013c"
+  },
+  {
+   "date": "2013-07-05",
+   "n": 140,
+   "tag": "2013d"
+  },
+  {
+   "date": "2013-09-19",
+   "n": 155,
+   "tag": "2013e"
+  },
+  {
+   "date": "2013-09-24",
+   "n": 155,
+   "tag": "2013f"
+  },
+  {
+   "date": "2013-09-30",
+   "n": 155,
+   "tag": "2013g"
+  },
+  {
+   "date": "2013-10-25",
+   "n": 155,
+   "tag": "2013h"
+  },
+  {
+   "date": "2013-12-17",
+   "n": 155,
+   "tag": "2013i"
+  },
+  {
+   "date": "2014-03-07",
+   "n": 155,
+   "tag": "2014a"
+  },
+  {
+   "date": "2014-03-24",
+   "n": 155,
+   "tag": "2014b"
+  },
+  {
+   "date": "2014-05-13",
+   "n": 155,
+   "tag": "2014c"
+  },
+  {
+   "date": "2014-05-27",
+   "n": 155,
+   "tag": "2014d"
+  },
+  {
+   "date": "2014-06-12",
+   "n": 155,
+   "tag": "2014e"
+  },
+  {
+   "date": "2014-08-05",
+   "n": 168,
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-28",
+   "n": 177,
+   "tag": "2014g"
+  },
+  {
+   "date": "2014-09-25",
+   "n": 186,
+   "tag": "2014h"
+  },
+  {
+   "date": "2014-10-21",
+   "n": 188,
+   "tag": "2014i"
+  },
+  {
+   "date": "2014-11-10",
+   "n": 197,
+   "tag": "2014j"
+  },
+  {
+   "date": "2015-01-29",
+   "n": 201,
+   "tag": "2015a"
+  },
+  {
+   "date": "2015-03-19",
+   "n": 205,
+   "tag": "2015b"
+  },
+  {
+   "date": "2015-04-11",
+   "n": 206,
+   "tag": "2015c"
+  },
+  {
+   "date": "2015-04-24",
+   "n": 206,
+   "tag": "2015d"
+  },
+  {
+   "date": "2015-06-13",
+   "n": 205,
+   "tag": "2015e"
+  },
+  {
+   "date": "2015-08-10",
+   "n": 205,
+   "tag": "2015f"
+  },
+  {
+   "date": "2015-10-01",
+   "n": 205,
+   "tag": "2015g"
+  },
+  {
+   "date": "2016-01-26",
+   "n": 207,
+   "tag": "2016a"
+  },
+  {
+   "date": "2016-03-12",
+   "n": 207,
+   "tag": "2016b"
+  },
+  {
+   "date": "2016-03-23",
+   "n": 207,
+   "tag": "2016c"
+  },
+  {
+   "date": "2016-04-17",
+   "n": 207,
+   "tag": "2016d"
+  },
+  {
+   "date": "2016-06-14",
+   "n": 207,
+   "tag": "2016e"
+  },
+  {
+   "date": "2016-07-05",
+   "n": 207,
+   "tag": "2016f"
+  },
+  {
+   "date": "2016-09-13",
+   "n": 208,
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-10-19",
+   "n": 208,
+   "tag": "2016h"
+  },
+  {
+   "date": "2016-11-01",
+   "n": 208,
+   "tag": "2016i"
+  },
+  {
+   "date": "2016-11-22",
+   "n": 208,
+   "tag": "2016j"
+  },
+  {
+   "date": "2017-02-28",
+   "n": 208,
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-03-17",
+   "n": 208,
+   "tag": "2017b"
+  },
+  {
+   "date": "2017-10-20",
+   "n": 206,
+   "tag": "2017c"
+  },
+  {
+   "date": "2018-01-12",
+   "n": 205,
+   "tag": "2018a"
+  },
+  {
+   "date": "2018-01-17",
+   "n": 205,
+   "tag": "2018b"
+  },
+  {
+   "date": "2018-01-22",
+   "n": 205,
+   "tag": "2018c"
+  },
+  {
+   "date": "2018-03-22",
+   "n": 205,
+   "tag": "2018d"
+  },
+  {
+   "date": "2018-05-01",
+   "n": 205,
+   "tag": "2018e"
+  },
+  {
+   "date": "2018-10-18",
+   "n": 205,
+   "tag": "2018f"
+  },
+  {
+   "date": "2018-10-26",
+   "n": 205,
+   "tag": "2018g"
+  },
+  {
+   "date": "2018-12-23",
+   "n": 205,
+   "tag": "2018h"
+  },
+  {
+   "date": "2018-12-30",
+   "n": 205,
+   "tag": "2018i"
+  },
+  {
+   "date": "2019-03-25",
+   "n": 206,
+   "tag": "2019a"
+  },
+  {
+   "date": "2019-07-01",
+   "n": 206,
+   "tag": "2019b"
+  },
+  {
+   "date": "2019-09-11",
+   "n": 206,
+   "tag": "2019c"
+  },
+  {
+   "date": "2020-04-23",
+   "n": 207,
+   "tag": "2020a"
+  },
+  {
+   "date": "2020-10-06",
+   "n": 206,
+   "tag": "2020b"
+  },
+  {
+   "date": "2020-10-16",
+   "n": 206,
+   "tag": "2020c"
+  },
+  {
+   "date": "2020-10-21",
+   "n": 206,
+   "tag": "2020d"
+  },
+  {
+   "date": "2020-12-22",
+   "n": 207,
+   "tag": "2020e"
+  },
+  {
+   "date": "2020-12-29",
+   "n": 207,
+   "tag": "2020f"
+  },
+  {
+   "date": "2021-01-24",
+   "n": 207,
+   "tag": "2021a"
+  },
+  {
+   "date": "2021-09-24",
+   "n": 217,
+   "tag": "2021b"
+  },
+  {
+   "date": "2021-10-01",
+   "n": 217,
+   "tag": "2021c"
+  },
+  {
+   "date": "2021-10-15",
+   "n": 217,
+   "tag": "2021d"
+  },
+  {
+   "date": "2021-10-21",
+   "n": 217,
+   "tag": "2021e"
+  },
+  {
+   "date": "2022-03-15",
+   "n": 217,
+   "tag": "2022a"
+  },
+  {
+   "date": "2022-08-10",
+   "n": 239,
+   "tag": "2022b"
+  },
+  {
+   "date": "2022-08-15",
+   "n": 239,
+   "tag": "2022c"
+  },
+  {
+   "date": "2022-09-23",
+   "n": 241,
+   "tag": "2022d"
+  },
+  {
+   "date": "2022-10-11",
+   "n": 241,
+   "tag": "2022e"
+  },
+  {
+   "date": "2022-10-28",
+   "n": 244,
+   "tag": "2022f"
+  },
+  {
+   "date": "2022-11-29",
+   "n": 245,
+   "tag": "2022g"
+  },
+  {
+   "date": "2023-03-22",
+   "n": 246,
+   "tag": "2023a"
+  },
+  {
+   "date": "2023-03-23",
+   "n": 246,
+   "tag": "2023b"
+  },
+  {
+   "date": "2023-03-28",
+   "n": 246,
+   "tag": "2023c"
+  },
+  {
+   "date": "2023-12-21",
+   "n": 245,
+   "tag": "2023d"
+  },
+  {
+   "date": "2024-02-01",
+   "n": 245,
+   "tag": "2024a"
+  },
+  {
+   "date": "2024-09-04",
+   "n": 257,
+   "tag": "2024b"
+  },
+  {
+   "date": "2025-01-15",
+   "n": 257,
+   "tag": "2025a"
+  },
+  {
+   "date": "2025-03-22",
+   "n": 257,
+   "tag": "2025b"
+  },
+  {
+   "date": "2025-12-10",
+   "n": 257,
+   "tag": "2025c"
+  },
+  {
+   "date": "2026-03-01",
+   "n": 257,
+   "tag": "2026a"
+  },
+  {
+   "date": "2026-04-22",
+   "n": 257,
+   "tag": "2026b"
+  },
+  {
+   "date": "2026-07-08",
+   "n": 257,
+   "tag": "2026c"
+  }
+ ],
+ "most_retro_edited": [
+  [
+   "Antarctica/Macquarie",
+   6
+  ],
+  [
+   "Europe/Volgograd",
+   6
+  ],
+  [
+   "Pacific/Easter",
+   6
+  ],
+  [
+   "America/Santiago",
+   6
+  ],
+  [
+   "Pacific/Apia",
+   5
+  ],
+  [
+   "Asia/Hong_Kong",
+   5
+  ],
+  [
+   "America/Grand_Turk",
+   5
+  ],
+  [
+   "Africa/El_Aaiun",
+   5
+  ],
+  [
+   "Asia/Vladivostok",
+   5
+  ],
+  [
+   "Asia/Pyongyang",
+   5
+  ],
+  [
+   "Europe/Samara",
+   5
+  ],
+  [
+   "Asia/Macau",
+   5
+  ]
+ ],
+ "n_additions": 24,
+ "n_append_events": 0,
+ "n_demoted_zone_to_link": 123,
+ "n_promoted_link_to_zone": 4,
+ "n_releases": 87,
+ "n_releases_with_retro": 58,
+ "n_removals": 2,
+ "n_retargeted_ids": 29,
+ "n_retargets": 34,
+ "n_retro_events": 742,
+ "n_retro_hist_events": 593,
+ "n_retro_hist_ids": 286,
+ "n_retro_ids": 337,
+ "n_row0_edited_ids": 163,
+ "n_tail_close_events": 64,
+ "n_transitions": 86,
+ "n_transitions_with_retro_hist": 51,
+ "predictions": {
+  "P1 no identifier ever removed": {
+   "held": false,
+   "value": 2
+  },
+  "P10 >=5 link names retargeted": {
+   "held": true,
+   "value": 29
+  },
+  "P2 identifier count monotone": {
+   "held": false,
+   "value": [
+    {
+     "delta": -1,
+     "from": "2017b",
+     "to": "2017c"
+    },
+    {
+     "delta": -1,
+     "from": "2020a",
+     "to": "2020b"
+    }
+   ]
+  },
+  "P3 >=20 demotions, <=3 promotions": {
+   "held": false,
+   "value": [
+    123,
+    4
+   ]
+  },
+  "P4 >=200 retro events": {
+   "held": true,
+   "value": 742
+  },
+  "P5 >=150 identifiers retro-edited": {
+   "held": true,
+   "value": 337
+  },
+  "P6 >=44 of 86 transitions carry a retro edit": {
+   "held": true,
+   "value": 58
+  },
+  "P7 backward monotone and at least doubles": {
+   "held": false,
+   "value": [
+    110,
+    256,
+    false
+   ]
+  },
+  "P8 appends outnumber retro edits": {
+   "held": false,
+   "value": [
+    0,
+    742
+   ]
+  },
+  "P9 >=30 identifiers had row 0 edited": {
+   "held": true,
+   "value": 163
+  }
+ },
+ "promoted": [
+  {
+   "id": "America/Cayman",
+   "to": "2015e"
+  },
+  {
+   "id": "Africa/Juba",
+   "to": "2017c"
+  },
+  {
+   "id": "Africa/Sao_Tome",
+   "to": "2018a"
+  },
+  {
+   "id": "Antarctica/Vostok",
+   "to": "2023d"
+  }
+ ],
+ "releases_with_no_retro": [
+  "2012f",
+  "2012h",
+  "2012i",
+  "2013b",
+  "2013f",
+  "2013g",
+  "2014b",
+  "2014c",
+  "2014d",
+  "2015e",
+  "2016a",
+  "2018b",
+  "2018i",
+  "2020a",
+  "2020c",
+  "2020d",
+  "2020f",
+  "2021a",
+  "2021c",
+  "2021d",
+  "2021e",
+  "2022c",
+  "2022d",
+  "2022f",
+  "2023b",
+  "2023c",
+  "2026a",
+  "2026b"
+ ],
+ "removal_points": [
+  {
+   "date": "2017-10-20",
+   "id": "Canada/East-Saskatchewan",
+   "tag": "2017c"
+  },
+  {
+   "date": "2020-10-06",
+   "id": "US/Pacific-New",
+   "tag": "2020b"
+  }
+ ],
+ "removals": [
+  {
+   "event": "removed",
+   "from": "2017b",
+   "id": "Canada/East-Saskatchewan",
+   "kind": "Link",
+   "to": "2017c"
+  },
+  {
+   "event": "removed",
+   "from": "2020a",
+   "id": "US/Pacific-New",
+   "kind": "Link",
+   "to": "2020b"
+  }
+ ],
+ "retargets": [
+  {
+   "id": "America/Marigot",
+   "new": "America/Port_of_Spain",
+   "old": "America/Guadeloupe",
+   "to": "2013e"
+  },
+  {
+   "id": "America/St_Barthelemy",
+   "new": "America/Port_of_Spain",
+   "old": "America/Guadeloupe",
+   "to": "2013e"
+  },
+  {
+   "id": "America/Virgin",
+   "new": "America/Port_of_Spain",
+   "old": "America/St_Thomas",
+   "to": "2013e"
+  },
+  {
+   "id": "Antarctica/South_Pole",
+   "new": "Pacific/Auckland",
+   "old": "Antarctica/McMurdo",
+   "to": "2013e"
+  },
+  {
+   "id": "Africa/Timbuktu",
+   "new": "Africa/Abidjan",
+   "old": "Africa/Bamako",
+   "to": "2014f"
+  },
+  {
+   "id": "Asia/Chungking",
+   "new": "Asia/Shanghai",
+   "old": "Asia/Chongqing",
+   "to": "2014f"
+  },
+  {
+   "id": "Africa/Asmera",
+   "new": "Africa/Nairobi",
+   "old": "Africa/Asmara",
+   "to": "2015a"
+  },
+  {
+   "id": "UCT",
+   "new": "Etc/UTC",
+   "old": "Etc/UCT",
+   "to": "2019a"
+  },
+  {
+   "id": "America/Anguilla",
+   "new": "America/Puerto_Rico",
+   "old": "America/Port_of_Spain",
+   "to": "2021b"
+  },
+  {
+   "id": "America/Antigua",
+   "new": "America/Puerto_Rico",
+   "old": "America/Port_of_Spain",
+   "to": "2021b"
+  },
+  {
+   "id": "America/Aruba",
+   "new": "America/Puerto_Rico",
+   "old": "America/Curacao",
+   "to": "2021b"
+  },
+  {
+   "id": "America/Coral_Harbour",
+   "new": "America/Panama",
+   "old": "America/Atikokan",
+   "to": "2021b"
+  },
+  {
+   "id": "America/Dominica",
+   "new": "America/Puerto_Rico",
+   "old": "America/Port_of_Spain",
+   "to": "2021b"
+  },
+  {
+   "id": "America/Grenada",
+   "new": "America/Puerto_Rico",
+   "old": "America/Port_of_Spain",
+   "to": "2021b"
+  },
+  {
+   "id": "America/Guadeloupe",
+   "new": "America/Puerto_Rico",
+   "old": "America/Port_of_Spain",
+   "to": "2021b"
+  },
+  {
+   "id": "America/Kralendijk",
+   "new": "America/Puerto_Rico",
+   "old": "America/Curacao",
+   "to": "2021b"
+  },
+  {
+   "id": "America/Lower_Princes",
+   "new": "America/Puerto_Rico",
+   "old": "America/Curacao",
+   "to": "2021b"
+  },
+  {
+   "id": "America/Marigot",
+   "new": "America/Puerto_Rico",
+   "old": "America/Port_of_Spain",
+   "to": "2021b"
+  },
+  {
+   "id": "America/Montserrat",
+   "new": "America/Puerto_Rico",
+   "old": "America/Port_of_Spain",
+   "to": "2021b"
+  },
+  {
+   "id": "America/St_Barthelemy",
+   "new": "America/Puerto_Rico",
+   "old": "America/Port_of_Spain",
+   "to": "2021b"
+  },
+  {
+   "id": "America/St_Kitts",
+   "new": "America/Puerto_Rico",
+   "old": "America/Port_of_Spain",
+   "to": "2021b"
+  },
+  {
+   "id": "America/St_Lucia",
+   "new": "America/Puerto_Rico",
+   "old": "America/Port_of_Spain",
+   "to": "2021b"
+  },
+  {
+   "id": "America/St_Thomas",
+   "new": "America/Puerto_Rico",
+   "old": "America/Port_of_Spain",
+   "to": "2021b"
+  },
+  {
+   "id": "America/St_Vincent",
+   "new": "America/Puerto_Rico",
+   "old": "America/Port_of_Spain",
+   "to": "2021b"
+  },
+  {
+   "id": "America/Tortola",
+   "new": "America/Puerto_Rico",
+   "old": "America/Port_of_Spain",
+   "to": "2021b"
+  },
+  {
+   "id": "America/Virgin",
+   "new": "America/Puerto_Rico",
+   "old": "America/Port_of_Spain",
+   "to": "2021b"
+  },
+  {
+   "id": "Atlantic/Jan_Mayen",
+   "new": "Europe/Berlin",
+   "old": "Europe/Oslo",
+   "to": "2021b"
+  },
+  {
+   "id": "Atlantic/Jan_Mayen",
+   "new": "Europe/Oslo",
+   "old": "Europe/Berlin",
+   "to": "2021c"
+  },
+  {
+   "id": "Arctic/Longyearbyen",
+   "new": "Europe/Berlin",
+   "old": "Europe/Oslo",
+   "to": "2022b"
+  },
+  {
+   "id": "Atlantic/Jan_Mayen",
+   "new": "Europe/Berlin",
+   "old": "Europe/Oslo",
+   "to": "2022b"
+  },
+  {
+   "id": "Iceland",
+   "new": "Africa/Abidjan",
+   "old": "Atlantic/Reykjavik",
+   "to": "2022b"
+  },
+  {
+   "id": "Pacific/Ponape",
+   "new": "Pacific/Guadalcanal",
+   "old": "Pacific/Pohnpei",
+   "to": "2022b"
+  },
+  {
+   "id": "Pacific/Truk",
+   "new": "Pacific/Port_Moresby",
+   "old": "Pacific/Chuuk",
+   "to": "2022b"
+  },
+  {
+   "id": "Pacific/Yap",
+   "new": "Pacific/Port_Moresby",
+   "old": "Pacific/Chuuk",
+   "to": "2022b"
+  }
+ ],
+ "retro_hist_points": [
+  {
+   "date": "2012-11-12",
+   "id": "Africa/Tripoli",
+   "tag": "2012j"
+  },
+  {
+   "date": "2013-02-27",
+   "id": "Africa/Cairo",
+   "tag": "2013a"
+  },
+  {
+   "date": "2013-02-27",
+   "id": "America/Barbados",
+   "tag": "2013a"
+  },
+  {
+   "date": "2013-02-27",
+   "id": "America/Bogota",
+   "tag": "2013a"
+  },
+  {
+   "date": "2013-02-27",
+   "id": "America/Costa_Rica",
+   "tag": "2013a"
+  },
+  {
+   "date": "2013-02-27",
+   "id": "America/Curacao",
+   "tag": "2013a"
+  },
+  {
+   "date": "2013-02-27",
+   "id": "America/Nassau",
+   "tag": "2013a"
+  },
+  {
+   "date": "2013-02-27",
+   "id": "Asia/Aden",
+   "tag": "2013a"
+  },
+  {
+   "date": "2013-02-27",
+   "id": "Asia/Hong_Kong",
+   "tag": "2013a"
+  },
+  {
+   "date": "2013-02-27",
+   "id": "Asia/Muscat",
+   "tag": "2013a"
+  },
+  {
+   "date": "2013-02-27",
+   "id": "Asia/Rangoon",
+   "tag": "2013a"
+  },
+  {
+   "date": "2013-02-27",
+   "id": "Asia/Shanghai",
+   "tag": "2013a"
+  },
+  {
+   "date": "2013-02-27",
+   "id": "Atlantic/Bermuda",
+   "tag": "2013a"
+  },
+  {
+   "date": "2013-02-27",
+   "id": "Europe/Vienna",
+   "tag": "2013a"
+  },
+  {
+   "date": "2013-02-27",
+   "id": "Pacific/Fiji",
+   "tag": "2013a"
+  },
+  {
+   "date": "2013-04-19",
+   "id": "Antarctica/Macquarie",
+   "tag": "2013c"
+  },
+  {
+   "date": "2013-04-19",
+   "id": "Asia/Gaza",
+   "tag": "2013c"
+  },
+  {
+   "date": "2013-04-19",
+   "id": "Asia/Hebron",
+   "tag": "2013c"
+  },
+  {
+   "date": "2013-07-05",
+   "id": "Antarctica/Macquarie",
+   "tag": "2013d"
+  },
+  {
+   "date": "2013-07-05",
+   "id": "Asia/Jerusalem",
+   "tag": "2013d"
+  },
+  {
+   "date": "2013-09-19",
+   "id": "America/Cayman",
+   "tag": "2013e"
+  },
+  {
+   "date": "2013-09-19",
+   "id": "America/Grand_Turk",
+   "tag": "2013e"
+  },
+  {
+   "date": "2013-09-19",
+   "id": "America/Jamaica",
+   "tag": "2013e"
+  },
+  {
+   "date": "2013-09-19",
+   "id": "America/Thunder_Bay",
+   "tag": "2013e"
+  },
+  {
+   "date": "2013-09-19",
+   "id": "Asia/Dili",
+   "tag": "2013e"
+  },
+  {
+   "date": "2013-09-19",
+   "id": "Asia/Jakarta",
+   "tag": "2013e"
+  },
+  {
+   "date": "2013-09-19",
+   "id": "Asia/Jayapura",
+   "tag": "2013e"
+  },
+  {
+   "date": "2013-09-19",
+   "id": "Asia/Makassar",
+   "tag": "2013e"
+  },
+  {
+   "date": "2013-09-19",
+   "id": "Asia/Pontianak",
+   "tag": "2013e"
+  },
+  {
+   "date": "2013-09-19",
+   "id": "Atlantic/Bermuda",
+   "tag": "2013e"
+  },
+  {
+   "date": "2013-09-19",
+   "id": "Europe/Zurich",
+   "tag": "2013e"
+  },
+  {
+   "date": "2013-12-17",
+   "id": "Asia/Amman",
+   "tag": "2013i"
+  },
+  {
+   "date": "2014-03-07",
+   "id": "Europe/Kiev",
+   "tag": "2014a"
+  },
+  {
+   "date": "2014-06-12",
+   "id": "Asia/Vladivostok",
+   "tag": "2014e"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Antarctica/Casey",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Antarctica/Macquarie",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Asia/Irkutsk",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Asia/Jayapura",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Asia/Pyongyang",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Asia/Riyadh",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Asia/Sakhalin",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Asia/Seoul",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Asia/Shanghai",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Asia/Taipei",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Asia/Tashkent",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Asia/Tbilisi",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Asia/Tokyo",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Asia/Urumqi",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Asia/Vladivostok",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Asia/Yekaterinburg",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Australia/Adelaide",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Australia/Brisbane",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Australia/Broken_Hill",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Australia/Currie",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Australia/Darwin",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Australia/Eucla",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Australia/Hobart",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Australia/Lindeman",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Australia/Lord_Howe",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Australia/Melbourne",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Australia/Perth",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Australia/Sydney",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Europe/Budapest",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Europe/Helsinki",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Europe/Moscow",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Europe/Riga",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Europe/Samara",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Europe/Volgograd",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Pacific/Apia",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Pacific/Chatham",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-05",
+   "id": "Pacific/Pago_Pago",
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-28",
+   "id": "Africa/Bissau",
+   "tag": "2014g"
+  },
+  {
+   "date": "2014-08-28",
+   "id": "America/Caracas",
+   "tag": "2014g"
+  },
+  {
+   "date": "2014-08-28",
+   "id": "America/Eirunepe",
+   "tag": "2014g"
+  },
+  {
+   "date": "2014-08-28",
+   "id": "America/Mexico_City",
+   "tag": "2014g"
+  },
+  {
+   "date": "2014-08-28",
+   "id": "America/North_Dakota/Center",
+   "tag": "2014g"
+  },
+  {
+   "date": "2014-08-28",
+   "id": "America/North_Dakota/New_Salem",
+   "tag": "2014g"
+  },
+  {
+   "date": "2014-08-28",
+   "id": "America/Phoenix",
+   "tag": "2014g"
+  },
+  {
+   "date": "2014-08-28",
+   "id": "America/Rio_Branco",
+   "tag": "2014g"
+  },
+  {
+   "date": "2014-08-28",
+   "id": "America/Santarem",
+   "tag": "2014g"
+  },
+  {
+   "date": "2014-08-28",
+   "id": "America/Santo_Domingo",
+   "tag": "2014g"
+  },
+  {
+   "date": "2014-08-28",
+   "id": "America/Sao_Paulo",
+   "tag": "2014g"
+  },
+  {
+   "date": "2014-08-28",
+   "id": "Asia/Dili",
+   "tag": "2014g"
+  },
+  {
+   "date": "2014-08-28",
+   "id": "Asia/Irkutsk",
+   "tag": "2014g"
+  },
+  {
+   "date": "2014-08-28",
+   "id": "Asia/Krasnoyarsk",
+   "tag": "2014g"
+  },
+  {
+   "date": "2014-08-28",
+   "id": "Asia/Macau",
+   "tag": "2014g"
+  },
+  {
+   "date": "2014-08-28",
+   "id": "Asia/Omsk",
+   "tag": "2014g"
+  },
+  {
+   "date": "2014-08-28",
+   "id": "Asia/Samarkand",
+   "tag": "2014g"
+  },
+  {
+   "date": "2014-08-28",
+   "id": "Asia/Taipei",
+   "tag": "2014g"
+  },
+  {
+   "date": "2014-08-28",
+   "id": "Asia/Tbilisi",
+   "tag": "2014g"
+  },
+  {
+   "date": "2014-08-28",
+   "id": "Asia/Vladivostok",
+   "tag": "2014g"
+  },
+  {
+   "date": "2014-08-28",
+   "id": "Asia/Yakutsk",
+   "tag": "2014g"
+  },
+  {
+   "date": "2014-08-28",
+   "id": "Asia/Yekaterinburg",
+   "tag": "2014g"
+  },
+  {
+   "date": "2014-08-28",
+   "id": "Atlantic/Azores",
+   "tag": "2014g"
+  },
+  {
+   "date": "2014-08-28",
+   "id": "Atlantic/Madeira",
+   "tag": "2014g"
+  },
+  {
+   "date": "2014-08-28",
+   "id": "Atlantic/Stanley",
+   "tag": "2014g"
+  },
+  {
+   "date": "2014-08-28",
+   "id": "Europe/Lisbon",
+   "tag": "2014g"
+  },
+  {
+   "date": "2014-08-28",
+   "id": "Europe/Riga",
+   "tag": "2014g"
+  },
+  {
+   "date": "2014-08-28",
+   "id": "Europe/Samara",
+   "tag": "2014g"
+  },
+  {
+   "date": "2014-08-28",
+   "id": "Europe/Stockholm",
+   "tag": "2014g"
+  },
+  {
+   "date": "2014-08-28",
+   "id": "Pacific/Honolulu",
+   "tag": "2014g"
+  },
+  {
+   "date": "2014-08-28",
+   "id": "Pacific/Pitcairn",
+   "tag": "2014g"
+  },
+  {
+   "date": "2014-09-25",
+   "id": "America/Jamaica",
+   "tag": "2014h"
+  },
+  {
+   "date": "2014-09-25",
+   "id": "Asia/Novokuznetsk",
+   "tag": "2014h"
+  },
+  {
+   "date": "2014-10-21",
+   "id": "Asia/Ho_Chi_Minh",
+   "tag": "2014i"
+  },
+  {
+   "date": "2014-11-10",
+   "id": "Asia/Pyongyang",
+   "tag": "2014j"
+  },
+  {
+   "date": "2014-11-10",
+   "id": "Asia/Seoul",
+   "tag": "2014j"
+  },
+  {
+   "date": "2015-01-29",
+   "id": "Atlantic/Reykjavik",
+   "tag": "2015a"
+  },
+  {
+   "date": "2015-01-29",
+   "id": "Pacific/Easter",
+   "tag": "2015a"
+  },
+  {
+   "date": "2015-03-19",
+   "id": "Europe/Volgograd",
+   "tag": "2015b"
+  },
+  {
+   "date": "2015-03-19",
+   "id": "Pacific/Easter",
+   "tag": "2015b"
+  },
+  {
+   "date": "2015-04-11",
+   "id": "America/Santiago",
+   "tag": "2015c"
+  },
+  {
+   "date": "2015-04-11",
+   "id": "Antarctica/Palmer",
+   "tag": "2015c"
+  },
+  {
+   "date": "2015-04-11",
+   "id": "Pacific/Easter",
+   "tag": "2015c"
+  },
+  {
+   "date": "2015-04-24",
+   "id": "America/Whitehorse",
+   "tag": "2015d"
+  },
+  {
+   "date": "2015-08-10",
+   "id": "America/Caracas",
+   "tag": "2015f"
+  },
+  {
+   "date": "2015-08-10",
+   "id": "Atlantic/Canary",
+   "tag": "2015f"
+  },
+  {
+   "date": "2015-08-10",
+   "id": "Europe/Simferopol",
+   "tag": "2015f"
+  },
+  {
+   "date": "2015-08-10",
+   "id": "Europe/Sofia",
+   "tag": "2015f"
+  },
+  {
+   "date": "2015-08-10",
+   "id": "Europe/Tallinn",
+   "tag": "2015f"
+  },
+  {
+   "date": "2016-03-12",
+   "id": "Europe/Chisinau",
+   "tag": "2016b"
+  },
+  {
+   "date": "2016-03-12",
+   "id": "Europe/Samara",
+   "tag": "2016b"
+  },
+  {
+   "date": "2016-03-23",
+   "id": "America/Santiago",
+   "tag": "2016c"
+  },
+  {
+   "date": "2016-03-23",
+   "id": "Antarctica/Palmer",
+   "tag": "2016c"
+  },
+  {
+   "date": "2016-03-23",
+   "id": "Europe/Kaliningrad",
+   "tag": "2016c"
+  },
+  {
+   "date": "2016-03-23",
+   "id": "Europe/Vilnius",
+   "tag": "2016c"
+  },
+  {
+   "date": "2016-03-23",
+   "id": "Europe/Volgograd",
+   "tag": "2016c"
+  },
+  {
+   "date": "2016-03-23",
+   "id": "Pacific/Easter",
+   "tag": "2016c"
+  },
+  {
+   "date": "2016-04-17",
+   "id": "Asia/Almaty",
+   "tag": "2016d"
+  },
+  {
+   "date": "2016-04-17",
+   "id": "Asia/Aqtau",
+   "tag": "2016d"
+  },
+  {
+   "date": "2016-04-17",
+   "id": "Asia/Aqtobe",
+   "tag": "2016d"
+  },
+  {
+   "date": "2016-04-17",
+   "id": "Asia/Oral",
+   "tag": "2016d"
+  },
+  {
+   "date": "2016-04-17",
+   "id": "Asia/Qyzylorda",
+   "tag": "2016d"
+  },
+  {
+   "date": "2016-04-17",
+   "id": "Asia/Yerevan",
+   "tag": "2016d"
+  },
+  {
+   "date": "2016-06-14",
+   "id": "America/Cambridge_Bay",
+   "tag": "2016e"
+  },
+  {
+   "date": "2016-06-14",
+   "id": "America/Inuvik",
+   "tag": "2016e"
+  },
+  {
+   "date": "2016-06-14",
+   "id": "America/Iqaluit",
+   "tag": "2016e"
+  },
+  {
+   "date": "2016-06-14",
+   "id": "America/Pangnirtung",
+   "tag": "2016e"
+  },
+  {
+   "date": "2016-06-14",
+   "id": "America/Rankin_Inlet",
+   "tag": "2016e"
+  },
+  {
+   "date": "2016-06-14",
+   "id": "America/Resolute",
+   "tag": "2016e"
+  },
+  {
+   "date": "2016-06-14",
+   "id": "America/Yellowknife",
+   "tag": "2016e"
+  },
+  {
+   "date": "2016-06-14",
+   "id": "Antarctica/Casey",
+   "tag": "2016e"
+  },
+  {
+   "date": "2016-06-14",
+   "id": "Antarctica/Davis",
+   "tag": "2016e"
+  },
+  {
+   "date": "2016-06-14",
+   "id": "Antarctica/DumontDUrville",
+   "tag": "2016e"
+  },
+  {
+   "date": "2016-06-14",
+   "id": "Antarctica/Macquarie",
+   "tag": "2016e"
+  },
+  {
+   "date": "2016-06-14",
+   "id": "Antarctica/Mawson",
+   "tag": "2016e"
+  },
+  {
+   "date": "2016-06-14",
+   "id": "Antarctica/Palmer",
+   "tag": "2016e"
+  },
+  {
+   "date": "2016-06-14",
+   "id": "Antarctica/Rothera",
+   "tag": "2016e"
+  },
+  {
+   "date": "2016-06-14",
+   "id": "Antarctica/Syowa",
+   "tag": "2016e"
+  },
+  {
+   "date": "2016-06-14",
+   "id": "Antarctica/Troll",
+   "tag": "2016e"
+  },
+  {
+   "date": "2016-06-14",
+   "id": "Antarctica/Vostok",
+   "tag": "2016e"
+  },
+  {
+   "date": "2016-06-14",
+   "id": "Asia/Baku",
+   "tag": "2016e"
+  },
+  {
+   "date": "2016-06-14",
+   "id": "Indian/Kerguelen",
+   "tag": "2016e"
+  },
+  {
+   "date": "2016-07-05",
+   "id": "Asia/Novokuznetsk",
+   "tag": "2016f"
+  },
+  {
+   "date": "2016-07-05",
+   "id": "Asia/Novosibirsk",
+   "tag": "2016f"
+  },
+  {
+   "date": "2016-07-05",
+   "id": "Europe/Minsk",
+   "tag": "2016f"
+  },
+  {
+   "date": "2016-09-13",
+   "id": "Antarctica/Casey",
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-09-13",
+   "id": "Antarctica/Davis",
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-09-13",
+   "id": "Antarctica/DumontDUrville",
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-09-13",
+   "id": "Antarctica/Mawson",
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-09-13",
+   "id": "Asia/Anadyr",
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-09-13",
+   "id": "Asia/Ashgabat",
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-09-13",
+   "id": "Asia/Baku",
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-09-13",
+   "id": "Asia/Bishkek",
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-09-13",
+   "id": "Asia/Chita",
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-09-13",
+   "id": "Asia/Dushanbe",
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-09-13",
+   "id": "Asia/Irkutsk",
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-09-13",
+   "id": "Asia/Kamchatka",
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-09-13",
+   "id": "Asia/Khandyga",
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-09-13",
+   "id": "Asia/Krasnoyarsk",
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-09-13",
+   "id": "Asia/Magadan",
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-09-13",
+   "id": "Asia/Omsk",
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-09-13",
+   "id": "Asia/Sakhalin",
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-09-13",
+   "id": "Asia/Samarkand",
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-09-13",
+   "id": "Asia/Srednekolymsk",
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-09-13",
+   "id": "Asia/Tashkent",
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-09-13",
+   "id": "Asia/Tbilisi",
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-09-13",
+   "id": "Asia/Ust-Nera",
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-09-13",
+   "id": "Asia/Vladivostok",
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-09-13",
+   "id": "Asia/Yakutsk",
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-09-13",
+   "id": "Asia/Yekaterinburg",
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-09-13",
+   "id": "Asia/Yerevan",
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-09-13",
+   "id": "Europe/Istanbul",
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-09-13",
+   "id": "Europe/Kaliningrad",
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-09-13",
+   "id": "Europe/Kirov",
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-09-13",
+   "id": "Europe/Minsk",
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-09-13",
+   "id": "Europe/Moscow",
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-09-13",
+   "id": "Europe/Samara",
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-09-13",
+   "id": "Europe/Ulyanovsk",
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-09-13",
+   "id": "Europe/Volgograd",
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-10-19",
+   "id": "Asia/Colombo",
+   "tag": "2016h"
+  },
+  {
+   "date": "2016-11-01",
+   "id": "Europe/Malta",
+   "tag": "2016i"
+  },
+  {
+   "date": "2016-11-01",
+   "id": "Europe/Rome",
+   "tag": "2016i"
+  },
+  {
+   "date": "2016-11-01",
+   "id": "Pacific/Tongatapu",
+   "tag": "2016i"
+  },
+  {
+   "date": "2016-11-22",
+   "id": "Asia/Aqtau",
+   "tag": "2016j"
+  },
+  {
+   "date": "2016-11-22",
+   "id": "Asia/Gaza",
+   "tag": "2016j"
+  },
+  {
+   "date": "2016-11-22",
+   "id": "Asia/Hebron",
+   "tag": "2016j"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Africa/Bissau",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Africa/Ceuta",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Africa/El_Aaiun",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Africa/Monrovia",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Africa/Nairobi",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Africa/Windhoek",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Anchorage",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Araguaina",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Argentina/Buenos_Aires",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Argentina/Catamarca",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Argentina/Cordoba",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Argentina/Jujuy",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Argentina/La_Rioja",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Argentina/Mendoza",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Argentina/Rio_Gallegos",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Argentina/Salta",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Argentina/San_Juan",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Argentina/San_Luis",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Argentina/Tucuman",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Argentina/Ushuaia",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Asuncion",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Bahia",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Belem",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Boa_Vista",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Caracas",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Cayenne",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Cuiaba",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Curacao",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Danmarkshavn",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Eirunepe",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Fortaleza",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Godthab",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Guyana",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Maceio",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Manaus",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Miquelon",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Montevideo",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Noronha",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Paramaribo",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Porto_Velho",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Recife",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Rio_Branco",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Santarem",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Santiago",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Santo_Domingo",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Sao_Paulo",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "America/Scoresbysund",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Antarctica/Palmer",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Asia/Atyrau",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Asia/Baghdad",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Asia/Brunei",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Asia/Choibalsan",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Asia/Colombo",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Asia/Dhaka",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Asia/Dili",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Asia/Ho_Chi_Minh",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Asia/Hovd",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Asia/Jakarta",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Asia/Jayapura",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Asia/Kabul",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Asia/Karachi",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Asia/Kathmandu",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Asia/Kolkata",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Asia/Kuala_Lumpur",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Asia/Kuching",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Asia/Macau",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Asia/Makassar",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Asia/Manila",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Asia/Oral",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Asia/Pontianak",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Asia/Pyongyang",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Asia/Qatar",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Asia/Seoul",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Asia/Singapore",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Asia/Taipei",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Asia/Tehran",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Asia/Thimphu",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Asia/Tokyo",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Asia/Ulaanbaatar",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Asia/Yangon",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Atlantic/Azores",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Atlantic/Canary",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Atlantic/Cape_Verde",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Atlantic/Madeira",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Atlantic/Reykjavik",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Atlantic/Stanley",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Australia/Eucla",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Europe/Amsterdam",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Europe/Madrid",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Europe/Zaporozhye",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Indian/Chagos",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Pacific/Apia",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Pacific/Bougainville",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Pacific/Chatham",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Pacific/Easter",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Pacific/Enderbury",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Pacific/Fakaofo",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Pacific/Galapagos",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Pacific/Kiritimati",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Pacific/Kosrae",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Pacific/Kwajalein",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Pacific/Majuro",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Pacific/Nauru",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Pacific/Niue",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Pacific/Norfolk",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Pacific/Pago_Pago",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Pacific/Pitcairn",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-02-28",
+   "id": "Pacific/Rarotonga",
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-03-17",
+   "id": "Africa/Monrovia",
+   "tag": "2017b"
+  },
+  {
+   "date": "2017-10-20",
+   "id": "Africa/Windhoek",
+   "tag": "2017c"
+  },
+  {
+   "date": "2017-10-20",
+   "id": "America/Adak",
+   "tag": "2017c"
+  },
+  {
+   "date": "2017-10-20",
+   "id": "America/Anchorage",
+   "tag": "2017c"
+  },
+  {
+   "date": "2017-10-20",
+   "id": "America/Juneau",
+   "tag": "2017c"
+  },
+  {
+   "date": "2017-10-20",
+   "id": "America/Metlakatla",
+   "tag": "2017c"
+  },
+  {
+   "date": "2017-10-20",
+   "id": "America/Nome",
+   "tag": "2017c"
+  },
+  {
+   "date": "2017-10-20",
+   "id": "America/Sitka",
+   "tag": "2017c"
+  },
+  {
+   "date": "2017-10-20",
+   "id": "America/Yakutat",
+   "tag": "2017c"
+  },
+  {
+   "date": "2017-10-20",
+   "id": "Asia/Kolkata",
+   "tag": "2017c"
+  },
+  {
+   "date": "2017-10-20",
+   "id": "Asia/Yangon",
+   "tag": "2017c"
+  },
+  {
+   "date": "2017-10-20",
+   "id": "Europe/Dublin",
+   "tag": "2017c"
+  },
+  {
+   "date": "2017-10-20",
+   "id": "Pacific/Apia",
+   "tag": "2017c"
+  },
+  {
+   "date": "2017-10-20",
+   "id": "Pacific/Pago_Pago",
+   "tag": "2017c"
+  },
+  {
+   "date": "2018-01-12",
+   "id": "America/La_Paz",
+   "tag": "2018a"
+  },
+  {
+   "date": "2018-01-12",
+   "id": "Europe/Dublin",
+   "tag": "2018a"
+  },
+  {
+   "date": "2018-03-22",
+   "id": "Africa/Bissau",
+   "tag": "2018d"
+  },
+  {
+   "date": "2018-03-22",
+   "id": "Africa/Sao_Tome",
+   "tag": "2018d"
+  },
+  {
+   "date": "2018-03-22",
+   "id": "America/Grand_Turk",
+   "tag": "2018d"
+  },
+  {
+   "date": "2018-03-22",
+   "id": "America/Jamaica",
+   "tag": "2018d"
+  },
+  {
+   "date": "2018-03-22",
+   "id": "America/Montevideo",
+   "tag": "2018d"
+  },
+  {
+   "date": "2018-03-22",
+   "id": "Asia/Macau",
+   "tag": "2018d"
+  },
+  {
+   "date": "2018-03-22",
+   "id": "Atlantic/Azores",
+   "tag": "2018d"
+  },
+  {
+   "date": "2018-03-22",
+   "id": "Atlantic/Cape_Verde",
+   "tag": "2018d"
+  },
+  {
+   "date": "2018-03-22",
+   "id": "Atlantic/Madeira",
+   "tag": "2018d"
+  },
+  {
+   "date": "2018-03-22",
+   "id": "Europe/Lisbon",
+   "tag": "2018d"
+  },
+  {
+   "date": "2018-03-22",
+   "id": "Pacific/Enderbury",
+   "tag": "2018d"
+  },
+  {
+   "date": "2018-03-22",
+   "id": "Pacific/Kiritimati",
+   "tag": "2018d"
+  },
+  {
+   "date": "2018-05-01",
+   "id": "Africa/Windhoek",
+   "tag": "2018e"
+  },
+  {
+   "date": "2018-05-01",
+   "id": "Europe/Dublin",
+   "tag": "2018e"
+  },
+  {
+   "date": "2018-05-01",
+   "id": "Europe/Prague",
+   "tag": "2018e"
+  },
+  {
+   "date": "2018-10-18",
+   "id": "Asia/Macau",
+   "tag": "2018f"
+  },
+  {
+   "date": "2018-10-18",
+   "id": "Asia/Manila",
+   "tag": "2018f"
+  },
+  {
+   "date": "2018-10-18",
+   "id": "Asia/Shanghai",
+   "tag": "2018f"
+  },
+  {
+   "date": "2018-10-26",
+   "id": "Africa/Casablanca",
+   "tag": "2018g"
+  },
+  {
+   "date": "2018-10-26",
+   "id": "Pacific/Honolulu",
+   "tag": "2018g"
+  },
+  {
+   "date": "2018-12-23",
+   "id": "Asia/Hong_Kong",
+   "tag": "2018h"
+  },
+  {
+   "date": "2018-12-23",
+   "id": "Pacific/Guam",
+   "tag": "2018h"
+  },
+  {
+   "date": "2018-12-23",
+   "id": "Pacific/Kwajalein",
+   "tag": "2018h"
+  },
+  {
+   "date": "2018-12-23",
+   "id": "Pacific/Nauru",
+   "tag": "2018h"
+  },
+  {
+   "date": "2019-07-01",
+   "id": "Asia/Hong_Kong",
+   "tag": "2019b"
+  },
+  {
+   "date": "2019-07-01",
+   "id": "Europe/Rome",
+   "tag": "2019b"
+  },
+  {
+   "date": "2019-09-11",
+   "id": "America/Detroit",
+   "tag": "2019c"
+  },
+  {
+   "date": "2019-09-11",
+   "id": "America/Indiana/Tell_City",
+   "tag": "2019c"
+  },
+  {
+   "date": "2019-09-11",
+   "id": "Asia/Hong_Kong",
+   "tag": "2019c"
+  },
+  {
+   "date": "2019-09-11",
+   "id": "Asia/Seoul",
+   "tag": "2019c"
+  },
+  {
+   "date": "2019-09-11",
+   "id": "Europe/Brussels",
+   "tag": "2019c"
+  },
+  {
+   "date": "2019-09-11",
+   "id": "Europe/Istanbul",
+   "tag": "2019c"
+  },
+  {
+   "date": "2019-09-11",
+   "id": "Europe/Kaliningrad",
+   "tag": "2019c"
+  },
+  {
+   "date": "2019-09-11",
+   "id": "Pacific/Norfolk",
+   "tag": "2019c"
+  },
+  {
+   "date": "2020-10-06",
+   "id": "Africa/Algiers",
+   "tag": "2020b"
+  },
+  {
+   "date": "2020-10-06",
+   "id": "Antarctica/Macquarie",
+   "tag": "2020b"
+  },
+  {
+   "date": "2020-10-06",
+   "id": "Europe/Budapest",
+   "tag": "2020b"
+  },
+  {
+   "date": "2020-10-06",
+   "id": "Europe/Monaco",
+   "tag": "2020b"
+  },
+  {
+   "date": "2020-10-06",
+   "id": "Europe/Paris",
+   "tag": "2020b"
+  },
+  {
+   "date": "2020-12-22",
+   "id": "Africa/Accra",
+   "tag": "2020e"
+  },
+  {
+   "date": "2020-12-22",
+   "id": "Africa/Lagos",
+   "tag": "2020e"
+  },
+  {
+   "date": "2020-12-22",
+   "id": "Africa/Nairobi",
+   "tag": "2020e"
+  },
+  {
+   "date": "2020-12-22",
+   "id": "America/Belize",
+   "tag": "2020e"
+  },
+  {
+   "date": "2020-12-22",
+   "id": "America/Grand_Turk",
+   "tag": "2020e"
+  },
+  {
+   "date": "2020-12-22",
+   "id": "Atlantic/Bermuda",
+   "tag": "2020e"
+  },
+  {
+   "date": "2020-12-22",
+   "id": "Australia/Hobart",
+   "tag": "2020e"
+  },
+  {
+   "date": "2020-12-22",
+   "id": "Indian/Mahe",
+   "tag": "2020e"
+  },
+  {
+   "date": "2021-09-24",
+   "id": "America/Barbados",
+   "tag": "2021b"
+  },
+  {
+   "date": "2021-09-24",
+   "id": "America/Guyana",
+   "tag": "2021b"
+  },
+  {
+   "date": "2021-09-24",
+   "id": "Pacific/Niue",
+   "tag": "2021b"
+  },
+  {
+   "date": "2021-09-24",
+   "id": "Pacific/Rarotonga",
+   "tag": "2021b"
+  },
+  {
+   "date": "2021-09-24",
+   "id": "Pacific/Tongatapu",
+   "tag": "2021b"
+  },
+  {
+   "date": "2022-03-15",
+   "id": "America/Punta_Arenas",
+   "tag": "2022a"
+  },
+  {
+   "date": "2022-03-15",
+   "id": "America/Santiago",
+   "tag": "2022a"
+  },
+  {
+   "date": "2022-03-15",
+   "id": "Europe/Kiev",
+   "tag": "2022a"
+  },
+  {
+   "date": "2022-03-15",
+   "id": "Europe/Simferopol",
+   "tag": "2022a"
+  },
+  {
+   "date": "2022-03-15",
+   "id": "Europe/Uzhgorod",
+   "tag": "2022a"
+  },
+  {
+   "date": "2022-03-15",
+   "id": "Europe/Zaporozhye",
+   "tag": "2022a"
+  },
+  {
+   "date": "2022-08-10",
+   "id": "America/New_York",
+   "tag": "2022b"
+  },
+  {
+   "date": "2022-08-10",
+   "id": "America/Punta_Arenas",
+   "tag": "2022b"
+  },
+  {
+   "date": "2022-08-10",
+   "id": "America/Santiago",
+   "tag": "2022b"
+  },
+  {
+   "date": "2022-08-10",
+   "id": "Asia/Dushanbe",
+   "tag": "2022b"
+  },
+  {
+   "date": "2022-08-10",
+   "id": "Asia/Ho_Chi_Minh",
+   "tag": "2022b"
+  },
+  {
+   "date": "2022-08-10",
+   "id": "Asia/Hong_Kong",
+   "tag": "2022b"
+  },
+  {
+   "date": "2022-08-10",
+   "id": "Asia/Jakarta",
+   "tag": "2022b"
+  },
+  {
+   "date": "2022-08-10",
+   "id": "Asia/Tehran",
+   "tag": "2022b"
+  },
+  {
+   "date": "2022-08-10",
+   "id": "Europe/Dublin",
+   "tag": "2022b"
+  },
+  {
+   "date": "2022-08-10",
+   "id": "Europe/Gibraltar",
+   "tag": "2022b"
+  },
+  {
+   "date": "2022-08-10",
+   "id": "Europe/London",
+   "tag": "2022b"
+  },
+  {
+   "date": "2022-08-10",
+   "id": "Europe/Madrid",
+   "tag": "2022b"
+  },
+  {
+   "date": "2022-08-10",
+   "id": "Europe/Malta",
+   "tag": "2022b"
+  },
+  {
+   "date": "2022-08-10",
+   "id": "Europe/Rome",
+   "tag": "2022b"
+  },
+  {
+   "date": "2022-08-10",
+   "id": "Europe/Simferopol",
+   "tag": "2022b"
+  },
+  {
+   "date": "2022-10-11",
+   "id": "Africa/Ceuta",
+   "tag": "2022e"
+  },
+  {
+   "date": "2022-10-11",
+   "id": "America/Bahia_Banderas",
+   "tag": "2022e"
+  },
+  {
+   "date": "2022-10-11",
+   "id": "America/Boise",
+   "tag": "2022e"
+  },
+  {
+   "date": "2022-10-11",
+   "id": "America/Cancun",
+   "tag": "2022e"
+  },
+  {
+   "date": "2022-10-11",
+   "id": "America/Chicago",
+   "tag": "2022e"
+  },
+  {
+   "date": "2022-10-11",
+   "id": "America/Chihuahua",
+   "tag": "2022e"
+  },
+  {
+   "date": "2022-10-11",
+   "id": "America/Denver",
+   "tag": "2022e"
+  },
+  {
+   "date": "2022-10-11",
+   "id": "America/Hermosillo",
+   "tag": "2022e"
+  },
+  {
+   "date": "2022-10-11",
+   "id": "America/Indiana/Indianapolis",
+   "tag": "2022e"
+  },
+  {
+   "date": "2022-10-11",
+   "id": "America/Indiana/Knox",
+   "tag": "2022e"
+  },
+  {
+   "date": "2022-10-11",
+   "id": "America/Indiana/Marengo",
+   "tag": "2022e"
+  },
+  {
+   "date": "2022-10-11",
+   "id": "America/Indiana/Petersburg",
+   "tag": "2022e"
+  },
+  {
+   "date": "2022-10-11",
+   "id": "America/Indiana/Tell_City",
+   "tag": "2022e"
+  },
+  {
+   "date": "2022-10-11",
+   "id": "America/Indiana/Vevay",
+   "tag": "2022e"
+  },
+  {
+   "date": "2022-10-11",
+   "id": "America/Indiana/Vincennes",
+   "tag": "2022e"
+  },
+  {
+   "date": "2022-10-11",
+   "id": "America/Indiana/Winamac",
+   "tag": "2022e"
+  },
+  {
+   "date": "2022-10-11",
+   "id": "America/Kentucky/Louisville",
+   "tag": "2022e"
+  },
+  {
+   "date": "2022-10-11",
+   "id": "America/Kentucky/Monticello",
+   "tag": "2022e"
+  },
+  {
+   "date": "2022-10-11",
+   "id": "America/Los_Angeles",
+   "tag": "2022e"
+  },
+  {
+   "date": "2022-10-11",
+   "id": "America/Matamoros",
+   "tag": "2022e"
+  },
+  {
+   "date": "2022-10-11",
+   "id": "America/Mazatlan",
+   "tag": "2022e"
+  },
+  {
+   "date": "2022-10-11",
+   "id": "America/Merida",
+   "tag": "2022e"
+  },
+  {
+   "date": "2022-10-11",
+   "id": "America/Mexico_City",
+   "tag": "2022e"
+  },
+  {
+   "date": "2022-10-11",
+   "id": "America/Monterrey",
+   "tag": "2022e"
+  },
+  {
+   "date": "2022-10-11",
+   "id": "America/North_Dakota/Beulah",
+   "tag": "2022e"
+  },
+  {
+   "date": "2022-10-11",
+   "id": "America/North_Dakota/Center",
+   "tag": "2022e"
+  },
+  {
+   "date": "2022-10-11",
+   "id": "America/North_Dakota/New_Salem",
+   "tag": "2022e"
+  },
+  {
+   "date": "2022-10-11",
+   "id": "America/Ojinaga",
+   "tag": "2022e"
+  },
+  {
+   "date": "2022-10-11",
+   "id": "America/Phoenix",
+   "tag": "2022e"
+  },
+  {
+   "date": "2022-10-11",
+   "id": "America/Tijuana",
+   "tag": "2022e"
+  },
+  {
+   "date": "2022-11-29",
+   "id": "America/Dawson",
+   "tag": "2022g"
+  },
+  {
+   "date": "2022-11-29",
+   "id": "America/Whitehorse",
+   "tag": "2022g"
+  },
+  {
+   "date": "2022-11-29",
+   "id": "Asia/Singapore",
+   "tag": "2022g"
+  },
+  {
+   "date": "2023-03-22",
+   "id": "Europe/Kirov",
+   "tag": "2023a"
+  },
+  {
+   "date": "2023-03-22",
+   "id": "Europe/Volgograd",
+   "tag": "2023a"
+  },
+  {
+   "date": "2024-02-01",
+   "id": "Africa/Abidjan",
+   "tag": "2024a"
+  },
+  {
+   "date": "2024-02-01",
+   "id": "Africa/Ndjamena",
+   "tag": "2024a"
+  },
+  {
+   "date": "2024-02-01",
+   "id": "America/Cayenne",
+   "tag": "2024a"
+  },
+  {
+   "date": "2024-02-01",
+   "id": "America/Martinique",
+   "tag": "2024a"
+  },
+  {
+   "date": "2024-02-01",
+   "id": "America/Miquelon",
+   "tag": "2024a"
+  },
+  {
+   "date": "2024-02-01",
+   "id": "Asia/Ho_Chi_Minh",
+   "tag": "2024a"
+  },
+  {
+   "date": "2024-02-01",
+   "id": "Pacific/Gambier",
+   "tag": "2024a"
+  },
+  {
+   "date": "2024-02-01",
+   "id": "Pacific/Guadalcanal",
+   "tag": "2024a"
+  },
+  {
+   "date": "2024-02-01",
+   "id": "Pacific/Marquesas",
+   "tag": "2024a"
+  },
+  {
+   "date": "2024-02-01",
+   "id": "Pacific/Tahiti",
+   "tag": "2024a"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Africa/Bissau",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Africa/Casablanca",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Africa/El_Aaiun",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Africa/Lagos",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Africa/Maputo",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Africa/Nairobi",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Africa/Windhoek",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Araguaina",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Argentina/Buenos_Aires",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Argentina/Catamarca",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Argentina/Cordoba",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Argentina/Jujuy",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Argentina/La_Rioja",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Argentina/Mendoza",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Argentina/Rio_Gallegos",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Argentina/Salta",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Argentina/San_Juan",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Argentina/San_Luis",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Argentina/Tucuman",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Argentina/Ushuaia",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Asuncion",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Bahia",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Bahia_Banderas",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Belem",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Boa_Vista",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Cancun",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Caracas",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Cayenne",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Chihuahua",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Ciudad_Juarez",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Cuiaba",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Danmarkshavn",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Eirunepe",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Fortaleza",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Guyana",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Hermosillo",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Maceio",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Manaus",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Mazatlan",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Merida",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Mexico_City",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Miquelon",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Montevideo",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Noronha",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Nuuk",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Ojinaga",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Paramaribo",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Porto_Velho",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Punta_Arenas",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Recife",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Rio_Branco",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Santarem",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Santiago",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Sao_Paulo",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Scoresbysund",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "America/Tijuana",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Antarctica/Casey",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Antarctica/Davis",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Antarctica/Mawson",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Antarctica/Palmer",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Antarctica/Vostok",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Almaty",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Anadyr",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Aqtau",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Aqtobe",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Ashgabat",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Atyrau",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Baghdad",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Baku",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Barnaul",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Bishkek",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Chita",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Colombo",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Dhaka",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Dili",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Dushanbe",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Famagusta",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Ho_Chi_Minh",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Hovd",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Irkutsk",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Jakarta",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Jayapura",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Kabul",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Kamchatka",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Karachi",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Kathmandu",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Khandyga",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Kolkata",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Krasnoyarsk",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Kuching",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Macau",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Magadan",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Makassar",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Novokuznetsk",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Novosibirsk",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Omsk",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Oral",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Pontianak",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Qatar",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Qostanay",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Qyzylorda",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Sakhalin",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Samarkand",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Singapore",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Srednekolymsk",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Tashkent",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Tbilisi",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Tehran",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Thimphu",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Tomsk",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Ulaanbaatar",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Ust-Nera",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Vladivostok",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Yakutsk",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Yangon",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Yekaterinburg",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Asia/Yerevan",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Atlantic/Azores",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Atlantic/Canary",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Atlantic/Cape_Verde",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Atlantic/Madeira",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Atlantic/Stanley",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Australia/Eucla",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Australia/Lord_Howe",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Europe/Astrakhan",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Europe/Istanbul",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Europe/Kaliningrad",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Europe/Kirov",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Europe/Lisbon",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Europe/Samara",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Europe/Saratov",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Europe/Ulyanovsk",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Europe/Volgograd",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Indian/Chagos",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Pacific/Apia",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Pacific/Bougainville",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Pacific/Chatham",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Pacific/Easter",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Pacific/Fakaofo",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Pacific/Galapagos",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Pacific/Guam",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Pacific/Kanton",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Pacific/Kiritimati",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Pacific/Kosrae",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Pacific/Kwajalein",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Pacific/Nauru",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Pacific/Niue",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Pacific/Norfolk",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Pacific/Pitcairn",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Pacific/Rarotonga",
+   "tag": "2024b"
+  },
+  {
+   "date": "2024-09-04",
+   "id": "Pacific/Tongatapu",
+   "tag": "2024b"
+  },
+  {
+   "date": "2025-01-15",
+   "id": "Asia/Manila",
+   "tag": "2025a"
+  },
+  {
+   "date": "2025-03-22",
+   "id": "Asia/Tehran",
+   "tag": "2025b"
+  },
+  {
+   "date": "2025-12-10",
+   "id": "America/Tijuana",
+   "tag": "2025c"
+  }
+ ],
+ "retro_id_share": 0.5617,
+ "retro_series": [
+  {
+   "date": "2012-09-12",
+   "n": 0,
+   "tag": "2012f"
+  },
+  {
+   "date": "2012-10-17",
+   "n": 3,
+   "tag": "2012g"
+  },
+  {
+   "date": "2012-10-26",
+   "n": 0,
+   "tag": "2012h"
+  },
+  {
+   "date": "2012-11-03",
+   "n": 0,
+   "tag": "2012i"
+  },
+  {
+   "date": "2012-11-12",
+   "n": 1,
+   "tag": "2012j"
+  },
+  {
+   "date": "2013-02-27",
+   "n": 15,
+   "tag": "2013a"
+  },
+  {
+   "date": "2013-03-10",
+   "n": 0,
+   "tag": "2013b"
+  },
+  {
+   "date": "2013-04-19",
+   "n": 3,
+   "tag": "2013c"
+  },
+  {
+   "date": "2013-07-05",
+   "n": 2,
+   "tag": "2013d"
+  },
+  {
+   "date": "2013-09-19",
+   "n": 11,
+   "tag": "2013e"
+  },
+  {
+   "date": "2013-09-24",
+   "n": 0,
+   "tag": "2013f"
+  },
+  {
+   "date": "2013-09-30",
+   "n": 0,
+   "tag": "2013g"
+  },
+  {
+   "date": "2013-10-25",
+   "n": 1,
+   "tag": "2013h"
+  },
+  {
+   "date": "2013-12-17",
+   "n": 1,
+   "tag": "2013i"
+  },
+  {
+   "date": "2014-03-07",
+   "n": 1,
+   "tag": "2014a"
+  },
+  {
+   "date": "2014-03-24",
+   "n": 0,
+   "tag": "2014b"
+  },
+  {
+   "date": "2014-05-13",
+   "n": 0,
+   "tag": "2014c"
+  },
+  {
+   "date": "2014-05-27",
+   "n": 0,
+   "tag": "2014d"
+  },
+  {
+   "date": "2014-06-12",
+   "n": 2,
+   "tag": "2014e"
+  },
+  {
+   "date": "2014-08-05",
+   "n": 38,
+   "tag": "2014f"
+  },
+  {
+   "date": "2014-08-28",
+   "n": 32,
+   "tag": "2014g"
+  },
+  {
+   "date": "2014-09-25",
+   "n": 2,
+   "tag": "2014h"
+  },
+  {
+   "date": "2014-10-21",
+   "n": 1,
+   "tag": "2014i"
+  },
+  {
+   "date": "2014-11-10",
+   "n": 3,
+   "tag": "2014j"
+  },
+  {
+   "date": "2015-01-29",
+   "n": 2,
+   "tag": "2015a"
+  },
+  {
+   "date": "2015-03-19",
+   "n": 2,
+   "tag": "2015b"
+  },
+  {
+   "date": "2015-04-11",
+   "n": 3,
+   "tag": "2015c"
+  },
+  {
+   "date": "2015-04-24",
+   "n": 2,
+   "tag": "2015d"
+  },
+  {
+   "date": "2015-06-13",
+   "n": 0,
+   "tag": "2015e"
+  },
+  {
+   "date": "2015-08-10",
+   "n": 6,
+   "tag": "2015f"
+  },
+  {
+   "date": "2015-10-01",
+   "n": 1,
+   "tag": "2015g"
+  },
+  {
+   "date": "2016-01-26",
+   "n": 0,
+   "tag": "2016a"
+  },
+  {
+   "date": "2016-03-12",
+   "n": 2,
+   "tag": "2016b"
+  },
+  {
+   "date": "2016-03-23",
+   "n": 7,
+   "tag": "2016c"
+  },
+  {
+   "date": "2016-04-17",
+   "n": 6,
+   "tag": "2016d"
+  },
+  {
+   "date": "2016-06-14",
+   "n": 19,
+   "tag": "2016e"
+  },
+  {
+   "date": "2016-07-05",
+   "n": 3,
+   "tag": "2016f"
+  },
+  {
+   "date": "2016-09-13",
+   "n": 65,
+   "tag": "2016g"
+  },
+  {
+   "date": "2016-10-19",
+   "n": 1,
+   "tag": "2016h"
+  },
+  {
+   "date": "2016-11-01",
+   "n": 3,
+   "tag": "2016i"
+  },
+  {
+   "date": "2016-11-22",
+   "n": 3,
+   "tag": "2016j"
+  },
+  {
+   "date": "2017-02-28",
+   "n": 143,
+   "tag": "2017a"
+  },
+  {
+   "date": "2017-03-17",
+   "n": 1,
+   "tag": "2017b"
+  },
+  {
+   "date": "2017-10-20",
+   "n": 13,
+   "tag": "2017c"
+  },
+  {
+   "date": "2018-01-12",
+   "n": 2,
+   "tag": "2018a"
+  },
+  {
+   "date": "2018-01-17",
+   "n": 0,
+   "tag": "2018b"
+  },
+  {
+   "date": "2018-01-22",
+   "n": 1,
+   "tag": "2018c"
+  },
+  {
+   "date": "2018-03-22",
+   "n": 12,
+   "tag": "2018d"
+  },
+  {
+   "date": "2018-05-01",
+   "n": 3,
+   "tag": "2018e"
+  },
+  {
+   "date": "2018-10-18",
+   "n": 5,
+   "tag": "2018f"
+  },
+  {
+   "date": "2018-10-26",
+   "n": 3,
+   "tag": "2018g"
+  },
+  {
+   "date": "2018-12-23",
+   "n": 11,
+   "tag": "2018h"
+  },
+  {
+   "date": "2018-12-30",
+   "n": 0,
+   "tag": "2018i"
+  },
+  {
+   "date": "2019-03-25",
+   "n": 1,
+   "tag": "2019a"
+  },
+  {
+   "date": "2019-07-01",
+   "n": 2,
+   "tag": "2019b"
+  },
+  {
+   "date": "2019-09-11",
+   "n": 8,
+   "tag": "2019c"
+  },
+  {
+   "date": "2020-04-23",
+   "n": 0,
+   "tag": "2020a"
+  },
+  {
+   "date": "2020-10-06",
+   "n": 7,
+   "tag": "2020b"
+  },
+  {
+   "date": "2020-10-16",
+   "n": 0,
+   "tag": "2020c"
+  },
+  {
+   "date": "2020-10-21",
+   "n": 0,
+   "tag": "2020d"
+  },
+  {
+   "date": "2020-12-22",
+   "n": 8,
+   "tag": "2020e"
+  },
+  {
+   "date": "2020-12-29",
+   "n": 0,
+   "tag": "2020f"
+  },
+  {
+   "date": "2021-01-24",
+   "n": 0,
+   "tag": "2021a"
+  },
+  {
+   "date": "2021-09-24",
+   "n": 5,
+   "tag": "2021b"
+  },
+  {
+   "date": "2021-10-01",
+   "n": 0,
+   "tag": "2021c"
+  },
+  {
+   "date": "2021-10-15",
+   "n": 0,
+   "tag": "2021d"
+  },
+  {
+   "date": "2021-10-21",
+   "n": 0,
+   "tag": "2021e"
+  },
+  {
+   "date": "2022-03-15",
+   "n": 6,
+   "tag": "2022a"
+  },
+  {
+   "date": "2022-08-10",
+   "n": 15,
+   "tag": "2022b"
+  },
+  {
+   "date": "2022-08-15",
+   "n": 0,
+   "tag": "2022c"
+  },
+  {
+   "date": "2022-09-23",
+   "n": 0,
+   "tag": "2022d"
+  },
+  {
+   "date": "2022-10-11",
+   "n": 30,
+   "tag": "2022e"
+  },
+  {
+   "date": "2022-10-28",
+   "n": 0,
+   "tag": "2022f"
+  },
+  {
+   "date": "2022-11-29",
+   "n": 3,
+   "tag": "2022g"
+  },
+  {
+   "date": "2023-03-22",
+   "n": 3,
+   "tag": "2023a"
+  },
+  {
+   "date": "2023-03-23",
+   "n": 0,
+   "tag": "2023b"
+  },
+  {
+   "date": "2023-03-28",
+   "n": 0,
+   "tag": "2023c"
+  },
+  {
+   "date": "2023-12-21",
+   "n": 1,
+   "tag": "2023d"
+  },
+  {
+   "date": "2024-02-01",
+   "n": 10,
+   "tag": "2024a"
+  },
+  {
+   "date": "2024-09-04",
+   "n": 204,
+   "tag": "2024b"
+  },
+  {
+   "date": "2025-01-15",
+   "n": 1,
+   "tag": "2025a"
+  },
+  {
+   "date": "2025-03-22",
+   "n": 1,
+   "tag": "2025b"
+  },
+  {
+   "date": "2025-12-10",
+   "n": 1,
+   "tag": "2025c"
+  },
+  {
+   "date": "2026-03-01",
+   "n": 0,
+   "tag": "2026a"
+  },
+  {
+   "date": "2026-04-22",
+   "n": 0,
+   "tag": "2026b"
+  },
+  {
+   "date": "2026-07-08",
+   "n": 1,
+   "tag": "2026c"
+  }
+ ],
+ "row0_edited_ids": [
+  "Africa/Abidjan",
+  "Africa/Accra",
+  "Africa/Algiers",
+  "Africa/Bissau",
+  "Africa/Cairo",
+  "Africa/Ceuta",
+  "Africa/Lagos",
+  "Africa/Maputo",
+  "Africa/Nairobi",
+  "Africa/Ndjamena",
+  "America/Adak",
+  "America/Anchorage",
+  "America/Bahia_Banderas",
+  "America/Barbados",
+  "America/Belize",
+  "America/Bogota",
+  "America/Boise",
+  "America/Cambridge_Bay",
+  "America/Cancun",
+  "America/Cayenne",
+  "America/Chicago",
+  "America/Chihuahua",
+  "America/Costa_Rica",
+  "America/Curacao",
+  "America/Denver",
+  "America/Guyana",
+  "America/Hermosillo",
+  "America/Indiana/Indianapolis",
+  "America/Indiana/Knox",
+  "America/Indiana/Marengo",
+  "America/Indiana/Petersburg",
+  "America/Indiana/Tell_City",
+  "America/Indiana/Vevay",
+  "America/Indiana/Vincennes",
+  "America/Indiana/Winamac",
+  "America/Inuvik",
+  "America/Iqaluit",
+  "America/Jamaica",
+  "America/Juneau",
+  "America/Kentucky/Louisville",
+  "America/Kentucky/Monticello",
+  "America/Los_Angeles",
+  "America/Matamoros",
+  "America/Mazatlan",
+  "America/Merida",
+  "America/Metlakatla",
+  "America/Mexico_City",
+  "America/Miquelon",
+  "America/Monterrey",
+  "America/Montevideo",
+  "America/Nassau",
+  "America/New_York",
+  "America/Nome",
+  "America/North_Dakota/Beulah",
+  "America/North_Dakota/Center",
+  "America/North_Dakota/New_Salem",
+  "America/Ojinaga",
+  "America/Pangnirtung",
+  "America/Phoenix",
+  "America/Rankin_Inlet",
+  "America/Resolute",
+  "America/Santiago",
+  "America/Sitka",
+  "America/Tijuana",
+  "America/Yakutat",
+  "America/Yellowknife",
+  "Antarctica/Casey",
+  "Antarctica/Davis",
+  "Antarctica/DumontDUrville",
+  "Antarctica/Macquarie",
+  "Antarctica/Mawson",
+  "Antarctica/Palmer",
+  "Antarctica/Rothera",
+  "Antarctica/Syowa",
+  "Antarctica/Troll",
+  "Antarctica/Vostok",
+  "Asia/Aden",
+  "Asia/Dili",
+  "Asia/Ho_Chi_Minh",
+  "Asia/Hong_Kong",
+  "Asia/Irkutsk",
+  "Asia/Jerusalem",
+  "Asia/Kolkata",
+  "Asia/Krasnoyarsk",
+  "Asia/Macau",
+  "Asia/Manila",
+  "Asia/Muscat",
+  "Asia/Novokuznetsk",
+  "Asia/Omsk",
+  "Asia/Pyongyang",
+  "Asia/Riyadh",
+  "Asia/Samarkand",
+  "Asia/Seoul",
+  "Asia/Shanghai",
+  "Asia/Taipei",
+  "Asia/Tashkent",
+  "Asia/Tbilisi",
+  "Asia/Vladivostok",
+  "Asia/Yakutsk",
+  "Asia/Yangon",
+  "Asia/Yekaterinburg",
+  "Atlantic/Bermuda",
+  "Atlantic/Cape_Verde",
+  "Atlantic/Reykjavik",
+  "Etc/GMT+1",
+  "Etc/GMT+10",
+  "Etc/GMT+11",
+  "Etc/GMT+12",
+  "Etc/GMT+2",
+  "Etc/GMT+3",
+  "Etc/GMT+4",
+  "Etc/GMT+5",
+  "Etc/GMT+6",
+  "Etc/GMT+7",
+  "Etc/GMT+8",
+  "Etc/GMT+9",
+  "Etc/GMT-1",
+  "Etc/GMT-10",
+  "Etc/GMT-11",
+  "Etc/GMT-12",
+  "Etc/GMT-13",
+  "Etc/GMT-14",
+  "Etc/GMT-2",
+  "Etc/GMT-3",
+  "Etc/GMT-4",
+  "Etc/GMT-5",
+  "Etc/GMT-6",
+  "Etc/GMT-7",
+  "Etc/GMT-8",
+  "Etc/GMT-9",
+  "Europe/Budapest",
+  "Europe/Dublin",
+  "Europe/Gibraltar",
+  "Europe/Helsinki",
+  "Europe/Kirov",
+  "Europe/Lisbon",
+  "Europe/London",
+  "Europe/Madrid",
+  "Europe/Malta",
+  "Europe/Monaco",
+  "Europe/Moscow",
+  "Europe/Paris",
+  "Europe/Riga",
+  "Europe/Rome",
+  "Europe/Samara",
+  "Europe/Ulyanovsk",
+  "Europe/Vienna",
+  "Europe/Zurich",
+  "Factory",
+  "Indian/Kerguelen",
+  "Indian/Mahe",
+  "Pacific/Apia",
+  "Pacific/Chatham",
+  "Pacific/Easter",
+  "Pacific/Fiji",
+  "Pacific/Gambier",
+  "Pacific/Guadalcanal",
+  "Pacific/Marquesas",
+  "Pacific/Niue",
+  "Pacific/Pago_Pago",
+  "Pacific/Rarotonga",
+  "Pacific/Tahiti",
+  "Pacific/Tongatapu"
+ ],
+ "rows_deleted": 16,
+ "rows_rewritten_or_deleted": 2061,
+ "window": [
+  "2012e",
+  "2012-08-02",
+  "2026c",
+  "2026-07-08"
+ ]
+}

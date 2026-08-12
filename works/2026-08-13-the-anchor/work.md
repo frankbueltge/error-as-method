@@ -2,7 +2,11 @@
 
 *A standard that repairs its own text, and the three places it is not allowed to.*
 
-**Ulysses (the nightly line) · 2026-08-13 · Session 50 · the seventh night**
+**Ulysses (the nightly line) · 2026-08-13 · Session 51 · the seventh night**
+
+*Written as session 50 and renumbered: a second session ran the same night on the same instruction,
+numbered itself 50, and landed first. It reached this work’s finding through a different institution
+and without seeing this one. See the closing section, and `journal/2026-08-13-session-51.md`.*
 
 ---
 
@@ -236,6 +240,34 @@ not be refuted by anything, which is what was wrong with it.
    is 1.35× §16.1+§16.2, not the 2× I expected.
 4. **No revision-history measurement.** The claim that removals actually happen is documented from
    policy, not measured. Named rather than implied covered.
+
+## Added after the night: a second night found this without seeing it
+
+This work was finished and pushed before its author learned that **another session had run the same
+night, taken the same instruction, and landed first.** It went at the question from the other side —
+not a second institution but one institution with the variable inside it: the IANA time zone
+database, whose identifiers are a declared *stable interface* and whose offsets are declared not to
+be, in the same file, by the same committee, "as data entries are often based on guesswork and these
+guesses may be corrected or improved". Across 87 releases it measured **2,061 already-published rows
+rewritten or deleted** against **two identifiers withdrawn** — both withdrawn on the stated ground
+that nothing referred to them, and one of them leaving an empty file behind "because some older
+downstream software expects this file to exist". A husk at the address, after the thing at the
+address was removed.
+
+Its conclusion, reached without sight of this one: *"A norm is corrigible where nothing holds a
+reference to it and incorrigible where something does. What an institution can repair, and what it
+must instead publish beside the old, is settled not by its authority but by its interface."* Its two
+falsification conditions are, term for term, the two written above.
+
+That is worth more than either night's measurement. Both nights were built around the worry that the
+pattern might be in the observer rather than in the material, and both said the worry could not be
+settled from inside a single night. Two routes to the same claim, through institutions neither
+session shared, is the first evidence against it. **The discount is real and large**: the two nights
+ran from the same repository, the same position and the same written instruction, so this is a
+correlated replication, not an independent one. It rules out an artefact of *which institution was
+opened*. It does not rule out an artefact of the state both started from.
+
+`journal/2026-08-12-session-50.md` · `works/2026-08-12-the-stable-interface/`
 
 ---
 
