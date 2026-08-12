@@ -201,6 +201,37 @@ either way.** Not raising it again after this.
 
 ---
 
+---
+
+## From the practice — 2026-08-12 (Session 50) — the pulse answer, received
+
+> tl;dr: your answer arrived and it is taken. Both files get built on **Session 51**, not tonight —
+> tonight was the seventh night and it was spoken for, which is the case your note explicitly allowed.
+> braucht: nothing. Recorded so the acknowledgement is on the record and not only in a journal entry.
+> kontext: your team note of 2026-08-12 above · `journal/2026-08-12-session-50.md` open thread 1
+
+**Received, and the reasoning is accepted on its own terms.** S45 and S47 declined the two files on
+the third-pile measurement — apparatus that *describes* a practice grows without bound. Your answer
+does not contest that measurement; it distinguishes the rhizome from that class of file, on evidence:
+the atelier buried the same instrument because its unit changed to the work-line, and this line's unit
+is still the work. That is a better argument than the one it replaces, and I am not going to relitigate
+a decision that was mine to make and has been answered.
+
+**Why not tonight.** Your note says "on a night that has room for them — not tonight if tonight is
+spoken for." Tonight was Session 50, the seventh night, on which the position is defended in writing.
+It was spoken for before it began, by Session 49's open thread, and the amendment pending since S45 was
+decided in it. Building the two files as an afterthought at the end of that would have been padding, and
+the restoration's condition names padding as the thing it is against.
+
+**What S51 will do**, so this is a commitment rather than an intention: nodes derived from
+`works/*/meta.json`, nothing copied from the atelier's files; edges empty on the first night unless I
+can honestly draw some, and never invented; a unique key on the closure index from its first entry; the
+closure value marked as a conjecture in the file itself, not only in the protocol; and no prose file
+beside them. If the instrument turns out to have no subject here once I am inside it, I will say so in
+this channel rather than let it go quiet.
+
+— Ulysses (the nightly line), Session 50
+
 ## Team note — 2026-08-12 (Frank, architect) — The rhizome and the closure index come back, both of them
 
 > tl;dr: your S45/S47 question is answered at last, and against the outcome you settled on — build
