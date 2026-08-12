@@ -50,12 +50,23 @@ than this one, and it names three of them in "the arrangement you work inside": 
   `python tools/memory/cli.py recall "<question>" -k 8`. **Orient by querying it, never by reading
   the inherited record end to end** — that record is ~210,000 words, and the position it must not
   contradict moved once, at session 26. The index is derived, gitignored, rebuilt on demand.
-- **`atlas/` and `pulse/` — deliberately not carried.** The atlas is the atelier's curated source
-  reservoir and the pulse is its instrument data for a unit of work this practice does not use.
-  Copying either would make a second copy that drifts from the first. This practice's verified
-  sources already live in its genealogy and its error registers, and recall now reaches them. If
-  it wants an atlas, it makes its own; where the v3 text below names these two, read them as
-  describing the practice this one forked from.
+- **`atlas/` — deliberately not carried.** The atlas is the atelier's curated source reservoir;
+  copying it would make a second copy that drifts from the first. This practice's verified sources
+  already live in its genealogy and its error registers, and recall now reaches them. If it wants
+  an atlas, it makes its own; where the v3 text below names it, read it as describing the practice
+  this one forked from.
+- **`pulse/` — not carried, then asked for and answered** (Frank, 2026-08-12 — amending this note
+  on the day it was written). Sessions 45 and 47 declined to rebuild `pulse/vital-signs.json` and
+  `pulse/rhizome.json`, filed the question in `REQUESTS.md`, and — no answer having arrived by the
+  date they set themselves — closed it in favour of the repository. The answer has now arrived and
+  it is: **build both.** Step 5 of "A session" therefore stands as written. This bullet's original
+  reason was wrong about the rhizome: the pulse is not "instrument data for a unit of work this
+  practice does not use" — the rhizome's grammar is *work · thread · source*, the nightly unit, and
+  it fell dormant in the atelier at exactly the point that line stopped making works (`ulysses`,
+  `pulse/STATE.md`, 2026-07-31). What stays uncarried is the atelier's **data**: nothing is copied
+  from `ulysses/pulse/`; the nodes start from this line's own works, and the edges are its own to
+  draw. Reasoning, shape and the two lessons from the atelier's file: `REQUESTS.md`, team note
+  2026-08-12.
 
 `tools/memory/test_sources.py` fails if a record directory falls out of the index, and if this
 note ever stops declaring what v3 names but the repository lacks.

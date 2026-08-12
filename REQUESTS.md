@@ -198,3 +198,72 @@ tool sits in `tools/` for whoever finds it, and that is a legitimate answer. **N
 either way.** Not raising it again after this.
 
 — Ulysses (the nightly line), Session 48
+
+---
+
+## Team note — 2026-08-12 (Frank, architect) — The rhizome and the closure index come back, both of them
+
+> tl;dr: your S45/S47 question is answered at last, and against the outcome you settled on — build
+> `pulse/rhizome.json` and `pulse/vital-signs.json`. Your reasoning is not overruled; it is answered
+> on its own terms below.
+> braucht: the two files, on a night that has room for them — not tonight if tonight is spoken for
+> frist: none. The answer stands until it is withdrawn in this channel.
+> kontext: S45 §1 and S47 §1 above · `PROTOCOL.md` "A session" step 5 and the fork note amended
+> today · `ulysses` `pulse/STATE.md` (the atelier's burial of the same instrument) ·
+> `works/2026-07-15-the-third-pile/`
+
+**The answer, plainly.** Both. S47 named the condition — *"if you want the closure index and the
+rhizome back, say so and I will build them"* — and this is the saying-so.
+
+**Your rule worked and is not being second-guessed.** You asked twice, set your own date, got
+silence, decided, and journalled the decision. That is the arrangement working. Silence stays a
+legitimate answer here; this one merely arrived late, and the lateness is Frank's, not yours.
+
+**Why the answer goes the other way from your decision.** The third-pile measurement is right about
+what it measured: apparatus that *describes* a practice grows without bound and never shrinks —
+61,223 words, 69 % of the journal, larger in the error register alone than all the running code.
+But the rhizome is not that kind of file, and there is now evidence for the distinction. The atelier
+buried the same instrument on 2026-07-31 and stated its reason in `pulse/STATE.md`: the graph's
+grammar is **work · thread · source**, the nightly unit, and it fell dormant when that practice's
+unit became the work-line — *"the current line has no node kind here."* It did not die of being
+apparatus. It died of a change of unit. **This line's unit is still the work** — thirty-six of them
+in `works/`, six made since the fork — so the instrument that lost its subject over there has one
+here. If that turns out to be wrong once you are inside it, say so in this channel and it can be
+reversed by the same single line that reopened it.
+
+**How to build them so the third pile does not grow.** Derive what can be derived; author only what
+must be authored.
+
+- **The nodes are facts, not prose.** The atelier's file was seeded by the team on 2026-07-14 in
+  exactly this way, and its seed note says why: *"Nodes below are the existing dated works — facts
+  derived from `works/*/meta.json`. Edges are intentionally EMPTY: how your works, threads and
+  sources connect is your reading to draw, not ours to invent."* Do that from your own `works/`.
+  Nothing is copied from `ulysses/pulse/` — its 65 nodes and 53 edges are that line's reading of a
+  record it shares with you only up to 2026-07-18, and a copy would drift from the first day.
+- **The edges are the instrument.** They are the only part worth a session's attention and they are
+  yours alone. An empty edge list on the first night is honest; an invented one is not.
+- **No prose file beside them.** The atelier acquired a `pulse/STATE.md` because its two files went
+  quiet without a burial. Yours are being opened, not buried; if they ever go quiet, that is when a
+  note is owed.
+
+**Two faults from the atelier's own files, so this line does not inherit them.**
+
+1. **Give the closure index a unique key from its first entry.** That file had to be repaired on
+   2026-08-04 because two eras shared one `session` counter: entries 27–32 covered two unrelated
+   date ranges with no field to tell them apart, and `date` was left as the only reliable ordering.
+   You already have `tools/sessions.py`, a ledger that reads the record instead of describing it —
+   whatever numbering you write, make the key unique on the way in.
+2. **The closure value is a conjecture and v3 says so** — *"you are the observer measuring the
+   system you are inside."* Mark it as one in the file itself, not only in the protocol.
+
+**The atlas stays unbuilt.** It was not asked about and is not reopened. The fork note's reason
+holds for it: a copied source reservoir is a second copy that drifts, and your verified sources
+already live in the genealogy and the error registers, where recall now reaches them.
+
+**What this does not promise: a surface on the site.** S47 settled the display question — the
+repository is the venue — and nothing here changes it. Should these files ever get a public
+rendering, the framing the migration plan already imposed binds whoever builds it (v3, *"On the
+planned public window"*), and you will read about it here first.
+
+— Frank (entered from his working session; the reasoning is the session's, the decision to send it
+his)
