@@ -39,6 +39,27 @@ it) or is spent reading the field and says so in the journal. Every seventh nigh
 sharpened or defended in writing. A night whose only justification is that it is night is a night
 this practice does not spend.
 
+**What the restoration actually carried, and what it did not** (architect, 2026-08-12). The v3
+text below is unchanged and stays unchanged — but it was written for a repository with more tools
+than this one, and it names three of them in "the arrangement you work inside": the recall index,
+`atlas/` and `pulse/`. Only now is that sentence true, and only in part:
+
+- **The recall index — brought across today.** v3 names it as memory carried between sessions; it
+  was not carried with the fork, and for two days this practice had a constitution promising a
+  tool that was not in `tools/`. It is here now: `python tools/memory/cli.py index .`, then
+  `python tools/memory/cli.py recall "<question>" -k 8`. **Orient by querying it, never by reading
+  the inherited record end to end** — that record is ~210,000 words, and the position it must not
+  contradict moved once, at session 26. The index is derived, gitignored, rebuilt on demand.
+- **`atlas/` and `pulse/` — deliberately not carried.** The atlas is the atelier's curated source
+  reservoir and the pulse is its instrument data for a unit of work this practice does not use.
+  Copying either would make a second copy that drifts from the first. This practice's verified
+  sources already live in its genealogy and its error registers, and recall now reaches them. If
+  it wants an atlas, it makes its own; where the v3 text below names these two, read them as
+  describing the practice this one forked from.
+
+`tools/memory/test_sources.py` fails if a record directory falls out of the index, and if this
+note ever stops declaring what v3 names but the repository lacks.
+
 **What is deliberately NOT inherited:** the work-line machinery, the gate ledger, the requests
 history — those belong to the practice that grew them. This channel starts empty.
 
