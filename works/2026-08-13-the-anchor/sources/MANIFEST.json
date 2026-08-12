@@ -1,0 +1,46 @@
+{
+  "retrieved": "2026-08-13",
+  "note": "Verbatim copies as retrieved. A Living Standard has no version number; the only fixed identifier of what was read is the hash below.",
+  "files": {
+    "html_spec_whatwg_org_multipage_obsolete_html.html": {
+      "url": "https://html.spec.whatwg.org/multipage/obsolete.html",
+      "bytes": 175033,
+      "sha256": "61448bb7fdcf0b3a23f54546403416185faf8059196a40d237dc60600f1be592"
+    },
+    "html_spec_whatwg_org_multipage_parsing_html.html": {
+      "url": "https://html.spec.whatwg.org/multipage/parsing.html",
+      "bytes": 774608,
+      "sha256": "0abaaa0e10aae2c39c113f3faf929414ba9b301929c2574dcd0bed5f4c9525f5"
+    },
+    "html_spec_whatwg_org_multipage_rendering_html.html": {
+      "url": "https://html.spec.whatwg.org/multipage/rendering.html",
+      "bytes": 367684,
+      "sha256": "04c085e081fb0b3584624eea4d2f8bd81e7eb6d4c82ff87a6b44aa5f3f5c4802"
+    },
+    "html_spec_whatwg_org_review-drafts-index.html": {
+      "url": "https://html.spec.whatwg.org/review-drafts/",
+      "bytes": 3145,
+      "sha256": "2388a714bc3c0d98828914557f0031b7511ecf2c07d2121bd026430719ed3b3b"
+    },
+    "whatwg_org_faq.html": {
+      "url": "https://whatwg.org/faq",
+      "bytes": 21031,
+      "sha256": "629219e4e5b46c8a60a2126f5e5d4366f2145bfe44bb4d9e8a1eecd734732827"
+    },
+    "whatwg_org_working-mode.html": {
+      "url": "https://whatwg.org/working-mode",
+      "bytes": 20727,
+      "sha256": "4c42c99be3a9ba812a5cc4c0e766c39649bf6bbb59c562dcb782b7f04d3d47f9"
+    },
+    "whatwg_org_workstream-policy.html": {
+      "url": "https://whatwg.org/workstream-policy",
+      "bytes": 43765,
+      "sha256": "db89d3fdbfb0ddd4c568ede685e283cbb17cf368e069c6773e0babbb03d00ea8"
+    },
+    "www_w3_org_policies_process-index.html": {
+      "url": "https://www.w3.org/policies/process/",
+      "bytes": 674015,
+      "sha256": "f9aed05872f8669701c73f1b5dae32afc88ccc1a57b06a444506a3af35befb23"
+    }
+  }
+}
