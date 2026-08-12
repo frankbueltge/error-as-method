@@ -1,0 +1,544 @@
+{
+  "date": "2026-08-13",
+  "work": "The Anchor",
+  "no_network_at_run_time": true,
+  "no_randomness_therefore_no_seed": true,
+  "manifest_sha256": {
+    "html_spec_whatwg_org_multipage_obsolete_html.html": "61448bb7fdcf0b3a23f54546403416185faf8059196a40d237dc60600f1be592",
+    "whatwg_org_faq.html": "629219e4e5b46c8a60a2126f5e5d4366f2145bfe44bb4d9e8a1eecd734732827",
+    "whatwg_org_working-mode.html": "4c42c99be3a9ba812a5cc4c0e766c39649bf6bbb59c562dcb782b7f04d3d47f9",
+    "whatwg_org_workstream-policy.html": "db89d3fdbfb0ddd4c568ede685e283cbb17cf368e069c6773e0babbb03d00ea8",
+    "html_spec_whatwg_org_review-drafts-index.html": "2388a714bc3c0d98828914557f0031b7511ecf2c07d2121bd026430719ed3b3b",
+    "www_w3_org_policies_process-index.html": "f9aed05872f8669701c73f1b5dae32afc88ccc1a57b06a444506a3af35befb23",
+    "html_spec_whatwg_org_multipage_rendering_html.html": "04c085e081fb0b3584624eea4d2f8bd81e7eb6d4c82ff87a6b44aa5f3f5c4802",
+    "html_spec_whatwg_org_multipage_parsing_html.html": "0abaaa0e10aae2c39c113f3faf929414ba9b301929c2574dcd0bed5f4c9525f5"
+  },
+  "observed_during_harvest_not_scored": {
+    "obsolete_elements": 28,
+    "obsolete_attributes": 143,
+    "review_drafts": 17,
+    "review_draft_range": [
+      "2018-07",
+      "2026-07"
+    ],
+    "review_drafts_off_cadence": []
+  },
+  "section_words": {
+    "16.1": 756,
+    "16.2": 1587,
+    "16.3": 3153
+  },
+  "elements": [
+    "applet",
+    "acronym",
+    "bgsound",
+    "dir",
+    "frame",
+    "frameset",
+    "noframes",
+    "isindex",
+    "keygen",
+    "listing",
+    "menuitem",
+    "nextid",
+    "noembed",
+    "plaintext",
+    "rb",
+    "rtc",
+    "strike",
+    "xmp",
+    "basefont",
+    "big",
+    "blink",
+    "center",
+    "font",
+    "marquee",
+    "multicol",
+    "nobr",
+    "spacer",
+    "tt"
+  ],
+  "elements_named_in_16_3": [
+    "acronym",
+    "dir",
+    "frame",
+    "frameset",
+    "listing",
+    "plaintext",
+    "xmp",
+    "font",
+    "marquee"
+  ],
+  "elements_with_successor": [
+    "applet",
+    "acronym",
+    "bgsound",
+    "dir",
+    "frame",
+    "frameset",
+    "noframes",
+    "isindex",
+    "listing",
+    "nextid",
+    "noembed",
+    "plaintext",
+    "strike",
+    "xmp",
+    "basefont",
+    "big",
+    "blink",
+    "center",
+    "font",
+    "marquee",
+    "multicol",
+    "nobr",
+    "spacer",
+    "tt"
+  ],
+  "attributes": [
+    "charset on a elements",
+    "charset on link elements",
+    "charset on script elements (except as noted in the previous section)",
+    "coords on a elements",
+    "shape on a elements",
+    "methods on a elements",
+    "methods on link elements",
+    "name on a elements (except as noted in the previous section)",
+    "name on embed elements",
+    "name on img elements",
+    "name on option elements",
+    "rev on a elements",
+    "rev on link elements",
+    "urn on a elements",
+    "urn on link elements",
+    "accept on form elements",
+    "hreflang on area elements",
+    "type on area elements",
+    "nohref on area elements",
+    "profile on head elements",
+    "manifest on html elements",
+    "version on html elements",
+    "ismap on input elements",
+    "usemap on input elements",
+    "usemap on object elements",
+    "longdesc on iframe elements",
+    "longdesc on img elements",
+    "lowsrc on img elements",
+    "target on link elements",
+    "type on menu elements",
+    "label on menu elements",
+    "contextmenu on all elements",
+    "onshow on all elements",
+    "scheme on meta elements",
+    "archive on object elements",
+    "classid on object elements",
+    "code on object elements",
+    "codebase on object elements",
+    "codetype on object elements",
+    "declare on object elements",
+    "standby on object elements",
+    "typemustmatch on object elements",
+    "language on script elements (except as noted in the previous section)",
+    "event on script elements",
+    "for on script elements",
+    "type on style elements (except as noted in the previous section)",
+    "datapagesize on table elements",
+    "summary on table elements",
+    "abbr on td elements",
+    "axis on td and th elements",
+    "scope on td elements",
+    "datasrc on a , button , div , frame , iframe , img , input , label , legend , marquee , object , option , select , span , table , and textarea elements",
+    "datafld on a , button , div , fieldset , frame , iframe , img , input , label , legend , marquee , object , select , span , and textarea elements",
+    "dataformatas on button , div , input , label , legend , marquee , object , option , select , span , and table elements",
+    "dropzone on all elements",
+    "alink on body elements",
+    "bgcolor on body elements",
+    "bottommargin on body elements",
+    "leftmargin on body elements",
+    "link on body elements",
+    "marginheight on body elements",
+    "marginwidth on body elements",
+    "rightmargin on body elements",
+    "text on body elements",
+    "topmargin on body elements",
+    "vlink on body elements",
+    "clear on br elements",
+    "align on caption elements",
+    "align on col elements",
+    "char on col elements",
+    "charoff on col elements",
+    "valign on col elements",
+    "width on col elements",
+    "align on div elements",
+    "compact on dl elements",
+    "align on embed elements",
+    "hspace on embed elements",
+    "vspace on embed elements",
+    "align on hr elements",
+    "color on hr elements",
+    "noshade on hr elements",
+    "size on hr elements",
+    "width on hr elements",
+    "align on h1 — h6 elements",
+    "align on iframe elements",
+    "allowtransparency on iframe elements",
+    "frameborder on iframe elements",
+    "framespacing on iframe elements",
+    "hspace on iframe elements",
+    "marginheight on iframe elements",
+    "marginwidth on iframe elements",
+    "scrolling on iframe elements",
+    "vspace on iframe elements",
+    "align on input elements",
+    "border on input elements",
+    "hspace on input elements",
+    "vspace on input elements",
+    "align on img elements",
+    "border on img elements (except as noted in the previous section)",
+    "hspace on img elements",
+    "vspace on img elements",
+    "align on legend elements",
+    "type on li elements",
+    "compact on menu elements",
+    "align on object elements",
+    "border on object elements",
+    "hspace on object elements",
+    "vspace on object elements",
+    "compact on ol elements",
+    "align on p elements",
+    "width on pre elements",
+    "align on table elements",
+    "bgcolor on table elements",
+    "border on table elements",
+    "bordercolor on table elements",
+    "cellpadding on table elements",
+    "cellspacing on table elements",
+    "frame on table elements",
+    "height on table elements",
+    "rules on table elements",
+    "width on table elements",
+    "align on tbody , thead , and tfoot elements",
+    "char on tbody , thead , and tfoot elements",
+    "charoff on tbody , thead , and tfoot elements",
+    "height on thead , tbody , and tfoot elements",
+    "valign on tbody , thead , and tfoot elements",
+    "align on td and th elements",
+    "bgcolor on td and th elements",
+    "char on td and th elements",
+    "charoff on td and th elements",
+    "height on td and th elements",
+    "nowrap on td and th elements",
+    "valign on td and th elements",
+    "width on td and th elements",
+    "align on tr elements",
+    "bgcolor on tr elements",
+    "char on tr elements",
+    "charoff on tr elements",
+    "height on tr elements",
+    "valign on tr elements",
+    "compact on ul elements",
+    "type on ul elements",
+    "background on body , table , thead , tbody , tfoot , tr , td , and th elements"
+  ],
+  "idl_interfaces": [
+    "Document",
+    "External",
+    "HTMLAnchorElement",
+    "HTMLAreaElement",
+    "HTMLBRElement",
+    "HTMLBodyElement",
+    "HTMLDListElement",
+    "HTMLDirectoryElement",
+    "HTMLDivElement",
+    "HTMLEmbedElement",
+    "HTMLFontElement",
+    "HTMLFrameElement",
+    "HTMLFrameSetElement",
+    "HTMLHRElement",
+    "HTMLHeadingElement",
+    "HTMLHtmlElement",
+    "HTMLIFrameElement",
+    "HTMLImageElement",
+    "HTMLInputElement",
+    "HTMLLIElement",
+    "HTMLLegendElement",
+    "HTMLLinkElement",
+    "HTMLMarqueeElement",
+    "HTMLMenuElement",
+    "HTMLMetaElement",
+    "HTMLOListElement",
+    "HTMLObjectElement",
+    "HTMLParagraphElement",
+    "HTMLParamElement",
+    "HTMLPreElement",
+    "HTMLScriptElement",
+    "HTMLStyleElement",
+    "HTMLTableCaptionElement",
+    "HTMLTableCellElement",
+    "HTMLTableColElement",
+    "HTMLTableElement",
+    "HTMLTableRowElement",
+    "HTMLTableSectionElement",
+    "HTMLUListElement",
+    "Window"
+  ],
+  "idl_partial_interfaces": [
+    "Document",
+    "HTMLAnchorElement",
+    "HTMLAreaElement",
+    "HTMLBRElement",
+    "HTMLBodyElement",
+    "HTMLDListElement",
+    "HTMLDivElement",
+    "HTMLEmbedElement",
+    "HTMLHRElement",
+    "HTMLHeadingElement",
+    "HTMLHtmlElement",
+    "HTMLIFrameElement",
+    "HTMLImageElement",
+    "HTMLInputElement",
+    "HTMLLIElement",
+    "HTMLLegendElement",
+    "HTMLLinkElement",
+    "HTMLMenuElement",
+    "HTMLMetaElement",
+    "HTMLOListElement",
+    "HTMLObjectElement",
+    "HTMLParagraphElement",
+    "HTMLPreElement",
+    "HTMLScriptElement",
+    "HTMLStyleElement",
+    "HTMLTableCaptionElement",
+    "HTMLTableCellElement",
+    "HTMLTableColElement",
+    "HTMLTableElement",
+    "HTMLTableRowElement",
+    "HTMLTableSectionElement",
+    "HTMLUListElement",
+    "Window"
+  ],
+  "preservation_vocabulary": {
+    "historical": 3,
+    "legacy": 24,
+    "compatibilit": 0,
+    "compat": 0
+  },
+  "must_not_be_used_by_authors_occurrences": 2,
+  "second_representation": {
+    "route_a_from_16_2_list": 28,
+    "route_b_from_16_3_structure": 9,
+    "gap": 19,
+    "ua_must_treat": [
+      "acronym",
+      "dir",
+      "listing",
+      "plaintext",
+      "xmp"
+    ]
+  },
+  "freeze_census": [
+    {
+      "mechanism": "Review Draft",
+      "cadence": "roughly every six months",
+      "outside_it_serves": "patent review by Workstream Participants",
+      "evidence": "roughly every six months, a Living Standard is “snapshotted” to create a Review Draft suitable for patent review. All workstream participants, by virtue of signing the IPR Policy , commit to licensing any essential claims they may have, unless they exclude those claims within 45 days of the publication of that snapshot. What is the proces",
+      "source": "whatwg.org/faq"
+    },
+    {
+      "mechanism": "commit snapshot",
+      "cadence": "one per change to the standard",
+      "outside_it_serves": "implementers documenting what they implemented from",
+      "evidence": "each change to the standard (embodied in a commit) triggers the publication of a frozen snapshot of the said standard. These snapshots are published as historical references. The WHATWG intends to keep these frozen snapshots available at their published URL permanently. Doesn't this mean your standards are not stable? We think of stabilit",
+      "source": "whatwg.org/faq"
+    },
+    {
+      "mechanism": "anchor permanence",
+      "cadence": "continuous",
+      "outside_it_serves": "other standards referencing parts of the standard",
+      "evidence": "Often other standards want to reference parts of a WHATWG Living Standard by using a hypertext anchor. Since Living Standards are continually evolving, the set of anchors in a document is not static, and some anchors could disappear over time. In general, editors should try to preserve anchors when reasonable. This includes using techniqu",
+      "source": "whatwg.org/working-mode"
+    }
+  ],
+  "quotations": {
+    "repair_stance": "Instead of ignoring what the browsers do, we fix the standard to match what the browsers do. Instead of leaving the stan",
+    "stability": "ith bugs continually being found and fixed. Software that is never patched has a low chance of being stable, as bugs sit unaddressed. So in this sense, unlike \"dead standards\" that are published once and never change, WHATWG Living Standards are quite stable: they endeavor to eliminate all of their bugs, instead of leaving them unaddressed. What’s ",
+    "snapshots_discouraged": "g Standard has a \"Snapshot as of this commit\" link that gives a frozen copy for such historical reference. The WHATWG will keep these snapshots available at their published URLs permanently. However, other standards organizations are discouraged from referencing these snapshots, as they generally contain contain known issues that have been fixed in the Living Standard, and can mislead implementers and web developers. For cases where another standards organization wishes to ensure an anchor is permanently available in the canonical Liv",
+    "review_draft_notice": "This is the Review Draft. It is published primarily for purposes of patent review by Workstream Participants; it mirrors the Living Standard closely, redacting only text that is identified as \"Objection Pending\" or \"Confirmation Pending\". Developers should refer to the Living Standard for the most current error corrections and other developments. For information regarding patent commitments, please see the IPR Policy and exclu",
+    "w3c_rescind_rule": "ion”. W3C only rescinds, supersedes, or obsoletes entire Recommendations. A Recommendation can be both superseded and obsolete. To rescind, supersede, or obsolete some part of a Recommendation, W3C follows the process for modifying a Recommendation . Note: For the purpo"
+  },
+  "w3c_withdrawal_statuses": {
+    "rescind": {
+      "mentions": 35,
+      "within_400ch_of_patent_or_licence": 13
+    },
+    "obsolete": {
+      "mentions": 28,
+      "within_400ch_of_patent_or_licence": 12
+    },
+    "supersede": {
+      "mentions": 24,
+      "within_400ch_of_patent_or_licence": 13
+    },
+    "restor": {
+      "mentions": 11,
+      "within_400ch_of_patent_or_licence": 4
+    }
+  },
+  "elements_unspecified_in_16_3": [
+    "applet",
+    "bgsound",
+    "noframes",
+    "isindex",
+    "keygen",
+    "menuitem",
+    "nextid",
+    "noembed",
+    "rb",
+    "rtc",
+    "strike",
+    "basefont",
+    "big",
+    "blink",
+    "center",
+    "multicol",
+    "nobr",
+    "spacer",
+    "tt"
+  ],
+  "elements_specified_elsewhere": {
+    "applet": {
+      "rendering": 0,
+      "parsing": 6
+    },
+    "bgsound": {
+      "rendering": 0,
+      "parsing": 7
+    },
+    "noframes": {
+      "rendering": 1,
+      "parsing": 11
+    },
+    "isindex": {
+      "rendering": 0,
+      "parsing": 0
+    },
+    "keygen": {
+      "rendering": 0,
+      "parsing": 3
+    },
+    "menuitem": {
+      "rendering": 0,
+      "parsing": 0
+    },
+    "nextid": {
+      "rendering": 0,
+      "parsing": 0
+    },
+    "noembed": {
+      "rendering": 1,
+      "parsing": 4
+    },
+    "rb": {
+      "rendering": 0,
+      "parsing": 6
+    },
+    "rtc": {
+      "rendering": 0,
+      "parsing": 8
+    },
+    "strike": {
+      "rendering": 1,
+      "parsing": 4
+    },
+    "basefont": {
+      "rendering": 1,
+      "parsing": 7
+    },
+    "big": {
+      "rendering": 1,
+      "parsing": 5
+    },
+    "blink": {
+      "rendering": 0,
+      "parsing": 0
+    },
+    "center": {
+      "rendering": 30,
+      "parsing": 4
+    },
+    "multicol": {
+      "rendering": 0,
+      "parsing": 0
+    },
+    "nobr": {
+      "rendering": 2,
+      "parsing": 5
+    },
+    "spacer": {
+      "rendering": 0,
+      "parsing": 0
+    },
+    "tt": {
+      "rendering": 1,
+      "parsing": 5
+    }
+  },
+  "elements_absent_from_all_three_sections": [
+    "isindex",
+    "menuitem",
+    "nextid",
+    "blink",
+    "multicol",
+    "spacer"
+  ],
+  "ledger": [
+    {
+      "id": "P1",
+      "claim": "≥ 24 of the 28 condemned elements are named again in 16.3",
+      "confirmed": false,
+      "detail": "9 of 28"
+    },
+    {
+      "id": "P2",
+      "claim": "16.3 exceeds 16.1+16.2 in words by a factor of ≥ 2",
+      "confirmed": false,
+      "detail": "3153 vs 2343 — factor 1.35"
+    },
+    {
+      "id": "P3",
+      "claim": "≥ 15 distinct IDL interfaces preserved in chapter 16",
+      "confirmed": true,
+      "detail": "40 full + 33 partial = 73"
+    },
+    {
+      "id": "P4",
+      "claim": "preservation vocabulary outnumbers 'must not be used by authors'",
+      "confirmed": true,
+      "detail": "27 vs 2"
+    },
+    {
+      "id": "P5",
+      "claim": "≥ 25 of 28 condemned elements carry a stated successor",
+      "confirmed": false,
+      "detail": "24 of 28"
+    },
+    {
+      "id": "P6",
+      "claim": "the two independent element counts differ by ≤ 4",
+      "confirmed": false,
+      "detail": "route A (16.2 list) 28; route B (16.3 structure) 9; gap 19"
+    },
+    {
+      "id": "P7",
+      "claim": "≥ 2 of 4 W3C withdrawal statuses sit within 400 characters of the Patent Policy or of licensing",
+      "confirmed": true,
+      "detail": "4 of 4"
+    },
+    {
+      "id": "P8",
+      "claim": "≥ 15 of the elements unspecified in 16.3 are specified in the rendering or parsing sections instead",
+      "confirmed": false,
+      "detail": "13 of 19; absent from all three sections: ['isindex', 'menuitem', 'nextid', 'blink', 'multicol', 'spacer']"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "what_this_is": "This line's own instrument turned on itself: an estimate, per session, of how far the night's material came from outside its own record. It is authored, not derived, and it is read by the next session. It is never the ecology's state and never a claim about any other practice.",
+  "opened": "2026-08-13",
+  "reopened_by": "REQUESTS.md, team note 2026-08-12 — after sessions 45 and 47 had closed the question and decided against rebuilding.",
+  "the_closure_value_is_a_conjecture": "Stated here in the file and not only in the protocol, per the team note's second fault-from-the-atelier. Protocol v3: 'you are the observer measuring the system you are inside, so that estimate is a conjecture — mark it as one (you may be wrong about your own inwardness, and that unreliability belongs in the record).' Every `closure` number below is therefore a conjecture by its author about its author, and the `basis` beside it is given so a reader can disagree with the number without having to take my word for the inputs.",
+  "key_is_unique_on_the_way_in": "Two eras once shared one `session` counter in the atelier's file and it had to be repaired on 2026-08-04. Here `key` is `<date>-s<session>` and is the identity; `session` comes from tools/sessions.py and `date` from the night itself. Never reuse a key.",
+  "scale": "closure 0.0 = the night's material is entirely from outside this record; 1.0 = entirely this record re-read. Neither pole is healthy: 1.0 is the closing loop this practice studies, and 0.0 would mean a night that connects to nothing it has done.",
+  "entries": [
+    {
+      "key": "2026-08-13-s50",
+      "session": 50,
+      "date": "2026-08-13",
+      "mode": "Consolidate — the seventh night, position work",
+      "closure": 0.3,
+      "closure_is": "conjecture",
+      "basis": {
+        "external_documents_read_tonight": 8,
+        "external_catalogues_consulted": 1,
+        "external_primary_texts_attempted_and_failed": 1,
+        "own_record_documents_relied_on": 6,
+        "works_produced": 1,
+        "position_papers_produced": 1,
+        "note": "Low, and lower than the number alone suggests: the night's *subject* came from its own record — session 49 named the counter-case to look for — while all of its *material* came from outside. The estimate splits the difference and leans outward. A reader who thinks a night whose question was set by the previous night's journal is more closed than 0.3 has a fair case."
+      },
+      "what_moved": "The candidate amendment carried since session 45 was killed for unfalsifiability rather than defended. The standing position (session 26) is unchanged and was sharpened once.",
+      "counts": {
+        "work_directories_in_works": 37,
+        "index_rows_in_works_INDEX_md": 39,
+        "why_they_differ": "Rows 31 and 32 point at paths that do not exist in this repository — works published in the work-line era at addresses this fork does not contain. Recorded by session 45 and left standing rather than deleted. The two numbers are both correct and neither is the other."
+      }
+    }
+  ]
+}
