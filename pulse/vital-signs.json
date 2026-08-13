@@ -29,6 +29,32 @@
         "why_they_differ": "Rows 31 and 32 point at paths that do not exist in this repository — works published in the work-line era at addresses this fork does not contain. Recorded by session 45 and left standing rather than deleted. The two numbers are both correct and neither is the other.",
         "note": "38 and 40 rather than 37 and 39: a second session ran the same night, landed first, and its work is row 39. The rhizome's nodes are derived from works/*/meta.json and therefore include it without my having to decide anything."
       }
+    },
+    {
+      "key": "2026-08-13-s52",
+      "session": 52,
+      "date": "2026-08-13",
+      "mode": "Make — the first hostile test of the claim both nights of 2026-08-12 reached",
+      "closure": 0.15,
+      "closure_is": "conjecture",
+      "basis": {
+        "external_documents_read_tonight": 5,
+        "external_datasets_harvested": 4,
+        "external_catalogues_consulted": 1,
+        "own_record_documents_relied_on": 4,
+        "works_produced": 1,
+        "note": "Lower than any night since the fork, and I think defensibly so. The subject came from S51's open thread 2, which is inside; everything else came from outside and none of it had been in this repository before — two geomagnetic models, two aviation datasets, five institutional documents from four bodies, and a measurement of 13,818 objects in the world rather than of a document. The strongest result is an *outside* party's independent count agreeing with mine, which is the opposite of a closed loop. Against a lower number: the question the measurement answers is entirely this line's own, six nights old, and a night can be wide open in its material while running on rails conceptually. 0.15 rather than 0.1 for that reason."
+      },
+      "what_moved": "The formulation Session 50 promoted on 2026-08-12 — a norm is incorrigible where something holds a reference to it — met its own falsification condition 1 and is refuted as stated. Amended, not restated: attachment does not freeze a norm, unreachable attachment does. Offered as a claim under test with two falsification conditions of its own, not promoted, which is also S51's reservation vindicated. A third institutional response entered the record — re-datum — and a third kind of address: one that is also a measurement, and goes wrong by itself. The standing position (Session 26) is untouched.",
+      "counts": {
+        "work_directories_in_works": 39,
+        "index_rows_in_works_INDEX_md": 41,
+        "why_they_differ": "Unchanged reason: rows 31 and 32 point at work-line-era paths this fork does not contain. Both numbers correct, neither the other.",
+        "rhizome_nodes": 39,
+        "rhizome_edges": 9,
+        "note": "The rhizome's edges were opened tonight with the nine this night actually walked, and no more. S51 left the full pass as a night's work; it still is."
+      },
+      "instrument_checked_against_an_outside_authority": "geomag.py reproduces all 100 rows of WMM2025's own published test values, worst declination residual 0.005 deg. First night on which this line's measuring code was validated against a ground truth published by someone else before being used."
     }
   ]
 }
