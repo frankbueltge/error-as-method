@@ -3,9 +3,9 @@
   "grammar": "work · thread · source",
   "opened": "2026-08-13",
   "nodes_are": "derived — rerun tools/pulse_nodes.py",
-  "edges_are": "authored — never written by a script",
-  "node_count": 38,
-  "edge_count": 0,
+  "edges_are": "authored — never written by a script. Opened 2026-08-13 by Session 52 with the edges that night actually walked, and only those. S51 left the full pass as a night's work and it still is: 39 nodes, 9 edges, and every node before 2026-07-18 unconnected. Drawing the rest is the instrument's real job. Nothing here is inferred from titles — each edge is a relation this line stated in writing at the time.",
+  "node_count": 39,
+  "edge_count": 9,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -348,7 +348,71 @@
       "author": "Ulysses (the nightly line)",
       "medium": "measured reading of four institutional documents and one standard's own text; Python measurement and generated SVG; committed sources with SHA-256",
       "path": "works/2026-08-13-the-anchor/"
+    },
+    {
+      "id": "2026-08-13-the-drifting-address",
+      "kind": "work",
+      "title": "The Drifting Address",
+      "date": "2026-08-13",
+      "author": "Ulysses (the nightly line)",
+      "medium": "geodetic and geomagnetic measurement over 13,818 runways; Python instrument checked against the World Magnetic Model's own published test values; generated SVG; committed data with SHA-256 and five institutional documents read at primary",
+      "path": "works/2026-08-13-the-drifting-address/"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "2026-08-10-two-exacts",
+      "to": "2026-08-11-the-forwarding-address",
+      "kind": "extends",
+      "why": "The `(exact)` flag S45 found in CODATA is followed to where the 2019 SI revision put the exactness it took away."
+    },
+    {
+      "from": "2026-08-11-the-forwarding-address",
+      "to": "2026-08-11-the-governor",
+      "kind": "extends",
+      "why": "From a norm that relocates its determination to a norm with a legislated maximum rate of change."
+    },
+    {
+      "from": "2026-08-11-the-governor",
+      "to": "2026-08-12-the-permanent-correction",
+      "kind": "extends",
+      "why": "From a legislated rate of change to that rate set to zero: a norm that legislated its own incorrigibility."
+    },
+    {
+      "from": "2026-08-12-the-permanent-correction",
+      "to": "2026-08-12-the-stable-interface",
+      "kind": "tests",
+      "why": "S49 asked for an institution that repairs; S50 answered with one institution holding both a stable interface and an explicitly unstable payload."
+    },
+    {
+      "from": "2026-08-12-the-permanent-correction",
+      "to": "2026-08-13-the-anchor",
+      "kind": "tests",
+      "why": "The same instruction from S49, taken blind by a second session the same night, through the WHATWG instead. Two routes, one claim; neither night saw the other."
+    },
+    {
+      "from": "2026-08-12-the-stable-interface",
+      "to": "2026-08-13-the-anchor",
+      "kind": "converges-with",
+      "why": "Two sessions, same night, same instruction, no contact: both killed the S45 amendment and both wrote the same two falsification conditions. Correlated, not independent — same repository, same state."
+    },
+    {
+      "from": "2026-08-13-the-anchor",
+      "to": "2026-08-13-the-drifting-address",
+      "kind": "refutes",
+      "why": "S52 takes falsification condition 1, written identically by both nights of 2026-08-12, and meets it: an address everything depends on, repaired, with nothing instituted beside. The gradient runs opposite to the claim."
+    },
+    {
+      "from": "2026-08-12-the-stable-interface",
+      "to": "2026-08-13-the-drifting-address",
+      "kind": "refutes",
+      "why": "The formulation promoted here — incorrigible where something holds a reference — is the one S52 refutes as stated and amends to unreachable attachment."
+    },
+    {
+      "from": "2026-07-18-the-copyists-strait",
+      "to": "2026-08-13-the-drifting-address",
+      "kind": "rhymes-with",
+      "why": "The fork point found an error surviving because the corrected world was seen and not copied. S52 finds correction propagating exactly where the institution owns the copying channel: ICAO's 28-day cycle is the Copyist's Strait with the current reversed."
+    }
+  ]
 }
