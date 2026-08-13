@@ -1,0 +1,2425 @@
+{
+ "source": "https://data.iana.org/time-zones/releases/",
+ "releases_measured": 272,
+ "span": [
+  "tzdata93g",
+  "1993-11-22",
+  "tzdata2026c",
+  "2026-07-08"
+ ],
+ "namespace": {
+  "identifiers_ever": 647,
+  "live": 597,
+  "live_canonical_zones": 340,
+  "live_compatibility_links": 257,
+  "live_links_once_canonical": 163,
+  "live_links_never_canonical": 94,
+  "link_share_now": 0.4305,
+  "link_share_max_before_2000": 0.2306
+ },
+ "withdrawals": {
+  "total_ever": 50,
+  "before_2000": 49,
+  "from_2000_on": [
+   {
+    "name": "Canada/East-Saskatchewan",
+    "last_release": "tzdata2017b",
+    "last_date": "2017-03-17"
+   }
+  ],
+  "demoted_then_withdrawn": []
+ },
+ "repairs_by_accretion": {
+  "demotion_events": 168,
+  "identifiers_demoted": 166,
+  "promotion_events": 17,
+  "identifiers_promoted": 17,
+  "promoted_names": {
+   "Africa/Juba": [
+    "tzdata2017c"
+   ],
+   "Africa/Sao_Tome": [
+    "tzdata2018a"
+   ],
+   "America/Cayman": [
+    "tzdata2015e"
+   ],
+   "America/Indiana/Indianapolis": [
+    "tzdata2005l"
+   ],
+   "America/Kentucky/Louisville": [
+    "tzdata2005l"
+   ],
+   "Antarctica/Vostok": [
+    "tzdata2023d"
+   ],
+   "CET": [
+    "tzdata96k"
+   ],
+   "CST6CDT": [
+    "tzdata2005r"
+   ],
+   "EST": [
+    "tzdata2005r"
+   ],
+   "EST5EDT": [
+    "tzdata2005r"
+   ],
+   "Etc/UCT": [
+    "tzdata1996n"
+   ],
+   "Etc/UTC": [
+    "tzdata1996n"
+   ],
+   "Europe/Tiraspol": [
+    "tzdata2011m"
+   ],
+   "HST": [
+    "tzdata2005r"
+   ],
+   "MST": [
+    "tzdata2005r"
+   ],
+   "MST7MDT": [
+    "tzdata2005r"
+   ],
+   "PST8PDT": [
+    "tzdata2005r"
+   ]
+  },
+  "median_obsolescence_years_of_live_links": 11.8,
+  "oldest_obsolete_live": [
+   {
+    "name": "GMT",
+    "demoted_release": "tzdata94d",
+    "demoted_date": "1994-02-24",
+    "years": 32.4
+   },
+   {
+    "name": "W-SU",
+    "demoted_release": "tzdata95c",
+    "demoted_date": "1995-07-02",
+    "years": 31.0
+   },
+   {
+    "name": "America/Virgin",
+    "demoted_release": "tzdata95k",
+    "demoted_date": "1995-10-30",
+    "years": 30.8
+   },
+   {
+    "name": "Pacific/Samoa",
+    "demoted_release": "tzdata95k",
+    "demoted_date": "1995-10-30",
+    "years": 30.8
+   },
+   {
+    "name": "America/Atka",
+    "demoted_release": "tzdata95m",
+    "demoted_date": "1995-12-21",
+    "years": 30.6
+   },
+   {
+    "name": "America/Fort_Wayne",
+    "demoted_release": "tzdata95m",
+    "demoted_date": "1995-12-21",
+    "years": 30.6
+   },
+   {
+    "name": "America/Knox_IN",
+    "demoted_release": "tzdata95m",
+    "demoted_date": "1995-12-21",
+    "years": 30.6
+   },
+   {
+    "name": "Australia/Canberra",
+    "demoted_release": "tzdata95m",
+    "demoted_date": "1995-12-21",
+    "years": 30.6
+   },
+   {
+    "name": "Asia/Tel_Aviv",
+    "demoted_release": "tzdata96b",
+    "demoted_date": "1996-01-27",
+    "years": 30.5
+   },
+   {
+    "name": "Europe/Ljubljana",
+    "demoted_release": "tzdata1997k",
+    "demoted_date": "1997-12-29",
+    "years": 28.6
+   },
+   {
+    "name": "Europe/Sarajevo",
+    "demoted_release": "tzdata1997k",
+    "demoted_date": "1997-12-29",
+    "years": 28.6
+   },
+   {
+    "name": "Europe/Skopje",
+    "demoted_release": "tzdata1997k",
+    "demoted_date": "1997-12-29",
+    "years": 28.6
+   },
+   {
+    "name": "Europe/Zagreb",
+    "demoted_release": "tzdata1997k",
+    "demoted_date": "1997-12-29",
+    "years": 28.6
+   },
+   {
+    "name": "America/Ensenada",
+    "demoted_release": "tzdata1999i",
+    "demoted_date": "1999-11-08",
+    "years": 26.7
+   },
+   {
+    "name": "Asia/Ulan_Bator",
+    "demoted_release": "tzdata2000a",
+    "demoted_date": "2000-01-18",
+    "years": 26.5
+   }
+  ]
+ },
+ "demotions_by_period": {
+  "1990-1994": 1,
+  "1995-1999": 13,
+  "2000-2004": 16,
+  "2005-2009": 12,
+  "2010-2014": 60,
+  "2015-2019": 13,
+  "2020-2024": 53
+ },
+ "news_sections": {
+  "release_blocks_parsed": 311,
+  "release_blocks_with_section_headings": 53,
+  "releases_reporting_timestamp_changes": 46,
+  "releases_reporting_zone_name_changes": 5,
+  "ratio": 9.2,
+  "zone_name_change_releases": [
+   "2022b",
+   "2021c",
+   "2021b",
+   "2017c",
+   "2016g"
+  ]
+ },
+ "namespace_shrinks_after_1999": [
+  "tzdata2017c"
+ ],
+ "trajectory": [
+  {
+   "release": "tzdata93g",
+   "date": "1993-11-22",
+   "zones": 315,
+   "links": 94,
+   "names": 409,
+   "link_share": 0.2298
+  },
+  {
+   "release": "tzdata94a",
+   "date": "1994-02-03",
+   "zones": 315,
+   "links": 94,
+   "names": 409,
+   "link_share": 0.2298
+  },
+  {
+   "release": "tzdata94b",
+   "date": "1994-02-07",
+   "zones": 317,
+   "links": 94,
+   "names": 411,
+   "link_share": 0.2287
+  },
+  {
+   "release": "tzdata94d",
+   "date": "1994-02-24",
+   "zones": 317,
+   "links": 89,
+   "names": 406,
+   "link_share": 0.2192
+  },
+  {
+   "release": "tzdata94e",
+   "date": "1994-06-04",
+   "zones": 319,
+   "links": 89,
+   "names": 408,
+   "link_share": 0.2181
+  },
+  {
+   "release": "tzdata94f",
+   "date": "1994-08-20",
+   "zones": 320,
+   "links": 89,
+   "names": 409,
+   "link_share": 0.2176
+  },
+  {
+   "release": "tzdata94h",
+   "date": "1994-12-10",
+   "zones": 321,
+   "links": 89,
+   "names": 410,
+   "link_share": 0.2171
+  },
+  {
+   "release": "tzdata95b",
+   "date": "1995-02-21",
+   "zones": 321,
+   "links": 92,
+   "names": 413,
+   "link_share": 0.2228
+  },
+  {
+   "release": "tzdata95c",
+   "date": "1995-07-02",
+   "zones": 319,
+   "links": 93,
+   "names": 412,
+   "link_share": 0.2257
+  },
+  {
+   "release": "tzdata95d",
+   "date": "1995-07-03",
+   "zones": 320,
+   "links": 93,
+   "names": 413,
+   "link_share": 0.2252
+  },
+  {
+   "release": "tzdata95e",
+   "date": "1995-07-08",
+   "zones": 320,
+   "links": 93,
+   "names": 413,
+   "link_share": 0.2252
+  },
+  {
+   "release": "tzdata95f",
+   "date": "1995-08-29",
+   "zones": 320,
+   "links": 93,
+   "names": 413,
+   "link_share": 0.2252
+  },
+  {
+   "release": "tzdata95g",
+   "date": "1995-09-01",
+   "zones": 320,
+   "links": 93,
+   "names": 413,
+   "link_share": 0.2252
+  },
+  {
+   "release": "tzdata95h",
+   "date": "1995-09-21",
+   "zones": 320,
+   "links": 93,
+   "names": 413,
+   "link_share": 0.2252
+  },
+  {
+   "release": "tzdata95i",
+   "date": "1995-09-26",
+   "zones": 320,
+   "links": 93,
+   "names": 413,
+   "link_share": 0.2252
+  },
+  {
+   "release": "tzdata95k",
+   "date": "1995-10-30",
+   "zones": 325,
+   "links": 95,
+   "names": 420,
+   "link_share": 0.2262
+  },
+  {
+   "release": "tzdata95l",
+   "date": "1995-12-19",
+   "zones": 325,
+   "links": 95,
+   "names": 420,
+   "link_share": 0.2262
+  },
+  {
+   "release": "tzdata95m",
+   "date": "1995-12-21",
+   "zones": 337,
+   "links": 100,
+   "names": 437,
+   "link_share": 0.2288
+  },
+  {
+   "release": "tzdata96a",
+   "date": "1996-01-06",
+   "zones": 337,
+   "links": 100,
+   "names": 437,
+   "link_share": 0.2288
+  },
+  {
+   "release": "tzdata96b",
+   "date": "1996-01-27",
+   "zones": 337,
+   "links": 101,
+   "names": 438,
+   "link_share": 0.2306
+  },
+  {
+   "release": "tzdata96c",
+   "date": "1996-02-12",
+   "zones": 337,
+   "links": 101,
+   "names": 438,
+   "link_share": 0.2306
+  },
+  {
+   "release": "tzdata96d",
+   "date": "1996-03-19",
+   "zones": 338,
+   "links": 101,
+   "names": 439,
+   "link_share": 0.2301
+  },
+  {
+   "release": "tzdata96e",
+   "date": "1996-03-19",
+   "zones": 338,
+   "links": 101,
+   "names": 439,
+   "link_share": 0.2301
+  },
+  {
+   "release": "tzdata96h",
+   "date": "1996-05-09",
+   "zones": 339,
+   "links": 101,
+   "names": 440,
+   "link_share": 0.2295
+  },
+  {
+   "release": "tzdata96i",
+   "date": "1996-07-01",
+   "zones": 351,
+   "links": 101,
+   "names": 452,
+   "link_share": 0.2235
+  },
+  {
+   "release": "tzdata96k",
+   "date": "1996-09-08",
+   "zones": 359,
+   "links": 102,
+   "names": 461,
+   "link_share": 0.2213
+  },
+  {
+   "release": "tzdata1996l",
+   "date": "1996-11-05",
+   "zones": 359,
+   "links": 102,
+   "names": 461,
+   "link_share": 0.2213
+  },
+  {
+   "release": "tzdata1996n",
+   "date": "1996-12-28",
+   "zones": 374,
+   "links": 100,
+   "names": 474,
+   "link_share": 0.211
+  },
+  {
+   "release": "tzdata1997a",
+   "date": "1997-01-21",
+   "zones": 376,
+   "links": 100,
+   "names": 476,
+   "link_share": 0.2101
+  },
+  {
+   "release": "tzdata1997b",
+   "date": "1997-02-27",
+   "zones": 376,
+   "links": 100,
+   "names": 476,
+   "link_share": 0.2101
+  },
+  {
+   "release": "tzdata1997c",
+   "date": "1997-03-04",
+   "zones": 376,
+   "links": 100,
+   "names": 476,
+   "link_share": 0.2101
+  },
+  {
+   "release": "tzdata1997d",
+   "date": "1997-03-07",
+   "zones": 376,
+   "links": 100,
+   "names": 476,
+   "link_share": 0.2101
+  },
+  {
+   "release": "tzdata1997e",
+   "date": "1997-03-29",
+   "zones": 376,
+   "links": 100,
+   "names": 476,
+   "link_share": 0.2101
+  },
+  {
+   "release": "tzdata1997f",
+   "date": "1997-05-03",
+   "zones": 376,
+   "links": 100,
+   "names": 476,
+   "link_share": 0.2101
+  },
+  {
+   "release": "tzdata1997g",
+   "date": "1997-07-19",
+   "zones": 376,
+   "links": 100,
+   "names": 476,
+   "link_share": 0.2101
+  },
+  {
+   "release": "tzdata1997h",
+   "date": "1997-09-04",
+   "zones": 376,
+   "links": 100,
+   "names": 476,
+   "link_share": 0.2101
+  },
+  {
+   "release": "tzdata1997i",
+   "date": "1997-10-07",
+   "zones": 376,
+   "links": 100,
+   "names": 476,
+   "link_share": 0.2101
+  },
+  {
+   "release": "tzdata1997j",
+   "date": "1997-12-18",
+   "zones": 376,
+   "links": 100,
+   "names": 476,
+   "link_share": 0.2101
+  },
+  {
+   "release": "tzdata1997k",
+   "date": "1997-12-29",
+   "zones": 372,
+   "links": 104,
+   "names": 476,
+   "link_share": 0.2185
+  },
+  {
+   "release": "tzdata1998a",
+   "date": "1998-01-13",
+   "zones": 372,
+   "links": 104,
+   "names": 476,
+   "link_share": 0.2185
+  },
+  {
+   "release": "tzdata1998b",
+   "date": "1998-01-17",
+   "zones": 372,
+   "links": 104,
+   "names": 476,
+   "link_share": 0.2185
+  },
+  {
+   "release": "tzdata1998c",
+   "date": "1998-02-28",
+   "zones": 372,
+   "links": 104,
+   "names": 476,
+   "link_share": 0.2185
+  },
+  {
+   "release": "tzdata1998d",
+   "date": "1998-05-14",
+   "zones": 372,
+   "links": 104,
+   "names": 476,
+   "link_share": 0.2185
+  },
+  {
+   "release": "tzdata1998e",
+   "date": "1998-05-28",
+   "zones": 373,
+   "links": 104,
+   "names": 477,
+   "link_share": 0.218
+  },
+  {
+   "release": "tzdata1998h",
+   "date": "1998-09-24",
+   "zones": 376,
+   "links": 104,
+   "names": 480,
+   "link_share": 0.2167
+  },
+  {
+   "release": "tzdata1998i",
+   "date": "1998-10-01",
+   "zones": 376,
+   "links": 104,
+   "names": 480,
+   "link_share": 0.2167
+  },
+  {
+   "release": "tzdata1999a",
+   "date": "1999-01-19",
+   "zones": 376,
+   "links": 104,
+   "names": 480,
+   "link_share": 0.2167
+  },
+  {
+   "release": "tzdata1999b",
+   "date": "1999-02-01",
+   "zones": 378,
+   "links": 104,
+   "names": 482,
+   "link_share": 0.2158
+  },
+  {
+   "release": "tzdata1999c",
+   "date": "1999-03-25",
+   "zones": 379,
+   "links": 104,
+   "names": 483,
+   "link_share": 0.2153
+  },
+  {
+   "release": "tzdata1999d",
+   "date": "1999-03-30",
+   "zones": 379,
+   "links": 104,
+   "names": 483,
+   "link_share": 0.2153
+  },
+  {
+   "release": "tzdata1999e",
+   "date": "1999-08-17",
+   "zones": 379,
+   "links": 104,
+   "names": 483,
+   "link_share": 0.2153
+  },
+  {
+   "release": "tzdata1999f",
+   "date": "1999-09-23",
+   "zones": 380,
+   "links": 104,
+   "names": 484,
+   "link_share": 0.2149
+  },
+  {
+   "release": "tzdata1999g",
+   "date": "1999-09-28",
+   "zones": 380,
+   "links": 104,
+   "names": 484,
+   "link_share": 0.2149
+  },
+  {
+   "release": "tzdata1999h",
+   "date": "1999-10-07",
+   "zones": 380,
+   "links": 104,
+   "names": 484,
+   "link_share": 0.2149
+  },
+  {
+   "release": "tzdata1999i",
+   "date": "1999-11-08",
+   "zones": 381,
+   "links": 105,
+   "names": 486,
+   "link_share": 0.216
+  },
+  {
+   "release": "tzdata1999j",
+   "date": "1999-11-13",
+   "zones": 384,
+   "links": 105,
+   "names": 489,
+   "link_share": 0.2147
+  },
+  {
+   "release": "tzdata2000a",
+   "date": "2000-01-18",
+   "zones": 386,
+   "links": 107,
+   "names": 493,
+   "link_share": 0.217
+  },
+  {
+   "release": "tzdata2000b",
+   "date": "2000-02-21",
+   "zones": 386,
+   "links": 107,
+   "names": 493,
+   "link_share": 0.217
+  },
+  {
+   "release": "tzdata2000c",
+   "date": "2000-03-04",
+   "zones": 386,
+   "links": 107,
+   "names": 493,
+   "link_share": 0.217
+  },
+  {
+   "release": "tzdata2000d",
+   "date": "2000-03-14",
+   "zones": 386,
+   "links": 107,
+   "names": 493,
+   "link_share": 0.217
+  },
+  {
+   "release": "tzdata2000e",
+   "date": "2000-07-31",
+   "zones": 388,
+   "links": 107,
+   "names": 495,
+   "link_share": 0.2162
+  },
+  {
+   "release": "tzdata2000f",
+   "date": "2000-08-10",
+   "zones": 388,
+   "links": 107,
+   "names": 495,
+   "link_share": 0.2162
+  },
+  {
+   "release": "tzdata2000g",
+   "date": "2000-10-10",
+   "zones": 389,
+   "links": 111,
+   "names": 500,
+   "link_share": 0.222
+  },
+  {
+   "release": "tzdata2000h",
+   "date": "2000-12-14",
+   "zones": 391,
+   "links": 112,
+   "names": 503,
+   "link_share": 0.2227
+  },
+  {
+   "release": "tzdata2001a",
+   "date": "2001-03-13",
+   "zones": 391,
+   "links": 114,
+   "names": 505,
+   "link_share": 0.2257
+  },
+  {
+   "release": "tzdata2001b",
+   "date": "2001-04-05",
+   "zones": 391,
+   "links": 114,
+   "names": 505,
+   "link_share": 0.2257
+  },
+  {
+   "release": "tzdata2001c",
+   "date": "2001-06-05",
+   "zones": 391,
+   "links": 115,
+   "names": 506,
+   "link_share": 0.2273
+  },
+  {
+   "release": "tzdata2001d",
+   "date": "2001-10-09",
+   "zones": 395,
+   "links": 116,
+   "names": 511,
+   "link_share": 0.227
+  },
+  {
+   "release": "tzdata2002b",
+   "date": "2002-01-28",
+   "zones": 397,
+   "links": 117,
+   "names": 514,
+   "link_share": 0.2276
+  },
+  {
+   "release": "tzdata2002c",
+   "date": "2002-04-04",
+   "zones": 396,
+   "links": 119,
+   "names": 515,
+   "link_share": 0.2311
+  },
+  {
+   "release": "tzdata2002d",
+   "date": "2002-10-15",
+   "zones": 396,
+   "links": 119,
+   "names": 515,
+   "link_share": 0.2311
+  },
+  {
+   "release": "tzdata2003a",
+   "date": "2003-03-24",
+   "zones": 397,
+   "links": 119,
+   "names": 516,
+   "link_share": 0.2306
+  },
+  {
+   "release": "tzdata2003b",
+   "date": "2003-09-16",
+   "zones": 397,
+   "links": 119,
+   "names": 516,
+   "link_share": 0.2306
+  },
+  {
+   "release": "tzdata2003c",
+   "date": "2003-09-16",
+   "zones": 397,
+   "links": 119,
+   "names": 516,
+   "link_share": 0.2306
+  },
+  {
+   "release": "tzdata2003d",
+   "date": "2003-10-06",
+   "zones": 400,
+   "links": 119,
+   "names": 519,
+   "link_share": 0.2293
+  },
+  {
+   "release": "tzdata2003e",
+   "date": "2003-12-15",
+   "zones": 400,
+   "links": 119,
+   "names": 519,
+   "link_share": 0.2293
+  },
+  {
+   "release": "tzdata2004a",
+   "date": "2004-05-27",
+   "zones": 400,
+   "links": 119,
+   "names": 519,
+   "link_share": 0.2293
+  },
+  {
+   "release": "tzdata2004b",
+   "date": "2004-07-19",
+   "zones": 406,
+   "links": 125,
+   "names": 531,
+   "link_share": 0.2354
+  },
+  {
+   "release": "tzdata2004d",
+   "date": "2004-09-22",
+   "zones": 406,
+   "links": 125,
+   "names": 531,
+   "link_share": 0.2354
+  },
+  {
+   "release": "tzdata2004e",
+   "date": "2004-10-11",
+   "zones": 406,
+   "links": 125,
+   "names": 531,
+   "link_share": 0.2354
+  },
+  {
+   "release": "tzdata2004g",
+   "date": "2004-11-02",
+   "zones": 406,
+   "links": 125,
+   "names": 531,
+   "link_share": 0.2354
+  },
+  {
+   "release": "tzdata2005a",
+   "date": "2004-12-14",
+   "zones": 406,
+   "links": 125,
+   "names": 531,
+   "link_share": 0.2354
+  },
+  {
+   "release": "tzdata2005b",
+   "date": "2005-01-10",
+   "zones": 406,
+   "links": 125,
+   "names": 531,
+   "link_share": 0.2354
+  },
+  {
+   "release": "tzdata2005c",
+   "date": "2005-01-17",
+   "zones": 406,
+   "links": 125,
+   "names": 531,
+   "link_share": 0.2354
+  },
+  {
+   "release": "tzdata2005e",
+   "date": "2005-02-07",
+   "zones": 406,
+   "links": 125,
+   "names": 531,
+   "link_share": 0.2354
+  },
+  {
+   "release": "tzdata2005f",
+   "date": "2005-03-01",
+   "zones": 406,
+   "links": 125,
+   "names": 531,
+   "link_share": 0.2354
+  },
+  {
+   "release": "tzdata2005g",
+   "date": "2005-03-14",
+   "zones": 406,
+   "links": 125,
+   "names": 531,
+   "link_share": 0.2354
+  },
+  {
+   "release": "tzdata2005h",
+   "date": "2005-04-04",
+   "zones": 406,
+   "links": 125,
+   "names": 531,
+   "link_share": 0.2354
+  },
+  {
+   "release": "tzdata2005i",
+   "date": "2005-04-21",
+   "zones": 406,
+   "links": 125,
+   "names": 531,
+   "link_share": 0.2354
+  },
+  {
+   "release": "tzdata2005j",
+   "date": "2005-05-26",
+   "zones": 406,
+   "links": 125,
+   "names": 531,
+   "link_share": 0.2354
+  },
+  {
+   "release": "tzdata2005k",
+   "date": "2005-07-14",
+   "zones": 406,
+   "links": 125,
+   "names": 531,
+   "link_share": 0.2354
+  },
+  {
+   "release": "tzdata2005l",
+   "date": "2005-08-22",
+   "zones": 404,
+   "links": 129,
+   "names": 533,
+   "link_share": 0.242
+  },
+  {
+   "release": "tzdata2005m",
+   "date": "2005-08-29",
+   "zones": 404,
+   "links": 129,
+   "names": 533,
+   "link_share": 0.242
+  },
+  {
+   "release": "tzdata2005n",
+   "date": "2005-10-03",
+   "zones": 404,
+   "links": 129,
+   "names": 533,
+   "link_share": 0.242
+  },
+  {
+   "release": "tzdata2005o",
+   "date": "2005-11-28",
+   "zones": 404,
+   "links": 129,
+   "names": 533,
+   "link_share": 0.242
+  },
+  {
+   "release": "tzdata2005p",
+   "date": "2005-11-29",
+   "zones": 404,
+   "links": 129,
+   "names": 533,
+   "link_share": 0.242
+  },
+  {
+   "release": "tzdata2005q",
+   "date": "2005-12-12",
+   "zones": 404,
+   "links": 129,
+   "names": 533,
+   "link_share": 0.242
+  },
+  {
+   "release": "tzdata2005r",
+   "date": "2005-12-27",
+   "zones": 411,
+   "links": 122,
+   "names": 533,
+   "link_share": 0.2289
+  },
+  {
+   "release": "tzdata2006a",
+   "date": "2006-01-30",
+   "zones": 414,
+   "links": 122,
+   "names": 536,
+   "link_share": 0.2276
+  },
+  {
+   "release": "tzdata2006b",
+   "date": "2006-02-20",
+   "zones": 414,
+   "links": 122,
+   "names": 536,
+   "link_share": 0.2276
+  },
+  {
+   "release": "tzdata2006c",
+   "date": "2006-04-03",
+   "zones": 415,
+   "links": 122,
+   "names": 537,
+   "link_share": 0.2272
+  },
+  {
+   "release": "tzdata2006d",
+   "date": "2006-04-17",
+   "zones": 415,
+   "links": 122,
+   "names": 537,
+   "link_share": 0.2272
+  },
+  {
+   "release": "tzdata2006f",
+   "date": "2006-05-01",
+   "zones": 415,
+   "links": 122,
+   "names": 537,
+   "link_share": 0.2272
+  },
+  {
+   "release": "tzdata2006g",
+   "date": "2006-05-08",
+   "zones": 415,
+   "links": 122,
+   "names": 537,
+   "link_share": 0.2272
+  },
+  {
+   "release": "tzdata2006j",
+   "date": "2006-08-21",
+   "zones": 417,
+   "links": 126,
+   "names": 543,
+   "link_share": 0.232
+  },
+  {
+   "release": "tzdata2006k",
+   "date": "2006-08-28",
+   "zones": 417,
+   "links": 126,
+   "names": 543,
+   "link_share": 0.232
+  },
+  {
+   "release": "tzdata2006l",
+   "date": "2006-09-18",
+   "zones": 417,
+   "links": 126,
+   "names": 543,
+   "link_share": 0.232
+  },
+  {
+   "release": "tzdata2006m",
+   "date": "2006-10-02",
+   "zones": 417,
+   "links": 126,
+   "names": 543,
+   "link_share": 0.232
+  },
+  {
+   "release": "tzdata2006n",
+   "date": "2006-10-10",
+   "zones": 417,
+   "links": 127,
+   "names": 544,
+   "link_share": 0.2335
+  },
+  {
+   "release": "tzdata2006o",
+   "date": "2006-11-06",
+   "zones": 417,
+   "links": 127,
+   "names": 544,
+   "link_share": 0.2335
+  },
+  {
+   "release": "tzdata2006p",
+   "date": "2006-11-27",
+   "zones": 417,
+   "links": 127,
+   "names": 544,
+   "link_share": 0.2335
+  },
+  {
+   "release": "tzdata2007a",
+   "date": "2007-01-08",
+   "zones": 418,
+   "links": 129,
+   "names": 547,
+   "link_share": 0.2358
+  },
+  {
+   "release": "tzdata2007b",
+   "date": "2007-02-01",
+   "zones": 418,
+   "links": 129,
+   "names": 547,
+   "link_share": 0.2358
+  },
+  {
+   "release": "tzdata2007c",
+   "date": "2007-02-26",
+   "zones": 419,
+   "links": 129,
+   "names": 548,
+   "link_share": 0.2354
+  },
+  {
+   "release": "tzdata2007d",
+   "date": "2007-03-20",
+   "zones": 420,
+   "links": 129,
+   "names": 549,
+   "link_share": 0.235
+  },
+  {
+   "release": "tzdata2007e",
+   "date": "2007-04-02",
+   "zones": 420,
+   "links": 129,
+   "names": 549,
+   "link_share": 0.235
+  },
+  {
+   "release": "tzdata2007f",
+   "date": "2007-05-07",
+   "zones": 420,
+   "links": 129,
+   "names": 549,
+   "link_share": 0.235
+  },
+  {
+   "release": "tzdata2007g",
+   "date": "2007-08-20",
+   "zones": 421,
+   "links": 129,
+   "names": 550,
+   "link_share": 0.2345
+  },
+  {
+   "release": "tzdata2007h",
+   "date": "2007-10-01",
+   "zones": 421,
+   "links": 129,
+   "names": 550,
+   "link_share": 0.2345
+  },
+  {
+   "release": "tzdata2007i",
+   "date": "2007-10-30",
+   "zones": 421,
+   "links": 129,
+   "names": 550,
+   "link_share": 0.2345
+  },
+  {
+   "release": "tzdata2007j",
+   "date": "2007-12-03",
+   "zones": 421,
+   "links": 131,
+   "names": 552,
+   "link_share": 0.2373
+  },
+  {
+   "release": "tzdata2007k",
+   "date": "2007-12-31",
+   "zones": 421,
+   "links": 131,
+   "names": 552,
+   "link_share": 0.2373
+  },
+  {
+   "release": "tzdata2008a",
+   "date": "2008-03-05",
+   "zones": 421,
+   "links": 131,
+   "names": 552,
+   "link_share": 0.2373
+  },
+  {
+   "release": "tzdata2008b",
+   "date": "2008-03-24",
+   "zones": 422,
+   "links": 133,
+   "names": 555,
+   "link_share": 0.2396
+  },
+  {
+   "release": "tzdata2008c",
+   "date": "2008-05-19",
+   "zones": 422,
+   "links": 133,
+   "names": 555,
+   "link_share": 0.2396
+  },
+  {
+   "release": "tzdata2008d",
+   "date": "2008-07-07",
+   "zones": 423,
+   "links": 133,
+   "names": 556,
+   "link_share": 0.2392
+  },
+  {
+   "release": "tzdata2008e",
+   "date": "2008-07-28",
+   "zones": 423,
+   "links": 133,
+   "names": 556,
+   "link_share": 0.2392
+  },
+  {
+   "release": "tzdata2008f",
+   "date": "2008-09-10",
+   "zones": 423,
+   "links": 133,
+   "names": 556,
+   "link_share": 0.2392
+  },
+  {
+   "release": "tzdata2008g",
+   "date": "2008-09-29",
+   "zones": 423,
+   "links": 133,
+   "names": 556,
+   "link_share": 0.2392
+  },
+  {
+   "release": "tzdata2008h",
+   "date": "2008-10-08",
+   "zones": 423,
+   "links": 133,
+   "names": 556,
+   "link_share": 0.2392
+  },
+  {
+   "release": "tzdata2008i",
+   "date": "2008-10-21",
+   "zones": 424,
+   "links": 133,
+   "names": 557,
+   "link_share": 0.2388
+  },
+  {
+   "release": "tzdata2009a",
+   "date": "2009-01-21",
+   "zones": 424,
+   "links": 134,
+   "names": 558,
+   "link_share": 0.2401
+  },
+  {
+   "release": "tzdata2009b",
+   "date": "2009-01-27",
+   "zones": 424,
+   "links": 134,
+   "names": 558,
+   "link_share": 0.2401
+  },
+  {
+   "release": "tzdata2009c",
+   "date": "2009-03-16",
+   "zones": 424,
+   "links": 134,
+   "names": 558,
+   "link_share": 0.2401
+  },
+  {
+   "release": "tzdata2009d",
+   "date": "2009-03-23",
+   "zones": 424,
+   "links": 134,
+   "names": 558,
+   "link_share": 0.2401
+  },
+  {
+   "release": "tzdata2009e",
+   "date": "2009-04-06",
+   "zones": 424,
+   "links": 134,
+   "names": 558,
+   "link_share": 0.2401
+  },
+  {
+   "release": "tzdata2009f",
+   "date": "2009-04-10",
+   "zones": 424,
+   "links": 134,
+   "names": 558,
+   "link_share": 0.2401
+  },
+  {
+   "release": "tzdata2009g",
+   "date": "2009-04-20",
+   "zones": 424,
+   "links": 134,
+   "names": 558,
+   "link_share": 0.2401
+  },
+  {
+   "release": "tzdata2009h",
+   "date": "2009-05-17",
+   "zones": 424,
+   "links": 134,
+   "names": 558,
+   "link_share": 0.2401
+  },
+  {
+   "release": "tzdata2009i",
+   "date": "2009-06-02",
+   "zones": 424,
+   "links": 134,
+   "names": 558,
+   "link_share": 0.2401
+  },
+  {
+   "release": "tzdata2009j",
+   "date": "2009-06-15",
+   "zones": 424,
+   "links": 134,
+   "names": 558,
+   "link_share": 0.2401
+  },
+  {
+   "release": "tzdata2009k",
+   "date": "2009-07-20",
+   "zones": 424,
+   "links": 134,
+   "names": 558,
+   "link_share": 0.2401
+  },
+  {
+   "release": "tzdata2009l",
+   "date": "2009-08-14",
+   "zones": 424,
+   "links": 134,
+   "names": 558,
+   "link_share": 0.2401
+  },
+  {
+   "release": "tzdata2009m",
+   "date": "2009-09-03",
+   "zones": 424,
+   "links": 134,
+   "names": 558,
+   "link_share": 0.2401
+  },
+  {
+   "release": "tzdata2009n",
+   "date": "2009-09-22",
+   "zones": 424,
+   "links": 134,
+   "names": 558,
+   "link_share": 0.2401
+  },
+  {
+   "release": "tzdata2009o",
+   "date": "2009-10-14",
+   "zones": 424,
+   "links": 134,
+   "names": 558,
+   "link_share": 0.2401
+  },
+  {
+   "release": "tzdata2009p",
+   "date": "2009-10-23",
+   "zones": 424,
+   "links": 134,
+   "names": 558,
+   "link_share": 0.2401
+  },
+  {
+   "release": "tzdata2009q",
+   "date": "2009-10-29",
+   "zones": 425,
+   "links": 134,
+   "names": 559,
+   "link_share": 0.2397
+  },
+  {
+   "release": "tzdata2009r",
+   "date": "2009-11-04",
+   "zones": 425,
+   "links": 134,
+   "names": 559,
+   "link_share": 0.2397
+  },
+  {
+   "release": "tzdata2009s",
+   "date": "2009-11-14",
+   "zones": 425,
+   "links": 134,
+   "names": 559,
+   "link_share": 0.2397
+  },
+  {
+   "release": "tzdata2009t",
+   "date": "2009-12-17",
+   "zones": 425,
+   "links": 134,
+   "names": 559,
+   "link_share": 0.2397
+  },
+  {
+   "release": "tzdata2009u",
+   "date": "2009-12-26",
+   "zones": 425,
+   "links": 134,
+   "names": 559,
+   "link_share": 0.2397
+  },
+  {
+   "release": "tzdata2010a",
+   "date": "2010-01-18",
+   "zones": 425,
+   "links": 134,
+   "names": 559,
+   "link_share": 0.2397
+  },
+  {
+   "release": "tzdata2010b",
+   "date": "2010-01-20",
+   "zones": 428,
+   "links": 134,
+   "names": 562,
+   "link_share": 0.2384
+  },
+  {
+   "release": "tzdata2010c",
+   "date": "2010-02-24",
+   "zones": 428,
+   "links": 134,
+   "names": 562,
+   "link_share": 0.2384
+  },
+  {
+   "release": "tzdata2010d",
+   "date": "2010-03-06",
+   "zones": 428,
+   "links": 134,
+   "names": 562,
+   "link_share": 0.2384
+  },
+  {
+   "release": "tzdata2010e",
+   "date": "2010-03-08",
+   "zones": 428,
+   "links": 134,
+   "names": 562,
+   "link_share": 0.2384
+  },
+  {
+   "release": "tzdata2010f",
+   "date": "2010-03-17",
+   "zones": 429,
+   "links": 134,
+   "names": 563,
+   "link_share": 0.238
+  },
+  {
+   "release": "tzdata2010g",
+   "date": "2010-03-24",
+   "zones": 429,
+   "links": 134,
+   "names": 563,
+   "link_share": 0.238
+  },
+  {
+   "release": "tzdata2010h",
+   "date": "2010-04-05",
+   "zones": 429,
+   "links": 134,
+   "names": 563,
+   "link_share": 0.238
+  },
+  {
+   "release": "tzdata2010i",
+   "date": "2010-04-16",
+   "zones": 429,
+   "links": 134,
+   "names": 563,
+   "link_share": 0.238
+  },
+  {
+   "release": "tzdata2010j",
+   "date": "2010-05-10",
+   "zones": 430,
+   "links": 134,
+   "names": 564,
+   "link_share": 0.2376
+  },
+  {
+   "release": "tzdata2010k",
+   "date": "2010-07-26",
+   "zones": 430,
+   "links": 136,
+   "names": 566,
+   "link_share": 0.2403
+  },
+  {
+   "release": "tzdata2010l",
+   "date": "2010-08-16",
+   "zones": 430,
+   "links": 136,
+   "names": 566,
+   "link_share": 0.2403
+  },
+  {
+   "release": "tzdata2010m",
+   "date": "2010-09-27",
+   "zones": 430,
+   "links": 136,
+   "names": 566,
+   "link_share": 0.2403
+  },
+  {
+   "release": "tzdata2010n",
+   "date": "2010-10-12",
+   "zones": 430,
+   "links": 136,
+   "names": 566,
+   "link_share": 0.2403
+  },
+  {
+   "release": "tzdata2010o",
+   "date": "2010-11-01",
+   "zones": 430,
+   "links": 136,
+   "names": 566,
+   "link_share": 0.2403
+  },
+  {
+   "release": "tzdata2011a",
+   "date": "2011-01-20",
+   "zones": 430,
+   "links": 136,
+   "names": 566,
+   "link_share": 0.2403
+  },
+  {
+   "release": "tzdata2011b",
+   "date": "2011-01-26",
+   "zones": 431,
+   "links": 136,
+   "names": 567,
+   "link_share": 0.2399
+  },
+  {
+   "release": "tzdata2011c",
+   "date": "2011-03-02",
+   "zones": 433,
+   "links": 136,
+   "names": 569,
+   "link_share": 0.239
+  },
+  {
+   "release": "tzdata2011d",
+   "date": "2011-03-11",
+   "zones": 433,
+   "links": 136,
+   "names": 569,
+   "link_share": 0.239
+  },
+  {
+   "release": "tzdata2011e",
+   "date": "2011-03-31",
+   "zones": 433,
+   "links": 136,
+   "names": 569,
+   "link_share": 0.239
+  },
+  {
+   "release": "tzdata2011f",
+   "date": "2011-04-06",
+   "zones": 433,
+   "links": 136,
+   "names": 569,
+   "link_share": 0.239
+  },
+  {
+   "release": "tzdata2011g",
+   "date": "2011-04-20",
+   "zones": 433,
+   "links": 136,
+   "names": 569,
+   "link_share": 0.239
+  },
+  {
+   "release": "tzdata2011h",
+   "date": "2011-06-15",
+   "zones": 433,
+   "links": 138,
+   "names": 571,
+   "link_share": 0.2417
+  },
+  {
+   "release": "tzdata2011i",
+   "date": "2011-08-17",
+   "zones": 434,
+   "links": 138,
+   "names": 572,
+   "link_share": 0.2413
+  },
+  {
+   "release": "tzdata2011j",
+   "date": "2011-09-12",
+   "zones": 434,
+   "links": 138,
+   "names": 572,
+   "link_share": 0.2413
+  },
+  {
+   "release": "tzdata2011k",
+   "date": "2011-09-20",
+   "zones": 435,
+   "links": 138,
+   "names": 573,
+   "link_share": 0.2408
+  },
+  {
+   "release": "tzdata2011l",
+   "date": "2011-10-10",
+   "zones": 435,
+   "links": 138,
+   "names": 573,
+   "link_share": 0.2408
+  },
+  {
+   "release": "tzdata2011m",
+   "date": "2011-10-24",
+   "zones": 436,
+   "links": 137,
+   "names": 573,
+   "link_share": 0.2391
+  },
+  {
+   "release": "tzdata2011n",
+   "date": "2011-10-30",
+   "zones": 435,
+   "links": 138,
+   "names": 573,
+   "link_share": 0.2408
+  },
+  {
+   "release": "tzdata2012a",
+   "date": "2012-03-01",
+   "zones": 436,
+   "links": 138,
+   "names": 574,
+   "link_share": 0.2404
+  },
+  {
+   "release": "tzdata2012b",
+   "date": "2012-03-02",
+   "zones": 436,
+   "links": 138,
+   "names": 574,
+   "link_share": 0.2404
+  },
+  {
+   "release": "tzdata2012c",
+   "date": "2012-03-27",
+   "zones": 436,
+   "links": 138,
+   "names": 574,
+   "link_share": 0.2404
+  },
+  {
+   "release": "tzdata2012d",
+   "date": "2012-07-19",
+   "zones": 436,
+   "links": 138,
+   "names": 574,
+   "link_share": 0.2404
+  },
+  {
+   "release": "tzdata2012e",
+   "date": "2012-07-25",
+   "zones": 436,
+   "links": 138,
+   "names": 574,
+   "link_share": 0.2404
+  },
+  {
+   "release": "tzdata2012f",
+   "date": "2012-08-31",
+   "zones": 436,
+   "links": 138,
+   "names": 574,
+   "link_share": 0.2404
+  },
+  {
+   "release": "tzdata2012g",
+   "date": "2012-10-18",
+   "zones": 436,
+   "links": 138,
+   "names": 574,
+   "link_share": 0.2404
+  },
+  {
+   "release": "tzdata2012h",
+   "date": "2012-10-27",
+   "zones": 436,
+   "links": 138,
+   "names": 574,
+   "link_share": 0.2404
+  },
+  {
+   "release": "tzdata2012i",
+   "date": "2012-11-03",
+   "zones": 436,
+   "links": 138,
+   "names": 574,
+   "link_share": 0.2404
+  },
+  {
+   "release": "tzdata2012j",
+   "date": "2012-11-13",
+   "zones": 436,
+   "links": 138,
+   "names": 574,
+   "link_share": 0.2404
+  },
+  {
+   "release": "tzdata2013a",
+   "date": "2013-02-27",
+   "zones": 438,
+   "links": 139,
+   "names": 577,
+   "link_share": 0.2409
+  },
+  {
+   "release": "tzdata2013b",
+   "date": "2013-03-11",
+   "zones": 438,
+   "links": 139,
+   "names": 577,
+   "link_share": 0.2409
+  },
+  {
+   "release": "tzdata2013c",
+   "date": "2013-04-19",
+   "zones": 438,
+   "links": 139,
+   "names": 577,
+   "link_share": 0.2409
+  },
+  {
+   "release": "tzdata2013d",
+   "date": "2013-07-05",
+   "zones": 438,
+   "links": 139,
+   "names": 577,
+   "link_share": 0.2409
+  },
+  {
+   "release": "tzdata2013e",
+   "date": "2013-09-20",
+   "zones": 423,
+   "links": 154,
+   "names": 577,
+   "link_share": 0.2669
+  },
+  {
+   "release": "tzdata2013f",
+   "date": "2013-09-25",
+   "zones": 423,
+   "links": 154,
+   "names": 577,
+   "link_share": 0.2669
+  },
+  {
+   "release": "tzdata2013g",
+   "date": "2013-10-01",
+   "zones": 423,
+   "links": 154,
+   "names": 577,
+   "link_share": 0.2669
+  },
+  {
+   "release": "tzdata2013h",
+   "date": "2013-10-25",
+   "zones": 423,
+   "links": 154,
+   "names": 577,
+   "link_share": 0.2669
+  },
+  {
+   "release": "tzdata2013i",
+   "date": "2013-12-17",
+   "zones": 423,
+   "links": 154,
+   "names": 577,
+   "link_share": 0.2669
+  },
+  {
+   "release": "tzdata2014a",
+   "date": "2014-03-08",
+   "zones": 423,
+   "links": 154,
+   "names": 577,
+   "link_share": 0.2669
+  },
+  {
+   "release": "tzdata2014b",
+   "date": "2014-03-25",
+   "zones": 424,
+   "links": 154,
+   "names": 578,
+   "link_share": 0.2664
+  },
+  {
+   "release": "tzdata2014c",
+   "date": "2014-05-13",
+   "zones": 424,
+   "links": 154,
+   "names": 578,
+   "link_share": 0.2664
+  },
+  {
+   "release": "tzdata2014d",
+   "date": "2014-05-28",
+   "zones": 424,
+   "links": 154,
+   "names": 578,
+   "link_share": 0.2664
+  },
+  {
+   "release": "tzdata2014e",
+   "date": "2014-06-13",
+   "zones": 424,
+   "links": 154,
+   "names": 578,
+   "link_share": 0.2664
+  },
+  {
+   "release": "tzdata2014f",
+   "date": "2014-08-06",
+   "zones": 413,
+   "links": 167,
+   "names": 580,
+   "link_share": 0.2879
+  },
+  {
+   "release": "tzdata2014g",
+   "date": "2014-08-28",
+   "zones": 404,
+   "links": 176,
+   "names": 580,
+   "link_share": 0.3034
+  },
+  {
+   "release": "tzdata2014h",
+   "date": "2014-09-26",
+   "zones": 395,
+   "links": 185,
+   "names": 580,
+   "link_share": 0.319
+  },
+  {
+   "release": "tzdata2014i",
+   "date": "2014-10-22",
+   "zones": 394,
+   "links": 187,
+   "names": 581,
+   "link_share": 0.3219
+  },
+  {
+   "release": "tzdata2014j",
+   "date": "2014-11-11",
+   "zones": 385,
+   "links": 196,
+   "names": 581,
+   "link_share": 0.3373
+  },
+  {
+   "release": "tzdata2015a",
+   "date": "2015-01-30",
+   "zones": 381,
+   "links": 200,
+   "names": 581,
+   "link_share": 0.3442
+  },
+  {
+   "release": "tzdata2015b",
+   "date": "2015-03-20",
+   "zones": 377,
+   "links": 204,
+   "names": 581,
+   "link_share": 0.3511
+  },
+  {
+   "release": "tzdata2015c",
+   "date": "2015-04-11",
+   "zones": 376,
+   "links": 205,
+   "names": 581,
+   "link_share": 0.3528
+  },
+  {
+   "release": "tzdata2015d",
+   "date": "2015-04-24",
+   "zones": 376,
+   "links": 205,
+   "names": 581,
+   "link_share": 0.3528
+  },
+  {
+   "release": "tzdata2015e",
+   "date": "2015-06-13",
+   "zones": 377,
+   "links": 204,
+   "names": 581,
+   "link_share": 0.3511
+  },
+  {
+   "release": "tzdata2015f",
+   "date": "2015-08-11",
+   "zones": 377,
+   "links": 204,
+   "names": 581,
+   "link_share": 0.3511
+  },
+  {
+   "release": "tzdata2015g",
+   "date": "2015-10-01",
+   "zones": 378,
+   "links": 204,
+   "names": 582,
+   "link_share": 0.3505
+  },
+  {
+   "release": "tzdata2016a",
+   "date": "2016-01-27",
+   "zones": 376,
+   "links": 206,
+   "names": 582,
+   "link_share": 0.354
+  },
+  {
+   "release": "tzdata2016b",
+   "date": "2016-03-13",
+   "zones": 379,
+   "links": 206,
+   "names": 585,
+   "link_share": 0.3521
+  },
+  {
+   "release": "tzdata2016c",
+   "date": "2016-03-23",
+   "zones": 379,
+   "links": 206,
+   "names": 585,
+   "link_share": 0.3521
+  },
+  {
+   "release": "tzdata2016d",
+   "date": "2016-04-18",
+   "zones": 381,
+   "links": 206,
+   "names": 587,
+   "link_share": 0.3509
+  },
+  {
+   "release": "tzdata2016e",
+   "date": "2016-06-14",
+   "zones": 381,
+   "links": 206,
+   "names": 587,
+   "link_share": 0.3509
+  },
+  {
+   "release": "tzdata2016f",
+   "date": "2016-07-05",
+   "zones": 381,
+   "links": 206,
+   "names": 587,
+   "link_share": 0.3509
+  },
+  {
+   "release": "tzdata2016g",
+   "date": "2016-09-13",
+   "zones": 381,
+   "links": 207,
+   "names": 588,
+   "link_share": 0.352
+  },
+  {
+   "release": "tzdata2016h",
+   "date": "2016-10-20",
+   "zones": 381,
+   "links": 207,
+   "names": 588,
+   "link_share": 0.352
+  },
+  {
+   "release": "tzdata2016i",
+   "date": "2016-11-02",
+   "zones": 382,
+   "links": 207,
+   "names": 589,
+   "link_share": 0.3514
+  },
+  {
+   "release": "tzdata2016j",
+   "date": "2016-11-23",
+   "zones": 384,
+   "links": 207,
+   "names": 591,
+   "link_share": 0.3503
+  },
+  {
+   "release": "tzdata2017a",
+   "date": "2017-02-28",
+   "zones": 385,
+   "links": 207,
+   "names": 592,
+   "link_share": 0.3497
+  },
+  {
+   "release": "tzdata2017b",
+   "date": "2017-03-17",
+   "zones": 385,
+   "links": 207,
+   "names": 592,
+   "link_share": 0.3497
+  },
+  {
+   "release": "tzdata2017c",
+   "date": "2017-10-20",
+   "zones": 386,
+   "links": 205,
+   "names": 591,
+   "link_share": 0.3469
+  },
+  {
+   "release": "tzdata2018a",
+   "date": "2018-01-13",
+   "zones": 387,
+   "links": 204,
+   "names": 591,
+   "link_share": 0.3452
+  },
+  {
+   "release": "tzdata2018b",
+   "date": "2018-01-18",
+   "zones": 387,
+   "links": 204,
+   "names": 591,
+   "link_share": 0.3452
+  },
+  {
+   "release": "tzdata2018c",
+   "date": "2018-01-23",
+   "zones": 387,
+   "links": 204,
+   "names": 591,
+   "link_share": 0.3452
+  },
+  {
+   "release": "tzdata2018d",
+   "date": "2018-03-22",
+   "zones": 387,
+   "links": 204,
+   "names": 591,
+   "link_share": 0.3452
+  },
+  {
+   "release": "tzdata2018e",
+   "date": "2018-05-02",
+   "zones": 387,
+   "links": 204,
+   "names": 591,
+   "link_share": 0.3452
+  },
+  {
+   "release": "tzdata2018f",
+   "date": "2018-10-18",
+   "zones": 387,
+   "links": 204,
+   "names": 591,
+   "link_share": 0.3452
+  },
+  {
+   "release": "tzdata2018g",
+   "date": "2018-10-27",
+   "zones": 387,
+   "links": 204,
+   "names": 591,
+   "link_share": 0.3452
+  },
+  {
+   "release": "tzdata2018h",
+   "date": "2018-12-24",
+   "zones": 388,
+   "links": 204,
+   "names": 592,
+   "link_share": 0.3446
+  },
+  {
+   "release": "tzdata2018i",
+   "date": "2018-12-30",
+   "zones": 388,
+   "links": 204,
+   "names": 592,
+   "link_share": 0.3446
+  },
+  {
+   "release": "tzdata2019a",
+   "date": "2019-03-26",
+   "zones": 387,
+   "links": 205,
+   "names": 592,
+   "link_share": 0.3463
+  },
+  {
+   "release": "tzdata2019b",
+   "date": "2019-07-01",
+   "zones": 387,
+   "links": 205,
+   "names": 592,
+   "link_share": 0.3463
+  },
+  {
+   "release": "tzdata2019c",
+   "date": "2019-09-11",
+   "zones": 387,
+   "links": 205,
+   "names": 592,
+   "link_share": 0.3463
+  },
+  {
+   "release": "tzdata2020a",
+   "date": "2020-04-23",
+   "zones": 387,
+   "links": 206,
+   "names": 593,
+   "link_share": 0.3474
+  },
+  {
+   "release": "tzdata2020b",
+   "date": "2020-10-07",
+   "zones": 387,
+   "links": 206,
+   "names": 593,
+   "link_share": 0.3474
+  },
+  {
+   "release": "tzdata2020c",
+   "date": "2020-10-16",
+   "zones": 387,
+   "links": 206,
+   "names": 593,
+   "link_share": 0.3474
+  },
+  {
+   "release": "tzdata2020d",
+   "date": "2020-10-21",
+   "zones": 387,
+   "links": 206,
+   "names": 593,
+   "link_share": 0.3474
+  },
+  {
+   "release": "tzdata2020e",
+   "date": "2020-12-22",
+   "zones": 386,
+   "links": 207,
+   "names": 593,
+   "link_share": 0.3491
+  },
+  {
+   "release": "tzdata2020f",
+   "date": "2020-12-29",
+   "zones": 386,
+   "links": 207,
+   "names": 593,
+   "link_share": 0.3491
+  },
+  {
+   "release": "tzdata2021a",
+   "date": "2021-01-24",
+   "zones": 386,
+   "links": 207,
+   "names": 593,
+   "link_share": 0.3491
+  },
+  {
+   "release": "tzdata2021b",
+   "date": "2021-09-24",
+   "zones": 377,
+   "links": 217,
+   "names": 594,
+   "link_share": 0.3653
+  },
+  {
+   "release": "tzdata2021c",
+   "date": "2021-10-01",
+   "zones": 377,
+   "links": 217,
+   "names": 594,
+   "link_share": 0.3653
+  },
+  {
+   "release": "tzdata2021d",
+   "date": "2021-10-15",
+   "zones": 377,
+   "links": 217,
+   "names": 594,
+   "link_share": 0.3653
+  },
+  {
+   "release": "tzdata2021e",
+   "date": "2021-10-22",
+   "zones": 377,
+   "links": 217,
+   "names": 594,
+   "link_share": 0.3653
+  },
+  {
+   "release": "tzdata2022a",
+   "date": "2022-03-16",
+   "zones": 377,
+   "links": 217,
+   "names": 594,
+   "link_share": 0.3653
+  },
+  {
+   "release": "tzdata2022b",
+   "date": "2022-08-10",
+   "zones": 356,
+   "links": 239,
+   "names": 595,
+   "link_share": 0.4017
+  },
+  {
+   "release": "tzdata2022c",
+   "date": "2022-08-16",
+   "zones": 356,
+   "links": 239,
+   "names": 595,
+   "link_share": 0.4017
+  },
+  {
+   "release": "tzdata2022d",
+   "date": "2022-09-23",
+   "zones": 354,
+   "links": 241,
+   "names": 595,
+   "link_share": 0.405
+  },
+  {
+   "release": "tzdata2022e",
+   "date": "2022-10-11",
+   "zones": 354,
+   "links": 241,
+   "names": 595,
+   "link_share": 0.405
+  },
+  {
+   "release": "tzdata2022f",
+   "date": "2022-10-29",
+   "zones": 351,
+   "links": 244,
+   "names": 595,
+   "link_share": 0.4101
+  },
+  {
+   "release": "tzdata2022g",
+   "date": "2022-11-29",
+   "zones": 351,
+   "links": 245,
+   "names": 596,
+   "link_share": 0.4111
+  },
+  {
+   "release": "tzdata2023a",
+   "date": "2023-03-22",
+   "zones": 350,
+   "links": 246,
+   "names": 596,
+   "link_share": 0.4128
+  },
+  {
+   "release": "tzdata2023b",
+   "date": "2023-03-24",
+   "zones": 350,
+   "links": 246,
+   "names": 596,
+   "link_share": 0.4128
+  },
+  {
+   "release": "tzdata2023c",
+   "date": "2023-03-28",
+   "zones": 350,
+   "links": 246,
+   "names": 596,
+   "link_share": 0.4128
+  },
+  {
+   "release": "tzdata2023d",
+   "date": "2023-12-21",
+   "zones": 351,
+   "links": 245,
+   "names": 596,
+   "link_share": 0.4111
+  },
+  {
+   "release": "tzdata2024a",
+   "date": "2024-02-01",
+   "zones": 351,
+   "links": 245,
+   "names": 596,
+   "link_share": 0.4111
+  },
+  {
+   "release": "tzdata2024b",
+   "date": "2024-09-04",
+   "zones": 339,
+   "links": 257,
+   "names": 596,
+   "link_share": 0.4312
+  },
+  {
+   "release": "tzdata2025a",
+   "date": "2025-01-15",
+   "zones": 339,
+   "links": 257,
+   "names": 596,
+   "link_share": 0.4312
+  },
+  {
+   "release": "tzdata2025b",
+   "date": "2025-03-22",
+   "zones": 340,
+   "links": 257,
+   "names": 597,
+   "link_share": 0.4305
+  },
+  {
+   "release": "tzdata2025c",
+   "date": "2025-12-10",
+   "zones": 340,
+   "links": 257,
+   "names": 597,
+   "link_share": 0.4305
+  },
+  {
+   "release": "tzdata2026a",
+   "date": "2026-03-02",
+   "zones": 340,
+   "links": 257,
+   "names": 597,
+   "link_share": 0.4305
+  },
+  {
+   "release": "tzdata2026b",
+   "date": "2026-04-23",
+   "zones": 340,
+   "links": 257,
+   "names": 597,
+   "link_share": 0.4305
+  },
+  {
+   "release": "tzdata2026c",
+   "date": "2026-07-08",
+   "zones": 340,
+   "links": 257,
+   "names": 597,
+   "link_share": 0.4305
+  }
+ ],
+ "predictions": [
+  {
+   "id": "P1",
+   "text": "promotions (Link -> Zone: a demotion reversed) over the whole history are non-zero but fewer than 30",
+   "result": "confirmed"
+  },
+  {
+   "id": "P2",
+   "text": "the median obsolescence of a compatibility link still shipping today, measured from the release that demoted it, exceeds 15 years",
+   "result": "REFUTED"
+  },
+  {
+   "id": "P3",
+   "text": "no identifier that was ever demoted from Zone to Link has subsequently been withdrawn from the namespace",
+   "result": "confirmed"
+  },
+  {
+   "id": "P4",
+   "text": "the compatibility share (links / all names) is higher in the newest release than in any release before 2000",
+   "result": "confirmed"
+  },
+  {
+   "id": "P5",
+   "text": "the longest-standing obsolete name still shipping has been obsolete >25 years",
+   "result": "confirmed"
+  },
+  {
+   "id": "P6",
+   "text": "releases whose NEWS reports a change to timestamps outnumber releases whose NEWS reports a change to zone names by at least 5 to 1",
+   "result": "confirmed"
+  },
+  {
+   "id": "P7",
+   "text": "after 1999 the namespace never shrinks: in no release do withdrawals exceed additions",
+   "result": "REFUTED"
+  }
+ ]
+}
