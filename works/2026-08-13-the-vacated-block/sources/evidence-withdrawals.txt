@@ -1,0 +1,113 @@
+EVIDENCE FOR THE TWO WITHDRAWALS
+Session 54, 2026-08-13. Rows copied verbatim from the UnicodeData.txt files
+published by the Unicode Consortium at https://www.unicode.org/Public/ .
+Their SHA-256 hashes are in MANIFEST.json. Nothing here is retyped: every line
+below was cut out of the downloaded file by this script.
+
+
+============================================================================
+1. THE HANGUL SYLLABLES AT U+3400..U+4DFF -- assigned, withdrawn, reoccupied
+============================================================================
+
+----------------------------------------------------------------------------
+As shipped in Unicode 1.1.5 (July 1995): 6,656 named Hangul syllables
+  file    : UnicodeData-1.1.5.txt (directory 1.1-Update of unicode.org/Public/)
+  range   : U+3400..U+4DFF
+  rows    : 6656
+----------------------------------------------------------------------------
+  3400;HANGUL SYLLABLE KIYEOK A;Lo;0;L;1100 1161;;;;N;;;;;
+  3401;HANGUL SYLLABLE KIYEOK A KIYEOK;Lo;0;L;1100 1161 11A8;;;;N;;;;;
+  3402;HANGUL SYLLABLE KIYEOK A NIEUN;Lo;0;L;1100 1161 11AB;;;;N;;;;;
+  3403;HANGUL SYLLABLE KIYEOK A TIKEUT;Lo;0;L;1100 1161 11AE;;;;N;;;;;
+  3404;HANGUL SYLLABLE KIYEOK A RIEUL;Lo;0;L;1100 1161 11AF;;;;N;;;;;
+  3405;HANGUL SYLLABLE KIYEOK A RIEUL-KIYEOK;Lo;0;L;1100 1161 11B0;;;;N;;;;;
+  ... 6644 rows omitted ...
+  4DFA;HANGUL SYLLABLE MIEUM WEO NIEUN-HIEUH;Lo;0;L;1106 116F 11AD;;;;N;;;;;
+  4DFB;HANGUL SYLLABLE MIEUM WEO RIEUL-KIYEOK;Lo;0;L;1106 116F 11B0;;;;N;;;;;
+  4DFC;HANGUL SYLLABLE MIEUM WEO RIEUL-MIEUM;Lo;0;L;1106 116F 11B1;;;;N;;;;;
+  4DFD;HANGUL SYLLABLE MIEUM WEO RIEUL-PIEUP;Lo;0;L;1106 116F 11B2;;;;N;;;;;
+  4DFE;HANGUL SYLLABLE MIEUM WEO RIEUL-SIOS;Lo;0;L;1106 116F 11B3;;;;N;;;;;
+  4DFF;HANGUL SYLLABLE MIEUM WEO RIEUL-THIEUTH;Lo;0;L;1106 116F 11B4;;;;N;;;;;
+
+----------------------------------------------------------------------------
+The same range one release later, in Unicode 2.0.0 (July 1996)
+  file    : UnicodeData-2.0.14.txt (directory 2.0-Update of unicode.org/Public/)
+  range   : U+3400..U+4DFF
+  rows    : 0
+----------------------------------------------------------------------------
+  (no rows -- these code points are unassigned in this version)
+
+----------------------------------------------------------------------------
+Where the syllables went in 2.0.0 -- a different address, 11,172 of them
+  file    : UnicodeData-2.0.14.txt (directory 2.0-Update of unicode.org/Public/)
+  range   : U+AC00..U+D7A3
+  rows    : 2
+----------------------------------------------------------------------------
+  AC00;<Hangul Syllable, First>;Lo;0;L;;;;;N;;;;;
+  D7A3;<Hangul Syllable, Last>;Lo;0;L;;;;;N;;;;;
+
+----------------------------------------------------------------------------
+Who lives at U+3400 today
+  file    : UnicodeData.txt (18.0.0) (directory 18.0.0 of unicode.org/Public/)
+  range   : U+3400..U+3401
+  rows    : 1
+----------------------------------------------------------------------------
+  3400;<CJK Ideograph Extension A, First>;Lo;0;L;;;;;N;;;;;
+
+============================================================================
+2. TIBETAN AT U+1000..U+104C -- assigned, withdrawn, reoccupied
+============================================================================
+
+----------------------------------------------------------------------------
+Unicode 1.0.1 (reconstructed file; code points and names stated accurate)
+  file    : UnicodeData-1.0.1.txt (directory 1.0.1 of unicode.org/Public/)
+  range   : U+1000..U+1005
+  rows    : 6
+----------------------------------------------------------------------------
+  1000;TIBETAN LETTER KA;Lo;0;L;;;;;N;;;;;
+  1001;TIBETAN LETTER KHA;Lo;0;L;;;;;N;;;;;
+  1002;TIBETAN LETTER GA;Lo;0;L;;;;;N;;;;;
+  1003;TIBETAN LETTER NGA;Lo;0;L;;;;;N;;;;;
+  1004;TIBETAN LETTER CA;Lo;0;L;;;;;N;;;;;
+  1005;TIBETAN LETTER CHA;Lo;0;L;;;;;N;;;;;
+
+----------------------------------------------------------------------------
+The same range in Unicode 1.1.5
+  file    : UnicodeData-1.1.5.txt (directory 1.1-Update of unicode.org/Public/)
+  range   : U+1000..U+1005
+  rows    : 0
+----------------------------------------------------------------------------
+  (no rows -- these code points are unassigned in this version)
+
+----------------------------------------------------------------------------
+Who lives there today
+  file    : UnicodeData.txt (18.0.0) (directory 18.0.0 of unicode.org/Public/)
+  range   : U+1000..U+1005
+  rows    : 6
+----------------------------------------------------------------------------
+  1000;MYANMAR LETTER KA;Lo;0;L;;;;;N;;;;;
+  1001;MYANMAR LETTER KHA;Lo;0;L;;;;;N;;;;;
+  1002;MYANMAR LETTER GA;Lo;0;L;;;;;N;;;;;
+  1003;MYANMAR LETTER GHA;Lo;0;L;;;;;N;;;;;
+  1004;MYANMAR LETTER NGA;Lo;0;L;;;;;N;;;;;
+  1005;MYANMAR LETTER CA;Lo;0;L;;;;;N;;;;;
+
+============================================================================
+3. THE ONLY TWO NAME CHANGES AFTER THE 1996 FREEZE, AND WHAT THEY WERE
+============================================================================
+Unicode 4.0.0 shipped two character names with a trailing space; 4.0.1 removed
+it. Under the Name Stability policy the Name property value may not change, so
+the repair is of the data file's typography, not of the name. Quoted with the
+line ends marked | so the space is visible.
+
+  UnicodeData-4.0.0.txt
+    02AE;LATIN SMALL LETTER TURNED H WITH FISHHOOK |
+    0615;ARABIC SMALL HIGH TAH |
+
+  UnicodeData-4.0.1.txt
+    02AE;LATIN SMALL LETTER TURNED H WITH FISHHOOK|
+    0615;ARABIC SMALL HIGH TAH|
+
+  UnicodeData.txt (18.0.0)
+    02AE;LATIN SMALL LETTER TURNED H WITH FISHHOOK|
+    0615;ARABIC SMALL HIGH TAH|

@@ -1,0 +1,566 @@
+Character Encoding Stability 
+ Policies 
+ Tech Site 
+ | Site Map |
+ Search 
+ Unicode® Character Encoding Stability Policies 
+ Unlike many other standards, the Unicode Standard is continually 
+ expanding—new characters are added to meet a variety of uses, 
+ ranging from technical symbols to letters for archaic languages. 
+ Character properties are also expanded or revised to meet implementation 
+ requirements. 
+ In each new version of the Unicode Standard, the Unicode 
+ Consortium may add characters 
+ or make certain changes to characters that were encoded in a 
+ previous version of the standard. However, the Consortium 
+ imposes limitations on the types of changes that can be made, 
+ in an effort to minimize the impact on existing implementations.
+ This page lists the policies of the Unicode 
+ Consortium regarding character encoding stability. These 
+ policies are intended to ensure that text encoded in one version 
+ of the standard remains valid and unchanged in later versions. 
+ In many cases, the constraints imposed by these stability policies 
+ allow implementers to simplify support for particular features 
+ of the standard, with the assurance that their implementations 
+ will not be invalidated by a later update to the standard. 
+ The notation Unicode N.n+ 
+ means “The Unicode Standard, Version N.n and all subsequent 
+ versions.” 
+ This page was last updated 2026-May-26. 
+ Encoding Stability 
+ Applicable Version: Unicode 2.0+ 
+ Once a character is encoded, it 
+ will not be moved or removed. 
+ This policy ensures that implementers can always depend on 
+ each version of the Unicode Standard being a superset of the 
+ previous version. The Unicode Standard may deprecate the character 
+ (that is, formally discourage its use), but it will not reallocate, 
+ remove, or reassign the character. 
+ Note: Ordering of characters is handled via collation,
+ not by moving characters to different code points. For 
+ more information, see
+ Unicode Technical 
+ Standard #10, Unicode Collation 
+ Algorithm , and the Unicode
+ FAQ . 
+ Name Stability 
+ Applicable Version: Unicode 2.0+ 
+ The Unicode Name property value for any non-reserved 
+ code point will not be changed. In particular, once a character is encoded, 
+ its name will not be changed. 
+ Together with the limitations in name syntax, this policy 
+ allows implementations to create unique identifiers from character 
+ names. The character names are used to distinguish between 
+ characters and do not always express the full meaning of each 
+ character. They are designed to be used programmatically and, 
+ therefore, must be stable. 
+ In some cases the original name chosen to represent the character 
+ is inaccurate in one way or another. Any such inaccuracies are 
+ dealt with by adding annotations to the
+ character name list 
+ (which is also printed in the Unicode Standard and provided 
+ in a
+ machine-readable format ), or by adding descriptive text 
+ to the standard. In cases of outright errors in character names such as 
+ misspellings, a character may be given a formal name alias. 
+ Note: It is possible to produce translated names 
+ for the characters, to make the information conveyed by the 
+ name accessible to non-English speakers. 
+ Formal Name Alias Stability 
+ Applicable Version: Unicode 5.0+ 
+ Formal aliases, once assigned to 
+ a character, will not be changed or removed. 
+ Formal aliases are defined in the file 
+ NameAliases.txt in 
+ the Unicode Character 
+ Database and listed in the character
+ code charts . 
+ Named Character Sequence Stability 
+ Applicable Version: Unicode 5.0+ 
+ Named character sequences will not 
+ be changed or removed. 
+ This stability guarantee applies both to the name of the 
+ named character sequence and to the sequence of characters so 
+ named. 
+ Named character sequences are defined in the file 
+ NamedSequences.txt 
+ in the Unicode Character 
+ Database . For more information on named character sequences, 
+ see Unicode 
+ Standard Annex #34, 
+ Unicode Named Character Sequences . 
+ Note: There are also provisional named character 
+ sequences, which are included in the Unicode Character Database 
+ but are not covered by this stability policy. 
+ Name Uniqueness 
+ Applicable Version: Unicode 2.0+ 
+ The names of characters, formal 
+ aliases, and named character sequences are unique within a shared 
+ namespace. 
+ The names of characters, named character sequences, and formal 
+ aliases for characters share a single namespace in which each 
+ name uniquely identifies either a single character or a single 
+ named character sequence. The definition of uniqueness is not 
+ just a simple comparison of the characters—instead, the 
+ loose 
+ matching rules from UAX #44, Unicode Character Database 
+ are used. 
+ Note: As of Unicode 4.1, named character sequences were added 
+ to this shared namespace; as of Unicode 5.0, formal aliases were also added. 
+ Normalization Stability 
+ A. Strong Normalization Stability 
+ Applicable Version: Unicode 4.1+ 
+ If a string contains only characters from a given version 
+ of Unicode, and it is put into a normalized form in accordance 
+ with that version of Unicode, then the results will be identical 
+ to the results of putting that string into a normalized form 
+ in accordance with any subsequent version of Unicode. 
+ More formally, given versions V and U of Unicode, and any string 
+ S which only contains characters assigned according to both 
+ V and U, the following are always true: 
+ toNFC V (S) = toNFC U (S) 
+ toNFD V (S) = toNFD U (S) 
+ toNFKC V (S) = toNFKC U (S) 
+ toNFKD V (S) = toNFKD U (S) 
+ In particular, once a character is encoded, its canonical 
+ combining class and decomposition mapping will not be changed 
+ in any way. 
+ Decomposition Mapping 
+ Once a character is assigned, its 
+ decomposition mapping will not change. 
+ Canonical Combining Class 
+ Once a character is assigned, its 
+ canonical combining class will not change. 
+ Note: If an implementation normalizes a string 
+ that contains characters that are not assigned in 
+ the version of Unicode that it supports, that string 
+ might not be in normalized form according to a future 
+ version of Unicode. For example, suppose that a Unicode 
+ 5.0 program normalizes a string that contains new Unicode 
+ 5.1 characters. That string might not be normalized according 
+ to Unicode 5.1. 
+ B. Weaker Version of Normalization Stability 
+ Applicable Version: Unicode 3.1+ 
+ Note: 
+ All of the guarantees implied by this weaker specification are 
+ subsumed by the stricter stability constraints applicable to 
+ Version 4.1 and later. 
+ If a string contains only characters 
+ from a given version of the Unicode, and it is put into a normalized 
+ form in accordance with that version of Unicode, then the result 
+ will also be in that normalized form according to any subsequent 
+ version of Unicode. 
+ The result will also be in 
+ that normalized form according to any prior version of the standard 
+ that contains all of the characters in the string (back to the 
+ first applicable version, Unicode 3.1). 
+ In particular, once a character is encoded, its canonical 
+ combining class and decomposition mapping will not be changed 
+ in a way that will destabilize normalization. Thus the following 
+ constraints will be maintained under all circumstances: 
+ Decomposition Mapping 
+ The decomposition mapping may not 
+ be changed except for the correction of exceptional errors which 
+ meet all of the following conditions (1-3): 
+ There is a clear and evident 
+ error identified in the Unicode Character Database (such 
+ as a typographic mistake). 
+ The error constitutes a clear 
+ violation of the identity stability policy. 
+ The correction of such an error 
+ does not violate the following constraints (a-d): 
+ No character will be given 
+ a decomposition mapping when it did not previously have 
+ one. 
+ No decomposition mapping 
+ will be removed from a character. 
+ No decomposition mapping 
+ will change in type (canonical to compatibility, or 
+ vice versa). 
+ The number of characters 
+ in a decomposition mapping will not change. 
+ Canonical Combining Class 
+ Once a character is assigned, its 
+ canonical combining class will not change. 
+ Note: If an implementation normalizes a string 
+ that contains characters that are not assigned in 
+ the version of Unicode that it supports, that string 
+ might not be in normalized form according to a future 
+ version of Unicode. For example, suppose that a Unicode
+ 4.0 program normalizes a string that contains 
+ new Unicode 4.1 characters. That string might 
+ not be normalized according to Unicode 4.1. 
+ Note: In versions prior to Unicode 4.1, 
+ there were exceptional cases where the normalization algorithm 
+ had to be applied twice to put a string into normalized 
+ form. See 
+ Corrigendum #5: Normalization Idempotency 
+ and 
+ Unicode Standard Annex #15, Unicode Normalization Forms . 
+ Identity Stability 
+ Applicable Version: Unicode 1.1+ 
+ Once a character is encoded, its 
+ properties may still be changed, but not in such a way 
+ as to change the fundamental identity of the character. 
+ The Consortium will endeavor to keep the values of the other 
+ properties as stable as possible, but some circumstances may 
+ arise that require changing them. Particularly in the situation 
+ where the Unicode Standard first encodes less well-documented 
+ characters and scripts, the exact character properties and behavior 
+ initially may not be well known. 
+ As more experience is gathered in implementing the characters, 
+ adjustments in the properties may become necessary. Examples 
+ of such properties include, but are not limited to, the following:
+ General_Category 
+ Case mappings 
+ Bidirectional properties 
+ Compatibility decomposition tags (such as <font> 
+ or <compat> ) 
+ Representative glyphs 
+ However, character properties will not be changed 
+ in a way that would affect character identity. For example, 
+ the representative glyph for U+0041 “A” cannot be changed to 
+ “B”; the General_Category for U+0041 “A” cannot be changed to 
+ Ll (lowercase letter); and the decomposition mapping 
+ for U+00C1 (Á) cannot be changed to <U+0042, U+0301> (B, ´). 
+ Property Stability 
+ Applicable Version: Unicode 5.2+ 
+ Normative and informative properties, once defined in the Unicode Character Database, will never be removed. 
+ This stability guarantee does not apply to Contributory properties 
+ (such as "Other_Alphabetic") 
+ nor to Provisional properties. For a list of which 
+ properties are Normative or Informative, see
+ UAX #44, 
+ Unicode Character Database . 
+ In prior versions of the Unicode Standard, the only non-provisional property 
+ that has ever been withdrawn from the standard was the informative property 
+ Special_Case_Condition, which was removed as of Unicode 5.1. 
+ This policy does not preclude the deprecation of a Unicode character property. 
+ Such deprecation would not remove the property; it would only indicate a strong
+ recommendation not to use it. 
+ Property Domain Stability 
+ Applicable Version: Unicode 5.2+ 
+ The domain of a normative or informative property will never change. In particular, a property of characters will
+never be changed into a property of strings, and vice versa. 
+ This policy applies to properties that are explicitly documented as being a property of strings or a property of
+characters. This includes the properties listed in Section 2.7, Full Properties of UTS #18, Unicode Regular Expressions. 
+ While unlikely, it is theoretically possible in certain versions of the standard that a Unicode property of strings may only apply to characters (that is, strings of length one). Whether the property actually applies to multi-character strings or the empty string
+might change from version to version, but it remains documented as a property of strings. 
+ This stability guarantee does not apply to Contributory properties 
+ (such as "Other_Alphabetic") 
+ nor to Provisional properties. For a list of which 
+ properties are Normative or Informative, see
+ UAX #44, 
+ Unicode Character Database . 
+ Property Value Stability 
+ Values of certain properties are limited by the 
+ constraints listed in the table below. 
+ Note: The applicable version is given in the fourth column. 
+ Property Group 
+ Applicable Properties 
+ Constraints 
+ Applicable Unicode Versions 
+ Bidi 
+ Bidi_Class 
+ No new Bidi_Class property values will be 
+ added, except in the case when they are introduced along with newly encoded 
+ characters such as bidirectional format controls. 
+ 3.0.0+ 
+ Bidi_Class, Bidi_Mirrored 
+ The property values for the bidirectional properties Bidi_Class and 
+ Bidi_Mirrored preserve canonical equivalence. 
+ 4.0.0+ 
+ Bidi_Paired_Bracket_Type 
+ Characters that have a Bidi_Paired_Bracket_Type property value of 
+ Open or Close also have the Bidi_Class property value Other_Neutral (ON) 
+ and the Bidi_Mirrored property value Yes. 
+ 6.3.0+ 
+ Case 
+ Case_Folding 
+ The Case_Folding property value is limited so that no string when 
+ case folded expands to more than 3× in length (measured in code units). 
+ 3.0.1+ 
+ Lowercase, Uppercase, Alphabetic 
+ All characters with the Lowercase property and all characters with 
+ the Uppercase property have the Alphabetic property. 
+ 4.1.0+ 
+ General 
+ General_Category 
+ The enumeration of General_Category property values is fixed. No new values will be added. 
+ 2.1.3+ 
+ General_Category 
+ The General_Category property value Control (Cc) is immutable: the 
+ set of code points with that value will never change. 
+ 1.1.5+ 
+ General_Category 
+ The General_Category property value Private_Use (Co) is immutable: 
+ the set of code points with that value will never change. 
+ 2.0.0+ 
+ General_Category 
+ The General_Category property value Surrogate (Cs) is immutable: the 
+ set of code points with that value will never change. 
+ 2.0.0+ 
+ Name, Jamo_Short_Name 
+ Once a character is assigned, both its Name and its Jamo_Short_Name 
+ will never change. 
+ 2.0.0+ 
+ Noncharacter_Code_Point 
+ The Noncharacter_Code_Point property is an immutable code point 
+ property, which means that its property values for all Unicode code 
+ points will never change. 
+ 3.1.0+ 
+ Identifiers 
+ ID_Continue 
+ Once a character is ID_Continue, it must continue to be so in all 
+ future versions. 
+ 4.1.0+ 
+ ID_Start 
+ If a character is ID_Start then it must also be ID_Continue. 
+ 3.0.1+ 
+ ID_Start 
+ Once a character is ID_Start, it must continue to be so in all 
+ future versions. 
+ 3.0.1+ 
+ XID_Continue 
+ Once a character is XID_Continue, it must continue to be so in all 
+ future versions. 
+ 4.1.0+ 
+ XID_Start 
+ If a character is XID_Start then it must also be XID_Continue. 
+ 3.0.1+ 
+ XID_Start 
+ Once a character is XID_Start, it must continue to be so in all 
+ future versions. 
+ 3.0.1+ 
+ ID_Compat_Math_Continue 
+ Once a character is ID_Compat_Math_Continue, it must continue to be so in all 
+ future versions. 
+ 15.1.0+ 
+ ID_Compat_Math_Start 
+ If a character is ID_Compat_Math_Start then it must also be ID_Compat_Math_Continue. 
+ 15.1.0+ 
+ ID_Compat_Math_Start 
+ Once a character is ID_Compat_Math_Start, it must continue to be so in all 
+ future versions. 
+ 15.1.0+ 
+ Pattern_Syntax, Pattern_White_Space 
+ The Pattern_Syntax and Pattern_White_Space 
+ properties are immutable code point properties, which means that their 
+ property values for all Unicode code points will never change. 
+ 4.1.0+ 
+ Pattern_Syntax, Pattern_White_Space, ID_Continue, XID_Continue 
+ If a character has the Pattern_Syntax or 
+ Pattern_White_Space property, then it cannot have the ID_Continue or 
+ XID_Continue property. 
+ 4.1.0+ 
+ Normalization 
+ Canonical_Combining_Class 
+ The Canonical_Combining_Class property values are limited to the 
+ values 0 to 254. 
+ 1.1.5+ 
+ Canonical_Combining_Class 
+ Once a character is assigned, its Canonical_Combining_Class will 
+ never change. 
+ 3.0.0+ 
+ Canonical_Combining_Class, General_Category 
+ All characters other than those with General_Category property 
+ values Spacing_Mark (Mc) and Nonspacing_Mark (Mn) have the 
+ Canonical_Combining_Class property value 0. 
+ 1.1.5+ 
+ Decomposition_Mapping 
+ Canonical and compatibility mappings (Decomposition_Mapping property 
+ values) are always in canonical order, and the resulting recursive 
+ decomposition will also be in canonical order. 
+ 2.0.0+ 
+ Decomposition_Mapping 
+ Canonical mappings (Decomposition_Mapping property values) are 
+ always limited either to a single value or to a pair. The second 
+ character in the pair cannot itself have a canonical mapping. 
+ 3.0.0+ 
+ Decomposition_Mapping 
+ Canonical mappings (Decomposition_Mapping property values) are 
+ always limited so that no string when normalized to NFC expands to more 
+ than 3× in length (measured in code units). 
+ 2.0.0+ 
+ Decomposition_Mapping 
+ Once a character is assigned, its Decomposition_Mapping will never 
+ change. 
+ 4.0.0+ 
+ Decomposition_Mapping 
+ Canonical mappings (Decomposition_Mapping property values) to a pair of 
+ characters are limited such that the first of the pair in the mapping must 
+ have ccc=0, except for the Decomposition_Mapping of the following four 
+ characters: U+0344, U+0F73, U+0F75, U+0F81. 
+ 2.1.0+ 
+ Numeric 
+ General_Category, Numeric_Type 
+ The set of characters having General_Category=Nd will always be the 
+ same as the set of characters having Numeric_Type=de. 
+ 4.0.0+ 
+ General_Category, Numeric_Type 
+ Characters with the property 
+ value Numeric_Type=de (Decimal) only occur in contiguous ranges of 10 
+ characters, with ascending numeric values from 0 to 9 (Numeric_Value=0..9). 
+ 6.0.0+ 
+ General_Category, Numeric_Type 
+ Characters with the General_Category property value Number (Nd | Nl | No) do 
+ not have the Numeric_Type value None. 
+ 6.2.0+ 
+ Numeric_Type 
+ No new assignment of Numeric_Type=di (Digit) will be made to any character. 
+ 6.1.0+ 
+ Script 
+ Script, Script_Extensions 
+ Whenever the Script property value of an
+ assigned character is explicit (that is, not Common, Inherited or Unknown),
+ that explicit value must also be contained among the set of values constituting
+ the Script_Extensions property value for that character. 
+ 6.2.0+ 
+ These constraints ensure that implementers can simplify or 
+ optimize certain aspects of their support for character 
+ properties. For further description of these invariants, see
+ UAX #44, Unicode Character Database . 
+ Alias Stability 
+ A. Alias Removal or Changes 
+ Applicable Version: Unicode 5.1+ 
+ Property aliases, once defined in PropertyAliases.txt , will never be removed, nor will their precise spelling be changed. 
+ Property value aliases, once defined in PropertyValueAliases.txt , will never be removed, nor will their precise spelling be changed. 
+ For example, the property alias "White_Space" in PropertyValueAliases.txt will never be removed, nor will its spelling ever be changed to "whitespace" or "whiteSpace" or "White-Space", even though these would be equivalent under loose name matching. 
+ This stability guarantee does not apply to aliases for Contributory properties 
+ (such as "Other_Alphabetic") 
+and their values, nor to aliases for Provisional properties and their values. 
+For a list of which properties are Normative or Informative, see
+ UAX #44, Unicode Character 
+Database . 
+ This policy does not preclude the deprecation of a property alias or a property value alias. 
+ Such deprecation would not remove the alias; it would only indicate a strong recommendation 
+ not to use it. 
+ This stability guarantee makes it possible to use property aliases and property value 
+ aliases as stable identifiers. For example, aliases may be used as stable identifiers 
+ in Unicode Regular Expressions (see 
+ Unicode Technical Standard #18, Unicode Regular Expressions ). 
+ Note that the stability guarantee for property aliases and property value aliases 
+ does not imply that the set of characters with a given Unicode character property 
+ value is stable for all Unicode versions. New characters may be added to the standard 
+ and thus to such a set, and existing characters may have one (or more) property values 
+ changed, and thus be removed from (or added to) such a set. 
+ Implementations should always support all of the aliases 
+ in PropertyAliases.txt and PropertyValueAliases.txt for any of the Unicode character 
+ properties that they support, and should always follow the
+ loose matching rule for 
+symbolic values specified in UAX #44, 
+ Unicode Character Database . For example, differences in case, the presence of 
+ underscores, or similar differences in strings representing aliases are not 
+ considered to make a distinction when matching aliases. 
+ B. Alias Reassignment 
+ Applicable Version: Unicode 6.2+ 
+ Property aliases, once defined in the Unicode Character
+ Database, will never be assigned to different properties. 
+ Property value aliases, once defined in the Unicode Character 
+ Database, will never be assigned to different property values of the same property. 
+ Property aliases are defined in the file 
+ PropertyAliases.txt 
+ in the Unicode Character Database . 
+ Property value aliases are defined in the file 
+ PropertyValueAliases.txt 
+ in the Unicode Character Database. 
+ This policy means that aliases cannot be reassigned to different values. 
+ For example, in
+ PropertyValueAliases.txt 
+ there are the following data lines establishing the relation between different aliases: 
+ ea;N                         ;Neutral
+ ea;Na                        ;Narrow 
+ The alias "N" cannot be moved from being an alias for "Neutral" 
+ and to being an alias for "Narrow". Thus a change such as the following is disallowed: 
+ ea;Ne                        ;Neutral
+ ea; N                          ;Narrow        ;Na 
+ Property Alias Uniqueness 
+ Applicable Version: Unicode 3.2+ 
+ All property aliases constitute a single namespace. 
+ Property aliases are guaranteed to be unique within this namespace. 
+ For each property, all of its property value 
+ aliases constitute a separate namespace, one per property. Within each of 
+ these property value alias namespaces, property value aliases are guaranteed to be unique. 
+ For the purposes of these uniqueness guarantees, uniqueness is defined by the
+ loose 
+ matching rule for symbolic values specified in UAX #44, 
+ Unicode Character Database . For example, differences in case, the presence of 
+ underscores, or similar differences in strings representing aliases are not 
+ considered to make a distinction when matching aliases. 
+ Identifier Stability 
+ Applicable Version: Unicode 3.0+ 
+ All strings that are valid 
+ default Unicode identifiers will continue to be valid default 
+ Unicode identifiers in all subsequent versions of Unicode. Furthermore, 
+ default identifiers never contain characters with the Pattern_Syntax 
+ or Pattern_White_Space properties. 
+ If a string qualifies as an identifier under one version 
+ of Unicode, it will qualify as an identifier under all future 
+ versions. The reverse is not true—an identifier under Version 
+ 5.0 may not be an identifier under Version 4.0—it may contain 
+ a character that was unassigned under Unicode 4.0, or (very 
+ rarely) a Unicode 4.0 character that was not an identifier character 
+ in Unicode 4.0, but became one in Unicode 5.0. 
+ For more information, see 
+ Unicode Standard Annex 
+ #31, Unicode Identifiers and Syntax . 
+ Case Folding Stability 
+ Applicable Version: Unicode 5.2+ 
+ Caseless matching of Unicode strings 
+ used for identifiers is stable. 
+ Case folding stability ensures that identifiers created in 
+ different versions of Unicode can be reliably matched in a case-insensitive 
+ manner. For more information on identifiers see
+ Unicode 
+ Standard Annex #31, 
+ Unicode Identifiers 
+ and Syntax . Case-insensitive identifiers commonly either exclude compatibility decomposable characters or treat them as equivalent under compatibility normalization; therefore this policy formally applies 
+ only to strings normalized with NFKC. The toCaseFold() operation 
+ used for caseless matching is the full case folding defined 
+ by rule R4 under “Default Case Conversion” in
+ Section 3.13,
+ Default Case Algorithms of the Unicode Standard. The toNFKC_Casefold() operation is the one defined by rule R5. 
+ The formal statement of this policy is: 
+ For each string S containing 
+ only assigned characters in a given Unicode version, toCasefold(toNFKC(S)) 
+ under that version is identical to toCasefold(toNFKC(S)) 
+ under any later version of Unicode. 
+ For each string S containing only characters with the property XID_Continue in a given Unicode version, toNFKC_Casefold(S) under that version is identical to toNFKC_Casefold(S) under any later version of Unicode. 
+ Note: Case folding is 
+ not the same as lowercasing, 
+ and a case-folded string is not necessarily lowercase. In particular, 
+ as of Unicode 8.0, Cherokee has become a bicameral script with the introduction
+ of lowercase Cherokee letters, but Cherokee text case folds to the existing 
+ uppercase letters. This case folding behavior for Cherokee
+ text is precisely to guarantee continued case folding stability. 
+ Note: The operations toCasefold(toNFKC(S)) and toNFKC_Casefold(S) are distinct; in particular, the latter removes default ignorable code points such as variation selectors. 
+ Case Pair Stability 
+ Applicable Version: Unicode 5.0+ 
+ Two distinct assigned characters form a 
+ case pair when the first character of the pair is the full uppercase of the 
+ second character, and the second character is the full lowercase of the first character. 
+ (Full upper-and lowercase are defined in
+ Section 3.13,
+ Default Case Algorithms of the Unicode Standard.) 
+ If two characters form a case pair in a version of Unicode, 
+ they will remain a case pair in each subsequent version of Unicode. 
+ If two characters do not form a case pair in a version 
+ of Unicode, they will never become a case pair in any subsequent 
+ version of Unicode. 
+ More formally, for given versions V and U of Unicode, and 
+ any two distinct characters X and Y that are both assigned 
+ according to both V and U: 
+ toLowercase V (X) = Y AND toUppercase V (Y) = X 
+ if and only if 
+ toLowercase U (X) = Y AND toUppercase U (Y) = X 
+ Note: These conditions apply to two existing, distinct assigned characters. 
+ Note: A character that is not part of a case pair could become part of one if the new 
+ case pair is formed at the time of the addition of a new character to Unicode. 
+ For example, a new capital version of U+028D ( ʍ ) LATIN SMALL LETTER TURNED W 
+ could be added in the future to form a new case pair. This example illustrates the 
+ usual type of such additions: a new uppercase character for an existing lowercase 
+ character. Under Case Folding Stability, the only way 
+ for a new lowercase character to become part 
+ of a case pair for an existing uppercase letter is for the 
+ case folding operation to map the new lowercase character to that existing uppercase 
+ character.
