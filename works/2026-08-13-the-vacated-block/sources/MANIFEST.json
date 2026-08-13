@@ -1,0 +1,273 @@
+{
+ "retrieved": "2026-08-13",
+ "base": "https://www.unicode.org/Public/",
+ "files": [
+  {
+   "version": "1.0.0",
+   "url": "https://www.unicode.org/Public/reconstructed/1.0.0/UnicodeData.txt",
+   "bytes": 388186,
+   "sha256": "262bf78702c2305d919655925b11d2faeb54ea8d3c94f31816e4bfe4e2450e69"
+  },
+  {
+   "version": "1.0.1",
+   "url": "https://www.unicode.org/Public/reconstructed/1.0.1/UnicodeData.txt",
+   "bytes": 389059,
+   "sha256": "fd40214a79f79b4156aacce8ac265c2d1728b858bd05ad3e0755083a2105eac0"
+  },
+  {
+   "version": "1.1-Update",
+   "url": "https://www.unicode.org/Public/1.1-Update/UnicodeData-1.1.5.txt",
+   "bytes": 908684,
+   "sha256": "b0aa30303db3c13701967320550952e7368470776e304b52270fdb9256e4bd5b"
+  },
+  {
+   "version": "2.0-Update",
+   "url": "https://www.unicode.org/Public/2.0-Update/UnicodeData-2.0.14.txt",
+   "bytes": 444408,
+   "sha256": "fdb15931fefb25d34546c575c6507732a4ac48b4b4148510f46ee0161a84c336"
+  },
+  {
+   "version": "2.1-Update",
+   "url": "https://www.unicode.org/Public/2.1-Update/UnicodeData-2.1.2.txt",
+   "bytes": 445194,
+   "sha256": "1d05f8d8912f16b1d30ec94df31ad8458541901593f1ae6971da3f9c096d9a7a"
+  },
+  {
+   "version": "2.1-Update2",
+   "url": "https://www.unicode.org/Public/2.1-Update2/UnicodeData-2.1.5.txt",
+   "bytes": 463420,
+   "sha256": "1f6dd7bbf433d1d1bb8d86ca881f5f39bb95598507973d9755e859f805a9ec19"
+  },
+  {
+   "version": "2.1-Update3",
+   "url": "https://www.unicode.org/Public/2.1-Update3/UnicodeData-2.1.8.txt",
+   "bytes": 463335,
+   "sha256": "358853a5457e7162ad9af44b87c3b548ac90308b50356a65b4f982b474a58518"
+  },
+  {
+   "version": "2.1-Update4",
+   "url": "https://www.unicode.org/Public/2.1-Update4/UnicodeData-2.1.9.txt",
+   "bytes": 460559,
+   "sha256": "3dcee8b6b68151956fb799e4445c4e8948c0f4257d241b193ec3881b08c48137"
+  },
+  {
+   "version": "3.0-Update",
+   "url": "https://www.unicode.org/Public/3.0-Update/UnicodeData-3.0.0.txt",
+   "bytes": 636043,
+   "sha256": "f41d967bc458ee106f0c3948bfad71cd0860d96c49304e3fd02eaf2bbae4b6d9"
+  },
+  {
+   "version": "3.0-Update1",
+   "url": "https://www.unicode.org/Public/3.0-Update1/UnicodeData-3.0.1.txt",
+   "bytes": 636314,
+   "sha256": "2aea1fc7d7e64d792fcbd56721fef104a153e2783ab28bcaeb171d9742dd5a24"
+  },
+  {
+   "version": "3.1-Update",
+   "url": "https://www.unicode.org/Public/3.1-Update/UnicodeData-3.1.0.txt",
+   "bytes": 780369,
+   "sha256": "8e57884da0da3a66782b8a6332a601fccbcae9ed0060e12501aca02fa56ffecd"
+  },
+  {
+   "version": "3.2-Update",
+   "url": "https://www.unicode.org/Public/3.2-Update/UnicodeData-3.2.0.txt",
+   "bytes": 836989,
+   "sha256": "5e444028b6e76d96f9dc509609c5e3222bf609056f35e5fcde7e6fb8a58cd446"
+  },
+  {
+   "version": "4.0-Update",
+   "url": "https://www.unicode.org/Public/4.0-Update/UnicodeData-4.0.0.txt",
+   "bytes": 897669,
+   "sha256": "77818a7e04c563a6a628e4f10be60323bf13f08e9fb208bffce11057b008ad7e"
+  },
+  {
+   "version": "4.0-Update1",
+   "url": "https://www.unicode.org/Public/4.0-Update1/UnicodeData-4.0.1.txt",
+   "bytes": 897402,
+   "sha256": "de54d68f2df927a20ea4a83dfd74a543ca7f3e3df2441576e7f6a185ec6fa217"
+  },
+  {
+   "version": "4.1.0",
+   "url": "https://www.unicode.org/Public/4.1.0/ucd/UnicodeData.txt",
+   "bytes": 966371,
+   "sha256": "a9f03f6a061ee210c53e33782288a208bed48c65c70d307b2b214989cedfdab0"
+  },
+  {
+   "version": "5.0.0",
+   "url": "https://www.unicode.org/Public/5.0.0/ucd/UnicodeData.txt",
+   "bytes": 1038607,
+   "sha256": "e458a6cab52182af09cb40defab6d00e6927d51ef7291017647e9c10b3e196b9"
+  },
+  {
+   "version": "5.1.0",
+   "url": "https://www.unicode.org/Public/5.1.0/ucd/UnicodeData.txt",
+   "bytes": 1117369,
+   "sha256": "8bd83e9c4e339728ecd532c5b174de5beb9cb4bab5db14e44fcd03ccb2e2c1b5"
+  },
+  {
+   "version": "5.2.0",
+   "url": "https://www.unicode.org/Public/5.2.0/ucd/UnicodeData.txt",
+   "bytes": 1239519,
+   "sha256": "e066e0685b870d0c205530e827c18f76ddf01293c26adbfbec9338f27b239f85"
+  },
+  {
+   "version": "6.0.0",
+   "url": "https://www.unicode.org/Public/6.0.0/ucd/UnicodeData.txt",
+   "bytes": 1329401,
+   "sha256": "90b45b777346bef027556f9c6cb3ea5d7d745bd60d6762855c08d8a22d34f771"
+  },
+  {
+   "version": "6.1.0",
+   "url": "https://www.unicode.org/Public/6.1.0/ucd/UnicodeData.txt",
+   "bytes": 1366733,
+   "sha256": "3066262585a3c4f407b16db787e6d3a6e033b90f27405b6c76d1babefffca6ad"
+  },
+  {
+   "version": "6.2.0",
+   "url": "https://www.unicode.org/Public/6.2.0/ucd/UnicodeData.txt",
+   "bytes": 1366791,
+   "sha256": "8b2cd18247527aa08ec320c3352b6a01b95d63199f20b3b593ea5d5217bdd170"
+  },
+  {
+   "version": "6.3.0",
+   "url": "https://www.unicode.org/Public/6.3.0/ucd/UnicodeData.txt",
+   "bytes": 1367023,
+   "sha256": "3f76924f0410ca8ae0e9b5c59bd1ba03196293c32616204b393300f091f52013"
+  },
+  {
+   "version": "7.0.0",
+   "url": "https://www.unicode.org/Public/7.0.0/ucd/UnicodeData.txt",
+   "bytes": 1509570,
+   "sha256": "bfa3da58ea982199829e1107ac5a9a544b83100470a2d0cc28fb50ec234cb840"
+  },
+  {
+   "version": "8.0.0",
+   "url": "https://www.unicode.org/Public/8.0.0/ucd/UnicodeData.txt",
+   "bytes": 1621978,
+   "sha256": "38b17e1118206489a7e0ab5d29d7932212d38838df7d3ec025ecb58e8798ec20"
+  },
+  {
+   "version": "9.0.0",
+   "url": "https://www.unicode.org/Public/9.0.0/ucd/UnicodeData.txt",
+   "bytes": 1686443,
+   "sha256": "68dfc414d28257b9b5d6ddbb8b466c768c00ebdf6cbf7784364a9b6cad55ee8f"
+  },
+  {
+   "version": "10.0.0",
+   "url": "https://www.unicode.org/Public/10.0.0/ucd/UnicodeData.txt",
+   "bytes": 1735010,
+   "sha256": "52423e4d7492167b62f518f68d54db88930abbbff7f11edfcaec8f726498cab1"
+  },
+  {
+   "version": "11.0.0",
+   "url": "https://www.unicode.org/Public/11.0.0/ucd/UnicodeData.txt",
+   "bytes": 1769137,
+   "sha256": "4997a3196eb79b4d0d6b8384560f6aeb46a062693f0abd5ba736abbff7976099"
+  },
+  {
+   "version": "12.0.0",
+   "url": "https://www.unicode.org/Public/12.0.0/ucd/UnicodeData.txt",
+   "bytes": 1797715,
+   "sha256": "57913fdb1c1271fa9fd51dea08d49370f33d5bfda6bbaba348f44d90029ea11d"
+  },
+  {
+   "version": "12.1.0",
+   "url": "https://www.unicode.org/Public/12.1.0/ucd/UnicodeData.txt",
+   "bytes": 1797778,
+   "sha256": "93ab1acd8fd9d450463b50ae77eab151a7cda48f98b25b56baed8070f80fc936"
+  },
+  {
+   "version": "13.0.0",
+   "url": "https://www.unicode.org/Public/13.0.0/ucd/UnicodeData.txt",
+   "bytes": 1851767,
+   "sha256": "bdbffbbfc8ad4d3a6d01b5891510458f3d36f7170422af4ea2bed3211a73e8bb"
+  },
+  {
+   "version": "14.0.0",
+   "url": "https://www.unicode.org/Public/14.0.0/ucd/UnicodeData.txt",
+   "bytes": 1897793,
+   "sha256": "36018e68657fdcb3485f636630ffe8c8532e01c977703d2803f5b89d6c5feafb"
+  },
+  {
+   "version": "15.0.0",
+   "url": "https://www.unicode.org/Public/15.0.0/ucd/UnicodeData.txt",
+   "bytes": 1913704,
+   "sha256": "806e9aed65037197f1ec85e12be6e8cd870fc5608b4de0fffd990f689f376a73"
+  },
+  {
+   "version": "15.1.0",
+   "url": "https://www.unicode.org/Public/15.1.0/ucd/UnicodeData.txt",
+   "bytes": 1914200,
+   "sha256": "2fc713e6a31a87c4850a37fe2caffa4218180fadb5de86b43a143ddb4581fb86"
+  },
+  {
+   "version": "16.0.0",
+   "url": "https://www.unicode.org/Public/16.0.0/ucd/UnicodeData.txt",
+   "bytes": 2175362,
+   "sha256": "ff58e5823bd095166564a006e47d111130813dcf8bf234ef79fa51a870edb48f"
+  },
+  {
+   "version": "17.0.0",
+   "url": "https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt",
+   "bytes": 2198209,
+   "sha256": "2e1efc1dcb59c575eedf5ccae60f95229f706ee6d031835247d843c11d96470c"
+  },
+  {
+   "version": "18.0.0",
+   "url": "https://www.unicode.org/Public/18.0.0/ucd/UnicodeData.txt",
+   "bytes": 2243593,
+   "sha256": "0736451de439ae7baf1425136617da495e09ee5afbe6e394374db7009ea08950"
+  },
+  {
+   "version": "current",
+   "url": "https://www.unicode.org/Public/UCD/latest/ucd/NameAliases.txt",
+   "name": "NameAliases.txt",
+   "bytes": 16714,
+   "sha256": "793f6f1e4d15fd90f05ae66460191dc4d75d1fea90136a25f30dd6a4cb950eac"
+  },
+  {
+   "version": "current",
+   "url": "https://www.unicode.org/Public/UCD/latest/ucd/NamesList.txt",
+   "name": "NamesList.txt",
+   "bytes": 2061500,
+   "sha256": "0dcedcb47ab03d71bdd6864dd6224508c5722c9556786b1c65c8d7296cad3af4"
+  },
+  {
+   "version": "current",
+   "url": "https://www.unicode.org/policies/stability_policy.html",
+   "name": "stability_policy.html",
+   "bytes": 44316,
+   "sha256": "075df5adc0b0572fe62c48d83505870ca442272778a041cd17b8927c23a3f113"
+  },
+  {
+   "version": "current",
+   "name": "DerivedAge-latest.txt",
+   "url": "https://www.unicode.org/Public/UCD/latest/ucd/DerivedAge.txt",
+   "bytes": 138286,
+   "sha256": "f8ecdf768bdc210f201abd271d9bc587825618a86a7046a8146cc816393f1998"
+  },
+  {
+   "version": "current",
+   "name": "publicationdates.html",
+   "url": "https://www.unicode.org/history/publicationdates.html",
+   "bytes": 32774,
+   "sha256": "c69d2f5eb9520a128f8facd1776421c19b9039701e57d4330251f3c04f8e503d"
+  },
+  {
+   "version": "current",
+   "name": "HangulReadMe.html",
+   "url": "https://www.unicode.org/Public/MAPPINGS/OBSOLETE/EASTASIA/KSC/HangulReadMe.html",
+   "bytes": 2534,
+   "sha256": "3ea7166b900a8baa35be9747a369c0032cb356c505a56ab098b22aad59e04488",
+   "note": null
+  },
+  {
+   "version": "current",
+   "name": "HANGUL-header.txt",
+   "url": "https://www.unicode.org/Public/MAPPINGS/OBSOLETE/EASTASIA/KSC/HANGUL.TXT",
+   "bytes": 542094,
+   "sha256": "c855b0b66c979fa296b7e996ef08e7a3c5bc530f9f68c865b669e77bc29749bb",
+   "note": "header excerpt committed; hash is of the complete file"
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+NamesList.txt -- extract, Session 54.
+Source: https://www.unicode.org/Public/UCD/latest/ucd/NamesList.txt
+SHA-256 of the full file is in MANIFEST.json. The full file is 2 MB and is a
+public retrievable file; only the characters this work quotes are kept here.
+These are the eleven characters whose chart annotation says, in the standard's
+own words, that the character's name is a mistake or a misnomer.
+
+027F	LATIN SMALL LETTER REVERSED R WITH FISHHOOK
+	= long i with left hook
+	= long leg turned iota (a misnomer)
+	* apical dental vowel
+	* IPA spelling - 007A 0329
+	* this character is not actually a reversed 027E
+	* preferred presentation is with a descender
+@		IPA extensions
+0709	SYRIAC SUBLINEAR COLON SKEWED RIGHT
+	% SYRIAC SUBLINEAR COLON SKEWED LEFT
+	* marks the end of a real or rhetorical question
+	* character name is a misnomer
+0CDE	KANNADA LETTER FA
+	% KANNADA LETTER LLLA
+	* obsolete historic letter
+	* name is a mistake for LLLA
+@		Additional vowels for Sanskrit
+0E9D	LAO LETTER FO TAM
+	% LAO LETTER FO FON
+	= fo fa
+	* name is a mistake for fo sung
+0E9F	LAO LETTER FO SUNG
+	% LAO LETTER FO FAY
+	* name is a mistake for fo tam
+0EA3	LAO LETTER LO LING
+	% LAO LETTER RO
+	= ro rot
+	* name is a mistake, lo ling is the mnemonic for 0EA5
+0EA5	LAO LETTER LO LOOT
+	% LAO LETTER LO
+	= lo ling
+	* name is a mistake, lo loot is the mnemonic for 0EA3
+0F0B	TIBETAN MARK INTERSYLLABIC TSHEG
+	= tsek
+	* morpheme delimiter (approximate meaning)
+	* the normal tsheg; provides a break opportunity
+	* character name is a misnomer
+0F0C	TIBETAN MARK DELIMITER TSHEG BSTAR
+	* a non-breaking tsheg; inhibits line breaking
+	* character name is a misnomer
+	# <noBreak> 0F0B
+1BBD	SUNDANESE LETTER BHA
+	% SUNDANESE LETTER ARCHAIC I
+	* character was originally misidentified, so its name is a misnomer
+A015	YI SYLLABLE WU
+	% YI SYLLABLE ITERATION MARK
+	* name is a misnomer
+@		Syllables

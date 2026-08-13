@@ -1,0 +1,1337 @@
+{
+ "versions": [
+  "1.0.0",
+  "1.0.1",
+  "1.1-Update",
+  "2.0-Update",
+  "2.1-Update",
+  "2.1-Update2",
+  "2.1-Update3",
+  "2.1-Update4",
+  "3.0-Update",
+  "3.0-Update1",
+  "3.1-Update",
+  "3.2-Update",
+  "4.0-Update",
+  "4.0-Update1",
+  "4.1.0",
+  "5.0.0",
+  "5.1.0",
+  "5.2.0",
+  "6.0.0",
+  "6.1.0",
+  "6.2.0",
+  "6.3.0",
+  "7.0.0",
+  "8.0.0",
+  "9.0.0",
+  "10.0.0",
+  "11.0.0",
+  "12.0.0",
+  "12.1.0",
+  "13.0.0",
+  "14.0.0",
+  "15.0.0",
+  "15.1.0",
+  "16.0.0",
+  "17.0.0",
+  "18.0.0"
+ ],
+ "census": [
+  {
+   "version": "1.0.0",
+   "assigned": 12793,
+   "generated_rows": 5632,
+   "individually_named": 7161,
+   "surrogate": 0,
+   "private_use": 4352
+  },
+  {
+   "version": "1.0.1",
+   "assigned": 34759,
+   "generated_rows": 27604,
+   "individually_named": 7155,
+   "surrogate": 0,
+   "private_use": 6400
+  },
+  {
+   "version": "1.1-Update",
+   "assigned": 13030,
+   "generated_rows": 0,
+   "individually_named": 13030,
+   "surrogate": 0,
+   "private_use": 0
+  },
+  {
+   "version": "2.0-Update",
+   "assigned": 47398,
+   "generated_rows": 40824,
+   "individually_named": 6574,
+   "surrogate": 2048,
+   "private_use": 6400
+  },
+  {
+   "version": "2.1-Update",
+   "assigned": 47400,
+   "generated_rows": 40824,
+   "individually_named": 6576,
+   "surrogate": 2048,
+   "private_use": 6400
+  },
+  {
+   "version": "2.1-Update2",
+   "assigned": 47400,
+   "generated_rows": 40522,
+   "individually_named": 6878,
+   "surrogate": 2048,
+   "private_use": 6400
+  },
+  {
+   "version": "2.1-Update3",
+   "assigned": 47400,
+   "generated_rows": 40522,
+   "individually_named": 6878,
+   "surrogate": 2048,
+   "private_use": 6400
+  },
+  {
+   "version": "2.1-Update4",
+   "assigned": 47400,
+   "generated_rows": 40522,
+   "individually_named": 6878,
+   "surrogate": 2048,
+   "private_use": 6400
+  },
+  {
+   "version": "3.0-Update",
+   "assigned": 57707,
+   "generated_rows": 47104,
+   "individually_named": 10603,
+   "surrogate": 2048,
+   "private_use": 6400
+  },
+  {
+   "version": "3.0-Update1",
+   "assigned": 188775,
+   "generated_rows": 178172,
+   "individually_named": 10603,
+   "surrogate": 2048,
+   "private_use": 137468
+  },
+  {
+   "version": "3.1-Update",
+   "assigned": 233721,
+   "generated_rows": 220883,
+   "individually_named": 12838,
+   "surrogate": 2048,
+   "private_use": 137468
+  },
+  {
+   "version": "3.2-Update",
+   "assigned": 234737,
+   "generated_rows": 220883,
+   "individually_named": 13854,
+   "surrogate": 2048,
+   "private_use": 137468
+  },
+  {
+   "version": "4.0-Update",
+   "assigned": 235963,
+   "generated_rows": 220883,
+   "individually_named": 15080,
+   "surrogate": 2048,
+   "private_use": 137468
+  },
+  {
+   "version": "4.0-Update1",
+   "assigned": 235963,
+   "generated_rows": 220883,
+   "individually_named": 15080,
+   "surrogate": 2048,
+   "private_use": 137468
+  },
+  {
+   "version": "4.1.0",
+   "assigned": 237236,
+   "generated_rows": 220905,
+   "individually_named": 16331,
+   "surrogate": 2048,
+   "private_use": 137468
+  },
+  {
+   "version": "5.0.0",
+   "assigned": 238605,
+   "generated_rows": 220905,
+   "individually_named": 17700,
+   "surrogate": 2048,
+   "private_use": 137468
+  },
+  {
+   "version": "5.1.0",
+   "assigned": 240229,
+   "generated_rows": 220913,
+   "individually_named": 19316,
+   "surrogate": 2048,
+   "private_use": 137468
+  },
+  {
+   "version": "5.2.0",
+   "assigned": 246877,
+   "generated_rows": 225070,
+   "individually_named": 21807,
+   "surrogate": 2048,
+   "private_use": 137468
+  },
+  {
+   "version": "6.0.0",
+   "assigned": 248965,
+   "generated_rows": 225292,
+   "individually_named": 23673,
+   "surrogate": 2048,
+   "private_use": 137468
+  },
+  {
+   "version": "6.1.0",
+   "assigned": 249697,
+   "generated_rows": 225293,
+   "individually_named": 24404,
+   "surrogate": 2048,
+   "private_use": 137468
+  },
+  {
+   "version": "6.2.0",
+   "assigned": 249698,
+   "generated_rows": 225293,
+   "individually_named": 24405,
+   "surrogate": 2048,
+   "private_use": 137468
+  },
+  {
+   "version": "6.3.0",
+   "assigned": 249703,
+   "generated_rows": 225293,
+   "individually_named": 24410,
+   "surrogate": 2048,
+   "private_use": 137468
+  },
+  {
+   "version": "7.0.0",
+   "assigned": 252537,
+   "generated_rows": 225293,
+   "individually_named": 27244,
+   "surrogate": 2048,
+   "private_use": 137468
+  },
+  {
+   "version": "8.0.0",
+   "assigned": 260253,
+   "generated_rows": 231064,
+   "individually_named": 29189,
+   "surrogate": 2048,
+   "private_use": 137468
+  },
+  {
+   "version": "9.0.0",
+   "assigned": 267753,
+   "generated_rows": 237189,
+   "individually_named": 30564,
+   "surrogate": 2048,
+   "private_use": 137468
+  },
+  {
+   "version": "10.0.0",
+   "assigned": 276271,
+   "generated_rows": 244683,
+   "individually_named": 31588,
+   "surrogate": 2048,
+   "private_use": 137468
+  },
+  {
+   "version": "11.0.0",
+   "assigned": 276955,
+   "generated_rows": 244693,
+   "individually_named": 32262,
+   "surrogate": 2048,
+   "private_use": 137468
+  },
+  {
+   "version": "12.0.0",
+   "assigned": 277509,
+   "generated_rows": 244699,
+   "individually_named": 32810,
+   "surrogate": 2048,
+   "private_use": 137468
+  },
+  {
+   "version": "12.1.0",
+   "assigned": 277510,
+   "generated_rows": 244699,
+   "individually_named": 32811,
+   "surrogate": 2048,
+   "private_use": 137468
+  },
+  {
+   "version": "13.0.0",
+   "assigned": 283440,
+   "generated_rows": 249677,
+   "individually_named": 33763,
+   "surrogate": 2048,
+   "private_use": 137468
+  },
+  {
+   "version": "14.0.0",
+   "assigned": 284278,
+   "generated_rows": 249686,
+   "individually_named": 34592,
+   "surrogate": 2048,
+   "private_use": 137468
+  },
+  {
+   "version": "15.0.0",
+   "assigned": 288767,
+   "generated_rows": 253879,
+   "individually_named": 34888,
+   "surrogate": 2048,
+   "private_use": 137468
+  },
+  {
+   "version": "15.1.0",
+   "assigned": 289394,
+   "generated_rows": 254501,
+   "individually_named": 34893,
+   "surrogate": 2048,
+   "private_use": 137468
+  },
+  {
+   "version": "16.0.0",
+   "assigned": 294579,
+   "generated_rows": 254501,
+   "individually_named": 40078,
+   "surrogate": 2048,
+   "private_use": 137468
+  },
+  {
+   "version": "17.0.0",
+   "assigned": 299382,
+   "generated_rows": 258847,
+   "individually_named": 40535,
+   "surrogate": 2048,
+   "private_use": 137468
+  },
+  {
+   "version": "18.0.0",
+   "assigned": 312389,
+   "generated_rows": 271092,
+   "individually_named": 41297,
+   "surrogate": 2048,
+   "private_use": 137468
+  }
+ ],
+ "transitions": [
+  {
+   "from": "1.0.0",
+   "to": "1.0.1",
+   "withdrawn_raw": 984,
+   "withdrawn_masked_cjk": 984,
+   "added": 22950,
+   "renamed": 1
+  },
+  {
+   "from": "1.0.1",
+   "to": "1.1-Update",
+   "withdrawn_raw": 27698,
+   "withdrawn_masked_cjk": 6797,
+   "added": 5969,
+   "renamed": 1929
+  },
+  {
+   "from": "1.1-Update",
+   "to": "2.0-Update",
+   "withdrawn_raw": 6656,
+   "withdrawn_masked_cjk": 6656,
+   "added": 41024,
+   "renamed": 6
+  },
+  {
+   "from": "2.0-Update",
+   "to": "2.1-Update",
+   "withdrawn_raw": 0,
+   "withdrawn_masked_cjk": 0,
+   "added": 2,
+   "renamed": 0
+  },
+  {
+   "from": "2.1-Update",
+   "to": "2.1-Update2",
+   "withdrawn_raw": 0,
+   "withdrawn_masked_cjk": 0,
+   "added": 0,
+   "renamed": 0
+  },
+  {
+   "from": "2.1-Update2",
+   "to": "2.1-Update3",
+   "withdrawn_raw": 0,
+   "withdrawn_masked_cjk": 0,
+   "added": 0,
+   "renamed": 0
+  },
+  {
+   "from": "2.1-Update3",
+   "to": "2.1-Update4",
+   "withdrawn_raw": 0,
+   "withdrawn_masked_cjk": 0,
+   "added": 0,
+   "renamed": 0
+  },
+  {
+   "from": "2.1-Update4",
+   "to": "3.0-Update",
+   "withdrawn_raw": 0,
+   "withdrawn_masked_cjk": 0,
+   "added": 10307,
+   "renamed": 0
+  },
+  {
+   "from": "3.0-Update",
+   "to": "3.0-Update1",
+   "withdrawn_raw": 0,
+   "withdrawn_masked_cjk": 0,
+   "added": 131068,
+   "renamed": 0
+  },
+  {
+   "from": "3.0-Update1",
+   "to": "3.1-Update",
+   "withdrawn_raw": 0,
+   "withdrawn_masked_cjk": 0,
+   "added": 44946,
+   "renamed": 0
+  },
+  {
+   "from": "3.1-Update",
+   "to": "3.2-Update",
+   "withdrawn_raw": 0,
+   "withdrawn_masked_cjk": 0,
+   "added": 1016,
+   "renamed": 0
+  },
+  {
+   "from": "3.2-Update",
+   "to": "4.0-Update",
+   "withdrawn_raw": 0,
+   "withdrawn_masked_cjk": 0,
+   "added": 1226,
+   "renamed": 0
+  },
+  {
+   "from": "4.0-Update",
+   "to": "4.0-Update1",
+   "withdrawn_raw": 0,
+   "withdrawn_masked_cjk": 0,
+   "added": 0,
+   "renamed": 2
+  },
+  {
+   "from": "4.0-Update1",
+   "to": "4.1.0",
+   "withdrawn_raw": 0,
+   "withdrawn_masked_cjk": 0,
+   "added": 1273,
+   "renamed": 0
+  },
+  {
+   "from": "4.1.0",
+   "to": "5.0.0",
+   "withdrawn_raw": 0,
+   "withdrawn_masked_cjk": 0,
+   "added": 1369,
+   "renamed": 0
+  },
+  {
+   "from": "5.0.0",
+   "to": "5.1.0",
+   "withdrawn_raw": 0,
+   "withdrawn_masked_cjk": 0,
+   "added": 1624,
+   "renamed": 0
+  },
+  {
+   "from": "5.1.0",
+   "to": "5.2.0",
+   "withdrawn_raw": 0,
+   "withdrawn_masked_cjk": 0,
+   "added": 6648,
+   "renamed": 0
+  },
+  {
+   "from": "5.2.0",
+   "to": "6.0.0",
+   "withdrawn_raw": 0,
+   "withdrawn_masked_cjk": 0,
+   "added": 2088,
+   "renamed": 0
+  },
+  {
+   "from": "6.0.0",
+   "to": "6.1.0",
+   "withdrawn_raw": 0,
+   "withdrawn_masked_cjk": 0,
+   "added": 732,
+   "renamed": 0
+  },
+  {
+   "from": "6.1.0",
+   "to": "6.2.0",
+   "withdrawn_raw": 0,
+   "withdrawn_masked_cjk": 0,
+   "added": 1,
+   "renamed": 0
+  },
+  {
+   "from": "6.2.0",
+   "to": "6.3.0",
+   "withdrawn_raw": 0,
+   "withdrawn_masked_cjk": 0,
+   "added": 5,
+   "renamed": 0
+  },
+  {
+   "from": "6.3.0",
+   "to": "7.0.0",
+   "withdrawn_raw": 0,
+   "withdrawn_masked_cjk": 0,
+   "added": 2834,
+   "renamed": 0
+  },
+  {
+   "from": "7.0.0",
+   "to": "8.0.0",
+   "withdrawn_raw": 0,
+   "withdrawn_masked_cjk": 0,
+   "added": 7716,
+   "renamed": 0
+  },
+  {
+   "from": "8.0.0",
+   "to": "9.0.0",
+   "withdrawn_raw": 0,
+   "withdrawn_masked_cjk": 0,
+   "added": 7500,
+   "renamed": 0
+  },
+  {
+   "from": "9.0.0",
+   "to": "10.0.0",
+   "withdrawn_raw": 0,
+   "withdrawn_masked_cjk": 0,
+   "added": 8518,
+   "renamed": 0
+  },
+  {
+   "from": "10.0.0",
+   "to": "11.0.0",
+   "withdrawn_raw": 0,
+   "withdrawn_masked_cjk": 0,
+   "added": 684,
+   "renamed": 0
+  },
+  {
+   "from": "11.0.0",
+   "to": "12.0.0",
+   "withdrawn_raw": 0,
+   "withdrawn_masked_cjk": 0,
+   "added": 554,
+   "renamed": 0
+  },
+  {
+   "from": "12.0.0",
+   "to": "12.1.0",
+   "withdrawn_raw": 0,
+   "withdrawn_masked_cjk": 0,
+   "added": 1,
+   "renamed": 0
+  },
+  {
+   "from": "12.1.0",
+   "to": "13.0.0",
+   "withdrawn_raw": 0,
+   "withdrawn_masked_cjk": 0,
+   "added": 5930,
+   "renamed": 0
+  },
+  {
+   "from": "13.0.0",
+   "to": "14.0.0",
+   "withdrawn_raw": 0,
+   "withdrawn_masked_cjk": 0,
+   "added": 838,
+   "renamed": 0
+  },
+  {
+   "from": "14.0.0",
+   "to": "15.0.0",
+   "withdrawn_raw": 0,
+   "withdrawn_masked_cjk": 0,
+   "added": 4489,
+   "renamed": 0
+  },
+  {
+   "from": "15.0.0",
+   "to": "15.1.0",
+   "withdrawn_raw": 0,
+   "withdrawn_masked_cjk": 0,
+   "added": 627,
+   "renamed": 0
+  },
+  {
+   "from": "15.1.0",
+   "to": "16.0.0",
+   "withdrawn_raw": 0,
+   "withdrawn_masked_cjk": 0,
+   "added": 5185,
+   "renamed": 0
+  },
+  {
+   "from": "16.0.0",
+   "to": "17.0.0",
+   "withdrawn_raw": 0,
+   "withdrawn_masked_cjk": 0,
+   "added": 4803,
+   "renamed": 0
+  },
+  {
+   "from": "17.0.0",
+   "to": "18.0.0",
+   "withdrawn_raw": 0,
+   "withdrawn_masked_cjk": 0,
+   "added": 13007,
+   "renamed": 0
+  }
+ ],
+ "withdrawals": {
+  "total_raw": 35338,
+  "total_excluding_cjk_hole": 14437,
+  "reoccupied": 14332,
+  "still_empty": 105,
+  "by_last_seen": {
+   "1.0.1": 6797,
+   "1.0.0": 984,
+   "1.1-Update": 6656
+  }
+ },
+ "reoccupied": [
+  {
+   "cp": "U+0370",
+   "was": "GREEK NON-SPACING IOTA BELOW",
+   "vacated_after": "1.0.1",
+   "now": "GREEK CAPITAL LETTER HETA"
+  },
+  {
+   "cp": "U+0371",
+   "was": "GREEK NON-SPACING DASIA PNEUMATA",
+   "vacated_after": "1.0.1",
+   "now": "GREEK SMALL LETTER HETA"
+  },
+  {
+   "cp": "U+0372",
+   "was": "GREEK NON-SPACING PSILI PNEUMATA",
+   "vacated_after": "1.0.1",
+   "now": "GREEK CAPITAL LETTER ARCHAIC SAMPI"
+  },
+  {
+   "cp": "U+03D7",
+   "was": "GREEK QUESTION MARK",
+   "vacated_after": "1.0.1",
+   "now": "GREEK KAI SYMBOL"
+  },
+  {
+   "cp": "U+03D8",
+   "was": "GREEK UPPER NUMERAL SIGN",
+   "vacated_after": "1.0.1",
+   "now": "GREEK LETTER ARCHAIC KOPPA"
+  },
+  {
+   "cp": "U+03D9",
+   "was": "GREEK LOWER NUMERAL SIGN",
+   "vacated_after": "1.0.1",
+   "now": "GREEK SMALL LETTER ARCHAIC KOPPA"
+  },
+  {
+   "cp": "U+03DB",
+   "was": "GREEK SMALL LETTER STIGMA",
+   "vacated_after": "1.0.1",
+   "now": "GREEK SMALL LETTER STIGMA"
+  },
+  {
+   "cp": "U+03DD",
+   "was": "GREEK SMALL LETTER DIGAMMA",
+   "vacated_after": "1.0.1",
+   "now": "GREEK SMALL LETTER DIGAMMA"
+  },
+  {
+   "cp": "U+03DF",
+   "was": "GREEK SMALL LETTER KOPPA",
+   "vacated_after": "1.0.1",
+   "now": "GREEK SMALL LETTER KOPPA"
+  },
+  {
+   "cp": "U+03E1",
+   "was": "GREEK SMALL LETTER SAMPI",
+   "vacated_after": "1.0.1",
+   "now": "GREEK SMALL LETTER SAMPI"
+  },
+  {
+   "cp": "U+03F4",
+   "was": "GREEK SPACING DIAERESIS TONOS",
+   "vacated_after": "1.0.1",
+   "now": "GREEK CAPITAL THETA SYMBOL"
+  },
+  {
+   "cp": "U+03F5",
+   "was": "GREEK SPACING IOTA BELOW",
+   "vacated_after": "1.0.1",
+   "now": "GREEK LUNATE EPSILON SYMBOL"
+  },
+  {
+   "cp": "U+04C5",
+   "was": "CYRILLIC CAPITAL LETTER KA OGONEK",
+   "vacated_after": "1.0.0",
+   "now": "CYRILLIC CAPITAL LETTER EL WITH TAIL"
+  },
+  {
+   "cp": "U+04C6",
+   "was": "CYRILLIC SMALL LETTER KA OGONEK",
+   "vacated_after": "1.0.0",
+   "now": "CYRILLIC SMALL LETTER EL WITH TAIL"
+  },
+  {
+   "cp": "U+04C9",
+   "was": "CYRILLIC CAPITAL LETTER KHA OGONEK",
+   "vacated_after": "1.0.0",
+   "now": "CYRILLIC CAPITAL LETTER EN WITH TAIL"
+  },
+  {
+   "cp": "U+04CA",
+   "was": "CYRILLIC SMALL LETTER KHA OGONEK",
+   "vacated_after": "1.0.0",
+   "now": "CYRILLIC SMALL LETTER EN WITH TAIL"
+  },
+  {
+   "cp": "U+1000",
+   "was": "TIBETAN LETTER KA",
+   "vacated_after": "1.0.1",
+   "now": "MYANMAR LETTER KA"
+  },
+  {
+   "cp": "U+1001",
+   "was": "TIBETAN LETTER KHA",
+   "vacated_after": "1.0.1",
+   "now": "MYANMAR LETTER KHA"
+  },
+  {
+   "cp": "U+1002",
+   "was": "TIBETAN LETTER GA",
+   "vacated_after": "1.0.1",
+   "now": "MYANMAR LETTER GA"
+  },
+  {
+   "cp": "U+1003",
+   "was": "TIBETAN LETTER NGA",
+   "vacated_after": "1.0.1",
+   "now": "MYANMAR LETTER GHA"
+  },
+  {
+   "cp": "U+1004",
+   "was": "TIBETAN LETTER CA",
+   "vacated_after": "1.0.1",
+   "now": "MYANMAR LETTER NGA"
+  },
+  {
+   "cp": "U+1005",
+   "was": "TIBETAN LETTER CHA",
+   "vacated_after": "1.0.1",
+   "now": "MYANMAR LETTER CA"
+  },
+  {
+   "cp": "U+1006",
+   "was": "TIBETAN LETTER JA",
+   "vacated_after": "1.0.1",
+   "now": "MYANMAR LETTER CHA"
+  },
+  {
+   "cp": "U+1007",
+   "was": "TIBETAN LETTER NYA",
+   "vacated_after": "1.0.1",
+   "now": "MYANMAR LETTER JA"
+  },
+  {
+   "cp": "U+1008",
+   "was": "TIBETAN LETTER REVERSED TA",
+   "vacated_after": "1.0.1",
+   "now": "MYANMAR LETTER JHA"
+  },
+  {
+   "cp": "U+1009",
+   "was": "TIBETAN LETTER REVERSED THA",
+   "vacated_after": "1.0.1",
+   "now": "MYANMAR LETTER NYA"
+  },
+  {
+   "cp": "U+100A",
+   "was": "TIBETAN LETTER REVERSED DA",
+   "vacated_after": "1.0.1",
+   "now": "MYANMAR LETTER NNYA"
+  },
+  {
+   "cp": "U+100B",
+   "was": "TIBETAN LETTER REVERSED NA",
+   "vacated_after": "1.0.1",
+   "now": "MYANMAR LETTER TTA"
+  },
+  {
+   "cp": "U+100C",
+   "was": "TIBETAN LETTER TA",
+   "vacated_after": "1.0.1",
+   "now": "MYANMAR LETTER TTHA"
+  },
+  {
+   "cp": "U+100D",
+   "was": "TIBETAN LETTER THA",
+   "vacated_after": "1.0.1",
+   "now": "MYANMAR LETTER DDA"
+  },
+  {
+   "cp": "U+100E",
+   "was": "TIBETAN LETTER DA",
+   "vacated_after": "1.0.1",
+   "now": "MYANMAR LETTER DDHA"
+  },
+  {
+   "cp": "U+100F",
+   "was": "TIBETAN LETTER NA",
+   "vacated_after": "1.0.1",
+   "now": "MYANMAR LETTER NNA"
+  },
+  {
+   "cp": "U+1010",
+   "was": "TIBETAN LETTER PA",
+   "vacated_after": "1.0.1",
+   "now": "MYANMAR LETTER TA"
+  },
+  {
+   "cp": "U+1011",
+   "was": "TIBETAN LETTER PHA",
+   "vacated_after": "1.0.1",
+   "now": "MYANMAR LETTER THA"
+  },
+  {
+   "cp": "U+1012",
+   "was": "TIBETAN LETTER BA",
+   "vacated_after": "1.0.1",
+   "now": "MYANMAR LETTER DA"
+  },
+  {
+   "cp": "U+1013",
+   "was": "TIBETAN LETTER MA",
+   "vacated_after": "1.0.1",
+   "now": "MYANMAR LETTER DHA"
+  },
+  {
+   "cp": "U+1014",
+   "was": "TIBETAN LETTER TSA",
+   "vacated_after": "1.0.1",
+   "now": "MYANMAR LETTER NA"
+  },
+  {
+   "cp": "U+1015",
+   "was": "TIBETAN LETTER TSHA",
+   "vacated_after": "1.0.1",
+   "now": "MYANMAR LETTER PA"
+  },
+  {
+   "cp": "U+1016",
+   "was": "TIBETAN LETTER DZA",
+   "vacated_after": "1.0.1",
+   "now": "MYANMAR LETTER PHA"
+  },
+  {
+   "cp": "U+1017",
+   "was": "TIBETAN LETTER WA",
+   "vacated_after": "1.0.1",
+   "now": "MYANMAR LETTER BA"
+  }
+ ],
+ "renames": [
+  {
+   "from": "1.0.0",
+   "to": "1.0.1",
+   "count": 1,
+   "sample": [
+    {
+     "cp": "U+FEFF",
+     "was": "BYTE ORDER MARK",
+     "now": "ZERO WIDTH NO-BREAK SPACE"
+    }
+   ]
+  },
+  {
+   "from": "1.0.1",
+   "to": "1.1-Update",
+   "count": 1929,
+   "sample": [
+    {
+     "cp": "U+0027",
+     "was": "APOSTROPHE-QUOTE",
+     "now": "APOSTROPHE"
+    },
+    {
+     "cp": "U+0028",
+     "was": "OPENING PARENTHESIS",
+     "now": "LEFT PARENTHESIS"
+    },
+    {
+     "cp": "U+0029",
+     "was": "CLOSING PARENTHESIS",
+     "now": "RIGHT PARENTHESIS"
+    },
+    {
+     "cp": "U+002E",
+     "was": "PERIOD",
+     "now": "FULL STOP"
+    },
+    {
+     "cp": "U+002F",
+     "was": "SLASH",
+     "now": "SOLIDUS"
+    },
+    {
+     "cp": "U+005B",
+     "was": "OPENING SQUARE BRACKET",
+     "now": "LEFT SQUARE BRACKET"
+    },
+    {
+     "cp": "U+005C",
+     "was": "BACKSLASH",
+     "now": "REVERSE SOLIDUS"
+    },
+    {
+     "cp": "U+005D",
+     "was": "CLOSING SQUARE BRACKET",
+     "now": "RIGHT SQUARE BRACKET"
+    },
+    {
+     "cp": "U+005E",
+     "was": "SPACING CIRCUMFLEX",
+     "now": "CIRCUMFLEX ACCENT"
+    },
+    {
+     "cp": "U+005F",
+     "was": "SPACING UNDERSCORE",
+     "now": "LOW LINE"
+    },
+    {
+     "cp": "U+0060",
+     "was": "SPACING GRAVE",
+     "now": "GRAVE ACCENT"
+    },
+    {
+     "cp": "U+007B",
+     "was": "OPENING CURLY BRACKET",
+     "now": "LEFT CURLY BRACKET"
+    }
+   ]
+  },
+  {
+   "from": "1.1-Update",
+   "to": "2.0-Update",
+   "count": 6,
+   "sample": [
+    {
+     "cp": "U+00C6",
+     "was": "LATIN CAPITAL LIGATURE AE",
+     "now": "LATIN CAPITAL LETTER AE"
+    },
+    {
+     "cp": "U+00E6",
+     "was": "LATIN SMALL LIGATURE AE",
+     "now": "LATIN SMALL LETTER AE"
+    },
+    {
+     "cp": "U+01E2",
+     "was": "LATIN CAPITAL LIGATURE AE WITH MACRON",
+     "now": "LATIN CAPITAL LETTER AE WITH MACRON"
+    },
+    {
+     "cp": "U+01E3",
+     "was": "LATIN SMALL LIGATURE AE WITH MACRON",
+     "now": "LATIN SMALL LETTER AE WITH MACRON"
+    },
+    {
+     "cp": "U+01FC",
+     "was": "LATIN CAPITAL LIGATURE AE WITH ACUTE",
+     "now": "LATIN CAPITAL LETTER AE WITH ACUTE"
+    },
+    {
+     "cp": "U+01FD",
+     "was": "LATIN SMALL LIGATURE AE WITH ACUTE",
+     "now": "LATIN SMALL LETTER AE WITH ACUTE"
+    }
+   ]
+  },
+  {
+   "from": "4.0-Update",
+   "to": "4.0-Update1",
+   "count": 2,
+   "sample": [
+    {
+     "cp": "U+02AE",
+     "was": "LATIN SMALL LETTER TURNED H WITH FISHHOOK ",
+     "now": "LATIN SMALL LETTER TURNED H WITH FISHHOOK"
+    },
+    {
+     "cp": "U+0615",
+     "was": "ARABIC SMALL HIGH TAH ",
+     "now": "ARABIC SMALL HIGH TAH"
+    }
+   ]
+  }
+ ],
+ "vacated_runs": {
+  "1.0.0": [
+   {
+    "range": "U+FA2E..U+FDFF",
+    "count": 978,
+    "was": "<Private Use>",
+    "today": "CJK COMPATIBILITY IDEOGRAPH-FA2E"
+   }
+  ],
+  "1.0.0__runs_total": 4,
+  "1.0.1": [
+   {
+    "range": "U+1000..U+1022",
+    "count": 35,
+    "was": "TIBETAN LETTER KA",
+    "today": "MYANMAR LETTER KA"
+   },
+   {
+    "range": "U+1033..U+103E",
+    "count": 12,
+    "was": "TIBETAN SINGLE ORNAMENT",
+    "today": "MYANMAR VOWEL SIGN MON II"
+   },
+   {
+    "range": "U+1040..U+104C",
+    "count": 13,
+    "was": "TIBETAN DIGIT ZERO",
+    "today": "MYANMAR DIGIT ZERO"
+   },
+   {
+    "range": "U+E000..U+FA2D",
+    "count": 6702,
+    "was": "<Private Use>",
+    "today": "<Private Use>"
+   }
+  ],
+  "1.0.1__runs_total": 17,
+  "1.1-Update": [
+   {
+    "range": "U+3400..U+4DFF",
+    "count": 6656,
+    "was": "HANGUL SYLLABLE KIYEOK A",
+    "today": "<CJK Ideograph Extension A>"
+   }
+  ],
+  "1.1-Update__runs_total": 1
+ },
+ "withdrawal_ledger": {
+  "1.0.0": {
+   "total": 6,
+   "by_script": {
+    "CYRILLIC": 4,
+    "APL": 2
+   },
+   "occupied_today": 6,
+   "still_empty": 0
+  },
+  "1.0.1": {
+   "total": 397,
+   "by_script": {
+    "GREEK": 12,
+    "HEBREW": 1,
+    "THAI": 5,
+    "LAO": 5,
+    "TIBETAN": 71,
+    "JAPANESE": 1,
+    "CJK": 302
+   },
+   "occupied_today": 386,
+   "still_empty": 11
+  },
+  "1.1-Update": {
+   "total": 6656,
+   "by_script": {
+    "HANGUL": 6656
+   },
+   "occupied_today": 6656,
+   "still_empty": 0
+  }
+ },
+ "withdrawal_ledger_total": 7059,
+ "name_aliases": {
+  "abbreviation": 354,
+  "alternate": 1,
+  "control": 84,
+  "correction": 39,
+  "figment": 3
+ },
+ "corrections": [
+  {
+   "cp": "U+01A2",
+   "alias": "LATIN CAPITAL LETTER GHA"
+  },
+  {
+   "cp": "U+01A3",
+   "alias": "LATIN SMALL LETTER GHA"
+  },
+  {
+   "cp": "U+0616",
+   "alias": "ARABIC SMALL HIGH LIGATURE ALEF WITH YEH BARREE"
+  },
+  {
+   "cp": "U+0709",
+   "alias": "SYRIAC SUBLINEAR COLON SKEWED LEFT"
+  },
+  {
+   "cp": "U+0CDE",
+   "alias": "KANNADA LETTER LLLA"
+  },
+  {
+   "cp": "U+0E9D",
+   "alias": "LAO LETTER FO FON"
+  },
+  {
+   "cp": "U+0E9F",
+   "alias": "LAO LETTER FO FAY"
+  },
+  {
+   "cp": "U+0EA3",
+   "alias": "LAO LETTER RO"
+  },
+  {
+   "cp": "U+0EA5",
+   "alias": "LAO LETTER LO"
+  },
+  {
+   "cp": "U+0FD0",
+   "alias": "TIBETAN MARK BKA- SHOG GI MGO RGYAN"
+  },
+  {
+   "cp": "U+11EC",
+   "alias": "HANGUL JONGSEONG YESIEUNG-KIYEOK"
+  },
+  {
+   "cp": "U+11ED",
+   "alias": "HANGUL JONGSEONG YESIEUNG-SSANGKIYEOK"
+  },
+  {
+   "cp": "U+11EE",
+   "alias": "HANGUL JONGSEONG SSANGYESIEUNG"
+  },
+  {
+   "cp": "U+11EF",
+   "alias": "HANGUL JONGSEONG YESIEUNG-KHIEUKH"
+  },
+  {
+   "cp": "U+1BBD",
+   "alias": "SUNDANESE LETTER ARCHAIC I"
+  },
+  {
+   "cp": "U+2118",
+   "alias": "WEIERSTRASS ELLIPTIC FUNCTION"
+  },
+  {
+   "cp": "U+2448",
+   "alias": "MICR ON US SYMBOL"
+  },
+  {
+   "cp": "U+2449",
+   "alias": "MICR DASH SYMBOL"
+  },
+  {
+   "cp": "U+2B7A",
+   "alias": "LEFTWARDS TRIANGLE-HEADED ARROW WITH DOUBLE VERTICAL STROKE"
+  },
+  {
+   "cp": "U+2B7C",
+   "alias": "RIGHTWARDS TRIANGLE-HEADED ARROW WITH DOUBLE VERTICAL STROKE"
+  },
+  {
+   "cp": "U+A015",
+   "alias": "YI SYLLABLE ITERATION MARK"
+  },
+  {
+   "cp": "U+AA6E",
+   "alias": "MYANMAR LETTER KHAMTI LLA"
+  },
+  {
+   "cp": "U+FE18",
+   "alias": "PRESENTATION FORM FOR VERTICAL RIGHT WHITE LENTICULAR BRACKET"
+  },
+  {
+   "cp": "U+122D4",
+   "alias": "CUNEIFORM SIGN NU11 TENU"
+  },
+  {
+   "cp": "U+122D5",
+   "alias": "CUNEIFORM SIGN NU11 OVER NU11 BUR OVER BUR"
+  },
+  {
+   "cp": "U+12327",
+   "alias": "CUNEIFORM SIGN KALAM"
+  },
+  {
+   "cp": "U+1680B",
+   "alias": "BAMUM LETTER PHASE-A MAEMGBIEE"
+  },
+  {
+   "cp": "U+16881",
+   "alias": "BAMUM LETTER PHASE-B PUNGGAAM"
+  },
+  {
+   "cp": "U+1688E",
+   "alias": "BAMUM LETTER PHASE-B NGGOM"
+  },
+  {
+   "cp": "U+168DC",
+   "alias": "BAMUM LETTER PHASE-C SHETFON"
+  },
+  {
+   "cp": "U+1697D",
+   "alias": "BAMUM LETTER PHASE-E NGGOP"
+  },
+  {
+   "cp": "U+16E56",
+   "alias": "MEDEFAIDRIN CAPITAL LETTER H"
+  },
+  {
+   "cp": "U+16E57",
+   "alias": "MEDEFAIDRIN CAPITAL LETTER NG"
+  },
+  {
+   "cp": "U+16E76",
+   "alias": "MEDEFAIDRIN SMALL LETTER H"
+  },
+  {
+   "cp": "U+16E77",
+   "alias": "MEDEFAIDRIN SMALL LETTER NG"
+  },
+  {
+   "cp": "U+1B001",
+   "alias": "HENTAIGANA LETTER E-1"
+  },
+  {
+   "cp": "U+1D0C5",
+   "alias": "BYZANTINE MUSICAL SYMBOL FTHORA SKLIRON CHROMA VASIS"
+  },
+  {
+   "cp": "U+1E899",
+   "alias": "MENDE KIKAKUI SYLLABLE M172 MBO"
+  },
+  {
+   "cp": "U+1E89A",
+   "alias": "MENDE KIKAKUI SYLLABLE M174 MBOO"
+  }
+ ],
+ "nameslist": {
+  "annotations_by_mark": {
+   "*": 8814,
+   "=": 2725,
+   "x": 4304,
+   "#": 3833,
+   ":": 2081,
+   "%": 40
+  },
+  "total": 21797,
+  "name_commentary_wide": {
+   "count": 33
+  }
+ },
+ "misnomer_notes": {
+  "count": 11,
+  "characters": [
+   "U+027F",
+   "U+0709",
+   "U+0CDE",
+   "U+0E9D",
+   "U+0E9F",
+   "U+0EA3",
+   "U+0EA5",
+   "U+0F0B",
+   "U+0F0C",
+   "U+1BBD",
+   "U+A015"
+  ],
+  "lines": [
+   {
+    "cp": "U+027F",
+    "note": "long leg turned iota (a misnomer)"
+   },
+   {
+    "cp": "U+0709",
+    "note": "character name is a misnomer"
+   },
+   {
+    "cp": "U+0CDE",
+    "note": "name is a mistake for LLLA"
+   },
+   {
+    "cp": "U+0E9D",
+    "note": "name is a mistake for fo sung"
+   },
+   {
+    "cp": "U+0E9F",
+    "note": "name is a mistake for fo tam"
+   },
+   {
+    "cp": "U+0EA3",
+    "note": "name is a mistake, lo ling is the mnemonic for 0EA5"
+   },
+   {
+    "cp": "U+0EA5",
+    "note": "name is a mistake, lo loot is the mnemonic for 0EA3"
+   },
+   {
+    "cp": "U+0F0B",
+    "note": "character name is a misnomer"
+   },
+   {
+    "cp": "U+0F0C",
+    "note": "character name is a misnomer"
+   },
+   {
+    "cp": "U+1BBD",
+    "note": "character was originally misidentified, so its name is a misnomer"
+   },
+   {
+    "cp": "U+A015",
+    "note": "name is a misnomer"
+   }
+  ],
+  "with_formal_alias": [
+   "U+0709",
+   "U+0CDE",
+   "U+0E9D",
+   "U+0E9F",
+   "U+0EA3",
+   "U+0EA5",
+   "U+1BBD",
+   "U+A015"
+  ],
+  "without_formal_alias": [
+   "U+027F",
+   "U+0F0B",
+   "U+0F0C"
+  ]
+ }
+}

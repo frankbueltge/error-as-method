@@ -1,0 +1,49 @@
+Korean Hangul Encoding Conversion Table
+
+---------------------------------------------------------------------------
+Date   : Oct 04, 1995
+Author : K.D.Chang    <a-kchang@microsoft.com>
+         In Sook Choi <ischoi@microsoft.com>
+         Jung Ho Kim  <junghok@microsoft.com>
+---------------------------------------------------------------------------
+
+Column 2 : Wansung (KSC 5601-1987)
+               LeadByte  = 0xA1 - 0xFE   with   TrailByte = 0xA1 - 0xFE
+
+Column 3 : Unified Hangul
+           include 2,350 characters same as Wansung
+             LeadByte = 0xA1 - 0xFE   with   TrailByte = 0xA1 - 0xFE
+           plus    8,822 characters :
+             LeadByte = 0x81 - 0xA0   with   TrialByte = 0x41 - 0x5A, 0x61 - 0x7A, 0x81 - 0xFE
+             LeadByte = 0xA1 - 0xC6   with   TrialByte = 0x41 - 0x5A, 0x61 - 0x7A, 0x81 - 0xA0
+
+Column 4 : Johab (KSC 5601-1992)
+
+Column 5 : Unicode 1.0
+            2,350 : Hangul                   U+3400 - U+3D3D
+
+Column 6 : Unicode 1.1
+            2,350 : Hangul                   U+3400 - U+3D3D
+            1,930 : Hangul Supplementry-A    U+3D2E - U+44B7
+            2,376 : Hangul Supplementry-B    U+44BE - U+4dFF
+
+Column 7 : Unicode 2.0
+           11,172 : Hangul                   U+AC00 - U+D7A3
+
+---------------------------------------------------------------------------
+	WSung	UHang	Johab	Unicode
+				1.0	1.1	2.0
+-----	-----	-----	-----	-----	------	------
+Count	2350	11172	11172	2350	6656	11172	Hangul Syllable
+=====	=====	=====	=====	=====	=====	=====	===================
+1	B0A1	B0A1	8861	3400	3400	AC00	KIYEOK A
+2	B0A2	B0A2	8862	3401	3401	AC01	KIYEOK A KIYEOK
+3	-	8141	8863	-	3D2E	AC02	KIYEOK A SSANGKIYEOK
+4	-	8142	8864	-	44BE	AC03	KIYEOK A KIYEOKSIOS
+5	B0A3	B0A3	8865	3402	3402	AC04	KIYEOK A NIEUN
+6	-	8143	8866	-	44BF	AC05	KIYEOK A NIEUNCIEUC
+7	-	8144	8867	-	44C0	AC06	KIYEOK A NIEUNHIEUH
+8	B0A4	B0A4	8868	3403	3403	AC07	KIYEOK A TIKEUT
+
+... the remaining 540197 bytes of HANGUL.TXT (11,172 mapping rows) are not copied here.
+SHA-256 above is of the COMPLETE file as served.

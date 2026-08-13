@@ -1,0 +1,156 @@
+{
+ "note": "Release dates as published by the Unicode Consortium. Parsed from the 'Dates for Each Release of the Unicode Standard' table.",
+ "releases": {
+  "1.0.0": {
+   "month": "October",
+   "year": 1991
+  },
+  "1.0.1": {
+   "month": "June",
+   "year": 1992
+  },
+  "1.1.0": {
+   "month": "June",
+   "year": 1993
+  },
+  "1.1.5": {
+   "month": "July",
+   "year": 1995
+  },
+  "10.0.0": {
+   "month": "June 20",
+   "year": 2017
+  },
+  "11.0.0": {
+   "month": "June 5",
+   "year": 2018
+  },
+  "12.0.0": {
+   "month": "March 5",
+   "year": 2019
+  },
+  "12.1.0": {
+   "month": "May 7",
+   "year": 2019
+  },
+  "13.0.0": {
+   "month": "March 10",
+   "year": 2020
+  },
+  "14.0.0": {
+   "month": "September 14",
+   "year": 2021
+  },
+  "15.0.0": {
+   "month": "September 13",
+   "year": 2022
+  },
+  "15.1.0": {
+   "month": "September 12",
+   "year": 2023
+  },
+  "16.0.0": {
+   "month": "September 10",
+   "year": 2024
+  },
+  "17.0.0": {
+   "month": "September 9",
+   "year": 2025
+  },
+  "2.0.0": {
+   "month": "July",
+   "year": 1996
+  },
+  "2.1.2": {
+   "month": "May",
+   "year": 1998
+  },
+  "2.1.5": {
+   "month": "August",
+   "year": 1998
+  },
+  "2.1.8": {
+   "month": "December",
+   "year": 1998
+  },
+  "2.1.9": {
+   "month": "April",
+   "year": 1999
+  },
+  "3.0.0": {
+   "month": "September",
+   "year": 1999
+  },
+  "3.0.1": {
+   "month": "August",
+   "year": 2000
+  },
+  "3.1.0": {
+   "month": "March",
+   "year": 2001
+  },
+  "3.1.1": {
+   "month": "August",
+   "year": 2001
+  },
+  "3.2.0": {
+   "month": "March",
+   "year": 2002
+  },
+  "4.0.0": {
+   "month": "April",
+   "year": 2003
+  },
+  "4.0.1": {
+   "month": "March",
+   "year": 2004
+  },
+  "4.1.0": {
+   "month": "March 31",
+   "year": 2005
+  },
+  "5.0.0": {
+   "month": "July 14",
+   "year": 2006
+  },
+  "5.1.0": {
+   "month": "April 4",
+   "year": 2008
+  },
+  "5.2.0": {
+   "month": "October 1",
+   "year": 2009
+  },
+  "6.0.0": {
+   "month": "October 11",
+   "year": 2010
+  },
+  "6.1.0": {
+   "month": "January 31",
+   "year": 2012
+  },
+  "6.2.0": {
+   "month": "September 26",
+   "year": 2012
+  },
+  "6.3.0": {
+   "month": "September 30",
+   "year": 2013
+  },
+  "7.0.0": {
+   "month": "June 16",
+   "year": 2014
+  },
+  "8.0.0": {
+   "month": "June 17",
+   "year": 2015
+  },
+  "9.0.0": {
+   "month": "June 21",
+   "year": 2016
+  }
+ },
+ "retrieved": "2026-08-13",
+ "sha256": "c69d2f5eb9520a128f8facd1776421c19b9039701e57d4330251f3c04f8e503d",
+ "source": "https://www.unicode.org/history/publicationdates.html"
+}
