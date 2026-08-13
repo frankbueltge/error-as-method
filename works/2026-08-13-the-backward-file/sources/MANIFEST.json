@@ -1,0 +1,1909 @@
+{
+ "releases": {
+  "tzdata1996l": {
+   "bytes": 88529,
+   "file": "tzdata1996l.tar.gz",
+   "release_date": "1996-11-05",
+   "sha256": "623a48745864731e7ecb4d97d9174b3e0e856a1c25d79cd5fb64942cf282d3e1",
+   "url": "https://data.iana.org/time-zones/releases/tzdata1996l.tar.gz"
+  },
+  "tzdata1996n": {
+   "bytes": 95118,
+   "file": "tzdata1996n.tar.gz",
+   "release_date": "1996-12-28",
+   "sha256": "9f26873c22d1cb313bc4713eb575c2cfc98e1ce590aac4fd0cfb9f5ed7557d6e",
+   "url": "https://data.iana.org/time-zones/releases/tzdata1996n.tar.gz"
+  },
+  "tzdata1997a": {
+   "bytes": 95798,
+   "file": "tzdata1997a.tar.gz",
+   "release_date": "1997-01-21",
+   "sha256": "5713250de4af5a0c17e2df3db754b3dd9857be64f33ba0eab9c9a7b7c0ed1624",
+   "url": "https://data.iana.org/time-zones/releases/tzdata1997a.tar.gz"
+  },
+  "tzdata1997b": {
+   "bytes": 95686,
+   "file": "tzdata1997b.tar.gz",
+   "release_date": "1997-02-27",
+   "sha256": "8a6c0801bb2474342a48d6c2253e7983d50d4c6d80a1d455c06fa4e4434df3b3",
+   "url": "https://data.iana.org/time-zones/releases/tzdata1997b.tar.gz"
+  },
+  "tzdata1997c": {
+   "bytes": 95921,
+   "file": "tzdata1997c.tar.gz",
+   "release_date": "1997-03-04",
+   "sha256": "ed75b22a4c854aef3d4523716523b37d79596527bc3fa6264297ec0964c886f1",
+   "url": "https://data.iana.org/time-zones/releases/tzdata1997c.tar.gz"
+  },
+  "tzdata1997d": {
+   "bytes": 96001,
+   "file": "tzdata1997d.tar.gz",
+   "release_date": "1997-03-07",
+   "sha256": "05733d47c02b294dc13501c34e7bd5dc7ab8065a9e62381994c6bc1c458a0e46",
+   "url": "https://data.iana.org/time-zones/releases/tzdata1997d.tar.gz"
+  },
+  "tzdata1997e": {
+   "bytes": 96264,
+   "file": "tzdata1997e.tar.gz",
+   "release_date": "1997-03-29",
+   "sha256": "4172655ddfe5dd78bc64881e1b7dad8279a8240da1a8f69cd9b0682870f9452c",
+   "url": "https://data.iana.org/time-zones/releases/tzdata1997e.tar.gz"
+  },
+  "tzdata1997f": {
+   "bytes": 96336,
+   "file": "tzdata1997f.tar.gz",
+   "release_date": "1997-05-03",
+   "sha256": "8e127212db36db93d4e5a4b87f3af96b549d1b3da49a1b6d61dd21456420892a",
+   "url": "https://data.iana.org/time-zones/releases/tzdata1997f.tar.gz"
+  },
+  "tzdata1997g": {
+   "bytes": 96758,
+   "file": "tzdata1997g.tar.gz",
+   "release_date": "1997-07-19",
+   "sha256": "a6bb1b29a9e2288f4ade4611d6dc6b7c2fd72b2e3f7e40b9eeb8df2d24867251",
+   "url": "https://data.iana.org/time-zones/releases/tzdata1997g.tar.gz"
+  },
+  "tzdata1997h": {
+   "bytes": 95419,
+   "file": "tzdata1997h.tar.gz",
+   "release_date": "1997-09-04",
+   "sha256": "dba0f910df5fa9dce68d5083847b387fe7551e83d64d127c17f7811a71a79380",
+   "url": "https://data.iana.org/time-zones/releases/tzdata1997h.tar.gz"
+  },
+  "tzdata1997i": {
+   "bytes": 95831,
+   "file": "tzdata1997i.tar.gz",
+   "release_date": "1997-10-07",
+   "sha256": "aeb468b7f52097c46793a5d585840e0562728cf0129f2c2b5da8e8658542bca2",
+   "url": "https://data.iana.org/time-zones/releases/tzdata1997i.tar.gz"
+  },
+  "tzdata1997j": {
+   "bytes": 95731,
+   "file": "tzdata1997j.tar.gz",
+   "release_date": "1997-12-18",
+   "sha256": "7d5a15ec86a40cc8c1718301753602d828121b9b19c3a4627bf53b004dd7a7e9",
+   "url": "https://data.iana.org/time-zones/releases/tzdata1997j.tar.gz"
+  },
+  "tzdata1997k": {
+   "bytes": 96443,
+   "file": "tzdata1997k.tar.gz",
+   "release_date": "1997-12-29",
+   "sha256": "c05ff9b2576f9650a8fb0219c3a0b54cf245a5cb48a1eb28ac802b23aca9aa63",
+   "url": "https://data.iana.org/time-zones/releases/tzdata1997k.tar.gz"
+  },
+  "tzdata1998a": {
+   "bytes": 95237,
+   "file": "tzdata1998a.tar.gz",
+   "release_date": "1998-01-13",
+   "sha256": "066479d0da15f3fbf82d40e6b3f0043a8ae6aa18dab3170724e2ea1aa1003b4e",
+   "url": "https://data.iana.org/time-zones/releases/tzdata1998a.tar.gz"
+  },
+  "tzdata1998b": {
+   "bytes": 95533,
+   "file": "tzdata1998b.tar.gz",
+   "release_date": "1998-01-17",
+   "sha256": "4313a44490b8ec8e5cd20742ce39306cd363622583fcc624c4fbf3f7719df7e4",
+   "url": "https://data.iana.org/time-zones/releases/tzdata1998b.tar.gz"
+  },
+  "tzdata1998c": {
+   "bytes": 97022,
+   "file": "tzdata1998c.tar.gz",
+   "release_date": "1998-02-28",
+   "sha256": "554807903af354384520f2bf03419f041616616394a341345a7ee20fd2a47ef7",
+   "url": "https://data.iana.org/time-zones/releases/tzdata1998c.tar.gz"
+  },
+  "tzdata1998d": {
+   "bytes": 96928,
+   "file": "tzdata1998d.tar.gz",
+   "release_date": "1998-05-14",
+   "sha256": "8991a7066d46f2300f7cdbc59417d256280ec99c3cb563dedab1cce24db23747",
+   "url": "https://data.iana.org/time-zones/releases/tzdata1998d.tar.gz"
+  },
+  "tzdata1998e": {
+   "bytes": 97632,
+   "file": "tzdata1998e.tar.gz",
+   "release_date": "1998-05-28",
+   "sha256": "8bdd9ae68bc39cb2bcae6bdc338225f31d548413c9f656856f97a6f1c885e289",
+   "url": "https://data.iana.org/time-zones/releases/tzdata1998e.tar.gz"
+  },
+  "tzdata1998h": {
+   "bytes": 99410,
+   "file": "tzdata1998h.tar.gz",
+   "release_date": "1998-09-24",
+   "sha256": "860728777a740bba36afff8eb5fffb00eec289308786c6e03af6d61c2036def7",
+   "url": "https://data.iana.org/time-zones/releases/tzdata1998h.tar.gz"
+  },
+  "tzdata1998i": {
+   "bytes": 100460,
+   "file": "tzdata1998i.tar.gz",
+   "release_date": "1998-10-01",
+   "sha256": "d2dde4ba94058ba2ad128f3d0bf9198892514a58ad3a65802a100a8a0277d4e1",
+   "url": "https://data.iana.org/time-zones/releases/tzdata1998i.tar.gz"
+  },
+  "tzdata1999a": {
+   "bytes": 100454,
+   "file": "tzdata1999a.tar.gz",
+   "release_date": "1999-01-19",
+   "sha256": "ae74120ccb18998eea9ce654d299392a4d5dc20b539eacd76e88bde1071485ef",
+   "url": "https://data.iana.org/time-zones/releases/tzdata1999a.tar.gz"
+  },
+  "tzdata1999b": {
+   "bytes": 102724,
+   "file": "tzdata1999b.tar.gz",
+   "release_date": "1999-02-01",
+   "sha256": "d18af887eac875bd97b10efa4dee2a3eeb80a1881c50818db34a73b37ff330a2",
+   "url": "https://data.iana.org/time-zones/releases/tzdata1999b.tar.gz"
+  },
+  "tzdata1999c": {
+   "bytes": 102313,
+   "file": "tzdata1999c.tar.gz",
+   "release_date": "1999-03-25",
+   "sha256": "7d3f04a9a6ed8e1ad2a214990c8e499b40e914f744a10a2e0bb508624da51f73",
+   "url": "https://data.iana.org/time-zones/releases/tzdata1999c.tar.gz"
+  },
+  "tzdata1999d": {
+   "bytes": 102829,
+   "file": "tzdata1999d.tar.gz",
+   "release_date": "1999-03-30",
+   "sha256": "42b558313ecf1e4e927b3acc6f48ddb34f4db9e377121852443460c735deeef2",
+   "url": "https://data.iana.org/time-zones/releases/tzdata1999d.tar.gz"
+  },
+  "tzdata1999e": {
+   "bytes": 104493,
+   "file": "tzdata1999e.tar.gz",
+   "release_date": "1999-08-17",
+   "sha256": "d1189cc273a655081891bf7a92103cf394015511033f8eb239acba6fdf453aa4",
+   "url": "https://data.iana.org/time-zones/releases/tzdata1999e.tar.gz"
+  },
+  "tzdata1999f": {
+   "bytes": 106116,
+   "file": "tzdata1999f.tar.gz",
+   "release_date": "1999-09-23",
+   "sha256": "c710988ec840f8c268acb20c3e580fe3d6421473e1d1b0b52f9a25f47c98e5ab",
+   "url": "https://data.iana.org/time-zones/releases/tzdata1999f.tar.gz"
+  },
+  "tzdata1999g": {
+   "bytes": 106549,
+   "file": "tzdata1999g.tar.gz",
+   "release_date": "1999-09-28",
+   "sha256": "63c60c56d256a59c4a7deef06380b14aa52fe4ffbe32aeb0ab61bb0901480578",
+   "url": "https://data.iana.org/time-zones/releases/tzdata1999g.tar.gz"
+  },
+  "tzdata1999h": {
+   "bytes": 107281,
+   "file": "tzdata1999h.tar.gz",
+   "release_date": "1999-10-07",
+   "sha256": "073e16f4bfcf2f4b8a142b4daca8e538448e3f2db4f9cf899c23e1e425337c6c",
+   "url": "https://data.iana.org/time-zones/releases/tzdata1999h.tar.gz"
+  },
+  "tzdata1999i": {
+   "bytes": 107249,
+   "file": "tzdata1999i.tar.gz",
+   "release_date": "1999-11-08",
+   "sha256": "1026cdf0e426202a6ebf987f35d4e7d364a1c2cde43ee12e3c58eca979367a9f",
+   "url": "https://data.iana.org/time-zones/releases/tzdata1999i.tar.gz"
+  },
+  "tzdata1999j": {
+   "bytes": 108689,
+   "file": "tzdata1999j.tar.gz",
+   "release_date": "1999-11-13",
+   "sha256": "4b3c7b2146bf247fbc3287f55fddc48b372b2b8e9b981e39dede047dbd6f20bc",
+   "url": "https://data.iana.org/time-zones/releases/tzdata1999j.tar.gz"
+  },
+  "tzdata2000a": {
+   "bytes": 110604,
+   "file": "tzdata2000a.tar.gz",
+   "release_date": "2000-01-18",
+   "sha256": "da127977a0bd4832fadb45b81ebc084dbbca8b02cb23487a0d83174929ff5dc6",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2000a.tar.gz"
+  },
+  "tzdata2000b": {
+   "bytes": 104115,
+   "file": "tzdata2000b.tar.gz",
+   "release_date": "2000-02-21",
+   "sha256": "7b0a6e582b0973106e63965d94e362903ee5e387f10999bacb8796e23eebdcdb",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2000b.tar.gz"
+  },
+  "tzdata2000c": {
+   "bytes": 104290,
+   "file": "tzdata2000c.tar.gz",
+   "release_date": "2000-03-04",
+   "sha256": "263862e60d7c0ddf93d660489c4250cf0088a306b324b31c25bf6c9ce03916d2",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2000c.tar.gz"
+  },
+  "tzdata2000d": {
+   "bytes": 104431,
+   "file": "tzdata2000d.tar.gz",
+   "release_date": "2000-03-14",
+   "sha256": "287f1e87957cc79d6f8cfb085473ef147a338621b486b346d819b681d0f03365",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2000d.tar.gz"
+  },
+  "tzdata2000e": {
+   "bytes": 104973,
+   "file": "tzdata2000e.tar.gz",
+   "release_date": "2000-07-31",
+   "sha256": "a121d69fd837a0e99b0b807d0b5de447344b7660011bdbdc0b8d6ba6ed81b26f",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2000e.tar.gz"
+  },
+  "tzdata2000f": {
+   "bytes": 105203,
+   "file": "tzdata2000f.tar.gz",
+   "release_date": "2000-08-10",
+   "sha256": "c70b89795dd46b06cf16f3bd19f85f817173d3964478b680fbcf956ee32d928c",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2000f.tar.gz"
+  },
+  "tzdata2000g": {
+   "bytes": 108631,
+   "file": "tzdata2000g.tar.gz",
+   "release_date": "2000-10-10",
+   "sha256": "41c608cbacd4a6ccc39e835062841ee08c76f289e1ede77aa51435bdffbc5dab",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2000g.tar.gz"
+  },
+  "tzdata2000h": {
+   "bytes": 110389,
+   "file": "tzdata2000h.tar.gz",
+   "release_date": "2000-12-14",
+   "sha256": "b69cdac96691679157077fbd375c50588e25e8f0bb0a5d6c942ae8e8745baacf",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2000h.tar.gz"
+  },
+  "tzdata2001a": {
+   "bytes": 116738,
+   "file": "tzdata2001a.tar.gz",
+   "release_date": "2001-03-13",
+   "sha256": "49cd0f48fd1d7f81e5aad3b1244cb1338b770b8e3e1f5e0c9af9b7222e3062ea",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2001a.tar.gz"
+  },
+  "tzdata2001b": {
+   "bytes": 117715,
+   "file": "tzdata2001b.tar.gz",
+   "release_date": "2001-04-05",
+   "sha256": "9ec6c36fe2af023f58938f83e3ffb7d489fb4447e2cd52917557761bcdeb6784",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2001b.tar.gz"
+  },
+  "tzdata2001c": {
+   "bytes": 122380,
+   "file": "tzdata2001c.tar.gz",
+   "release_date": "2001-06-05",
+   "sha256": "481ed23a9e705e0bb86e3634f89ff3028e86dbe31ce9088db9834620985b47bd",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2001c.tar.gz"
+  },
+  "tzdata2001d": {
+   "bytes": 127898,
+   "file": "tzdata2001d.tar.gz",
+   "release_date": "2001-10-09",
+   "sha256": "ef1b55d0d611a4be164d1209013fff6727cddc1fde858ebb6dcd3f903760b62e",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2001d.tar.gz"
+  },
+  "tzdata2002b": {
+   "bytes": 129398,
+   "file": "tzdata2002b.tar.gz",
+   "release_date": "2002-01-28",
+   "sha256": "d1a9d1c36b1d08745d405cf2e5ed4c7224093a8d53f141b90d5bed5641f5e59d",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2002b.tar.gz"
+  },
+  "tzdata2002c": {
+   "bytes": 130510,
+   "file": "tzdata2002c.tar.gz",
+   "release_date": "2002-04-04",
+   "sha256": "f85e764207a693f8cc10ac7259da28029bfb1c3409c02274ec45cb52689c5fa3",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2002c.tar.gz"
+  },
+  "tzdata2002d": {
+   "bytes": 132441,
+   "file": "tzdata2002d.tar.gz",
+   "release_date": "2002-10-15",
+   "sha256": "357cebd44837bc255e01f65072325b26590b3d4c7abb3e850a21e2ee18699a57",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2002d.tar.gz"
+  },
+  "tzdata2003a": {
+   "bytes": 134939,
+   "file": "tzdata2003a.tar.gz",
+   "release_date": "2003-03-24",
+   "sha256": "d804af81f58ece4b13700f7b59f970354a213d82f010349d4b3146ad5a0b864e",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2003a.tar.gz"
+  },
+  "tzdata2003b": {
+   "bytes": 134902,
+   "file": "tzdata2003b.tar.gz",
+   "release_date": "2003-09-16",
+   "sha256": "d62280b493eaabd094c69b92dbbc4e62432310e71d90965597959cbce11e2c1b",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2003b.tar.gz"
+  },
+  "tzdata2003c": {
+   "bytes": 134902,
+   "file": "tzdata2003c.tar.gz",
+   "release_date": "2003-09-16",
+   "sha256": "aeb4aa79d15d5b4a4dc56f4e16ac2991188edca7046be78e497c082f0b5a1770",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2003c.tar.gz"
+  },
+  "tzdata2003d": {
+   "bytes": 136734,
+   "file": "tzdata2003d.tar.gz",
+   "release_date": "2003-10-06",
+   "sha256": "6f9eb3f50ac114994a50ceb411d8e064514b3ebd7b2d25eff703ae4be4e8ea88",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2003d.tar.gz"
+  },
+  "tzdata2003e": {
+   "bytes": 137661,
+   "file": "tzdata2003e.tar.gz",
+   "release_date": "2003-12-15",
+   "sha256": "0a1216c18395ec1dfe0557ba37aed932db1237d6a4d6bcd8d02d36c589079d79",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2003e.tar.gz"
+  },
+  "tzdata2004a": {
+   "bytes": 138062,
+   "file": "tzdata2004a.tar.gz",
+   "release_date": "2004-05-27",
+   "sha256": "ad07c4ab84ea8c87aa07220d421d02d95fd14e2a8de5e78f443949fe992886e3",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2004a.tar.gz"
+  },
+  "tzdata2004b": {
+   "bytes": 139190,
+   "file": "tzdata2004b.tar.gz",
+   "release_date": "2004-07-19",
+   "sha256": "2e0b133c09b35632e994e05ce732221c40b1bcdcab3030eaac1b9d0b816c2a7a",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2004b.tar.gz"
+  },
+  "tzdata2004d": {
+   "bytes": 139671,
+   "file": "tzdata2004d.tar.gz",
+   "release_date": "2004-09-22",
+   "sha256": "5f29f06a404cfc437402b54cff64158c7cd1af81f97101fc6b516a51ab3ea206",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2004d.tar.gz"
+  },
+  "tzdata2004e": {
+   "bytes": 140264,
+   "file": "tzdata2004e.tar.gz",
+   "release_date": "2004-10-11",
+   "sha256": "1c50a26f165f38cfd9bf65b913f58fa849463c5d395faf38dd579916427aced8",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2004e.tar.gz"
+  },
+  "tzdata2004g": {
+   "bytes": 140569,
+   "file": "tzdata2004g.tar.gz",
+   "release_date": "2004-11-02",
+   "sha256": "950efec3d662b31f617cf79cc6d99ffe84f2269f8ba9a892aa5c0662a51adcfc",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2004g.tar.gz"
+  },
+  "tzdata2005a": {
+   "bytes": 140574,
+   "file": "tzdata2005a.tar.gz",
+   "release_date": "2004-12-14",
+   "sha256": "5157c42015c8068068a8510c0f9dc07586169ee5a8fc99c691783126fe3b42c1",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2005a.tar.gz"
+  },
+  "tzdata2005b": {
+   "bytes": 140548,
+   "file": "tzdata2005b.tar.gz",
+   "release_date": "2005-01-10",
+   "sha256": "6a4bc268eff4e4ce9b012cfca9ba1efeb52c9ee5d696f48c9c4b6440929ad40e",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2005b.tar.gz"
+  },
+  "tzdata2005c": {
+   "bytes": 141048,
+   "file": "tzdata2005c.tar.gz",
+   "release_date": "2005-01-17",
+   "sha256": "9d883f614f6a73cef98e137466e464954900bf8ddf25cd6c4e87f103c81dc7a1",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2005c.tar.gz"
+  },
+  "tzdata2005e": {
+   "bytes": 141038,
+   "file": "tzdata2005e.tar.gz",
+   "release_date": "2005-02-07",
+   "sha256": "54fa34db60e0d867c6384f7d91e04eba91e5b0bc7e9c90384f47186bde913691",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2005e.tar.gz"
+  },
+  "tzdata2005f": {
+   "bytes": 141671,
+   "file": "tzdata2005f.tar.gz",
+   "release_date": "2005-03-01",
+   "sha256": "1ce924ac48678710d228483d65ef79bf2cfc4735fda0dec2d8af3343c57d2f3c",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2005f.tar.gz"
+  },
+  "tzdata2005g": {
+   "bytes": 141736,
+   "file": "tzdata2005g.tar.gz",
+   "release_date": "2005-03-14",
+   "sha256": "60e842ee850a0910e90c898e258ec4b9548264e285bd0d0db2d8dac460ce5679",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2005g.tar.gz"
+  },
+  "tzdata2005h": {
+   "bytes": 142443,
+   "file": "tzdata2005h.tar.gz",
+   "release_date": "2005-04-04",
+   "sha256": "6e6a21957097f8c7e8d5b78c814aabf6647130a2db12000d4244f261ea0367d6",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2005h.tar.gz"
+  },
+  "tzdata2005i": {
+   "bytes": 143858,
+   "file": "tzdata2005i.tar.gz",
+   "release_date": "2005-04-21",
+   "sha256": "8f416e8816d4ee3a53f218639d2aa00731e951a884d689ac76e2766b2169d610",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2005i.tar.gz"
+  },
+  "tzdata2005j": {
+   "bytes": 143867,
+   "file": "tzdata2005j.tar.gz",
+   "release_date": "2005-05-26",
+   "sha256": "0d5a71126fe16439eb50552d0734873cbca48ddf9d5143a30a0bfd669f363bae",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2005j.tar.gz"
+  },
+  "tzdata2005k": {
+   "bytes": 142973,
+   "file": "tzdata2005k.tar.gz",
+   "release_date": "2005-07-14",
+   "sha256": "c091080e1562a6c3673ef84e3a988c0d96baeba9959fc55f904b10ff520ee5f6",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2005k.tar.gz"
+  },
+  "tzdata2005l": {
+   "bytes": 146084,
+   "file": "tzdata2005l.tar.gz",
+   "release_date": "2005-08-22",
+   "sha256": "9fca3fd22acc1a8488ee5cdfe523701acef936299944384235fe5cb37b1fc748",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2005l.tar.gz"
+  },
+  "tzdata2005m": {
+   "bytes": 146433,
+   "file": "tzdata2005m.tar.gz",
+   "release_date": "2005-08-29",
+   "sha256": "406a84f30884e6dcbbdb827152216e7a6d1284fb118d7cf4498c998575dd9339",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2005m.tar.gz"
+  },
+  "tzdata2005n": {
+   "bytes": 147122,
+   "file": "tzdata2005n.tar.gz",
+   "release_date": "2005-10-03",
+   "sha256": "3a9d172a56f6535f1361f972bbba9228f83e4f5ab594b43ef0df09bef1df8302",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2005n.tar.gz"
+  },
+  "tzdata2005o": {
+   "bytes": 147729,
+   "file": "tzdata2005o.tar.gz",
+   "release_date": "2005-11-28",
+   "sha256": "f8dc475e443e259e9f69b65523974338dee4393c8d73779847c2cc49261c6933",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2005o.tar.gz"
+  },
+  "tzdata2005p": {
+   "bytes": 147633,
+   "file": "tzdata2005p.tar.gz",
+   "release_date": "2005-11-29",
+   "sha256": "d0713c9e0e99990185ab00e5a5cedb17d2b502b49826874170af2de50612a734",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2005p.tar.gz"
+  },
+  "tzdata2005q": {
+   "bytes": 147400,
+   "file": "tzdata2005q.tar.gz",
+   "release_date": "2005-12-12",
+   "sha256": "d260f2a89499c2ca76ad87d33bad360c9a858b1503a192c71ffea06529716996",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2005q.tar.gz"
+  },
+  "tzdata2005r": {
+   "bytes": 148080,
+   "file": "tzdata2005r.tar.gz",
+   "release_date": "2005-12-27",
+   "sha256": "5cd4058b54fd2ce9d63af112847aaa2141db955726c416071c37050a2756e648",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2005r.tar.gz"
+  },
+  "tzdata2006a": {
+   "bytes": 149612,
+   "file": "tzdata2006a.tar.gz",
+   "release_date": "2006-01-30",
+   "sha256": "76c5d3b373c8f65968fd6e7bb2222fb0f0e33ef1a58c519527aa68c537d2b448",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2006a.tar.gz"
+  },
+  "tzdata2006b": {
+   "bytes": 149555,
+   "file": "tzdata2006b.tar.gz",
+   "release_date": "2006-02-20",
+   "sha256": "aab3cf0e8c9db27df345571e224d04ed0cd7e41399bd59dd3db20d9c3b45beb2",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2006b.tar.gz"
+  },
+  "tzdata2006c": {
+   "bytes": 150700,
+   "file": "tzdata2006c.tar.gz",
+   "release_date": "2006-04-03",
+   "sha256": "54f07a727eff281cebd7d997726584207eb6bfbf8080f9b32f085963b1070aa1",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2006c.tar.gz"
+  },
+  "tzdata2006d": {
+   "bytes": 151300,
+   "file": "tzdata2006d.tar.gz",
+   "release_date": "2006-04-17",
+   "sha256": "67993be3fd800f82f552171cab781a5736b1a5c0bc834e29e83a4be5d7b5b321",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2006d.tar.gz"
+  },
+  "tzdata2006f": {
+   "bytes": 152849,
+   "file": "tzdata2006f.tar.gz",
+   "release_date": "2006-05-01",
+   "sha256": "95eb97eae2efbd355b2f7e3aef50b2cb971246966dcd0cd692d6f178df341f0c",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2006f.tar.gz"
+  },
+  "tzdata2006g": {
+   "bytes": 153042,
+   "file": "tzdata2006g.tar.gz",
+   "release_date": "2006-05-08",
+   "sha256": "028a5d8bc3771876cf43b497e8b8691acae8263af34b0a8de3e014f01a5558d0",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2006g.tar.gz"
+  },
+  "tzdata2006j": {
+   "bytes": 156045,
+   "file": "tzdata2006j.tar.gz",
+   "release_date": "2006-08-21",
+   "sha256": "afa77e59020f7d111ba8059cc8877b4f6dd972a3d3a14c118a2b876269c9ee84",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2006j.tar.gz"
+  },
+  "tzdata2006k": {
+   "bytes": 156379,
+   "file": "tzdata2006k.tar.gz",
+   "release_date": "2006-08-28",
+   "sha256": "2d74ecaedd4a8b8c5ee6d74b7fe776ddf5f73fbb6cb39718d3d677d49fba99a5",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2006k.tar.gz"
+  },
+  "tzdata2006l": {
+   "bytes": 157067,
+   "file": "tzdata2006l.tar.gz",
+   "release_date": "2006-09-18",
+   "sha256": "b142459df80b724ca7d8eec0020b1bd97bbbc58f9223b8a3774151cbc5ba48d2",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2006l.tar.gz"
+  },
+  "tzdata2006m": {
+   "bytes": 156907,
+   "file": "tzdata2006m.tar.gz",
+   "release_date": "2006-10-02",
+   "sha256": "b0c42aa6e48d1eb4ad79aa3961541ff536f139c955a49893171814dead78d6a1",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2006m.tar.gz"
+  },
+  "tzdata2006n": {
+   "bytes": 157084,
+   "file": "tzdata2006n.tar.gz",
+   "release_date": "2006-10-10",
+   "sha256": "406896398bb307eea317758790f320e3d5f2c61eceb7442ec1461c7bfcd66a60",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2006n.tar.gz"
+  },
+  "tzdata2006o": {
+   "bytes": 157064,
+   "file": "tzdata2006o.tar.gz",
+   "release_date": "2006-11-06",
+   "sha256": "89637e234141fb03f5485b1fb7bf871202568c8daf5933e5e4a04b4ceabf3dfa",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2006o.tar.gz"
+  },
+  "tzdata2006p": {
+   "bytes": 157220,
+   "file": "tzdata2006p.tar.gz",
+   "release_date": "2006-11-27",
+   "sha256": "6b246374b468d8ead477541f4624b74cd1da2b3de7ef757a3fc40ca29cfb29bc",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2006p.tar.gz"
+  },
+  "tzdata2007a": {
+   "bytes": 157506,
+   "file": "tzdata2007a.tar.gz",
+   "release_date": "2007-01-08",
+   "sha256": "7866826c0fd0810af2bb2b240c81961b0350c1fa42db870baa33c6126039e0d3",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2007a.tar.gz"
+  },
+  "tzdata2007b": {
+   "bytes": 157432,
+   "file": "tzdata2007b.tar.gz",
+   "release_date": "2007-02-01",
+   "sha256": "f1dcc1c615a792c0f72704119faf141e7408f8c94d876e478e052fa33b5a1cb1",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2007b.tar.gz"
+  },
+  "tzdata2007c": {
+   "bytes": 158198,
+   "file": "tzdata2007c.tar.gz",
+   "release_date": "2007-02-26",
+   "sha256": "3575df0a341fef53240620423da519c6cba16212ab8b2576c9595b80deaf3af2",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2007c.tar.gz"
+  },
+  "tzdata2007d": {
+   "bytes": 159373,
+   "file": "tzdata2007d.tar.gz",
+   "release_date": "2007-03-20",
+   "sha256": "33e6f84422c84bc02d83bb03fd741479896a9bb485fea3424afc406c32fb2278",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2007d.tar.gz"
+  },
+  "tzdata2007e": {
+   "bytes": 159753,
+   "file": "tzdata2007e.tar.gz",
+   "release_date": "2007-04-02",
+   "sha256": "51d14a60ea12aa901bf91e5d39ea30c13ffdc299640e8ec9cb0d35a128874767",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2007e.tar.gz"
+  },
+  "tzdata2007f": {
+   "bytes": 160513,
+   "file": "tzdata2007f.tar.gz",
+   "release_date": "2007-05-07",
+   "sha256": "cfedfd49351d41da0fe5a26be2eadc8ae0cf1b5b1cea1d31aafb6913f907493e",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2007f.tar.gz"
+  },
+  "tzdata2007g": {
+   "bytes": 161080,
+   "file": "tzdata2007g.tar.gz",
+   "release_date": "2007-08-20",
+   "sha256": "082943adc009753b046227f143051ef41d9c549292f0415242188aaac9e2ee5b",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2007g.tar.gz"
+  },
+  "tzdata2007h": {
+   "bytes": 162187,
+   "file": "tzdata2007h.tar.gz",
+   "release_date": "2007-10-01",
+   "sha256": "8f16f0db83073c8ccb3702f9173c4991200c78e64ebd358fce9cbbf4371a2148",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2007h.tar.gz"
+  },
+  "tzdata2007i": {
+   "bytes": 162977,
+   "file": "tzdata2007i.tar.gz",
+   "release_date": "2007-10-30",
+   "sha256": "70bb254ae0da44d71f6d0932ffe34f61457bf41c38dfd389a7bf5bfb544a362b",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2007i.tar.gz"
+  },
+  "tzdata2007j": {
+   "bytes": 163202,
+   "file": "tzdata2007j.tar.gz",
+   "release_date": "2007-12-03",
+   "sha256": "0319a3dc08f05a92b5c409cc7278a45fa6194bcdfdd27918554bd3d8d6d33c6d",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2007j.tar.gz"
+  },
+  "tzdata2007k": {
+   "bytes": 163688,
+   "file": "tzdata2007k.tar.gz",
+   "release_date": "2007-12-31",
+   "sha256": "37e986086ce1a1ccb9a4f24c2b77ede54f0eae2ee9959e7a191a49cedb405783",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2007k.tar.gz"
+  },
+  "tzdata2008a": {
+   "bytes": 163981,
+   "file": "tzdata2008a.tar.gz",
+   "release_date": "2008-03-05",
+   "sha256": "104a270bdc7a511cffd41d2722ff3fafd0caf221b4344263316177e8a64abbf1",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2008a.tar.gz"
+  },
+  "tzdata2008b": {
+   "bytes": 166544,
+   "file": "tzdata2008b.tar.gz",
+   "release_date": "2008-03-24",
+   "sha256": "633d76612d73a7add41a3b90fe5721ea5f4282d52bd8408b9d4fab261443aa6c",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2008b.tar.gz"
+  },
+  "tzdata2008c": {
+   "bytes": 168440,
+   "file": "tzdata2008c.tar.gz",
+   "release_date": "2008-05-19",
+   "sha256": "ae32f514a57bbd4d8ff5ec280aa0eb7c27cb6c8c9a9167a1397e6788900cb41b",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2008c.tar.gz"
+  },
+  "tzdata2008d": {
+   "bytes": 170157,
+   "file": "tzdata2008d.tar.gz",
+   "release_date": "2008-07-07",
+   "sha256": "913b384dfcf541d340f251bc20cf2475d8f13a38ad38acfc2d901fc3c7bc4a71",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2008d.tar.gz"
+  },
+  "tzdata2008e": {
+   "bytes": 171200,
+   "file": "tzdata2008e.tar.gz",
+   "release_date": "2008-07-28",
+   "sha256": "ddd526edfaf0d43fbe8facf772feb13266ae3cdddaf69a612b7a74cf37036548",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2008e.tar.gz"
+  },
+  "tzdata2008f": {
+   "bytes": 172882,
+   "file": "tzdata2008f.tar.gz",
+   "release_date": "2008-09-10",
+   "sha256": "81e0d0d86acd072f233a7ac9413f95f147ac64355e3d09708c228af115c05678",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2008f.tar.gz"
+  },
+  "tzdata2008g": {
+   "bytes": 173126,
+   "file": "tzdata2008g.tar.gz",
+   "release_date": "2008-09-29",
+   "sha256": "78a90cf70e9cd661ba253236b558216d2f707f3457b20a05e7ede04ab5acf0b6",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2008g.tar.gz"
+  },
+  "tzdata2008h": {
+   "bytes": 173655,
+   "file": "tzdata2008h.tar.gz",
+   "release_date": "2008-10-08",
+   "sha256": "64070f1f31ab64f6c36f50cd462df9a74a6fa3613d73384c8dd62c3e8f716df3",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2008h.tar.gz"
+  },
+  "tzdata2008i": {
+   "bytes": 174009,
+   "file": "tzdata2008i.tar.gz",
+   "release_date": "2008-10-21",
+   "sha256": "ec8824897cc79308b4ec6946a049d4680539e8de9c764b592bcf126f9060d7af",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2008i.tar.gz"
+  },
+  "tzdata2009a": {
+   "bytes": 174994,
+   "file": "tzdata2009a.tar.gz",
+   "release_date": "2009-01-21",
+   "sha256": "c704d5a99f4e995b68e0463f206aad38dbddea7e9338d0ccc0abca901dd40100",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2009a.tar.gz"
+  },
+  "tzdata2009b": {
+   "bytes": 174900,
+   "file": "tzdata2009b.tar.gz",
+   "release_date": "2009-01-27",
+   "sha256": "f2c4e8f816a1e15c46ec78e23fcbe18d559e925cc2c99799243e5a749b2a8c68",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2009b.tar.gz"
+  },
+  "tzdata2009c": {
+   "bytes": 175126,
+   "file": "tzdata2009c.tar.gz",
+   "release_date": "2009-03-16",
+   "sha256": "3dd1bd0014e7c9a74cab9a21fd32c9cadd30b2c69340f32a685e7b52207c1db8",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2009c.tar.gz"
+  },
+  "tzdata2009d": {
+   "bytes": 176911,
+   "file": "tzdata2009d.tar.gz",
+   "release_date": "2009-03-23",
+   "sha256": "f884ff8af90824cac55786e4b3a6048af10702a5f15036bf55f33d74704ad102",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2009d.tar.gz"
+  },
+  "tzdata2009e": {
+   "bytes": 177453,
+   "file": "tzdata2009e.tar.gz",
+   "release_date": "2009-04-06",
+   "sha256": "6f4e88fefd72b9ed9c6fde56ebc434c86cd597114685bf98ae7aab031a8cce8c",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2009e.tar.gz"
+  },
+  "tzdata2009f": {
+   "bytes": 177771,
+   "file": "tzdata2009f.tar.gz",
+   "release_date": "2009-04-10",
+   "sha256": "654b309a0c130a156cc81787f8af4dc9a517d283606f420e89364bc93c83da6c",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2009f.tar.gz"
+  },
+  "tzdata2009g": {
+   "bytes": 178224,
+   "file": "tzdata2009g.tar.gz",
+   "release_date": "2009-04-20",
+   "sha256": "da033acc418328edcb32a089c26c1f6a828f596b4f3aa26c9319e3ab19e05073",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2009g.tar.gz"
+  },
+  "tzdata2009h": {
+   "bytes": 178764,
+   "file": "tzdata2009h.tar.gz",
+   "release_date": "2009-05-17",
+   "sha256": "4eaa785fccc13fe26a1c92518e59108b78422115eaf9cb5a6bb95168bb5e92ab",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2009h.tar.gz"
+  },
+  "tzdata2009i": {
+   "bytes": 179184,
+   "file": "tzdata2009i.tar.gz",
+   "release_date": "2009-06-02",
+   "sha256": "475b52311b2e0267cfb81138af1b985384ea53ce71b2d39744d7645f1e48db6e",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2009i.tar.gz"
+  },
+  "tzdata2009j": {
+   "bytes": 179277,
+   "file": "tzdata2009j.tar.gz",
+   "release_date": "2009-06-15",
+   "sha256": "ab6fb5b3588208ab0cade05dfa8d6ef9516bc719613a0676137e56c336cb7bb7",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2009j.tar.gz"
+  },
+  "tzdata2009k": {
+   "bytes": 179697,
+   "file": "tzdata2009k.tar.gz",
+   "release_date": "2009-07-20",
+   "sha256": "fa82480e7e291b2273c7e4c0bc934aa93bc8567525ff7042cc821db816aa303a",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2009k.tar.gz"
+  },
+  "tzdata2009l": {
+   "bytes": 180137,
+   "file": "tzdata2009l.tar.gz",
+   "release_date": "2009-08-14",
+   "sha256": "a0caab89a45261137f38f61d19329fffe0e45e2c6d6e7a9b70ebef37c0fdde5f",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2009l.tar.gz"
+  },
+  "tzdata2009m": {
+   "bytes": 180717,
+   "file": "tzdata2009m.tar.gz",
+   "release_date": "2009-09-03",
+   "sha256": "7609980204940ceaf74b5a48d15ea0c079eaec627e149cf3d986cfed268881fe",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2009m.tar.gz"
+  },
+  "tzdata2009n": {
+   "bytes": 181140,
+   "file": "tzdata2009n.tar.gz",
+   "release_date": "2009-09-22",
+   "sha256": "7b08bb8a98ad8a06e2cafda05ab21f2a69b2d64252dfc9435c93094d979e7c5a",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2009n.tar.gz"
+  },
+  "tzdata2009o": {
+   "bytes": 182254,
+   "file": "tzdata2009o.tar.gz",
+   "release_date": "2009-10-14",
+   "sha256": "5fbd4053a4eb01b814799855e35a3c01743f98acf9fcd167522e6484a2edd7b7",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2009o.tar.gz"
+  },
+  "tzdata2009p": {
+   "bytes": 182635,
+   "file": "tzdata2009p.tar.gz",
+   "release_date": "2009-10-23",
+   "sha256": "7182ad6f03bfe16ccdbac4a3efb9e765ea7c51afc33c3a7fefb053122aa6da2c",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2009p.tar.gz"
+  },
+  "tzdata2009q": {
+   "bytes": 183958,
+   "file": "tzdata2009q.tar.gz",
+   "release_date": "2009-10-29",
+   "sha256": "5ea1abc8b08dd7f67b53488a497d61f9617ed92d094e508e103049430518a19a",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2009q.tar.gz"
+  },
+  "tzdata2009r": {
+   "bytes": 184143,
+   "file": "tzdata2009r.tar.gz",
+   "release_date": "2009-11-04",
+   "sha256": "684d23e3ebe825c9db90732534446f4e33f5ad4455980b15fd9eb2e4ba5a6731",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2009r.tar.gz"
+  },
+  "tzdata2009s": {
+   "bytes": 184326,
+   "file": "tzdata2009s.tar.gz",
+   "release_date": "2009-11-14",
+   "sha256": "ee9000a0276675ed697f8d404edf80104fd338c3fb979907e4ee63ca83d65e5e",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2009s.tar.gz"
+  },
+  "tzdata2009t": {
+   "bytes": 185585,
+   "file": "tzdata2009t.tar.gz",
+   "release_date": "2009-12-17",
+   "sha256": "e9968d213481d7a869ba1afe6167d78d57320364487be9a74e04910a9fce3f85",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2009t.tar.gz"
+  },
+  "tzdata2009u": {
+   "bytes": 185958,
+   "file": "tzdata2009u.tar.gz",
+   "release_date": "2009-12-26",
+   "sha256": "7cbd82597590ca279e042dbeace91553806c4b4dbff25c34b843a4f1d07e0384",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2009u.tar.gz"
+  },
+  "tzdata2010a": {
+   "bytes": 185948,
+   "file": "tzdata2010a.tar.gz",
+   "release_date": "2010-01-18",
+   "sha256": "d9dab04cbbc52a7f19363958402b1c9cc6724e587f2af822c3e40e52767dfee8",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2010a.tar.gz"
+  },
+  "tzdata2010b": {
+   "bytes": 187080,
+   "file": "tzdata2010b.tar.gz",
+   "release_date": "2010-01-20",
+   "sha256": "a93208ae389cc0d3618731cc9f406ba2cfc6aac39668a06c687d3fae2a7e8210",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2010b.tar.gz"
+  },
+  "tzdata2010c": {
+   "bytes": 187292,
+   "file": "tzdata2010c.tar.gz",
+   "release_date": "2010-02-24",
+   "sha256": "e5fa92874b6f051166cf2fc2dced0dea165c4d7508a173ea6d232bdee7e05201",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2010c.tar.gz"
+  },
+  "tzdata2010d": {
+   "bytes": 187453,
+   "file": "tzdata2010d.tar.gz",
+   "release_date": "2010-03-06",
+   "sha256": "c18916b1e0d91dd7a0f8a26a570e40db06bdd0dc06cf8d66c06f78704d8b3b78",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2010d.tar.gz"
+  },
+  "tzdata2010e": {
+   "bytes": 187452,
+   "file": "tzdata2010e.tar.gz",
+   "release_date": "2010-03-08",
+   "sha256": "09ebe8787560ef0a0b8b27a115d0d79d4b9e4ed9d48e768426c59ad18b73abd6",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2010e.tar.gz"
+  },
+  "tzdata2010f": {
+   "bytes": 188147,
+   "file": "tzdata2010f.tar.gz",
+   "release_date": "2010-03-17",
+   "sha256": "823361e38da3f79a34c0adb835b1b6d2ae640937e3f7a7f4a2181500eeff0e94",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2010f.tar.gz"
+  },
+  "tzdata2010g": {
+   "bytes": 188032,
+   "file": "tzdata2010g.tar.gz",
+   "release_date": "2010-03-24",
+   "sha256": "a069dbea2989613466f9f4adb6de381efb46aeb9ff89e03fabb23dcae2c4cd90",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2010g.tar.gz"
+  },
+  "tzdata2010h": {
+   "bytes": 188402,
+   "file": "tzdata2010h.tar.gz",
+   "release_date": "2010-04-05",
+   "sha256": "a4918d60f63440ba9b6050205881e8a98d718dc0c2b7df5955f43e781eab6e7d",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2010h.tar.gz"
+  },
+  "tzdata2010i": {
+   "bytes": 189130,
+   "file": "tzdata2010i.tar.gz",
+   "release_date": "2010-04-16",
+   "sha256": "bee0a26cca54db3413416d968c0a6361d83188b112d2512559d0e3602f254dc3",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2010i.tar.gz"
+  },
+  "tzdata2010j": {
+   "bytes": 189870,
+   "file": "tzdata2010j.tar.gz",
+   "release_date": "2010-05-10",
+   "sha256": "dcf2101d0c5bb20a7f182866ea3e52b54c8f4d129c025a96c9a31377676f554b",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2010j.tar.gz"
+  },
+  "tzdata2010k": {
+   "bytes": 191382,
+   "file": "tzdata2010k.tar.gz",
+   "release_date": "2010-07-26",
+   "sha256": "ef69c99504c0fd9864ba8ef1daae5f2d4df097cf7dc350f09b8f70386272408d",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2010k.tar.gz"
+  },
+  "tzdata2010l": {
+   "bytes": 191467,
+   "file": "tzdata2010l.tar.gz",
+   "release_date": "2010-08-16",
+   "sha256": "bae7b4a8364f7ab3d6d644eb6075de1e9a0c72fb3fb5843fc217d2ff57408577",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2010l.tar.gz"
+  },
+  "tzdata2010m": {
+   "bytes": 191470,
+   "file": "tzdata2010m.tar.gz",
+   "release_date": "2010-09-27",
+   "sha256": "1454a13a32e23e81195404d00ab97a64a356e9a5852fc7d121ed7e58cbdb75aa",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2010m.tar.gz"
+  },
+  "tzdata2010n": {
+   "bytes": 191593,
+   "file": "tzdata2010n.tar.gz",
+   "release_date": "2010-10-12",
+   "sha256": "5946bff5cef28feda6cff241f03c84e528cd4fcc0c2b27b537f52994f8afc70b",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2010n.tar.gz"
+  },
+  "tzdata2010o": {
+   "bytes": 191722,
+   "file": "tzdata2010o.tar.gz",
+   "release_date": "2010-11-01",
+   "sha256": "cd0f3799688b3b870cd988505e47c2975b1808e73ec0677bc9db4b705b534c07",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2010o.tar.gz"
+  },
+  "tzdata2011a": {
+   "bytes": 192593,
+   "file": "tzdata2011a.tar.gz",
+   "release_date": "2011-01-20",
+   "sha256": "782c691b4750bdefeb84063128db685a8b8f31dc2efb887ee841ae105bfa747b",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2011a.tar.gz"
+  },
+  "tzdata2011b": {
+   "bytes": 193030,
+   "file": "tzdata2011b.tar.gz",
+   "release_date": "2011-01-26",
+   "sha256": "ff45f5ddc2ec925249626d00d7bc2ffff587e0956a1d8245517a023bf27e4cc9",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2011b.tar.gz"
+  },
+  "tzdata2011c": {
+   "bytes": 194151,
+   "file": "tzdata2011c.tar.gz",
+   "release_date": "2011-03-02",
+   "sha256": "c08fbf767280a6f6dc450306a39d3b5818a0a9792a0991320e00a1bb91e91a3b",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2011c.tar.gz"
+  },
+  "tzdata2011d": {
+   "bytes": 194588,
+   "file": "tzdata2011d.tar.gz",
+   "release_date": "2011-03-11",
+   "sha256": "415a54774094e8dcdc9ba141fafbee4b3b2f2140a5b8cf012eea4b37fb9a23bd",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2011d.tar.gz"
+  },
+  "tzdata2011e": {
+   "bytes": 195424,
+   "file": "tzdata2011e.tar.gz",
+   "release_date": "2011-03-31",
+   "sha256": "44fef01de4589a4979eb6b5fdbbfd21a3b135852af1ecbfb9e0368ae47392c79",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2011e.tar.gz"
+  },
+  "tzdata2011f": {
+   "bytes": 195689,
+   "file": "tzdata2011f.tar.gz",
+   "release_date": "2011-04-06",
+   "sha256": "9b7431f25afbc154290a4075e43dc8841ed11d602faaf5a861db7a334a6d37a4",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2011f.tar.gz"
+  },
+  "tzdata2011g": {
+   "bytes": 195818,
+   "file": "tzdata2011g.tar.gz",
+   "release_date": "2011-04-20",
+   "sha256": "01a2a189eeda63baacc5e68e6c13afffc7edce182102fffc53acbf35e8703d3c",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2011g.tar.gz"
+  },
+  "tzdata2011h": {
+   "bytes": 196441,
+   "file": "tzdata2011h.tar.gz",
+   "release_date": "2011-06-15",
+   "sha256": "c098786d053736dd18d4f1fbebdf41554c6fd702a36f75c18f1c66712d2abc24",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2011h.tar.gz"
+  },
+  "tzdata2011i": {
+   "bytes": 198665,
+   "file": "tzdata2011i.tar.gz",
+   "release_date": "2011-08-17",
+   "sha256": "f8dde7ca5e61f21ac34c8cdbef5568d00c829981211098f059d8104964c81ffa",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2011i.tar.gz"
+  },
+  "tzdata2011j": {
+   "bytes": 198820,
+   "file": "tzdata2011j.tar.gz",
+   "release_date": "2011-09-12",
+   "sha256": "7e8540a85f1b474df1b40b403bea5748311ca7731b3038e51d6abc7f2d223c2a",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2011j.tar.gz"
+  },
+  "tzdata2011k": {
+   "bytes": 199725,
+   "file": "tzdata2011k.tar.gz",
+   "release_date": "2011-09-20",
+   "sha256": "51f7d2a42b7fb9465feced642a6676afdf8b04a071e55f3fef1f0925bd67ef21",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2011k.tar.gz"
+  },
+  "tzdata2011l": {
+   "bytes": 203374,
+   "file": "tzdata2011l.tar.gz",
+   "release_date": "2011-10-10",
+   "sha256": "cb9fec68a19c9c3b900bb71f3ca20d0051a863f765387b52fc2d144a5bbb0c7d",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2011l.tar.gz"
+  },
+  "tzdata2011m": {
+   "bytes": 204214,
+   "file": "tzdata2011m.tar.gz",
+   "release_date": "2011-10-24",
+   "sha256": "c8e01f5b4a3cd8b8aee84b4befb4b671cef34353e5af022ed22071f5b86ef5f4",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2011m.tar.gz"
+  },
+  "tzdata2011n": {
+   "bytes": 204684,
+   "file": "tzdata2011n.tar.gz",
+   "release_date": "2011-10-30",
+   "sha256": "a343e542486b2b8ebdeca474eed79f1c04f69420ca943c2b9bdea1d2385e38cd",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2011n.tar.gz"
+  },
+  "tzdata2012a": {
+   "bytes": 207574,
+   "file": "tzdata2012a.tar.gz",
+   "release_date": "2012-03-01",
+   "sha256": "c28f731e19e7b612e26b2a41e9089ebe0c67bad422d2b7882e4b32983277ee7d",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2012a.tar.gz"
+  },
+  "tzdata2012b": {
+   "bytes": 207782,
+   "file": "tzdata2012b.tar.gz",
+   "release_date": "2012-03-02",
+   "sha256": "2f9f8e2d1ae087be5917f60c3946e8dc3fe1068d7738c3395f2125135309e745",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2012b.tar.gz"
+  },
+  "tzdata2012c": {
+   "bytes": 206206,
+   "file": "tzdata2012c.tar.gz",
+   "release_date": "2012-03-27",
+   "sha256": "33e19e1dd27bda5239812587d72971509a15b59baff7abd692b77ff66f168a82",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2012c.tar.gz"
+  },
+  "tzdata2012d": {
+   "bytes": 206219,
+   "file": "tzdata2012d.tar.gz",
+   "release_date": "2012-07-19",
+   "sha256": "46c0e92a7aa89c3cfe571b585ceb6958bb444604aea3e09587f2cbe474c95575",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2012d.tar.gz"
+  },
+  "tzdata2012e": {
+   "bytes": 206251,
+   "file": "tzdata2012e.tar.gz",
+   "release_date": "2012-07-25",
+   "sha256": "061c1c289e792f3661135d5ec542e4f9417d3cd7f232f3d54c1949573aadd0fc",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2012e.tar.gz"
+  },
+  "tzdata2012f": {
+   "bytes": 206404,
+   "file": "tzdata2012f.tar.gz",
+   "release_date": "2012-08-31",
+   "sha256": "afe95a49a445ee55391d2d4beccd4be6d61a090d5d8069c407390ff1502c26cc",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2012f.tar.gz"
+  },
+  "tzdata2012g": {
+   "bytes": 213055,
+   "file": "tzdata2012g.tar.gz",
+   "release_date": "2012-10-18",
+   "sha256": "9a82e74f798d69c18b48e0128c46b6ea10132d9495cbcc4105e7483150a85bac",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2012g.tar.gz"
+  },
+  "tzdata2012h": {
+   "bytes": 213675,
+   "file": "tzdata2012h.tar.gz",
+   "release_date": "2012-10-27",
+   "sha256": "65e53218eff4f71f8e7eaa0ae52aecec79e0ba186bd5badc27c099118d4cd065",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2012h.tar.gz"
+  },
+  "tzdata2012i": {
+   "bytes": 213961,
+   "file": "tzdata2012i.tar.gz",
+   "release_date": "2012-11-03",
+   "sha256": "c9e5b6b6a2031236126409b3595cd8e1a730febc1e8b3802fdbdb417977cf162",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2012i.tar.gz"
+  },
+  "tzdata2012j": {
+   "bytes": 214075,
+   "file": "tzdata2012j.tar.gz",
+   "release_date": "2012-11-13",
+   "sha256": "4b6a3c2831bdbb68ab1a1bf906bcf11d18ab78009713a0339da6fe96b6afceaa",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2012j.tar.gz"
+  },
+  "tzdata2013a": {
+   "bytes": 217511,
+   "file": "tzdata2013a.tar.gz",
+   "release_date": "2013-02-27",
+   "sha256": "ed9f273f52d5df9ec09fdcf6684176bbdc86d0fbafcbc27b97e5a9c103024afc",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2013a.tar.gz"
+  },
+  "tzdata2013b": {
+   "bytes": 218441,
+   "file": "tzdata2013b.tar.gz",
+   "release_date": "2013-03-11",
+   "sha256": "70d589d0e76a3749403d2bb404e9214c2520dda4c13e4b07b1b945ed2c64edb2",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2013b.tar.gz"
+  },
+  "tzdata2013c": {
+   "bytes": 218466,
+   "file": "tzdata2013c.tar.gz",
+   "release_date": "2013-04-19",
+   "sha256": "e597a7eb239155eb2247fd4788f7fa10bf21d6469961200a6ca202f19cc15c87",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2013c.tar.gz"
+  },
+  "tzdata2013d": {
+   "bytes": 218918,
+   "file": "tzdata2013d.tar.gz",
+   "release_date": "2013-07-05",
+   "sha256": "cd1c96f0676e0edceebc6a418a2222ffb05becb41180dd9f847b9c7cef303b04",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2013d.tar.gz"
+  },
+  "tzdata2013e": {
+   "bytes": 223546,
+   "file": "tzdata2013e.tar.gz",
+   "release_date": "2013-09-20",
+   "sha256": "d02891fbcca61d527263e9250b8cef2c93396ca05cd723832f04fe79e4058d97",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2013e.tar.gz"
+  },
+  "tzdata2013f": {
+   "bytes": 223967,
+   "file": "tzdata2013f.tar.gz",
+   "release_date": "2013-09-25",
+   "sha256": "5b72ed29bea75e0b59cbd3f575db0aac62f96a2a36e652725f674a92a95d4ada",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2013f.tar.gz"
+  },
+  "tzdata2013g": {
+   "bytes": 226943,
+   "file": "tzdata2013g.tar.gz",
+   "release_date": "2013-10-01",
+   "sha256": "b6cdd3998dcc732a6ae5e101e1394f9d4d6dff68bd48a8fb78c44c2b997d3a4f",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2013g.tar.gz"
+  },
+  "tzdata2013h": {
+   "bytes": 227411,
+   "file": "tzdata2013h.tar.gz",
+   "release_date": "2013-10-25",
+   "sha256": "6b9e17e823eec0e09e12f74b452a70be4face1ef14c2fb1917b7c7e60564de27",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2013h.tar.gz"
+  },
+  "tzdata2013i": {
+   "bytes": 218866,
+   "file": "tzdata2013i.tar.gz",
+   "release_date": "2013-12-17",
+   "sha256": "1cd56a6ee964143ef0c65229968a5093988335b95e9115235b5e7b7e45e67dda",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2013i.tar.gz"
+  },
+  "tzdata2014a": {
+   "bytes": 219826,
+   "file": "tzdata2014a.tar.gz",
+   "release_date": "2014-03-08",
+   "sha256": "7cff254ce85e11b21c994b284bccd1e12ecda9dadf947fbb32e1912fd520e8b1",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2014a.tar.gz"
+  },
+  "tzdata2014b": {
+   "bytes": 220771,
+   "file": "tzdata2014b.tar.gz",
+   "release_date": "2014-03-25",
+   "sha256": "d1e1f3e0c253a8ac0b35ffe27ef95f6366c37beb953391806cd922efce2b1cb5",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2014b.tar.gz"
+  },
+  "tzdata2014c": {
+   "bytes": 221322,
+   "file": "tzdata2014c.tar.gz",
+   "release_date": "2014-05-13",
+   "sha256": "aa2924e012644de3a6cc3160ffff690cb3afecf350af435daefa43bb669fb8f1",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2014c.tar.gz"
+  },
+  "tzdata2014d": {
+   "bytes": 221406,
+   "file": "tzdata2014d.tar.gz",
+   "release_date": "2014-05-28",
+   "sha256": "4b4966912f5d4a299b0bdf47e6f3103d82dc6a0b5a6b321e2b9d5662597a62f0",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2014d.tar.gz"
+  },
+  "tzdata2014e": {
+   "bytes": 221587,
+   "file": "tzdata2014e.tar.gz",
+   "release_date": "2014-06-13",
+   "sha256": "08e243a79051f838d86ac1311a78b74047951302d448024e823b5b7aa71f86c5",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2014e.tar.gz"
+  },
+  "tzdata2014f": {
+   "bytes": 231421,
+   "file": "tzdata2014f.tar.gz",
+   "release_date": "2014-08-06",
+   "sha256": "eed690a72124f380bcb14947d398a7a482acb9ab792ae78bd4554e52c5ca2001",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2014f.tar.gz"
+  },
+  "tzdata2014g": {
+   "bytes": 284889,
+   "file": "tzdata2014g.tar.gz",
+   "release_date": "2014-08-28",
+   "sha256": "5547d5b7a982f7f53fffe68cb2a13692553f591a17d58c8ef15b20679d82a270",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2014g.tar.gz"
+  },
+  "tzdata2014h": {
+   "bytes": 286472,
+   "file": "tzdata2014h.tar.gz",
+   "release_date": "2014-09-26",
+   "sha256": "e78152f616fb07c1dea124215ffca57d0de66d8897e00896086542e3de30f69e",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2014h.tar.gz"
+  },
+  "tzdata2014i": {
+   "bytes": 289312,
+   "file": "tzdata2014i.tar.gz",
+   "release_date": "2014-10-22",
+   "sha256": "2af331bdd2b794ec59b8ded7300fb29dc3573a009ec14183f5c9ad38e3886153",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2014i.tar.gz"
+  },
+  "tzdata2014j": {
+   "bytes": 290688,
+   "file": "tzdata2014j.tar.gz",
+   "release_date": "2014-11-11",
+   "sha256": "a2d870320694d40535df822ac8074dc629a90e92abafa5d3373314f78ddc0e0d",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2014j.tar.gz"
+  },
+  "tzdata2015a": {
+   "bytes": 292131,
+   "file": "tzdata2015a.tar.gz",
+   "release_date": "2015-01-30",
+   "sha256": "c52490917d00a8e7fc9b5f0b1b65ef6ec76d612b5b20c81bf86a04147af18e4c",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2015a.tar.gz"
+  },
+  "tzdata2015b": {
+   "bytes": 293482,
+   "file": "tzdata2015b.tar.gz",
+   "release_date": "2015-03-20",
+   "sha256": "556ac1a5b3a371adc1ad4e77138f78ddd7f8ddd7bc2b52545924598c7dc8ad62",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2015b.tar.gz"
+  },
+  "tzdata2015c": {
+   "bytes": 294353,
+   "file": "tzdata2015c.tar.gz",
+   "release_date": "2015-04-11",
+   "sha256": "860fac5f5f57f7a2dfc1ba682dbd1f5c0f0b597f761571277b6ed6561e22365a",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2015c.tar.gz"
+  },
+  "tzdata2015d": {
+   "bytes": 296131,
+   "file": "tzdata2015d.tar.gz",
+   "release_date": "2015-04-24",
+   "sha256": "8b9f5008277f09e251e97dba7813f56168d691115bda90ade4638d72f296d531",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2015d.tar.gz"
+  },
+  "tzdata2015e": {
+   "bytes": 296773,
+   "file": "tzdata2015e.tar.gz",
+   "release_date": "2015-06-13",
+   "sha256": "ffc9b5d38abda8277aa479e3f75aa7668819d0977cd1a0c8ef3b09128334ba6f",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2015e.tar.gz"
+  },
+  "tzdata2015f": {
+   "bytes": 298815,
+   "file": "tzdata2015f.tar.gz",
+   "release_date": "2015-08-11",
+   "sha256": "959f81b541e042ecb13c50097d264ae92ff03a57979c478dbcf24d5da242531d",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2015f.tar.gz"
+  },
+  "tzdata2015g": {
+   "bytes": 300363,
+   "file": "tzdata2015g.tar.gz",
+   "release_date": "2015-10-01",
+   "sha256": "b923cdbf078491696b17bc8d069c74bce73fabc5774629da2f410c9b31576161",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2015g.tar.gz"
+  },
+  "tzdata2016a": {
+   "bytes": 302817,
+   "file": "tzdata2016a.tar.gz",
+   "release_date": "2016-01-27",
+   "sha256": "5efa6b324e64ef921ef700ac3273a51895f672684a30e342f68e47871c6a8cd1",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2016a.tar.gz"
+  },
+  "tzdata2016b": {
+   "bytes": 305437,
+   "file": "tzdata2016b.tar.gz",
+   "release_date": "2016-03-13",
+   "sha256": "6392091d92556a32de488ea06a055c51bc46b7d8046c8a677f0ccfe286b3dbdc",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2016b.tar.gz"
+  },
+  "tzdata2016c": {
+   "bytes": 308625,
+   "file": "tzdata2016c.tar.gz",
+   "release_date": "2016-03-23",
+   "sha256": "8700d981e6f2007ac037dabb5d2b12f390e8629bbc30e564bc21cf0c069a2d48",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2016c.tar.gz"
+  },
+  "tzdata2016d": {
+   "bytes": 312481,
+   "file": "tzdata2016d.tar.gz",
+   "release_date": "2016-04-18",
+   "sha256": "d9554dfba0efd76053582bd89e8c7036ef12eee14fdd506675b08a5b59f0a1b4",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2016d.tar.gz"
+  },
+  "tzdata2016e": {
+   "bytes": 313684,
+   "file": "tzdata2016e.tar.gz",
+   "release_date": "2016-06-14",
+   "sha256": "ba00f899f18dc4048d7fa21f5e1fdef434496084eedc06f6caa15e5ecdb6bd81",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2016e.tar.gz"
+  },
+  "tzdata2016f": {
+   "bytes": 313286,
+   "file": "tzdata2016f.tar.gz",
+   "release_date": "2016-07-05",
+   "sha256": "ed8c951008d12f1db55a11e96fc055718c6571233327d9de16a7f8475e2502b0",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2016f.tar.gz"
+  },
+  "tzdata2016g": {
+   "bytes": 316669,
+   "file": "tzdata2016g.tar.gz",
+   "release_date": "2016-09-13",
+   "sha256": "3c7137b2bc47323b0de47b77786bacf81ed503d4b2c693ff8ada2fbd1281ebd1",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2016g.tar.gz"
+  },
+  "tzdata2016h": {
+   "bytes": 318714,
+   "file": "tzdata2016h.tar.gz",
+   "release_date": "2016-10-20",
+   "sha256": "da1b74fc2dec2ce8b64948dafb0bfc2f923c830d421a7ae4d016226135697a64",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2016h.tar.gz"
+  },
+  "tzdata2016i": {
+   "bytes": 320352,
+   "file": "tzdata2016i.tar.gz",
+   "release_date": "2016-11-02",
+   "sha256": "b6966ec982ef64fe48cebec437096b4f57f4287519ed32dde59c86d3a1853845",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2016i.tar.gz"
+  },
+  "tzdata2016j": {
+   "bytes": 321185,
+   "file": "tzdata2016j.tar.gz",
+   "release_date": "2016-11-23",
+   "sha256": "f5ee4e0f115f6c2faee1c4b16193a97338cbd1b503f2cea6c5a768c82ff39dc8",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2016j.tar.gz"
+  },
+  "tzdata2017a": {
+   "bytes": 323983,
+   "file": "tzdata2017a.tar.gz",
+   "release_date": "2017-02-28",
+   "sha256": "df3a5c4d0a2cf0cde0b3f35796ccf6c9acfd598b8e70f8dece5404cd7626bbd6",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2017a.tar.gz"
+  },
+  "tzdata2017b": {
+   "bytes": 324317,
+   "file": "tzdata2017b.tar.gz",
+   "release_date": "2017-03-17",
+   "sha256": "f8242a522ea3496b0ce4ff4f2e75a049178da21001a08b8e666d8cbe07d18086",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2017b.tar.gz"
+  },
+  "tzdata2017c": {
+   "bytes": 335571,
+   "file": "tzdata2017c.tar.gz",
+   "release_date": "2017-10-20",
+   "sha256": "d6543f92a929826318e2f44ff3a7611ce5f565a43e10250b42599d0ba4cbd90b",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2017c.tar.gz"
+  },
+  "tzdata2018a": {
+   "bytes": 339626,
+   "file": "tzdata2018a.tar.gz",
+   "release_date": "2018-01-13",
+   "sha256": "d2ea23a06783603a42c1a2665392e65958b0c8a341b2f2e7342d43343d7080dc",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2018a.tar.gz"
+  },
+  "tzdata2018b": {
+   "bytes": 340314,
+   "file": "tzdata2018b.tar.gz",
+   "release_date": "2018-01-18",
+   "sha256": "f87540b9050e1b0d772d19058fcb62f54baa505ecebf392ea825713c33bd9848",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2018b.tar.gz"
+  },
+  "tzdata2018c": {
+   "bytes": 341074,
+   "file": "tzdata2018c.tar.gz",
+   "release_date": "2018-01-23",
+   "sha256": "2825c3e4b7ef520f24d393bcc02942f9762ffd3e7fc9b23850789ed8f22933f6",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2018c.tar.gz"
+  },
+  "tzdata2018d": {
+   "bytes": 351271,
+   "file": "tzdata2018d.tar.gz",
+   "release_date": "2018-03-22",
+   "sha256": "5106eddceb5f1ae3a91dbd3960e1b8b11ba0dc08579a31cf0724a7691b10c054",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2018d.tar.gz"
+  },
+  "tzdata2018e": {
+   "bytes": 353953,
+   "file": "tzdata2018e.tar.gz",
+   "release_date": "2018-05-02",
+   "sha256": "6b288e5926841a4cb490909fe822d85c36ae75538ad69baf20da9628b63b692e",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2018e.tar.gz"
+  },
+  "tzdata2018f": {
+   "bytes": 366046,
+   "file": "tzdata2018f.tar.gz",
+   "release_date": "2018-10-18",
+   "sha256": "0af6a85fc4ea95832f76524f35696a61abb3992fd3f8db33e5a1f95653e043f2",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2018f.tar.gz"
+  },
+  "tzdata2018g": {
+   "bytes": 366408,
+   "file": "tzdata2018g.tar.gz",
+   "release_date": "2018-10-27",
+   "sha256": "02dfde534872f6513ae4553a3388fdae579441e31b862ea99170dfc447f46a16",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2018g.tar.gz"
+  },
+  "tzdata2018h": {
+   "bytes": 376711,
+   "file": "tzdata2018h.tar.gz",
+   "release_date": "2018-12-24",
+   "sha256": "b8cbcf3e46aed30ad27c40d5bed68c16cf759384d14cc6411b84460c88bdd91f",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2018h.tar.gz"
+  },
+  "tzdata2018i": {
+   "bytes": 377009,
+   "file": "tzdata2018i.tar.gz",
+   "release_date": "2018-12-30",
+   "sha256": "82c45ef84ca3bc01d0a4a397ba8adeb8f7f199c6550740587c6ac5a7108c00d9",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2018i.tar.gz"
+  },
+  "tzdata2019a": {
+   "bytes": 378961,
+   "file": "tzdata2019a.tar.gz",
+   "release_date": "2019-03-26",
+   "sha256": "90366ddf4aa03e37a16cd49255af77f801822310b213f195e2206ead48c59772",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2019a.tar.gz"
+  },
+  "tzdata2019b": {
+   "bytes": 384667,
+   "file": "tzdata2019b.tar.gz",
+   "release_date": "2019-07-01",
+   "sha256": "05d9092c90dcf9ec4f3ccfdea80c7dcea5e882b3b105c3422da172aaa9a50c64",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2019b.tar.gz"
+  },
+  "tzdata2019c": {
+   "bytes": 392087,
+   "file": "tzdata2019c.tar.gz",
+   "release_date": "2019-09-11",
+   "sha256": "79c7806dab09072308da0e3d22c37d3b245015a591891ea147d3b133b60ffc7c",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2019c.tar.gz"
+  },
+  "tzdata2020a": {
+   "bytes": 397245,
+   "file": "tzdata2020a.tar.gz",
+   "release_date": "2020-04-23",
+   "sha256": "547161eca24d344e0b5f96aff6a76b454da295dc14ed4ca50c2355043fb899a2",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2020a.tar.gz"
+  },
+  "tzdata2020b": {
+   "bytes": 400017,
+   "file": "tzdata2020b.tar.gz",
+   "release_date": "2020-10-07",
+   "sha256": "9b053f951d245ce89d850b96ee4711d82d833559b1fc96ba19f90bc4d745e809",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2020b.tar.gz"
+  },
+  "tzdata2020c": {
+   "bytes": 400801,
+   "file": "tzdata2020c.tar.gz",
+   "release_date": "2020-10-16",
+   "sha256": "7890ac105f1aa4a5d15c5be2409580af401ee2f3fffe2a1e4748af589e194bd9",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2020c.tar.gz"
+  },
+  "tzdata2020d": {
+   "bytes": 401479,
+   "file": "tzdata2020d.tar.gz",
+   "release_date": "2020-10-21",
+   "sha256": "8d813957de363387696f05af8a8889afa282ab5016a764c701a20758d39cbaf3",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2020d.tar.gz"
+  },
+  "tzdata2020e": {
+   "bytes": 411619,
+   "file": "tzdata2020e.tar.gz",
+   "release_date": "2020-12-22",
+   "sha256": "0be1ba329eae29ae1b54057c3547b3e672f73b3ae7643aa87dac85122bec037e",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2020e.tar.gz"
+  },
+  "tzdata2020f": {
+   "bytes": 411739,
+   "file": "tzdata2020f.tar.gz",
+   "release_date": "2020-12-29",
+   "sha256": "121131918c3ae6dc5d40f0eb87563a2be920b71a76e2392c09519a5e4a666881",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2020f.tar.gz"
+  },
+  "tzdata2021a": {
+   "bytes": 411892,
+   "file": "tzdata2021a.tar.gz",
+   "release_date": "2021-01-24",
+   "sha256": "39e7d2ba08c68cbaefc8de3227aab0dec2521be8042cf56855f7dc3a9fb14e08",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2021a.tar.gz"
+  },
+  "tzdata2021b": {
+   "bytes": 420593,
+   "file": "tzdata2021b.tar.gz",
+   "release_date": "2021-09-24",
+   "sha256": "53d9e6dbdb59dffe2b7bff59d140148181386c06e175fa69eaeb4cc83bc3deb7",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2021b.tar.gz"
+  },
+  "tzdata2021c": {
+   "bytes": 421791,
+   "file": "tzdata2021c.tar.gz",
+   "release_date": "2021-10-01",
+   "sha256": "b4f1d1c8cb11c3500276dac862d8c7e6f88c69b1e8ee4c5e9d1daad17fbe3542",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2021c.tar.gz"
+  },
+  "tzdata2021d": {
+   "bytes": 422399,
+   "file": "tzdata2021d.tar.gz",
+   "release_date": "2021-10-15",
+   "sha256": "d7c188a2b33d4a3c25ee4a9fdc68c1ff462bfdb302cf41343d84ca5942dbddf6",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2021d.tar.gz"
+  },
+  "tzdata2021e": {
+   "bytes": 422509,
+   "file": "tzdata2021e.tar.gz",
+   "release_date": "2021-10-22",
+   "sha256": "07ec42b737d0d3c6be9c337f8abb5f00554a0f9cc4fcf01a703d69403b6bb2b1",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2021e.tar.gz"
+  },
+  "tzdata2022a": {
+   "bytes": 425833,
+   "file": "tzdata2022a.tar.gz",
+   "release_date": "2022-03-16",
+   "sha256": "ef7fffd9f4f50f4f58328b35022a32a5a056b245c5cb3d6791dddb342f871664",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2022a.tar.gz"
+  },
+  "tzdata2022b": {
+   "bytes": 432594,
+   "file": "tzdata2022b.tar.gz",
+   "release_date": "2022-08-10",
+   "sha256": "f590eaf04a395245426c2be4fae71c143aea5cebc11088b7a0a5704461df397d",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2022b.tar.gz"
+  },
+  "tzdata2022c": {
+   "bytes": 432721,
+   "file": "tzdata2022c.tar.gz",
+   "release_date": "2022-08-16",
+   "sha256": "6974f4e348bf2323274b56dff9e7500247e3159eaa4b485dfa0cd66e75c14bfe",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2022c.tar.gz"
+  },
+  "tzdata2022d": {
+   "bytes": 433425,
+   "file": "tzdata2022d.tar.gz",
+   "release_date": "2022-09-23",
+   "sha256": "6ecdbee27fa43dcfa49f3d4fd8bb1dfef54c90da1abcd82c9abcf2dc4f321de0",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2022d.tar.gz"
+  },
+  "tzdata2022e": {
+   "bytes": 433785,
+   "file": "tzdata2022e.tar.gz",
+   "release_date": "2022-10-11",
+   "sha256": "8de4c2686dce3d1aae9030719e6814931c216a2d5e891ec3d332e6f6516aeccd",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2022e.tar.gz"
+  },
+  "tzdata2022f": {
+   "bytes": 436352,
+   "file": "tzdata2022f.tar.gz",
+   "release_date": "2022-10-29",
+   "sha256": "9990d71f675d212567b931fe8aae1cab7027f89fefb8a79d808a6933a67af000",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2022f.tar.gz"
+  },
+  "tzdata2022g": {
+   "bytes": 439731,
+   "file": "tzdata2022g.tar.gz",
+   "release_date": "2022-11-29",
+   "sha256": "4491db8281ae94a84d939e427bdd83dc389f26764d27d9a5c52d782c16764478",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2022g.tar.gz"
+  },
+  "tzdata2023a": {
+   "bytes": 442875,
+   "file": "tzdata2023a.tar.gz",
+   "release_date": "2023-03-22",
+   "sha256": "a2a27edb7af5a384cfcefdae9defad6a7ed23f3f2cfdaf3d5394c1e8299710bc",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2023a.tar.gz"
+  },
+  "tzdata2023b": {
+   "bytes": 443019,
+   "file": "tzdata2023b.tar.gz",
+   "release_date": "2023-03-24",
+   "sha256": "9b78fd264f95611fe987a95721456cd5aac9f55e6915be4a9ca2997bc7ce0e6c",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2023b.tar.gz"
+  },
+  "tzdata2023c": {
+   "bytes": 443902,
+   "file": "tzdata2023c.tar.gz",
+   "release_date": "2023-03-28",
+   "sha256": "3f510b5d1b4ae9bb38e485aa302a776b317fb3637bdb6404c4adf7b6cadd965c",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2023c.tar.gz"
+  },
+  "tzdata2023d": {
+   "bytes": 449767,
+   "file": "tzdata2023d.tar.gz",
+   "release_date": "2023-12-21",
+   "sha256": "dbca21970b0a8b8c0ceceec1d7b91fa903be0f6eca5ae732b5329672232a08f3",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2023d.tar.gz"
+  },
+  "tzdata2024a": {
+   "bytes": 451270,
+   "file": "tzdata2024a.tar.gz",
+   "release_date": "2024-02-01",
+   "sha256": "0d0434459acbd2059a7a8da1f3304a84a86591f6ed69c6248fffa502b6edffe3",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2024a.tar.gz"
+  },
+  "tzdata2024b": {
+   "bytes": 459393,
+   "file": "tzdata2024b.tar.gz",
+   "release_date": "2024-09-04",
+   "sha256": "70e754db126a8d0db3d16d6b4cb5f7ec1e04d5f261255e4558a67fe92d39e550",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2024b.tar.gz"
+  },
+  "tzdata2025a": {
+   "bytes": 462943,
+   "file": "tzdata2025a.tar.gz",
+   "release_date": "2025-01-15",
+   "sha256": "4d5fcbc72c7c450ebfe0b659bd0f1c02fbf52fd7f517a9ea13fe71c21eb5f0d0",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2025a.tar.gz"
+  },
+  "tzdata2025b": {
+   "bytes": 464295,
+   "file": "tzdata2025b.tar.gz",
+   "release_date": "2025-03-22",
+   "sha256": "11810413345fc7805017e27ea9fa4885fd74cd61b2911711ad038f5d28d71474",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2025b.tar.gz"
+  },
+  "tzdata2025c": {
+   "bytes": 469363,
+   "file": "tzdata2025c.tar.gz",
+   "release_date": "2025-12-10",
+   "sha256": "4aa79e4effee53fc4029ffe5f6ebe97937282ebcdf386d5d2da91ce84142f957",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2025c.tar.gz"
+  },
+  "tzdata2026a": {
+   "bytes": 471812,
+   "file": "tzdata2026a.tar.gz",
+   "release_date": "2026-03-02",
+   "sha256": "77b541725937bb53bd92bd484c0b43bec8545e2d3431ee01f04ef8f2203ba2b7",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2026a.tar.gz"
+  },
+  "tzdata2026b": {
+   "bytes": 473703,
+   "file": "tzdata2026b.tar.gz",
+   "release_date": "2026-04-23",
+   "sha256": "114543d9f19a6bfeb5bca43686aea173d38755a3db1f2eec112647ae92c6f544",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2026b.tar.gz"
+  },
+  "tzdata2026c": {
+   "bytes": 475694,
+   "file": "tzdata2026c.tar.gz",
+   "release_date": "2026-07-08",
+   "sha256": "e4a178a4477f3d0ea77cc31828ff72aa38feff8d61aa13e7e99e142e9d902be4",
+   "url": "https://data.iana.org/time-zones/releases/tzdata2026c.tar.gz"
+  },
+  "tzdata93g": {
+   "bytes": 60118,
+   "file": "tzdata93g.tar.gz",
+   "release_date": "1993-11-22",
+   "sha256": "453cd56c946c0f0c062bd0d4b42555bb55b76778f91bc2f85aa390bc7de95140",
+   "url": "https://data.iana.org/time-zones/releases/tzdata93g.tar.gz"
+  },
+  "tzdata94a": {
+   "bytes": 60109,
+   "file": "tzdata94a.tar.gz",
+   "release_date": "1994-02-03",
+   "sha256": "402e8b5e7a713bde8514832e50a8d4a56900deb8e1d60c9abe5a36a5cb195a06",
+   "url": "https://data.iana.org/time-zones/releases/tzdata94a.tar.gz"
+  },
+  "tzdata94b": {
+   "bytes": 63675,
+   "file": "tzdata94b.tar.gz",
+   "release_date": "1994-02-07",
+   "sha256": "4357581dc85487bcb59a7141d4ed5ee742e4ecccc2da7684d7f168751c61fc18",
+   "url": "https://data.iana.org/time-zones/releases/tzdata94b.tar.gz"
+  },
+  "tzdata94d": {
+   "bytes": 63906,
+   "file": "tzdata94d.tar.gz",
+   "release_date": "1994-02-24",
+   "sha256": "5a9bb009b8423b3f4d262b9cc9098384e073e26aaee991a4fe73c2619fbe02cd",
+   "url": "https://data.iana.org/time-zones/releases/tzdata94d.tar.gz"
+  },
+  "tzdata94e": {
+   "bytes": 64224,
+   "file": "tzdata94e.tar.gz",
+   "release_date": "1994-06-04",
+   "sha256": "d02b6b758f50502d2ef233c23a27b2cb3bbe85889b1d5dc3d68c3bafc0d270ca",
+   "url": "https://data.iana.org/time-zones/releases/tzdata94e.tar.gz"
+  },
+  "tzdata94f": {
+   "bytes": 66484,
+   "file": "tzdata94f.tar.gz",
+   "release_date": "1994-08-20",
+   "sha256": "803238ec721289aac9a8f81f0325fca8476f2c6779368b3a1f384e0966b4c31f",
+   "url": "https://data.iana.org/time-zones/releases/tzdata94f.tar.gz"
+  },
+  "tzdata94h": {
+   "bytes": 68570,
+   "file": "tzdata94h.tar.gz",
+   "release_date": "1994-12-10",
+   "sha256": "0df84818543f53783a6c7aa839bffd4cfbb3efccf441003b2cb1889869d2fedd",
+   "url": "https://data.iana.org/time-zones/releases/tzdata94h.tar.gz"
+  },
+  "tzdata95b": {
+   "bytes": 68484,
+   "file": "tzdata95b.tar.gz",
+   "release_date": "1995-02-21",
+   "sha256": "f0e65427d2e88a11d499ac0e0cfe19cb508c17aebcacf2b60428f07510a241f8",
+   "url": "https://data.iana.org/time-zones/releases/tzdata95b.tar.gz"
+  },
+  "tzdata95c": {
+   "bytes": 68936,
+   "file": "tzdata95c.tar.gz",
+   "release_date": "1995-07-02",
+   "sha256": "ab8f40e112941ce906cfa33fe896cedec845db2f2dad7a2d553b4516c4237c4b",
+   "url": "https://data.iana.org/time-zones/releases/tzdata95c.tar.gz"
+  },
+  "tzdata95d": {
+   "bytes": 68855,
+   "file": "tzdata95d.tar.gz",
+   "release_date": "1995-07-03",
+   "sha256": "85e3833cb9471de65234ecbac0a57d10681bce98689f22a2e87e97c1be01358f",
+   "url": "https://data.iana.org/time-zones/releases/tzdata95d.tar.gz"
+  },
+  "tzdata95e": {
+   "bytes": 68860,
+   "file": "tzdata95e.tar.gz",
+   "release_date": "1995-07-08",
+   "sha256": "74a714c1913275256b5838bab29d97096519f1bc92d87e3df2992e5840fb761f",
+   "url": "https://data.iana.org/time-zones/releases/tzdata95e.tar.gz"
+  },
+  "tzdata95f": {
+   "bytes": 68933,
+   "file": "tzdata95f.tar.gz",
+   "release_date": "1995-08-29",
+   "sha256": "6f64cc52d9f9a5083e24e35f6db4ac5b93733896249df5ced0828cb3aa6c93a8",
+   "url": "https://data.iana.org/time-zones/releases/tzdata95f.tar.gz"
+  },
+  "tzdata95g": {
+   "bytes": 68933,
+   "file": "tzdata95g.tar.gz",
+   "release_date": "1995-09-01",
+   "sha256": "48d06cc55d8007ff5be029f30a91cf8bd6cb1a5b9d69ac93b6d84ba51e99ad25",
+   "url": "https://data.iana.org/time-zones/releases/tzdata95g.tar.gz"
+  },
+  "tzdata95h": {
+   "bytes": 69397,
+   "file": "tzdata95h.tar.gz",
+   "release_date": "1995-09-21",
+   "sha256": "f098b4cbfdaaa016fd324749997b0768ca6e92b36444bb64d11d765b23ab4ae6",
+   "url": "https://data.iana.org/time-zones/releases/tzdata95h.tar.gz"
+  },
+  "tzdata95i": {
+   "bytes": 69404,
+   "file": "tzdata95i.tar.gz",
+   "release_date": "1995-09-26",
+   "sha256": "473d5caabf161135321e6b783f8d42e799af56c8ee66618d64fd3165c72c8a51",
+   "url": "https://data.iana.org/time-zones/releases/tzdata95i.tar.gz"
+  },
+  "tzdata95k": {
+   "bytes": 69838,
+   "file": "tzdata95k.tar.gz",
+   "release_date": "1995-10-30",
+   "sha256": "668316a70eb8cc1a8ed0a2ebd9b1e34bd4ec3eb9bcb3ad068b1cc6e4812d1caf",
+   "url": "https://data.iana.org/time-zones/releases/tzdata95k.tar.gz"
+  },
+  "tzdata95l": {
+   "bytes": 70026,
+   "file": "tzdata95l.tar.gz",
+   "release_date": "1995-12-19",
+   "sha256": "f9c82e19c5837e737f59c1d6f61352e7d1ca5178839124a313b78f593254a80b",
+   "url": "https://data.iana.org/time-zones/releases/tzdata95l.tar.gz"
+  },
+  "tzdata95m": {
+   "bytes": 72634,
+   "file": "tzdata95m.tar.gz",
+   "release_date": "1995-12-21",
+   "sha256": "3574961976fc9762659d145a90b867d30bd88a1978ff65c1f07c7aec26a99e53",
+   "url": "https://data.iana.org/time-zones/releases/tzdata95m.tar.gz"
+  },
+  "tzdata96a": {
+   "bytes": 72790,
+   "file": "tzdata96a.tar.gz",
+   "release_date": "1996-01-06",
+   "sha256": "d5170a362e7409fa7174042ee5cb4efa40a60c70ce36834969493cda46bc463e",
+   "url": "https://data.iana.org/time-zones/releases/tzdata96a.tar.gz"
+  },
+  "tzdata96b": {
+   "bytes": 73021,
+   "file": "tzdata96b.tar.gz",
+   "release_date": "1996-01-27",
+   "sha256": "af6f0b66475d977a4040f73e31ae83186501020b0e54418d3b826cb0252f9321",
+   "url": "https://data.iana.org/time-zones/releases/tzdata96b.tar.gz"
+  },
+  "tzdata96c": {
+   "bytes": 73301,
+   "file": "tzdata96c.tar.gz",
+   "release_date": "1996-02-12",
+   "sha256": "3edcf59c3f79acb3035777348c8fdccf14786cf50f0e085035965d0945226660",
+   "url": "https://data.iana.org/time-zones/releases/tzdata96c.tar.gz"
+  },
+  "tzdata96d": {
+   "bytes": 73472,
+   "file": "tzdata96d.tar.gz",
+   "release_date": "1996-03-19",
+   "sha256": "afc72ab3d82056409328e84c36a0fbbea9015a4f2733e7666b84bd63c5f5baf0",
+   "url": "https://data.iana.org/time-zones/releases/tzdata96d.tar.gz"
+  },
+  "tzdata96e": {
+   "bytes": 73436,
+   "file": "tzdata96e.tar.gz",
+   "release_date": "1996-03-19",
+   "sha256": "1751e9dd15dfec61d9702920b4c3d4be42aa9964a5b8cce2b369854a1263d7b3",
+   "url": "https://data.iana.org/time-zones/releases/tzdata96e.tar.gz"
+  },
+  "tzdata96h": {
+   "bytes": 74236,
+   "file": "tzdata96h.tar.gz",
+   "release_date": "1996-05-09",
+   "sha256": "8264544985aaf12ff20ea14d963e361c4422ce8fd5bd8c69b92ec0e296f4fe32",
+   "url": "https://data.iana.org/time-zones/releases/tzdata96h.tar.gz"
+  },
+  "tzdata96i": {
+   "bytes": 75839,
+   "file": "tzdata96i.tar.gz",
+   "release_date": "1996-07-01",
+   "sha256": "8a26fd4aa3e7bf474f1d51be394e309737fb2c157dc8014cfcf2a5a3f4084289",
+   "url": "https://data.iana.org/time-zones/releases/tzdata96i.tar.gz"
+  },
+  "tzdata96k": {
+   "bytes": 88661,
+   "file": "tzdata96k.tar.gz",
+   "release_date": "1996-09-08",
+   "sha256": "02f8321a3236105338a2a071f9f9ef98dadeb8f939cbe3dc2dd53e1931015604",
+   "url": "https://data.iana.org/time-zones/releases/tzdata96k.tar.gz"
+  }
+ },
+ "source": "https://data.iana.org/time-zones/releases/"
+}

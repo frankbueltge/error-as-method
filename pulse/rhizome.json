@@ -1,418 +1,463 @@
 {
-  "what_this_is": "This line's own authored map of its own works — not the ecology's graph, and not a claim about how any other practice should see itself. Nodes are derived from works/*/meta.json by tools/pulse_nodes.py and carry no judgement. Edges are authored by hand and are the instrument; an empty list means none have been drawn yet, never that none exist.",
-  "grammar": "work · thread · source",
-  "opened": "2026-08-13",
-  "nodes_are": "derived — rerun tools/pulse_nodes.py",
-  "edges_are": "authored — never written by a script. Opened 2026-08-13 by Session 52 with the edges that night actually walked, and only those. S51 left the full pass as a night's work and it still is: 39 nodes, 9 edges, and every node before 2026-07-18 unconnected. Drawing the rest is the instrument's real job. Nothing here is inferred from titles — each edge is a relation this line stated in writing at the time.",
-  "node_count": 39,
-  "edge_count": 9,
-  "nodes": [
-    {
-      "id": "2026-06-29-cerfs-margin",
-      "kind": "work",
-      "title": "Cerf's Margin",
-      "date": "2026-06-29",
-      "author": "Ulysses",
-      "medium": "Astro/SSG · DOM built client-side · deterministic pattern matching over the RFC 439 transcript · no external data",
-      "path": "works/2026-06-29-cerfs-margin/"
-    },
-    {
-      "id": "2026-06-29-drei-maschinen",
-      "kind": "work",
-      "title": "Three Machines",
-      "date": "2026-06-29",
-      "author": "Ulysses",
-      "medium": "Astro/SSG · DOM built client-side · three deterministic seeded generators · no external data",
-      "path": "works/2026-06-29-drei-maschinen/"
-    },
-    {
-      "id": "2026-06-29-normalitaetsmodell",
-      "kind": "work",
-      "title": "Normality Model",
-      "date": "2026-06-29",
-      "author": "Ulysses",
-      "medium": "Astro/SSG · DOM built client-side, event-delegated · no external data",
-      "path": "works/2026-06-29-normalitaetsmodell/"
-    },
-    {
-      "id": "2026-06-30-a-implies-a",
-      "kind": "work",
-      "title": "A → A",
-      "date": "2026-06-30",
-      "author": "Ulysses",
-      "medium": "Astro/SSG · feedback-loop SVG built client-side · no external data import",
-      "path": "works/2026-06-30-a-implies-a/"
-    },
-    {
-      "id": "2026-06-30-fehler-briefe",
-      "kind": "work",
-      "title": "Error Letters",
-      "date": "2026-06-30",
-      "author": "Ulysses",
-      "medium": "Astro/SSG · four letters generated client-side via seeded LCG · no external data",
-      "path": "works/2026-06-30-fehler-briefe/"
-    },
-    {
-      "id": "2026-06-30-purpose-tremor",
-      "kind": "work",
-      "title": "Purpose Tremor",
-      "date": "2026-06-30",
-      "author": "Ulysses",
-      "medium": "Astro/SSG · canvas animation built client-side · no external data",
-      "path": "works/2026-06-30-purpose-tremor/"
-    },
-    {
-      "id": "2026-06-30-the-exchange",
-      "kind": "work",
-      "title": "The Exchange",
-      "date": "2026-06-30",
-      "author": "Ulysses",
-      "medium": "Astro/SSG · dialogue generated client-side via seeded LCG · no external data",
-      "path": "works/2026-06-30-the-exchange/"
-    },
-    {
-      "id": "2026-06-30-vier-maschinen",
-      "kind": "work",
-      "title": "Four Machines",
-      "date": "2026-06-30",
-      "author": "Ulysses",
-      "medium": "Astro/SSG, inline computation, no external data import",
-      "path": "works/2026-06-30-vier-maschinen/"
-    },
-    {
-      "id": "2026-07-01-oscillogram",
-      "kind": "work",
-      "title": "Oscillogram",
-      "date": "2026-07-01",
-      "author": "Ulysses",
-      "medium": "Astro/SSG · seeded canvas line-chart animation, deterministic replay on click, no external data",
-      "path": "works/2026-07-01-oscillogram/"
-    },
-    {
-      "id": "2026-07-02-exit-prohibited",
-      "kind": "work",
-      "title": "Exit Prohibited",
-      "date": "2026-07-02",
-      "author": "Ulysses",
-      "medium": "Astro/SSG · four-panel canvas render sharing one seeded feedback-loop physics state, deterministic replay on click",
-      "path": "works/2026-07-02-exit-prohibited/"
-    },
-    {
-      "id": "2026-07-03-generation-loss",
-      "kind": "work",
-      "title": "Generation Loss",
-      "date": "2026-07-03",
-      "author": "",
-      "medium": "",
-      "path": "works/2026-07-03-generation-loss/"
-    },
-    {
-      "id": "2026-07-03-void-i",
-      "kind": "work",
-      "title": "Void i",
-      "date": "2026-07-03",
-      "author": "Ulysses",
-      "medium": "Astro/SSG · CSS/DOM lipogram animation — client-side letter removal and hover-restore, no external data",
-      "path": "works/2026-07-03-void-i/"
-    },
-    {
-      "id": "2026-07-04-attractor",
-      "kind": "work",
-      "title": "Attractor",
-      "date": "2026-07-04",
-      "author": "",
-      "medium": "",
-      "path": "works/2026-07-04-attractor/"
-    },
-    {
-      "id": "2026-07-05-call-without-response",
-      "kind": "work",
-      "title": "Call Without Response",
-      "date": "2026-07-05",
-      "author": "",
-      "medium": "",
-      "path": "works/2026-07-05-call-without-response/"
-    },
-    {
-      "id": "2026-07-07-named-the-glitch",
-      "kind": "work",
-      "title": "Named, the Glitch Is No More",
-      "date": "2026-07-07",
-      "author": "Ulysses",
-      "medium": "Astro/SSG · canvas UTF-8 byte-raster databend, client-side, no external data — substrate is verbatim text from Rosa Menkman's Glitch Studies Manifesto (2009/2010, CC BY-NC-ND 3.0, cited)",
-      "path": "works/2026-07-07-named-the-glitch/"
-    },
-    {
-      "id": "2026-07-09-the-true-period",
-      "kind": "work",
-      "title": "The True Period",
-      "date": "2026-07-09",
-      "author": "Ulysses",
-      "medium": "Astro/SSG · canvas numeric databend + live coherence measurement, client-side · substrate is NOAA's real Mauna Loa monthly CO2 record 1958–2026 (co2_mm_mlo, cited), brought as local data.json",
-      "path": "works/2026-07-09-the-true-period/"
-    },
-    {
-      "id": "2026-07-10-conditional-expanse",
-      "kind": "work",
-      "title": "A Conditional Expanse",
-      "date": "2026-07-10",
-      "author": "Ulysses",
-      "medium": "Astro/SSG · client-side bigram (first-order Markov) engine + live measurement · substrate is eight verified sentences from Gertrude Stein's How to Write (1931), each cited, brought as local data.json",
-      "path": "works/2026-07-10-conditional-expanse/"
-    },
-    {
-      "id": "2026-07-11-the-closing-loop",
-      "kind": "work",
-      "title": "The Closing Loop",
-      "date": "2026-07-11",
-      "author": "Ulysses",
-      "medium": "Astro/SSG · SVG phase portrait built from a reproducible measurement of the project's own 21-session journal (committed script over journal/*.md), brought as local data.json",
-      "path": "works/2026-07-11-the-closing-loop/"
-    },
-    {
-      "id": "2026-07-12-low-background",
-      "kind": "work",
-      "title": "Low-Background",
-      "date": "2026-07-12",
-      "author": "Ulysses",
-      "medium": "Astro/SSG · two SVG plots and a text strip driven by a seeded, reproducible closed-loop model-collapse experiment (committed experiment.py), brought as local data.json",
-      "path": "works/2026-07-12-low-background/"
-    },
-    {
-      "id": "2026-07-13-generative-unknowing",
-      "kind": "work",
-      "title": "Generative Unknowing",
-      "date": "2026-07-13",
-      "author": "Ulysses",
-      "medium": "Astro · seeded Markov generator + signal-detection measurement + interactive detection task",
-      "path": "works/2026-07-13-generative-unknowing/"
-    },
-    {
-      "id": "2026-07-14-differential-reproduction",
-      "kind": "work",
-      "title": "Differential Reproduction",
-      "date": "2026-07-14",
-      "author": "Ulysses",
-      "medium": "Astro · a live, seeded artificial-life population (canvas) + committed measured evidence (experiment.py → data.json, SVG charts)",
-      "path": "works/2026-07-14-differential-reproduction/"
-    },
-    {
-      "id": "2026-07-14-negative-knowledge",
-      "kind": "work",
-      "title": "Negative Knowledge",
-      "date": "2026-07-14",
-      "author": "Ulysses",
-      "medium": "Astro · a fully static, build-time seeded corruption field rendered as SVG (no client script)",
-      "path": "works/2026-07-14-negative-knowledge/"
-    },
-    {
-      "id": "2026-07-15-the-third-pile",
-      "kind": "work",
-      "title": "The Third Pile",
-      "date": "2026-07-15",
-      "author": "Ulysses",
-      "medium": "Astro · a fully static, build-time audit of the project's own corpus, rendered as SVG (no client script, no seed — a measurement)",
-      "path": "works/2026-07-15-the-third-pile/"
-    },
-    {
-      "id": "2026-07-16-exactly-the-same-emphasis",
-      "kind": "work",
-      "title": "Exactly the Same Emphasis",
-      "date": "2026-07-16",
-      "author": "Ulysses",
-      "medium": "Astro · fully static, build-time measurement of emphasis across three registers (deterministic probe.py → data.json; committed public-domain Stein text; no client script)",
-      "path": "works/2026-07-16-exactly-the-same-emphasis/"
-    },
-    {
-      "id": "2026-07-16-the-missing-detect-bit",
-      "kind": "work",
-      "title": "The Missing Detect-Bit",
-      "date": "2026-07-16",
-      "author": "Ulysses",
-      "medium": "native Astro component over a committed, deterministic measurement of the project's own recall tool",
-      "path": "works/2026-07-16-the-missing-detect-bit/"
-    },
-    {
-      "id": "2026-07-16-the-wrong-sphere",
-      "kind": "work",
-      "title": "The Wrong Sphere",
-      "date": "2026-07-16",
-      "author": "Ulysses",
-      "medium": "native Astro component (SVG + seeded interactive) with committed Python generator",
-      "path": "works/2026-07-16-the-wrong-sphere/"
-    },
-    {
-      "id": "2026-07-17-exclude-the-third",
-      "kind": "work",
-      "title": "Exclude the Third",
-      "date": "2026-07-17",
-      "author": "Ulysses",
-      "medium": "Astro · native, interactive · a real seeded stochastic-resonance run (resonance.py → data.json, stdlib only, reproducible) displayed by a CSP-clean viewer; the reader turns a noise knob and watches a subthreshold message appear and die",
-      "path": "works/2026-07-17-exclude-the-third/"
-    },
-    {
-      "id": "2026-07-17-inaccurate-citations",
-      "kind": "work",
-      "title": "Inaccurate Citations",
-      "date": "2026-07-17",
-      "author": "Ulysses",
-      "medium": "Astro · fully static, build-time citation check over the atelier's own atlas (deterministic check.py → data.json; 12 canonical titles retrieved this session from an outside index; no client script)",
-      "path": "works/2026-07-17-inaccurate-citations/"
-    },
-    {
-      "id": "2026-07-17-the-wider-envelope",
-      "kind": "work",
-      "title": "The Wider Envelope",
-      "date": "2026-07-17",
-      "author": "Ulysses",
-      "medium": "Astro · native, interactive · the real 16-bit signed overflow run live in the viewer (ariane.py → data.json, stdlib only, reproducible); the reader slides one trajectory into another and watches the identical conversion go from correct to fatal",
-      "path": "works/2026-07-17-the-wider-envelope/"
-    },
-    {
-      "id": "2026-07-18-the-copyists-strait",
-      "kind": "work",
-      "title": "The Copyist's Strait",
-      "date": "2026-07-18",
-      "author": "Ulysses",
-      "medium": "Astro · native, generative · a seeded random walk (mulberry32) that copies a schematic coastline generation by generation, each copy inheriting the previous copy's drift; a strait misread at one generation and thereafter inherited by descent; two surveyor generations drawn true and pointedly not copied. Recopy advances the seed (no Math.random — reproducible). No historical map is reproduced or invented.",
-      "path": "works/2026-07-18-the-copyists-strait/"
-    },
-    {
-      "id": "2026-08-10-eight-misprints",
-      "kind": "work",
-      "title": "Eight Misprints",
-      "date": "2026-08-10",
-      "author": "Ulysses",
-      "medium": "Measurement · a deterministic re-run of the Simkin–Roychowdhury misprint test on a live citation record (measure.py → measure.json + figure.svg, stdlib only, no network at run time), with the full evidence committed (citations.json: 1,708 reference strings as they stand in the citing manuscripts, harvested from the INSPIRE-HEP API on 2026-08-10) and the hand adjudication of every flagged string written into the code as a disputable table",
-      "path": "works/2026-08-10-eight-misprints/"
-    },
-    {
-      "id": "2026-08-10-two-exacts",
-      "kind": "work",
-      "title": "Two Exacts",
-      "date": "2026-08-10",
-      "author": "Ulysses",
-      "medium": "self-contained HTML (SVG + vanilla JS, no external loads, the run carried inside the page as a JSON island) over a deterministic stdlib measurement — cut.py -> data.json, seed 20260810, same seed same file; the reader moves two cuts and watches who errs",
-      "path": "works/2026-08-10-two-exacts/"
-    },
-    {
-      "id": "2026-08-11-the-fixed-algorithm",
-      "kind": "work",
-      "title": "The Fixed Algorithm",
-      "date": "2026-08-11",
-      "author": "Ulysses",
-      "medium": "Measurement · exact integer arithmetic over the eleven irrevocably fixed euro conversion rates of Council Regulation (EC) No 2866/98, run against the four apparatus rules of Regulation (EC) No 1103/97 (convert.py -> data.json -> figure.py -> figure.svg; stdlib only, deterministic, no randomness and no network; every figure recomputable from the committed script). No floating point anywhere except where a float apparatus is itself the object under test.",
-      "path": "works/2026-08-11-the-fixed-algorithm/"
-    },
-    {
-      "id": "2026-08-11-the-forwarding-address",
-      "kind": "work",
-      "title": "The Forwarding Address",
-      "date": "2026-08-11",
-      "author": "Ulysses",
-      "medium": "Measurement · an exactness ledger of the 2019 revision of the SI, computed with exact decimal arithmetic (60 digits) over the three NIST CODATA tables committed in tables/ (2014, 2018, 2022): ledger.py -> data.json -> figure.py -> figure.svg. Stdlib only, deterministic, no randomness and therefore no seed, no network at run time; the harvested tables carry their SHA-256 in the output. Eight predictions written into the script before its first execution and kept there with their verdicts appended, three of them refuted.",
-      "path": "works/2026-08-11-the-forwarding-address/"
-    },
-    {
-      "id": "2026-08-11-the-governor",
-      "kind": "work",
-      "title": "The Governor",
-      "date": "2026-08-11",
-      "author": "Ulysses",
-      "medium": "Measurement · the CCM's own procedure for the mass of the kilogram, implemented as a function and run on its published inputs: governor.py -> results.json -> figure.py -> figure.svg. Exact rational arithmetic (fractions.Fraction) throughout, square roots by integer bisection to twelve places, no floating-point value in any reported number. Stdlib only, deterministic, no randomness and therefore no seed, no network at run time; every input transcribed into data/inputs.json with the address it came from. Twelve predictions written into the script before its first execution and left there with verdicts appended -- all twelve confirmed, which the work treats as the ledger's failure rather than its success.",
-      "path": "works/2026-08-11-the-governor/"
-    },
-    {
-      "id": "2026-08-12-the-permanent-correction",
-      "kind": "work",
-      "title": "The Permanent Correction",
-      "date": "2026-08-12",
-      "author": "Ulysses (the nightly line)",
-      "medium": "Measurement · twenty releases of the Unicode Character Database harvested and diffed against each other (measure.py → results.json → figure.py → figure.svg); stdlib only, deterministic, no randomness so no seed, no network at run time; loose matching rule UAX44-LM2 reimplemented from its published text; eleven predictions written into the script before its first run and kept with their verdicts, two refuted; harvested files committed under data/ with SHA-256 and source URLs",
-      "path": "works/2026-08-12-the-permanent-correction/"
-    },
-    {
-      "id": "2026-08-12-the-stable-interface",
-      "kind": "work",
-      "title": "The Stable Interface",
-      "date": "2026-08-12",
-      "author": "Ulysses (the nightly line)",
-      "medium": "measurement of 87 releases of the IANA time zone database; harvested evidence with SHA-256, stdlib measuring script, generated SVG, and a written defence of the position",
-      "path": "works/2026-08-12-the-stable-interface/"
-    },
-    {
-      "id": "2026-08-13-the-anchor",
-      "kind": "work",
-      "title": "The Anchor",
-      "date": "2026-08-13",
-      "author": "Ulysses (the nightly line)",
-      "medium": "measured reading of four institutional documents and one standard's own text; Python measurement and generated SVG; committed sources with SHA-256",
-      "path": "works/2026-08-13-the-anchor/"
-    },
-    {
-      "id": "2026-08-13-the-drifting-address",
-      "kind": "work",
-      "title": "The Drifting Address",
-      "date": "2026-08-13",
-      "author": "Ulysses (the nightly line)",
-      "medium": "geodetic and geomagnetic measurement over 13,818 runways; Python instrument checked against the World Magnetic Model's own published test values; generated SVG; committed data with SHA-256 and five institutional documents read at primary",
-      "path": "works/2026-08-13-the-drifting-address/"
-    }
-  ],
-  "edges": [
-    {
-      "from": "2026-08-10-two-exacts",
-      "to": "2026-08-11-the-forwarding-address",
-      "kind": "extends",
-      "why": "The `(exact)` flag S45 found in CODATA is followed to where the 2019 SI revision put the exactness it took away."
-    },
-    {
-      "from": "2026-08-11-the-forwarding-address",
-      "to": "2026-08-11-the-governor",
-      "kind": "extends",
-      "why": "From a norm that relocates its determination to a norm with a legislated maximum rate of change."
-    },
-    {
-      "from": "2026-08-11-the-governor",
-      "to": "2026-08-12-the-permanent-correction",
-      "kind": "extends",
-      "why": "From a legislated rate of change to that rate set to zero: a norm that legislated its own incorrigibility."
-    },
-    {
-      "from": "2026-08-12-the-permanent-correction",
-      "to": "2026-08-12-the-stable-interface",
-      "kind": "tests",
-      "why": "S49 asked for an institution that repairs; S50 answered with one institution holding both a stable interface and an explicitly unstable payload."
-    },
-    {
-      "from": "2026-08-12-the-permanent-correction",
-      "to": "2026-08-13-the-anchor",
-      "kind": "tests",
-      "why": "The same instruction from S49, taken blind by a second session the same night, through the WHATWG instead. Two routes, one claim; neither night saw the other."
-    },
-    {
-      "from": "2026-08-12-the-stable-interface",
-      "to": "2026-08-13-the-anchor",
-      "kind": "converges-with",
-      "why": "Two sessions, same night, same instruction, no contact: both killed the S45 amendment and both wrote the same two falsification conditions. Correlated, not independent — same repository, same state."
-    },
-    {
-      "from": "2026-08-13-the-anchor",
-      "to": "2026-08-13-the-drifting-address",
-      "kind": "refutes",
-      "why": "S52 takes falsification condition 1, written identically by both nights of 2026-08-12, and meets it: an address everything depends on, repaired, with nothing instituted beside. The gradient runs opposite to the claim."
-    },
-    {
-      "from": "2026-08-12-the-stable-interface",
-      "to": "2026-08-13-the-drifting-address",
-      "kind": "refutes",
-      "why": "The formulation promoted here — incorrigible where something holds a reference — is the one S52 refutes as stated and amends to unreachable attachment."
-    },
-    {
-      "from": "2026-07-18-the-copyists-strait",
-      "to": "2026-08-13-the-drifting-address",
-      "kind": "rhymes-with",
-      "why": "The fork point found an error surviving because the corrected world was seen and not copied. S52 finds correction propagating exactly where the institution owns the copying channel: ICAO's 28-day cycle is the Copyist's Strait with the current reversed."
-    }
-  ]
+ "what_this_is": "This line's own authored map of its own works — not the ecology's graph, and not a claim about how any other practice should see itself. Nodes are derived from works/*/meta.json by tools/pulse_nodes.py and carry no judgement. Edges are authored by hand and are the instrument; an empty list means none have been drawn yet, never that none exist.",
+ "grammar": "work · thread · source",
+ "opened": "2026-08-13",
+ "nodes_are": "derived — rerun tools/pulse_nodes.py",
+ "edges_are": "authored — never written by a script",
+ "node_count": 40,
+ "edge_count": 15,
+ "nodes": [
+  {
+   "id": "2026-06-29-cerfs-margin",
+   "kind": "work",
+   "title": "Cerf's Margin",
+   "date": "2026-06-29",
+   "author": "Ulysses",
+   "medium": "Astro/SSG · DOM built client-side · deterministic pattern matching over the RFC 439 transcript · no external data",
+   "path": "works/2026-06-29-cerfs-margin/"
+  },
+  {
+   "id": "2026-06-29-drei-maschinen",
+   "kind": "work",
+   "title": "Three Machines",
+   "date": "2026-06-29",
+   "author": "Ulysses",
+   "medium": "Astro/SSG · DOM built client-side · three deterministic seeded generators · no external data",
+   "path": "works/2026-06-29-drei-maschinen/"
+  },
+  {
+   "id": "2026-06-29-normalitaetsmodell",
+   "kind": "work",
+   "title": "Normality Model",
+   "date": "2026-06-29",
+   "author": "Ulysses",
+   "medium": "Astro/SSG · DOM built client-side, event-delegated · no external data",
+   "path": "works/2026-06-29-normalitaetsmodell/"
+  },
+  {
+   "id": "2026-06-30-a-implies-a",
+   "kind": "work",
+   "title": "A → A",
+   "date": "2026-06-30",
+   "author": "Ulysses",
+   "medium": "Astro/SSG · feedback-loop SVG built client-side · no external data import",
+   "path": "works/2026-06-30-a-implies-a/"
+  },
+  {
+   "id": "2026-06-30-fehler-briefe",
+   "kind": "work",
+   "title": "Error Letters",
+   "date": "2026-06-30",
+   "author": "Ulysses",
+   "medium": "Astro/SSG · four letters generated client-side via seeded LCG · no external data",
+   "path": "works/2026-06-30-fehler-briefe/"
+  },
+  {
+   "id": "2026-06-30-purpose-tremor",
+   "kind": "work",
+   "title": "Purpose Tremor",
+   "date": "2026-06-30",
+   "author": "Ulysses",
+   "medium": "Astro/SSG · canvas animation built client-side · no external data",
+   "path": "works/2026-06-30-purpose-tremor/"
+  },
+  {
+   "id": "2026-06-30-the-exchange",
+   "kind": "work",
+   "title": "The Exchange",
+   "date": "2026-06-30",
+   "author": "Ulysses",
+   "medium": "Astro/SSG · dialogue generated client-side via seeded LCG · no external data",
+   "path": "works/2026-06-30-the-exchange/"
+  },
+  {
+   "id": "2026-06-30-vier-maschinen",
+   "kind": "work",
+   "title": "Four Machines",
+   "date": "2026-06-30",
+   "author": "Ulysses",
+   "medium": "Astro/SSG, inline computation, no external data import",
+   "path": "works/2026-06-30-vier-maschinen/"
+  },
+  {
+   "id": "2026-07-01-oscillogram",
+   "kind": "work",
+   "title": "Oscillogram",
+   "date": "2026-07-01",
+   "author": "Ulysses",
+   "medium": "Astro/SSG · seeded canvas line-chart animation, deterministic replay on click, no external data",
+   "path": "works/2026-07-01-oscillogram/"
+  },
+  {
+   "id": "2026-07-02-exit-prohibited",
+   "kind": "work",
+   "title": "Exit Prohibited",
+   "date": "2026-07-02",
+   "author": "Ulysses",
+   "medium": "Astro/SSG · four-panel canvas render sharing one seeded feedback-loop physics state, deterministic replay on click",
+   "path": "works/2026-07-02-exit-prohibited/"
+  },
+  {
+   "id": "2026-07-03-generation-loss",
+   "kind": "work",
+   "title": "Generation Loss",
+   "date": "2026-07-03",
+   "author": "",
+   "medium": "",
+   "path": "works/2026-07-03-generation-loss/"
+  },
+  {
+   "id": "2026-07-03-void-i",
+   "kind": "work",
+   "title": "Void i",
+   "date": "2026-07-03",
+   "author": "Ulysses",
+   "medium": "Astro/SSG · CSS/DOM lipogram animation — client-side letter removal and hover-restore, no external data",
+   "path": "works/2026-07-03-void-i/"
+  },
+  {
+   "id": "2026-07-04-attractor",
+   "kind": "work",
+   "title": "Attractor",
+   "date": "2026-07-04",
+   "author": "",
+   "medium": "",
+   "path": "works/2026-07-04-attractor/"
+  },
+  {
+   "id": "2026-07-05-call-without-response",
+   "kind": "work",
+   "title": "Call Without Response",
+   "date": "2026-07-05",
+   "author": "",
+   "medium": "",
+   "path": "works/2026-07-05-call-without-response/"
+  },
+  {
+   "id": "2026-07-07-named-the-glitch",
+   "kind": "work",
+   "title": "Named, the Glitch Is No More",
+   "date": "2026-07-07",
+   "author": "Ulysses",
+   "medium": "Astro/SSG · canvas UTF-8 byte-raster databend, client-side, no external data — substrate is verbatim text from Rosa Menkman's Glitch Studies Manifesto (2009/2010, CC BY-NC-ND 3.0, cited)",
+   "path": "works/2026-07-07-named-the-glitch/"
+  },
+  {
+   "id": "2026-07-09-the-true-period",
+   "kind": "work",
+   "title": "The True Period",
+   "date": "2026-07-09",
+   "author": "Ulysses",
+   "medium": "Astro/SSG · canvas numeric databend + live coherence measurement, client-side · substrate is NOAA's real Mauna Loa monthly CO2 record 1958–2026 (co2_mm_mlo, cited), brought as local data.json",
+   "path": "works/2026-07-09-the-true-period/"
+  },
+  {
+   "id": "2026-07-10-conditional-expanse",
+   "kind": "work",
+   "title": "A Conditional Expanse",
+   "date": "2026-07-10",
+   "author": "Ulysses",
+   "medium": "Astro/SSG · client-side bigram (first-order Markov) engine + live measurement · substrate is eight verified sentences from Gertrude Stein's How to Write (1931), each cited, brought as local data.json",
+   "path": "works/2026-07-10-conditional-expanse/"
+  },
+  {
+   "id": "2026-07-11-the-closing-loop",
+   "kind": "work",
+   "title": "The Closing Loop",
+   "date": "2026-07-11",
+   "author": "Ulysses",
+   "medium": "Astro/SSG · SVG phase portrait built from a reproducible measurement of the project's own 21-session journal (committed script over journal/*.md), brought as local data.json",
+   "path": "works/2026-07-11-the-closing-loop/"
+  },
+  {
+   "id": "2026-07-12-low-background",
+   "kind": "work",
+   "title": "Low-Background",
+   "date": "2026-07-12",
+   "author": "Ulysses",
+   "medium": "Astro/SSG · two SVG plots and a text strip driven by a seeded, reproducible closed-loop model-collapse experiment (committed experiment.py), brought as local data.json",
+   "path": "works/2026-07-12-low-background/"
+  },
+  {
+   "id": "2026-07-13-generative-unknowing",
+   "kind": "work",
+   "title": "Generative Unknowing",
+   "date": "2026-07-13",
+   "author": "Ulysses",
+   "medium": "Astro · seeded Markov generator + signal-detection measurement + interactive detection task",
+   "path": "works/2026-07-13-generative-unknowing/"
+  },
+  {
+   "id": "2026-07-14-differential-reproduction",
+   "kind": "work",
+   "title": "Differential Reproduction",
+   "date": "2026-07-14",
+   "author": "Ulysses",
+   "medium": "Astro · a live, seeded artificial-life population (canvas) + committed measured evidence (experiment.py → data.json, SVG charts)",
+   "path": "works/2026-07-14-differential-reproduction/"
+  },
+  {
+   "id": "2026-07-14-negative-knowledge",
+   "kind": "work",
+   "title": "Negative Knowledge",
+   "date": "2026-07-14",
+   "author": "Ulysses",
+   "medium": "Astro · a fully static, build-time seeded corruption field rendered as SVG (no client script)",
+   "path": "works/2026-07-14-negative-knowledge/"
+  },
+  {
+   "id": "2026-07-15-the-third-pile",
+   "kind": "work",
+   "title": "The Third Pile",
+   "date": "2026-07-15",
+   "author": "Ulysses",
+   "medium": "Astro · a fully static, build-time audit of the project's own corpus, rendered as SVG (no client script, no seed — a measurement)",
+   "path": "works/2026-07-15-the-third-pile/"
+  },
+  {
+   "id": "2026-07-16-exactly-the-same-emphasis",
+   "kind": "work",
+   "title": "Exactly the Same Emphasis",
+   "date": "2026-07-16",
+   "author": "Ulysses",
+   "medium": "Astro · fully static, build-time measurement of emphasis across three registers (deterministic probe.py → data.json; committed public-domain Stein text; no client script)",
+   "path": "works/2026-07-16-exactly-the-same-emphasis/"
+  },
+  {
+   "id": "2026-07-16-the-missing-detect-bit",
+   "kind": "work",
+   "title": "The Missing Detect-Bit",
+   "date": "2026-07-16",
+   "author": "Ulysses",
+   "medium": "native Astro component over a committed, deterministic measurement of the project's own recall tool",
+   "path": "works/2026-07-16-the-missing-detect-bit/"
+  },
+  {
+   "id": "2026-07-16-the-wrong-sphere",
+   "kind": "work",
+   "title": "The Wrong Sphere",
+   "date": "2026-07-16",
+   "author": "Ulysses",
+   "medium": "native Astro component (SVG + seeded interactive) with committed Python generator",
+   "path": "works/2026-07-16-the-wrong-sphere/"
+  },
+  {
+   "id": "2026-07-17-exclude-the-third",
+   "kind": "work",
+   "title": "Exclude the Third",
+   "date": "2026-07-17",
+   "author": "Ulysses",
+   "medium": "Astro · native, interactive · a real seeded stochastic-resonance run (resonance.py → data.json, stdlib only, reproducible) displayed by a CSP-clean viewer; the reader turns a noise knob and watches a subthreshold message appear and die",
+   "path": "works/2026-07-17-exclude-the-third/"
+  },
+  {
+   "id": "2026-07-17-inaccurate-citations",
+   "kind": "work",
+   "title": "Inaccurate Citations",
+   "date": "2026-07-17",
+   "author": "Ulysses",
+   "medium": "Astro · fully static, build-time citation check over the atelier's own atlas (deterministic check.py → data.json; 12 canonical titles retrieved this session from an outside index; no client script)",
+   "path": "works/2026-07-17-inaccurate-citations/"
+  },
+  {
+   "id": "2026-07-17-the-wider-envelope",
+   "kind": "work",
+   "title": "The Wider Envelope",
+   "date": "2026-07-17",
+   "author": "Ulysses",
+   "medium": "Astro · native, interactive · the real 16-bit signed overflow run live in the viewer (ariane.py → data.json, stdlib only, reproducible); the reader slides one trajectory into another and watches the identical conversion go from correct to fatal",
+   "path": "works/2026-07-17-the-wider-envelope/"
+  },
+  {
+   "id": "2026-07-18-the-copyists-strait",
+   "kind": "work",
+   "title": "The Copyist's Strait",
+   "date": "2026-07-18",
+   "author": "Ulysses",
+   "medium": "Astro · native, generative · a seeded random walk (mulberry32) that copies a schematic coastline generation by generation, each copy inheriting the previous copy's drift; a strait misread at one generation and thereafter inherited by descent; two surveyor generations drawn true and pointedly not copied. Recopy advances the seed (no Math.random — reproducible). No historical map is reproduced or invented.",
+   "path": "works/2026-07-18-the-copyists-strait/"
+  },
+  {
+   "id": "2026-08-10-eight-misprints",
+   "kind": "work",
+   "title": "Eight Misprints",
+   "date": "2026-08-10",
+   "author": "Ulysses",
+   "medium": "Measurement · a deterministic re-run of the Simkin–Roychowdhury misprint test on a live citation record (measure.py → measure.json + figure.svg, stdlib only, no network at run time), with the full evidence committed (citations.json: 1,708 reference strings as they stand in the citing manuscripts, harvested from the INSPIRE-HEP API on 2026-08-10) and the hand adjudication of every flagged string written into the code as a disputable table",
+   "path": "works/2026-08-10-eight-misprints/"
+  },
+  {
+   "id": "2026-08-10-two-exacts",
+   "kind": "work",
+   "title": "Two Exacts",
+   "date": "2026-08-10",
+   "author": "Ulysses",
+   "medium": "self-contained HTML (SVG + vanilla JS, no external loads, the run carried inside the page as a JSON island) over a deterministic stdlib measurement — cut.py -> data.json, seed 20260810, same seed same file; the reader moves two cuts and watches who errs",
+   "path": "works/2026-08-10-two-exacts/"
+  },
+  {
+   "id": "2026-08-11-the-fixed-algorithm",
+   "kind": "work",
+   "title": "The Fixed Algorithm",
+   "date": "2026-08-11",
+   "author": "Ulysses",
+   "medium": "Measurement · exact integer arithmetic over the eleven irrevocably fixed euro conversion rates of Council Regulation (EC) No 2866/98, run against the four apparatus rules of Regulation (EC) No 1103/97 (convert.py -> data.json -> figure.py -> figure.svg; stdlib only, deterministic, no randomness and no network; every figure recomputable from the committed script). No floating point anywhere except where a float apparatus is itself the object under test.",
+   "path": "works/2026-08-11-the-fixed-algorithm/"
+  },
+  {
+   "id": "2026-08-11-the-forwarding-address",
+   "kind": "work",
+   "title": "The Forwarding Address",
+   "date": "2026-08-11",
+   "author": "Ulysses",
+   "medium": "Measurement · an exactness ledger of the 2019 revision of the SI, computed with exact decimal arithmetic (60 digits) over the three NIST CODATA tables committed in tables/ (2014, 2018, 2022): ledger.py -> data.json -> figure.py -> figure.svg. Stdlib only, deterministic, no randomness and therefore no seed, no network at run time; the harvested tables carry their SHA-256 in the output. Eight predictions written into the script before its first execution and kept there with their verdicts appended, three of them refuted.",
+   "path": "works/2026-08-11-the-forwarding-address/"
+  },
+  {
+   "id": "2026-08-11-the-governor",
+   "kind": "work",
+   "title": "The Governor",
+   "date": "2026-08-11",
+   "author": "Ulysses",
+   "medium": "Measurement · the CCM's own procedure for the mass of the kilogram, implemented as a function and run on its published inputs: governor.py -> results.json -> figure.py -> figure.svg. Exact rational arithmetic (fractions.Fraction) throughout, square roots by integer bisection to twelve places, no floating-point value in any reported number. Stdlib only, deterministic, no randomness and therefore no seed, no network at run time; every input transcribed into data/inputs.json with the address it came from. Twelve predictions written into the script before its first execution and left there with verdicts appended -- all twelve confirmed, which the work treats as the ledger's failure rather than its success.",
+   "path": "works/2026-08-11-the-governor/"
+  },
+  {
+   "id": "2026-08-12-the-permanent-correction",
+   "kind": "work",
+   "title": "The Permanent Correction",
+   "date": "2026-08-12",
+   "author": "Ulysses (the nightly line)",
+   "medium": "Measurement · twenty releases of the Unicode Character Database harvested and diffed against each other (measure.py → results.json → figure.py → figure.svg); stdlib only, deterministic, no randomness so no seed, no network at run time; loose matching rule UAX44-LM2 reimplemented from its published text; eleven predictions written into the script before its first run and kept with their verdicts, two refuted; harvested files committed under data/ with SHA-256 and source URLs",
+   "path": "works/2026-08-12-the-permanent-correction/"
+  },
+  {
+   "id": "2026-08-12-the-stable-interface",
+   "kind": "work",
+   "title": "The Stable Interface",
+   "date": "2026-08-12",
+   "author": "Ulysses (the nightly line)",
+   "medium": "measurement of 87 releases of the IANA time zone database; harvested evidence with SHA-256, stdlib measuring script, generated SVG, and a written defence of the position",
+   "path": "works/2026-08-12-the-stable-interface/"
+  },
+  {
+   "id": "2026-08-13-the-anchor",
+   "kind": "work",
+   "title": "The Anchor",
+   "date": "2026-08-13",
+   "author": "Ulysses (the nightly line)",
+   "medium": "measured reading of four institutional documents and one standard's own text; Python measurement and generated SVG; committed sources with SHA-256",
+   "path": "works/2026-08-13-the-anchor/"
+  },
+  {
+   "id": "2026-08-13-the-backward-file",
+   "kind": "work",
+   "title": "The Backward File",
+   "date": "2026-08-13",
+   "author": "Ulysses (the nightly line)",
+   "medium": "measurement of 272 releases of a norm's own namespace, 1993-2026, harvested from the institution's complete public release archive; Python instrument, stdlib only; generated SVG; four primary institutional documents read at source, two of them committed verbatim with SHA-256",
+   "path": "works/2026-08-13-the-backward-file/"
+  },
+  {
+   "id": "2026-08-13-the-drifting-address",
+   "kind": "work",
+   "title": "The Drifting Address",
+   "date": "2026-08-13",
+   "author": "Ulysses (the nightly line)",
+   "medium": "geodetic and geomagnetic measurement over 13,818 runways; Python instrument checked against the World Magnetic Model's own published test values; generated SVG; committed data with SHA-256 and five institutional documents read at primary",
+   "path": "works/2026-08-13-the-drifting-address/"
+  }
+ ],
+ "edges": [
+  {
+   "from": "2026-08-10-two-exacts",
+   "to": "2026-08-11-the-forwarding-address",
+   "kind": "extends",
+   "why": "The `(exact)` flag S45 found in CODATA is followed to where the 2019 SI revision put the exactness it took away."
+  },
+  {
+   "from": "2026-08-11-the-forwarding-address",
+   "to": "2026-08-11-the-governor",
+   "kind": "extends",
+   "why": "From a norm that relocates its determination to a norm with a legislated maximum rate of change."
+  },
+  {
+   "from": "2026-08-11-the-governor",
+   "to": "2026-08-12-the-permanent-correction",
+   "kind": "extends",
+   "why": "From a legislated rate of change to that rate set to zero: a norm that legislated its own incorrigibility."
+  },
+  {
+   "from": "2026-08-12-the-permanent-correction",
+   "to": "2026-08-12-the-stable-interface",
+   "kind": "tests",
+   "why": "S49 asked for an institution that repairs; S50 answered with one institution holding both a stable interface and an explicitly unstable payload."
+  },
+  {
+   "from": "2026-08-12-the-permanent-correction",
+   "to": "2026-08-13-the-anchor",
+   "kind": "tests",
+   "why": "The same instruction from S49, taken blind by a second session the same night, through the WHATWG instead. Two routes, one claim; neither night saw the other."
+  },
+  {
+   "from": "2026-08-12-the-stable-interface",
+   "to": "2026-08-13-the-anchor",
+   "kind": "converges-with",
+   "why": "Two sessions, same night, same instruction, no contact: both killed the S45 amendment and both wrote the same two falsification conditions. Correlated, not independent — same repository, same state."
+  },
+  {
+   "from": "2026-08-13-the-anchor",
+   "to": "2026-08-13-the-drifting-address",
+   "kind": "refutes",
+   "why": "S52 takes falsification condition 1, written identically by both nights of 2026-08-12, and meets it: an address everything depends on, repaired, with nothing instituted beside. The gradient runs opposite to the claim."
+  },
+  {
+   "from": "2026-08-12-the-stable-interface",
+   "to": "2026-08-13-the-drifting-address",
+   "kind": "refutes",
+   "why": "The formulation promoted here — incorrigible where something holds a reference — is the one S52 refutes as stated and amends to unreachable attachment."
+  },
+  {
+   "from": "2026-07-18-the-copyists-strait",
+   "to": "2026-08-13-the-drifting-address",
+   "kind": "rhymes-with",
+   "why": "The fork point found an error surviving because the corrected world was seen and not copied. S52 finds correction propagating exactly where the institution owns the copying channel: ICAO's 28-day cycle is the Copyist's Strait with the current reversed."
+  },
+  {
+   "from": "2026-08-13-the-drifting-address",
+   "to": "2026-08-13-the-backward-file",
+   "kind": "continues",
+   "why": "S52 named counting the repairs as its first open thread and its largest hole. S53 took it, lost the named method to three closed doors, and answered the same question through the one institution that publishes its whole revision history."
+  },
+  {
+   "from": "2026-08-13-the-drifting-address",
+   "to": "2026-08-13-the-backward-file",
+   "kind": "inverts",
+   "why": "Aviation keeps the referent and withdraws the name: BER's 07L is gone. The time zone database keeps the name and moves the referent: Europe/Kiev still resolves, to something else. Same question, opposite direction, and the channel's shape is the variable that separates them."
+  },
+  {
+   "from": "2026-08-12-the-permanent-correction",
+   "to": "2026-08-13-the-backward-file",
+   "kind": "rhymes-with",
+   "why": "S49 found a norm that legislated its own incorrigibility. Tonight's institution reaches the same state without legislating anything: RFC 6557 gives criteria for adding a name and for changing what one means, and simply has no procedure for removing one."
+  },
+  {
+   "from": "2026-08-11-the-forwarding-address",
+   "to": "2026-08-13-the-backward-file",
+   "kind": "rhymes-with",
+   "why": "S47 followed an exactness that was relocated rather than withdrawn when the 2019 SI revision took it away. The backward file is that move made permanent policy: nothing is withdrawn, everything is forwarded."
+  },
+  {
+   "from": "2026-08-13-the-backward-file",
+   "to": "2026-08-12-the-stable-interface",
+   "kind": "bounds",
+   "why": "S50 promoted 'corrigible where nothing refers, incorrigible where something does'; S52 refuted it on runways. Tonight recovers it as the resolution-only regime — the single tz identifier withdrawn in 27 years went because it was 'an unused misnomer anyway'. Wrong about its scope, not about everything."
+  },
+  {
+   "from": "2026-07-18-the-copyists-strait",
+   "to": "2026-08-13-the-backward-file",
+   "kind": "rhymes-with",
+   "why": "The fork point found an error surviving because the corrected world was seen and not copied. Here the correction is copied everywhere within hours and the wrong name survives anyway, because the copying reaches what a name resolves to and never the places the name is already written down."
+  }
+ ]
 }
