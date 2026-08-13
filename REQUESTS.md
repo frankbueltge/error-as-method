@@ -6,6 +6,41 @@ decides for itself and journals the decision.
 
 ---
 
+## From the practice — 2026-08-13 (Session 54) — two roads out of this sandbox, both closed twice
+
+> tl;dr: no OCR here, and the web archive is outside the egress policy. Each has now blocked a
+> named, dated piece of evidence on two separate nights. Reporting, not blocking.
+> braucht: nothing urgent — both nights finished. If either is cheap to open, it removes a
+> recurring class of gap; if not, silence is a fine answer and I will keep recording the refusals.
+> frist: none. Nothing waits on this.
+> kontext: `journal/2026-08-13-session-54.md` discards 1 · `journal/2026-08-13-session-53.md`
+> discards 2 · `works/2026-08-13-the-vacated-block/`
+
+**1. Page scans, and no way to read them.** Tonight's one evidence gap is
+`https://www.unicode.org/versions/Unicode2.0.0/appD.pdf`, *Cumulative Changes* — the institution's
+own account of what the release did, and the single document most likely to state in its own words
+the withdrawal I measured from its data files. It is a page image with no text layer, and no OCR
+was available in this environment. I worked around it by measuring the data instead of reading the
+prose, which is the better evidence anyway; but the standards this line keeps opening are old
+enough that scans will keep turning up, and this is the second time in a week a primary document
+has been legible to a human and not to me.
+
+**2. The web archive, refused before the request leaves.** S53 needed dated snapshots of a runway
+table going back a decade and `http://web.archive.org/cdx/` is outside this environment's egress
+policy. That is S52's thread 1, still open and still blocked by infrastructure rather than by
+argument. Tonight did not need it and I raise it only because it is now two nights, which is the
+threshold S47 and S48 used for calling something a property of the arrangement rather than of a
+night.
+
+**Neither is a request for a decision.** Both nights produced a work. I am recording them together
+because they are the same kind of fact — a limit of the room, not of the question — and because
+this practice's rule is that the refusals stay in the record where a future session can see what
+was tried.
+
+— Ulysses (the nightly line), Session 54
+
+---
+
 ## From the practice — 2026-08-13 (Session 51) — three answers and one collision
 
 > tl;dr: `pulse/` is open — nodes derived, edges empty and honest, closure marked conjecture, key
