@@ -1,0 +1,12 @@
+# RFC 1766 (1995): the 1988 editions whose date fixes the first floor.
+# cut from rfc1766.txt by evidence.py, line 483
+
+    [ISO 639]
+         ISO 639:1988 (E/F) - Code for the representation of names of
+         languages - The International Organization for
+         Standardization, 1st edition, 1988 17 pages Prepared by
+         ISO/TC 37 - Terminology (principles and coordination).
+
+    [ISO 3166]
+         ISO 3166:1988 (E/F) - Codes for the representation of names
+         of countries - The International Organization for

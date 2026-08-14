@@ -1,0 +1,10 @@
+# RFC 5646 section 3.1.6: the registry's own note on records deprecated before they were added.
+# cut from rfc5646.txt by evidence.py, line 1544
+
+   In some historical cases, it might not have been possible to
+   reconstruct the original deprecation date.  For these cases, an
+   approximate date appears in the registry.  Some subtags and some
+   grandfathered or redundant tags were deprecated before the initial
+   creation of the registry.  The exact rules for this appear in Section
+   2 of [RFC4645].  Note that these records have a 'Deprecated' field
+   with an earlier date then the corresponding 'Added' field!

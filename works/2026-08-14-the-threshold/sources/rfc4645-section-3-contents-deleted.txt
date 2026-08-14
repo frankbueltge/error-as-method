@@ -1,0 +1,8 @@
+# RFC 4645 section 3: the memo's own contents, deleted on publication.
+# cut from rfc4645.txt by evidence.py, line 233
+
+   The remainder of this section specified the initial set of records
+   for the registry.  This material was deleted on publication of this
+   memo, to avoid any potential confusion with the registry itself.  The
+   IANA language subtag registry can be found at
+   <http://www.iana.org/numbers.html> under "Language Tags".

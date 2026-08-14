@@ -1,0 +1,7 @@
+# RFC 4645 (2006), rule 2: withdrawn values are marked deprecated, but not removed.
+# cut from rfc4645.txt by evidence.py, line 107
+
+      2.  For each successive change to the standard, any additional
+          assignments up to the date of the adoption of [RFC4646] were
+          added to the ILSR.  Values that have been withdrawn are marked
+          as deprecated, but not removed.  Changes in meaning or

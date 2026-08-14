@@ -1,0 +1,6 @@
+# RFC 4646 (2006) section 3.4 rule 14: the promise, three years before the import.
+# cut from rfc4646.txt by evidence.py, line 1449
+
+        withdrawn by their respective maintenance or registration
+        authority remain valid in language tags.  A 'Deprecated' field
+        containing the date of withdrawal is added to the record.  If a

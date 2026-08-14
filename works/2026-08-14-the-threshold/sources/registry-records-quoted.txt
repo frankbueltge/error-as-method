@@ -1,0 +1,134 @@
+# Records named in work.md, cut verbatim out of the registry by evidence.py.
+# 'ggm' is deliberately absent: that absence is the finding.
+
+File-Date: 2026-08-08
+
+%%
+Type: language
+Subtag: in
+Description: Indonesian
+Added: 2005-10-16
+Deprecated: 1989-01-01
+Preferred-Value: id
+Suppress-Script: Latn
+Macrolanguage: ms
+%%
+Type: language
+Subtag: iw
+Description: Hebrew
+Added: 2005-10-16
+Deprecated: 1989-01-01
+Preferred-Value: he
+Suppress-Script: Hebr
+%%
+Type: language
+Subtag: ji
+Description: Yiddish
+Added: 2005-10-16
+Deprecated: 1989-01-01
+Preferred-Value: yi
+%%
+Type: language
+Subtag: elp
+Description: Elpaputih
+Added: 2009-07-29
+Deprecated: 2012-08-12
+Comments: see amq, plh
+%%
+Type: language
+Subtag: ggr
+Description: Aghu Tharnggalu
+Added: 2009-07-29
+Deprecated: 2013-09-10
+Comments: see gtu, ikr
+%%
+Type: language
+Subtag: gtu
+Description: Aghu-Tharnggala
+Added: 2013-09-10
+%%
+Type: language
+Subtag: ikr
+Description: Ikaranggal
+Added: 2013-09-10
+%%
+Type: language
+Subtag: pgy
+Description: Pongyong
+Added: 2009-07-29
+Deprecated: 2012-08-12
+%%
+Type: language
+Subtag: xtz
+Description: Tasmanian
+Added: 2009-07-29
+Deprecated: 2020-03-28
+Comments: see xpb, xpd, xpf, xph, xpl, xpv, xpw, xpx, xpz
+%%
+Type: region
+Subtag: AN
+Description: Netherlands Antilles
+Added: 2005-10-16
+Deprecated: 2011-01-07
+Comments: see BQ, CW, and SX
+%%
+Type: region
+Subtag: BU
+Description: Burma
+Added: 2005-10-16
+Deprecated: 1989-12-05
+Preferred-Value: MM
+%%
+Type: region
+Subtag: CS
+Description: Serbia and Montenegro
+Added: 2005-10-16
+Deprecated: 2006-10-05
+Comments: see RS for Serbia or ME for Montenegro
+%%
+Type: region
+Subtag: DD
+Description: German Democratic Republic
+Added: 2005-10-16
+Deprecated: 1990-10-30
+Preferred-Value: DE
+%%
+Type: region
+Subtag: NT
+Description: Neutral Zone
+Added: 2005-10-16
+Deprecated: 1993-07-12
+%%
+Type: region
+Subtag: SU
+Description: Union of Soviet Socialist Republics
+Added: 2005-10-16
+Deprecated: 1992-08-30
+%%
+Type: region
+Subtag: TP
+Description: East Timor
+Added: 2005-10-16
+Deprecated: 2002-05-20
+Preferred-Value: TL
+%%
+Type: region
+Subtag: YD
+Description: Democratic Yemen
+Added: 2005-10-16
+Deprecated: 1990-08-14
+Preferred-Value: YE
+%%
+Type: region
+Subtag: YU
+Description: Yugoslavia
+Added: 2005-10-16
+Deprecated: 2003-07-23
+Comments: see BA, HR, ME, MK, RS, or SI
+%%
+Type: region
+Subtag: ZR
+Description: Zaire
+Added: 2005-10-16
+Deprecated: 1997-07-14
+Preferred-Value: CD

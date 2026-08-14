@@ -1,0 +1,79 @@
+{
+  "files": {
+    "ggm_message": {
+      "bytes": 7545,
+      "file": "ietf-languages-2014-02-10-batch1.html",
+      "sha256": "37cdcfdc9dd22a9160b2d2dcbd8ddd5bcde8adbe318384309afcc44571bf5195",
+      "status": "ok",
+      "url": "https://www.alvestrand.no/pipermail/ietf-languages/2014-February/012077.html",
+      "why": "The Language Subtag Reviewer explaining, in 2014, why one code was never added."
+    },
+    "iso639_3_retirements": {
+      "bytes": 19046,
+      "file": "iso-639-3_Retirements.tab",
+      "sha256": "c4c5105798541859ce6f0125572132dfcfaf6ab8485ed6a77ca9592404386cb8",
+      "status": "ok",
+      "url": "https://iso639-3.sil.org/sites/iso639-3/files/downloads/iso-639-3_Retirements.tab",
+      "why": "The upstream registration authority's own list of every code element it has retired."
+    },
+    "rfc1766": {
+      "bytes": 16966,
+      "file": "rfc1766.txt",
+      "sha256": "2588b2a99bb5f81a4140a25ff44e88660655d72c3ff29fd051be4d68c3452630",
+      "status": "ok",
+      "url": "https://www.rfc-editor.org/rfc/rfc1766.txt",
+      "why": "1995. Names the editions of ISO 639 and ISO 3166 that fix the registry's memory floor."
+    },
+    "rfc3066": {
+      "bytes": 26522,
+      "file": "rfc3066.txt",
+      "sha256": "87e4dc0a85dde4e5161bb63384a69cd43cf5e52aceab46c3a9729c0b91778b24",
+      "status": "ok",
+      "url": "https://www.rfc-editor.org/rfc/rfc3066.txt",
+      "why": "2001. The tag registry the subtag registry was built out of."
+    },
+    "rfc4645": {
+      "bytes": 15517,
+      "file": "rfc4645.txt",
+      "sha256": "231648ad814e18ae75f0160da7981781d5b76d3ea2324c6cae77a4193d203495",
+      "status": "ok",
+      "url": "https://www.rfc-editor.org/rfc/rfc4645.txt",
+      "why": "2006. Initialisation rules, and a memo whose own contents were removed before publication."
+    },
+    "rfc4646": {
+      "bytes": 135810,
+      "file": "rfc4646.txt",
+      "sha256": "24d7619d08e78959e763558b523d04ad4b5fb275a415992db6dd305129d72384",
+      "status": "ok",
+      "url": "https://www.rfc-editor.org/rfc/rfc4646.txt",
+      "why": "2006. The promise: withdrawn codes remain valid in language tags."
+    },
+    "rfc5645": {
+      "bytes": 27902,
+      "file": "rfc5645.txt",
+      "sha256": "5d98f42eccaaa7c318f03825a2d1737a53bd9f872f55bdb9e5758d6485efa7f1",
+      "status": "ok",
+      "url": "https://www.rfc-editor.org/rfc/rfc5645.txt",
+      "why": "2009. The bulk import of ISO 639-3, and the sentence that sets the second memory floor."
+    },
+    "rfc5646": {
+      "bytes": 208592,
+      "file": "rfc5646.txt",
+      "sha256": "5d9515f053163c80e7294a84d18217dc83471acc7caa9773da2ac40deeec8228",
+      "status": "ok",
+      "url": "https://www.rfc-editor.org/rfc/rfc5646.txt",
+      "why": "2009. The promise restated, plus the note on records deprecated before they were added."
+    },
+    "subtag_registry": {
+      "bytes": 731799,
+      "file": "language-subtag-registry.txt",
+      "sha256": "be21e91b6851f750a7b1a687f11209d46ad5a8471d6b10a1efc8d1dac4c8a926",
+      "status": "ok",
+      "url": "https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry",
+      "why": "The registry itself. Every subtag ever assigned, with Added and Deprecated dates."
+    }
+  },
+  "harvested_by": "works/2026-08-14-the-threshold/harvest.py",
+  "note": "Feeds, not copies. The registry and the RFCs stay in the gitignored cache; sources/ keeps the decisive records cut out of them by evidence.py, plus the SHA-256 of every whole file, so any claim here can be checked against the original at its published URL.",
+  "session": 55
+}

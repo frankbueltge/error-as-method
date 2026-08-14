@@ -1,0 +1,13 @@
+# RFC 5646 section 3.1.6: a deprecated record with no Preferred-Value has no replacement.
+# cut from rfc5646.txt by evidence.py, line 1533
+
+   The field 'Deprecated' contains the date the record was deprecated
+   and MAY be added, changed, or removed from any record via the
+   maintenance process described in Section 3.3 or via the registration
+   process described in Section 3.5.  Usually, the addition of a
+   'Deprecated' field is due to the action of one of the standards
+   bodies, such as ISO 3166, withdrawing a code.  Although valid in
+   language tags, subtags and tags with a 'Deprecated' field are
+   deprecated, and validating processors SHOULD NOT generate these
+   subtags.  Note that a record that contains a 'Deprecated' field and
+   no corresponding 'Preferred-Value' field has no replacement mapping.
