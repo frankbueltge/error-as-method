@@ -1,0 +1,43 @@
+RFC 3066, January 2001, section 2.1. The intermediate rule: the standard, or what the
+maintenance agency does to it afterwards.
+
+- All 2-letter subtags are interpreted according to assignments found
+     in ISO standard 639, "Code for the representation of names of
+     languages" [ISO 639], or assignments subsequently made by the ISO
+     639 part 1 maintenance agency or governing standardization bodies.
+     (Note: A revision is underway, and is expected to be released as
+
+
+
+Alvestrand               Best Current Practice                  [Page 2]
+
+RFC 3066          Tags for Identification of Languages      January 2001
+
+
+     ISO 639-1:2000)
+
+   - All 3-letter subtags are interpreted according to assignments found
+     in ISO 639 part 2, "Codes for the representation of names of
+     languages -- Part 2: Alpha-3 code [ISO 639-2]", or assignments
+     subsequently made by the ISO 639 part 2 maintenance agency or
+     governing standardization bodies.
+
+   - The value "i" is reserved for IANA-defined registrations
+
+   - The value "x" is reserved for private use.  Subtags of "x" shall
+     not be registered by the IANA.
+
+   - Other values shall not be assigned except by revision of this
+     standard.
+
+   The reason for reserving all other tags is to be open towards new
+   revisions of ISO 639; the use of "i" and "x" is the minimum we can do
+   here to be able to extend the mechanism to meet our immediate
+   requirements.
+
+   The following rules apply to the second subtag:
+
+   - All 2-letter subtags are interpreted as ISO 3166 alpha-2 country
+     codes from [ISO 3166], or subsequently assigned by the ISO 3166
+     maintenance agency or governing standardization bodies, denoting
+     the area to which this language variant relates.

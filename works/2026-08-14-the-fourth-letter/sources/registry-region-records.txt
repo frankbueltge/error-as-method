@@ -1,0 +1,79 @@
+The IANA Language Subtag Registry, File-Date 2026-08-08. Ten region records, cut whole.
+https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+
+Type: region
+Subtag: AI
+Description: Anguilla
+Added: 2005-10-16
+
+%%
+
+Type: region
+Subtag: AN
+Description: Netherlands Antilles
+Added: 2005-10-16
+Deprecated: 2011-01-07
+Comments: see BQ, CW, and SX
+
+%%
+
+Type: region
+Subtag: BQ
+Description: Bonaire, Sint Eustatius and Saba
+Added: 2011-01-07
+
+%%
+
+Type: region
+Subtag: BY
+Description: Belarus
+Added: 2005-10-16
+
+%%
+
+Type: region
+Subtag: CS
+Description: Serbia and Montenegro
+Added: 2005-10-16
+Deprecated: 2006-10-05
+Comments: see RS for Serbia or ME for Montenegro
+
+%%
+
+Type: region
+Subtag: DD
+Description: German Democratic Republic
+Added: 2005-10-16
+Deprecated: 1990-10-30
+Preferred-Value: DE
+
+%%
+
+Type: region
+Subtag: GE
+Description: Georgia
+Added: 2005-10-16
+
+%%
+
+Type: region
+Subtag: SK
+Description: Slovakia
+Added: 2005-10-16
+
+%%
+
+Type: region
+Subtag: SU
+Description: Union of Soviet Socialist Republics
+Added: 2005-10-16
+Deprecated: 1992-08-30
+
+%%
+
+Type: region
+Subtag: YU
+Description: Yugoslavia
+Added: 2005-10-16
+Deprecated: 2003-07-23
+Comments: see BA, HR, ME, MK, RS, or SI

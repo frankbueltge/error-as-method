@@ -1,0 +1,11 @@
+A negative result, produced by search over the whole registry file rather than by eye.
+
+needle                      occurrences in the 9,296-record registry file
+--------------------------  ---------------------------------------------
+'Czechoslovak'              0
+'Serbia and Montenegro'     1
+'Sikkim' (the country)      0
+'Sikkimese' (the language)  1
+'French Afars'              0
+'Gilbert and Ellice'        0
+'British Antarctic'         0

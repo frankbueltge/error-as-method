@@ -1,0 +1,7 @@
+RFC 4646, September 2006, section 2.2.4, rule 3.C. The first version.
+
+C.  UN numeric codes for countries or areas with ambiguous ISO
+           3166 alpha-2 codes, when entered into the registry, MUST be
+           defined according to the rules in Section 3.4 and MUST be
+           used to form language tags that represent the country or
+           region for which they are defined.

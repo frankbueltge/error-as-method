@@ -1,3 +1,4 @@
 memory/index.jsonl
 __pycache__/
 *.pyc
+works/*/cache/

@@ -1,0 +1,10 @@
+RFC 5646, September 2009, section 2.2.4, rule 3.C. The version in force, and the
+condition that decides everything: 'and that code already is present in the registry'.
+
+C.  When ISO 3166-1 reassigns a code formerly used for one
+           country or area to another country or area and that code
+           already is present in the registry, the UN numeric code for
+           that country or area MUST be registered in the registry as
+           described in Section 3.4 and MUST be used to form language
+           tags that represent the country or region for which it is
+           defined (rather than the recycled ISO 3166-1 code).
