@@ -1,0 +1,467 @@
+{
+  "measured_by": "works/2026-08-14-the-threshold/measure.py",
+  "session": 55,
+  "registry_file_date": "2026-08-08",
+  "registry": {
+    "records": 9296,
+    "by_type": {
+      "extlang": 258,
+      "grandfathered": 26,
+      "language": 8276,
+      "redundant": 67,
+      "region": 305,
+      "script": 225,
+      "variant": 139
+    },
+    "deprecated": 302,
+    "deprecated_by_year": {
+      "1989": 4,
+      "1990": 2,
+      "1992": 1,
+      "1993": 1,
+      "1997": 2,
+      "1998": 1,
+      "2000": 4,
+      "2001": 1,
+      "2002": 1,
+      "2003": 2,
+      "2004": 1,
+      "2005": 1,
+      "2006": 1,
+      "2008": 1,
+      "2009": 38,
+      "2010": 19,
+      "2011": 10,
+      "2012": 27,
+      "2013": 19,
+      "2014": 7,
+      "2015": 29,
+      "2016": 39,
+      "2017": 10,
+      "2018": 7,
+      "2019": 9,
+      "2020": 23,
+      "2021": 9,
+      "2022": 10,
+      "2023": 15,
+      "2024": 4,
+      "2026": 4
+    },
+    "earliest_deprecation": "1989-01-01",
+    "earliest_added": "1995-08-23",
+    "latest_added": "2026-06-14",
+    "added_top_dates": [
+      [
+        "2009-07-29",
+        7537
+      ],
+      [
+        "2005-10-16",
+        870
+      ],
+      [
+        "2013-09-10",
+        115
+      ],
+      [
+        "2012-08-12",
+        96
+      ],
+      [
+        "2010-03-11",
+        46
+      ],
+      [
+        "2021-02-20",
+        41
+      ]
+    ],
+    "records_added_before_the_registry_existed": 93,
+    "removed_ever": 0,
+    "removed_ever_basis": "textual, not measured: RFC 4646 (2006) and RFC 5646 (2009) section 3.4 rule 14 -- withdrawn codes 'remain valid in language tags'. One snapshot cannot prove a negative about removals; see work.md, attack B."
+  },
+  "born_deprecated": {
+    "count": 13,
+    "max_gap_years": 16,
+    "records": [
+      {
+        "type": "language",
+        "id": "in",
+        "description": "Indonesian",
+        "deprecated": "1989-01-01",
+        "added": "2005-10-16",
+        "preferred_value": "id"
+      },
+      {
+        "type": "language",
+        "id": "iw",
+        "description": "Hebrew",
+        "deprecated": "1989-01-01",
+        "added": "2005-10-16",
+        "preferred_value": "he"
+      },
+      {
+        "type": "language",
+        "id": "ji",
+        "description": "Yiddish",
+        "deprecated": "1989-01-01",
+        "added": "2005-10-16",
+        "preferred_value": "yi"
+      },
+      {
+        "type": "region",
+        "id": "BU",
+        "description": "Burma",
+        "deprecated": "1989-12-05",
+        "added": "2005-10-16",
+        "preferred_value": "MM"
+      },
+      {
+        "type": "region",
+        "id": "YD",
+        "description": "Democratic Yemen",
+        "deprecated": "1990-08-14",
+        "added": "2005-10-16",
+        "preferred_value": "YE"
+      },
+      {
+        "type": "region",
+        "id": "DD",
+        "description": "German Democratic Republic",
+        "deprecated": "1990-10-30",
+        "added": "2005-10-16",
+        "preferred_value": "DE"
+      },
+      {
+        "type": "region",
+        "id": "SU",
+        "description": "Union of Soviet Socialist Republics",
+        "deprecated": "1992-08-30",
+        "added": "2005-10-16",
+        "preferred_value": null
+      },
+      {
+        "type": "region",
+        "id": "NT",
+        "description": "Neutral Zone",
+        "deprecated": "1993-07-12",
+        "added": "2005-10-16",
+        "preferred_value": null
+      },
+      {
+        "type": "region",
+        "id": "FX",
+        "description": "Metropolitan France",
+        "deprecated": "1997-07-14",
+        "added": "2005-10-16",
+        "preferred_value": "FR"
+      },
+      {
+        "type": "region",
+        "id": "ZR",
+        "description": "Zaire",
+        "deprecated": "1997-07-14",
+        "added": "2005-10-16",
+        "preferred_value": "CD"
+      },
+      {
+        "type": "language",
+        "id": "jw",
+        "description": "Javanese",
+        "deprecated": "2001-08-13",
+        "added": "2005-10-16",
+        "preferred_value": "jv"
+      },
+      {
+        "type": "region",
+        "id": "TP",
+        "description": "East Timor",
+        "deprecated": "2002-05-20",
+        "added": "2005-10-16",
+        "preferred_value": "TL"
+      },
+      {
+        "type": "region",
+        "id": "YU",
+        "description": "Yugoslavia",
+        "deprecated": "2003-07-23",
+        "added": "2005-10-16",
+        "preferred_value": null
+      }
+    ]
+  },
+  "orphans": {
+    "count": 132,
+    "share_of_deprecated": 0.4371,
+    "by_type": {
+      "grandfathered": 3,
+      "language": 120,
+      "region": 5,
+      "variant": 4
+    },
+    "note": "Deprecated, with no Preferred-Value: a withdrawn name with nowhere to send a reference.",
+    "non_language_examples": [
+      {
+        "type": "region",
+        "id": "AN",
+        "description": "Netherlands Antilles",
+        "deprecated": "2011-01-07"
+      },
+      {
+        "type": "region",
+        "id": "CS",
+        "description": "Serbia and Montenegro",
+        "deprecated": "2006-10-05"
+      },
+      {
+        "type": "region",
+        "id": "NT",
+        "description": "Neutral Zone",
+        "deprecated": "1993-07-12"
+      },
+      {
+        "type": "region",
+        "id": "SU",
+        "description": "Union of Soviet Socialist Republics",
+        "deprecated": "1992-08-30"
+      },
+      {
+        "type": "region",
+        "id": "YU",
+        "description": "Yugoslavia",
+        "deprecated": "2003-07-23"
+      },
+      {
+        "type": "variant",
+        "id": "arevela",
+        "description": "Eastern Armenian",
+        "deprecated": "2018-03-24"
+      },
+      {
+        "type": "variant",
+        "id": "arevmda",
+        "description": "Western Armenian",
+        "deprecated": "2018-03-24"
+      },
+      {
+        "type": "variant",
+        "id": "laukika",
+        "description": "Classical Sanskrit",
+        "deprecated": "2024-06-08"
+      },
+      {
+        "type": "variant",
+        "id": "vaidika",
+        "description": "Vedic Sanskrit",
+        "deprecated": "2024-06-08"
+      },
+      {
+        "type": "grandfathered",
+        "id": "cel-gaulish",
+        "description": "Gaulish",
+        "deprecated": "2015-03-29"
+      },
+      {
+        "type": "grandfathered",
+        "id": "i-enochian",
+        "description": "Enochian",
+        "deprecated": "2015-03-29"
+      },
+      {
+        "type": "grandfathered",
+        "id": "zh-min",
+        "description": "Min, Fuzhou, Hokkien, Amoy, or Taiwanese",
+        "deprecated": "2009-07-29"
+      }
+    ]
+  },
+  "iso639_3_retirements": {
+    "count": 388,
+    "by_reason": {
+      "code changed": 1,
+      "duplicate": 34,
+      "merge": 179,
+      "non-existent": 72,
+      "split": 102
+    },
+    "by_year": {
+      "2005": 1,
+      "2007": 27,
+      "2008": 83,
+      "2009": 50,
+      "2010": 18,
+      "2011": 9,
+      "2012": 27,
+      "2013": 19,
+      "2014": 8,
+      "2015": 25,
+      "2016": 39,
+      "2017": 9,
+      "2018": 4,
+      "2019": 9,
+      "2020": 22,
+      "2021": 9,
+      "2022": 10,
+      "2023": 14,
+      "2024": 2,
+      "2025": 1,
+      "2026": 2
+    },
+    "earliest": "2005-11-16",
+    "latest": "2026-07-15"
+  },
+  "floor_test": {
+    "cut_date": "2009-07-29",
+    "cut_is": "the Added date RFC 5645's bulk import of ISO 639-3 carries in the registry",
+    "retired_before_cut": {
+      "total": 161,
+      "in_registry": 0,
+      "absent": 161
+    },
+    "retired_on_or_after_cut": {
+      "total": 227,
+      "in_registry": 226,
+      "absent": 1
+    },
+    "in_registry_are_all_deprecated": true,
+    "exceptions_before_cut_but_present": [],
+    "exceptions_after_cut_but_absent": [
+      {
+        "id": "ggm",
+        "name": "Gugu Mini",
+        "effective": "2014-02-03",
+        "reason": "non-existent",
+        "also_absent_as_extlang": true
+      }
+    ],
+    "cut_robustness": {
+      "latest_retirement_before_cut": "2009-01-26",
+      "earliest_retirement_on_or_after_cut": "2010-01-18",
+      "note": "The nearest retirements on either side are almost a year apart, so any cut date inside that gap gives the same table. The result does not depend on picking 2009-07-29 exactly."
+    },
+    "forgotten_by_reason": {
+      "code changed": 1,
+      "duplicate": 10,
+      "merge": 96,
+      "non-existent": 15,
+      "split": 39
+    },
+    "forgotten_by_year": {
+      "2005": 1,
+      "2007": 27,
+      "2008": 83,
+      "2009": 50
+    }
+  },
+  "non_existent_languages": {
+    "retired_as_non_existent": 72,
+    "still_valid_subtags_today": 56,
+    "never_in_the_registry": 16,
+    "note": "A code retired because the language it named was found not to exist. Those that were in the registry keep a permanent, valid address and no Preferred-Value, because there is nothing to point at.",
+    "examples": [
+      {
+        "id": "dha",
+        "name": "Dhanwar (India)",
+        "retired": "2011-05-18",
+        "subtag_deprecated": "2011-08-16",
+        "preferred_value": null
+      },
+      {
+        "id": "mja",
+        "name": "Mahei",
+        "retired": "2011-05-18",
+        "subtag_deprecated": "2011-08-16",
+        "preferred_value": null
+      },
+      {
+        "id": "elp",
+        "name": "Elpaputih",
+        "retired": "2012-02-03",
+        "subtag_deprecated": "2012-08-12",
+        "preferred_value": null
+      },
+      {
+        "id": "pbz",
+        "name": "Palu",
+        "retired": "2012-02-03",
+        "subtag_deprecated": "2012-08-12",
+        "preferred_value": null
+      },
+      {
+        "id": "pgy",
+        "name": "Pongyong",
+        "retired": "2012-02-03",
+        "subtag_deprecated": "2012-08-12",
+        "preferred_value": null
+      },
+      {
+        "id": "mld",
+        "name": "Malakhel",
+        "retired": "2013-01-23",
+        "subtag_deprecated": "2013-09-10",
+        "preferred_value": null
+      },
+      {
+        "id": "myq",
+        "name": "Forest Maninka",
+        "retired": "2013-01-23",
+        "subtag_deprecated": "2013-09-10",
+        "preferred_value": null
+      },
+      {
+        "id": "emo",
+        "name": "Emok",
+        "retired": "2014-02-03",
+        "subtag_deprecated": "2014-02-28",
+        "preferred_value": null
+      },
+      {
+        "id": "mhh",
+        "name": "Maskoy Pidgin",
+        "retired": "2014-02-03",
+        "subtag_deprecated": "2014-02-28",
+        "preferred_value": null
+      },
+      {
+        "id": "bmy",
+        "name": "Bemba (Democratic Republic of Congo)",
+        "retired": "2015-01-12",
+        "subtag_deprecated": "2015-02-12",
+        "preferred_value": null
+      }
+    ]
+  },
+  "the_missing_product": {
+    "note": "The split that the permanent registry recorded with one product missing.",
+    "upstream_split": {
+      "id": "ggr",
+      "name": "Aghu Tharnggalu",
+      "effective": "2013-01-23",
+      "remedy": "Split into Aghu-Tharnggala [gtu], Gugu-Mini [ggm], and Ikarranggal [ikr]"
+    },
+    "upstream_retirement_of_missing_product": {
+      "id": "ggm",
+      "name": "Gugu Mini",
+      "effective": "2014-02-03",
+      "reason": "non-existent"
+    },
+    "registry_record_of_the_split": {
+      "subtag": "ggr",
+      "added": "2009-07-29",
+      "deprecated": "2013-09-10",
+      "comments": "see gtu, ikr"
+    },
+    "products_in_registry": {
+      "gtu": {
+        "added": "2013-09-10",
+        "description": "Aghu-Tharnggala"
+      },
+      "ggm": "ABSENT",
+      "ikr": {
+        "added": "2013-09-10",
+        "description": "Ikaranggal"
+      }
+    },
+    "ggm_anywhere_in_registry": false
+  }
+}

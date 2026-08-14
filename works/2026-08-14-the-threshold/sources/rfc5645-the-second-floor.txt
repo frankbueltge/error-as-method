@@ -1,0 +1,6 @@
+# RFC 5645 (2009): retirements before the import 'were not considered in this update'.
+# cut from rfc5645.txt by evidence.py, line 175
+
+   Language code elements that were already retired in all of the source
+   standards prior to IESG approval of this memo were not listed in
+   these files and, consequently, were not considered in this update.

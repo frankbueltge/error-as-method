@@ -1,0 +1,10 @@
+# RFC 5646 (2009) section 3.4 rule 14: withdrawn codes remain valid in language tags.
+# cut from rfc5646.txt by evidence.py, line 2145
+
+   14.  Codes assigned by ISO 639, ISO 15924, or ISO 3166-1 that are
+        withdrawn by their respective maintenance or registration
+        authority remain valid in language tags.  A 'Deprecated' field
+        containing the date of withdrawal MUST be added to the record.
+        If a new record of the same type is added that represents a
+        replacement value, then a 'Preferred-Value' field MAY also be
+        added.  The registration process MAY be used to add comments

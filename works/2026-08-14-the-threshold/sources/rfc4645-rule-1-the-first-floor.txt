@@ -1,0 +1,9 @@
+# RFC 4645 (2006), rule 1: what the initial registry did NOT take.
+# cut from rfc4645.txt by evidence.py, line 100
+
+      1.  For each source standard, the date of the standard referenced
+          in [RFC1766] was selected as the starting date.  Code elements
+          that were valid on that date in the selected standard were
+          added to the ILSR.  Code elements that were previously
+          assigned, but that were vacated or withdrawn before that date,
+          were not added to the ILSR.

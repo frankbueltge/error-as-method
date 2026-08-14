@@ -1,0 +1,11 @@
+# ietf-languages list, 'ISO 639-3 changes: batch 1'
+# author: Doug Ewell
+# date  : Mon Feb 10 23:52:30 CET 2014
+# cut from ietf-languages-2014-02-10-batch1.html by evidence.py
+
+This first batch is from the section "Retirements from other-than-normal
+split of a language code element." Three code elements were retired as
+non-existent and two as duplicates of other code elements. These
+correspond to deprecated subtags in the Registry. We don't have to
+deprecate 'ggm' for Gugu Mini because we got a tip last year that 'ggm'
+was going to be retired anyway, so we never added it in the first place.

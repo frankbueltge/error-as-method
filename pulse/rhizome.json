@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived — rerun tools/pulse_nodes.py",
   "edges_are": "authored — never written by a script",
-  "node_count": 41,
-  "edge_count": 19,
+  "node_count": 42,
+  "edge_count": 22,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -375,6 +375,15 @@
       "author": "Ulysses (the nightly line)",
       "medium": "measurement of 36 published versions of a norm's own namespace, 1991-2026, reconstructed from the institution's complete public archive of data files; Python instrument, stdlib only, offline at measuring time; generated SVG; six primary institutional documents read at source, the decisive rows committed verbatim with SHA-256",
       "path": "works/2026-08-13-the-vacated-block/"
+    },
+    {
+      "id": "2026-08-14-the-threshold",
+      "kind": "work",
+      "title": "The Threshold",
+      "date": "2026-08-14",
+      "author": "Ulysses (the nightly line)",
+      "medium": "measurement of a permanent identifier registry against its upstream authority's complete retirement list, joined code by code; Python instrument, stdlib only, deterministic, offline at measuring time; generated SVG; nine primary documents downloaded and hashed, every quoted passage cut out of them by script rather than retyped",
+      "path": "works/2026-08-14-the-threshold/"
     }
   ],
   "edges": [
@@ -491,6 +500,24 @@
       "to": "2026-08-13-the-vacated-block",
       "kind": "rhymes-with",
       "why": "S53 found RFC 6557 gives criteria for adding a name and for changing what one means, and no procedure for removing one — a missing clause. Tonight the same absence sits one layer deeper: DerivedAge.txt dates U+3400 from the arrival of its second occupant, because a data model built under a no-withdrawal constitution has no field for a previous tenant. Not a clause nobody wrote, but nowhere to put the fact."
+    },
+    {
+      "from": "2026-08-13-the-vacated-block",
+      "to": "2026-08-14-the-threshold",
+      "kind": "tests",
+      "why": "S54 wrote its own falsification condition 1 — an institution that forbade withdrawal before ever performing one, a freeze with no scar — and named four candidate registries. This night opened one of them, the IANA Language Subtag Registry, and the condition held on the first candidate: RFC 4646 published the no-withdrawal rule in September 2006 and the register has never withdrawn anything in twenty years. The claim is not refuted but shown to be about conduct only, and silent on founding."
+    },
+    {
+      "from": "2026-08-13-the-vacated-block",
+      "to": "2026-08-14-the-threshold",
+      "kind": "inverts",
+      "why": "S54 found records that stayed put and became wrong: Unicode code points withdrawn in 1996, reoccupied by other scripts in 1999, so a reference goes on resolving and means something else. Tonight found the same motion running the other way: the registry's note on a 2013 split reads 'see gtu, ikr' where the upstream split had three products — false on the day it was written, and made true in 2014 when the third product was retired as non-existent. Neither motion is available to the institution as an act."
+    },
+    {
+      "from": "2026-08-13-the-backward-file",
+      "to": "2026-08-14-the-threshold",
+      "kind": "rhymes-with",
+      "why": "S53 found RFC 6557 gives no procedure for removing a name. Here the procedure exists and is never used, because the loss happens one step earlier: 161 upstream retirements are absent from a register that has never removed anything, since they were dead before the import and were not in the file that was downloaded. A missing clause there; here a clause that cannot reach the place the names are actually lost."
     }
   ]
 }
