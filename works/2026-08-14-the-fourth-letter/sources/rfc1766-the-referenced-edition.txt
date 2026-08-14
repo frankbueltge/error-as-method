@@ -1,0 +1,6 @@
+RFC 1766, March 1995, reference list. The date RFC 4645 rule 1 turns into a floor.
+
+[ISO 3166]
+         ISO 3166:1988 (E/F) - Codes for the representation of names
+         of countries - The International Organization for
+         Standardization, 3rd edition, 1988-08-15.

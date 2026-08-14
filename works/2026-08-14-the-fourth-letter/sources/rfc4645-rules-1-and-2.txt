@@ -1,0 +1,27 @@
+RFC 4645, 'Initial Language Subtag Registry', September 2006, section 2. Cut from
+https://www.rfc-editor.org/rfc/rfc4645.txt -- page furniture between the two rules
+left in place, because removing it would be a silent edit.
+
+1.  For each source standard, the date of the standard referenced
+          in [RFC1766] was selected as the starting date.  Code elements
+          that were valid on that date in the selected standard were
+          added to the ILSR.  Code elements that were previously
+          assigned, but that were vacated or withdrawn before that date,
+          were not added to the ILSR.
+
+      2.  For each successive change to the standard, any additional
+          assignments up to the date of the adoption of [RFC4646] were
+          added to the ILSR.  Values that have been withdrawn are marked
+          as deprecated, but not removed.  Changes in meaning or
+
+
+
+Ewell                        Informational                      [Page 2]
+
+RFC 4645            Initial Language Subtag Registry      September 2006
+
+
+          assignment of a subtag were permitted during this process (for
+          example, the [ISO3166-1] code element 'CS' was originally
+          assigned to Czechoslovakia and is now assigned to Serbia and
+          Montenegro).

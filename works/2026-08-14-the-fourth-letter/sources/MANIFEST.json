@@ -1,0 +1,101 @@
+{
+  "files": {
+    "cldr_metadata": {
+      "bytes": 180239,
+      "file": "cldr-supplementalMetadata.xml",
+      "sha256": "ba61e051021e31243b4ad28c4c7ecb3685d0d32e336c1387e374132ad7d55876",
+      "status": "ok",
+      "url": "https://raw.githubusercontent.com/unicode-org/cldr/main/common/supplemental/supplementalMetadata.xml",
+      "why": "CLDR's territoryAlias table -- a third register's decision about the same dead codes."
+    },
+    "iso3166ma_reserved_2003": {
+      "bytes": 94321,
+      "file": "iso3166ma-reserved-2003.pdf",
+      "sha256": "3e1d55b4ba3afdff7c8778eb3908e85467956ee0a64aac4a167c7022b681f2e8",
+      "status": "ok",
+      "url": "https://www.digitalpolicy.gov.hk/en/our_work/data_governance/policies_standards/interoperability_framework/common_schemas/doc/ISO_3166-1_List_of_reserved_code_elements_(2003-07-28).pdf",
+      "why": "The ISO 3166/MA's own list of reserved code elements, dated 2003-07-28, mirrored by the Hong Kong government. Carries the reallocation rule and the two reservation tables. The PDF is hashed here; its text could not be extracted locally (no working extractor in this environment) and was read through a server-side extraction service -- see sources/PROVENANCE.md."
+    },
+    "iso_3166_1": {
+      "bytes": 43284,
+      "file": "iso_3166-1.json",
+      "sha256": "f01b812b57fba9f31ff621bf33e7c7570a01964dbeb5be2167e94decf538c89f",
+      "status": "ok",
+      "url": "https://salsa.debian.org/iso-codes-team/iso-codes/-/raw/main/data/iso_3166-1.json",
+      "why": "The currently assigned country codes, same compilation, used to ask which dead codes are in use again."
+    },
+    "iso_3166_3": {
+      "bytes": 6193,
+      "file": "iso_3166-3.json",
+      "sha256": "eb92d1cce3e352559f610e60e2acb23687eb1cf07b23675fb112863a5741a6fa",
+      "status": "ok",
+      "url": "https://salsa.debian.org/iso-codes-team/iso-codes/-/raw/main/data/iso_3166-3.json",
+      "why": "ISO 3166-3, the register of formerly used country names, as compiled by the iso-codes project. A THIRD-PARTY COMPILATION: ISO's own list is behind a paywall and iso.org returns 403 to this host. Every load-bearing entry is cross-checked against the CLDR aliases, the IANA registry and the ISO 3166/MA's own 2003 reserved-code list."
+    },
+    "iso_org_3166_3": {
+      "bytes": 0,
+      "file": "iso-org-standard-63547.html",
+      "sha256": null,
+      "status": "http 403",
+      "url": "https://www.iso.org/standard/63547.html",
+      "why": "ISO 3166-3:2013's catalogue entry. Expected to fail from this host."
+    },
+    "iso_org_country_codes": {
+      "bytes": 0,
+      "file": "iso-org-country-codes.html",
+      "sha256": null,
+      "status": "http 403",
+      "url": "https://www.iso.org/iso-3166-country-codes.html",
+      "why": "ISO's own free description of the three parts. Expected to fail from this host."
+    },
+    "rfc1766": {
+      "bytes": 16966,
+      "file": "rfc1766.txt",
+      "sha256": "2588b2a99bb5f81a4140a25ff44e88660655d72c3ff29fd051be4d68c3452630",
+      "status": "ok",
+      "url": "https://www.rfc-editor.org/rfc/rfc1766.txt",
+      "why": "1995. Names ISO 3166:1988 as its reference edition -- the date that fixes the floor."
+    },
+    "rfc3066": {
+      "bytes": 26522,
+      "file": "rfc3066.txt",
+      "sha256": "87e4dc0a85dde4e5161bb63384a69cd43cf5e52aceab46c3a9729c0b91778b24",
+      "status": "ok",
+      "url": "https://www.rfc-editor.org/rfc/rfc3066.txt",
+      "why": "2001. The intermediate rule: two-letter subtags are ISO 3166 codes 'or subsequently assigned'."
+    },
+    "rfc4645": {
+      "bytes": 15517,
+      "file": "rfc4645.txt",
+      "sha256": "231648ad814e18ae75f0160da7981781d5b76d3ea2324c6cae77a4193d203495",
+      "status": "ok",
+      "url": "https://www.rfc-editor.org/rfc/rfc4645.txt",
+      "why": "2006. The founding import rules of the IANA registry, including rule 2's parenthesis about 'CS'."
+    },
+    "rfc4646": {
+      "bytes": 135810,
+      "file": "rfc4646.txt",
+      "sha256": "24d7619d08e78959e763558b523d04ad4b5fb275a415992db6dd305129d72384",
+      "status": "ok",
+      "url": "https://www.rfc-editor.org/rfc/rfc4646.txt",
+      "why": "2006. The first version of the region-subtag rules, for the diff against RFC 5646."
+    },
+    "rfc5646": {
+      "bytes": 208592,
+      "file": "rfc5646.txt",
+      "sha256": "5d9515f053163c80e7294a84d18217dc83471acc7caa9773da2ac40deeec8228",
+      "status": "ok",
+      "url": "https://www.rfc-editor.org/rfc/rfc5646.txt",
+      "why": "2009. BCP 47 as it stands, including the recycled-code rule in section 2.2.4."
+    },
+    "subtag_registry": {
+      "bytes": 731799,
+      "file": "language-subtag-registry.txt",
+      "sha256": "be21e91b6851f750a7b1a687f11209d46ad5a8471d6b10a1efc8d1dac4c8a926",
+      "status": "ok",
+      "url": "https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry",
+      "why": "The registry itself. Measured here on its ISO 3166-1 upstream rather than its ISO 639 one."
+    }
+  },
+  "retrieved": "2026-08-14"
+}

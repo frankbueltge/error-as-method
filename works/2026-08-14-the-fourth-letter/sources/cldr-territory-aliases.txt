@@ -1,0 +1,14 @@
+CLDR common/supplemental/supplementalMetadata.xml, territoryAlias entries for the
+addresses this work touches. https://github.com/unicode-org/cldr
+
+<territoryAlias type="AN" replacement="CW SX BQ" reason="deprecated"/> <!-- Netherlands Antilles Curaçao largest, then Sint Martin, then BQ -->
+<territoryAlias type="CS" replacement="RS ME" reason="deprecated"/> <!-- Serbia & Montenegro -->
+<territoryAlias type="CT" replacement="KI" reason="deprecated"/> <!-- CLDR: Canton and Enderbury Islands -->
+<territoryAlias type="DY" replacement="BJ" reason="deprecated"/> <!-- CLDR:Benin -->
+<territoryAlias type="HV" replacement="BF" reason="deprecated"/> <!-- CLDR:Burkina Faso -->
+<territoryAlias type="NQ" replacement="AQ" reason="deprecated"/> <!-- CLDR: Dronning Maud Land -->
+<territoryAlias type="PC" replacement="FM MH MP PW" reason="deprecated"/> <!-- CLDR: Pacific Islands Trust Territory (divided into FM, MH, MP, and PW) -->
+<territoryAlias type="PZ" replacement="PA" reason="deprecated"/> <!-- CLDR: Panama Canal Zone -->
+<territoryAlias type="SU" replacement="RU AM AZ BY EE GE KZ KG LV LT MD TJ TM UA UZ" reason="deprecated"/> <!-- Union of Soviet Socialist Republics -->
+<territoryAlias type="VD" replacement="VN" reason="deprecated"/> <!-- CLDR: North Vietnam -->
+<territoryAlias type="YU" replacement="RS ME" reason="deprecated"/> <!-- Yugoslavia -->

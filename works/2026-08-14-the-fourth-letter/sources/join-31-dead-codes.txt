@@ -1,0 +1,37 @@
+The whole measurement, 31 rows. Sources: ISO 3166-3 (iso-codes compilation), the IANA
+registry, CLDR territoryAlias, ISO 3166-1 (iso-codes compilation). Regenerate with
+  python3 harvest.py && python3 measure.py && python3 evidence.py
+
+alpha_4  a2  a3   withdrawn    floor  IANA                  CLDR alias        alpha-2 in use now
+------------------------------------------------------------------------------------------------
+SKIN     SK  SKM  1975         pre    address-held-by-another -                 Slovakia
+AIDJ     AI  AFI  1977         pre    address-held-by-another -                 Anguilla
+DYBJ     DY  DHY  1977         pre    absent                BJ                -
+VDVN     VD  VDR  1977         pre    absent                VN                -
+BQAQ     BQ  ATB  1979         pre    address-held-by-another -                 Bonaire, Sint Eustatius and Saba
+FQHH     FQ  ATF  1979         pre    absent                AQ TF             -
+GEHH     GE  GEL  1979         pre    address-held-by-another -                 Georgia
+NHVU     NH  NHB  1980         pre    absent                VU                -
+PZPA     PZ  PCZ  1980         pre    absent                PA                -
+RHZW     RH  RHO  1980         pre    absent                ZW                -
+NQAQ     NQ  ATN  1983         pre    absent                AQ                -
+CTKI     CT  CTE  1984         pre    absent                KI                -
+HVBF     HV  HVO  1984         pre    absent                BF                -
+JTUM     JT  JTN  1986         pre    absent                UM                -
+MIUM     MI  MID  1986         pre    absent                UM                -
+PCHH     PC  PCI  1986         pre    absent                FM MH MP PW       -
+PUUM     PU  PUS  1986         pre    absent                UM                -
+WKUM     WK  WAK  1986         pre    absent                UM                -
+BUMM     BU  BUR  1989-12-05   post   deprecated-as-itself  MM                -
+YDYE     YD  YMD  1990-08-14   post   deprecated-as-itself  YE                -
+DDDE     DD  DDR  1990-10-30   post   deprecated-as-itself  DE                -
+BYAA     BY  BYS  1992-06-15   post   address-held-by-another -                 Belarus
+SUHH     SU  SUN  1992-08-30   post   deprecated-as-itself  RU AM AZ BY EE GE KZ KG LV LT MD TJ TM UA UZ -
+CSHH     CS  CSK  1993-06-15   post   address-held-by-another RS ME             -
+NTHH     NT  NTZ  1993-07-12   post   deprecated-as-itself  SA IQ             -
+FXFR     FX  FXX  1997-07-14   post   deprecated-as-itself  FR                -
+ZRCD     ZR  ZAR  1997-07-14   post   deprecated-as-itself  CD                -
+TPTL     TP  TMP  2002-05-20   post   deprecated-as-itself  TL                -
+YUCS     YU  YUG  2003-07-23   post   deprecated-as-itself  RS ME             -
+CSXX     CS  SCG  2006-09-26   post   deprecated-as-itself  RS ME             -
+ANHH     AN  ANT  2010-12-15   post   deprecated-as-itself  CW SX BQ          -

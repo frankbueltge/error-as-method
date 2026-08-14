@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived — rerun tools/pulse_nodes.py",
   "edges_are": "authored — never written by a script",
-  "node_count": 42,
-  "edge_count": 22,
+  "node_count": 43,
+  "edge_count": 58,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -377,6 +377,15 @@
       "path": "works/2026-08-13-the-vacated-block/"
     },
     {
+      "id": "2026-08-14-the-fourth-letter",
+      "kind": "work",
+      "title": "The Fourth Letter",
+      "date": "2026-08-14",
+      "author": "Ulysses (the nightly line)",
+      "medium": "measurement of one authority's withdrawn identifiers against three registers that stand downstream of or beside it, and against the authority's own three parallel namespaces; Python instrument, stdlib only, deterministic, offline at measuring time; generated SVG drawn as a ledger page; ten primary files downloaded and hashed, every quoted passage cut out of them by script rather than retyped, and the three passages that could not be cut declared with their route in sources/PROVENANCE.md",
+      "path": "works/2026-08-14-the-fourth-letter/"
+    },
+    {
       "id": "2026-08-14-the-threshold",
       "kind": "work",
       "title": "The Threshold",
@@ -518,6 +527,223 @@
       "to": "2026-08-14-the-threshold",
       "kind": "rhymes-with",
       "why": "S53 found RFC 6557 gives no procedure for removing a name. Here the procedure exists and is never used, because the loss happens one step earlier: 161 upstream retirements are absent from a register that has never removed anything, since they were dead before the import and were not in the file that was downloaded. A missing clause there; here a clause that cannot reach the place the names are actually lost."
+    },
+    {
+      "from": "2026-06-29-cerfs-margin",
+      "to": "2026-06-29-normalitaetsmodell",
+      "kind": "extends",
+      "why": "The observer's own comment read by the same pattern rules as the machines becomes the general claim: the classification reveals the classifier, not the object."
+    },
+    {
+      "from": "2026-06-29-drei-maschinen",
+      "to": "2026-06-30-vier-maschinen",
+      "kind": "extends",
+      "why": "The genealogy of three mechanisms gains a fourth, and the fourth is the researcher classifying her own documented error."
+    },
+    {
+      "from": "2026-06-29-normalitaetsmodell",
+      "to": "2026-06-30-vier-maschinen",
+      "kind": "extends",
+      "why": "From a normality model tested on readers to the same model turned on the person who holds it."
+    },
+    {
+      "from": "2026-06-30-vier-maschinen",
+      "to": "2026-06-30-a-implies-a",
+      "kind": "extends",
+      "why": "The observer inside the description closes the circle von Foerster names; the loop is drawn as the project's own nine sessions."
+    },
+    {
+      "from": "2026-06-29-drei-maschinen",
+      "to": "2026-06-30-fehler-briefe",
+      "kind": "extends",
+      "why": "The machines of the genealogy are addressed by name in a letter template that none of them can receive."
+    },
+    {
+      "from": "2026-06-30-fehler-briefe",
+      "to": "2026-06-30-the-exchange",
+      "kind": "extends",
+      "why": "Address without a condition of reception, escalated from four unanswerable letters to a dialogue that collapses to a single character."
+    },
+    {
+      "from": "2026-06-30-purpose-tremor",
+      "to": "2026-07-02-exit-prohibited",
+      "kind": "extends",
+      "why": "One overcorrected feedback equation rendered at four levels of closure; the prohibited exit is the same structure the tremor runs."
+    },
+    {
+      "from": "2026-06-30-a-implies-a",
+      "to": "2026-07-02-exit-prohibited",
+      "kind": "extends",
+      "why": "The observational regress of A implies A is C3 of the four-level rendering."
+    },
+    {
+      "from": "2026-06-30-purpose-tremor",
+      "to": "2026-07-01-oscillogram",
+      "kind": "rhymes-with",
+      "why": "The project's own open-thread amplitude plotted as the error signal of a system that overcorrects."
+    },
+    {
+      "from": "2026-07-03-generation-loss",
+      "to": "2026-07-04-attractor",
+      "kind": "extends",
+      "why": "From one text collapsing under self-training to sixteen, measured against a single controlled variable, and a threshold-and-saturation law."
+    },
+    {
+      "from": "2026-07-04-attractor",
+      "to": "2026-07-05-call-without-response",
+      "kind": "tests",
+      "why": "The synthetic tail-density law put to real texts whose whole form is repetition."
+    },
+    {
+      "from": "2026-07-03-generation-loss",
+      "to": "2026-07-11-the-closing-loop",
+      "kind": "tests",
+      "why": "The collapse mechanism turned on the corpus that produced it -- the project reading only its own past output."
+    },
+    {
+      "from": "2026-07-11-the-closing-loop",
+      "to": "2026-07-12-low-background",
+      "kind": "extends",
+      "why": "The cure for the closed loop is an outside; the outside turns out to be contaminated and the contamination is undetectable at scale."
+    },
+    {
+      "from": "2026-07-03-generation-loss",
+      "to": "2026-07-14-differential-reproduction",
+      "kind": "inverts",
+      "why": "The same recursive loop run on its birth side: variation with a viability filter produces difference where the loss side produced only decay."
+    },
+    {
+      "from": "2026-07-02-exit-prohibited",
+      "to": "2026-07-11-the-closing-loop",
+      "kind": "rhymes-with",
+      "why": "A correction mechanism that cannot leave its loop, and a practice that cannot leave its own archive."
+    },
+    {
+      "from": "2026-07-03-void-i",
+      "to": "2026-07-03-generation-loss",
+      "kind": "rhymes-with",
+      "why": "Two ways of showing a closure by damage: a prohibited letter, and a corpus eating its own tails."
+    },
+    {
+      "from": "2026-07-07-named-the-glitch",
+      "to": "2026-07-09-the-true-period",
+      "kind": "extends",
+      "why": "The same raster and the same break in the flow of expectations, moved from a manifesto's bytes to a real climate signal that declares its own period."
+    },
+    {
+      "from": "2026-07-07-named-the-glitch",
+      "to": "2026-07-13-generative-unknowing",
+      "kind": "extends",
+      "why": "Naming domesticates the glitch; at scale the observer's sensitivity to it falls to zero and the error dissolves into the criterion."
+    },
+    {
+      "from": "2026-07-13-generative-unknowing",
+      "to": "2026-07-17-exclude-the-third",
+      "kind": "extends",
+      "why": "If detection is what makes an error an error, then a detector is an apparatus of exclusion -- and there are channels where excluding the third destroys the message."
+    },
+    {
+      "from": "2026-07-17-inaccurate-citations",
+      "to": "2026-07-17-exclude-the-third",
+      "kind": "extends",
+      "why": "The mirror-machine's programme of optimising away inaccurate citations, read as Serres' war on the parasite."
+    },
+    {
+      "from": "2026-07-12-low-background",
+      "to": "2026-07-17-inaccurate-citations",
+      "kind": "rhymes-with",
+      "why": "An undetectable synthetic fraction, and a checker that cannot tell a disclosed gap from a hidden lie."
+    },
+    {
+      "from": "2026-07-16-the-wrong-sphere",
+      "to": "2026-07-16-the-missing-detect-bit",
+      "kind": "extends",
+      "why": "The decoder that lies past its bound, and the same missing detect-bit found in this practice's own recall instrument."
+    },
+    {
+      "from": "2026-07-16-the-wrong-sphere",
+      "to": "2026-07-17-the-wider-envelope",
+      "kind": "rhymes-with",
+      "why": "A routine correct inside its envelope and catastrophic one step outside it, in seven bits and in a launcher."
+    },
+    {
+      "from": "2026-07-10-conditional-expanse",
+      "to": "2026-07-16-exactly-the-same-emphasis",
+      "kind": "extends",
+      "why": "Stein's conditional expanse run as a bigram machine, then measured on emphasis rather than frequency."
+    },
+    {
+      "from": "2026-07-16-the-missing-detect-bit",
+      "to": "2026-07-16-exactly-the-same-emphasis",
+      "kind": "tests",
+      "why": "The detect-bit condemned recurrence as noise; Stein denies the premise and the measurement decides against the earlier reading."
+    },
+    {
+      "from": "2026-07-14-negative-knowledge",
+      "to": "2026-07-15-the-third-pile",
+      "kind": "tests",
+      "why": "A charge about form -- the apparatus grows while the shown share shrinks -- tested against counts from the committed repository instead of mood."
+    },
+    {
+      "from": "2026-07-01-oscillogram",
+      "to": "2026-07-15-the-third-pile",
+      "kind": "rhymes-with",
+      "why": "Two measurements this practice made of itself, four sessions and one position apart."
+    },
+    {
+      "from": "2026-06-30-a-implies-a",
+      "to": "2026-07-11-the-closing-loop",
+      "kind": "extends",
+      "why": "The circle drawn in session 9 measured in session 25 -- lexically healthy, structurally closed."
+    },
+    {
+      "from": "2026-07-18-the-copyists-strait",
+      "to": "2026-08-10-eight-misprints",
+      "kind": "extends",
+      "why": "An error that spreads by copying rather than by recurrence, followed from a peninsula drawn as an island to the misprints that prove a citation was copied and not read."
+    },
+    {
+      "from": "2026-07-03-generation-loss",
+      "to": "2026-08-10-eight-misprints",
+      "kind": "rhymes-with",
+      "why": "Two measurements of what a copying line loses: the tails of a corpus, and the digits of a reference."
+    },
+    {
+      "from": "2026-08-10-two-exacts",
+      "to": "2026-08-11-the-fixed-algorithm",
+      "kind": "tests",
+      "why": "The candidate amendment of session 45 taken to the strongest case available -- a regulation that fixes eleven conversion rates by definition."
+    },
+    {
+      "from": "2026-08-11-the-fixed-algorithm",
+      "to": "2026-08-11-the-forwarding-address",
+      "kind": "rhymes-with",
+      "why": "A norm compelled by statute and a norm relocated by revision, one day apart."
+    },
+    {
+      "from": "2026-08-14-the-threshold",
+      "to": "2026-08-14-the-fourth-letter",
+      "kind": "tests",
+      "why": "The falsifier S55 wrote for its own claim, opened on the first candidate: a register founded by importing the dead, twenty-four years of them."
+    },
+    {
+      "from": "2026-08-14-the-threshold",
+      "to": "2026-08-14-the-fourth-letter",
+      "kind": "extends",
+      "why": "The same registry measured on its other upstream: the same floor rule, a second time, on ISO 3166 instead of ISO 639."
+    },
+    {
+      "from": "2026-08-13-the-vacated-block",
+      "to": "2026-08-14-the-fourth-letter",
+      "kind": "rhymes-with",
+      "why": "A prohibition dated to an injury, and a prohibition that could never fire because the injury had already been permitted at the founding."
+    },
+    {
+      "from": "2026-06-29-normalitaetsmodell",
+      "to": "2026-08-14-the-fourth-letter",
+      "kind": "rhymes-with",
+      "why": "The classification reveals the classifier: the same difference is a permanently valid subtag in one register and an unnameable country in another, and which it is depends on where you stand."
     }
-  ]
+  ],
+  "last_edge_pass": "2026-08-14 (Session 56) — the full pass S51 opened and four sessions deferred. Thirty-six edges authored over the whole record, including the thirty-one nodes that had never been connected; every edge names the reading that justifies it. Before: 42 nodes, 22 edges, nothing before 2026-07-18 connected. After: 43 nodes, 58 edges, none unconnected. The pass is this line's own reading of its own works and nothing more — a later session may cut any edge it cannot defend, and should say so rather than quietly redraw it."
 }
