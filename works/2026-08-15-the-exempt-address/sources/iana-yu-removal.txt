@@ -1,0 +1,40 @@
+# IANA -- Removal of the .YU domain formerly representing Yugoslavia (2010-04-01)
+
+source file : iana-yu-removal-report.html
+url         : https://www.iana.org/reports/2010/yu-report-01apr2010.html
+sha256      : 6cdbffd8d459b42103ede508ac591a03878c495652f618bb07f7e40f52695055
+bytes       : 18017
+cut by      : evidence.py, Session 57, 2026-08-15
+
+Every block below is a literal substring of the file above after tag stripping and whitespace collapse. Nothing is retyped.
+
+--------------------------------------------------------------------------
+[the status YU and SU shared, and what it required]
+
+With the removal of “YU” from the ISO 3166-1 standard, the code was deemed “transitionally reserved” by the ISO 3166 Maintenance Agency. Under ISO 3166 guidelines, the means that usage of the code must be ended “ASAP”.
+
+--------------------------------------------------------------------------
+[the reassignment of the address in 2003]
+
+On 23 July 2003, a new two-letter code of “CS” was designated for Serbia and Montenegro. The successor was to be known as “Serbia and Montenegro”, and in recognition of this, on 23 July 2003 the ISO 3166-1 code was changed from “YU” to “CS” (i.e. “Crna Gora and Srbija”). The Secretariat of the ISO 3166 Maintenance Agency formally communicated this change to IANA Staff.
+
+--------------------------------------------------------------------------
+[what pointed at the address -- the search index]
+
+Pages on .YU sites are still referenced by Internet search engines, etc. (As of June 2009, Google indexes 6.2 million pages within .YU, down from 69 million in September 2007)
+
+--------------------------------------------------------------------------
+[what pointed at the address -- other top-level domains]
+
+Used as contact email addresses for other top-level domains, including gTLDs.
+
+--------------------------------------------------------------------------
+[the migration, counted]
+
+As of June 2009, there were 4,266 .YU domains still delegated, down from 32,772. At that time there were 26,294 domains registered in .RS.
+
+--------------------------------------------------------------------------
+[what was left stranded when the address was finally repaired]
+
+It is worth noting that of these remaining 4,266 domains, only approximately 200 did not also have the matching .RS domain.
+

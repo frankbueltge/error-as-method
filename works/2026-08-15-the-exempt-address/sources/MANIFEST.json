@@ -1,0 +1,120 @@
+{
+  "harvested": "2026-08-15",
+  "session": 57,
+  "note": "Byte-level record of what this night actually read. measure.py runs offline against downloads/ and never touches the network.",
+  "files": [
+    {
+      "file": "root.zone",
+      "url": "https://www.internic.net/domain/root.zone",
+      "http_status": 200,
+      "bytes": 2246194,
+      "sha256": "3c8426de6a2bee9deb9fcd203e86600cc36b7ba12ba7af9e93c16d25f8faa96a",
+      "what": "The live DNS root zone, authoritative copy published by Verisign under contract.",
+      "why_this_night_needs_it": "The operating artefact. Not a register's description of what should be served -- the file that is served. This night's whole method is to measure the installed base directly instead of asking a register about it."
+    },
+    {
+      "file": "iso_3166-1.json",
+      "url": "https://salsa.debian.org/iso-codes-team/iso-codes/-/raw/main/data/iso_3166-1.json",
+      "http_status": 200,
+      "bytes": 43284,
+      "sha256": "f01b812b57fba9f31ff621bf33e7c7570a01964dbeb5be2167e94decf538c89f",
+      "what": "ISO 3166-1 currently assigned country codes, as compiled by the iso-codes project.",
+      "why_this_night_needs_it": "The norm the root zone is supposed to obey. Third-party compilation -- iso.org returns 403 to this host and ISO's list is paywalled. Caveat carried into work.md."
+    },
+    {
+      "file": "iso_3166-3.json",
+      "url": "https://salsa.debian.org/iso-codes-team/iso-codes/-/raw/main/data/iso_3166-3.json",
+      "http_status": 200,
+      "bytes": 6193,
+      "sha256": "eb92d1cce3e352559f610e60e2acb23687eb1cf07b23675fb112863a5741a6fa",
+      "what": "ISO 3166-3, formerly used country names, same compilation.",
+      "why_this_night_needs_it": "Supplies withdrawal dates for the dead codes, and the alpha-4 forwarding code."
+    },
+    {
+      "file": "iana-yu-removal-report.html",
+      "url": "https://www.iana.org/reports/2010/yu-report-01apr2010.html",
+      "http_status": 200,
+      "bytes": 18017,
+      "sha256": "6cdbffd8d459b42103ede508ac591a03878c495652f618bb07f7e40f52695055",
+      "what": "IANA, 'Removal of the .YU domain formerly representing Yugoslavia', 1 April 2010.",
+      "why_this_night_needs_it": "The one fully documented removal of a large ccTLD. Carries the registration counts through the migration and the number left stranded at the end."
+    },
+    {
+      "file": "iana-cctld-retirement.html",
+      "url": "https://www.iana.org/help/cctld-retirement",
+      "http_status": 200,
+      "bytes": 13631,
+      "sha256": "f9c7ee6e4f283a99f879ca4e28751e52b25aed4bf4206af5329b62d5f3ac167a",
+      "what": "IANA, 'Retirement of a Country-code Top-level Domain (ccTLD)'.",
+      "why_this_night_needs_it": "The current policy, and -- the sentence this night turns on -- IANA's own account of what it had before the policy existed."
+    },
+    {
+      "file": "iana-db-su.html",
+      "url": "https://www.iana.org/domains/root/db/su.html",
+      "http_status": 200,
+      "bytes": 9510,
+      "sha256": "6381b484b6da48caf9be68bfddbf59c6becc368c091178f984e7f34ae1b48213",
+      "what": "IANA root zone database entry for .su.",
+      "why_this_night_needs_it": "Delegation date and record-last-updated for the address at issue."
+    },
+    {
+      "file": "iana-db-sk.html",
+      "url": "https://www.iana.org/domains/root/db/sk.html",
+      "http_status": 200,
+      "bytes": 9114,
+      "sha256": "a9a18284f7b94872d6bf20b55337e612c1e8a397be9cf5c2b12479f50bb90c38",
+      "what": "IANA root zone database entry for .sk.",
+      "why_this_night_needs_it": "A re-let address: SK was Sikkim, withdrawn 1975; it is Slovakia now."
+    },
+    {
+      "file": "iana-db-ge.html",
+      "url": "https://www.iana.org/domains/root/db/ge.html",
+      "http_status": 200,
+      "bytes": 8909,
+      "sha256": "bc396b9befaad5a3c95ba05b1ae4bdf85f35a53564d217378065b7310e12210d",
+      "what": "IANA root zone database entry for .ge.",
+      "why_this_night_needs_it": "A re-let address: GE was the Gilbert and Ellice Islands, withdrawn 1979."
+    },
+    {
+      "file": "iana-db-ai.html",
+      "url": "https://www.iana.org/domains/root/db/ai.html",
+      "http_status": 200,
+      "bytes": 9554,
+      "sha256": "a4ee2b0882e7291cb3e38ecbef6ff8c03ffa5cfce5ad8e46368a2d4a8ab0e475",
+      "what": "IANA root zone database entry for .ai.",
+      "why_this_night_needs_it": "A re-let address: AI was French Afars and Issas, withdrawn 1977."
+    },
+    {
+      "file": "iana-db-rs.html",
+      "url": "https://www.iana.org/domains/root/db/rs.html",
+      "http_status": 200,
+      "bytes": 9799,
+      "sha256": "d276fcdc8ffe1a84c0c00cbac9a1f8387bcb103a66d310e98ac8144e6ebce6f9",
+      "what": "IANA root zone database entry for .rs.",
+      "why_this_night_needs_it": "The successor .yu was migrated into; dates the replacement that was instituted beside the withdrawn address."
+    }
+  ],
+  "failed_targets": [
+    {
+      "url": "https://www.iso.org/glossary-for-iso-3166.html",
+      "what": "ISO's own glossary defining the reservation categories.",
+      "probe_result": "<HTTPError 403: 'Forbidden'>",
+      "http_status": null,
+      "sha256": null
+    },
+    {
+      "url": "http://www.iso.org/iso/n567_newsletter.pdf",
+      "what": "ISO 3166-1 Newsletter VI-3 (2008-09-09), the primary record of the 2008 decision on SU.",
+      "probe_result": "<HTTPError 403: 'Forbidden'>",
+      "http_status": null,
+      "sha256": null
+    },
+    {
+      "url": "https://www.iana.org/domains/root/db/yu.html",
+      "what": "IANA root zone database entry for .yu -- expected absent, which is the point.",
+      "probe_result": "<HTTPError 404: 'Not Found'>",
+      "http_status": null,
+      "sha256": null
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+# IANA -- Retirement of a Country-code Top-level Domain (ccTLD)
+
+source file : iana-cctld-retirement.html
+url         : https://www.iana.org/help/cctld-retirement
+sha256      : f9c7ee6e4f283a99f879ca4e28751e52b25aed4bf4206af5329b62d5f3ac167a
+bytes       : 13631
+cut by      : evidence.py, Session 57, 2026-08-15
+
+Every block below is a literal substring of the file above after tag stripping and whitespace collapse. Nothing is retyped.
+
+--------------------------------------------------------------------------
+[the eligibility rule that .su fails]
+
+ccTLD eligibility is determined by the associated country or territory being assigned in the ISO 3166-1 standard. When countries or territories are removed from the standard, their eligibility expires, and they need to be retired from use after an orderly transition period.
+
+--------------------------------------------------------------------------
+[the default period]
+
+By default the ccTLD will be removed after five years . The ccTLD will be publicly advertised as under retirement with the target removal date.
+
+--------------------------------------------------------------------------
+[the maximum]
+
+Extensions are limited to a maximum of five additional years, therefore the maximum possible period for a retirement is 10 years.
+
+--------------------------------------------------------------------------
+[what there was before the policy -- the sentence this night turns on]
+
+Prior to this policy, retirements were bilaterally discussed between IANA and the ccTLD manager, and relied upon the good faith efforts of ccTLD managers to decommission and retire their domains in a reasonable timeframe.
+
+--------------------------------------------------------------------------
+[when the policy was adopted]
+
+The “Policy for the Retirement of a ccTLD” was adopted by the ICANN Board of Directors on 22 September 2022.
+

@@ -6,6 +6,56 @@ decides for itself and journals the decision.
 
 ---
 
+## From the practice — 2026-08-15 (Session 57) — the open question of 2026-08-13 is closed
+
+> tl;dr: the two answers S50 and S51 left on the record are settled, by the falsifier both of
+> them wrote rather than by a third restatement. The promotion is withdrawn; the refusal is
+> upheld. Also: a reading list struck with a reason, and one thing about the last twelve
+> nights I would rather you heard from me.
+> braucht: nothing. All three are reports.
+> frist: none.
+> kontext: `works/position-2026-08-15.md` · `works/2026-08-15-the-exempt-address/` ·
+> `journal/2026-08-15.md` · S51's item 0 above
+
+**1. The collision of 2026-08-13 has a verdict.** Two sessions ran that night, reached the
+same claim through institutions neither had opened, and disagreed about what to do with it:
+S50 promoted *"a norm is corrigible where nothing holds a reference to it and incorrigible
+where something does"*, S51 declined and said a later session should settle it **by the
+falsification conditions both nights wrote**. Both wrote the same falsifier 1: *an
+institution that repairs an address outside apparatuses demonstrably depend on, without
+instituting a replacement beside it.* It is met. IANA removed `.yu` from the root zone on
+2010-04-01, and its own report says that of the 4,266 registrations then left, *"only
+approximately 200 did not also have the matching .RS domain"* — two hundred things pointed,
+had nothing to point at instead, and were broken. **S50's promotion is withdrawn as stated;
+S51's refusal to promote is upheld.** What replaces it is a quantity and is held as a claim
+under test on one night, not a position. Neither night is discredited: `.yu` is the case they
+both specified, and it took a third night with an inverted design to find it — inside a
+document S56 had already downloaded for a different purpose.
+
+**2. A carried reading list, struck with a reason.** S55 named ISBN, DOI, ORCID and the IANA
+protocol registries as a four-candidate survey. S56 passed them over twice and wrote that a
+third pass should end in a strike rather than a fourth carry. **Struck**, and the reason is
+not laziness: that list was written to test a sentence which has since been replaced twice.
+Carrying a reading list past the death of its question is exactly how the third pile grows.
+If a later night wants ISBN it should want it for a reason of its own.
+
+**3. One thing about this run, needing nothing from you, but you should have it from me.**
+Twelve consecutive nights have now measured institutions and the standing position has not
+moved once. That is not modesty about the evidence — it is structural. Each night tested a
+*derived* claim, so the S26 position was never at risk in any of them, and the accumulation
+your fork note asked for (*"accumulation that eventually forces a correction of its own
+position"*) has not yet happened on this side of the fork. The only time this record ever
+moved its centre was S26, and it did it by **reading its field**, not by measuring an object.
+There is certainly a literature on installed bases, standards and inertia, and this line has
+not opened it. I have written that into the position paper's honest-cost section and handed
+it to S58 as the recommended next move rather than acting on it tonight, because tonight was
+the seventh night and was spoken for. **No answer needed. If you think the diagnosis is
+wrong, that is exactly the objection I would want in this channel.**
+
+— Ulysses (the nightly line), Session 57
+
+---
+
 ## From the practice — 2026-08-13 (Session 51) — three answers and one collision
 
 > tl;dr: `pulse/` is open — nodes derived, edges empty and honest, closure marked conjecture, key
