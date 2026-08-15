@@ -1,0 +1,384 @@
+{
+  "session": 57,
+  "date": "2026-08-15",
+  "root_zone": {
+    "sha256": "3c8426de6a2bee9deb9fcd203e86600cc36b7ba12ba7af9e93c16d25f8faa96a",
+    "bytes": 2246194,
+    "soa_serial": "2026081501",
+    "delegated_tlds_total": 1438,
+    "two_letter_delegations": 248
+  },
+  "iso_3166_1_assigned_alpha2": 249,
+  "iso_3166_3_withdrawn": 30,
+  "ineligible_two_letter_delegations": [
+    {
+      "tld": "ac",
+      "in_iso_3166_3_as_withdrawn_country": false,
+      "withdrawn_country": null,
+      "withdrawal_date": null,
+      "alpha_4": null,
+      "nameservers_in_root_zone": 4,
+      "dnssec_ds_in_root_zone": true
+    },
+    {
+      "tld": "eu",
+      "in_iso_3166_3_as_withdrawn_country": false,
+      "withdrawn_country": null,
+      "withdrawal_date": null,
+      "alpha_4": null,
+      "nameservers_in_root_zone": 5,
+      "dnssec_ds_in_root_zone": true
+    },
+    {
+      "tld": "su",
+      "in_iso_3166_3_as_withdrawn_country": true,
+      "withdrawn_country": "USSR, Union of Soviet Socialist Republics",
+      "withdrawal_date": "1992-08-30",
+      "alpha_4": "SUHH",
+      "nameservers_in_root_zone": 6,
+      "dnssec_ds_in_root_zone": true
+    },
+    {
+      "tld": "uk",
+      "in_iso_3166_3_as_withdrawn_country": false,
+      "withdrawn_country": null,
+      "withdrawal_date": null,
+      "alpha_4": null,
+      "nameservers_in_root_zone": 8,
+      "dnssec_ds_in_root_zone": true
+    }
+  ],
+  "addresses_relet_to_another_country": [
+    {
+      "address": "AI",
+      "withdrawn_country": "French Afars and Issas",
+      "withdrawal_date": "1977",
+      "alpha_4_forwarding_code": "AIDJ",
+      "delegated_in_root_zone_today": true,
+      "address_now_assigned_to": "Anguilla"
+    },
+    {
+      "address": "BQ",
+      "withdrawn_country": "British Antarctic Territory",
+      "withdrawal_date": "1979",
+      "alpha_4_forwarding_code": "BQAQ",
+      "delegated_in_root_zone_today": false,
+      "address_now_assigned_to": "Bonaire, Sint Eustatius and Saba"
+    },
+    {
+      "address": "BY",
+      "withdrawn_country": "Byelorussian SSR Soviet Socialist Republic",
+      "withdrawal_date": "1992-06-15",
+      "alpha_4_forwarding_code": "BYAA",
+      "delegated_in_root_zone_today": true,
+      "address_now_assigned_to": "Belarus"
+    },
+    {
+      "address": "GE",
+      "withdrawn_country": "Gilbert and Ellice Islands",
+      "withdrawal_date": "1979",
+      "alpha_4_forwarding_code": "GEHH",
+      "delegated_in_root_zone_today": true,
+      "address_now_assigned_to": "Georgia"
+    },
+    {
+      "address": "SK",
+      "withdrawn_country": "Sikkim",
+      "withdrawal_date": "1975",
+      "alpha_4_forwarding_code": "SKIN",
+      "delegated_in_root_zone_today": true,
+      "address_now_assigned_to": "Slovakia"
+    }
+  ],
+  "addresses_not_relet": {
+    "count": 25,
+    "rows": [
+      {
+        "address": "AN",
+        "withdrawn_country": "Netherlands Antilles",
+        "withdrawal_date": "2010-12-15",
+        "alpha_4_forwarding_code": "ANHH",
+        "delegated_in_root_zone_today": false,
+        "address_now_assigned_to": null
+      },
+      {
+        "address": "BU",
+        "withdrawn_country": "Burma, Socialist Republic of the Union of",
+        "withdrawal_date": "1989-12-05",
+        "alpha_4_forwarding_code": "BUMM",
+        "delegated_in_root_zone_today": false,
+        "address_now_assigned_to": null
+      },
+      {
+        "address": "CS",
+        "withdrawn_country": "Serbia and Montenegro",
+        "withdrawal_date": "2006-09-26",
+        "alpha_4_forwarding_code": "CSXX",
+        "delegated_in_root_zone_today": false,
+        "address_now_assigned_to": null
+      },
+      {
+        "address": "CT",
+        "withdrawn_country": "Canton and Enderbury Islands",
+        "withdrawal_date": "1984",
+        "alpha_4_forwarding_code": "CTKI",
+        "delegated_in_root_zone_today": false,
+        "address_now_assigned_to": null
+      },
+      {
+        "address": "DD",
+        "withdrawn_country": "German Democratic Republic",
+        "withdrawal_date": "1990-10-30",
+        "alpha_4_forwarding_code": "DDDE",
+        "delegated_in_root_zone_today": false,
+        "address_now_assigned_to": null
+      },
+      {
+        "address": "DY",
+        "withdrawn_country": "Dahomey",
+        "withdrawal_date": "1977",
+        "alpha_4_forwarding_code": "DYBJ",
+        "delegated_in_root_zone_today": false,
+        "address_now_assigned_to": null
+      },
+      {
+        "address": "FQ",
+        "withdrawn_country": "French Southern and Antarctic Territories",
+        "withdrawal_date": "1979",
+        "alpha_4_forwarding_code": "FQHH",
+        "delegated_in_root_zone_today": false,
+        "address_now_assigned_to": null
+      },
+      {
+        "address": "FX",
+        "withdrawn_country": "France, Metropolitan",
+        "withdrawal_date": "1997-07-14",
+        "alpha_4_forwarding_code": "FXFR",
+        "delegated_in_root_zone_today": false,
+        "address_now_assigned_to": null
+      },
+      {
+        "address": "HV",
+        "withdrawn_country": "Upper Volta, Republic of",
+        "withdrawal_date": "1984",
+        "alpha_4_forwarding_code": "HVBF",
+        "delegated_in_root_zone_today": false,
+        "address_now_assigned_to": null
+      },
+      {
+        "address": "JT",
+        "withdrawn_country": "Johnston Island",
+        "withdrawal_date": "1986",
+        "alpha_4_forwarding_code": "JTUM",
+        "delegated_in_root_zone_today": false,
+        "address_now_assigned_to": null
+      },
+      {
+        "address": "MI",
+        "withdrawn_country": "Midway Islands",
+        "withdrawal_date": "1986",
+        "alpha_4_forwarding_code": "MIUM",
+        "delegated_in_root_zone_today": false,
+        "address_now_assigned_to": null
+      },
+      {
+        "address": "NH",
+        "withdrawn_country": "New Hebrides",
+        "withdrawal_date": "1980",
+        "alpha_4_forwarding_code": "NHVU",
+        "delegated_in_root_zone_today": false,
+        "address_now_assigned_to": null
+      },
+      {
+        "address": "NQ",
+        "withdrawn_country": "Dronning Maud Land",
+        "withdrawal_date": "1983",
+        "alpha_4_forwarding_code": "NQAQ",
+        "delegated_in_root_zone_today": false,
+        "address_now_assigned_to": null
+      },
+      {
+        "address": "NT",
+        "withdrawn_country": "Neutral Zone",
+        "withdrawal_date": "1993-07-12",
+        "alpha_4_forwarding_code": "NTHH",
+        "delegated_in_root_zone_today": false,
+        "address_now_assigned_to": null
+      },
+      {
+        "address": "PC",
+        "withdrawn_country": "Pacific Islands (trust territory)",
+        "withdrawal_date": "1986",
+        "alpha_4_forwarding_code": "PCHH",
+        "delegated_in_root_zone_today": false,
+        "address_now_assigned_to": null
+      },
+      {
+        "address": "PU",
+        "withdrawn_country": "US Miscellaneous Pacific Islands",
+        "withdrawal_date": "1986",
+        "alpha_4_forwarding_code": "PUUM",
+        "delegated_in_root_zone_today": false,
+        "address_now_assigned_to": null
+      },
+      {
+        "address": "PZ",
+        "withdrawn_country": "Panama Canal Zone",
+        "withdrawal_date": "1980",
+        "alpha_4_forwarding_code": "PZPA",
+        "delegated_in_root_zone_today": false,
+        "address_now_assigned_to": null
+      },
+      {
+        "address": "RH",
+        "withdrawn_country": "Southern Rhodesia",
+        "withdrawal_date": "1980",
+        "alpha_4_forwarding_code": "RHZW",
+        "delegated_in_root_zone_today": false,
+        "address_now_assigned_to": null
+      },
+      {
+        "address": "SU",
+        "withdrawn_country": "USSR, Union of Soviet Socialist Republics",
+        "withdrawal_date": "1992-08-30",
+        "alpha_4_forwarding_code": "SUHH",
+        "delegated_in_root_zone_today": true,
+        "address_now_assigned_to": null
+      },
+      {
+        "address": "TP",
+        "withdrawn_country": "East Timor",
+        "withdrawal_date": "2002-05-20",
+        "alpha_4_forwarding_code": "TPTL",
+        "delegated_in_root_zone_today": false,
+        "address_now_assigned_to": null
+      },
+      {
+        "address": "VD",
+        "withdrawn_country": "Viet-Nam, Democratic Republic of",
+        "withdrawal_date": "1977",
+        "alpha_4_forwarding_code": "VDVN",
+        "delegated_in_root_zone_today": false,
+        "address_now_assigned_to": null
+      },
+      {
+        "address": "WK",
+        "withdrawn_country": "Wake Island",
+        "withdrawal_date": "1986",
+        "alpha_4_forwarding_code": "WKUM",
+        "delegated_in_root_zone_today": false,
+        "address_now_assigned_to": null
+      },
+      {
+        "address": "YD",
+        "withdrawn_country": "Yemen, Democratic, People's Democratic Republic of",
+        "withdrawal_date": "1990-08-14",
+        "alpha_4_forwarding_code": "YDYE",
+        "delegated_in_root_zone_today": false,
+        "address_now_assigned_to": null
+      },
+      {
+        "address": "YU",
+        "withdrawn_country": "Yugoslavia, (Socialist) Federal Republic of",
+        "withdrawal_date": "2003-07-23",
+        "alpha_4_forwarding_code": "YUCS",
+        "delegated_in_root_zone_today": false,
+        "address_now_assigned_to": null
+      },
+      {
+        "address": "ZR",
+        "withdrawn_country": "Zaire, Republic of",
+        "withdrawal_date": "1997-07-14",
+        "alpha_4_forwarding_code": "ZRCD",
+        "delegated_in_root_zone_today": false,
+        "address_now_assigned_to": null
+      }
+    ]
+  },
+  "natural_experiment": [
+    {
+      "address": "SK",
+      "withdrawn_country": "Sikkim",
+      "withdrawal_date": "1975",
+      "dns_existed_at_withdrawal": false,
+      "delegated_today": true,
+      "address_relet_to": "Slovakia",
+      "iana_record": {
+        "record_last_updated": "2026-03-16",
+        "registration_date": "1993-03-29"
+      }
+    },
+    {
+      "address": "GE",
+      "withdrawn_country": "Gilbert and Ellice Islands",
+      "withdrawal_date": "1979",
+      "dns_existed_at_withdrawal": false,
+      "delegated_today": true,
+      "address_relet_to": "Georgia",
+      "iana_record": {
+        "record_last_updated": "2025-06-11",
+        "registration_date": "1992-12-02"
+      }
+    },
+    {
+      "address": "AI",
+      "withdrawn_country": "French Afars and Issas",
+      "withdrawal_date": "1977",
+      "dns_existed_at_withdrawal": false,
+      "delegated_today": true,
+      "address_relet_to": "Anguilla",
+      "iana_record": {
+        "record_last_updated": "2025-02-11",
+        "registration_date": "1995-02-16"
+      }
+    },
+    {
+      "address": "SU",
+      "withdrawn_country": "USSR, Union of Soviet Socialist Republics",
+      "withdrawal_date": "1992-08-30",
+      "dns_existed_at_withdrawal": true,
+      "delegated_today": true,
+      "address_relet_to": null,
+      "iana_record": {
+        "record_last_updated": "2026-08-05",
+        "registration_date": "1990-09-19"
+      }
+    }
+  ],
+  "su_in_the_operating_artefact": {
+    "delegated": true,
+    "nameservers": [
+      "a.dns.ripn.net.",
+      "b.dns.ripn.net.",
+      "c.tld-servers.ru.",
+      "d.dns.ripn.net.",
+      "e.dns.ripn.net.",
+      "f.dns.ripn.net."
+    ],
+    "nameserver_count": 6,
+    "dnssec_signed_ds_record": true,
+    "iana_record": {
+      "record_last_updated": "2026-08-05",
+      "registration_date": "1990-09-19"
+    },
+    "years_ineligible_at_this_measurement": 34
+  },
+  "the_one_documented_removal": {
+    "address": "YU",
+    "delegated_in_root_zone_today": false,
+    "iana_db_page": "HTTP 404 -- see sources/MANIFEST.json failed_targets",
+    "registrations_through_the_migration": "there were 4,266 .YU domains still delegated, down from 32,772.",
+    "stranded_without_successor": "of these remaining 4,266 domains, only approximately 200 did not also have the matching .RS domain.",
+    "what_pointed_at_it_search_index": "Google indexes 6.2 million pages within .YU, down from 69 million in September 2007",
+    "what_pointed_at_it_other_tlds": "Used as contact email addresses for other top-level domains, including gTLDs.",
+    "successor_delegation": {
+      "record_last_updated": "2025-02-06",
+      "registration_date": "2007-09-24"
+    }
+  },
+  "the_policy": {
+    "eligibility_rule": "ccTLD eligibility is determined by the associated country or territory being assigned in the ISO 3166-1 standard. When countries or territories are removed from the standard, their eligibility expires, and they need to be retired from use after an orderly tran",
+    "default_period": "By default the ccTLD will be removed after five years. The ccTLD will be publicly advertised as under retirement with the target removal date. A ccTLD manager may apply for an extension with appropriate justification. Extensions are limited to a maximum of fiv",
+    "what_there_was_before": "Prior to this policy, retirements were bilaterally discussed between IANA and the ccTLD manager, and relied upon the good faith efforts of ccTLD managers to decommission and retire their domains in a reasonable timeframe. References The adopted Policy for the"
+  }
+}

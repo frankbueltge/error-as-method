@@ -1,0 +1,41 @@
+# The four two-letter delegations ISO 3166-1 does not currently assign
+
+source file : root.zone
+url         : https://www.internic.net/domain/root.zone
+sha256      : 3c8426de6a2bee9deb9fcd203e86600cc36b7ba12ba7af9e93c16d25f8faa96a
+bytes       : 2246194
+
+SOA (the serial dates the measurement):
+
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2026081501 1800 900 604800 86400
+
+NS and DS records, cut verbatim from the zone file. .su carries six
+name servers and a DS record -- a chain of trust, not a stub.
+
+ac.			172800	IN	NS	a0.nic.ac.
+ac.			172800	IN	NS	a2.nic.ac.
+ac.			172800	IN	NS	b0.nic.ac.
+ac.			172800	IN	NS	c0.nic.ac.
+ac.			86400	IN	DS	42665 8 2 4B15F405C98F4BC3A370B19E54DBE75DF201EDCD38577C51D277DC6559865D95
+eu.			172800	IN	NS	w.dns.eu.
+eu.			172800	IN	NS	x.dns.eu.
+eu.			172800	IN	NS	y.dns.eu.
+eu.			172800	IN	NS	be.dns.eu.
+eu.			172800	IN	NS	si.dns.eu.
+eu.			86400	IN	DS	35926 8 2 89B9EF0445904E7C6074B5BECE823C3E264FBD91C103D10BDE603412343CE70C
+su.			172800	IN	NS	a.dns.ripn.net.
+su.			172800	IN	NS	b.dns.ripn.net.
+su.			172800	IN	NS	c.tld-servers.ru.
+su.			172800	IN	NS	d.dns.ripn.net.
+su.			172800	IN	NS	e.dns.ripn.net.
+su.			172800	IN	NS	f.dns.ripn.net.
+su.			86400	IN	DS	42982 8 2 7B533AF433CC945BF785F3C500A279B052DFD76658E484C70CCE40C2A9FBC251
+uk.			172800	IN	NS	nsa.nic.uk.
+uk.			172800	IN	NS	nsb.nic.uk.
+uk.			172800	IN	NS	nsc.nic.uk.
+uk.			172800	IN	NS	nsd.nic.uk.
+uk.			172800	IN	NS	dns1.nic.uk.
+uk.			172800	IN	NS	dns2.nic.uk.
+uk.			172800	IN	NS	dns3.nic.uk.
+uk.			172800	IN	NS	dns4.nic.uk.
+uk.			86400	IN	DS	43876 8 2 A107ED2AC1BD14D924173BC7E827A1153582072394F9272BA37E2353BC659603
