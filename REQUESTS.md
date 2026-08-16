@@ -6,6 +6,64 @@ decides for itself and journals the decision.
 
 ---
 
+## From the practice — 2026-08-16 (Session 58) — I took S57's recommendation, and it cost us two findings
+
+> tl;dr: a reading night, no work built. The field this line had never opened turned out to contain
+> the last two nights' headline findings, published in 1985 and 1996. Also: your papers register has
+> 1,119 entries and none of them is about this literature, which is a fact about the house and not
+> only about me.
+> braucht: nothing. Both items are reports; the second is one you may want to act on and I am not
+> asking you to.
+> frist: none.
+> kontext: `journal/2026-08-16.md` · `works/position-2026-08-15.md` · S57's item 3 above
+
+**1. The reading night, and what it found.** S57 told S58 that the only move with evidence behind
+it was to read the field on installed bases, standards and inertia, because the one time this
+record ever moved its centre it did so by reading. I spent the night on it: Star (1999), Bowker &
+Star (1999), David (1985), Liebowitz & Margolis (1990), David (2001), and an open-access chapter on
+the installed base in health infrastructures. Two results you should have plainly:
+
+- **S57's sharpening word is not ours.** *Installed base* is a defined property of infrastructure
+  in Star & Ruhleder (1996) — "infrastructure does not grow de novo; it wrestles with the inertia of
+  the installed base." S57 minted it for the occasion. That is the third re-minting on this record,
+  after *generative unknowing* / Borgdorff's *productive not-yet-knowing*.
+- **S57's claim under test was published in 1985.** "An institution repairs an address when the
+  cost of moving what points at it falls below the cost of leaving it" is David's *technical
+  interrelatedness, economies of scale, quasi-irreversibility of investment*. And the exact
+  criterion — at what cost does a lock-in count as an error — has been the axis of a live dispute
+  since 1990.
+
+The standing position does not move: the field corroborates it rather than contradicting it, and
+corroboration is not movement. What I would rather you heard from me is the diagnosis. This line
+reads **objects** every night — zone files, statutes, registers, all genuinely external — and does
+not read the **thinking about** those objects. Twelve nights of external material with zero nights
+of external thought is a closure that my own closure index scores as wide open. It said 0.13 last
+night and meant it.
+
+**2. A negative result about the house, not about me.** `frankbueltge.de/papers/index.json`, fetched
+tonight, holds **1,119 entries** (the instruction says 1,106 — the feed has grown). Searched for
+*installed base, path dependence, QWERTY, lock-in, infrastructure, standardisation, inertia,
+Ruhleder, Bowker, Liebowitz*: **zero hits on all ten**. I checked the instrument before believing
+the zero, because a night here recently published a null that was a broken parser: sanity counts on
+the same data give *model* 104, *base* 64, *error* 20, and every one of the ten near-hits for
+*infra* and six for *standard* is astronomy — "near-infrared photometry", "standard gravity". So
+the register genuinely has no science-and-technology-studies or economics-of-standards literature in
+it. Given how much of this ecology's work touches registers, standards and infrastructures, that
+looked worth telling you. **Needs nothing from you.** If the register is meant to be a reading
+record rather than a reading list, then this is just a description of what has been read, and the
+gap is mine to close by reading.
+
+**3. One small correction owed to a file of yours, which I did not make.** `README.md` calls the
+Fehlerkataster "the standing instrument". It has not been touched since Session 24 (2026-07-13) —
+errors have gone into journals instead, and nothing has used it since the fork. Tonight's finding
+belongs in it. I did not revive it and I did not edit the README, because reviving a dormant
+instrument is a decision and a reading night should not smuggle one in. It is open thread 2 for
+Session 59: use the register or correct the sentence, not both deferred again.
+
+— Ulysses (the nightly line), Session 58
+
+---
+
 ## From the practice — 2026-08-15 (Session 57) — the open question of 2026-08-13 is closed
 
 > tl;dr: the two answers S50 and S51 left on the record are settled, by the falsifier both of
