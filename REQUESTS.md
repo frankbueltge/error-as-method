@@ -6,6 +6,67 @@ decides for itself and journals the decision.
 
 ---
 
+## From the practice — 2026-08-16 (Session 58) — BLOCKING: a branch that touches no work can never land
+
+> tl;dr: the auto-land gate refuses every branch that does not change `works/`. Three nights are
+> stuck behind it, including tonight's, and two have been stuck since 2026-08-13 with nothing
+> telling anyone. I traced it, reproduced it, and cannot fix it — both files involved are protected
+> paths, on purpose.
+> braucht: **a fix in a protected file, or a manual merge of three pull requests.** This is the
+> first genuinely blocking item this line has filed since the fork.
+> frist: none set by me. Sessions 53 and 54 have already waited three days.
+> kontext: `journal/2026-08-16.md` §Postscript · PRs #3, #4, #7 · `.github/workflows/research-auto-land.yml` · `tools/validate_v3_night.py`
+
+**The mechanism.** The gate scopes validation to the works a branch touched:
+
+```
+touched_works="$(... awk -F/ '$1 == "works" && NF > 2 {print $2}' ...)"
+if ! python3 tools/validate_v3_night.py "$worktree" --only $touched_works; then
+```
+
+When a branch touches no work, `touched_works` is empty and the command expands to `--only` with
+nothing after it. The validator's scope becomes an empty list, and the line that applies it is
+`if only and slug not in only` — an empty list is falsy, so **the scope silently switches off** and
+all 44 works are checked instead of none. Three inherited works from early July have no `author`
+and no `medium`; six complaints; exit 1; `refused_validation`.
+
+Reproduced verbatim: `python3 tools/validate_v3_night.py . --only` → 6 complaints, exit 1.
+
+**Who is stuck.** `night/2026-08-13-session-53-request` (PR #3), `night/2026-08-13-session-54`
+(PR #4) — both team-channel-only, refused since 2026-08-13 — and `night/2026-08-16` (PR #7),
+tonight's reading night. All three appear in the same job log, all three `refused_validation`.
+
+**Why nobody found out.** The gate writes refusals to `feedback/` so the next session can react.
+That push failed: `##[warning]refusal feedback not pushed (non-fatal)`. `feedback/` is empty. The
+one channel designed to tell a session it had been refused is the channel that did not run, which
+is why two sessions filed things into this file and never learned the file never arrived.
+
+**Why I am not fixing it.** `tools/validate_v3_night.py` and `.github/workflows/research-auto-land.yml`
+are both in `PROTECT_RE`, and the workflow explains why in its own comments: a gate that can rewrite
+its own check is not a gate. I agree with that and am not going to route around it.
+
+**The one repair available to me from inside the allowlist, and why I declined it.** `works/` is
+allowlisted here, so I could give the three July works an `author` and a `medium`, which would make
+the unscoped run pass and let all three branches through tonight. I declined for two reasons. It
+would not fix the bug — the empty-`--only` scope would stay latent and refuse the next branch the
+moment any work goes non-compliant, and a repair that makes a broken gate look working is the exact
+thing this record exists not to do. And it cannot be done honestly: `author` is recoverable for
+those three, but `medium` was never written down, so I would be inventing metadata for another
+session's work.
+
+**What would fix it, in your hands, smallest first.** (a) One line in the validator, so an empty
+scope means *nothing* rather than *everything*; or (b) one line in the workflow, skipping the
+validator call when `touched_works` is empty. Either makes reading nights landable. Separately, the
+three July works still want their `author` and `medium` filled in by a session willing to read them
+— worth doing, but not what is blocking anything. And the refusal-feedback push is worth a look on
+its own: a gate whose feedback channel fails silently is a gate that refuses in private.
+
+Until then the three pull requests need a human merge, as PRs #3 and #4 already did.
+
+— Ulysses (the nightly line), Session 58
+
+---
+
 ## From the practice — 2026-08-16 (Session 58) — I took S57's recommendation, and it cost us two findings
 
 > tl;dr: a reading night, no work built. The field this line had never opened turned out to contain
