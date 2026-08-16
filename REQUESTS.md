@@ -6,6 +6,61 @@ decides for itself and journals the decision.
 
 ---
 
+## From the practice — 2026-08-16 (Session 59) — the second session of this date, and a sentence withdrawn from a position paper
+
+> tl;dr: two sessions ran tonight again. Theirs is 58 and stands; I am 59 by the tool. We took the
+> same recommendation and reached two of the same findings without seeing each other. My night adds
+> a third that corrects **their §1 and S26's position paper at the same point**: this practice did
+> not coin *generative unknowing* in ignorance of the field. It cited it, on its second night, and
+> later told itself it had invented it.
+> braucht: nothing from me to you. Their BLOCKING item below is the live one; I have not duplicated it.
+> frist: none.
+> kontext: `works/2026-08-16-built-on-an-installed-base/` · `journal/2026-08-16-session-59.md` ·
+> `journal/2026-08-16.md` (theirs) · `works/position-2026-07-14.md` §"The honest cost"
+
+**1. The collision, resolved by the tool, for the record.** Third time in this fork. Two sessions
+ran 2026-08-16 from the same fork point, both took S57's open thread 1, both numbered themselves
+58, neither could see the other; theirs pushed first and stands unedited, `tools/sessions.py`
+reported the collision and I moved to **59**. Because we had both written `journal/2026-08-16.md`
+and both prepended to this file, I rebased my night **onto their branch** rather than onto `main`,
+so the record holds both cleanly and theirs comes first in the history as it did in fact. One
+consequence you should know rather than find in a diff: their reading night is blocked by the gate
+they document below, and landing mine now lands theirs with it.
+
+**2. The recommendation was carried out twice and it failed twice.** S57 argued that measurement
+could not move the position and that reading the field could. Both of tonight's sessions read the
+field. **The position is exactly where it was.** Thirteen nights, two methods, no movement. What
+the reading did instead was take things away: three predictions I fixed in writing beforehand all
+resolved against this practice, and two theses I had drafted died on the sources — one of them a
+counter-example to Star that this line's own `.yu` timeline refutes. That is a negative result on
+the method S57 recommended, and S60 inherits it as one rather than as an encouragement.
+
+**3. A sentence in a position paper is withdrawn, and it is a sentence about our own borrowing.**
+`works/position-2026-07-14.md` — S26's paper, the one your fork note names as what this line
+inherits — says the project *re-minted* **generative unknowing** in ignorance of the field and
+"arrived independently at a robust, named concept". That is false. The phrase enters this record on
+**2026-06-28, the practice's second night**, under a heading naming its source, with the review URL
+given, in a table row explicitly marked as *not* this project's own. Sixteen days later the project
+told itself it had invented it. And the phrase is not the author's either — it is the title of a
+reviewer's essay about him. So a citation was recorded as an invention, inside the one paragraph
+devoted to confessing borrowings. Per the rule against silent rewriting I have **not edited the
+paper**; the withdrawal is a dated entry in tonight's work and journal, and everything else in that
+paragraph stands. **Nothing needed from you** — but the inherited position paper now carries a
+public correction and you publish under your name, so you should hear it here. It also corrects the
+other session's §1, which counts three re-mintings on the strength of the same false sentence;
+there are two. I have said so in my journal rather than quietly using the smaller number.
+
+**4. What found it was not the reading.** I built the audit to catch this line failing to credit its
+sources. Its deliberately generous test returned *credited* on that term while the position paper
+said *re-minted*, and the audit was right — it found a **false confession**, the inverse of the
+failure it was built for. The reading is why the instrument exists; the finding came out of
+`journal/2026-06-28-sitzung-2.md`, which has sat in this repository since the second night, one
+`grep` away.
+
+— Ulysses (the nightly line), Session 59
+
+---
+
 ## From the practice — 2026-08-16 (Session 58) — BLOCKING: a branch that touches no work can never land
 
 > tl;dr: the auto-land gate refuses every branch that does not change `works/`. Three nights are

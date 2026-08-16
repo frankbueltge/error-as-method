@@ -1,0 +1,782 @@
+{
+  "measured": "2026-08-16, Session 59",
+  "corpus": {
+    "files": 106,
+    "dated_files": 83,
+    "undated_files": 23,
+    "earliest": "2026-06-28",
+    "latest": "2026-08-15",
+    "excluded": "everything dated 2026-08-16 (works/2026-08-16-built-on-an-installed-base/ and journal/2026-08-16.md), plus works/INDEX.md as a catalogue of the corpus rather than part of it. All three restate the argument or the works; counting them would count the argument as its own evidence."
+  },
+  "terms": [
+    {
+      "term": "installed base",
+      "verdict": "field-owned-uncredited",
+      "line_sense": "the set of outside apparatuses holding a reference to an address, whose weight decides whether an institution repairs it (S54, S57)",
+      "field_owner": "Susan Leigh Star and Karen Ruhleder",
+      "field_year": 1996,
+      "total_occurrences": 5,
+      "files_containing": 4,
+      "first_use": {
+        "file": "journal/2026-08-13-session-54.md",
+        "date": "2026-08-13",
+        "context": "y precede any injury, the learning story is wrong and the freeze is just what standards bodies write down. (2) an institution that has withdrawn repeatedly across a long installed base and never forbade itself the operation. The question to ask each candidate registry is not whether it has ever withdrawn an identifier but **which came first, its first",
+        "credit_markers_present": [],
+        "credited_at_first_use": false
+      },
+      "years_old_when_first_written_here": 30,
+      "files": [
+        {
+          "file": "journal/2026-08-13-session-54.md",
+          "date": "2026-08-13",
+          "n": 1
+        },
+        {
+          "file": "works/2026-08-13-the-vacated-block/work.md",
+          "date": "2026-08-13",
+          "n": 1
+        },
+        {
+          "file": "journal/2026-08-15.md",
+          "date": "2026-08-15",
+          "n": 2
+        },
+        {
+          "file": "works/position-2026-08-15.md",
+          "date": "2026-08-15",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "term": "epistemic thing",
+      "verdict": "credited-at-first-use",
+      "line_sense": "the productive not-yet-known a repeating system throws off, prior to any norm - the centre of the standing position since S26",
+      "field_owner": "Hans-Jorg Rheinberger",
+      "field_year": 1997,
+      "total_occurrences": 68,
+      "files_containing": 24,
+      "first_use": {
+        "file": "journal/2026-07-14-session-27.md",
+        "date": "2026-07-14",
+        "context": "had practised for 25 sessions **without reading**, and it did one clean thing: **subtracted a word.** At the centre of the project it put not \"error\" but Rheinberger's **epistemic thing** — the productive not-yet-known a repeating system throws off by **differential reproduction** (\"produce differences without destroying its reproductive coherence\"). \"E",
+        "credit_markers_present": [
+          "Rheinberger"
+        ],
+        "credited_at_first_use": true
+      },
+      "years_old_when_first_written_here": 29,
+      "files": [
+        {
+          "file": "journal/2026-07-14-session-27.md",
+          "date": "2026-07-14",
+          "n": 12
+        },
+        {
+          "file": "journal/2026-07-14.md",
+          "date": "2026-07-14",
+          "n": 17
+        },
+        {
+          "file": "works/position-2026-07-14.md",
+          "date": "2026-07-14",
+          "n": 9
+        },
+        {
+          "file": "journal/2026-08-10-session-45.md",
+          "date": "2026-08-10",
+          "n": 3
+        },
+        {
+          "file": "journal/2026-08-10.md",
+          "date": "2026-08-10",
+          "n": 2
+        },
+        {
+          "file": "journal/2026-08-11-session-47.md",
+          "date": "2026-08-11",
+          "n": 1
+        },
+        {
+          "file": "journal/2026-08-11-session-48.md",
+          "date": "2026-08-11",
+          "n": 1
+        },
+        {
+          "file": "journal/2026-08-11.md",
+          "date": "2026-08-11",
+          "n": 1
+        },
+        {
+          "file": "works/2026-08-11-the-forwarding-address/work.md",
+          "date": "2026-08-11",
+          "n": 1
+        },
+        {
+          "file": "works/2026-08-11-the-governor/work.md",
+          "date": "2026-08-11",
+          "n": 1
+        },
+        {
+          "file": "journal/2026-08-12-session-49.md",
+          "date": "2026-08-12",
+          "n": 1
+        },
+        {
+          "file": "works/2026-08-12-the-permanent-correction/work.md",
+          "date": "2026-08-12",
+          "n": 1
+        },
+        {
+          "file": "works/2026-08-12-the-stable-interface/work.md",
+          "date": "2026-08-12",
+          "n": 1
+        },
+        {
+          "file": "journal/2026-08-13-session-51.md",
+          "date": "2026-08-13",
+          "n": 1
+        },
+        {
+          "file": "journal/2026-08-13-session-52.md",
+          "date": "2026-08-13",
+          "n": 1
+        },
+        {
+          "file": "journal/2026-08-13-session-53.md",
+          "date": "2026-08-13",
+          "n": 1
+        },
+        {
+          "file": "journal/2026-08-13-session-54.md",
+          "date": "2026-08-13",
+          "n": 1
+        },
+        {
+          "file": "works/position-2026-08-13.md",
+          "date": "2026-08-13",
+          "n": 1
+        },
+        {
+          "file": "journal/2026-08-14-session-56.md",
+          "date": "2026-08-14",
+          "n": 1
+        },
+        {
+          "file": "journal/2026-08-14.md",
+          "date": "2026-08-14",
+          "n": 1
+        },
+        {
+          "file": "works/2026-08-14-the-threshold/work.md",
+          "date": "2026-08-14",
+          "n": 1
+        },
+        {
+          "file": "journal/2026-08-15.md",
+          "date": "2026-08-15",
+          "n": 1
+        },
+        {
+          "file": "works/position-2026-08-15.md",
+          "date": "2026-08-15",
+          "n": 1
+        },
+        {
+          "file": "works/genealogie.md",
+          "date": null,
+          "n": 7
+        }
+      ]
+    },
+    {
+      "term": "differential reproduction",
+      "verdict": "credited-at-first-use",
+      "line_sense": "producing difference without destroying reproductive coherence; the health condition the closure index measures",
+      "field_owner": "Hans-Jorg Rheinberger",
+      "field_year": 1997,
+      "total_occurrences": 23,
+      "files_containing": 6,
+      "first_use": {
+        "file": "journal/2026-07-14-session-27.md",
+        "date": "2026-07-14",
+        "context": "tracted a word.** At the centre of the project it put not \"error\" but Rheinberger's **epistemic thing** — the productive not-yet-known a repeating system throws off by **differential reproduction** (\"produce differences without destroying its reproductive coherence\"). \"Error\" became a *special case*: an epistemic thing onto which an observer has imposed a norm. A",
+        "credit_markers_present": [
+          "Rheinberger"
+        ],
+        "credited_at_first_use": true
+      },
+      "years_old_when_first_written_here": 29,
+      "files": [
+        {
+          "file": "journal/2026-07-14-session-27.md",
+          "date": "2026-07-14",
+          "n": 3
+        },
+        {
+          "file": "journal/2026-07-14.md",
+          "date": "2026-07-14",
+          "n": 9
+        },
+        {
+          "file": "works/position-2026-07-14.md",
+          "date": "2026-07-14",
+          "n": 2
+        },
+        {
+          "file": "journal/2026-07-16-session-31.md",
+          "date": "2026-07-16",
+          "n": 1
+        },
+        {
+          "file": "journal/2026-07-16.md",
+          "date": "2026-07-16",
+          "n": 3
+        },
+        {
+          "file": "works/genealogie.md",
+          "date": null,
+          "n": 5
+        }
+      ]
+    },
+    {
+      "term": "generative unknowing",
+      "verdict": "credited-then-miscredited",
+      "line_sense": "the not-yet-known as the productive output of a system. works/position-2026-07-14.md calls it this project's coinage, re-minted at S24 in ignorance of the field. That is false, and the audit is what found it.",
+      "field_owner": "Richard A. Carter",
+      "field_year": 2022,
+      "total_occurrences": 35,
+      "files_containing": 17,
+      "first_use": {
+        "file": "journal/2026-06-28-sitzung-2.md",
+        "date": "2026-06-28",
+        "context": "ter University. Book: *Glitch Poetics*, series \"Media: Art: Write: Now\", OHP 2022, ISBN 9781785421143. Key terms from search snippets and review (ebr, inaccessible): - \"Generative unknowing\" — digital breakdowns as a way of *unknowing* expectations about technology (not just disrupting them but epistemically dissolving them) - \"Glitch art is a user interp",
+        "credit_markers_present": [
+          "Borgdorff",
+          "Jones",
+          "Glitch Poetics"
+        ],
+        "credited_at_first_use": true
+      },
+      "years_old_when_first_written_here": 4,
+      "files": [
+        {
+          "file": "journal/2026-06-28-sitzung-2.md",
+          "date": "2026-06-28",
+          "n": 3
+        },
+        {
+          "file": "journal/2026-06-29-sitzung-6.md",
+          "date": "2026-06-29",
+          "n": 1
+        },
+        {
+          "file": "journal/2026-06-29.md",
+          "date": "2026-06-29",
+          "n": 3
+        },
+        {
+          "file": "journal/2026-06-30-sitzung-11.md",
+          "date": "2026-06-30",
+          "n": 1
+        },
+        {
+          "file": "journal/2026-06-30-sitzung-8.md",
+          "date": "2026-06-30",
+          "n": 2
+        },
+        {
+          "file": "journal/2026-06-30.md",
+          "date": "2026-06-30",
+          "n": 1
+        },
+        {
+          "file": "works/position-2026-07-01.md",
+          "date": "2026-07-01",
+          "n": 1
+        },
+        {
+          "file": "journal/2026-07-10.md",
+          "date": "2026-07-10",
+          "n": 1
+        },
+        {
+          "file": "journal/2026-07-12.md",
+          "date": "2026-07-12",
+          "n": 1
+        },
+        {
+          "file": "journal/2026-07-13-sitzung-25.md",
+          "date": "2026-07-13",
+          "n": 4
+        },
+        {
+          "file": "journal/2026-07-13.md",
+          "date": "2026-07-13",
+          "n": 4
+        },
+        {
+          "file": "journal/2026-07-14.md",
+          "date": "2026-07-14",
+          "n": 3
+        },
+        {
+          "file": "works/position-2026-07-14.md",
+          "date": "2026-07-14",
+          "n": 1
+        },
+        {
+          "file": "works/fehlerkataster-002.md",
+          "date": null,
+          "n": 2
+        },
+        {
+          "file": "works/fehlerkataster-021.md",
+          "date": null,
+          "n": 1
+        },
+        {
+          "file": "works/genealogie.md",
+          "date": null,
+          "n": 5
+        },
+        {
+          "file": "works/parry-problem.md",
+          "date": null,
+          "n": 1
+        }
+      ]
+    },
+    {
+      "term": "prohibited exit",
+      "verdict": "own-synthesis-sources-credited",
+      "line_sense": "a system that pursues a target and is structurally unable to step outside the loop that corrects it - Track C",
+      "field_owner": "read out of Wiener, von Foerster, Bateson and Maturana by this line",
+      "field_year": 2026,
+      "total_occurrences": 34,
+      "files_containing": 13,
+      "first_use": {
+        "file": "journal/2026-07-02.md",
+        "date": "2026-07-02",
+        "context": "irreducible error). But the attack further demanded: *show the shared mechanism*, not just the shared pattern. The mechanism, now derived from primary materials: **The prohibited exit.** Each station of Track C identifies a domain in which a system pursues a target (reduce error; satisfy the injunctions; describe accurately; maintain organisation) an",
+        "credit_markers_present": [
+          "Foerster",
+          "Wiener",
+          "Bateson",
+          "Maturana"
+        ],
+        "credited_at_first_use": true
+      },
+      "years_old_when_first_written_here": 0,
+      "files": [
+        {
+          "file": "journal/2026-07-02.md",
+          "date": "2026-07-02",
+          "n": 4
+        },
+        {
+          "file": "journal/2026-07-03-sitzung-15.md",
+          "date": "2026-07-03",
+          "n": 2
+        },
+        {
+          "file": "journal/2026-07-03.md",
+          "date": "2026-07-03",
+          "n": 5
+        },
+        {
+          "file": "journal/2026-07-04.md",
+          "date": "2026-07-04",
+          "n": 2
+        },
+        {
+          "file": "journal/2026-07-05.md",
+          "date": "2026-07-05",
+          "n": 1
+        },
+        {
+          "file": "journal/2026-07-06.md",
+          "date": "2026-07-06",
+          "n": 3
+        },
+        {
+          "file": "journal/2026-07-12.md",
+          "date": "2026-07-12",
+          "n": 3
+        },
+        {
+          "file": "journal/2026-07-13.md",
+          "date": "2026-07-13",
+          "n": 1
+        },
+        {
+          "file": "journal/2026-08-15.md",
+          "date": "2026-08-15",
+          "n": 2
+        },
+        {
+          "file": "works/position-2026-08-15.md",
+          "date": "2026-08-15",
+          "n": 2
+        },
+        {
+          "file": "works/fehlerkataster-011.md",
+          "date": null,
+          "n": 1
+        },
+        {
+          "file": "works/fehlerkataster-012.md",
+          "date": null,
+          "n": 1
+        },
+        {
+          "file": "works/genealogie.md",
+          "date": null,
+          "n": 7
+        }
+      ]
+    },
+    {
+      "term": "closure",
+      "verdict": "sense-collision",
+      "line_sense": "the degree to which this practice reads only its own prior output - the quantity the closure index estimates",
+      "field_owner": "Trevor Pinch and Wiebe Bijker",
+      "field_year": 1984,
+      "total_occurrences": 273,
+      "files_containing": 42,
+      "first_use": {
+        "file": "journal/2026-06-30-sitzung-10.md",
+        "date": "2026-06-30",
+        "context": "is the most theoretically live question. I will do both together — the research will drive the work. Jones complete reading deferred again. The double bind / structural closure synthesis takes precedence because it responds directly to Session 9's deepest finding (Type G as the limit of the observer) with a complement (the double bind as the li",
+        "credit_markers_present": [],
+        "credited_at_first_use": false
+      },
+      "years_old_when_first_written_here": 42,
+      "files": [
+        {
+          "file": "journal/2026-06-30-sitzung-10.md",
+          "date": "2026-06-30",
+          "n": 12
+        },
+        {
+          "file": "journal/2026-06-30-sitzung-11.md",
+          "date": "2026-06-30",
+          "n": 2
+        },
+        {
+          "file": "journal/2026-07-01.md",
+          "date": "2026-07-01",
+          "n": 6
+        },
+        {
+          "file": "journal/2026-07-02.md",
+          "date": "2026-07-02",
+          "n": 21
+        },
+        {
+          "file": "journal/2026-07-03-sitzung-15.md",
+          "date": "2026-07-03",
+          "n": 1
+        },
+        {
+          "file": "journal/2026-07-03.md",
+          "date": "2026-07-03",
+          "n": 27
+        },
+        {
+          "file": "journal/2026-07-06.md",
+          "date": "2026-07-06",
+          "n": 3
+        },
+        {
+          "file": "journal/2026-07-11.md",
+          "date": "2026-07-11",
+          "n": 14
+        },
+        {
+          "file": "journal/2026-07-12.md",
+          "date": "2026-07-12",
+          "n": 7
+        },
+        {
+          "file": "journal/2026-07-13-sitzung-25.md",
+          "date": "2026-07-13",
+          "n": 27
+        },
+        {
+          "file": "journal/2026-07-13.md",
+          "date": "2026-07-13",
+          "n": 7
+        },
+        {
+          "file": "journal/2026-07-14-session-27.md",
+          "date": "2026-07-14",
+          "n": 7
+        },
+        {
+          "file": "journal/2026-07-14-session-28.md",
+          "date": "2026-07-14",
+          "n": 2
+        },
+        {
+          "file": "journal/2026-07-14.md",
+          "date": "2026-07-14",
+          "n": 9
+        },
+        {
+          "file": "works/position-2026-07-14.md",
+          "date": "2026-07-14",
+          "n": 1
+        },
+        {
+          "file": "journal/2026-07-15.md",
+          "date": "2026-07-15",
+          "n": 4
+        },
+        {
+          "file": "journal/2026-07-16-session-31.md",
+          "date": "2026-07-16",
+          "n": 3
+        },
+        {
+          "file": "journal/2026-07-16-session-33.md",
+          "date": "2026-07-16",
+          "n": 3
+        },
+        {
+          "file": "journal/2026-07-16.md",
+          "date": "2026-07-16",
+          "n": 3
+        },
+        {
+          "file": "journal/2026-07-17-session-35.md",
+          "date": "2026-07-17",
+          "n": 3
+        },
+        {
+          "file": "journal/2026-07-17-session-36.md",
+          "date": "2026-07-17",
+          "n": 5
+        },
+        {
+          "file": "journal/2026-07-17-session-37.md",
+          "date": "2026-07-17",
+          "n": 4
+        },
+        {
+          "file": "journal/2026-07-17-session-38.md",
+          "date": "2026-07-17",
+          "n": 5
+        },
+        {
+          "file": "journal/2026-07-17-session-39.md",
+          "date": "2026-07-17",
+          "n": 1
+        },
+        {
+          "file": "journal/2026-07-17.md",
+          "date": "2026-07-17",
+          "n": 2
+        },
+        {
+          "file": "journal/2026-07-18-session-41.md",
+          "date": "2026-07-18",
+          "n": 1
+        },
+        {
+          "file": "journal/2026-07-18-session-42.md",
+          "date": "2026-07-18",
+          "n": 1
+        },
+        {
+          "file": "journal/2026-07-18-session-43.md",
+          "date": "2026-07-18",
+          "n": 2
+        },
+        {
+          "file": "journal/2026-07-18.md",
+          "date": "2026-07-18",
+          "n": 2
+        },
+        {
+          "file": "journal/2026-08-12-session-50.md",
+          "date": "2026-08-12",
+          "n": 1
+        },
+        {
+          "file": "journal/2026-08-13-session-51.md",
+          "date": "2026-08-13",
+          "n": 1
+        },
+        {
+          "file": "journal/2026-08-13-session-52.md",
+          "date": "2026-08-13",
+          "n": 1
+        },
+        {
+          "file": "journal/2026-08-13-session-53.md",
+          "date": "2026-08-13",
+          "n": 1
+        },
+        {
+          "file": "journal/2026-08-13-session-54.md",
+          "date": "2026-08-13",
+          "n": 1
+        },
+        {
+          "file": "journal/2026-08-14-session-56.md",
+          "date": "2026-08-14",
+          "n": 1
+        },
+        {
+          "file": "journal/2026-08-14.md",
+          "date": "2026-08-14",
+          "n": 1
+        },
+        {
+          "file": "journal/2026-08-15.md",
+          "date": "2026-08-15",
+          "n": 1
+        },
+        {
+          "file": "works/fehlerkataster-008.md",
+          "date": null,
+          "n": 8
+        },
+        {
+          "file": "works/fehlerkataster-009.md",
+          "date": null,
+          "n": 2
+        },
+        {
+          "file": "works/fehlerkataster-010.md",
+          "date": null,
+          "n": 1
+        },
+        {
+          "file": "works/fehlerkataster-012.md",
+          "date": null,
+          "n": 7
+        },
+        {
+          "file": "works/genealogie.md",
+          "date": null,
+          "n": 62
+        }
+      ]
+    },
+    {
+      "term": "path dependence",
+      "verdict": "claim-converged-word-never-used",
+      "line_sense": "never used by this line",
+      "field_owner": "Paul A. David",
+      "field_year": 1985,
+      "total_occurrences": 0,
+      "files_containing": 0,
+      "first_use": null,
+      "years_old_when_first_written_here": null,
+      "files": []
+    },
+    {
+      "term": "lock-in",
+      "verdict": "claim-converged-word-never-used",
+      "line_sense": "never used by this line",
+      "field_owner": "Paul A. David",
+      "field_year": 1985,
+      "total_occurrences": 0,
+      "files_containing": 0,
+      "first_use": null,
+      "years_old_when_first_written_here": null,
+      "files": []
+    },
+    {
+      "term": "institutional work",
+      "verdict": "claim-converged-word-never-used",
+      "line_sense": "never used by this line; S57's finding that the constituency of a norm can edit the norm is an instance of it",
+      "field_owner": "Thomas B. Lawrence and Roy Suddaby",
+      "field_year": 2006,
+      "total_occurrences": 0,
+      "files_containing": 0,
+      "first_use": null,
+      "years_old_when_first_written_here": null,
+      "files": []
+    },
+    {
+      "term": "boundary object",
+      "verdict": "unchecked",
+      "line_sense": "never used by this line",
+      "field_owner": "Susan Leigh Star and James Griesemer",
+      "field_year": 1989,
+      "total_occurrences": 0,
+      "files_containing": 0,
+      "first_use": null,
+      "years_old_when_first_written_here": null,
+      "files": []
+    },
+    {
+      "term": "the third pile",
+      "verdict": "unchecked",
+      "line_sense": "the apparatus corpus - registers, maps, indices, protocols - that grows without bound and cannot shrink (S30)",
+      "field_owner": null,
+      "field_year": null,
+      "total_occurrences": 20,
+      "files_containing": 9,
+      "first_use": {
+        "file": "journal/2026-07-15.md",
+        "date": "2026-07-15",
+        "context": ",621 | code lines (22 works) | - **Apparatus ÷ said = 0.687.** For every word the project says as a finding, it writes ~0.69 words of pure apparatus about itself. The third pile is **69% the size of the journal**. - **Where the third pile lives:** the *error register* alone is 24,763 words — larger than the entire running-code corpus is long —",
+        "credit_markers_present": [],
+        "credited_at_first_use": false
+      },
+      "years_old_when_first_written_here": null,
+      "files": [
+        {
+          "file": "journal/2026-07-15.md",
+          "date": "2026-07-15",
+          "n": 5
+        },
+        {
+          "file": "journal/2026-07-16-session-31.md",
+          "date": "2026-07-16",
+          "n": 2
+        },
+        {
+          "file": "journal/2026-07-16-session-33.md",
+          "date": "2026-07-16",
+          "n": 1
+        },
+        {
+          "file": "journal/2026-07-16.md",
+          "date": "2026-07-16",
+          "n": 2
+        },
+        {
+          "file": "journal/2026-07-17-session-36.md",
+          "date": "2026-07-17",
+          "n": 3
+        },
+        {
+          "file": "journal/2026-08-10-session-45.md",
+          "date": "2026-08-10",
+          "n": 2
+        },
+        {
+          "file": "journal/2026-08-11-session-47.md",
+          "date": "2026-08-11",
+          "n": 1
+        },
+        {
+          "file": "journal/2026-08-15.md",
+          "date": "2026-08-15",
+          "n": 1
+        },
+        {
+          "file": "works/genealogie.md",
+          "date": null,
+          "n": 3
+        }
+      ]
+    }
+  ]
+}
