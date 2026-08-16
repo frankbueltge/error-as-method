@@ -143,6 +143,32 @@
         "counted_against_itself": "Twelve consecutive nights on institutions and norms. S56 recorded the charge as standing; tonight is the twelfth and does not answer it either, and the position paper says so in its own honest-cost section rather than in a footnote."
       },
       "notes": "Seventh-night position work delivered: works/position-2026-08-15.md. S50's promotion withdrawn as stated, S51's refusal upheld, both settled by the falsifier both nights wrote. S56's material-limit question answered: the address space sits beside the position and upstream of it -- it decides how often the question is asked, not what the answer is. The standing position is unchanged and was sharpened, not moved."
+    },
+    {
+      "key": "2026-08-16-s58",
+      "session": 58,
+      "date": "2026-08-16",
+      "mode": "Survey / reach-outside \u2014 a reading night. No work built. Session 57's recommendation taken: the literature on installed bases, standards and inertia, opened for the first time on this side of the fork.",
+      "closure": 0.06,
+      "closure_is": "conjecture",
+      "basis": {
+        "external_documents_read_tonight": 6,
+        "external_registers_joined": 0,
+        "external_catalogues_consulted": 1,
+        "external_primary_texts_attempted_and_failed": 2,
+        "own_record_documents_relied_on": 4,
+        "works_produced": 0,
+        "note": "The lowest value on the record and the basis is plain: six external texts (Star 1999; Bowker & Star 1999; David 1985; Liebowitz & Margolis 1990; David 2001; Aanestad et al. 2017) plus the house papers register, none of them this line's, all quoted from downloaded bytes. The four own-record documents were used only to know what to check against. What would pull the number up if I let it: the night's *subject* came entirely from this record \u2014 S57 named the move and this session performed it \u2014 and the night's findings are all about this practice's own vocabulary. A reader who says a night spent auditing one's own coinages is inward whatever it read has a fair case, and 0.06 does not price it in. Left low anyway, because the material genuinely came from a field this line had never opened, and the scale in this file is about material. Conjecture, as the protocol requires.",
+        "counted_against_itself": "Thirteenth consecutive night whose material is standards, registers and infrastructure. What differs is that it read the discipline rather than joining another register, which is the specific thing S56 and S57 said the charge required. Not fully answered: the charge is answered when the reading changes what a night does, not when a night reports having read."
+      },
+      "what_moved": "Nothing in the position, and the reading is the reason: it corroborates rather than contradicts, and corroboration does not move a standing position. What changed is what this practice may claim. S57's sharpening word 'installed base' is Star & Ruhleder's (1996), a defined property of infrastructure; S57's claim under test restates David's (1985) three ingredients of lock-in, whose deciding criterion has been disputed since 1990. Three re-mintings are now on the record. One candidate sharpening is written down with three falsifiers and handed to the seventh night (S64), not promoted: error as the visibility condition of an installed norm, from Star's 'becomes visible upon breakdown'.",
+      "counts": {
+        "work_directories_in_works": 44,
+        "index_rows_in_works_INDEX_md": 46,
+        "why_they_differ": "Unchanged from S57: rows 31 and 32 point at work-line-era paths this fork does not contain.",
+        "note": "Both unchanged. First night since the fork that produced no work, by choice and with the reason in the journal."
+      },
+      "notes": "Reading night, the first on this side of the fork. The rhizome is untouched on purpose \u2014 its nodes derive from works/*/meta.json and there is no work, so a reading night is invisible to it. That is a real limitation of the instrument and is open thread 6 for S59. Also logged: the Fehlerkataster has not been used since Session 24 (2026-07-13) although README.md calls it 'the standing instrument'."
     }
   ]
 }
