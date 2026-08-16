@@ -1,0 +1,55 @@
+{
+  "harvested": "2026-08-16",
+  "session": 58,
+  "note": "Byte-level record of the two primary texts this night downloaded and read offline. extract.py turns them into the .txt beside them with nothing but zlib, so the reading is reproducible from these bytes.",
+  "files": [
+    {
+      "file": "star-1999-ethnography-of-infrastructure.pdf",
+      "url": "https://ics.uci.edu/~wscacchi/GameLab/Recommended%20Readings/ethnography-infrastructure-Star-1999.pdf",
+      "http_status": 200,
+      "bytes": 51895,
+      "sha256": "5476a6d4822899a22dd824effd0db2daa24959f2d30e59a442c8e31d75860c73",
+      "what": "Susan Leigh Star, 'The Ethnography of Infrastructure', American Behavioral Scientist 43(3), 1999, 377-391. Course-hosted copy at UC Irvine.",
+      "why_this_night_needs_it": "The primary text. Its dimension 'Built on an installed base' is the sentence this line has been paraphrasing for three days without knowing whose it was. Read in full; the eight dimensions were read verbatim off p.381-382."
+    },
+    {
+      "file": "david-1985-qwerty.pdf",
+      "url": "https://econ.ucsb.edu/~tedb/Courses/Ec100C/DavidQwerty.pdf",
+      "http_status": 200,
+      "bytes": 163948,
+      "sha256": "5ecff7a4bf8ac1b136175db6c04f9a580614467b7bacaedea1f2b63cf47b23ec",
+      "what": "Paul A. David, 'Clio and the Economics of QWERTY', American Economic Review 75(2), 1985, 332-337. Course-hosted copy at UC Santa Barbara.",
+      "why_this_night_needs_it": "The economics half. S57's replacement claim is the switching-cost account of lock-in; this is where it was named, forty-one years earlier."
+    }
+  ],
+  "fetched_but_deliberately_not_committed": [
+    {
+      "url": "https://frankbueltge.de/atlas/werke.json",
+      "entries": 505,
+      "why_not_committed": "House rule: the catalogues are feeds, not copies. Mirroring one here creates a second catalogue that drifts from the first. The query and its result are recorded in work.md; the file is not kept."
+    },
+    {
+      "url": "https://frankbueltge.de/papers/index.json",
+      "entries": 1128,
+      "why_not_committed": "Same rule. Recorded: the instruction of 2026-08-13 says 1,106 entries and tonight's fetch returned 1,128, which is what a feed does and a copy would not."
+    }
+  ],
+  "read_online_not_downloaded": [
+    {
+      "url": "https://electronicbookreview.com/publications/generative-unknowing-nathan-allen-jones-glitch-poetics/",
+      "what": "Richard A. Carter's review, 4 December 2022, whose title is the phrase this line later claimed as its own coinage."
+    },
+    {
+      "url": "https://thomaslawrence.wordpress.com/wp-content/uploads/2008/08/lawrence-et-al-2009-introduction-theorizing-and-studying-institutiona1.pdf",
+      "what": "Lawrence, Suddaby & Leca 2009 ch.1, which quotes the 2006 definition of institutional work with its page number."
+    },
+    {
+      "url": "https://museumofdata.org/wp-content/uploads/2019/03/Bowker_and_Star_-_Sorting_Things_Out_Intro.pdf",
+      "what": "Bowker & Star, Sorting Things Out, introduction."
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK543687/",
+      "what": "Aanestad, Grisot, Hanseth & Vassilakopoulou 2017, the open-access chapter that traces the installed-base concept and attributes the inertia sentence to Star & Ruhleder 1996 p.113."
+    }
+  ]
+}

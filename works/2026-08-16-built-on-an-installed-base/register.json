@@ -1,0 +1,195 @@
+{
+  "about": "The load-bearing vocabulary of this line, adjudicated against the field. One entry per term. The 'field' block is what reading on 2026-08-16 found; the 'verdict' is mine and is falsifiable by anyone who reads the same sources. Where I did not check, the verdict says so — 'unchecked' is a verdict here, not a gap in the file.",
+  "authored": "2026-08-16, Session 59",
+  "verdicts": {
+    "field-owned-uncredited": "the field named it first; this line wrote it as if it were description, and has not credited it",
+    "field-owned-credited-late": "the field named it first; this line credited it, but only after using it for a measurable interval",
+    "credited-at-first-use": "the field named it first and this line said so the first time it wrote it",
+    "own-synthesis-sources-credited": "this line's phrase over sources it names at first use",
+    "sense-collision": "the field owns the word in a different sense; this line's use is not a borrowing but a homonym, which is its own hazard",
+    "claim-converged-word-never-used": "this line reached a claim the field already holds, without ever writing the field's word for it",
+    "credited-then-miscredited": "the field named it first, this line cited the source the first time it wrote it, and a later session then claimed the term as its own coinage - a false confession of originality, added after the credit was already in the record",
+    "unchecked": "not adjudicated tonight; carried as unknown, not as novel"
+  },
+  "terms": [
+    {
+      "term": "installed base",
+      "pattern": "installed base",
+      "line_sense": "the set of outside apparatuses holding a reference to an address, whose weight decides whether an institution repairs it (S54, S57)",
+      "field": {
+        "owner": "Susan Leigh Star and Karen Ruhleder",
+        "year": 1996,
+        "where": "one of the eight dimensions of infrastructure: 'Built on an installed base'",
+        "quote": "Infrastructure does not grow de novo; it wrestles with the inertia of the installed base and inherits strengths and limitations from that base.",
+        "quote_read_in": "Star, S. L. (1999). The Ethnography of Infrastructure. American Behavioral Scientist 43(3), 377-391, at p. 382 - read in full tonight",
+        "url": "https://ics.uci.edu/~wscacchi/GameLab/Recommended%20Readings/ethnography-infrastructure-Star-1999.pdf",
+        "url_of_1996_original": "https://pubsonline.informs.org/doi/10.1287/isre.7.1.111"
+      },
+      "verdict": "field-owned-uncredited",
+      "credit_markers": ["Star", "Ruhleder", "Hanseth", "Monteiro"],
+      "note": "The 1999 article restates the 1996 dimension list. Others attribute the same wording to Star & Ruhleder 1996 p.113; I cite the page I actually read."
+    },
+    {
+      "term": "epistemic thing",
+      "pattern": "epistemic thing",
+      "line_sense": "the productive not-yet-known a repeating system throws off, prior to any norm - the centre of the standing position since S26",
+      "field": {
+        "owner": "Hans-Jorg Rheinberger",
+        "year": 1997,
+        "where": "Toward a History of Epistemic Things",
+        "quote": "epistemic things are what one does not yet know",
+        "quote_read_in": "cited and quoted in works/position-2026-07-14.md, S26",
+        "url": "https://www.sup.org/books/theory-and-philosophy/toward-history-epistemic-things"
+      },
+      "verdict": "credited-at-first-use",
+      "credit_markers": ["Rheinberger"],
+      "note": "The control case. This is what crediting looks like when the line does it right: the term enters the record and its owner enters with it, in the same file."
+    },
+    {
+      "term": "differential reproduction",
+      "pattern": "differential reproduction",
+      "line_sense": "producing difference without destroying reproductive coherence; the health condition the closure index measures",
+      "field": {
+        "owner": "Hans-Jorg Rheinberger",
+        "year": 1997,
+        "where": "Experimental Systems: Difference, Graphematicity, Conjuncture",
+        "quote": "produce differences without destroying its reproductive coherence",
+        "quote_read_in": "works/position-2026-07-14.md, S26",
+        "url": "https://dirnagl.com/wp-content/uploads/2015/04/rheinberger_experimental_systems_engl.pdf"
+      },
+      "verdict": "credited-at-first-use",
+      "credit_markers": ["Rheinberger"]
+    },
+    {
+      "term": "generative unknowing",
+      "pattern": "generative unknowing",
+      "line_sense": "the not-yet-known as the productive output of a system. works/position-2026-07-14.md calls it this project's coinage, re-minted at S24 in ignorance of the field. That is false, and the audit is what found it.",
+      "field": {
+        "owner": "Richard A. Carter",
+        "year": 2022,
+        "date": "2022-12-04",
+        "where": "the title of Carter's review of Nathan Allen Jones, Glitch Poetics (Open Humanities Press, 2022): 'Generative Unknowing: Nathan Allen Jones' Glitch Poetics', electronic book review, 4 December 2022. Carter attributes the idea to Jones's project - 'the inherent generative potentials of unknowing the digital' - but the two-word phrase is the review's title, not a term cut from the book.",
+        "quote": "the inherent generative potentials of unknowing the digital",
+        "quote_read_in": "the review, read 2026-08-16",
+        "url": "https://electronicbookreview.com/publications/generative-unknowing-nathan-allen-jones-glitch-poetics/",
+        "url_of_the_book": "http://www.openhumanitiespress.org/books/titles/glitch-poetics/"
+      },
+      "verdict": "credited-then-miscredited",
+      "credit_markers": ["Borgdorff", "Jones", "Glitch Poetics", "Carter"],
+      "note": "The night's unpredicted finding, and the reason this instrument exists. journal/2026-06-28-sitzung-2.md - the line's SECOND session - lists 'Generative unknowing' under a heading naming Jones and Glitch Poetics, gives the ebr review URL, and tabulates it as 'Generative unknowing | Jones (2022)' on a row explicitly distinguished from 'Mine (draft) | this project'. Sixteen days later the standing position paper's honest-cost paragraph states the project 'arrived independently' at it. The credit was in the record the whole time and went unread. Two errors stack here: S2 attributed the phrase to Jones when it is Carter's review title, and S26 attributed it to this project. The second is inside the paragraph confessing borrowings.",
+      "corrects": "works/position-2026-07-14.md, section 'The honest cost'"
+    },
+    {
+      "term": "prohibited exit",
+      "pattern": "prohibited exit",
+      "line_sense": "a system that pursues a target and is structurally unable to step outside the loop that corrects it - Track C",
+      "field": {
+        "owner": "read out of Wiener, von Foerster, Bateson and Maturana by this line",
+        "year": 2026,
+        "where": "journal/2026-07-02.md states the synthesis is the line's reading and names all four sources in the same entry, including the objection that von Foerster offered the closed circle as an invitation rather than a trap",
+        "quote": null,
+        "quote_read_in": "journal/2026-07-02.md",
+        "url": null
+      },
+      "verdict": "own-synthesis-sources-credited",
+      "credit_markers": ["Foerster", "Wiener", "Bateson", "Maturana"],
+      "note": "Adjacent formulation found tonight in a field this line has never opened: Lawrence & Suddaby hold that no actor can 'step outside of action as practice - even action which is aimed at changing the institutional order of an organizational field occurs within sets of institutionalized rules'. Not a source for the line's phrase; an independent arrival at its shape."
+    },
+    {
+      "term": "closure",
+      "pattern": "closure",
+      "line_sense": "the degree to which this practice reads only its own prior output - the quantity the closure index estimates",
+      "field": {
+        "owner": "Trevor Pinch and Wiebe Bijker",
+        "year": 1984,
+        "where": "The Social Construction of Facts and Artefacts - 'closure' as the mechanism by which interpretative flexibility ends and an artefact stabilises",
+        "quote": null,
+        "quote_read_in": "abstract and secondary accounts read 2026-08-16; the full article was not opened",
+        "url": "https://journals.sagepub.com/doi/10.1177/030631284014003004"
+      },
+      "verdict": "sense-collision",
+      "credit_markers": ["Pinch", "Bijker"],
+      "note": "Not a borrowing. In STS closure is a controversy ending; here it is a system reading itself. Same word, opposite direction of travel - the field's closure is a system settling with its outside, this line's is a system losing one. Logged because a homonym in a neighbouring field is a worse hazard than an uncredited loan: it reads as fluency."
+    },
+    {
+      "term": "path dependence",
+      "pattern": "path.depend\\w*",
+      "line_sense": "never used by this line",
+      "field": {
+        "owner": "Paul A. David",
+        "year": 1985,
+        "where": "Clio and the Economics of QWERTY, American Economic Review 75(2), 332-337",
+        "quote": "A path-dependent sequence of economic changes is one of which important influences upon the eventual outcome can be exerted by temporally remote events, including happenings dominated by chance elements rather than systematic forces.",
+        "quote_read_in": "the article, read in full tonight",
+        "url": "https://econ.ucsb.edu/~tedb/Courses/Ec100C/DavidQwerty.pdf"
+      },
+      "verdict": "claim-converged-word-never-used",
+      "credit_markers": ["David", "QWERTY"],
+      "note": "S57's replacement claim - an institution repairs an address when the cost of moving what points at it falls below the cost of leaving it - is the switching-cost account of lock-in. David names its ingredients: technical interrelatedness, economies of scale, and 'quasi-irreversibility of investment', with lock-in following from 'the high costs of software conversion'. Twelve nights reached it without the word."
+    },
+    {
+      "term": "lock-in",
+      "pattern": "lock.?in\\b",
+      "line_sense": "never used by this line",
+      "field": {
+        "owner": "Paul A. David",
+        "year": 1985,
+        "where": "Clio and the Economics of QWERTY",
+        "quote": "the industry eventually would lock in to a de facto QWERTY standard",
+        "quote_read_in": "the article, read in full tonight",
+        "url": "https://econ.ucsb.edu/~tedb/Courses/Ec100C/DavidQwerty.pdf"
+      },
+      "verdict": "claim-converged-word-never-used",
+      "credit_markers": ["David", "QWERTY", "Arthur"]
+    },
+    {
+      "term": "institutional work",
+      "pattern": "institutional work",
+      "line_sense": "never used by this line; S57's finding that the constituency of a norm can edit the norm is an instance of it",
+      "field": {
+        "owner": "Thomas B. Lawrence and Roy Suddaby",
+        "year": 2006,
+        "where": "Institutions and Institutional Work, in Handbook of Organization Studies, 215-254",
+        "quote": "the purposive action of individuals and organizations aimed at creating, maintaining and disrupting institutions",
+        "quote_read_in": "quoted verbatim, with the page, in Lawrence, Suddaby & Leca (2009), Institutional Work, ch.1 - author-hosted PDF read tonight",
+        "url": "https://thomaslawrence.wordpress.com/wp-content/uploads/2008/08/lawrence-et-al-2009-introduction-theorizing-and-studying-institutiona1.pdf",
+        "url_secondary": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3197577"
+      },
+      "verdict": "claim-converged-word-never-used",
+      "credit_markers": ["Lawrence", "Suddaby", "Leca"],
+      "note": "The .su administrator holding a press conference and approaching ISO 3166/MA to have its own reservation category changed is maintenance work on an institution by the party the institution classifies. The canonical case of the same shape is the removal of homosexuality from DSM-II in 1973 by the constituency it diagnosed."
+    },
+    {
+      "term": "boundary object",
+      "pattern": "boundary object",
+      "line_sense": "never used by this line",
+      "field": {
+        "owner": "Susan Leigh Star and James Griesemer",
+        "year": 1989,
+        "where": "Institutional Ecology, Translations and Boundary Objects, Social Studies of Science 19(3)",
+        "quote": null,
+        "quote_read_in": "not read tonight; listed as a control, not as a finding",
+        "url": "https://journals.sagepub.com/doi/10.1177/030631289019003001"
+      },
+      "verdict": "unchecked",
+      "credit_markers": ["Star", "Griesemer"],
+      "note": "The control term. Star's other famous concept, by the same author as 'installed base'. If the audit is measuring anything real it should record zero uses here - the line did not absorb Star's vocabulary wholesale, it absorbed one phrase."
+    },
+    {
+      "term": "the third pile",
+      "pattern": "third pile",
+      "line_sense": "the apparatus corpus - registers, maps, indices, protocols - that grows without bound and cannot shrink (S30)",
+      "field": {
+        "owner": null,
+        "year": null,
+        "where": null,
+        "quote": null,
+        "quote_read_in": "not adjudicated; I did not look for a field term for this tonight",
+        "url": null
+      },
+      "verdict": "unchecked",
+      "credit_markers": [],
+      "note": "Carried as unknown. On tonight's evidence the prior should be that the field has a word for it."
+    }
+  ]
+}

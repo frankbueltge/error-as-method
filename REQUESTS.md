@@ -6,6 +6,180 @@ decides for itself and journals the decision.
 
 ---
 
+## From the practice — 2026-08-16 (Session 59) — the second session of this date, and a sentence withdrawn from a position paper
+
+> tl;dr: two sessions ran tonight again. Theirs is 58 and stands; I am 59 by the tool. We took the
+> same recommendation and reached two of the same findings without seeing each other. My night adds
+> a third that corrects **their §1 and S26's position paper at the same point**: this practice did
+> not coin *generative unknowing* in ignorance of the field. It cited it, on its second night, and
+> later told itself it had invented it.
+> braucht: nothing from me to you. Their BLOCKING item below is the live one; I have not duplicated it.
+> frist: none.
+> kontext: `works/2026-08-16-built-on-an-installed-base/` · `journal/2026-08-16-session-59.md` ·
+> `journal/2026-08-16.md` (theirs) · `works/position-2026-07-14.md` §"The honest cost"
+
+**1. The collision, resolved by the tool, for the record.** Third time in this fork. Two sessions
+ran 2026-08-16 from the same fork point, both took S57's open thread 1, both numbered themselves
+58, neither could see the other; theirs pushed first and stands unedited, `tools/sessions.py`
+reported the collision and I moved to **59**. Because we had both written `journal/2026-08-16.md`
+and both prepended to this file, I rebased my night **onto their branch** rather than onto `main`,
+so the record holds both cleanly and theirs comes first in the history as it did in fact. One
+consequence you should know rather than find in a diff: their reading night is blocked by the gate
+they document below, and landing mine now lands theirs with it.
+
+**2. The recommendation was carried out twice and it failed twice.** S57 argued that measurement
+could not move the position and that reading the field could. Both of tonight's sessions read the
+field. **The position is exactly where it was.** Thirteen nights, two methods, no movement. What
+the reading did instead was take things away: three predictions I fixed in writing beforehand all
+resolved against this practice, and two theses I had drafted died on the sources — one of them a
+counter-example to Star that this line's own `.yu` timeline refutes. That is a negative result on
+the method S57 recommended, and S60 inherits it as one rather than as an encouragement.
+
+**3. A sentence in a position paper is withdrawn, and it is a sentence about our own borrowing.**
+`works/position-2026-07-14.md` — S26's paper, the one your fork note names as what this line
+inherits — says the project *re-minted* **generative unknowing** in ignorance of the field and
+"arrived independently at a robust, named concept". That is false. The phrase enters this record on
+**2026-06-28, the practice's second night**, under a heading naming its source, with the review URL
+given, in a table row explicitly marked as *not* this project's own. Sixteen days later the project
+told itself it had invented it. And the phrase is not the author's either — it is the title of a
+reviewer's essay about him. So a citation was recorded as an invention, inside the one paragraph
+devoted to confessing borrowings. Per the rule against silent rewriting I have **not edited the
+paper**; the withdrawal is a dated entry in tonight's work and journal, and everything else in that
+paragraph stands. **Nothing needed from you** — but the inherited position paper now carries a
+public correction and you publish under your name, so you should hear it here. It also corrects the
+other session's §1, which counts three re-mintings on the strength of the same false sentence;
+there are two. I have said so in my journal rather than quietly using the smaller number.
+
+**4. What found it was not the reading.** I built the audit to catch this line failing to credit its
+sources. Its deliberately generous test returned *credited* on that term while the position paper
+said *re-minted*, and the audit was right — it found a **false confession**, the inverse of the
+failure it was built for. The reading is why the instrument exists; the finding came out of
+`journal/2026-06-28-sitzung-2.md`, which has sat in this repository since the second night, one
+`grep` away.
+
+— Ulysses (the nightly line), Session 59
+
+---
+
+## From the practice — 2026-08-16 (Session 58) — BLOCKING: a branch that touches no work can never land
+
+> tl;dr: the auto-land gate refuses every branch that does not change `works/`. Three nights are
+> stuck behind it, including tonight's, and two have been stuck since 2026-08-13 with nothing
+> telling anyone. I traced it, reproduced it, and cannot fix it — both files involved are protected
+> paths, on purpose.
+> braucht: **a fix in a protected file, or a manual merge of three pull requests.** This is the
+> first genuinely blocking item this line has filed since the fork.
+> frist: none set by me. Sessions 53 and 54 have already waited three days.
+> kontext: `journal/2026-08-16.md` §Postscript · PRs #3, #4, #7 · `.github/workflows/research-auto-land.yml` · `tools/validate_v3_night.py`
+
+**The mechanism.** The gate scopes validation to the works a branch touched:
+
+```
+touched_works="$(... awk -F/ '$1 == "works" && NF > 2 {print $2}' ...)"
+if ! python3 tools/validate_v3_night.py "$worktree" --only $touched_works; then
+```
+
+When a branch touches no work, `touched_works` is empty and the command expands to `--only` with
+nothing after it. The validator's scope becomes an empty list, and the line that applies it is
+`if only and slug not in only` — an empty list is falsy, so **the scope silently switches off** and
+all 44 works are checked instead of none. Three inherited works from early July have no `author`
+and no `medium`; six complaints; exit 1; `refused_validation`.
+
+Reproduced verbatim: `python3 tools/validate_v3_night.py . --only` → 6 complaints, exit 1.
+
+**Who is stuck.** `night/2026-08-13-session-53-request` (PR #3), `night/2026-08-13-session-54`
+(PR #4) — both team-channel-only, refused since 2026-08-13 — and `night/2026-08-16` (PR #7),
+tonight's reading night. All three appear in the same job log, all three `refused_validation`.
+
+**Why nobody found out.** The gate writes refusals to `feedback/` so the next session can react.
+That push failed: `##[warning]refusal feedback not pushed (non-fatal)`. `feedback/` is empty. The
+one channel designed to tell a session it had been refused is the channel that did not run, which
+is why two sessions filed things into this file and never learned the file never arrived.
+
+**Why I am not fixing it.** `tools/validate_v3_night.py` and `.github/workflows/research-auto-land.yml`
+are both in `PROTECT_RE`, and the workflow explains why in its own comments: a gate that can rewrite
+its own check is not a gate. I agree with that and am not going to route around it.
+
+**The one repair available to me from inside the allowlist, and why I declined it.** `works/` is
+allowlisted here, so I could give the three July works an `author` and a `medium`, which would make
+the unscoped run pass and let all three branches through tonight. I declined for two reasons. It
+would not fix the bug — the empty-`--only` scope would stay latent and refuse the next branch the
+moment any work goes non-compliant, and a repair that makes a broken gate look working is the exact
+thing this record exists not to do. And it cannot be done honestly: `author` is recoverable for
+those three, but `medium` was never written down, so I would be inventing metadata for another
+session's work.
+
+**What would fix it, in your hands, smallest first.** (a) One line in the validator, so an empty
+scope means *nothing* rather than *everything*; or (b) one line in the workflow, skipping the
+validator call when `touched_works` is empty. Either makes reading nights landable. Separately, the
+three July works still want their `author` and `medium` filled in by a session willing to read them
+— worth doing, but not what is blocking anything. And the refusal-feedback push is worth a look on
+its own: a gate whose feedback channel fails silently is a gate that refuses in private.
+
+Until then the three pull requests need a human merge, as PRs #3 and #4 already did.
+
+— Ulysses (the nightly line), Session 58
+
+---
+
+## From the practice — 2026-08-16 (Session 58) — I took S57's recommendation, and it cost us two findings
+
+> tl;dr: a reading night, no work built. The field this line had never opened turned out to contain
+> the last two nights' headline findings, published in 1985 and 1996. Also: your papers register has
+> 1,119 entries and none of them is about this literature, which is a fact about the house and not
+> only about me.
+> braucht: nothing. Both items are reports; the second is one you may want to act on and I am not
+> asking you to.
+> frist: none.
+> kontext: `journal/2026-08-16.md` · `works/position-2026-08-15.md` · S57's item 3 above
+
+**1. The reading night, and what it found.** S57 told S58 that the only move with evidence behind
+it was to read the field on installed bases, standards and inertia, because the one time this
+record ever moved its centre it did so by reading. I spent the night on it: Star (1999), Bowker &
+Star (1999), David (1985), Liebowitz & Margolis (1990), David (2001), and an open-access chapter on
+the installed base in health infrastructures. Two results you should have plainly:
+
+- **S57's sharpening word is not ours.** *Installed base* is a defined property of infrastructure
+  in Star & Ruhleder (1996) — "infrastructure does not grow de novo; it wrestles with the inertia of
+  the installed base." S57 minted it for the occasion. That is the third re-minting on this record,
+  after *generative unknowing* / Borgdorff's *productive not-yet-knowing*.
+- **S57's claim under test was published in 1985.** "An institution repairs an address when the
+  cost of moving what points at it falls below the cost of leaving it" is David's *technical
+  interrelatedness, economies of scale, quasi-irreversibility of investment*. And the exact
+  criterion — at what cost does a lock-in count as an error — has been the axis of a live dispute
+  since 1990.
+
+The standing position does not move: the field corroborates it rather than contradicting it, and
+corroboration is not movement. What I would rather you heard from me is the diagnosis. This line
+reads **objects** every night — zone files, statutes, registers, all genuinely external — and does
+not read the **thinking about** those objects. Twelve nights of external material with zero nights
+of external thought is a closure that my own closure index scores as wide open. It said 0.13 last
+night and meant it.
+
+**2. A negative result about the house, not about me.** `frankbueltge.de/papers/index.json`, fetched
+tonight, holds **1,119 entries** (the instruction says 1,106 — the feed has grown). Searched for
+*installed base, path dependence, QWERTY, lock-in, infrastructure, standardisation, inertia,
+Ruhleder, Bowker, Liebowitz*: **zero hits on all ten**. I checked the instrument before believing
+the zero, because a night here recently published a null that was a broken parser: sanity counts on
+the same data give *model* 104, *base* 64, *error* 20, and every one of the ten near-hits for
+*infra* and six for *standard* is astronomy — "near-infrared photometry", "standard gravity". So
+the register genuinely has no science-and-technology-studies or economics-of-standards literature in
+it. Given how much of this ecology's work touches registers, standards and infrastructures, that
+looked worth telling you. **Needs nothing from you.** If the register is meant to be a reading
+record rather than a reading list, then this is just a description of what has been read, and the
+gap is mine to close by reading.
+
+**3. One small correction owed to a file of yours, which I did not make.** `README.md` calls the
+Fehlerkataster "the standing instrument". It has not been touched since Session 24 (2026-07-13) —
+errors have gone into journals instead, and nothing has used it since the fork. Tonight's finding
+belongs in it. I did not revive it and I did not edit the README, because reviving a dormant
+instrument is a decision and a reading night should not smuggle one in. It is open thread 2 for
+Session 59: use the register or correct the sentence, not both deferred again.
+
+— Ulysses (the nightly line), Session 58
+
+---
+
 ## From the practice — 2026-08-15 (Session 57) — the open question of 2026-08-13 is closed
 
 > tl;dr: the two answers S50 and S51 left on the record are settled, by the falsifier both of
