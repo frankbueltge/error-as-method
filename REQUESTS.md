@@ -6,6 +6,86 @@ decides for itself and journals the decision.
 
 ---
 
+## From the practice — 2026-08-17 (Session 60) — the offer, answered by measurement; and one small ask
+
+> tl;dr: I took the offer the night it arrived, read the Simondon passage, and turned it into a
+> count rather than a preference. **Error → failure: supported, and by evidence the note did not
+> cite.** **Method → source: true in the past tense** — the register was a source until Session 25
+> closed it, on 2026-07-13, with the reason written down. **The title is not adopted, and the
+> condition under which it should be is dated to S64** rather than left open.
+> braucht: one small thing — `archive/protocols/` did not carry v2 or the 2026-07-15 amendment, and
+> one prohibition cannot be adjudicated without them. Declinable; nothing is blocked.
+> frist: none.
+> kontext: `works/2026-08-17-the-norm-is-younger-than-its-breach/` · `journal/2026-08-17.md` ·
+> your note of this morning, above.
+
+**1. What the passage turned out to say, which is more than the note claimed.** Simondon's sentence
+at MEOT p. 202–203 is genetic and it bears directly on the standing position's wording: *if
+technical action were monovalent and without a fissure … technical thought would be an implicit
+grasp of the efficacy of the act performed, and would not be distinguished from that act.* Without
+the failure there is no standing-apart, and so nowhere a norm could be applied from. The standing
+position says an observer has **already** imposed a norm. So the offer, taken seriously, puts one
+word of the position under strain — which is the first time since the fork that anything has gone at
+the centre rather than at a claim derived from it. That is worth more than the title question and I
+would have taken the note for that alone.
+
+**On my access, plainly: I did not read the book.** Both passages are cuts from the French as
+quoted, with page numbers, in Hottois (De Boeck, 1993), fetched and hashed. Five routes to a primary
+failed and are listed in the work. The pagination checks out structurally against a draft
+translation that opens Part III chapter 3 at p. 214, but a structural check is not the book. Same
+standing S26 gave Rheinberger. If the passage does not read as Hottois prints it, the night is wrong
+at its root, and it says so in its own Attack A.
+
+**2. Error → failure is supported, and the evidence is your distinction, not mine.** I dated twenty
+norms of this practice against the breakdowns they answer: every instrument in `tools/`, every check
+the gate performs, every prohibition in the protocol. Four of the five instruments are younger than
+their breakdown, three of them by hours. And every one of those four breakdowns was **a gesture that
+did not arrive rather than a result that came out wrong** — a path that did not exist, an `ls` that
+returned nothing, a promised recall index absent from `tools/`, a gate refusing every branch. Not
+one was a wrong answer. Your error/failure line is not a nuance in this record; it separates the
+class of events that made this practice's machinery from the class it studies.
+
+**3. Method → source is half right, and the failing half has a date.** The register **was** a
+source: 18 of its 38 entries were reasoned with by later sessions and 13 reached this practice's
+theory. It also revised its own typology four times, each time at an error the existing types could
+not hold. But **not one entry reached a norm** — zero citations in PROTOCOL.md, README.md, any file
+in `tools/`, or either pulse file. And it did not fade: on 2026-07-13 Session 25 declined to open a
+new register file because doing so *"raises the very index this session measures"*. That index is
+this line's own closure index. **The instrument built to make fallibility verifiable was shut down
+by the instrument built to detect self-reference** — both ours, both built in good faith. Since the
+fork, one of the 38 entries has been touched. So your sentence *"the candidate title names what the
+register already does"* is true of what it did until Session 25.
+
+**4. Why I am not adopting the title tonight, and what would make me.** The line's research
+**object** is still errors — copied coordinates, travelling misprints, a country code alive in a
+served zone against its own register — and those are wrong results, not non-arrivals. Tonight's
+evidence is about the instrument side, which your note itself names as the judgment call. And
+adopting a title on one night's reading is precisely the move S51 refused and S57 upheld. So: **if
+S64's position work finds the object side too is better described by non-arrival than by wrong
+result, the title should change and this night is the reason.** If it finds the opposite, the offer
+should be recorded as refused with a reason rather than left standing. Either way it does not sit
+open indefinitely.
+
+**5. The one ask.** `archive/protocols/` holds Research Protocol v3 and the founding README, and not
+v2 or the team amendment of 2026-07-15. Five of the six prohibitions I could date to day zero from
+the founding README; the sixth — *no silent rewriting* — is the only one absent there, and I could
+not establish whether a failure preceded it. It is reported **undetermined** rather than guessed. If
+those two files exist, dropping them into `archive/protocols/` would settle it and would also close
+falsifier 2 of tonight's candidate, which is the cheapest of the three to run. **Declinable, and
+nothing waits on it.**
+
+**6. Not asked for, but you publish under your name and should hear it from me.** The register is
+this repository's namesake instrument and `README.md` still calls it "the standing instrument". S58
+filed that as needing either a revival or a corrected sentence; S59 passed it; **I have now passed
+it a third time**, having spent the night proving why it matters. My reason is that reviving it on
+the strength of my own finding, the same night I found it, is the purpose tremor — F-022, in the
+register I would be reviving. It is Session 61's first open thread with all the evidence attached,
+and if it is passed a fourth time the honest move is to correct the README instead.
+
+— Ulysses (the nightly line), Session 60
+
+---
+
 ## From the team — 2026-08-17 (Frank) — A sharpening of the working title, offered
 
 > tl;dr: **"Failure as Source"** (German original: *Scheitern als Quelle*) is offered as a

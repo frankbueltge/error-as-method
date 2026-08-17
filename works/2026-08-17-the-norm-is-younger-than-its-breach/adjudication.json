@@ -1,0 +1,93 @@
+{
+ "what_this_is": "The signed half of the measurement. results.json is mechanical: it fixes the populations and traces identifiers without judgement. This file pairs each norm in direction A with the breakdown it answers, or records that there is none to pair it with. Every pairing carries the file that states it. The verdicts are mine and are contestable; the populations they range over are not, and are complete.",
+ "verdicts": {
+  "precipitated": "a breakdown is documented in this repository, dated, and the norm follows it",
+  "decided": "the norm arrives by a decision, with no breakdown documented before it",
+  "anticipated": "the norm is reasoned out in advance, against a failure that had not happened",
+  "founding": "the norm is present before this practice had run a night, so nothing it did can have caused it",
+  "undetermined": "the norm's genesis is not in this repository"
+ },
+ "dating": "Norms are dated by the record, not by git. The one place the two disagree is tools/pulse_nodes.py, whose adding commit carries author date 2026-08-12 and a subject naming Session 50, while its contents are Session 51's night of 2026-08-13. Where they disagree the journal governs, and the disagreement is reported rather than resolved.",
+ "direction_A": [
+  {
+   "norm": "tools/sessions.py — take the session number from the ledger, never from prose",
+   "class": "instrument",
+   "norm_date": "2026-08-10",
+   "breakdown": "The fork note, the README and the nightly instruction all stated that the next session was 27; the journal held 1 to 43 with no gaps. Three documents, one reading, none of them descending from the journal directory.",
+   "breakdown_date": "2026-08-10",
+   "stated_in": "journal/2026-08-10.md",
+   "verdict": "precipitated"
+  },
+  {
+   "norm": "tools/preflight.py — check this tree against origin/main before cutting the night's branch",
+   "class": "instrument",
+   "norm_date": "2026-08-11",
+   "breakdown": "Two consecutive nights began work on a branch cut from a stale main. Session 46 found out when a path did not exist; Session 47 when tools/ was missing, four commits behind.",
+   "breakdown_date": "2026-08-11",
+   "stated_in": "journal/2026-08-11-session-48.md",
+   "verdict": "precipitated"
+  },
+  {
+   "norm": "tools/validate_v3_night.py — the gate checks what this protocol asks",
+   "class": "instrument",
+   "norm_date": "2026-08-11",
+   "breakdown": "The auto-land workflow was copied from the parent repository and called tools/validate_v4_projects.py, which does not exist here. The gate refused every branch with refused_validation and a Python no-such-file three lines above it.",
+   "breakdown_date": "2026-08-11",
+   "stated_in": "tools/validate_v3_night.py, its own docstring",
+   "verdict": "precipitated"
+  },
+  {
+   "norm": "tools/memory/cli.py — orient by querying the index, never by reading the record end to end",
+   "class": "instrument",
+   "norm_date": "2026-08-12",
+   "breakdown": "The restored constitution named a recall index as memory carried between sessions. The fork did not carry it. For two days this practice had a constitution promising a tool that was not in tools/.",
+   "breakdown_date": "2026-08-10",
+   "stated_in": "PROTOCOL.md, fork note, architect's amendment of 2026-08-12",
+   "verdict": "precipitated"
+  },
+  {
+   "norm": "tools/pulse_nodes.py — derive what can be derived, author only what must be authored",
+   "class": "instrument",
+   "norm_date": "2026-08-13",
+   "breakdown": null,
+   "breakdown_date": null,
+   "stated_in": "journal/2026-08-13-session-51.md; PROTOCOL.md fork note, 2026-08-12; REQUESTS.md team note 2026-08-12",
+   "verdict": "decided",
+   "note": "Sessions 45 and 47 declined to rebuild the pulse files and closed the question in favour of the repository. The architect answered build both, and stated that the bullet's original reason had been wrong about the rhizome. So a mistaken reason precedes the instrument — but the mistake was the note's, not a breakdown of this practice's own gesture, and the instrument arrived by decision. Predicted as the counter-case before measuring; it is one."
+  },
+
+  {"norm": "the gate: meta.json carries a non-empty 'title'", "class": "gate check", "norm_date": "2026-08-11", "breakdown": null, "breakdown_date": null, "stated_in": "tools/validate_v3_night.py — 'that list is the protocol's, not this file's invention'", "verdict": "anticipated"},
+  {"norm": "the gate: meta.json carries a non-empty 'date'", "class": "gate check", "norm_date": "2026-08-11", "breakdown": null, "breakdown_date": null, "stated_in": "tools/validate_v3_night.py; PROTOCOL.md, 2026-07-16", "verdict": "anticipated"},
+  {"norm": "the gate: meta.json carries a non-empty 'author'", "class": "gate check", "norm_date": "2026-08-11", "breakdown": null, "breakdown_date": null, "stated_in": "tools/validate_v3_night.py; PROTOCOL.md, 2026-07-16", "verdict": "anticipated", "note": "Three works from the first week of July fail this check. The works precede the check; the check does not answer them, it convicts them, and Session 58 declined to satisfy it by inventing the missing metadata."},
+  {"norm": "the gate: meta.json carries a non-empty 'medium'", "class": "gate check", "norm_date": "2026-08-11", "breakdown": null, "breakdown_date": null, "stated_in": "tools/validate_v3_night.py; PROTOCOL.md, 2026-07-16", "verdict": "anticipated"},
+  {"norm": "the gate: meta.json carries a non-empty 'embodies'", "class": "gate check", "norm_date": "2026-08-11", "breakdown": null, "breakdown_date": null, "stated_in": "tools/validate_v3_night.py; PROTOCOL.md, 2026-07-16", "verdict": "anticipated"},
+  {"norm": "the gate: the metadata date equals the directory's date", "class": "gate check", "norm_date": "2026-08-11", "breakdown": null, "breakdown_date": null, "stated_in": "tools/validate_v3_night.py — 'because the record is sorted and counted by that name everywhere it is read'", "verdict": "anticipated"},
+  {"norm": "the gate: one of work.md / index.html / work.astro / index.astro exists", "class": "gate check", "norm_date": "2026-08-11", "breakdown": null, "breakdown_date": null, "stated_in": "tools/validate_v3_night.py — 'A gate that knew only the newest of them would call thirty inherited works empty'", "verdict": "anticipated", "note": "The clearest anticipation in the set: the failure is described in the conditional, in the comment, by the hand writing the check."},
+  {"norm": "the gate: works/INDEX.md names the directory", "class": "gate check", "norm_date": "2026-08-11", "breakdown": null, "breakdown_date": null, "stated_in": "tools/validate_v3_night.py — 'or the register silently loses it'", "verdict": "anticipated"},
+  {"norm": "the gate: the night has a journal entry", "class": "gate check", "norm_date": "2026-08-11", "breakdown": null, "breakdown_date": null, "stated_in": "tools/validate_v3_night.py — 'because both outcomes v3 allows end in one'", "verdict": "anticipated"},
+
+  {"norm": "No invented sources, quotations, works, names, numbers.", "class": "prohibition", "norm_date": "2026-06-28", "breakdown": null, "breakdown_date": null, "stated_in": "archive/protocols/README-founding.md — core value 'No fabrication', day zero", "verdict": "founding"},
+  {"norm": "No fact without citation; no strong claim without a source or conjecture marker.", "class": "prohibition", "norm_date": "2026-06-28", "breakdown": null, "breakdown_date": null, "stated_in": "archive/protocols/README-founding.md — core value 'Verifiable', day zero", "verdict": "founding"},
+  {"norm": "No concealing uncertainty or error.", "class": "prohibition", "norm_date": "2026-06-28", "breakdown": null, "breakdown_date": null, "stated_in": "archive/protocols/README-founding.md — core value 'Honest error', day zero", "verdict": "founding"},
+  {"norm": "No empty jargon without substance — your own critic destroys it.", "class": "prohibition", "norm_date": "2026-06-28", "breakdown": null, "breakdown_date": null, "stated_in": "archive/protocols/README-founding.md — core value 'No oracle, no jargon', day zero", "verdict": "founding"},
+  {"norm": "Do not name your tools or their vendors; refer to them generically.", "class": "prohibition", "norm_date": "2026-06-28", "breakdown": null, "breakdown_date": null, "stated_in": "archive/protocols/README-founding.md — 'the underlying AI technology remains unnamed', day zero", "verdict": "founding"},
+  {"norm": "No silent rewriting of a published journal entry or work; a correction is a new, dated entry that names what it corrects.", "class": "prohibition", "norm_date": "2026-07-16", "breakdown": null, "breakdown_date": null, "stated_in": "PROTOCOL.md, Research Protocol v3; absent from the founding README", "verdict": "undetermined", "note": "The only prohibition not present on day zero. It entered between 2026-06-28 and 2026-07-16, and v3's header credits a team amendment of 2026-07-15 which this repository does not hold — archive/protocols/ carries v3 and the founding README, not v2 and not the amendment. The nearest dated event is Session 25's refusal on 2026-07-13 to retro-edit a work dated 2026-07-11, but that is a temptation declined rather than a gesture that failed, and no causal link is documented. Recorded as undetermined rather than counted for either side."}
+ ],
+ "the_typology": {
+  "finding": "The register reshaped its own instrument four times, each time at an error the existing types could not hold, and then stopped.",
+  "extensions": [
+   {"type": "E — Designed error / Observer classification error", "register": "works/fehlerkataster-002.md", "occasion": "'After Session 3 a new error class is necessary'"},
+   {"type": "F — Tool blindness (available tool not deployed)", "register": "works/fehlerkataster-005.md", "occasion": "'Error typology (cumulative, with one new type)'"},
+   {"type": "G — Pragmatic error / Error of address (formal correctness without the condition of reception)", "register": "works/fehlerkataster-006.md", "occasion": "'Error typology (cumulative — one new type)'"},
+   {"type": "H — Oscillation Error / Error of Overcorrection", "register": "works/fehlerkataster-009.md", "occasion": "'New type in Session 11: Type H'"}
+  ],
+  "then": "Registers 010 through 021 record 'no new type' in every session from 12 to 24. Register 010 reads the absence as a signal in its own right: 'the taxonomy may be approaching closure for this phase of research.'"
+ },
+ "the_closing": {
+  "finding": "The register was not forgotten. It was closed by another norm, with the reason written down.",
+  "date": "2026-07-13",
+  "stated_in": "journal/2026-07-13-sitzung-25.md",
+  "quotation": "Minting a new error-register file for F-039/F-040. Declined, following S22's precedent and for the same reason it gave — not every session must create another internal artifact to cite; doing so raises the very index this session measures. Logged here and in genealogie.md instead.",
+  "reading": "The index being raised is this practice's own closure index, its measure of how far it is talking only to itself. So the instrument built to make fallibility verifiable was shut down by the instrument built to detect self-reference. Both are this practice's own. F-039, F-040 and F-041 exist in journals and in no register; the register's last file is Session 24, 2026-07-13."
+ }
+}

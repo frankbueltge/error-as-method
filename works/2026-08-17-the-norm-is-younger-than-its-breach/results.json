@@ -1,0 +1,851 @@
+{
+ "corpus_files": 114,
+ "direction_A": {
+  "instruments": [
+   {
+    "instrument": "tools/memory/cli.py",
+    "first_commit": "2026-08-12",
+    "named_in": [
+     {
+      "file": "PROTOCOL.md",
+      "date": null
+     }
+    ]
+   },
+   {
+    "instrument": "tools/preflight.py",
+    "first_commit": "2026-08-11",
+    "named_in": [
+     {
+      "file": "journal/2026-08-11-session-48.md",
+      "date": "2026-08-11"
+     },
+     {
+      "file": "journal/2026-08-12-session-49.md",
+      "date": "2026-08-12"
+     },
+     {
+      "file": "journal/2026-08-12-session-50.md",
+      "date": "2026-08-12"
+     },
+     {
+      "file": "journal/2026-08-13-session-51.md",
+      "date": "2026-08-13"
+     },
+     {
+      "file": "journal/2026-08-13-session-52.md",
+      "date": "2026-08-13"
+     },
+     {
+      "file": "journal/2026-08-13-session-53.md",
+      "date": "2026-08-13"
+     }
+    ]
+   },
+   {
+    "instrument": "tools/pulse_nodes.py",
+    "first_commit": "2026-08-12",
+    "named_in": [
+     {
+      "file": "journal/2026-08-13-session-51.md",
+      "date": "2026-08-13"
+     },
+     {
+      "file": "journal/2026-08-13-session-52.md",
+      "date": "2026-08-13"
+     },
+     {
+      "file": "journal/2026-08-13-session-53.md",
+      "date": "2026-08-13"
+     },
+     {
+      "file": "journal/2026-08-13-session-54.md",
+      "date": "2026-08-13"
+     },
+     {
+      "file": "journal/2026-08-14-session-56.md",
+      "date": "2026-08-14"
+     },
+     {
+      "file": "journal/2026-08-14.md",
+      "date": "2026-08-14"
+     }
+    ]
+   },
+   {
+    "instrument": "tools/sessions.py",
+    "first_commit": "2026-08-10",
+    "named_in": [
+     {
+      "file": "journal/2026-08-10-session-45.md",
+      "date": "2026-08-10"
+     },
+     {
+      "file": "journal/2026-08-10.md",
+      "date": "2026-08-10"
+     },
+     {
+      "file": "journal/2026-08-11-session-47.md",
+      "date": "2026-08-11"
+     },
+     {
+      "file": "journal/2026-08-11-session-48.md",
+      "date": "2026-08-11"
+     },
+     {
+      "file": "journal/2026-08-11.md",
+      "date": "2026-08-11"
+     },
+     {
+      "file": "journal/2026-08-12-session-49.md",
+      "date": "2026-08-12"
+     }
+    ]
+   },
+   {
+    "instrument": "tools/validate_v3_night.py",
+    "first_commit": "2026-08-11",
+    "named_in": [
+     {
+      "file": "journal/2026-08-12-session-50.md",
+      "date": "2026-08-12"
+     },
+     {
+      "file": "journal/2026-08-16.md",
+      "date": "2026-08-16"
+     },
+     {
+      "file": "REQUESTS.md",
+      "date": null
+     }
+    ]
+   }
+  ],
+  "gate_checks": [
+   "meta.json carries a non-empty 'title'",
+   "meta.json carries a non-empty 'date'",
+   "meta.json carries a non-empty 'author'",
+   "meta.json carries a non-empty 'medium'",
+   "meta.json carries a non-empty 'embodies'",
+   "the metadata date equals the directory's date",
+   "one of work.md / index.html / work.astro / index.astro exists",
+   "works/INDEX.md names the directory",
+   "the night has a journal entry"
+  ],
+  "prohibitions": [
+   "No invented sources, quotations, works, names, numbers.",
+   "No fact without citation; no strong claim without a source or conjecture marker.",
+   "No concealing uncertainty or error.",
+   "No empty jargon without substance — your own critic (step 4) destroys it.",
+   "Do not name your tools or their vendors; refer to them generically (e.g. web research).",
+   "No silent rewriting of a published journal entry or work; a correction is a new, dated entry that names what it corrects — the record accumulates, it does not get tidied after the fact."
+  ]
+ },
+ "direction_B": {
+  "entries": 42,
+  "register_files": 20,
+  "counts_by_heading": {
+   "same-day-only": 19,
+   "worked": 19,
+   "listed": 4
+  },
+  "distinct_entries": 38,
+  "counts_by_entry": {
+   "same-day-only": 17,
+   "worked": 18,
+   "listed": 3
+  },
+  "roll_call_threshold": 3,
+  "sweep_threshold": {
+   "2": {
+    "same-day-only": 19,
+    "listed": 7,
+    "worked": 16
+   },
+   "3": {
+    "same-day-only": 19,
+    "worked": 19,
+    "listed": 4
+   },
+   "4": {
+    "same-day-only": 19,
+    "worked": 19,
+    "listed": 4
+   },
+   "5": {
+    "same-day-only": 19,
+    "worked": 22,
+    "listed": 1
+   }
+  },
+  "worked_share_by_entry": 0.474,
+  "reached_after_the_fork": [
+   "F-038"
+  ],
+  "norm_artefacts_citing_the_register": [],
+  "two_registers": {
+   "normative": {
+    "PROTOCOL.md": 0,
+    "README.md": 0,
+    "tools/memory/cli.py": 0,
+    "tools/preflight.py": 0,
+    "tools/pulse_nodes.py": 0,
+    "tools/sessions.py": 0,
+    "tools/validate_v3_night.py": 0,
+    "pulse/vital-signs.json": 0,
+    "pulse/rhizome.json": 0
+   },
+   "theoretical": {
+    "works/genealogie.md": 13,
+    "works/parry-problem.md": 0,
+    "works/position-2026-07-01.md": 1,
+    "works/position-2026-07-14.md": 1,
+    "works/position-2026-08-13.md": 0,
+    "works/position-2026-08-15.md": 0
+   }
+  },
+  "detail": [
+   {
+    "id": "F-001",
+    "heading": "· Type D · Session 1",
+    "source": "works/fehlerkataster-001.md",
+    "source_date": "2026-06-28",
+    "later_files": [],
+    "worked_in": [],
+    "post_fork": [],
+    "verdict": "same-day-only"
+   },
+   {
+    "id": "F-002",
+    "heading": "· Type B · Session 1",
+    "source": "works/fehlerkataster-001.md",
+    "source_date": "2026-06-28",
+    "later_files": [
+     "journal/2026-06-30-sitzung-11.md"
+    ],
+    "worked_in": [
+     "journal/2026-06-30-sitzung-11.md"
+    ],
+    "post_fork": [],
+    "verdict": "worked"
+   },
+   {
+    "id": "F-003",
+    "heading": "· Type B · Sessions 1–2",
+    "source": "works/fehlerkataster-001.md",
+    "source_date": "2026-06-28",
+    "later_files": [],
+    "worked_in": [],
+    "post_fork": [],
+    "verdict": "same-day-only"
+   },
+   {
+    "id": "F-004",
+    "heading": "· Type B · Session 2 (structural)",
+    "source": "works/fehlerkataster-001.md",
+    "source_date": "2026-06-28",
+    "later_files": [
+     "journal/2026-06-30-sitzung-11.md",
+     "journal/2026-06-30-sitzung-8.md"
+    ],
+    "worked_in": [
+     "journal/2026-06-30-sitzung-11.md",
+     "journal/2026-06-30-sitzung-8.md"
+    ],
+    "post_fork": [],
+    "verdict": "worked"
+   },
+   {
+    "id": "F-005",
+    "heading": "· Type A · Session 2",
+    "source": "works/fehlerkataster-001.md",
+    "source_date": "2026-06-28",
+    "later_files": [
+     "journal/2026-06-29.md",
+     "journal/2026-06-30.md"
+    ],
+    "worked_in": [
+     "journal/2026-06-29.md",
+     "journal/2026-06-30.md"
+    ],
+    "post_fork": [],
+    "verdict": "worked"
+   },
+   {
+    "id": "F-006",
+    "heading": "· Type A + Type C · Sessions 1–3",
+    "source": "works/fehlerkataster-002.md",
+    "source_date": "2026-06-29",
+    "later_files": [],
+    "worked_in": [],
+    "post_fork": [],
+    "verdict": "same-day-only"
+   },
+   {
+    "id": "F-007",
+    "heading": "· Type B (structural) · Session 3",
+    "source": "works/fehlerkataster-002.md",
+    "source_date": "2026-06-29",
+    "later_files": [],
+    "worked_in": [],
+    "post_fork": [],
+    "verdict": "same-day-only"
+   },
+   {
+    "id": "F-008",
+    "heading": "· Type E · Session 3 (meta-error)",
+    "source": "works/fehlerkataster-002.md",
+    "source_date": "2026-06-29",
+    "later_files": [],
+    "worked_in": [],
+    "post_fork": [],
+    "verdict": "same-day-only"
+   },
+   {
+    "id": "F-009",
+    "heading": "· Type B (structural, recurring) · Session 4",
+    "source": "works/fehlerkataster-003.md",
+    "source_date": "2026-06-29",
+    "later_files": [
+     "journal/2026-06-30-sitzung-8.md",
+     "journal/2026-06-30.md"
+    ],
+    "worked_in": [
+     "journal/2026-06-30-sitzung-8.md",
+     "journal/2026-06-30.md"
+    ],
+    "post_fork": [],
+    "verdict": "worked"
+   },
+   {
+    "id": "F-010",
+    "heading": "· Type A · Session 4",
+    "source": "works/fehlerkataster-003.md",
+    "source_date": "2026-06-29",
+    "later_files": [],
+    "worked_in": [],
+    "post_fork": [],
+    "verdict": "same-day-only"
+   },
+   {
+    "id": "F-011",
+    "heading": "· Type E (meta) · Session 4",
+    "source": "works/fehlerkataster-003.md",
+    "source_date": "2026-06-29",
+    "later_files": [],
+    "worked_in": [],
+    "post_fork": [],
+    "verdict": "same-day-only"
+   },
+   {
+    "id": "F-012",
+    "heading": "· Type B (structural, recurring) · Session 5",
+    "source": "works/fehlerkataster-004.md",
+    "source_date": "2026-06-29",
+    "later_files": [],
+    "worked_in": [],
+    "post_fork": [],
+    "verdict": "same-day-only"
+   },
+   {
+    "id": "F-013",
+    "heading": "· Type D · Session 5",
+    "source": "works/fehlerkataster-004.md",
+    "source_date": "2026-06-29",
+    "later_files": [],
+    "worked_in": [],
+    "post_fork": [],
+    "verdict": "same-day-only"
+   },
+   {
+    "id": "F-014",
+    "heading": "· Type A (motivated reasoning) · Session 5",
+    "source": "works/fehlerkataster-004.md",
+    "source_date": "2026-06-29",
+    "later_files": [
+     "journal/2026-06-30.md"
+    ],
+    "worked_in": [
+     "journal/2026-06-30.md"
+    ],
+    "post_fork": [],
+    "verdict": "worked"
+   },
+   {
+    "id": "F-015",
+    "heading": "· Type F (tool blindness) · Session 7",
+    "source": "works/fehlerkataster-005.md",
+    "source_date": "2026-06-30",
+    "later_files": [],
+    "worked_in": [],
+    "post_fork": [],
+    "verdict": "same-day-only"
+   },
+   {
+    "id": "F-016",
+    "heading": "· Type A (motivated projection) · Session 7",
+    "source": "works/fehlerkataster-005.md",
+    "source_date": "2026-06-30",
+    "later_files": [],
+    "worked_in": [],
+    "post_fork": [],
+    "verdict": "same-day-only"
+   },
+   {
+    "id": "F-017",
+    "heading": "· Type C (Search error, prevented) · Session 8",
+    "source": "works/fehlerkataster-006.md",
+    "source_date": "2026-06-30",
+    "later_files": [],
+    "worked_in": [],
+    "post_fork": [],
+    "verdict": "same-day-only"
+   },
+   {
+    "id": "F-009",
+    "heading": "(update) · Type B → partially reclassified · Session 8",
+    "source": "works/fehlerkataster-006.md",
+    "source_date": "2026-06-30",
+    "later_files": [],
+    "worked_in": [],
+    "post_fork": [],
+    "verdict": "same-day-only"
+   },
+   {
+    "id": "F-018",
+    "heading": "· Type A+C · Session 9 — Structural omission in the genealogy",
+    "source": "works/fehlerkataster-007.md",
+    "source_date": "2026-06-30",
+    "later_files": [],
+    "worked_in": [],
+    "post_fork": [],
+    "verdict": "same-day-only"
+   },
+   {
+    "id": "F-019",
+    "heading": "· Type D · Session 9 — Confabulation risk in Track C (introduced conjecturally)",
+    "source": "works/fehlerkataster-007.md",
+    "source_date": "2026-06-30",
+    "later_files": [],
+    "worked_in": [],
+    "post_fork": [],
+    "verdict": "same-day-only"
+   },
+   {
+    "id": "F-020",
+    "heading": "· Type A · Session 10 — Synthesis risk: Type G + double bind as \"structural closure\"",
+    "source": "works/fehlerkataster-008.md",
+    "source_date": "2026-06-30",
+    "later_files": [],
+    "worked_in": [],
+    "post_fork": [],
+    "verdict": "same-day-only"
+   },
+   {
+    "id": "F-021",
+    "heading": "· Type B · Session 10 — Maturana & Varela (1980) primary text still inaccessible",
+    "source": "works/fehlerkataster-008.md",
+    "source_date": "2026-06-30",
+    "later_files": [
+     "journal/2026-07-02.md",
+     "journal/2026-07-03-sitzung-15.md",
+     "journal/2026-07-03.md",
+     "journal/2026-07-04.md",
+     "journal/2026-07-05.md",
+     "journal/2026-07-06.md",
+     "journal/2026-07-07.md",
+     "journal/2026-07-09.md",
+     "journal/2026-07-10.md",
+     "journal/2026-07-11.md",
+     "journal/2026-07-12.md",
+     "journal/2026-07-13-sitzung-25.md",
+     "journal/2026-07-13.md",
+     "journal/2026-07-14.md"
+    ],
+    "worked_in": [
+     "journal/2026-07-02.md",
+     "journal/2026-07-03-sitzung-15.md",
+     "journal/2026-07-03.md",
+     "journal/2026-07-04.md",
+     "journal/2026-07-05.md",
+     "journal/2026-07-06.md",
+     "journal/2026-07-07.md",
+     "journal/2026-07-09.md",
+     "journal/2026-07-10.md",
+     "journal/2026-07-11.md",
+     "journal/2026-07-12.md",
+     "journal/2026-07-13-sitzung-25.md",
+     "journal/2026-07-13.md",
+     "journal/2026-07-14.md"
+    ],
+    "post_fork": [],
+    "verdict": "worked"
+   },
+   {
+    "id": "F-022",
+    "heading": "· Type H · Session 11 — The project's own purpose tremor",
+    "source": "works/fehlerkataster-009.md",
+    "source_date": "2026-06-30",
+    "later_files": [
+     "journal/2026-07-01.md",
+     "journal/2026-07-02.md",
+     "journal/2026-07-03-sitzung-15.md",
+     "journal/2026-07-03.md",
+     "journal/2026-07-04.md",
+     "journal/2026-07-05.md",
+     "journal/2026-07-06.md",
+     "journal/2026-07-07.md",
+     "journal/2026-07-09.md",
+     "journal/2026-07-10.md",
+     "journal/2026-07-11.md",
+     "journal/2026-07-12.md",
+     "journal/2026-07-13-sitzung-25.md",
+     "journal/2026-07-13.md",
+     "journal/2026-07-14.md",
+     "works/position-2026-07-01.md"
+    ],
+    "worked_in": [
+     "journal/2026-07-01.md",
+     "journal/2026-07-02.md",
+     "journal/2026-07-03-sitzung-15.md",
+     "journal/2026-07-03.md",
+     "journal/2026-07-06.md",
+     "journal/2026-07-07.md",
+     "journal/2026-07-09.md",
+     "journal/2026-07-10.md",
+     "journal/2026-07-11.md",
+     "journal/2026-07-12.md",
+     "journal/2026-07-13.md",
+     "works/position-2026-07-01.md"
+    ],
+    "post_fork": [],
+    "verdict": "worked"
+   },
+   {
+    "id": "F-023",
+    "heading": "· Type A · Session 11 — F-020 resolution is now stronger, but not complete",
+    "source": "works/fehlerkataster-009.md",
+    "source_date": "2026-06-30",
+    "later_files": [],
+    "worked_in": [],
+    "post_fork": [],
+    "verdict": "same-day-only"
+   },
+   {
+    "id": "F-024",
+    "heading": "· Type B · Session 11 — Wiener (1948) chapter \"Cybernetics and Psychopathology\" not fully extracted",
+    "source": "works/fehlerkataster-009.md",
+    "source_date": "2026-06-30",
+    "later_files": [
+     "journal/2026-07-01.md",
+     "journal/2026-07-02.md"
+    ],
+    "worked_in": [
+     "journal/2026-07-01.md",
+     "journal/2026-07-02.md"
+    ],
+    "post_fork": [],
+    "verdict": "worked"
+   },
+   {
+    "id": "F-025",
+    "heading": "· Type B · Session 12 — Rosenblueth, Wiener, Bigelow (1943) behind paywall",
+    "source": "works/fehlerkataster-010.md",
+    "source_date": "2026-07-01",
+    "later_files": [
+     "journal/2026-07-02.md",
+     "journal/2026-07-03-sitzung-15.md",
+     "journal/2026-07-03.md",
+     "journal/2026-07-04.md",
+     "journal/2026-07-05.md",
+     "journal/2026-07-06.md",
+     "journal/2026-07-07.md",
+     "journal/2026-07-09.md",
+     "journal/2026-07-10.md",
+     "journal/2026-07-11.md",
+     "journal/2026-07-12.md",
+     "journal/2026-07-13-sitzung-25.md",
+     "journal/2026-07-13.md",
+     "journal/2026-07-14.md"
+    ],
+    "worked_in": [
+     "journal/2026-07-02.md",
+     "journal/2026-07-03-sitzung-15.md",
+     "journal/2026-07-03.md",
+     "journal/2026-07-04.md",
+     "journal/2026-07-05.md",
+     "journal/2026-07-06.md",
+     "journal/2026-07-11.md"
+    ],
+    "post_fork": [],
+    "verdict": "worked"
+   },
+   {
+    "id": "F-026",
+    "heading": "· Type D · Session 12 — Oscillogram data is approximate, not exact",
+    "source": "works/fehlerkataster-010.md",
+    "source_date": "2026-07-01",
+    "later_files": [
+     "journal/2026-07-02.md"
+    ],
+    "worked_in": [],
+    "post_fork": [],
+    "verdict": "listed"
+   },
+   {
+    "id": "F-027",
+    "heading": "· Type C · Session 13 — CEPA.INFO URL was wrong paper",
+    "source": "works/fehlerkataster-011.md",
+    "source_date": "2026-07-02",
+    "later_files": [],
+    "worked_in": [],
+    "post_fork": [],
+    "verdict": "same-day-only"
+   },
+   {
+    "id": "F-024",
+    "heading": "update · Substantially resolved in Session 13",
+    "source": "works/fehlerkataster-011.md",
+    "source_date": "2026-07-02",
+    "later_files": [],
+    "worked_in": [],
+    "post_fork": [],
+    "verdict": "same-day-only"
+   },
+   {
+    "id": "F-028",
+    "heading": "· Type A · Session 14 — Enabling-dimension synthesis mirrors the trapping-dimension synthesis",
+    "source": "works/fehlerkataster-012.md",
+    "source_date": "2026-07-03",
+    "later_files": [
+     "journal/2026-07-04.md",
+     "journal/2026-07-05.md",
+     "journal/2026-07-06.md",
+     "journal/2026-07-07.md",
+     "journal/2026-07-09.md",
+     "journal/2026-07-10.md",
+     "journal/2026-07-11.md",
+     "journal/2026-07-12.md",
+     "journal/2026-07-13-sitzung-25.md",
+     "journal/2026-07-13.md",
+     "journal/2026-07-14.md"
+    ],
+    "worked_in": [
+     "journal/2026-07-11.md"
+    ],
+    "post_fork": [],
+    "verdict": "worked"
+   },
+   {
+    "id": "F-029",
+    "heading": "· Type C · Session 14 — Queneau lipogram/labyrinth attribution is secondary only",
+    "source": "works/fehlerkataster-012.md",
+    "source_date": "2026-07-03",
+    "later_files": [
+     "journal/2026-07-04.md",
+     "journal/2026-07-05.md",
+     "journal/2026-07-06.md",
+     "journal/2026-07-07.md",
+     "journal/2026-07-09.md",
+     "journal/2026-07-10.md"
+    ],
+    "worked_in": [],
+    "post_fork": [],
+    "verdict": "listed"
+   },
+   {
+    "id": "F-030",
+    "heading": "· Type E/A · Session 15 — The Generation Loss experiment varied the sampling seed but held the source text fixed",
+    "source": "works/fehlerkataster-013.md",
+    "source_date": "2026-07-03",
+    "later_files": [
+     "journal/2026-07-04.md",
+     "journal/2026-07-05.md",
+     "journal/2026-07-06.md",
+     "journal/2026-07-07.md",
+     "journal/2026-07-09.md",
+     "journal/2026-07-10.md"
+    ],
+    "worked_in": [
+     "journal/2026-07-04.md"
+    ],
+    "post_fork": [],
+    "verdict": "worked"
+   },
+   {
+    "id": "F-030",
+    "heading": "· Type E/A · advanced (not closed) — the single-source-text limitation",
+    "source": "works/fehlerkataster-014.md",
+    "source_date": "2026-07-04",
+    "later_files": [
+     "journal/2026-07-05.md",
+     "journal/2026-07-06.md",
+     "journal/2026-07-07.md",
+     "journal/2026-07-09.md",
+     "journal/2026-07-10.md"
+    ],
+    "worked_in": [],
+    "post_fork": [],
+    "verdict": "listed"
+   },
+   {
+    "id": "F-031",
+    "heading": "· Type E/C · Session 16 — the law's mid-range is evidenced only by synthetic sources",
+    "source": "works/fehlerkataster-014.md",
+    "source_date": "2026-07-04",
+    "later_files": [
+     "journal/2026-07-05.md",
+     "journal/2026-07-06.md",
+     "journal/2026-07-07.md",
+     "journal/2026-07-09.md",
+     "journal/2026-07-10.md",
+     "works/2026-07-05-call-without-response/README.md"
+    ],
+    "worked_in": [
+     "journal/2026-07-05.md",
+     "journal/2026-07-06.md",
+     "works/2026-07-05-call-without-response/README.md"
+    ],
+    "post_fork": [],
+    "verdict": "worked"
+   },
+   {
+    "id": "F-031",
+    "heading": "· Type E/C · partly closed, partly transformed — the law's mid-range on real text",
+    "source": "works/fehlerkataster-015.md",
+    "source_date": "2026-07-05",
+    "later_files": [
+     "journal/2026-07-06.md",
+     "journal/2026-07-07.md",
+     "journal/2026-07-09.md",
+     "journal/2026-07-10.md"
+    ],
+    "worked_in": [
+     "journal/2026-07-06.md"
+    ],
+    "post_fork": [],
+    "verdict": "worked"
+   },
+   {
+    "id": "F-032",
+    "heading": "· Type E/C · open (scoped boundary) — the accretion regime has no natural real-text instance",
+    "source": "works/fehlerkataster-015.md",
+    "source_date": "2026-07-05",
+    "later_files": [
+     "journal/2026-07-06.md",
+     "journal/2026-07-07.md",
+     "journal/2026-07-09.md",
+     "journal/2026-07-10.md"
+    ],
+    "worked_in": [
+     "journal/2026-07-06.md",
+     "journal/2026-07-07.md"
+    ],
+    "post_fork": [],
+    "verdict": "worked"
+   },
+   {
+    "id": "F-033",
+    "heading": "(Type A) — the \"independent tracks\" overclaim, opened and corrected",
+    "source": "works/fehlerkataster-017.md",
+    "source_date": "2026-07-07",
+    "later_files": [
+     "journal/2026-07-09.md",
+     "journal/2026-07-10.md",
+     "journal/2026-07-13.md"
+    ],
+    "worked_in": [
+     "journal/2026-07-09.md",
+     "journal/2026-07-13.md"
+    ],
+    "post_fork": [],
+    "verdict": "worked"
+   },
+   {
+    "id": "F-034",
+    "heading": "(new) — Type A (wrong inference), opened and corrected same session",
+    "source": "works/fehlerkataster-018.md",
+    "source_date": "2026-07-09",
+    "later_files": [
+     "journal/2026-07-10.md",
+     "journal/2026-07-11.md",
+     "journal/2026-07-12.md",
+     "journal/2026-07-13-sitzung-25.md",
+     "journal/2026-07-13.md"
+    ],
+    "worked_in": [
+     "journal/2026-07-10.md",
+     "journal/2026-07-11.md",
+     "journal/2026-07-12.md",
+     "journal/2026-07-13-sitzung-25.md",
+     "journal/2026-07-13.md"
+    ],
+    "post_fork": [],
+    "verdict": "worked"
+   },
+   {
+    "id": "F-035",
+    "heading": "(new) — Type A (misattribution), opened and corrected same session",
+    "source": "works/fehlerkataster-019.md",
+    "source_date": "2026-07-10",
+    "later_files": [
+     "journal/2026-07-11.md",
+     "journal/2026-07-12.md"
+    ],
+    "worked_in": [
+     "journal/2026-07-11.md"
+    ],
+    "post_fork": [],
+    "verdict": "worked"
+   },
+   {
+    "id": "F-036",
+    "heading": "(new) — Type A (author misattribution), caught by the primary before publication",
+    "source": "works/fehlerkataster-020.md",
+    "source_date": "2026-07-12",
+    "later_files": [
+     "journal/2026-07-13.md"
+    ],
+    "worked_in": [],
+    "post_fork": [],
+    "verdict": "listed"
+   },
+   {
+    "id": "F-037",
+    "heading": "— Type A (near-miss, caught before publication): \"soft thought\" misattributed and nearly conflated with error",
+    "source": "works/fehlerkataster-021.md",
+    "source_date": "2026-07-13",
+    "later_files": [
+     "journal/2026-07-14.md"
+    ],
+    "worked_in": [
+     "journal/2026-07-14.md"
+    ],
+    "post_fork": [],
+    "verdict": "worked"
+   },
+   {
+    "id": "F-038",
+    "heading": "— Type B (inaccessible primary, verified via citing source): Marenko (2015)",
+    "source": "works/fehlerkataster-021.md",
+    "source_date": "2026-07-13",
+    "later_files": [
+     "journal/2026-07-14-session-27.md",
+     "journal/2026-07-14-session-28.md",
+     "journal/2026-07-14.md",
+     "journal/2026-08-16.md"
+    ],
+    "worked_in": [
+     "journal/2026-07-14-session-27.md",
+     "journal/2026-07-14-session-28.md",
+     "journal/2026-07-14.md",
+     "journal/2026-08-16.md"
+    ],
+    "post_fork": [
+     "journal/2026-08-16.md"
+    ],
+    "verdict": "worked"
+   }
+  ]
+ }
+}

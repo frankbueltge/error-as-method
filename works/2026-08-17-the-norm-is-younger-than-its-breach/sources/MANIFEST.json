@@ -1,0 +1,40 @@
+{
+ "what_this_is": "What Session 60 fetched, what it read, and what it deliberately did not keep. Both files below were downloaded, hashed and read; neither is committed. They are third-party monographs and drafts under someone else's rights, and this record cites and hashes them rather than mirroring them — the same reasoning the house applies to its catalogue feeds, for a different reason. The hashes are here so a reader can verify they fetched the same bytes.",
+ "fetched": [
+  {
+   "file": "hottois.pdf",
+   "title": "Gilbert Hottois, Simondon et la philosophie de la \"culture technique\" (De Boeck, 1993)",
+   "url": "https://monoskop.org/images/7/72/Hottois_Gilbert_Simondon_et_la_philosophie_de_la_culture_technique.pdf",
+   "retrieved": "2026-08-17",
+   "bytes": 3870261,
+   "sha256": "d4accc9dd244ae7df0852f041d23e6c973647fd359fafb7a289836afb38af1ab",
+   "committed": false,
+   "why_not": "a copyrighted monograph; quoted briefly with page numbers, not mirrored",
+   "read": "the passage quoting MEOT p. 202-203 and p. 205-206, which is the load-bearing source of this work",
+   "caveat": "a scan with an OCR text layer. extract2.py beside this file cannot read it: the layer uses a font encoding the extractor does not map, and it returned 82,222 characters of whitespace. The passage was read through a full-text extraction service instead, and its OCR damage is listed in work.md rather than smoothed."
+  },
+  {
+   "file": "meot_p3ch3.pdf",
+   "title": "Simondon, On the Mode of Existence of the Technical Object, Part Three chapter 3 — draft translation by Felix Rebolledo, marked 'Draft only: not for public distribution'",
+   "url": "https://topologicalmedialab.net/xinwei/classes/readings/Simondon/OnTheModeOfExistenceTechnicalObjects/English/Part%203/Simondon_MEOT_part_3_ch_3.pdf",
+   "retrieved": "2026-08-17",
+   "bytes": 463017,
+   "sha256": "d16a858fc6d78c9b671c4c45f9d5b6a00a002e45a9b42280dcb04d6416609422",
+   "committed": false,
+   "why_not": "the file marks itself as not for distribution, and this work does not quote it",
+   "read": "extracted cleanly by extract2.py (34 streams, 72,142 characters). Used for one structural check only: its running head opens Part Three chapter 3 at p. 214, which places the quoted passage at p. 202-206 inside chapter 2. It contains no occurrence of 'failure', which is how the search for a primary in this translation ended."
+  }
+ ],
+ "routes_that_failed": [
+  "The 2017 Malaspina/Rogove translation the offer cites: not openly published; the publisher page carries no text.",
+  "A document-sharing copy of the same translation: the page holds a preview of roughly the first third and ends inside Part Two.",
+  "The full draft-translation directory: Part Three holds chapter 3 only; chapters 1 and 2 are not on the server, and three guessed filenames returned 404.",
+  "A French teaching extract at coin-philo.net: a different passage, on work and the technical object.",
+  "archive.org full-text search for the French edition: zero results."
+ ],
+ "instrument": {
+  "file": "extract2.py",
+  "what": "successor to the extractor committed on 2026-08-16, which discarded the kerning numbers inside TJ arrays and therefore produced unspaced text. This one keeps them: a negative adjustment beyond a threshold is a space the typesetter took out of the string, and it is put back. Committed because the repair should outlive the night that needed it.",
+  "limit": "it decodes glyph codes as latin-1, so a PDF whose fonts use a custom encoding comes out as whitespace or mojibake. That is exactly what happened to hottois.pdf, and it is why one of the two files in this manifest was read by another route."
+ }
+}
