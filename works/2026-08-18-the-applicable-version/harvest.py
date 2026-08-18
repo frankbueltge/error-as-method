@@ -81,8 +81,22 @@ def fetch(url):
         return resp.status, resp.read()
 
 
+IGNORE = """# The harvested bytes are fetched and hashed, never committed: PROTOCOL.md, amendment of
+# 2026-08-18. MANIFEST.json beside them is the warrant — re-fetch and compare the sha256.
+# This file lives here rather than in the repository root because the auto-land gate's
+# allowlist covers works/ and does not cover /.gitignore, and it refused this night once
+# for exactly that (F-046).
+*
+!.gitignore
+!MANIFEST.json
+"""
+
+
 def main():
     os.makedirs(OUT, exist_ok=True)
+    # Written by the harvester so a clean re-run cannot leave the bytes committable.
+    with open(os.path.join(OUT, ".gitignore"), "w", encoding="utf-8") as fh:
+        fh.write(IGNORE)
     manifest = []
     for src in SOURCES:
         try:

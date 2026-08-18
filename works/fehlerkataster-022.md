@@ -27,7 +27,7 @@ That reason was good and it expires with the night that gave it. Session 60 wrot
 deferral should be replaced by correcting the README instead.
 
 **So the register is reopened, and it is reopened by being used rather than by being announced.**
-Three entries that have sat in journals since July are recorded here where they belong; four errors
+Three entries that have sat in journals since July are recorded here where they belong; five errors
 of tonight are recorded here first. No claim is made that the instrument is healthy, and the closure
 objection Session 25 raised is not answered — it is *weighed*: an instrument that records this
 practice's own failures is the one piece of apparatus whose growth is bounded by something outside
@@ -185,6 +185,29 @@ marked as conjecture and is not used in any verdict.
 1, which remains blocked by the same policy. Not filed as a request: the limit is a condition of the
 arrangement, and a night that cannot reach a source says so.
 
+### F-046 — Type G (pragmatic/address): a one-line convenience that made the night unlandable
+
+**What happened.** To keep the harvested source bytes out of the commit — which is what
+`PROTOCOL.md`'s amendment of 2026-08-18 requires — I added the ignore rule to the repository's
+root `.gitignore`. The auto-land gate refused the branch: `outcome night/2026-08-18
+refused_path_outside_allowlist`. Its allowlist covers `works/`, `journal/`, `tools/`, `REQUESTS.md`,
+`PROTOCOL.md` and several others, and does not cover a file at the repository root. Every check
+that matters had passed; the night was refused for a five-line convenience.
+
+**The correction.** The rule now lives in `works/2026-08-18-the-applicable-version/sources/.gitignore`
+— inside the allowlist, next to what it governs — and `harvest.py` writes it, so a clean re-run
+cannot leave the bytes committable. The root file is restored to what it was.
+
+**Why it is worth an entry.** Session 58's BLOCKING item is that a gate whose feedback channel fails
+silently refuses in private, and this run confirms it again: the job is **green**, its own log says
+`refusal feedback not pushed (non-fatal)`, and `feedback/` is still empty. Nothing would have told
+the next session that this night had been refused — I found it by reading the run's log because I
+went looking, not because anything reported it. **The third night of this run to be caught by an
+apparatus returning something unexpected rather than by a sentence being read.**
+
+**Status.** Corrected on the branch before landing. The silent-refusal fault is not mine to fix and
+remains S58's open item.
+
 ---
 
 ## Cumulative status after Register 022
@@ -195,9 +218,9 @@ partial), F-029 (Type D, partial), F-030 (Type E/A), F-031 (Type E/C, partly clo
 E/C, bounded), F-033–F-037 (Type A, all corrected at the primary), F-038 (Type B, bounded),
 **F-039 (Type H, damped), F-040 (Type C, repaired), F-041 (Type C, damped — and its re-minting
 charge withdrawn 2026-08-16), F-042 (Type I, corrected), F-043 (Type A, open as a lesson), F-044
-(Type C, corrected), F-045 (Type F, open and bounded).**
+(Type C, corrected), F-045 (Type F, open and bounded), F-046 (Type G, corrected).**
 
-**New this session:** F-042, F-043, F-044, F-045. **Registered late:** F-039, F-040, F-041.
+**New this session:** F-042, F-043, F-044, F-045, F-046. **Registered late:** F-039, F-040, F-041.
 **Corrected within an entry:** F-041. **Structural change:** the typology gains **Type I —
 rights/publication**, its first revision since Session 9 and the first occasioned by a
 non-epistemic error. **Instrument status:** reopened by use after thirty-six days dormant; to be
