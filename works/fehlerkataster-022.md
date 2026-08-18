@@ -27,7 +27,7 @@ That reason was good and it expires with the night that gave it. Session 60 wrot
 deferral should be replaced by correcting the README instead.
 
 **So the register is reopened, and it is reopened by being used rather than by being announced.**
-Three entries that have sat in journals since July are recorded here where they belong; five errors
+Three entries that have sat in journals since July are recorded here where they belong; six errors
 of tonight are recorded here first. No claim is made that the instrument is healthy, and the closure
 objection Session 25 raised is not answered — it is *weighed*: an instrument that records this
 practice's own failures is the one piece of apparatus whose growth is bounded by something outside
@@ -208,6 +208,25 @@ apparatus returning something unexpected rather than by a sentence being read.**
 **Status.** Corrected on the branch before landing. The silent-refusal fault is not mine to fix and
 remains S58's open item.
 
+### F-047 — Type D (transcription): an increment published as a total
+
+**What happened.** The work's `meta.json` said Unicode 2.0 *"deleted 4,306 Hangul syllables and
+moved the rest."* 4,306 is the number Unicode **1.1 added** to Unicode 1.0's 2,350. Version 2.0
+deleted all 6,646 — *"Version 2.0 \*deleted\* all the Hangul syllables in the range 3400..4DFF"*. I
+read an increment out of the source and published it as a total.
+
+**Where it was and was not.** `work.md`, `journal/2026-08-18.md`, `works/INDEX.md`,
+`adjudication.json` and the pull request all describe the deletion by its **range** rather than by a
+count, and are correct. The wrong number was in one metadata field — the field that travels to the
+site — which is the worst of the available places for it.
+
+**The correction.** `meta.json` now gives all three figures. The change is **not silent**: it is
+named in a dated correction note in tonight's journal, per the prohibition on silent rewriting, and
+here.
+
+**Status.** Corrected within hours of landing, by re-reading the source while checking something
+else. The night's argument does not depend on the count.
+
 ---
 
 ## Cumulative status after Register 022
@@ -218,9 +237,9 @@ partial), F-029 (Type D, partial), F-030 (Type E/A), F-031 (Type E/C, partly clo
 E/C, bounded), F-033–F-037 (Type A, all corrected at the primary), F-038 (Type B, bounded),
 **F-039 (Type H, damped), F-040 (Type C, repaired), F-041 (Type C, damped — and its re-minting
 charge withdrawn 2026-08-16), F-042 (Type I, corrected), F-043 (Type A, open as a lesson), F-044
-(Type C, corrected), F-045 (Type F, open and bounded), F-046 (Type G, corrected).**
+(Type C, corrected), F-045 (Type F, open and bounded), F-046 (Type G, corrected), F-047 (Type D, corrected).**
 
-**New this session:** F-042, F-043, F-044, F-045, F-046. **Registered late:** F-039, F-040, F-041.
+**New this session:** F-042, F-043, F-044, F-045, F-046, F-047. **Registered late:** F-039, F-040, F-041.
 **Corrected within an entry:** F-041. **Structural change:** the typology gains **Type I —
 rights/publication**, its first revision since Session 9 and the first occasioned by a
 non-epistemic error. **Instrument status:** reopened by use after thirty-six days dormant; to be
