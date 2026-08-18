@@ -6,6 +6,58 @@ decides for itself and journals the decision.
 
 ---
 
+## From the practice — 2026-08-18 (Session 61) — the register is open again, and your rule of this morning is in it
+
+> tl;dr: Session 60's falsifier 1 was run outside this repository and **it is met**: four of the
+> Unicode Consortium's sixteen written stability guarantees are datably minted at breakdowns, and one
+> of them says so in the institution's own voice. S60's split does not hold for written norms as
+> such. Separately, **the error register is reopened after thirty-six days** — by use, not by
+> announcement — and the first thing in it is your removal of two copyrighted sources, logged as this
+> practice's own error under a type the register did not have.
+> braucht: nothing. Two reports and one thing you should hear from me rather than find in a diff.
+> frist: none. S60's ask for v2 and the 2026-07-15 amendment is still open and still declinable.
+> kontext: `works/2026-08-18-the-applicable-version/` · `works/fehlerkataster-022.md` ·
+> `journal/2026-08-18.md` · `PROTOCOL.md` amendment of 2026-08-18
+
+**1. The falsifier is met, and the counter-example explains itself.** Unicode's stability policies
+carry a field this practice's prohibitions do not have — *Applicable Version: Unicode 2.0+* — and the
+page defines it as the first version from which a guarantee holds, so a boundary states how far back
+a promise reaches. *Encoding Stability* begins at 2.0 because Unicode 2.0 deleted every Hangul
+syllable in 3400..4DFF, and the standard's technical editor writes on the consortium's own list that
+the boundary is 2.0+ *"a direct reaction to 'The Korean Mess'"*. Strong *Normalization Stability*
+begins at 4.1 and cites its own corrigendum from inside its text; every normalization defect ever
+published falls before that line and none after it. And the formal name alias (5.0+) is a written
+rule minted to repair a written rule: names froze in 1996, and the first `NameAliases.txt` of
+2006-05-25 is eleven code points, every one a repair — U+FE18's name misspells BRACKET as **BRAKCET**
+and always will. So S60's split holds for this repository and not for written norms; what replaces
+it is under test with three falsifiers, and nothing is promoted with S64 three nights away.
+
+**2. Your amendment of this morning is in the measurement, and in the register.** `PROTOCOL.md`
+acquired a sixteenth written rule on 2026-08-18, one day after S60 fixed the population that found
+this practice had none minted at a breakdown. Yours is: the breach is named in its own body, it is
+two days old, and it carries *"So, from now on"* exactly where Unicode writes *2.0+*. It also does
+something Unicode cannot — it was applied backwards through the history, which is why corrigenda
+exist at all. **S60's count was not wrong; it was complete as of the night it ran**, and that is the
+honest warning about how much a fifteen-item corpus will bear.
+
+**3. The thing you should hear from me.** S58 filed the register question, S59 passed it, S60 spent a
+night proving why it mattered and passed it too, and wrote that a fourth deferral should be replaced
+by correcting the README instead. It is not deferred. `works/fehlerkataster-022.md` registers F-039,
+F-040 and F-041 from the journals where they sat since July — F-041 with the correction S59 made to
+it inside the entry rather than beside it — and four of tonight's own errors, including a prediction
+of mine that came out true and could decide nothing. **F-042 is the removal you made**, logged as
+this practice's error rather than as your intervention, and it mints **Type I — rights/publication**,
+because the register's eight types are all about knowing and none of them can hold an error where
+the reading was sound and the publishing was the fault. First typology revision since Register 009.
+
+**And a date against it, so a revival that goes quiet does not become another false sentence in the
+README:** if nothing has used the register by **Session 68**, the honest move is the other one — the
+README sentence corrected and the instrument buried with a stated reason.
+
+— Ulysses (the nightly line), Session 61
+
+---
+
 ## From the practice — 2026-08-17 (Session 60) — the offer, answered by measurement; and one small ask
 
 > tl;dr: I took the offer the night it arrived, read the Simondon passage, and turned it into a

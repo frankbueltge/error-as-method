@@ -1,0 +1,84 @@
+{
+  "night": "2026-08-18",
+  "session": 61,
+  "note": "Bytes fetched and hashed, deliberately not committed; see PROTOCOL.md, amendment of 2026-08-18. Re-fetch and compare sha256 to reproduce.",
+  "sources": [
+    {
+      "key": "stability_policy",
+      "url": "https://www.unicode.org/policies/stability_policy.html",
+      "what": "Unicode Character Encoding Stability Policies, the page as published",
+      "why": "Population P-A: the written rules under test, each with its Applicable Version",
+      "status": 200,
+      "bytes": 44316,
+      "sha256": "075df5adc0b0572fe62c48d83505870ca442272778a041cd17b8927c23a3f113",
+      "retrieved": "2026-08-18",
+      "local": "stability_policy.html (fetched, not committed)"
+    },
+    {
+      "key": "corrigenda",
+      "url": "https://www.unicode.org/versions/corrigenda.html",
+      "what": "Unicode Corrigenda, the consortium's own list of published defects",
+      "why": "Population P-B: the documented breakdowns, dated by the version that fixed them",
+      "status": 200,
+      "bytes": 11841,
+      "sha256": "9c1f90e4d14fb05c980460339ffc59aad1d088573178118602a2c51e87ddc557",
+      "retrieved": "2026-08-18",
+      "local": "corrigenda.html (fetched, not committed)"
+    },
+    {
+      "key": "enumeratedversions",
+      "url": "https://www.unicode.org/versions/enumeratedversions.html",
+      "what": "Enumerated Versions of the Unicode Standard, with release dates",
+      "why": "Population P-C: the denominator, without which a coincidence has no base rate",
+      "status": 200,
+      "bytes": 17483,
+      "sha256": "05442720f0bde4037f67322347ccc4799c3842168fcdcc1e4a85d1770bed52f8",
+      "retrieved": "2026-08-18",
+      "local": "enumeratedversions.html (fetched, not committed)"
+    },
+    {
+      "key": "namealiases",
+      "url": "https://www.unicode.org/Public/UCD/latest/ucd/NameAliases.txt",
+      "what": "NameAliases.txt from the Unicode Character Database",
+      "why": "Direction B: the repair mechanism minted for names the Name Stability rule froze",
+      "status": 200,
+      "bytes": 16714,
+      "sha256": "793f6f1e4d15fd90f05ae66460191dc4d75d1fea90136a25f30dd6a4cb950eac",
+      "retrieved": "2026-08-18",
+      "local": "namealiases.txt (fetched, not committed)"
+    },
+    {
+      "key": "unicodedata",
+      "url": "https://www.unicode.org/Public/UCD/latest/ucd/UnicodeData.txt",
+      "what": "UnicodeData.txt from the Unicode Character Database (2.2 MB)",
+      "why": "To read the encoded names of the characters the first alias file corrects, at the primary rather than from memory — FE18 really is spelled BRAKCET",
+      "status": 200,
+      "bytes": 2198209,
+      "sha256": "2e1efc1dcb59c575eedf5ccae60f95229f706ee6d031835247d843c11d96470c",
+      "retrieved": "2026-08-18",
+      "local": "unicodedata.txt (fetched, not committed)"
+    },
+    {
+      "key": "namealiases-5.0.0",
+      "url": "https://www.unicode.org/Public/5.0.0/ucd/NameAliases.txt",
+      "what": "NameAliases.txt as published in Unicode 5.0.0, the first version of that file",
+      "why": "Direction B: what the alias mechanism contained on the day it was frozen",
+      "status": 200,
+      "bytes": 1088,
+      "sha256": "d3c3df0a660607a98d7be2b3170dfc9c7eaef7057a0f7f4a540b1f2bf8bfd36f",
+      "retrieved": "2026-08-18",
+      "local": "namealiases-5.0.0.txt (fetched, not committed)"
+    },
+    {
+      "key": "whistler2015",
+      "url": "https://www.unicode.org/mail-arch/unicode-ml/y2015-m06/0189.html",
+      "what": "Ken Whistler, Unicode mail archive, 2015-06-19, on the Version 1 Hangul syllables",
+      "why": "The institution's own statement of why the Encoding Stability boundary is 2.0+",
+      "status": 200,
+      "bytes": 11272,
+      "sha256": "a201c61a128744fb80098383028d6c2875e4f9208a0a5423b2c079ce4afac69d",
+      "retrieved": "2026-08-18",
+      "local": "whistler2015.html (fetched, not committed)"
+    }
+  ]
+}

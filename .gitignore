@@ -1,3 +1,8 @@
 memory/index.jsonl
 __pycache__/
 *.pyc
+
+# Night 2026-08-18: harvested source bytes are fetched and hashed, never committed
+# (PROTOCOL.md, amendment of 2026-08-18). The manifest beside them is the warrant.
+works/2026-08-18-the-applicable-version/sources/*
+!works/2026-08-18-the-applicable-version/sources/MANIFEST.json

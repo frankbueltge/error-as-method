@@ -1,0 +1,165 @@
+{
+  "night": "2026-08-18",
+  "session": 61,
+  "what_this_file_is": "The readings the instrument cannot make. boundaries.py counts; it cannot say which defect a rule answers. Every verdict below is signed by hand and carries the source that states it. Four verdicts are used: 'minted_at_breach' (a retrievable source ties the rule to a named prior defect), 'boundary_at_a_fixed_defect' (the boundary is the version that fixed a defect of the kind the clause governs, and the tie is documented by subject matter rather than by testimony), 'coincident_only' (the boundary falls on a version that fixed a defect of some other kind), and 'undetermined' (no documented defect found). 'undetermined' is NOT 'anticipatory': it is an absence of evidence, and the difference is load-bearing tonight.",
+  "definition_checked_first": {
+    "term": "Applicable Version",
+    "page_says": "The notation Unicode N.n+ means 'The Unicode Standard, Version N.n and all subsequent versions.'",
+    "so": "A boundary is the first version from which the guarantee holds — not the date the policy text was written. That is what makes it readable as a mark left by a breach: a rule cannot guarantee a stability the standard was still breaking.",
+    "source": "https://www.unicode.org/policies/stability_policy.html"
+  },
+  "verdicts": [
+    {
+      "clause": "Encoding Stability",
+      "boundary": "2.0",
+      "verdict": "minted_at_breach",
+      "the_breach": "Unicode 2.0 (1996) deleted all Hangul syllables in the range 3400..4DFF and re-encoded 11,172 syllables at AC00..D7A3 — 'The Korean Mess'.",
+      "evidence": "Ken Whistler, Unicode mail archive, 2015-06-19: 'Version 2.0 *deleted* all the Hangul syllables in the range 3400..4DFF.' And: 'if anybody has any lingering questions about why the following policy exists and is *strictly* enforced: http://www.unicode.org/policies/stability_policy.html#Encoding or why the applicable version for that stability policy is 2.0+, the answer is that it was a direct reaction to \"The Korean Mess\".'",
+      "source": "https://www.unicode.org/mail-arch/unicode-ml/y2015-m06/0189.html",
+      "note": "This is testimony, not a UTC minute: Whistler is the standard's long-standing technical editor writing on the consortium's own list, and the statement is about a decision he participated in. Strongest single piece of evidence tonight, and the only clause where the institution says in as many words why the boundary sits where it does. Known to me before predictions were fixed; declared as such in PREDICTIONS.md."
+    },
+    {
+      "clause": "Name Stability",
+      "boundary": "2.0",
+      "verdict": "undetermined",
+      "note": "Shares the 2.0 boundary with Encoding Stability and plausibly the same event, but no source I reached ties the name freeze to a named prior defect. Left undetermined rather than folded into the Hangul finding, which would have been the cheapest way to raise tonight's count.",
+      "source": "https://www.unicode.org/policies/stability_policy.html"
+    },
+    {
+      "clause": "Formal Name Alias Stability",
+      "boundary": "5.0",
+      "verdict": "minted_at_breach",
+      "the_breach": "Character names frozen by Name Stability (2.0+) that were wrong: misspellings and errors that could no longer be corrected by changing the name.",
+      "evidence": "The first NameAliases.txt, NameAliases-5.0.0.txt, dated 2006-05-25, contains exactly 11 entries and every one of them is a correction of an erroneous name — among them FE18, whose encoded name misspells BRACKET as BRAKCET. The Name Stability clause states the mechanism in its own text: 'In cases of outright errors in character names such as misspellings, a character may be given a formal name alias.'",
+      "source": "https://www.unicode.org/Public/5.0.0/ucd/NameAliases.txt · https://www.unicode.org/policies/stability_policy.html",
+      "note": "The tie is documentary rather than testimonial: the file's entire initial content is repairs, and the policy page itself names the defect class the mechanism exists for. What it shows is a written rule minted to repair what an earlier written rule made unrepairable — and then itself frozen at 5.0+."
+    },
+    {
+      "clause": "Named Character Sequence Stability",
+      "boundary": "5.0",
+      "verdict": "undetermined",
+      "source": "https://www.unicode.org/policies/stability_policy.html"
+    },
+    {
+      "clause": "Name Uniqueness",
+      "boundary": "2.0",
+      "verdict": "undetermined",
+      "note": "The clause's own note records two later extensions of the shared namespace — named character sequences at 4.1, formal aliases at 5.0 — so its boundary is a floor with amendments above it, not a single mint. No prior defect found for either extension.",
+      "source": "https://www.unicode.org/policies/stability_policy.html"
+    },
+    {
+      "clause": "Normalization Stability (strong form)",
+      "boundary": "4.1",
+      "verdict": "minted_at_breach",
+      "the_breach": "Corrigendum #5, Normalization Idempotency: effective 2005-Feb-07, declared versions 3.0.0 to 4.0.1 defective, fixed in 4.1.0 (2005-March).",
+      "evidence": "The clause's own Note points at the defect: 'In versions prior to Unicode 4.1, there were exceptional cases where the normalization algorithm had to be applied twice to put a string into normalized form. See Corrigendum #5: Normalization Idempotency.' The guarantee begins in the version that fixed it.",
+      "source": "https://www.unicode.org/policies/stability_policy.html · https://www.unicode.org/versions/corrigenda.html",
+      "note": "The institution cites its own defect from inside the rule that answers it. That is the cleanest instance in the corpus of a written norm carrying its breach in its body."
+    },
+    {
+      "clause": "Normalization Stability (weaker form)",
+      "boundary": "3.1",
+      "verdict": "boundary_at_a_fixed_defect",
+      "the_breach": "Corrigendum #2, Yod with Hiriq Normalization: effective 2001-Jan-31, declared 3.0.0 and 3.0.1 defective, fixed in 3.1.0 (2001-March), documented in CompositionExclusions.txt. Corrigendum #1 (UTF-8 Shortest Form) was fixed in the same version.",
+      "evidence": "The boundary is the version that fixed a normalization defect, and the clause governs normalization. No source states the tie in words, so the verdict is by subject matter rather than by testimony.",
+      "source": "https://www.unicode.org/versions/corrigenda.html"
+    },
+    {
+      "clause": "Identity Stability",
+      "boundary": "1.1",
+      "verdict": "undetermined",
+      "note": "The earliest boundary in the corpus and the one whose prior state is hardest to reach: 1.1 is the version of the ISO/IEC 10646 merger. No corrigenda exist before 3.0.0, so the defect record simply does not reach back this far.",
+      "source": "https://www.unicode.org/policies/stability_policy.html"
+    },
+    {
+      "clause": "Property Stability",
+      "boundary": "5.2",
+      "verdict": "undetermined",
+      "source": "https://www.unicode.org/policies/stability_policy.html"
+    },
+    {
+      "clause": "Property Domain Stability",
+      "boundary": "5.2",
+      "verdict": "undetermined",
+      "source": "https://www.unicode.org/policies/stability_policy.html"
+    },
+    {
+      "clause": "Property Value Stability",
+      "boundary": null,
+      "verdict": "not_applicable",
+      "note": "The only clause with no single Applicable Version: it delegates to a table of per-property constraints, each with its own version. Excluded from the boundary counts and said so rather than silently dropped.",
+      "source": "https://www.unicode.org/policies/stability_policy.html"
+    },
+    {
+      "clause": "Alias Stability",
+      "boundary": "5.1",
+      "verdict": "coincident_only",
+      "the_coincidence": "Corrigendum #6, Bidi Mirroring, was fixed in 5.1.0 — a defect in mirrored-glyph properties, nothing to do with property aliases.",
+      "evidence": "Counted as a hit by the mechanical test in boundaries.py and rejected here. This is one of the two spurious hits that make the coincidence measure worth less than its number suggests.",
+      "source": "https://www.unicode.org/versions/corrigenda.html"
+    },
+    {
+      "clause": "Alias Reassignment",
+      "boundary": "6.2",
+      "verdict": "undetermined",
+      "note": "A second applicability line under Alias Stability rather than a separately named clause; 6.2 fixed no corrigendum.",
+      "source": "https://www.unicode.org/policies/stability_policy.html"
+    },
+    {
+      "clause": "Property Alias Uniqueness",
+      "boundary": "3.2",
+      "verdict": "coincident_only",
+      "the_coincidence": "Corrigendum #3, U+F951 Normalization, was fixed in 3.2.0 — a normalization defect, nothing to do with alias namespaces.",
+      "source": "https://www.unicode.org/versions/corrigenda.html"
+    },
+    {
+      "clause": "Identifier Stability",
+      "boundary": "3.0",
+      "verdict": "undetermined",
+      "source": "https://www.unicode.org/policies/stability_policy.html"
+    },
+    {
+      "clause": "Case Folding Stability",
+      "boundary": "5.2",
+      "verdict": "undetermined",
+      "source": "https://www.unicode.org/policies/stability_policy.html"
+    },
+    {
+      "clause": "Case Pair Stability",
+      "boundary": "5.0",
+      "verdict": "undetermined",
+      "source": "https://www.unicode.org/policies/stability_policy.html"
+    }
+  ],
+  "the_chain_worth_stating_separately": {
+    "claim": "Every normalization defect the consortium ever published as a corrigendum falls before the version at which strong normalization stability begins, and none falls after it.",
+    "the_defects": [
+      "Corrigendum #2, Yod with Hiriq Normalization, fixed 3.1.0",
+      "Corrigendum #3, U+F951 Normalization, fixed 3.2.0",
+      "Corrigendum #4, Five CJK Canonical Mapping Errors, fixed 4.0.0",
+      "Corrigendum #5, Normalization Idempotency, fixed 4.1.0"
+    ],
+    "and_after": "Corrigenda #6 (bidi mirroring, 5.1.0), #7 (line breaking, 6.0.0), #8 (bidi class, 6.1.0) and #9 (noncharacters, 7.0.0) are the whole remainder of the list, and not one of them is about normalization.",
+    "reading": "The guarantee's boundary is not where the rule was written. It is where the breaking stopped.",
+    "source": "https://www.unicode.org/versions/corrigenda.html"
+  },
+  "direction_c_inside_this_repository": {
+    "status": "report, not prediction — read during orientation, declared in PREDICTIONS.md",
+    "the_norm": "PROTOCOL.md, amendment of 2026-08-18: 'commit a source's bytes when its licence permits redistribution — standards, public-domain data, registries, open access. For anything else, commit the manifest and quote within citation length.'",
+    "the_breach": "On 2026-08-16 Session 58 committed Paul A. David, 'Clio and the Economics of QWERTY' (1985) and Susan Leigh Star, 'The Ethnography of Infrastructure' (1999), as PDF and extracted text, harvested from university course pages, into a public repository.",
+    "the_dates": "Breach 2026-08-16. Rule committed 2026-08-18 in 48d9b96, 'Two copyrighted sources removed from the record, and the rule that follows' — 28 lines added to PROTOCOL.md and a 30-line REMOVED.md added beside the sources. Four further commits (bb3a6e7, d3379e7, cf2968b, 12d5e34) apply the rule to links.",
+    "why_it_matters": "Session 60 fixed its textual population on 2026-08-17 and found that not one of this practice's fifteen written norms had a documented breakdown before it. Two days after the breach and one day after that count, the sixteenth arrived, and it is minted at a breach it names in its own body. The count was not wrong; it was complete as of the night it ran.",
+    "the_boundary": "The amendment carries the same device as a Unicode clause, in prose: 'So, from now on:' — a written rule marking where it begins to bind, placed immediately after the account of what broke.",
+    "sources": ["PROTOCOL.md", "works/2026-08-16-built-on-an-installed-base/sources/REMOVED.md", "git 48d9b96"]
+  },
+  "counts": {
+    "clauses_with_a_boundary": 15,
+    "applicability_lines": 16,
+    "minted_at_breach": 3,
+    "boundary_at_a_fixed_defect": 1,
+    "coincident_only": 2,
+    "undetermined": 10,
+    "demonstrably_anticipatory": 0,
+    "note": "The last line is the one that matters and it is the one the prediction did not ask for. Not a single clause in this corpus could be shown to precede the defect class it governs. In this practice's own corpus, Session 60 could show exactly that for five of six prohibitions, from the founding README of day zero."
+  }
+}
