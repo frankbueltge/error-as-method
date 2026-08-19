@@ -1,0 +1,8 @@
+# The harvested bytes are fetched and hashed, never committed: PROTOCOL.md,
+# amendment of 2026-08-18. MANIFEST.json beside them is the warrant — re-fetch
+# and compare the sha256. This file lives here rather than in the repository
+# root because the auto-land gate's allowlist covers works/ and does not cover
+# /.gitignore, and it refused the night of 2026-08-18 for exactly that (F-046).
+*
+!.gitignore
+!MANIFEST.json

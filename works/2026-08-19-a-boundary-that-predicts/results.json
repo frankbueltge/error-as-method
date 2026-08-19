@@ -1,0 +1,354 @@
+{
+  "night": "2026-08-19",
+  "session": 62,
+  "what_this_measures": "How the two boundary fields of each __future__ feature read across every published CPython release. The 'why' is not here; it is signed by hand in adjudication.json. Gap is expressed base-100 in minor versions: 208 means the mandatory release is 2 major + 8 minor beyond the optional one.",
+  "summary": {
+    "releases_measured": [
+      "2.1",
+      "2.2",
+      "2.3",
+      "2.4",
+      "2.5",
+      "2.6",
+      "2.7",
+      "3.0",
+      "3.1",
+      "3.2",
+      "3.3",
+      "3.4",
+      "3.5",
+      "3.6",
+      "3.7",
+      "3.8",
+      "3.9",
+      "3.10",
+      "3.11",
+      "3.12",
+      "3.13",
+      "3.14"
+    ],
+    "n_releases": 22,
+    "features": [
+      "nested_scopes",
+      "generators",
+      "division",
+      "absolute_import",
+      "with_statement",
+      "print_function",
+      "unicode_literals",
+      "barry_as_FLUFL",
+      "generator_stop",
+      "annotations"
+    ],
+    "n_features": 10,
+    "P1_other_than_annotations_mandatory_moved": {
+      "count": 2,
+      "which": [
+        "absolute_import",
+        "barry_as_FLUFL"
+      ],
+      "prediction": "at most 2",
+      "holds": true
+    },
+    "P3_field_asymmetry": {
+      "optional_ever_moved": 0,
+      "mandatory_ever_moved": 3,
+      "prediction": "optional 0, mandatory >= 1",
+      "holds": true
+    },
+    "P4_gap_distinct_values": {
+      "gaps_base100_minor": [
+        1,
+        2,
+        94,
+        95,
+        98,
+        99
+      ],
+      "n_distinct": 6,
+      "prediction": "at least 3 distinct",
+      "holds": true
+    }
+  },
+  "per_feature": {
+    "nested_scopes": {
+      "introduced_in": "2.1",
+      "optional_values": [
+        "2.1"
+      ],
+      "optional_changed": 0,
+      "mandatory_runs": [
+        {
+          "value": "2.2",
+          "since": "2.1",
+          "full": [
+            2,
+            2,
+            0,
+            "final",
+            0
+          ]
+        }
+      ],
+      "mandatory_changed": 0,
+      "final_mandatory": "2.2",
+      "gap_minor_versions": 1
+    },
+    "generators": {
+      "introduced_in": "2.2",
+      "optional_values": [
+        "2.2"
+      ],
+      "optional_changed": 0,
+      "mandatory_runs": [
+        {
+          "value": "2.3",
+          "since": "2.2",
+          "full": [
+            2,
+            3,
+            0,
+            "final",
+            0
+          ]
+        }
+      ],
+      "mandatory_changed": 0,
+      "final_mandatory": "2.3",
+      "gap_minor_versions": 1
+    },
+    "division": {
+      "introduced_in": "2.2",
+      "optional_values": [
+        "2.2"
+      ],
+      "optional_changed": 0,
+      "mandatory_runs": [
+        {
+          "value": "3.0",
+          "since": "2.2",
+          "full": [
+            3,
+            0,
+            0,
+            "alpha",
+            0
+          ]
+        }
+      ],
+      "mandatory_changed": 0,
+      "final_mandatory": "3.0",
+      "gap_minor_versions": 98
+    },
+    "absolute_import": {
+      "introduced_in": "2.5",
+      "optional_values": [
+        "2.5"
+      ],
+      "optional_changed": 0,
+      "mandatory_runs": [
+        {
+          "value": "2.7",
+          "since": "2.5",
+          "full": [
+            2,
+            7,
+            0,
+            "alpha",
+            0
+          ]
+        },
+        {
+          "value": "3.0",
+          "since": "3.3",
+          "full": [
+            3,
+            0,
+            0,
+            "alpha",
+            0
+          ]
+        }
+      ],
+      "mandatory_changed": 1,
+      "final_mandatory": "3.0",
+      "gap_minor_versions": 95
+    },
+    "with_statement": {
+      "introduced_in": "2.5",
+      "optional_values": [
+        "2.5"
+      ],
+      "optional_changed": 0,
+      "mandatory_runs": [
+        {
+          "value": "2.6",
+          "since": "2.5",
+          "full": [
+            2,
+            6,
+            0,
+            "alpha",
+            0
+          ]
+        }
+      ],
+      "mandatory_changed": 0,
+      "final_mandatory": "2.6",
+      "gap_minor_versions": 1
+    },
+    "print_function": {
+      "introduced_in": "2.6",
+      "optional_values": [
+        "2.6"
+      ],
+      "optional_changed": 0,
+      "mandatory_runs": [
+        {
+          "value": "3.0",
+          "since": "2.6",
+          "full": [
+            3,
+            0,
+            0,
+            "alpha",
+            0
+          ]
+        }
+      ],
+      "mandatory_changed": 0,
+      "final_mandatory": "3.0",
+      "gap_minor_versions": 94
+    },
+    "unicode_literals": {
+      "introduced_in": "2.6",
+      "optional_values": [
+        "2.6"
+      ],
+      "optional_changed": 0,
+      "mandatory_runs": [
+        {
+          "value": "3.0",
+          "since": "2.6",
+          "full": [
+            3,
+            0,
+            0,
+            "alpha",
+            0
+          ]
+        }
+      ],
+      "mandatory_changed": 0,
+      "final_mandatory": "3.0",
+      "gap_minor_versions": 94
+    },
+    "barry_as_FLUFL": {
+      "introduced_in": "3.1",
+      "optional_values": [
+        "3.1"
+      ],
+      "optional_changed": 0,
+      "mandatory_runs": [
+        {
+          "value": "3.9",
+          "since": "3.1",
+          "full": [
+            3,
+            9,
+            0,
+            "alpha",
+            0
+          ]
+        },
+        {
+          "value": "4.0",
+          "since": "3.8",
+          "full": [
+            4,
+            0,
+            0,
+            "alpha",
+            0
+          ]
+        }
+      ],
+      "mandatory_changed": 1,
+      "final_mandatory": "4.0",
+      "gap_minor_versions": 99
+    },
+    "generator_stop": {
+      "introduced_in": "3.5",
+      "optional_values": [
+        "3.5"
+      ],
+      "optional_changed": 0,
+      "mandatory_runs": [
+        {
+          "value": "3.7",
+          "since": "3.5",
+          "full": [
+            3,
+            7,
+            0,
+            "alpha",
+            0
+          ]
+        }
+      ],
+      "mandatory_changed": 0,
+      "final_mandatory": "3.7",
+      "gap_minor_versions": 2
+    },
+    "annotations": {
+      "introduced_in": "3.7",
+      "optional_values": [
+        "3.7"
+      ],
+      "optional_changed": 0,
+      "mandatory_runs": [
+        {
+          "value": "4.0",
+          "since": "3.7",
+          "full": [
+            4,
+            0,
+            0,
+            "alpha",
+            0
+          ]
+        },
+        {
+          "value": "3.10",
+          "since": "3.9",
+          "full": [
+            3,
+            10,
+            0,
+            "alpha",
+            0
+          ]
+        },
+        {
+          "value": "3.11",
+          "since": "3.10",
+          "full": [
+            3,
+            11,
+            0,
+            "alpha",
+            0
+          ]
+        },
+        {
+          "value": null,
+          "since": "3.11",
+          "full": null
+        }
+      ],
+      "mandatory_changed": 3,
+      "final_mandatory": null,
+      "gap_minor_versions": null
+    }
+  }
+}

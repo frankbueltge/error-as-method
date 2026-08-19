@@ -1,0 +1,108 @@
+{
+  "night": "2026-08-19",
+  "session": 62,
+  "what_this_is": "The half boundaries.py cannot do. For each feature, one signed verdict on WHY its MandatoryRelease holds the value(s) it holds, with the source that carries it. breach = a documented failure the boundary answers; schedule = a release convention, a language break, or a chosen round number; joke = a boundary set as a documented joke. The mechanical file counts moves; this file says what each move was for. Every reading is by hand.",
+  "governing_documents": {
+    "pep-236": "Sets the meaning of the two fields. Verbatim: OptionalRelease 'records the first release in which from __future__ import FeatureName was accepted'; MandatoryRelease 'predicts the release in which the feature will become part of the language' and 'may also be None, meaning that a planned feature got dropped'; 'No feature line will ever be deleted from __future__.py.' The policy: old code 'continues to work by default, for at least one release.'",
+    "pep-401": "PEP 401, 'BDFL Retirement', Barry Warsaw & Brett Cannon, Status: 'April Fool!', 01-Apr-2009. Adds barry_as_FLUFL, which reinstates the <> operator; an explicit joke.",
+    "pep-649": "PEP 649, Python-Version 3.14, 'Replaces: 563', Resolution 08-May-2023: supersedes PEP 563. States it 'would supersede PEP 563, and PEP 563's behavior would be deprecated and eventually removed' — which is why annotations' MandatoryRelease is now None."
+  },
+  "verdicts": [
+    {
+      "feature": "nested_scopes",
+      "mandatory": "2.2",
+      "moved": false,
+      "class": "schedule",
+      "reason": "One release after its 2.1 optional debut, matching PEP 236's 'at least one release' convention. PEP 236 gives this exact line as its worked example.",
+      "source": "https://peps.python.org/pep-0236/"
+    },
+    {
+      "feature": "generators",
+      "mandatory": "2.3",
+      "moved": false,
+      "class": "schedule",
+      "reason": "One release after its 2.2 optional debut. Schedule, not breach.",
+      "source": "sources/future-2.3.py"
+    },
+    {
+      "feature": "division",
+      "mandatory": "3.0",
+      "moved": false,
+      "class": "schedule",
+      "reason": "True division becomes the language default at the 2->3 break; the mandatory version is the language break itself (PEP 238 / PEP 3000), a schedule and not a defect.",
+      "source": "https://peps.python.org/pep-0236/"
+    },
+    {
+      "feature": "absolute_import",
+      "mandatory": "2.7 -> 3.0",
+      "moved": true,
+      "class": "corrected-prediction",
+      "reason": "Held (2,7,0) from CPython 2.5 through 3.2, then read (3,0,0) from 3.3 onward. The boundary predicted the feature would become mandatory in 2.7; it did not become the default in the 2.x line, and the record was corrected to the release where it actually did become the default (3.0). This is the corpus's one move that answers a FAILED PREDICTION rather than a schedule — and it is a failure of the boundary's own forecast, not a breakdown of the standard. It is the nearest thing to a breach in the corpus, and it is still not one.",
+      "source": "sources/future-2.5.py ; sources/future-3.2.py ; sources/future-3.3.py"
+    },
+    {
+      "feature": "with_statement",
+      "mandatory": "2.6",
+      "moved": false,
+      "class": "schedule",
+      "reason": "One release after its 2.5 optional debut. Schedule.",
+      "source": "sources/future-2.6.py"
+    },
+    {
+      "feature": "print_function",
+      "mandatory": "3.0",
+      "moved": false,
+      "class": "schedule",
+      "reason": "print becomes a function at the 2->3 break; the boundary is the language break.",
+      "source": "sources/future-3.0.py"
+    },
+    {
+      "feature": "unicode_literals",
+      "mandatory": "3.0",
+      "moved": false,
+      "class": "schedule",
+      "reason": "All string literals become unicode at the 2->3 break; the boundary is the language break.",
+      "source": "sources/future-3.0.py"
+    },
+    {
+      "feature": "barry_as_FLUFL",
+      "mandatory": "3.9 -> 4.0",
+      "moved": true,
+      "class": "joke",
+      "reason": "The feature is PEP 401's April Fool (Status: 'April Fool!'), reinstating <>. Its mandatory version held (3,9,0) from CPython 3.1 through 3.7, then was pushed to (4,0,0) at 3.8 — a round number chosen so the joke never actually lands, moved once the fake deadline came into view. FALSIFIER 1 MET, exactly as specified: a dated boundary set for a reason demonstrably not a breach, documented as such.",
+      "source": "https://peps.python.org/pep-0401/ ; sources/future-3.7.py ; sources/future-3.8.py"
+    },
+    {
+      "feature": "generator_stop",
+      "mandatory": "3.7",
+      "moved": false,
+      "class": "schedule",
+      "reason": "PEP 479 governs the change; the feature debuts optional at 3.5 and the mandatory version 3.7 is the scheduled end of its deprecation window. The CHANGE PEP 479 makes answers a real defect (StopIteration leaking out of generators), but the mandatory DATE in the boundary is a schedule, not the defect.",
+      "source": "sources/future-3.5.py ; sources/future-3.7.py"
+    },
+    {
+      "feature": "annotations",
+      "mandatory": "4.0 -> 3.10 -> 3.11 -> None",
+      "moved": true,
+      "class": "withdrawn-plan",
+      "reason": "PEP 563's postponed-evaluation plan. Placeholder (4,0,0) at 3.7-3.8, set to the planned default (3,10,0) at 3.9, deferred to (3,11,0) at 3.10, then None from 3.11 onward when PEP 649 (Resolution 08-May-2023, 'Replaces: 563') superseded it. The boundary walked all the way back to 'dropped'. This is the OPPOSITE of a breach: a promise abandoned because a better mechanism replaced it — and the abandonment is recorded, not erased, per 'No feature line will ever be deleted.'",
+      "source": "https://peps.python.org/pep-0649/ ; sources/future-3.9.py ; sources/future-3.11.py"
+    }
+  ],
+  "tally": {
+    "features": 10,
+    "mandatory_set_by_breach": 0,
+    "mandatory_set_by_schedule_or_break": 7,
+    "mandatory_set_by_joke": 1,
+    "mandatory_corrected_prediction": 1,
+    "mandatory_withdrawn_plan": 1,
+    "optional_ever_moved": 0
+  },
+  "falsifier_1_verdict": {
+    "asked": "A written rule with a dated boundary set for a reason that is demonstrably not a breach — a release schedule, a legal date, a round number — documented as such.",
+    "met": true,
+    "cleanest_case": "barry_as_FLUFL: mandatory (4,0,0), a round number chosen as a documented April Fool (PEP 401), moved specifically to keep the joke from ever becoming real.",
+    "breadth": "Not one case but ten: zero of the ten MandatoryRelease values in the corpus is set by a breach. Seven are schedules or the 2->3 language break, one is a joke, one is a corrected failed prediction, one is a withdrawn plan.",
+    "consequence_for_S61_candidate": "S61's candidate said a norm's genesis is legible where its FORM carries a boundary. Here the form is a version tuple in BOTH the recording field (OptionalRelease) and the predicting field (MandatoryRelease) — identical form, opposite epistemic status. The recording field never moved across 22 releases; the predicting field moved in 3 of 10. So the form of a boundary does not carry whether it records or predicts; only the prose (PEP 236, the docstring) does. The candidate is falsified as stated and sharpened below."
+  }
+}
