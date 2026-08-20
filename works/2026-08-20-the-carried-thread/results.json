@@ -1,0 +1,124 @@
+{
+  "night": "2026-08-20",
+  "session": 63,
+  "phrase_under_test": "generative unknowing",
+  "A_the_book": {
+    "pages": 286,
+    "words": 64795,
+    "phrase_exact": 0,
+    "phrase_variants": {
+      "generative un-knowing": 0,
+      "generatively unknowing": 0,
+      "productive not-yet-knowing": 0
+    },
+    "counts": {
+      "error": 90,
+      "errors": 58,
+      "glitch": 396,
+      "glitches": 80,
+      "unknowing": 2,
+      "generative": 10,
+      "poetics": 103,
+      "stein": 14
+    },
+    "unknowing_occurrences": [
+      {
+        "char": 21024,
+        "pdf_page_1based": 22,
+        "context": "ia art, the deliberate errors in glitching litera - ture translate the oddly errant media conditions of our time into a readable form: exposing us and deepening our understanding of the ways computational and net- worked technologies err and falter. Error and Unknowing Error can be etymologically traced to the Latin errare: to wander or stray from the truth. But, as I have suggested in the prologue to this book, the sense that something is becoming wrong has perversely become one of the most emphatic truths of our"
+      },
+      {
+        "char": 88581,
+        "pdf_page_1based": 66,
+        "context": "eyond \u2018corrupted\u2019 or \u2018dirty\u2019 aesthetics. Drawing on Parisi\u2019s work, Betti Marenko (2015) notes that the \u2018glitch-event\u2019 is the manifestation of an algo - rithm\u2019s \u2018unknown ability\u2019 in its soft thought mode. In this sense, an algorithmic glitch is still a form of unknowing: a \u2018machine\u2019s own incomprehensible, non - human thought\u2019 manifests itself as a glitch because it reaches outside normalised determinations. Marenko suggests that it is both the \u2018incomprehensible\u2019 capac - ity of algorithms to produce differentiating o"
+      }
+    ],
+    "generative_contexts": [
+      "punc- tuation and grammar. In this way, Scourti\u2019s glitches date the media it uses. Combinatory and Generative Error Gertrude Stein\u2019s How to Write (1931 [1978]) runs through grammatical possibilities",
+      "paragraph or sentence, but rather on the logic that one word will follow the next. Stein\u2019s work is generative (and very much like Scourti\u2019s) in the sense that it uses the current word as the sole det",
+      "ns its meaning. The effect is disarming, if not believable. The difference between the combinatory, generative literature derived from Strachey\u2019s machine and today\u2019s predictive text (or chatbots) is t",
+      "sand Billion Sonnets, published in French in 1961, is another touch - stone work in the lineage of \u2018generative\u2019 literature that emerges from the intersection of Stein\u2019s grammar experiments and Strache",
+      "s meaning is made and so become aware of the arbitrariness that underlies the comput - er\u2019s seeming generative magic. Coding mark-up is a neat, subtly critical tool in this sense, and Carpenter\u2019s read",
+      "formances. The fact that limited databases of text can be called on in ways that can be said to be \u2018generative\u2019 , i.e. making new, is due to the large number of ways they can be combined, which produc",
+      "it is precisely what is not-real \u2013 that is, what is fictional \u2013 in literature, that constitutes its generative dimen - sion and its contribution to science: what they call the \u2018mytho-poetic\u2019 function",
+      "s Watt\u2019 (2014, 3), which features passages written by a machine using English- language syntax as a generative engine, which end up looking remarkably like the human-written passages in the original:",
+      "4, 14) Montfort\u2019s work doesn\u2019t simply point to an affinity between Beckett\u2019s WWII-era novel and the generative literature of today, but instead makes an observation about the astuteness of Beckett\u2019s e",
+      "d examples of interpretation\u2019. [online] Medienkunstnetz.de. <http:/ /www. medienkunstnetz.de/themes/generative-tools/ computer_art/14/#ftn60> [Accessed 28 April 2021]. Williams, Raymond. 1977. Marxism"
+    ],
+    "min_char_gap_generative_to_unknowing": 60437,
+    "approx_pages_apart": 42.5
+  },
+  "B_the_review": {
+    "words": 2773,
+    "phrase_exact_total": 3,
+    "phrase_in_title_string": 3,
+    "unknowing_total": 5,
+    "occurrences": [
+      {
+        "char": 12,
+        "in_title_or_masthead": true,
+        "context": "Generative Unknowing: Nathan Allen Jones' Glitch Poetics | ebr electronic book review ebr@30 | about | submissions | publications | gatherings | newsletters | subscribe Search... GO digital futures of literature, theory, criticism, and the arts electronic book review ebr@30 about submissions publications gathe"
+      },
+      {
+        "char": 991,
+        "in_title_or_masthead": true,
+        "context": "uage (not computer code) that is the primary method by which these tools take instruction and learn. - April 2, 2023 other work by Richard A. Carter Executable Landscapes: Speculative Platforms and Environmental E-Literature Electronic Literature in the Anthropocene article Peer Reviewed Generative Unknowing: Nathan Allen Jones' Glitch Poetics by Richard A. Carter Sunday, December 4th 2022 https://doi.org/10.7273/f72z-ac69 In his review of Glitch Poetics , Richard Carter finds more than a close reading of contemporary e-lit and AI enhanced writing. In a book that is both aesthetic and machinic"
+      },
+      {
+        "char": 6766,
+        "in_title_or_masthead": false,
+        "context": "luenced significantly by the earlier work of Olga Goriunova (2019) and Rosa Menkman (2011), grounds his conception of digital error in the work of varied glitch artists and theorists, who attentively foster or recreate the surprising, radiant, emergent disruptions of digital breakdowns as a way of \u2018unknowing\u2019 our expectations and understandings of technology. In other words, these figures perceive how the failures heralded by glitches span across technologies, cultures, and languages in ways that highlight the hidden structures and processes that enable and delimit the digital encounter. It is"
+      },
+      {
+        "char": 16716,
+        "in_title_or_masthead": false,
+        "context": "e. In championing the possibilities for meaning in texts that speak to digital conditions but are irreducible to them, Glitch Poetics highlights the role of future art in exceeding the capacity of technical systems to subsume errors of playful misuse, and thus, the inherent generative potentials of unknowing the digital. Figure 2. Stable Diffusion output using the prompt \u2018glitch poetics\u2019, generated by the author. Bibliography Berlant, L. (2016) The Commons: Infrastructures for Troubling Times. Environment and Planning D. Society and Space 34(3) 393-419. DOI: https://doi.org/10.1177/02637758166"
+      },
+      {
+        "char": 17907,
+        "in_title_or_masthead": true,
+        "context": "065-2 . Jones, N. (2022) Glitch Poetics . Open Humanities Press. Jones, N. (2022) On the Point of Tearing and Disintegrating Uncontrollably . Open Humanities Press. Menkman, R. (2011). The Glitch Moment(um) . Amsterdam: Institute of Network Cultures. Cite this article Carter, Richard A. \"Generative Unknowing: Nathan Allen Jones' Glitch Poetics\" electronic book review , 4 December 2022, https://doi.org/10.7273/f72z-ac69 Scroll to Top ebr is an online, open access, peer-reviewed journal of critical writing. All articles are peer reviewed. other work in machine-writing A Posthumanist Genealogy 'O"
+      }
+    ]
+  },
+  "C_this_repository": {
+    "corpus": "the repository at commit 9b28c29 \u2014 the state origin/main was in when this night was cut, so nothing written tonight can enter the count",
+    "corpus_files_scanned": 461,
+    "files_containing_phrase": 31,
+    "total_occurrences": 74,
+    "per_file": {
+      "works/2026-08-16-built-on-an-installed-base/work.md": 8,
+      "journal/2026-08-16-session-59.md": 6,
+      "works/2026-08-16-built-on-an-installed-base/register.json": 5,
+      "works/genealogie.md": 5,
+      "journal/2026-07-13-sitzung-25.md": 4,
+      "journal/2026-07-13.md": 4,
+      "works/INDEX.md": 4,
+      "REQUESTS.md": 3,
+      "journal/2026-06-28-sitzung-2.md": 3,
+      "journal/2026-06-29.md": 3,
+      "journal/2026-07-14.md": 3,
+      "journal/2026-06-30-sitzung-8.md": 2,
+      "pulse/rhizome.json": 2,
+      "works/2026-07-13-generative-unknowing/experiment.py": 2,
+      "works/2026-07-13-generative-unknowing/work.astro": 2,
+      "works/2026-08-16-built-on-an-installed-base/results.json": 2,
+      "works/fehlerkataster-002.md": 2,
+      "journal/2026-06-29-sitzung-6.md": 1,
+      "journal/2026-06-30-sitzung-11.md": 1,
+      "journal/2026-06-30.md": 1,
+      "journal/2026-07-10.md": 1,
+      "journal/2026-07-12.md": 1,
+      "journal/2026-08-16.md": 1,
+      "journal/2026-08-18.md": 1,
+      "works/2026-07-11-the-closing-loop/measure.py": 1,
+      "works/2026-07-13-generative-unknowing/meta.json": 1,
+      "works/2026-08-16-built-on-an-installed-base/meta.json": 1,
+      "works/fehlerkataster-021.md": 1,
+      "works/parry-problem.md": 1,
+      "works/position-2026-07-01.md": 1,
+      "works/position-2026-07-14.md": 1
+    },
+    "work_titled_with_the_phrase": true
+  }
+}

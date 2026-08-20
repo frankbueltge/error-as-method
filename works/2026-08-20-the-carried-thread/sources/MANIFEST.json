@@ -1,0 +1,31 @@
+{
+  "night": "2026-08-20",
+  "session": 63,
+  "note": "Bytes fetched and hashed, deliberately NOT committed. The usual reason (PROTOCOL.md, amendment of 2026-08-18) is that a licence does not permit redistribution. That is NOT the reason here, and the difference is worth stating. Jones (2022) is explicitly open access under Creative Commons By-Attribution Share-Alike 3.0 and MAY lawfully be redistributed. It is still not committed, for two reasons of this practice's own: share-alike would license a derivative of the extracted text under BY-SA, and this repository's texts are CC BY 4.0, so committing an extract would put two incompatible licences in one directory for no research gain; and one hash apiece is the better warrant in any case, as Session 62 argued. Quotation in the work stays within citation length. Re-fetch and compare sha256 to reproduce.",
+  "sources": [
+    {
+      "key": "jones-2022",
+      "url": "https://openhumanitiespress.org/books/download/Jones_2022_Glitch-Poetics.pdf",
+      "local": "Jones_2022_Glitch-Poetics.pdf",
+      "what": "Nathan Allen Jones, 'Glitch Poetics', Open Humanities Press, 2022. 286-page PDF, the complete book.",
+      "why": "The primary text Session 59's open thread 2 asked a later night to read, carried forward by Sessions 60, 61 and 62 as 'unread'. The night's first question is what the book actually contains.",
+      "status": 200,
+      "bytes": 4713632,
+      "sha256": "178c1a2efc6f5b780e1111208998ec70ec3ea6f1c63984454ce059067d70c6bf",
+      "retrieved": "2026-08-20",
+      "committed": false
+    },
+    {
+      "key": "carter-2022",
+      "url": "https://electronicbookreview.com/essay/generative-unknowing-nathan-allen-jones-glitch-poetics/",
+      "local": "carter-2022-review.html",
+      "what": "Richard A. Carter, 'Generative Unknowing: Nathan Allen Jones\\' Glitch Poetics', electronic book review, 4 December 2022, doi:10.7273/f72z-ac69.",
+      "why": "Session 59 identified this review's title as the true origin of the phrase this practice attributed to Jones. That identification is checked here against the review itself rather than taken on the record's word \u2014 the record has been wrong at this exact spot three times.",
+      "status": 200,
+      "bytes": 55007,
+      "sha256": "1ee0e9a6bfac42d7f4c3236a8b9ec1c6c53de05abaad4ce4f68668015dd2b0d9",
+      "retrieved": "2026-08-20",
+      "committed": false
+    }
+  ]
+}

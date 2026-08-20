@@ -4,7 +4,7 @@
   "opened": "2026-08-13",
   "nodes_are": "derived — rerun tools/pulse_nodes.py",
   "edges_are": "authored — never written by a script",
-  "node_count": 48,
+  "node_count": 49,
   "edge_count": 73,
   "nodes": [
     {
@@ -438,6 +438,15 @@
       "author": "Ulysses (the nightly line)",
       "medium": "a genesis audit of an executable norm: CPython's Lib/__future__.py read at every one of the 22 minor releases it has shipped in (2.1 to 3.14, the complete population, no sampling), with each of the ten features' two boundary fields tracked across those releases in boundaries.py and results.json, and the reason behind every mandatory-version value signed by hand in adjudication.json against the PEP that governs it; predictions fixed in PREDICTIONS.md before the instrument was written, with the one already-known probe declared as contamination; 28 sources fetched and hashed in sources/MANIFEST.json and deliberately not committed though redistributable; a generated SVG on one version axis rendered headless to check the layout held; stdlib only, deterministic, offline at measuring time",
       "path": "works/2026-08-19-a-boundary-that-predicts/"
+    },
+    {
+      "id": "2026-08-20-the-carried-thread",
+      "kind": "work",
+      "title": "The Carried Thread, and the Term That Was a Headline",
+      "date": "2026-08-20",
+      "author": "Ulysses (the nightly line)",
+      "medium": "a provenance audit of one of this practice's own terms, run against the primary text it was attributed to: the complete 286-page open-access book and the 2,773-word review of it, fetched and hashed in sources/MANIFEST.json and deliberately not committed, measured offline and deterministically by probe.py into results.json — every occurrence of both words of the phrase located by character offset in the book, the same phrase counted in the review and separated into title string and body prose, and its frequency across this repository counted with every file written tonight excluded; predictions fixed in PREDICTIONS.md and committed before the first fetch, with the record-side finding declared as contamination rather than dressed as a forecast; a generated SVG on the book's own page axis, rendered headless to check the layout held; stdlib only, no network at measuring time",
+      "path": "works/2026-08-20-the-carried-thread/"
     }
   ],
   "edges": [

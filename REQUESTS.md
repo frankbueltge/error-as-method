@@ -6,6 +6,71 @@ decides for itself and journals the decision.
 
 ---
 
+## From the practice — 2026-08-20 (Session 63) — a term of ours that is nobody's, and one wrong flag in your register
+
+> tl;dr: I took the cheapest item on Session 62's list — *read Jones's* Glitch Poetics, *unread* —
+> and it was false twice over. **The book was read on our seventh night, accurately.** And the term
+> we took from it, **generative unknowing**, is not in it: zero occurrences in 286 pages. It is the
+> title of the review of the book, and in the reviewer's own prose the word is a verb. We have used
+> it 74 times across 31 files and named a work after it.
+> braucht: nothing from you. One report you may want to act on: a flag in `papers/register.json`
+> that is wrong and was never checked.
+> frist: none.
+> kontext: `works/2026-08-20-the-carried-thread/` · `works/fehlerkataster-023.md` ·
+> `journal/2026-08-20.md` · S59's item above, which this corrects and completes
+
+**1. The reading was right and the naming was borrowed, and that distinction is the finding.**
+Session 59 established that *generative unknowing* is Richard A. Carter's review title, not Jones's
+phrase, and told a later night to read the book. I read it. The phrase occurs **zero times**;
+`unknowing` occurs **twice** and `generative` **ten** times, and the two never come within about
+42 pages of each other — so the phrase is not even a compression of Jones, but a collision of two
+words from two arguments. In Carter's body prose *unknowing* is **a verb** — *"a way of 'unknowing'
+our expectations"* — which his title nominalises, as titles do. We read the nominalisation as
+vocabulary, and by Session 24 it had become a property a machine has rather than an act a reader
+performs.
+
+What was **not** wrong is the half I would rather you had from me: **Session 7 read that book
+correctly.** All six of its quoted passages are in the text, at the places claimed, correctly
+attributed. Nothing is withdrawn — not the work that carries the name, whose subject is genuinely
+in Jones and accurately quoted. Only the name is borrowed, and it stands with a dated correction
+beside it rather than being edited away.
+
+The general form, which is what I think is worth something: **every instrument this practice owns
+checks whether a text was read correctly, and not one checks whether a name for what was read is
+the source's name or a headline's.** A name does not look like a claim; it looks like a label on
+one, so it travels without being asked for its papers. Offered to tomorrow's position work as a
+candidate with three falsifiers, and **not promoted**.
+
+**2. One flag in your register is wrong, and its own fields say why.** `papers/register.json`,
+entry `jones-glitch-poetics`, carries `"frei_zugaenglich": false` while the same entry's summary
+ends *"Open access PDF at the publisher."* The entry contradicts itself, and the check fields
+explain it: `"geprueft": false`, `"pruef_vermerk": "aus kuratierter Sammlung übernommen, Adresse
+noch nicht angefragt"`. The address was never requested, so the boolean is a default rather than a
+finding — and it is wrong. I fetched the PDF tonight at HTTP 200, and the book states its own
+licence as Creative Commons By-Attribution Share-Alike. One boolean, verifiable in one fetch. Not
+my file; reported, not fixed.
+
+**3. And your register knew something this repository did not.** The same entry's `relevanz` field
+reads *"Already primary-verified in Session 7 — anchored here."* **A catalogue on the open web
+recorded that we had read this book, while four consecutive sessions of ours were telling each
+other it was unread.** I did not expect the corroboration to come from outside, and it is the best
+argument I have seen for the feeds you opened on 2026-08-13 being more than a convenience.
+
+**4. Session 62 asked Session 63 to decide whether the norms line is a line or a rut. Decided:**
+a line, and paused rather than struck. Sixteen nights on institutions sharpened the position once,
+and that single gain was returned the next night when S58 found *installed base* defined by Star &
+Ruhleder in 1996. This line's measurements test its claims; its readings test its vocabulary; and
+the vocabulary is where the errors have been. Tomorrow's seventh night may reverse that in a
+sentence, and it also owes an answer on your offered title — S60 dated *Failure as Source* to S64
+rather than leaving it standing, and that date is tomorrow.
+
+**5. Still open from before me, unchanged and still declinable:** S60's ask for v2 and the
+2026-07-15 amendment in `archive/protocols/`, now three sessions old.
+
+— Ulysses (the nightly line), Session 63
+
+---
+
 ## From the practice — 2026-08-18 (Session 61) — the register is open again, and your rule of this morning is in it
 
 > tl;dr: Session 60's falsifier 1 was run outside this repository and **it is met**: four of the

@@ -1,0 +1,15 @@
+# The harvested bytes are fetched and hashed, never committed. The usual reason is
+# the licence rule (PROTOCOL.md, amendment of 2026-08-18); it is NOT the reason here.
+# Jones (2022) is CC By-Attribution Share-Alike 3.0 and MAY lawfully be redistributed.
+# It stays out anyway because share-alike would license a derivative of the extracted
+# text under BY-SA while this repository's texts are CC BY 4.0 — two incompatible
+# licences in one directory for no research gain — and because one hash apiece is the
+# better warrant regardless. MANIFEST.json beside them is that warrant; re-fetch and
+# compare the sha256, and see F-049 for where a hash does not warrant an HTML page.
+#
+# This file lives here rather than in the repository root because the auto-land gate's
+# allowlist covers works/ and does not cover /.gitignore, and it refused the night of
+# 2026-08-18 for exactly that (F-046).
+*
+!.gitignore
+!MANIFEST.json
