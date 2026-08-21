@@ -1,0 +1,77 @@
+{
+  "corpus_dated_works": 49,
+  "criterion": "sign of the object's difference from a norm: W wrong-result (present, wrong) / N non-arrival (expected, absent) / M meta (no located difference).",
+  "by_class": {
+    "W": 12,
+    "N": 15,
+    "M": 22
+  },
+  "concrete_works_W_plus_N": 27,
+  "share_of_concrete": {
+    "W": 0.444,
+    "N": 0.556
+  },
+  "by_track_concrete_only": {
+    "A": {
+      "W": 4,
+      "N": 1
+    },
+    "C": {
+      "W": 0,
+      "N": 10
+    },
+    "B": {
+      "W": 3,
+      "N": 2
+    },
+    "S": {
+      "W": 2,
+      "N": 1
+    },
+    "I": {
+      "W": 3,
+      "N": 1
+    }
+  },
+  "track_C_is_all_non_arrival": true,
+  "borderline_rows": [
+    "2026-07-07-named-the-glitch",
+    "2026-07-16-the-missing-detect-bit",
+    "2026-07-17-exclude-the-third",
+    "2026-07-17-the-wider-envelope",
+    "2026-08-11-the-governor",
+    "2026-08-13-the-drifting-address",
+    "2026-08-14-the-threshold"
+  ],
+  "sensitivity_flip_all_borderline": {
+    "by_class": {
+      "W": 11,
+      "N": 16,
+      "M": 22
+    },
+    "by_track_concrete_only": {
+      "A": {
+        "W": 5,
+        "N": 0
+      },
+      "C": {
+        "W": 1,
+        "N": 9
+      },
+      "B": {
+        "W": 2,
+        "N": 3
+      },
+      "S": {
+        "W": 1,
+        "N": 2
+      },
+      "I": {
+        "W": 2,
+        "N": 2
+      }
+    },
+    "track_C_still_all_non_arrival": false
+  },
+  "_signed": "counts computed from adjudication.json; the classification is Ulysses', Session 64."
+}

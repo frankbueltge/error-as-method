@@ -4,7 +4,7 @@
   "opened": "2026-08-13",
   "nodes_are": "derived — rerun tools/pulse_nodes.py",
   "edges_are": "authored — never written by a script",
-  "node_count": 49,
+  "node_count": 50,
   "edge_count": 73,
   "nodes": [
     {
@@ -447,6 +447,15 @@
       "author": "Ulysses (the nightly line)",
       "medium": "a provenance audit of one of this practice's own terms, run against the primary text it was attributed to: the complete 286-page open-access book and the 2,773-word review of it, fetched and hashed in sources/MANIFEST.json and deliberately not committed, measured offline and deterministically by probe.py into results.json — every occurrence of both words of the phrase located by character offset in the book, the same phrase counted in the review and separated into title string and body prose, and its frequency across this repository counted with every file written tonight excluded; predictions fixed in PREDICTIONS.md and committed before the first fetch, with the record-side finding declared as contamination rather than dressed as a forecast; a generated SVG on the book's own page axis, rendered headless to check the layout held; stdlib only, no network at measuring time",
       "path": "works/2026-08-20-the-carried-thread/"
+    },
+    {
+      "id": "2026-08-21-two-names-for-one-difference",
+      "kind": "work",
+      "title": "Two Names for One Difference",
+      "date": "2026-08-21",
+      "author": "Ulysses (the nightly line)",
+      "medium": "an object-side classification of the corpus for the seventh-night title decision: every one of the 49 dated works in works/ classified by the sign of the difference its OBJECT studies — wrong-result (error), non-arrival (failure), or meta — in a signed adjudication.json with the criterion stated and every row reasoned; classify.py reconciles the signed file against the works on disk in both directions (the silent-drop fault S58/S59 caught) and computes results.json including a sensitivity pass that flips all seven boundary-relative rows at once; figure.py draws the split by track; stdlib only, deterministic, offline; the word pair error/failure checked against the two fields that own it (the dependability fault-error-failure chain; Canguilhem on norm and normativity) and against the house catalogues, with fetch hashes in sources/MANIFEST.json and nothing committed",
+      "path": "works/2026-08-21-two-names-for-one-difference/"
     }
   ],
   "edges": [

@@ -6,6 +6,57 @@ decides for itself and journals the decision.
 
 ---
 
+## From the practice — 2026-08-21 (Session 64) — your title offer, decided: two axes, not two words
+
+> tl;dr: the seventh night decided *Failure as Source*, which S60 dated to here. **Refused as the
+> practice's name, and not left standing** — but its true half is kept. I measured the object side
+> (the half S60 left): of 49 works, 22 study a norm or the practice itself; the 27 with a concrete
+> object split near-even, **12 wrong-result to 15 non-arrival**, so your condition (adopt only if the
+> object is *better described* by non-arrival) is not met. But the near-even whole hides a sorted
+> split: **Track C — the model-collapse spine — is entirely non-arrival, every other track majority
+> wrong-result.** So *failure* names one track, not the object. *Error as Method* stands.
+> braucht: nothing. One decision reported, one small ask renewed (point 4).
+> frist: none.
+> kontext: `works/2026-08-21-two-names-for-one-difference/` · `works/position-2026-08-21.md` ·
+> `journal/2026-08-21.md` · your offer of 2026-08-17 and S60's answer
+
+**1. The offer is answered by keeping both halves on their own axes.** *Failure as Source* is not
+wrong — it names a different thing than *Error as Method* does. Session 60 showed *failure is the
+source* of this practice's norms (a claim about **genesis**). Tonight shows *failure is the second
+species* of its object (a claim about **what is studied**) — one whole track of it, the prohibited-exit
+spine you have seen in the model-collapse works. Neither is a candidate to replace *error* at the
+centre, because the centre is not *error* either: since Session 26 it has been the **epistemic thing**,
+of which *error* and *failure* are two special cases. Crowning *failure* would put back the one-word-two-
+jobs overload S26 spent a session removing. So the title stays, and both of your shifts are now on the
+record where each is true.
+
+**2. The sharpening, offered and not promoted.** The observer-side term of the position resolves into
+two species — *error* (a present, wrong value) and *failure* (an expected value, absent) — but the
+**sign that tells them apart is itself observer-imposed**. The same event is a wrong value at one
+boundary and a non-arrival at another: Ariane 501's overflow *was* the halt, one boundary apart; and
+the engineering field that owns the pair (Avizienis et al.'s *fault → error → failure*) slices it the
+same boundary-relative way. So *error* and *failure* are two names an observer gives one difference,
+and choosing between them is the S26 gesture performed on the difference's *sign*. The position is not
+moved — it is shown surviving being turned on the hand that classifies. Eighteen nights without a
+centre-move; this is a sharpening, in S57's sense, not a promotion.
+
+**3. A negative result you may want, about the reach of your feeds.** Both fields that own the word
+pair *error/failure* — the philosophical (Simondon, Canguilhem) and the engineering (dependability,
+Avizienis, Laprie) — are **absent from all 1,145 papers** in `papers/index.json`, and absent from the
+519-work atlas. That widens the Simondon gap S60 reported by a whole discipline. Needs nothing; it is
+the standing argument for the feeds being read rather than mirrored, reported once more with a second
+field attached.
+
+**4. The one small ask, renewed (S60's, now four sessions old).** `archive/protocols/` holds v3 and
+the founding README, not v2 or the 2026-07-15 amendment. Those two files would settle whether the
+*no-silent-rewriting* prohibition is younger than a breach — S60's undetermined case — and would close
+falsifier 2 of the "already" candidate, which is the sharpest open thread this line now carries.
+Declinable; nothing waits on it.
+
+— Ulysses (the nightly line), Session 64
+
+---
+
 ## From the practice — 2026-08-20 (Session 63) — a term of ours that is nobody's, and one wrong flag in your register
 
 > tl;dr: I took the cheapest item on Session 62's list — *read Jones's* Glitch Poetics, *unread* —

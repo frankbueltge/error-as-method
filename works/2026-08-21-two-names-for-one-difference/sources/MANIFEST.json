@@ -1,0 +1,52 @@
+{
+  "_what": "External sources consulted for Session 64's title decision. Nothing is committed here. The measurement is offline over this repository's own works/; the sources below are the field checks the night owed — the disciplines that already own the word pair 'error / failure' — and the house catalogues consulted before claiming novelty. The bytes are not redistributed; a reader re-fetches and compares.",
+  "_note_on_simondon": "The Simondon passage (MEOT p. 202-206) that grounds 'failure as source' is NOT re-fetched here. It remains unreachable in the primary, exactly as Session 60 reported after five routes; this night rests on Session 60's already-committed quotation from Hottois (1993) and does not restate it. S60's falsifier 2 (read the primary) still stands.",
+  "sources": [
+    {
+      "id": "avizienis-2004-taxonomy",
+      "what": "Avizienis, Laprie, Randell, Landwehr — 'Basic Concepts and Taxonomy of Dependable and Secure Computing', IEEE TDSC 1(1), 2004. The canonical engineering taxonomy that owns 'fault / error / failure'.",
+      "why": "The word pair error/failure is not this practice's to define fresh. Dependability theory defines them as stages of a causal chain: a fault (adjudged cause) activates an ERROR (the part of system state that may cause a failure), which becomes a service FAILURE when it reaches the service interface and the delivered service deviates from correct. Cited so this night's cut (error = present-wrong, failure = absent-expected) is placed against the field's cut (causal stage), not offered as if the terms were free.",
+      "definitions_as_read": {
+        "failure": "an event that occurs when the delivered service deviates from correct service",
+        "error": "that part of the total state of the system that may cause a subsequent failure / the detectable part of the system state",
+        "fault": "the adjudged or hypothesized cause of an error"
+      },
+      "urls": [
+        "https://dl.acm.org/doi/10.1109/TDSC.2004.2",
+        "https://people.cs.rutgers.edu/~rmartin/teaching/spring03/cs553/readings/avizienis00.pdf"
+      ],
+      "access": "definitions read via web-search extraction of the two mirrors 2026-08-21; both PDF mirrors failed to decode to clean text on direct fetch, so the wording above is quoted as returned by extraction and is standard across the paper's mirrors — a reader should confirm against the IEEE version of record.",
+      "committed": false
+    },
+    {
+      "id": "canguilhem-normal-pathological",
+      "what": "Georges Canguilhem, 'The Normal and the Pathological' (Le normal et le pathologique). The philosophy of the norm that owns error-as-relation-to-a-norm.",
+      "why": "Grounds the S26 subtraction (error = a norm imposed on a difference) in the field rather than in this practice's coinage. Canguilhem's 'normativity' — the living being's capacity to institute new norms — is the concept behind Simondon's genetic point (the failure creates the standing-apart from which a norm can be set). Consulted; confirms S26, does not move it.",
+      "urls": [
+        "https://philpapers.org/rec/CANTNA"
+      ],
+      "access": "read via web summary and PhilPapers record 2026-08-21; the monograph itself not read in full — held at that strength.",
+      "committed": false
+    },
+    {
+      "id": "house-atlas-werke",
+      "what": "The house catalogue of data art, consulted before claiming this night's move is new.",
+      "url": "https://frankbueltge.de/atlas/werke.json",
+      "fetched": "2026-08-21",
+      "entries": 519,
+      "sha256": "222a7524d2ec5557f0587ecc40578ef4e72ad5f384e67afd4297eb9efe8225e2",
+      "result": "Zero on simondon, canguilhem, dependability, avizienis, laprie. 15 substring hits on 'failure', all glitch/AI-abject works (AI Delivered: The Abject; Computer Glitches as 3D Objects; ...); none is a work that classifies a practice's own object-types as error vs non-arrival. No neighbour on the shelf. Standing caveat: 519 works of data art is not the world.",
+      "committed": false
+    },
+    {
+      "id": "house-papers-index",
+      "what": "The house papers register, consulted for the field this night rests on.",
+      "url": "https://frankbueltge.de/papers/index.json",
+      "fetched": "2026-08-21",
+      "entries": 1145,
+      "sha256": "e565b87964bd3e86686f29fa891332129bdf6d4a364c2d843e996a7ba4fe72e2",
+      "result": "Zero on simondon, canguilhem, dependability, avizienis, laprie, normativ, bachelard. 6 on rheinberger (where S26 got the position). So BOTH fields that own error/failure — the philosophical (Simondon, Canguilhem) and the engineering (dependability) — are absent ecology-wide. The feed keeps moving: 1,106 (instruction) -> 1,119 -> 1,128 -> 1,127 (S60) -> 1,145 tonight. Fetched, not committed.",
+      "committed": false
+    }
+  ]
+}
