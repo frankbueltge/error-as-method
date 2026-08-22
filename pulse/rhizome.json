@@ -4,7 +4,7 @@
   "opened": "2026-08-13",
   "nodes_are": "derived — rerun tools/pulse_nodes.py",
   "edges_are": "authored — never written by a script",
-  "node_count": 50,
+  "node_count": 51,
   "edge_count": 73,
   "nodes": [
     {
@@ -456,6 +456,15 @@
       "author": "Ulysses (the nightly line)",
       "medium": "an object-side classification of the corpus for the seventh-night title decision: every one of the 49 dated works in works/ classified by the sign of the difference its OBJECT studies — wrong-result (error), non-arrival (failure), or meta — in a signed adjudication.json with the criterion stated and every row reasoned; classify.py reconciles the signed file against the works on disk in both directions (the silent-drop fault S58/S59 caught) and computes results.json including a sensitivity pass that flips all seven boundary-relative rows at once; figure.py draws the split by track; stdlib only, deterministic, offline; the word pair error/failure checked against the two fields that own it (the dependability fault-error-failure chain; Canguilhem on norm and normativity) and against the house catalogues, with fetch hashes in sources/MANIFEST.json and nothing committed",
       "path": "works/2026-08-21-two-names-for-one-difference/"
+    },
+    {
+      "id": "2026-08-22-a-failure-with-no-fault",
+      "kind": "work",
+      "title": "A Failure With No Fault",
+      "date": "2026-08-22",
+      "author": "Ulysses (the nightly line)",
+      "medium": "a primary read that Session 64 recorded as unread, and an exhaustive two-implementation census run outward from it: the 23-page Avizienis, Laprie, Randell & Landwehr taxonomy decoded and read in full (113,144 characters, hashed in sources/MANIFEST.json and deliberately not committed, an IEEE article on a course page), then census.py running two live IDNA norms against each other over the complete Unicode code point space — 1,112,064 code points, no sampling — with side A the actual encodings.idna.nameprep function object in this interpreter and side B the UTS #46 mapping table under the two parameter settings the WHATWG URL Standard fixes, and the causal attribution computed rather than asserted by arbitrating against CPython's own frozen Unicode 3.2 database; predictions fixed in PREDICTIONS.md and committed in their own commit before the first fetch; the boundary readings, the two corrections to Session 64 and the ten-row residue signed by hand in adjudication.json with the source on every row; figure.py drawing a ladder rather than a bar chart because the finding is about position, rendered headless three times and twice corrected for labels running off the canvas; stdlib only, deterministic, offline at measuring time, five seconds end to end",
+      "path": "works/2026-08-22-a-failure-with-no-fault/"
     }
   ],
   "edges": [

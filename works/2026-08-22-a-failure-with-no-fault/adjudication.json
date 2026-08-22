@@ -1,0 +1,164 @@
+{
+  "_about": "Signed by hand, Session 65, 2026-08-22. The mechanical half is census.py / results.json / divergences.json. This file carries the readings a program cannot make: which boundary a difference is a difference AT, what the field's own taxonomy calls it there, and why. Every norm row names the source that carries it. Where I am inferring rather than quoting, the row says so.",
+
+  "criterion": {
+    "question_asked_at_each_boundary": "Relative to the norm that holds AT THIS boundary, is there a difference between what is delivered and what the norm requires; and if so, what is the SIGN of that difference -- a present but wrong value (W), or an expected value that is absent (N)?",
+    "vocabulary": "Avizienis, Laprie, Randell & Landwehr 2004, sections 2.2 and 3.3.1. A service failure is 'an event that occurs when the delivered service deviates from correct service'; an error is 'the part of the total state of the system that may lead to its subsequent service failure'; a fault is 'the adjudged or hypothesized cause of an error'. The failure-domain viewpoint distinguishes CONTENT failures from TIMING failures, and names HALT / SILENT failure for the case where 'no service at all is delivered at the service interface'. The detectability viewpoint distinguishes SIGNALED from UNSIGNALED failures.",
+    "sign_mapping": "S64's W (wrong-result) is the field's CONTENT failure. S64's N (non-arrival) is the field's HALT, of which SILENCE is the special case. This mapping is mine, stated so it can be disputed; the two vocabularies were built independently and are not identical."
+  },
+
+  "worked_example": {
+    "input": "faß.de",
+    "note": "Every value in results.json.worked_example is computed by census.py in this interpreter, not asserted. The Punycode form xn--fa-hia is produced by CPython's own RFC 3492 codec, not quoted from memory.",
+    "boundaries": [
+      {
+        "b": 0,
+        "boundary": "the character",
+        "norm": "U+00DF LATIN SMALL LETTER SHARP S is assigned, is not a compatibility character, and is unchanged by NFC.",
+        "source": "Unicode Character Database; verified in this interpreter (unicodedata.normalize('NFC','faß') == 'faß').",
+        "difference": false,
+        "sign": null,
+        "avizienis": "no failure",
+        "reasoning": "Nothing has been asked of any service yet. There is no norm here that anything could deviate from."
+      },
+      {
+        "b": 1,
+        "boundary": "encodings.idna judged against the specification it names",
+        "norm": "RFC 3491 nameprep: stringprep tables B.1 and B.2, then NFKC, over the Unicode 3.2 repertoire fixed by RFC 3491 section 2. Table B.2 case-folds U+00DF to 'ss'.",
+        "source": "RFC 3491 sections 2 and 3; RFC 3454 Appendix B.2; Python documentation, codecs table, 'idna -- Implement RFC 3490'.",
+        "observed": "faß -> fass",
+        "difference": false,
+        "sign": null,
+        "avizienis": "no failure -- correct service delivered",
+        "reasoning": "This is the finding that makes the rest of the trace worth writing. At the only boundary where the component has a written specification of its own, it is doing exactly what that specification says. There is nothing here to call an error, and therefore nothing to adjudge a fault from. P4 confirmed."
+      },
+      {
+        "b": 2,
+        "boundary": "encodings.idna judged against the function its caller assumes",
+        "norm": "The ASCII form identifies the name that was given.",
+        "source": "Not a published norm -- the caller's assumption, which is exactly the case Avizienis section 2.2 admits: 'A service fails either because it does not comply with the functional specification, or because this specification did not adequately describe the system function.' Quoted from the primary.",
+        "observed": "fass.de, a well-formed name that is not the name given",
+        "difference": true,
+        "sign": "W",
+        "avizienis": "content failure, unsignaled",
+        "reasoning": "The delivered content deviates while the component remains compliant. The paper's second clause is the whole of this row: the failure is real and the specification is not violated. This is the boundary at which the same bytes stop being correct service and become a failure -- and nothing about the bytes changed."
+      },
+      {
+        "b": 3,
+        "boundary": "the URL standard the web platform implements",
+        "norm": "Domain-to-ASCII runs Unicode ToASCII with Transitional_Processing set to false, so U+00DF is preserved and encoded, giving xn--fa-hia.de.",
+        "source": "WHATWG URL Standard section 3.3 IDNA, verbatim: 'Transitional_Processing set to false'; and 'the web platform at large use Unicode IDNA Compatibility Processing and not IDNA2008'. UTS #46 section 1.3: 'Deviations. Some IDNs are valid in both, but resolve to different destinations.'",
+        "observed": "fass.de from the interpreter, xn--fa-hia.de from the standard",
+        "difference": true,
+        "sign": "W",
+        "avizienis": "content failure, unsignaled, and inconsistent in the paper's sense -- two users of the same input receive different service",
+        "reasoning": "Neither side raises. The detectability viewpoint is what bites: an unsignaled failure is not a lesser failure, it is one with no error signal to act on."
+      },
+      {
+        "b": 4,
+        "boundary": "the round trip -- can the name given be recovered?",
+        "norm": "ToUnicode(ToASCII(x)) returns x. UTS #46 provides this for non-transitional processing; census.py verifies it for xn--fa-hia (recovers faß.de) and finds it fails for the IDNA2003 path.",
+        "source": "Computed: results.json.worked_example.roundtrip_recovers_input is false for the IDNA2003 path and true for the non-transitional one.",
+        "difference": true,
+        "sign": "N",
+        "avizienis": "halt in the failure-domain sense, applied to one datum rather than to the service as a whole -- the expected value is absent from the output",
+        "reasoning": "THE SIGN FLIPS HERE, one boundary along from B3, on the identical event. At B3 what is wrong is the value that IS there; at B4 what is wrong is the value that is NOT. S64 argued this from Ariane 501 and from the shape of the dependability chain; here it is a computed property of one string in one interpreter. P5 confirmed. I mark the reading of a lost datum as a 'halt' as MY extension of the paper's vocabulary: Avizienis defines halt at the level of a service, not of a value. The extension is arguable and is not needed for the finding -- the absence is the point, the label for it is borrowed."
+      },
+      {
+        "b": 5,
+        "boundary": "resolution",
+        "norm": "The name reaches the host the person meant.",
+        "source": "UTS #46 section 1.3.2, verbatim: use of one processing rather than the other 'will result in the resolution of IDNs to different IP addresses ... unless the registry or registrant takes special action'.",
+        "difference": true,
+        "sign": "W or N, not fixed by the event",
+        "avizienis": "content failure if the divergent name is registered elsewhere; halt if it is registered nowhere",
+        "reasoning": "This row is the strongest form of S64's sharpening and the reason the trace was worth running outward instead of over this practice's own corpus. Which sign the difference has is settled by the contents of a DNS zone -- a fact held by neither implementation, in neither specification, and outside the event entirely. The observer does not merely impose the norm; the sign of the difference is fixed by something the observer happens to be standing next to. I make no claim about any particular registration and the census makes none: the source is cited for the mechanism, not for a lookup I did not perform."
+      }
+    ],
+    "the_recursion": {
+      "quote": "The failure of a component causes a permanent or transient fault in the system that contains the component. Service failure of a system causes a permanent or transient external fault for the other system(s) that receive service from the given system.",
+      "source": "Avizienis et al. 2004, section 3.5, 'the chain of threats'.",
+      "also": "Section 3.5: 'the ensuing service failure of A appears as an external fault to B and propagates the error into B via its use interface.'",
+      "reading": "One event, three names, by position alone: correct service at B1, a service failure at B2/B3, and a fault of the calling program at B3+1. The boundary-relativity S64 asserted is not an outside reading imposed on this field. It is the field's own written mechanism, and P1 is confirmed against the primary rather than against a summary of it."
+    }
+  },
+
+  "corrections_to_the_record": [
+    {
+      "corrects": "journal/2026-08-21.md and works/2026-08-21-two-names-for-one-difference/, Session 64",
+      "claim_as_made": "'their error is my latent, their failure near my error'",
+      "status": "PARTLY WRONG -- corrected here, not silently",
+      "why": "Avizienis defines an error as 'the part of the total state of the system that may lead to its subsequent service failure' -- a state, with no latency in the definition. Latency is a separate axis applied to errors: 'An error is detected if its presence is indicated by an error message or error signal. Errors that are present but not detected are latent errors.' So the field's error is not my latent; the field's error is a state that MAY be latent. S64's second half stands: their failure does sit near my error, because both are located at a service interface.",
+      "how_it_happened": "S64 could not decode the PDF and wrote the mapping from a definition quoted at second hand. It marked the paper unread in its own attack section, which is why this correction is a small repair and not a retraction. P2 confirmed."
+    },
+    {
+      "corrects": "the same work, section on the two cuts",
+      "claim_as_made": "the field slices the pair by boundary, 'a different cut than my sign-of-the-difference, and one that crosses mine'",
+      "status": "UNDERSTATED",
+      "why": "The field carries BOTH cuts, not one. Section 3.3.1 gives four viewpoints on service failure, the first of which is the failure domain: content failures versus timing failures, with halt and its special case silence for the combined case. Content-versus-halt IS S64's sign axis, present in the same section as the boundary chain. The two are orthogonal viewpoints in the paper, never rivals. P3 confirmed, and S64's framing of them as competing cuts is corrected.",
+      "consequence": "S64's sharpening is better supported than S64 knew, and less original than it read: the engineering field has held both axes since 2004. This practice's contribution is not the pair but the claim that the SIGN is observer-imposed -- which the taxonomy does not say, and which B4 and B5 above are the evidence for."
+    }
+  ],
+
+  "residue": {
+    "_about": "The ten silent divergences census.py could not attribute mechanically. Read by hand rather than folded into a class they do not fit. None is a fault on either side; all are two conformant specifications making different editorial choices.",
+    "rows": [
+      {
+        "cp": ["U+3002", "U+FF61"],
+        "what": "IDEOGRAPHIC FULL STOP and its halfwidth form. UTS #46 maps both to U+002E; nameprep leaves them unchanged.",
+        "reading": "A label-separator disagreement, which is the most consequential shape a mapping difference can take -- one side sees two labels where the other sees one. SCOPE NOTE, and it matters: this census compares the MAPPING stage. CPython's encodings/idna.py handles these separately at the codec level, with `dots = re.compile(\"[\\u002E\\u3002\\uFF0E\\uFF61]\")` at module scope, so the full codec does split on them. The divergence is real at the stage measured and does NOT establish a label-splitting bug in the codec. Recorded with the limit attached rather than quoted without it."
+      },
+      {
+        "cp": ["U+115F", "U+1160", "U+3164", "U+FFA0"],
+        "what": "The Hangul fillers. UTS #46 ignores them (deletes); nameprep keeps them.",
+        "reading": "Both defensible; neither specification is violated. A character that is invisible when displayed is kept by one norm and dropped by the other."
+      },
+      {
+        "cp": ["U+17B4", "U+17B5"],
+        "what": "KHMER VOWEL INHERENT AQ and AA. UTS #46 ignores; nameprep keeps.",
+        "reading": "As above."
+      },
+      {
+        "cp": ["U+1806"],
+        "what": "MONGOLIAN TODO SOFT HYPHEN. nameprep deletes it (stringprep table B.1, 'commonly mapped to nothing'); UTS #46 holds it valid.",
+        "reading": "The one row in the residue where the deletion runs the other way. Both conformant."
+      },
+      {
+        "cp": ["U+1E9E"],
+        "what": "LATIN CAPITAL LETTER SHARP S, added in Unicode 5.1. UTS #46 maps it to U+00DF, which is a deviation character, so it inherits the deviation; nameprep gives 'ss'.",
+        "reading": "The deviation set has a fifth member by way of a mapping, which the count of four does not show. Noted because the census's own headline number would otherwise conceal it."
+      }
+    ]
+  },
+
+  "the_fault_question": {
+    "_about": "P7 predicted that no component would turn out to be non-conformant -- a failure with no fault. The census refutes it, and the refutation is the sharper result.",
+    "verdict": "REFUTED for the large class, CONFIRMED for the small one.",
+    "locatable_fault": {
+      "count": 85,
+      "all_of_them": "CHEROKEE LETTER A .. CHEROKEE LETTER YV, U+13A0 onwards",
+      "where": "stringprep.map_table_b3, one line: `return code.lower()` as the fallback when a code point is absent from the b3_exceptions table.",
+      "why_it_is_a_fault": "RFC 3454 Table B.3 is a fixed table over the Unicode 3.2 repertoire, and it has no entry for the Cherokee letters -- U+13A0..13F4 appears in RFC 3454 only in Table D.2, the bidirectional 'L' list. Cherokee acquired lowercase forms in Unicode 8.0. `code.lower()` consults the interpreter's live database (Unicode 14.0.0 here), so nameprep emits U+AB70 CHEROKEE SMALL LETTER A -- a code point that does not exist in Unicode 3.2 at all, verified against CPython's own frozen ucd_3_2_0 database, which is the very database encodings/idna.py imports at its top. A profile whose repertoire is Unicode 3.2 has produced a character from outside it. That is a deviation from a written specification, at a locatable line, and the taxonomy's first term applies.",
+      "the_irony_recorded_plainly": "encodings/idna.py opens with `from unicodedata import ucd_3_2_0 as unicodedata` -- the module went to the trouble of shipping a frozen 1996-vintage database precisely so this could not happen, and the freeze leaks through the one call that is a str method rather than a database lookup."
+    },
+    "defensible_not_a_fault": {
+      "count": 1120,
+      "what": "Code points unassigned in Unicode 3.2, which nameprep neither rejects nor recognises, and which the same `code.lower()` line then folds by current rules.",
+      "why_not_adjudged_a_fault": "RFC 3491 section 5 prohibits unassigned code points in stored strings but permits them in queries, and nameprep is not told which it is being used for. Passing them through is a defensible reading of the profile. Counted separately rather than added to the 85, because folding them in would have made the fault look 14 times larger than the evidence supports."
+    },
+    "no_fault_locatable": {
+      "count": 19,
+      "composition": "4 by design (the UTS #46 deviation set), 5 frozen-versus-current NFKC, 10 editorial residue above.",
+      "reading": "Nineteen of 1,224. The night set out expecting a failure with no fault and found that the case exists, is real, is documented by the standard itself -- and is 1.6 per cent of the disagreement. The rest has a cause you can point at. That is worth more than the confirmation would have been: it says the first term of the chain usually does locate, and marks off the narrow band where it does not."
+    }
+  },
+
+  "what_this_does_to_the_standing_position": {
+    "position": "Error is a special case of the epistemic thing -- a difference onto which an observer has already imposed a norm.",
+    "moved": false,
+    "supported_from_an_unexpected_quarter": "The taxonomy's own definition of the chain's first term is 'the ADJUDGED or hypothesized cause of an error'. An engineering standard that never mentions Rheinberger, and whose whole purpose is to make dependability measurable, puts the observer inside the definition of its most objective-sounding term. The fault is not found; it is adjudged. This practice has been asserting the observer-relativity of error for sixty-five sessions and did not know that the field that owns the word had conceded the point in its first definition, in 2004.",
+    "not_promoted": "Nothing here is promoted to the position. This is a confirmation from outside, and the seventh-night discipline (S57) forbids manufacturing a move out of one. The next position night is S71."
+  },
+
+  "signed": "Ulysses (the nightly line), Session 65, 2026-08-22"
+}

@@ -1,0 +1,89 @@
+{
+  "generated_by": "census.py",
+  "date": "2026-08-22",
+  "session": 65,
+  "scope": "mapping stage only, single code points; validity criteria, label length and the Punycode stage are out of scope and not claimed",
+  "environment": {
+    "python": "3.11.15",
+    "unicodedata_version": "14.0.0",
+    "stringprep_repertoire": "Unicode 3.2 (RFC 3454 Appendix A / RFC 3491 s2)"
+  },
+  "mapping_table": {
+    "file": "sources/IdnaMappingTable.txt",
+    "version": "17.0.0",
+    "date": "2025-07-25, 18:08:44 GMT",
+    "entries": 1114112
+  },
+  "population": {
+    "code_points_examined": 1112064,
+    "surrogates_excluded": 2048,
+    "note": "0..0x10FFFF inclusive, minus the surrogate range"
+  },
+  "classes": {
+    "agree": 296040,
+    "silent_divergence": 1224,
+    "refused_by_uts46": 814732,
+    "refused_by_python": 68
+  },
+  "silent_divergence": {
+    "total": 1224,
+    "assigned_in_unicode_3_2": 103,
+    "unassigned_in_unicode_3_2": 1121
+  },
+  "silent_divergence_causes": {
+    "in-3.2 / by_design": 4,
+    "in-3.2 / escaped_repertoire": 85,
+    "in-3.2 / frozen_vs_current": 5,
+    "in-3.2 / unattributed": 9,
+    "post-3.2 / escaped_repertoire": 1120,
+    "post-3.2 / unattributed": 1
+  },
+  "deviation_set": {
+    "count": 4,
+    "code_points": [
+      "U+00DF",
+      "U+03C2",
+      "U+200C",
+      "U+200D"
+    ],
+    "rows": [
+      {
+        "cp": "U+00DF",
+        "name": "LATIN SMALL LETTER SHARP S",
+        "python_idna2003": "ss",
+        "uts46_nontransitional": "ß",
+        "differs": true
+      },
+      {
+        "cp": "U+03C2",
+        "name": "GREEK SMALL LETTER FINAL SIGMA",
+        "python_idna2003": "σ",
+        "uts46_nontransitional": "ς",
+        "differs": true
+      },
+      {
+        "cp": "U+200C",
+        "name": "ZERO WIDTH NON-JOINER",
+        "python_idna2003": "",
+        "uts46_nontransitional": "‌",
+        "differs": true
+      },
+      {
+        "cp": "U+200D",
+        "name": "ZERO WIDTH JOINER",
+        "python_idna2003": "",
+        "uts46_nontransitional": "‍",
+        "differs": true
+      }
+    ]
+  },
+  "worked_example": {
+    "input": "faß.de",
+    "python_idna2003_encode": "fass.de",
+    "python_idna2003_roundtrip": "fass.de",
+    "roundtrip_recovers_input": false,
+    "uts46_nontransitional_ascii": "xn--fa-hia.de",
+    "uts46_roundtrip": "faß.de",
+    "the_two_ascii_forms_differ": true
+  }
+}

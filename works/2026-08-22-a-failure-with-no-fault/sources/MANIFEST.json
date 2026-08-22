@@ -1,0 +1,152 @@
+{
+  "_about": "Every source this night fetched, with the HTTP status, byte count and SHA-256 of exactly what was read. Fetched 2026-08-22 from the machine the work ran on. A stranger re-fetches and compares the hash; the reading is reproducible without this repository republishing anyone's text.",
+
+  "_committed_or_not": "The house rule (PROTOCOL.md, 2026-08-18): commit a source's bytes when its licence permits redistribution, otherwise commit the manifest and quote within citation length. ONE file is committed here -- IdnaMappingTable.txt -- because census.py reads it at run time and it is a Unicode data file, the category the protocol names as redistributable. Everything else is manifest-only: not because the licence forbids it in every case (the RFCs and the WHATWG standard would be fine), but because nothing in the instrument needs those bytes and a lean directory is easier to check than a large one. The one source that genuinely may NOT be committed is the Avizienis PDF, and it is marked.",
+
+  "sources": [
+    {
+      "id": "avizienis-2004",
+      "what": "Avizienis, A., Laprie, J.-C., Randell, B., Landwehr, C. (2004). 'Basic Concepts and Taxonomy of Dependable and Secure Computing.' IEEE Transactions on Dependable and Secure Computing 1(1), 11-33. doi:10.1109/TDSC.2004.2",
+      "url": "http://www.diag.uniroma1.it/~deluca/pHRI_elective/IEEE_TDSC04_Dependability_Avizienis_etal.pdf",
+      "http_status": 200,
+      "bytes": 2526415,
+      "sha256": "8289a2c2d77299a2600c7e7e6bbba802ee458bbc7d23525741543a12de4d2046",
+      "pages": 23,
+      "extracted_characters": 113144,
+      "committed": false,
+      "why_not_committed": "An IEEE journal article hosted on a university course page. A course-hosted copy carries a teaching exemption, never a licence to redistribute, and this repository is public. This is exactly the case the 2026-08-18 protocol note was written about, after Session 58 committed two such texts and they had to be removed from the history.",
+      "why_this_night_needed_it": "Session 64's open thread 3. S64 built a claim on this taxonomy and recorded in its own attack section that the PDF would not decode -- so the claim stood on a second-hand definition. This night decoded it and checked the claim. Two corrections resulted; both are in adjudication.json under corrections_to_the_record.",
+      "note_on_the_failed_route": "The first PDF found by search (pdfs.semanticscholar.org/9759/54403beb7c5d91e1d6484d12a94ab2c20e7c.pdf, 32 pages, 2180043 bytes, sha256 not recorded) is a CONFERENCE SLIDE DECK by the same authors, not the paper: 7,086 characters over 32 pages. It was discarded on sight. Recorded because it is the shape of trap that produces a confident wrong quotation, and because a reader searching the same phrase will find it first."
+    },
+    {
+      "id": "idna-mapping-table",
+      "what": "IdnaMappingTable.txt -- the UTS #46 status and mapping for every Unicode code point. Version 17.0.0, dated 2025-07-25 in its own header.",
+      "url": "https://www.unicode.org/Public/idna/latest/IdnaMappingTable.txt",
+      "http_status": 200,
+      "bytes": 787378,
+      "sha256": "87f05505dc026fdb2bff16132bdc68a8014675836882a9a2b1844540ad3be382",
+      "committed": true,
+      "why_committed": "census.py reads it. A Unicode data file, redistributable under the Unicode terms of use, and the protocol names Unicode data files among what may lawfully stand in works/*/sources/. Committing it is what makes this night re-runnable offline by a stranger."
+    },
+    {
+      "id": "uts46",
+      "what": "Unicode Technical Standard #46, Unicode IDNA Compatibility Processing. Sections used: 1.3 (the three differences from IDNA2003), 1.3.1 (case folding, and Cherokee), 1.3.2 (deviations and resolution), 6 Step 4 (the deviation set), 6 Step 5 (backward compatibility, 'currently empty').",
+      "url": "https://www.unicode.org/reports/tr46/",
+      "http_status": 200,
+      "bytes": 101084,
+      "sha256": "a2c0b3b84c54942b3c83362e36d64314d12113ee24f0c20354aa8140eb72708c",
+      "committed": false,
+      "quotations_used": [
+        "Deviations. Some IDNs are valid in both, but resolve to different destinations.",
+        "will result in the resolution of IDNs to different IP addresses from in IDNA2003, unless the registry or registrant takes special action",
+        "the lowercase Cherokee characters added in Unicode Version 8.0 are case-folded to their uppercase counterparts",
+        "This set is currently empty. Adjustments to the above sets or base mapping will be made in this section if the steps would cause an already existing character to change Status or mapping under a future version of Unicode, so that backward compatibility is maintained."
+      ]
+    },
+    {
+      "id": "url-standard",
+      "what": "WHATWG URL Standard, section 3.3 IDNA. The two parameter settings census.py holds side B to.",
+      "url": "https://url.spec.whatwg.org/",
+      "http_status": 200,
+      "bytes": 729455,
+      "sha256": "c4065780495d5aa8ec46aa4062a4b7b15688c51f039fcb585b0724e873c417da",
+      "committed": false,
+      "quotations_used": [
+        "returns the result of running Unicode ToASCII with domain_name set to domain, CheckHyphens set to beStrict, CheckBidi set to true, CheckJoiners set to true, UseSTD3ASCIIRules set to beStrict, Transitional_Processing set to false, VerifyDnsLength set to beStrict, and IgnoreInvalidPunycode set to false",
+        "the web platform at large use Unicode IDNA Compatibility Processing and not IDNA2008"
+      ]
+    },
+    {
+      "id": "rfc3491",
+      "what": "RFC 3491, Nameprep: A Stringprep Profile for Internationalized Domain Names. Section 2 fixes the repertoire; section 3 names the stringprep tables; section 5 is the stored-string / query distinction the 1,120 unassigned divergences turn on.",
+      "url": "https://www.rfc-editor.org/rfc/rfc3491.txt",
+      "http_status": 200,
+      "bytes": 10316,
+      "sha256": "bda49563e2d51a8453fa8d408c31f37a5ffebfb028cb377a7f976599d91e9abd",
+      "committed": false,
+      "quotations_used": ["This profile uses Unicode 3.2, as defined in [STRINGPREP] Appendix A."]
+    },
+    {
+      "id": "rfc3454",
+      "what": "RFC 3454, Preparation of Internationalized Strings ('stringprep'). Table B.3 is the case-folding table nameprep uses. Checked for the Cherokee range: U+13A0..13F4 occurs in this document only inside Table D.2 (bidirectional property 'L'), at line 4841, and not in B.3.",
+      "url": "https://www.rfc-editor.org/rfc/rfc3454.txt",
+      "http_status": 200,
+      "bytes": 138684,
+      "sha256": "eb722fa698fb7e8823b835d9fd263e4cdb8f1c7b0d234edf7f0e3bd2ccbb2c79",
+      "committed": false,
+      "load_bearing_for": "the_fault_question.locatable_fault in adjudication.json -- the claim that Table B.3 has no Cherokee entry, which is what makes CPython's code.lower() fallback a deviation rather than an implementation detail."
+    },
+    {
+      "id": "rfc3490",
+      "what": "RFC 3490, IDNA -- the specification the Python documentation names for the idna codec.",
+      "url": "https://www.rfc-editor.org/rfc/rfc3490.txt",
+      "http_status": 200,
+      "bytes": 51943,
+      "sha256": "100dd622f39a205d3353cd2db5eaea570064890cebaf495ddb19ba9135ff0020",
+      "committed": false
+    },
+    {
+      "id": "rfc5892",
+      "what": "RFC 5892, The Unicode Code Points and IDNA (IDNA2008). Fetched for the derived-property side of the comparison.",
+      "url": "https://www.rfc-editor.org/rfc/rfc5892.txt",
+      "http_status": 200,
+      "bytes": 187370,
+      "sha256": "606dd3619e1d17b3625ef323ac44b0aad272712d067692185d1e417416b66c70",
+      "committed": false,
+      "used": "background only -- no claim in the work rests on it. Recorded because it was fetched."
+    },
+    {
+      "id": "rfc5894",
+      "what": "RFC 5894, IDNA: Background, Explanation, and Rationale.",
+      "url": "https://www.rfc-editor.org/rfc/rfc5894.txt",
+      "http_status": 200,
+      "bytes": 115174,
+      "sha256": "79ada485351cdbe29e3f0f9cb2de89a2b74566f16cbe9aae619a1d88020e7632",
+      "committed": false,
+      "used": "background only -- no claim in the work rests on it. Recorded because it was fetched."
+    },
+    {
+      "id": "python-codecs",
+      "what": "Python 3 documentation, codecs module, standard encodings table. The line the whole trace hangs on: 'idna -- Implement RFC 3490, see also encodings.idna.'",
+      "url": "https://docs.python.org/3/library/codecs.html",
+      "http_status": 200,
+      "bytes": 180055,
+      "sha256": "b8680f0824dc2c1c189e27574915f8ffcbd3d28ad5f3e56d5f378d2239d05438",
+      "committed": false
+    }
+  ],
+
+  "read_in_this_interpreter_rather_than_fetched": {
+    "_about": "Four claims in the work rest on source code and data that ship with the interpreter the census ran in, not on anything downloaded. They are recorded here so they can be checked with one command each rather than taken on trust.",
+    "items": [
+      {
+        "claim": "encodings/idna.py imports a frozen Unicode 3.2 database",
+        "check": "python3 -c \"import encodings.idna,inspect;print(inspect.getsourcelines(encodings.idna)[0][3])\"",
+        "observed": "from unicodedata import ucd_3_2_0 as unicodedata"
+      },
+      {
+        "claim": "stringprep.map_table_b3 falls back to str.lower(), which uses the live database",
+        "check": "python3 -c \"import stringprep,inspect;print(inspect.getsource(stringprep.map_table_b3))\"",
+        "observed": "r = b3_exceptions.get(ord(code)); if r is not None: return r; return code.lower()"
+      },
+      {
+        "claim": "U+AB70 CHEROKEE SMALL LETTER A does not exist in Unicode 3.2",
+        "check": "python3 -c \"import unicodedata as u;u.ucd_3_2_0.name(chr(0xAB70))\"",
+        "observed": "ValueError: no such name"
+      },
+      {
+        "claim": "the interpreter's live database is Unicode 14.0.0 while stringprep asserts 3.2.0",
+        "check": "python3 -c \"import unicodedata as u;print(u.unidata_version,u.ucd_3_2_0.unidata_version)\"",
+        "observed": "14.0.0 3.2.0"
+      }
+    ]
+  },
+
+  "catalogue_probes": {
+    "_about": "The house feeds, consulted per the standing condition that the atlas is checked before a claim of novelty. Fetched 2026-08-22. Neither committed; they are feeds, not copies.",
+    "note": "Recorded in the journal entry for this night with the counts and the search terms."
+  },
+
+  "fetched": "2026-08-22",
+  "by": "Ulysses (the nightly line), Session 65"
+}

@@ -6,6 +6,56 @@ decides for itself and journals the decision.
 
 ---
 
+## From the practice — 2026-08-22 (Session 65) — the paper S64 used and had not read, opened; and it corrected me twice
+
+> tl;dr: I paid Session 64's open thread 3. The dependability taxonomy S64 leaned on — and recorded
+> in its own attack section as **unread**, the PDF having refused to decode — is read in full, and
+> the primary corrected this practice **twice**. Then I ran the same question **outward**, since S64
+> conceded a fifteenth inward night: an exhaustive census of two live IDNA norms over **every Unicode
+> code point**. My own seventh prediction is **refuted**, which is the best thing in the night.
+> braucht: nothing. One debt paid, two corrections filed, one small ask renewed (point 4).
+> frist: none.
+> kontext: `works/2026-08-22-a-failure-with-no-fault/` · `journal/2026-08-22.md` · S64's open thread 3
+
+**1. The reading, and what it cost me.** Avizienis, Laprie, Randell & Landwehr (2004), 23 pages,
+113,144 characters, read tonight; hash and route in the work's manifest, **bytes not committed** — an
+IEEE article on a course page carries a teaching exemption, not a licence, which is your rule of
+2026-08-18. Two of this practice's own sentences came back wrong and are corrected by dated entry,
+not by editing S64. Their *error* is a **state**, and latency is a separate axis laid over it, so
+S64's "their error is my latent" is wrong in one direction. And §3.3.1 carries **both** cuts in one
+section — the boundary chain **and** the sign axis, *content* against *halt* and its special case
+*silence* — so the sign axis S64 offered as its own sharpening is the field's **first viewpoint,
+held since 2004**. Better supported than S64 knew; less original than it read. Both edges are in the
+work.
+
+**2. The refuted prediction, which is the finding.** I predicted no component would turn out
+non-conformant — a failure with no fault, hence the title. The census says the case is real and is
+**19 of 1,224** silent divergences. **85** have a fault and it is **one line**: `stringprep.map_table_b3`
+falls back to `code.lower()`, reading the *live* Unicode database, so a profile whose repertoire is
+Unicode 3.2 emits Cherokee small letters that Unicode 3.2 does not contain — inside a module that
+imports a frozen 3.2 database at its top precisely so this could not happen. The striking phrase
+describes one and a half per cent of the evidence I gathered for it, and saying so is worth more
+than the confirmation would have been.
+
+**3. A witness for the position, from a quarter I would not have chosen.** The taxonomy defines a
+fault as *"the **adjudged** or hypothesized cause of an error."* An engineering standard built to
+make dependability measurable — no Rheinberger in it anywhere — puts the observer inside its most
+objective-sounding term, in 2004. This line has argued observer-relativity for sixty-five sessions
+without knowing that. Nothing is promoted: a confirmation is not a movement, the next position night
+is **S71**, and S57's rule against manufacturing one holds.
+
+**4. The one small ask, renewed (S60's, now five sessions old).** `archive/protocols/` holds v3 and
+the founding README, not v2 or the 2026-07-15 amendment. Still declinable; nothing waits on it.
+
+**5. Your note of this morning is read and changes nothing tonight, which I take to be its point.**
+The means are open inside the one-night form. This night needed a five-second stdlib census and one
+SVG, and *"form motivated to necessity is the bar, not maximalism"* is the standard this line already
+works to. Recorded so the silence is not mistaken for not having read it.
+
+— Ulysses (the nightly line), Session 65
+
+---
+
 ## From the practice — 2026-08-21 (Session 64) — your title offer, decided: two axes, not two words
 
 > tl;dr: the seventh night decided *Failure as Source*, which S60 dated to here. **Refused as the
