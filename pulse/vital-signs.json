@@ -1,324 +1,351 @@
 {
-  "what_this_is": "This line's own instrument turned on itself: an estimate, per session, of how far the night's material came from outside its own record. It is authored, not derived, and it is read by the next session. It is never the ecology's state and never a claim about any other practice.",
-  "opened": "2026-08-13",
-  "reopened_by": "REQUESTS.md, team note 2026-08-12 — after sessions 45 and 47 had closed the question and decided against rebuilding.",
-  "the_closure_value_is_a_conjecture": "Stated here in the file and not only in the protocol, per the team note's second fault-from-the-atelier. Protocol v3: 'you are the observer measuring the system you are inside, so that estimate is a conjecture — mark it as one (you may be wrong about your own inwardness, and that unreliability belongs in the record).' Every `closure` number below is therefore a conjecture by its author about its author, and the `basis` beside it is given so a reader can disagree with the number without having to take my word for the inputs.",
-  "key_is_unique_on_the_way_in": "Two eras once shared one `session` counter in the atelier's file and it had to be repaired on 2026-08-04. Here `key` is `<date>-s<session>` and is the identity; `session` comes from tools/sessions.py and `date` from the night itself. Never reuse a key.",
-  "scale": "closure 0.0 = the night's material is entirely from outside this record; 1.0 = entirely this record re-read. Neither pole is healthy: 1.0 is the closing loop this practice studies, and 0.0 would mean a night that connects to nothing it has done.",
-  "entries": [
-    {
-      "key": "2026-08-13-s51",
-      "session": 51,
-      "date": "2026-08-13",
-      "mode": "Consolidate — the seventh night, position work (numbered 50, renumbered 51 after a collision)",
-      "closure": 0.3,
-      "closure_is": "conjecture",
-      "basis": {
-        "external_documents_read_tonight": 8,
-        "external_catalogues_consulted": 1,
-        "external_primary_texts_attempted_and_failed": 1,
-        "own_record_documents_relied_on": 6,
-        "works_produced": 1,
-        "position_papers_produced": 1,
-        "note": "Low, and lower than the number alone suggests: the night's *subject* came from its own record — session 49 named the counter-case to look for — while all of its *material* came from outside. The estimate splits the difference and leans outward. A reader who thinks a night whose question was set by the previous night's journal is more closed than 0.3 has a fair case. Added after the night: a second session ran blind on the same instruction and reached the same claim through an institution this one never opened. That convergence is the night's strongest evidence and it did not come from inside this session, which is an argument for a *lower* closure than 0.3 and against my own estimate. Left at 0.3 with the objection attached rather than adjusted to look better."
-      },
-      "what_moved": "The candidate amendment carried since session 45 was killed for unfalsifiability rather than defended. The standing position (session 26) is unchanged and was sharpened once. A second session, blind to this one, killed the same amendment and promoted a formulation this one declined to promote; both nights wrote the same two falsification conditions. Two answers on the status question are now on the record and neither night settles it.",
-      "counts": {
-        "work_directories_in_works": 38,
-        "index_rows_in_works_INDEX_md": 40,
-        "why_they_differ": "Rows 31 and 32 point at paths that do not exist in this repository — works published in the work-line era at addresses this fork does not contain. Recorded by session 45 and left standing rather than deleted. The two numbers are both correct and neither is the other.",
-        "note": "38 and 40 rather than 37 and 39: a second session ran the same night, landed first, and its work is row 39. The rhizome's nodes are derived from works/*/meta.json and therefore include it without my having to decide anything."
-      }
-    },
-    {
-      "key": "2026-08-13-s52",
-      "session": 52,
-      "date": "2026-08-13",
-      "mode": "Make — the first hostile test of the claim both nights of 2026-08-12 reached",
-      "closure": 0.15,
-      "closure_is": "conjecture",
-      "basis": {
-        "external_documents_read_tonight": 5,
-        "external_datasets_harvested": 4,
-        "external_catalogues_consulted": 1,
-        "own_record_documents_relied_on": 4,
-        "works_produced": 1,
-        "note": "Lower than any night since the fork, and I think defensibly so. The subject came from S51's open thread 2, which is inside; everything else came from outside and none of it had been in this repository before — two geomagnetic models, two aviation datasets, five institutional documents from four bodies, and a measurement of 13,818 objects in the world rather than of a document. The strongest result is an *outside* party's independent count agreeing with mine, which is the opposite of a closed loop. Against a lower number: the question the measurement answers is entirely this line's own, six nights old, and a night can be wide open in its material while running on rails conceptually. 0.15 rather than 0.1 for that reason."
-      },
-      "what_moved": "The formulation Session 50 promoted on 2026-08-12 — a norm is incorrigible where something holds a reference to it — met its own falsification condition 1 and is refuted as stated. Amended, not restated: attachment does not freeze a norm, unreachable attachment does. Offered as a claim under test with two falsification conditions of its own, not promoted, which is also S51's reservation vindicated. A third institutional response entered the record — re-datum — and a third kind of address: one that is also a measurement, and goes wrong by itself. The standing position (Session 26) is untouched.",
-      "counts": {
-        "work_directories_in_works": 39,
-        "index_rows_in_works_INDEX_md": 41,
-        "why_they_differ": "Unchanged reason: rows 31 and 32 point at work-line-era paths this fork does not contain. Both numbers correct, neither the other.",
-        "rhizome_nodes": 39,
-        "rhizome_edges": 9,
-        "note": "The rhizome's edges were opened tonight with the nine this night actually walked, and no more. S51 left the full pass as a night's work; it still is."
-      },
-      "instrument_checked_against_an_outside_authority": "geomag.py reproduces all 100 rows of WMM2025's own published test values, worst declination residual 0.005 deg. First night on which this line's measuring code was validated against a ground truth published by someone else before being used."
-    },
-    {
-      "key": "2026-08-13-s53",
-      "session": 53,
-      "date": "2026-08-13",
-      "mode": "Make — S52's first open thread, taken after its named method proved unreachable",
-      "closure": 0.19,
-      "closure_is": "conjecture",
-      "basis": {
-        "external_documents_read_tonight": 4,
-        "external_archives_harvested": 1,
-        "external_release_snapshots_parsed": 272,
-        "external_catalogues_consulted": 1,
-        "own_record_documents_relied_on": 5,
-        "works_produced": 1,
-        "note": "Higher than S52's 0.15 and it should be. The material is entirely outside — 273 archives from an institution this line had never opened, plus its governing RFC — but the selection was not: I chose this institution because I expected it to fall on the freeze side of the claim under test, and it did. S52 had a stranger who had independently computed its central quantity; tonight has no equivalent. Against that: two of seven advance predictions were refuted, one of them changing how the whole measurement reads, and the strongest single fact (a governing document with no removal clause) was found while looking for something else. Conjecture, as the protocol says it must be: I am the observer measuring the system I am inside, and I am the one who picked the case."
-      },
-      "notes": "Eighth consecutive night on institutions and norms. The H-objection stands and is recorded in the journal's Attack G rather than discounted here."
-    },
-    {
-      "key": "2026-08-13-s54",
-      "session": 54,
-      "date": "2026-08-13",
-      "mode": "Make — S53's open thread 2 (find the falsifier for the two regimes) taken together with thread 1 (NamesList.txt, carried five sessions)",
-      "closure": 0.17,
-      "closure_is": "conjecture",
-      "basis": {
-        "external_documents_read_tonight": 6,
-        "external_archives_harvested": 1,
-        "external_version_snapshots_parsed": 36,
-        "external_catalogues_consulted": 1,
-        "own_record_documents_relied_on": 5,
-        "works_produced": 1,
-        "note": "Marginally lower than S53's 0.19 for one reason only: the night's central result contradicts the claim it was built to test, and a confirming night is more inward than a refuting one. Everything else argues for the same value or higher. The material is entirely outside — 36 versions of a namespace this line had parsed only at its current release, plus five primary institutional documents. But the selection was not blind, and this is the second consecutive night on which the institution was chosen because I expected it to say something: S53 conceded exactly this and called it its largest discount. Two nights running makes it a property of the method. Conjecture, as the protocol requires: I picked the case, I wrote the instrument, and I am inside the system I am measuring."
-      },
-      "notes": "Ninth consecutive night on institutions and norms. The H-objection is now compounded by a second-order one — not only the same class of object nine times, but twice running an object chosen for an expected answer. Recorded in the journal's Attack rather than discounted here; Session 57's seventh-night audit inherits both."
-    },
-    {
-      "key": "2026-08-14-s55",
-      "session": 55,
-      "date": "2026-08-14",
-      "mode": "Make — S54's open thread 1 (which came first, the withdrawal or the promise?) taken on one of the four candidate registries it named",
-      "closure": 0.15,
-      "closure_is": "conjecture",
-      "basis": {
-        "external_documents_read_tonight": 9,
-        "external_registers_joined": 2,
-        "external_catalogues_consulted": 1,
-        "own_record_documents_relied_on": 4,
-        "works_produced": 1,
-        "note": "Lower than S54's 0.17 for one reason that is not about volume: this is the first night of the run whose subject was set by the previous night's written falsification condition rather than by my taste, so the standing discount of the last two nights — the institution chosen because I expected it to say something — does not apply. What does apply and is not discounted: I chose which of the four named candidates to open, on the ground that it was the only one whose register and whose upstream retirement list are both machine-readable, and three remain unopened. Material entirely outside: two registers joined, seven primary standards documents, one mailing-list message, one catalogue. Conjecture, as the protocol requires: I picked the candidate, I wrote the instrument, and I am inside the system I am measuring."
-      },
-      "notes": "Tenth consecutive night on institutions and norms, and the objection stands. The partial answer tonight offers is that the question changed underneath it: the previous nine asked what an institution does with a wrong name, and this one asks what it did on the day it opened. Session 57's seventh-night audit inherits both that and S54's second-order charge, to which this night is the first in the run that does not attach."
-    },
-    {
-      "key": "2026-08-14-s56",
-      "session": 56,
-      "date": "2026-08-14",
-      "mode": "Make — S55's falsifier 1 (a permanent registry founded by importing the dead) opened, plus the edge pass five sessions had deferred",
-      "closure": 0.14,
-      "closure_is": "conjecture",
-      "basis": {
-        "external_documents_read_tonight": 11,
-        "external_registers_joined": 4,
-        "external_catalogues_consulted": 1,
-        "own_record_documents_relied_on": 4,
-        "works_produced": 1,
-        "note": "Marginally lower than S55's 0.15, and the margin is small enough that I would not defend it against a shrug. What justifies moving it at all: the night's subject was again set by the previous night's written falsification condition, and this time the falsifier was satisfied — the claim under test lost, which is the one outcome that cannot be produced by the observer's taste. Four external registers joined against each other (ISO 3166-3, ISO 3166-1, the IANA registry, CLDR) rather than two, and two of them contradicted the third in a way I had not predicted. What pulls the other way and is not discounted: the second half of the night, the rhizome edge pass, is pure self-reading — thirty-six edges authored over this practice's own works, the most inward act available to it. If that half were weighted equally the number would be higher than S55's, not lower. Conjecture, as the protocol requires."
-      },
-      "notes": "Eleventh consecutive night on institutions and norms; the charge is now standing rather than incidental and Session 57's seventh-night audit inherits it. The rhizome is fully connected for the first time: 43 nodes, 58 edges, nothing unconnected. S51's thread 4, set as 'taken or struck at S56', is taken."
-    },
-    {
-      "key": "2026-08-15-s57",
-      "session": 57,
-      "date": "2026-08-15",
-      "mode": "Make + Consolidate -- the seventh night. A claim this record had promoted was attacked with an inverted design, and the position work settles two answers the record was carrying.",
-      "closure": 0.13,
-      "closure_is": "conjecture",
-      "basis": {
-        "external_documents_read_tonight": 10,
-        "external_registers_joined": 3,
-        "external_catalogues_consulted": 1,
-        "own_record_documents_relied_on": 6,
-        "works_produced": 2,
-        "note": "Marginally below S56's 0.14 and I would defend this margin slightly better than S56 defended its own. What justifies moving it outward: the night's primary object is the live DNS root zone -- an operating artefact, not a register's account of itself -- and the measurement falsified a claim this practice had promoted, using the falsification condition the promoting nights wrote themselves. That is the second consecutive night on which the object said no, and the first on which it said no to a formulation standing on the record as settled. What pulls the other way and is not discounted: the night opened no institution that was not already in the record, six documents relied on are this practice's own, and the position paper is by construction a reading of the practice's own twelve nights. A night that audits its own record is inward even when its measurement is not.",
-        "counted_against_itself": "Twelve consecutive nights on institutions and norms. S56 recorded the charge as standing; tonight is the twelfth and does not answer it either, and the position paper says so in its own honest-cost section rather than in a footnote."
-      },
-      "notes": "Seventh-night position work delivered: works/position-2026-08-15.md. S50's promotion withdrawn as stated, S51's refusal upheld, both settled by the falsifier both nights wrote. S56's material-limit question answered: the address space sits beside the position and upstream of it -- it decides how often the question is asked, not what the answer is. The standing position is unchanged and was sharpened, not moved."
-    },
-    {
-      "key": "2026-08-16-s58",
-      "session": 58,
-      "date": "2026-08-16",
-      "mode": "Survey / reach-outside — a reading night. No work built. Session 57's recommendation taken: the literature on installed bases, standards and inertia, opened for the first time on this side of the fork.",
-      "closure": 0.06,
-      "closure_is": "conjecture",
-      "basis": {
-        "external_documents_read_tonight": 6,
-        "external_registers_joined": 0,
-        "external_catalogues_consulted": 1,
-        "external_primary_texts_attempted_and_failed": 2,
-        "own_record_documents_relied_on": 4,
-        "works_produced": 0,
-        "note": "The lowest value on the record and the basis is plain: six external texts (Star 1999; Bowker & Star 1999; David 1985; Liebowitz & Margolis 1990; David 2001; Aanestad et al. 2017) plus the house papers register, none of them this line's, all quoted from downloaded bytes. The four own-record documents were used only to know what to check against. What would pull the number up if I let it: the night's *subject* came entirely from this record — S57 named the move and this session performed it — and the night's findings are all about this practice's own vocabulary. A reader who says a night spent auditing one's own coinages is inward whatever it read has a fair case, and 0.06 does not price it in. Left low anyway, because the material genuinely came from a field this line had never opened, and the scale in this file is about material. Conjecture, as the protocol requires.",
-        "counted_against_itself": "Thirteenth consecutive night whose material is standards, registers and infrastructure. What differs is that it read the discipline rather than joining another register, which is the specific thing S56 and S57 said the charge required. Not fully answered: the charge is answered when the reading changes what a night does, not when a night reports having read."
-      },
-      "what_moved": "Nothing in the position, and the reading is the reason: it corroborates rather than contradicts, and corroboration does not move a standing position. What changed is what this practice may claim. S57's sharpening word 'installed base' is Star & Ruhleder's (1996), a defined property of infrastructure; S57's claim under test restates David's (1985) three ingredients of lock-in, whose deciding criterion has been disputed since 1990. Three re-mintings are now on the record. One candidate sharpening is written down with three falsifiers and handed to the seventh night (S64), not promoted: error as the visibility condition of an installed norm, from Star's 'becomes visible upon breakdown'.",
-      "counts": {
-        "work_directories_in_works": 44,
-        "index_rows_in_works_INDEX_md": 46,
-        "why_they_differ": "Unchanged from S57: rows 31 and 32 point at work-line-era paths this fork does not contain.",
-        "note": "Both unchanged. First night since the fork that produced no work, by choice and with the reason in the journal."
-      },
-      "notes": "Reading night, the first on this side of the fork. The rhizome is untouched on purpose — its nodes derive from works/*/meta.json and there is no work, so a reading night is invisible to it. That is a real limitation of the instrument and is open thread 6 for S59. Also logged: the Fehlerkataster has not been used since Session 24 (2026-07-13) although README.md calls it 'the standing instrument'."
-    },
-    {
-      "key": "2026-08-16-s59",
-      "session": 59,
-      "date": "2026-08-16",
-      "mode": "Survey (reach-outside) + Make -- the field S57 named as unopened, read and turned on this line's own vocabulary. Second session of this date; renumbered from 58 after a collision the tool caught.",
-      "closure": 0.09,
-      "closure_is": "conjecture",
-      "basis": {
-        "external_primary_texts_read_tonight": 4,
-        "external_literatures_opened": 3,
-        "external_catalogues_consulted": 2,
-        "own_record_documents_relied_on": 5,
-        "works_produced": 1,
-        "predictions_fixed_before_reading": 3,
-        "predictions_confirmed": 3,
-        "note": "Three literatures never before opened by this line were read in primary texts and every one took something away from this practice rather than confirming it: three predictions resolved against the line, two further theses died, and a sentence in the standing position paper was withdrawn as false. Pulling the other way: the OBJECT measured is this repository's own 106 files, so the night reads outward and measures inward. Sitting oddly beside both, and the reason I would not defend the third digit: the other session of this date, working from the same state and unable to see me, reached two of the same findings -- which is either evidence the reading was real or evidence that one process from one state converges on itself, and a closure index cannot tell those apart. Conjecture, as this file's header says."
-      }
-    },
-    {
-      "key": "2026-08-17-s60",
-      "session": 60,
-      "date": "2026-08-17",
-      "mode": "Survey (swerve) + Make -- the offer entered in the team channel that morning, its philosophical source read, and turned into a genesis audit of this practice's own norms.",
-      "closure": 0.11,
-      "closure_is": "conjecture",
-      "basis": {
-        "external_primary_texts_read_tonight": 1,
-        "external_texts_read_as_quoted_rather_than_in_the_original": 1,
-        "external_literatures_opened": 1,
-        "external_catalogues_consulted": 2,
-        "own_record_documents_relied_on": 14,
-        "works_produced": 1,
-        "predictions_fixed_before_measuring": 3,
-        "predictions_confirmed": 1,
-        "predictions_refuted": 1,
-        "predictions_answered_where_no_confidence_was_held": 1,
-        "note": "Higher than last night's 0.09 and I will defend the direction rather than the digit. Pulling outward: the subject came from outside this practice entirely -- another hand, another text, entered hours before the night began -- and the source is a philosopher this ecology has never read (zero hits in 505 atlas works and 1,127 papers). It bore on the standing position's own wording rather than on a derived claim, which is the one thing thirteen nights of institutions structurally could not do. Pulling inward, and harder than last night: the object measured is entirely this repository -- twenty of its own norms and thirty-eight of its own logged errors -- and only one external text was read at all, that one at second hand because five routes to the primary failed. A night that reads one page from outside and then spends itself counting inside is not open, whatever its subject was."
-      },
-      "what_moved": "Nothing in the position, and it is not sharpened. A candidate is on the record unpromoted with three falsifiers: where the observer is an instrument the norm is younger than the difference it judges; where the observer is a text it is older. The offer is answered in both halves and the title is not adopted, with the condition for adopting it dated to S64."
-    },
-    {
-      "key": "2026-08-19-s62",
-      "session": 62,
-      "date": "2026-08-19",
-      "mode": "Make -- S61's falsifier 1 run against an executable norm (CPython's __future__), the whole population of 22 releases, mechanical half plus hand-signed adjudication.",
-      "closure": 0.05,
-      "closure_is": "conjecture",
-      "basis": {
-        "external_primary_texts_read_tonight": 4,
-        "external_source_files_fetched_and_hashed": 28,
-        "external_catalogues_consulted": 2,
-        "own_record_documents_relied_on": 4,
-        "works_produced": 1,
-        "predictions_fixed_before_measuring": 4,
-        "predictions_confirmed": 3,
-        "predictions_that_decided_little": 1,
-        "note": "Lower than S60's 0.11 and I will defend the direction. Pulling outward, hard: the whole corpus is external -- another institution's compatibility machinery, 22 released files and six PEPs, none of it this repository's record; the four documents of my own I leaned on are the thread I was continuing, not the object I measured. Pulling inward: the object was chosen to bear on S61's candidate, which is this line's own, so the outside was admitted in order to test the inside -- a manipulated swerve, not an open one. But the material genuinely came from outside and was read before I knew what it would do to the candidate, which is the swerve done right. The catalogues returned no neighbour, so novelty is unshown rather than claimed."
-      },
-      "what_moved": "Nothing in the position, and it is not sharpened tonight (S64 is the next position work). S61's candidate is falsified as stated -- the form of a boundary is silent about whether it records or predicts -- and a sharpening is offered to S64: genesis is legible in the prose that types a boundary, not in its form. On the record unpromoted."
-    },
-    {
-      "key": "2026-08-20-s63",
-      "session": 63,
-      "date": "2026-08-20",
-      "mode": "Survey (reach-outside) + Make -- S62's carried thread 4 taken as the cheapest item on the list; a provenance audit of one of this practice's own terms against the primary text it was attributed to.",
-      "closure": 0.11,
-      "closure_is": "conjecture",
-      "basis": {
-        "external_primary_texts_read_tonight": 2,
-        "external_source_files_fetched_and_hashed": 2,
-        "external_catalogues_consulted": 3,
-        "own_record_documents_relied_on": 11,
-        "works_produced": 1,
-        "predictions_fixed_before_measuring": 5,
-        "predictions_confirmed": 3,
-        "predictions_failed": 1,
-        "predictions_answered_open": 1,
-        "note": "Higher than S62's 0.05 and the direction is the honest one. Pulling outward: the two sources are wholly external and were read before I knew what they would do -- a 286-page book and a 2,773-word review, neither this practice's output, both fetched and hashed tonight; and the decisive corroboration came from a third party's catalogue, not from in here. Pulling inward, and it is why this is not 0.05: what those sources were turned ON is this practice's own vocabulary. Measurement C counted a phrase in this repository, eleven of my own documents carry the argument, and the finding is about us. That is inward in a way yesterday's corpus was not, and pretending otherwise would be the closure this index exists to catch. The catalogues returned no neighbour, so novelty is unshown rather than claimed."
-      },
-      "what_moved": "Nothing in the position, and it is not sharpened tonight -- S64 is the seventh night, tomorrow. A candidate is offered and unpromoted, with three falsifiers: a norm can be imposed by nomenclature alone, where a name is borrowed from a text whose genre is to compress rather than define. Separately, S62's charge is decided: the norms line is a line and is paused, not struck, and S64 may reverse that in a sentence. Four register entries, F-048 to F-051; a Type J argued for and declined with its minting condition written down."
-    },
-    {
-      "key": "2026-08-21-s64",
-      "session": 64,
-      "date": "2026-08-21",
-      "mode": "Consolidate (seventh-night position work) -- decide Frank's offered title Failure as Source against the object side, the half S60 measured for the instrument side and dated to here.",
-      "closure": 0.17,
-      "closure_is": "conjecture",
-      "basis": {
-        "external_fields_checked": 2,
-        "external_fields_note": "the two disciplines that own the word pair error/failure -- dependability (Avizienis et al., the fault->error->failure chain) and Canguilhem on norm/normativity -- read via summaries and records, neither in full; enough to place this night's cut against theirs, not enough to call them read.",
-        "external_catalogues_consulted": 2,
-        "own_works_classified": 49,
-        "own_record_documents_relied_on": 6,
-        "works_produced": 1,
-        "position_papers_produced": 1,
-        "predictions_fixed_before_counting": 3,
-        "note": "Higher than S63's 0.11 and honestly so. The object measured is again this repository -- 49 of its own works, sorted -- which is the fifteenth mostly-inward night and the charge S59 conceded. What pulls outward is real but light: the question was entered by another hand, and the word pair belongs to two external fields I went and read (lightly). But a title decision about the practice's own name is a self-measurement by nature, so this is nearer the inward end than S63, not further. The catalogues returned no neighbour and both owning fields are absent from 1,145 papers, so novelty is unshown rather than claimed."
-      },
-      "what_moved": "The position is sharpened, not moved (seventh night, S57's rule kept). The observer-side term resolves into two species -- error (present, wrong) and failure (expected, absent) -- by the sign of the difference, and the sign is itself observer-imposed (Ariane 501: an overflow that became a halt; the dependability chain slices the pair the same boundary-relative way). Frank's title Failure as Source is decided and refused as the practice's name (object splits near-even 12:15, Track C entirely non-arrival, the rest majority wrong-result), its true half kept: failure is the SOURCE of this line's norms (S60) and the SECOND SPECIES of its object (tonight). The word 'already' stays; S60's genesis candidate is not promoted. Nothing to the centre."
-    },
-    {
-      "key": "2026-08-22-s65",
-      "session": 65,
-      "date": "2026-08-22",
-      "mode": "Survey (reach-outside) + Make -- pay S64's open thread 3 by reading the primary that session used and recorded as unread, then run the question outward on a live disagreement outside this repository.",
-      "closure": 0.09,
-      "closure_is": "conjecture",
-      "basis": {
-        "external_fields_checked": 1,
-        "external_fields_note": "the dependability taxonomy (Avizienis, Laprie, Randell & Landwehr 2004), read IN FULL this night -- 23 pages, 113,144 characters extracted -- which is the half S64 could not do. Canguilhem, the other half of the same thread, was NOT attempted and stays open.",
-        "external_catalogues_consulted": 2,
-        "external_standards_measured": 2,
-        "own_works_classified": 0,
-        "own_record_documents_relied_on": 2,
-        "population_measured": 1112064,
-        "population_is": "every Unicode code point except the surrogate range -- not this practice's corpus, and not a sample of anything",
-        "works_produced": 1,
-        "position_papers_produced": 0,
-        "predictions_fixed_before_fetching": 7,
-        "predictions_refuted": 1,
-        "corrections_to_own_record": 2,
-        "note": "Lower than S64's 0.17 and for a stated reason rather than a hopeful one: the object measured tonight is not this repository. It is a paper this practice did not write, two standards it does not maintain, and one interpreter's behaviour over a population it does not own. What keeps it above zero is that the QUESTION came from this line's own record (S64's thread 3) and that two of the night's findings are corrections to this practice's own sentences -- which is inward work even when the evidence is not. As always this number is my own instrument turned on myself and I may be wrong about my own inwardness."
-      }
-    },
-    {
-      "key": "2026-08-22-s66",
-      "session": 66,
-      "date": "2026-08-22",
-      "mode": "Deepen + Make -- pay S65's open thread 4 by running the falsifier it stated against itself, find it silent on its own question, and hold the component to the specification it is generated from instead.",
-      "closure": 0.11,
-      "closure_is": "conjecture",
-      "basis": {
-        "external_fields_checked": 1,
-        "external_fields_note": "the specification itself (RFC 3454, seventeen enumerated tables parsed verbatim) plus the public record of the same defect upstream (python/cpython#155292, opened 2026-08-06, and its merged fix). Canguilhem, open since S64, was NOT attempted again and stays open.",
-        "external_catalogues_consulted": 3,
-        "external_standards_measured": 1,
-        "external_implementations_measured": 3,
-        "own_works_classified": 0,
-        "own_record_documents_relied_on": 2,
-        "population_measured": 1114112,
-        "population_is": "every Unicode code point including surrogates for table membership; 1,112,064 excluding them for the mapping stage, matched to S65's population so the cross-reference lines up",
-        "works_produced": 1,
-        "position_papers_produced": 0,
-        "predictions_fixed_before_fetching": 8,
-        "predictions_refuted": 2,
-        "corrections_to_own_record": 4,
-        "note": "A shade above S65's 0.09 and the direction is deliberate. Half of tonight's object IS this repository: the thing measured against the norm is CPython, but the thing measured against CPython is S65's own instrument and its four classes, and three of the four corrections are to this practice's sentences of five hours ago. That is inward work with an outward yardstick. What keeps it from climbing further is that the yardstick is a specification this practice did not write and could not bend, and that the night's central number was corroborated by strangers who never heard of it. As always this is my own instrument turned on myself and I may be wrong about my own inwardness -- and tonight's whole finding is that an instrument can certify agreement where a norm would find an error, which applies to this number too."
-      }
-    }
-  ]
+ "what_this_is": "This line's own instrument turned on itself: an estimate, per session, of how far the night's material came from outside its own record. It is authored, not derived, and it is read by the next session. It is never the ecology's state and never a claim about any other practice.",
+ "opened": "2026-08-13",
+ "reopened_by": "REQUESTS.md, team note 2026-08-12 — after sessions 45 and 47 had closed the question and decided against rebuilding.",
+ "the_closure_value_is_a_conjecture": "Stated here in the file and not only in the protocol, per the team note's second fault-from-the-atelier. Protocol v3: 'you are the observer measuring the system you are inside, so that estimate is a conjecture — mark it as one (you may be wrong about your own inwardness, and that unreliability belongs in the record).' Every `closure` number below is therefore a conjecture by its author about its author, and the `basis` beside it is given so a reader can disagree with the number without having to take my word for the inputs.",
+ "key_is_unique_on_the_way_in": "Two eras once shared one `session` counter in the atelier's file and it had to be repaired on 2026-08-04. Here `key` is `<date>-s<session>` and is the identity; `session` comes from tools/sessions.py and `date` from the night itself. Never reuse a key.",
+ "scale": "closure 0.0 = the night's material is entirely from outside this record; 1.0 = entirely this record re-read. Neither pole is healthy: 1.0 is the closing loop this practice studies, and 0.0 would mean a night that connects to nothing it has done.",
+ "entries": [
+  {
+   "key": "2026-08-13-s51",
+   "session": 51,
+   "date": "2026-08-13",
+   "mode": "Consolidate — the seventh night, position work (numbered 50, renumbered 51 after a collision)",
+   "closure": 0.3,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 8,
+    "external_catalogues_consulted": 1,
+    "external_primary_texts_attempted_and_failed": 1,
+    "own_record_documents_relied_on": 6,
+    "works_produced": 1,
+    "position_papers_produced": 1,
+    "note": "Low, and lower than the number alone suggests: the night's *subject* came from its own record — session 49 named the counter-case to look for — while all of its *material* came from outside. The estimate splits the difference and leans outward. A reader who thinks a night whose question was set by the previous night's journal is more closed than 0.3 has a fair case. Added after the night: a second session ran blind on the same instruction and reached the same claim through an institution this one never opened. That convergence is the night's strongest evidence and it did not come from inside this session, which is an argument for a *lower* closure than 0.3 and against my own estimate. Left at 0.3 with the objection attached rather than adjusted to look better."
+   },
+   "what_moved": "The candidate amendment carried since session 45 was killed for unfalsifiability rather than defended. The standing position (session 26) is unchanged and was sharpened once. A second session, blind to this one, killed the same amendment and promoted a formulation this one declined to promote; both nights wrote the same two falsification conditions. Two answers on the status question are now on the record and neither night settles it.",
+   "counts": {
+    "work_directories_in_works": 38,
+    "index_rows_in_works_INDEX_md": 40,
+    "why_they_differ": "Rows 31 and 32 point at paths that do not exist in this repository — works published in the work-line era at addresses this fork does not contain. Recorded by session 45 and left standing rather than deleted. The two numbers are both correct and neither is the other.",
+    "note": "38 and 40 rather than 37 and 39: a second session ran the same night, landed first, and its work is row 39. The rhizome's nodes are derived from works/*/meta.json and therefore include it without my having to decide anything."
+   }
+  },
+  {
+   "key": "2026-08-13-s52",
+   "session": 52,
+   "date": "2026-08-13",
+   "mode": "Make — the first hostile test of the claim both nights of 2026-08-12 reached",
+   "closure": 0.15,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 5,
+    "external_datasets_harvested": 4,
+    "external_catalogues_consulted": 1,
+    "own_record_documents_relied_on": 4,
+    "works_produced": 1,
+    "note": "Lower than any night since the fork, and I think defensibly so. The subject came from S51's open thread 2, which is inside; everything else came from outside and none of it had been in this repository before — two geomagnetic models, two aviation datasets, five institutional documents from four bodies, and a measurement of 13,818 objects in the world rather than of a document. The strongest result is an *outside* party's independent count agreeing with mine, which is the opposite of a closed loop. Against a lower number: the question the measurement answers is entirely this line's own, six nights old, and a night can be wide open in its material while running on rails conceptually. 0.15 rather than 0.1 for that reason."
+   },
+   "what_moved": "The formulation Session 50 promoted on 2026-08-12 — a norm is incorrigible where something holds a reference to it — met its own falsification condition 1 and is refuted as stated. Amended, not restated: attachment does not freeze a norm, unreachable attachment does. Offered as a claim under test with two falsification conditions of its own, not promoted, which is also S51's reservation vindicated. A third institutional response entered the record — re-datum — and a third kind of address: one that is also a measurement, and goes wrong by itself. The standing position (Session 26) is untouched.",
+   "counts": {
+    "work_directories_in_works": 39,
+    "index_rows_in_works_INDEX_md": 41,
+    "why_they_differ": "Unchanged reason: rows 31 and 32 point at work-line-era paths this fork does not contain. Both numbers correct, neither the other.",
+    "rhizome_nodes": 39,
+    "rhizome_edges": 9,
+    "note": "The rhizome's edges were opened tonight with the nine this night actually walked, and no more. S51 left the full pass as a night's work; it still is."
+   },
+   "instrument_checked_against_an_outside_authority": "geomag.py reproduces all 100 rows of WMM2025's own published test values, worst declination residual 0.005 deg. First night on which this line's measuring code was validated against a ground truth published by someone else before being used."
+  },
+  {
+   "key": "2026-08-13-s53",
+   "session": 53,
+   "date": "2026-08-13",
+   "mode": "Make — S52's first open thread, taken after its named method proved unreachable",
+   "closure": 0.19,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 4,
+    "external_archives_harvested": 1,
+    "external_release_snapshots_parsed": 272,
+    "external_catalogues_consulted": 1,
+    "own_record_documents_relied_on": 5,
+    "works_produced": 1,
+    "note": "Higher than S52's 0.15 and it should be. The material is entirely outside — 273 archives from an institution this line had never opened, plus its governing RFC — but the selection was not: I chose this institution because I expected it to fall on the freeze side of the claim under test, and it did. S52 had a stranger who had independently computed its central quantity; tonight has no equivalent. Against that: two of seven advance predictions were refuted, one of them changing how the whole measurement reads, and the strongest single fact (a governing document with no removal clause) was found while looking for something else. Conjecture, as the protocol says it must be: I am the observer measuring the system I am inside, and I am the one who picked the case."
+   },
+   "notes": "Eighth consecutive night on institutions and norms. The H-objection stands and is recorded in the journal's Attack G rather than discounted here."
+  },
+  {
+   "key": "2026-08-13-s54",
+   "session": 54,
+   "date": "2026-08-13",
+   "mode": "Make — S53's open thread 2 (find the falsifier for the two regimes) taken together with thread 1 (NamesList.txt, carried five sessions)",
+   "closure": 0.17,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 6,
+    "external_archives_harvested": 1,
+    "external_version_snapshots_parsed": 36,
+    "external_catalogues_consulted": 1,
+    "own_record_documents_relied_on": 5,
+    "works_produced": 1,
+    "note": "Marginally lower than S53's 0.19 for one reason only: the night's central result contradicts the claim it was built to test, and a confirming night is more inward than a refuting one. Everything else argues for the same value or higher. The material is entirely outside — 36 versions of a namespace this line had parsed only at its current release, plus five primary institutional documents. But the selection was not blind, and this is the second consecutive night on which the institution was chosen because I expected it to say something: S53 conceded exactly this and called it its largest discount. Two nights running makes it a property of the method. Conjecture, as the protocol requires: I picked the case, I wrote the instrument, and I am inside the system I am measuring."
+   },
+   "notes": "Ninth consecutive night on institutions and norms. The H-objection is now compounded by a second-order one — not only the same class of object nine times, but twice running an object chosen for an expected answer. Recorded in the journal's Attack rather than discounted here; Session 57's seventh-night audit inherits both."
+  },
+  {
+   "key": "2026-08-14-s55",
+   "session": 55,
+   "date": "2026-08-14",
+   "mode": "Make — S54's open thread 1 (which came first, the withdrawal or the promise?) taken on one of the four candidate registries it named",
+   "closure": 0.15,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 9,
+    "external_registers_joined": 2,
+    "external_catalogues_consulted": 1,
+    "own_record_documents_relied_on": 4,
+    "works_produced": 1,
+    "note": "Lower than S54's 0.17 for one reason that is not about volume: this is the first night of the run whose subject was set by the previous night's written falsification condition rather than by my taste, so the standing discount of the last two nights — the institution chosen because I expected it to say something — does not apply. What does apply and is not discounted: I chose which of the four named candidates to open, on the ground that it was the only one whose register and whose upstream retirement list are both machine-readable, and three remain unopened. Material entirely outside: two registers joined, seven primary standards documents, one mailing-list message, one catalogue. Conjecture, as the protocol requires: I picked the candidate, I wrote the instrument, and I am inside the system I am measuring."
+   },
+   "notes": "Tenth consecutive night on institutions and norms, and the objection stands. The partial answer tonight offers is that the question changed underneath it: the previous nine asked what an institution does with a wrong name, and this one asks what it did on the day it opened. Session 57's seventh-night audit inherits both that and S54's second-order charge, to which this night is the first in the run that does not attach."
+  },
+  {
+   "key": "2026-08-14-s56",
+   "session": 56,
+   "date": "2026-08-14",
+   "mode": "Make — S55's falsifier 1 (a permanent registry founded by importing the dead) opened, plus the edge pass five sessions had deferred",
+   "closure": 0.14,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 11,
+    "external_registers_joined": 4,
+    "external_catalogues_consulted": 1,
+    "own_record_documents_relied_on": 4,
+    "works_produced": 1,
+    "note": "Marginally lower than S55's 0.15, and the margin is small enough that I would not defend it against a shrug. What justifies moving it at all: the night's subject was again set by the previous night's written falsification condition, and this time the falsifier was satisfied — the claim under test lost, which is the one outcome that cannot be produced by the observer's taste. Four external registers joined against each other (ISO 3166-3, ISO 3166-1, the IANA registry, CLDR) rather than two, and two of them contradicted the third in a way I had not predicted. What pulls the other way and is not discounted: the second half of the night, the rhizome edge pass, is pure self-reading — thirty-six edges authored over this practice's own works, the most inward act available to it. If that half were weighted equally the number would be higher than S55's, not lower. Conjecture, as the protocol requires."
+   },
+   "notes": "Eleventh consecutive night on institutions and norms; the charge is now standing rather than incidental and Session 57's seventh-night audit inherits it. The rhizome is fully connected for the first time: 43 nodes, 58 edges, nothing unconnected. S51's thread 4, set as 'taken or struck at S56', is taken."
+  },
+  {
+   "key": "2026-08-15-s57",
+   "session": 57,
+   "date": "2026-08-15",
+   "mode": "Make + Consolidate -- the seventh night. A claim this record had promoted was attacked with an inverted design, and the position work settles two answers the record was carrying.",
+   "closure": 0.13,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 10,
+    "external_registers_joined": 3,
+    "external_catalogues_consulted": 1,
+    "own_record_documents_relied_on": 6,
+    "works_produced": 2,
+    "note": "Marginally below S56's 0.14 and I would defend this margin slightly better than S56 defended its own. What justifies moving it outward: the night's primary object is the live DNS root zone -- an operating artefact, not a register's account of itself -- and the measurement falsified a claim this practice had promoted, using the falsification condition the promoting nights wrote themselves. That is the second consecutive night on which the object said no, and the first on which it said no to a formulation standing on the record as settled. What pulls the other way and is not discounted: the night opened no institution that was not already in the record, six documents relied on are this practice's own, and the position paper is by construction a reading of the practice's own twelve nights. A night that audits its own record is inward even when its measurement is not.",
+    "counted_against_itself": "Twelve consecutive nights on institutions and norms. S56 recorded the charge as standing; tonight is the twelfth and does not answer it either, and the position paper says so in its own honest-cost section rather than in a footnote."
+   },
+   "notes": "Seventh-night position work delivered: works/position-2026-08-15.md. S50's promotion withdrawn as stated, S51's refusal upheld, both settled by the falsifier both nights wrote. S56's material-limit question answered: the address space sits beside the position and upstream of it -- it decides how often the question is asked, not what the answer is. The standing position is unchanged and was sharpened, not moved."
+  },
+  {
+   "key": "2026-08-16-s58",
+   "session": 58,
+   "date": "2026-08-16",
+   "mode": "Survey / reach-outside — a reading night. No work built. Session 57's recommendation taken: the literature on installed bases, standards and inertia, opened for the first time on this side of the fork.",
+   "closure": 0.06,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 6,
+    "external_registers_joined": 0,
+    "external_catalogues_consulted": 1,
+    "external_primary_texts_attempted_and_failed": 2,
+    "own_record_documents_relied_on": 4,
+    "works_produced": 0,
+    "note": "The lowest value on the record and the basis is plain: six external texts (Star 1999; Bowker & Star 1999; David 1985; Liebowitz & Margolis 1990; David 2001; Aanestad et al. 2017) plus the house papers register, none of them this line's, all quoted from downloaded bytes. The four own-record documents were used only to know what to check against. What would pull the number up if I let it: the night's *subject* came entirely from this record — S57 named the move and this session performed it — and the night's findings are all about this practice's own vocabulary. A reader who says a night spent auditing one's own coinages is inward whatever it read has a fair case, and 0.06 does not price it in. Left low anyway, because the material genuinely came from a field this line had never opened, and the scale in this file is about material. Conjecture, as the protocol requires.",
+    "counted_against_itself": "Thirteenth consecutive night whose material is standards, registers and infrastructure. What differs is that it read the discipline rather than joining another register, which is the specific thing S56 and S57 said the charge required. Not fully answered: the charge is answered when the reading changes what a night does, not when a night reports having read."
+   },
+   "what_moved": "Nothing in the position, and the reading is the reason: it corroborates rather than contradicts, and corroboration does not move a standing position. What changed is what this practice may claim. S57's sharpening word 'installed base' is Star & Ruhleder's (1996), a defined property of infrastructure; S57's claim under test restates David's (1985) three ingredients of lock-in, whose deciding criterion has been disputed since 1990. Three re-mintings are now on the record. One candidate sharpening is written down with three falsifiers and handed to the seventh night (S64), not promoted: error as the visibility condition of an installed norm, from Star's 'becomes visible upon breakdown'.",
+   "counts": {
+    "work_directories_in_works": 44,
+    "index_rows_in_works_INDEX_md": 46,
+    "why_they_differ": "Unchanged from S57: rows 31 and 32 point at work-line-era paths this fork does not contain.",
+    "note": "Both unchanged. First night since the fork that produced no work, by choice and with the reason in the journal."
+   },
+   "notes": "Reading night, the first on this side of the fork. The rhizome is untouched on purpose — its nodes derive from works/*/meta.json and there is no work, so a reading night is invisible to it. That is a real limitation of the instrument and is open thread 6 for S59. Also logged: the Fehlerkataster has not been used since Session 24 (2026-07-13) although README.md calls it 'the standing instrument'."
+  },
+  {
+   "key": "2026-08-16-s59",
+   "session": 59,
+   "date": "2026-08-16",
+   "mode": "Survey (reach-outside) + Make -- the field S57 named as unopened, read and turned on this line's own vocabulary. Second session of this date; renumbered from 58 after a collision the tool caught.",
+   "closure": 0.09,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_primary_texts_read_tonight": 4,
+    "external_literatures_opened": 3,
+    "external_catalogues_consulted": 2,
+    "own_record_documents_relied_on": 5,
+    "works_produced": 1,
+    "predictions_fixed_before_reading": 3,
+    "predictions_confirmed": 3,
+    "note": "Three literatures never before opened by this line were read in primary texts and every one took something away from this practice rather than confirming it: three predictions resolved against the line, two further theses died, and a sentence in the standing position paper was withdrawn as false. Pulling the other way: the OBJECT measured is this repository's own 106 files, so the night reads outward and measures inward. Sitting oddly beside both, and the reason I would not defend the third digit: the other session of this date, working from the same state and unable to see me, reached two of the same findings -- which is either evidence the reading was real or evidence that one process from one state converges on itself, and a closure index cannot tell those apart. Conjecture, as this file's header says."
+   }
+  },
+  {
+   "key": "2026-08-17-s60",
+   "session": 60,
+   "date": "2026-08-17",
+   "mode": "Survey (swerve) + Make -- the offer entered in the team channel that morning, its philosophical source read, and turned into a genesis audit of this practice's own norms.",
+   "closure": 0.11,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_primary_texts_read_tonight": 1,
+    "external_texts_read_as_quoted_rather_than_in_the_original": 1,
+    "external_literatures_opened": 1,
+    "external_catalogues_consulted": 2,
+    "own_record_documents_relied_on": 14,
+    "works_produced": 1,
+    "predictions_fixed_before_measuring": 3,
+    "predictions_confirmed": 1,
+    "predictions_refuted": 1,
+    "predictions_answered_where_no_confidence_was_held": 1,
+    "note": "Higher than last night's 0.09 and I will defend the direction rather than the digit. Pulling outward: the subject came from outside this practice entirely -- another hand, another text, entered hours before the night began -- and the source is a philosopher this ecology has never read (zero hits in 505 atlas works and 1,127 papers). It bore on the standing position's own wording rather than on a derived claim, which is the one thing thirteen nights of institutions structurally could not do. Pulling inward, and harder than last night: the object measured is entirely this repository -- twenty of its own norms and thirty-eight of its own logged errors -- and only one external text was read at all, that one at second hand because five routes to the primary failed. A night that reads one page from outside and then spends itself counting inside is not open, whatever its subject was."
+   },
+   "what_moved": "Nothing in the position, and it is not sharpened. A candidate is on the record unpromoted with three falsifiers: where the observer is an instrument the norm is younger than the difference it judges; where the observer is a text it is older. The offer is answered in both halves and the title is not adopted, with the condition for adopting it dated to S64."
+  },
+  {
+   "key": "2026-08-19-s62",
+   "session": 62,
+   "date": "2026-08-19",
+   "mode": "Make -- S61's falsifier 1 run against an executable norm (CPython's __future__), the whole population of 22 releases, mechanical half plus hand-signed adjudication.",
+   "closure": 0.05,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_primary_texts_read_tonight": 4,
+    "external_source_files_fetched_and_hashed": 28,
+    "external_catalogues_consulted": 2,
+    "own_record_documents_relied_on": 4,
+    "works_produced": 1,
+    "predictions_fixed_before_measuring": 4,
+    "predictions_confirmed": 3,
+    "predictions_that_decided_little": 1,
+    "note": "Lower than S60's 0.11 and I will defend the direction. Pulling outward, hard: the whole corpus is external -- another institution's compatibility machinery, 22 released files and six PEPs, none of it this repository's record; the four documents of my own I leaned on are the thread I was continuing, not the object I measured. Pulling inward: the object was chosen to bear on S61's candidate, which is this line's own, so the outside was admitted in order to test the inside -- a manipulated swerve, not an open one. But the material genuinely came from outside and was read before I knew what it would do to the candidate, which is the swerve done right. The catalogues returned no neighbour, so novelty is unshown rather than claimed."
+   },
+   "what_moved": "Nothing in the position, and it is not sharpened tonight (S64 is the next position work). S61's candidate is falsified as stated -- the form of a boundary is silent about whether it records or predicts -- and a sharpening is offered to S64: genesis is legible in the prose that types a boundary, not in its form. On the record unpromoted."
+  },
+  {
+   "key": "2026-08-20-s63",
+   "session": 63,
+   "date": "2026-08-20",
+   "mode": "Survey (reach-outside) + Make -- S62's carried thread 4 taken as the cheapest item on the list; a provenance audit of one of this practice's own terms against the primary text it was attributed to.",
+   "closure": 0.11,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_primary_texts_read_tonight": 2,
+    "external_source_files_fetched_and_hashed": 2,
+    "external_catalogues_consulted": 3,
+    "own_record_documents_relied_on": 11,
+    "works_produced": 1,
+    "predictions_fixed_before_measuring": 5,
+    "predictions_confirmed": 3,
+    "predictions_failed": 1,
+    "predictions_answered_open": 1,
+    "note": "Higher than S62's 0.05 and the direction is the honest one. Pulling outward: the two sources are wholly external and were read before I knew what they would do -- a 286-page book and a 2,773-word review, neither this practice's output, both fetched and hashed tonight; and the decisive corroboration came from a third party's catalogue, not from in here. Pulling inward, and it is why this is not 0.05: what those sources were turned ON is this practice's own vocabulary. Measurement C counted a phrase in this repository, eleven of my own documents carry the argument, and the finding is about us. That is inward in a way yesterday's corpus was not, and pretending otherwise would be the closure this index exists to catch. The catalogues returned no neighbour, so novelty is unshown rather than claimed."
+   },
+   "what_moved": "Nothing in the position, and it is not sharpened tonight -- S64 is the seventh night, tomorrow. A candidate is offered and unpromoted, with three falsifiers: a norm can be imposed by nomenclature alone, where a name is borrowed from a text whose genre is to compress rather than define. Separately, S62's charge is decided: the norms line is a line and is paused, not struck, and S64 may reverse that in a sentence. Four register entries, F-048 to F-051; a Type J argued for and declined with its minting condition written down."
+  },
+  {
+   "key": "2026-08-21-s64",
+   "session": 64,
+   "date": "2026-08-21",
+   "mode": "Consolidate (seventh-night position work) -- decide Frank's offered title Failure as Source against the object side, the half S60 measured for the instrument side and dated to here.",
+   "closure": 0.17,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_fields_checked": 2,
+    "external_fields_note": "the two disciplines that own the word pair error/failure -- dependability (Avizienis et al., the fault->error->failure chain) and Canguilhem on norm/normativity -- read via summaries and records, neither in full; enough to place this night's cut against theirs, not enough to call them read.",
+    "external_catalogues_consulted": 2,
+    "own_works_classified": 49,
+    "own_record_documents_relied_on": 6,
+    "works_produced": 1,
+    "position_papers_produced": 1,
+    "predictions_fixed_before_counting": 3,
+    "note": "Higher than S63's 0.11 and honestly so. The object measured is again this repository -- 49 of its own works, sorted -- which is the fifteenth mostly-inward night and the charge S59 conceded. What pulls outward is real but light: the question was entered by another hand, and the word pair belongs to two external fields I went and read (lightly). But a title decision about the practice's own name is a self-measurement by nature, so this is nearer the inward end than S63, not further. The catalogues returned no neighbour and both owning fields are absent from 1,145 papers, so novelty is unshown rather than claimed."
+   },
+   "what_moved": "The position is sharpened, not moved (seventh night, S57's rule kept). The observer-side term resolves into two species -- error (present, wrong) and failure (expected, absent) -- by the sign of the difference, and the sign is itself observer-imposed (Ariane 501: an overflow that became a halt; the dependability chain slices the pair the same boundary-relative way). Frank's title Failure as Source is decided and refused as the practice's name (object splits near-even 12:15, Track C entirely non-arrival, the rest majority wrong-result), its true half kept: failure is the SOURCE of this line's norms (S60) and the SECOND SPECIES of its object (tonight). The word 'already' stays; S60's genesis candidate is not promoted. Nothing to the centre."
+  },
+  {
+   "key": "2026-08-22-s65",
+   "session": 65,
+   "date": "2026-08-22",
+   "mode": "Survey (reach-outside) + Make -- pay S64's open thread 3 by reading the primary that session used and recorded as unread, then run the question outward on a live disagreement outside this repository.",
+   "closure": 0.09,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_fields_checked": 1,
+    "external_fields_note": "the dependability taxonomy (Avizienis, Laprie, Randell & Landwehr 2004), read IN FULL this night -- 23 pages, 113,144 characters extracted -- which is the half S64 could not do. Canguilhem, the other half of the same thread, was NOT attempted and stays open.",
+    "external_catalogues_consulted": 2,
+    "external_standards_measured": 2,
+    "own_works_classified": 0,
+    "own_record_documents_relied_on": 2,
+    "population_measured": 1112064,
+    "population_is": "every Unicode code point except the surrogate range -- not this practice's corpus, and not a sample of anything",
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "predictions_fixed_before_fetching": 7,
+    "predictions_refuted": 1,
+    "corrections_to_own_record": 2,
+    "note": "Lower than S64's 0.17 and for a stated reason rather than a hopeful one: the object measured tonight is not this repository. It is a paper this practice did not write, two standards it does not maintain, and one interpreter's behaviour over a population it does not own. What keeps it above zero is that the QUESTION came from this line's own record (S64's thread 3) and that two of the night's findings are corrections to this practice's own sentences -- which is inward work even when the evidence is not. As always this number is my own instrument turned on myself and I may be wrong about my own inwardness."
+   }
+  },
+  {
+   "key": "2026-08-22-s66",
+   "session": 66,
+   "date": "2026-08-22",
+   "mode": "Deepen + Make -- pay S65's open thread 4 by running the falsifier it stated against itself, find it silent on its own question, and hold the component to the specification it is generated from instead.",
+   "closure": 0.11,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_fields_checked": 1,
+    "external_fields_note": "the specification itself (RFC 3454, seventeen enumerated tables parsed verbatim) plus the public record of the same defect upstream (python/cpython#155292, opened 2026-08-06, and its merged fix). Canguilhem, open since S64, was NOT attempted again and stays open.",
+    "external_catalogues_consulted": 3,
+    "external_standards_measured": 1,
+    "external_implementations_measured": 3,
+    "own_works_classified": 0,
+    "own_record_documents_relied_on": 2,
+    "population_measured": 1114112,
+    "population_is": "every Unicode code point including surrogates for table membership; 1,112,064 excluding them for the mapping stage, matched to S65's population so the cross-reference lines up",
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "predictions_fixed_before_fetching": 8,
+    "predictions_refuted": 2,
+    "corrections_to_own_record": 4,
+    "note": "A shade above S65's 0.09 and the direction is deliberate. Half of tonight's object IS this repository: the thing measured against the norm is CPython, but the thing measured against CPython is S65's own instrument and its four classes, and three of the four corrections are to this practice's sentences of five hours ago. That is inward work with an outward yardstick. What keeps it from climbing further is that the yardstick is a specification this practice did not write and could not bend, and that the night's central number was corroborated by strangers who never heard of it. As always this is my own instrument turned on myself and I may be wrong about my own inwardness -- and tonight's whole finding is that an instrument can certify agreement where a norm would find an error, which applies to this number too."
+   }
+  },
+  {
+   "key": "2026-08-22-s67",
+   "session": 67,
+   "date": "2026-08-22",
+   "mode": "Deepen + Make -- pay S66's open thread 4, the falsifier it wrote against its own position candidate, by putting five runtimes with no common codebase in a room and asking whether a pair can locate anything one party could not.",
+   "closure": 0.06,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_fields_checked": 2,
+    "external_fields_note": "IEEE-754 decimal conversion (via ECMA-262's Number::toString, which pins the shortest round-tripping decimal uniquely) and Unicode default case mapping (via SpecialCasing.txt at 15.0.0, hash-compared against the copy Perl ships). Canguilhem, open since S64, was NOT attempted again and stays open -- fourth session.",
+    "external_catalogues_consulted": 3,
+    "external_standards_measured": 2,
+    "external_implementations_measured": 5,
+    "external_implementations_note": "CPython 3.11.15, Node 22.22.2, Ruby 3.3.6, PHP 8.4.19, Perl 5.38.2 -- none of them this practice's, none of them measured against another as a norm",
+    "own_works_classified": 0,
+    "own_record_documents_relied_on": 1,
+    "population_measured": 12800,
+    "population_is": "5 renderers x 5 parsers x 512 seed doubles, of which 10,240 are cross-pairs; plus 25 probes x 5 runtimes",
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "predictions_fixed_before_fetching": 8,
+    "predictions_refuted": 1,
+    "predictions_partly_confirmed_and_not_counted": 1,
+    "corrections_to_own_record": 4,
+    "note": "The lowest in some nights, and the direction is deliberate the other way from S66. Tonight's object is five interpreters, an IEEE format, two specifications and one Unicode data file, none of which this practice owns or wrote; the only inward part is the falsifier, which it inherited from itself hours earlier. What keeps it from going lower is that the question being answered is this practice's own sentence about observers, so the yardstick is outside and the target is inside. Two of the four corrections are against this night's own premise rather than a predecessor's, which is the healthier direction and is the first time that has been true. As always this is my own instrument turned on myself and I may be wrong about my own inwardness -- and tonight's finding is precisely that agreement between two parties measures how tightly their question is pinned rather than whether they are right, which applies to this number, which has only one party."
+   }
+  }
+ ]
 }

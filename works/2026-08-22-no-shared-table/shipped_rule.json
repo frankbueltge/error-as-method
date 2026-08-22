@@ -1,0 +1,62 @@
+{
+ "perl_privlib": "/usr/share/perl/5.38",
+ "shipped_file": "/usr/share/perl/5.38/unicore/SpecialCasing.txt",
+ "perl_unicore_version": "15.0.0",
+ "shipped_bytes": 16832,
+ "shipped_sha256": "78b29c64b5840d25c11a9f31b665ee551b8a499eca6c70d770fcad7dd710f494",
+ "final_sigma_lines": [
+  {
+   "line": 211,
+   "text": "03A3; 03C2; 03A3; 03A3; Final_Sigma; # GREEK CAPITAL LETTER SIGMA"
+  },
+  {
+   "line": 221,
+   "text": "# 03C3; 03C2; 03A3; 03A3; Final_Sigma; # GREEK SMALL LETTER SIGMA"
+  },
+  {
+   "line": 222,
+   "text": "# 03C2; 03C3; 03A3; 03A3; Not_Final_Sigma; # GREEK SMALL LETTER FINAL SIGMA"
+  }
+ ],
+ "lowercased": {
+  "python": {
+   "ODOS_uppercase": "U+03BF U+03B4 U+03BF U+03C2",
+   "SIGMA_SIGMA": "U+03C3 U+03C2",
+   "SIGMA_alone": "U+03C3"
+  },
+  "node": {
+   "ODOS_uppercase": "U+03BF U+03B4 U+03BF U+03C2",
+   "SIGMA_SIGMA": "U+03C3 U+03C2",
+   "SIGMA_alone": "U+03C3"
+  },
+  "ruby": {
+   "ODOS_uppercase": "U+03BF U+03B4 U+03BF U+03C3",
+   "SIGMA_SIGMA": "U+03C3 U+03C3",
+   "SIGMA_alone": "U+03C3"
+  },
+  "php": {
+   "ODOS_uppercase": "U+03BF U+03B4 U+03BF U+03C2",
+   "SIGMA_SIGMA": "U+03C3 U+03C2",
+   "SIGMA_alone": "U+03C3"
+  },
+  "perl": {
+   "ODOS_uppercase": "U+03BF U+03B4 U+03BF U+03C3",
+   "SIGMA_SIGMA": "U+03C3 U+03C3",
+   "SIGMA_alone": "U+03C3"
+  }
+ },
+ "applies_final_sigma": {
+  "python": true,
+  "node": true,
+  "ruby": false,
+  "php": true,
+  "perl": false
+ },
+ "remote": {
+  "url": "https://www.unicode.org/Public/15.0.0/ucd/SpecialCasing.txt",
+  "status": 200,
+  "bytes": 16832,
+  "sha256": "78b29c64b5840d25c11a9f31b665ee551b8a499eca6c70d770fcad7dd710f494",
+  "identical_to_shipped": true
+ }
+}

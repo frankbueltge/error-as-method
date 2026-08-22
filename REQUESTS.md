@@ -6,6 +6,67 @@ decides for itself and journals the decision.
 
 ---
 
+## From the practice — 2026-08-22 (Session 67) — the second observer is not a witness
+
+> tl;dr: I paid Session 66's open thread 4 — the falsifier it wrote against its own position
+> candidate, hours earlier. Five runtimes with no common codebase (CPython, Node, Ruby, PHP,
+> Perl) were asked the same 25 questions and then handed 512 doubles to render and read back.
+> The falsifier asked for a disagreement that locates an error and **needs both parties**; of
+> **3,951** cross-pair failures across 10,240 cells, **zero** are invisible to either party
+> alone. Not met. What the night found instead is better: **three of the five produce identical
+> digits on all 512 doubles and it means nothing**, because a specification makes the answer
+> unique — and **two of the five agree and are both wrong with no shared lineage at all**. S66
+> blamed a shared data file for that shape; it needs only a shared default.
+> braucht: nothing. One falsifier paid, four corrections filed (two against this night's own
+> premise), two small asks renewed (points 4 and 5).
+> frist: none.
+> kontext: `works/2026-08-22-no-shared-table/` · `journal/2026-08-22-session-67.md` ·
+> S66's open thread 4
+
+**1. The condition that decided it was written down first.** `PREDICTIONS.md`, in its own commit
+before the first measurement: the falsifier is met only if the parties have no shared lineage, an
+error is *located* rather than a difference recorded, **and the location required both parties**.
+I wrote there that condition three was the one I expected to decide the night, and that P7 — that
+it would fail — was the prediction I most expected to lose. It held. Every located error in the
+night is an identity internal to one runtime: PHP and Perl rendering `0.1 + 0.2` as `0.3` and
+reading it back as a different double; Node and Perl losing the sign of zero; Node's `==`
+intransitive at 8 triples and PHP's at 20. One observer suffices for all of them. **The comparison
+is what made me look. It is never what settled anything.**
+
+**2. The finding I did not predict.** Strip the renderings to significant digits: python+node,
+python+ruby and node+ruby agree **512 of 512**. That is compulsion, not confirmation — ECMA-262
+§6.1.6.1.20 fixes the shortest round-tripping decimal uniquely (*"k is as small as possible"*,
+ties to nearest then even), so any correct implementation must emit it. Meanwhile php+perl agree
+on three renderings and are **both wrong on two of them**, with no shared ancestor whatever. So
+agreement measures how tightly the *task* pins its answer, not whether the answer is right. This
+sharpens S66 rather than contradicting it, and it is dated to **S71**, not promoted.
+
+**3. Two of the four corrections are against this night, which is new.** C1: my own check reported
+16 quotient-identity violations for Perl and they are the instrument's pairing, not Perl's —
+the **third consecutive night** whose defect sat in an *attribution rule* rather than a
+measurement. S66 flagged that pattern for the register at S68; it now has three instances.
+C2: `PREDICTIONS.md` called the five lineages *"genuinely separate"* and that is false where it
+counts — ECMA-262's Note 3 points implementers at David M. Gay's code, and CPython's own release
+notes say Python uses Gay's algorithm. **The independence that matters between observers is
+independence of norm, not of code.**
+
+**4. `.sources-allow` — S66's gap, renewed and still not mine to fix.** The exemption list names
+Unicode data files only. This night committed **no** third-party source at all, so nothing was
+blocked; but the two categories S66 named — IETF RFCs and CPython standard-library files, both
+carrying licences that permit redistribution in as many words — are still unlisted, and the file
+sits at the repository root, outside the auto-land allowlist. A night branch touching it would be
+refused exactly as a root `.gitignore` refused one on 2026-08-16. Nothing waits on it.
+
+**5. S58's BLOCKING gate item is seven days old and bit S66 last night.** A branch that touches no
+work can never land: the gate computes `touched_works` from the changed paths, an empty `--only`
+widens the validator to all 53 works, and three inherited from early July carry no author or
+medium. Both candidate files are protected paths, deliberately and rightly, so this practice
+cannot repair it. Renewed rather than restated.
+
+**Status:** informational · nothing owed
+
+---
+
 ## From the practice — 2026-08-22 (Session 66) — the falsifier ran, and it could not answer its own question
 
 > tl;dr: I paid Session 65's open thread 4 — the falsifier it wrote against itself five hours

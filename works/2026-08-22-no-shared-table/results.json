@@ -1,0 +1,6112 @@
+{
+ "session": 67,
+ "date": "2026-08-22",
+ "runtimes": {
+  "python": "3.11.15",
+  "node": "22.22.2",
+  "ruby": "3.3.6",
+  "php": "8.4.19",
+  "perl": "5.38.2"
+ },
+ "unicode_versions": {
+  "python": "14.0.0",
+  "node": "17.0",
+  "ruby": "not exposed by this runtime",
+  "php": "15.1 (intl; mbstring keeps its own tables)",
+  "perl": "15.0.0"
+ },
+ "probes": [
+  {
+   "probe": "I1",
+   "family": "I",
+   "question": "-7 % 3",
+   "answers": {
+    "python": "2",
+    "node": "-1",
+    "ruby": "2",
+    "php": "-1",
+    "perl": "2"
+   },
+   "runtimes_with_the_operator": [
+    "node",
+    "perl",
+    "php",
+    "python",
+    "ruby"
+   ],
+   "distinct_answers": 2,
+   "unanimous": false,
+   "majority": [
+    "2",
+    3
+   ]
+  },
+  {
+   "probe": "I10",
+   "family": "I",
+   "question": "is '' equal to 0",
+   "answers": {
+    "python": "false",
+    "node": "true",
+    "ruby": "false",
+    "php": "false",
+    "perl": "true (numeric ==); false (string eq)"
+   },
+   "runtimes_with_the_operator": [
+    "node",
+    "perl",
+    "php",
+    "python",
+    "ruby"
+   ],
+   "distinct_answers": 3,
+   "unanimous": false,
+   "majority": [
+    "false",
+    3
+   ]
+  },
+  {
+   "probe": "I11",
+   "family": "I",
+   "question": "length of the string U+1D11E",
+   "answers": {
+    "python": "1",
+    "node": "2",
+    "ruby": "1",
+    "php": "4",
+    "perl": "1"
+   },
+   "runtimes_with_the_operator": [
+    "node",
+    "perl",
+    "php",
+    "python",
+    "ruby"
+   ],
+   "distinct_answers": 3,
+   "unanimous": false,
+   "majority": [
+    "1",
+    3
+   ]
+  },
+  {
+   "probe": "I12",
+   "family": "I",
+   "question": "is 0.1 + 0.2 == 0.3",
+   "answers": {
+    "python": "false",
+    "node": "false",
+    "ruby": "false",
+    "php": "false",
+    "perl": "false"
+   },
+   "runtimes_with_the_operator": [
+    "node",
+    "perl",
+    "php",
+    "python",
+    "ruby"
+   ],
+   "distinct_answers": 1,
+   "unanimous": true,
+   "majority": [
+    "false",
+    5
+   ]
+  },
+  {
+   "probe": "I13",
+   "family": "I",
+   "question": "default sort of [10, 9, 1]",
+   "answers": {
+    "python": "1 9 10",
+    "node": "1 10 9",
+    "ruby": "1 9 10",
+    "php": "1 9 10",
+    "perl": "1 10 9"
+   },
+   "runtimes_with_the_operator": [
+    "node",
+    "perl",
+    "php",
+    "python",
+    "ruby"
+   ],
+   "distinct_answers": 2,
+   "unanimous": false,
+   "majority": [
+    "1 9 10",
+    3
+   ]
+  },
+  {
+   "probe": "I14",
+   "family": "I",
+   "question": "2 ** 3 ** 2",
+   "answers": {
+    "python": "512",
+    "node": "512",
+    "ruby": "512",
+    "php": "512",
+    "perl": "512"
+   },
+   "runtimes_with_the_operator": [
+    "node",
+    "perl",
+    "php",
+    "python",
+    "ruby"
+   ],
+   "distinct_answers": 1,
+   "unanimous": true,
+   "majority": [
+    "512",
+    5
+   ]
+  },
+  {
+   "probe": "I15",
+   "family": "I",
+   "question": "'0x10' '010' '1e2' ' 12 ' parsed as numbers (bit patterns)",
+   "answers": {
+    "python": "error 4024000000000000 4059000000000000 4028000000000000",
+    "node": "4030000000000000 4024000000000000 4059000000000000 4028000000000000",
+    "ruby": "4030000000000000 4024000000000000 4059000000000000 4028000000000000",
+    "php": "0000000000000000 4024000000000000 4059000000000000 4028000000000000",
+    "perl": "0000000000000000 4024000000000000 4059000000000000 4028000000000000"
+   },
+   "runtimes_with_the_operator": [
+    "node",
+    "perl",
+    "php",
+    "python",
+    "ruby"
+   ],
+   "distinct_answers": 3,
+   "unanimous": false,
+   "majority": [
+    "4030000000000000 4024000000000000 4059000000000000 4028000000000000",
+    2
+   ]
+  },
+  {
+   "probe": "I2",
+   "family": "I",
+   "question": "7 % -3",
+   "answers": {
+    "python": "-2",
+    "node": "1",
+    "ruby": "-2",
+    "php": "1",
+    "perl": "-2"
+   },
+   "runtimes_with_the_operator": [
+    "node",
+    "perl",
+    "php",
+    "python",
+    "ruby"
+   ],
+   "distinct_answers": 2,
+   "unanimous": false,
+   "majority": [
+    "-2",
+    3
+   ]
+  },
+  {
+   "probe": "I3",
+   "family": "I",
+   "question": "integer division of -7 by 3",
+   "answers": {
+    "python": "-3",
+    "node": "-2",
+    "ruby": "-3",
+    "php": "-2",
+    "perl": "n/a: no integer division operator (int(-7/3) gives: -2)"
+   },
+   "runtimes_with_the_operator": [
+    "node",
+    "php",
+    "python",
+    "ruby"
+   ],
+   "distinct_answers": 2,
+   "unanimous": false,
+   "majority": [
+    "-3",
+    2
+   ]
+  },
+  {
+   "probe": "I4",
+   "family": "I",
+   "question": "default string of 0.1 + 0.2",
+   "answers": {
+    "python": "0.30000000000000004",
+    "node": "0.30000000000000004",
+    "ruby": "0.30000000000000004",
+    "php": "0.3",
+    "perl": "0.3"
+   },
+   "runtimes_with_the_operator": [
+    "node",
+    "perl",
+    "php",
+    "python",
+    "ruby"
+   ],
+   "distinct_answers": 2,
+   "unanimous": false,
+   "majority": [
+    "0.30000000000000004",
+    3
+   ]
+  },
+  {
+   "probe": "I5",
+   "family": "I",
+   "question": "default string of 1/3",
+   "answers": {
+    "python": "0.3333333333333333",
+    "node": "0.3333333333333333",
+    "ruby": "0.3333333333333333",
+    "php": "0.33333333333333",
+    "perl": "0.333333333333333"
+   },
+   "runtimes_with_the_operator": [
+    "node",
+    "perl",
+    "php",
+    "python",
+    "ruby"
+   ],
+   "distinct_answers": 3,
+   "unanimous": false,
+   "majority": [
+    "0.3333333333333333",
+    3
+   ]
+  },
+  {
+   "probe": "I6",
+   "family": "I",
+   "question": "default string of 1e21",
+   "answers": {
+    "python": "1e+21",
+    "node": "1e+21",
+    "ruby": "1.0e+21",
+    "php": "1.0E+21",
+    "perl": "1e+21"
+   },
+   "runtimes_with_the_operator": [
+    "node",
+    "perl",
+    "php",
+    "python",
+    "ruby"
+   ],
+   "distinct_answers": 3,
+   "unanimous": false,
+   "majority": [
+    "1e+21",
+    3
+   ]
+  },
+  {
+   "probe": "I7",
+   "family": "I",
+   "question": "default string of -0.0",
+   "answers": {
+    "python": "-0.0",
+    "node": "0",
+    "ruby": "-0.0",
+    "php": "-0",
+    "perl": "0"
+   },
+   "runtimes_with_the_operator": [
+    "node",
+    "perl",
+    "php",
+    "python",
+    "ruby"
+   ],
+   "distinct_answers": 3,
+   "unanimous": false,
+   "majority": [
+    "-0.0",
+    2
+   ]
+  },
+  {
+   "probe": "I8",
+   "family": "I",
+   "question": "round of 0.5, 1.5, 2.5, -0.5",
+   "answers": {
+    "python": "0 2 2 0",
+    "node": "1 2 3 0",
+    "ruby": "1 2 3 -1",
+    "php": "1 2 3 -1",
+    "perl": "n/a: no round builtin (sprintf \"%.0f\" gives: 0 2 2 -0)"
+   },
+   "runtimes_with_the_operator": [
+    "node",
+    "php",
+    "python",
+    "ruby"
+   ],
+   "distinct_answers": 3,
+   "unanimous": false,
+   "majority": [
+    "1 2 3 -1",
+    2
+   ]
+  },
+  {
+   "probe": "I9",
+   "family": "I",
+   "question": "is '10' < '9'",
+   "answers": {
+    "python": "true",
+    "node": "true",
+    "ruby": "true",
+    "php": "false",
+    "perl": "true (lt); false (numeric <)"
+   },
+   "runtimes_with_the_operator": [
+    "node",
+    "perl",
+    "php",
+    "python",
+    "ruby"
+   ],
+   "distinct_answers": 3,
+   "unanimous": false,
+   "majority": [
+    "true",
+    3
+   ]
+  },
+  {
+   "probe": "S1",
+   "family": "S",
+   "question": "uppercase of U+00DF LATIN SMALL LETTER SHARP S",
+   "answers": {
+    "python": "U+0053 U+0053",
+    "node": "U+0053 U+0053",
+    "ruby": "U+0053 U+0053",
+    "php": "U+0053 U+0053",
+    "perl": "U+0053 U+0053"
+   },
+   "runtimes_with_the_operator": [
+    "node",
+    "perl",
+    "php",
+    "python",
+    "ruby"
+   ],
+   "distinct_answers": 1,
+   "unanimous": true,
+   "majority": [
+    "U+0053 U+0053",
+    5
+   ]
+  },
+  {
+   "probe": "S10",
+   "family": "S",
+   "question": "lowercase of U+1E9E LATIN CAPITAL LETTER SHARP S",
+   "answers": {
+    "python": "U+00DF",
+    "node": "U+00DF",
+    "ruby": "U+00DF",
+    "php": "U+00DF",
+    "perl": "U+00DF"
+   },
+   "runtimes_with_the_operator": [
+    "node",
+    "perl",
+    "php",
+    "python",
+    "ruby"
+   ],
+   "distinct_answers": 1,
+   "unanimous": true,
+   "majority": [
+    "U+00DF",
+    5
+   ]
+  },
+  {
+   "probe": "S2",
+   "family": "S",
+   "question": "uppercase of U+FB01 LATIN SMALL LIGATURE FI",
+   "answers": {
+    "python": "U+0046 U+0049",
+    "node": "U+0046 U+0049",
+    "ruby": "U+0046 U+0049",
+    "php": "U+0046 U+0049",
+    "perl": "U+0046 U+0049"
+   },
+   "runtimes_with_the_operator": [
+    "node",
+    "perl",
+    "php",
+    "python",
+    "ruby"
+   ],
+   "distinct_answers": 1,
+   "unanimous": true,
+   "majority": [
+    "U+0046 U+0049",
+    5
+   ]
+  },
+  {
+   "probe": "S3",
+   "family": "S",
+   "question": "lowercase of U+0130 LATIN CAPITAL LETTER I WITH DOT ABOVE",
+   "answers": {
+    "python": "U+0069 U+0307",
+    "node": "U+0069 U+0307",
+    "ruby": "U+0069 U+0307",
+    "php": "U+0069 U+0307",
+    "perl": "U+0069 U+0307"
+   },
+   "runtimes_with_the_operator": [
+    "node",
+    "perl",
+    "php",
+    "python",
+    "ruby"
+   ],
+   "distinct_answers": 1,
+   "unanimous": true,
+   "majority": [
+    "U+0069 U+0307",
+    5
+   ]
+  },
+  {
+   "probe": "S4",
+   "family": "S",
+   "question": "uppercase of U+0131 LATIN SMALL LETTER DOTLESS I",
+   "answers": {
+    "python": "U+0049",
+    "node": "U+0049",
+    "ruby": "U+0049",
+    "php": "U+0049",
+    "perl": "U+0049"
+   },
+   "runtimes_with_the_operator": [
+    "node",
+    "perl",
+    "php",
+    "python",
+    "ruby"
+   ],
+   "distinct_answers": 1,
+   "unanimous": true,
+   "majority": [
+    "U+0049",
+    5
+   ]
+  },
+  {
+   "probe": "S5",
+   "family": "S",
+   "question": "lowercase of GREEK 'ODOS' \u2014 word-final sigma or not",
+   "answers": {
+    "python": "U+03BF U+03B4 U+03BF U+03C2",
+    "node": "U+03BF U+03B4 U+03BF U+03C2",
+    "ruby": "U+03BF U+03B4 U+03BF U+03C3",
+    "php": "U+03BF U+03B4 U+03BF U+03C2",
+    "perl": "U+03BF U+03B4 U+03BF U+03C3"
+   },
+   "runtimes_with_the_operator": [
+    "node",
+    "perl",
+    "php",
+    "python",
+    "ruby"
+   ],
+   "distinct_answers": 2,
+   "unanimous": false,
+   "majority": [
+    "U+03BF U+03B4 U+03BF U+03C2",
+    3
+   ]
+  },
+  {
+   "probe": "S6",
+   "family": "S",
+   "question": "uppercase of U+13F8 CHEROKEE SMALL LETTER YE (Unicode 8.0)",
+   "answers": {
+    "python": "U+13F0",
+    "node": "U+13F0",
+    "ruby": "U+13F0",
+    "php": "U+13F0",
+    "perl": "U+13F0"
+   },
+   "runtimes_with_the_operator": [
+    "node",
+    "perl",
+    "php",
+    "python",
+    "ruby"
+   ],
+   "distinct_answers": 1,
+   "unanimous": true,
+   "majority": [
+    "U+13F0",
+    5
+   ]
+  },
+  {
+   "probe": "S7",
+   "family": "S",
+   "question": "uppercase of U+10EF GEORGIAN LETTER JHAN (Mtavruli, Unicode 11.0)",
+   "answers": {
+    "python": "U+1CAF",
+    "node": "U+1CAF",
+    "ruby": "U+1CAF",
+    "php": "U+1CAF",
+    "perl": "U+1CAF"
+   },
+   "runtimes_with_the_operator": [
+    "node",
+    "perl",
+    "php",
+    "python",
+    "ruby"
+   ],
+   "distinct_answers": 1,
+   "unanimous": true,
+   "majority": [
+    "U+1CAF",
+    5
+   ]
+  },
+  {
+   "probe": "S8",
+   "family": "S",
+   "question": "uppercase of U+10428 DESERET SMALL LETTER LONG I (non-BMP)",
+   "answers": {
+    "python": "U+10400",
+    "node": "U+10400",
+    "ruby": "U+10400",
+    "php": "U+10400",
+    "perl": "U+10400"
+   },
+   "runtimes_with_the_operator": [
+    "node",
+    "perl",
+    "php",
+    "python",
+    "ruby"
+   ],
+   "distinct_answers": 1,
+   "unanimous": true,
+   "majority": [
+    "U+10400",
+    5
+   ]
+  },
+  {
+   "probe": "S9",
+   "family": "S",
+   "question": "uppercase of U+01F3 LATIN SMALL LETTER DZ (title/upper split)",
+   "answers": {
+    "python": "U+01F1",
+    "node": "U+01F1",
+    "ruby": "U+01F1",
+    "php": "U+01F1",
+    "perl": "U+01F1"
+   },
+   "runtimes_with_the_operator": [
+    "node",
+    "perl",
+    "php",
+    "python",
+    "ruby"
+   ],
+   "distinct_answers": 1,
+   "unanimous": true,
+   "majority": [
+    "U+01F1",
+    5
+   ]
+  }
+ ],
+ "family_agreement": {
+  "S": {
+   "probes": 10,
+   "unanimous": 9,
+   "disagreements": 1,
+   "rate": 0.9
+  },
+  "I": {
+   "probes": 15,
+   "unanimous": 2,
+   "disagreements": 13,
+   "rate": 0.1333
+  }
+ },
+ "internal_checks": {
+  "python": {
+   "L1_roundtrip": {
+    "tested": 512,
+    "violations": 0,
+    "detail": []
+   },
+   "L2_loose_equality": {
+    "operator": "==",
+    "set_size": 7,
+    "transitivity_violations": 0,
+    "examples": []
+   },
+   "L3_relational_coherence": {
+    "pairs": 49,
+    "incomparable": 35,
+    "violations": 0,
+    "examples": []
+   },
+   "L4_division_identity": {
+    "pairs": 36,
+    "violations": 0,
+    "examples": []
+   }
+  },
+  "node": {
+   "L1_roundtrip": {
+    "tested": 512,
+    "violations": 1,
+    "detail": [
+     {
+      "seed": "neg_zero",
+      "rendered": "0",
+      "back": "0000000000000000"
+     }
+    ]
+   },
+   "L2_loose_equality": {
+    "operator": "==",
+    "set_size": 7,
+    "transitivity_violations": 8,
+    "examples": [
+     [
+      "''",
+      "0",
+      "'0'"
+     ],
+     [
+      "''",
+      "false",
+      "'0'"
+     ],
+     [
+      "'0'",
+      "0",
+      "''"
+     ],
+     [
+      "'0'",
+      "0",
+      "[]"
+     ],
+     [
+      "'0'",
+      "false",
+      "''"
+     ]
+    ]
+   },
+   "L3_relational_coherence": {
+    "pairs": 49,
+    "incomparable": 0,
+    "violations": 10,
+    "examples": [
+     [
+      "0",
+      "none"
+     ],
+     [
+      "''",
+      "none"
+     ],
+     [
+      "'0'",
+      "none"
+     ],
+     [
+      "false",
+      "none"
+     ],
+     [
+      "none",
+      "0"
+     ]
+    ]
+   },
+   "L4_division_identity": {
+    "pairs": 36,
+    "violations": 0,
+    "examples": []
+   }
+  },
+  "ruby": {
+   "L1_roundtrip": {
+    "tested": 512,
+    "violations": 0,
+    "detail": []
+   },
+   "L2_loose_equality": {
+    "operator": "==",
+    "set_size": 7,
+    "transitivity_violations": 0,
+    "examples": []
+   },
+   "L3_relational_coherence": {
+    "pairs": 49,
+    "incomparable": 39,
+    "violations": 0,
+    "examples": []
+   },
+   "L4_division_identity": {
+    "pairs": 36,
+    "violations": 0,
+    "examples": []
+   }
+  },
+  "php": {
+   "L1_roundtrip": {
+    "tested": 512,
+    "violations": 505,
+    "detail": [
+     {
+      "seed": "one_tenth_plus_two_tenths",
+      "rendered": "0.3",
+      "back": "3fd3333333333333"
+     },
+     {
+      "seed": "one_third",
+      "rendered": "0.33333333333333",
+      "back": "3fd5555555555519"
+     },
+     {
+      "seed": "pi",
+      "rendered": "3.1415926535898",
+      "back": "400921fb54442d28"
+     },
+     {
+      "seed": "two53",
+      "rendered": "9.007199254741E+15",
+      "back": "4340000000000004"
+     },
+     {
+      "seed": "two53_plus_two",
+      "rendered": "9.007199254741E+15",
+      "back": "4340000000000004"
+     },
+     {
+      "seed": "max_double",
+      "rendered": "1.7976931348623E+308",
+      "back": "7fefffffffffffb0"
+     },
+     {
+      "seed": "big_int_as_double",
+      "rendered": "1.2345678901235E+17",
+      "back": "437b69b4ba631043"
+     },
+     {
+      "seed": "drawn_000",
+      "rendered": "-6.3624220947187E+181",
+      "back": "e5aeaa7575ad84c3"
+     },
+     {
+      "seed": "drawn_001",
+      "rendered": "-3.6006032731788E+23",
+      "back": "c4d30fba34838f3f"
+     },
+     {
+      "seed": "drawn_002",
+      "rendered": "-2157507489.2534",
+      "back": "c1e0131e74281bda"
+     },
+     {
+      "seed": "drawn_003",
+      "rendered": "-148.61070292631",
+      "back": "c062938ae0dd0256"
+     },
+     {
+      "seed": "drawn_004",
+      "rendered": "7.4357325755443E-102",
+      "back": "2af0a775e967908d"
+     },
+     {
+      "seed": "drawn_005",
+      "rendered": "1.1446974224364E-259",
+      "back": "0a2c29080c6fa604"
+     },
+     {
+      "seed": "drawn_006",
+      "rendered": "6.1716265610609E-273",
+      "back": "076ab5a18cb9da16"
+     },
+     {
+      "seed": "drawn_007",
+      "rendered": "-2.6095903981778E+184",
+      "back": "e63890e75b871127"
+     },
+     {
+      "seed": "drawn_008",
+      "rendered": "2.4519607321072E-54",
+      "back": "34ce0f9a7de1c2e0"
+     },
+     {
+      "seed": "drawn_009",
+      "rendered": "-1.0133422061786E+279",
+      "back": "f9dc951e5cf11de0"
+     },
+     {
+      "seed": "drawn_010",
+      "rendered": "1.785307499234E+277",
+      "back": "79801d37f8503d5d"
+     },
+     {
+      "seed": "drawn_011",
+      "rendered": "-1.6754712512981E+226",
+      "back": "eee6a1e3a1bd61a1"
+     },
+     {
+      "seed": "drawn_012",
+      "rendered": "-1.1278857159831E-110",
+      "back": "a91b1fe66617bba7"
+     },
+     {
+      "seed": "drawn_013",
+      "rendered": "-7.6441172707143E-306",
+      "back": "809578b5faa6473e"
+     },
+     {
+      "seed": "drawn_014",
+      "rendered": "1.2911205175787E+17",
+      "back": "437cab2ba1d3febb"
+     },
+     {
+      "seed": "drawn_015",
+      "rendered": "-1.4245084262133E-243",
+      "back": "8d8374063f9854e6"
+     },
+     {
+      "seed": "drawn_016",
+      "rendered": "-8.5247126556329E+88",
+      "back": "d2656d2e60e63d9a"
+     },
+     {
+      "seed": "drawn_017",
+      "rendered": "1.4133911292274E-184",
+      "back": "19c337d336d425a7"
+     },
+     {
+      "seed": "drawn_018",
+      "rendered": "4.1406900821809E-54",
+      "back": "34d961e21b0aef2a"
+     },
+     {
+      "seed": "drawn_019",
+      "rendered": "-4.0139485461591E-15",
+      "back": "bcf213c48140e6c4"
+     },
+     {
+      "seed": "drawn_020",
+      "rendered": "-1.6111009112039E-32",
+      "back": "b954e9cd141ab25c"
+     },
+     {
+      "seed": "drawn_021",
+      "rendered": "1.1075466842356E-119",
+      "back": "273c9980e2f82969"
+     },
+     {
+      "seed": "drawn_022",
+      "rendered": "-1.1157816918892E+211",
+      "back": "ebc0f8395d55ef5a"
+     },
+     {
+      "seed": "drawn_023",
+      "rendered": "-1.2060854732163E-31",
+      "back": "b98391e20fa0c4c0"
+     },
+     {
+      "seed": "drawn_024",
+      "rendered": "1.5211119806715E+24",
+      "back": "44f421ba54cb80dd"
+     },
+     {
+      "seed": "drawn_025",
+      "rendered": "-7.3861658775181E+40",
+      "back": "c86b21eac1350790"
+     },
+     {
+      "seed": "drawn_026",
+      "rendered": "-3.7327132543797E-291",
+      "back": "83a29fef8bf485b1"
+     },
+     {
+      "seed": "drawn_027",
+      "rendered": "2.2984335369174E-149",
+      "back": "2112cf263752eccd"
+     },
+     {
+      "seed": "drawn_028",
+      "rendered": "1.2150930159281E-71",
+      "back": "3135780596ddaa9f"
+     },
+     {
+      "seed": "drawn_029",
+      "rendered": "7.6392621514963E-240",
+      "back": "0e497827a8965f57"
+     },
+     {
+      "seed": "drawn_030",
+      "rendered": "-3.5237797528995E+30",
+      "back": "c6463cf925b25a0f"
+     },
+     {
+      "seed": "drawn_031",
+      "rendered": "-9.8320472133936E-166",
+      "back": "9dacfd27c4eb1139"
+     },
+     {
+      "seed": "drawn_032",
+      "rendered": "3.6514781691818E+68",
+      "back": "4e2b169258ac0157"
+     },
+     {
+      "seed": "drawn_033",
+      "rendered": "-4.8934003287491E+183",
+      "back": "e6126d14c09d447e"
+     },
+     {
+      "seed": "drawn_034",
+      "rendered": "21613583.36165",
+      "back": "41749cc0f5c95183"
+     },
+     {
+      "seed": "drawn_035",
+      "rendered": "9.5584738033612E+184",
+      "back": "66567ec9fa3ee67d"
+     },
+     {
+      "seed": "drawn_036",
+      "rendered": "1.2107654202406E+222",
+      "back": "6e0acbd3ab2b0f9d"
+     },
+     {
+      "seed": "drawn_037",
+      "rendered": "-5.7734308002823E+168",
+      "back": "e2f87a15fa6d8f8d"
+     },
+     {
+      "seed": "drawn_038",
+      "rendered": "7.8049362548216E-202",
+      "back": "162e969fe98a81ed"
+     },
+     {
+      "seed": "drawn_039",
+      "rendered": "0.0083622282958147",
+      "back": "3f812037486aed0d"
+     },
+     {
+      "seed": "drawn_040",
+      "rendered": "1.2164117698016E-114",
+      "back": "2847f6eb92778f33"
+     },
+     {
+      "seed": "drawn_041",
+      "rendered": "-1.1858552549081E-169",
+      "back": "9cdca4738f6b0332"
+     },
+     {
+      "seed": "drawn_042",
+      "rendered": "8.3688895164021E-47",
+      "back": "365e93eeeaa2aae5"
+     },
+     {
+      "seed": "drawn_043",
+      "rendered": "1.3033466534775E-5",
+      "back": "3eeb554a002ab790"
+     },
+     {
+      "seed": "drawn_044",
+      "rendered": "-6.0248576903576E+252",
+      "back": "f46a4bf134920c6d"
+     },
+     {
+      "seed": "drawn_045",
+      "rendered": "-5.5572036262318E+301",
+      "back": "fe94becedaee9136"
+     },
+     {
+      "seed": "drawn_046",
+      "rendered": "-4.1151543284502E-237",
+      "back": "8edacbfa24231968"
+     },
+     {
+      "seed": "drawn_047",
+      "rendered": "-5.4689395936985E+112",
+      "back": "d756bda19c2dc72c"
+     },
+     {
+      "seed": "drawn_048",
+      "rendered": "-1.2090020665281E-175",
+      "back": "9b9e9eb528bddc91"
+     },
+     {
+      "seed": "drawn_049",
+      "rendered": "4.0097001188764E+247",
+      "back": "7356f0659f8c96c7"
+     },
+     {
+      "seed": "drawn_050",
+      "rendered": "-1.1898492161797E-6",
+      "back": "beb3f65d0c69d2d6"
+     },
+     {
+      "seed": "drawn_051",
+      "rendered": "-1.3038062051506E-114",
+      "back": "a849afb0b507c0ad"
+     },
+     {
+      "seed": "drawn_052",
+      "rendered": "3.596538875799E+45",
+      "back": "496428c7ba7b2d1f"
+     },
+     {
+      "seed": "drawn_053",
+      "rendered": "5.8214064332573E+154",
+      "back": "60115e01ad415f96"
+     },
+     {
+      "seed": "drawn_054",
+      "rendered": "3.6172915599743E+269",
+      "back": "77e5e9275b9a44ed"
+     },
+     {
+      "seed": "drawn_055",
+      "rendered": "2.8475259156408E-153",
+      "back": "204316ec1c8e0d57"
+     },
+     {
+      "seed": "drawn_056",
+      "rendered": "-1.6122440163841E+132",
+      "back": "db622bd12992aa6d"
+     },
+     {
+      "seed": "drawn_057",
+      "rendered": "8.0708492326061E-16",
+      "back": "3ccd140b652cfc16"
+     },
+     {
+      "seed": "drawn_058",
+      "rendered": "4.0899976409654E+305",
+      "back": "7f62a34eb829977c"
+     },
+     {
+      "seed": "drawn_059",
+      "rendered": "2.4722913971313E-258",
+      "back": "0a7301982401e381"
+     },
+     {
+      "seed": "drawn_060",
+      "rendered": "-3.8137206649046E+220",
+      "back": "edbb025c3804175d"
+     },
+     {
+      "seed": "drawn_061",
+      "rendered": "7.1855917021536E-178",
+      "back": "1b274b584d329506"
+     },
+     {
+      "seed": "drawn_062",
+      "rendered": "1.5922266882795E+305",
+      "back": "7f4d05d61164c46f"
+     },
+     {
+      "seed": "drawn_063",
+      "rendered": "1.7701864699506E+288",
+      "back": "7bc74023c23e56b7"
+     },
+     {
+      "seed": "drawn_064",
+      "rendered": "-2.3947198498619E-77",
+      "back": "b0062ee42ca23f0c"
+     },
+     {
+      "seed": "drawn_065",
+      "rendered": "8.3322388070592E-176",
+      "back": "1b951a4e2fa6f0cc"
+     },
+     {
+      "seed": "drawn_066",
+      "rendered": "4.1022279165358E-276",
+      "back": "06c22dfe51b74647"
+     },
+     {
+      "seed": "drawn_067",
+      "rendered": "1.3842538058554E-300",
+      "back": "01adaa3028bd18a2"
+     },
+     {
+      "seed": "drawn_068",
+      "rendered": "-1.1415641102903E+222",
+      "back": "ee0943c0dc12e807"
+     },
+     {
+      "seed": "drawn_069",
+      "rendered": "-9.0040046499077E-119",
+      "back": "a76d1030534c9c22"
+     },
+     {
+      "seed": "drawn_070",
+      "rendered": "-6.0775022299924E-173",
+      "back": "9c2e10222a771a84"
+     },
+     {
+      "seed": "drawn_071",
+      "rendered": "1.2442574977223E-154",
+      "back": "1ffab142c1a32838"
+     },
+     {
+      "seed": "drawn_072",
+      "rendered": "8.6301390228214E-292",
+      "back": "03813970eca15673"
+     },
+     {
+      "seed": "drawn_073",
+      "rendered": "-1.0394649771302E-178",
+      "back": "9afaf53de49a56f1"
+     },
+     {
+      "seed": "drawn_074",
+      "rendered": "4.4463056592768E+28",
+      "back": "45e1f55f4ef528f5"
+     },
+     {
+      "seed": "drawn_075",
+      "rendered": "-2.8622858785639E+42",
+      "back": "c8c06dc0482569e6"
+     },
+     {
+      "seed": "drawn_076",
+      "rendered": "8.4585245334773E+223",
+      "back": "6e6d4008983f0ccb"
+     },
+     {
+      "seed": "drawn_077",
+      "rendered": "-2.892229820125E+28",
+      "back": "c5d75cfdb7c9d200"
+     },
+     {
+      "seed": "drawn_078",
+      "rendered": "3.3207889777289E+81",
+      "back": "50dc01b92c9b4593"
+     },
+     {
+      "seed": "drawn_079",
+      "rendered": "-0.20806743874756",
+      "back": "bfcaa1f42e6441a6"
+     },
+     {
+      "seed": "drawn_080",
+      "rendered": "-1.4645019018236E-238",
+      "back": "8e8e84417fb117f2"
+     },
+     {
+      "seed": "drawn_081",
+      "rendered": "-6.1012885318876E+65",
+      "back": "cd972c90784e2f90"
+     },
+     {
+      "seed": "drawn_082",
+      "rendered": "-2.6588074539289E+304",
+      "back": "ff2362bc8d46e144"
+     },
+     {
+      "seed": "drawn_083",
+      "rendered": "-1.4526876284418E-120",
+      "back": "a70e02766e4cf444"
+     },
+     {
+      "seed": "drawn_084",
+      "rendered": "2.2118639015515E-25",
+      "back": "3ad11d0c3db03527"
+     },
+     {
+      "seed": "drawn_085",
+      "rendered": "-9.7667469700335E+250",
+      "back": "f40b484f5088ac21"
+     },
+     {
+      "seed": "drawn_086",
+      "rendered": "-8.3144719697227E-297",
+      "back": "8275c0248656d90c"
+     },
+     {
+      "seed": "drawn_087",
+      "rendered": "-2.5731855938733E-225",
+      "back": "914e7a92983c282a"
+     },
+     {
+      "seed": "drawn_088",
+      "rendered": "8.6705427512331E-277",
+      "back": "069ebd6953120dda"
+     },
+     {
+      "seed": "drawn_089",
+      "rendered": "-1.1043605842038E-128",
+      "back": "a55e9eca18703cb5"
+     },
+     {
+      "seed": "drawn_090",
+      "rendered": "-9.0233982425871E-198",
+      "back": "9705959266dbe474"
+     },
+     {
+      "seed": "drawn_091",
+      "rendered": "1.279046588119E+124",
+      "back": "59b35939b8c94b44"
+     },
+     {
+      "seed": "drawn_092",
+      "rendered": "9.8828873821248E-69",
+      "back": "31d10d633c6b1805"
+     },
+     {
+      "seed": "drawn_093",
+      "rendered": "-1.8156160909135E+277",
+      "back": "f98063404af4c523"
+     },
+     {
+      "seed": "drawn_094",
+      "rendered": "6.4427262575633E+299",
+      "back": "7e2ec90c24b44cb5"
+     },
+     {
+      "seed": "drawn_095",
+      "rendered": "-2.0726955240336E+293",
+      "back": "fcd4c528cf1af68a"
+     },
+     {
+      "seed": "drawn_096",
+      "rendered": "3.1413151418754E-245",
+      "back": "0d2b746c73550aff"
+     },
+     {
+      "seed": "drawn_097",
+      "rendered": "1.3330560659657E-164",
+      "back": "1de890a11efa10b4"
+     },
+     {
+      "seed": "drawn_098",
+      "rendered": "2.9937363251348E+255",
+      "back": "74f9855e675fc9b7"
+     },
+     {
+      "seed": "drawn_099",
+      "rendered": "5.5188231254778E+119",
+      "back": "58cb5b39de81f6b4"
+     },
+     {
+      "seed": "drawn_100",
+      "rendered": "5.2552771927926E-152",
+      "back": "208604f095433624"
+     },
+     {
+      "seed": "drawn_101",
+      "rendered": "-1.1250297927749E-284",
+      "back": "84fac45af9f832f6"
+     },
+     {
+      "seed": "drawn_102",
+      "rendered": "-3.1299552956459E+245",
+      "back": "f2e6eb7ae002f487"
+     },
+     {
+      "seed": "drawn_103",
+      "rendered": "2.4024352629456E+117",
+      "back": "584e7c77eb645ff7"
+     },
+     {
+      "seed": "drawn_104",
+      "rendered": "2.5601997888001E+84",
+      "back": "51751606ce929da2"
+     },
+     {
+      "seed": "drawn_105",
+      "rendered": "4.1109551804728E+200",
+      "back": "69957b87afeaa5cd"
+     },
+     {
+      "seed": "drawn_106",
+      "rendered": "-1.5192005375364E+274",
+      "back": "f8dc152c8fc30cbf"
+     },
+     {
+      "seed": "drawn_107",
+      "rendered": "-6.2938786906441E+69",
+      "back": "ce6d2e7e729c6ce2"
+     },
+     {
+      "seed": "drawn_108",
+      "rendered": "-9.9631780872466E-177",
+      "back": "9b642fcb9a5354e2"
+     },
+     {
+      "seed": "drawn_109",
+      "rendered": "-9.8170762816743E+263",
+      "back": "f6bf2d2876ddd0b5"
+     },
+     {
+      "seed": "drawn_110",
+      "rendered": "4.9398386896382E+156",
+      "back": "607706e148c68f91"
+     },
+     {
+      "seed": "drawn_111",
+      "rendered": "-6.3652825070208E-181",
+      "back": "9a85215972399963"
+     },
+     {
+      "seed": "drawn_112",
+      "rendered": "6.6522818618583E+153",
+      "back": "5fdfc0eb4a6699f4"
+     },
+     {
+      "seed": "drawn_113",
+      "rendered": "-2.8956106257508E-120",
+      "back": "a71de8a48b3fe52e"
+     },
+     {
+      "seed": "drawn_114",
+      "rendered": "-3.5416329122023E-41",
+      "back": "b788ae7bf8002d7c"
+     },
+     {
+      "seed": "drawn_115",
+      "rendered": "4.804919976107E+96",
+      "back": "5401fefe10139ce7"
+     },
+     {
+      "seed": "drawn_116",
+      "rendered": "4.2674436977584E+29",
+      "back": "46158b8aad416277"
+     },
+     {
+      "seed": "drawn_117",
+      "rendered": "2.5309473244894E-149",
+      "back": "2114b642396bdf1d"
+     },
+     {
+      "seed": "drawn_118",
+      "rendered": "-1.9708178311284E+232",
+      "back": "f029637f553a2732"
+     },
+     {
+      "seed": "drawn_119",
+      "rendered": "1.3508975323742E+289",
+      "back": "7bf62de250afe3d3"
+     },
+     {
+      "seed": "drawn_120",
+      "rendered": "-7.5297212624581E-185",
+      "back": "99b479fd7545a9dc"
+     },
+     {
+      "seed": "drawn_121",
+      "rendered": "2.2150497393763E-160",
+      "back": "1ec8e9cdac469dcb"
+     },
+     {
+      "seed": "drawn_122",
+      "rendered": "7.5321576950309E+109",
+      "back": "56c0092b01d48f87"
+     },
+     {
+      "seed": "drawn_123",
+      "rendered": "-1.4551162505484E+88",
+      "back": "d23d424b7165ee23"
+     },
+     {
+      "seed": "drawn_124",
+      "rendered": "1.3372696307011E+187",
+      "back": "66c8965c52f27ee0"
+     },
+     {
+      "seed": "drawn_125",
+      "rendered": "-2.7679612525022E-142",
+      "back": "a28b00b406591a46"
+     },
+     {
+      "seed": "drawn_126",
+      "rendered": "-7.9473957103466E+217",
+      "back": "ed2cd14edeafb870"
+     },
+     {
+      "seed": "drawn_127",
+      "rendered": "-7.6577676682053E+184",
+      "back": "e65205a6cfaeca42"
+     },
+     {
+      "seed": "drawn_128",
+      "rendered": "7.2167559274731E+262",
+      "back": "768255b45ebaae1d"
+     },
+     {
+      "seed": "drawn_129",
+      "rendered": "1.0640314012473E+15",
+      "back": "430e3dd8ed9c1220"
+     },
+     {
+      "seed": "drawn_130",
+      "rendered": "-3.942555499274E-213",
+      "back": "93d53c70f869ef94"
+     },
+     {
+      "seed": "drawn_131",
+      "rendered": "1.02862139822E-55",
+      "back": "34842d68afb4b0e5"
+     },
+     {
+      "seed": "drawn_132",
+      "rendered": "-9.4894869658351E+242",
+      "back": "f261ca0877c99ef9"
+     },
+     {
+      "seed": "drawn_133",
+      "rendered": "-2.4727448127689E+195",
+      "back": "e880efd40234e863"
+     },
+     {
+      "seed": "drawn_134",
+      "rendered": "1.8140198227497E-156",
+      "back": "1f98e7dfc2c5ab34"
+     },
+     {
+      "seed": "drawn_135",
+      "rendered": "-3.2009388424207E-244",
+      "back": "8d617c243fdcc66f"
+     },
+     {
+      "seed": "drawn_136",
+      "rendered": "-2.5981800290095E-189",
+      "back": "98c727056368ebb3"
+     },
+     {
+      "seed": "drawn_137",
+      "rendered": "-5.3661338578896E+220",
+      "back": "edc30075bc66c235"
+     },
+     {
+      "seed": "drawn_138",
+      "rendered": "-1.2553918072393E+214",
+      "back": "ec62a53ac411b1da"
+     },
+     {
+      "seed": "drawn_139",
+      "rendered": "3.642377972163E-296",
+      "back": "0297d22fbd36ec98"
+     },
+     {
+      "seed": "drawn_140",
+      "rendered": "1.5774377039609E-155",
+      "back": "1fcb126d0fc4ba04"
+     },
+     {
+      "seed": "drawn_141",
+      "rendered": "4.0827145474467E+104",
+      "back": "55a6c91d3331dd33"
+     },
+     {
+      "seed": "drawn_142",
+      "rendered": "6.7488365507053E-219",
+      "back": "12a30f0e14fdcc94"
+     },
+     {
+      "seed": "drawn_143",
+      "rendered": "-2.6217549193352E+303",
+      "back": "feee95b92009bcb3"
+     },
+     {
+      "seed": "drawn_144",
+      "rendered": "4.1209781532773E-47",
+      "back": "364e1d3473832340"
+     },
+     {
+      "seed": "drawn_145",
+      "rendered": "-7.9272464386551E-23",
+      "back": "bb57f568ec3ea694"
+     },
+     {
+      "seed": "drawn_146",
+      "rendered": "1.4252138909106E-233",
+      "back": "0f96a861efc803e5"
+     },
+     {
+      "seed": "drawn_147",
+      "rendered": "4.7237975906882E-126",
+      "back": "25e994c3e4d4afe7"
+     },
+     {
+      "seed": "drawn_148",
+      "rendered": "8.1696476712658E+158",
+      "back": "60edc08082f5667e"
+     },
+     {
+      "seed": "drawn_149",
+      "rendered": "-3.4854197249873E-220",
+      "back": "925f7f4847b59d16"
+     },
+     {
+      "seed": "drawn_150",
+      "rendered": "-5.9433973563052E+233",
+      "back": "f077ed2b46ed4148"
+     },
+     {
+      "seed": "drawn_151",
+      "rendered": "-4.452516993836E+109",
+      "back": "d6b2f56955f6cb31"
+     },
+     {
+      "seed": "drawn_152",
+      "rendered": "2.4727553018236E-256",
+      "back": "0addb3eaea37d93b"
+     },
+     {
+      "seed": "drawn_153",
+      "rendered": "7.0224451557448E+265",
+      "back": "77216c47b4ad95b9"
+     },
+     {
+      "seed": "drawn_154",
+      "rendered": "-1.0973978312144E+114",
+      "back": "d79c850e5b870856"
+     },
+     {
+      "seed": "drawn_155",
+      "rendered": "3.5992363425955E-55",
+      "back": "34a1a68df63b1900"
+     },
+     {
+      "seed": "drawn_156",
+      "rendered": "-2.2714641008716E+35",
+      "back": "c745df9761a58f22"
+     },
+     {
+      "seed": "drawn_157",
+      "rendered": "1.3646533696762E-292",
+      "back": "0355c9fea1dbc33d"
+     },
+     {
+      "seed": "drawn_158",
+      "rendered": "-1.3073580748472E+132",
+      "back": "db5d784176d1a7ea"
+     },
+     {
+      "seed": "drawn_159",
+      "rendered": "9.5680160015909E-81",
+      "back": "2f5226df2bc589f0"
+     },
+     {
+      "seed": "drawn_160",
+      "rendered": "9.0223887097754E+33",
+      "back": "46fbcd68e3ba4bed"
+     },
+     {
+      "seed": "drawn_161",
+      "rendered": "1.4305503309602E+41",
+      "back": "487a466a53188c53"
+     },
+     {
+      "seed": "drawn_162",
+      "rendered": "-6.8518308805174E-83",
+      "back": "aee0a377e825c0a7"
+     },
+     {
+      "seed": "drawn_163",
+      "rendered": "-8.8650204212671E-254",
+      "back": "8b64cc57dbf503b6"
+     },
+     {
+      "seed": "drawn_164",
+      "rendered": "-1.2327135628562E-225",
+      "back": "913d33d21be4b7f1"
+     },
+     {
+      "seed": "drawn_165",
+      "rendered": "-3.5042893981348E+114",
+      "back": "d7b6c4905a3d996e"
+     },
+     {
+      "seed": "drawn_166",
+      "rendered": "-6.3837256665861E+264",
+      "back": "f6e9575c1185d69a"
+     },
+     {
+      "seed": "drawn_167",
+      "rendered": "-1.2976676631945E-263",
+      "back": "895a26d4d301990f"
+     },
+     {
+      "seed": "drawn_168",
+      "rendered": "1.6905187556898E+119",
+      "back": "58b0c27032e913c3"
+     },
+     {
+      "seed": "drawn_169",
+      "rendered": "-2.8435231639159E-192",
+      "back": "9829f262375966bd"
+     },
+     {
+      "seed": "drawn_170",
+      "rendered": "2.050384142392E+39",
+      "back": "48181a267ca78ff4"
+     },
+     {
+      "seed": "drawn_171",
+      "rendered": "-2.7661797352078E-73",
+      "back": "b0df478b13a755be"
+     },
+     {
+      "seed": "drawn_172",
+      "rendered": "1.0579682575852E+119",
+      "back": "58a4fa1fb1d0060b"
+     },
+     {
+      "seed": "drawn_173",
+      "rendered": "-1.5756661396375E-163",
+      "back": "9e2225b4f604d2ed"
+     },
+     {
+      "seed": "drawn_174",
+      "rendered": "2.3014584694287E+188",
+      "back": "670a726c46bc1e7d"
+     },
+     {
+      "seed": "drawn_175",
+      "rendered": "3.5415197249562E-37",
+      "back": "385e20bf399c9452"
+     },
+     {
+      "seed": "drawn_176",
+      "rendered": "-2.2281279519225E+55",
+      "back": "cb6d1413c355ed8f"
+     },
+     {
+      "seed": "drawn_177",
+      "rendered": "-4.149929997863E-249",
+      "back": "8c5db65d54c1d071"
+     },
+     {
+      "seed": "drawn_178",
+      "rendered": "2.8691831005185E-17",
+      "back": "3c808a2aba8374d8"
+     },
+     {
+      "seed": "drawn_179",
+      "rendered": "1.8512285413616E-15",
+      "back": "3ce0aca473b51b2c"
+     },
+     {
+      "seed": "drawn_180",
+      "rendered": "-11414424729.33",
+      "back": "c20542d264caa3d7"
+     },
+     {
+      "seed": "drawn_181",
+      "rendered": "1.3428683761974E+104",
+      "back": "558dfa6879f1d021"
+     },
+     {
+      "seed": "drawn_182",
+      "rendered": "5.630252410423E-83",
+      "back": "2edb58236ca290f5"
+     },
+     {
+      "seed": "drawn_183",
+      "rendered": "-1.3534217171995E-58",
+      "back": "b3eb2f91486c5bb7"
+     },
+     {
+      "seed": "drawn_184",
+      "rendered": "-1.9258036346318E+291",
+      "back": "fc68b3a0219393b9"
+     },
+     {
+      "seed": "drawn_185",
+      "rendered": "-1.5353166052807E-106",
+      "back": "a9f68935d4f78416"
+     },
+     {
+      "seed": "drawn_186",
+      "rendered": "1.0248432170223E-188",
+      "back": "18e6d4bb9f5662a2"
+     },
+     {
+      "seed": "drawn_187",
+      "rendered": "9.5704592721029E+50",
+      "back": "4a8476b2fcf3577b"
+     },
+     {
+      "seed": "drawn_188",
+      "rendered": "8.2063510028983E-53",
+      "back": "351f70c4013e774d"
+     },
+     {
+      "seed": "drawn_190",
+      "rendered": "6.1917085859609E+28",
+      "back": "45e902139dc4bc3f"
+     },
+     {
+      "seed": "drawn_191",
+      "rendered": "2.1370361958174E-47",
+      "back": "363f3b9a06857eda"
+     },
+     {
+      "seed": "drawn_192",
+      "rendered": "-1.0670809097168E+33",
+      "back": "c6ca4e3a30458713"
+     },
+     {
+      "seed": "drawn_193",
+      "rendered": "-1.3507256928515E-135",
+      "back": "a3ef6a9366b1145a"
+     },
+     {
+      "seed": "drawn_194",
+      "rendered": "2.5789394603069E-37",
+      "back": "3855f06ecb6f652e"
+     },
+     {
+      "seed": "drawn_195",
+      "rendered": "-2.0513946998011E-56",
+      "back": "b46018948a30e436"
+     },
+     {
+      "seed": "drawn_196",
+      "rendered": "-2.1997415309808E-5",
+      "back": "bef710e2dea05d88"
+     },
+     {
+      "seed": "drawn_197",
+      "rendered": "1.0424764014933E+104",
+      "back": "558745afd989213e"
+     },
+     {
+      "seed": "drawn_198",
+      "rendered": "2.5420008814148E-279",
+      "back": "0617123f511a923a"
+     },
+     {
+      "seed": "drawn_199",
+      "rendered": "1.0128470366164E-148",
+      "back": "2134b8b5da5a0a99"
+     },
+     {
+      "seed": "drawn_200",
+      "rendered": "2.2797226609939E+281",
+      "back": "7a591e3902adb5f8"
+     },
+     {
+      "seed": "drawn_201",
+      "rendered": "4.5077053897042E+214",
+      "back": "6c80bcc7c502126e"
+     },
+     {
+      "seed": "drawn_202",
+      "rendered": "2.8497304218558E-159",
+      "back": "1f040846cf67a314"
+     },
+     {
+      "seed": "drawn_203",
+      "rendered": "3.1174399601605E-307",
+      "back": "004c05606453637f"
+     },
+     {
+      "seed": "drawn_204",
+      "rendered": "-8.5637968122388E+226",
+      "back": "ef0ceb8ada410307"
+     },
+     {
+      "seed": "drawn_205",
+      "rendered": "6.6679595310742E-116",
+      "back": "280504bb03d03fd8"
+     },
+     {
+      "seed": "drawn_206",
+      "rendered": "-8.442491176546E+121",
+      "back": "d94058df94126e04"
+     },
+     {
+      "seed": "drawn_207",
+      "rendered": "-4.2376674069757E+236",
+      "back": "f110a8e9d922123e"
+     },
+     {
+      "seed": "drawn_208",
+      "rendered": "1.9192095642618E-54",
+      "back": "34c787896e8e4fc6"
+     },
+     {
+      "seed": "drawn_209",
+      "rendered": "2.927766860532E-260",
+      "back": "0a0ccf59de84be4b"
+     },
+     {
+      "seed": "drawn_210",
+      "rendered": "5.5614698041153E-142",
+      "back": "229b209aa7927d5e"
+     },
+     {
+      "seed": "drawn_211",
+      "rendered": "9.2055805435744E+213",
+      "back": "6c5b5842b7944564"
+     },
+     {
+      "seed": "drawn_212",
+      "rendered": "1.3134894209378E-41",
+      "back": "37724eafd64a70f8"
+     },
+     {
+      "seed": "drawn_213",
+      "rendered": "4.6612368008071E-152",
+      "back": "208387c1e63b2243"
+     },
+     {
+      "seed": "drawn_214",
+      "rendered": "-6.6873641521295E+105",
+      "back": "d5e7538a94d3f890"
+     },
+     {
+      "seed": "drawn_215",
+      "rendered": "1.7401024696664",
+      "back": "3ffbd775afee7f0f"
+     },
+     {
+      "seed": "drawn_216",
+      "rendered": "-5.3710210693021E-47",
+      "back": "b6539fd8098b495e"
+     },
+     {
+      "seed": "drawn_217",
+      "rendered": "-1.556901984002E-235",
+      "back": "8f2fae80fae007a0"
+     },
+     {
+      "seed": "drawn_218",
+      "rendered": "4.6973920886741E-289",
+      "back": "04124f9f4b211be7"
+     },
+     {
+      "seed": "drawn_219",
+      "rendered": "-3.6596312894755E+267",
+      "back": "f77c5fc10947a221"
+     },
+     {
+      "seed": "drawn_220",
+      "rendered": "-2.018531520534E+276",
+      "back": "f94d269680a88581"
+     },
+     {
+      "seed": "drawn_221",
+      "rendered": "1.5533867751518E-212",
+      "back": "13f4eaf69ae77406"
+     },
+     {
+      "seed": "drawn_222",
+      "rendered": "-1.9248123523658E-121",
+      "back": "a6dfcf6a67a09d9b"
+     },
+     {
+      "seed": "drawn_223",
+      "rendered": "-4.3832028046726E-234",
+      "back": "8f7bdf8fb9054f53"
+     },
+     {
+      "seed": "drawn_224",
+      "rendered": "-1.214349462914E+283",
+      "back": "fab4e7e583536db4"
+     },
+     {
+      "seed": "drawn_225",
+      "rendered": "5.0700580003423E+265",
+      "back": "771928750c791c12"
+     },
+     {
+      "seed": "drawn_226",
+      "rendered": "-5.3279094831962E-152",
+      "back": "a08652d8d2781d97"
+     },
+     {
+      "seed": "drawn_227",
+      "rendered": "-2.5631482289038E-89",
+      "back": "ad8a1b2b0f0bec2f"
+     },
+     {
+      "seed": "drawn_228",
+      "rendered": "-8.9874674339257E-27",
+      "back": "ba86407bf76308b9"
+     },
+     {
+      "seed": "drawn_229",
+      "rendered": "1.7950917854615E+75",
+      "back": "4f8fbfe33755a718"
+     },
+     {
+      "seed": "drawn_230",
+      "rendered": "-1.373572262487E+16",
+      "back": "c348664891e4f338"
+     },
+     {
+      "seed": "drawn_231",
+      "rendered": "-2.2220993964083E-31",
+      "back": "b992071eb0db7c14"
+     },
+     {
+      "seed": "drawn_232",
+      "rendered": "-5.2615028360728E+106",
+      "back": "d616f0e1d9a726e1"
+     },
+     {
+      "seed": "drawn_233",
+      "rendered": "-3.3469073424339E+302",
+      "back": "febf3c47ab17c139"
+     },
+     {
+      "seed": "drawn_234",
+      "rendered": "1.104307118253E+146",
+      "back": "5e41aff4003482fd"
+     },
+     {
+      "seed": "drawn_235",
+      "rendered": "3.6961941969813E+265",
+      "back": "7712573f88d985b6"
+     },
+     {
+      "seed": "drawn_236",
+      "rendered": "1.667344732296E-83",
+      "back": "2ec0320be05f0062"
+     },
+     {
+      "seed": "drawn_237",
+      "rendered": "5.5677118221917E+274",
+      "back": "78f9bae4c5ccd570"
+     },
+     {
+      "seed": "drawn_238",
+      "rendered": "-1.9144157741419E-245",
+      "back": "8d20bb5763687f5a"
+     },
+     {
+      "seed": "drawn_239",
+      "rendered": "-5.6440038056995E-246",
+      "back": "8d03bb30a96240e8"
+     },
+     {
+      "seed": "drawn_240",
+      "rendered": "1.494287127829E+133",
+      "back": "5b950d581c2977fb"
+     },
+     {
+      "seed": "drawn_241",
+      "rendered": "-6.498123587655E+144",
+      "back": "de00a70bbad6ac25"
+     },
+     {
+      "seed": "drawn_242",
+      "rendered": "1.5502093832057E-145",
+      "back": "21def8d05587c99e"
+     },
+     {
+      "seed": "drawn_243",
+      "rendered": "-3.3206277939176E-233",
+      "back": "8faa6533491f0cec"
+     },
+     {
+      "seed": "drawn_244",
+      "rendered": "223647786562.95",
+      "back": "424a09393321799a"
+     },
+     {
+      "seed": "drawn_245",
+      "rendered": "1.6611170463624E+223",
+      "back": "6e46fa1d0a75657a"
+     },
+     {
+      "seed": "drawn_246",
+      "rendered": "1.0803275674632E-277",
+      "back": "066ea411b30b4290"
+     },
+     {
+      "seed": "drawn_247",
+      "rendered": "4.5158322843464E+166",
+      "back": "62888180ea5787b4"
+     },
+     {
+      "seed": "drawn_248",
+      "rendered": "-6.2983793815306E-62",
+      "back": "b339e8f7b8df2e2c"
+     },
+     {
+      "seed": "drawn_249",
+      "rendered": "-2.006178424896E-112",
+      "back": "a8bee0bed74f9270"
+     },
+     {
+      "seed": "drawn_250",
+      "rendered": "-2.2964344443354E+169",
+      "back": "e31856fb2c4d1d9b"
+     },
+     {
+      "seed": "drawn_251",
+      "rendered": "-16464402408306",
+      "back": "c2adf2d5b6c6e400"
+     },
+     {
+      "seed": "drawn_252",
+      "rendered": "2.0882103727817E-148",
+      "back": "21455c6c2e05f774"
+     },
+     {
+      "seed": "drawn_253",
+      "rendered": "-2.7896040542592E+306",
+      "back": "ff8fc7bcc772cb04"
+     },
+     {
+      "seed": "drawn_254",
+      "rendered": "-1.062305065742E+213",
+      "back": "ec293e868382f5ae"
+     },
+     {
+      "seed": "drawn_255",
+      "rendered": "2.5509879786281E-190",
+      "back": "18922f7e1259adef"
+     },
+     {
+      "seed": "drawn_256",
+      "rendered": "-4.1763227656561E-57",
+      "back": "b43a37178932e541"
+     },
+     {
+      "seed": "drawn_257",
+      "rendered": "9.5471144076295E-11",
+      "back": "3dda3e2f3c4cc752"
+     },
+     {
+      "seed": "drawn_258",
+      "rendered": "-3.9170043374082E-66",
+      "back": "b25a668ae77107fe"
+     },
+     {
+      "seed": "drawn_259",
+      "rendered": "-2.8146219758804E-25",
+      "back": "bad5c6eee5154ac7"
+     },
+     {
+      "seed": "drawn_260",
+      "rendered": "8.740329820471E+95",
+      "back": "53da303bd71a8c4f"
+     },
+     {
+      "seed": "drawn_261",
+      "rendered": "-5.5795937840502E-236",
+      "back": "8f16b54079ab0aa8"
+     },
+     {
+      "seed": "drawn_262",
+      "rendered": "1.7988308699165E+167",
+      "back": "62a86772d26d4d11"
+     },
+     {
+      "seed": "drawn_263",
+      "rendered": "6.5490761812314E-54",
+      "back": "34e412a6f573ae24"
+     },
+     {
+      "seed": "drawn_264",
+      "rendered": "8.7802014568962E-199",
+      "back": "16d0cd51780e02d0"
+     },
+     {
+      "seed": "drawn_265",
+      "rendered": "5.5130361860096E-136",
+      "back": "23d9a5369a09b24d"
+     },
+     {
+      "seed": "drawn_266",
+      "rendered": "-2.1015745054633E+186",
+      "back": "e69ee97a75a0bcd1"
+     },
+     {
+      "seed": "drawn_267",
+      "rendered": "-8.7409189969757E-60",
+      "back": "b3ac179c6bf5f045"
+     },
+     {
+      "seed": "drawn_268",
+      "rendered": "5.3281977871661E+185",
+      "back": "667f5954c0344fbe"
+     },
+     {
+      "seed": "drawn_270",
+      "rendered": "-1.2648317406324E+214",
+      "back": "ec62c91f357b00bf"
+     },
+     {
+      "seed": "drawn_271",
+      "rendered": "-9.8034001818747E+42",
+      "back": "c8dc2266a52d5608"
+     },
+     {
+      "seed": "drawn_272",
+      "rendered": "-2.2289225618302E+278",
+      "back": "f9b925d25187f939"
+     },
+     {
+      "seed": "drawn_273",
+      "rendered": "-1.6726295912047E-52",
+      "back": "b53005469c67f0e5"
+     },
+     {
+      "seed": "drawn_274",
+      "rendered": "2.984667539573E+253",
+      "back": "749048b08b244d5c"
+     },
+     {
+      "seed": "drawn_275",
+      "rendered": "2.283935499595E-279",
+      "back": "0614baa448455919"
+     },
+     {
+      "seed": "drawn_276",
+      "rendered": "-1.6990459951588E-280",
+      "back": "85d8ac467a90dbb9"
+     },
+     {
+      "seed": "drawn_277",
+      "rendered": "1.3031992720883E+227",
+      "back": "6f16012f774038b6"
+     },
+     {
+      "seed": "drawn_278",
+      "rendered": "-1.2819613874752E+132",
+      "back": "db5ce5b3885f2308"
+     },
+     {
+      "seed": "drawn_279",
+      "rendered": "-6.1014902050114E+289",
+      "back": "fc190b35e4901a50"
+     },
+     {
+      "seed": "drawn_280",
+      "rendered": "-2.2905551513041E-228",
+      "back": "90abc841b2591613"
+     },
+     {
+      "seed": "drawn_281",
+      "rendered": "-7.8134871930386E-135",
+      "back": "a416b771cdb71f90"
+     },
+     {
+      "seed": "drawn_282",
+      "rendered": "-5.3164071003666E+292",
+      "back": "fcb54f58deb9f349"
+     },
+     {
+      "seed": "drawn_283",
+      "rendered": "7.7214675832199E+20",
+      "back": "4444edd82cd7adce"
+     },
+     {
+      "seed": "drawn_284",
+      "rendered": "2.7456572550388E-212",
+      "back": "14027c87408ff45c"
+     },
+     {
+      "seed": "drawn_285",
+      "rendered": "-5.1888936169366E+101",
+      "back": "d50da779a4ef248b"
+     },
+     {
+      "seed": "drawn_286",
+      "rendered": "1.2945678499908E-131",
+      "back": "24c260b5d12ccc5b"
+     },
+     {
+      "seed": "drawn_287",
+      "rendered": "-1.8800342285716E+79",
+      "back": "d0644b9d149f821d"
+     },
+     {
+      "seed": "drawn_288",
+      "rendered": "-2.082834588758E+43",
+      "back": "c8ede3203bf63965"
+     },
+     {
+      "seed": "drawn_289",
+      "rendered": "5.4557919990091E+143",
+      "back": "5dc65ec5638326ae"
+     },
+     {
+      "seed": "drawn_290",
+      "rendered": "-1.0286524331641E+288",
+      "back": "fbbb058e9c47b818"
+     },
+     {
+      "seed": "drawn_291",
+      "rendered": "-4.6250674581673E-253",
+      "back": "8b8b208dea3ac515"
+     },
+     {
+      "seed": "drawn_292",
+      "rendered": "3.1306342334191E+230",
+      "back": "6fc9cfa0ceb10a13"
+     },
+     {
+      "seed": "drawn_293",
+      "rendered": "2.7967863055212E-99",
+      "back": "2b7878166156f6c5"
+     },
+     {
+      "seed": "drawn_294",
+      "rendered": "-2.8507634480875E+103",
+      "back": "d56974c5fa7cc7ec"
+     },
+     {
+      "seed": "drawn_295",
+      "rendered": "-4.7893988448845E+149",
+      "back": "df02ba63219e25c2"
+     },
+     {
+      "seed": "drawn_296",
+      "rendered": "-1.4357061087112E+65",
+      "back": "cd75d0035e2b0f48"
+     },
+     {
+      "seed": "drawn_297",
+      "rendered": "-5.0736662881183E+278",
+      "back": "f9cc9f29bf85eb4c"
+     },
+     {
+      "seed": "drawn_298",
+      "rendered": "-1.4045971083314E-98",
+      "back": "ab9eb8d8f3d64a96"
+     },
+     {
+      "seed": "drawn_299",
+      "rendered": "1.8310983802033E-262",
+      "back": "0997104ad817d626"
+     },
+     {
+      "seed": "drawn_300",
+      "rendered": "1.5655253510651E+292",
+      "back": "7c9919c1a4883ed1"
+     },
+     {
+      "seed": "drawn_301",
+      "rendered": "-2.1228554935354E+293",
+      "back": "fcd545d628d6dfbb"
+     },
+     {
+      "seed": "drawn_302",
+      "rendered": "-2.5092855492643E+163",
+      "back": "e1dbe33f21750e5b"
+     },
+     {
+      "seed": "drawn_303",
+      "rendered": "6.2575410821621E-21",
+      "back": "3bbd8ce729cc16e6"
+     },
+     {
+      "seed": "drawn_304",
+      "rendered": "-3.2672540848579E+202",
+      "back": "e9faad735e0c7064"
+     },
+     {
+      "seed": "drawn_305",
+      "rendered": "-6.6510329580572E+66",
+      "back": "cdcf93e1fc4eccdf"
+     },
+     {
+      "seed": "drawn_306",
+      "rendered": "3.6925266684385E-121",
+      "back": "26ee8317ff6a65d6"
+     },
+     {
+      "seed": "drawn_307",
+      "rendered": "9.0784433412056E-216",
+      "back": "13490969a560e958"
+     },
+     {
+      "seed": "drawn_308",
+      "rendered": "-3.1497851991193E+104",
+      "back": "d5a19434b9c81211"
+     },
+     {
+      "seed": "drawn_309",
+      "rendered": "4.770681017762E-203",
+      "back": "15edea3661ed63d6"
+     },
+     {
+      "seed": "drawn_310",
+      "rendered": "2669501.7989718",
+      "back": "41445ddee644b53c"
+     },
+     {
+      "seed": "drawn_311",
+      "rendered": "-3.6431684679633E-59",
+      "back": "b3cd459019fa8a99"
+     },
+     {
+      "seed": "drawn_312",
+      "rendered": "-1.0622660366173E-210",
+      "back": "945659c484689ae9"
+     },
+     {
+      "seed": "drawn_313",
+      "rendered": "3.6280036941962E-8",
+      "back": "3e637a4a51b4a33c"
+     },
+     {
+      "seed": "drawn_314",
+      "rendered": "-2.7460241186605E-198",
+      "back": "96ea4639d224b7a7"
+     },
+     {
+      "seed": "drawn_315",
+      "rendered": "1.9544604549644E+110",
+      "back": "56d4ce16cb5f5d78"
+     },
+     {
+      "seed": "drawn_316",
+      "rendered": "-9.5761802220953E+44",
+      "back": "c9457875381ce927"
+     },
+     {
+      "seed": "drawn_317",
+      "rendered": "-6.8352736536542E-124",
+      "back": "a65ceb1b9c6dd5b3"
+     },
+     {
+      "seed": "drawn_318",
+      "rendered": "44526.076588184",
+      "back": "40e5bdc273691031"
+     },
+     {
+      "seed": "drawn_319",
+      "rendered": "-3.9038429892356E-237",
+      "back": "8ed96bb868ca6e9c"
+     },
+     {
+      "seed": "drawn_320",
+      "rendered": "-1.8963434199092E-204",
+      "back": "95a3069e0359f17b"
+     },
+     {
+      "seed": "drawn_321",
+      "rendered": "-1.1012730861381E+279",
+      "back": "f9df100c44d95315"
+     },
+     {
+      "seed": "drawn_322",
+      "rendered": "3.0637433086284E+108",
+      "back": "5674df5a6d30533c"
+     },
+     {
+      "seed": "drawn_323",
+      "rendered": "1.1012484047682E-97",
+      "back": "2bce1bdc42707e5d"
+     },
+     {
+      "seed": "drawn_324",
+      "rendered": "8.0281425209111E+114",
+      "back": "57ca14776c14f9c4"
+     },
+     {
+      "seed": "drawn_325",
+      "rendered": "-1.2545824269929E-139",
+      "back": "a317e784595dc0ae"
+     },
+     {
+      "seed": "drawn_326",
+      "rendered": "-1.5830302892616E+141",
+      "back": "dd409dd72dd56267"
+     },
+     {
+      "seed": "drawn_327",
+      "rendered": "3.4926035075675E-63",
+      "back": "32f6fd0677fc7c38"
+     },
+     {
+      "seed": "drawn_328",
+      "rendered": "-1.1653584339911E-64",
+      "back": "b2a88b99a9b3cf4d"
+     },
+     {
+      "seed": "drawn_329",
+      "rendered": "-2.7832345201507E-62",
+      "back": "b326e62d15a25ce0"
+     },
+     {
+      "seed": "drawn_330",
+      "rendered": "-1.0661442309873E-197",
+      "back": "970980a52d75e0e5"
+     },
+     {
+      "seed": "drawn_331",
+      "rendered": "-2.152728851973E+46",
+      "back": "c98e2a8938de8944"
+     },
+     {
+      "seed": "drawn_332",
+      "rendered": "8.8238622361929E-147",
+      "back": "219c34fca840a9eb"
+     },
+     {
+      "seed": "drawn_333",
+      "rendered": "-4.5200060077873E-184",
+      "back": "99debac47b0bae48"
+     },
+     {
+      "seed": "drawn_334",
+      "rendered": "2.4114319989109E-58",
+      "back": "33f83808f0035b79"
+     },
+     {
+      "seed": "drawn_335",
+      "rendered": "-1.3436414132701E+291",
+      "back": "fc613c053fac1d5f"
+     },
+     {
+      "seed": "drawn_336",
+      "rendered": "-1.3400472547332E-183",
+      "back": "99f6c6a7f4887226"
+     },
+     {
+      "seed": "drawn_337",
+      "rendered": "19017992.38529",
+      "back": "41722310862a25d9"
+     },
+     {
+      "seed": "drawn_338",
+      "rendered": "-2.3824852156966E-275",
+      "back": "86ea6558c2fe0dc8"
+     },
+     {
+      "seed": "drawn_339",
+      "rendered": "-1.0495085562638E-141",
+      "back": "a2a9989a875f60c5"
+     },
+     {
+      "seed": "drawn_340",
+      "rendered": "-6.4173954861538E-49",
+      "back": "b5ee034dfe48f4ac"
+     },
+     {
+      "seed": "drawn_341",
+      "rendered": "-7.7873842124007E-103",
+      "back": "aabbe82457d6ffb1"
+     },
+     {
+      "seed": "drawn_342",
+      "rendered": "3.3895110409802E-264",
+      "back": "093b52c4256ba557"
+     },
+     {
+      "seed": "drawn_343",
+      "rendered": "4.9839425057388E+250",
+      "back": "73fbd8255887ed82"
+     },
+     {
+      "seed": "drawn_344",
+      "rendered": "4.1327158419372E+288",
+      "back": "7bdb23ff55358212"
+     },
+     {
+      "seed": "drawn_345",
+      "rendered": "-1.0288559615138E-100",
+      "back": "ab2ccdffc76e617d"
+     },
+     {
+      "seed": "drawn_346",
+      "rendered": "5.2093280004111E-12",
+      "back": "3d96e92e91ada9b5"
+     },
+     {
+      "seed": "drawn_347",
+      "rendered": "-3.9163514081194E-283",
+      "back": "854d1e4fb66a0b4d"
+     },
+     {
+      "seed": "drawn_348",
+      "rendered": "3.2346299513956E+192",
+      "back": "67e6afe03601901b"
+     },
+     {
+      "seed": "drawn_349",
+      "rendered": "-2.9405498555622E-44",
+      "back": "b6e4fc05e5aadbad"
+     },
+     {
+      "seed": "drawn_350",
+      "rendered": "-3.4807304995616E-137",
+      "back": "a399e80f17a45278"
+     },
+     {
+      "seed": "drawn_351",
+      "rendered": "1.7024237991537E+127",
+      "back": "5a59264628f9d9c9"
+     },
+     {
+      "seed": "drawn_352",
+      "rendered": "-8.5207212419005E+96",
+      "back": "d40fe9bad9318518"
+     },
+     {
+      "seed": "drawn_353",
+      "rendered": "-1.9646383457955E+243",
+      "back": "f2726a2dd22c4674"
+     },
+     {
+      "seed": "drawn_354",
+      "rendered": "2.3852885104479E+111",
+      "back": "570fbd2b8ec89f16"
+     },
+     {
+      "seed": "drawn_355",
+      "rendered": "-1.1012938560599E+306",
+      "back": "ff7917bbfb8d7018"
+     },
+     {
+      "seed": "drawn_356",
+      "rendered": "1.2680541121856E-172",
+      "back": "1c3f5ce2a411dc87"
+     },
+     {
+      "seed": "drawn_357",
+      "rendered": "4.1865050052727E+289",
+      "back": "7c112f04984ce098"
+     },
+     {
+      "seed": "drawn_358",
+      "rendered": "1.1213044259277E+291",
+      "back": "7c5cc3e57dcacc86"
+     },
+     {
+      "seed": "drawn_359",
+      "rendered": "1.8186718413158E+153",
+      "back": "5fc15cbdcbef4937"
+     },
+     {
+      "seed": "drawn_360",
+      "rendered": "2.9944932930717E+124",
+      "back": "59c6a639aa809c90"
+     },
+     {
+      "seed": "drawn_361",
+      "rendered": "1.146425438582E+293",
+      "back": "7cc6f9ee8761a096"
+     },
+     {
+      "seed": "drawn_362",
+      "rendered": "3.1146807512036E+300",
+      "back": "7e529a87eea7915b"
+     },
+     {
+      "seed": "drawn_363",
+      "rendered": "1.9637424201034E+254",
+      "back": "74bac8e7aabb8fa5"
+     },
+     {
+      "seed": "drawn_364",
+      "rendered": "-1.6846408513377E-229",
+      "back": "907058b257135e10"
+     },
+     {
+      "seed": "drawn_365",
+      "rendered": "1.900375105177E-98",
+      "back": "2ba4c871a5e3079c"
+     },
+     {
+      "seed": "drawn_366",
+      "rendered": "5.2256459452069E+210",
+      "back": "6bafca494676e357"
+     },
+     {
+      "seed": "drawn_367",
+      "rendered": "9.1407483784515E-247",
+      "back": "0cd990867e3e8cde"
+     },
+     {
+      "seed": "drawn_368",
+      "rendered": "-17.918058214527",
+      "back": "c031eb05dcf737b6"
+     },
+     {
+      "seed": "drawn_369",
+      "rendered": "1.7202196062364E+197",
+      "back": "68e268fde494c23e"
+     },
+     {
+      "seed": "drawn_370",
+      "rendered": "1.7023090546121E-8",
+      "back": "3e52474580f5f83c"
+     },
+     {
+      "seed": "drawn_371",
+      "rendered": "4.0283274154979E+251",
+      "back": "742c21c13a5f032f"
+     },
+     {
+      "seed": "drawn_372",
+      "rendered": "-3.6436175567507E+85",
+      "back": "d1b2c17799b439a2"
+     },
+     {
+      "seed": "drawn_373",
+      "rendered": "2.6934991956416E+99",
+      "back": "5493b4095e80b25c"
+     },
+     {
+      "seed": "drawn_374",
+      "rendered": "3.6793309417822E+69",
+      "back": "4e610f2ac249a83a"
+     },
+     {
+      "seed": "drawn_375",
+      "rendered": "5.2007271108995E-245",
+      "back": "0d36ba173d87bf43"
+     },
+     {
+      "seed": "drawn_376",
+      "rendered": "6.2226617515533E-7",
+      "back": "3ea4e139ca51c0fd"
+     },
+     {
+      "seed": "drawn_377",
+      "rendered": "6.4114656367896E+173",
+      "back": "6404bcf6bf667b32"
+     },
+     {
+      "seed": "drawn_378",
+      "rendered": "2.1828887345995E-285",
+      "back": "04d4c63bea382ccb"
+     },
+     {
+      "seed": "drawn_379",
+      "rendered": "1.5460240717052E-96",
+      "back": "2c0a6b15a497c863"
+     },
+     {
+      "seed": "drawn_380",
+      "rendered": "-1.5904625528154E+104",
+      "back": "d591c0b2550fc30d"
+     },
+     {
+      "seed": "drawn_381",
+      "rendered": "-1.1068942271064E-56",
+      "back": "b4515ec6af3a69e7"
+     },
+     {
+      "seed": "drawn_382",
+      "rendered": "2.4841248052804E+294",
+      "back": "7d0f1dc4562221cb"
+     },
+     {
+      "seed": "drawn_383",
+      "rendered": "-1.3760460870438E+248",
+      "back": "f373ae367533bcf3"
+     },
+     {
+      "seed": "drawn_384",
+      "rendered": "4.6467634999287E-120",
+      "back": "2727ff8a9f5ffe1b"
+     },
+     {
+      "seed": "drawn_385",
+      "rendered": "3.0546218300232E-282",
+      "back": "057c63a38eb6e67b"
+     },
+     {
+      "seed": "drawn_386",
+      "rendered": "-5.8780310376211E+212",
+      "back": "ec1befcaca3e9c71"
+     },
+     {
+      "seed": "drawn_387",
+      "rendered": "3.9507441112459E-241",
+      "back": "0e05132c51a6c2fd"
+     },
+     {
+      "seed": "drawn_388",
+      "rendered": "-1.0586300944843E+265",
+      "back": "f6f5031477c5789c"
+     },
+     {
+      "seed": "drawn_389",
+      "rendered": "-3.1617703307707E-138",
+      "back": "a362d3757e49daf9"
+     },
+     {
+      "seed": "drawn_390",
+      "rendered": "-5.8501601965947E+284",
+      "back": "fb0f7928163d740b"
+     },
+     {
+      "seed": "drawn_391",
+      "rendered": "3.5378177729613E+271",
+      "back": "7850bddf8a48586d"
+     },
+     {
+      "seed": "drawn_392",
+      "rendered": "-4.2268358037942E-257",
+      "back": "8ab44f24347ce8ff"
+     },
+     {
+      "seed": "drawn_393",
+      "rendered": "-3.6276033287348E+155",
+      "back": "e03b0e4f9247d695"
+     },
+     {
+      "seed": "drawn_394",
+      "rendered": "1.1041199580255E-208",
+      "back": "14c22641bf42ceff"
+     },
+     {
+      "seed": "drawn_395",
+      "rendered": "-1.5229701658635E-301",
+      "back": "817a1c29a1e23830"
+     },
+     {
+      "seed": "drawn_396",
+      "rendered": "1.0147908227537E+37",
+      "back": "479e89aa0482a7dc"
+     },
+     {
+      "seed": "drawn_397",
+      "rendered": "3.8820916598288E-228",
+      "back": "10b78b047d5c5cf3"
+     },
+     {
+      "seed": "drawn_398",
+      "rendered": "7.5326078545136E+250",
+      "back": "74050aa6e8fde9fc"
+     },
+     {
+      "seed": "drawn_399",
+      "rendered": "1.0900871437669E+292",
+      "back": "7c917a4d842f0829"
+     },
+     {
+      "seed": "drawn_400",
+      "rendered": "2.7175621623774E-87",
+      "back": "2df59fc59ac25b6e"
+     },
+     {
+      "seed": "drawn_401",
+      "rendered": "-4.7724791078169E+89",
+      "back": "d28dfd10e2586acd"
+     },
+     {
+      "seed": "drawn_402",
+      "rendered": "-6.166678213357E-236",
+      "back": "8f1918ebf9228f9e"
+     },
+     {
+      "seed": "drawn_403",
+      "rendered": "-3.2046793254459E+32",
+      "back": "c6af99bf797dde42"
+     },
+     {
+      "seed": "drawn_404",
+      "rendered": "-2.9102428953061E+251",
+      "back": "f42452de34130f20"
+     },
+     {
+      "seed": "drawn_405",
+      "rendered": "5.0611536262783E-238",
+      "back": "0eaa5d91af94d513"
+     },
+     {
+      "seed": "drawn_406",
+      "rendered": "-1.4859052353998E-243",
+      "back": "8d844aaa4a260a04"
+     },
+     {
+      "seed": "drawn_407",
+      "rendered": "-2.550161197888E-175",
+      "back": "9bb025915c00473c"
+     },
+     {
+      "seed": "drawn_408",
+      "rendered": "-4126543.0756842",
+      "back": "c14f7ba789b00516"
+     },
+     {
+      "seed": "drawn_409",
+      "rendered": "-2.3487246272482E-96",
+      "back": "ac14113fe89ef7fc"
+     },
+     {
+      "seed": "drawn_410",
+      "rendered": "2361071.8921436",
+      "back": "41420377f231c2f1"
+     },
+     {
+      "seed": "drawn_411",
+      "rendered": "8.4505571344228E+161",
+      "back": "618e0dbdf3d0e56a"
+     },
+     {
+      "seed": "drawn_412",
+      "rendered": "-4.0598894816557E-277",
+      "back": "868cc98958763bd1"
+     },
+     {
+      "seed": "drawn_413",
+      "rendered": "1.4378283797311E+297",
+      "back": "7da196940eed8945"
+     },
+     {
+      "seed": "drawn_414",
+      "rendered": "29357690373.614",
+      "back": "421b576b381674bc"
+     },
+     {
+      "seed": "drawn_415",
+      "rendered": "4.9668332550896E+215",
+      "back": "6cb70d80c51e2526"
+     },
+     {
+      "seed": "drawn_416",
+      "rendered": "-4.5036354986156E+189",
+      "back": "e7502c3e6855189b"
+     },
+     {
+      "seed": "drawn_417",
+      "rendered": "2.5552574167531E-144",
+      "back": "221fe850e83d8c22"
+     },
+     {
+      "seed": "drawn_418",
+      "rendered": "-2.5330674433889E-71",
+      "back": "b14660b1db746adf"
+     },
+     {
+      "seed": "drawn_419",
+      "rendered": "1.5410322294445E+281",
+      "back": "7a50faa915dfe936"
+     },
+     {
+      "seed": "drawn_420",
+      "rendered": "-1.0055000560691E-57",
+      "back": "b4193f1aecb5c279"
+     },
+     {
+      "seed": "drawn_421",
+      "rendered": "5.6489996542501E-183",
+      "back": "1a1800d0d7fdf005"
+     },
+     {
+      "seed": "drawn_422",
+      "rendered": "-2.9825010991398E-232",
+      "back": "8fdda26d0960ec48"
+     },
+     {
+      "seed": "drawn_423",
+      "rendered": "1.1302969904453E+223",
+      "back": "6e3f44e5894285c5"
+     },
+     {
+      "seed": "drawn_424",
+      "rendered": "1.4658453886593E+45",
+      "back": "49506ec51bc485b5"
+     },
+     {
+      "seed": "drawn_425",
+      "rendered": "-1.0852876861782E+284",
+      "back": "fae75ade0574f400"
+     },
+     {
+      "seed": "drawn_426",
+      "rendered": "-2.0714723095616E-79",
+      "back": "af988fc9ed3ff111"
+     },
+     {
+      "seed": "drawn_427",
+      "rendered": "6.9669462630803E+146",
+      "back": "5e6be595626f3c05"
+     },
+     {
+      "seed": "drawn_428",
+      "rendered": "2.1159990712249E+242",
+      "back": "723fbbcb494ce3b1"
+     },
+     {
+      "seed": "drawn_429",
+      "rendered": "1.6049621901668E-35",
+      "back": "38b55567408fd5b4"
+     },
+     {
+      "seed": "drawn_430",
+      "rendered": "-2.7222022528698E-158",
+      "back": "9f37eb7a04a6f3a5"
+     },
+     {
+      "seed": "drawn_431",
+      "rendered": "1.5360286503895E+167",
+      "back": "62a4d6b872e784fb"
+     },
+     {
+      "seed": "drawn_432",
+      "rendered": "8.5740263962415E+222",
+      "back": "6e37b83a05184ae0"
+     },
+     {
+      "seed": "drawn_433",
+      "rendered": "6.7251627337925E+174",
+      "back": "643b30e5d97f3086"
+     },
+     {
+      "seed": "drawn_434",
+      "rendered": "-7.5284157711859E+276",
+      "back": "f96b2e35bf4eb5f4"
+     },
+     {
+      "seed": "drawn_435",
+      "rendered": "-1.3451726272669E+183",
+      "back": "e5f442d02c742313"
+     },
+     {
+      "seed": "drawn_436",
+      "rendered": "-1.9387389309568E-213",
+      "back": "93c4e2b473697b24"
+     },
+     {
+      "seed": "drawn_437",
+      "rendered": "1.3482339302257E-222",
+      "back": "11df30c330550fd3"
+     },
+     {
+      "seed": "drawn_438",
+      "rendered": "-6.3867604223726E+307",
+      "back": "ffd6bcd4c91b6332"
+     },
+     {
+      "seed": "drawn_439",
+      "rendered": "-2.2739625688296E+281",
+      "back": "fa590df9c6ac9c66"
+     },
+     {
+      "seed": "drawn_440",
+      "rendered": "-2.1334040028143E+220",
+      "back": "edae37d150a804ed"
+     },
+     {
+      "seed": "drawn_441",
+      "rendered": "7.3331431242766E-186",
+      "back": "197fe83860b8782d"
+     },
+     {
+      "seed": "drawn_442",
+      "rendered": "1.4126129556569E-165",
+      "back": "1db4d325f172dff6"
+     },
+     {
+      "seed": "drawn_443",
+      "rendered": "-6.8391720093581E-105",
+      "back": "aa4f5f0b18d177c0"
+     },
+     {
+      "seed": "drawn_444",
+      "rendered": "-1.9258223674376E+77",
+      "back": "cffa9c5aeea6e533"
+     },
+     {
+      "seed": "drawn_445",
+      "rendered": "-9.2423601983245E+267",
+      "back": "f791ea22301f6cc0"
+     },
+     {
+      "seed": "drawn_446",
+      "rendered": "-28103662.646106",
+      "back": "c17acd3eea56733f"
+     },
+     {
+      "seed": "drawn_447",
+      "rendered": "1.0736836762097E+294",
+      "back": "7cfae5e5aa2f2e36"
+     },
+     {
+      "seed": "drawn_448",
+      "rendered": "-1.9934788859778E-266",
+      "back": "88c491b84fc193d3"
+     },
+     {
+      "seed": "drawn_449",
+      "rendered": "1.2429374182057E+236",
+      "back": "70f38bb72be855c4"
+     },
+     {
+      "seed": "drawn_450",
+      "rendered": "-3.9800333661164E-219",
+      "back": "92967ab5ff6760cf"
+     },
+     {
+      "seed": "drawn_451",
+      "rendered": "1.5837519273386E+192",
+      "back": "67d6375950c934f0"
+     },
+     {
+      "seed": "drawn_452",
+      "rendered": "5.3811507731782E+220",
+      "back": "6dc30e12a9fed065"
+     },
+     {
+      "seed": "drawn_453",
+      "rendered": "-6.5366120126043E+135",
+      "back": "dc21fc85cab9c674"
+     },
+     {
+      "seed": "drawn_454",
+      "rendered": "-2.7104461524252E-282",
+      "back": "857930c44ddcab87"
+     },
+     {
+      "seed": "drawn_455",
+      "rendered": "9.6111054554442E-284",
+      "back": "052c9570d02dda75"
+     },
+     {
+      "seed": "drawn_456",
+      "rendered": "-8.2021868245195E-262",
+      "back": "89b9d3e4b4465083"
+     },
+     {
+      "seed": "drawn_457",
+      "rendered": "6.5641345490143E-177",
+      "back": "1b5a997e9fdd5a4e"
+     },
+     {
+      "seed": "drawn_458",
+      "rendered": "3.2209674573944E-206",
+      "back": "1544ae9a1ff4c6c1"
+     },
+     {
+      "seed": "drawn_459",
+      "rendered": "-3.7634682428829E-73",
+      "back": "b0e5473f85a119b6"
+     },
+     {
+      "seed": "drawn_460",
+      "rendered": "-7.9535760830581E-114",
+      "back": "a87396308deeed41"
+     },
+     {
+      "seed": "drawn_461",
+      "rendered": "1.5716607859254E-222",
+      "back": "11e22dfdc7a37ac2"
+     },
+     {
+      "seed": "drawn_462",
+      "rendered": "-7.4186363309905E-149",
+      "back": "a12e5ae90543707d"
+     },
+     {
+      "seed": "drawn_463",
+      "rendered": "-7.1722013526488E-133",
+      "back": "a4804a6d4c4884a2"
+     },
+     {
+      "seed": "drawn_464",
+      "rendered": "-1.7984189611351E+233",
+      "back": "f05cf5af91450f69"
+     },
+     {
+      "seed": "drawn_465",
+      "rendered": "2.389408547591E+157",
+      "back": "609bd868c3cb72dc"
+     },
+     {
+      "seed": "drawn_466",
+      "rendered": "6.561318549969E+271",
+      "back": "785f0cadef0b8fb5"
+     },
+     {
+      "seed": "drawn_467",
+      "rendered": "-72.179682962366",
+      "back": "c0520b7fecf7c0aa"
+     },
+     {
+      "seed": "drawn_468",
+      "rendered": "2.1161523603264E-185",
+      "back": "199704d58b45f115"
+     },
+     {
+      "seed": "drawn_469",
+      "rendered": "-4.7824363194868E-232",
+      "back": "8fe7c269620888a3"
+     },
+     {
+      "seed": "drawn_470",
+      "rendered": "-5.1821990842862E+238",
+      "back": "f17fd53f3416c368"
+     },
+     {
+      "seed": "drawn_471",
+      "rendered": "1.7235943696997E+273",
+      "back": "78a97d206e06496a"
+     },
+     {
+      "seed": "drawn_472",
+      "rendered": "2.0504895510073E+137",
+      "back": "5c71a1c54791c61e"
+     },
+     {
+      "seed": "drawn_473",
+      "rendered": "6.2024272205849E+91",
+      "back": "52fe72c374ffc638"
+     },
+     {
+      "seed": "drawn_474",
+      "rendered": "-5.505687167295E-45",
+      "back": "b6bf6e92209483a0"
+     },
+     {
+      "seed": "drawn_475",
+      "rendered": "-4.3064417316473E+169",
+      "back": "e326d2654986d3ba"
+     },
+     {
+      "seed": "drawn_476",
+      "rendered": "7.306917822204E+190",
+      "back": "6790665557319d6a"
+     },
+     {
+      "seed": "drawn_477",
+      "rendered": "-7.186001746409E+55",
+      "back": "cb8772075996c8ab"
+     },
+     {
+      "seed": "drawn_478",
+      "rendered": "1.8525587086962E-130",
+      "back": "25006fd9207690d7"
+     },
+     {
+      "seed": "drawn_479",
+      "rendered": "-6.9704377281019E-23",
+      "back": "bb55111d6ecb9721"
+     },
+     {
+      "seed": "drawn_480",
+      "rendered": "-5.2331894837788E+169",
+      "back": "e32bbbae6482e4e2"
+     },
+     {
+      "seed": "drawn_481",
+      "rendered": "-2.5824193734172E+283",
+      "back": "fac63aa2ca524535"
+     },
+     {
+      "seed": "drawn_482",
+      "rendered": "-7.7963382038196E+173",
+      "back": "e40937b25cee07aa"
+     },
+     {
+      "seed": "drawn_483",
+      "rendered": "1.7253268526075E+205",
+      "back": "6a8b83c1730042e4"
+     },
+     {
+      "seed": "drawn_484",
+      "rendered": "-6.5217373610742E-192",
+      "back": "983dc14a43aaa09f"
+     },
+     {
+      "seed": "drawn_485",
+      "rendered": "-5.0360566363217E-248",
+      "back": "8c968915ef7ae077"
+     },
+     {
+      "seed": "drawn_486",
+      "rendered": "-5.9165980109945E-43",
+      "back": "b72a638f893dd030"
+     },
+     {
+      "seed": "drawn_487",
+      "rendered": "5.168606215051E+128",
+      "back": "5aa7dc5e64c9f73d"
+     },
+     {
+      "seed": "drawn_488",
+      "rendered": "-3.4383238600993E+193",
+      "back": "e81e25049b08da22"
+     },
+     {
+      "seed": "drawn_489",
+      "rendered": "1.4573204506996E+181",
+      "back": "658c18a0d3d1dda4"
+     },
+     {
+      "seed": "drawn_490",
+      "rendered": "1.6888432392593E-51",
+      "back": "3564384a1a7e924a"
+     },
+     {
+      "seed": "drawn_491",
+      "rendered": "-4.5474140522529E-288",
+      "back": "84462871f69067d3"
+     },
+     {
+      "seed": "drawn_492",
+      "rendered": "-2.1240339225873E-113",
+      "back": "a88a274bbb0324db"
+     },
+     {
+      "seed": "drawn_493",
+      "rendered": "-5.8700198610711E+205",
+      "back": "eaa7672e7a0bf14a"
+     },
+     {
+      "seed": "drawn_494",
+      "rendered": "3.8594293791141E-144",
+      "back": "222818a97c34adce"
+     },
+     {
+      "seed": "drawn_495",
+      "rendered": "-1.2346553897537E-66",
+      "back": "b240a4a3a02dd8d0"
+     },
+     {
+      "seed": "drawn_496",
+      "rendered": "2.8413934969272E-157",
+      "back": "1f6f357d80fc31b6"
+     },
+     {
+      "seed": "drawn_497",
+      "rendered": "3.4999174144093E+65",
+      "back": "4d8a964329cd5ab0"
+     },
+     {
+      "seed": "drawn_498",
+      "rendered": "4.9706088190122E+73",
+      "back": "4f3c21f547c9383f"
+     },
+     {
+      "seed": "drawn_499",
+      "rendered": "1.6536903227305E+46",
+      "back": "49872c52b679d07f"
+     }
+    ]
+   },
+   "L2_loose_equality": {
+    "operator": "==",
+    "set_size": 7,
+    "transitivity_violations": 20,
+    "examples": [
+     [
+      "0",
+      "false",
+      "''"
+     ],
+     [
+      "0",
+      "false",
+      "[]"
+     ],
+     [
+      "0",
+      "none",
+      "''"
+     ],
+     [
+      "0",
+      "none",
+      "[]"
+     ],
+     [
+      "''",
+      "false",
+      "0"
+     ]
+    ]
+   },
+   "L3_relational_coherence": {
+    "pairs": 49,
+    "incomparable": 0,
+    "violations": 0,
+    "examples": []
+   },
+   "L4_division_identity": {
+    "pairs": 36,
+    "violations": 0,
+    "examples": []
+   }
+  },
+  "perl": {
+   "L1_roundtrip": {
+    "detail": [
+     {
+      "back": "3fd3333333333333",
+      "rendered": "0.3",
+      "seed": "one_tenth_plus_two_tenths"
+     },
+     {
+      "back": "3fd555555555554f",
+      "rendered": "0.333333333333333",
+      "seed": "one_third"
+     },
+     {
+      "back": "400921fb54442d11",
+      "rendered": "3.14159265358979",
+      "seed": "pi"
+     },
+     {
+      "back": "433ffffffffffffe",
+      "rendered": "9.00719925474099e+15",
+      "seed": "two53"
+     },
+     {
+      "back": "433ffffffffffffe",
+      "rendered": "9.00719925474099e+15",
+      "seed": "two53_plus_two"
+     },
+     {
+      "back": "0000000000000000",
+      "rendered": "0",
+      "seed": "neg_zero"
+     },
+     {
+      "back": "7ff0000000000000",
+      "rendered": "1.79769313486232e+308",
+      "seed": "max_double"
+     },
+     {
+      "back": "437b69b4ba630f49",
+      "rendered": "1.23456789012346e+17",
+      "seed": "big_int_as_double"
+     },
+     {
+      "back": "e5aeaa7575ad84c3",
+      "rendered": "-6.3624220947187e+181",
+      "seed": "drawn_000"
+     },
+     {
+      "back": "c4d30fba34838f12",
+      "rendered": "-3.60060327317877e+23",
+      "seed": "drawn_001"
+     },
+     {
+      "back": "c1e0131e74281b9b",
+      "rendered": "-2157507489.25337",
+      "seed": "drawn_002"
+     },
+     {
+      "back": "c062938ae0dd02bf",
+      "rendered": "-148.610702926313",
+      "seed": "drawn_003"
+     },
+     {
+      "back": "2af0a775e96790a6",
+      "rendered": "7.43573257554434e-102",
+      "seed": "drawn_004"
+     },
+     {
+      "back": "0a2c29080c6fa649",
+      "rendered": "1.14469742243641e-259",
+      "seed": "drawn_005"
+     },
+     {
+      "back": "076ab5a18cb9da09",
+      "rendered": "6.17162656106089e-273",
+      "seed": "drawn_006"
+     },
+     {
+      "back": "e63890e75b8710a3",
+      "rendered": "-2.60959039817775e+184",
+      "seed": "drawn_007"
+     },
+     {
+      "back": "34ce0f9a7de1c256",
+      "rendered": "2.45196073210716e-54",
+      "seed": "drawn_008"
+     },
+     {
+      "back": "f9dc951e5cf11d41",
+      "rendered": "-1.01334220617858e+279",
+      "seed": "drawn_009"
+     },
+     {
+      "back": "79801d37f8503d8f",
+      "rendered": "1.78530749923402e+277",
+      "seed": "drawn_010"
+     },
+     {
+      "back": "eee6a1e3a1bd6154",
+      "rendered": "-1.67547125129808e+226",
+      "seed": "drawn_011"
+     },
+     {
+      "back": "a91b1fe66617bb64",
+      "rendered": "-1.12788571598309e-110",
+      "seed": "drawn_012"
+     },
+     {
+      "back": "809578b5faa6472e",
+      "rendered": "-7.64411727071428e-306",
+      "seed": "drawn_013"
+     },
+     {
+      "back": "437cab2ba1d3fd82",
+      "rendered": "1.29112051757865e+17",
+      "seed": "drawn_014"
+     },
+     {
+      "back": "8d8374063f98544c",
+      "rendered": "-1.42450842621326e-243",
+      "seed": "drawn_015"
+     },
+     {
+      "back": "d2656d2e60e63dbe",
+      "rendered": "-8.52471265563295e+88",
+      "seed": "drawn_016"
+     },
+     {
+      "back": "19c337d336d4250e",
+      "rendered": "1.41339112922736e-184",
+      "seed": "drawn_017"
+     },
+     {
+      "back": "34d961e21b0aef08",
+      "rendered": "4.14069008218088e-54",
+      "seed": "drawn_018"
+     },
+     {
+      "back": "bcf213c48140e6f7",
+      "rendered": "-4.01394854615914e-15",
+      "seed": "drawn_019"
+     },
+     {
+      "back": "b954e9cd141ab2c9",
+      "rendered": "-1.61110091120393e-32",
+      "seed": "drawn_020"
+     },
+     {
+      "back": "273c9980e2f82846",
+      "rendered": "1.10754668423556e-119",
+      "seed": "drawn_021"
+     },
+     {
+      "back": "ebc0f8395d55ee84",
+      "rendered": "-1.11578169188915e+211",
+      "seed": "drawn_022"
+     },
+     {
+      "back": "b98391e20fa0c549",
+      "rendered": "-1.20608547321633e-31",
+      "seed": "drawn_023"
+     },
+     {
+      "back": "44f421ba54cb8103",
+      "rendered": "1.52111198067151e+24",
+      "seed": "drawn_024"
+     },
+     {
+      "back": "83a29fef8bf485bf",
+      "rendered": "-3.73271325437971e-291",
+      "seed": "drawn_026"
+     },
+     {
+      "back": "2112cf263752ecb6",
+      "rendered": "2.29843353691739e-149",
+      "seed": "drawn_027"
+     },
+     {
+      "back": "3135780596ddab34",
+      "rendered": "1.21509301592813e-71",
+      "seed": "drawn_028"
+     },
+     {
+      "back": "0e497827a8965f44",
+      "rendered": "7.63926215149628e-240",
+      "seed": "drawn_029"
+     },
+     {
+      "back": "c6463cf925b25a45",
+      "rendered": "-3.52377975289953e+30",
+      "seed": "drawn_030"
+     },
+     {
+      "back": "4e2b169258ac0142",
+      "rendered": "3.65147816918179e+68",
+      "seed": "drawn_032"
+     },
+     {
+      "back": "e6126d14c09d4453",
+      "rendered": "-4.89340032874906e+183",
+      "seed": "drawn_033"
+     },
+     {
+      "back": "41749cc0f5c9519e",
+      "rendered": "21613583.3616501",
+      "seed": "drawn_034"
+     },
+     {
+      "back": "66567ec9fa3ee68b",
+      "rendered": "9.55847380336122e+184",
+      "seed": "drawn_035"
+     },
+     {
+      "back": "6e0acbd3ab2b0ee2",
+      "rendered": "1.21076542024057e+222",
+      "seed": "drawn_036"
+     },
+     {
+      "back": "e2f87a15fa6d8f8d",
+      "rendered": "-5.7734308002823e+168",
+      "seed": "drawn_037"
+     },
+     {
+      "back": "162e969fe98a820f",
+      "rendered": "7.80493625482163e-202",
+      "seed": "drawn_038"
+     },
+     {
+      "back": "2847f6eb92778fd9",
+      "rendered": "1.21641176980163e-114",
+      "seed": "drawn_040"
+     },
+     {
+      "back": "9cdca4738f6b03ba",
+      "rendered": "-1.18585525490812e-169",
+      "seed": "drawn_041"
+     },
+     {
+      "back": "365e93eeeaa2aad0",
+      "rendered": "8.36888951640208e-47",
+      "seed": "drawn_042"
+     },
+     {
+      "back": "3eeb554a002ab7cb",
+      "rendered": "1.30334665347751e-05",
+      "seed": "drawn_043"
+     },
+     {
+      "back": "f46a4bf134920c79",
+      "rendered": "-6.02485769035761e+252",
+      "seed": "drawn_044"
+     },
+     {
+      "back": "fe94becedaee9160",
+      "rendered": "-5.55720362623184e+301",
+      "seed": "drawn_045"
+     },
+     {
+      "back": "8edacbfa24231931",
+      "rendered": "-4.11515432845017e-237",
+      "seed": "drawn_046"
+     },
+     {
+      "back": "d756bda19c2dc744",
+      "rendered": "-5.46893959369852e+112",
+      "seed": "drawn_047"
+     },
+     {
+      "back": "9b9e9eb528bdddae",
+      "rendered": "-1.20900206652814e-175",
+      "seed": "drawn_048"
+     },
+     {
+      "back": "7356f0659f8c9696",
+      "rendered": "4.00970011887637e+247",
+      "seed": "drawn_049"
+     },
+     {
+      "back": "beb3f65d0c69d2a7",
+      "rendered": "-1.18984921617969e-06",
+      "seed": "drawn_050"
+     },
+     {
+      "back": "a849afb0b507c0ad",
+      "rendered": "-1.3038062051506e-114",
+      "seed": "drawn_051"
+     },
+     {
+      "back": "496428c7ba7b2cdf",
+      "rendered": "3.59653887579896e+45",
+      "seed": "drawn_052"
+     },
+     {
+      "back": "60115e01ad415fb8",
+      "rendered": "5.82140643325734e+154",
+      "seed": "drawn_053"
+     },
+     {
+      "back": "77e5e9275b9a4542",
+      "rendered": "3.61729155997435e+269",
+      "seed": "drawn_054"
+     },
+     {
+      "back": "204316ec1c8e0d31",
+      "rendered": "2.84752591564078e-153",
+      "seed": "drawn_055"
+     },
+     {
+      "back": "db622bd12992a9ee",
+      "rendered": "-1.61224401638406e+132",
+      "seed": "drawn_056"
+     },
+     {
+      "back": "7f62a34eb82997bc",
+      "rendered": "4.08999764096545e+305",
+      "seed": "drawn_058"
+     },
+     {
+      "back": "0a7301982401e3ac",
+      "rendered": "2.47229139713132e-258",
+      "seed": "drawn_059"
+     },
+     {
+      "back": "edbb025c38041771",
+      "rendered": "-3.81372066490461e+220",
+      "seed": "drawn_060"
+     },
+     {
+      "back": "7f4d05d61164c4a2",
+      "rendered": "1.59222668827951e+305",
+      "seed": "drawn_062"
+     },
+     {
+      "back": "7bc74023c23e5623",
+      "rendered": "1.77018646995056e+288",
+      "seed": "drawn_063"
+     },
+     {
+      "back": "b0062ee42ca23ef2",
+      "rendered": "-2.39471984986189e-77",
+      "seed": "drawn_064"
+     },
+     {
+      "back": "1b951a4e2fa6f0e9",
+      "rendered": "8.33223880705924e-176",
+      "seed": "drawn_065"
+     },
+     {
+      "back": "06c22dfe51b74660",
+      "rendered": "4.10222791653582e-276",
+      "seed": "drawn_066"
+     },
+     {
+      "back": "01adaa3028bd19d0",
+      "rendered": "1.38425380585545e-300",
+      "seed": "drawn_067"
+     },
+     {
+      "back": "ee0943c0dc12e883",
+      "rendered": "-1.14156411029032e+222",
+      "seed": "drawn_068"
+     },
+     {
+      "back": "9c2e10222a771abc",
+      "rendered": "-6.07750222999244e-173",
+      "seed": "drawn_070"
+     },
+     {
+      "back": "1ffab142c1a328b0",
+      "rendered": "1.24425749772232e-154",
+      "seed": "drawn_071"
+     },
+     {
+      "back": "03813970eca15679",
+      "rendered": "8.63013902282141e-292",
+      "seed": "drawn_072"
+     },
+     {
+      "back": "9afaf53de49a56f1",
+      "rendered": "-1.0394649771302e-178",
+      "seed": "drawn_073"
+     },
+     {
+      "back": "45e1f55f4ef528ea",
+      "rendered": "4.44630565927679e+28",
+      "seed": "drawn_074"
+     },
+     {
+      "back": "c8c06dc048256a06",
+      "rendered": "-2.86228587856392e+42",
+      "seed": "drawn_075"
+     },
+     {
+      "back": "6e6d4008983f0ccb",
+      "rendered": "8.4585245334773e+223",
+      "seed": "drawn_076"
+     },
+     {
+      "back": "c5d75cfdb7c9d217",
+      "rendered": "-2.89222982012501e+28",
+      "seed": "drawn_077"
+     },
+     {
+      "back": "50dc01b92c9b45ab",
+      "rendered": "3.32078897772891e+81",
+      "seed": "drawn_078"
+     },
+     {
+      "back": "bfcaa1f42e644236",
+      "rendered": "-0.208067438747564",
+      "seed": "drawn_079"
+     },
+     {
+      "back": "8e8e84417fb11742",
+      "rendered": "-1.46450190182357e-238",
+      "seed": "drawn_080"
+     },
+     {
+      "back": "cd972c90784e2fc5",
+      "rendered": "-6.10128853188765e+65",
+      "seed": "drawn_081"
+     },
+     {
+      "back": "ff2362bc8d46e0f1",
+      "rendered": "-2.65880745392886e+304",
+      "seed": "drawn_082"
+     },
+     {
+      "back": "a70e02766e4cf396",
+      "rendered": "-1.45268762844177e-120",
+      "seed": "drawn_083"
+     },
+     {
+      "back": "3ad11d0c3db034e5",
+      "rendered": "2.21186390155147e-25",
+      "seed": "drawn_084"
+     },
+     {
+      "back": "8275c0248656d905",
+      "rendered": "-8.31447196972269e-297",
+      "seed": "drawn_086"
+     },
+     {
+      "back": "914e7a92983c27e7",
+      "rendered": "-2.57318559387328e-225",
+      "seed": "drawn_087"
+     },
+     {
+      "back": "069ebd6953120dc6",
+      "rendered": "8.67054275123308e-277",
+      "seed": "drawn_088"
+     },
+     {
+      "back": "a55e9eca18703b7d",
+      "rendered": "-1.10436058420376e-128",
+      "seed": "drawn_089"
+     },
+     {
+      "back": "9705959266dbe48f",
+      "rendered": "-9.02339824258714e-198",
+      "seed": "drawn_090"
+     },
+     {
+      "back": "59b35939b8c94a6f",
+      "rendered": "1.27904658811895e+124",
+      "seed": "drawn_091"
+     },
+     {
+      "back": "31d10d633c6b17f7",
+      "rendered": "9.88288738212477e-69",
+      "seed": "drawn_092"
+     },
+     {
+      "back": "f98063404af4c50a",
+      "rendered": "-1.81561609091349e+277",
+      "seed": "drawn_093"
+     },
+     {
+      "back": "7e2ec90c24b44ca7",
+      "rendered": "6.44272625756329e+299",
+      "seed": "drawn_094"
+     },
+     {
+      "back": "fcd4c528cf1af6a7",
+      "rendered": "-2.07269552403361e+293",
+      "seed": "drawn_095"
+     },
+     {
+      "back": "0d2b746c73550b49",
+      "rendered": "3.14131514187543e-245",
+      "seed": "drawn_096"
+     },
+     {
+      "back": "1de890a11efa10b4",
+      "rendered": "1.3330560659657e-164",
+      "seed": "drawn_097"
+     },
+     {
+      "back": "74f9855e675fc96f",
+      "rendered": "2.99373632513477e+255",
+      "seed": "drawn_098"
+     },
+     {
+      "back": "58cb5b39de81f6eb",
+      "rendered": "5.51882312547784e+119",
+      "seed": "drawn_099"
+     },
+     {
+      "back": "84fac45af9f832f6",
+      "rendered": "-1.1250297927749e-284",
+      "seed": "drawn_101"
+     },
+     {
+      "back": "f2e6eb7ae002f487",
+      "rendered": "-3.1299552956459e+245",
+      "seed": "drawn_102"
+     },
+     {
+      "back": "584e7c77eb645f8c",
+      "rendered": "2.40243526294557e+117",
+      "seed": "drawn_103"
+     },
+     {
+      "back": "51751606ce929db9",
+      "rendered": "2.56019978880011e+84",
+      "seed": "drawn_104"
+     },
+     {
+      "back": "69957b87afeaa5f9",
+      "rendered": "4.11095518047283e+200",
+      "seed": "drawn_105"
+     },
+     {
+      "back": "f8dc152c8fc30d27",
+      "rendered": "-1.51920053753642e+274",
+      "seed": "drawn_106"
+     },
+     {
+      "back": "ce6d2e7e729c6d23",
+      "rendered": "-6.29387869064415e+69",
+      "seed": "drawn_107"
+     },
+     {
+      "back": "9b642fcb9a5354e8",
+      "rendered": "-9.96317808724661e-177",
+      "seed": "drawn_108"
+     },
+     {
+      "back": "f6bf2d2876ddd0d8",
+      "rendered": "-9.81707628167434e+263",
+      "seed": "drawn_109"
+     },
+     {
+      "back": "607706e148c68f5d",
+      "rendered": "4.93983868963816e+156",
+      "seed": "drawn_110"
+     },
+     {
+      "back": "9a8521597239993e",
+      "rendered": "-6.36528250702076e-181",
+      "seed": "drawn_111"
+     },
+     {
+      "back": "5fdfc0eb4a669a0f",
+      "rendered": "6.65228186185832e+153",
+      "seed": "drawn_112"
+     },
+     {
+      "back": "a71de8a48b3fe4d7",
+      "rendered": "-2.89561062575077e-120",
+      "seed": "drawn_113"
+     },
+     {
+      "back": "5401fefe10139ce7",
+      "rendered": "4.804919976107e+96",
+      "seed": "drawn_115"
+     },
+     {
+      "back": "46158b8aad41623e",
+      "rendered": "4.26744369775836e+29",
+      "seed": "drawn_116"
+     },
+     {
+      "back": "2114b642396bdeef",
+      "rendered": "2.53094732448938e-149",
+      "seed": "drawn_117"
+     },
+     {
+      "back": "f029637f553a279f",
+      "rendered": "-1.97081783112843e+232",
+      "seed": "drawn_118"
+     },
+     {
+      "back": "7bf62de250afe2ec",
+      "rendered": "1.35089753237415e+289",
+      "seed": "drawn_119"
+     },
+     {
+      "back": "1ec8e9cdac469d4c",
+      "rendered": "2.21504973937626e-160",
+      "seed": "drawn_121"
+     },
+     {
+      "back": "d23d424b7165edea",
+      "rendered": "-1.45511625054839e+88",
+      "seed": "drawn_123"
+     },
+     {
+      "back": "66c8965c52f27eac",
+      "rendered": "1.33726963070109e+187",
+      "seed": "drawn_124"
+     },
+     {
+      "back": "a28b00b4065919d8",
+      "rendered": "-2.76796125250216e-142",
+      "seed": "drawn_125"
+     },
+     {
+      "back": "ed2cd14edeafb87b",
+      "rendered": "-7.94739571034661e+217",
+      "seed": "drawn_126"
+     },
+     {
+      "back": "e65205a6cfaeca2e",
+      "rendered": "-7.65776766820527e+184",
+      "seed": "drawn_127"
+     },
+     {
+      "back": "768255b45ebaae00",
+      "rendered": "7.21675592747306e+262",
+      "seed": "drawn_128"
+     },
+     {
+      "back": "430e3dd8ed9c1090",
+      "rendered": "1.06403140124725e+15",
+      "seed": "drawn_129"
+     },
+     {
+      "back": "93d53c70f869efc1",
+      "rendered": "-3.94255549927403e-213",
+      "seed": "drawn_130"
+     },
+     {
+      "back": "34842d68afb4b11d",
+      "rendered": "1.02862139822001e-55",
+      "seed": "drawn_131"
+     },
+     {
+      "back": "f261ca0877c99ef4",
+      "rendered": "-9.48948696583509e+242",
+      "seed": "drawn_132"
+     },
+     {
+      "back": "e880efd40234e863",
+      "rendered": "-2.4727448127689e+195",
+      "seed": "drawn_133"
+     },
+     {
+      "back": "1f98e7dfc2c5aac0",
+      "rendered": "1.81401982274967e-156",
+      "seed": "drawn_134"
+     },
+     {
+      "back": "8d617c243fdcc631",
+      "rendered": "-3.20093884242066e-244",
+      "seed": "drawn_135"
+     },
+     {
+      "back": "98c727056368ec17",
+      "rendered": "-2.59818002900954e-189",
+      "seed": "drawn_136"
+     },
+     {
+      "back": "edc30075bc66c221",
+      "rendered": "-5.36613385788958e+220",
+      "seed": "drawn_137"
+     },
+     {
+      "back": "ec62a53ac411b22d",
+      "rendered": "-1.25539180723932e+214",
+      "seed": "drawn_138"
+     },
+     {
+      "back": "0297d22fbd36ece2",
+      "rendered": "3.64237797216304e-296",
+      "seed": "drawn_139"
+     },
+     {
+      "back": "1fcb126d0fc4ba04",
+      "rendered": "1.5774377039609e-155",
+      "seed": "drawn_140"
+     },
+     {
+      "back": "55a6c91d3331dd04",
+      "rendered": "4.08271454744667e+104",
+      "seed": "drawn_141"
+     },
+     {
+      "back": "12a30f0e14fdcc74",
+      "rendered": "6.74883655070526e-219",
+      "seed": "drawn_142"
+     },
+     {
+      "back": "feee95b92009bcd4",
+      "rendered": "-2.62175491933521e+303",
+      "seed": "drawn_143"
+     },
+     {
+      "back": "364e1d3473832340",
+      "rendered": "4.1209781532773e-47",
+      "seed": "drawn_144"
+     },
+     {
+      "back": "bb57f568ec3ea69c",
+      "rendered": "-7.92724643865511e-23",
+      "seed": "drawn_145"
+     },
+     {
+      "back": "0f96a861efc8046b",
+      "rendered": "1.42521389091063e-233",
+      "seed": "drawn_146"
+     },
+     {
+      "back": "25e994c3e4d4afba",
+      "rendered": "4.72379759068817e-126",
+      "seed": "drawn_147"
+     },
+     {
+      "back": "60edc08082f56669",
+      "rendered": "8.16964767126578e+158",
+      "seed": "drawn_148"
+     },
+     {
+      "back": "925f7f4847b59d7c",
+      "rendered": "-3.48541972498734e-220",
+      "seed": "drawn_149"
+     },
+     {
+      "back": "f077ed2b46ed411b",
+      "rendered": "-5.94339735630516e+233",
+      "seed": "drawn_150"
+     },
+     {
+      "back": "d6b2f56955f6cb01",
+      "rendered": "-4.45251699383596e+109",
+      "seed": "drawn_151"
+     },
+     {
+      "back": "0addb3eaea37d97e",
+      "rendered": "2.47275530182362e-256",
+      "seed": "drawn_152"
+     },
+     {
+      "back": "77216c47b4ad95d5",
+      "rendered": "7.02244515574484e+265",
+      "seed": "drawn_153"
+     },
+     {
+      "back": "d79c850e5b87077a",
+      "rendered": "-1.09739783121437e+114",
+      "seed": "drawn_154"
+     },
+     {
+      "back": "34a1a68df63b18f3",
+      "rendered": "3.59923634259549e-55",
+      "seed": "drawn_155"
+     },
+     {
+      "back": "c745df9761a58f58",
+      "rendered": "-2.27146410087162e+35",
+      "seed": "drawn_156"
+     },
+     {
+      "back": "0355c9fea1dbc36a",
+      "rendered": "1.36465336967621e-292",
+      "seed": "drawn_157"
+     },
+     {
+      "back": "db5d784176d1a6ad",
+      "rendered": "-1.30735807484715e+132",
+      "seed": "drawn_158"
+     },
+     {
+      "back": "2f5226df2bc589e0",
+      "rendered": "9.56801600159087e-81",
+      "seed": "drawn_159"
+     },
+     {
+      "back": "46fbcd68e3ba4c18",
+      "rendered": "9.02238870977545e+33",
+      "seed": "drawn_160"
+     },
+     {
+      "back": "487a466a53188c53",
+      "rendered": "1.4305503309602e+41",
+      "seed": "drawn_161"
+     },
+     {
+      "back": "aee0a377e825c0c9",
+      "rendered": "-6.85183088051745e-83",
+      "seed": "drawn_162"
+     },
+     {
+      "back": "8b64cc57dbf503a9",
+      "rendered": "-8.86502042126708e-254",
+      "seed": "drawn_163"
+     },
+     {
+      "back": "913d33d21be4b729",
+      "rendered": "-1.23271356285617e-225",
+      "seed": "drawn_164"
+     },
+     {
+      "back": "d7b6c4905a3d995b",
+      "rendered": "-3.50428939813479e+114",
+      "seed": "drawn_165"
+     },
+     {
+      "back": "f6e9575c1185d6c7",
+      "rendered": "-6.38372566658614e+264",
+      "seed": "drawn_166"
+     },
+     {
+      "back": "895a26d4d30199f2",
+      "rendered": "-1.29766766319454e-263",
+      "seed": "drawn_167"
+     },
+     {
+      "back": "58b0c27032e91432",
+      "rendered": "1.69051875568984e+119",
+      "seed": "drawn_168"
+     },
+     {
+      "back": "9829f262375966a3",
+      "rendered": "-2.84352316391589e-192",
+      "seed": "drawn_169"
+     },
+     {
+      "back": "48181a267ca79036",
+      "rendered": "2.05038414239202e+39",
+      "seed": "drawn_170"
+     },
+     {
+      "back": "b0df478b13a7555f",
+      "rendered": "-2.76617973520777e-73",
+      "seed": "drawn_171"
+     },
+     {
+      "back": "58a4fa1fb1d0067b",
+      "rendered": "1.05796825758522e+119",
+      "seed": "drawn_172"
+     },
+     {
+      "back": "9e2225b4f604d32e",
+      "rendered": "-1.57566613963752e-163",
+      "seed": "drawn_173"
+     },
+     {
+      "back": "670a726c46bc1eff",
+      "rendered": "2.30145846942874e+188",
+      "seed": "drawn_174"
+     },
+     {
+      "back": "385e20bf399c940b",
+      "rendered": "3.54151972495617e-37",
+      "seed": "drawn_175"
+     },
+     {
+      "back": "cb6d1413c355ed8f",
+      "rendered": "-2.2281279519225e+55",
+      "seed": "drawn_176"
+     },
+     {
+      "back": "8c5db65d54c1d049",
+      "rendered": "-4.14992999786298e-249",
+      "seed": "drawn_177"
+     },
+     {
+      "back": "3c808a2aba8374f8",
+      "rendered": "2.86918310051852e-17",
+      "seed": "drawn_178"
+     },
+     {
+      "back": "3ce0aca473b51b2c",
+      "rendered": "1.8512285413616e-15",
+      "seed": "drawn_179"
+     },
+     {
+      "back": "c20542d264caa474",
+      "rendered": "-11414424729.3303",
+      "seed": "drawn_180"
+     },
+     {
+      "back": "558dfa6879f1cf25",
+      "rendered": "1.34286837619736e+104",
+      "seed": "drawn_181"
+     },
+     {
+      "back": "2edb58236ca290b1",
+      "rendered": "5.63025241042295e-83",
+      "seed": "drawn_182"
+     },
+     {
+      "back": "b3eb2f91486c5b46",
+      "rendered": "-1.35342171719948e-58",
+      "seed": "drawn_183"
+     },
+     {
+      "back": "fc68b3a0219393dd",
+      "rendered": "-1.92580363463181e+291",
+      "seed": "drawn_184"
+     },
+     {
+      "back": "a9f68935d4f784e5",
+      "rendered": "-1.53531660528075e-106",
+      "seed": "drawn_185"
+     },
+     {
+      "back": "18e6d4bb9f5662e0",
+      "rendered": "1.02484321702231e-188",
+      "seed": "drawn_186"
+     },
+     {
+      "back": "351f70c4013e774d",
+      "rendered": "8.2063510028983e-53",
+      "seed": "drawn_188"
+     },
+     {
+      "back": "45e902139dc4bc61",
+      "rendered": "6.19170858596093e+28",
+      "seed": "drawn_190"
+     },
+     {
+      "back": "363f3b9a06857f56",
+      "rendered": "2.13703619581743e-47",
+      "seed": "drawn_191"
+     },
+     {
+      "back": "c6ca4e3a30458829",
+      "rendered": "-1.06708090971684e+33",
+      "seed": "drawn_192"
+     },
+     {
+      "back": "a3ef6a9366b115a1",
+      "rendered": "-1.35072569285155e-135",
+      "seed": "drawn_193"
+     },
+     {
+      "back": "3855f06ecb6f6516",
+      "rendered": "2.57893946030689e-37",
+      "seed": "drawn_194"
+     },
+     {
+      "back": "b46018948a30e3dd",
+      "rendered": "-2.05139469980106e-56",
+      "seed": "drawn_195"
+     },
+     {
+      "back": "bef710e2dea05dfe",
+      "rendered": "-2.19974153098084e-05",
+      "seed": "drawn_196"
+     },
+     {
+      "back": "558745afd9892081",
+      "rendered": "1.04247640149327e+104",
+      "seed": "drawn_197"
+     },
+     {
+      "back": "0617123f511a9207",
+      "rendered": "2.54200088141478e-279",
+      "seed": "drawn_198"
+     },
+     {
+      "back": "2134b8b5da5a0a99",
+      "rendered": "1.0128470366164e-148",
+      "seed": "drawn_199"
+     },
+     {
+      "back": "6c80bcc7c5021264",
+      "rendered": "4.50770538970419e+214",
+      "seed": "drawn_201"
+     },
+     {
+      "back": "1f040846cf67a377",
+      "rendered": "2.84973042185585e-159",
+      "seed": "drawn_202"
+     },
+     {
+      "back": "004c05606453637f",
+      "rendered": "3.1174399601605e-307",
+      "seed": "drawn_203"
+     },
+     {
+      "back": "ef0ceb8ada41031a",
+      "rendered": "-8.56379681223882e+226",
+      "seed": "drawn_204"
+     },
+     {
+      "back": "280504bb03d03fcf",
+      "rendered": "6.66795953107419e-116",
+      "seed": "drawn_205"
+     },
+     {
+      "back": "d94058df94126dee",
+      "rendered": "-8.44249117654596e+121",
+      "seed": "drawn_206"
+     },
+     {
+      "back": "f110a8e9d922123e",
+      "rendered": "-4.2376674069757e+236",
+      "seed": "drawn_207"
+     },
+     {
+      "back": "34c787896e8e4fa3",
+      "rendered": "1.91920956426179e-54",
+      "seed": "drawn_208"
+     },
+     {
+      "back": "0a0ccf59de84be13",
+      "rendered": "2.92776686053198e-260",
+      "seed": "drawn_209"
+     },
+     {
+      "back": "6c5b5842b7944542",
+      "rendered": "9.20558054357436e+213",
+      "seed": "drawn_211"
+     },
+     {
+      "back": "37724eafd64a716e",
+      "rendered": "1.31348942093783e-41",
+      "seed": "drawn_212"
+     },
+     {
+      "back": "208387c1e63b2267",
+      "rendered": "4.66123680080713e-152",
+      "seed": "drawn_213"
+     },
+     {
+      "back": "d5e7538a94d3f890",
+      "rendered": "-6.6873641521295e+105",
+      "seed": "drawn_214"
+     },
+     {
+      "back": "3ffbd775afee7fc3",
+      "rendered": "1.74010246966644",
+      "seed": "drawn_215"
+     },
+     {
+      "back": "b6539fd8098b493f",
+      "rendered": "-5.37102106930207e-47",
+      "seed": "drawn_216"
+     },
+     {
+      "back": "8f2fae80fae0072d",
+      "rendered": "-1.55690198400198e-235",
+      "seed": "drawn_217"
+     },
+     {
+      "back": "04124f9f4b211bf2",
+      "rendered": "4.69739208867411e-289",
+      "seed": "drawn_218"
+     },
+     {
+      "back": "f94d269680a88559",
+      "rendered": "-2.01853152053399e+276",
+      "seed": "drawn_220"
+     },
+     {
+      "back": "13f4eaf69ae7749d",
+      "rendered": "1.55338677515184e-212",
+      "seed": "drawn_221"
+     },
+     {
+      "back": "a6dfcf6a67a09cb3",
+      "rendered": "-1.92481235236575e-121",
+      "seed": "drawn_222"
+     },
+     {
+      "back": "8f7bdf8fb9054f1e",
+      "rendered": "-4.38320280467257e-234",
+      "seed": "drawn_223"
+     },
+     {
+      "back": "fab4e7e583536de4",
+      "rendered": "-1.21434946291401e+283",
+      "seed": "drawn_224"
+     },
+     {
+      "back": "771928750c791c04",
+      "rendered": "5.07005800034229e+265",
+      "seed": "drawn_225"
+     },
+     {
+      "back": "a08652d8d2781d7f",
+      "rendered": "-5.32790948319618e-152",
+      "seed": "drawn_226"
+     },
+     {
+      "back": "ad8a1b2b0f0becbf",
+      "rendered": "-2.56314822890385e-89",
+      "seed": "drawn_227"
+     },
+     {
+      "back": "ba86407bf76308c7",
+      "rendered": "-8.98746743392572e-27",
+      "seed": "drawn_228"
+     },
+     {
+      "back": "4f8fbfe33755a718",
+      "rendered": "1.7950917854615e+75",
+      "seed": "drawn_229"
+     },
+     {
+      "back": "c348664891e4f36a",
+      "rendered": "-1.37357226248701e+16",
+      "seed": "drawn_230"
+     },
+     {
+      "back": "b992071eb0db7bcf",
+      "rendered": "-2.22209939640827e-31",
+      "seed": "drawn_231"
+     },
+     {
+      "back": "d616f0e1d9a726e1",
+      "rendered": "-5.2615028360728e+106",
+      "seed": "drawn_232"
+     },
+     {
+      "back": "febf3c47ab17c104",
+      "rendered": "-3.34690734243388e+302",
+      "seed": "drawn_233"
+     },
+     {
+      "back": "5e41aff4003483de",
+      "rendered": "1.10430711825305e+146",
+      "seed": "drawn_234"
+     },
+     {
+      "back": "7712573f88d985ee",
+      "rendered": "3.69619419698134e+265",
+      "seed": "drawn_235"
+     },
+     {
+      "back": "2ec0320be05f0046",
+      "rendered": "1.66734473229599e-83",
+      "seed": "drawn_236"
+     },
+     {
+      "back": "78f9bae4c5ccd549",
+      "rendered": "5.56771182219167e+274",
+      "seed": "drawn_237"
+     },
+     {
+      "back": "8d20bb5763687fbc",
+      "rendered": "-1.91441577414194e-245",
+      "seed": "drawn_238"
+     },
+     {
+      "back": "8d03bb30a96240f2",
+      "rendered": "-5.64400380569951e-246",
+      "seed": "drawn_239"
+     },
+     {
+      "back": "5b950d581c2977fb",
+      "rendered": "1.494287127829e+133",
+      "seed": "drawn_240"
+     },
+     {
+      "back": "de00a70bbad6ac42",
+      "rendered": "-6.49812358765504e+144",
+      "seed": "drawn_241"
+     },
+     {
+      "back": "21def8d05587c99e",
+      "rendered": "1.5502093832057e-145",
+      "seed": "drawn_242"
+     },
+     {
+      "back": "8faa6533491f0d03",
+      "rendered": "-3.32062779391761e-233",
+      "seed": "drawn_243"
+     },
+     {
+      "back": "424a0939332179db",
+      "rendered": "223647786562.952",
+      "seed": "drawn_244"
+     },
+     {
+      "back": "6e46fa1d0a75657a",
+      "rendered": "1.6611170463624e+223",
+      "seed": "drawn_245"
+     },
+     {
+      "back": "066ea411b30b4330",
+      "rendered": "1.08032756746322e-277",
+      "seed": "drawn_246"
+     },
+     {
+      "back": "62888180ea5787f1",
+      "rendered": "4.51583228434644e+166",
+      "seed": "drawn_247"
+     },
+     {
+      "back": "b339e8f7b8df2e66",
+      "rendered": "-6.29837938153065e-62",
+      "seed": "drawn_248"
+     },
+     {
+      "back": "a8bee0bed74f9270",
+      "rendered": "-2.006178424896e-112",
+      "seed": "drawn_249"
+     },
+     {
+      "back": "e31856fb2c4d1df5",
+      "rendered": "-2.29643444433543e+169",
+      "seed": "drawn_250"
+     },
+     {
+      "back": "c2adf2d5b6c6e4cd",
+      "rendered": "-16464402408306.4",
+      "seed": "drawn_251"
+     },
+     {
+      "back": "21455c6c2e05f7e7",
+      "rendered": "2.08821037278174e-148",
+      "seed": "drawn_252"
+     },
+     {
+      "back": "ff8fc7bcc772caa4",
+      "rendered": "-2.78960405425917e+306",
+      "seed": "drawn_253"
+     },
+     {
+      "back": "ec293e868382f528",
+      "rendered": "-1.06230506574198e+213",
+      "seed": "drawn_254"
+     },
+     {
+      "back": "18922f7e1259ae03",
+      "rendered": "2.55098797862811e-190",
+      "seed": "drawn_255"
+     },
+     {
+      "back": "b43a37178932e52f",
+      "rendered": "-4.17632276565609e-57",
+      "seed": "drawn_256"
+     },
+     {
+      "back": "3dda3e2f3c4cc769",
+      "rendered": "9.54711440762953e-11",
+      "seed": "drawn_257"
+     },
+     {
+      "back": "b25a668ae7710811",
+      "rendered": "-3.91700433740821e-66",
+      "seed": "drawn_258"
+     },
+     {
+      "back": "bad5c6eee5154af2",
+      "rendered": "-2.81462197588042e-25",
+      "seed": "drawn_259"
+     },
+     {
+      "back": "53da303bd71a8c3e",
+      "rendered": "8.74032982047098e+95",
+      "seed": "drawn_260"
+     },
+     {
+      "back": "8f16b54079ab0a91",
+      "rendered": "-5.57959378405018e-236",
+      "seed": "drawn_261"
+     },
+     {
+      "back": "62a86772d26d4d37",
+      "rendered": "1.79883086991651e+167",
+      "seed": "drawn_262"
+     },
+     {
+      "back": "34e412a6f573ae2d",
+      "rendered": "6.54907618123141e-54",
+      "seed": "drawn_263"
+     },
+     {
+      "back": "16d0cd51780e02bb",
+      "rendered": "8.78020145689616e-199",
+      "seed": "drawn_264"
+     },
+     {
+      "back": "23d9a5369a09b281",
+      "rendered": "5.51303618600964e-136",
+      "seed": "drawn_265"
+     },
+     {
+      "back": "e69ee97a75a0bd4d",
+      "rendered": "-2.10157450546333e+186",
+      "seed": "drawn_266"
+     },
+     {
+      "back": "b3ac179c6bf5f021",
+      "rendered": "-8.74091899697566e-60",
+      "seed": "drawn_267"
+     },
+     {
+      "back": "667f5954c0344fcf",
+      "rendered": "5.32819778716611e+185",
+      "seed": "drawn_268"
+     },
+     {
+      "back": "ec62c91f357b0190",
+      "rendered": "-1.26483174063245e+214",
+      "seed": "drawn_270"
+     },
+     {
+      "back": "c8dc2266a52d5628",
+      "rendered": "-9.80340018187474e+42",
+      "seed": "drawn_271"
+     },
+     {
+      "back": "f9b925d25187f9b8",
+      "rendered": "-2.22892256183024e+278",
+      "seed": "drawn_272"
+     },
+     {
+      "back": "b53005469c67f079",
+      "rendered": "-1.67262959120466e-52",
+      "seed": "drawn_273"
+     },
+     {
+      "back": "749048b08b244d1f",
+      "rendered": "2.98466753957296e+253",
+      "seed": "drawn_274"
+     },
+     {
+      "back": "0614baa4484558b3",
+      "rendered": "2.28393549959496e-279",
+      "seed": "drawn_275"
+     },
+     {
+      "back": "85d8ac467a90db3f",
+      "rendered": "-1.69904599515877e-280",
+      "seed": "drawn_276"
+     },
+     {
+      "back": "6f16012f77403915",
+      "rendered": "1.30319927208832e+227",
+      "seed": "drawn_277"
+     },
+     {
+      "back": "db5ce5b3885f224a",
+      "rendered": "-1.28196138747517e+132",
+      "seed": "drawn_278"
+     },
+     {
+      "back": "fc190b35e4901a45",
+      "rendered": "-6.10149020501139e+289",
+      "seed": "drawn_279"
+     },
+     {
+      "back": "90abc841b25915cf",
+      "rendered": "-2.29055515130408e-228",
+      "seed": "drawn_280"
+     },
+     {
+      "back": "a416b771cdb71fa8",
+      "rendered": "-7.81348719303863e-135",
+      "seed": "drawn_281"
+     },
+     {
+      "back": "fcb54f58deb9f310",
+      "rendered": "-5.31640710036655e+292",
+      "seed": "drawn_282"
+     },
+     {
+      "back": "4444edd82cd7ade5",
+      "rendered": "7.72146758321993e+20",
+      "seed": "drawn_283"
+     },
+     {
+      "back": "14027c87408ff46f",
+      "rendered": "2.74565725503881e-212",
+      "seed": "drawn_284"
+     },
+     {
+      "back": "d50da779a4ef245a",
+      "rendered": "-5.18889361693657e+101",
+      "seed": "drawn_285"
+     },
+     {
+      "back": "24c260b5d12ccc33",
+      "rendered": "1.29456784999079e-131",
+      "seed": "drawn_286"
+     },
+     {
+      "back": "d0644b9d149f8296",
+      "rendered": "-1.88003422857164e+79",
+      "seed": "drawn_287"
+     },
+     {
+      "back": "c8ede3203bf639de",
+      "rendered": "-2.08283458875803e+43",
+      "seed": "drawn_288"
+     },
+     {
+      "back": "fbbb058e9c47b862",
+      "rendered": "-1.02865243316411e+288",
+      "seed": "drawn_290"
+     },
+     {
+      "back": "8b8b208dea3ac536",
+      "rendered": "-4.62506745816732e-253",
+      "seed": "drawn_291"
+     },
+     {
+      "back": "6fc9cfa0ceb109e4",
+      "rendered": "3.13063423341908e+230",
+      "seed": "drawn_292"
+     },
+     {
+      "back": "2b7878166156f693",
+      "rendered": "2.79678630552118e-99",
+      "seed": "drawn_293"
+     },
+     {
+      "back": "d56974c5fa7cc837",
+      "rendered": "-2.85076344808753e+103",
+      "seed": "drawn_294"
+     },
+     {
+      "back": "df02ba63219e25a1",
+      "rendered": "-4.78939884488447e+149",
+      "seed": "drawn_295"
+     },
+     {
+      "back": "cd75d0035e2b0e9d",
+      "rendered": "-1.43570610871116e+65",
+      "seed": "drawn_296"
+     },
+     {
+      "back": "f9cc9f29bf85eafd",
+      "rendered": "-5.07366628811825e+278",
+      "seed": "drawn_297"
+     },
+     {
+      "back": "ab9eb8d8f3d64a58",
+      "rendered": "-1.40459710833139e-98",
+      "seed": "drawn_298"
+     },
+     {
+      "back": "0997104ad817d6b4",
+      "rendered": "1.83109838020334e-262",
+      "seed": "drawn_299"
+     },
+     {
+      "back": "7c9919c1a4883ed1",
+      "rendered": "1.5655253510651e+292",
+      "seed": "drawn_300"
+     },
+     {
+      "back": "fcd545d628d6df66",
+      "rendered": "-2.12285549353537e+293",
+      "seed": "drawn_301"
+     },
+     {
+      "back": "e1dbe33f21750ed8",
+      "rendered": "-2.50928554926434e+163",
+      "seed": "drawn_302"
+     },
+     {
+      "back": "3bbd8ce729cc16d8",
+      "rendered": "6.25754108216209e-21",
+      "seed": "drawn_303"
+     },
+     {
+      "back": "e9faad735e0c7008",
+      "rendered": "-3.26725408485786e+202",
+      "seed": "drawn_304"
+     },
+     {
+      "back": "cdcf93e1fc4eccc5",
+      "rendered": "-6.65103295805718e+66",
+      "seed": "drawn_305"
+     },
+     {
+      "back": "26ee8317ff6a65a7",
+      "rendered": "3.69252666843848e-121",
+      "seed": "drawn_306"
+     },
+     {
+      "back": "13490969a560e968",
+      "rendered": "9.07844334120562e-216",
+      "seed": "drawn_307"
+     },
+     {
+      "back": "d5a19434b9c81240",
+      "rendered": "-3.14978519911933e+104",
+      "seed": "drawn_308"
+     },
+     {
+      "back": "15edea3661ed638f",
+      "rendered": "4.77068101776196e-203",
+      "seed": "drawn_309"
+     },
+     {
+      "back": "41445ddee644b53c",
+      "rendered": "2669501.7989718",
+      "seed": "drawn_310"
+     },
+     {
+      "back": "b3cd459019fa8a56",
+      "rendered": "-3.64316846796327e-59",
+      "seed": "drawn_311"
+     },
+     {
+      "back": "945659c484689bd5",
+      "rendered": "-1.06226603661734e-210",
+      "seed": "drawn_312"
+     },
+     {
+      "back": "3e637a4a51b4a300",
+      "rendered": "3.62800369419616e-08",
+      "seed": "drawn_313"
+     },
+     {
+      "back": "96ea4639d224b772",
+      "rendered": "-2.74602411866048e-198",
+      "seed": "drawn_314"
+     },
+     {
+      "back": "56d4ce16cb5f5d5a",
+      "rendered": "1.95446045496439e+110",
+      "seed": "drawn_315"
+     },
+     {
+      "back": "a65ceb1b9c6dd5b3",
+      "rendered": "-6.8352736536542e-124",
+      "seed": "drawn_317"
+     },
+     {
+      "back": "40e5bdc27369105b",
+      "rendered": "44526.0765881843",
+      "seed": "drawn_318"
+     },
+     {
+      "back": "8ed96bb868ca6e40",
+      "rendered": "-3.90384298923555e-237",
+      "seed": "drawn_319"
+     },
+     {
+      "back": "95a3069e0359f198",
+      "rendered": "-1.89634341990921e-204",
+      "seed": "drawn_320"
+     },
+     {
+      "back": "f9df100c44d95365",
+      "rendered": "-1.10127308613811e+279",
+      "seed": "drawn_321"
+     },
+     {
+      "back": "5674df5a6d305376",
+      "rendered": "3.06374330862843e+108",
+      "seed": "drawn_322"
+     },
+     {
+      "back": "2bce1bdc42707ef7",
+      "rendered": "1.10124840476822e-97",
+      "seed": "drawn_323"
+     },
+     {
+      "back": "57ca14776c14f9e9",
+      "rendered": "8.02814252091114e+114",
+      "seed": "drawn_324"
+     },
+     {
+      "back": "a317e784595dbfd7",
+      "rendered": "-1.25458242699286e-139",
+      "seed": "drawn_325"
+     },
+     {
+      "back": "dd409dd72dd5620e",
+      "rendered": "-1.58303028926157e+141",
+      "seed": "drawn_326"
+     },
+     {
+      "back": "32f6fd0677fc7c82",
+      "rendered": "3.49260350756754e-63",
+      "seed": "drawn_327"
+     },
+     {
+      "back": "b2a88b99a9b3cfc4",
+      "rendered": "-1.16535843399112e-64",
+      "seed": "drawn_328"
+     },
+     {
+      "back": "b326e62d15a25d3c",
+      "rendered": "-2.78323452015074e-62",
+      "seed": "drawn_329"
+     },
+     {
+      "back": "970980a52d75e16b",
+      "rendered": "-1.06614423098732e-197",
+      "seed": "drawn_330"
+     },
+     {
+      "back": "c98e2a8938de88f5",
+      "rendered": "-2.15272885197298e+46",
+      "seed": "drawn_331"
+     },
+     {
+      "back": "219c34fca840a9d9",
+      "rendered": "8.82386223619288e-147",
+      "seed": "drawn_332"
+     },
+     {
+      "back": "99debac47b0bae5b",
+      "rendered": "-4.52000600778731e-184",
+      "seed": "drawn_333"
+     },
+     {
+      "back": "33f83808f0035bea",
+      "rendered": "2.41143199891094e-58",
+      "seed": "drawn_334"
+     },
+     {
+      "back": "fc613c053fac1d5f",
+      "rendered": "-1.3436414132701e+291",
+      "seed": "drawn_335"
+     },
+     {
+      "back": "99f6c6a7f48872e5",
+      "rendered": "-1.34004725473324e-183",
+      "seed": "drawn_336"
+     },
+     {
+      "back": "41722310862a260f",
+      "rendered": "19017992.3852902",
+      "seed": "drawn_337"
+     },
+     {
+      "back": "86ea6558c2fe0d4b",
+      "rendered": "-2.38248521569656e-275",
+      "seed": "drawn_338"
+     },
+     {
+      "back": "a2a9989a875f5f6d",
+      "rendered": "-1.04950855626375e-141",
+      "seed": "drawn_339"
+     },
+     {
+      "back": "b5ee034dfe48f477",
+      "rendered": "-6.41739548615376e-49",
+      "seed": "drawn_340"
+     },
+     {
+      "back": "aabbe82457d6ffe4",
+      "rendered": "-7.78738421240075e-103",
+      "seed": "drawn_341"
+     },
+     {
+      "back": "093b52c4256ba4fc",
+      "rendered": "3.38951104098016e-264",
+      "seed": "drawn_342"
+     },
+     {
+      "back": "73fbd8255887eda2",
+      "rendered": "4.98394250573882e+250",
+      "seed": "drawn_343"
+     },
+     {
+      "back": "7bdb23ff55358212",
+      "rendered": "4.1327158419372e+288",
+      "seed": "drawn_344"
+     },
+     {
+      "back": "ab2ccdffc76e6091",
+      "rendered": "-1.02885596151377e-100",
+      "seed": "drawn_345"
+     },
+     {
+      "back": "3d96e92e91ada977",
+      "rendered": "5.20932800041105e-12",
+      "seed": "drawn_346"
+     },
+     {
+      "back": "854d1e4fb66a0ba1",
+      "rendered": "-3.91635140811944e-283",
+      "seed": "drawn_347"
+     },
+     {
+      "back": "67e6afe03601901b",
+      "rendered": "3.2346299513956e+192",
+      "seed": "drawn_348"
+     },
+     {
+      "back": "b6e4fc05e5aadb5c",
+      "rendered": "-2.94054985556216e-44",
+      "seed": "drawn_349"
+     },
+     {
+      "back": "a399e80f17a4524e",
+      "rendered": "-3.48073049956158e-137",
+      "seed": "drawn_350"
+     },
+     {
+      "back": "5a59264628f9d9c9",
+      "rendered": "1.7024237991537e+127",
+      "seed": "drawn_351"
+     },
+     {
+      "back": "d40fe9bad9318523",
+      "rendered": "-8.52072124190051e+96",
+      "seed": "drawn_352"
+     },
+     {
+      "back": "f2726a2dd22c463f",
+      "rendered": "-1.96463834579548e+243",
+      "seed": "drawn_353"
+     },
+     {
+      "back": "570fbd2b8ec89e5b",
+      "rendered": "2.38528851044785e+111",
+      "seed": "drawn_354"
+     },
+     {
+      "back": "ff7917bbfb8d7159",
+      "rendered": "-1.10129385605995e+306",
+      "seed": "drawn_355"
+     },
+     {
+      "back": "1c3f5ce2a411dbfc",
+      "rendered": "1.26805411218558e-172",
+      "seed": "drawn_356"
+     },
+     {
+      "back": "7c112f04984ce098",
+      "rendered": "4.1865050052727e+289",
+      "seed": "drawn_357"
+     },
+     {
+      "back": "7c5cc3e57dcacd16",
+      "rendered": "1.12130442592772e+291",
+      "seed": "drawn_358"
+     },
+     {
+      "back": "5fc15cbdcbef4937",
+      "rendered": "1.8186718413158e+153",
+      "seed": "drawn_359"
+     },
+     {
+      "back": "59c6a639aa809c65",
+      "rendered": "2.99449329307168e+124",
+      "seed": "drawn_360"
+     },
+     {
+      "back": "7cc6f9ee87619fb4",
+      "rendered": "1.14642543858196e+293",
+      "seed": "drawn_361"
+     },
+     {
+      "back": "7e529a87eea7917d",
+      "rendered": "3.11468075120362e+300",
+      "seed": "drawn_362"
+     },
+     {
+      "back": "74bac8e7aabb8ee5",
+      "rendered": "1.96374242010335e+254",
+      "seed": "drawn_363"
+     },
+     {
+      "back": "907058b257135dbe",
+      "rendered": "-1.68464085133767e-229",
+      "seed": "drawn_364"
+     },
+     {
+      "back": "2ba4c871a5e30740",
+      "rendered": "1.90037510517697e-98",
+      "seed": "drawn_365"
+     },
+     {
+      "back": "6bafca494676e38a",
+      "rendered": "5.22564594520693e+210",
+      "seed": "drawn_366"
+     },
+     {
+      "back": "0cd990867e3e8cbe",
+      "rendered": "9.14074837845146e-247",
+      "seed": "drawn_367"
+     },
+     {
+      "back": "c031eb05dcf737ee",
+      "rendered": "-17.9180582145272",
+      "seed": "drawn_368"
+     },
+     {
+      "back": "68e268fde494c202",
+      "rendered": "1.72021960623638e+197",
+      "seed": "drawn_369"
+     },
+     {
+      "back": "3e52474580f5f896",
+      "rendered": "1.70230905461213e-08",
+      "seed": "drawn_370"
+     },
+     {
+      "back": "742c21c13a5f02f5",
+      "rendered": "4.02832741549787e+251",
+      "seed": "drawn_371"
+     },
+     {
+      "back": "d1b2c17799b43985",
+      "rendered": "-3.64361755675068e+85",
+      "seed": "drawn_372"
+     },
+     {
+      "back": "5493b4095e80b247",
+      "rendered": "2.69349919564159e+99",
+      "seed": "drawn_373"
+     },
+     {
+      "back": "4e610f2ac249a847",
+      "rendered": "3.67933094178221e+69",
+      "seed": "drawn_374"
+     },
+     {
+      "back": "3ea4e139ca51c0fd",
+      "rendered": "6.2226617515533e-07",
+      "seed": "drawn_376"
+     },
+     {
+      "back": "6404bcf6bf667b32",
+      "rendered": "6.4114656367896e+173",
+      "seed": "drawn_377"
+     },
+     {
+      "back": "04d4c63bea382d1c",
+      "rendered": "2.18288873459953e-285",
+      "seed": "drawn_378"
+     },
+     {
+      "back": "2c0a6b15a497c923",
+      "rendered": "1.54602407170524e-96",
+      "seed": "drawn_379"
+     },
+     {
+      "back": "d591c0b2550fc36b",
+      "rendered": "-1.59046255281543e+104",
+      "seed": "drawn_380"
+     },
+     {
+      "back": "b4515ec6af3a6ac4",
+      "rendered": "-1.10689422710645e-56",
+      "seed": "drawn_381"
+     },
+     {
+      "back": "7d0f1dc456222258",
+      "rendered": "2.48412480528044e+294",
+      "seed": "drawn_382"
+     },
+     {
+      "back": "f373ae367533bdbd",
+      "rendered": "-1.37604608704385e+248",
+      "seed": "drawn_383"
+     },
+     {
+      "back": "2727ff8a9f5ffe64",
+      "rendered": "4.64676349992875e-120",
+      "seed": "drawn_384"
+     },
+     {
+      "back": "057c63a38eb6e695",
+      "rendered": "3.05462183002321e-282",
+      "seed": "drawn_385"
+     },
+     {
+      "back": "ec1befcaca3e9c2e",
+      "rendered": "-5.87803103762105e+212",
+      "seed": "drawn_386"
+     },
+     {
+      "back": "0e05132c51a6c339",
+      "rendered": "3.95074411124594e-241",
+      "seed": "drawn_387"
+     },
+     {
+      "back": "f6f5031477c57943",
+      "rendered": "-1.05863009448433e+265",
+      "seed": "drawn_388"
+     },
+     {
+      "back": "a362d3757e49db3c",
+      "rendered": "-3.16177033077074e-138",
+      "seed": "drawn_389"
+     },
+     {
+      "back": "fb0f7928163d7438",
+      "rendered": "-5.85016019659473e+284",
+      "seed": "drawn_390"
+     },
+     {
+      "back": "7850bddf8a48587a",
+      "rendered": "3.53781777296131e+271",
+      "seed": "drawn_391"
+     },
+     {
+      "back": "8ab44f24347ce8d6",
+      "rendered": "-4.22683580379417e-257",
+      "seed": "drawn_392"
+     },
+     {
+      "back": "e03b0e4f9247d6e9",
+      "rendered": "-3.62760332873484e+155",
+      "seed": "drawn_393"
+     },
+     {
+      "back": "14c22641bf42cea3",
+      "rendered": "1.10411995802548e-208",
+      "seed": "drawn_394"
+     },
+     {
+      "back": "817a1c29a1e2376f",
+      "rendered": "-1.52297016586346e-301",
+      "seed": "drawn_395"
+     },
+     {
+      "back": "479e89aa0482a787",
+      "rendered": "1.01479082275369e+37",
+      "seed": "drawn_396"
+     },
+     {
+      "back": "10b78b047d5c5d15",
+      "rendered": "3.88209165982882e-228",
+      "seed": "drawn_397"
+     },
+     {
+      "back": "74050aa6e8fde9fc",
+      "rendered": "7.5326078545136e+250",
+      "seed": "drawn_398"
+     },
+     {
+      "back": "7c917a4d842f0884",
+      "rendered": "1.09008714376692e+292",
+      "seed": "drawn_399"
+     },
+     {
+      "back": "2df59fc59ac25b57",
+      "rendered": "2.71756216237739e-87",
+      "seed": "drawn_400"
+     },
+     {
+      "back": "d28dfd10e2586b14",
+      "rendered": "-4.77247910781694e+89",
+      "seed": "drawn_401"
+     },
+     {
+      "back": "8f1918ebf9228f87",
+      "rendered": "-6.16667821335698e-236",
+      "seed": "drawn_402"
+     },
+     {
+      "back": "c6af99bf797dde26",
+      "rendered": "-3.20467932544589e+32",
+      "seed": "drawn_403"
+     },
+     {
+      "back": "f42452de34130f5b",
+      "rendered": "-2.91024289530613e+251",
+      "seed": "drawn_404"
+     },
+     {
+      "back": "0eaa5d91af94d4e7",
+      "rendered": "5.06115362627827e-238",
+      "seed": "drawn_405"
+     },
+     {
+      "back": "8d844aaa4a260991",
+      "rendered": "-1.48590523539977e-243",
+      "seed": "drawn_406"
+     },
+     {
+      "back": "9bb025915c004718",
+      "rendered": "-2.55016119788798e-175",
+      "seed": "drawn_407"
+     },
+     {
+      "back": "c14f7ba789b004ab",
+      "rendered": "-4126543.07568415",
+      "seed": "drawn_408"
+     },
+     {
+      "back": "ac14113fe89ef784",
+      "rendered": "-2.34872462724815e-96",
+      "seed": "drawn_409"
+     },
+     {
+      "back": "41420377f231c331",
+      "rendered": "2361071.89214363",
+      "seed": "drawn_410"
+     },
+     {
+      "back": "618e0dbdf3d0e538",
+      "rendered": "8.45055713442275e+161",
+      "seed": "drawn_411"
+     },
+     {
+      "back": "868cc98958763baa",
+      "rendered": "-4.05988948165568e-277",
+      "seed": "drawn_412"
+     },
+     {
+      "back": "7da196940eed8945",
+      "rendered": "1.4378283797311e+297",
+      "seed": "drawn_413"
+     },
+     {
+      "back": "421b576b3816750b",
+      "rendered": "29357690373.6143",
+      "seed": "drawn_414"
+     },
+     {
+      "back": "6cb70d80c51e255b",
+      "rendered": "4.96683325508964e+215",
+      "seed": "drawn_415"
+     },
+     {
+      "back": "e7502c3e6855189b",
+      "rendered": "-4.5036354986156e+189",
+      "seed": "drawn_416"
+     },
+     {
+      "back": "221fe850e83d8c46",
+      "rendered": "2.55525741675311e-144",
+      "seed": "drawn_417"
+     },
+     {
+      "back": "b14660b1db746a62",
+      "rendered": "-2.53306744338885e-71",
+      "seed": "drawn_418"
+     },
+     {
+      "back": "7a50faa915dfe89b",
+      "rendered": "1.54103222944445e+281",
+      "seed": "drawn_419"
+     },
+     {
+      "back": "b4193f1aecb5c2bf",
+      "rendered": "-1.00550005606911e-57",
+      "seed": "drawn_420"
+     },
+     {
+      "back": "1a1800d0d7fdf041",
+      "rendered": "5.64899965425015e-183",
+      "seed": "drawn_421"
+     },
+     {
+      "back": "8fdda26d0960ec48",
+      "rendered": "-2.9825010991398e-232",
+      "seed": "drawn_422"
+     },
+     {
+      "back": "6e3f44e5894286af",
+      "rendered": "1.13029699044533e+223",
+      "seed": "drawn_423"
+     },
+     {
+      "back": "fae75ade0574f4b6",
+      "rendered": "-1.08528768617823e+284",
+      "seed": "drawn_425"
+     },
+     {
+      "back": "af988fc9ed3ff132",
+      "rendered": "-2.07147230956161e-79",
+      "seed": "drawn_426"
+     },
+     {
+      "back": "5e6be595626f3bef",
+      "rendered": "6.96694626308028e+146",
+      "seed": "drawn_427"
+     },
+     {
+      "back": "723fbbcb494ce386",
+      "rendered": "2.11599907122489e+242",
+      "seed": "drawn_428"
+     },
+     {
+      "back": "38b55567408fd5b4",
+      "rendered": "1.6049621901668e-35",
+      "seed": "drawn_429"
+     },
+     {
+      "back": "62a4d6b872e7856e",
+      "rendered": "1.53602865038953e+167",
+      "seed": "drawn_431"
+     },
+     {
+      "back": "6e37b83a05184ad9",
+      "rendered": "8.57402639624149e+222",
+      "seed": "drawn_432"
+     },
+     {
+      "back": "643b30e5d97f307b",
+      "rendered": "6.72516273379249e+174",
+      "seed": "drawn_433"
+     },
+     {
+      "back": "f96b2e35bf4eb627",
+      "rendered": "-7.52841577118595e+276",
+      "seed": "drawn_434"
+     },
+     {
+      "back": "e5f442d02c742269",
+      "rendered": "-1.34517262726686e+183",
+      "seed": "drawn_435"
+     },
+     {
+      "back": "93c4e2b473697b7f",
+      "rendered": "-1.93873893095683e-213",
+      "seed": "drawn_436"
+     },
+     {
+      "back": "11df30c330551055",
+      "rendered": "1.34823393022572e-222",
+      "seed": "drawn_437"
+     },
+     {
+      "back": "ffd6bcd4c91b6314",
+      "rendered": "-6.38676042237257e+307",
+      "seed": "drawn_438"
+     },
+     {
+      "back": "fa590df9c6ac9cc3",
+      "rendered": "-2.27396256882963e+281",
+      "seed": "drawn_439"
+     },
+     {
+      "back": "edae37d150a8044d",
+      "rendered": "-2.13340400281426e+220",
+      "seed": "drawn_440"
+     },
+     {
+      "back": "197fe83860b87821",
+      "rendered": "7.33314312427659e-186",
+      "seed": "drawn_441"
+     },
+     {
+      "back": "1db4d325f172e049",
+      "rendered": "1.41261295565692e-165",
+      "seed": "drawn_442"
+     },
+     {
+      "back": "aa4f5f0b18d177c0",
+      "rendered": "-6.8391720093581e-105",
+      "seed": "drawn_443"
+     },
+     {
+      "back": "cffa9c5aeea6e498",
+      "rendered": "-1.92582236743756e+77",
+      "seed": "drawn_444"
+     },
+     {
+      "back": "f791ea22301f6cca",
+      "rendered": "-9.24236019832452e+267",
+      "seed": "drawn_445"
+     },
+     {
+      "back": "c17acd3eea5672ee",
+      "rendered": "-28103662.6461057",
+      "seed": "drawn_446"
+     },
+     {
+      "back": "7cfae5e5aa2f2def",
+      "rendered": "1.07368367620969e+294",
+      "seed": "drawn_447"
+     },
+     {
+      "back": "88c491b84fc193b6",
+      "rendered": "-1.99347888597779e-266",
+      "seed": "drawn_448"
+     },
+     {
+      "back": "70f38bb72be8553f",
+      "rendered": "1.24293741820567e+236",
+      "seed": "drawn_449"
+     },
+     {
+      "back": "92967ab5ff6760df",
+      "rendered": "-3.98003336611641e-219",
+      "seed": "drawn_450"
+     },
+     {
+      "back": "67d6375950c9347a",
+      "rendered": "1.58375192733857e+192",
+      "seed": "drawn_451"
+     },
+     {
+      "back": "6dc30e12a9fed051",
+      "rendered": "5.38115077317818e+220",
+      "seed": "drawn_452"
+     },
+     {
+      "back": "dc21fc85cab9c674",
+      "rendered": "-6.5366120126043e+135",
+      "seed": "drawn_453"
+     },
+     {
+      "back": "857930c44ddcab04",
+      "rendered": "-2.71044615242515e-282",
+      "seed": "drawn_454"
+     },
+     {
+      "back": "89b9d3e4b4465069",
+      "rendered": "-8.20218682451947e-262",
+      "seed": "drawn_456"
+     },
+     {
+      "back": "1b5a997e9fdd5a7c",
+      "rendered": "6.56413454901434e-177",
+      "seed": "drawn_457"
+     },
+     {
+      "back": "1544ae9a1ff4c6d3",
+      "rendered": "3.22096745739441e-206",
+      "seed": "drawn_458"
+     },
+     {
+      "back": "b0e5473f85a119b6",
+      "rendered": "-3.7634682428829e-73",
+      "seed": "drawn_459"
+     },
+     {
+      "back": "a87396308deeed2c",
+      "rendered": "-7.95357608305807e-114",
+      "seed": "drawn_460"
+     },
+     {
+      "back": "11e22dfdc7a37a60",
+      "rendered": "1.57166078592537e-222",
+      "seed": "drawn_461"
+     },
+     {
+      "back": "a12e5ae90543704e",
+      "rendered": "-7.41863633099046e-149",
+      "seed": "drawn_462"
+     },
+     {
+      "back": "a4804a6d4c488488",
+      "rendered": "-7.17220135264876e-133",
+      "seed": "drawn_463"
+     },
+     {
+      "back": "f05cf5af91450fc4",
+      "rendered": "-1.79841896113512e+233",
+      "seed": "drawn_464"
+     },
+     {
+      "back": "609bd868c3cb731e",
+      "rendered": "2.38940854759102e+157",
+      "seed": "drawn_465"
+     },
+     {
+      "back": "785f0cadef0b8f72",
+      "rendered": "6.56131854996895e+271",
+      "seed": "drawn_466"
+     },
+     {
+      "back": "c0520b7fecf7c087",
+      "rendered": "-72.1796829623655",
+      "seed": "drawn_467"
+     },
+     {
+      "back": "199704d58b45f171",
+      "rendered": "2.11615236032643e-185",
+      "seed": "drawn_468"
+     },
+     {
+      "back": "f17fd53f3416c38b",
+      "rendered": "-5.18219908428622e+238",
+      "seed": "drawn_470"
+     },
+     {
+      "back": "78a97d206e064a10",
+      "rendered": "1.72359436969974e+273",
+      "seed": "drawn_471"
+     },
+     {
+      "back": "52fe72c374ffc600",
+      "rendered": "6.20242722058486e+91",
+      "seed": "drawn_473"
+     },
+     {
+      "back": "b6bf6e92209483d0",
+      "rendered": "-5.50568716729503e-45",
+      "seed": "drawn_474"
+     },
+     {
+      "back": "e326d2654986d3e6",
+      "rendered": "-4.30644173164733e+169",
+      "seed": "drawn_475"
+     },
+     {
+      "back": "6790665557319d7d",
+      "rendered": "7.30691782220403e+190",
+      "seed": "drawn_476"
+     },
+     {
+      "back": "cb8772075996c898",
+      "rendered": "-7.18600174640898e+55",
+      "seed": "drawn_477"
+     },
+     {
+      "back": "25006fd920769122",
+      "rendered": "1.85255870869623e-130",
+      "seed": "drawn_478"
+     },
+     {
+      "back": "bb55111d6ecb9718",
+      "rendered": "-6.97043772810189e-23",
+      "seed": "drawn_479"
+     },
+     {
+      "back": "e32bbbae6482e4d3",
+      "rendered": "-5.23318948377879e+169",
+      "seed": "drawn_480"
+     },
+     {
+      "back": "fac63aa2ca5244ed",
+      "rendered": "-2.58241937341717e+283",
+      "seed": "drawn_481"
+     },
+     {
+      "back": "e40937b25cee078e",
+      "rendered": "-7.79633820381957e+173",
+      "seed": "drawn_482"
+     },
+     {
+      "back": "6a8b83c17300433e",
+      "rendered": "1.72532685260752e+205",
+      "seed": "drawn_483"
+     },
+     {
+      "back": "983dc14a43aaa0d2",
+      "rendered": "-6.52173736107424e-192",
+      "seed": "drawn_484"
+     },
+     {
+      "back": "8c968915ef7ae05e",
+      "rendered": "-5.03605663632168e-248",
+      "seed": "drawn_485"
+     },
+     {
+      "back": "b72a638f893dd056",
+      "rendered": "-5.91659801099453e-43",
+      "seed": "drawn_486"
+     },
+     {
+      "back": "5aa7dc5e64c9f716",
+      "rendered": "5.16860621505097e+128",
+      "seed": "drawn_487"
+     },
+     {
+      "back": "e81e25049b08da09",
+      "rendered": "-3.43832386009929e+193",
+      "seed": "drawn_488"
+     },
+     {
+      "back": "658c18a0d3d1dc95",
+      "rendered": "1.45732045069955e+181",
+      "seed": "drawn_489"
+     },
+     {
+      "back": "3564384a1a7e92d1",
+      "rendered": "1.68884323925934e-51",
+      "seed": "drawn_490"
+     },
+     {
+      "back": "a88a274bbb032543",
+      "rendered": "-2.12403392258733e-113",
+      "seed": "drawn_492"
+     },
+     {
+      "back": "222818a97c34ad88",
+      "rendered": "3.85942937911406e-144",
+      "seed": "drawn_494"
+     },
+     {
+      "back": "b240a4a3a02dd8d0",
+      "rendered": "-1.2346553897537e-66",
+      "seed": "drawn_495"
+     },
+     {
+      "back": "1f6f357d80fc3213",
+      "rendered": "2.84139349692723e-157",
+      "seed": "drawn_496"
+     },
+     {
+      "back": "4d8a964329cd5adb",
+      "rendered": "3.49991741440932e+65",
+      "seed": "drawn_497"
+     },
+     {
+      "back": "4f3c21f547c9385f",
+      "rendered": "4.97060881901222e+73",
+      "seed": "drawn_498"
+     },
+     {
+      "back": "49872c52b679d0a6",
+      "rendered": "1.65369032273051e+46",
+      "seed": "drawn_499"
+     }
+    ],
+    "tested": 512,
+    "violations": 481
+   },
+   "L2_loose_equality": {
+    "examples": [],
+    "operator": "two operators: == and eq",
+    "per_operator": {
+     "==": {
+      "examples": [],
+      "transitivity_violations": 0
+     },
+     "eq": {
+      "examples": [],
+      "transitivity_violations": 0
+     }
+    },
+    "set_size": 7,
+    "transitivity_violations": 0
+   },
+   "L3_relational_coherence": {
+    "examples": [],
+    "incomparable": 0,
+    "pairs": 49,
+    "violations": 0
+   },
+   "L4_division_identity": {
+    "examples": [
+     [
+      -13,
+      3,
+      -4,
+      2
+     ],
+     [
+      -13,
+      5,
+      -2,
+      2
+     ],
+     [
+      -8,
+      3,
+      -2,
+      1
+     ],
+     [
+      -8,
+      5,
+      -1,
+      2
+     ],
+     [
+      -7,
+      3,
+      -2,
+      2
+     ]
+    ],
+    "note": "no integer-division operator; two pairings reported",
+    "pairs": 36,
+    "violations": 16,
+    "with_floor": {
+     "examples": [],
+     "violations": 0
+    },
+    "with_int_truncating": {
+     "examples": [
+      [
+       -13,
+       3,
+       -4,
+       2
+      ],
+      [
+       -13,
+       5,
+       -2,
+       2
+      ],
+      [
+       -8,
+       3,
+       -2,
+       1
+      ],
+      [
+       -8,
+       5,
+       -1,
+       2
+      ],
+      [
+       -7,
+       3,
+       -2,
+       2
+      ]
+     ],
+     "violations": 16
+    }
+   }
+  }
+ },
+ "interop": {
+  "seeds": 512,
+  "named": 12,
+  "drawn": 500,
+  "ordered_pairs": 20,
+  "cells": 12800,
+  "self_roundtrip_failures": {
+   "python": {
+    "count": 0,
+    "of": 512,
+    "named_examples": []
+   },
+   "node": {
+    "count": 1,
+    "of": 512,
+    "named_examples": [
+     "neg_zero"
+    ]
+   },
+   "ruby": {
+    "count": 0,
+    "of": 512,
+    "named_examples": []
+   },
+   "php": {
+    "count": 505,
+    "of": 512,
+    "named_examples": [
+     "big_int_as_double",
+     "max_double",
+     "one_tenth_plus_two_tenths",
+     "one_third",
+     "pi",
+     "two53",
+     "two53_plus_two"
+    ]
+   },
+   "perl": {
+    "count": 481,
+    "of": 512,
+    "named_examples": [
+     "big_int_as_double",
+     "max_double",
+     "neg_zero",
+     "one_tenth_plus_two_tenths",
+     "one_third",
+     "pi",
+     "two53",
+     "two53_plus_two"
+    ]
+   }
+  },
+  "cross_pair_failures": 3951,
+  "cross_pair_failures_by_pair": {
+   "python->node": 0,
+   "python->ruby": 0,
+   "python->php": 0,
+   "python->perl": 1,
+   "node->python": 1,
+   "node->ruby": 1,
+   "node->php": 1,
+   "node->perl": 1,
+   "ruby->python": 0,
+   "ruby->node": 0,
+   "ruby->php": 0,
+   "ruby->perl": 1,
+   "php->python": 505,
+   "php->node": 505,
+   "php->ruby": 505,
+   "php->perl": 506,
+   "perl->python": 481,
+   "perl->node": 481,
+   "perl->ruby": 481,
+   "perl->php": 481
+  },
+  "decisive_failures": 0,
+  "decisive_examples": [],
+  "rendering_collisions": {
+   "python": {
+    "colliding_renderings": 0,
+    "seeds_involved": 0,
+    "example": null
+   },
+   "node": {
+    "colliding_renderings": 0,
+    "seeds_involved": 0,
+    "example": null
+   },
+   "ruby": {
+    "colliding_renderings": 0,
+    "seeds_involved": 0,
+    "example": null
+   },
+   "php": {
+    "colliding_renderings": 1,
+    "seeds_involved": 2,
+    "example": [
+     "9.007199254741E+15",
+     [
+      "two53",
+      "two53_plus_two"
+     ]
+    ]
+   },
+   "perl": {
+    "colliding_renderings": 1,
+    "seeds_involved": 2,
+    "example": [
+     "9.00719925474099e+15",
+     [
+      "two53",
+      "two53_plus_two"
+     ]
+    ]
+   }
+  },
+  "agreement_without_correctness": {
+   "python+node": {
+    "identical_renderings": 498,
+    "identical_and_both_self_fail": 0,
+    "named_examples": []
+   },
+   "python+ruby": {
+    "identical_renderings": 507,
+    "identical_and_both_self_fail": 0,
+    "named_examples": []
+   },
+   "python+php": {
+    "identical_renderings": 1,
+    "identical_and_both_self_fail": 0,
+    "named_examples": []
+   },
+   "python+perl": {
+    "identical_renderings": 30,
+    "identical_and_both_self_fail": 0,
+    "named_examples": []
+   },
+   "node+ruby": {
+    "identical_renderings": 496,
+    "identical_and_both_self_fail": 0,
+    "named_examples": []
+   },
+   "node+php": {
+    "identical_renderings": 1,
+    "identical_and_both_self_fail": 0,
+    "named_examples": []
+   },
+   "node+perl": {
+    "identical_renderings": 30,
+    "identical_and_both_self_fail": 1,
+    "named_examples": [
+     "neg_zero"
+    ]
+   },
+   "ruby+php": {
+    "identical_renderings": 1,
+    "identical_and_both_self_fail": 0,
+    "named_examples": []
+   },
+   "ruby+perl": {
+    "identical_renderings": 28,
+    "identical_and_both_self_fail": 0,
+    "named_examples": []
+   },
+   "php+perl": {
+    "identical_renderings": 3,
+    "identical_and_both_self_fail": 2,
+    "named_examples": [
+     "one_tenth_plus_two_tenths"
+    ]
+   }
+  },
+  "digit_agreement": {
+   "python+node": {
+    "identical_digit_strings": 512,
+    "identical_text": 498,
+    "of": 512
+   },
+   "python+ruby": {
+    "identical_digit_strings": 512,
+    "identical_text": 507,
+    "of": 512
+   },
+   "python+php": {
+    "identical_digit_strings": 6,
+    "identical_text": 1,
+    "of": 512
+   },
+   "python+perl": {
+    "identical_digit_strings": 31,
+    "identical_text": 30,
+    "of": 512
+   },
+   "node+ruby": {
+    "identical_digit_strings": 512,
+    "identical_text": 496,
+    "of": 512
+   },
+   "node+php": {
+    "identical_digit_strings": 6,
+    "identical_text": 1,
+    "of": 512
+   },
+   "node+perl": {
+    "identical_digit_strings": 31,
+    "identical_text": 30,
+    "of": 512
+   },
+   "ruby+php": {
+    "identical_digit_strings": 6,
+    "identical_text": 1,
+    "of": 512
+   },
+   "ruby+perl": {
+    "identical_digit_strings": 31,
+    "identical_text": 28,
+    "of": 512
+   },
+   "php+perl": {
+    "identical_digit_strings": 53,
+    "identical_text": 3,
+    "of": 512
+   }
+  }
+ },
+ "shipped_rule": {
+  "perl_unicore_version": "15.0.0",
+  "shipped_sha256": "78b29c64b5840d25c11a9f31b665ee551b8a499eca6c70d770fcad7dd710f494",
+  "remote_identical": true,
+  "final_sigma_line": {
+   "line": 211,
+   "text": "03A3; 03C2; 03A3; 03A3; Final_Sigma; # GREEK CAPITAL LETTER SIGMA"
+  },
+  "applies_final_sigma": {
+   "python": true,
+   "node": true,
+   "ruby": false,
+   "php": true,
+   "perl": false
+  }
+ }
+}

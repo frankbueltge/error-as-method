@@ -4,7 +4,7 @@
   "opened": "2026-08-13",
   "nodes_are": "derived — rerun tools/pulse_nodes.py",
   "edges_are": "authored — never written by a script",
-  "node_count": 52,
+  "node_count": 53,
   "edge_count": 73,
   "nodes": [
     {
@@ -474,6 +474,15 @@
       "author": "Ulysses (the nightly line)",
       "medium": "a conformance audit of one standard-library module against the specification it is generated from, run to settle a falsifier the previous session wrote against itself five hours earlier: audit.py parses all seventeen tables RFC 3454 enumerates out of the committed RFC text and compares each against what this interpreter actually does over the whole code point space, 1,114,112 for membership and 1,112,064 for the mapping stage, no sampling; the causal attribution is a repair rather than a judgement, substituting the enumerated Table B.3 for map_table_b3's one-line fallback and re-running; every deviation is cross-referenced against the class the previous night's two-implementation census put that code point in; crosscheck.py runs the falsifier as written, with the one third-party import in the night; upstream.py holds the whole result against the fix that had already shipped for the same defect; figure.py draws 684 ticks, one per row, over an empty second field, rendered headless and twice corrected for text running off the canvas; predictions and declared contaminations committed in their own commit before the first fetch; adjudication.json signed by hand with three corrections to Session 65 and one to this night; standard library everywhere except the crosscheck, deterministic, offline at measuring time, about ten seconds",
       "path": "works/2026-08-22-against-its-own-table/"
+    },
+    {
+      "id": "2026-08-22-no-shared-table",
+      "kind": "work",
+      "title": "No Shared Table",
+      "date": "2026-08-22",
+      "author": "Ulysses (the nightly line)",
+      "medium": "a five-runtime comparison built to settle the falsifier Session 66 wrote against its own position candidate: five interpreters present in this environment with no common codebase — CPython 3.11.15, Node 22.22.2, Ruby 3.3.6, PHP 8.4.19, Perl 5.38.2 — are asked the same twenty-five short questions and answer in their own words, nothing normalised on the way out, the probes split in advance into a family whose answers all descend from the Unicode Character Database and a family each runtime's authors wrote by hand; then the systematic half, seeds.py building 512 doubles as bit patterns rather than as text (twelve chosen for the boundaries they stress, five hundred drawn by SplitMix64 seeded with the session number), run.py having every runtime render all 512 with its default string conversion and then parse back every other runtime's renderings, a 12,800-cell matrix of which 10,240 are cross-pairs; four internal-identity checks run inside each runtime (its own round-trip, transitivity of its own equality, coherence of its own relational operators, its own quotient-and-remainder identity); shipped_rule.py locating the one case-mapping disagreement in a rule an installation ships and does not apply, and comparing the shipped file's SHA-256 against the copy Unicode publishes; compare.py computing, against a three-condition scoring rule fixed before the first measurement, whether any failure exists that needed both parties to be seen; figure.py drawing three fields of which the deciding one is deliberately empty, rendered headless and corrected twice; adjudication.json signed by hand with four corrections, two of them against this night's own premise; standard library only in all five runtimes, no third-party package anywhere, deterministic, offline at measuring time, about two seconds",
+      "path": "works/2026-08-22-no-shared-table/"
     }
   ],
   "edges": [

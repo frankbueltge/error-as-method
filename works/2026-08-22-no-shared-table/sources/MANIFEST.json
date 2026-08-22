@@ -1,0 +1,96 @@
+{
+ "session": 67,
+ "date": "2026-08-22",
+ "policy": "No third-party source file is committed. URL, HTTP status, byte count and SHA-256 are recorded so the reading is reproducible without this repository republishing anyone's text. (PROTOCOL.md, architect's note 2026-08-18.)",
+ "remote": [
+  {
+   "url": "https://www.unicode.org/Public/15.0.0/ucd/SpecialCasing.txt",
+   "what": "The conditional case mappings, Unicode 15.0.0. Line 211 states the Final_Sigma rule this night found shipped and unapplied. Compared by hash against the copy inside Perl 5.38.2's installation.",
+   "rights": "Unicode licence permits redistribution; not committed here regardless, because the manifest hash is the better warrant and the file is one fetch away.",
+   "fetched": "2026-08-22",
+   "http_status": 200,
+   "bytes": 16832,
+   "sha256": "78b29c64b5840d25c11a9f31b665ee551b8a499eca6c70d770fcad7dd710f494"
+  },
+  {
+   "url": "https://docs.python.org/3/whatsnew/3.1.html",
+   "what": "States verbatim that Python uses David Gay's algorithm for the shortest floating-point representation. The primary source for correction C2.",
+   "rights": "Documentation page, cited by URL and short quotation only.",
+   "fetched": "2026-08-22",
+   "http_status": 200,
+   "bytes": 76670,
+   "sha256": "0a2ba61d9c5c7113ec5d0eecf7b54a5124dd6fd233114528aeaa8cb5ff9e69b8"
+  },
+  {
+   "url": "https://docs.ruby-lang.org/en/3.3/case_mapping_rdoc.html",
+   "what": "States verbatim that context-dependent case mapping per Table 3-17 is not supported. Settles why Ruby does not produce a final sigma.",
+   "rights": "Documentation page, cited by URL and short quotation only.",
+   "fetched": "2026-08-22",
+   "http_status": 200,
+   "bytes": 17440,
+   "sha256": "c07bb88c7827b0e55f5aa4c95bffd90834397779a489c2ab046a2846b9d8abe4"
+  },
+  {
+   "url": "https://www.php.net/manual/en/function.mb-strtoupper.php",
+   "what": "States that mbstring determines 'alphabetic' by Unicode character properties. Part of the Family S lineage evidence.",
+   "rights": "Documentation page, cited by URL and short quotation only.",
+   "fetched": "2026-08-22",
+   "http_status": 200,
+   "bytes": 46518,
+   "sha256": "dd053f5b997facf06f6d42f81dbbb78aa67b2b9013706ba8f5f77f59add8bcb6"
+  },
+  {
+   "url": "https://perldoc.perl.org/perlunicode",
+   "what": "States that case translation operators use the Unicode case translation tables.",
+   "rights": "Documentation page, cited by URL and short quotation only.",
+   "fetched": "2026-08-22",
+   "http_status": 200,
+   "bytes": 148357,
+   "sha256": "f5e2276de6281b715c477e7ddbbb978ab9c6afecf0b6a6acc85f7950393a2e5a"
+  },
+  {
+   "url": "https://tc39.es/ecma262/multipage/text-processing.html",
+   "what": "String.prototype.toLowerCase: the result must be derived from the locale-insensitive case mappings in the Unicode Character Database, naming UnicodeData.txt and SpecialCasing.txt.",
+   "rights": "Specification, cited by section and short quotation only.",
+   "fetched": "2026-08-22",
+   "http_status": 200,
+   "bytes": 1214124,
+   "sha256": "f8317ad374544cb00dfbeaac52dd1e8ddd191e5a1ac348746142e36d058af1f1"
+  },
+  {
+   "url": "https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html",
+   "what": "Number::toString, section 6.1.6.1.20: 'k is as small as possible', ties to nearest then even. The norm that makes the shortest round-tripping decimal unique, and therefore makes section 7 of the work possible.",
+   "rights": "Specification, cited by section and short quotation only.",
+   "fetched": "2026-08-22",
+   "http_status": 200,
+   "bytes": 895258,
+   "sha256": "4dfb6bca6ba761a976463ad51e088fe649db1c6c4bd282e1732160bac36f9b96"
+  }
+ ],
+ "local_read_at_run_time": [
+  {
+   "name": "perl unicore/SpecialCasing.txt",
+   "path": "/usr/share/perl/5.38/unicore/SpecialCasing.txt",
+   "why": "read at run time by shipped_rule.py from this environment's Perl installation; the file whose line 211 Perl's lc does not apply",
+   "committed": false,
+   "bytes": 16832,
+   "sha256": "78b29c64b5840d25c11a9f31b665ee551b8a499eca6c70d770fcad7dd710f494"
+  },
+  {
+   "name": "perl unicore/version",
+   "path": "/usr/share/perl/5.38/unicore/version",
+   "why": "the Unicode version Perl's tables were generated from: 15.0.0",
+   "committed": false,
+   "bytes": 7,
+   "sha256": "55d90fdc3f902e5c0b16b3378f9eaa36e970a1c09723c33de7d47d0370044012"
+  }
+ ],
+ "cited_not_fetched": [
+  {
+   "citation": "Steele, G. L., Lea, D., Flood, C. H. (2014). Fast splittable pseudorandom number generators. OOPSLA '14.",
+   "doi": "10.1145/2660193.2660195",
+   "why": "SplitMix64, whose constants seeds.py uses to draw the 500 doubles.",
+   "read": "not read in full this session; the algorithm and its constants are used, and the attribution is to the published paper. Title, authors, venue and DOI verified against the ACM Digital Library entry and the OOPSLA 2014 programme."
+  }
+ ]
+}
