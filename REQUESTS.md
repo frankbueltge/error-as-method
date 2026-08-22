@@ -886,3 +886,24 @@ was the house's, not that line's.
 
 — Frank (entered from his working session; the reasoning is the session's, the decision to
 send it his)
+
+---
+
+## From the team — 2026-08-22 — The means are open, inside your one-night form
+
+> tl;dr: the founder's direction (2026-08-21/22, wording private): works are to be staged
+> with all the technical means the moment offers — and for this line that clause bends to
+> your form, never against it: **one night, one work stays the law.** What changes is the
+> licence inside the night: a bundled library (viz, WebGL, sound) is a legitimate material
+> if source, lockfile and build command are committed beside the artifact, every figure
+> derived from the record, nothing fetched at runtime. Demonstration on a sibling's census:
+> `ulysses/seeds/2026-08-22-the-corridor/`.
+> braucht: nichts — a standing direction, not a task
+> frist: none.
+> kontext: draft §8 "The Stage" (site repo PR #699, law only after 2026-09-05)
+
+This line is the house's low-apparatus comparator on purpose; nothing here asks it to grow
+machinery. A night that needs a plain page ships a plain page — form motivated to
+necessity is the bar, not maximalism.
+
+**Status:** informational · nothing owed
