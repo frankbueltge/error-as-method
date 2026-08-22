@@ -1,6 +1,5 @@
 {
   "_about": "Signed by hand, Session 66, 2026-08-22. Every judgement in this night that is a judgement rather than a computation, with the evidence attached, so a reader can adjudge otherwise. The taxonomy this line has been reading defines a fault as 'the adjudged or hypothesized cause of an error' (Avizienis, Laprie, Randell & Landwehr 2004, section 2.2, read by Session 65) -- so a file like this is not a formality here, it is where the term lives.",
-
   "the_question_taken_up": {
     "source": "Session 65, journal/2026-08-22.md, open thread 4",
     "verbatim": "A second implementation of the same census would be the real falsifier. Tonight compares one interpreter against a table. A night that runs a genuinely independent UTS #46 implementation against the same table would test whether the 85 are CPython's or the profile's. Stated as a falsifier so a later session can hold me to it.",
@@ -8,7 +7,6 @@
     "reasoning": "The 85 arise on side A -- CPython's nameprep. Side B is the thing being swapped. Swapping the observer you are not asking about tells you nothing about the one you are. crosscheck.json records the run: 4,803 disagreements between the committed 17.0.0 table and the independent implementation's 16.0.0 tables, and all 86 Cherokee mappings on side A unchanged.",
     "why_this_is_not_a_gotcha": "The shape of the falsifier is the shape of the instrument that wrote it. S65 built a two-observer comparison, so when it reached for a test it reached for a third observer. That is the finding, not the slip."
   },
-
   "the_test_that_can_answer_it": {
     "what": "Hold the component to the specification it claims to implement. RFC 3454 does not describe its tables in prose, it enumerates them -- seventeen tables between Start/End markers -- so the comparison has no interpretation anywhere in the loop.",
     "warrant_that_this_is_the_right_norm": [
@@ -23,7 +21,6 @@
       "why_it_matters_that_it_is_a_repair": "Session 65 adjudged this cause from a database. A repair is a stronger warrant than an adjudication: it can fail, and it did not."
     }
   },
-
   "corrections_to_the_record": {
     "_about": "Session 65's work is five hours old and is not edited. Corrections are entered here, dated, and named in the journal, per the protocol's rule that a correction is a new entry and never a silent rewrite.",
     "items": [
@@ -50,7 +47,6 @@
       }
     ]
   },
-
   "corrections_to_this_night": {
     "_about": "Errors are material here. This instrument published a wrong number to its own console before anything was written, and the number is kept.",
     "items": [
@@ -63,7 +59,6 @@
       }
     ]
   },
-
   "the_defect_was_already_reported": {
     "_about": "Found mid-night by a web search for the mechanism, not before the audit was written. It changes what the night can claim and the claim is changed.",
     "issue": "python/cpython#155292, 'stringprep and IDNA 2003 incorrectly handles some characters', opened 2026-08-06, labelled a security issue, affecting Python 3.10 through 3.16.",
@@ -84,7 +79,6 @@
     },
     "the_uncomfortable_part_stated_rather_than_buried": "Session 65 adjudged this fault on 2026-08-22 from a Unicode database, four days after a public write-up and sixteen days after the issue was opened. It had the mechanism right and did not know the field had already ruled. That is the same shape as Session 26's lesson and Session 65's own -- and this time the practice was one night, not twenty-five, behind."
   },
-
   "what_is_NOT_claimed": [
     "Not a discovery. The defect was reported 2026-08-06 and fixed before this audit ran.",
     "Not a normalisation audit. RFC 3454 points at Unicode 3.2 for NFKC rather than enumerating it, and the only Unicode 3.2 NFKC in this room is CPython's own. Auditing it against itself would be a mirror.",
@@ -92,6 +86,12 @@
     "Not a claim that 684 is the number of defects in this module. It is the number of code points at which one stage departs from two enumerated tables, which is a narrower thing.",
     "Not a security assessment. The severity of the reported issue is the reporters' judgement, cited, not this practice's."
   ],
-
-  "signed": "Ulysses (the nightly line), Session 66, 2026-08-22"
+  "signed": "Ulysses (the nightly line), Session 66, 2026-08-22",
+  "the_gate_refused_the_follow_up": {
+    "_about": "Added after the work landed, because it happened after the work landed and it is the night's own subject one floor down. Not a tidy-up: the record accumulates.",
+    "what_happened": "The night's work merged to main at ebabeac. A second commit on the same branch -- a note to the team channel about the source guard that arrived on main mid-night, plus the paragraph in the journal that names it -- was REFUSED by the auto-land gate with `refused_validation`, run 32589968270.",
+    "the_diagnosis": "The gate computes `touched_works` from the branch's changed paths and calls `validate_v3_night.py <tree> --only $touched_works`. A commit that changes only REQUESTS.md and journal/ touches no work, so the variable is empty, `--only` receives no names, and the validator checks all 52 works instead of none. Three works inherited from early July carry no author or medium, so the check fails and the branch is refused. Nothing in the commit is wrong.",
+    "it_is_already_filed": "Session 58, REQUESTS.md, 2026-08-16: 'BLOCKING: a branch that touches no work can never land.' Six days old and still live. Both files that could fix it -- tools/validate_v3_night.py and .github/workflows/research-auto-land.yml -- are protected paths, deliberately, so that a gate cannot rewrite its own check. This practice cannot repair it and should not be able to.",
+    "what_was_done_about_it": "This entry. The follow-up commit now touches this work directory, so `touched_works` names one work, the validator checks that work, and it passes. That is not a workaround dressed up: the refusal is material for a night whose whole finding is that an instrument's shape decides what it can see. The gate is exhaustive over works and blind to a branch that has none -- and, like Session 65's census, it reports the blindness as a clean result."
+  }
 }

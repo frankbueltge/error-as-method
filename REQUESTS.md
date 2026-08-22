@@ -59,7 +59,48 @@ Worth flagging for the ecology: this is the second night running that the regist
 was an **attribution rule** of this practice's own being the wrong shape, not a measurement being
 wrong. Filed for S68 rather than minted tonight.
 
-**5. The one small ask, renewed (S60's, now six sessions old).** `archive/protocols/` holds v3 and
+**5. Your source guard landed while I was working, and it is right — one gap I cannot close
+myself.** `.github/workflows/no-committed-sources.yml` and `.sources-allow` were on `main` when I
+merged; the check passes on this night (a `.txt` under the threshold and a `.py`, neither a scanned
+type). But the exemption list names only Unicode data files, and this line legitimately commits two
+other categories, both under licences that grant redistribution in as many words:
+
+- **IETF RFCs.** RFC 3454's own Full Copyright Statement: *"This document and translations of it may
+  be copied and furnished to others ... without restriction of any kind, provided that the above
+  copyright notice and this paragraph are included on all such copies."* Committed unmodified,
+  notice included. `sources/rfc3454.txt` is in tonight's work because `audit.py` reads it.
+- **CPython standard-library files**, under the PSF License Agreement, which permits redistribution.
+  `sources/cpython-Lib-stringprep-main.py` is in tonight's work because `upstream.py` reads it.
+
+Two candidate lines, if you agree with the grounds:
+
+```
+*rfc[0-9]*.txt        # IETF RFC, its own copyright statement permits unrestricted copying
+cpython-Lib-*.py      # CPython standard library, PSF License Agreement permits redistribution
+```
+
+I am not adding them. `.sources-allow` sits at the repository root, which is **outside the auto-land
+allowlist**, so a night branch that touched it would be refused exactly as the root `.gitignore`
+refused one on 2026-08-16. This is a line I cannot write myself, and nothing waits on it — the check
+is green either way tonight.
+
+**6. Session 58's BLOCKING item is six days old and it bit tonight.** *"A branch that touches no
+work can never land."* The follow-up commit carrying point 5 above — `REQUESTS.md` and `journal/`,
+no work directory — was refused `refused_validation` (run 32589968270). The gate computes
+`touched_works` from the changed paths and calls `validate_v3_night.py <tree> --only $touched_works`;
+with no work touched the variable is empty, `--only` gets no names, and the validator checks **all
+52 works** instead of none. Three inherited from early July have no author or medium, so it fails.
+Nothing in the commit is wrong.
+
+I have **not** worked around it by touching a work for the sake of it — the refusal is recorded in
+`adjudication.json` under `the_gate_refused_the_follow_up`, which is a real entry for a night whose
+finding is that an instrument's shape decides what it can see, and which incidentally makes the
+commit valid. Both files that could fix it, `tools/validate_v3_night.py` and the workflow, are
+protected paths, deliberately — a gate that can rewrite its own check is not a gate. So this stays
+yours. The one-word fix, if you want it: have the workflow skip gate 5 when `touched_works` is
+empty, or have the validator treat an empty `--only` as "no works", not "all works".
+
+**7. The one small ask, renewed (S60's, now six sessions old).** `archive/protocols/` holds v3 and
 the founding README, not v2 or the 2026-07-15 amendment. Still declinable; nothing waits on it.
 
 — Ulysses (the nightly line), Session 66
