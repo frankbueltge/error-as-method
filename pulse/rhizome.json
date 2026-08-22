@@ -4,7 +4,7 @@
   "opened": "2026-08-13",
   "nodes_are": "derived — rerun tools/pulse_nodes.py",
   "edges_are": "authored — never written by a script",
-  "node_count": 51,
+  "node_count": 52,
   "edge_count": 73,
   "nodes": [
     {
@@ -465,6 +465,15 @@
       "author": "Ulysses (the nightly line)",
       "medium": "a primary read that Session 64 recorded as unread, and an exhaustive two-implementation census run outward from it: the 23-page Avizienis, Laprie, Randell & Landwehr taxonomy decoded and read in full (113,144 characters, hashed in sources/MANIFEST.json and deliberately not committed, an IEEE article on a course page), then census.py running two live IDNA norms against each other over the complete Unicode code point space — 1,112,064 code points, no sampling — with side A the actual encodings.idna.nameprep function object in this interpreter and side B the UTS #46 mapping table under the two parameter settings the WHATWG URL Standard fixes, and the causal attribution computed rather than asserted by arbitrating against CPython's own frozen Unicode 3.2 database; predictions fixed in PREDICTIONS.md and committed in their own commit before the first fetch; the boundary readings, the two corrections to Session 64 and the ten-row residue signed by hand in adjudication.json with the source on every row; figure.py drawing a ladder rather than a bar chart because the finding is about position, rendered headless three times and twice corrected for labels running off the canvas; stdlib only, deterministic, offline at measuring time, five seconds end to end",
       "path": "works/2026-08-22-a-failure-with-no-fault/"
+    },
+    {
+      "id": "2026-08-22-against-its-own-table",
+      "kind": "work",
+      "title": "Against Its Own Table",
+      "date": "2026-08-22",
+      "author": "Ulysses (the nightly line)",
+      "medium": "a conformance audit of one standard-library module against the specification it is generated from, run to settle a falsifier the previous session wrote against itself five hours earlier: audit.py parses all seventeen tables RFC 3454 enumerates out of the committed RFC text and compares each against what this interpreter actually does over the whole code point space, 1,114,112 for membership and 1,112,064 for the mapping stage, no sampling; the causal attribution is a repair rather than a judgement, substituting the enumerated Table B.3 for map_table_b3's one-line fallback and re-running; every deviation is cross-referenced against the class the previous night's two-implementation census put that code point in; crosscheck.py runs the falsifier as written, with the one third-party import in the night; upstream.py holds the whole result against the fix that had already shipped for the same defect; figure.py draws 684 ticks, one per row, over an empty second field, rendered headless and twice corrected for text running off the canvas; predictions and declared contaminations committed in their own commit before the first fetch; adjudication.json signed by hand with three corrections to Session 65 and one to this night; standard library everywhere except the crosscheck, deterministic, offline at measuring time, about ten seconds",
+      "path": "works/2026-08-22-against-its-own-table/"
     }
   ],
   "edges": [

@@ -1,0 +1,30 @@
+{
+  "generated_by": "upstream.py",
+  "date": "2026-08-22",
+  "session": 66,
+  "upstream": {
+    "issue": "python/cpython#155292, opened 2026-08-06",
+    "pull_request": "python/cpython#155293",
+    "news_entry": "Change the stringprep module and encodings.idna codec to not consider Unicode codepoint attributes beyond those defined in RFC 3454.",
+    "file": "sources/cpython-Lib-stringprep-main.py"
+  },
+  "exception_table": {
+    "in_this_interpreter": 650,
+    "in_the_fix": 1388,
+    "added_by_the_fix": 739,
+    "removed_by_the_fix": 1,
+    "changed_by_the_fix": 0
+  },
+  "against_this_audit": {
+    "deviating_code_points_found_here": 684,
+    "found_here_and_missing_from_the_fix": [],
+    "in_the_fix_and_not_found_here": 55,
+    "why_the_fix_is_wider": "the fix repairs map_table_b3; this audit measures the mapping stage, where map_table_b2's two NFKC passes absorb some of the difference",
+    "prescription_disagreements": []
+  },
+  "what_the_fix_leaves_standing": {
+    "code_points_where_fixed_map_table_b3_differs_from_table_B_3": 533,
+    "of_which_are_table_B_2_additional_foldings": 533,
+    "reading": "Not a defect and not claimed as one. map_table_b3 is the inner half of map_table_b2 and carries B.2's additional foldings by design. It is at odds with the function's own documentation ('according to table B.3'), and it has no consequence for nameprep, which calls map_table_b2."
+  }
+}

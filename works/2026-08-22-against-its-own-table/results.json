@@ -1,0 +1,489 @@
+{
+  "generated_by": "audit.py",
+  "date": "2026-08-22",
+  "session": 66,
+  "takes_up": "Session 65, open thread 4 -- the falsifier it stated against itself",
+  "scope": "table conformance and the mapping stage, single code points; normalisation is not audited and no claim is made about it",
+  "environment": {
+    "python": "3.11.15",
+    "unicodedata_version": "14.0.0",
+    "frozen_database_stringprep_asserts": "3.2.0"
+  },
+  "norm": {
+    "file": "sources/rfc3454.txt",
+    "what": "RFC 3454, the enumerated tables, read verbatim",
+    "tables_parsed": {
+      "A.1": 879309,
+      "C.1.1": 1,
+      "C.1.2": 17,
+      "C.2.1": 33,
+      "C.2.2": 62,
+      "C.3": 137468,
+      "C.4": 66,
+      "C.5": 2048,
+      "C.6": 5,
+      "C.7": 12,
+      "C.8": 15,
+      "C.9": 97,
+      "D.1": 1044,
+      "D.2": 229973,
+      "B.1": 27,
+      "B.2": 1371,
+      "B.3": 838
+    }
+  },
+  "table_conformance": {
+    "A.1": {
+      "kind": "set",
+      "rfc_entries": 879309,
+      "cpython_extra": 0,
+      "cpython_missing": 0,
+      "extra_sample": [],
+      "missing_sample": []
+    },
+    "C.1.1": {
+      "kind": "set",
+      "rfc_entries": 1,
+      "cpython_extra": 0,
+      "cpython_missing": 0,
+      "extra_sample": [],
+      "missing_sample": []
+    },
+    "C.1.2": {
+      "kind": "set",
+      "rfc_entries": 17,
+      "cpython_extra": 0,
+      "cpython_missing": 0,
+      "extra_sample": [],
+      "missing_sample": []
+    },
+    "C.2.1": {
+      "kind": "set",
+      "rfc_entries": 33,
+      "cpython_extra": 0,
+      "cpython_missing": 0,
+      "extra_sample": [],
+      "missing_sample": []
+    },
+    "C.2.2": {
+      "kind": "set",
+      "rfc_entries": 62,
+      "cpython_extra": 0,
+      "cpython_missing": 0,
+      "extra_sample": [],
+      "missing_sample": []
+    },
+    "C.3": {
+      "kind": "set",
+      "rfc_entries": 137468,
+      "cpython_extra": 0,
+      "cpython_missing": 0,
+      "extra_sample": [],
+      "missing_sample": []
+    },
+    "C.4": {
+      "kind": "set",
+      "rfc_entries": 66,
+      "cpython_extra": 0,
+      "cpython_missing": 0,
+      "extra_sample": [],
+      "missing_sample": []
+    },
+    "C.5": {
+      "kind": "set",
+      "rfc_entries": 2048,
+      "cpython_extra": 0,
+      "cpython_missing": 0,
+      "extra_sample": [],
+      "missing_sample": []
+    },
+    "C.6": {
+      "kind": "set",
+      "rfc_entries": 5,
+      "cpython_extra": 0,
+      "cpython_missing": 0,
+      "extra_sample": [],
+      "missing_sample": []
+    },
+    "C.7": {
+      "kind": "set",
+      "rfc_entries": 12,
+      "cpython_extra": 0,
+      "cpython_missing": 0,
+      "extra_sample": [],
+      "missing_sample": []
+    },
+    "C.8": {
+      "kind": "set",
+      "rfc_entries": 15,
+      "cpython_extra": 0,
+      "cpython_missing": 0,
+      "extra_sample": [],
+      "missing_sample": []
+    },
+    "C.9": {
+      "kind": "set",
+      "rfc_entries": 97,
+      "cpython_extra": 0,
+      "cpython_missing": 0,
+      "extra_sample": [],
+      "missing_sample": []
+    },
+    "D.1": {
+      "kind": "set",
+      "rfc_entries": 1044,
+      "cpython_extra": 0,
+      "cpython_missing": 0,
+      "extra_sample": [],
+      "missing_sample": []
+    },
+    "D.2": {
+      "kind": "set",
+      "rfc_entries": 229973,
+      "cpython_extra": 0,
+      "cpython_missing": 0,
+      "extra_sample": [],
+      "missing_sample": []
+    },
+    "B.1": {
+      "kind": "map-as-predicate",
+      "rfc_entries": 27,
+      "cpython_extra": 0,
+      "cpython_missing": 0,
+      "extra_sample": [],
+      "missing_sample": []
+    },
+    "B.2": {
+      "kind": "map",
+      "rfc_entries": 1371,
+      "deviating_code_points": 684
+    },
+    "B.3": {
+      "kind": "map",
+      "rfc_entries": 838,
+      "deviating_code_points": 1217,
+      "of_which_are_table_B_2_additional_foldings_not_a_defect": 533,
+      "of_which_are_the_live_lowercase_leak": 684,
+      "note": "The raw count is NOT a conformance claim. Python's own documentation says this function returns Table B.3, and it does not; it returns the inner half of Table B.2, additional foldings included. That is an API/documentation mismatch with no consequence for nameprep, which calls map_table_b2. Recorded because this instrument published the raw number first and had to correct itself."
+    }
+  },
+  "mapping_stage": {
+    "population": 1112064,
+    "deviating_code_points": 684,
+    "by_cause": {
+      "escaped_repertoire": 619,
+      "repaired_by_the_table": 65
+    },
+    "by_direction": {
+      "cpython_maps_where_rfc_does_not": 684
+    },
+    "assigned_in_unicode_3_2": {
+      "unassigned": 558,
+      "assigned": 126
+    },
+    "by_session_65_class": {
+      "agree": 597,
+      "silent_divergence": 87
+    },
+    "visible_to_session_65": 87,
+    "invisible_to_session_65": 597
+  },
+  "the_one_line_repair": {
+    "what": "stringprep.map_table_b3's `return code.lower()` replaced by a lookup in RFC 3454's enumerated Table B.3; everything else in map_table_b2 unchanged",
+    "deviating_code_points_after_repair": 0,
+    "remaining": []
+  },
+  "the_3_2_assigned_deviations": {
+    "total": 126,
+    "cherokee_U_13A0_13F5": 85,
+    "everything_else": [
+      {
+        "cp": "U+04C0",
+        "name": "CYRILLIC LETTER PALOCHKA",
+        "cpython": "ӏ",
+        "rfc3454": "Ӏ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10A0",
+        "name": "GEORGIAN CAPITAL LETTER AN",
+        "cpython": "ⴀ",
+        "rfc3454": "Ⴀ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10A1",
+        "name": "GEORGIAN CAPITAL LETTER BAN",
+        "cpython": "ⴁ",
+        "rfc3454": "Ⴁ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10A2",
+        "name": "GEORGIAN CAPITAL LETTER GAN",
+        "cpython": "ⴂ",
+        "rfc3454": "Ⴂ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10A3",
+        "name": "GEORGIAN CAPITAL LETTER DON",
+        "cpython": "ⴃ",
+        "rfc3454": "Ⴃ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10A4",
+        "name": "GEORGIAN CAPITAL LETTER EN",
+        "cpython": "ⴄ",
+        "rfc3454": "Ⴄ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10A5",
+        "name": "GEORGIAN CAPITAL LETTER VIN",
+        "cpython": "ⴅ",
+        "rfc3454": "Ⴅ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10A6",
+        "name": "GEORGIAN CAPITAL LETTER ZEN",
+        "cpython": "ⴆ",
+        "rfc3454": "Ⴆ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10A7",
+        "name": "GEORGIAN CAPITAL LETTER TAN",
+        "cpython": "ⴇ",
+        "rfc3454": "Ⴇ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10A8",
+        "name": "GEORGIAN CAPITAL LETTER IN",
+        "cpython": "ⴈ",
+        "rfc3454": "Ⴈ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10A9",
+        "name": "GEORGIAN CAPITAL LETTER KAN",
+        "cpython": "ⴉ",
+        "rfc3454": "Ⴉ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10AA",
+        "name": "GEORGIAN CAPITAL LETTER LAS",
+        "cpython": "ⴊ",
+        "rfc3454": "Ⴊ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10AB",
+        "name": "GEORGIAN CAPITAL LETTER MAN",
+        "cpython": "ⴋ",
+        "rfc3454": "Ⴋ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10AC",
+        "name": "GEORGIAN CAPITAL LETTER NAR",
+        "cpython": "ⴌ",
+        "rfc3454": "Ⴌ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10AD",
+        "name": "GEORGIAN CAPITAL LETTER ON",
+        "cpython": "ⴍ",
+        "rfc3454": "Ⴍ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10AE",
+        "name": "GEORGIAN CAPITAL LETTER PAR",
+        "cpython": "ⴎ",
+        "rfc3454": "Ⴎ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10AF",
+        "name": "GEORGIAN CAPITAL LETTER ZHAR",
+        "cpython": "ⴏ",
+        "rfc3454": "Ⴏ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10B0",
+        "name": "GEORGIAN CAPITAL LETTER RAE",
+        "cpython": "ⴐ",
+        "rfc3454": "Ⴐ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10B1",
+        "name": "GEORGIAN CAPITAL LETTER SAN",
+        "cpython": "ⴑ",
+        "rfc3454": "Ⴑ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10B2",
+        "name": "GEORGIAN CAPITAL LETTER TAR",
+        "cpython": "ⴒ",
+        "rfc3454": "Ⴒ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10B3",
+        "name": "GEORGIAN CAPITAL LETTER UN",
+        "cpython": "ⴓ",
+        "rfc3454": "Ⴓ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10B4",
+        "name": "GEORGIAN CAPITAL LETTER PHAR",
+        "cpython": "ⴔ",
+        "rfc3454": "Ⴔ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10B5",
+        "name": "GEORGIAN CAPITAL LETTER KHAR",
+        "cpython": "ⴕ",
+        "rfc3454": "Ⴕ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10B6",
+        "name": "GEORGIAN CAPITAL LETTER GHAN",
+        "cpython": "ⴖ",
+        "rfc3454": "Ⴖ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10B7",
+        "name": "GEORGIAN CAPITAL LETTER QAR",
+        "cpython": "ⴗ",
+        "rfc3454": "Ⴗ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10B8",
+        "name": "GEORGIAN CAPITAL LETTER SHIN",
+        "cpython": "ⴘ",
+        "rfc3454": "Ⴘ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10B9",
+        "name": "GEORGIAN CAPITAL LETTER CHIN",
+        "cpython": "ⴙ",
+        "rfc3454": "Ⴙ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10BA",
+        "name": "GEORGIAN CAPITAL LETTER CAN",
+        "cpython": "ⴚ",
+        "rfc3454": "Ⴚ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10BB",
+        "name": "GEORGIAN CAPITAL LETTER JIL",
+        "cpython": "ⴛ",
+        "rfc3454": "Ⴛ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10BC",
+        "name": "GEORGIAN CAPITAL LETTER CIL",
+        "cpython": "ⴜ",
+        "rfc3454": "Ⴜ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10BD",
+        "name": "GEORGIAN CAPITAL LETTER CHAR",
+        "cpython": "ⴝ",
+        "rfc3454": "Ⴝ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10BE",
+        "name": "GEORGIAN CAPITAL LETTER XAN",
+        "cpython": "ⴞ",
+        "rfc3454": "Ⴞ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10BF",
+        "name": "GEORGIAN CAPITAL LETTER JHAN",
+        "cpython": "ⴟ",
+        "rfc3454": "Ⴟ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10C0",
+        "name": "GEORGIAN CAPITAL LETTER HAE",
+        "cpython": "ⴠ",
+        "rfc3454": "Ⴠ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10C1",
+        "name": "GEORGIAN CAPITAL LETTER HE",
+        "cpython": "ⴡ",
+        "rfc3454": "Ⴡ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10C2",
+        "name": "GEORGIAN CAPITAL LETTER HIE",
+        "cpython": "ⴢ",
+        "rfc3454": "Ⴢ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10C3",
+        "name": "GEORGIAN CAPITAL LETTER WE",
+        "cpython": "ⴣ",
+        "rfc3454": "Ⴣ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10C4",
+        "name": "GEORGIAN CAPITAL LETTER HAR",
+        "cpython": "ⴤ",
+        "rfc3454": "Ⴤ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+10C5",
+        "name": "GEORGIAN CAPITAL LETTER HOE",
+        "cpython": "ⴥ",
+        "rfc3454": "Ⴥ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+2132",
+        "name": "TURNED CAPITAL F",
+        "cpython": "ⅎ",
+        "rfc3454": "Ⅎ",
+        "session_65_class": "agree"
+      },
+      {
+        "cp": "U+2183",
+        "name": "ROMAN NUMERAL REVERSED ONE HUNDRED",
+        "cpython": "ↄ",
+        "rfc3454": "Ↄ",
+        "session_65_class": "agree"
+      }
+    ]
+  }
+}
