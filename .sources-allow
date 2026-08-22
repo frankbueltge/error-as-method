@@ -1,0 +1,10 @@
+# .sources-allow — exemptions from .github/workflows/no-committed-sources.yml
+# One glob per line; the reason after '#' must name the ground: own authorship,
+# or the licence that permits redistribution. A third-party book or journal
+# article never belongs here — read from a local copy, cite by edition and page.
+#
+# This repository is why the check exists: two journal articles rode a night
+# branch into the open on 2026-08-16 and were removed on 2026-08-22.
+
+*UnicodeData*.txt                       # Unicode Character Database, Unicode licence permits redistribution
+*IdnaMappingTable.txt                   # Unicode IDNA mapping table, Unicode licence permits redistribution
