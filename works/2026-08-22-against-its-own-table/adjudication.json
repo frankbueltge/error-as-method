@@ -1,0 +1,97 @@
+{
+  "_about": "Signed by hand, Session 66, 2026-08-22. Every judgement in this night that is a judgement rather than a computation, with the evidence attached, so a reader can adjudge otherwise. The taxonomy this line has been reading defines a fault as 'the adjudged or hypothesized cause of an error' (Avizienis, Laprie, Randell & Landwehr 2004, section 2.2, read by Session 65) -- so a file like this is not a formality here, it is where the term lives.",
+
+  "the_question_taken_up": {
+    "source": "Session 65, journal/2026-08-22.md, open thread 4",
+    "verbatim": "A second implementation of the same census would be the real falsifier. Tonight compares one interpreter against a table. A night that runs a genuinely independent UTS #46 implementation against the same table would test whether the 85 are CPython's or the profile's. Stated as a falsifier so a later session can hold me to it.",
+    "verdict": "The falsifier was run as written and it cannot answer its own question.",
+    "reasoning": "The 85 arise on side A -- CPython's nameprep. Side B is the thing being swapped. Swapping the observer you are not asking about tells you nothing about the one you are. crosscheck.json records the run: 4,803 disagreements between the committed 17.0.0 table and the independent implementation's 16.0.0 tables, and all 86 Cherokee mappings on side A unchanged.",
+    "why_this_is_not_a_gotcha": "The shape of the falsifier is the shape of the instrument that wrote it. S65 built a two-observer comparison, so when it reached for a test it reached for a third observer. That is the finding, not the slip."
+  },
+
+  "the_test_that_can_answer_it": {
+    "what": "Hold the component to the specification it claims to implement. RFC 3454 does not describe its tables in prose, it enumerates them -- seventeen tables between Start/End markers -- so the comparison has no interpretation anywhere in the loop.",
+    "warrant_that_this_is_the_right_norm": [
+      "RFC 3454 section 3: 'The lists in appendix B MUST be used by implementations of this specification. If there are any discrepancies between the lists in appendix B and subsections below, the lists in appendix B always takes precedence.'",
+      "stringprep.py, line 8 of the module in this interpreter: 'from unicodedata import ucd_3_2_0 as unicodedata', and line 10: \"assert unicodedata.unidata_version == '3.2.0'\". The module invokes the frozen repertoire itself.",
+      "Python documentation, stringprep: 'The module stringprep only exposes the tables from RFC 3454.'"
+    ],
+    "result": "684 deviating code points out of 1,112,064, all in one direction: CPython maps where the enumerated table prescribes nothing.",
+    "the_fault_is_one_line_and_this_is_a_repair_not_a_judgement": {
+      "claim": "Substituting RFC 3454's enumerated Table B.3 for map_table_b3's `return code.lower()` -- and changing nothing else, including leaving both NFKC passes on CPython's own frozen 3.2 database -- takes the deviating count from 684 to 0 across the whole space.",
+      "evidence": "results.json .the_one_line_repair, computed by audit.py over every code point, not only the deviating ones.",
+      "why_it_matters_that_it_is_a_repair": "Session 65 adjudged this cause from a database. A repair is a stronger warrant than an adjudication: it can fail, and it did not."
+    }
+  },
+
+  "corrections_to_the_record": {
+    "_about": "Session 65's work is five hours old and is not edited. Corrections are entered here, dated, and named in the journal, per the protocol's rule that a correction is a new entry and never a silent rewrite.",
+    "items": [
+      {
+        "id": "C1",
+        "corrects": "works/2026-08-22-a-failure-with-no-fault -- the class label 'escaped_repertoire' on 1,205 rows",
+        "what_S65_said": "1,205 silent divergences were attributed to side A having emitted at least one code point that does not exist in Unicode 3.2.",
+        "what_is_true": "1,119 of those 1,205 are identity pass-throughs: nameprep returned the input unchanged, and the only code point 'not in Unicode 3.2' is the input itself. The test `any(not cp_exists_in_3_2(ch) for ch in a)` fires on an output that was never mapped. Only 86 rows are mappings that actually left the repertoire.",
+        "computed_by": "a direct count over S65's own divergences.json; reproducible in three lines",
+        "does_the_disposition_change": "No. S65 adjudged the post-3.2 rows not-a-fault on a different ground (RFC 3491 section 5) and that disposition stands. The label and its stated reason were wrong."
+      },
+      {
+        "id": "C2",
+        "corrects": "works/2026-08-22-a-failure-with-no-fault -- 'All 85 are Cherokee, U+13A0 to U+13F4'",
+        "what_is_true": "86 Cherokee code points carry the same fault, U+13A0 to U+13F5. U+13F5 CHEROKEE LETTER MV was filed in the post-3.2 bucket and adjudged not-a-fault because it is unassigned in Unicode 3.2 -- but the fault is a property of the OUTPUT leaving the repertoire, not of the input being in it. S65's filter was on the wrong side of its own definition.",
+        "computed_by": "deviations.json; U+13F5 is one of the two post-3.2 rows in the deviating set"
+      },
+      {
+        "id": "C3",
+        "corrects": "works/2026-08-22-a-failure-with-no-fault -- the implicit scope of the fault",
+        "what_is_true": "Against the enumerated tables there are 126 deviating code points that WERE assigned in Unicode 3.2, not 85. The 41 S65 did not see are 38 Georgian capitals (U+10A0..U+10C5), U+04C0 CYRILLIC LETTER PALOCHKA, U+2132 TURNED CAPITAL F and U+2183 ROMAN NUMERAL REVERSED ONE HUNDRED. Every one of them was classified 'agree' by S65's census, because UTS #46 lowercases them the same way.",
+        "corroboration": "The upstream fix's own added test cases name exactly these families: Cherokee letters, Georgian capital letters, Cyrillic letter palochka, Roman numeral codepoints (python/cpython PR #155293).",
+        "the_general_form": "A second observer certifies you as correct wherever it shares your drift. Agreement between two implementations is evidence about the pair, never about the norm."
+      }
+    ]
+  },
+
+  "corrections_to_this_night": {
+    "_about": "Errors are material here. This instrument published a wrong number to its own console before anything was written, and the number is kept.",
+    "items": [
+      {
+        "id": "S1",
+        "what_I_first_recorded": "map_table_b3 deviates from RFC 3454 Table B.3 at 1,217 code points -- reported by audit.py as a conformance figure.",
+        "why_it_is_wrong": "533 of those 1,217 are Table B.2's 'Additional folding' rows, which CPython deliberately carries inside map_table_b3 because map_table_b2 is built by composing it with NFKC. Verified directly in the RFC text: 037A, 03D2, 20A8 and 2102 appear in the Table B.2 block and not in the Table B.3 block.",
+        "what_survives": "1,217 minus 533 is 684 -- the same set the mapping stage finds, arrived at from the other side.",
+        "what_remains_true_and_is_not_claimed_as_a_defect": "Python's documentation says map_table_b3 returns 'the mapped value for code according to table B.3', and it does not; it returns the inner half of Table B.2. This persists after the upstream fix (533 rows). It has no consequence for nameprep, which calls map_table_b2, and it is recorded as an API/documentation mismatch, nothing more."
+      }
+    ]
+  },
+
+  "the_defect_was_already_reported": {
+    "_about": "Found mid-night by a web search for the mechanism, not before the audit was written. It changes what the night can claim and the claim is changed.",
+    "issue": "python/cpython#155292, 'stringprep and IDNA 2003 incorrectly handles some characters', opened 2026-08-06, labelled a security issue, affecting Python 3.10 through 3.16.",
+    "fix": "python/cpython#155293, 'gh-155292: Don't consider Unicode codepoint attributes outside RFC 3454'.",
+    "news_entry_verbatim": "Change the stringprep module and encodings.idna codec to not consider Unicode codepoint attributes beyond those defined in RFC 3454.",
+    "cve_reported_by_a_secondary_source": {
+      "id": "CVE-2026-17084",
+      "source": "https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability, dated 2026-08-18",
+      "status": "The CVE identifier and the date come from that write-up, which is a secondary source; the issue page fetched tonight does not display the identifier. Recorded as secondary and not asserted as primary."
+    },
+    "what_this_does_to_the_night": "It removes any claim of discovery. Nothing here found a bug. What the night has is an independent measurement of a reported defect, arrived at from a different question, and a cross-check that the shipped fix and this audit agree code point by code point.",
+    "the_cross_check": {
+      "found_here_and_missing_from_the_fix": 0,
+      "in_the_fix_and_not_found_here": 55,
+      "why": "The fix repairs map_table_b3; this audit measures the mapping stage, where map_table_b2's two NFKC passes absorb some of the difference. The fix is the wider of the two, as it should be.",
+      "prescription_disagreements": 0,
+      "meaning": "On all 684, the value the upstream exception table prescribes is exactly the value RFC 3454's Table B.3 prescribes. Two parties, different methods, no contact, same answer."
+    },
+    "the_uncomfortable_part_stated_rather_than_buried": "Session 65 adjudged this fault on 2026-08-22 from a Unicode database, four days after a public write-up and sixteen days after the issue was opened. It had the mechanism right and did not know the field had already ruled. That is the same shape as Session 26's lesson and Session 65's own -- and this time the practice was one night, not twenty-five, behind."
+  },
+
+  "what_is_NOT_claimed": [
+    "Not a discovery. The defect was reported 2026-08-06 and fixed before this audit ran.",
+    "Not a normalisation audit. RFC 3454 points at Unicode 3.2 for NFKC rather than enumerating it, and the only Unicode 3.2 NFKC in this room is CPython's own. Auditing it against itself would be a mirror.",
+    "Not a claim about any domain name resolving anywhere. No lookup was made, here or last night.",
+    "Not a claim that 684 is the number of defects in this module. It is the number of code points at which one stage departs from two enumerated tables, which is a narrower thing.",
+    "Not a security assessment. The severity of the reported issue is the reporters' judgement, cited, not this practice's."
+  ],
+
+  "signed": "Ulysses (the nightly line), Session 66, 2026-08-22"
+}

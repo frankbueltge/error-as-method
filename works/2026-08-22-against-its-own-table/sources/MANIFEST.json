@@ -1,0 +1,139 @@
+{
+  "_about": "Every source this night fetched, with the HTTP status, byte count and SHA-256 of exactly what was read. Fetched 2026-08-22 from the machine the work ran on. A stranger re-fetches and compares the hash; the reading is reproducible without this repository republishing anyone's text.",
+
+  "_committed_or_not": "The house rule (PROTOCOL.md, 2026-08-18): commit a source's bytes when its licence permits redistribution, otherwise commit the manifest and quote within citation length. Two files are committed here, and both are committed because the instruments read them at run time and because their licences permit it -- an IETF RFC, whose own copyright statement grants unrestricted copying of the unmodified document, and a file from CPython's standard library under the PSF licence. Nothing else is committed.",
+
+  "sources": [
+    {
+      "id": "rfc3454",
+      "what": "RFC 3454, Preparation of Internationalized Strings ('stringprep'), Hoffman & Blanchet, December 2002. The norm this night measures against. All seventeen enumerated tables are parsed out of it verbatim by audit.py: A.1, B.1, B.2, B.3, C.1.1, C.1.2, C.2.1, C.2.2, C.3, C.4, C.5, C.6, C.7, C.8, C.9, D.1, D.2.",
+      "url": "https://www.rfc-editor.org/rfc/rfc3454.txt",
+      "http_status": 200,
+      "bytes": 138684,
+      "sha256": "eb722fa698fb7e8823b835d9fd263e4cdb8f1c7b0d234edf7f0e3bd2ccbb2c79",
+      "committed": true,
+      "why_committed": "audit.py reads it at run time; committing it is what makes this night re-runnable offline by a stranger. Its own Full Copyright Statement: 'This document and translations of it may be copied and furnished to others ... without restriction of any kind, provided that the above copyright notice and this paragraph are included on all such copies'. The file is committed unmodified, notice included, which is exactly what that permits.",
+      "quotations_used": [
+        "The lists in appendix B MUST be used by implementations of this specification.  If there are any discrepancies between the lists in appendix B and subsections below, the lists in appendix B always takes precedence.",
+        "Each character in the input stream MUST be checked against a mapping table.",
+        "All code points not assigned in the character repertoire named in a stringprep profile are called \"unassigned code points\".  Stored strings using the profile MUST NOT contain any unassigned code points.  Queries for matching strings MAY contain unassigned code points.",
+        "The list of unassigned code points MUST be given in a profile, and that list MUST be used by implementations of the profile."
+      ],
+      "note_on_the_hash": "Identical to the SHA-256 Session 65 recorded five hours earlier for the same URL. Two fetches, one byte string -- which is the whole point of recording it."
+    },
+    {
+      "id": "cpython-stringprep-fixed",
+      "what": "Lib/stringprep.py from CPython's default branch, carrying the fix for gh-155292. Read by upstream.py, which extracts the b3_exceptions literal as text rather than importing the file (it is named after a standard-library module).",
+      "url": "https://raw.githubusercontent.com/python/cpython/main/Lib/stringprep.py",
+      "http_status": 200,
+      "bytes": 27004,
+      "sha256": "8af662ca53f21d5f29f4ddaf8866d62472f1368b3ca6d422aff7b8c10b460a9e",
+      "committed": true,
+      "why_committed": "upstream.py reads it at run time, and CPython is distributed under the PSF License Agreement, which permits redistribution. Committed under a hyphenated filename so it cannot be imported as a module and shadow the one the audit measures.",
+      "fetched": "2026-08-22"
+    },
+    {
+      "id": "cpython-issue-155292",
+      "what": "python/cpython issue #155292, 'stringprep and IDNA 2003 incorrectly handles some characters', opened 2026-08-06, labelled a security issue, affecting Python 3.10 through 3.16. The primary record that this defect was reported before this night measured it.",
+      "url": "https://github.com/python/cpython/issues/155292",
+      "committed": false,
+      "read_via": "page fetch, 2026-08-22",
+      "note": "The CVE identifier is not displayed on the issue page as fetched. It is recorded in this work only from the secondary source below, and marked as secondary there and in adjudication.json."
+    },
+    {
+      "id": "cpython-news-155292",
+      "what": "The changelog entry for the fix, fetched verbatim.",
+      "url": "https://raw.githubusercontent.com/python/cpython/main/Misc/NEWS.d/next/Security/2026-08-06-11-43-20.gh-issue-155292.j4pHBO.rst",
+      "http_status": 200,
+      "committed": false,
+      "quotations_used": [
+        "Change the :mod:`stringprep` module and :mod:`encodings.idna` codec to not consider Unicode codepoint attributes beyond those defined in :rfc:`3454`."
+      ]
+    },
+    {
+      "id": "cpython-pr-155293",
+      "what": "python/cpython pull request #155293, the fix. Read for the list of files changed and the scripts the added test cases name: Cherokee letters, Georgian capital letters, Cyrillic letter palochka, Roman numeral codepoints.",
+      "url": "https://github.com/python/cpython/pull/155293/files",
+      "committed": false,
+      "read_via": "page fetch, 2026-08-22"
+    },
+    {
+      "id": "larson-2026",
+      "what": "Seth Larson, 'When str.lower() is a security vulnerability in Python', dated 2026-08-18. A SECONDARY source. The only place this night saw the identifier CVE-2026-17084 and the 2026-08-18 date, and the reason the search that found the upstream issue found it.",
+      "url": "https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability",
+      "committed": false,
+      "status": "secondary -- the identifier is attributed to this write-up in the work and in adjudication.json, not asserted as primary"
+    },
+    {
+      "id": "python-docs-stringprep",
+      "what": "Python 3 documentation, stringprep module. Two lines the work rests on: that map_table_b3 returns 'the mapped value for code according to table B.3', and that 'the module stringprep only exposes the tables from RFC 3454'.",
+      "url": "https://docs.python.org/3/library/stringprep.html",
+      "committed": false,
+      "quotations_used": [
+        "Return the mapped value for code according to table B.3 (Mapping for case-folding used with no normalization).",
+        "The module stringprep only exposes the tables from RFC 3454."
+      ]
+    },
+    {
+      "id": "unicode-17",
+      "what": "Unicode 17.0.0 release page. Fetched to check, rather than assume, the attribution of crosscheck.py's 4,803 disagreements to the version gap between the committed 17.0.0 table and the independent implementation's 16.0.0 tables.",
+      "url": "https://www.unicode.org/versions/Unicode17.0.0/",
+      "committed": false,
+      "quotations_used": ["Unicode 17.0 adds 4803 characters, for a total of 159,801 characters."],
+      "result": "crosscheck.py counted 4,803. The two numbers are the same number."
+    }
+  ],
+
+  "read_from_a_neighbouring_work_rather_than_fetched": {
+    "_about": "One input is Session 65's own committed source, read in place. It is not copied into this directory: a second copy would drift from the first, and one night's source serving the next is what committing it was for.",
+    "path": "works/2026-08-22-a-failure-with-no-fault/sources/IdnaMappingTable.txt",
+    "what": "IdnaMappingTable.txt 17.0.0, used here only to reproduce Session 65's four classes so this night's deviations can be cross-referenced against what that instrument could see.",
+    "sha256": "87f05505dc026fdb2bff16132bdc68a8014675836882a9a2b1844540ad3be382"
+  },
+
+  "read_in_this_interpreter_rather_than_fetched": {
+    "_about": "Claims that rest on code shipping with the interpreter the audit ran in. One command each, so they can be checked rather than taken on trust.",
+    "items": [
+      {
+        "claim": "stringprep imports the frozen Unicode 3.2 database and asserts its version",
+        "check": "python3 -c \"import stringprep,inspect;print(''.join(inspect.getsourcelines(stringprep)[0][7:11]))\"",
+        "observed": "from unicodedata import ucd_3_2_0 as unicodedata / assert unicodedata.unidata_version == '3.2.0'"
+      },
+      {
+        "claim": "map_table_b3 falls back to str.lower(), which is a str method and cannot consult that frozen database",
+        "check": "python3 -c \"import stringprep,inspect;print(inspect.getsource(stringprep.map_table_b3))\"",
+        "observed": "r = b3_exceptions.get(ord(code)); if r is not None: return r; return code.lower()"
+      },
+      {
+        "claim": "the live database is Unicode 14.0.0 in this interpreter",
+        "check": "python3 -c \"import unicodedata as u;print(u.unidata_version, u.ucd_3_2_0.unidata_version)\"",
+        "observed": "14.0.0 3.2.0"
+      }
+    ]
+  },
+
+  "third_party_code_used_once": {
+    "_about": "The night is standard library everywhere except one file. crosscheck.py -- and only crosscheck.py -- imports a third-party idna package as the 'genuinely independent implementation' Session 65's thread 4 asked for. audit.py, upstream.py and figure.py need nothing outside the standard library, and none of the night's findings depend on it.",
+    "package": "idna",
+    "version": "3.11",
+    "its_unicode_tables": "16.0.0",
+    "already_present_in_the_environment": true
+  },
+
+  "catalogue_probes": {
+    "_about": "The house feeds, consulted per the standing condition that the atlas is checked before any claim of novelty. Fetched 2026-08-22; none committed -- they are feeds, not copies.",
+    "atlas_werke_json": {"count": 520, "reachable": true},
+    "papers_index_json": {"count": 1151, "reachable": true},
+    "datasets_register_json": {"count": 59, "reachable": true},
+    "terms_with_zero_occurrences_in_either_werke_or_papers": [
+      "stringprep", "RFC 3454", "nameprep", "IDNA", "punycode", "Unicode",
+      "conformance", "case folding", "Cherokee", "Georgian", "Avizienis",
+      "dependability", "falsif*"
+    ],
+    "terms_present": {"Rheinberger": "6 in papers, 0 in werke"},
+    "reading": "The same negative result Sessions 64 and 65 reported, with two fresh counts (werke 519 to 520, papers 1,145 to 1,151). Novelty is UNSHOWN, not claimed -- and tonight it would be the wrong claim anyway: the defect measured here was reported in public on 2026-08-06."
+  },
+
+  "fetched": "2026-08-22",
+  "by": "Ulysses (the nightly line), Session 66"
+}

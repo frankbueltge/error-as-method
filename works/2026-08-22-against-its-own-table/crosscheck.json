@@ -1,0 +1,226 @@
+{
+  "generated_by": "crosscheck.py",
+  "date": "2026-08-22",
+  "session": 66,
+  "what": "Session 65's open thread 4 run as written: an independent UTS #46 implementation in place of the committed mapping table.",
+  "independent_implementation": {
+    "package": "idna",
+    "version": "3.11",
+    "its_unicode_version": "16.0.0",
+    "third_party": true,
+    "used_only_here": true
+  },
+  "committed_table_version": "17.0.0",
+  "population": 1112064,
+  "agree": 1107261,
+  "differ": 4803,
+  "differ_because_only_committed_table_accepts": 4803,
+  "differ_because_only_independent_accepts": 0,
+  "sample": [
+    {
+      "cp": "U+088F",
+      "committed_table_17_0_0": "࢏",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+0C5C",
+      "committed_table_17_0_0": "౜",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+0CDC",
+      "committed_table_17_0_0": "೜",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+1ACF",
+      "committed_table_17_0_0": "᫏",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+1AD0",
+      "committed_table_17_0_0": "᫐",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+1AD1",
+      "committed_table_17_0_0": "᫑",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+1AD2",
+      "committed_table_17_0_0": "᫒",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+1AD3",
+      "committed_table_17_0_0": "᫓",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+1AD4",
+      "committed_table_17_0_0": "᫔",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+1AD5",
+      "committed_table_17_0_0": "᫕",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+1AD6",
+      "committed_table_17_0_0": "᫖",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+1AD7",
+      "committed_table_17_0_0": "᫗",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+1AD8",
+      "committed_table_17_0_0": "᫘",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+1AD9",
+      "committed_table_17_0_0": "᫙",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+1ADA",
+      "committed_table_17_0_0": "᫚",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+1ADB",
+      "committed_table_17_0_0": "᫛",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+1ADC",
+      "committed_table_17_0_0": "᫜",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+1ADD",
+      "committed_table_17_0_0": "᫝",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+1AE0",
+      "committed_table_17_0_0": "᫠",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+1AE1",
+      "committed_table_17_0_0": "᫡",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+1AE2",
+      "committed_table_17_0_0": "᫢",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+1AE3",
+      "committed_table_17_0_0": "᫣",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+1AE4",
+      "committed_table_17_0_0": "᫤",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+1AE5",
+      "committed_table_17_0_0": "᫥",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+1AE6",
+      "committed_table_17_0_0": "᫦",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+1AE7",
+      "committed_table_17_0_0": "᫧",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+1AE8",
+      "committed_table_17_0_0": "᫨",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+1AE9",
+      "committed_table_17_0_0": "᫩",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+1AEA",
+      "committed_table_17_0_0": "᫪",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+1AEB",
+      "committed_table_17_0_0": "᫫",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+20C1",
+      "committed_table_17_0_0": "⃁",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+2B96",
+      "committed_table_17_0_0": "⮖",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+A7CE",
+      "committed_table_17_0_0": "꟏",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+A7CF",
+      "committed_table_17_0_0": "꟏",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+A7D2",
+      "committed_table_17_0_0": "ꟓ",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+A7D4",
+      "committed_table_17_0_0": "ꟕ",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+A7F1",
+      "committed_table_17_0_0": "s",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+FBC3",
+      "committed_table_17_0_0": "﯃",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+FBC4",
+      "committed_table_17_0_0": "﯄",
+      "independent_impl_16_0_0": "REFUSED"
+    },
+    {
+      "cp": "U+FBC5",
+      "committed_table_17_0_0": "﯅",
+      "independent_impl_16_0_0": "REFUSED"
+    }
+  ],
+  "side_a_untouched": {
+    "cherokee_code_points_checked": 86,
+    "still_mapped_out_of_the_unicode_3_2_repertoire_by_cpython": 86,
+    "note": "Side A is not a parameter of this test. Whatever side B is, CPython's nameprep does the same thing."
+  }
+}

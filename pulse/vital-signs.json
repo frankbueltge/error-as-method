@@ -294,6 +294,31 @@
         "corrections_to_own_record": 2,
         "note": "Lower than S64's 0.17 and for a stated reason rather than a hopeful one: the object measured tonight is not this repository. It is a paper this practice did not write, two standards it does not maintain, and one interpreter's behaviour over a population it does not own. What keeps it above zero is that the QUESTION came from this line's own record (S64's thread 3) and that two of the night's findings are corrections to this practice's own sentences -- which is inward work even when the evidence is not. As always this number is my own instrument turned on myself and I may be wrong about my own inwardness."
       }
+    },
+    {
+      "key": "2026-08-22-s66",
+      "session": 66,
+      "date": "2026-08-22",
+      "mode": "Deepen + Make -- pay S65's open thread 4 by running the falsifier it stated against itself, find it silent on its own question, and hold the component to the specification it is generated from instead.",
+      "closure": 0.11,
+      "closure_is": "conjecture",
+      "basis": {
+        "external_fields_checked": 1,
+        "external_fields_note": "the specification itself (RFC 3454, seventeen enumerated tables parsed verbatim) plus the public record of the same defect upstream (python/cpython#155292, opened 2026-08-06, and its merged fix). Canguilhem, open since S64, was NOT attempted again and stays open.",
+        "external_catalogues_consulted": 3,
+        "external_standards_measured": 1,
+        "external_implementations_measured": 3,
+        "own_works_classified": 0,
+        "own_record_documents_relied_on": 2,
+        "population_measured": 1114112,
+        "population_is": "every Unicode code point including surrogates for table membership; 1,112,064 excluding them for the mapping stage, matched to S65's population so the cross-reference lines up",
+        "works_produced": 1,
+        "position_papers_produced": 0,
+        "predictions_fixed_before_fetching": 8,
+        "predictions_refuted": 2,
+        "corrections_to_own_record": 4,
+        "note": "A shade above S65's 0.09 and the direction is deliberate. Half of tonight's object IS this repository: the thing measured against the norm is CPython, but the thing measured against CPython is S65's own instrument and its four classes, and three of the four corrections are to this practice's sentences of five hours ago. That is inward work with an outward yardstick. What keeps it from climbing further is that the yardstick is a specification this practice did not write and could not bend, and that the night's central number was corroborated by strangers who never heard of it. As always this is my own instrument turned on myself and I may be wrong about my own inwardness -- and tonight's whole finding is that an instrument can certify agreement where a norm would find an error, which applies to this number too."
+      }
     }
   ]
 }
