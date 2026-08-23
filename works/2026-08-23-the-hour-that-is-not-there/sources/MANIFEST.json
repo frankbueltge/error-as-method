@@ -1,0 +1,98 @@
+{
+ "work": "2026-08-23-the-hour-that-is-not-there",
+ "session": 68,
+ "fetched": "2026-08-23",
+ "rule": "Bytes are committed only where the licence permits redistribution. None here do, so none are. The hash is the warrant: re-fetch and compare.",
+ "sources": [
+  {
+   "url": "https://www.php.net/manual/en/function.date-default-timezone-get.php",
+   "http_status": "200",
+   "bytes": 42935,
+   "sha256": "5b6b24a49276638d9705f57e866b8480a3e783853fc5f9dcfd03d7872caeb9fa",
+   "what": "PHP manual, date_default_timezone_get",
+   "why_this_night_needed_it": "Gives PHP's complete precedence order for the default timezone -- date_default_timezone_set(), then the date.timezone ini option, then UTC. The TZ environment variable is not in the list. This is the page that acquits PHP of the largest block of divergences in the night.",
+   "bytes_committed": false,
+   "bytes_not_committed_because": "third-party documentation; redistribution terms not established by this practice. Protocol amendment of 2026-08-18."
+  },
+  {
+   "url": "https://www.php.net/manual/en/datetime.configuration.php",
+   "http_status": "200",
+   "bytes": 30201,
+   "sha256": "0e9909a04e636a6f20121fcbdb0fc4ef2873f759952a7a15d84de6248182497d",
+   "what": "PHP manual, date/time runtime configuration",
+   "why_this_night_needed_it": "States the default value of date.timezone as \"UTC\". Read together with this machine's php.ini, where date.timezone is commented out, it establishes that the UTC reading is PHP's own default and not a setting of this environment.",
+   "bytes_committed": false,
+   "bytes_not_committed_because": "third-party documentation; redistribution terms not established by this practice. Protocol amendment of 2026-08-18."
+  },
+  {
+   "url": "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date-time-string-format",
+   "http_status": "200",
+   "bytes": 952379,
+   "sha256": "528079bd39d478a4c12749e60cd4f5e6d6e8497d8d8d554a24d9321864a2a283",
+   "what": "ECMA-262, Date Time String Format and Date.parse",
+   "why_this_night_needed_it": "\"When the UTC offset representation is absent, date-only forms are interpreted as a UTC time and date-time forms are interpreted as a local time.\" And: a non-conforming string \"may fall back to any implementation-specific heuristics\". The norm in the room specifies the divergence rather than forbidding it.",
+   "bytes_committed": false,
+   "bytes_not_committed_because": "third-party documentation; redistribution terms not established by this practice. Protocol amendment of 2026-08-18."
+  },
+  {
+   "url": "https://docs.python.org/3/library/datetime.html",
+   "http_status": "200",
+   "bytes": 422679,
+   "sha256": "44d02a6253046a8653896c60cf8b9d41a94f4e501870bf4bb799e4efa0a8dec2",
+   "what": "Python documentation, datetime",
+   "why_this_night_needed_it": "\"Naive datetime instances are assumed to represent local time and this method relies on platform C functions to perform the conversion.\" (datetime.timestamp) And: \"The timestamp() method uses the fold attribute to disambiguate the times during a repeated interval.\"",
+   "bytes_committed": false,
+   "bytes_not_committed_because": "third-party documentation; redistribution terms not established by this practice. Protocol amendment of 2026-08-18."
+  },
+  {
+   "url": "https://peps.python.org/pep-0495/",
+   "http_status": "200",
+   "bytes": 94816,
+   "sha256": "c856ef21441cb7022bd5f025966dfede34e5810fdf04e15c20e64c360982f900",
+   "what": "PEP 495, Local Time Disambiguation",
+   "why_this_night_needed_it": "\"the information displayed on a local clock (or stored in a Python datetime instance) is insufficient to identify a particular moment in time.\" The language's own standards document stating that the string cannot carry the instant.",
+   "bytes_committed": false,
+   "bytes_not_committed_because": "third-party documentation; redistribution terms not established by this practice. Protocol amendment of 2026-08-18."
+  },
+  {
+   "url": "https://docs.ruby-lang.org/en/3.3/Time.html",
+   "http_status": "200",
+   "bytes": 242056,
+   "sha256": "ef6a9fc3611dd5343d106cf1ca8383a47865f6ece6fb7359ab677191f67b4ab7",
+   "what": "Ruby 3.3 documentation, class Time",
+   "why_this_night_needed_it": "Time.parse \"attempts to parse it using a heuristic. This method does not function as a validator. If the input string does not match valid formats strictly, you may get a cryptic result.\" The page that acquits Ruby of discarding the offset in GMT+0200.",
+   "bytes_committed": false,
+   "bytes_not_committed_because": "third-party documentation; redistribution terms not established by this practice. Protocol amendment of 2026-08-18."
+  },
+  {
+   "url": "https://perldoc.perl.org/functions/localtime",
+   "http_status": "200",
+   "bytes": 20137,
+   "sha256": "d0b2c5a5705b974b00f942842db01fcf64203dd05c5b87598efa769cb9e80db9",
+   "what": "perldoc, localtime",
+   "why_this_night_needed_it": "\"In scalar context, localtime returns the ctime(3) value\", e.g. \"Thu Oct 13 04:54:34 1994\" -- a form carrying no offset and no zone name. Establishes that Perl's default rendering is the documented one.",
+   "bytes_committed": false,
+   "bytes_not_committed_because": "third-party documentation; redistribution terms not established by this practice. Protocol amendment of 2026-08-18."
+  },
+  {
+   "url": "https://www.iana.org/time-zones",
+   "http_status": "200",
+   "bytes": 8096,
+   "sha256": "8f9cd5ee6f93d53e9a4c4e3bbb19ac32af121dbd9d0de84cced5d06168e92564",
+   "what": "IANA Time Zone Database",
+   "why_this_night_needed_it": "The upstream of the tzdata this machine ships. The night's three-hour differences at 1945-07-26 are Europe/Berlin's CEMT (UTC+3, 1945-05-24 to 1945-09-24), which zdump reports locally and which this database is the source of.",
+   "bytes_committed": false,
+   "bytes_not_committed_because": "third-party documentation; redistribution terms not established by this practice. Protocol amendment of 2026-08-18."
+  }
+ ],
+ "local_evidence_not_fetched": [
+  {
+   "what": "this machine's /etc/php/8.4/cli/php.ini",
+   "finding": "date.timezone is present only as the commented line ';date.timezone =' at line 966, so PHP's UTC is its own default, not this machine's setting. Reproduce with: grep -n 'date.timezone' /etc/php/8.4/cli/php.ini"
+  },
+  {
+   "what": "zdump -v Europe/Berlin",
+   "finding": "Thu May 24 00:00:00 1945 UT = Thu May 24 03:00:00 1945 CEMT isdst=1 gmtoff=10800 ... Mon Sep 24 00:00:00 1945 UT = Mon Sep 24 02:00:00 1945 CEST isdst=1 gmtoff=7200. The source of the night's two three-hour differences."
+  }
+ ]
+}

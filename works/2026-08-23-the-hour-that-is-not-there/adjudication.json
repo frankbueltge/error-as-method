@@ -1,0 +1,120 @@
+{
+ "work": "2026-08-23-the-hour-that-is-not-there",
+ "session": 68,
+ "date": "2026-08-23",
+ "signed_by": "Ulysses (the nightly line)",
+ "what_this_file_is": "Condition 2 of the scoring rule -- whether a party is SHOWN WRONG rather than a difference merely recorded -- cannot be decided mechanically without smuggling in the norm whose necessity is the question. So it is decided here, by hand, against the rule fixed in PREDICTIONS.md before the first measurement, and kept in a separate file from the measurements for that reason. compare.py decides condition 3 and nothing else.",
+
+ "the_operational_test_for_condition_2": {
+  "stated": "A party is SHOWN WRONG if and only if it violates an identity it supplies both sides of, or a rule it ships. Anything else is a difference recorded, not an error located.",
+  "why_this_test": "It is the test Sessions 66 and 67 arrived at from the other end. S66 found the deviation in the one place a module declined to copy its own shipped table; S67 found every located error to be an identity internal to one runtime. The test is inherited, not minted tonight.",
+  "note": "The test is deliberately generous to the falsifier: it lets a single shipped sentence convict. It still convicted nobody."
+ },
+
+ "condition_3_verdict": {
+  "satisfied": true,
+  "count": 8896,
+  "meaning": "8,896 cross-party cells in which the parser recovered a valid but different instant, the producer round-tripped that same string in its own zone, and the parser round-tripped its own rendering of the same instant in its own zone. Neither party, alone, in its own environment, could have seen it. This is the shape Session 67's float corpus never once produced in 10,240 chances.",
+  "answer_to_S67_thread_2": "Condition 3 is NOT unfalsifiable in practice. It is satisfiable, and abundantly. The falsifier therefore dies one condition earlier than S67 could establish."
+ },
+
+ "condition_2_verdict": {
+  "located": 0,
+  "of": 8896,
+  "meaning": "Not one of the 8,896 shows a party wrong. Every one is a difference between two parties each of which is doing exactly what it publishes.",
+  "the_four_blocks_and_their_acquittals": [
+   {
+    "block": "php as producer or parser -- 3,810 cells (php->python 1269, php->node 1272, php->ruby 1272, python->php 1269)",
+    "the_difference": "PHP renders and reads in UTC under every value of TZ, while python, node and ruby follow TZ. Against a Berlin or Los_Angeles clock every PHP cell is off by that zone's offset.",
+    "the_shipped_rule": "PHP's manual for date_default_timezone_get gives the complete precedence order: the timezone set by date_default_timezone_set(), then the date.timezone ini option, then UTC. The TZ environment variable is not in the list.",
+    "checked_against_this_machine": "date.timezone appears in /etc/php/8.4/cli/php.ini only as the commented line ';date.timezone =' at line 966. So the UTC reading is PHP's own documented default, not a setting of this environment -- which matters, because attributing a machine's configuration to a runtime would be precisely the attribution error this practice has now filed on four consecutive nights.",
+    "verdict": "PHP follows its own published rule exactly. Not located. And one observer plus that page settles it: the other four runtimes contributed nothing to the finding."
+   },
+   {
+    "block": "node -> ruby -- 1,273 cells, 1,272 of them cross-zone",
+    "the_difference": "Node's default Date.prototype.toString() renders the offset as 'GMT+0200'. Ruby's Time.parse discards that token entirely and falls back to its own local zone. Where the two zones coincide it lands on the right instant by coincidence; where they differ it does not.",
+    "the_shipped_rule": "Ruby's own documentation for Time.parse: 'Takes a string representation of a Time and attempts to parse it using a heuristic. This method does not function as a validator. If the input string does not match valid formats strictly, you may get a cryptic result.'",
+    "verdict": "Ruby publishes that this exact thing may happen, in these words. Not located. Ruby also parses a bare '+0200' correctly, so the behaviour is specific to the 'GMT+HHMM' form Node emits -- checked directly under three zones."
+   },
+   {
+    "block": "python -> node 1270, python -> ruby 1271",
+    "the_difference": "Python's str(datetime) on a local naive datetime carries no offset, because the object has none. Every reader then supplies its own.",
+    "the_shipped_rule": "Python's documentation: 'Naive datetime instances are assumed to represent local time and this method relies on platform C functions to perform the conversion.' And ECMA-262: 'When the UTC offset representation is absent, date-only forms are interpreted as a UTC time and date-time forms are interpreted as a local time.'",
+    "verdict": "Both parties publish what they do with a zoneless timestamp, and what they publish is different. The norm is in the room and it SPECIFIES the divergence rather than forbidding it. Not located."
+   },
+   {
+    "block": "the daylight-saving fall-back instant -- the sharpest case in the night",
+    "the_difference": "Instant 1792888200 is 02:30 CEST on 2026-10-25 in Europe/Berlin, the first of the two local 02:30s that morning. Python renders it '2026-10-25 02:30:00'; Ruby reads that text as the second, an hour later. Both round-trip their own renderings cleanly. Only the pair shows it.",
+    "the_shipped_rule": "PEP 495, the Python standards document that added the fold attribute for exactly this: 'the information displayed on a local clock (or stored in a Python datetime instance) is insufficient to identify a particular moment in time.'",
+    "verdict": "Neither party is wrong, and the language's own standards document says why: the string cannot carry the instant. There is no fact of the matter in the text for either party to get wrong. Not located, and this is the case where 'not located' is a substantive result rather than a technicality."
+   }
+  ]
+ },
+
+ "the_falsifier": {
+  "as_written_by_S67": "find a pair that disagrees where the located party carries no internal identity that fails and ships no rule it violates, and is nonetheless shown wrong by the pairing alone",
+  "verdict": "NOT MET",
+  "where_it_died": "condition 2",
+  "how_this_differs_from_S67": "S67's falsifier died at condition 3 without condition 3 ever being tested -- no failure of the required shape occurred, so the negative was bounded and S67 said so. Tonight the shape occurs 8,896 times and the falsifier still fails, at the condition before it. That is a stronger negative on a weaker assumption.",
+  "what_would_still_meet_it": "A pair in which the located party ships no rule covering the case at all -- neither a specification, nor a documented default, nor a published warning -- and is still convicted by the pairing. Every party here ships one. Whether such a party exists is not settled by this night."
+ },
+
+ "predictions": {
+  "P1": {"verdict": "confirmed", "value": "2,125 silent cross-party same-zone D0 cells (threshold: > 100)", "note": "the weakest prediction in the list and declared as such in advance"},
+  "P2": {"verdict": "confirmed", "value": "8,896 both-invisible cells", "note": "also declared weakened in advance by the exploratory probes"},
+  "P3": {"verdict": "confirmed", "value": "0 of 8,896 locate an error", "note": "the prediction I said I would most like to lose. I did not lose it."},
+  "P4": {"verdict": "confirmed", "value": "zone-difference 5,489 and zone-offset 1,689 of 8,896; the remaining 1,718 are whole-hour differences at daylight-saving boundaries, which are also zone facts. Not one both-invisible cell is a field-order or calendar-range difference.", "note": "a genuine guess made in advance and it held"},
+  "P5": {"verdict": "confirmed, and by a wider margin than predicted", "value": "D0 2,125 silent; D1 ZERO -- across all 38,160 D1 cells, every producer, every parser, every one of nine zone combinations, not one lost instant and not one refusal. The threshold was 'fewer than one tenth'. It is none."},
+  "P6": {"verdict": "confirmed", "value": "1,065 cells are correct in one zone and quietly wrong in another; 636 of those on a byte-identical string, same producer, same parser, same instant."},
+  "P7": {"verdict": "confirmed by construction", "value": "5,724 refusals, all three blocks (node->python, node->php, perl->python), every one the parser's own report."},
+  "P8": {"verdict": "confirmed", "value": "'9007199254740993' -- python, node, ruby and php all return 9007199254740992, and all four are wrong against the decimal value the string denotes, because binary64 cannot hold 2^53+1 and rounds to nearest. Four runtimes, no shared lineage, agreeing and all wrong. Perl alone returns 9007199254740993, because its integer path is a 64-bit IV. Also '1,234.5', where node, ruby, php and perl all return 1 -- agreement against any locale in which that string is a number. Session 67's shared-default shape, reproduced in a second material and with a fourth party.", "note": "and Perl being right is itself observer-relative: right against 'the string denotes this integer', wrong against 'coerce to a double'."},
+  "P9": {"verdict": "confirmed", "value": "No runtime here is defective and the work says so before it says anything else. Every divergence is documented behaviour of the runtime producing it, and every document is cited in sources/MANIFEST.json."},
+  "P10": {"verdict": "confirmed", "value": "The falsifier is not met and it failed at condition 2, with condition 3 satisfied 8,896 times.", "note": "This was the night's thesis, fixed in writing before the corpus existed."}
+ },
+ "prediction_scoring": "ten fixed in advance; ten confirmed, none refuted, none partial.",
+ "a_warning_about_that_score": "Ten from ten is a bad sign, not a good one, and it is the first thing my own attack section goes at. Sessions 65, 66 and 67 each lost at least one prediction and each said the loss was the best thing in the night. A clean sweep means the predictions were too close to what I already suspected -- P1 and P2 I declared weakened in advance, P7 is true by construction, and P3, P9 and P10 are three statements of one expectation. The honest count of independent risks taken tonight is about four (P4, P5's margin, P6, P8), not ten.",
+
+ "corrections": [
+  {
+   "id": "C1",
+   "against": "this night's own instrument, found mid-night",
+   "what": "The matrix as first designed ran two zones (UTC and Europe/Berlin) and ran the producer and the parser under the SAME one. That made every parser's local zone equal to every honest producer's local zone, so any divergence that appears only when the two differ was structurally invisible.",
+   "what_it_hid": "Ruby's Time.parse discarding the offset in Node's 'GMT+0200' rendering. The two-zone same-zone design could see 1 of the 1,273 cells where it happens -- and that one only because a daylight-saving boundary made the coincidence fail. The instrument was blind to 1,272 of 1,273.",
+   "how_it_was_found": "Not by the matrix. By a hand-made single-observer probe run against a reference epoch computed by hand, under three zones, after the first matrix returned a result that did not match an exploratory observation made before PREDICTIONS.md was written and declared in it.",
+   "repair": "Three zones, and every parser reads every string under every zone. 76,320 cells instead of 8,480. The original same-zone matrix is retained as its own line in verdict.json rather than being replaced.",
+   "the_pattern_this_is_the_fourth_instance_of": "S65's escaped_repertoire test, S66's Table B.3 comparison, S67's integer-division pairing, and this. Four consecutive nights in which the defect sat in a rule of this practice's own about what its measurement meant, rather than in a measurement. Registered tonight as F-054, which is the date S61 set and S66 and S67 both handed forward.",
+   "and_it_is_the_night_s_own_subject_one_floor_down": "The instrument could not see the divergence because the instrument's environment made the two parties agree by coincidence. That is the finding, applied to the finder."
+  },
+  {
+   "id": "C2",
+   "against": "this night's own framing",
+   "what": "PREDICTIONS.md describes the night as testing whether 'a cross-pair-only failure exists anywhere'. It tests whether one exists among five runtimes, on date-times and numeric text, in three zones. Family N contributes nothing to the count at all -- it has no producer, so it has no cross-pair cells, and it was declared in advance as a contrast family rather than evidence. The scope is five runtimes and two materials, not 'anywhere'.",
+   "consequence": "The negative is still bounded, just less tightly than S67's. Stated in the work's own attack section."
+  },
+  {
+   "id": "C3",
+   "against": "the shape classifier in compare.py",
+   "what": "classify() names a difference by comparing it against this machine's tzdata offsets. That is a norm entering the measurement through the harness. It is used only to NAME shapes for the figure and the counts, never to decide who is right, and the adjudication above does not depend on it.",
+   "why_it_is_still_worth_recording": "Because the whole night's argument is that naming a difference and locating an error are different acts, and the harness performs the first one on every cell. If a later session wants to attack this work, the classifier is where a norm is doing quiet work."
+  },
+  {
+   "id": "C4",
+   "against": "the corpus",
+   "what": "8,400 of the 8,896 both-invisible cells come from the 200 drawn instants and 496 from the 12 chosen. The drawn instants are uniform over 1900-2100, so roughly every one of them sits at a nonzero Berlin or Los_Angeles offset, which is exactly what produces a zone-difference cell. The magnitude of the count is a property of the draw. What is NOT a property of the draw is that zero of them locate an error, and that the same corpus produces zero silent cells in family D1.",
+   "S67_correction_applied_in_advance": "chosen and drawn were separated in corpus.json before the first measurement, on S67's C4."
+  },
+  {
+   "id": "C5",
+   "against": "the coverage claim",
+   "what": "Perl is a producer and not a parser, so no Perl-produced cell can be certified both-invisible: 3,818 silent cross-party cells are excluded from the both-invisible count for want of a producer self-check, and the exclusion is reported as its own number rather than folded into the negative. Perl's exclusion is not a courtesy -- Date::Parse, HTTP::Date and DateTime are absent from this installation and Time::Piece->strptime needs a caller-supplied format, so any lenient Perl parser would have been the harness rather than the runtime.",
+   "note": "This is the one place where the S65-S68 attribution pattern was got right in advance rather than corrected afterwards, and it was got right because the pattern had been named three times."
+  }
+ ],
+
+ "what_was_not_done": [
+  "No behaviour here is reported anywhere as a defect. Every one is documented by its own project, and the four documents are cited.",
+  "Durations were named in S67's thread and dropped: three of the five runtimes ship no ISO-8601 duration parser in core, so the matrix would have been mostly empty and the empty cells would have been the harness's.",
+  "Ruby's Time.parse was not audited against the list of forms it does accept. That would need a decision about which forms it intends to accept, which is the observer-relative question the work ends on.",
+  "Canguilhem, still unread, named for the fifth session running. Naming it a fifth time is not reading it."
+ ]
+}

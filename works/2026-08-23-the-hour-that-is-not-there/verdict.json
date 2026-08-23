@@ -1,0 +1,973 @@
+{
+ "cells_total": 76320,
+ "cross_party": {
+  "n": 61056,
+  "ok": 42607,
+  "refused": 5724,
+  "silent": 12725,
+  "both_invisible": 8896,
+  "silent_excluded_no_selfcheck": 3818
+ },
+ "cross_party_same_zone": {
+  "n": 20352,
+  "ok": 16319,
+  "refused": 1908,
+  "silent": 2125,
+  "both_invisible": 1696,
+  "silent_excluded_no_selfcheck": 426,
+  "note": "the matrix as first designed, now over three zones"
+ },
+ "cross_party_cross_zone": {
+  "n": 40704,
+  "ok": 26288,
+  "refused": 3816,
+  "silent": 10600,
+  "both_invisible": 7200,
+  "silent_excluded_no_selfcheck": 3392,
+  "note": "the repair: producer and parser in different zones"
+ },
+ "by_family": {
+  "D0": {
+   "n": 30528,
+   "ok": 12079,
+   "refused": 5724,
+   "silent": 12725,
+   "both_invisible": 8896,
+   "silent_excluded_no_selfcheck": 3818
+  },
+  "D1": {
+   "n": 30528,
+   "ok": 30528,
+   "refused": 0,
+   "silent": 0,
+   "both_invisible": 0,
+   "silent_excluded_no_selfcheck": 0
+  }
+ },
+ "by_family_same_zone": {
+  "D0": {
+   "n": 10176,
+   "ok": 6143,
+   "refused": 1908,
+   "silent": 2125,
+   "both_invisible": 1696,
+   "silent_excluded_no_selfcheck": 426
+  },
+  "D1": {
+   "n": 10176,
+   "ok": 10176,
+   "refused": 0,
+   "silent": 0,
+   "both_invisible": 0,
+   "silent_excluded_no_selfcheck": 0
+  }
+ },
+ "by_zone_same": {
+  "UTC": {
+   "n": 6784,
+   "ok": 6148,
+   "refused": 636,
+   "silent": 0,
+   "both_invisible": 0,
+   "silent_excluded_no_selfcheck": 0
+  },
+  "Europe/Berlin": {
+   "n": 6784,
+   "ok": 5083,
+   "refused": 636,
+   "silent": 1065,
+   "both_invisible": 848,
+   "silent_excluded_no_selfcheck": 214
+  },
+  "America/Los_Angeles": {
+   "n": 6784,
+   "ok": 5088,
+   "refused": 636,
+   "silent": 1060,
+   "both_invisible": 848,
+   "silent_excluded_no_selfcheck": 212
+  }
+ },
+ "both_invisible": {
+  "n": 8896,
+  "same_zone": 1696,
+  "cross_zone": 7200,
+  "by_family": {
+   "D0": 8896
+  },
+  "shapes": {
+   "zone-difference": 5489,
+   "whole-hour": 1718,
+   "zone-offset": 1689
+  },
+  "pairs": {
+   "node->ruby": 1273,
+   "php->node": 1272,
+   "php->ruby": 1272,
+   "python->ruby": 1271,
+   "python->node": 1270,
+   "python->php": 1269,
+   "php->python": 1269
+  },
+  "shapes_same_zone": {
+   "zone-offset": 1689,
+   "whole-hour": 7
+  }
+ },
+ "zone_flips": {
+  "cells_whose_outcome_depends_on_TZ": 1065,
+  "of_those_ok_in_one_zone_and_silent_in_another": 1065,
+  "of_those_on_a_byte_identical_string": 636,
+  "examples": [
+   {
+    "family": "D0",
+    "producer": "php",
+    "parser": "python",
+    "label": "epoch",
+    "outcomes": {
+     "UTC": "ok",
+     "Europe/Berlin": "silent",
+     "America/Los_Angeles": "silent"
+    },
+    "strings": {
+     "UTC": "1970-01-01 00:00:00.000000",
+     "Europe/Berlin": "1970-01-01 00:00:00.000000",
+     "America/Los_Angeles": "1970-01-01 00:00:00.000000"
+    }
+   },
+   {
+    "family": "D0",
+    "producer": "php",
+    "parser": "python",
+    "label": "pre-epoch",
+    "outcomes": {
+     "UTC": "ok",
+     "Europe/Berlin": "silent",
+     "America/Los_Angeles": "silent"
+    },
+    "strings": {
+     "UTC": "1969-12-31 23:59:59.000000",
+     "Europe/Berlin": "1969-12-31 23:59:59.000000",
+     "America/Los_Angeles": "1969-12-31 23:59:59.000000"
+    }
+   },
+   {
+    "family": "D0",
+    "producer": "php",
+    "parser": "python",
+    "label": "dst-spring-forward",
+    "outcomes": {
+     "UTC": "ok",
+     "Europe/Berlin": "silent",
+     "America/Los_Angeles": "silent"
+    },
+    "strings": {
+     "UTC": "2026-03-29 01:30:00.000000",
+     "Europe/Berlin": "2026-03-29 01:30:00.000000",
+     "America/Los_Angeles": "2026-03-29 01:30:00.000000"
+    }
+   },
+   {
+    "family": "D0",
+    "producer": "php",
+    "parser": "python",
+    "label": "dst-fall-back-first",
+    "outcomes": {
+     "UTC": "ok",
+     "Europe/Berlin": "silent",
+     "America/Los_Angeles": "silent"
+    },
+    "strings": {
+     "UTC": "2026-10-25 00:30:00.000000",
+     "Europe/Berlin": "2026-10-25 00:30:00.000000",
+     "America/Los_Angeles": "2026-10-25 00:30:00.000000"
+    }
+   }
+  ]
+ },
+ "refusals": {
+  "node->python": 1908,
+  "node->php": 1908,
+  "perl->python": 1908
+ },
+ "family_N": [
+  {
+   "string": "1234.5",
+   "python": {
+    "strict": 1234.5,
+    "lenient": null,
+    "lenient_absent": true
+   },
+   "node": {
+    "strict": 1234.5,
+    "lenient": 1234.5
+   },
+   "ruby": {
+    "lenient": 1234.5,
+    "strict": 1234.5
+   },
+   "php": {
+    "lenient": 1234.5,
+    "strict": 1234.5,
+    "strict_error": null
+   },
+   "perl": {
+    "lenient": 1234.5,
+    "strict": null,
+    "strict_absent": true
+   }
+  },
+  {
+   "string": "1,234.5",
+   "python": {
+    "strict": null,
+    "strict_error": "ValueError",
+    "lenient": null,
+    "lenient_absent": true
+   },
+   "node": {
+    "strict": "NaN",
+    "lenient": 1
+   },
+   "ruby": {
+    "lenient": 1.0,
+    "strict": null,
+    "strict_error": "ArgumentError"
+   },
+   "php": {
+    "lenient": 1,
+    "strict": null,
+    "strict_error": "FILTER_VALIDATE_FLOAT"
+   },
+   "perl": {
+    "lenient": 1,
+    "strict": null,
+    "strict_absent": true
+   }
+  },
+  {
+   "string": "1.234,5",
+   "python": {
+    "strict": null,
+    "strict_error": "ValueError",
+    "lenient": null,
+    "lenient_absent": true
+   },
+   "node": {
+    "strict": "NaN",
+    "lenient": 1.234
+   },
+   "ruby": {
+    "lenient": 1.234,
+    "strict": null,
+    "strict_error": "ArgumentError"
+   },
+   "php": {
+    "lenient": 1.234,
+    "strict": null,
+    "strict_error": "FILTER_VALIDATE_FLOAT"
+   },
+   "perl": {
+    "lenient": 1.234,
+    "strict": null,
+    "strict_absent": true
+   }
+  },
+  {
+   "string": "1 234,5",
+   "python": {
+    "strict": null,
+    "strict_error": "ValueError",
+    "lenient": null,
+    "lenient_absent": true
+   },
+   "node": {
+    "strict": "NaN",
+    "lenient": 1
+   },
+   "ruby": {
+    "lenient": 1.0,
+    "strict": null,
+    "strict_error": "ArgumentError"
+   },
+   "php": {
+    "lenient": 1,
+    "strict": null,
+    "strict_error": "FILTER_VALIDATE_FLOAT"
+   },
+   "perl": {
+    "lenient": 1,
+    "strict": null,
+    "strict_absent": true
+   }
+  },
+  {
+   "string": "1\u202f234,5",
+   "python": {
+    "strict": null,
+    "strict_error": "ValueError",
+    "lenient": null,
+    "lenient_absent": true
+   },
+   "node": {
+    "strict": "NaN",
+    "lenient": 1
+   },
+   "ruby": {
+    "lenient": 1.0,
+    "strict": null,
+    "strict_error": "ArgumentError"
+   },
+   "php": {
+    "lenient": 1,
+    "strict": null,
+    "strict_error": "FILTER_VALIDATE_FLOAT"
+   },
+   "perl": {
+    "lenient": 1,
+    "strict": null,
+    "strict_absent": true
+   }
+  },
+  {
+   "string": "1_000",
+   "python": {
+    "strict": 1000.0,
+    "lenient": null,
+    "lenient_absent": true
+   },
+   "node": {
+    "strict": "NaN",
+    "lenient": 1
+   },
+   "ruby": {
+    "lenient": 1000.0,
+    "strict": 1000.0
+   },
+   "php": {
+    "lenient": 1,
+    "strict": null,
+    "strict_error": "FILTER_VALIDATE_FLOAT"
+   },
+   "perl": {
+    "lenient": 1,
+    "strict": null,
+    "strict_absent": true
+   }
+  },
+  {
+   "string": "0x1A",
+   "python": {
+    "strict": null,
+    "strict_error": "ValueError",
+    "lenient": null,
+    "lenient_absent": true
+   },
+   "node": {
+    "strict": 26,
+    "lenient": 0
+   },
+   "ruby": {
+    "lenient": 0.0,
+    "strict": 26.0
+   },
+   "php": {
+    "lenient": 0,
+    "strict": null,
+    "strict_error": "FILTER_VALIDATE_FLOAT"
+   },
+   "perl": {
+    "lenient": 0,
+    "strict": null,
+    "strict_absent": true
+   }
+  },
+  {
+   "string": "0o17",
+   "python": {
+    "strict": null,
+    "strict_error": "ValueError",
+    "lenient": null,
+    "lenient_absent": true
+   },
+   "node": {
+    "strict": 15,
+    "lenient": 0
+   },
+   "ruby": {
+    "lenient": 0.0,
+    "strict": null,
+    "strict_error": "ArgumentError"
+   },
+   "php": {
+    "lenient": 0,
+    "strict": null,
+    "strict_error": "FILTER_VALIDATE_FLOAT"
+   },
+   "perl": {
+    "lenient": 0,
+    "strict": null,
+    "strict_absent": true
+   }
+  },
+  {
+   "string": "017",
+   "python": {
+    "strict": 17.0,
+    "lenient": null,
+    "lenient_absent": true
+   },
+   "node": {
+    "strict": 17,
+    "lenient": 17
+   },
+   "ruby": {
+    "lenient": 17.0,
+    "strict": 17.0
+   },
+   "php": {
+    "lenient": 17,
+    "strict": 17,
+    "strict_error": null
+   },
+   "perl": {
+    "lenient": 17,
+    "strict": null,
+    "strict_absent": true
+   }
+  },
+  {
+   "string": "1e3",
+   "python": {
+    "strict": 1000.0,
+    "lenient": null,
+    "lenient_absent": true
+   },
+   "node": {
+    "strict": 1000,
+    "lenient": 1000
+   },
+   "ruby": {
+    "lenient": 1000.0,
+    "strict": 1000.0
+   },
+   "php": {
+    "lenient": 1000,
+    "strict": 1000,
+    "strict_error": null
+   },
+   "perl": {
+    "lenient": 1000,
+    "strict": null,
+    "strict_absent": true
+   }
+  },
+  {
+   "string": "1E3",
+   "python": {
+    "strict": 1000.0,
+    "lenient": null,
+    "lenient_absent": true
+   },
+   "node": {
+    "strict": 1000,
+    "lenient": 1000
+   },
+   "ruby": {
+    "lenient": 1000.0,
+    "strict": 1000.0
+   },
+   "php": {
+    "lenient": 1000,
+    "strict": 1000,
+    "strict_error": null
+   },
+   "perl": {
+    "lenient": 1000,
+    "strict": null,
+    "strict_absent": true
+   }
+  },
+  {
+   "string": "  42  ",
+   "python": {
+    "strict": 42.0,
+    "lenient": null,
+    "lenient_absent": true
+   },
+   "node": {
+    "strict": 42,
+    "lenient": 42
+   },
+   "ruby": {
+    "lenient": 42.0,
+    "strict": 42.0
+   },
+   "php": {
+    "lenient": 42,
+    "strict": 42,
+    "strict_error": null
+   },
+   "perl": {
+    "lenient": 42,
+    "strict": null,
+    "strict_absent": true
+   }
+  },
+  {
+   "string": "42abc",
+   "python": {
+    "strict": null,
+    "strict_error": "ValueError",
+    "lenient": null,
+    "lenient_absent": true
+   },
+   "node": {
+    "strict": "NaN",
+    "lenient": 42
+   },
+   "ruby": {
+    "lenient": 42.0,
+    "strict": null,
+    "strict_error": "ArgumentError"
+   },
+   "php": {
+    "lenient": 42,
+    "strict": null,
+    "strict_error": "FILTER_VALIDATE_FLOAT"
+   },
+   "perl": {
+    "lenient": 42,
+    "strict": null,
+    "strict_absent": true
+   }
+  },
+  {
+   "string": "abc42",
+   "python": {
+    "strict": null,
+    "strict_error": "ValueError",
+    "lenient": null,
+    "lenient_absent": true
+   },
+   "node": {
+    "strict": "NaN",
+    "lenient": "NaN"
+   },
+   "ruby": {
+    "lenient": 0.0,
+    "strict": null,
+    "strict_error": "ArgumentError"
+   },
+   "php": {
+    "lenient": 0,
+    "strict": null,
+    "strict_error": "FILTER_VALIDATE_FLOAT"
+   },
+   "perl": {
+    "lenient": 0,
+    "strict": null,
+    "strict_absent": true
+   }
+  },
+  {
+   "string": "",
+   "python": {
+    "strict": null,
+    "strict_error": "ValueError",
+    "lenient": null,
+    "lenient_absent": true
+   },
+   "node": {
+    "strict": 0,
+    "lenient": "NaN"
+   },
+   "ruby": {
+    "lenient": 0.0,
+    "strict": null,
+    "strict_error": "ArgumentError"
+   },
+   "php": {
+    "lenient": 0,
+    "strict": null,
+    "strict_error": "FILTER_VALIDATE_FLOAT"
+   },
+   "perl": {
+    "lenient": 0,
+    "strict": null,
+    "strict_absent": true
+   }
+  },
+  {
+   "string": "+.5",
+   "python": {
+    "strict": 0.5,
+    "lenient": null,
+    "lenient_absent": true
+   },
+   "node": {
+    "strict": 0.5,
+    "lenient": 0.5
+   },
+   "ruby": {
+    "lenient": 0.5,
+    "strict": 0.5
+   },
+   "php": {
+    "lenient": 0.5,
+    "strict": 0.5,
+    "strict_error": null
+   },
+   "perl": {
+    "lenient": 0.5,
+    "strict": null,
+    "strict_absent": true
+   }
+  },
+  {
+   "string": "-.5",
+   "python": {
+    "strict": -0.5,
+    "lenient": null,
+    "lenient_absent": true
+   },
+   "node": {
+    "strict": -0.5,
+    "lenient": -0.5
+   },
+   "ruby": {
+    "lenient": -0.5,
+    "strict": -0.5
+   },
+   "php": {
+    "lenient": -0.5,
+    "strict": -0.5,
+    "strict_error": null
+   },
+   "perl": {
+    "lenient": -0.5,
+    "strict": null,
+    "strict_absent": true
+   }
+  },
+  {
+   "string": ".",
+   "python": {
+    "strict": null,
+    "strict_error": "ValueError",
+    "lenient": null,
+    "lenient_absent": true
+   },
+   "node": {
+    "strict": "NaN",
+    "lenient": "NaN"
+   },
+   "ruby": {
+    "lenient": 0.0,
+    "strict": null,
+    "strict_error": "ArgumentError"
+   },
+   "php": {
+    "lenient": 0,
+    "strict": null,
+    "strict_error": "FILTER_VALIDATE_FLOAT"
+   },
+   "perl": {
+    "lenient": 0,
+    "strict": null,
+    "strict_absent": true
+   }
+  },
+  {
+   "string": "1,,2",
+   "python": {
+    "strict": null,
+    "strict_error": "ValueError",
+    "lenient": null,
+    "lenient_absent": true
+   },
+   "node": {
+    "strict": "NaN",
+    "lenient": 1
+   },
+   "ruby": {
+    "lenient": 1.0,
+    "strict": null,
+    "strict_error": "ArgumentError"
+   },
+   "php": {
+    "lenient": 1,
+    "strict": null,
+    "strict_error": "FILTER_VALIDATE_FLOAT"
+   },
+   "perl": {
+    "lenient": 1,
+    "strict": null,
+    "strict_absent": true
+   }
+  },
+  {
+   "string": "Infinity",
+   "python": {
+    "strict": Infinity,
+    "lenient": null,
+    "lenient_absent": true
+   },
+   "node": {
+    "strict": "Infinity",
+    "lenient": "Infinity"
+   },
+   "ruby": {
+    "lenient": 0.0,
+    "strict": null,
+    "strict_error": "ArgumentError"
+   },
+   "php": {
+    "lenient": 0,
+    "strict": null,
+    "strict_error": "FILTER_VALIDATE_FLOAT"
+   },
+   "perl": {
+    "lenient": "Inf",
+    "strict": null,
+    "strict_absent": true
+   }
+  },
+  {
+   "string": "inf",
+   "python": {
+    "strict": Infinity,
+    "lenient": null,
+    "lenient_absent": true
+   },
+   "node": {
+    "strict": "NaN",
+    "lenient": "NaN"
+   },
+   "ruby": {
+    "lenient": 0.0,
+    "strict": null,
+    "strict_error": "ArgumentError"
+   },
+   "php": {
+    "lenient": 0,
+    "strict": null,
+    "strict_error": "FILTER_VALIDATE_FLOAT"
+   },
+   "perl": {
+    "lenient": "Inf",
+    "strict": null,
+    "strict_absent": true
+   }
+  },
+  {
+   "string": "NaN",
+   "python": {
+    "strict": NaN,
+    "lenient": null,
+    "lenient_absent": true
+   },
+   "node": {
+    "strict": "NaN",
+    "lenient": "NaN"
+   },
+   "ruby": {
+    "lenient": 0.0,
+    "strict": null,
+    "strict_error": "ArgumentError"
+   },
+   "php": {
+    "lenient": 0,
+    "strict": null,
+    "strict_error": "FILTER_VALIDATE_FLOAT"
+   },
+   "perl": {
+    "lenient": "NaN",
+    "strict": null,
+    "strict_absent": true
+   }
+  },
+  {
+   "string": "nan",
+   "python": {
+    "strict": NaN,
+    "lenient": null,
+    "lenient_absent": true
+   },
+   "node": {
+    "strict": "NaN",
+    "lenient": "NaN"
+   },
+   "ruby": {
+    "lenient": 0.0,
+    "strict": null,
+    "strict_error": "ArgumentError"
+   },
+   "php": {
+    "lenient": 0,
+    "strict": null,
+    "strict_error": "FILTER_VALIDATE_FLOAT"
+   },
+   "perl": {
+    "lenient": "NaN",
+    "strict": null,
+    "strict_absent": true
+   }
+  },
+  {
+   "string": "1e400",
+   "python": {
+    "strict": Infinity,
+    "lenient": null,
+    "lenient_absent": true
+   },
+   "node": {
+    "strict": "Infinity",
+    "lenient": "Infinity"
+   },
+   "ruby": {
+    "lenient": "Infinity",
+    "strict": "Infinity"
+   },
+   "php": {
+    "lenient": "INF",
+    "strict": null,
+    "strict_error": "FILTER_VALIDATE_FLOAT"
+   },
+   "perl": {
+    "lenient": "Inf",
+    "strict": null,
+    "strict_absent": true
+   }
+  },
+  {
+   "string": "9007199254740993",
+   "python": {
+    "strict": 9007199254740992.0,
+    "lenient": null,
+    "lenient_absent": true
+   },
+   "node": {
+    "strict": 9007199254740992,
+    "lenient": 9007199254740992
+   },
+   "ruby": {
+    "lenient": 9007199254740992.0,
+    "strict": 9007199254740992.0
+   },
+   "php": {
+    "lenient": 9007199254740992,
+    "strict": 9007199254740992,
+    "strict_error": null
+   },
+   "perl": {
+    "lenient": 9007199254740993,
+    "strict": null,
+    "strict_absent": true
+   }
+  },
+  {
+   "string": "\u0661\u0662\u0663",
+   "python": {
+    "strict": 123.0,
+    "lenient": null,
+    "lenient_absent": true
+   },
+   "node": {
+    "strict": "NaN",
+    "lenient": "NaN"
+   },
+   "ruby": {
+    "lenient": 0.0,
+    "strict": null,
+    "strict_error": "ArgumentError"
+   },
+   "php": {
+    "lenient": 0,
+    "strict": null,
+    "strict_error": "FILTER_VALIDATE_FLOAT"
+   },
+   "perl": {
+    "lenient": 0,
+    "strict": null,
+    "strict_absent": true
+   }
+  },
+  {
+   "string": "\uff11\uff12\uff13",
+   "python": {
+    "strict": 123.0,
+    "lenient": null,
+    "lenient_absent": true
+   },
+   "node": {
+    "strict": "NaN",
+    "lenient": "NaN"
+   },
+   "ruby": {
+    "lenient": 0.0,
+    "strict": null,
+    "strict_error": "ArgumentError"
+   },
+   "php": {
+    "lenient": 0,
+    "strict": null,
+    "strict_error": "FILTER_VALIDATE_FLOAT"
+   },
+   "perl": {
+    "lenient": 0,
+    "strict": null,
+    "strict_absent": true
+   }
+  }
+ ],
+ "predictions": {
+  "P1  D0 cross-party silent cells > 100": {
+   "value": 2125,
+   "verdict": "confirmed"
+  },
+  "P2  at least one both-invisible cell": {
+   "value": 8896,
+   "verdict": "confirmed"
+  },
+  "P3  zero both-invisible cells LOCATE an error": {
+   "value": "hand-adjudicated",
+   "verdict": "see adjudication.json"
+  },
+  "P4  largest both-invisible shape is a zone difference": {
+   "value": {
+    "zone-difference": 5489,
+    "whole-hour": 1718,
+    "zone-offset": 1689
+   },
+   "verdict": "confirmed"
+  },
+  "P5  D1 silent < one tenth of D0 silent": {
+   "value": {
+    "D0": 2125,
+    "D1": 0
+   },
+   "verdict": "confirmed"
+  },
+  "P6  at least one cell ok in one zone and silent in another": {
+   "value": 1065,
+   "verdict": "confirmed"
+  },
+  "P7  every refusal is the parser's own report": {
+   "value": true,
+   "verdict": "confirmed by construction"
+  },
+  "P8  two runtimes agree and are both wrong in family N": {
+   "value": "hand-adjudicated",
+   "verdict": "see adjudication.json"
+  },
+  "P9  no runtime is defective": {
+   "value": "hand-adjudicated",
+   "verdict": "see adjudication.json"
+  },
+  "P10 falsifier not met, failing at condition 2 rather than condition 3": {
+   "value": "condition 3 satisfied iff P2 confirmed; condition 2 by hand",
+   "verdict": "see adjudication.json"
+  }
+ }
+}

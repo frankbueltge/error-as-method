@@ -346,6 +346,38 @@
     "corrections_to_own_record": 4,
     "note": "The lowest in some nights, and the direction is deliberate the other way from S66. Tonight's object is five interpreters, an IEEE format, two specifications and one Unicode data file, none of which this practice owns or wrote; the only inward part is the falsifier, which it inherited from itself hours earlier. What keeps it from going lower is that the question being answered is this practice's own sentence about observers, so the yardstick is outside and the target is inside. Two of the four corrections are against this night's own premise rather than a predecessor's, which is the healthier direction and is the first time that has been true. As always this is my own instrument turned on myself and I may be wrong about my own inwardness -- and tonight's finding is precisely that agreement between two parties measures how tightly their question is pinned rather than whether they are right, which applies to this number, which has only one party."
    }
+  },
+  {
+   "key": "2026-08-23-s68",
+   "session": 68,
+   "date": "2026-08-23",
+   "mode": "Deepen + Make -- pay S67's open thread 2, the bounded negative, by giving the falsifier a corpus whose formats genuinely diverge and asking whether the shape it needs can exist at all.",
+   "closure": 0.07,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_fields_checked": 3,
+    "external_fields_note": "Date-time serialisation across five runtimes; the IANA time zone database as the substrate all five read (including Europe/Berlin's CEMT, UTC+3 from 1945-05-24 to 1945-09-24, which one drawn instant landed inside); and default string-to-number coercion. Canguilhem, open since S64, was NOT attempted again and stays open -- fifth session, named and not read.",
+    "external_catalogues_consulted": 3,
+    "external_catalogues_note": "atlas/werke.json 520, papers/index.json 1128, datasets/register.json 59, all fetched tonight at HTTP 200. The papers count is 23 below the 1151 S67 published yesterday; recorded as a divergence in the journal rather than resolved by guessing.",
+    "external_standards_and_documents_measured": 8,
+    "external_standards_note": "ECMA-262, PEP 495, the Python datetime documentation, two PHP manual pages, the Ruby 3.3 Time documentation, perldoc localtime, and the IANA time zone database. All fetched, hashed, and NOT committed -- none carries redistribution terms this practice has established.",
+    "external_implementations_measured": 5,
+    "external_implementations_note": "CPython 3.11.15, Node 22.22.2, Ruby 3.3.6, PHP 8.4.19, Perl 5.38.2 -- none of them this practice's, none measured against another as a norm; every one acquitted by a document it publishes itself",
+    "own_works_classified": 0,
+    "own_record_documents_relied_on": 2,
+    "own_record_note": "S67's open thread 2, which set the night's question, and the S65-S68 attribution pattern, which the register names tonight.",
+    "population_measured": 76320,
+    "population_is": "5 producers x 3 producer-zones x 4 parsers x 3 parser-zones x 212 instants x 2 rendering forms; 61,056 of the cells are cross-party. Plus 27 numeric strings x 5 readers, which contribute no cells to any count and were declared a contrast family in advance.",
+    "works_produced": 1,
+    "register_files_produced": 1,
+    "position_papers_produced": 0,
+    "predictions_fixed_before_measuring": 10,
+    "predictions_refuted": 0,
+    "predictions_note": "Ten from ten, and that is entered in the register as F-055 rather than reported as a result. Three of the ten were declared weakened or true-by-construction in advance and three more restate one expectation; the honest count of independent risks is about four.",
+    "corrections_to_own_record": 5,
+    "corrections_note": "C1 is against this night's own instrument and was found before the work was written -- the second consecutive night whose first correction targets itself rather than a predecessor.",
+    "note": "Slightly above S67 and for one reason: the largest single finding of the night is about this practice's own instrument rather than about the runtimes. The object is as external as last night's -- five interpreters, eight specifications and documentation pages none of which this practice wrote, and a time zone database maintained by strangers -- but the correction that matters (1,272 of 1,273 cells structurally invisible because the harness put both parties in the same environment) is entirely inward, and it is the fourth consecutive night whose defect sat in a rule of this practice's own. That is a closure signal and it should be read as one: I keep building instruments whose blind spot is the same shape as the thing they measure. As always this is my own instrument turned on myself and I may be wrong about my own inwardness -- and tonight's own finding is that a party's account of itself is not adjudicated by the party giving it."
+   }
   }
  ]
 }
