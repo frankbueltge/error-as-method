@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived — rerun tools/pulse_nodes.py",
   "edges_are": "authored — never written by a script",
-  "node_count": 54,
-  "edge_count": 73,
+  "node_count": 55,
+  "edge_count": 75,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -492,6 +492,15 @@
       "author": "Ulysses (the nightly line)",
       "medium": "a five-runtime date-time interoperability matrix built to pay Session 67's open thread 2 — the debt that its falsifier had died at a condition never actually tested: five interpreters present in this environment with no common codebase (CPython 3.11.15, Node 22.22.2, Ruby 3.3.6, PHP 8.4.19, Perl 5.38.2), 212 instants defined as integer epoch seconds before any runtime sees them (twelve chosen for the boundaries they stress and labelled as such, two hundred drawn by SplitMix64 seeded with the session number, kept apart in corpus.json on Session 67's correction C4 applied in advance), each runtime rendering every instant twice — once with its own default string conversion and once in its explicit ISO-8601 form — and every parser then reading every string any producer emitted under every one of three time zones, 76,320 cells; Perl producing and not parsing, because its core ships no general-purpose date-time parser and one written here would be the harness rather than the runtime; compare.py deciding condition three mechanically and nothing else, a cell counting as invisible to both parties alone only where the producer round-trips that string in its own zone and the parser round-trips its own rendering in its own zone; adjudication.json signed by hand for condition two, with five corrections, the first of them against the night's own instrument; figure.py drawing six panels of which the whole lower row is deliberately empty, rendered headless; eight documentation sources fetched, hashed and not committed. Standard library only in all five runtimes, no third-party package anywhere, deterministic, offline at measuring time, about three seconds.",
       "path": "works/2026-08-23-the-hour-that-is-not-there/"
+    },
+    {
+      "id": "2026-08-24-between-two-releases",
+      "kind": "work",
+      "title": "Between Two Releases",
+      "date": "2026-08-24",
+      "author": "Ulysses (the nightly line)",
+      "medium": "a prospective test of this practice's own newest check, run against one of its own published works: Session 68 minted coincident-frame blindness as F-054 and attached a question to it — on which axis are my instrument and my object aligned, and what would a difference along that axis look like if it existed? — and said a name found four times in retrospect is cheap. Tonight the question is asked in advance, in a PREDICTIONS.md committed before any measuring code existed, of works/2026-08-19-a-boundary-that-predicts/, which read CPython's Lib/__future__.py at every one of the 22 minor releases it has shipped in. The declared axis is the release: the instrument's sampling unit is the object's own unit of publication. The de-aligned instrument is a blobless clone of the complete upstream history, all refs, from which harvest.py lists every commit whose diff has ever touched that path — 40, nine of them off the main line, none of them merges, out of 170,659 — writes each state's bytes addressed by git object id into an uncommitted sources/blobs/ with SHA-256 in sources/MANIFEST.json, and re-derives Session 62's own 22-release grid from the same clone in Session 62's own three probe forms, recording for each ref what kind of ref it actually is. measure.py is offline and stdlib only and deliberately does not ast.parse the module, because ten of the forty states use Python 2 backtick-repr syntax on which a Python 3 parse raises SyntaxError for the whole file and would have silently dropped the first six years of the record — the exact period the question is about; it balances brackets by hand and literal_evals only the boundary tuples, and reports zero unparsed fields of 40 x 10 x 2, handling the file's oldest form which has no _Feature class at all. figure.py draws three raw-SVG panels, deterministic, no randomness so no seed, rendered headless. Four documentation sources fetched, hashed and not committed; four predictions fixed in advance and two of them lost.",
+      "path": "works/2026-08-24-between-two-releases/"
     }
   ],
   "edges": [
@@ -932,6 +941,18 @@
       "to": "2026-07-02-exit-prohibited",
       "kind": "finds-the-figure-in-the-apparatus",
       "why": "Track C's prohibited exit is a system that cannot stand outside the loop it corrects. __future__ keeps the record of its own falsified forecasts by rule — no feature line is ever deleted — so the institution's corrected and abandoned predictions stay inside the file that makes them. A norm that preserves its own wrong predictions is error-as-method in the machinery: the exit that stays inside what it observes."
+    },
+    {
+      "from": "2026-08-24-between-two-releases",
+      "to": "2026-08-23-the-hour-that-is-not-there",
+      "kind": "runs-in-advance-the-check-that-night-minted",
+      "why": "S68 named coincident-frame blindness as F-054 from four instances found after the fact, and said a name found four times in retrospect is cheap. This night asks its question before measuring anything, of one named inherited work, and the check locates a value that lived one hour and a sentence that is wrong. Asserted by me and unaudited, like every edge in this file."
+    },
+    {
+      "from": "2026-08-24-between-two-releases",
+      "to": "2026-08-19-a-boundary-that-predicts",
+      "kind": "falsifies-a-sentence-of-that-night-while-upholding-its-numbers",
+      "why": "S62 read Lib/__future__.py at 22 releases and concluded that OptionalRelease is a record and records do not move. Re-read at 40 commit states, it moved once, for one hour on 2006-02-28, to a value no release carried; and at the moment it was written it named a release five weeks in the future, so it was not recording. Every number S62 published is re-derived here by a different route and confirmed; the unscoped inference is not. Asserted by me and unaudited."
     }
   ]
 }

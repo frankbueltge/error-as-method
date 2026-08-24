@@ -1,0 +1,2147 @@
+{
+ "night": "2026-08-24",
+ "session": 69,
+ "what_this_measures": "The two boundary fields of every __future__ feature, read at every commit that has ever touched Lib/__future__.py on any ref (population P-B, 40 states), and at Session 62's own 22-release grid re-derived from the same clone (population P-A). The night's question is whether any value exists in P-B that is absent from P-A: a state of the norm that no release ever carried.",
+ "populations": {
+  "P-B_commit_states": 40,
+  "P-A_release_states": 22,
+  "features_seen_at_commit_level": [
+   "absolute_import",
+   "annotations",
+   "barry_as_FLUFL",
+   "division",
+   "generator_stop",
+   "generators",
+   "nested_scopes",
+   "print_function",
+   "unicode_literals",
+   "with_statement"
+  ],
+  "features_seen_at_release_level": [
+   "absolute_import",
+   "annotations",
+   "barry_as_FLUFL",
+   "division",
+   "generator_stop",
+   "generators",
+   "nested_scopes",
+   "print_function",
+   "unicode_literals",
+   "with_statement"
+  ]
+ },
+ "features_in_which_the_field_moved": {
+  "release_grid.minor_precision.optional": 0,
+  "release_grid.minor_precision.mandatory": 3,
+  "release_grid.tuple_precision.optional": 0,
+  "release_grid.tuple_precision.mandatory": 4,
+  "commit_grid.minor_precision.optional": 0,
+  "commit_grid.minor_precision.mandatory": 3,
+  "commit_grid.tuple_precision.optional": 1,
+  "commit_grid.tuple_precision.mandatory": 4
+ },
+ "unparsed_fields": [],
+ "P1_tuple_values_never_released": [
+  {
+   "feature": "with_statement",
+   "field": "optional",
+   "values": [
+    "[2, 5, 0, \"alpha\", 2]"
+   ]
+  }
+ ],
+ "P1_minor_values_never_released": [],
+ "P3_features_never_released": [],
+ "per_feature": {
+  "nested_scopes": {
+   "optional": {
+    "commit_runs": [
+     {
+      "value": [
+       2,
+       1,
+       0,
+       "beta",
+       1
+      ],
+      "since": "c000",
+      "until": "c039"
+     }
+    ],
+    "release_runs": [
+     {
+      "value": [
+       2,
+       1,
+       0,
+       "beta",
+       1
+      ],
+      "since": "2.1",
+      "until": "3.14"
+     }
+    ],
+    "commit_distinct_tuples": [
+     "[2, 1, 0, \"beta\", 1]"
+    ],
+    "release_distinct_tuples": [
+     "[2, 1, 0, \"beta\", 1]"
+    ],
+    "commit_distinct_minor": [
+     "2.1"
+    ],
+    "release_distinct_minor": [
+     "2.1"
+    ],
+    "tuples_never_released": [],
+    "minors_never_released": [],
+    "moves_commit_tuple": 0,
+    "moves_release_tuple": 0,
+    "moves_commit_minor": 0,
+    "moves_release_minor": 0
+   },
+   "mandatory": {
+    "commit_runs": [
+     {
+      "value": [
+       2,
+       2,
+       0,
+       "final",
+       0
+      ],
+      "since": "c000",
+      "until": "c004"
+     },
+     {
+      "value": [
+       2,
+       2,
+       0,
+       "alpha",
+       0
+      ],
+      "since": "c005",
+      "until": "c039"
+     }
+    ],
+    "release_runs": [
+     {
+      "value": [
+       2,
+       2,
+       0,
+       "final",
+       0
+      ],
+      "since": "2.1",
+      "until": "2.1"
+     },
+     {
+      "value": [
+       2,
+       2,
+       0,
+       "alpha",
+       0
+      ],
+      "since": "2.2",
+      "until": "3.14"
+     }
+    ],
+    "commit_distinct_tuples": [
+     "[2, 2, 0, \"alpha\", 0]",
+     "[2, 2, 0, \"final\", 0]"
+    ],
+    "release_distinct_tuples": [
+     "[2, 2, 0, \"alpha\", 0]",
+     "[2, 2, 0, \"final\", 0]"
+    ],
+    "commit_distinct_minor": [
+     "2.2"
+    ],
+    "release_distinct_minor": [
+     "2.2"
+    ],
+    "tuples_never_released": [],
+    "minors_never_released": [],
+    "moves_commit_tuple": 1,
+    "moves_release_tuple": 1,
+    "moves_commit_minor": 0,
+    "moves_release_minor": 0
+   },
+   "in_commits": true,
+   "in_releases": true
+  },
+  "generators": {
+   "optional": {
+    "commit_runs": [
+     {
+      "value": [
+       2,
+       2,
+       0,
+       "alpha",
+       1
+      ],
+      "since": "c006",
+      "until": "c039"
+     }
+    ],
+    "release_runs": [
+     {
+      "value": [
+       2,
+       2,
+       0,
+       "alpha",
+       1
+      ],
+      "since": "2.2",
+      "until": "3.14"
+     }
+    ],
+    "commit_distinct_tuples": [
+     "[2, 2, 0, \"alpha\", 1]"
+    ],
+    "release_distinct_tuples": [
+     "[2, 2, 0, \"alpha\", 1]"
+    ],
+    "commit_distinct_minor": [
+     "2.2"
+    ],
+    "release_distinct_minor": [
+     "2.2"
+    ],
+    "tuples_never_released": [],
+    "minors_never_released": [],
+    "moves_commit_tuple": 0,
+    "moves_release_tuple": 0,
+    "moves_commit_minor": 0,
+    "moves_release_minor": 0
+   },
+   "mandatory": {
+    "commit_runs": [
+     {
+      "value": [
+       2,
+       3,
+       0,
+       "final",
+       0
+      ],
+      "since": "c006",
+      "until": "c039"
+     }
+    ],
+    "release_runs": [
+     {
+      "value": [
+       2,
+       3,
+       0,
+       "final",
+       0
+      ],
+      "since": "2.2",
+      "until": "3.14"
+     }
+    ],
+    "commit_distinct_tuples": [
+     "[2, 3, 0, \"final\", 0]"
+    ],
+    "release_distinct_tuples": [
+     "[2, 3, 0, \"final\", 0]"
+    ],
+    "commit_distinct_minor": [
+     "2.3"
+    ],
+    "release_distinct_minor": [
+     "2.3"
+    ],
+    "tuples_never_released": [],
+    "minors_never_released": [],
+    "moves_commit_tuple": 0,
+    "moves_release_tuple": 0,
+    "moves_commit_minor": 0,
+    "moves_release_minor": 0
+   },
+   "in_commits": true,
+   "in_releases": true
+  },
+  "division": {
+   "optional": {
+    "commit_runs": [
+     {
+      "value": [
+       2,
+       2,
+       0,
+       "alpha",
+       2
+      ],
+      "since": "c007",
+      "until": "c039"
+     }
+    ],
+    "release_runs": [
+     {
+      "value": [
+       2,
+       2,
+       0,
+       "alpha",
+       2
+      ],
+      "since": "2.2",
+      "until": "3.14"
+     }
+    ],
+    "commit_distinct_tuples": [
+     "[2, 2, 0, \"alpha\", 2]"
+    ],
+    "release_distinct_tuples": [
+     "[2, 2, 0, \"alpha\", 2]"
+    ],
+    "commit_distinct_minor": [
+     "2.2"
+    ],
+    "release_distinct_minor": [
+     "2.2"
+    ],
+    "tuples_never_released": [],
+    "minors_never_released": [],
+    "moves_commit_tuple": 0,
+    "moves_release_tuple": 0,
+    "moves_commit_minor": 0,
+    "moves_release_minor": 0
+   },
+   "mandatory": {
+    "commit_runs": [
+     {
+      "value": [
+       3,
+       0,
+       0,
+       "alpha",
+       0
+      ],
+      "since": "c007",
+      "until": "c039"
+     }
+    ],
+    "release_runs": [
+     {
+      "value": [
+       3,
+       0,
+       0,
+       "alpha",
+       0
+      ],
+      "since": "2.2",
+      "until": "3.14"
+     }
+    ],
+    "commit_distinct_tuples": [
+     "[3, 0, 0, \"alpha\", 0]"
+    ],
+    "release_distinct_tuples": [
+     "[3, 0, 0, \"alpha\", 0]"
+    ],
+    "commit_distinct_minor": [
+     "3.0"
+    ],
+    "release_distinct_minor": [
+     "3.0"
+    ],
+    "tuples_never_released": [],
+    "minors_never_released": [],
+    "moves_commit_tuple": 0,
+    "moves_release_tuple": 0,
+    "moves_commit_minor": 0,
+    "moves_release_minor": 0
+   },
+   "in_commits": true,
+   "in_releases": true
+  },
+  "absolute_import": {
+   "optional": {
+    "commit_runs": [
+     {
+      "value": [
+       2,
+       5,
+       0,
+       "alpha",
+       1
+      ],
+      "since": "c014",
+      "until": "c039"
+     }
+    ],
+    "release_runs": [
+     {
+      "value": [
+       2,
+       5,
+       0,
+       "alpha",
+       1
+      ],
+      "since": "2.5",
+      "until": "3.14"
+     }
+    ],
+    "commit_distinct_tuples": [
+     "[2, 5, 0, \"alpha\", 1]"
+    ],
+    "release_distinct_tuples": [
+     "[2, 5, 0, \"alpha\", 1]"
+    ],
+    "commit_distinct_minor": [
+     "2.5"
+    ],
+    "release_distinct_minor": [
+     "2.5"
+    ],
+    "tuples_never_released": [],
+    "minors_never_released": [],
+    "moves_commit_tuple": 0,
+    "moves_release_tuple": 0,
+    "moves_commit_minor": 0,
+    "moves_release_minor": 0
+   },
+   "mandatory": {
+    "commit_runs": [
+     {
+      "value": [
+       2,
+       7,
+       0,
+       "alpha",
+       0
+      ],
+      "since": "c014",
+      "until": "c025"
+     },
+     {
+      "value": [
+       3,
+       0,
+       0,
+       "alpha",
+       0
+      ],
+      "since": "c026",
+      "until": "c039"
+     }
+    ],
+    "release_runs": [
+     {
+      "value": [
+       2,
+       7,
+       0,
+       "alpha",
+       0
+      ],
+      "since": "2.5",
+      "until": "3.2"
+     },
+     {
+      "value": [
+       3,
+       0,
+       0,
+       "alpha",
+       0
+      ],
+      "since": "3.3",
+      "until": "3.14"
+     }
+    ],
+    "commit_distinct_tuples": [
+     "[2, 7, 0, \"alpha\", 0]",
+     "[3, 0, 0, \"alpha\", 0]"
+    ],
+    "release_distinct_tuples": [
+     "[2, 7, 0, \"alpha\", 0]",
+     "[3, 0, 0, \"alpha\", 0]"
+    ],
+    "commit_distinct_minor": [
+     "2.7",
+     "3.0"
+    ],
+    "release_distinct_minor": [
+     "2.7",
+     "3.0"
+    ],
+    "tuples_never_released": [],
+    "minors_never_released": [],
+    "moves_commit_tuple": 1,
+    "moves_release_tuple": 1,
+    "moves_commit_minor": 1,
+    "moves_release_minor": 1
+   },
+   "in_commits": true,
+   "in_releases": true
+  },
+  "with_statement": {
+   "optional": {
+    "commit_runs": [
+     {
+      "value": [
+       2,
+       5,
+       0,
+       "alpha",
+       2
+      ],
+      "since": "c015",
+      "until": "c015"
+     },
+     {
+      "value": [
+       2,
+       5,
+       0,
+       "alpha",
+       1
+      ],
+      "since": "c016",
+      "until": "c039"
+     }
+    ],
+    "release_runs": [
+     {
+      "value": [
+       2,
+       5,
+       0,
+       "alpha",
+       1
+      ],
+      "since": "2.5",
+      "until": "3.14"
+     }
+    ],
+    "commit_distinct_tuples": [
+     "[2, 5, 0, \"alpha\", 1]",
+     "[2, 5, 0, \"alpha\", 2]"
+    ],
+    "release_distinct_tuples": [
+     "[2, 5, 0, \"alpha\", 1]"
+    ],
+    "commit_distinct_minor": [
+     "2.5"
+    ],
+    "release_distinct_minor": [
+     "2.5"
+    ],
+    "tuples_never_released": [
+     "[2, 5, 0, \"alpha\", 2]"
+    ],
+    "minors_never_released": [],
+    "moves_commit_tuple": 1,
+    "moves_release_tuple": 0,
+    "moves_commit_minor": 0,
+    "moves_release_minor": 0
+   },
+   "mandatory": {
+    "commit_runs": [
+     {
+      "value": [
+       2,
+       6,
+       0,
+       "alpha",
+       0
+      ],
+      "since": "c015",
+      "until": "c039"
+     }
+    ],
+    "release_runs": [
+     {
+      "value": [
+       2,
+       6,
+       0,
+       "alpha",
+       0
+      ],
+      "since": "2.5",
+      "until": "3.14"
+     }
+    ],
+    "commit_distinct_tuples": [
+     "[2, 6, 0, \"alpha\", 0]"
+    ],
+    "release_distinct_tuples": [
+     "[2, 6, 0, \"alpha\", 0]"
+    ],
+    "commit_distinct_minor": [
+     "2.6"
+    ],
+    "release_distinct_minor": [
+     "2.6"
+    ],
+    "tuples_never_released": [],
+    "minors_never_released": [],
+    "moves_commit_tuple": 0,
+    "moves_release_tuple": 0,
+    "moves_commit_minor": 0,
+    "moves_release_minor": 0
+   },
+   "in_commits": true,
+   "in_releases": true
+  },
+  "print_function": {
+   "optional": {
+    "commit_runs": [
+     {
+      "value": [
+       2,
+       6,
+       0,
+       "alpha",
+       2
+      ],
+      "since": "c020",
+      "until": "c039"
+     }
+    ],
+    "release_runs": [
+     {
+      "value": [
+       2,
+       6,
+       0,
+       "alpha",
+       2
+      ],
+      "since": "2.6",
+      "until": "3.14"
+     }
+    ],
+    "commit_distinct_tuples": [
+     "[2, 6, 0, \"alpha\", 2]"
+    ],
+    "release_distinct_tuples": [
+     "[2, 6, 0, \"alpha\", 2]"
+    ],
+    "commit_distinct_minor": [
+     "2.6"
+    ],
+    "release_distinct_minor": [
+     "2.6"
+    ],
+    "tuples_never_released": [],
+    "minors_never_released": [],
+    "moves_commit_tuple": 0,
+    "moves_release_tuple": 0,
+    "moves_commit_minor": 0,
+    "moves_release_minor": 0
+   },
+   "mandatory": {
+    "commit_runs": [
+     {
+      "value": [
+       3,
+       0,
+       0,
+       "alpha",
+       0
+      ],
+      "since": "c020",
+      "until": "c039"
+     }
+    ],
+    "release_runs": [
+     {
+      "value": [
+       3,
+       0,
+       0,
+       "alpha",
+       0
+      ],
+      "since": "2.6",
+      "until": "3.14"
+     }
+    ],
+    "commit_distinct_tuples": [
+     "[3, 0, 0, \"alpha\", 0]"
+    ],
+    "release_distinct_tuples": [
+     "[3, 0, 0, \"alpha\", 0]"
+    ],
+    "commit_distinct_minor": [
+     "3.0"
+    ],
+    "release_distinct_minor": [
+     "3.0"
+    ],
+    "tuples_never_released": [],
+    "minors_never_released": [],
+    "moves_commit_tuple": 0,
+    "moves_release_tuple": 0,
+    "moves_commit_minor": 0,
+    "moves_release_minor": 0
+   },
+   "in_commits": true,
+   "in_releases": true
+  },
+  "unicode_literals": {
+   "optional": {
+    "commit_runs": [
+     {
+      "value": [
+       2,
+       6,
+       0,
+       "alpha",
+       2
+      ],
+      "since": "c022",
+      "until": "c039"
+     }
+    ],
+    "release_runs": [
+     {
+      "value": [
+       2,
+       6,
+       0,
+       "alpha",
+       2
+      ],
+      "since": "2.6",
+      "until": "3.14"
+     }
+    ],
+    "commit_distinct_tuples": [
+     "[2, 6, 0, \"alpha\", 2]"
+    ],
+    "release_distinct_tuples": [
+     "[2, 6, 0, \"alpha\", 2]"
+    ],
+    "commit_distinct_minor": [
+     "2.6"
+    ],
+    "release_distinct_minor": [
+     "2.6"
+    ],
+    "tuples_never_released": [],
+    "minors_never_released": [],
+    "moves_commit_tuple": 0,
+    "moves_release_tuple": 0,
+    "moves_commit_minor": 0,
+    "moves_release_minor": 0
+   },
+   "mandatory": {
+    "commit_runs": [
+     {
+      "value": [
+       3,
+       0,
+       0,
+       "alpha",
+       0
+      ],
+      "since": "c022",
+      "until": "c039"
+     }
+    ],
+    "release_runs": [
+     {
+      "value": [
+       3,
+       0,
+       0,
+       "alpha",
+       0
+      ],
+      "since": "2.6",
+      "until": "3.14"
+     }
+    ],
+    "commit_distinct_tuples": [
+     "[3, 0, 0, \"alpha\", 0]"
+    ],
+    "release_distinct_tuples": [
+     "[3, 0, 0, \"alpha\", 0]"
+    ],
+    "commit_distinct_minor": [
+     "3.0"
+    ],
+    "release_distinct_minor": [
+     "3.0"
+    ],
+    "tuples_never_released": [],
+    "minors_never_released": [],
+    "moves_commit_tuple": 0,
+    "moves_release_tuple": 0,
+    "moves_commit_minor": 0,
+    "moves_release_minor": 0
+   },
+   "in_commits": true,
+   "in_releases": true
+  },
+  "barry_as_FLUFL": {
+   "optional": {
+    "commit_runs": [
+     {
+      "value": [
+       3,
+       1,
+       0,
+       "alpha",
+       2
+      ],
+      "since": "c024",
+      "until": "c039"
+     }
+    ],
+    "release_runs": [
+     {
+      "value": [
+       3,
+       1,
+       0,
+       "alpha",
+       2
+      ],
+      "since": "3.1",
+      "until": "3.14"
+     }
+    ],
+    "commit_distinct_tuples": [
+     "[3, 1, 0, \"alpha\", 2]"
+    ],
+    "release_distinct_tuples": [
+     "[3, 1, 0, \"alpha\", 2]"
+    ],
+    "commit_distinct_minor": [
+     "3.1"
+    ],
+    "release_distinct_minor": [
+     "3.1"
+    ],
+    "tuples_never_released": [],
+    "minors_never_released": [],
+    "moves_commit_tuple": 0,
+    "moves_release_tuple": 0,
+    "moves_commit_minor": 0,
+    "moves_release_minor": 0
+   },
+   "mandatory": {
+    "commit_runs": [
+     {
+      "value": [
+       3,
+       9,
+       0,
+       "alpha",
+       0
+      ],
+      "since": "c024",
+      "until": "c029"
+     },
+     {
+      "value": [
+       4,
+       0,
+       0,
+       "alpha",
+       0
+      ],
+      "since": "c030",
+      "until": "c039"
+     }
+    ],
+    "release_runs": [
+     {
+      "value": [
+       3,
+       9,
+       0,
+       "alpha",
+       0
+      ],
+      "since": "3.1",
+      "until": "3.7"
+     },
+     {
+      "value": [
+       4,
+       0,
+       0,
+       "alpha",
+       0
+      ],
+      "since": "3.8",
+      "until": "3.14"
+     }
+    ],
+    "commit_distinct_tuples": [
+     "[3, 9, 0, \"alpha\", 0]",
+     "[4, 0, 0, \"alpha\", 0]"
+    ],
+    "release_distinct_tuples": [
+     "[3, 9, 0, \"alpha\", 0]",
+     "[4, 0, 0, \"alpha\", 0]"
+    ],
+    "commit_distinct_minor": [
+     "3.9",
+     "4.0"
+    ],
+    "release_distinct_minor": [
+     "3.9",
+     "4.0"
+    ],
+    "tuples_never_released": [],
+    "minors_never_released": [],
+    "moves_commit_tuple": 1,
+    "moves_release_tuple": 1,
+    "moves_commit_minor": 1,
+    "moves_release_minor": 1
+   },
+   "in_commits": true,
+   "in_releases": true
+  },
+  "generator_stop": {
+   "optional": {
+    "commit_runs": [
+     {
+      "value": [
+       3,
+       5,
+       0,
+       "beta",
+       1
+      ],
+      "since": "c028",
+      "until": "c039"
+     }
+    ],
+    "release_runs": [
+     {
+      "value": [
+       3,
+       5,
+       0,
+       "beta",
+       1
+      ],
+      "since": "3.5",
+      "until": "3.14"
+     }
+    ],
+    "commit_distinct_tuples": [
+     "[3, 5, 0, \"beta\", 1]"
+    ],
+    "release_distinct_tuples": [
+     "[3, 5, 0, \"beta\", 1]"
+    ],
+    "commit_distinct_minor": [
+     "3.5"
+    ],
+    "release_distinct_minor": [
+     "3.5"
+    ],
+    "tuples_never_released": [],
+    "minors_never_released": [],
+    "moves_commit_tuple": 0,
+    "moves_release_tuple": 0,
+    "moves_commit_minor": 0,
+    "moves_release_minor": 0
+   },
+   "mandatory": {
+    "commit_runs": [
+     {
+      "value": [
+       3,
+       7,
+       0,
+       "alpha",
+       0
+      ],
+      "since": "c028",
+      "until": "c039"
+     }
+    ],
+    "release_runs": [
+     {
+      "value": [
+       3,
+       7,
+       0,
+       "alpha",
+       0
+      ],
+      "since": "3.5",
+      "until": "3.14"
+     }
+    ],
+    "commit_distinct_tuples": [
+     "[3, 7, 0, \"alpha\", 0]"
+    ],
+    "release_distinct_tuples": [
+     "[3, 7, 0, \"alpha\", 0]"
+    ],
+    "commit_distinct_minor": [
+     "3.7"
+    ],
+    "release_distinct_minor": [
+     "3.7"
+    ],
+    "tuples_never_released": [],
+    "minors_never_released": [],
+    "moves_commit_tuple": 0,
+    "moves_release_tuple": 0,
+    "moves_commit_minor": 0,
+    "moves_release_minor": 0
+   },
+   "in_commits": true,
+   "in_releases": true
+  },
+  "annotations": {
+   "optional": {
+    "commit_runs": [
+     {
+      "value": [
+       3,
+       7,
+       0,
+       "beta",
+       1
+      ],
+      "since": "c029",
+      "until": "c039"
+     }
+    ],
+    "release_runs": [
+     {
+      "value": [
+       3,
+       7,
+       0,
+       "beta",
+       1
+      ],
+      "since": "3.7",
+      "until": "3.14"
+     }
+    ],
+    "commit_distinct_tuples": [
+     "[3, 7, 0, \"beta\", 1]"
+    ],
+    "release_distinct_tuples": [
+     "[3, 7, 0, \"beta\", 1]"
+    ],
+    "commit_distinct_minor": [
+     "3.7"
+    ],
+    "release_distinct_minor": [
+     "3.7"
+    ],
+    "tuples_never_released": [],
+    "minors_never_released": [],
+    "moves_commit_tuple": 0,
+    "moves_release_tuple": 0,
+    "moves_commit_minor": 0,
+    "moves_release_minor": 0
+   },
+   "mandatory": {
+    "commit_runs": [
+     {
+      "value": [
+       4,
+       0,
+       0,
+       "alpha",
+       0
+      ],
+      "since": "c029",
+      "until": "c032"
+     },
+     {
+      "value": [
+       3,
+       10,
+       0,
+       "alpha",
+       0
+      ],
+      "since": "c033",
+      "until": "c036"
+     },
+     {
+      "value": [
+       3,
+       11,
+       0,
+       "alpha",
+       0
+      ],
+      "since": "c037",
+      "until": "c037"
+     },
+     {
+      "value": null,
+      "since": "c038",
+      "until": "c039"
+     }
+    ],
+    "release_runs": [
+     {
+      "value": [
+       4,
+       0,
+       0,
+       "alpha",
+       0
+      ],
+      "since": "3.7",
+      "until": "3.8"
+     },
+     {
+      "value": [
+       3,
+       10,
+       0,
+       "alpha",
+       0
+      ],
+      "since": "3.9",
+      "until": "3.9"
+     },
+     {
+      "value": [
+       3,
+       11,
+       0,
+       "alpha",
+       0
+      ],
+      "since": "3.10",
+      "until": "3.10"
+     },
+     {
+      "value": null,
+      "since": "3.11",
+      "until": "3.14"
+     }
+    ],
+    "commit_distinct_tuples": [
+     "[3, 10, 0, \"alpha\", 0]",
+     "[3, 11, 0, \"alpha\", 0]",
+     "[4, 0, 0, \"alpha\", 0]",
+     "null"
+    ],
+    "release_distinct_tuples": [
+     "[3, 10, 0, \"alpha\", 0]",
+     "[3, 11, 0, \"alpha\", 0]",
+     "[4, 0, 0, \"alpha\", 0]",
+     "null"
+    ],
+    "commit_distinct_minor": [
+     "3.10",
+     "3.11",
+     "4.0",
+     "None"
+    ],
+    "release_distinct_minor": [
+     "3.10",
+     "3.11",
+     "4.0",
+     "None"
+    ],
+    "tuples_never_released": [],
+    "minors_never_released": [],
+    "moves_commit_tuple": 3,
+    "moves_release_tuple": 3,
+    "moves_commit_minor": 3,
+    "moves_release_minor": 3
+   },
+   "in_commits": true,
+   "in_releases": true
+  }
+ },
+ "audit_of_session_62": {
+  "nested_scopes": {
+   "s62_optional_values": [
+    "2.1"
+   ],
+   "mine_release_optional_minor": [
+    "2.1"
+   ],
+   "s62_optional_changed": 0,
+   "mine_release_optional_moves_minor": 0,
+   "mine_release_optional_moves_tuple": 0,
+   "s62_mandatory_values": [
+    "2.2"
+   ],
+   "mine_release_mandatory_minor": [
+    "2.2"
+   ],
+   "s62_mandatory_changed": 0,
+   "mine_release_mandatory_moves_minor": 0,
+   "mine_release_mandatory_moves_tuple": 1,
+   "agrees_on_minor_moves": true
+  },
+  "generators": {
+   "s62_optional_values": [
+    "2.2"
+   ],
+   "mine_release_optional_minor": [
+    "2.2"
+   ],
+   "s62_optional_changed": 0,
+   "mine_release_optional_moves_minor": 0,
+   "mine_release_optional_moves_tuple": 0,
+   "s62_mandatory_values": [
+    "2.3"
+   ],
+   "mine_release_mandatory_minor": [
+    "2.3"
+   ],
+   "s62_mandatory_changed": 0,
+   "mine_release_mandatory_moves_minor": 0,
+   "mine_release_mandatory_moves_tuple": 0,
+   "agrees_on_minor_moves": true
+  },
+  "division": {
+   "s62_optional_values": [
+    "2.2"
+   ],
+   "mine_release_optional_minor": [
+    "2.2"
+   ],
+   "s62_optional_changed": 0,
+   "mine_release_optional_moves_minor": 0,
+   "mine_release_optional_moves_tuple": 0,
+   "s62_mandatory_values": [
+    "3.0"
+   ],
+   "mine_release_mandatory_minor": [
+    "3.0"
+   ],
+   "s62_mandatory_changed": 0,
+   "mine_release_mandatory_moves_minor": 0,
+   "mine_release_mandatory_moves_tuple": 0,
+   "agrees_on_minor_moves": true
+  },
+  "absolute_import": {
+   "s62_optional_values": [
+    "2.5"
+   ],
+   "mine_release_optional_minor": [
+    "2.5"
+   ],
+   "s62_optional_changed": 0,
+   "mine_release_optional_moves_minor": 0,
+   "mine_release_optional_moves_tuple": 0,
+   "s62_mandatory_values": [
+    "2.7",
+    "3.0"
+   ],
+   "mine_release_mandatory_minor": [
+    "2.7",
+    "3.0"
+   ],
+   "s62_mandatory_changed": 1,
+   "mine_release_mandatory_moves_minor": 1,
+   "mine_release_mandatory_moves_tuple": 1,
+   "agrees_on_minor_moves": true
+  },
+  "with_statement": {
+   "s62_optional_values": [
+    "2.5"
+   ],
+   "mine_release_optional_minor": [
+    "2.5"
+   ],
+   "s62_optional_changed": 0,
+   "mine_release_optional_moves_minor": 0,
+   "mine_release_optional_moves_tuple": 0,
+   "s62_mandatory_values": [
+    "2.6"
+   ],
+   "mine_release_mandatory_minor": [
+    "2.6"
+   ],
+   "s62_mandatory_changed": 0,
+   "mine_release_mandatory_moves_minor": 0,
+   "mine_release_mandatory_moves_tuple": 0,
+   "agrees_on_minor_moves": true
+  },
+  "print_function": {
+   "s62_optional_values": [
+    "2.6"
+   ],
+   "mine_release_optional_minor": [
+    "2.6"
+   ],
+   "s62_optional_changed": 0,
+   "mine_release_optional_moves_minor": 0,
+   "mine_release_optional_moves_tuple": 0,
+   "s62_mandatory_values": [
+    "3.0"
+   ],
+   "mine_release_mandatory_minor": [
+    "3.0"
+   ],
+   "s62_mandatory_changed": 0,
+   "mine_release_mandatory_moves_minor": 0,
+   "mine_release_mandatory_moves_tuple": 0,
+   "agrees_on_minor_moves": true
+  },
+  "unicode_literals": {
+   "s62_optional_values": [
+    "2.6"
+   ],
+   "mine_release_optional_minor": [
+    "2.6"
+   ],
+   "s62_optional_changed": 0,
+   "mine_release_optional_moves_minor": 0,
+   "mine_release_optional_moves_tuple": 0,
+   "s62_mandatory_values": [
+    "3.0"
+   ],
+   "mine_release_mandatory_minor": [
+    "3.0"
+   ],
+   "s62_mandatory_changed": 0,
+   "mine_release_mandatory_moves_minor": 0,
+   "mine_release_mandatory_moves_tuple": 0,
+   "agrees_on_minor_moves": true
+  },
+  "barry_as_FLUFL": {
+   "s62_optional_values": [
+    "3.1"
+   ],
+   "mine_release_optional_minor": [
+    "3.1"
+   ],
+   "s62_optional_changed": 0,
+   "mine_release_optional_moves_minor": 0,
+   "mine_release_optional_moves_tuple": 0,
+   "s62_mandatory_values": [
+    "3.9",
+    "4.0"
+   ],
+   "mine_release_mandatory_minor": [
+    "3.9",
+    "4.0"
+   ],
+   "s62_mandatory_changed": 1,
+   "mine_release_mandatory_moves_minor": 1,
+   "mine_release_mandatory_moves_tuple": 1,
+   "agrees_on_minor_moves": true
+  },
+  "generator_stop": {
+   "s62_optional_values": [
+    "3.5"
+   ],
+   "mine_release_optional_minor": [
+    "3.5"
+   ],
+   "s62_optional_changed": 0,
+   "mine_release_optional_moves_minor": 0,
+   "mine_release_optional_moves_tuple": 0,
+   "s62_mandatory_values": [
+    "3.7"
+   ],
+   "mine_release_mandatory_minor": [
+    "3.7"
+   ],
+   "s62_mandatory_changed": 0,
+   "mine_release_mandatory_moves_minor": 0,
+   "mine_release_mandatory_moves_tuple": 0,
+   "agrees_on_minor_moves": true
+  },
+  "annotations": {
+   "s62_optional_values": [
+    "3.7"
+   ],
+   "mine_release_optional_minor": [
+    "3.7"
+   ],
+   "s62_optional_changed": 0,
+   "mine_release_optional_moves_minor": 0,
+   "mine_release_optional_moves_tuple": 0,
+   "s62_mandatory_values": [
+    "4.0",
+    "3.10",
+    "3.11",
+    null
+   ],
+   "mine_release_mandatory_minor": [
+    "3.10",
+    "3.11",
+    "4.0",
+    "None"
+   ],
+   "s62_mandatory_changed": 3,
+   "mine_release_mandatory_moves_minor": 3,
+   "mine_release_mandatory_moves_tuple": 3,
+   "agrees_on_minor_moves": true
+  }
+ },
+ "release_refs": [
+  {
+   "series": "2.1",
+   "tag": "v2.1",
+   "ref_kind": "tag",
+   "ref_date": "2001-04-16",
+   "ref_subject": "This commit was manufactured by cvs2svn to create tag 'release21'."
+  },
+  {
+   "series": "2.2",
+   "tag": "v2.2",
+   "ref_kind": "tag",
+   "ref_date": "2002-03-29",
+   "ref_subject": "This commit was manufactured by cvs2svn to create tag 'r22p1'."
+  },
+  {
+   "series": "2.3",
+   "tag": "2.3",
+   "ref_kind": "tag",
+   "ref_date": "2011-03-05",
+   "ref_subject": "Close 2.3 branch."
+  },
+  {
+   "series": "2.4",
+   "tag": "v2.4",
+   "ref_kind": "tag",
+   "ref_date": "2004-11-30",
+   "ref_subject": "This commit was manufactured by cvs2svn to create tag 'r24'."
+  },
+  {
+   "series": "2.5",
+   "tag": "v2.5",
+   "ref_kind": "tag",
+   "ref_date": "2006-09-18",
+   "ref_subject": "Preparing for 2.5 final."
+  },
+  {
+   "series": "2.6",
+   "tag": "v2.6",
+   "ref_kind": "tag",
+   "ref_date": "2008-10-01",
+   "ref_subject": "Today is the release date"
+  },
+  {
+   "series": "2.7",
+   "tag": "v2.7",
+   "ref_kind": "tag",
+   "ref_date": "2010-07-03",
+   "ref_subject": "move sections"
+  },
+  {
+   "series": "3.0",
+   "tag": "v3.0",
+   "ref_kind": "tag",
+   "ref_date": "2008-12-03",
+   "ref_subject": "Oops, one revision we forgot."
+  },
+  {
+   "series": "3.1",
+   "tag": "v3.1",
+   "ref_kind": "tag",
+   "ref_date": "2009-06-26",
+   "ref_subject": "rearrange the sections of the README, so they'll hopefully be more in the order people will interested in"
+  },
+  {
+   "series": "3.2",
+   "tag": "v3.2",
+   "ref_kind": "tag",
+   "ref_date": "2011-02-20",
+   "ref_subject": "Make a 3.2 maintenance branch."
+  },
+  {
+   "series": "3.3",
+   "tag": "v3.3.0",
+   "ref_kind": "tag",
+   "ref_date": "2012-09-29",
+   "ref_subject": "Fix test_sys.test_implementation for final releases."
+  },
+  {
+   "series": "3.4",
+   "tag": "v3.4.0",
+   "ref_kind": "tag",
+   "ref_date": "2014-03-15",
+   "ref_subject": "Final documentation fixes for 3.4.0 final."
+  },
+  {
+   "series": "3.5",
+   "tag": "v3.5.0",
+   "ref_kind": "tag",
+   "ref_date": "2015-09-12",
+   "ref_subject": "Final touch-ups for the What's New In Python 3.5 document."
+  },
+  {
+   "series": "3.6",
+   "tag": "v3.6.0",
+   "ref_kind": "tag",
+   "ref_date": "2016-12-22",
+   "ref_subject": "Update docs and patchlevel for 3.6.0 final."
+  },
+  {
+   "series": "3.7",
+   "tag": "v3.7.0",
+   "ref_kind": "tag",
+   "ref_date": "2018-06-26",
+   "ref_subject": "3.7.0 final"
+  },
+  {
+   "series": "3.8",
+   "tag": "v3.8.0",
+   "ref_kind": "tag",
+   "ref_date": "2019-10-14",
+   "ref_subject": "v3.8.0"
+  },
+  {
+   "series": "3.9",
+   "tag": "v3.9.0",
+   "ref_kind": "tag",
+   "ref_date": "2020-10-05",
+   "ref_subject": "Python 3.9.0"
+  },
+  {
+   "series": "3.10",
+   "tag": "v3.10.0",
+   "ref_kind": "tag",
+   "ref_date": "2021-10-04",
+   "ref_subject": "Python 3.10.0"
+  },
+  {
+   "series": "3.11",
+   "tag": "v3.11.0",
+   "ref_kind": "tag",
+   "ref_date": "2022-10-24",
+   "ref_subject": "Python 3.11.0"
+  },
+  {
+   "series": "3.12",
+   "tag": "v3.12.0",
+   "ref_kind": "tag",
+   "ref_date": "2023-10-02",
+   "ref_subject": "Python 3.12.0"
+  },
+  {
+   "series": "3.13",
+   "tag": "v3.13.0",
+   "ref_kind": "tag",
+   "ref_date": "2024-10-07",
+   "ref_subject": "Python 3.13.0"
+  },
+  {
+   "series": "3.14",
+   "tag": "v3.14.0",
+   "ref_kind": "tag",
+   "ref_date": "2025-10-07",
+   "ref_subject": "Python 3.14.0"
+  }
+ ],
+ "commit_states": [
+  {
+   "key": "c000",
+   "date": "2001-02-26",
+   "author": "Tim Peters",
+   "subject": "Add __future__.py to std library, + dull test to verify that assignments therein are of the proper form.",
+   "commit": "ffc215a2792db293786120c8c2aebd39f80c8e15",
+   "features": [
+    "nested_scopes"
+   ]
+  },
+  {
+   "key": "c001",
+   "date": "2001-02-28",
+   "author": "Tim Peters",
+   "subject": "Whitespace normalization.",
+   "commit": "85ba673b0a8fa8123bfe2d0434fe35d7f3cee68d",
+   "features": [
+    "nested_scopes"
+   ]
+  },
+  {
+   "key": "c002",
+   "date": "2001-03-02",
+   "author": "Tim Peters",
+   "subject": "Make names in __future__.py bind to class instances instead of 2-tuples. Suggested on c.l.py by William Tanksley, and I like it.",
+   "commit": "d74bc432b2964599d8261aa367c9591080d623d3",
+   "features": [
+    "nested_scopes"
+   ]
+  },
+  {
+   "key": "c003",
+   "date": "2001-03-02",
+   "author": "Tim Peters",
+   "subject": "Typo repair.",
+   "commit": "fd85a4e600348a854b4979d16a51fe2b2ae30794",
+   "features": [
+    "nested_scopes"
+   ]
+  },
+  {
+   "key": "c004",
+   "date": "2001-03-15",
+   "author": "Ka-Ping Yee",
+   "subject": "Remove redundant \"__future__:\" from module docstring.",
+   "commit": "3bda4f0878d4aecc437a3dc6a21c6878d1c79b53",
+   "features": [
+    "nested_scopes"
+   ]
+  },
+  {
+   "key": "c005",
+   "date": "2001-07-12",
+   "author": "Tim Peters",
+   "subject": "Remove now-unnecessary \"from __future__  import nested_scopes\" stmts.",
+   "commit": "c4889c496ade6a1529a74054f8fcc2847d8cd0bb",
+   "features": [
+    "nested_scopes"
+   ]
+  },
+  {
+   "key": "c006",
+   "date": "2001-07-15",
+   "author": "Guido van Rossum",
+   "subject": "Preliminary support for \"from __future__ import generators\" to enable the yield statement.  I figure we have to have this in before I can release 2.2a1 on Wednesday.",
+   "commit": "b09f7ed6235783fca27a4f8730c4c33e0f53c16c",
+   "features": [
+    "generators",
+    "nested_scopes"
+   ]
+  },
+  {
+   "key": "c007",
+   "date": "2001-08-08",
+   "author": "Guido van Rossum",
+   "subject": "Implement PEP 238 in its (almost) full glory.",
+   "commit": "4668b000a1d9113394941ad39875c827634feb49",
+   "features": [
+    "division",
+    "generators",
+    "nested_scopes"
+   ]
+  },
+  {
+   "key": "c008",
+   "date": "2001-08-17",
+   "author": "Tim Peters",
+   "subject": "A self-contained piece of Michael Hudson's patch     #449043 supporting __future__ in simulated shells in support of PEP 264.",
+   "commit": "de642bdc5db10f2ef42dcd75b47faccd0fbee585",
+   "features": [
+    "division",
+    "generators",
+    "nested_scopes"
+   ]
+  },
+  {
+   "key": "c009",
+   "date": "2001-08-18",
+   "author": "Tim Peters",
+   "subject": "Expose the CO_xxx flags via the \"new\" module (re-solving a problem \"the right way\").  Fiddle __future__.py to use them.",
+   "commit": "aa32070f4d7b7151974e70b407b0f0dc2a836313",
+   "features": [
+    "division",
+    "generators",
+    "nested_scopes"
+   ]
+  },
+  {
+   "key": "c010",
+   "date": "2001-08-19",
+   "author": "Guido van Rossum",
+   "subject": "Avoid total dependency on the new module.  This addresses the problem reported by Greg Ball on python-dev.",
+   "commit": "8cb00e2387efe2304e9eba6f2c3be6cc977f680e",
+   "features": [
+    "division",
+    "generators",
+    "nested_scopes"
+   ]
+  },
+  {
+   "key": "c011",
+   "date": "2001-08-24",
+   "author": "Tim Peters",
+   "subject": "Back out trying to use the C values for CO_xxx. __future__.py reverted to 1.9. newmodule.c reverted to 2.32.",
+   "commit": "89675078cb2a37e557e66874ded3b8ff95b85771",
+   "features": [
+    "division",
+    "generators",
+    "nested_scopes"
+   ]
+  },
+  {
+   "key": "c012",
+   "date": "2001-08-24",
+   "author": "Tim Peters",
+   "subject": "Repair repr of future-features (wasn't updated to include the new compiler-flag argument).",
+   "commit": "16c018d2d24e7b3366edda53baf85fa3a4a21f1e",
+   "features": [
+    "division",
+    "generators",
+    "nested_scopes"
+   ]
+  },
+  {
+   "key": "c013",
+   "date": "2006-02-27",
+   "author": "Neal Norwitz",
+   "subject": "Finish removal of CO_GENERATOR_ALLOWED.",
+   "commit": "0023a2f858e62ad364156c008a3f79d6ae32d1c8",
+   "features": [
+    "division",
+    "generators",
+    "nested_scopes"
+   ]
+  },
+  {
+   "key": "c014",
+   "date": "2006-02-28",
+   "author": "Thomas Wouters",
+   "subject": "SF patch #1438387, PEP 328: relative and absolute imports.",
+   "commit": "f7f438ba3b05eb4356e7511401686b07d9dfb6d8",
+   "features": [
+    "absolute_import",
+    "division",
+    "generators",
+    "nested_scopes"
+   ]
+  },
+  {
+   "key": "c015",
+   "date": "2006-02-28",
+   "author": "Thomas Wouters",
+   "subject": "from __future__ import with_statement addon for 'with', mostly written by Neal.",
+   "commit": "34aa7ba11431a46e72ec30ee7528f2e52adbed7f",
+   "features": [
+    "absolute_import",
+    "division",
+    "generators",
+    "nested_scopes",
+    "with_statement"
+   ]
+  },
+  {
+   "key": "c016",
+   "date": "2006-02-28",
+   "author": "Neal Norwitz",
+   "subject": "Make __future__ features similar for with and absolute import since they were both added before a1",
+   "commit": "9193491eb36d7edf2e1b51cf5a74d46a7ac314d5",
+   "features": [
+    "absolute_import",
+    "division",
+    "generators",
+    "nested_scopes",
+    "with_statement"
+   ]
+  },
+  {
+   "key": "c017",
+   "date": "2006-04-03",
+   "author": "Neal Norwitz",
+   "subject": "Don't abbreviate ABS, use long name ABSOLUTE.",
+   "commit": "cbce280d4f3f1c4d86a989ab85c93f13ec7e00f9",
+   "features": [
+    "absolute_import",
+    "division",
+    "generators",
+    "nested_scopes",
+    "with_statement"
+   ]
+  },
+  {
+   "key": "c018",
+   "date": "2006-04-03",
+   "author": "Neal Norwitz",
+   "subject": "I could have sworn this was part of the change to not abbreviate ABSOLUTE",
+   "commit": "9e5eb4ffbf2198ad5721078b4a76e7a63c0ac3c6",
+   "features": [
+    "absolute_import",
+    "division",
+    "generators",
+    "nested_scopes",
+    "with_statement"
+   ]
+  },
+  {
+   "key": "c019",
+   "date": "2006-04-21",
+   "author": "Thomas Wouters",
+   "subject": "Merge p3yk branch with the trunk up to revision 45595. This breaks a fair number of tests, all because of the codecs/_multibytecodecs issue described here (it's not a Py3K issue, just something Py3K discovers): http://mail.python.org/pipermail/python-dev/2006-April/064051.html",
+   "commit": "49fd7fa4431da299196d74087df4a04f99f9c46f",
+   "features": [
+    "absolute_import",
+    "division",
+    "generators",
+    "nested_scopes",
+    "with_statement"
+   ]
+  },
+  {
+   "key": "c020",
+   "date": "2008-03-18",
+   "author": "Eric Smith",
+   "subject": "Backport of the print function, using a __future__ import. This work is substantially Anthony Baxter's, from issue 1633807.  I just freshened it, made a few minor tweaks, and added the test cases.  I also created issue 2412, which is to check for 2to3's behavior with the print function.  I also added myself to ACKS.",
+   "commit": "7c47894a2aaa8dbc5397a256b16cd7deddef1d7e",
+   "features": [
+    "absolute_import",
+    "division",
+    "generators",
+    "nested_scopes",
+    "print_function",
+    "with_statement"
+   ]
+  },
+  {
+   "key": "c021",
+   "date": "2008-03-20",
+   "author": "Eric Smith",
+   "subject": "Add __future__ import for print_function.  It's a no-op in 3.0, but it needs to not be a syntax error. Closes issue 2436.",
+   "commit": "87824086fa20e3f7bbb39dc8ee9d3ce70487dd98",
+   "features": [
+    "absolute_import",
+    "division",
+    "generators",
+    "nested_scopes",
+    "print_function",
+    "with_statement"
+   ]
+  },
+  {
+   "key": "c022",
+   "date": "2008-03-26",
+   "author": "Christian Heimes",
+   "subject": "Patch #2477: Added from __future__ import unicode_literals",
+   "commit": "3c60833e1e53f6239825b44f76fa22172feb1790",
+   "features": [
+    "absolute_import",
+    "division",
+    "generators",
+    "nested_scopes",
+    "print_function",
+    "unicode_literals",
+    "with_statement"
+   ]
+  },
+  {
+   "key": "c023",
+   "date": "2008-03-26",
+   "author": "Christian Heimes",
+   "subject": "Merged revisions 61952-61953 via svnmerge from svn+ssh://pythondev@svn.python.org/python/trunk",
+   "commit": "4d6ec85a022d05f11966004edc36151ab26bb13a",
+   "features": [
+    "absolute_import",
+    "division",
+    "generators",
+    "nested_scopes",
+    "print_function",
+    "unicode_literals",
+    "with_statement"
+   ]
+  },
+  {
+   "key": "c024",
+   "date": "2009-04-01",
+   "author": "Brett Cannon",
+   "subject": "The BDFL has retired! Long live the FLUFL (Friendly Language Uncle For Life)!",
+   "commit": "e3944a5e1ecf67aa722fd9ce0c0a4ee72ee5ba2d",
+   "features": [
+    "absolute_import",
+    "barry_as_FLUFL",
+    "division",
+    "generators",
+    "nested_scopes",
+    "print_function",
+    "unicode_literals",
+    "with_statement"
+   ]
+  },
+  {
+   "key": "c025",
+   "date": "2009-04-01",
+   "author": "Benjamin Peterson",
+   "subject": "barry has already been causing test breakage",
+   "commit": "91d7dfd77c85c0549b48d2bb281e83b51d38c0c4",
+   "features": [
+    "absolute_import",
+    "barry_as_FLUFL",
+    "division",
+    "generators",
+    "nested_scopes",
+    "print_function",
+    "unicode_literals",
+    "with_statement"
+   ]
+  },
+  {
+   "key": "c026",
+   "date": "2012-05-19",
+   "author": "Petri Lehtinen",
+   "subject": "#14494: Document that absolute imports became default in 3.0 instead of 2.7.",
+   "commit": "5f39706b07bc16fd7affc99fd485592f71c13979",
+   "features": [
+    "absolute_import",
+    "division",
+    "generators",
+    "nested_scopes",
+    "print_function",
+    "unicode_literals",
+    "with_statement"
+   ]
+  },
+  {
+   "key": "c027",
+   "date": "2012-05-19",
+   "author": "Petri Lehtinen",
+   "subject": "#14494: Document that absolute imports became default in 3.0 instead of 2.7.",
+   "commit": "079bfc962d838cb80a008ad3d949222256e1228d",
+   "features": [
+    "absolute_import",
+    "barry_as_FLUFL",
+    "division",
+    "generators",
+    "nested_scopes",
+    "print_function",
+    "unicode_literals",
+    "with_statement"
+   ]
+  },
+  {
+   "key": "c028",
+   "date": "2015-05-09",
+   "author": "Yury Selivanov",
+   "subject": "PEP 479: Change StopIteration handling inside generators.",
+   "commit": "8170e8c0d12cb9414f3a3d3ca81a447b4afc5f26",
+   "features": [
+    "absolute_import",
+    "barry_as_FLUFL",
+    "division",
+    "generator_stop",
+    "generators",
+    "nested_scopes",
+    "print_function",
+    "unicode_literals",
+    "with_statement"
+   ]
+  },
+  {
+   "key": "c029",
+   "date": "2018-01-26",
+   "author": "Guido van Rossum",
+   "subject": "String annotations [PEP 563] (#4390)",
+   "commit": "95e4d589137260530e18ef98a2ed84ee3ec57e12",
+   "features": [
+    "absolute_import",
+    "annotations",
+    "barry_as_FLUFL",
+    "division",
+    "generator_stop",
+    "generators",
+    "nested_scopes",
+    "print_function",
+    "unicode_literals",
+    "with_statement"
+   ]
+  },
+  {
+   "key": "c030",
+   "date": "2018-12-19",
+   "author": "Chris Rands",
+   "subject": "bpo-35526: make __future__.barry_as_FLUFL mandatory for Python 4.0 (#11218)",
+   "commit": "55cc34500e5abbfedb89adc95e3f94d53c544933",
+   "features": [
+    "absolute_import",
+    "annotations",
+    "barry_as_FLUFL",
+    "division",
+    "generator_stop",
+    "generators",
+    "nested_scopes",
+    "print_function",
+    "unicode_literals",
+    "with_statement"
+   ]
+  },
+  {
+   "key": "c031",
+   "date": "2020-04-22",
+   "author": "Batuhan Ta\u015fkaya",
+   "subject": "bpo-39562: Prevent collision of future and compiler flags (GH-19230)",
+   "commit": "4454057269b995341b04d13f0bf97f96080f27d0",
+   "features": [
+    "absolute_import",
+    "annotations",
+    "barry_as_FLUFL",
+    "division",
+    "generator_stop",
+    "generators",
+    "nested_scopes",
+    "print_function",
+    "unicode_literals",
+    "with_statement"
+   ]
+  },
+  {
+   "key": "c032",
+   "date": "2020-05-01",
+   "author": "Pablo Galindo",
+   "subject": "[3.8] bpo-39562: Prevent collision of future and compiler flags (GH-19230) (GH-19835)",
+   "commit": "5055c274c6e4f2bb8025910dedf0ff89f4bdd170",
+   "features": [
+    "absolute_import",
+    "annotations",
+    "barry_as_FLUFL",
+    "division",
+    "generator_stop",
+    "generators",
+    "nested_scopes",
+    "print_function",
+    "unicode_literals",
+    "with_statement"
+   ]
+  },
+  {
+   "key": "c033",
+   "date": "2020-07-25",
+   "author": "YoSTEALTH",
+   "subject": "bpo-41314: fixed annotations __future__ version (GH-21616)",
+   "commit": "0028c14073109595e7532ec00bb1e8bf39ecfb4d",
+   "features": [
+    "absolute_import",
+    "annotations",
+    "barry_as_FLUFL",
+    "division",
+    "generator_stop",
+    "generators",
+    "nested_scopes",
+    "print_function",
+    "unicode_literals",
+    "with_statement"
+   ]
+  },
+  {
+   "key": "c034",
+   "date": "2020-07-25",
+   "author": "Miss Islington (bot)",
+   "subject": "bpo-41314: fixed annotations __future__ version (GH-21616)",
+   "commit": "b99f770230e0db390aa80c5135b1053f3be48e19",
+   "features": [
+    "absolute_import",
+    "annotations",
+    "barry_as_FLUFL",
+    "division",
+    "generator_stop",
+    "generators",
+    "nested_scopes",
+    "print_function",
+    "unicode_literals",
+    "with_statement"
+   ]
+  },
+  {
+   "key": "c035",
+   "date": "2020-07-25",
+   "author": "Miss Islington (bot)",
+   "subject": "bpo-41314: fixed annotations __future__ version (GH-21616)",
+   "commit": "fdc91c2e6096f60ddb8b7f72fe7926ccbbf42800",
+   "features": [
+    "absolute_import",
+    "annotations",
+    "barry_as_FLUFL",
+    "division",
+    "generator_stop",
+    "generators",
+    "nested_scopes",
+    "print_function",
+    "unicode_literals",
+    "with_statement"
+   ]
+  },
+  {
+   "key": "c036",
+   "date": "2021-03-22",
+   "author": "Hai Shi",
+   "subject": "bpo-35134: Add include/cpython/compile.h (GH-24922)",
+   "commit": "56f031ec5281723b7c617edfa5748f2ae6a4c347",
+   "features": [
+    "absolute_import",
+    "annotations",
+    "barry_as_FLUFL",
+    "division",
+    "generator_stop",
+    "generators",
+    "nested_scopes",
+    "print_function",
+    "unicode_literals",
+    "with_statement"
+   ]
+  },
+  {
+   "key": "c037",
+   "date": "2021-04-25",
+   "author": "Anthony Sottile",
+   "subject": "Set the release for `__future__.annotations` to 3.11 (#25596)",
+   "commit": "c9c27b8004f7a5dd214bb2608c3f5e2bbfec33ac",
+   "features": [
+    "absolute_import",
+    "annotations",
+    "barry_as_FLUFL",
+    "division",
+    "generator_stop",
+    "generators",
+    "nested_scopes",
+    "print_function",
+    "unicode_literals",
+    "with_statement"
+   ]
+  },
+  {
+   "key": "c038",
+   "date": "2022-07-05",
+   "author": "KotlinIsland",
+   "subject": "gh-93626: Set the release for `__future__.annotations` to `None` (GH-93628)",
+   "commit": "4791a8a8357e67431cb686d9559aa419074b8e33",
+   "features": [
+    "absolute_import",
+    "annotations",
+    "barry_as_FLUFL",
+    "division",
+    "generator_stop",
+    "generators",
+    "nested_scopes",
+    "print_function",
+    "unicode_literals",
+    "with_statement"
+   ]
+  },
+  {
+   "key": "c039",
+   "date": "2022-07-05",
+   "author": "Miss Islington (bot)",
+   "subject": "gh-93626: Set the release for `__future__.annotations` to `None` (GH-93628) (GH-94553)",
+   "commit": "99a06685d4034a9b3d4dd898292926932168d94d",
+   "features": [
+    "absolute_import",
+    "annotations",
+    "barry_as_FLUFL",
+    "division",
+    "generator_stop",
+    "generators",
+    "nested_scopes",
+    "print_function",
+    "unicode_literals",
+    "with_statement"
+   ]
+  }
+ ]
+}

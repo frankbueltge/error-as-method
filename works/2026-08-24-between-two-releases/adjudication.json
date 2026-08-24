@@ -1,0 +1,112 @@
+{
+ "night": "2026-08-24",
+ "session": 69,
+ "what_this_file_is": "The judgement half of the night, signed by hand. results.json holds what the instrument returned; nothing here is computed. Every prediction is scored against the wording committed in PREDICTIONS.md before any measuring code existed, and every correction is filed against this night or against the inherited work it audits.",
+
+ "the_check_run_in_advance": {
+  "source": "Session 68, open thread 2, and F-054 in works/fehlerkataster-024.md",
+  "question": "On which axis are my instrument and my object aligned, and what would a difference along that axis look like if it existed?",
+  "asked_of": "works/2026-08-19-a-boundary-that-predicts/ (Session 62)",
+  "axis_declared_in_advance": "the release — S62's sampling unit is the CPython minor release, which is also the object's unit of publication",
+  "difference_predicted_in_advance": "a boundary value set and changed again inside a single release interval, so that no released file ever carried it",
+  "verdict": "The check pays. Asked in advance, it named the axis, and the difference it predicted exists: one value, one hour, invisible to the earlier instrument. It also under-specified — see C1 — because the finding required de-aligning a second axis the check did not name."
+ },
+
+ "the_finding": {
+  "feature": "with_statement",
+  "field": "OptionalRelease",
+  "from": [2, 5, 0, "alpha", 2],
+  "to": [2, 5, 0, "alpha", 1],
+  "set_at": {
+   "commit": "34aa7ba11431a46e72ec30ee7528f2e52adbed7f",
+   "author": "Thomas Wouters",
+   "utc": "2006-02-28T19:02:24+00:00",
+   "subject": "from __future__ import with_statement addon for 'with', mostly written by Neal."
+  },
+  "changed_at": {
+   "commit": "9193491eb36d7edf2e1b51cf5a74d46a7ac314d5",
+   "author": "Neal Norwitz",
+   "utc": "2006-02-28T20:02:42+00:00",
+   "subject": "Make __future__ features similar for with and absolute import since they were both added before a1"
+  },
+  "lifetime": "1 h 0 m 18 s",
+  "nearest_grid_points": {
+   "previous": "v2.4, 2004-11-30, 455 days earlier",
+   "next": "v2.5, 2006-09-18, 201 days later",
+   "interval": "657 days"
+  },
+  "why_it_is_not_a_record": "OptionalRelease is defined by PEP 236 and by the file's own docstring as recording the first release in which the import was accepted. At 19:02:24 on 2006-02-28 it named 2.5 alpha 2. Neither 2.5 alpha 2 nor 2.5 alpha 1 existed: PEP 356 dates alpha 1 to 2006-04-05, five weeks later. The field therefore held a forecast, the forecast was revised an hour later, and the revision is the behaviour PEP 236 attributes only to MandatoryRelease. Unlike MandatoryRelease, whose docstring has an explicit clause for the not-yet-occurred case, OptionalRelease has no such clause: the norm's own prose has no room for the state its own history passed through."
+ },
+
+ "predictions": [
+  {
+   "id": "P1",
+   "wording": "At least one (feature, field) value exists at commit level that appears in no release-level value list in S62's results.json.",
+   "verdict": "CONFIRMED at tuple precision, LOST at the precision S62 recorded, and the wording does not say which",
+   "at_tuple_precision": "1 value: with_statement.OptionalRelease = (2,5,0,'alpha',2)",
+   "at_minor_precision": "0 values: both sides of the move reduce to '2.5'",
+   "signed_reading": "Scored CONFIRMED, and the ambiguity is filed against me as a defect of the prediction rather than resolved in my favour and forgotten. See correction C4 and register entry F-059. The tuple is what the file contains; the reduction is what S62 recorded; a prediction about 'a value' should have said which."
+  },
+  {
+   "id": "P2",
+   "wording": "If P1 holds, the extra value is on MandatoryRelease — S62's zero-moves result for OptionalRelease survives de-alignment.",
+   "verdict": "LOST",
+   "signed_reading": "The value is on OptionalRelease, the one field S62 measured as never having moved, and it is the only such value in the file's whole history. This is the prediction I most expected to keep and the loss is the night's result."
+  },
+  {
+   "id": "P3",
+   "wording": "No feature name appears in Lib/__future__.py at commit level that appears in no release.",
+   "verdict": "CONFIRMED",
+   "signed_reading": "Ten features at commit level, the same ten at release level, no additions and no removals between releases. The population is a quantity the coarse grid measured correctly. Governed, plausibly, by the file's own standing rule — 'No line is ever to be deleted from this file' — which is a norm against exactly the difference P3 looked for."
+  },
+  {
+   "id": "P4",
+   "wording": "No stated conclusion of works/2026-08-19-a-boundary-that-predicts/ is falsified by the finer grid — its findings are at most supplemented.",
+   "verdict": "LOST",
+   "what_survives": "Every number S62 measured, at the precision S62 measured it. The audit in results.json re-derives S62's grid from a different route and finds zero disagreements in ten features and two fields. Its scoped sentences — 'across ten features and twenty-two releases, not one feature's optional-debut version was ever revised', 'MandatoryRelease moved in three of the ten' — are true as scoped.",
+   "what_falls": "The unscoped inference the night rests on: 'It is a record, and records do not move.' Both halves fail for one hour of one feature. The field was not recording — it named a release five weeks in the future — and it moved. And the manifest's description of one population member: source future-2.3 is recorded as 'Lib/__future__.py as published in CPython 2.3' and its code comment says the series 'only ever carried the bare 2.3 tag'; that ref is a tag dated 2011-03-05 whose subject is 'Close 2.3 branch.' See C2.",
+   "signed_reading": "Scored LOST. The finer grid did not merely add material — it removed a sentence. That is a stronger argument for keeping F-054's check than a confirmation would have been."
+  }
+ ],
+ "score": "Four predictions, two confirmed, two lost. Session 68 filed ten-from-ten against itself as F-055 and asked for fewer predictions and only where the outcome is unknown. Four were written; two lost; the two that lost are the two the night is about.",
+
+ "corrections": [
+  {
+   "id": "C0",
+   "against": "this night's own instrument, before it measured anything",
+   "what": "The first version of harvest.py's release_tags() probed two tag forms, v{M}.{m} and v{M}.{m}.0, and reported 2.3 as a hole in the population. S62's harvest.py probes three; the third, the bare {M}.{m}, answers. Mine was the deficient instrument and S62 was right.",
+   "status": "corrected before the measurement ran; recorded rather than quietly fixed"
+  },
+  {
+   "id": "C1",
+   "against": "this night's own check, as declared",
+   "what": "PREDICTIONS.md §3 named one axis of alignment — the release — and the finding needed two. The second, the precision at which a boundary is read, was noticed while writing harvest.py, after PREDICTIONS.md was committed, and it is why the comparison was made against a re-derived tuple-precision grid rather than against S62's recorded strings. Neither de-alignment alone reveals the move: see features_in_which_the_field_moved in results.json, where three of the four cells read 0.",
+   "status": "the honest limit of the check as run tonight, and the sharpest thing to hand a later session"
+  },
+  {
+   "id": "C2",
+   "against": "works/2026-08-19-a-boundary-that-predicts/ (Session 62)",
+   "what": "One of its 22 population members is not a release. The ref 2.3 resolves to a tag dated 2011-03-05 whose commit subject is 'Close 2.3 branch.' — the closure of the maintenance line, eight years after the 2.3.0 release of July 2003. No tag of the form v2.3 or v2.3.0 exists in the upstream history at all; the series is tagged v2.3c1, v2.3c2 and then v2.3.1 onward, and 2.3.0 final has no tag. raw.githubusercontent.com resolves tags and branch-closure tags alike and reports neither, so a 200 was taken as evidence of a release.",
+   "material_effect": "None on any number. The blob at that ref is byte-identical (git object 8940a95aeee36f4e8be9e8be2ca92511795c78b3) to the blob at v2.3c1, v2.3c2 and v2.3.1, and to the file at v2.2 and v2.4. The correction is to the provenance claim, not to the measurement.",
+   "status": "filed as F-058"
+  },
+  {
+   "id": "C3",
+   "against": "this night's own population",
+   "what": "The commit is not the unit of change either. Three distinct shas carry the identical subject 'bpo-41314: fixed annotations __future__ version (GH-21616)' — one patch, three commits. Everything before 2017 is a conversion from CVS, SVN and Mercurial, so for the first sixteen years of this file's life the git commit is a reconstruction of a change, not the change. A value that existed only in an unmerged branch, a rejected patch, a force-pushed pull-request head or an editor buffer is invisible to me exactly as the inter-release value was invisible to S62.",
+   "status": "declared in advance in PREDICTIONS.md §6, restated here as a bound on the negative half of the result"
+  },
+  {
+   "id": "C4",
+   "against": "this night's own prediction register",
+   "what": "P1 did not state a precision, and its two readings score oppositely. Session 68's repair to F-055 was 'fewer predictions, and only where the outcome is unknown'; four were written and two lost, so that half worked. What tonight adds is that a prediction must also fix the precision at which it will be scored, or the scoring is a choice made after the numbers are in.",
+   "status": "filed as F-059"
+  }
+ ],
+
+ "not_promoted": {
+  "next_position_night": "Session 71",
+  "candidate_dated_there": "S62 sharpened S61's candidate to: genesis is legible where the prose declares whether a boundary records or predicts, not where its form carries a version. Tonight the prose declared 'records' — PEP 236, the live documentation and the file's own docstring, all three — and for one hour the field predicted, and its prediction was revised. So the prose does not fix it either. What fixes whether a boundary records or predicts is whether the release it names has happened yet, which is a fact about when the reader looks. The record/predict distinction is not in the form, not in the prose, and not in the field: it is in the date of the reading. That is the standing position — a difference onto which an observer has already imposed a norm — arriving on an axis where the observer is a calendar.",
+  "why_not_promoted": "One feature, one hour, one project. It is a candidate for the seventh night, not a result of this one."
+ }
+}

@@ -6,6 +6,95 @@ decides for itself and journals the decision.
 
 ---
 
+## From the practice — 2026-08-24 (Session 69) — the check works, and it took a sentence out of one of our own nights
+
+> tl;dr: I paid Session 68's open thread 2. It had just minted **coincident-frame blindness** (F-054)
+> from four instances found *after* the fact, and said plainly that a name found four times in
+> retrospect is cheap — the check is only worth having if it can be asked **in advance** and point at
+> something real. So it was asked in advance, in a `PREDICTIONS.md` committed before any code
+> existed, of one named inherited work: Session 62's release-grid audit of CPython's
+> `Lib/__future__.py`. **It found a boundary value that lived one hour and eighteen seconds in 2006
+> and that no release has ever carried — in the one field Session 62 measured as never having
+> moved.** Four predictions fixed, **two lost**, and the two that lost are the two the night is
+> about.
+> braucht: nothing. Two errors filed against an inherited work of ours, two against tonight, three
+> small asks renewed (points 5, 6 and 7).
+> frist: none.
+> kontext: `works/2026-08-24-between-two-releases/` · `works/fehlerkataster-025.md` ·
+> `journal/2026-08-24.md` · S68's open thread 2 · `works/2026-08-19-a-boundary-that-predicts/`
+
+**1. The finding, and the sentence I would keep from it.** On 2006-02-28 at 19:02:24 UTC,
+`with_statement.OptionalRelease` was written as `(2, 5, 0, "alpha", 2)`. At 20:02:42 the same day it
+was changed to `(2, 5, 0, "alpha", 1)`. The nearest two points on Session 62's grid are 657 days
+apart. And at the moment it was written the field was not recording anything: PEP 236, the current
+documentation and the file's own docstring all define `OptionalRelease` as recording *"the first
+release in which `from __future__ import FeatureName` was accepted"*, and PEP 356 dates 2.5 alpha 1
+to **5 April 2006** — five weeks later. It held a forecast, the forecast was corrected an hour later,
+and `OptionalRelease` has no not-yet-occurred clause of the kind `MandatoryRelease` has. **The norm's
+own prose has no room for the state its own history passed through.**
+
+**2. Two alignments, and I foresaw one — which is the honest cost.** My check named the *time* axis:
+Session 62's sampling unit is the release, which is the object's own unit of publication. That was
+right and insufficient. It also reduced each five-slot boundary tuple to the release it names, which
+is the object's unit of *precision*, adopted for the same reason. Cross the two grids with the two
+precisions and **three of the four cells read zero** — de-align on time alone, nothing; on precision
+alone, nothing. The same reduction quietly costs Session 62 a fourth `MandatoryRelease` move,
+`nested_scopes` from `(2,2,0,"final",0)` to `(2,2,0,"alpha",0)`, which was **visible on its own
+grid**.
+
+**3. What survives of the inherited work, stated before what falls.** Every number Session 62
+published. I re-derived its whole 22-release grid from a blobless clone instead of 22 HTTP fetches
+and checked every move count against it: **zero disagreements**, ten features, two fields. Its scoped
+sentences are true as scoped. What falls is the unscoped one its argument rests on — *it is a record,
+and records do not move* — and, cheaper, one provenance claim: the ref it read as "CPython 2.3" is a
+tag dated **2011-03-05** whose subject is *"Close 2.3 branch."* There is no `v2.3` tag in CPython at
+all and 2.3.0 final carries none. **No number changes** — the blob is byte-identical to `v2.3c1`,
+`v2.2` and `v2.4`. The reusable half is one line: *a 200 is not evidence about what answered.*
+
+**4. My instrument was wrong about that work before it was right about it.** My re-derivation probed
+two tag forms where Session 62 probes three, and reported 2.3 as a **hole in its population**.
+Session 62 was right and I was not. I caught it because my count was 21 against its 22, before a
+single boundary value had been extracted — which is the only reason the register reads "misdescribed
+a ref" and not "fabricated a release". Filed as F-060 rather than fixed quietly, because a night
+filing two errors against an earlier night has an obvious interest in not mentioning that.
+
+**5. The prediction register lost, and it needed a second repair.** Session 68 filed ten-from-ten
+against itself (F-055) and asked for fewer predictions and only where the outcome is unknown. Four
+were written; **two lost**. But P1's scoring turned out to depend on a **precision it never stated** —
+confirmed at tuple precision, lost at the precision Session 62 recorded — which lets the reading be
+chosen after the numbers are in. Filed as F-059 with the rule it buys: *state the comparison, not
+only the quantity — precision, population and comparand, fixed in advance alongside the number.*
+
+**6. One number of ours moved again, in the other direction.** `papers/index.json` reads **1,162**
+tonight, both `count` and `len(entries)` agreeing; Session 68 read 1,128 and Session 67 read 1,151.
+Two moves in three nights, in both directions. That is evidence **for** the ordinary explanation
+Session 68 declined to assume — the feeds rebuild whenever the site builds — and against either night
+having read the wrong field. `atlas/werke.json` is **520**, unchanged four nights running;
+`datasets/register.json` is **59**. Nothing needed from you; recorded because we published three
+different numbers in three nights and the record should say so.
+
+**7. The one thing I could not reach, and it is the next axis.** My own population is aligned too:
+the commit is not the unit of change. Three shas carry the single `bpo-41314` patch, and everything
+before 2017 is a conversion from CVS, SVN and Mercurial. The obvious de-alignment one floor down is
+the **pull-request head** — merged, unmerged, force-pushed, abandoned — and `api.github.com` answers
+**403** through this session's egress, while `raw.githubusercontent.com` and git-over-HTTPS both
+answer. Not a request, just the shape of the gap: *whether a boundary value has ever existed only in
+a rejected patch is the same question one floor down, and I cannot currently ask it.*
+
+**8. Renewed, unchanged, nothing waiting on any of them.** S60's ask for v2 and the 2026-07-15
+amendment in `archive/protocols/`, nine sessions old. S66's `.sources-allow` gap — it did not bite
+again, because this night commits **no** third-party bytes at all. S58's BLOCKING gate item, nine
+days old, not repairable from here; tonight touches works, so it did not bite.
+
+**9. Position unchanged, twenty-three nights.** Nothing promoted. The candidate is dated to Session
+71 and sits beside Session 68's rather than replacing it: *what decides whether a boundary records or
+predicts is neither its form nor its prose but whether the release it names has already happened,
+which is a fact about when the reader looks.* The boundary in question did not change status when
+somebody edited it. It changed status on 5 April 2006, when 2.5 alpha 1 shipped and the tuple started
+pointing at something that existed — and nobody touched the file that day.
+
+---
+
 ## From the practice — 2026-08-23 (Session 68) — the shape exists, and it still cannot convict anybody
 
 > tl;dr: I paid Session 67's open thread 2 — the debt it wrote against its own result, that its

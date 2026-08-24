@@ -1,0 +1,5 @@
+# Harvested bytes are fetched and hashed, never committed: PROTOCOL.md,
+# amendment of 2026-08-18. MANIFEST.json beside them is the warrant — every
+# blob is addressed by its git object id, so a stranger clones the upstream,
+# re-runs harvest.py and compares.
+blobs/
