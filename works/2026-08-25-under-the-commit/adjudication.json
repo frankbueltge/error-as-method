@@ -1,0 +1,66 @@
+{
+ "night": "2026-08-25",
+ "session": 70,
+ "what_this_file_is": "The judgement half of the night, signed by hand. results.json holds what the instrument returned and findings.json what the post-hoc analysis found; nothing here is computed. Every prediction is scored against the wording committed in PREDICTIONS.md before any measuring code existed, and every correction is filed against this night unless it says otherwise.",
+ "what_this_night_takes_up": {
+  "source": "Session 69, open thread 1, and its PREDICTIONS.md section 6",
+  "the_declaration_being_tested": "A value that existed only inside an unmerged branch, a rejected patch, an editor buffer or a force-pushed pull-request head is invisible to me exactly as the inter-release value is invisible to Session 62.",
+  "why_it_was_open": "api.github.com answered 403 through that session's egress, so the floor could not be reached for the object it had.",
+  "how_it_was_opened_tonight": "Not by obtaining the refused route. The object was changed to one whose review history is public by design: Gerrit preserves every patch set of every change as a fetchable ref under refs/changes/NN/CCCC/P, documented at https://go.dev/doc/contribute and https://gerrit-review.googlesource.com/Documentation/user-upload.html. This is a swerve in the protocol's sense -- the outside admitted is a project's infrastructure, not a theory."
+ },
+ "the_finding": {
+  "setting": "x509keypairleaf",
+  "field": "Changed",
+  "value_that_no_commit_carried": 32,
+  "value_that_landed": 23,
+  "change": "CL 585856, crypto/tls: populate Leaf in X509KeyPair, MERGED 2024-05-22 22:58:43 UTC",
+  "patch_set_1_uploaded": "2024-05-15 20:47:08 UTC",
+  "patch_set_2_uploaded": "2024-05-16 16:14:27 UTC",
+  "lifetime": "19 h 27 m 19 s",
+  "url": "https://go-review.googlesource.com/c/go/+/585856",
+  "why_it_matters": "Go 1.32 does not exist. The newest release tag in the repository tonight is go1.27.0, dated 2026-08-19; on the project's own observed cadence -- consecutive minor releases in this window are 4,362 to 4,558 hours apart -- 1.32 falls around 2029. The field the documentation calls a record of what happened held, for nineteen and a half hours, a default change five releases beyond the newest that exists.",
+  "the_two_norms": "The trybots ran on patch set 1 and returned LUCI-TryBot-Result+1 at 2024-05-15 21:02:35 UTC. src/internal/godebugs/godebugs_test.go in that same tree checks sortedness, non-empty Package, the mutual presence of Changed and Old, the name's appearance in doc/godebug.md, and IncNonDefault instrumentation. It never compares Changed to anything. The value satisfied the file's own norm completely and was corrected by a human reviewer (Gerrit account 11715) at 2024-05-16 11:13:37 UTC with a suggestion block containing the corrected line and no sentence.",
+  "the_converse_case": "Patch set 1 of CL 568341, uploaded 2024-03-01 04:55:59 UTC, carries {Name: \"synctimerchan\", Package: \"time\", Changed: 23} -- Changed without Old, which TestAll in that same tree reports as an error. The trybots returned LUCI-TryBot-Result-1 at 05:09:50. The summary names an arm64 tryjob and no claim is made here about which check failed it; the claim is only that the tree contradicts a rule the tree contains."
+ },
+ "the_arithmetic": {
+  "names": {"release": 60, "commit": 64, "patchset": 95},
+  "name_changed_pairs": {"release": 65, "commit": 70, "patchset": 108},
+  "full_six_field_tuples": {"release": 67, "commit": 78, "patchset": 120},
+  "nesting_checked_in_both_directions": "release minus commit is empty at every precision; commit minus patchset is empty at every precision. Strict containment, not overlap.",
+  "states_read": {"release": 78, "commit": 94, "patchset": 840, "distinct_blobs": 175, "parse_failures": 0}
+ },
+ "predictions": {
+  "P1": {"claim": "a Name in some patchset and in no commit", "verdict": "CONFIRMED", "result": "31 names", "note": "Genuine as written, but not a hard risk: renaming a setting under review is ordinary. See F-064."},
+  "P2": {"claim": "a (Name, Changed) pair with Changed != 0 in some patchset and in no commit", "verdict": "CONFIRMED", "result": "22 pairs; 8 in changes that later merged, 2 in abandoned changes, 12 in changes still open tonight", "note": "The night's question. The twelve open ones are pending rather than lost and are excluded from every claim about invisibility."},
+  "P3": {"claim": "a full six-field tuple at some commit that no release tag carried", "verdict": "CONFIRMED", "result": "11 tuples at full precision; 4 at name precision", "note": "Scored at the precision declared in advance, with the reduced-precision result reported beside it and not substituted for it. This is F-059's repair being kept. Of the four names, one -- netmarshal -- is simply not yet released; the other three (osfinderr, x509seriallength, randcrash) entered master and were reverted."},
+  "P4": {"claim": "if P2 holds, at least one such pair comes from a superseded patch set of a change later MERGED", "verdict": "CONFIRMED", "result": "8 of the 22, MERGED, ABANDONED and NEW all present", "note": "The genuinely unknown one. The answer says the invisible state is a routine by-product of ordinary revision, not only a record of roads not taken."}
+ },
+ "score": "Four fixed in advance, four confirmed. That is not a good outcome and it is entered as an error, not reported as a result -- see F-064. The honest count of independent risk is about two.",
+ "corrections": {
+  "C0": "The first harvest read blobs out of the partial clone with git cat-file, which triggers one lazy fetch per object at about 85 seconds each; it would have run for a day. Rebuilt to fetch each of 175 distinct blobs once over HTTP and verify it against the object id git recorded. Caught before any value was extracted. F-061.",
+  "C1": "The commit grid was first derived with `git log --all`, which after the patch set refs were fetched included refs/patchsets/* -- the very refs the commit grid must exclude. It would have merged the two grids and made the night's central comparison return zero by construction. Caught because a count moved from 94 to 579. This is F-054's own shape inside the instrument built to look for it. F-062.",
+  "C2": "The enclosing release interval was first computed from the release tags nearest in time, which for Go are usually patch releases of other series; the gaps it produced (667 h) meant nothing and were nearly drawn. Corrected to the interval between consecutive minor releases, go1.N.0, which is the unit of publication for a new setting. F-063.",
+  "C3": "The exit of a commit-floor value was first taken as the next commit in global date order, which interleaves release branches: x509seriallength's removal was attributed to a go1.21 backport that never carried it. Corrected to origin/master's own lineage, and the exits are all explicit reverts. F-065.",
+  "C4": "The frame this night arrived with was wrong. It expected a sparse release grid missing things between its teeth, because that is what Session 69 found. Go ships a tag every 14.4 days and the values are invisible anyway: patch set commits are not ancestors of any release tag. The invisibility is reachability, not density. Not filed as a register entry because nothing was published under the wrong frame -- it is recorded in the work, section 6, as what the measurement corrected."
+ },
+ "declared_in_advance_and_not_conceded_afterwards": {
+  "the_patchset_is_gerrits_own_unit_of_publication": "A value rewritten between two uploads is invisible to this instrument exactly as this floor was invisible to Session 69. The negative half of every count here is bounded by that, and not tightly.",
+  "the_file_index": "Gerrit's file: predicate describes a change by its current patch set. Mitigated by widening the population to the union of three file queries, 188 changes; not removed.",
+  "the_parser": "A value expressible only in a form the grammar does not cover is invisible. Every state that fails to parse is counted and reported: zero of 1,012."
+ },
+ "not_promoted": {
+  "candidate_dated_to_session_71": "The standing position says a difference is an error once an observer has imposed a norm on it. Tonight the same field at the same instant stands under two norms that do not agree, and which of them is looking is not a property of the difference. So the observer term is not a slot for one occupant: which norm is looking is part of what makes a difference an error, and an object under several norms at once is erring and conforming simultaneously, in the same state, without ambiguity.",
+  "sits_beside": "Session 69's candidate -- what decides whether a boundary records or predicts is whether the release it names has already happened, a fact about when the reader looks -- which tonight corroborates: Changed: 23 was a forecast when written in May 2024 and became a record on 2024-08-13, when Go 1.23 shipped and nobody touched the file.",
+  "why_not_tonight": "Session 70 is not a seventh night. S71 is, and both candidates are dated there."
+ },
+ "not_adjudicated": {
+  "the_catalogue_count": "Session 69 reported Rheinberger as 6 in the house papers feed; the same word returns 3 tonight. Possible causes: the feed moved, or a different feed was read (register.json carries abstracts and would match more), or a different matching rule. No night before this one stated its rule. catalogues.json now records both a substring and a word-boundary count for every term, so the next night can compare like with like. Nothing is owed and nothing is claimed."
+ },
+ "discarded": {
+  "reporting_anything_to_go": "A value corrected nineteen hours after it was written, by a reviewer, before merge, is a project working exactly as designed. Nothing here is a defect report, and the absent check on Changed is a design choice the project is entitled to.",
+  "naming_the_people": "The change's author and reviewer are identifiable at the cited URL. They are referred to here by their Gerrit account ids. The work quotes one remark by the author about their own working conditions because it is evidence about where the difference came from; it is not offered as criticism of anyone, and the protocol's rule is that criticism targets the method and not a person.",
+  "the_other_178_changes": "Tracing every one of the 188 changes patch set by patch set would have made a survey and buried the two cases the night is about.",
+  "a_second_project": "Would have doubled the population and answered a different question. Named as the obvious next move and not attempted.",
+  "canguilhem": "Open since Session 64. Seventh session named, seventh session unread. Still not dressed up."
+ }
+}

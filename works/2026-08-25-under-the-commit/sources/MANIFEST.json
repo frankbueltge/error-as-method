@@ -1,0 +1,119 @@
+{
+ "note": "Fetched, hashed. No third-party document is committed as bytes -- see PROTOCOL.md, 'Sources are committed only where the licence allows it'. The exception is the object under study: the 175 states of src/internal/godebugs/table.go are embedded in grids.json, which Go's BSD-3-Clause licence permits and which each state's own copyright header carries with it. Per-state content hashes are in grids.json and the object ids beside them are git's own.",
+ "entries": [
+  {
+   "url": "https://go-review.googlesource.com/changes/?q=file:src%2Finternal%2Fgodebugs%2Ftable.go&n=500&o=ALL_REVISIONS",
+   "http_status": 200,
+   "bytes": 374439,
+   "sha256": "6490064e94ecbff491a978635390ad1c19b1dc89a0b8c2d47882324e1cbacf76",
+   "fetched": "2026-08-25T23:41:59Z",
+   "what": "Gerrit change search: file:src/internal/godebugs/table.go",
+   "committed": false
+  },
+  {
+   "url": "https://go-review.googlesource.com/changes/?q=file:doc%2Fgodebug.md&n=500&o=ALL_REVISIONS",
+   "http_status": 200,
+   "bytes": 405557,
+   "sha256": "e3bbdf765a78c470bbabdd0037531c6d6635258036a778e284298c4489c7f5bd",
+   "fetched": "2026-08-25T23:42:00Z",
+   "what": "Gerrit change search: file:doc/godebug.md",
+   "committed": false
+  },
+  {
+   "url": "https://go-review.googlesource.com/changes/?q=file:src%2Finternal%2Fgodebug%2Fgodebug.go&n=500&o=ALL_REVISIONS",
+   "http_status": 200,
+   "bytes": 58768,
+   "sha256": "2a996dd08e89eb5dd75d438ea5c693e2d7807f73d2a8faabacedcf4a52868bea",
+   "fetched": "2026-08-25T23:42:00Z",
+   "what": "Gerrit change search: file:src/internal/godebug/godebug.go",
+   "committed": false
+  },
+  {
+   "url": "https://go.googlesource.com/go/+/<rev>/src/internal/godebugs/table.go?format=TEXT",
+   "http_status": 200,
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "fetched": "2026-08-25T23:43:39Z",
+   "what": "175 distinct blob objects fetched by rev+path and verified against the object id git recorded for each",
+   "committed": false
+  },
+  {
+   "url": "https://go.dev/doc/godebug",
+   "http_status": 200,
+   "bytes": 59559,
+   "sha256": "04a71ba0c285219b1ea6e388cab295a6d5b72724ea29e74b2263986d0e0d49cc",
+   "fetched": "2026-08-25T23:48:17Z",
+   "what": "Go's GODEBUG documentation -- the norm prose for the field under test; 'This section documents the GODEBUG settings introduced and removed in each major Go release'",
+   "committed": false
+  },
+  {
+   "url": "https://go.dev/doc/go1compat",
+   "http_status": 200,
+   "bytes": 34517,
+   "sha256": "bb498d5068389ad2058b04a2fb691daea4dee60b91d8093717af3d99a3dbd76e",
+   "fetched": "2026-08-25T23:48:18Z",
+   "what": "the Go 1 compatibility promise the GODEBUG mechanism serves",
+   "committed": false
+  },
+  {
+   "url": "https://go.dev/doc/contribute",
+   "http_status": 200,
+   "bytes": 69854,
+   "sha256": "9b02e54bac9c7546f419ecbf89724b80979195cb5633b0163baf00e94625b2da",
+   "fetched": "2026-08-25T23:48:18Z",
+   "what": "Go's contribution guide -- documents that every patch set is fetchable as refs/changes/NN/CCCC/P",
+   "committed": false
+  },
+  {
+   "url": "https://gerrit-review.googlesource.com/Documentation/user-upload.html",
+   "http_status": 200,
+   "bytes": 48012,
+   "sha256": "239c61fd481e416e75d64809507904b8717c78c76fe17c6bc60e5dc8ace32755",
+   "fetched": "2026-08-25T23:48:18Z",
+   "what": "Gerrit's own documentation of the refs/changes/* namespace",
+   "committed": false
+  },
+  {
+   "url": "https://go.dev/doc/devel/release",
+   "http_status": 200,
+   "bytes": 146265,
+   "sha256": "4c9ddc4b23faefa2fd1c9d97f7a175251e408591cecf58bce4a2612113f01b6e",
+   "fetched": "2026-08-25T23:48:19Z",
+   "what": "Go's release history -- the release dates the grids are read against",
+   "committed": false
+  },
+  {
+   "url": "https://frankbueltge.de/atlas/werke.json",
+   "http_status": 200,
+   "bytes": 387046,
+   "sha256": "bb074df31fd696362cbb6476a79aaadb588421378ceada8c0f274e6ea9463ba0",
+   "fetched": "2026-08-25T23:48:19Z",
+   "what": "house catalogue: atlas",
+   "committed": false
+  },
+  {
+   "url": "https://frankbueltge.de/papers/index.json",
+   "http_status": 200,
+   "bytes": 790696,
+   "sha256": "38b6e7b0cbb1d6e89a14b66cbfa6c2be890c1c54b7ea006613c4966f250ff7b8",
+   "fetched": "2026-08-25T23:48:19Z",
+   "what": "house catalogue: papers",
+   "committed": false
+  },
+  {
+   "url": "https://frankbueltge.de/datasets/register.json",
+   "http_status": 200,
+   "bytes": 51344,
+   "sha256": "343f32be44a4fee2860cda8a36ead47a8513badfbe9edc1acdc60afa9b28b872",
+   "fetched": "2026-08-25T23:48:20Z",
+   "what": "house catalogue: datasets",
+   "committed": false
+  }
+ ],
+ "licence_of_the_object": {
+  "project": "Go",
+  "licence": "BSD-3-Clause",
+  "url": "https://go.googlesource.com/go/+/refs/heads/master/LICENSE",
+  "why_this_matters": "Redistribution with the notice is permitted, so committing the file's states is lawful and makes the night re-runnable by a stranger without re-fetching."
+ }
+}

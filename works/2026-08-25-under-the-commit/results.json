@@ -1,0 +1,2308 @@
+{
+ "session": 70,
+ "date": "2026-08-25",
+ "path": "src/internal/godebugs/table.go",
+ "population": {
+  "changes_in_union": 188,
+  "changes_project_go": 188,
+  "changes_other_projects": [],
+  "patchset_refs": 901,
+  "patchset_refs_fetched_this_run": 0,
+  "patchset_refs_unfetchable": [],
+  "release_tags_matching": 287,
+  "points_without_the_file": {
+   "release": 209,
+   "commit": 0,
+   "patchset": 61
+  },
+  "release_points": 78,
+  "commit_points": 94,
+  "patchset_points": 840,
+  "distinct_blobs": 175
+ },
+ "grid_sizes": {
+  "release": {
+   "states": 78,
+   "tuples": 67,
+   "names": 60,
+   "pairs": 65
+  },
+  "commit": {
+   "states": 94,
+   "tuples": 78,
+   "names": 64,
+   "pairs": 70
+  },
+  "patchset": {
+   "states": 840,
+   "tuples": 120,
+   "names": 95,
+   "pairs": 108
+  }
+ },
+ "parse_failures": [],
+ "P1": {
+  "claim": "a Name in some patchset and in no commit",
+  "count": 31,
+  "names": [
+   "cgroupgomaxprocs",
+   "epollpwait2",
+   "golineprependdir",
+   "goscannerprefixlinedir",
+   "http1debug",
+   "http2reuseframes",
+   "http2serverkeepclienthost",
+   "http2serverpermitconflictinghost",
+   "httpdebug",
+   "httpdebugredact",
+   "httpdircache",
+   "httpmaxheadervalues",
+   "jsoninconsistentmarshal",
+   "netreadablejson",
+   "osfindprocess",
+   "osusepidfd",
+   "slowerflate",
+   "synctimerchan",
+   "testtimeout",
+   "timerfc3339strict",
+   "tlsechgrease",
+   "trackroots",
+   "urlstrictipv6",
+   "x509allowmalformedsans",
+   "x509lazydirscan",
+   "x509negativecrlserial",
+   "xmlcheck:chars",
+   "xmlcheck:endtags",
+   "xmlcheck:entities",
+   "xmlinconsistentmarshal",
+   "xmlvalidatechars"
+  ],
+  "verdict": "CONFIRMED"
+ },
+ "P2": {
+  "claim": "a (Name, Changed) pair, Changed != 0, in some patchset and in no commit",
+  "count": 22,
+  "pairs": [
+   [
+    "cgroupgomaxprocs",
+    25
+   ],
+   [
+    "dataindependenttiming",
+    24
+   ],
+   [
+    "http2reuseframes",
+    27
+   ],
+   [
+    "http2serverkeepclienthost",
+    27
+   ],
+   [
+    "http2serverpermitconflictinghost",
+    27
+   ],
+   [
+    "httpdircache",
+    23
+   ],
+   [
+    "netmarshal",
+    29
+   ],
+   [
+    "netreadablejson",
+    27
+   ],
+   [
+    "slowerflate",
+    27
+   ],
+   [
+    "synctimerchan",
+    23
+   ],
+   [
+    "testtimeout",
+    24
+   ],
+   [
+    "timerfc3339strict",
+    22
+   ],
+   [
+    "tlsechgrease",
+    27
+   ],
+   [
+    "tracebacklabels",
+    26
+   ],
+   [
+    "urlstrictipv6",
+    26
+   ],
+   [
+    "x509allowmalformedsans",
+    27
+   ],
+   [
+    "x509keypairleaf",
+    32
+   ],
+   [
+    "x509lazydirscan",
+    27
+   ],
+   [
+    "x509negativecrlserial",
+    25
+   ],
+   [
+    "xmlcheck:chars",
+    25
+   ],
+   [
+    "xmlcheck:endtags",
+    25
+   ],
+   [
+    "xmlcheck:entities",
+    25
+   ]
+  ],
+  "verdict": "CONFIRMED"
+ },
+ "P3": {
+  "claim": "a full six-field tuple at some commit that no release tag carried",
+  "count": 11,
+  "tuples": [
+   [
+    "asynctimerchan",
+    "time",
+    0,
+    "",
+    true,
+    false
+   ],
+   [
+    "asynctimerchan",
+    "time",
+    23,
+    "1",
+    true,
+    false
+   ],
+   [
+    "gotypesalias",
+    "go/types",
+    0,
+    "",
+    true,
+    false
+   ],
+   [
+    "gotypesalias",
+    "go/types",
+    23,
+    "0",
+    true,
+    false
+   ],
+   [
+    "httpservecontentkeepheaders",
+    "net/http",
+    23,
+    "0",
+    false,
+    false
+   ],
+   [
+    "netmarshal",
+    "net",
+    30,
+    "0",
+    false,
+    false
+   ],
+   [
+    "osfinderr",
+    "os",
+    0,
+    "",
+    false,
+    false
+   ],
+   [
+    "randcrash",
+    "crypto/rand",
+    24,
+    "0",
+    false,
+    false
+   ],
+   [
+    "winreadlinkvolume",
+    "os",
+    22,
+    "0",
+    true,
+    false
+   ],
+   [
+    "winsymlink",
+    "os",
+    22,
+    "0",
+    true,
+    false
+   ],
+   [
+    "x509seriallength",
+    "crypto/x509",
+    23,
+    "1",
+    false,
+    false
+   ]
+  ],
+  "reduced_names_only": [
+   "netmarshal",
+   "osfinderr",
+   "randcrash",
+   "x509seriallength"
+  ],
+  "reduced_name_changed_pairs": [
+   [
+    "asynctimerchan",
+    0
+   ],
+   [
+    "netmarshal",
+    30
+   ],
+   [
+    "osfinderr",
+    0
+   ],
+   [
+    "randcrash",
+    24
+   ],
+   [
+    "x509seriallength",
+    23
+   ]
+  ],
+  "verdict": "CONFIRMED"
+ },
+ "P4": {
+  "claim": "if P2 holds, at least one such pair comes from a superseded patchset of a change later MERGED",
+  "statuses_seen": [
+   "ABANDONED",
+   "MERGED",
+   "NEW"
+  ],
+  "provenance": {
+   "timerfc3339strict@22": [
+    {
+     "change": 521501,
+     "patchset": 1,
+     "status": "ABANDONED",
+     "branch": "master",
+     "subject": "time: roll forward with strict RFC 3339 parsing checks",
+     "created": "2023-08-22 05:11:25.000000000",
+     "sha": "6e0b44bf7fbc3d4c3786042bd5b9305559597e29",
+     "ref": "refs/changes/01/521501/1"
+    },
+    {
+     "change": 521501,
+     "patchset": 2,
+     "status": "ABANDONED",
+     "branch": "master",
+     "subject": "time: roll forward with strict RFC 3339 parsing checks",
+     "created": "2023-08-22 05:12:54.000000000",
+     "sha": "502955a07436c2c2594377521ed30305d2e6ad70",
+     "ref": "refs/changes/01/521501/2"
+    }
+   ],
+   "testtimeout@24": [
+    {
+     "change": 526355,
+     "patchset": 2,
+     "status": "NEW",
+     "branch": "master",
+     "subject": "[draft] testing: add individual timer for tests, benchmarks, examples and fuzz targets",
+     "created": "2024-08-30 21:01:01.000000000",
+     "sha": "e13969b4c6697946fde33eefbff7b68c38ba9a8e",
+     "ref": "refs/changes/55/526355/2"
+    }
+   ],
+   "httpdircache@23": [
+    {
+     "change": 543636,
+     "patchset": 1,
+     "status": "NEW",
+     "branch": "master",
+     "subject": "net/http: optimize http.Dir when files are not modified and add GODEUG to preserve old behavior",
+     "created": "2023-11-19 09:49:05.000000000",
+     "sha": "968e729a7848bc053cde0f3c41b825cff0e9d796",
+     "ref": "refs/changes/36/543636/1"
+    },
+    {
+     "change": 543636,
+     "patchset": 2,
+     "status": "NEW",
+     "branch": "master",
+     "subject": "net/http: optimize http.Dir when files are not modified and add GODEUG to preserve old behavior",
+     "created": "2023-11-19 09:55:43.000000000",
+     "sha": "e511925c42e3166170768dc710417729041c2f3b",
+     "ref": "refs/changes/36/543636/2"
+    }
+   ],
+   "synctimerchan@23": [
+    {
+     "change": 568341,
+     "patchset": 1,
+     "status": "MERGED",
+     "branch": "master",
+     "subject": "time: avoid stale receives after Timer/Ticker Stop/Reset return",
+     "created": "2024-03-01 04:55:59.000000000",
+     "sha": "cf0fabd72b4f72391819d489c92cdec8e4540c5b",
+     "ref": "refs/changes/41/568341/1"
+    }
+   ],
+   "x509keypairleaf@32": [
+    {
+     "change": 585856,
+     "patchset": 1,
+     "status": "MERGED",
+     "branch": "master",
+     "subject": "crypto/tls: populate Leaf in X509KeyPair",
+     "created": "2024-05-15 20:47:08.000000000",
+     "sha": "6d4383a0f59b642a36cba261378c712f2d0542d4",
+     "ref": "refs/changes/56/585856/1"
+    }
+   ],
+   "dataindependenttiming@24": [
+    {
+     "change": 598336,
+     "patchset": 14,
+     "status": "MERGED",
+     "branch": "master",
+     "subject": "crypto/subtle: add DIT closure",
+     "created": "2024-11-15 23:47:20.000000000",
+     "sha": "444d0411b852f52488986b2496152c974334dcd1",
+     "ref": "refs/changes/36/598336/14"
+    },
+    {
+     "change": 598336,
+     "patchset": 15,
+     "status": "MERGED",
+     "branch": "master",
+     "subject": "crypto/subtle: add DIT closure",
+     "created": "2024-11-16 00:25:41.000000000",
+     "sha": "dea703e528393769e583f1ea5c38c4ebdcb32652",
+     "ref": "refs/changes/36/598336/15"
+    },
+    {
+     "change": 598336,
+     "patchset": 16,
+     "status": "MERGED",
+     "branch": "master",
+     "subject": "crypto/subtle: add DIT closure",
+     "created": "2024-11-16 00:30:43.000000000",
+     "sha": "ffb8b052060280592c1b940fe9cba1e2afed0291",
+     "ref": "refs/changes/36/598336/16"
+    },
+    {
+     "change": 598336,
+     "patchset": 17,
+     "status": "MERGED",
+     "branch": "master",
+     "subject": "crypto/subtle: add DIT closure",
+     "created": "2024-11-16 00:38:16.000000000",
+     "sha": "246feb7568def274b883a8e199a51b7b6c116205",
+     "ref": "refs/changes/36/598336/17"
+    }
+   ],
+   "netreadablejson@27": [
+    {
+     "change": 659315,
+     "patchset": 1,
+     "status": "MERGED",
+     "branch": "master",
+     "subject": "net: use readable JSON marshaling for IPNet, IPMask, HardwareAddr",
+     "created": "2025-03-19 16:54:59.000000000",
+     "sha": "06211119241ee07a3754d5678101a94fc5e91a44",
+     "ref": "refs/changes/15/659315/1"
+    },
+    {
+     "change": 659315,
+     "patchset": 2,
+     "status": "MERGED",
+     "branch": "master",
+     "subject": "net: use readable JSON marshaling for IPNet, IPMask, HardwareAddr",
+     "created": "2025-03-19 17:45:36.000000000",
+     "sha": "aa193b4e25582f8eb08d0154b9715859702e0e11",
+     "ref": "refs/changes/15/659315/2"
+    }
+   ],
+   "netmarshal@29": [
+    {
+     "change": 659315,
+     "patchset": 3,
+     "status": "MERGED",
+     "branch": "master",
+     "subject": "net: use readable JSON marshaling for IPNet, IPMask, HardwareAddr",
+     "created": "2026-05-21 20:54:28.000000000",
+     "sha": "d2c472d59036bf5165a50dca248abd0d4795ac43",
+     "ref": "refs/changes/15/659315/3"
+    }
+   ],
+   "xmlcheck:chars@25": [
+    {
+     "change": 662235,
+     "patchset": 1,
+     "status": "NEW",
+     "branch": "master",
+     "subject": "encoding/xml: adds Checks struct to allow selection of checks.",
+     "created": "2025-04-02 09:17:17.000000000",
+     "sha": "a441543fceb446ff444e287f3cb17b4b3bdcd289",
+     "ref": "refs/changes/35/662235/1"
+    }
+   ],
+   "xmlcheck:endtags@25": [
+    {
+     "change": 662235,
+     "patchset": 1,
+     "status": "NEW",
+     "branch": "master",
+     "subject": "encoding/xml: adds Checks struct to allow selection of checks.",
+     "created": "2025-04-02 09:17:17.000000000",
+     "sha": "a441543fceb446ff444e287f3cb17b4b3bdcd289",
+     "ref": "refs/changes/35/662235/1"
+    }
+   ],
+   "xmlcheck:entities@25": [
+    {
+     "change": 662235,
+     "patchset": 1,
+     "status": "NEW",
+     "branch": "master",
+     "subject": "encoding/xml: adds Checks struct to allow selection of checks.",
+     "created": "2025-04-02 09:17:17.000000000",
+     "sha": "a441543fceb446ff444e287f3cb17b4b3bdcd289",
+     "ref": "refs/changes/35/662235/1"
+    }
+   ],
+   "x509negativecrlserial@25": [
+    {
+     "change": 666695,
+     "patchset": 1,
+     "status": "ABANDONED",
+     "branch": "master",
+     "subject": "crypto/x509: reject CRL revoked certs w/ negative serial",
+     "created": "2025-04-18 18:29:00.000000000",
+     "sha": "d07a6b6c001b38b833bb338ed8f0fbd91d33ffad",
+     "ref": "refs/changes/95/666695/1"
+    },
+    {
+     "change": 666695,
+     "patchset": 2,
+     "status": "ABANDONED",
+     "branch": "master",
+     "subject": "crypto/x509: reject CRL revoked certs w/ negative serial",
+     "created": "2025-04-18 18:30:25.000000000",
+     "sha": "0e445c007355a43906276ecf29b506d011fda415",
+     "ref": "refs/changes/95/666695/2"
+    },
+    {
+     "change": 666695,
+     "patchset": 3,
+     "status": "ABANDONED",
+     "branch": "master",
+     "subject": "crypto/x509: reject CRL revoked certs w/ negative serial",
+     "created": "2025-04-18 18:38:52.000000000",
+     "sha": "10c099af2325939f93f26ae61559bf64df42f09e",
+     "ref": "refs/changes/95/666695/3"
+    }
+   ],
+   "cgroupgomaxprocs@25": [
+    {
+     "change": 670497,
+     "patchset": 6,
+     "status": "MERGED",
+     "branch": "master",
+     "subject": "runtime: use cgroup CPU limit to set GOMAXPROCS",
+     "created": "2025-05-12 21:43:18.000000000",
+     "sha": "7292b831a33042ae9557ce4c687cc7e57e73b642",
+     "ref": "refs/changes/97/670497/6"
+    }
+   ],
+   "tracebacklabels@26": [
+    {
+     "change": 694119,
+     "patchset": 11,
+     "status": "MERGED",
+     "branch": "master",
+     "subject": "runtime: add GODEBUG=tracebacklabels=1 to include pprof labels in tracebacks",
+     "created": "2025-10-07 19:10:17.000000000",
+     "sha": "82cf4a50d0b14a9c451dbd8ba2769d3bf152eec1",
+     "ref": "refs/changes/19/694119/11"
+    },
+    {
+     "change": 694119,
+     "patchset": 12,
+     "status": "MERGED",
+     "branch": "master",
+     "subject": "runtime: add GODEBUG=tracebacklabels=1 to include pprof labels in tracebacks",
+     "created": "2025-10-07 19:15:37.000000000",
+     "sha": "982f083b8183c12a9b878d6b779eabfcfa015a34",
+     "ref": "refs/changes/19/694119/12"
+    },
+    {
+     "change": 694119,
+     "patchset": 13,
+     "status": "MERGED",
+     "branch": "master",
+     "subject": "runtime: add GODEBUG=tracebacklabels=1 to include pprof labels in tracebacks",
+     "created": "2025-10-15 17:08:33.000000000",
+     "sha": "52506bad7c4ec5a9cc561361206fc5c617a0b927",
+     "ref": "refs/changes/19/694119/13"
+    },
+    {
+     "change": 694119,
+     "patchset": 14,
+     "status": "MERGED",
+     "branch": "master",
+     "subject": "runtime: add GODEBUG=tracebacklabels=1 to include pprof labels in tracebacks",
+     "created": "2025-10-20 23:56:02.000000000",
+     "sha": "72068abd9b80ed0eb3abd56ccff9384470558946",
+     "ref": "refs/changes/19/694119/14"
+    },
+    {
+     "change": 694119,
+     "patchset": 15,
+     "status": "MERGED",
+     "branch": "master",
+     "subject": "runtime: add GODEBUG=tracebacklabels=1 to include pprof labels in tracebacks",
+     "created": "2025-10-29 14:26:32.000000000",
+     "sha": "7aa5f64d83f684899fb49ee5fe50761d73f8bc7b",
+     "ref": "refs/changes/19/694119/15"
+    },
+    {
+     "change": 694119,
+     "patchset": 16,
+     "status": "MERGED",
+     "branch": "master",
+     "subject": "runtime: add GODEBUG=tracebacklabels=1 to include pprof labels in tracebacks",
+     "created": "2025-10-30 14:45:25.000000000",
+     "sha": "84248f9c0282f1b53bd6b7fa1105d65679afd168",
+     "ref": "refs/changes/19/694119/16"
+    },
+    {
+     "change": 694119,
+     "patchset": 17,
+     "status": "MERGED",
+     "branch": "master",
+     "subject": "runtime: add GODEBUG=tracebacklabels=1 to include pprof labels in tracebacks",
+     "created": "2025-11-12 19:37:23.000000000",
+     "sha": "bc298b4e161f05329b3a8914e6715ddf3be55683",
+     "ref": "refs/changes/19/694119/17"
+    },
+    {
+     "change": 694119,
+     "patchset": 18,
+     "status": "MERGED",
+     "branch": "master",
+     "subject": "runtime: add GODEBUG=tracebacklabels=1 to include pprof labels in tracebacks",
+     "created": "2025-11-13 16:15:07.000000000",
+     "sha": "3f88176d47877f11473db8280de6cdf19a636a2d",
+     "ref": "refs/changes/19/694119/18"
+    }
+   ],
+   "urlstrictipv6@26": [
+    {
+     "change": 712840,
+     "patchset": 1,
+     "status": "MERGED",
+     "branch": "master",
+     "subject": "net/url: disallow raw IPv6 addresses in host",
+     "created": "2025-10-18 09:33:08.000000000",
+     "sha": "a9e3dc1d59ef1b8b96b2323ac2da4e8f00322743",
+     "ref": "refs/changes/40/712840/1"
+    },
+    {
+     "change": 712840,
+     "patchset": 2,
+     "status": "MERGED",
+     "branch": "master",
+     "subject": "net/url: disallow raw IPv6 addresses in host",
+     "created": "2025-10-18 09:54:35.000000000",
+     "sha": "02a043710fbaf8c7dabe416385fcebc2dd612bde",
+     "ref": "refs/changes/40/712840/2"
+    },
+    {
+     "change": 712840,
+     "patchset": 3,
+     "status": "MERGED",
+     "branch": "master",
+     "subject": "net/url: disallow raw IPv6 addresses in host",
+     "created": "2025-10-19 00:03:00.000000000",
+     "sha": "42b02e7ddf31b6e28ccc48beb23e3d41e7378230",
+     "ref": "refs/changes/40/712840/3"
+    }
+   ],
+   "x509allowmalformedsans@27": [
+    {
+     "change": 769620,
+     "patchset": 1,
+     "status": "NEW",
+     "branch": "master",
+     "subject": "crypto/x509: tighten SAN validity rules",
+     "created": "2026-04-21 20:13:30.000000000",
+     "sha": "a94f1e94778c24a909571b936b8ec704ecb19bb7",
+     "ref": "refs/changes/20/769620/1"
+    },
+    {
+     "change": 769620,
+     "patchset": 2,
+     "status": "NEW",
+     "branch": "master",
+     "subject": "crypto/x509: tighten SAN validity rules",
+     "created": "2026-04-22 20:34:37.000000000",
+     "sha": "34b68a9ba05b45e91e8cb61d6a2e7e6ec263cadc",
+     "ref": "refs/changes/20/769620/2"
+    }
+   ],
+   "http2reuseframes@27": [
+    {
+     "change": 782280,
+     "patchset": 2,
+     "status": "NEW",
+     "branch": "master",
+     "subject": "net/http/internal/http2: enable SetReuseFrames in server and Transport",
+     "created": "2026-06-09 21:22:42.000000000",
+     "sha": "72167daa3a7313725fd42ba9940bc996dd33873a",
+     "ref": "refs/changes/80/782280/2"
+    }
+   ],
+   "slowerflate@27": [
+    {
+     "change": 789601,
+     "patchset": 1,
+     "status": "NEW",
+     "branch": "master",
+     "subject": "compress/flate: move previous implementation behind GODEBUG slowerflate=go126",
+     "created": "2026-06-11 14:46:34.000000000",
+     "sha": "02cf78a2812f96b5ab4f1e35a007eb3db145a1e1",
+     "ref": "refs/changes/01/789601/1"
+    },
+    {
+     "change": 789601,
+     "patchset": 2,
+     "status": "NEW",
+     "branch": "master",
+     "subject": "compress/flate: move previous implementation behind GODEBUG slowerflate=go126",
+     "created": "2026-06-11 17:53:20.000000000",
+     "sha": "3c22bdd00da833700dd62e13ea3c8078c00756a0",
+     "ref": "refs/changes/01/789601/2"
+    }
+   ],
+   "tlsechgrease@27": [
+    {
+     "change": 790620,
+     "patchset": 1,
+     "status": "NEW",
+     "branch": "master",
+     "subject": "crypto/tls: send TLS 1.3 ECH GREASE by default",
+     "created": "2026-06-14 16:05:25.000000000",
+     "sha": "7343d9961fb6c554c96f70e825160d9b590fccf5",
+     "ref": "refs/changes/20/790620/1"
+    },
+    {
+     "change": 790620,
+     "patchset": 2,
+     "status": "NEW",
+     "branch": "master",
+     "subject": "crypto/tls: send TLS 1.3 ECH GREASE by default",
+     "created": "2026-06-15 09:56:03.000000000",
+     "sha": "37ad72c9d1856644a0115a74ea82162b2a7af083",
+     "ref": "refs/changes/20/790620/2"
+    },
+    {
+     "change": 790620,
+     "patchset": 3,
+     "status": "NEW",
+     "branch": "master",
+     "subject": "crypto/tls: send TLS 1.3 ECH GREASE by default",
+     "created": "2026-06-15 11:40:27.000000000",
+     "sha": "2dab05e208a40b308477e886d27bfd16d19a3cdd",
+     "ref": "refs/changes/20/790620/3"
+    },
+    {
+     "change": 790620,
+     "patchset": 4,
+     "status": "NEW",
+     "branch": "master",
+     "subject": "crypto/tls: send TLS 1.3 ECH GREASE by default",
+     "created": "2026-06-15 13:15:05.000000000",
+     "sha": "76501fe02cf21cbe39ce3b5241f20d0943491c76",
+     "ref": "refs/changes/20/790620/4"
+    },
+    {
+     "change": 790620,
+     "patchset": 5,
+     "status": "NEW",
+     "branch": "master",
+     "subject": "crypto/tls: send TLS 1.3 ECH GREASE by default",
+     "created": "2026-06-18 16:49:48.000000000",
+     "sha": "372d1286e72ca7d12f14fc6fdb0ebb80f100459d",
+     "ref": "refs/changes/20/790620/5"
+    },
+    {
+     "change": 790620,
+     "patchset": 6,
+     "status": "NEW",
+     "branch": "master",
+     "subject": "crypto/tls: send TLS 1.3 ECH GREASE by default",
+     "created": "2026-06-18 18:44:10.000000000",
+     "sha": "c91826705fb14bb50473551b4e8e27c0d979f65a",
+     "ref": "refs/changes/20/790620/6"
+    },
+    {
+     "change": 790620,
+     "patchset": 7,
+     "status": "NEW",
+     "branch": "master",
+     "subject": "crypto/tls: send TLS 1.3 ECH GREASE by default",
+     "created": "2026-08-05 19:23:56.000000000",
+     "sha": "3e8a4c1e18255e02cc17d8365376386ae82fb11f",
+     "ref": "refs/changes/20/790620/7"
+    },
+    {
+     "change": 790620,
+     "patchset": 8,
+     "status": "NEW",
+     "branch": "master",
+     "subject": "crypto/tls: send TLS 1.3 ECH GREASE by default",
+     "created": "2026-08-05 19:28:18.000000000",
+     "sha": "2749db597d7b707491c2f0eba993c29233a22388",
+     "ref": "refs/changes/20/790620/8"
+    }
+   ],
+   "http2serverkeepclienthost@27": [
+    {
+     "change": 792620,
+     "patchset": 1,
+     "status": "NEW",
+     "branch": "master",
+     "subject": "net/http: add Server.MaxHeaderValueCount and GODEBUG httpmaxheadervalues",
+     "created": "2026-06-19 18:52:29.000000000",
+     "sha": "9c5965d287dc3175351abe51d01b75dbb6920601",
+     "ref": "refs/changes/20/792620/1"
+    }
+   ],
+   "http2serverpermitconflictinghost@27": [
+    {
+     "change": 792620,
+     "patchset": 1,
+     "status": "NEW",
+     "branch": "master",
+     "subject": "net/http: add Server.MaxHeaderValueCount and GODEBUG httpmaxheadervalues",
+     "created": "2026-06-19 18:52:29.000000000",
+     "sha": "9c5965d287dc3175351abe51d01b75dbb6920601",
+     "ref": "refs/changes/20/792620/1"
+    }
+   ],
+   "x509lazydirscan@27": [
+    {
+     "change": 799801,
+     "patchset": 17,
+     "status": "NEW",
+     "branch": "master",
+     "subject": "crypto/x509: defer directory scan when cert bundle provides roots",
+     "created": "2026-08-13 20:57:36.000000000",
+     "sha": "70f0132ac445f972ef338d37365d74b59ae9b6bc",
+     "ref": "refs/changes/01/799801/17"
+    },
+    {
+     "change": 799801,
+     "patchset": 18,
+     "status": "NEW",
+     "branch": "master",
+     "subject": "crypto/x509: defer directory scan when cert bundle provides roots",
+     "created": "2026-08-13 21:15:19.000000000",
+     "sha": "368f65d1a575d0806ae99d7cfb3bd5f056a6700e",
+     "ref": "refs/changes/01/799801/18"
+    }
+   ]
+  },
+  "verdict": "CONFIRMED"
+ },
+ "P1_provenance": {
+  "timerfc3339strict": [
+   {
+    "change": 521501,
+    "patchset": 1,
+    "status": "ABANDONED",
+    "subject": "time: roll forward with strict RFC 3339 parsing checks",
+    "created": "2023-08-22 05:11:25.000000000",
+    "tuple": [
+     "timerfc3339strict",
+     "time",
+     22,
+     "0",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 521501,
+    "patchset": 2,
+    "status": "ABANDONED",
+    "subject": "time: roll forward with strict RFC 3339 parsing checks",
+    "created": "2023-08-22 05:12:54.000000000",
+    "tuple": [
+     "timerfc3339strict",
+     "time",
+     22,
+     "0",
+     false,
+     false
+    ]
+   }
+  ],
+  "testtimeout": [
+   {
+    "change": 526355,
+    "patchset": 2,
+    "status": "NEW",
+    "subject": "[draft] testing: add individual timer for tests, benchmarks, examples and fuzz targets",
+    "created": "2024-08-30 21:01:01.000000000",
+    "tuple": [
+     "testtimeout",
+     "cmd/go",
+     24,
+     "0",
+     false,
+     false
+    ]
+   }
+  ],
+  "osusepidfd": [
+   {
+    "change": 542699,
+    "patchset": 7,
+    "status": "MERGED",
+    "subject": "os: make FindProcess use pidfd on Linux",
+    "created": "2023-11-29 21:49:27.000000000",
+    "tuple": [
+     "osusepidfd",
+     "os",
+     0,
+     "",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 542699,
+    "patchset": 8,
+    "status": "MERGED",
+    "subject": "os: make FindProcess use pidfd on Linux",
+    "created": "2023-11-29 21:57:21.000000000",
+    "tuple": [
+     "osusepidfd",
+     "os",
+     0,
+     "",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 542699,
+    "patchset": 9,
+    "status": "MERGED",
+    "subject": "os: make FindProcess use pidfd on Linux",
+    "created": "2024-02-01 00:35:33.000000000",
+    "tuple": [
+     "osusepidfd",
+     "os",
+     0,
+     "",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 542699,
+    "patchset": 10,
+    "status": "MERGED",
+    "subject": "os: make FindProcess use pidfd on Linux",
+    "created": "2024-02-02 22:45:04.000000000",
+    "tuple": [
+     "osusepidfd",
+     "os",
+     0,
+     "",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 542699,
+    "patchset": 11,
+    "status": "MERGED",
+    "subject": "os: make FindProcess use pidfd on Linux",
+    "created": "2024-02-06 07:23:16.000000000",
+    "tuple": [
+     "osusepidfd",
+     "os",
+     0,
+     "",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 542699,
+    "patchset": 12,
+    "status": "MERGED",
+    "subject": "os: make FindProcess use pidfd on Linux",
+    "created": "2024-02-07 02:24:11.000000000",
+    "tuple": [
+     "osusepidfd",
+     "os",
+     0,
+     "",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 542699,
+    "patchset": 13,
+    "status": "MERGED",
+    "subject": "os: make FindProcess use pidfd on Linux",
+    "created": "2024-02-13 06:02:59.000000000",
+    "tuple": [
+     "osusepidfd",
+     "os",
+     0,
+     "",
+     false,
+     false
+    ]
+   }
+  ],
+  "osfindprocess": [
+   {
+    "change": 542699,
+    "patchset": 14,
+    "status": "MERGED",
+    "subject": "os: make FindProcess use pidfd on Linux",
+    "created": "2024-02-14 02:48:15.000000000",
+    "tuple": [
+     "osfindprocess",
+     "os",
+     0,
+     "",
+     false,
+     false
+    ]
+   }
+  ],
+  "httpdircache": [
+   {
+    "change": 543636,
+    "patchset": 1,
+    "status": "NEW",
+    "subject": "net/http: optimize http.Dir when files are not modified and add GODEUG to preserve old behavior",
+    "created": "2023-11-19 09:49:05.000000000",
+    "tuple": [
+     "httpdircache",
+     "net/http",
+     23,
+     "0",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 543636,
+    "patchset": 2,
+    "status": "NEW",
+    "subject": "net/http: optimize http.Dir when files are not modified and add GODEUG to preserve old behavior",
+    "created": "2023-11-19 09:55:43.000000000",
+    "tuple": [
+     "httpdircache",
+     "net/http",
+     23,
+     "0",
+     false,
+     false
+    ]
+   }
+  ],
+  "trackroots": [
+   {
+    "change": 552736,
+    "patchset": 1,
+    "status": "ABANDONED",
+    "subject": "runtime: track gc roots in the heap profiler",
+    "created": "2023-12-27 19:26:25.000000000",
+    "tuple": [
+     "trackroots",
+     "runtime",
+     0,
+     "",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 552736,
+    "patchset": 2,
+    "status": "ABANDONED",
+    "subject": "runtime: track gc roots in the heap profiler",
+    "created": "2023-12-27 19:29:52.000000000",
+    "tuple": [
+     "trackroots",
+     "runtime",
+     0,
+     "",
+     false,
+     false
+    ]
+   }
+  ],
+  "synctimerchan": [
+   {
+    "change": 568341,
+    "patchset": 1,
+    "status": "MERGED",
+    "subject": "time: avoid stale receives after Timer/Ticker Stop/Reset return",
+    "created": "2024-03-01 04:55:59.000000000",
+    "tuple": [
+     "synctimerchan",
+     "time",
+     23,
+     "",
+     false,
+     false
+    ]
+   }
+  ],
+  "xmlvalidatechars": [
+   {
+    "change": 601815,
+    "patchset": 3,
+    "status": "NEW",
+    "subject": "encoding/xml: validate all chars neccessary",
+    "created": "2024-09-24 19:31:38.000000000",
+    "tuple": [
+     "xmlvalidatechars",
+     "encoding/xml",
+     0,
+     "",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 601815,
+    "patchset": 4,
+    "status": "NEW",
+    "subject": "encoding/xml: validate all chars neccessary",
+    "created": "2024-09-24 19:37:13.000000000",
+    "tuple": [
+     "xmlvalidatechars",
+     "encoding/xml",
+     0,
+     "",
+     false,
+     false
+    ]
+   }
+  ],
+  "xmlinconsistentmarshal": [
+   {
+    "change": 606495,
+    "patchset": 3,
+    "status": "NEW",
+    "subject": "encoding/json, encoding/xml: add full support for marshalers with pointer receivers",
+    "created": "2024-08-20 04:22:21.000000000",
+    "tuple": [
+     "xmlinconsistentmarshal",
+     "encoding/xml",
+     0,
+     "",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 606495,
+    "patchset": 4,
+    "status": "NEW",
+    "subject": "encoding/json, encoding/xml: add full support for marshalers with pointer receivers",
+    "created": "2024-08-20 04:29:13.000000000",
+    "tuple": [
+     "xmlinconsistentmarshal",
+     "encoding/xml",
+     0,
+     "",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 606495,
+    "patchset": 5,
+    "status": "NEW",
+    "subject": "encoding/json, encoding/xml: add full support for marshalers with pointer receivers",
+    "created": "2024-08-20 04:48:38.000000000",
+    "tuple": [
+     "xmlinconsistentmarshal",
+     "encoding/xml",
+     0,
+     "",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 606495,
+    "patchset": 6,
+    "status": "NEW",
+    "subject": "encoding/json, encoding/xml: add full support for marshalers with pointer receivers",
+    "created": "2024-08-20 06:01:56.000000000",
+    "tuple": [
+     "xmlinconsistentmarshal",
+     "encoding/xml",
+     0,
+     "",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 606495,
+    "patchset": 7,
+    "status": "NEW",
+    "subject": "encoding/json, encoding/xml: add full support for marshalers with pointer receivers",
+    "created": "2024-08-20 06:08:31.000000000",
+    "tuple": [
+     "xmlinconsistentmarshal",
+     "encoding/xml",
+     0,
+     "",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 606495,
+    "patchset": 8,
+    "status": "NEW",
+    "subject": "encoding/json, encoding/xml: add full support for marshalers with pointer receivers",
+    "created": "2024-08-20 06:15:05.000000000",
+    "tuple": [
+     "xmlinconsistentmarshal",
+     "encoding/xml",
+     0,
+     "",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 606495,
+    "patchset": 9,
+    "status": "NEW",
+    "subject": "encoding/json, encoding/xml: add full support for marshalers with pointer receivers",
+    "created": "2024-08-20 23:46:56.000000000",
+    "tuple": [
+     "xmlinconsistentmarshal",
+     "encoding/xml",
+     0,
+     "",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 606495,
+    "patchset": 10,
+    "status": "NEW",
+    "subject": "encoding/json, encoding/xml: add full support for marshalers with pointer receivers",
+    "created": "2024-08-20 23:54:21.000000000",
+    "tuple": [
+     "xmlinconsistentmarshal",
+     "encoding/xml",
+     0,
+     "",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 606495,
+    "patchset": 11,
+    "status": "NEW",
+    "subject": "encoding/json, encoding/xml: add full support for marshalers with pointer receivers",
+    "created": "2024-08-21 00:01:10.000000000",
+    "tuple": [
+     "xmlinconsistentmarshal",
+     "encoding/xml",
+     0,
+     "",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 606495,
+    "patchset": 12,
+    "status": "NEW",
+    "subject": "encoding/json, encoding/xml: add full support for marshalers with pointer receivers",
+    "created": "2024-08-21 03:14:09.000000000",
+    "tuple": [
+     "xmlinconsistentmarshal",
+     "encoding/xml",
+     0,
+     "",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 607515,
+    "patchset": 1,
+    "status": "ABANDONED",
+    "subject": "encoding/json, encoding/xml: add full support for marshalers with pointer receivers",
+    "created": "2024-08-21 17:21:35.000000000",
+    "tuple": [
+     "xmlinconsistentmarshal",
+     "encoding/xml",
+     0,
+     "",
+     false,
+     false
+    ]
+   }
+  ],
+  "jsoninconsistentmarshal": [
+   {
+    "change": 606495,
+    "patchset": 9,
+    "status": "NEW",
+    "subject": "encoding/json, encoding/xml: add full support for marshalers with pointer receivers",
+    "created": "2024-08-20 23:46:56.000000000",
+    "tuple": [
+     "jsoninconsistentmarshal",
+     "encoding/json",
+     0,
+     "",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 606495,
+    "patchset": 10,
+    "status": "NEW",
+    "subject": "encoding/json, encoding/xml: add full support for marshalers with pointer receivers",
+    "created": "2024-08-20 23:54:21.000000000",
+    "tuple": [
+     "jsoninconsistentmarshal",
+     "encoding/json",
+     0,
+     "",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 606495,
+    "patchset": 11,
+    "status": "NEW",
+    "subject": "encoding/json, encoding/xml: add full support for marshalers with pointer receivers",
+    "created": "2024-08-21 00:01:10.000000000",
+    "tuple": [
+     "jsoninconsistentmarshal",
+     "encoding/json",
+     0,
+     "",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 606495,
+    "patchset": 12,
+    "status": "NEW",
+    "subject": "encoding/json, encoding/xml: add full support for marshalers with pointer receivers",
+    "created": "2024-08-21 03:14:09.000000000",
+    "tuple": [
+     "jsoninconsistentmarshal",
+     "encoding/json",
+     0,
+     "",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 607515,
+    "patchset": 1,
+    "status": "ABANDONED",
+    "subject": "encoding/json, encoding/xml: add full support for marshalers with pointer receivers",
+    "created": "2024-08-21 17:21:35.000000000",
+    "tuple": [
+     "jsoninconsistentmarshal",
+     "encoding/json",
+     0,
+     "",
+     false,
+     false
+    ]
+   }
+  ],
+  "golineprependdir": [
+   {
+    "change": 618276,
+    "patchset": 1,
+    "status": "ABANDONED",
+    "subject": "go/scanner: Preserve relative filenames from //line comments.",
+    "created": "2024-10-07 17:31:14.000000000",
+    "tuple": [
+     "golineprependdir",
+     "go/scanner",
+     0,
+     "",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 618276,
+    "patchset": 2,
+    "status": "ABANDONED",
+    "subject": "go/scanner: Preserve relative filenames from //line comments.",
+    "created": "2024-10-07 17:33:53.000000000",
+    "tuple": [
+     "golineprependdir",
+     "go/scanner",
+     0,
+     "",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 618276,
+    "patchset": 3,
+    "status": "ABANDONED",
+    "subject": "go/scanner: Preserve relative filenames from //line comments.",
+    "created": "2024-10-07 17:36:11.000000000",
+    "tuple": [
+     "golineprependdir",
+     "go/scanner",
+     0,
+     "",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 618276,
+    "patchset": 4,
+    "status": "ABANDONED",
+    "subject": "go/scanner: Preserve relative filenames from //line comments.",
+    "created": "2024-10-10 16:23:08.000000000",
+    "tuple": [
+     "golineprependdir",
+     "go/scanner",
+     0,
+     "",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 618276,
+    "patchset": 5,
+    "status": "ABANDONED",
+    "subject": "go/scanner: Preserve relative filenames from //line comments.",
+    "created": "2024-10-28 15:05:32.000000000",
+    "tuple": [
+     "golineprependdir",
+     "go/scanner",
+     0,
+     "",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 618276,
+    "patchset": 6,
+    "status": "ABANDONED",
+    "subject": "go/scanner: Preserve relative filenames from //line comments.",
+    "created": "2024-10-28 17:53:47.000000000",
+    "tuple": [
+     "golineprependdir",
+     "go/scanner",
+     0,
+     "",
+     false,
+     false
+    ]
+   }
+  ],
+  "goscannerprefixlinedir": [
+   {
+    "change": 618276,
+    "patchset": 7,
+    "status": "ABANDONED",
+    "subject": "go/scanner: Preserve relative filenames from //line comments.",
+    "created": "2024-10-28 18:21:36.000000000",
+    "tuple": [
+     "goscannerprefixlinedir",
+     "go/scanner",
+     0,
+     "",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 618276,
+    "patchset": 8,
+    "status": "ABANDONED",
+    "subject": "go/scanner: Preserve relative filenames from //line comments.",
+    "created": "2024-10-28 19:03:53.000000000",
+    "tuple": [
+     "goscannerprefixlinedir",
+     "go/scanner",
+     0,
+     "",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 618276,
+    "patchset": 9,
+    "status": "ABANDONED",
+    "subject": "go/scanner: Preserve relative filenames from //line comments.",
+    "created": "2024-10-31 01:15:18.000000000",
+    "tuple": [
+     "goscannerprefixlinedir",
+     "go/scanner",
+     0,
+     "",
+     false,
+     false
+    ]
+   }
+  ],
+  "netreadablejson": [
+   {
+    "change": 659315,
+    "patchset": 1,
+    "status": "MERGED",
+    "subject": "net: use readable JSON marshaling for IPNet, IPMask, HardwareAddr",
+    "created": "2025-03-19 16:54:59.000000000",
+    "tuple": [
+     "netreadablejson",
+     "net",
+     27,
+     "0",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 659315,
+    "patchset": 2,
+    "status": "MERGED",
+    "subject": "net: use readable JSON marshaling for IPNet, IPMask, HardwareAddr",
+    "created": "2025-03-19 17:45:36.000000000",
+    "tuple": [
+     "netreadablejson",
+     "net",
+     27,
+     "0",
+     false,
+     false
+    ]
+   }
+  ],
+  "xmlcheck:chars": [
+   {
+    "change": 662235,
+    "patchset": 1,
+    "status": "NEW",
+    "subject": "encoding/xml: adds Checks struct to allow selection of checks.",
+    "created": "2025-04-02 09:17:17.000000000",
+    "tuple": [
+     "xmlcheck:chars",
+     "encoding/xml",
+     25,
+     "",
+     false,
+     false
+    ]
+   }
+  ],
+  "xmlcheck:endtags": [
+   {
+    "change": 662235,
+    "patchset": 1,
+    "status": "NEW",
+    "subject": "encoding/xml: adds Checks struct to allow selection of checks.",
+    "created": "2025-04-02 09:17:17.000000000",
+    "tuple": [
+     "xmlcheck:endtags",
+     "encoding/xml",
+     25,
+     "",
+     false,
+     false
+    ]
+   }
+  ],
+  "xmlcheck:entities": [
+   {
+    "change": 662235,
+    "patchset": 1,
+    "status": "NEW",
+    "subject": "encoding/xml: adds Checks struct to allow selection of checks.",
+    "created": "2025-04-02 09:17:17.000000000",
+    "tuple": [
+     "xmlcheck:entities",
+     "encoding/xml",
+     25,
+     "",
+     false,
+     false
+    ]
+   }
+  ],
+  "x509negativecrlserial": [
+   {
+    "change": 666695,
+    "patchset": 1,
+    "status": "ABANDONED",
+    "subject": "crypto/x509: reject CRL revoked certs w/ negative serial",
+    "created": "2025-04-18 18:29:00.000000000",
+    "tuple": [
+     "x509negativecrlserial",
+     "crypto/x509",
+     25,
+     "1",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 666695,
+    "patchset": 2,
+    "status": "ABANDONED",
+    "subject": "crypto/x509: reject CRL revoked certs w/ negative serial",
+    "created": "2025-04-18 18:30:25.000000000",
+    "tuple": [
+     "x509negativecrlserial",
+     "crypto/x509",
+     25,
+     "1",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 666695,
+    "patchset": 3,
+    "status": "ABANDONED",
+    "subject": "crypto/x509: reject CRL revoked certs w/ negative serial",
+    "created": "2025-04-18 18:38:52.000000000",
+    "tuple": [
+     "x509negativecrlserial",
+     "crypto/x509",
+     25,
+     "1",
+     false,
+     false
+    ]
+   }
+  ],
+  "cgroupgomaxprocs": [
+   {
+    "change": 670497,
+    "patchset": 6,
+    "status": "MERGED",
+    "subject": "runtime: use cgroup CPU limit to set GOMAXPROCS",
+    "created": "2025-05-12 21:43:18.000000000",
+    "tuple": [
+     "cgroupgomaxprocs",
+     "runtime",
+     25,
+     "0",
+     false,
+     false
+    ]
+   }
+  ],
+  "urlstrictipv6": [
+   {
+    "change": 712840,
+    "patchset": 1,
+    "status": "MERGED",
+    "subject": "net/url: disallow raw IPv6 addresses in host",
+    "created": "2025-10-18 09:33:08.000000000",
+    "tuple": [
+     "urlstrictipv6",
+     "net/url",
+     26,
+     "0",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 712840,
+    "patchset": 2,
+    "status": "MERGED",
+    "subject": "net/url: disallow raw IPv6 addresses in host",
+    "created": "2025-10-18 09:54:35.000000000",
+    "tuple": [
+     "urlstrictipv6",
+     "net/url",
+     26,
+     "0",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 712840,
+    "patchset": 3,
+    "status": "MERGED",
+    "subject": "net/url: disallow raw IPv6 addresses in host",
+    "created": "2025-10-19 00:03:00.000000000",
+    "tuple": [
+     "urlstrictipv6",
+     "net/url",
+     26,
+     "0",
+     false,
+     false
+    ]
+   }
+  ],
+  "http1debug": [
+   {
+    "change": 745180,
+    "patchset": 1,
+    "status": "ABANDONED",
+    "subject": "net/http: add GODEBUG=http1debug setting for verbose HTTP/1 logging",
+    "created": "2026-02-13 06:14:07.000000000",
+    "tuple": [
+     "http1debug",
+     "net/http",
+     0,
+     "",
+     true,
+     false
+    ]
+   }
+  ],
+  "httpdebug": [
+   {
+    "change": 763881,
+    "patchset": 1,
+    "status": "NEW",
+    "subject": "net/http: add GODEBUG=httpdebug setting for structured HTTP debug logging",
+    "created": "2026-04-08 06:12:32.000000000",
+    "tuple": [
+     "httpdebug",
+     "net/http",
+     0,
+     "",
+     true,
+     false
+    ]
+   },
+   {
+    "change": 763881,
+    "patchset": 2,
+    "status": "NEW",
+    "subject": "net/http: add GODEBUG=httpdebug setting for structured HTTP debug logging",
+    "created": "2026-04-08 08:11:08.000000000",
+    "tuple": [
+     "httpdebug",
+     "net/http",
+     0,
+     "",
+     true,
+     false
+    ]
+   },
+   {
+    "change": 763881,
+    "patchset": 3,
+    "status": "NEW",
+    "subject": "net/http: add GODEBUG=httpdebug setting for structured HTTP debug logging",
+    "created": "2026-04-17 09:10:36.000000000",
+    "tuple": [
+     "httpdebug",
+     "net/http",
+     0,
+     "",
+     true,
+     false
+    ]
+   },
+   {
+    "change": 763881,
+    "patchset": 4,
+    "status": "NEW",
+    "subject": "net/http: add GODEBUG=httpdebug setting for structured HTTP debug logging",
+    "created": "2026-04-29 07:54:23.000000000",
+    "tuple": [
+     "httpdebug",
+     "net/http",
+     0,
+     "",
+     true,
+     false
+    ]
+   },
+   {
+    "change": 763881,
+    "patchset": 5,
+    "status": "NEW",
+    "subject": "net/http: add GODEBUG=httpdebug setting for structured HTTP debug logging",
+    "created": "2026-05-11 02:58:35.000000000",
+    "tuple": [
+     "httpdebug",
+     "net/http",
+     0,
+     "",
+     true,
+     false
+    ]
+   },
+   {
+    "change": 771880,
+    "patchset": 1,
+    "status": "ABANDONED",
+    "subject": "net/http: add GODEBUG=httpdebug setting for structured HTTP debug logging",
+    "created": "2026-04-29 07:51:18.000000000",
+    "tuple": [
+     "httpdebug",
+     "net/http",
+     0,
+     "",
+     true,
+     false
+    ]
+   }
+  ],
+  "httpdebugredact": [
+   {
+    "change": 763881,
+    "patchset": 1,
+    "status": "NEW",
+    "subject": "net/http: add GODEBUG=httpdebug setting for structured HTTP debug logging",
+    "created": "2026-04-08 06:12:32.000000000",
+    "tuple": [
+     "httpdebugredact",
+     "net/http",
+     0,
+     "",
+     true,
+     false
+    ]
+   },
+   {
+    "change": 763881,
+    "patchset": 2,
+    "status": "NEW",
+    "subject": "net/http: add GODEBUG=httpdebug setting for structured HTTP debug logging",
+    "created": "2026-04-08 08:11:08.000000000",
+    "tuple": [
+     "httpdebugredact",
+     "net/http",
+     0,
+     "",
+     true,
+     false
+    ]
+   },
+   {
+    "change": 763881,
+    "patchset": 3,
+    "status": "NEW",
+    "subject": "net/http: add GODEBUG=httpdebug setting for structured HTTP debug logging",
+    "created": "2026-04-17 09:10:36.000000000",
+    "tuple": [
+     "httpdebugredact",
+     "net/http",
+     0,
+     "",
+     true,
+     false
+    ]
+   },
+   {
+    "change": 763881,
+    "patchset": 4,
+    "status": "NEW",
+    "subject": "net/http: add GODEBUG=httpdebug setting for structured HTTP debug logging",
+    "created": "2026-04-29 07:54:23.000000000",
+    "tuple": [
+     "httpdebugredact",
+     "net/http",
+     0,
+     "",
+     true,
+     false
+    ]
+   },
+   {
+    "change": 763881,
+    "patchset": 5,
+    "status": "NEW",
+    "subject": "net/http: add GODEBUG=httpdebug setting for structured HTTP debug logging",
+    "created": "2026-05-11 02:58:35.000000000",
+    "tuple": [
+     "httpdebugredact",
+     "net/http",
+     0,
+     "",
+     true,
+     false
+    ]
+   },
+   {
+    "change": 771880,
+    "patchset": 1,
+    "status": "ABANDONED",
+    "subject": "net/http: add GODEBUG=httpdebug setting for structured HTTP debug logging",
+    "created": "2026-04-29 07:51:18.000000000",
+    "tuple": [
+     "httpdebugredact",
+     "net/http",
+     0,
+     "",
+     true,
+     false
+    ]
+   }
+  ],
+  "x509allowmalformedsans": [
+   {
+    "change": 769620,
+    "patchset": 1,
+    "status": "NEW",
+    "subject": "crypto/x509: tighten SAN validity rules",
+    "created": "2026-04-21 20:13:30.000000000",
+    "tuple": [
+     "x509allowmalformedsans",
+     "crypto/x509",
+     27,
+     "0",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 769620,
+    "patchset": 2,
+    "status": "NEW",
+    "subject": "crypto/x509: tighten SAN validity rules",
+    "created": "2026-04-22 20:34:37.000000000",
+    "tuple": [
+     "x509allowmalformedsans",
+     "crypto/x509",
+     27,
+     "1",
+     false,
+     false
+    ]
+   }
+  ],
+  "http2reuseframes": [
+   {
+    "change": 782280,
+    "patchset": 1,
+    "status": "NEW",
+    "subject": "net/http/internal/http2: enable SetReuseFrames in server and Transport",
+    "created": "2026-05-23 18:41:49.000000000",
+    "tuple": [
+     "http2reuseframes",
+     "net/http",
+     0,
+     "",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 782280,
+    "patchset": 2,
+    "status": "NEW",
+    "subject": "net/http/internal/http2: enable SetReuseFrames in server and Transport",
+    "created": "2026-06-09 21:22:42.000000000",
+    "tuple": [
+     "http2reuseframes",
+     "net/http",
+     27,
+     "0",
+     false,
+     false
+    ]
+   }
+  ],
+  "epollpwait2": [
+   {
+    "change": 787700,
+    "patchset": 4,
+    "status": "NEW",
+    "subject": "runtime: add opt-in epoll_pwait2 for sub-ms netpoll timeouts",
+    "created": "2026-07-18 05:00:19.000000000",
+    "tuple": [
+     "epollpwait2",
+     "runtime",
+     0,
+     "",
+     true,
+     false
+    ]
+   },
+   {
+    "change": 787700,
+    "patchset": 5,
+    "status": "NEW",
+    "subject": "runtime: add opt-in epoll_pwait2 for sub-ms netpoll timeouts",
+    "created": "2026-07-30 14:04:45.000000000",
+    "tuple": [
+     "epollpwait2",
+     "runtime",
+     0,
+     "",
+     true,
+     false
+    ]
+   },
+   {
+    "change": 787700,
+    "patchset": 6,
+    "status": "NEW",
+    "subject": "runtime: add opt-in epoll_pwait2 for sub-ms netpoll timeouts",
+    "created": "2026-07-30 14:24:07.000000000",
+    "tuple": [
+     "epollpwait2",
+     "runtime",
+     0,
+     "",
+     true,
+     false
+    ]
+   },
+   {
+    "change": 787700,
+    "patchset": 7,
+    "status": "NEW",
+    "subject": "runtime: add opt-in epoll_pwait2 for sub-ms netpoll timeouts",
+    "created": "2026-07-30 14:46:10.000000000",
+    "tuple": [
+     "epollpwait2",
+     "runtime",
+     0,
+     "",
+     true,
+     false
+    ]
+   },
+   {
+    "change": 787700,
+    "patchset": 8,
+    "status": "NEW",
+    "subject": "runtime: add opt-in epoll_pwait2 for sub-ms netpoll timeouts",
+    "created": "2026-07-30 15:49:10.000000000",
+    "tuple": [
+     "epollpwait2",
+     "runtime",
+     0,
+     "",
+     true,
+     false
+    ]
+   }
+  ],
+  "slowerflate": [
+   {
+    "change": 789601,
+    "patchset": 1,
+    "status": "NEW",
+    "subject": "compress/flate: move previous implementation behind GODEBUG slowerflate=go126",
+    "created": "2026-06-11 14:46:34.000000000",
+    "tuple": [
+     "slowerflate",
+     "compress/flate",
+     27,
+     "go126",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 789601,
+    "patchset": 2,
+    "status": "NEW",
+    "subject": "compress/flate: move previous implementation behind GODEBUG slowerflate=go126",
+    "created": "2026-06-11 17:53:20.000000000",
+    "tuple": [
+     "slowerflate",
+     "compress/flate",
+     27,
+     "go126",
+     false,
+     false
+    ]
+   }
+  ],
+  "tlsechgrease": [
+   {
+    "change": 790620,
+    "patchset": 1,
+    "status": "NEW",
+    "subject": "crypto/tls: send TLS 1.3 ECH GREASE by default",
+    "created": "2026-06-14 16:05:25.000000000",
+    "tuple": [
+     "tlsechgrease",
+     "crypto/tls",
+     27,
+     "0",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 790620,
+    "patchset": 2,
+    "status": "NEW",
+    "subject": "crypto/tls: send TLS 1.3 ECH GREASE by default",
+    "created": "2026-06-15 09:56:03.000000000",
+    "tuple": [
+     "tlsechgrease",
+     "crypto/tls",
+     27,
+     "0",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 790620,
+    "patchset": 3,
+    "status": "NEW",
+    "subject": "crypto/tls: send TLS 1.3 ECH GREASE by default",
+    "created": "2026-06-15 11:40:27.000000000",
+    "tuple": [
+     "tlsechgrease",
+     "crypto/tls",
+     27,
+     "0",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 790620,
+    "patchset": 4,
+    "status": "NEW",
+    "subject": "crypto/tls: send TLS 1.3 ECH GREASE by default",
+    "created": "2026-06-15 13:15:05.000000000",
+    "tuple": [
+     "tlsechgrease",
+     "crypto/tls",
+     27,
+     "0",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 790620,
+    "patchset": 5,
+    "status": "NEW",
+    "subject": "crypto/tls: send TLS 1.3 ECH GREASE by default",
+    "created": "2026-06-18 16:49:48.000000000",
+    "tuple": [
+     "tlsechgrease",
+     "crypto/tls",
+     27,
+     "0",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 790620,
+    "patchset": 6,
+    "status": "NEW",
+    "subject": "crypto/tls: send TLS 1.3 ECH GREASE by default",
+    "created": "2026-06-18 18:44:10.000000000",
+    "tuple": [
+     "tlsechgrease",
+     "crypto/tls",
+     27,
+     "0",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 790620,
+    "patchset": 7,
+    "status": "NEW",
+    "subject": "crypto/tls: send TLS 1.3 ECH GREASE by default",
+    "created": "2026-08-05 19:23:56.000000000",
+    "tuple": [
+     "tlsechgrease",
+     "crypto/tls",
+     27,
+     "0",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 790620,
+    "patchset": 8,
+    "status": "NEW",
+    "subject": "crypto/tls: send TLS 1.3 ECH GREASE by default",
+    "created": "2026-08-05 19:28:18.000000000",
+    "tuple": [
+     "tlsechgrease",
+     "crypto/tls",
+     27,
+     "0",
+     false,
+     false
+    ]
+   }
+  ],
+  "http2serverkeepclienthost": [
+   {
+    "change": 792620,
+    "patchset": 1,
+    "status": "NEW",
+    "subject": "net/http: add Server.MaxHeaderValueCount and GODEBUG httpmaxheadervalues",
+    "created": "2026-06-19 18:52:29.000000000",
+    "tuple": [
+     "http2serverkeepclienthost",
+     "net/http",
+     27,
+     "1",
+     false,
+     false
+    ]
+   }
+  ],
+  "http2serverpermitconflictinghost": [
+   {
+    "change": 792620,
+    "patchset": 1,
+    "status": "NEW",
+    "subject": "net/http: add Server.MaxHeaderValueCount and GODEBUG httpmaxheadervalues",
+    "created": "2026-06-19 18:52:29.000000000",
+    "tuple": [
+     "http2serverpermitconflictinghost",
+     "net/http",
+     27,
+     "1",
+     false,
+     false
+    ]
+   }
+  ],
+  "httpmaxheadervalues": [
+   {
+    "change": 792620,
+    "patchset": 1,
+    "status": "NEW",
+    "subject": "net/http: add Server.MaxHeaderValueCount and GODEBUG httpmaxheadervalues",
+    "created": "2026-06-19 18:52:29.000000000",
+    "tuple": [
+     "httpmaxheadervalues",
+     "net/http",
+     0,
+     "",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 792620,
+    "patchset": 2,
+    "status": "NEW",
+    "subject": "net/http: add Server.MaxHeaderValueCount and GODEBUG httpmaxheadervalues",
+    "created": "2026-06-20 05:44:43.000000000",
+    "tuple": [
+     "httpmaxheadervalues",
+     "net/http",
+     0,
+     "",
+     false,
+     false
+    ]
+   }
+  ],
+  "x509lazydirscan": [
+   {
+    "change": 799801,
+    "patchset": 17,
+    "status": "NEW",
+    "subject": "crypto/x509: defer directory scan when cert bundle provides roots",
+    "created": "2026-08-13 20:57:36.000000000",
+    "tuple": [
+     "x509lazydirscan",
+     "crypto/x509",
+     27,
+     "0",
+     false,
+     false
+    ]
+   },
+   {
+    "change": 799801,
+    "patchset": 18,
+    "status": "NEW",
+    "subject": "crypto/x509: defer directory scan when cert bundle provides roots",
+    "created": "2026-08-13 21:15:19.000000000",
+    "tuple": [
+     "x509lazydirscan",
+     "crypto/x509",
+     27,
+     "0",
+     false,
+     false
+    ]
+   }
+  ]
+ },
+ "reverse_direction": {
+  "names_in_a_commit_and_in_no_patchset": [],
+  "tuples_in_a_commit_and_in_no_patchset": 0
+ }
+}
