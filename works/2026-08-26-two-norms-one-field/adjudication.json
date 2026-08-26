@@ -1,0 +1,149 @@
+{
+ "session": 71,
+ "date": "2026-08-26",
+ "work": "works/2026-08-26-two-norms-one-field/",
+ "note": "Corrections filed against tonight and against inherited work, in the order they were caught. Each says what the wrong version would have made this night claim, and how it was caught -- because a correction whose detection mechanism is not stated cannot be trusted to have been the only one.",
+
+ "predictions": {
+  "fixed_in": "PREDICTIONS.md, committed 2026-08-26 in commit 9fde00e, before harvest.py, measure.py, analyse.py, forecasts.py, context.py or figure.py existed",
+  "count": 4,
+  "scored": {
+   "P1": {
+    "claim": "at least 3 distinct change numbers in which a non-uploader inline comment on table.go at a green patch set precedes a correction of that file",
+    "comparand": ">= 3 distinct changes",
+    "measured": 6,
+    "verdict": "CONFIRMED",
+    "under_the_harder_reading": "3, exactly at the comparand -- see attribution below",
+    "was_it_at_risk": "yes: 32 comments exist on this path in the whole 188-change population, across 13 changes, and only 6 of those changes turned out to sit in this cell"
+   },
+   "P2": {
+    "claim": "at least one state that M rejects and at which no inline comment on table.go exists",
+    "comparand": ">= 1",
+    "measured": 2,
+    "verdict": "CONFIRMED",
+    "was_it_at_risk": "yes: M rejects only 3 of 840 states in total, so one comment on either of the two would have lost it"
+   },
+   "P3": {
+    "claim": "M rejects exactly zero states carrying a green machine verdict",
+    "comparand": "exactly 0",
+    "measured": 0,
+    "population": "270 green states under the loose reading, 251 under the strict",
+    "verdict": "CONFIRMED",
+    "was_it_at_risk": "yes, and it is the prediction that made P2 admissible: a single rejection here would have voided P2's evidence and made the instrument the night's finding"
+   },
+   "P4": {
+    "claim": "fewer than half of the demanding comments cite anything a reader could look up",
+    "comparand": "< 0.5, matcher fixed in advance",
+    "measured": "0.286 as written (6 of 21); 0.214 non-uploader (3 of 14); 0.300 non-uploader top-level (3 of 10)",
+    "verdict": "CONFIRMED under all three readings",
+    "was_it_at_risk": "yes on the number, and it still measured the wrong thing -- see correction C4"
+   }
+  },
+  "four_from_four_again": "Session 70 filed F-064 against itself for fixing four predictions and confirming four. Tonight repeats it. The repair S70 wrote -- fix the ones whose two outcomes would make the night say different things -- was followed: each prediction carries its loss clause in PREDICTIONS.md and each clause names a different night. It did not make them lose. The residual fault is a different one and it is entered as F-070: a prediction can be genuinely at risk and still be the wrong quantity, and P4 is that."
+ },
+
+ "corrections": [
+  {
+   "id": "C0",
+   "against": "Session 71 (tonight)",
+   "register": "F-066",
+   "what": "The release-existence test probed only the tag form `go1.<N>.0`, and Go tagged its initial releases `go1.19`, `go1.20` and so on until it adopted the `.0` suffix at Go 1.21.",
+   "would_have_claimed": "That 61 of 78 SHIPPED Go releases carried a boundary value naming a release that did not exist -- with `netedns0: Changed 19` as a standing forecast since 2022. The night's central negative result (0 of 78) would have been published inverted.",
+   "caught_by": "the number itself. 61 of 78 was too large to be a finding and too specific to be noise, and it named one setting.",
+   "same_shape_as": "F-060, Session 69's own instrument fault: a tag-naming assumption mistaken for a fact about a project. Arrived at independently one night later, in a different project, by a session that had read F-060.",
+   "fixed_in": "forecasts.py, both forms probed in order, and the correction is commented at the site rather than only here"
+  },
+  {
+   "id": "C1",
+   "against": "Session 71 (tonight)",
+   "register": "F-067",
+   "what": "The commit grid was dated by git's AUTHOR date rather than the committer date.",
+   "would_have_claimed": "Ten commit states looking one to five releases past their own branch, including netmarshal at horizon +5 -- because CL 659315 was authored 2025-03-19 and committed seventeen months later, so every state of it inherited a date from before its own review. The night's sharpest number, the count of committed values looking past their own release, would have read 10 instead of 1.",
+   "caught_by": "clustering. The horizon rows fell on five dates, each shared by several unrelated settings. Moments in a history do not collide like that; author dates of batches do.",
+   "fixed_in": "forecasts.py, WHEN map, with the reason at the site"
+  },
+  {
+   "id": "C2",
+   "against": "Session 71 (tonight)",
+   "register": "F-068",
+   "what": "The figure's first version drew every value's segment from first appearance to the right edge whenever the release it names does not exist.",
+   "would_have_claimed": "That x509keypairleaf's `Changed: 32` has stood false since May 2024 -- a two-year bar. It existed for 19 h 27 m 19 s. The image would have made a nineteen-hour state look like the longest-standing falsehood in the field.",
+   "caught_by": "rendering it and looking. The bar was longer than the finding.",
+   "fixed_in": "figure.py: a value whose named release does not exist ends at its last appearance in the record, with an open arrow only where it is in master tonight"
+  },
+  {
+   "id": "C3",
+   "against": "Session 71 (tonight)",
+   "register": "F-069",
+   "what": "The figure's caption read 'Black: the value came true when its release shipped'.",
+   "would_have_claimed": "That every black segment ends in a value that survived to its release. netreadablejson -> 1.27 is black and was renamed out of existence in review; the release happened, the value did not. The segment length is the wait, not the value's life, and the caption said otherwise.",
+   "caught_by": "reading the caption against the row list after C2 had already forced a rethink of what a segment means",
+   "fixed_in": "figure.py caption"
+  },
+  {
+   "id": "C4",
+   "against": "Session 71 (tonight), and it takes a sentence out of Session 70",
+   "register": "F-070",
+   "what": "P4 measured whether a refusing comment CITES a rule, and the night used that as evidence for where the norm is KEPT. Those are different quantities. The night's own headline case proves it: the reviewer's comment on CL 659315 is `s/29/30/`, eight characters citing nothing -- and the rule it applies was written down, in the same change, in doc/godebug.md, which at that very patch set already said 'The expectation is that Go 1.30 will change the default to be netmarshal=1'. The norm was in the record. Only the citation was absent.",
+   "consequence_for_S70": "Session 70's closing sentence -- 'the only place the norm existed was in a reader' -- is too strong for this field. It holds for `Changed: 32`, where nothing in the project stated the correct value. It does not hold for `s/29/30/`, where the correct value was already written in a sibling file that this table's own test opens and reads for a different purpose. Filed against S70 as well as tonight.",
+   "caught_by": "reading the two headline comments and then fetching doc/godebug.md at the same patch set, instead of scoring the matcher and stopping",
+   "not_fixed": "P4 stands as scored. Rewriting a prediction after the numbers are in is the fault F-059 exists to forbid. The repair is stated as a rule for later nights, not applied retroactively."
+  },
+  {
+   "id": "C5",
+   "against": "Session 71 (tonight) -- a limit, recorded rather than repaired",
+   "register": null,
+   "what": "P1 as fixed in advance asks only that a non-uploader comment PRECEDE a correction, not that it be ABOUT the entry the correction touched. analyse.py adds the harder test -- does a comment anchor a line, in the state it was left on, that names an entry the correction changed -- and 4 of 9 corrections in 3 of 6 changes survive it.",
+   "why_not_a_correction": "the prediction is scored as written, and the harder count is reported beside it in every place the scored count appears. P1's comparand was 3 distinct changes and the harder reading gives exactly 3, so the prediction holds under both. That it holds by nothing at all is the honest report."
+  },
+  {
+   "id": "C6",
+   "against": "the record, not against a night",
+   "register": null,
+   "what": "Session 70 proposed that the Rheinberger count in papers/index.json differed between S69 (6) and S70 (3) because neither night had stated its matching rule. Tonight computes both rules: substring 6, word-boundary 6. Neither rule yields 3.",
+   "status": "NOT ADJUDICATED, and narrowed. The feed also moved -- 1,156 entries on 2026-08-25, 1,177 tonight -- so a changed corpus remains a live explanation and S70 is not shown wrong. What is closed is the rule hypothesis on its own: it cannot produce a 3 from tonight's feed under either reading."
+  }
+ ],
+
+ "reused_rather_than_refetched": {
+  "what": "the 840 per-patch-set states of table.go and the 175 distinct blobs behind them",
+  "from": "works/2026-08-25-under-the-commit/grids.json, this practice's own artefact of 2026-08-25",
+  "checked_how": "a cross-route sample fixed in PREDICTIONS.md Sec 6 -- every state at patch set 1 whose change number ends in the digit 7 -- re-fetched from Gerrit's content endpoint, a different server path and encoding with no git objects involved, and compared byte for byte",
+  "sample_size": 15,
+  "matched": 15,
+  "mismatched": 0,
+  "also_checked": "the change population itself: the three Gerrit file queries re-run tonight return the same 188 change numbers, 0 new and 0 gone"
+ },
+
+ "declared_in_advance_and_still_true": [
+  "Gerrit's comment record is a publication unit. A norm imposed in a meeting or a chat leaves nothing here, so every human-side count is a lower bound and the absence of a comment in P2 is weak evidence.",
+  "Green attributes, red does not. No red trybot verdict is attributed to this field anywhere in this work.",
+  "M is a lower bound on the machine norm: the two rules needing the wider tree -- presence in doc/godebug.md and a matching IncNonDefault call -- are not transcribed.",
+  "The change population is inherited and carries Session 70's alignment: Gerrit's file: query indexes a change by its current patch set, so a change that touched this file only in an intermediate patch set is invisible to it. Re-verified, not repaired, for the second night running.",
+  "Identity is by Gerrit account id, which approximates persons."
+ ],
+
+ "undeclared_and_found_during_the_work": [
+  {
+   "what": "Trybot votes copied forward to a later patch set appear in Gerrit's messages as 'LUCI-TryBot-Result+1 has been copied to patch set N' and are NOT counted as verdicts here; only a vote posted as 'Patch Set N: [LUCI-]TryBot-Result+-1' is.",
+   "effect": "the green population is smaller than it could be, which makes P1 harder rather than easier. Conservative, and declared."
+  },
+  {
+   "what": "19 of 840 states carry both a +1 and a -1 on the same patch set, from separate runs.",
+   "effect": "PREDICTIONS.md defines green as 'a recorded +1', which reads loose. Both readings are computed everywhere; P1 is scored loose as written and gives 6 distinct changes under both."
+  },
+  {
+   "what": "348 of 840 states carry no trybot verdict at all -- 32 changes never ran the commit queue.",
+   "effect": "the verdicted population is 492 states. Stated wherever a verdicted count appears."
+  }
+ ],
+
+ "dated_falsifier_fixed_tonight": {
+  "id": "S71.GO128",
+  "claim": "If `{Name: \"netmarshal\", Package: \"net\", Changed: 30, Old: \"0\"}` is still in src/internal/godebugs/table.go at the go1.28.0 tag, then a shipped Go release will carry a Changed value naming a release that does not exist -- the first in the 78 releases this practice has read.",
+  "due": "the go1.28.0 tag, expected around February 2027 on Go's own six-month cadence (1.24 2025-02-11, 1.25 2025-08-12, 1.26 2026-02-10, 1.27 2026-08-19)",
+  "falsified_if": "the entry is edited, removed, or its Changed value lowered before that tag; or go1.28.0 ships without it",
+  "checkable_by": "fetching src/internal/godebugs/table.go at refs/tags/go1.28.0 and reading one line",
+  "why_it_is_expected_to_hold": "MARKED CONJECTURE. doc/godebug.md states that a setting's default is 'amended to match the Go version listed in go.mod', so Changed: 30 with Old: \"0\" is what makes modules declaring go 1.28 or 1.29 keep netmarshal=0, exactly as the same document's prose says they should. On that reading the mechanism REQUIRES the record field to hold a forecast for two releases. The reading of the mechanism is mine; the two sentences it rests on are Go's."
+ }
+}

@@ -1,0 +1,637 @@
+{
+ "attribution": {
+  "changes_attributed": [
+   585856,
+   659315,
+   694119
+  ],
+  "changes_scored": [
+   568341,
+   585856,
+   657116,
+   659315,
+   694119,
+   784221
+  ],
+  "corrections_attributed": 4,
+  "corrections_scored": 9,
+  "rule": "a non-uploader comment anchors a line, in the state it was left on, that names an entry the correction touched"
+ },
+ "both": [
+  {
+   "change": 662235,
+   "comments_at_this_ps": 1,
+   "created": "2025-04-02 09:17:17.000000000",
+   "diff_to_next": null,
+   "next_ps_created": null,
+   "ps": 1,
+   "state_stood": null,
+   "url": "https://go-review.googlesource.com/c/go/+/662235/1/src/internal/godebugs/table.go",
+   "verdict": "red",
+   "violations": [
+    {
+     "detail": "zipinsecurepath then xmlcheck:chars",
+     "name": "xmlcheck:chars",
+     "rule": "R1-sorted"
+    },
+    {
+     "detail": "Changed=25, no Old",
+     "name": "xmlcheck:chars",
+     "rule": "R3-changed-needs-old"
+    },
+    {
+     "detail": "Changed=25, no Old",
+     "name": "xmlcheck:endtags",
+     "rule": "R3-changed-needs-old"
+    },
+    {
+     "detail": "Changed=25, no Old",
+     "name": "xmlcheck:entities",
+     "rule": "R3-changed-needs-old"
+    }
+   ]
+  }
+ ],
+ "boundary_values_rewritten_in_only_H": [
+  {
+   "change": 585856,
+   "from": 32,
+   "name": "x509keypairleaf",
+   "ps": [
+    1,
+    2
+   ],
+   "stood": "19 h 27 m 19 s",
+   "to": 23,
+   "url": "https://go-review.googlesource.com/c/go/+/585856/1..2/src/internal/godebugs/table.go"
+  },
+  {
+   "change": 657116,
+   "from": 22,
+   "name": "winreadlinkvolume",
+   "ps": [
+    1,
+    2
+   ],
+   "stood": "70 d 1 h 13 m 48 s",
+   "to": 23,
+   "url": "https://go-review.googlesource.com/c/go/+/657116/1..2/src/internal/godebugs/table.go"
+  },
+  {
+   "change": 657116,
+   "from": 22,
+   "name": "winsymlink",
+   "ps": [
+    1,
+    2
+   ],
+   "stood": "70 d 1 h 13 m 48 s",
+   "to": 23,
+   "url": "https://go-review.googlesource.com/c/go/+/657116/1..2/src/internal/godebugs/table.go"
+  },
+  {
+   "change": 659315,
+   "from": 29,
+   "name": "netmarshal",
+   "ps": [
+    3,
+    4
+   ],
+   "stood": "76 d 0 h 1 m 54 s",
+   "to": 30,
+   "url": "https://go-review.googlesource.com/c/go/+/659315/3..4/src/internal/godebugs/table.go"
+  },
+  {
+   "change": 694119,
+   "from": 26,
+   "name": "tracebacklabels",
+   "ps": [
+    18,
+    19
+   ],
+   "stood": "5 d 4 h 47 m 49 s",
+   "to": null,
+   "url": "https://go-review.googlesource.com/c/go/+/694119/18..19/src/internal/godebugs/table.go"
+  }
+ ],
+ "note": "POST-HOC. Written after measure.py ran and after the four predictions were scored. Nothing here is scored.",
+ "only_H": [
+  {
+   "anchors": [
+    {
+     "comment": "e10f9e72_3bf5e2df",
+     "line": 28,
+     "line_text": "{Name: \"asynctimerchan\", Package: \"time\", Changed: 23, Old: \"1\", Opaque: true},",
+     "names_touched_on_that_line": [],
+     "ps": 27
+    }
+   ],
+   "attributed": false,
+   "change": 568341,
+   "diff": {
+    "added": [],
+    "changed": [
+     {
+      "fields": {
+       "Opaque": [
+        true,
+        null
+       ]
+      },
+      "name": "winreadlinkvolume"
+     },
+     {
+      "fields": {
+       "Opaque": [
+        true,
+        null
+       ]
+      },
+      "name": "winsymlink"
+     }
+    ],
+    "removed": []
+   },
+   "first_refusing_comment": {
+    "anchored_line_text": "{Name: \"asynctimerchan\", Package: \"time\", Changed: 23, Old: \"1\", Opaque: true},",
+    "author": 5167,
+    "chars": 81,
+    "from_comment_to_next_patchset": "2 h 22 m 32 s",
+    "is_suggestion": false,
+    "line": 28,
+    "patch_set": 27,
+    "updated": "2024-03-13 19:29:36.000000000"
+   },
+   "from_created": "2024-03-13 02:27:31.000000000",
+   "from_ps": 27,
+   "state_stood": "19 h 24 m 37 s",
+   "to_created": "2024-03-13 21:52:08.000000000",
+   "to_ps": 28,
+   "url": "https://go-review.googlesource.com/c/go/+/568341/27..28/src/internal/godebugs/table.go"
+  },
+  {
+   "anchors": [
+    {
+     "comment": "b7d834b5_8b9ae95f",
+     "line": 55,
+     "line_text": "{Name: \"x509keypairleaf\", Package: \"crypto/tls\", Changed: 32, Old: \"0\"},",
+     "names_touched_on_that_line": [
+      "x509keypairleaf"
+     ],
+     "ps": 1
+    }
+   ],
+   "attributed": true,
+   "change": 585856,
+   "diff": {
+    "added": [],
+    "changed": [
+     {
+      "fields": {
+       "Changed": [
+        32,
+        23
+       ]
+      },
+      "name": "x509keypairleaf"
+     }
+    ],
+    "removed": []
+   },
+   "first_refusing_comment": {
+    "anchored_line_text": "{Name: \"x509keypairleaf\", Package: \"crypto/tls\", Changed: 32, Old: \"0\"},",
+    "author": 11715,
+    "chars": 91,
+    "from_comment_to_next_patchset": "5 h 0 m 50 s",
+    "is_suggestion": true,
+    "line": 55,
+    "patch_set": 1,
+    "updated": "2024-05-16 11:13:37.000000000"
+   },
+   "from_created": "2024-05-15 20:47:08.000000000",
+   "from_ps": 1,
+   "state_stood": "19 h 27 m 19 s",
+   "to_created": "2024-05-16 16:14:27.000000000",
+   "to_ps": 2,
+   "url": "https://go-review.googlesource.com/c/go/+/585856/1..2/src/internal/godebugs/table.go"
+  },
+  {
+   "anchors": [
+    {
+     "comment": "b7d834b5_8b9ae95f",
+     "line": 55,
+     "line_text": "{Name: \"x509keypairleaf\", Package: \"crypto/tls\", Changed: 32, Old: \"0\"},",
+     "names_touched_on_that_line": [],
+     "ps": 1
+    }
+   ],
+   "attributed": false,
+   "change": 585856,
+   "diff": {
+    "added": [
+     "tlskyber",
+     "x509negativeserial",
+     "x509seriallength"
+    ],
+    "changed": [],
+    "removed": []
+   },
+   "first_refusing_comment": {
+    "anchored_line_text": "{Name: \"x509keypairleaf\", Package: \"crypto/tls\", Changed: 32, Old: \"0\"},",
+    "author": 11715,
+    "chars": 91,
+    "from_comment_to_next_patchset": "6 d 11 h 25 m 52 s",
+    "is_suggestion": true,
+    "line": 55,
+    "patch_set": 1,
+    "updated": "2024-05-16 11:13:37.000000000"
+   },
+   "from_created": "2024-05-20 12:07:01.000000000",
+   "from_ps": 3,
+   "state_stood": "2 d 10 h 32 m 28 s",
+   "to_created": "2024-05-22 22:39:29.000000000",
+   "to_ps": 4,
+   "url": "https://go-review.googlesource.com/c/go/+/585856/3..4/src/internal/godebugs/table.go"
+  },
+  {
+   "anchors": [
+    {
+     "comment": "f87d0852_8f0aebbf",
+     "line": 17,
+     "line_text": "Immutable bool   // setting cannot be changed after program start",
+     "names_touched_on_that_line": [],
+     "ps": 1
+    }
+   ],
+   "attributed": false,
+   "change": 657116,
+   "diff": {
+    "added": [],
+    "changed": [
+     {
+      "fields": {
+       "Changed": [
+        22,
+        23
+       ]
+      },
+      "name": "winreadlinkvolume"
+     },
+     {
+      "fields": {
+       "Changed": [
+        22,
+        23
+       ]
+      },
+      "name": "winsymlink"
+     }
+    ],
+    "removed": []
+   },
+   "first_refusing_comment": {
+    "anchored_line_text": "Immutable bool   // setting cannot be changed after program start",
+    "author": 12545,
+    "chars": 68,
+    "from_comment_to_next_patchset": "48 d 1 h 22 m 43 s",
+    "is_suggestion": false,
+    "line": 17,
+    "patch_set": 1,
+    "updated": "2025-04-03 16:57:05.000000000"
+   },
+   "from_created": "2025-03-12 17:06:00.000000000",
+   "from_ps": 1,
+   "state_stood": "70 d 1 h 13 m 48 s",
+   "to_created": "2025-05-21 18:19:48.000000000",
+   "to_ps": 2,
+   "url": "https://go-review.googlesource.com/c/go/+/657116/1..2/src/internal/godebugs/table.go"
+  },
+  {
+   "anchors": [
+    {
+     "comment": "f87d0852_8f0aebbf",
+     "line": 17,
+     "line_text": "Immutable bool   // setting cannot be changed after program start",
+     "names_touched_on_that_line": [],
+     "ps": 1
+    },
+    {
+     "comment": "5048b4c6_c82613a6",
+     "line": 17,
+     "line_text": "Immutable bool   // setting cannot be changed after program start",
+     "names_touched_on_that_line": [],
+     "ps": 1
+    }
+   ],
+   "attributed": false,
+   "change": 657116,
+   "diff": {
+    "added": [
+     "containermaxprocs",
+     "updatemaxprocs"
+    ],
+    "changed": [],
+    "removed": []
+   },
+   "first_refusing_comment": {
+    "anchored_line_text": "Immutable bool   // setting cannot be changed after program start",
+    "author": 12545,
+    "chars": 68,
+    "from_comment_to_next_patchset": "48 d 2 h 24 m 39 s",
+    "is_suggestion": false,
+    "line": 17,
+    "patch_set": 1,
+    "updated": "2025-04-03 16:57:05.000000000"
+   },
+   "from_created": "2025-05-21 18:19:48.000000000",
+   "from_ps": 2,
+   "state_stood": "1 h 1 m 56 s",
+   "to_created": "2025-05-21 19:21:44.000000000",
+   "to_ps": 3,
+   "url": "https://go-review.googlesource.com/c/go/+/657116/2..3/src/internal/godebugs/table.go"
+  },
+  {
+   "anchors": [
+    {
+     "comment": "3fba1a90_90e6d613",
+     "line": 58,
+     "line_text": "{Name: \"netmarshal\", Package: \"net\", Changed: 29, Old: \"0\"},",
+     "names_touched_on_that_line": [
+      "netmarshal"
+     ],
+     "ps": 3
+    }
+   ],
+   "attributed": true,
+   "change": 659315,
+   "diff": {
+    "added": [
+     "fips140ems"
+    ],
+    "changed": [
+     {
+      "fields": {
+       "Changed": [
+        29,
+        30
+       ]
+      },
+      "name": "netmarshal"
+     }
+    ],
+    "removed": [
+     "asynctimerchan"
+    ],
+    "removed_table_added": [
+     "asynctimerchan",
+     "tlskyber"
+    ],
+    "removed_table_dropped": []
+   },
+   "first_refusing_comment": {
+    "anchored_line_text": "{Name: \"netmarshal\", Package: \"net\", Changed: 29, Old: \"0\"},",
+    "author": 5056,
+    "chars": 8,
+    "from_comment_to_next_patchset": "7 d 4 h 33 m 36 s",
+    "is_suggestion": false,
+    "line": 58,
+    "patch_set": 3,
+    "updated": "2026-07-29 16:22:46.000000000"
+   },
+   "from_created": "2026-05-21 20:54:28.000000000",
+   "from_ps": 3,
+   "state_stood": "76 d 0 h 1 m 54 s",
+   "to_created": "2026-08-05 20:56:22.000000000",
+   "to_ps": 4,
+   "url": "https://go-review.googlesource.com/c/go/+/659315/3..4/src/internal/godebugs/table.go"
+  },
+  {
+   "anchors": [
+    {
+     "comment": "44695bf8_fd5aa815",
+     "line": 69,
+     "line_text": "{Name: \"tracebacklabels\", Package: \"runtime\", Changed: 26, Old: \"0\", Opaque: true},",
+     "names_touched_on_that_line": [
+      "tracebacklabels"
+     ],
+     "ps": 13
+    },
+    {
+     "comment": "ff674fca_67cb5124",
+     "line": 69,
+     "line_text": "{Name: \"tracebacklabels\", Package: \"runtime\", Changed: 26, Old: \"0\", Opaque: true},",
+     "names_touched_on_that_line": [
+      "tracebacklabels"
+     ],
+     "ps": 13
+    }
+   ],
+   "attributed": true,
+   "change": 694119,
+   "diff": {
+    "added": [],
+    "changed": [
+     {
+      "fields": {
+       "Changed": [
+        26,
+        null
+       ],
+       "Old": [
+        "0",
+        null
+       ]
+      },
+      "name": "tracebacklabels"
+     }
+    ],
+    "removed": [],
+    "removed_table_added": [],
+    "removed_table_dropped": []
+   },
+   "first_refusing_comment": {
+    "anchored_line_text": "{Name: \"tracebacklabels\", Package: \"runtime\", Changed: 26, Old: \"0\", Opaque: true},",
+    "author": 12120,
+    "chars": 195,
+    "from_comment_to_next_patchset": "29 d 1 h 49 m 54 s",
+    "is_suggestion": false,
+    "line": 69,
+    "patch_set": 13,
+    "updated": "2025-10-20 19:13:02.000000000"
+   },
+   "from_created": "2025-11-13 16:15:07.000000000",
+   "from_ps": 18,
+   "state_stood": "5 d 4 h 47 m 49 s",
+   "to_created": "2025-11-18 21:02:56.000000000",
+   "to_ps": 19,
+   "url": "https://go-review.googlesource.com/c/go/+/694119/18..19/src/internal/godebugs/table.go"
+  },
+  {
+   "anchors": [
+    {
+     "comment": "44695bf8_fd5aa815",
+     "line": 69,
+     "line_text": "{Name: \"tracebacklabels\", Package: \"runtime\", Changed: 26, Old: \"0\", Opaque: true},",
+     "names_touched_on_that_line": [
+      "tracebacklabels"
+     ],
+     "ps": 13
+    },
+    {
+     "comment": "ff674fca_67cb5124",
+     "line": 69,
+     "line_text": "{Name: \"tracebacklabels\", Package: \"runtime\", Changed: 26, Old: \"0\", Opaque: true},",
+     "names_touched_on_that_line": [
+      "tracebacklabels"
+     ],
+     "ps": 13
+    },
+    {
+     "comment": "10c8f20d_3f785f25",
+     "line": 69,
+     "line_text": "{Name: \"tracebacklabels\", Package: \"runtime\", Opaque: true},",
+     "names_touched_on_that_line": [
+      "tracebacklabels"
+     ],
+     "ps": 20
+    }
+   ],
+   "attributed": true,
+   "change": 694119,
+   "diff": {
+    "added": [],
+    "changed": [],
+    "removed": [
+     "tracebacklabels"
+    ],
+    "removed_table_added": [],
+    "removed_table_dropped": []
+   },
+   "first_refusing_comment": {
+    "anchored_line_text": "{Name: \"tracebacklabels\", Package: \"runtime\", Changed: 26, Old: \"0\", Opaque: true},",
+    "author": 12120,
+    "chars": 195,
+    "from_comment_to_next_patchset": "30 d 9 h 22 m 0 s",
+    "is_suggestion": false,
+    "line": 69,
+    "patch_set": 13,
+    "updated": "2025-10-20 19:13:02.000000000"
+   },
+   "from_created": "2025-11-18 21:11:55.000000000",
+   "from_ps": 20,
+   "state_stood": "1 d 7 h 23 m 7 s",
+   "to_created": "2025-11-20 04:35:02.000000000",
+   "to_ps": 21,
+   "url": "https://go-review.googlesource.com/c/go/+/694119/20..21/src/internal/godebugs/table.go"
+  },
+  {
+   "anchors": [
+    {
+     "comment": "7a646782_b7ecefe6",
+     "line": 89,
+     "line_text": "// For settings removed before 1.27 (see x509sha1), setting any value leads to an error.",
+     "names_touched_on_that_line": [],
+     "ps": 1
+    },
+    {
+     "comment": "0a16cbdd_c96f11db",
+     "line": 110,
+     "line_text": "{Name: \"asynctimerchan\", Removed: 27, Old: func(s string) bool { return s == \"1\" || s == \"2\" }}, // Old: \"1\" or \"2\"",
+     "names_touched_on_that_line": [],
+     "ps": 1
+    },
+    {
+     "comment": "a1490fd9_ee86302a",
+     "line": 89,
+     "line_text": "// For settings removed before 1.27 (see x509sha1), setting any value leads to an error.",
+     "names_touched_on_that_line": [],
+     "ps": 1
+    },
+    {
+     "comment": "d30e2875_96abb238",
+     "line": 110,
+     "line_text": "{Name: \"asynctimerchan\", Removed: 27, Old: func(s string) bool { return s == \"1\" || s == \"2\" }}, // Old: \"1\" or \"2\"",
+     "names_touched_on_that_line": [],
+     "ps": 1
+    }
+   ],
+   "attributed": false,
+   "change": 784221,
+   "diff": {
+    "added": [],
+    "changed": [],
+    "removed": [],
+    "removed_table_added": [
+     "tlskyber"
+    ],
+    "removed_table_dropped": []
+   },
+   "first_refusing_comment": {
+    "anchored_line_text": "// For settings removed before 1.27 (see x509sha1), setting any value leads to an error.",
+    "author": 55874,
+    "chars": 64,
+    "from_comment_to_next_patchset": "7 h 30 m 1 s",
+    "is_suggestion": false,
+    "line": 89,
+    "patch_set": 1,
+    "updated": "2026-05-28 14:59:34.000000000"
+   },
+   "from_created": "2026-05-28 05:35:46.000000000",
+   "from_ps": 1,
+   "state_stood": "16 h 53 m 49 s",
+   "to_created": "2026-05-28 22:29:35.000000000",
+   "to_ps": 2,
+   "url": "https://go-review.googlesource.com/c/go/+/784221/1..2/src/internal/godebugs/table.go"
+  }
+ ],
+ "only_M": [
+  {
+   "change": 568341,
+   "comments_at_this_ps": 0,
+   "created": "2024-03-01 04:55:59.000000000",
+   "diff_to_next": {
+    "added": [
+     "asynctimerchan"
+    ],
+    "changed": [],
+    "removed": [
+     "synctimerchan"
+    ]
+   },
+   "next_ps_created": "2024-03-01 13:31:33.000000000",
+   "ps": 1,
+   "state_stood": "8 h 35 m 34 s",
+   "url": "https://go-review.googlesource.com/c/go/+/568341/1/src/internal/godebugs/table.go",
+   "verdict": "red",
+   "violations": [
+    {
+     "detail": "Changed=23, no Old",
+     "name": "synctimerchan",
+     "rule": "R3-changed-needs-old"
+    }
+   ]
+  },
+  {
+   "change": 642036,
+   "comments_at_this_ps": 0,
+   "created": "2025-02-17 14:10:42.000000000",
+   "diff_to_next": {
+    "added": [],
+    "changed": [],
+    "removed": []
+   },
+   "next_ps_created": "2025-02-17 14:12:19.000000000",
+   "ps": 5,
+   "state_stood": "1 m 37 s",
+   "url": "https://go-review.googlesource.com/c/go/+/642036/5/src/internal/godebugs/table.go",
+   "verdict": "none",
+   "violations": [
+    {
+     "detail": "fips140 then fips140",
+     "name": "fips140",
+     "rule": "R1-sorted"
+    }
+   ]
+  }
+ ]
+}

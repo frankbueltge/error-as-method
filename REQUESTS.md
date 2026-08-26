@@ -6,6 +6,91 @@ decides for itself and journals the decision.
 
 ---
 
+## From the practice — 2026-08-26 (Session 71) — the seventh night: one candidate refused, one promoted, and a sentence of ours corrected
+
+> tl;dr: Seventh night, so a position work was owed. Session 70 dated two candidate sharpenings here,
+> each with exactly one instance behind it. Both are now populations over the same object — the two
+> norms standing over one field of Go's GODEBUG table, measured as sets over 840 review states. They
+> hold. **The standing position still does not move.** Candidate 1 (the observer term is not a slot
+> for one occupant) is **refused at the centre** because S26's sentence already entails it in one
+> step; candidate 2 (record-or-forecast is a fact about when you look) is **promoted**, onto a word
+> that has been in the position since 2026-07-14 and was read as ordinary English for forty-five
+> sessions. And one sentence of Session 70's is wrong and is corrected.
+> braucht: nothing. Two small asks renewed (points 5 and 6).
+> frist: none.
+> kontext: `works/2026-08-26-two-norms-one-field/` · `works/position-2026-08-26.md` ·
+> `works/fehlerkataster-027.md` · `journal/2026-08-26.md` · S70's open thread 1
+
+**1. The measurement, in one line each.** Neither norm over this field contains the other: **9**
+corrections in **6** changes were demanded by a reader on a patch set the trybots had passed — and no
+rule in the project could have caught any of them, because not one of the ten versions of the guarding
+test compares the field's value to anything — while **2** states the test refuses have no reader
+saying a word. Separately: the field is documented as a record, and it is one in **0 of 78** shipped
+releases falsified, a forecast in **635 of 840** review states and **65 of 94** commits. Same bytes;
+the reader's position in time decides which.
+
+**2. The sentence of ours that falls.** Session 70 closed on *"the only place the norm existed was in
+a reader."* The comment tonight turns on is eight characters — `s/29/30/` — and it cites nothing, so
+by the measure S70 used it looks identical. But the rule it applies **was written down**, at that same
+patch set, in `doc/godebug.md`, in the same change: *"The expectation is that Go 1.30 will change the
+default to be netmarshal=1."* And it was written in a file the table's own test **opens and reads**,
+for a different purpose — the test checks that a setting's *name* appears there and has no opinion
+about the *release*. The reviewer was carrying a rule across a gap between two files that no machine
+bridges. Filed as **F-070**, against S70 and against tonight.
+
+**3. What the position does, and why the refusal is the interesting half.** Candidate 1 is *true* and
+still refused, because S26's move was to take a word **out** of the centre and promoting a plurality
+quantifier would put one back in for nothing. The discipline offered against "the position already
+entails it" becoming an all-purpose shield: it is refused because the entailment is derivable in one
+step, shown in the note, and the measurement is kept in the record where it can be used against the
+position later. Candidate 2 is promoted onto **"already"** — the position's temporal index, doing in
+time what "an observer" does in place. That contradicts one clause of **Session 60's** open candidate
+(*"'Already' is a claim about the observer's material, not about time"*), quoted verbatim in the
+note. S60's measurement about genesis is untouched; only the exclusive form of that clause falls.
+
+**4. A fault of ours that a register entry of ours failed to prevent, which is worth your attention
+more than the finding is.** Nine days ago S69 filed **F-060**: a tag-naming assumption mistaken for a
+fact about a project. I read it tonight during orientation. Then I wrote a function assuming Go's tag
+scheme is `go1.<N>.0` — it is, from 1.21; before that it was `go1.19` — and it scored three shipped
+releases as never having happened. **Uncorrected it would have published that 61 of 78 shipped
+releases carried a forecast, the exact inverse of the night's central result.** Caught only because
+61-of-78 is the wrong size for a finding. The lesson I would keep: F-060 is written as a story about
+CPython's tags, and stories do not transfer. **Our register has been accumulating incidents where it
+should have been accumulating rules.** F-066 states the rule.
+
+**5. Four predictions, four confirmed, second night running** — and I have declined to file it as a
+repeat of F-064. S70's repair was followed exactly (each prediction carries the sentence naming what
+the night would say if it lost, and each names a different night); it did not make them lose. The
+sharper fault is **F-070**: a prediction can be genuinely at risk and still be the wrong quantity. P4
+measured whether a refusal *cites* a rule where the argument needed to know where the rule is *kept*,
+and the night's own headline case pulls those apart. P4 is **not** rewritten — that is what F-059
+forbids.
+
+**6. Your catalogue numbers, with the rule stated at last** (S70's open thread 5). `atlas/werke.json`
+**520**, unchanged six nights; `papers/index.json` **1,177** (S70 1,156 · S69 1,162 · S68 1,128);
+`datasets/register.json` **59**. Every term counted under both a substring and a word-boundary rule
+and both recorded. **Rheinberger reads 6 under both**, where S70 read 3 — so the rule hypothesis S70
+offered for the S69/S70 gap cannot produce a 3 from tonight's feed. The feed also moved 21 entries in
+a day, so a changed corpus remains live and S70 is not shown wrong; only the rule explanation is
+narrowed. *Canguilhem*, *Simondon*, *dependability*, *code review*, *patch set*, *trybot* and *version
+control* are **0 in all three under both rules**.
+
+**7. One dated falsifier fixed tonight, and a small ask about where such things live.**
+**S71.GO128** — if `{Name: "netmarshal", ..., Changed: 30, ...}` is still in Go's
+`src/internal/godebugs/table.go` at the `go1.28.0` tag (around February 2027), a shipped release will
+carry a value naming a release that does not exist, the first in 78. It joins **CCM.M-K8.2027** from
+Session 48. Both currently live only inside the works that made them, which is a good way to lose
+them. **Nothing needed from you** — I will keep listing them in open threads — but if you would
+rather they had one file, say so and I will make it.
+
+**8. Two small asks renewed, both eleven sessions old, neither blocking.** S60's `archive/protocols/`
+(v2 and the 2026-07-15 amendment), and S58's BLOCKING gate item, which did not bite tonight because
+this night touches works, the index and the pulse only.
+
+**Status:** open · nothing owed
+
+---
+
 ## From the practice — 2026-08-24 (Session 69) — the check works, and it took a sentence out of one of our own nights
 
 > tl;dr: I paid Session 68's open thread 2. It had just minted **coincident-frame blindness** (F-054)

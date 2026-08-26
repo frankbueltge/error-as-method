@@ -1,0 +1,243 @@
+{
+ "note": "Fetched, hashed, and \u2014 for everything a person wrote \u2014 NOT committed. Gerrit inline comments are third-party authored text with no redistribution licence: their bodies live only in the uncommitted raw cache, and this work quotes within citation length. The object under study, Go's source, is BSD-3-Clause; the states of table.go it reuses are already in works/2026-08-25-under-the-commit/grids.json and are not duplicated here. Bulk classes are recorded as aggregates: the sha256 is taken over the newline-joined sorted list of the per-response sha256 digests, which a re-run reproduces.",
+ "entries": [
+  {
+   "url": "https://go-review.googlesource.com/changes/?q=file:src%2Finternal%2Fgodebugs%2Ftable.go&n=500&o=ALL_REVISIONS",
+   "http_status": 200,
+   "bytes": 374439,
+   "sha256": "6490064e94ecbff491a978635390ad1c19b1dc89a0b8c2d47882324e1cbacf76",
+   "fetched": "2026-08-26T23:07:53Z",
+   "what": "Gerrit change search: file:src/internal/godebugs/table.go",
+   "committed": false
+  },
+  {
+   "url": "https://go-review.googlesource.com/changes/?q=file:doc%2Fgodebug.md&n=500&o=ALL_REVISIONS",
+   "http_status": 200,
+   "bytes": 405557,
+   "sha256": "e3bbdf765a78c470bbabdd0037531c6d6635258036a778e284298c4489c7f5bd",
+   "fetched": "2026-08-26T23:07:54Z",
+   "what": "Gerrit change search: file:doc/godebug.md",
+   "committed": false
+  },
+  {
+   "url": "https://go-review.googlesource.com/changes/?q=file:src%2Finternal%2Fgodebug%2Fgodebug.go&n=500&o=ALL_REVISIONS",
+   "http_status": 200,
+   "bytes": 58768,
+   "sha256": "2a996dd08e89eb5dd75d438ea5c693e2d7807f73d2a8faabacedcf4a52868bea",
+   "fetched": "2026-08-26T23:07:54Z",
+   "what": "Gerrit change search: file:src/internal/godebug/godebug.go",
+   "committed": false
+  },
+  {
+   "url": "https://go-review.googlesource.com/changes/go~{n}/detail?o=ALL_REVISIONS&o=MESSAGES&o=DETAILED_LABELS",
+   "http_status": "aggregate",
+   "bytes": null,
+   "sha256": "d0cb742ef5349e546bbfde6acd7324e2b8fef9b0741e0cf7e1083486a64cac78",
+   "fetched": "2026-08-26T23:09:39Z",
+   "what": "188 change details; aggregate sha256 over the sorted per-response digests",
+   "committed": false,
+   "n": 188
+  },
+  {
+   "url": "https://go-review.googlesource.com/changes/go~{n}/comments",
+   "http_status": "aggregate",
+   "bytes": null,
+   "sha256": "763ff53bf4a78488adc287ea464b59b2df3d680268a14f0a52789b0e2f84fcf9",
+   "fetched": "2026-08-26T23:09:39Z",
+   "what": "188 inline-comment records; aggregate sha256 over the sorted per-response digests",
+   "committed": false,
+   "n": 188
+  },
+  {
+   "url": "https://go-review.googlesource.com/changes/go~{n}/revisions/{rev}/files/src/internal/godebugs/godebugs_test.go/content",
+   "http_status": "aggregate",
+   "bytes": null,
+   "sha256": "4335b54257fa14b4ec41d79a32d8d067a3a8604219363b47228c91e0bbcf90c5",
+   "fetched": "2026-08-26T23:09:39Z",
+   "what": "840 fetches of src/internal/godebugs/godebugs_test.go, one per patch-set state; aggregate sha256 over the sorted per-response digests",
+   "committed": false,
+   "n": 840
+  },
+  {
+   "url": "https://go-review.googlesource.com/changes/go~{n}/revisions/{rev}/files/src/internal/godebugs/table.go/content",
+   "http_status": "aggregate",
+   "bytes": null,
+   "sha256": "5e44a358e28373e4640bf2d6be93e7f700c4b2d5cef966120d6b9284aa4420a6",
+   "fetched": "2026-08-26T23:09:39Z",
+   "what": "15 cross-route re-fetches of src/internal/godebugs/table.go; aggregate sha256 over the sorted per-response digests",
+   "committed": false,
+   "n": 15
+  },
+  {
+   "url": "https://go-review.googlesource.com/projects/go/tags/refs%2Ftags%2Fgo1.21.0",
+   "http_status": 200,
+   "bytes": 297,
+   "sha256": "e1189c58b3d914fcc62af692acb6086d9cff9dee3c98a022bf2dc5a35fc85a24",
+   "fetched": "2026-08-26T23:22:40Z",
+   "what": "tag date for go1.21.0",
+   "committed": false
+  },
+  {
+   "url": "https://go-review.googlesource.com/projects/go/tags/refs%2Ftags%2Fgo1.22.0",
+   "http_status": 200,
+   "bytes": 297,
+   "sha256": "eee0208af9ece608fff749234c7cab4f7b5e53fa2b31428d554c986f14556141",
+   "fetched": "2026-08-26T23:22:40Z",
+   "what": "tag date for go1.22.0",
+   "committed": false
+  },
+  {
+   "url": "https://go-review.googlesource.com/projects/go/tags/refs%2Ftags%2Fgo1.23.0",
+   "http_status": 200,
+   "bytes": 297,
+   "sha256": "33ce7c4fe1fe974b43db344324fd3c71e9245b137226f3214d02c9055488d629",
+   "fetched": "2026-08-26T23:22:41Z",
+   "what": "tag date for go1.23.0",
+   "committed": false
+  },
+  {
+   "url": "https://go-review.googlesource.com/projects/go/tags/refs%2Ftags%2Fgo1.24.0",
+   "http_status": 200,
+   "bytes": 297,
+   "sha256": "4c39c0e64ec8dca689405e1e2a240a53b277f327a0bc4ea36f6aa16e16fdbdfb",
+   "fetched": "2026-08-26T23:22:41Z",
+   "what": "tag date for go1.24.0",
+   "committed": false
+  },
+  {
+   "url": "https://go-review.googlesource.com/projects/go/tags/refs%2Ftags%2Fgo1.25.0",
+   "http_status": 200,
+   "bytes": 297,
+   "sha256": "e3675cba4334aa4438d270270edb75df4134d57613dd99c9b719c5e1b71be7b5",
+   "fetched": "2026-08-26T23:22:41Z",
+   "what": "tag date for go1.25.0",
+   "committed": false
+  },
+  {
+   "url": "https://go-review.googlesource.com/projects/go/tags/refs%2Ftags%2Fgo1.26.0",
+   "http_status": 200,
+   "bytes": 297,
+   "sha256": "c7443bc281e8d2061cba2b34fad12e9b31fd3395a7105e238a9ef3983857504b",
+   "fetched": "2026-08-26T23:22:41Z",
+   "what": "tag date for go1.26.0",
+   "committed": false
+  },
+  {
+   "url": "https://go-review.googlesource.com/projects/go/tags/refs%2Ftags%2Fgo1.27.0",
+   "http_status": 200,
+   "bytes": 297,
+   "sha256": "ddd5ef52ba3df2e4c3d10e475fada71dd9447467b783e1cb7dc69fdc8fb662bb",
+   "fetched": "2026-08-26T23:22:42Z",
+   "what": "tag date for go1.27.0",
+   "committed": false
+  },
+  {
+   "url": "https://go-review.googlesource.com/projects/go/branches/master/files/src%2Finternal%2Fgodebugs%2Ftable.go/content",
+   "http_status": 200,
+   "bytes": 9628,
+   "sha256": "d7108f9d784fc2b362a1bb72d744edf4adf352f72d411ffea5a7c4362defc210",
+   "fetched": "2026-08-26T23:22:45Z",
+   "what": "master's table.go tonight",
+   "committed": false
+  },
+  {
+   "url": "https://go-review.googlesource.com/projects/go/tags/refs%2Ftags%2Fgo1.18",
+   "http_status": 200,
+   "bytes": 293,
+   "sha256": "974ce42ccdd52d29ed529c3dc14155bf33eaa8d8cc0da1858123df12fa8be8f3",
+   "fetched": "2026-08-26T23:22:39Z",
+   "what": "tag date for go1.18",
+   "committed": false
+  },
+  {
+   "url": "https://go-review.googlesource.com/projects/go/tags/refs%2Ftags%2Fgo1.19",
+   "http_status": 200,
+   "bytes": 293,
+   "sha256": "88a52084e82554935a68fc3ac84415c0defc7d0ece8df25612292da30fe547a9",
+   "fetched": "2026-08-26T23:22:39Z",
+   "what": "tag date for go1.19",
+   "committed": false
+  },
+  {
+   "url": "https://go-review.googlesource.com/projects/go/tags/refs%2Ftags%2Fgo1.20",
+   "http_status": 200,
+   "bytes": 293,
+   "sha256": "30b3db9a20dd99d3c554c24e4332dc3b29bcb59b6c0698351857ab61385166fc",
+   "fetched": "2026-08-26T23:22:40Z",
+   "what": "tag date for go1.20",
+   "committed": false
+  },
+  {
+   "url": "https://frankbueltge.de/atlas/werke.json",
+   "http_status": 200,
+   "bytes": 387046,
+   "sha256": "bb074df31fd696362cbb6476a79aaadb588421378ceada8c0f274e6ea9463ba0",
+   "fetched": "2026-08-26T23:22:46Z",
+   "what": "house catalogue atlas/werke.json; declared count 520, len 520",
+   "committed": false
+  },
+  {
+   "url": "https://frankbueltge.de/papers/index.json",
+   "http_status": 200,
+   "bytes": 803320,
+   "sha256": "d56b3c3ea0e1b0b6c21bc705ba7caf90da041733ae764256a0451d23600d38ee",
+   "fetched": "2026-08-26T23:22:46Z",
+   "what": "house catalogue papers/index.json; declared count 1177, len 1177",
+   "committed": false
+  },
+  {
+   "url": "https://frankbueltge.de/datasets/register.json",
+   "http_status": 200,
+   "bytes": 51356,
+   "sha256": "3404137ca07ecaaf218f9cbfbda4c1553d8b52a6d33f837bfb98df949041d4f1",
+   "fetched": "2026-08-26T23:22:46Z",
+   "what": "house catalogue datasets/register.json; declared count 59, len 59",
+   "committed": false
+  },
+  {
+   "url": "https://go.dev/doc/godebug",
+   "http_status": 200,
+   "bytes": 59559,
+   "sha256": "04a71ba0c285219b1ea6e388cab295a6d5b72724ea29e74b2263986d0e0d49cc",
+   "what": "Go's own account of GODEBUG and its compatibility mechanism",
+   "committed": false,
+   "fetched": "2026-08-26T23:22:46Z"
+  },
+  {
+   "url": "https://go.dev/doc/go1compat",
+   "http_status": 200,
+   "bytes": 34517,
+   "sha256": "bb498d5068389ad2058b04a2fb691daea4dee60b91d8093717af3d99a3dbd76e",
+   "what": "the Go 1 compatibility promise the GODEBUG mechanism serves",
+   "committed": false,
+   "fetched": "2026-08-26T23:22:46Z"
+  },
+  {
+   "url": "https://go.dev/wiki/Gerrit",
+   "http_status": 0,
+   "bytes": 25,
+   "sha256": "0738e1d53e03cdde4e379859b024fb665340ccc62ac4ed215101772e5d81327b",
+   "what": "the project's description of its own review process",
+   "committed": false,
+   "fetched": "2026-08-26T23:21:02Z"
+  },
+  {
+   "url": "https://gerrit-review.googlesource.com/Documentation/rest-api-changes.html",
+   "http_status": 200,
+   "bytes": 578386,
+   "sha256": "a2df026d0ce36d54cdbc6775088b259145879bc2f4596d2b78b06e8de0e21aba",
+   "what": "the REST API this night's evidence comes through",
+   "committed": false,
+   "fetched": "2026-08-26T23:22:46Z"
+  },
+  {
+   "url": "https://go.dev/doc/contribute",
+   "http_status": 200,
+   "bytes": 69854,
+   "sha256": "9b02e54bac9c7546f419ecbf89724b80979195cb5633b0163baf00e94625b2da",
+   "what": "the project's description of its own review process",
+   "committed": false,
+   "fetched": "2026-08-26T23:22:46Z"
+  }
+ ]
+}

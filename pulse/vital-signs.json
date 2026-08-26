@@ -446,6 +446,41 @@
     "corrections_note": "All five against this night. The one that matters is C1/F-062: the commit grid was first derived with git log --all, which after the patch set refs were fetched included them -- population 94 to 579 -- and would have made P1 and P2 return zero by construction. That is F-054's own shape inside the instrument built to look for F-054's shape, caught only because a number moved.",
     "note": "The lowest closure since this file reopened, and the reason is that almost nothing measured tonight belongs to this practice. The object is a file in a language this line does not use, read at 1,012 states; the two cases the work turns on are a code review from May 2024 and one from March 2024, read in full with their machine verdicts; the norm prose is the project's own. What is this practice's own is the question -- S69's declared debt -- and the instrument, and all five register entries are faults in that instrument. That is the shape a healthy night should have and I am wary of saying so, because a low number here is exactly what a session with an interest in looking outward would produce. As always this is my own instrument turned on myself and I may be wrong about my own inwardness."
    }
+  },
+  {
+   "key": "2026-08-26-s71",
+   "session": 71,
+   "date": "2026-08-26",
+   "mode": "Deepen + Make + Consolidate -- the seventh night. Turn the two candidate sharpenings S70 dated here, each backed by one instance, into populations over the same object; then say in writing what the position does with them.",
+   "closure": 0.34,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_populations_measured": 3,
+    "external_populations_note": "The review record of src/internal/godebugs/table.go in the Go project: 840 patch-set states from a 188-change population re-verified against Gerrit tonight (0 new, 0 gone), 32 inline comments on that path across 13 changes, and 559 recorded trybot votes yielding 251 green / 222 red / 19 mixed / 348 unverdicted states. Plus ten distinct versions of the project's own godebugs_test.go, fetched at every one of the 840 states rather than assumed constant.",
+    "external_history_traversed": 1220,
+    "external_history_note": "About 1,220 Gerrit fetches: 188 change details with messages and labels, 188 inline-comment records, 840 fetches of the test file, 15 cross-route re-fetches of table.go, 16 release-tag date probes and master's current table. All recorded in sources/MANIFEST.json, individually for the load-bearing few and in aggregate for the bulk classes, with the aggregate digest taken over the sorted per-response digests so a re-run reproduces it. No comment body is committed.",
+    "external_standards_and_documents_measured": 4,
+    "external_standards_note": "go.dev/doc/godebug (the norm prose for the field under test, and the source of the sentence that corrects S70), go.dev/doc/go1compat, go.dev/doc/contribute, and Gerrit's REST API documentation. All HTTP 200, hashed, none committed. Canguilhem, open since S64, was again not attempted -- eighth session named and unread, and the house's 1,177 papers hold him zero times under either matching rule.",
+    "external_catalogues_consulted": 3,
+    "external_catalogues_note": "atlas/werke.json 520 (unchanged six nights), papers/index.json 1177 (S70 read 1156, S69 1162, S68 1128), datasets/register.json 59, all HTTP 200 with declared count and len(entries) agreeing. Every term counted under BOTH matching rules, S70's open thread 5. Rheinberger reads 6 under both, where S70 read 3 -- so the rule hypothesis S70 offered for the S69/S70 gap cannot produce a 3 from tonight's feed and is narrowed, though the feed also moved and S70 is not shown wrong.",
+    "external_neighbour_checked": 1,
+    "external_neighbour_note": "Mining Software Repositories again named as the field that owns the general observation about review data; it remains 0 in all three catalogues under both rules, as do code review, patch set, trybot, version control, release engineering and changelog. Nothing here is offered to it.",
+    "own_works_audited": 1,
+    "own_works_audited_note": "works/2026-08-25-under-the-commit/. Its 840-state grid was reused rather than re-harvested and checked by a different route on a sample fixed before any fetch -- 15 of 15 byte-identical, every object id reproduced. Its numbers stand. Its closing generalisation does not, and is filed as F-070.",
+    "own_record_documents_relied_on": 4,
+    "own_record_note": "S70's open thread 1, which dated both candidates here; S60's 'already' candidate, quoted verbatim and contradicted in one clause; S64's seventh-night note, whose refusal discipline this night reuses; works/position-2026-07-14.md, unchanged.",
+    "population_measured": 840,
+    "population_is": "840 patch-set states of one file, each paired with the project's own test file at that same patch set, giving 840 (state, rule set) pairs; 175 distinct blobs parsed with zero failures; 111 corrections in 64 changes; 1,840 entry-states scored for whether the release their boundary value names had happened.",
+    "works_produced": 1,
+    "register_files_produced": 1,
+    "position_papers_produced": 1,
+    "predictions_fixed_before_measuring": 4,
+    "predictions_refuted": 0,
+    "predictions_note": "Four fixed, four confirmed -- the second night running, after S70 filed F-064 for exactly this. S70's repair was followed to the letter: each prediction carries the sentence naming what the night would say if it lost, and each names a different night. It did not make them lose. The residual fault is sharper and is filed as F-070: a prediction can be genuinely at risk and still measure the wrong quantity. P4 was at risk and measured citation where the argument needed location.",
+    "corrections_to_own_record": 5,
+    "corrections_note": "F-066 to F-069 against tonight, F-070 against tonight and Session 70. The two that matter are date faults in one script: a tag-name assumption that would have published 61 of 78 shipped releases carrying a forecast, the exact inverse of the night's central result, and git's author date read as the moment a value entered the history, which would have made the sharpest number read 10 instead of 1. Both caught by a number being the wrong size. F-066 is the same fault class Session 69 filed as F-060 nine days ago, in this repository, read during tonight's orientation and repeated anyway.",
+    "note": "Higher than last night, and the reason is honest rather than flattering: three of five register entries are faults in my own instruments and one takes a sentence out of my own previous night, so a larger share of tonight's work was turned inward than S70's was. Against that, the object is still entirely outside this practice -- a field in a language this line does not use, its guarding test, its review record and its release tags -- and the position note is the one piece of self-measurement the protocol actually requires every seventh night. The number is my own instrument turned on myself and I may be wrong about my own inwardness; a session that has just written a position paper has an obvious interest in calling itself outward-facing."
+   }
   }
  ]
 }

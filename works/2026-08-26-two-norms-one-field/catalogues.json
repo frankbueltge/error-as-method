@@ -1,0 +1,379 @@
+{
+ "catalogues": {
+  "atlas/werke.json": {
+   "bytes": 387046,
+   "committed": false,
+   "counts_agree": true,
+   "declared_count": 520,
+   "http_status": 200,
+   "len_entries": 520,
+   "sha256": "bb074df31fd696362cbb6476a79aaadb588421378ceada8c0f274e6ea9463ba0",
+   "terms": {
+    "canguilhem": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "changelog": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "code review": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "continuous integration": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "dependability": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "deprecation": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "epistemic thing": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "forecast": {
+     "substring": 1,
+     "word_boundary": 0
+    },
+    "gerrit": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "linter": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "norm": {
+     "substring": 1,
+     "word_boundary": 0
+    },
+    "observer": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "patch set": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "patchset": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "peer review": {
+     "substring": 1,
+     "word_boundary": 1
+    },
+    "provenance": {
+     "substring": 5,
+     "word_boundary": 5
+    },
+    "release engineering": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "repository mining": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "rheinberger": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "simondon": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "software history": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "static analysis": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "test suite": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "trybot": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "version control": {
+     "substring": 0,
+     "word_boundary": 0
+    }
+   },
+   "url": "https://frankbueltge.de/atlas/werke.json"
+  },
+  "datasets/register.json": {
+   "bytes": 51356,
+   "committed": false,
+   "counts_agree": true,
+   "declared_count": 59,
+   "http_status": 200,
+   "len_entries": 59,
+   "sha256": "3404137ca07ecaaf218f9cbfbda4c1553d8b52a6d33f837bfb98df949041d4f1",
+   "terms": {
+    "canguilhem": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "changelog": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "code review": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "continuous integration": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "dependability": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "deprecation": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "epistemic thing": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "forecast": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "gerrit": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "linter": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "norm": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "observer": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "patch set": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "patchset": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "peer review": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "provenance": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "release engineering": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "repository mining": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "rheinberger": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "simondon": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "software history": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "static analysis": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "test suite": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "trybot": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "version control": {
+     "substring": 0,
+     "word_boundary": 0
+    }
+   },
+   "url": "https://frankbueltge.de/datasets/register.json"
+  },
+  "papers/index.json": {
+   "bytes": 803320,
+   "committed": false,
+   "counts_agree": true,
+   "declared_count": 1177,
+   "http_status": 200,
+   "len_entries": 1177,
+   "sha256": "d56b3c3ea0e1b0b6c21bc705ba7caf90da041733ae764256a0451d23600d38ee",
+   "terms": {
+    "canguilhem": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "changelog": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "code review": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "continuous integration": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "dependability": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "deprecation": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "epistemic thing": {
+     "substring": 1,
+     "word_boundary": 0
+    },
+    "forecast": {
+     "substring": 4,
+     "word_boundary": 0
+    },
+    "gerrit": {
+     "substring": 2,
+     "word_boundary": 2
+    },
+    "linter": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "norm": {
+     "substring": 5,
+     "word_boundary": 0
+    },
+    "observer": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "patch set": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "patchset": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "peer review": {
+     "substring": 8,
+     "word_boundary": 6
+    },
+    "provenance": {
+     "substring": 4,
+     "word_boundary": 4
+    },
+    "release engineering": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "repository mining": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "rheinberger": {
+     "substring": 6,
+     "word_boundary": 6
+    },
+    "simondon": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "software history": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "static analysis": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "test suite": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "trybot": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "version control": {
+     "substring": 0,
+     "word_boundary": 0
+    }
+   },
+   "url": "https://frankbueltge.de/papers/index.json"
+  }
+ },
+ "fetched": "2026-08-26T23:22:46Z",
+ "matching_rules": {
+  "substring": "case-folded str.count; 'Epistemic Things' contains 'epistemic thing'",
+  "word_boundary": "case-folded, no [a-z0-9] immediately either side; 'Epistemic Things' does NOT match 'epistemic thing'"
+ },
+ "prose": [
+  {
+   "bytes": 59559,
+   "committed": false,
+   "http_status": 200,
+   "sha256": "04a71ba0c285219b1ea6e388cab295a6d5b72724ea29e74b2263986d0e0d49cc",
+   "url": "https://go.dev/doc/godebug",
+   "what": "Go's own account of GODEBUG and its compatibility mechanism"
+  },
+  {
+   "bytes": 34517,
+   "committed": false,
+   "http_status": 200,
+   "sha256": "bb498d5068389ad2058b04a2fb691daea4dee60b91d8093717af3d99a3dbd76e",
+   "url": "https://go.dev/doc/go1compat",
+   "what": "the Go 1 compatibility promise the GODEBUG mechanism serves"
+  },
+  {
+   "bytes": 69854,
+   "committed": false,
+   "http_status": 200,
+   "sha256": "9b02e54bac9c7546f419ecbf89724b80979195cb5633b0163baf00e94625b2da",
+   "url": "https://go.dev/doc/contribute",
+   "what": "the project's description of its own review process"
+  },
+  {
+   "bytes": 578386,
+   "committed": false,
+   "http_status": 200,
+   "sha256": "a2df026d0ce36d54cdbc6775088b259145879bc2f4596d2b78b06e8de0e21aba",
+   "url": "https://gerrit-review.googlesource.com/Documentation/rest-api-changes.html",
+   "what": "the REST API this night's evidence comes through"
+  }
+ ]
+}
