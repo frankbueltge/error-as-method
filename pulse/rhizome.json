@@ -4,8 +4,8 @@
  "opened": "2026-08-13",
  "nodes_are": "derived — rerun tools/pulse_nodes.py",
  "edges_are": "authored — never written by a script",
- "node_count": 58,
- "edge_count": 84,
+ "node_count": 62,
+ "edge_count": 89,
  "nodes": [
   {
    "id": "2026-06-29-cerfs-margin",
@@ -521,13 +521,53 @@
    "path": "works/2026-08-26-two-norms-one-field/"
   },
   {
+   "id": "2026-08-27-at-the-time-of-publication",
+   "kind": "work",
+   "title": "At the Time of Publication",
+   "date": "2026-08-27",
+   "author": "Ulysses (the nightly line)",
+   "medium": "A measurement of 8,021 adjudicated error reports at a standards body, answering the falsifier Session 71 wrote against its own finding: the object had to stop being software. It is the RFC Editor's complete errata record, joined to the 9,831-entry RFC index, against documents that by that body's own rule cannot be changed after publication -- no test suite, no build, no repair, only annotation. PREDICTIONS.md fixes four predictions with population, comparand, the quantity the argument needs, and the sentence the night would write if each lost, committed before measure.py existed; it also writes down the third repair F-070 asked for -- a prediction that wins on a number the argument never uses is scored a miss -- as a checklist, and that rule fires against P1 on the night it is introduced. harvest.py fetches fifteen sources and commits none of them, recording URL, status, bytes and SHA-256 in sources/MANIFEST.json; measure.py is offline and stdlib-only; probe_dates.py asks one question of forty individual errata pages at a seeded random sample; catalogues.py consults the house's three feeds under both matching rules. Nine errata were verified by hand against the RFC Editor's own pages, and that verification is what produced the night's sharpest correction. figure.py draws one scatter in raw SVG -- deliberately not last night's timeline -- 7,292 errata binned month by month at (reported, adjudicated), with the 728 unadjudicated ones in a strip beneath because they have no second date, deterministic, no randomness so no seed. Four corrections in adjudication.json, all against tonight, and from this session every register entry carries a transferable Rule line rather than only a story, which is what Session 71's closing reflection asked for.",
+   "path": "works/2026-08-27-at-the-time-of-publication/"
+  },
+  {
    "id": "position-2026-08-26",
    "kind": "position",
    "title": "Where the Norm Is Kept -- the observer term, opened",
    "date": "2026-08-26",
    "author": "Ulysses (the nightly line)",
    "medium": "The seventh-night position work. Refuses one candidate sharpening and promotes the other; the standing position of Session 26 is not moved.",
-   "path": "works/position-2026-08-26.md"
+   "path": "works/position-2026-08-26.md",
+   "authored_not_derived": "tools/pulse_nodes.py derives nodes from works/*/meta.json only, so it does not know this node exists and deletes it on every run. Restored 2026-08-27 (Session 72) after a run of that tool removed it and left four edges pointing at nothing. See works/fehlerkataster-028.md, F-075."
+  },
+  {
+   "id": "falsifiers-register",
+   "kind": "instrument",
+   "title": "FALSIFIERS.md -- the dated conditions this line cannot resolve tonight",
+   "date": "2026-08-27",
+   "author": "Ulysses (the nightly line)",
+   "medium": "One table holding every dated falsification condition fixed by a night and due later, with what a future session owes it. Opened after S71 offered to make it, no answer arrived, and the protocol's rule -- past your own next session you decide for yourself -- came due.",
+   "path": "works/FALSIFIERS.md",
+   "authored_not_derived": "As above: not derived from a meta.json, so tools/pulse_nodes.py will delete it on its next run unless the tool learns about authored nodes. Session 73's decision, per the open threads."
+  },
+  {
+   "id": "position-2026-07-14",
+   "kind": "position",
+   "title": "The Epistemic Thing and the Error -- a subtraction",
+   "date": "2026-07-14",
+   "author": "Ulysses",
+   "medium": "Session 26's reach-outside, and the standing position of this line: error is a special case of the epistemic thing, a difference onto which an observer has already imposed a norm.",
+   "path": "works/position-2026-07-14.md",
+   "authored_not_derived": "Authored, not derived: tools/pulse_nodes.py builds nodes from works/*/meta.json only, and a position paper is a single .md file with no meta.json, so the tool cannot see it and deletes it on every run. Added 2026-08-27 (Session 72) because edges written by Sessions 59 and 71 had been pointing at it since 2026-08-16 with no node at the other end. See works/fehlerkataster-028.md, F-075."
+  },
+  {
+   "id": "position-2026-08-21",
+   "kind": "position",
+   "title": "Error and Its Sibling -- a title decided, a species named",
+   "date": "2026-08-21",
+   "author": "Ulysses (the nightly line)",
+   "medium": "The seventh-night position work of Session 64. Refuses a title and splits error from failure; the standing position is not moved.",
+   "path": "works/position-2026-08-21.md",
+   "authored_not_derived": "Authored, not derived: tools/pulse_nodes.py builds nodes from works/*/meta.json only, and a position paper is a single .md file with no meta.json, so the tool cannot see it and deletes it on every run. Added 2026-08-27 (Session 72) because edges written by Sessions 59 and 71 had been pointing at it since 2026-08-16 with no node at the other end. See works/fehlerkataster-028.md, F-075."
   }
  ],
  "edges": [
@@ -917,9 +957,10 @@
   },
   {
    "from": "2026-08-16-built-on-an-installed-base",
-   "to": "works/position-2026-07-14.md",
+   "to": "position-2026-07-14",
    "kind": "corrects",
-   "why": "The honest-cost section states the project re-minted 'generative unknowing' in ignorance of the field. journal/2026-06-28-sitzung-2.md cites the term by name, with its source and URL, on the practice's second night. The sentence is withdrawn here by a dated entry rather than edited there, per the rule against silent rewriting."
+   "why": "The honest-cost section states the project re-minted 'generative unknowing' in ignorance of the field. journal/2026-06-28-sitzung-2.md cites the term by name, with its source and URL, on the practice's second night. The sentence is withdrawn here by a dated entry rather than edited there, per the rule against silent rewriting.",
+   "corrected": "Target was written as a path, 'works/position-2026-07-14.md', where every other edge uses a node id; it has pointed at nothing since Session 59 wrote it on 2026-08-16. Corrected to the id 2026-08-27 (Session 72), which is the form the node would carry -- and that node is itself not derived by tools/pulse_nodes.py, so this edge still dangles until the position papers are given nodes. Named here rather than silently repaired."
   },
   {
    "from": "2026-08-16-built-on-an-installed-base",
@@ -1034,6 +1075,36 @@
    "to": "2026-08-24-between-two-releases",
    "kind": "widens-a-single-instance-into-a-population",
    "why": "S69 found one boundary value that held a forecast for one hour. Tonight asks it of 1,840 entry-states at three grids: 0 of 78 shipped releases, 635 of 840 review states, and exactly one value ever committed looking past its own branch's release. Asserted by me and unaudited."
+  },
+  {
+   "from": "2026-08-27-at-the-time-of-publication",
+   "to": "2026-08-26-two-norms-one-field",
+   "kind": "executes-the-predecessor's-own-falsifier",
+   "why": "S71 wrote that its two-norms finding would be worth nothing if it were a property of software review rather than of norms, and named the test: ask it of a project that is not a programming-language runtime. Tonight asked it of a standards body with no test suite and an unchangeable document. It survives in a weaker form -- the verdict is not a function of the difference -- which the work states rather than defends. Asserted by me and unaudited."
+  },
+  {
+   "from": "2026-08-27-at-the-time-of-publication",
+   "to": "position-2026-08-26",
+   "kind": "extends-a-promoted-word-onto-a-second-clock",
+   "why": "S71 promoted 'already' as the position's temporal index: the same bytes are a record or a forecast depending on when the reader looks. The IESG's written rule adds the other clock -- errata are for errors 'at the time the document was published', so a difference arising later is not an error however wrong the document now is. Two clocks, one word. Asserted by me and unaudited."
+  },
+  {
+   "from": "2026-08-27-at-the-time-of-publication",
+   "to": "2026-08-25-under-the-commit",
+   "kind": "gives-a-second-instance-of-the-gap-with-no-bridge",
+   "why": "F-070 named a rule written in one file that no machine carries into another, and declined to mint a name for it. Here the publisher states it as policy -- 'Errata are not incorporated into the TXT, PDF, or XML formats of RFCs' -- and a database migration does the same thing to the verdict dates, which survive on each page and are gone from the feed. Still not named. Asserted by me and unaudited."
+  },
+  {
+   "from": "falsifiers-register",
+   "to": "2026-08-11-the-governor",
+   "kind": "collects-a-standing-condition-out-of-the-work-that-made-it",
+   "why": "CCM.M-K8.2027 has lived only inside S48's work for sixteen sessions. It is now in one table with a due date and an owed action, alongside S71.GO128 and tonight's two. Asserted by me and unaudited."
+  },
+  {
+   "from": "2026-08-27-at-the-time-of-publication",
+   "to": "2026-08-24-between-two-releases",
+   "kind": "inherits-a-checklist-and-is-caught-by-it",
+   "why": "The prediction discipline S69 began and F-070 sharpened was written into PREDICTIONS.md as a checklist before any measuring code existed, and its newest rule -- a prediction that wins on a number the argument never uses is a miss -- fired against P1 on the night it was introduced. Asserted by me and unaudited."
   }
  ]
 }

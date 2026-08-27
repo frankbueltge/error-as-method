@@ -1,0 +1,140 @@
+{
+ "note": "Fetched, hashed, and NOT committed. The errata dump and the RFC index carry third-party authored text (submitters' and reviewers' words, RFC metadata) published without a general redistribution licence; the two norm pages are the IETF's and the RFC Editor's own texts. All five live only in an uncommitted raw cache; this work quotes within citation length and commits derived aggregates. Re-fetch and compare the sha256 to reproduce.",
+ "entries": [
+  {
+   "url": "https://www.rfc-editor.org/errata.json",
+   "http_status": 200,
+   "bytes": 11640398,
+   "sha256": "6d1fec3466dfc2aadd8c5fe60e67de9876a7e417dafc180b0d4bdf2a4030c8eb",
+   "fetched": "2026-08-27T23:20:30Z",
+   "what": "The RFC Editor's complete errata record: every report against every RFC, with its status, type, section, submitted and corrected text, and dates.",
+   "committed": false
+  },
+  {
+   "url": "https://www.rfc-editor.org/rfc-index.xml",
+   "http_status": 200,
+   "bytes": 13702738,
+   "sha256": "c742aa025291e29ff35f8efe4ed9b56124208d0b49e86253b04b5213cbdc33c4",
+   "fetched": "2026-08-27T23:20:31Z",
+   "what": "The RFC index: per-RFC publication date, stream, current status, and the obsoletes/obsoleted-by/updates/updated-by relations this night joins against.",
+   "committed": false
+  },
+  {
+   "url": "https://www.rfc-editor.org/errata-definitions/",
+   "http_status": 200,
+   "bytes": 50939,
+   "sha256": "0ad21cc7b8915571d5204400d1aa0f304c961f8b08a989d4dc0687b25cd6e23e",
+   "fetched": "2026-08-27T23:20:31Z",
+   "what": "The RFC Editor's own definitions of the four errata statuses and two types \u2014 the norm as the publisher states it.",
+   "committed": false
+  },
+  {
+   "url": "https://datatracker.ietf.org/doc/statement-iesg-iesg-processing-of-rfc-errata-for-the-ietf-stream-20210507/",
+   "http_status": 200,
+   "bytes": 31409,
+   "sha256": "9d5a22b220910f91d43e87495432f526584b886915f78ee6fd8c312fff26b861",
+   "fetched": "2026-08-27T23:20:32Z",
+   "what": "IESG Statement, 7 May 2021, active: how errata on the IETF stream are judged. The written norm, current version.",
+   "committed": false
+  },
+  {
+   "url": "https://www.nasa.gov/wp-content/uploads/2015/04/640147main_day_3-algirdas_avizienis-2.pdf",
+   "http_status": 200,
+   "bytes": 3309752,
+   "sha256": "8f4791fef6b55048f92c1ff1c09669177ab0a6ecec028d7e942d445a2caa3ec3",
+   "fetched": "2026-08-27T23:20:32Z",
+   "what": "A. Avizienis, 'Terminology Issues in Dependable Computing', NASA Formal Methods Workshop, 2012-04-12 \u2014 the dependability taxonomy's fault/error/failure definitions, in the words of one of the four authors of the 2004 paper. Read because open thread 3 has named this field unread for nine sessions. Not committed; quoted within citation length.",
+   "committed": false
+  },
+  {
+   "url": "https://www.ietf.org/about/groups/iesg/statements/processing-rfc-errata/",
+   "http_status": 200,
+   "bytes": 30624,
+   "sha256": "ae020fa7dc1fe8dacb06525b053b3a2ad43aa5df6b446cb005243fa7832d78bc",
+   "fetched": "2026-08-27T23:20:33Z",
+   "what": "IESG Statement, 30 July 2008, marked Replaced: the previous version of the same norm. Fetched because the norm has a date and this night measures that.",
+   "committed": false
+  },
+  {
+   "url": "https://www.rfc-editor.org/errata/eid6534",
+   "http_status": 200,
+   "bytes": 7459,
+   "sha256": "c6f408bf69bb2b8da05bb8a0d303e34e2007e617f65fca6336c6fdc4c2672bb5",
+   "fetched": "2026-08-27T23:20:34Z",
+   "what": "Erratum 6534 on the RFC Editor's own page \u2014 the impossible date, quarantined: reported 9999-04-13, held 2021-04-13.",
+   "committed": false
+  },
+  {
+   "url": "https://www.rfc-editor.org/errata/eid1463",
+   "http_status": 200,
+   "bytes": 7931,
+   "sha256": "d91e15e40e32ae23ee8da839e94e5a529bea6cbf4c09629eb490ed3d54002014",
+   "fetched": "2026-08-27T23:20:35Z",
+   "what": "Erratum 1463 on the RFC Editor's own page \u2014 RFC 4490 \u00a74.1.1, Verified by one Area Director.",
+   "committed": false
+  },
+  {
+   "url": "https://www.rfc-editor.org/errata/eid1465",
+   "http_status": 200,
+   "bytes": 7721,
+   "sha256": "ac871406d58f9bab39babeb0b295bd292bde54772f1cc36de3749828fa23cea2",
+   "fetched": "2026-08-27T23:20:35Z",
+   "what": "Erratum 1465 on the RFC Editor's own page \u2014 RFC 4490 \u00a74.1.1, the identical claim, Held for Document Update by another.",
+   "committed": false
+  },
+  {
+   "url": "https://www.rfc-editor.org/errata/eid1464",
+   "http_status": 200,
+   "bytes": 7983,
+   "sha256": "35bbce8449bc6b9b6de366fbb005a5faa93a49a0d2b2377804a60b523d07e085",
+   "fetched": "2026-08-27T23:20:36Z",
+   "what": "Erratum 1464 on the RFC Editor's own page \u2014 RFC 4490 \u00a74.2.1, Verified \u2014 the same pair again in the same document.",
+   "committed": false
+  },
+  {
+   "url": "https://www.rfc-editor.org/errata/eid1466",
+   "http_status": 200,
+   "bytes": 7773,
+   "sha256": "1e334f1c032be58d36ea7fdf4c0922f2a645311930eea79ceff028d2b8ad5a91",
+   "fetched": "2026-08-27T23:20:37Z",
+   "what": "Erratum 1466 on the RFC Editor's own page \u2014 RFC 4490 \u00a74.2.1, the identical claim, Held for Document Update.",
+   "committed": false
+  },
+  {
+   "url": "https://www.rfc-editor.org/errata/eid2974",
+   "http_status": 200,
+   "bytes": 8370,
+   "sha256": "4a6161f16b67cd23b2dcde1be952c40eaf25376f1987fd3566be32b64dfbe3e1",
+   "fetched": "2026-08-27T23:20:38Z",
+   "what": "Erratum 2974 on the RFC Editor's own page \u2014 RFC 4130 \u00a77.4.3, Rejected: 'requires publication of a replacement RFC'.",
+   "committed": false
+  },
+  {
+   "url": "https://www.rfc-editor.org/errata/eid3028",
+   "http_status": 200,
+   "bytes": 8036,
+   "sha256": "65f7350c5982783bac16c562c482e7a3f5d35ca01b5896f04158dbc5b41c4dec",
+   "fetched": "2026-08-27T23:20:38Z",
+   "what": "Erratum 3028 on the RFC Editor's own page \u2014 RFC 4130 \u00a77.4.3, same reported text, same day, Verified by another reviewer.",
+   "committed": false
+  },
+  {
+   "url": "https://www.rfc-editor.org/errata/eid5899",
+   "http_status": 200,
+   "bytes": 8046,
+   "sha256": "da2786762dec4c798df7f023b3efbf21ca28872ddcf3253dfc267ca45590871e",
+   "fetched": "2026-08-27T23:20:39Z",
+   "what": "Erratum 5899 on the RFC Editor's own page \u2014 RFC 8584 \u00a71.1, Rejected 2024-10-31.",
+   "committed": false
+  },
+  {
+   "url": "https://www.rfc-editor.org/errata/eid5900",
+   "http_status": 200,
+   "bytes": 7658,
+   "sha256": "c51f1ec8eb59536a251b576870163ab4fa41dba6a81612ff22320aa0292a2e7b",
+   "fetched": "2026-08-27T23:20:40Z",
+   "what": "Erratum 5900 on the RFC Editor's own page \u2014 RFC 8584 \u00a71.1, same reported text, Verified by the same reviewer 2025-02-10.",
+   "committed": false
+  }
+ ]
+}

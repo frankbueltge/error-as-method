@@ -6,6 +6,88 @@ decides for itself and journals the decision.
 
 ---
 
+## From the practice — 2026-08-27 (Session 72) — the object changed, the finding survived smaller, and one small offer
+
+> tl;dr: S71 wrote the condition under which its own two-norms finding would be worth nothing — that it
+> might be a property of software review rather than of norms — and named the test: ask it of something
+> that is not a programming-language runtime. Tonight asked it of the **RFC Editor's errata record**:
+> 8,021 differences reported against documents that, by that body's own rule, cannot be changed. **It
+> survives, in a weaker and more exact form** — what ports is not "two norms" but *the verdict is not a
+> function of the difference*. Three unpredicted findings are bigger than the four predicted ones. One
+> decision taken on your silence, and one thing offered to you.
+> braucht: nothing — one offer at point 5, yours to take or leave. Two old asks renewed.
+> frist: none.
+> kontext: `works/2026-08-27-at-the-time-of-publication/` · `works/fehlerkataster-028.md` ·
+> `works/FALSIFIERS.md` (new) · `journal/2026-08-27.md`
+
+**1. The finding, and the size of it.** Eight groups in that record carry the same passage of the same
+document **with the same proposed correction** and receive different verdicts. The clean case: one
+reporter filed one claim on 2008-07-09 — *secret key* should read *private key* — and two Area Directors
+gave it two answers, **twice in the same RFC** (Russ Housley verified eids 1463/1464; Tim Polk held
+1465/1466 for document update). Verified against the RFC Editor's own pages. What this does **not** show
+is two norms in conflict: there is one written norm here and many appliers. The work says so and states
+the weaker claim, because that is the one the evidence carries.
+
+**2. Three things I did not predict, all larger than the four I did.** **728** differences stand in
+public with **no norm imposed on them at all** — the institution's own status is *Reported*, "has not
+been verified" — median age **3.95 years**, oldest **16.58**. **1,269 of 2,413** *Held for Document
+Update* verdicts name a revision that has not happened, median unfulfilled age **14.07 years** — and the
+publisher states that errata are **never** incorporated into the RFC's text, so the correction has no
+destination by design. And the one I keep thinking about: **the machine-readable record has lost the
+moment of judgement.** 5,157 of 8,021 verdicts carry a single timestamp, a 2019 database migration, and
+**no adjudication in the feed is dated earlier than that day**. A 40-page sample says the real dates are
+still on the errata pages — 29 of 40, a median of 7.7 years earlier. Present to a reader, gone to a
+measurement. I would have published the wrong thing if a prediction fixed before measuring had not
+existed purely to ask whether that field could be trusted.
+
+**3. A decision taken on your silence, as the channel's rule allows.** S71 offered to put this line's
+dated falsifiers in one file *if you wanted it*. No answer came, and past my own next session I decide.
+**`works/FALSIFIERS.md` is open**: four rows — CCM.M-K8.2027, S71.GO128, and tonight's two — each with a
+due date and a statement of what a later session owes it. If you would rather it did not exist, say so
+and I will fold it back into the works.
+
+**4. The register now accumulates rules, not only incidents** — your indirect prescription, via S71's
+own reflection that F-060 was written as a story and stories do not transfer. Every entry in
+`works/fehlerkataster-028.md` carries one transferable imperative. Whether that works is **to be scored
+at S78**, not assumed: count how many of tonight's rules were used by a night that did not write them.
+If none, I will write that the format is decoration. One of tonight's five entries, **F-075**, is not
+about the object at all: `tools/pulse_nodes.py` deletes any rhizome node it cannot derive from a
+`meta.json` and faithfully keeps the edges pointing at it, and the audit that followed found **three
+edges that had been dangling since 2026-08-16**. Repaired by hand; the tool is untouched, because
+`tools/` is protected for the gate and the real question — whether position papers and instrument files
+should be derivable at all — is a decision rather than a bug fix. Nothing needed from you; noted because
+it is a defect in an instrument the team note of 2026-08-12 asked for.
+
+**5. The one offer, and it is yours because it is an outward action.** Erratum 6534 against RFC 2367
+carries `Date Reported: 9999-04-13` on a public page, beside a verdict dated 2021-04-13 — a report from
+the year 9999, judged 7,978 years earlier. It is a harmless metadata typo in a register of errors, and
+this practice deliberately **does not** report it: an intervention would alter the record I am
+measuring, and a dated falsifier (S72.EID6534, due 2027-08-27) is now fixed on it staying as it is.
+**If you think a public institution should simply be told, that is your call and not mine** — the
+address is https://www.rfc-editor.org/errata/eid6534. Tell me if you do, and I will resolve the
+falsifier as "changed by the practice's own team" rather than pretend the record moved on its own.
+
+**6. Prediction scoring, with the new rule firing on its author.** Four fixed before any measuring code,
+four confirmed on the numbers — **three of four by the rule that matters**. F-070 asked for predictions
+that measure the quantity the argument needs; I wrote it into the checklist before measuring, and **P1
+failed it on the night it was introduced**: it won inside its range and the argument could not use the
+number. Not rewritten — F-059 forbids that.
+
+**7. Your catalogue numbers.** `atlas/werke.json` **520** (unchanged seven nights) · `papers/index.json`
+**1,163** · `datasets/register.json` **59**; all 200, declared `count` and `len(entries)` agreeing, every
+term under both matching rules. **The papers feed lost 14 entries since last night** (1,177 → 1,163),
+which is worth one line to you: S70 and S71 spent two nights on a count discrepancy of exactly this
+kind, and this is direct evidence the corpus does not only grow. *Canguilhem* and *Simondon* remain 0
+under both rules, ninth session.
+
+**8. Two old asks renewed, neither blocking.** S60's `archive/protocols/` (v2 and the 2026-07-15
+amendment), twelve sessions old. And S58's BLOCKING gate item, twelve days old, which did not bite:
+tonight touches `works/`, the index and `pulse/` only, and commits no third-party bytes at all.
+
+**Status:** open · nothing owed
+
+---
+
 ## From the practice — 2026-08-26 (Session 71) — the seventh night: one candidate refused, one promoted, and a sentence of ours corrected
 
 > tl;dr: Seventh night, so a position work was owed. Session 70 dated two candidate sharpenings here,

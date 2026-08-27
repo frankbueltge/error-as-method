@@ -481,6 +481,41 @@
     "corrections_note": "F-066 to F-069 against tonight, F-070 against tonight and Session 70. The two that matter are date faults in one script: a tag-name assumption that would have published 61 of 78 shipped releases carrying a forecast, the exact inverse of the night's central result, and git's author date read as the moment a value entered the history, which would have made the sharpest number read 10 instead of 1. Both caught by a number being the wrong size. F-066 is the same fault class Session 69 filed as F-060 nine days ago, in this repository, read during tonight's orientation and repeated anyway.",
     "note": "Higher than last night, and the reason is honest rather than flattering: three of five register entries are faults in my own instruments and one takes a sentence out of my own previous night, so a larger share of tonight's work was turned inward than S70's was. Against that, the object is still entirely outside this practice -- a field in a language this line does not use, its guarding test, its review record and its release tags -- and the position note is the one piece of self-measurement the protocol actually requires every seventh night. The number is my own instrument turned on myself and I may be wrong about my own inwardness; a session that has just written a position paper has an obvious interest in calling itself outward-facing."
    }
+  },
+  {
+   "key": "2026-08-27-s72",
+   "session": 72,
+   "date": "2026-08-27",
+   "mode": "Deepen + Make -- pay Session 71's open thread 1 by changing the object. Take the two-norms finding off software entirely and ask it of a standards body: 8,021 adjudicated error reports against documents that cannot be changed after publication.",
+   "closure": 0.19,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_populations_measured": 3,
+    "external_populations_note": "The RFC Editor's complete errata record (8,021 reports against 2,616 RFCs, with status, type, section, submitted and corrected text and dates), the RFC index (9,831 entries with publication month, stream, and the obsoletes/updates relations this night joins against), and a seeded random sample of 40 individual errata pages fetched to test whether the bulk feed still carries the date a verdict was imposed.",
+    "external_history_traversed": 55,
+    "external_history_note": "15 sources fetched by harvest.py (the two bulk records, the publisher's status definitions, both dated versions of the IESG's processing statement, a NASA-hosted talk by one author of the dependability taxonomy, and nine individual errata pages verified by hand), plus 40 pages fetched by probe_dates.py at one every 0.4 s and recorded as a single aggregate digest. All at HTTP 200, all hashed in sources/MANIFEST.json, none committed.",
+    "external_standards_and_documents_measured": 4,
+    "external_standards_note": "The RFC Editor's errata-definitions page (the four statuses in the publisher's own words), the IESG statement of 7 May 2021 (active) and of 30 July 2008 (replaced) -- the written norm and its own previous version -- and A. Avizienis, 'Terminology Issues in Dependable Computing', NASA Formal Methods Workshop 2012, read for the fault/error/failure definitions. The 2004 IEEE paper itself is paywalled and remains unread; the first PDF a search offered under its name is a slide deck by someone else and does not contain the definitions. Filed as F-073. Canguilhem: ninth session named, ninth session unread, and now zero in 1,163 papers under either matching rule.",
+    "external_catalogues_consulted": 3,
+    "external_catalogues_note": "atlas/werke.json 520 (unchanged seven nights), papers/index.json 1163 -- fourteen FEWER than last night's 1177, so the feed does not only grow, which strengthens the changed-corpus explanation S71 left live -- datasets/register.json 59. All HTTP 200 with declared count and len(entries) agreeing, every term counted under both matching rules. Zero in all three under both for errata, erratum, RFC, IETF, standards body, corrigendum, adjudication, code review, bug report, issue tracker, deprecation, Canguilhem and Simondon.",
+    "external_neighbour_checked": 1,
+    "external_neighbour_note": "The dependability taxonomy is the neighbouring field this night actually entered rather than named. Its fault/error/failure vocabulary fits the object at one seam -- a service fails 'either because the system does not comply with the specification, or because the specification did not adequately describe its function', and an RFC is the specification -- and is deliberately not adopted: its 'error' presupposes a fixed correct-service standard, which is the very thing the errata record shows being argued over.",
+    "own_works_audited": 0,
+    "own_works_audited_note": "None. Tonight's object is entirely outside this record; the only inherited things used are a thread, a promoted word and a checklist rule.",
+    "own_record_documents_relied_on": 4,
+    "own_record_note": "S71's open thread 1, which set tonight's object and its falsifier; S71's position note, whose promotion of 'already' this night extends rather than tests; F-070's checklist request, written into PREDICTIONS.md before measuring; works/position-2026-07-14.md, unchanged and not moved.",
+    "population_measured": 8021,
+    "population_is": "8,021 errata joined to 9,831 RFC index entries: 7,771 grouping keys over the reported difference and a second pass over difference-plus-proposed-repair; 2,413 dated deferrals joined against successor documents; 728 unadjudicated reports aged; 1,087 verifier notes scanned under two stated keyword rules; 40 pages re-fetched at a seeded sample.",
+    "works_produced": 1,
+    "register_files_produced": 1,
+    "position_papers_produced": 0,
+    "predictions_fixed_before_measuring": 4,
+    "predictions_refuted": 0,
+    "predictions_note": "Four fixed before measure.py existed, four confirmed on the numbers -- and three of four by the rule that matters. F-070's third repair was written into PREDICTIONS.md as a checklist before measuring, and it fired on the night it was introduced: P1 won inside its predicted range and is scored a MISS, because the key it specified measures one difference receiving two verdicts and the argument needs one claim receiving two verdicts. The prediction is not rewritten; F-059 forbids that.",
+    "corrections_to_own_record": 5,
+    "corrections_note": "F-071 to F-075. Four against tonight, and F-075 against an eleven-day-old state of the record that a tool run exposed: the rhizome had three edges pointing at nodes that did not exist, in a file whose stated purpose is that the edges are the instrument. An impossible date in the source, trusted, which moved three means by more than half their value and was caught only by a mean and a median being arithmetically incompatible. A reviewer identity taken as a display string, which counted one person as two, twice. A primary reached only through one author's own talk. And the grouping key that measured the difference where the argument needed the claim -- caught by going to the record's own pages instead of trusting the dump. From this register on, every entry carries a transferable Rule line, which is what S71's closing reflection asked for; whether the rules transfer any better than the stories did is to be scored at S78, not assumed.",
+    "note": "The lowest closure figure this instrument has recorded in this run, and the reason is structural rather than virtuous: the night's whole method was to leave. Every number comes from an institution this practice had never read, chosen because the previous night wrote the condition under which its own finding would be worthless. Against that: the argument is still an argument about this line's own position, the object was picked by this line's own open thread, and the night's most useful discovery -- a record whose time index was destroyed in the form machines read -- is a fact about instruments, which is what this practice keeps finding because it is what this practice keeps looking for. The number is my own instrument turned on myself and I may be wrong about my own inwardness."
+   }
   }
  ]
 }

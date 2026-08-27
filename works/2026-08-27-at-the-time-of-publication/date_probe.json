@@ -1,0 +1,374 @@
+{
+ "pool_size": 4939,
+ "sampled": 40,
+ "seed": 72,
+ "page_carries_a_different_date": 29,
+ "page_repeats_the_migration_date": 0,
+ "page_shows_no_verdict_date": 11,
+ "median_years_lost": 7.7,
+ "aggregate_sha256_over_sorted_page_digests": "92debe5fdb6106008c27ee2812081c59202e9c592a2c48e7f98cbd96574cfaa3",
+ "rows": [
+  {
+   "id": "511",
+   "doc": "RFC2046",
+   "http": 200,
+   "status": "Verified",
+   "dump_update_date": "2019-09-10",
+   "page_label": "Verified",
+   "page_date": "2009-08-29"
+  },
+  {
+   "id": "5692",
+   "doc": "RFC2047",
+   "http": 200,
+   "status": "Held for Document Update",
+   "dump_update_date": "2019-09-10",
+   "page_label": "Held for Document Update",
+   "page_date": "2019-04-30"
+  },
+  {
+   "id": "1289",
+   "doc": "RFC4996",
+   "http": 200,
+   "status": "Rejected",
+   "dump_update_date": "2019-09-10",
+   "page_label": "Rejected",
+   "page_date": "2009-09-07"
+  },
+  {
+   "id": "5760",
+   "doc": "RFC6244",
+   "http": 200,
+   "status": "Verified",
+   "dump_update_date": "2019-09-10",
+   "page_label": "Verified",
+   "page_date": "2019-07-09"
+  },
+  {
+   "id": "4836",
+   "doc": "RFC2812",
+   "http": 200,
+   "status": "Verified",
+   "dump_update_date": "2019-09-10",
+   "page_label": "Verified",
+   "page_date": "2019-04-30"
+  },
+  {
+   "id": "2941",
+   "doc": "RFC5440",
+   "http": 200,
+   "status": "Verified",
+   "dump_update_date": "2019-09-10",
+   "page_label": "Verified",
+   "page_date": "2011-08-19"
+  },
+  {
+   "id": "2152",
+   "doc": "RFC5830",
+   "http": 200,
+   "status": "Verified",
+   "dump_update_date": "2019-09-10",
+   "page_label": "Verified",
+   "page_date": "2013-03-12"
+  },
+  {
+   "id": "5786",
+   "doc": "RFC8478",
+   "http": 200,
+   "status": "Held for Document Update",
+   "dump_update_date": "2019-09-10",
+   "page_label": "Held for Document Update",
+   "page_date": "2019-07-18"
+  },
+  {
+   "id": "991",
+   "doc": "RFC2812",
+   "http": 200,
+   "status": "Held for Document Update",
+   "dump_update_date": "2019-09-10",
+   "page_label": "Held for Document Update",
+   "page_date": "2010-06-24"
+  },
+  {
+   "id": "2773",
+   "doc": "RFC6090",
+   "http": 200,
+   "status": "Held for Document Update",
+   "dump_update_date": "2019-09-10",
+   "page_label": null,
+   "page_date": null
+  },
+  {
+   "id": "1600",
+   "doc": "RFC5347",
+   "http": 200,
+   "status": "Held for Document Update",
+   "dump_update_date": "2019-09-10",
+   "page_label": null,
+   "page_date": null
+  },
+  {
+   "id": "2976",
+   "doc": "RFC3289",
+   "http": 200,
+   "status": "Held for Document Update",
+   "dump_update_date": "2019-09-10",
+   "page_label": null,
+   "page_date": null
+  },
+  {
+   "id": "975",
+   "doc": "RFC4230",
+   "http": 200,
+   "status": "Verified",
+   "dump_update_date": "2019-09-10",
+   "page_label": "Verified",
+   "page_date": "2007-11-02"
+  },
+  {
+   "id": "143",
+   "doc": "RFC4285",
+   "http": 200,
+   "status": "Held for Document Update",
+   "dump_update_date": "2019-09-10",
+   "page_label": null,
+   "page_date": null
+  },
+  {
+   "id": "1540",
+   "doc": "RFC5301",
+   "http": 200,
+   "status": "Rejected",
+   "dump_update_date": "2019-09-10",
+   "page_label": "Rejected",
+   "page_date": "2011-01-28"
+  },
+  {
+   "id": "3631",
+   "doc": "RFC6874",
+   "http": 200,
+   "status": "Rejected",
+   "dump_update_date": "2019-09-10",
+   "page_label": "Rejected",
+   "page_date": "2013-05-23"
+  },
+  {
+   "id": "3111",
+   "doc": "RFC4447",
+   "http": 200,
+   "status": "Rejected",
+   "dump_update_date": "2019-09-10",
+   "page_label": "Rejected",
+   "page_date": "2012-02-07"
+  },
+  {
+   "id": "3521",
+   "doc": "RFC4293",
+   "http": 200,
+   "status": "Verified",
+   "dump_update_date": "2019-09-10",
+   "page_label": "Verified",
+   "page_date": "2013-03-16"
+  },
+  {
+   "id": "465",
+   "doc": "RFC2268",
+   "http": 200,
+   "status": "Verified",
+   "dump_update_date": "2019-09-10",
+   "page_label": null,
+   "page_date": null
+  },
+  {
+   "id": "2060",
+   "doc": "RFC5008",
+   "http": 200,
+   "status": "Verified",
+   "dump_update_date": "2019-09-10",
+   "page_label": "Verified",
+   "page_date": "2010-04-08"
+  },
+  {
+   "id": "659",
+   "doc": "RFC2740",
+   "http": 200,
+   "status": "Verified",
+   "dump_update_date": "2019-09-10",
+   "page_label": null,
+   "page_date": null
+  },
+  {
+   "id": "4111",
+   "doc": "RFC4583",
+   "http": 200,
+   "status": "Rejected",
+   "dump_update_date": "2019-09-10",
+   "page_label": "Rejected",
+   "page_date": "2014-09-21"
+  },
+  {
+   "id": "2407",
+   "doc": "RFC4226",
+   "http": 200,
+   "status": "Held for Document Update",
+   "dump_update_date": "2019-09-10",
+   "page_label": "Held for Document Update",
+   "page_date": "2010-07-30"
+  },
+  {
+   "id": "79",
+   "doc": "RFC4483",
+   "http": 200,
+   "status": "Held for Document Update",
+   "dump_update_date": "2019-09-10",
+   "page_label": null,
+   "page_date": null
+  },
+  {
+   "id": "3296",
+   "doc": "RFC6055",
+   "http": 200,
+   "status": "Held for Document Update",
+   "dump_update_date": "2019-09-10",
+   "page_label": null,
+   "page_date": null
+  },
+  {
+   "id": "1878",
+   "doc": "RFC5730",
+   "http": 200,
+   "status": "Verified",
+   "dump_update_date": "2019-09-10",
+   "page_label": "Verified",
+   "page_date": "2009-09-11"
+  },
+  {
+   "id": "2543",
+   "doc": "RFC5907",
+   "http": 200,
+   "status": "Held for Document Update",
+   "dump_update_date": "2019-09-10",
+   "page_label": null,
+   "page_date": null
+  },
+  {
+   "id": "3667",
+   "doc": "RFC5496",
+   "http": 200,
+   "status": "Held for Document Update",
+   "dump_update_date": "2019-09-10",
+   "page_label": "Held for Document Update",
+   "page_date": "2013-09-17"
+  },
+  {
+   "id": "2916",
+   "doc": "RFC6196",
+   "http": 200,
+   "status": "Held for Document Update",
+   "dump_update_date": "2019-09-10",
+   "page_label": null,
+   "page_date": null
+  },
+  {
+   "id": "1954",
+   "doc": "RFC4975",
+   "http": 200,
+   "status": "Verified",
+   "dump_update_date": "2019-09-10",
+   "page_label": "Verified",
+   "page_date": "2010-10-28"
+  },
+  {
+   "id": "2931",
+   "doc": "RFC3161",
+   "http": 200,
+   "status": "Verified",
+   "dump_update_date": "2019-09-10",
+   "page_label": "Verified",
+   "page_date": "2011-11-12"
+  },
+  {
+   "id": "4489",
+   "doc": "RFC2308",
+   "http": 200,
+   "status": "Verified",
+   "dump_update_date": "2019-09-10",
+   "page_label": "Verified",
+   "page_date": "2015-10-14"
+  },
+  {
+   "id": "1729",
+   "doc": "RFC5008",
+   "http": 200,
+   "status": "Verified",
+   "dump_update_date": "2019-09-10",
+   "page_label": "Verified",
+   "page_date": "2010-04-08"
+  },
+  {
+   "id": "2790",
+   "doc": "RFC4696",
+   "http": 200,
+   "status": "Verified",
+   "dump_update_date": "2019-09-10",
+   "page_label": "Verified",
+   "page_date": "2011-04-30"
+  },
+  {
+   "id": "5674",
+   "doc": "RFC5036",
+   "http": 200,
+   "status": "Held for Document Update",
+   "dump_update_date": "2019-09-10",
+   "page_label": "Held for Document Update",
+   "page_date": "2019-05-30"
+  },
+  {
+   "id": "4037",
+   "doc": "RFC2797",
+   "http": 200,
+   "status": "Verified",
+   "dump_update_date": "2019-09-10",
+   "page_label": "Verified",
+   "page_date": "2014-07-03"
+  },
+  {
+   "id": "3040",
+   "doc": "RFC959",
+   "http": 200,
+   "status": "Rejected",
+   "dump_update_date": "2019-09-10",
+   "page_label": "Rejected",
+   "page_date": "2011-12-29"
+  },
+  {
+   "id": "2086",
+   "doc": "RFC5784",
+   "http": 200,
+   "status": "Verified",
+   "dump_update_date": "2019-09-10",
+   "page_label": "Verified",
+   "page_date": "2010-03-23"
+  },
+  {
+   "id": "3193",
+   "doc": "RFC3260",
+   "http": 200,
+   "status": "Held for Document Update",
+   "dump_update_date": "2019-09-10",
+   "page_label": null,
+   "page_date": null
+  },
+  {
+   "id": "5248",
+   "doc": "RFC7841",
+   "http": 200,
+   "status": "Verified",
+   "dump_update_date": "2019-09-10",
+   "page_label": "Verified",
+   "page_date": "2018-02-02"
+  }
+ ],
+ "max_years_lost": 11.86,
+ "min_years_lost": 0.15
+}
