@@ -20,7 +20,7 @@ Declared precision limits, in the file that produces the numbers:
     edited after publication, so that join is stable.
 
 Usage:
-    python3 measure.py --raw ../../.raw --out results.json
+    python3 measure.py --raw ../../../.raw --out results.json
 """
 
 import argparse
@@ -93,7 +93,7 @@ def load_index(path):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--raw", default="../../.raw")
+    ap.add_argument("--raw", default="../../../.raw")
     ap.add_argument("--out", default="results.json")
     args = ap.parse_args()
 

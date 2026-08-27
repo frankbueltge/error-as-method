@@ -12,7 +12,7 @@ Output: date_probe.json — errata id, the dump's date, the date the page shows,
 whether they agree. Derived metadata only; no third-party prose is written out.
 
 Usage:
-    python3 probe_dates.py --raw ../../.raw --n 40 --seed 72
+    python3 probe_dates.py --raw ../../../.raw --n 40 --seed 72
 """
 
 import argparse
@@ -43,7 +43,7 @@ def text_of(b):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--raw", default="../../.raw")
+    ap.add_argument("--raw", default="../../../.raw")
     ap.add_argument("--n", type=int, default=40)
     ap.add_argument("--seed", type=int, default=72)
     args = ap.parse_args()

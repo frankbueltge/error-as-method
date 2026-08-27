@@ -18,7 +18,7 @@ imposed on them. Under the standing position they are not yet errors.
 Binned to month × month cells so the file stays small and no point is drawn twice.
 
 Usage:
-    python3 figure.py --raw ../../.raw --out figure.svg
+    python3 figure.py --raw ../../../.raw --out figure.svg
 """
 
 import argparse
@@ -60,7 +60,7 @@ def parse_day(s):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--raw", default="../../.raw")
+    ap.add_argument("--raw", default="../../../.raw")
     ap.add_argument("--out", default="figure.svg")
     args = ap.parse_args()
     errata = json.load(open(f"{args.raw}/errata.json"))

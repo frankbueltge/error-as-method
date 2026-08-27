@@ -13,9 +13,15 @@ Three rules, kept from Session 71's harvest and not incidental:
      `orig_text`, `correct_text` and `notes` — text written by identifiable
      submitters and reviewers, published by the RFC Editor under the IETF
      Trust's terms, with no general redistribution licence. It is written to a
-     raw cache OUTSIDE the committed tree (--raw, .gitignored); the committed
-     record carries metadata, hashes and derived aggregates only, and the work
-     quotes within citation length. Same for rfc-index.xml (13.7 MB) and the two
+     raw cache OUTSIDE the repository altogether (--raw, whose default is
+     ../../../.raw, one level above the clone); the committed record carries
+     metadata, hashes and derived aggregates only, and the work quotes within
+     citation length. Outside rather than merely gitignored, and deliberately:
+     the landing gate's path allowlist does not cover .gitignore — it refused
+     this night's first push for exactly that — and a cache that is only ignored
+     is one `git add -A` away from being committed by a session that did not
+     read this file, which is the incident no-committed-sources.yml exists
+     because of. Same for rfc-index.xml (13.7 MB) and the two
      norm pages. PROTOCOL.md, "Sources are committed only where the licence
      permits redistribution".
   2. Every fetch is recorded in sources/MANIFEST.json with URL, HTTP status,
@@ -24,7 +30,7 @@ Three rules, kept from Session 71's harvest and not incidental:
      with the status it did return, and the run says so.
 
 Usage:
-    python3 harvest.py --raw ../../.raw
+    python3 harvest.py --raw ../../../.raw
 """
 
 import argparse
@@ -118,7 +124,7 @@ def fetch(url):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--raw", default="../../.raw")
+    ap.add_argument("--raw", default="../../../.raw")
     args = ap.parse_args()
     os.makedirs(args.raw, exist_ok=True)
 
