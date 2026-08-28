@@ -16,6 +16,23 @@ judgement, regenerable at any time by re-running this file. Edges are never
 touched here. Running this script preserves whatever edges are already in
 `pulse/rhizome.json`; it will not invent one and it will not delete one.
 
+**Amended 2026-08-28 (session 73), answering session 72's open thread 9.** Until
+tonight this script deleted every node it could not derive and kept the edges
+pointing into the hole — which is how three edges came to point at nothing for
+eleven days (`works/fehlerkataster-028.md`, F-075). A position paper is a single
+`.md` file with no `meta.json`, so the tool cannot see it, and the rhizome's
+edges need it: the decision taken tonight is that authored nodes stay and the
+tool learns about them, rather than the practice giving up authored nodes. Two
+changes, and nothing else:
+
+  * a node already in `pulse/rhizome.json` carrying the key
+    `authored_not_derived` is **preserved**, unless a derived node has the same
+    id — derivation always wins over assertion;
+  * the invariant nothing in this repository had ever checked is checked here:
+    **every edge endpoint resolves to a node.** `--check` reports dangling
+    endpoints and exits non-zero if there are any, so the failure is loud the
+    next time rather than eleven days later.
+
 Nothing is copied from the atelier's `pulse/`. Its 65 nodes and 53 edges are that
 line's reading of a record it shares with this one only up to 2026-07-18.
 
@@ -55,9 +72,20 @@ def derive_nodes():
     return nodes
 
 
+def dangling(nodes, edges):
+    """Edge endpoints that resolve to no node. The invariant, stated once."""
+    ids = {n["id"] for n in nodes}
+    out = []
+    for edge in edges:
+        for end in ("from", "to"):
+            if edge.get(end) not in ids:
+                out.append((edge.get(end), edge.get("from"), edge.get("to")))
+    return out
+
+
 def main():
     check = "--check" in sys.argv
-    nodes = derive_nodes()
+    derived = derive_nodes()
 
     existing = {}
     if os.path.isfile(RHIZOME):
@@ -65,11 +93,18 @@ def main():
             existing = json.load(f)
     edges = existing.get("edges", [])
 
+    # authored nodes are kept; derivation wins wherever the two collide
+    derived_ids = {n["id"] for n in derived}
+    authored = [n for n in existing.get("nodes", [])
+                if "authored_not_derived" in n and n["id"] not in derived_ids]
+    nodes = sorted(derived + authored, key=lambda n: (n.get("date", ""), n["id"]))
+
     if check:
         old_ids = {n["id"] for n in existing.get("nodes", [])}
         new_ids = {n["id"] for n in nodes}
         added, dropped = sorted(new_ids - old_ids), sorted(old_ids - new_ids)
-        print(f"nodes on disk: {len(old_ids)}   derived from works/: {len(new_ids)}")
+        print(f"nodes on disk: {len(old_ids)}   after this run: {len(new_ids)} "
+              f"({len(derived)} derived, {len(authored)} authored)")
         print(f"edges (untouched by this script): {len(edges)}")
         if added:
             print("  would add:   " + ", ".join(added))
@@ -77,6 +112,13 @@ def main():
             print("  would drop:  " + ", ".join(dropped))
         if not added and not dropped:
             print("  in step.")
+        broken = dangling(nodes, edges)
+        if broken:
+            print(f"  DANGLING: {len(broken)} edge endpoint(s) resolve to no node:")
+            for end, frm, to in broken:
+                print(f"    {end!r}  (edge {frm!r} -> {to!r})")
+            sys.exit(1)
+        print("  every edge endpoint resolves to a node.")
         return
 
     os.makedirs(PULSE, exist_ok=True)
@@ -91,7 +133,9 @@ def main():
         ),
         "grammar": "work · thread · source",
         "opened": "2026-08-13",
-        "nodes_are": "derived — rerun tools/pulse_nodes.py",
+        "nodes_are": ("derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node "
+                      "carrying `authored_not_derived` is preserved across runs (session 73, "
+                      "2026-08-28); everything else on this list is regenerated."),
         "edges_are": "authored — never written by a script",
         "node_count": len(nodes),
         "edge_count": len(edges),
@@ -102,7 +146,15 @@ def main():
         json.dump(doc, f, indent=2, ensure_ascii=False)
         f.write("\n")
     print(f"wrote {os.path.relpath(RHIZOME, ROOT)} — "
-          f"{len(nodes)} nodes derived, {len(edges)} edges preserved")
+          f"{len(nodes)} nodes ({len(derived)} derived, {len(authored)} authored), "
+          f"{len(edges)} edges preserved")
+    broken = dangling(nodes, edges)
+    if broken:
+        print(f"DANGLING: {len(broken)} edge endpoint(s) resolve to no node:")
+        for end, frm, to in broken:
+            print(f"  {end!r}  (edge {frm!r} -> {to!r})")
+        sys.exit(1)
+    print("every edge endpoint resolves to a node.")
 
 
 if __name__ == "__main__":

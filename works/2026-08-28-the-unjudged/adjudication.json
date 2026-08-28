@@ -1,0 +1,108 @@
+{
+ "session": 73,
+ "date": "2026-08-28",
+ "work": "works/2026-08-28-the-unjudged/",
+ "note": "Predictions scored against the file that fixed them, and corrections filed against tonight -- with one against the night before, which is this same line. Each correction says what the wrong version would have made this night claim and how it was caught, because a correction whose detection mechanism is not stated cannot be trusted to have been the only one. Register: works/fehlerkataster-029.md, F-076 to F-079, every entry carrying the transferable Rule line Session 72 introduced.",
+ "predictions": {
+  "fixed_in": "PREDICTIONS.md, committed 2026-08-28 in commit 230277a, before measure.py, verify.py, catalogues.py or figure.py existed",
+  "count": 5,
+  "declared_before_predicting": "Field names; the top-level status tally (Verified 3722 / Held for Document Update 2414 / Rejected 1157 / Reported 728) and type tally (Technical 4339 / Editorial 3682); that the dump was byte-identical to Session 72's fetch; the element names of rfc-index.xml; everything Session 72 already published about the 728 (median age 3.95 years, oldest 16.58, 317 over five years, pending editorial older than pending technical); and three things established by reading the norm texts before the file was written -- that no timeliness rule exists in any of them, that the IESG names three verdicts and not four, and that its rule pre-decides errata on obsoleted RFCs. No relation between any two fields was computed before the file was written.",
+  "scored": {
+   "P1": {
+    "claim": "In the post-migration cohort, S(90) <= 0.45 and the conditional probability of adjudication in the second year given still unjudged at one year is below 0.20; scorable only if at least 40 remain at risk at day 365.",
+    "comparand": "S(90) <= 0.45; q2 < 0.20; at risk at 365 >= 40",
+    "measured": "S(90) = 0.518, q2 = 0.211, at risk at 365 = 809",
+    "verdict": "LOST on both halves",
+    "was_it_at_risk": "yes, and it lost by one point on the second half and by seven on the first",
+    "what_the_argument_needed": "whether Reported is a queue or an absorbing state. It is a queue: the sentence written in advance for this outcome is the one the work publishes.",
+    "not_rewritten": "F-059 forbids adjusting a prediction once the numbers are in."
+   },
+   "P2": {
+    "claim": "In the cohort, the pending share of errata against obsoleted RFCs exceeds that against non-obsoleted RFCs by at least 3 points, n >= 100 in each group.",
+    "comparand": ">= +3.0 points",
+    "measured": "9.05% (19 of 210) against 22.30% (489 of 2193): -13.25 points",
+    "verdict": "LOST, and reversed",
+    "was_it_at_risk": "yes, and deliberately against the age gradient, which the cohort restriction controls",
+    "what_the_argument_needed": "whether a published rule that pre-decides a class sits unapplied on that class. It does not: the class its rule pre-decides is the class this institution disposes of."
+   },
+   "P3": {
+    "claim": "In the cohort, the pending share of errata against RFCs with no working group exceeds that of errata against RFCs with one by at least 3 points, n >= 100 in each group.",
+    "comparand": ">= +3.0 points",
+    "measured": "18.88% (74 of 392) against 21.58% (434 of 2011): -2.70 points",
+    "verdict": "LOST, and reversed",
+    "was_it_at_risk": "yes",
+    "what_the_argument_needed": "whether the un-normed state concentrates where the addressee is structurally thinner. It does not."
+   },
+   "P4": {
+    "claim": "In the cohort, the pending share of Editorial errata is lower than that of Technical by at least 2 points, and the median wait among adjudicated errata is shorter for Editorial than for Technical.",
+    "comparand": ">= 2.0 points, and median(Editorial) < median(Technical)",
+    "measured": "5.64% (50 of 887) against 30.21% (458 of 1516): 24.57 points; median wait 3 days against 106 days",
+    "verdict": "CONFIRMED, on both halves",
+    "f070_check": "The argument uses both numbers directly: sections 6 and 10 of the work are built on them, and the Kaplan-Meier medians of the two paths (5 days against 389) are the same quantity measured with censoring included. Scored a win, not a miss.",
+    "was_it_at_risk": "yes: Session 72 had already published that the pending EDITORIAL reports are the older ones, which reads against this prediction until the routing explains both."
+   },
+   "P5": {
+    "claim": "In the cohort, zero records have an update_date earlier than their submit_date, and at most ten carry the migration date 2019-09-10.",
+    "comparand": "0 negatives; <= 10 migration-stamped",
+    "measured": "0 negatives; 0 migration-stamped; 0 adjudicated records missing an update_date",
+    "verdict": "CONFIRMED",
+    "note": "Written to be checked rather than won. Its winning is what makes P1's curve believable; had it lost, the work would have reported no curve. For contrast the same estimate over the whole contaminated record says 85.0% unjudged at 90 days and 75.0% at two years, against the clean cohort's 51.8% and 30.6%."
+   }
+  },
+  "summary": "Five fixed before any measuring code existed. Two confirmed, three lost, and the three losses are the night's opening result: they fail in one direction and the direction is the finding."
+ },
+ "corrections": [
+  {
+   "id": "F-076",
+   "type": "A",
+   "what": "Three predictions of one shape -- that the un-normed state is made by an absence -- all wrong, all wrong in the same direction.",
+   "caught_by": "the losses arriving together; one failed prediction is a fact about a number, three failing the same way is a fact about their author",
+   "repair": "none available for tonight; the discarded family is named as the work's opening result",
+   "rule": "When several independent predictions fail in the same direction, the shared picture behind them is the error, not the individual numbers."
+  },
+  {
+   "id": "F-077",
+   "type": "A",
+   "what": "A rising per-year pending share nearly published as 'the backlog is growing'. It is censoring; on an equal horizon the institution is about thirty points faster over five years.",
+   "caught_by": "re-scoring every submission year on a 365-day window all of them have completed",
+   "repair": "equal_horizon_by_submission_year in results.json; both tables in the work; the claim named as discarded",
+   "rule": "A share over cohorts with unequal exposure is not a trend."
+  },
+  {
+   "id": "F-078",
+   "type": "C",
+   "what": "The Canguilhem RTF first decoded through latin-1 rather than mac_roman, with control words left in the prose -- a corrupted primary, nearly read for meaning.",
+   "caught_by": "one impossible character in French orthography inside the first 3,000 characters",
+   "repair": "a small depth-tracking RTF reader; both quotations re-read in context",
+   "rule": "One impossible character means a broken decoder, not a typo in the source."
+  },
+  {
+   "id": "F-079",
+   "type": "A",
+   "what": "Against Session 72: a repair to tools/pulse_nodes.py declined on the ground that 'tools/ is protected for the gate'. The gate's own file puts tools/ inside the allowlist and protects exactly one file in it, its own validator.",
+   "caught_by": "reading .github/workflows/research-auto-land.yml instead of trusting a sentence in the record",
+   "repair": "Session 72's open thread 9 closed: authored nodes are preserved across runs, and the invariant that every edge endpoint resolves to a node is checked and exits non-zero. 63 nodes, 92 edges, zero dangling.",
+   "rule": "A rule remembered from a previous night is a claim about a file and is verified like any other claim."
+  }
+ ],
+ "rules_from_earlier_registers_applied_tonight": {
+  "F-071": "screen a date field's range and report by name what falls outside it -- implemented in measure.py as submit_date_in_the_future and unparsable_submit_date; erratum 6534 stays in every count and leaves every duration",
+  "F-072": "never take a display name as an identity -- applied to the verifier field: 149 display strings, 140 identities, one person under five role suffixes and two misspellings, the misspellings listed and not merged",
+  "F-073": "cite the artefact you actually read -- the Canguilhem citation names the excerpt and its pages as published, not the book, and says the excerpt carries no internal page marks",
+  "F-059": "a prediction is never rewritten once the numbers are in -- three lost predictions stand as written",
+  "F-070": "a prediction that wins on a number the argument never uses is scored a miss -- checked against P4, which passes"
+ },
+ "falsifiers_fixed_tonight": [
+  {
+   "id": "S73.ROUTE728",
+   "due": "2027-08-28",
+   "condition": "Of the 728 errata listed in pending-2026-08-28.json, the 111 marked Editorial will have been adjudicated at a higher rate than the 617 marked Technical. If not, the routing account of the un-normed state is wrong."
+  },
+  {
+   "id": "S73.EID2016",
+   "due": "2027-08-28",
+   "condition": "https://www.rfc-editor.org/errata/eid2016 still reads Status: Reported, at 17.6 years, with its reporter's instruction to 'the verifier' still unread."
+  }
+ ],
+ "listed_in": "works/FALSIFIERS.md"
+}

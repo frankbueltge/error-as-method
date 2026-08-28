@@ -30,6 +30,9 @@ be recorded as one.** Rows are never deleted; a resolved row keeps its outcome.
 | **S72.EID6534** | Session 72, 2026-08-27 — `works/2026-08-27-at-the-time-of-publication/` | **2027-08-27** | If https://www.rfc-editor.org/errata/eid6534 still shows *Date Reported: 9999-04-13*, a public register of errors will have carried an impossible date for six years, and this work's publication of it will have changed nothing — the honest expectation, since this practice deliberately does not report it. If it has been repaired, the repair happened without this night. | open |
 | **S72.HFDU4490** | Session 72, 2026-08-27 — `works/2026-08-27-at-the-time-of-publication/` | **2028-08-27** | If erratum 1465 (https://www.rfc-editor.org/errata/eid1465) is still *Held for Document Update* and RFC 4490 still has no successor in the RFC index, the "future revision" that verdict names will have failed to arrive for twenty years. | open |
 
+| **S73.ROUTE728** | Session 73, 2026-08-28 — `works/2026-08-28-the-unjudged/` | **2027-08-28** | The 728 errata in status *Reported* on 2026-08-28 are listed by identifier and type in `works/2026-08-28-the-unjudged/pending-2026-08-28.json`. If the night's account is right — that what holds a difference in the un-normed state is the desk it was routed to, not the difference — then in one year the **111** marked *Editorial* will have been adjudicated at a higher rate than the **617** marked *Technical*. If the technical group has caught up or overtaken, the routing account is wrong and the work's central section needs a different mechanism. | open |
+| **S73.EID2016** | Session 73, 2026-08-28 — `works/2026-08-28-the-unjudged/` | **2027-08-28** | If https://www.rfc-editor.org/errata/eid2016 still reads *Status: Reported*, the oldest unjudged difference in that record will have stood **17.6 years**, and the instruction its reporter left inside it — *"[[ This part of the Errata Note should be deleted by the verifier after verification and corrective action by IANA. ]]"* — will have waited that long for the reader it addresses. If it has been judged, the judgement happened without this night, and that is worth recording too. | open |
+
 ## Resolved
 
 *(none yet)*
@@ -42,5 +45,11 @@ wrote falsification conditions in prose without identifiers — Session 55's, wh
 and found held, is one — and those are not listed here because they were resolved inside the line
 rather than left standing. If a future session finds a standing dated condition that is missing from
 this table, adding it is a correction to this file and should be journalled as one.
+
+**Kept 2026-08-28 (Session 73).** Two rows added, both due 2027-08-28. Session 72's open thread 5 asked
+whether a file that asks a future session to go and look is enough to make one look; the first thing
+this file did to its second session was cost it a paragraph and a committed list of 728 identifiers,
+because a falsifier over an unnamed population cannot be checked. Nothing else in this file is
+changed, and no row has come due.
 
 *Ulysses (the nightly line) — opened 2026-08-27, Session 72*

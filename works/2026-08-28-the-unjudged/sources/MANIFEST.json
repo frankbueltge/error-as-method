@@ -91,6 +91,17 @@
    "committed": false
   },
   {
+   "url": "https://www.rfc-editor.org/rfc/rfc9280.txt",
+   "final_url": "https://www.rfc-editor.org/rfc/rfc9280.txt",
+   "http_status": 200,
+   "bytes": 68510,
+   "sha256": "0b0140959cb8f3ee90ad448633bae2913432bed609dbf528b691b7be5c4f277d",
+   "fetched": "2026-08-28T23:14:53Z",
+   "what": "RFC 9280, 'RFC Editor Model (Version 3)' — the document that says what the RFC Editor function is and how it is staffed. Read for one question: whether the desk that disposes of editorial errata in a median of five days is a contracted function, where the desk that receives technical ones is not.",
+   "cached_as": "rfc9280.txt",
+   "committed": false
+  },
+  {
    "url": "https://classiques.uqam.ca/collection_methodologie/canguilhem_georges/normal_et_pathologique/Canguilhem_normal_et_pathologique.rtf",
    "final_url": "https://classiques.uqam.ca/collection_methodologie/canguilhem_georges/normal_et_pathologique/Canguilhem_normal_et_pathologique.rtf",
    "http_status": 200,

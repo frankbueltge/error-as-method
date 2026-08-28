@@ -1,0 +1,4375 @@
+{
+"note": "The 728 errata in status Reported on 2026-08-28, by identifier. Falsifier S73.ROUTE728 (due 2027-08-28) is checked against this list: re-fetch errata.json, look up each id, and compare the share adjudicated in the editorial group with the share in the technical group.",
+"observation_date": "2026-08-28",
+"n": 728,
+"errata": [
+{
+"errata_id": "2016",
+"doc": "RFC5665",
+"type": "Technical",
+"submit_date": "2010-01-26"
+},
+{
+"errata_id": "2017",
+"doc": "RFC5664",
+"type": "Technical",
+"submit_date": "2010-01-26"
+},
+{
+"errata_id": "2018",
+"doc": "RFC5664",
+"type": "Technical",
+"submit_date": "2010-01-26"
+},
+{
+"errata_id": "2019",
+"doc": "RFC5664",
+"type": "Editorial",
+"submit_date": "2010-01-26"
+},
+{
+"errata_id": "3515",
+"doc": "RFC5878",
+"type": "Technical",
+"submit_date": "2013-03-08"
+},
+{
+"errata_id": "3730",
+"doc": "RFC6287",
+"type": "Technical",
+"submit_date": "2013-09-17"
+},
+{
+"errata_id": "3755",
+"doc": "RFC1818",
+"type": "Editorial",
+"submit_date": "2013-10-16"
+},
+{
+"errata_id": "3811",
+"doc": "RFC6030",
+"type": "Technical",
+"submit_date": "2013-11-25"
+},
+{
+"errata_id": "3820",
+"doc": "RFC4556",
+"type": "Editorial",
+"submit_date": "2013-12-05"
+},
+{
+"errata_id": "3899",
+"doc": "RFC6287",
+"type": "Technical",
+"submit_date": "2014-02-24"
+},
+{
+"errata_id": "3917",
+"doc": "RFC6347",
+"type": "Technical",
+"submit_date": "2014-03-14"
+},
+{
+"errata_id": "3987",
+"doc": "RFC6655",
+"type": "Editorial",
+"submit_date": "2014-05-14"
+},
+{
+"errata_id": "3990",
+"doc": "RFC6655",
+"type": "Editorial",
+"submit_date": "2014-05-16"
+},
+{
+"errata_id": "4103",
+"doc": "RFC6347",
+"type": "Technical",
+"submit_date": "2014-09-08"
+},
+{
+"errata_id": "4104",
+"doc": "RFC6347",
+"type": "Editorial",
+"submit_date": "2014-09-08"
+},
+{
+"errata_id": "4105",
+"doc": "RFC6347",
+"type": "Editorial",
+"submit_date": "2014-09-08"
+},
+{
+"errata_id": "4112",
+"doc": "RFC6287",
+"type": "Editorial",
+"submit_date": "2014-09-16"
+},
+{
+"errata_id": "4113",
+"doc": "RFC6287",
+"type": "Editorial",
+"submit_date": "2014-09-16"
+},
+{
+"errata_id": "4114",
+"doc": "RFC6287",
+"type": "Technical",
+"submit_date": "2014-09-16"
+},
+{
+"errata_id": "4115",
+"doc": "RFC6287",
+"type": "Editorial",
+"submit_date": "2014-09-16"
+},
+{
+"errata_id": "4116",
+"doc": "RFC6287",
+"type": "Editorial",
+"submit_date": "2014-09-16"
+},
+{
+"errata_id": "4117",
+"doc": "RFC6287",
+"type": "Editorial",
+"submit_date": "2014-09-16"
+},
+{
+"errata_id": "4204",
+"doc": "RFC6962",
+"type": "Technical",
+"submit_date": "2014-12-18"
+},
+{
+"errata_id": "4228",
+"doc": "RFC6120",
+"type": "Technical",
+"submit_date": "2015-01-10"
+},
+{
+"errata_id": "4237",
+"doc": "RFC4235",
+"type": "Technical",
+"submit_date": "2015-01-19"
+},
+{
+"errata_id": "4249",
+"doc": "RFC6238",
+"type": "Technical",
+"submit_date": "2015-01-30"
+},
+{
+"errata_id": "4254",
+"doc": "RFC7027",
+"type": "Editorial",
+"submit_date": "2015-02-03"
+},
+{
+"errata_id": "4266",
+"doc": "RFC4458",
+"type": "Technical",
+"submit_date": "2015-02-09"
+},
+{
+"errata_id": "4273",
+"doc": "RFC5751",
+"type": "Technical",
+"submit_date": "2015-02-18"
+},
+{
+"errata_id": "4286",
+"doc": "RFC6962",
+"type": "Editorial",
+"submit_date": "2015-03-04"
+},
+{
+"errata_id": "4326",
+"doc": "RFC6803",
+"type": "Technical",
+"submit_date": "2015-04-02"
+},
+{
+"errata_id": "4335",
+"doc": "RFC5091",
+"type": "Technical",
+"submit_date": "2015-04-13"
+},
+{
+"errata_id": "4337",
+"doc": "RFC6680",
+"type": "Technical",
+"submit_date": "2015-04-18"
+},
+{
+"errata_id": "4338",
+"doc": "RFC5116",
+"type": "Technical",
+"submit_date": "2015-04-19"
+},
+{
+"errata_id": "4345",
+"doc": "RFC7044",
+"type": "Editorial",
+"submit_date": "2015-04-22"
+},
+{
+"errata_id": "4374",
+"doc": "RFC6868",
+"type": "Technical",
+"submit_date": "2015-05-21"
+},
+{
+"errata_id": "4395",
+"doc": "RFC5705",
+"type": "Technical",
+"submit_date": "2015-06-16"
+},
+{
+"errata_id": "4401",
+"doc": "RFC6287",
+"type": "Editorial",
+"submit_date": "2015-06-25"
+},
+{
+"errata_id": "4418",
+"doc": "RFC5843",
+"type": "Technical",
+"submit_date": "2015-07-17"
+},
+{
+"errata_id": "4431",
+"doc": "RFC4918",
+"type": "Technical",
+"submit_date": "2015-08-02"
+},
+{
+"errata_id": "4435",
+"doc": "RFC4918",
+"type": "Technical",
+"submit_date": "2015-08-05"
+},
+{
+"errata_id": "4440",
+"doc": "RFC4918",
+"type": "Technical",
+"submit_date": "2015-08-09"
+},
+{
+"errata_id": "4447",
+"doc": "RFC7315",
+"type": "Editorial",
+"submit_date": "2015-08-17"
+},
+{
+"errata_id": "4448",
+"doc": "RFC7315",
+"type": "Editorial",
+"submit_date": "2015-08-17"
+},
+{
+"errata_id": "4468",
+"doc": "RFC5537",
+"type": "Technical",
+"submit_date": "2015-09-08"
+},
+{
+"errata_id": "4474",
+"doc": "RFC7315",
+"type": "Technical",
+"submit_date": "2015-09-14"
+},
+{
+"errata_id": "4530",
+"doc": "RFC6238",
+"type": "Technical",
+"submit_date": "2015-11-11"
+},
+{
+"errata_id": "4540",
+"doc": "RFC7315",
+"type": "Technical",
+"submit_date": "2015-11-20"
+},
+{
+"errata_id": "4545",
+"doc": "RFC5570",
+"type": "Editorial",
+"submit_date": "2015-11-24"
+},
+{
+"errata_id": "4568",
+"doc": "RFC7564",
+"type": "Technical",
+"submit_date": "2015-12-20"
+},
+{
+"errata_id": "4570",
+"doc": "RFC7700",
+"type": "Technical",
+"submit_date": "2015-12-23"
+},
+{
+"errata_id": "4592",
+"doc": "RFC7457",
+"type": "Technical",
+"submit_date": "2016-01-10"
+},
+{
+"errata_id": "4610",
+"doc": "RFC6352",
+"type": "Editorial",
+"submit_date": "2016-02-02"
+},
+{
+"errata_id": "4625",
+"doc": "RFC7240",
+"type": "Technical",
+"submit_date": "2016-02-24"
+},
+{
+"errata_id": "4639",
+"doc": "RFC7530",
+"type": "Technical",
+"submit_date": "2016-03-16"
+},
+{
+"errata_id": "4642",
+"doc": "RFC6347",
+"type": "Editorial",
+"submit_date": "2016-03-18"
+},
+{
+"errata_id": "4643",
+"doc": "RFC6030",
+"type": "Technical",
+"submit_date": "2016-03-19"
+},
+{
+"errata_id": "4650",
+"doc": "RFC5360",
+"type": "Technical",
+"submit_date": "2016-03-29"
+},
+{
+"errata_id": "4672",
+"doc": "RFC6455",
+"type": "Technical",
+"submit_date": "2016-04-18"
+},
+{
+"errata_id": "4679",
+"doc": "RFC6749",
+"type": "Technical",
+"submit_date": "2016-04-29"
+},
+{
+"errata_id": "4697",
+"doc": "RFC6749",
+"type": "Editorial",
+"submit_date": "2016-05-19"
+},
+{
+"errata_id": "4706",
+"doc": "RFC6068",
+"type": "Technical",
+"submit_date": "2016-06-08"
+},
+{
+"errata_id": "4708",
+"doc": "RFC5538",
+"type": "Technical",
+"submit_date": "2016-06-11"
+},
+{
+"errata_id": "4742",
+"doc": "RFC7530",
+"type": "Technical",
+"submit_date": "2016-07-15"
+},
+{
+"errata_id": "4744",
+"doc": "RFC4028",
+"type": "Technical",
+"submit_date": "2016-07-19"
+},
+{
+"errata_id": "4745",
+"doc": "RFC6749",
+"type": "Technical",
+"submit_date": "2016-07-20"
+},
+{
+"errata_id": "4749",
+"doc": "RFC6749",
+"type": "Technical",
+"submit_date": "2016-07-26"
+},
+{
+"errata_id": "4751",
+"doc": "RFC7208",
+"type": "Technical",
+"submit_date": "2016-07-27"
+},
+{
+"errata_id": "4800",
+"doc": "RFC5077",
+"type": "Technical",
+"submit_date": "2016-09-10"
+},
+{
+"errata_id": "4802",
+"doc": "RFC7520",
+"type": "Editorial",
+"submit_date": "2016-09-13"
+},
+{
+"errata_id": "4811",
+"doc": "RFC6415",
+"type": "Technical",
+"submit_date": "2016-09-26"
+},
+{
+"errata_id": "4813",
+"doc": "RFC7512",
+"type": "Technical",
+"submit_date": "2016-09-27"
+},
+{
+"errata_id": "4819",
+"doc": "RFC6749",
+"type": "Technical",
+"submit_date": "2016-10-05"
+},
+{
+"errata_id": "4822",
+"doc": "RFC7931",
+"type": "Technical",
+"submit_date": "2016-10-06"
+},
+{
+"errata_id": "4827",
+"doc": "RFC5502",
+"type": "Technical",
+"submit_date": "2016-10-11"
+},
+{
+"errata_id": "4828",
+"doc": "RFC7530",
+"type": "Editorial",
+"submit_date": "2016-10-11"
+},
+{
+"errata_id": "4832",
+"doc": "RFC7292",
+"type": "Editorial",
+"submit_date": "2016-10-15"
+},
+{
+"errata_id": "4833",
+"doc": "RFC5465",
+"type": "Technical",
+"submit_date": "2016-10-17"
+},
+{
+"errata_id": "4840",
+"doc": "RFC4791",
+"type": "Technical",
+"submit_date": "2016-10-25"
+},
+{
+"errata_id": "4841",
+"doc": "RFC7208",
+"type": "Editorial",
+"submit_date": "2016-10-25"
+},
+{
+"errata_id": "4859",
+"doc": "RFC7483",
+"type": "Editorial",
+"submit_date": "2016-11-10"
+},
+{
+"errata_id": "4862",
+"doc": "RFC7265",
+"type": "Editorial",
+"submit_date": "2016-11-10"
+},
+{
+"errata_id": "4881",
+"doc": "RFC6238",
+"type": "Editorial",
+"submit_date": "2016-12-07"
+},
+{
+"errata_id": "4882",
+"doc": "RFC6961",
+"type": "Technical",
+"submit_date": "2016-12-10"
+},
+{
+"errata_id": "4886",
+"doc": "RFC6228",
+"type": "Technical",
+"submit_date": "2016-12-13"
+},
+{
+"errata_id": "4889",
+"doc": "RFC4648",
+"type": "Technical",
+"submit_date": "2016-12-14"
+},
+{
+"errata_id": "4894",
+"doc": "RFC7457",
+"type": "Technical",
+"submit_date": "2016-12-22"
+},
+{
+"errata_id": "4897",
+"doc": "RFC7616",
+"type": "Technical",
+"submit_date": "2016-12-29"
+},
+{
+"errata_id": "4901",
+"doc": "RFC6350",
+"type": "Technical",
+"submit_date": "2017-01-10"
+},
+{
+"errata_id": "4919",
+"doc": "RFC6455",
+"type": "Technical",
+"submit_date": "2017-01-28"
+},
+{
+"errata_id": "4929",
+"doc": "RFC5954",
+"type": "Editorial",
+"submit_date": "2017-02-08"
+},
+{
+"errata_id": "4934",
+"doc": "RFC7530",
+"type": "Editorial",
+"submit_date": "2017-02-15"
+},
+{
+"errata_id": "4945",
+"doc": "RFC6749",
+"type": "Editorial",
+"submit_date": "2017-02-21"
+},
+{
+"errata_id": "4955",
+"doc": "RFC7240",
+"type": "Technical",
+"submit_date": "2017-03-01"
+},
+{
+"errata_id": "4965",
+"doc": "RFC3091",
+"type": "Technical",
+"submit_date": "2017-03-12"
+},
+{
+"errata_id": "4967",
+"doc": "RFC5424",
+"type": "Editorial",
+"submit_date": "2017-03-14"
+},
+{
+"errata_id": "4978",
+"doc": "RFC7644",
+"type": "Technical",
+"submit_date": "2017-03-24"
+},
+{
+"errata_id": "4982",
+"doc": "RFC7692",
+"type": "Technical",
+"submit_date": "2017-03-28"
+},
+{
+"errata_id": "4993",
+"doc": "RFC5155",
+"type": "Technical",
+"submit_date": "2017-04-13"
+},
+{
+"errata_id": "5008",
+"doc": "RFC5915",
+"type": "Technical",
+"submit_date": "2017-04-30"
+},
+{
+"errata_id": "5010",
+"doc": "RFC5424",
+"type": "Technical",
+"submit_date": "2017-05-05"
+},
+{
+"errata_id": "5014",
+"doc": "RFC7044",
+"type": "Technical",
+"submit_date": "2017-05-10"
+},
+{
+"errata_id": "5026",
+"doc": "RFC6347",
+"type": "Editorial",
+"submit_date": "2017-05-31"
+},
+{
+"errata_id": "5034",
+"doc": "RFC6030",
+"type": "Editorial",
+"submit_date": "2017-06-08"
+},
+{
+"errata_id": "5042",
+"doc": "RFC5939",
+"type": "Technical",
+"submit_date": "2017-06-16"
+},
+{
+"errata_id": "5050",
+"doc": "RFC7644",
+"type": "Technical",
+"submit_date": "2017-06-23"
+},
+{
+"errata_id": "5059",
+"doc": "RFC7635",
+"type": "Technical",
+"submit_date": "2017-07-05"
+},
+{
+"errata_id": "5060",
+"doc": "RFC7635",
+"type": "Technical",
+"submit_date": "2017-07-05"
+},
+{
+"errata_id": "5061",
+"doc": "RFC7848",
+"type": "Technical",
+"submit_date": "2017-07-06"
+},
+{
+"errata_id": "5062",
+"doc": "RFC7848",
+"type": "Editorial",
+"submit_date": "2017-07-06"
+},
+{
+"errata_id": "5067",
+"doc": "RFC7239",
+"type": "Technical",
+"submit_date": "2017-07-12"
+},
+{
+"errata_id": "5069",
+"doc": "RFC7946",
+"type": "Technical",
+"submit_date": "2017-07-14"
+},
+{
+"errata_id": "5081",
+"doc": "RFC5801",
+"type": "Technical",
+"submit_date": "2017-08-09"
+},
+{
+"errata_id": "5109",
+"doc": "RFC5282",
+"type": "Technical",
+"submit_date": "2017-09-08"
+},
+{
+"errata_id": "5119",
+"doc": "RFC4592",
+"type": "Technical",
+"submit_date": "2017-09-21"
+},
+{
+"errata_id": "5129",
+"doc": "RFC4226",
+"type": "Technical",
+"submit_date": "2017-09-27"
+},
+{
+"errata_id": "5132",
+"doc": "RFC6238",
+"type": "Technical",
+"submit_date": "2017-09-28"
+},
+{
+"errata_id": "5133",
+"doc": "RFC6287",
+"type": "Editorial",
+"submit_date": "2017-09-29"
+},
+{
+"errata_id": "5161",
+"doc": "RFC5869",
+"type": "Editorial",
+"submit_date": "2017-10-20"
+},
+{
+"errata_id": "5167",
+"doc": "RFC7940",
+"type": "Technical",
+"submit_date": "2017-10-24"
+},
+{
+"errata_id": "5168",
+"doc": "RFC8288",
+"type": "Editorial",
+"submit_date": "2017-10-25"
+},
+{
+"errata_id": "5169",
+"doc": "RFC8288",
+"type": "Editorial",
+"submit_date": "2017-10-25"
+},
+{
+"errata_id": "5186",
+"doc": "RFC6347",
+"type": "Technical",
+"submit_date": "2017-11-28"
+},
+{
+"errata_id": "5195",
+"doc": "RFC8276",
+"type": "Editorial",
+"submit_date": "2017-12-05"
+},
+{
+"errata_id": "5198",
+"doc": "RFC8275",
+"type": "Editorial",
+"submit_date": "2017-12-05"
+},
+{
+"errata_id": "5217",
+"doc": "RFC3091",
+"type": "Editorial",
+"submit_date": "2017-12-26"
+},
+{
+"errata_id": "5219",
+"doc": "RFC5116",
+"type": "Technical",
+"submit_date": "2017-12-28"
+},
+{
+"errata_id": "5227",
+"doc": "RFC7208",
+"type": "Technical",
+"submit_date": "2018-01-04"
+},
+{
+"errata_id": "5228",
+"doc": "RFC7208",
+"type": "Technical",
+"submit_date": "2018-01-04"
+},
+{
+"errata_id": "5230",
+"doc": "RFC8291",
+"type": "Editorial",
+"submit_date": "2018-01-07"
+},
+{
+"errata_id": "5233",
+"doc": "RFC5116",
+"type": "Editorial",
+"submit_date": "2018-01-10"
+},
+{
+"errata_id": "5234",
+"doc": "RFC6749",
+"type": "Technical",
+"submit_date": "2018-01-12"
+},
+{
+"errata_id": "5240",
+"doc": "RFC6234",
+"type": "Editorial",
+"submit_date": "2018-01-21"
+},
+{
+"errata_id": "5245",
+"doc": "RFC5805",
+"type": "Technical",
+"submit_date": "2018-01-28"
+},
+{
+"errata_id": "5246",
+"doc": "RFC5805",
+"type": "Technical",
+"submit_date": "2018-01-28"
+},
+{
+"errata_id": "5265",
+"doc": "RFC6154",
+"type": "Technical",
+"submit_date": "2018-02-25"
+},
+{
+"errata_id": "5266",
+"doc": "RFC3875",
+"type": "Technical",
+"submit_date": "2018-02-25"
+},
+{
+"errata_id": "5271",
+"doc": "RFC5802",
+"type": "Technical",
+"submit_date": "2018-03-02"
+},
+{
+"errata_id": "5275",
+"doc": "RFC7239",
+"type": "Technical",
+"submit_date": "2018-03-06"
+},
+{
+"errata_id": "5277",
+"doc": "RFC7683",
+"type": "Technical",
+"submit_date": "2018-03-06"
+},
+{
+"errata_id": "5278",
+"doc": "RFC7683",
+"type": "Technical",
+"submit_date": "2018-03-06"
+},
+{
+"errata_id": "5282",
+"doc": "RFC7240",
+"type": "Technical",
+"submit_date": "2018-03-07"
+},
+{
+"errata_id": "5288",
+"doc": "RFC6455",
+"type": "Editorial",
+"submit_date": "2018-03-20"
+},
+{
+"errata_id": "5292",
+"doc": "RFC4511",
+"type": "Technical",
+"submit_date": "2018-03-21"
+},
+{
+"errata_id": "5294",
+"doc": "RFC3665",
+"type": "Technical",
+"submit_date": "2018-03-22"
+},
+{
+"errata_id": "5295",
+"doc": "RFC7644",
+"type": "Technical",
+"submit_date": "2018-03-22"
+},
+{
+"errata_id": "5303",
+"doc": "RFC7254",
+"type": "Technical",
+"submit_date": "2018-03-26"
+},
+{
+"errata_id": "5308",
+"doc": "RFC6787",
+"type": "Editorial",
+"submit_date": "2018-03-28"
+},
+{
+"errata_id": "5313",
+"doc": "RFC6787",
+"type": "Editorial",
+"submit_date": "2018-03-29"
+},
+{
+"errata_id": "5314",
+"doc": "RFC6063",
+"type": "Technical",
+"submit_date": "2018-03-29"
+},
+{
+"errata_id": "5315",
+"doc": "RFC6787",
+"type": "Editorial",
+"submit_date": "2018-03-30"
+},
+{
+"errata_id": "5326",
+"doc": "RFC8314",
+"type": "Technical",
+"submit_date": "2018-04-13"
+},
+{
+"errata_id": "5329",
+"doc": "RFC8037",
+"type": "Technical",
+"submit_date": "2018-04-17"
+},
+{
+"errata_id": "5330",
+"doc": "RFC2183",
+"type": "Technical",
+"submit_date": "2018-04-20"
+},
+{
+"errata_id": "5332",
+"doc": "RFC6749",
+"type": "Technical",
+"submit_date": "2018-04-24"
+},
+{
+"errata_id": "5335",
+"doc": "RFC6750",
+"type": "Technical",
+"submit_date": "2018-04-26"
+},
+{
+"errata_id": "5354",
+"doc": "RFC7493",
+"type": "Technical",
+"submit_date": "2018-05-10"
+},
+{
+"errata_id": "5359",
+"doc": "RFC2638",
+"type": "Technical",
+"submit_date": "2018-05-15"
+},
+{
+"errata_id": "5377",
+"doc": "RFC7469",
+"type": "Technical",
+"submit_date": "2018-06-02"
+},
+{
+"errata_id": "5379",
+"doc": "RFC6749",
+"type": "Editorial",
+"submit_date": "2018-06-06"
+},
+{
+"errata_id": "5381",
+"doc": "RFC1912",
+"type": "Editorial",
+"submit_date": "2018-06-06"
+},
+{
+"errata_id": "5393",
+"doc": "RFC7976",
+"type": "Technical",
+"submit_date": "2018-06-15"
+},
+{
+"errata_id": "5398",
+"doc": "RFC7970",
+"type": "Technical",
+"submit_date": "2018-06-19"
+},
+{
+"errata_id": "5407",
+"doc": "RFC7530",
+"type": "Technical",
+"submit_date": "2018-06-24"
+},
+{
+"errata_id": "5435",
+"doc": "RFC7601",
+"type": "Technical",
+"submit_date": "2018-07-23"
+},
+{
+"errata_id": "5442",
+"doc": "RFC7044",
+"type": "Technical",
+"submit_date": "2018-07-27"
+},
+{
+"errata_id": "5446",
+"doc": "RFC5965",
+"type": "Editorial",
+"submit_date": "2018-07-30"
+},
+{
+"errata_id": "5457",
+"doc": "RFC5646",
+"type": "Technical",
+"submit_date": "2018-08-12"
+},
+{
+"errata_id": "5473",
+"doc": "RFC6381",
+"type": "Technical",
+"submit_date": "2018-08-20"
+},
+{
+"errata_id": "5478",
+"doc": "RFC8264",
+"type": "Technical",
+"submit_date": "2018-08-26"
+},
+{
+"errata_id": "5479",
+"doc": "RFC8265",
+"type": "Technical",
+"submit_date": "2018-08-26"
+},
+{
+"errata_id": "5481",
+"doc": "RFC4791",
+"type": "Technical",
+"submit_date": "2018-08-27"
+},
+{
+"errata_id": "5482",
+"doc": "RFC1557",
+"type": "Technical",
+"submit_date": "2018-08-27"
+},
+{
+"errata_id": "5496",
+"doc": "RFC7804",
+"type": "Technical",
+"submit_date": "2018-09-08"
+},
+{
+"errata_id": "5514",
+"doc": "RFC8342",
+"type": "Technical",
+"submit_date": "2018-10-05"
+},
+{
+"errata_id": "5515",
+"doc": "RFC7807",
+"type": "Technical",
+"submit_date": "2018-10-05"
+},
+{
+"errata_id": "5524",
+"doc": "RFC6381",
+"type": "Technical",
+"submit_date": "2018-10-12"
+},
+{
+"errata_id": "5530",
+"doc": "RFC6940",
+"type": "Technical",
+"submit_date": "2018-10-16"
+},
+{
+"errata_id": "5531",
+"doc": "RFC7530",
+"type": "Technical",
+"submit_date": "2018-10-16"
+},
+{
+"errata_id": "5534",
+"doc": "RFC6386",
+"type": "Technical",
+"submit_date": "2018-10-18"
+},
+{
+"errata_id": "5550",
+"doc": "RFC7208",
+"type": "Technical",
+"submit_date": "2018-11-09"
+},
+{
+"errata_id": "5580",
+"doc": "RFC5802",
+"type": "Editorial",
+"submit_date": "2018-12-19"
+},
+{
+"errata_id": "5581",
+"doc": "RFC6154",
+"type": "Technical",
+"submit_date": "2018-12-21"
+},
+{
+"errata_id": "5582",
+"doc": "RFC7970",
+"type": "Technical",
+"submit_date": "2018-12-25"
+},
+{
+"errata_id": "5589",
+"doc": "RFC5453",
+"type": "Technical",
+"submit_date": "2019-01-02"
+},
+{
+"errata_id": "5590",
+"doc": "RFC7970",
+"type": "Technical",
+"submit_date": "2019-01-04"
+},
+{
+"errata_id": "5595",
+"doc": "RFC4566",
+"type": "Technical",
+"submit_date": "2019-01-08"
+},
+{
+"errata_id": "5603",
+"doc": "RFC8484",
+"type": "Technical",
+"submit_date": "2019-01-15"
+},
+{
+"errata_id": "5613",
+"doc": "RFC2",
+"type": "Editorial",
+"submit_date": "2019-01-27"
+},
+{
+"errata_id": "5614",
+"doc": "RFC6545",
+"type": "Editorial",
+"submit_date": "2019-01-28"
+},
+{
+"errata_id": "5616",
+"doc": "RFC7578",
+"type": "Technical",
+"submit_date": "2019-01-30"
+},
+{
+"errata_id": "5625",
+"doc": "RFC6287",
+"type": "Technical",
+"submit_date": "2019-02-07"
+},
+{
+"errata_id": "5628",
+"doc": "RFC4758",
+"type": "Technical",
+"submit_date": "2019-02-09"
+},
+{
+"errata_id": "5629",
+"doc": "RFC4758",
+"type": "Technical",
+"submit_date": "2019-02-09"
+},
+{
+"errata_id": "5630",
+"doc": "RFC4758",
+"type": "Technical",
+"submit_date": "2019-02-09"
+},
+{
+"errata_id": "5631",
+"doc": "RFC4758",
+"type": "Technical",
+"submit_date": "2019-02-09"
+},
+{
+"errata_id": "5654",
+"doc": "RFC6125",
+"type": "Technical",
+"submit_date": "2019-03-13"
+},
+{
+"errata_id": "5655",
+"doc": "RFC270",
+"type": "Editorial",
+"submit_date": "2019-03-13"
+},
+{
+"errata_id": "5658",
+"doc": "RFC6066",
+"type": "Technical",
+"submit_date": "2019-03-14"
+},
+{
+"errata_id": "5666",
+"doc": "RFC7483",
+"type": "Editorial",
+"submit_date": "2019-03-22"
+},
+{
+"errata_id": "5667",
+"doc": "RFC7483",
+"type": "Technical",
+"submit_date": "2019-03-22"
+},
+{
+"errata_id": "5673",
+"doc": "RFC6125",
+"type": "Editorial",
+"submit_date": "2019-03-25"
+},
+{
+"errata_id": "5681",
+"doc": "RFC5931",
+"type": "Technical",
+"submit_date": "2019-03-31"
+},
+{
+"errata_id": "5691",
+"doc": "RFC7868",
+"type": "Technical",
+"submit_date": "2019-04-14"
+},
+{
+"errata_id": "5701",
+"doc": "RFC2231",
+"type": "Technical",
+"submit_date": "2019-04-19"
+},
+{
+"errata_id": "5716",
+"doc": "RFC4291",
+"type": "Technical",
+"submit_date": "2019-05-01"
+},
+{
+"errata_id": "5739",
+"doc": "RFC5831",
+"type": "Technical",
+"submit_date": "2019-05-25"
+},
+{
+"errata_id": "5745",
+"doc": "RFC6901",
+"type": "Editorial",
+"submit_date": "2019-06-04"
+},
+{
+"errata_id": "5764",
+"doc": "RFC5903",
+"type": "Editorial",
+"submit_date": "2019-06-27"
+},
+{
+"errata_id": "5793",
+"doc": "RFC6749",
+"type": "Technical",
+"submit_date": "2019-07-25"
+},
+{
+"errata_id": "5817",
+"doc": "RFC4707",
+"type": "Technical",
+"submit_date": "2019-08-18"
+},
+{
+"errata_id": "5820",
+"doc": "RFC4707",
+"type": "Technical",
+"submit_date": "2019-08-18"
+},
+{
+"errata_id": "5824",
+"doc": "RFC4707",
+"type": "Technical",
+"submit_date": "2019-08-18"
+},
+{
+"errata_id": "5825",
+"doc": "RFC4707",
+"type": "Technical",
+"submit_date": "2019-08-18"
+},
+{
+"errata_id": "5833",
+"doc": "RFC4707",
+"type": "Technical",
+"submit_date": "2019-08-18"
+},
+{
+"errata_id": "5835",
+"doc": "RFC4707",
+"type": "Technical",
+"submit_date": "2019-08-18"
+},
+{
+"errata_id": "5837",
+"doc": "RFC4707",
+"type": "Technical",
+"submit_date": "2019-08-18"
+},
+{
+"errata_id": "5840",
+"doc": "RFC8628",
+"type": "Technical",
+"submit_date": "2019-08-19"
+},
+{
+"errata_id": "5843",
+"doc": "RFC7208",
+"type": "Technical",
+"submit_date": "2019-08-22"
+},
+{
+"errata_id": "5846",
+"doc": "RFC4791",
+"type": "Technical",
+"submit_date": "2019-08-25"
+},
+{
+"errata_id": "5861",
+"doc": "RFC8555",
+"type": "Technical",
+"submit_date": "2019-09-23"
+},
+{
+"errata_id": "5873",
+"doc": "RFC6749",
+"type": "Technical",
+"submit_date": "2019-10-11"
+},
+{
+"errata_id": "5885",
+"doc": "RFC304",
+"type": "Editorial",
+"submit_date": "2019-10-28"
+},
+{
+"errata_id": "5893",
+"doc": "RFC3507",
+"type": "Technical",
+"submit_date": "2019-11-04"
+},
+{
+"errata_id": "5903",
+"doc": "RFC6347",
+"type": "Editorial",
+"submit_date": "2019-11-12"
+},
+{
+"errata_id": "5906",
+"doc": "RFC7519",
+"type": "Technical",
+"submit_date": "2019-11-13"
+},
+{
+"errata_id": "5923",
+"doc": "RFC2397",
+"type": "Technical",
+"submit_date": "2019-11-29"
+},
+{
+"errata_id": "5925",
+"doc": "RFC5598",
+"type": "Technical",
+"submit_date": "2019-12-02"
+},
+{
+"errata_id": "5937",
+"doc": "RFC7118",
+"type": "Technical",
+"submit_date": "2019-12-14"
+},
+{
+"errata_id": "5962",
+"doc": "RFC5958",
+"type": "Technical",
+"submit_date": "2020-01-22"
+},
+{
+"errata_id": "5971",
+"doc": "RFC7914",
+"type": "Technical",
+"submit_date": "2020-02-02"
+},
+{
+"errata_id": "5972",
+"doc": "RFC7914",
+"type": "Technical",
+"submit_date": "2020-02-02"
+},
+{
+"errata_id": "5973",
+"doc": "RFC7914",
+"type": "Technical",
+"submit_date": "2020-02-02"
+},
+{
+"errata_id": "5985",
+"doc": "RFC8225",
+"type": "Editorial",
+"submit_date": "2020-02-20"
+},
+{
+"errata_id": "5998",
+"doc": "RFC7464",
+"type": "Editorial",
+"submit_date": "2020-03-01"
+},
+{
+"errata_id": "5999",
+"doc": "RFC7643",
+"type": "Technical",
+"submit_date": "2020-03-02"
+},
+{
+"errata_id": "6000",
+"doc": "RFC7643",
+"type": "Technical",
+"submit_date": "2020-03-02"
+},
+{
+"errata_id": "6007",
+"doc": "RFC7643",
+"type": "Technical",
+"submit_date": "2020-03-04"
+},
+{
+"errata_id": "6010",
+"doc": "RFC7644",
+"type": "Technical",
+"submit_date": "2020-03-09"
+},
+{
+"errata_id": "6011",
+"doc": "RFC7643",
+"type": "Technical",
+"submit_date": "2020-03-09"
+},
+{
+"errata_id": "6013",
+"doc": "RFC6381",
+"type": "Technical",
+"submit_date": "2020-03-10"
+},
+{
+"errata_id": "6017",
+"doc": "RFC6749",
+"type": "Technical",
+"submit_date": "2020-03-15"
+},
+{
+"errata_id": "6018",
+"doc": "RFC7516",
+"type": "Editorial",
+"submit_date": "2020-03-16"
+},
+{
+"errata_id": "6022",
+"doc": "RFC4566",
+"type": "Technical",
+"submit_date": "2020-03-16"
+},
+{
+"errata_id": "6026",
+"doc": "RFC8601",
+"type": "Technical",
+"submit_date": "2020-03-22"
+},
+{
+"errata_id": "6027",
+"doc": "RFC8601",
+"type": "Technical",
+"submit_date": "2020-03-22"
+},
+{
+"errata_id": "6029",
+"doc": "RFC7155",
+"type": "Technical",
+"submit_date": "2020-03-25"
+},
+{
+"errata_id": "6033",
+"doc": "RFC8484",
+"type": "Technical",
+"submit_date": "2020-03-30"
+},
+{
+"errata_id": "6036",
+"doc": "RFC6532",
+"type": "Technical",
+"submit_date": "2020-04-01"
+},
+{
+"errata_id": "6084",
+"doc": "RFC7868",
+"type": "Technical",
+"submit_date": "2020-04-10"
+},
+{
+"errata_id": "6085",
+"doc": "RFC8011",
+"type": "Technical",
+"submit_date": "2020-04-10"
+},
+{
+"errata_id": "6090",
+"doc": "RFC7868",
+"type": "Technical",
+"submit_date": "2020-04-12"
+},
+{
+"errata_id": "6154",
+"doc": "RFC3579",
+"type": "Technical",
+"submit_date": "2020-05-01"
+},
+{
+"errata_id": "6161",
+"doc": "RFC6750",
+"type": "Editorial",
+"submit_date": "2020-05-08"
+},
+{
+"errata_id": "6163",
+"doc": "RFC7970",
+"type": "Technical",
+"submit_date": "2020-05-10"
+},
+{
+"errata_id": "6168",
+"doc": "RFC7970",
+"type": "Technical",
+"submit_date": "2020-05-11"
+},
+{
+"errata_id": "6169",
+"doc": "RFC7970",
+"type": "Technical",
+"submit_date": "2020-05-11"
+},
+{
+"errata_id": "6170",
+"doc": "RFC7970",
+"type": "Technical",
+"submit_date": "2020-05-11"
+},
+{
+"errata_id": "6177",
+"doc": "RFC7970",
+"type": "Technical",
+"submit_date": "2020-05-17"
+},
+{
+"errata_id": "6179",
+"doc": "RFC7636",
+"type": "Technical",
+"submit_date": "2020-05-18"
+},
+{
+"errata_id": "6182",
+"doc": "RFC8110",
+"type": "Technical",
+"submit_date": "2020-05-19"
+},
+{
+"errata_id": "6202",
+"doc": "RFC6594",
+"type": "Technical",
+"submit_date": "2020-06-03"
+},
+{
+"errata_id": "6206",
+"doc": "RFC2549",
+"type": "Technical",
+"submit_date": "2020-06-07"
+},
+{
+"errata_id": "6213",
+"doc": "RFC7996",
+"type": "Editorial",
+"submit_date": "2020-06-23"
+},
+{
+"errata_id": "6215",
+"doc": "RFC8040",
+"type": "Technical",
+"submit_date": "2020-06-25"
+},
+{
+"errata_id": "6216",
+"doc": "RFC7208",
+"type": "Technical",
+"submit_date": "2020-06-26"
+},
+{
+"errata_id": "6229",
+"doc": "RFC8410",
+"type": "Technical",
+"submit_date": "2020-07-12"
+},
+{
+"errata_id": "6242",
+"doc": "RFC3665",
+"type": "Technical",
+"submit_date": "2020-07-27"
+},
+{
+"errata_id": "6249",
+"doc": "RFC4948",
+"type": "Editorial",
+"submit_date": "2020-08-06"
+},
+{
+"errata_id": "6253",
+"doc": "RFC8461",
+"type": "Technical",
+"submit_date": "2020-08-08"
+},
+{
+"errata_id": "6255",
+"doc": "RFC5531",
+"type": "Editorial",
+"submit_date": "2020-08-12"
+},
+{
+"errata_id": "6259",
+"doc": "RFC3579",
+"type": "Technical",
+"submit_date": "2020-08-20"
+},
+{
+"errata_id": "6285",
+"doc": "RFC8461",
+"type": "Technical",
+"submit_date": "2020-09-10"
+},
+{
+"errata_id": "6291",
+"doc": "RFC4568",
+"type": "Technical",
+"submit_date": "2020-09-16"
+},
+{
+"errata_id": "6299",
+"doc": "RFC8886",
+"type": "Technical",
+"submit_date": "2020-10-05"
+},
+{
+"errata_id": "6308",
+"doc": "RFC8881",
+"type": "Technical",
+"submit_date": "2020-10-16"
+},
+{
+"errata_id": "6316",
+"doc": "RFC5545",
+"type": "Technical",
+"submit_date": "2020-10-22"
+},
+{
+"errata_id": "6325",
+"doc": "RFC6125",
+"type": "Editorial",
+"submit_date": "2020-11-06"
+},
+{
+"errata_id": "6329",
+"doc": "RFC6090",
+"type": "Editorial",
+"submit_date": "2020-11-06"
+},
+{
+"errata_id": "6334",
+"doc": "RFC8627",
+"type": "Technical",
+"submit_date": "2020-11-16"
+},
+{
+"errata_id": "6335",
+"doc": "RFC8627",
+"type": "Technical",
+"submit_date": "2020-11-16"
+},
+{
+"errata_id": "6337",
+"doc": "RFC8881",
+"type": "Technical",
+"submit_date": "2020-11-16"
+},
+{
+"errata_id": "6338",
+"doc": "RFC7711",
+"type": "Technical",
+"submit_date": "2020-11-17"
+},
+{
+"errata_id": "6360",
+"doc": "RFC7265",
+"type": "Technical",
+"submit_date": "2020-12-20"
+},
+{
+"errata_id": "6382",
+"doc": "RFC4506",
+"type": "Technical",
+"submit_date": "2021-01-08"
+},
+{
+"errata_id": "6405",
+"doc": "RFC5740",
+"type": "Technical",
+"submit_date": "2021-01-21"
+},
+{
+"errata_id": "6415",
+"doc": "RFC5116",
+"type": "Technical",
+"submit_date": "2021-01-29"
+},
+{
+"errata_id": "6433",
+"doc": "RFC7208",
+"type": "Technical",
+"submit_date": "2021-02-17"
+},
+{
+"errata_id": "6440",
+"doc": "RFC8959",
+"type": "Editorial",
+"submit_date": "2021-02-24"
+},
+{
+"errata_id": "6452",
+"doc": "RFC7914",
+"type": "Technical",
+"submit_date": "2021-03-05"
+},
+{
+"errata_id": "6471",
+"doc": "RFC7636",
+"type": "Technical",
+"submit_date": "2021-03-10"
+},
+{
+"errata_id": "6495",
+"doc": "RFC8898",
+"type": "Editorial",
+"submit_date": "2021-03-26"
+},
+{
+"errata_id": "6501",
+"doc": "RFC8089",
+"type": "Editorial",
+"submit_date": "2021-03-29"
+},
+{
+"errata_id": "6502",
+"doc": "RFC6270",
+"type": "Editorial",
+"submit_date": "2021-03-29"
+},
+{
+"errata_id": "6523",
+"doc": "RFC6234",
+"type": "Editorial",
+"submit_date": "2021-04-08"
+},
+{
+"errata_id": "6525",
+"doc": "RFC8461",
+"type": "Editorial",
+"submit_date": "2021-04-10"
+},
+{
+"errata_id": "6528",
+"doc": "RFC8166",
+"type": "Technical",
+"submit_date": "2021-04-12"
+},
+{
+"errata_id": "6553",
+"doc": "RFC7105",
+"type": "Technical",
+"submit_date": "2021-04-20"
+},
+{
+"errata_id": "6558",
+"doc": "RFC7804",
+"type": "Technical",
+"submit_date": "2021-04-24"
+},
+{
+"errata_id": "6573",
+"doc": "RFC6857",
+"type": "Technical",
+"submit_date": "2021-05-05"
+},
+{
+"errata_id": "6574",
+"doc": "RFC7991",
+"type": "Editorial",
+"submit_date": "2021-05-06"
+},
+{
+"errata_id": "6577",
+"doc": "RFC6351",
+"type": "Technical",
+"submit_date": "2021-05-08"
+},
+{
+"errata_id": "6578",
+"doc": "RFC6351",
+"type": "Technical",
+"submit_date": "2021-05-08"
+},
+{
+"errata_id": "6586",
+"doc": "RFC8688",
+"type": "Technical",
+"submit_date": "2021-05-18"
+},
+{
+"errata_id": "6595",
+"doc": "RFC7208",
+"type": "Technical",
+"submit_date": "2021-06-03"
+},
+{
+"errata_id": "6597",
+"doc": "RFC8152",
+"type": "Technical",
+"submit_date": "2021-06-03"
+},
+{
+"errata_id": "6603",
+"doc": "RFC8620",
+"type": "Technical",
+"submit_date": "2021-06-09"
+},
+{
+"errata_id": "6604",
+"doc": "RFC8620",
+"type": "Technical",
+"submit_date": "2021-06-09"
+},
+{
+"errata_id": "6605",
+"doc": "RFC8620",
+"type": "Technical",
+"submit_date": "2021-06-09"
+},
+{
+"errata_id": "6606",
+"doc": "RFC8620",
+"type": "Technical",
+"submit_date": "2021-06-09"
+},
+{
+"errata_id": "6607",
+"doc": "RFC8620",
+"type": "Technical",
+"submit_date": "2021-06-09"
+},
+{
+"errata_id": "6611",
+"doc": "RFC8881",
+"type": "Editorial",
+"submit_date": "2021-06-16"
+},
+{
+"errata_id": "6614",
+"doc": "RFC6749",
+"type": "Editorial",
+"submit_date": "2021-06-17"
+},
+{
+"errata_id": "6615",
+"doc": "RFC6749",
+"type": "Editorial",
+"submit_date": "2021-06-17"
+},
+{
+"errata_id": "6633",
+"doc": "RFC7804",
+"type": "Technical",
+"submit_date": "2021-07-09"
+},
+{
+"errata_id": "6647",
+"doc": "RFC5424",
+"type": "Editorial",
+"submit_date": "2021-07-23"
+},
+{
+"errata_id": "6663",
+"doc": "RFC7009",
+"type": "Technical",
+"submit_date": "2021-08-22"
+},
+{
+"errata_id": "6674",
+"doc": "RFC6376",
+"type": "Technical",
+"submit_date": "2021-09-01"
+},
+{
+"errata_id": "6678",
+"doc": "RFC7913",
+"type": "Technical",
+"submit_date": "2021-09-06"
+},
+{
+"errata_id": "6691",
+"doc": "RFC8572",
+"type": "Technical",
+"submit_date": "2021-09-22"
+},
+{
+"errata_id": "6702",
+"doc": "RFC4226",
+"type": "Technical",
+"submit_date": "2021-10-03"
+},
+{
+"errata_id": "6704",
+"doc": "RFC7616",
+"type": "Editorial",
+"submit_date": "2021-10-05"
+},
+{
+"errata_id": "6706",
+"doc": "RFC1288",
+"type": "Technical",
+"submit_date": "2021-10-11"
+},
+{
+"errata_id": "6708",
+"doc": "RFC8484",
+"type": "Editorial",
+"submit_date": "2021-10-14"
+},
+{
+"errata_id": "6711",
+"doc": "RFC9126",
+"type": "Technical",
+"submit_date": "2021-10-15"
+},
+{
+"errata_id": "6734",
+"doc": "RFC4470",
+"type": "Technical",
+"submit_date": "2021-11-12"
+},
+{
+"errata_id": "6746",
+"doc": "RFC6350",
+"type": "Technical",
+"submit_date": "2021-11-19"
+},
+{
+"errata_id": "6756",
+"doc": "RFC4226",
+"type": "Technical",
+"submit_date": "2021-11-28"
+},
+{
+"errata_id": "6790",
+"doc": "RFC8601",
+"type": "Technical",
+"submit_date": "2021-12-21"
+},
+{
+"errata_id": "6808",
+"doc": "RFC4568",
+"type": "Technical",
+"submit_date": "2022-01-05"
+},
+{
+"errata_id": "6812",
+"doc": "RFC6350",
+"type": "Technical",
+"submit_date": "2022-01-06"
+},
+{
+"errata_id": "6819",
+"doc": "RFC7193",
+"type": "Technical",
+"submit_date": "2022-01-18"
+},
+{
+"errata_id": "6824",
+"doc": "RFC823",
+"type": "Technical",
+"submit_date": "2022-01-28"
+},
+{
+"errata_id": "6832",
+"doc": "RFC6733",
+"type": "Technical",
+"submit_date": "2022-02-03"
+},
+{
+"errata_id": "6861",
+"doc": "RFC7493",
+"type": "Technical",
+"submit_date": "2022-02-25"
+},
+{
+"errata_id": "6864",
+"doc": "RFC6350",
+"type": "Technical",
+"submit_date": "2022-02-27"
+},
+{
+"errata_id": "6865",
+"doc": "RFC8881",
+"type": "Technical",
+"submit_date": "2022-02-28"
+},
+{
+"errata_id": "6886",
+"doc": "RFC8640",
+"type": "Technical",
+"submit_date": "2022-03-16"
+},
+{
+"errata_id": "6907",
+"doc": "RFC7517",
+"type": "Technical",
+"submit_date": "2022-03-30"
+},
+{
+"errata_id": "6909",
+"doc": "RFC8152",
+"type": "Technical",
+"submit_date": "2022-03-31"
+},
+{
+"errata_id": "6927",
+"doc": "RFC5424",
+"type": "Technical",
+"submit_date": "2022-04-07"
+},
+{
+"errata_id": "6928",
+"doc": "RFC7801",
+"type": "Technical",
+"submit_date": "2022-04-09"
+},
+{
+"errata_id": "6936",
+"doc": "RFC8410",
+"type": "Technical",
+"submit_date": "2022-04-16"
+},
+{
+"errata_id": "6945",
+"doc": "RFC7862",
+"type": "Technical",
+"submit_date": "2022-04-27"
+},
+{
+"errata_id": "6948",
+"doc": "RFC5698",
+"type": "Technical",
+"submit_date": "2022-04-29"
+},
+{
+"errata_id": "6977",
+"doc": "RFC7932",
+"type": "Technical",
+"submit_date": "2022-05-21"
+},
+{
+"errata_id": "6978",
+"doc": "RFC8148",
+"type": "Editorial",
+"submit_date": "2022-05-23"
+},
+{
+"errata_id": "6984",
+"doc": "RFC3665",
+"type": "Technical",
+"submit_date": "2022-05-31"
+},
+{
+"errata_id": "6985",
+"doc": "RFC8650",
+"type": "Technical",
+"submit_date": "2022-06-01"
+},
+{
+"errata_id": "6997",
+"doc": "RFC6455",
+"type": "Technical",
+"submit_date": "2022-06-17"
+},
+{
+"errata_id": "6999",
+"doc": "RFC6787",
+"type": "Technical",
+"submit_date": "2022-06-20"
+},
+{
+"errata_id": "7001",
+"doc": "RFC6376",
+"type": "Technical",
+"submit_date": "2022-06-21"
+},
+{
+"errata_id": "7002",
+"doc": "RFC9173",
+"type": "Editorial",
+"submit_date": "2022-06-21"
+},
+{
+"errata_id": "7004",
+"doc": "RFC8276",
+"type": "Editorial",
+"submit_date": "2022-06-23"
+},
+{
+"errata_id": "7005",
+"doc": "RFC7616",
+"type": "Technical",
+"submit_date": "2022-06-23"
+},
+{
+"errata_id": "7006",
+"doc": "RFC6030",
+"type": "Editorial",
+"submit_date": "2022-06-26"
+},
+{
+"errata_id": "7007",
+"doc": "RFC8276",
+"type": "Technical",
+"submit_date": "2022-06-27"
+},
+{
+"errata_id": "7030",
+"doc": "RFC3797",
+"type": "Technical",
+"submit_date": "2022-07-19"
+},
+{
+"errata_id": "7061",
+"doc": "RFC6350",
+"type": "Technical",
+"submit_date": "2022-07-29"
+},
+{
+"errata_id": "7070",
+"doc": "RFC8410",
+"type": "Technical",
+"submit_date": "2022-08-02"
+},
+{
+"errata_id": "7074",
+"doc": "RFC6616",
+"type": "Technical",
+"submit_date": "2022-08-06"
+},
+{
+"errata_id": "7101",
+"doc": "RFC4506",
+"type": "Technical",
+"submit_date": "2022-08-21"
+},
+{
+"errata_id": "7124",
+"doc": "RFC9309",
+"type": "Technical",
+"submit_date": "2022-09-10"
+},
+{
+"errata_id": "7128",
+"doc": "RFC9309",
+"type": "Technical",
+"submit_date": "2022-09-13"
+},
+{
+"errata_id": "7136",
+"doc": "RFC8599",
+"type": "Technical",
+"submit_date": "2022-09-18"
+},
+{
+"errata_id": "7140",
+"doc": "RFC6637",
+"type": "Editorial",
+"submit_date": "2022-09-27"
+},
+{
+"errata_id": "7150",
+"doc": "RFC5598",
+"type": "Technical",
+"submit_date": "2022-10-08"
+},
+{
+"errata_id": "7175",
+"doc": "RFC8417",
+"type": "Technical",
+"submit_date": "2022-10-21"
+},
+{
+"errata_id": "7185",
+"doc": "RFC8794",
+"type": "Technical",
+"submit_date": "2022-10-30"
+},
+{
+"errata_id": "7186",
+"doc": "RFC8794",
+"type": "Editorial",
+"submit_date": "2022-10-30"
+},
+{
+"errata_id": "7187",
+"doc": "RFC8794",
+"type": "Technical",
+"submit_date": "2022-10-30"
+},
+{
+"errata_id": "7188",
+"doc": "RFC8794",
+"type": "Editorial",
+"submit_date": "2022-10-30"
+},
+{
+"errata_id": "7190",
+"doc": "RFC8794",
+"type": "Technical",
+"submit_date": "2022-10-30"
+},
+{
+"errata_id": "7192",
+"doc": "RFC8794",
+"type": "Technical",
+"submit_date": "2022-10-30"
+},
+{
+"errata_id": "7193",
+"doc": "RFC8794",
+"type": "Editorial",
+"submit_date": "2022-10-30"
+},
+{
+"errata_id": "7246",
+"doc": "RFC9051",
+"type": "Technical",
+"submit_date": "2022-11-12"
+},
+{
+"errata_id": "7253",
+"doc": "RFC7946",
+"type": "Technical",
+"submit_date": "2022-11-18"
+},
+{
+"errata_id": "7254",
+"doc": "RFC9126",
+"type": "Technical",
+"submit_date": "2022-11-18"
+},
+{
+"errata_id": "7261",
+"doc": "RFC7946",
+"type": "Technical",
+"submit_date": "2022-12-08"
+},
+{
+"errata_id": "7262",
+"doc": "RFC6455",
+"type": "Technical",
+"submit_date": "2022-12-09"
+},
+{
+"errata_id": "7264",
+"doc": "RFC9116",
+"type": "Technical",
+"submit_date": "2022-12-10"
+},
+{
+"errata_id": "7265",
+"doc": "RFC8743",
+"type": "Technical",
+"submit_date": "2022-12-12"
+},
+{
+"errata_id": "7266",
+"doc": "RFC8743",
+"type": "Technical",
+"submit_date": "2022-12-12"
+},
+{
+"errata_id": "7267",
+"doc": "RFC8743",
+"type": "Technical",
+"submit_date": "2022-12-12"
+},
+{
+"errata_id": "7271",
+"doc": "RFC6238",
+"type": "Technical",
+"submit_date": "2022-12-14"
+},
+{
+"errata_id": "7282",
+"doc": "RFC8461",
+"type": "Technical",
+"submit_date": "2022-12-21"
+},
+{
+"errata_id": "7319",
+"doc": "RFC7644",
+"type": "Technical",
+"submit_date": "2023-01-25"
+},
+{
+"errata_id": "7321",
+"doc": "RFC916",
+"type": "Technical",
+"submit_date": "2023-01-25"
+},
+{
+"errata_id": "7322",
+"doc": "RFC7644",
+"type": "Technical",
+"submit_date": "2023-01-26"
+},
+{
+"errata_id": "7335",
+"doc": "RFC9054",
+"type": "Technical",
+"submit_date": "2023-02-06"
+},
+{
+"errata_id": "7338",
+"doc": "RFC9338",
+"type": "Technical",
+"submit_date": "2023-02-06"
+},
+{
+"errata_id": "7343",
+"doc": "RFC9051",
+"type": "Technical",
+"submit_date": "2023-02-13"
+},
+{
+"errata_id": "7370",
+"doc": "RFC6386",
+"type": "Technical",
+"submit_date": "2023-02-25"
+},
+{
+"errata_id": "7377",
+"doc": "RFC865",
+"type": "Editorial",
+"submit_date": "2023-03-06"
+},
+{
+"errata_id": "7385",
+"doc": "RFC7578",
+"type": "Technical",
+"submit_date": "2023-03-13"
+},
+{
+"errata_id": "7410",
+"doc": "RFC9126",
+"type": "Technical",
+"submit_date": "2023-03-31"
+},
+{
+"errata_id": "7411",
+"doc": "RFC4998",
+"type": "Technical",
+"submit_date": "2023-03-31"
+},
+{
+"errata_id": "7416",
+"doc": "RFC8407",
+"type": "Technical",
+"submit_date": "2023-04-07"
+},
+{
+"errata_id": "7418",
+"doc": "RFC8016",
+"type": "Technical",
+"submit_date": "2023-04-11"
+},
+{
+"errata_id": "7429",
+"doc": "RFC6749",
+"type": "Technical",
+"submit_date": "2023-04-20"
+},
+{
+"errata_id": "7508",
+"doc": "RFC8823",
+"type": "Technical",
+"submit_date": "2023-05-04"
+},
+{
+"errata_id": "7511",
+"doc": "RFC8693",
+"type": "Technical",
+"submit_date": "2023-05-08"
+},
+{
+"errata_id": "7516",
+"doc": "RFC3995",
+"type": "Technical",
+"submit_date": "2023-05-15"
+},
+{
+"errata_id": "7518",
+"doc": "RFC9051",
+"type": "Technical",
+"submit_date": "2023-05-18"
+},
+{
+"errata_id": "7519",
+"doc": "RFC6386",
+"type": "Technical",
+"submit_date": "2023-05-22"
+},
+{
+"errata_id": "7526",
+"doc": "RFC8445",
+"type": "Editorial",
+"submit_date": "2023-05-28"
+},
+{
+"errata_id": "7531",
+"doc": "RFC5198",
+"type": "Technical",
+"submit_date": "2023-06-01"
+},
+{
+"errata_id": "7544",
+"doc": "RFC5576",
+"type": "Technical",
+"submit_date": "2023-06-15"
+},
+{
+"errata_id": "7567",
+"doc": "RFC8878",
+"type": "Technical",
+"submit_date": "2023-07-20"
+},
+{
+"errata_id": "7577",
+"doc": "RFC9190",
+"type": "Technical",
+"submit_date": "2023-07-29"
+},
+{
+"errata_id": "7593",
+"doc": "RFC9051",
+"type": "Technical",
+"submit_date": "2023-08-07"
+},
+{
+"errata_id": "7595",
+"doc": "RFC7530",
+"type": "Technical",
+"submit_date": "2023-08-10"
+},
+{
+"errata_id": "7596",
+"doc": "RFC6230",
+"type": "Technical",
+"submit_date": "2023-08-11"
+},
+{
+"errata_id": "7607",
+"doc": "RFC7662",
+"type": "Technical",
+"submit_date": "2023-08-17"
+},
+{
+"errata_id": "7608",
+"doc": "RFC6455",
+"type": "Technical",
+"submit_date": "2023-08-19"
+},
+{
+"errata_id": "7622",
+"doc": "RFC3720",
+"type": "Technical",
+"submit_date": "2023-08-31"
+},
+{
+"errata_id": "7626",
+"doc": "RFC8295",
+"type": "Technical",
+"submit_date": "2023-09-04"
+},
+{
+"errata_id": "7631",
+"doc": "RFC6749",
+"type": "Technical",
+"submit_date": "2023-09-05"
+},
+{
+"errata_id": "7638",
+"doc": "RFC5651",
+"type": "Technical",
+"submit_date": "2023-09-11"
+},
+{
+"errata_id": "7642",
+"doc": "RFC6749",
+"type": "Technical",
+"submit_date": "2023-09-17"
+},
+{
+"errata_id": "7651",
+"doc": "RFC4226",
+"type": "Technical",
+"submit_date": "2023-09-21"
+},
+{
+"errata_id": "7667",
+"doc": "RFC5662",
+"type": "Technical",
+"submit_date": "2023-10-06"
+},
+{
+"errata_id": "7669",
+"doc": "RFC5662",
+"type": "Technical",
+"submit_date": "2023-10-06"
+},
+{
+"errata_id": "7672",
+"doc": "RFC9172",
+"type": "Technical",
+"submit_date": "2023-10-10"
+},
+{
+"errata_id": "7674",
+"doc": "RFC4452",
+"type": "Technical",
+"submit_date": "2023-10-11"
+},
+{
+"errata_id": "7680",
+"doc": "RFC7520",
+"type": "Technical",
+"submit_date": "2023-10-17"
+},
+{
+"errata_id": "7697",
+"doc": "RFC7468",
+"type": "Technical",
+"submit_date": "2023-11-10"
+},
+{
+"errata_id": "7705",
+"doc": "RFC8689",
+"type": "Technical",
+"submit_date": "2023-11-20"
+},
+{
+"errata_id": "7715",
+"doc": "RFC6749",
+"type": "Technical",
+"submit_date": "2023-11-29"
+},
+{
+"errata_id": "7716",
+"doc": "RFC6749",
+"type": "Technical",
+"submit_date": "2023-11-29"
+},
+{
+"errata_id": "7719",
+"doc": "RFC7516",
+"type": "Technical",
+"submit_date": "2023-12-01"
+},
+{
+"errata_id": "7720",
+"doc": "RFC7519",
+"type": "Technical",
+"submit_date": "2023-12-01"
+},
+{
+"errata_id": "7743",
+"doc": "RFC9116",
+"type": "Technical",
+"submit_date": "2023-12-30"
+},
+{
+"errata_id": "7747",
+"doc": "RFC6174",
+"type": "Technical",
+"submit_date": "2024-01-01"
+},
+{
+"errata_id": "7764",
+"doc": "RFC1951",
+"type": "Technical",
+"submit_date": "2024-01-15"
+},
+{
+"errata_id": "7767",
+"doc": "RFC7515",
+"type": "Technical",
+"submit_date": "2024-01-17"
+},
+{
+"errata_id": "7781",
+"doc": "RFC9458",
+"type": "Technical",
+"submit_date": "2024-01-25"
+},
+{
+"errata_id": "7782",
+"doc": "RFC7591",
+"type": "Technical",
+"submit_date": "2024-01-25"
+},
+{
+"errata_id": "7793",
+"doc": "RFC8414",
+"type": "Technical",
+"submit_date": "2024-01-31"
+},
+{
+"errata_id": "7805",
+"doc": "RFC8864",
+"type": "Technical",
+"submit_date": "2024-02-09"
+},
+{
+"errata_id": "7808",
+"doc": "RFC7997",
+"type": "Editorial",
+"submit_date": "2024-02-10"
+},
+{
+"errata_id": "7823",
+"doc": "RFC6749",
+"type": "Technical",
+"submit_date": "2024-02-26"
+},
+{
+"errata_id": "7826",
+"doc": "RFC8555",
+"type": "Technical",
+"submit_date": "2024-02-28"
+},
+{
+"errata_id": "7869",
+"doc": "RFC4042",
+"type": "Technical",
+"submit_date": "2024-03-24"
+},
+{
+"errata_id": "7884",
+"doc": "RFC8040",
+"type": "Technical",
+"submit_date": "2024-04-05"
+},
+{
+"errata_id": "7896",
+"doc": "RFC4512",
+"type": "Technical",
+"submit_date": "2024-04-17"
+},
+{
+"errata_id": "7904",
+"doc": "RFC6386",
+"type": "Technical",
+"submit_date": "2024-04-21"
+},
+{
+"errata_id": "7907",
+"doc": "RFC6787",
+"type": "Editorial",
+"submit_date": "2024-04-25"
+},
+{
+"errata_id": "7910",
+"doc": "RFC8617",
+"type": "Technical",
+"submit_date": "2024-04-26"
+},
+{
+"errata_id": "7913",
+"doc": "RFC4770",
+"type": "Technical",
+"submit_date": "2024-04-29"
+},
+{
+"errata_id": "7918",
+"doc": "RFC1741",
+"type": "Editorial",
+"submit_date": "2024-04-30"
+},
+{
+"errata_id": "7923",
+"doc": "RFC2126",
+"type": "Technical",
+"submit_date": "2024-05-05"
+},
+{
+"errata_id": "7931",
+"doc": "RFC9562",
+"type": "Editorial",
+"submit_date": "2024-05-10"
+},
+{
+"errata_id": "7936",
+"doc": "RFC7616",
+"type": "Technical",
+"submit_date": "2024-05-13"
+},
+{
+"errata_id": "7950",
+"doc": "RFC6386",
+"type": "Editorial",
+"submit_date": "2024-05-22"
+},
+{
+"errata_id": "7951",
+"doc": "RFC9470",
+"type": "Technical",
+"submit_date": "2024-05-22"
+},
+{
+"errata_id": "7969",
+"doc": "RFC7591",
+"type": "Technical",
+"submit_date": "2024-06-03"
+},
+{
+"errata_id": "7970",
+"doc": "RFC4880",
+"type": "Technical",
+"submit_date": "2024-06-04"
+},
+{
+"errata_id": "7971",
+"doc": "RFC5780",
+"type": "Technical",
+"submit_date": "2024-06-05"
+},
+{
+"errata_id": "7982",
+"doc": "RFC8392",
+"type": "Technical",
+"submit_date": "2024-06-11"
+},
+{
+"errata_id": "7990",
+"doc": "RFC9485",
+"type": "Technical",
+"submit_date": "2024-06-13"
+},
+{
+"errata_id": "7991",
+"doc": "RFC5216",
+"type": "Technical",
+"submit_date": "2024-06-14"
+},
+{
+"errata_id": "7995",
+"doc": "RFC9309",
+"type": "Technical",
+"submit_date": "2024-06-18"
+},
+{
+"errata_id": "7998",
+"doc": "RFC7565",
+"type": "Technical",
+"submit_date": "2024-06-24"
+},
+{
+"errata_id": "8001",
+"doc": "RFC9051",
+"type": "Technical",
+"submit_date": "2024-06-25"
+},
+{
+"errata_id": "8011",
+"doc": "RFC7643",
+"type": "Technical",
+"submit_date": "2024-06-30"
+},
+{
+"errata_id": "8021",
+"doc": "RFC8881",
+"type": "Technical",
+"submit_date": "2024-07-08"
+},
+{
+"errata_id": "8022",
+"doc": "RFC8881",
+"type": "Technical",
+"submit_date": "2024-07-08"
+},
+{
+"errata_id": "8039",
+"doc": "RFC9074",
+"type": "Technical",
+"submit_date": "2024-07-21"
+},
+{
+"errata_id": "8040",
+"doc": "RFC9073",
+"type": "Technical",
+"submit_date": "2024-07-21"
+},
+{
+"errata_id": "8046",
+"doc": "RFC7946",
+"type": "Technical",
+"submit_date": "2024-07-24"
+},
+{
+"errata_id": "8047",
+"doc": "RFC9147",
+"type": "Technical",
+"submit_date": "2024-07-25"
+},
+{
+"errata_id": "8048",
+"doc": "RFC9147",
+"type": "Technical",
+"submit_date": "2024-07-26"
+},
+{
+"errata_id": "8050",
+"doc": "RFC9147",
+"type": "Technical",
+"submit_date": "2024-07-26"
+},
+{
+"errata_id": "8051",
+"doc": "RFC9147",
+"type": "Technical",
+"submit_date": "2024-07-26"
+},
+{
+"errata_id": "8057",
+"doc": "RFC7644",
+"type": "Technical",
+"submit_date": "2024-07-30"
+},
+{
+"errata_id": "8061",
+"doc": "RFC9053",
+"type": "Technical",
+"submit_date": "2024-08-01"
+},
+{
+"errata_id": "8066",
+"doc": "RFC9147",
+"type": "Technical",
+"submit_date": "2024-08-06"
+},
+{
+"errata_id": "8067",
+"doc": "RFC9147",
+"type": "Technical",
+"submit_date": "2024-08-08"
+},
+{
+"errata_id": "8080",
+"doc": "RFC8252",
+"type": "Technical",
+"submit_date": "2024-08-16"
+},
+{
+"errata_id": "8082",
+"doc": "RFC5657",
+"type": "Technical",
+"submit_date": "2024-08-17"
+},
+{
+"errata_id": "8083",
+"doc": "RFC6410",
+"type": "Technical",
+"submit_date": "2024-08-17"
+},
+{
+"errata_id": "8085",
+"doc": "RFC8878",
+"type": "Technical",
+"submit_date": "2024-08-19"
+},
+{
+"errata_id": "8089",
+"doc": "RFC6347",
+"type": "Technical",
+"submit_date": "2024-08-23"
+},
+{
+"errata_id": "8091",
+"doc": "RFC8789",
+"type": "Technical",
+"submit_date": "2024-08-27"
+},
+{
+"errata_id": "8092",
+"doc": "RFC6350",
+"type": "Technical",
+"submit_date": "2024-09-03"
+},
+{
+"errata_id": "8093",
+"doc": "RFC8717",
+"type": "Technical",
+"submit_date": "2024-09-04"
+},
+{
+"errata_id": "8094",
+"doc": "RFC9190",
+"type": "Technical",
+"submit_date": "2024-09-04"
+},
+{
+"errata_id": "8095",
+"doc": "RFC6218",
+"type": "Technical",
+"submit_date": "2024-09-06"
+},
+{
+"errata_id": "8099",
+"doc": "RFC7692",
+"type": "Technical",
+"submit_date": "2024-09-11"
+},
+{
+"errata_id": "8107",
+"doc": "RFC9147",
+"type": "Technical",
+"submit_date": "2024-09-18"
+},
+{
+"errata_id": "8108",
+"doc": "RFC9147",
+"type": "Technical",
+"submit_date": "2024-09-18"
+},
+{
+"errata_id": "8109",
+"doc": "RFC6350",
+"type": "Technical",
+"submit_date": "2024-09-19"
+},
+{
+"errata_id": "8110",
+"doc": "RFC5841",
+"type": "Technical",
+"submit_date": "2024-09-20"
+},
+{
+"errata_id": "8141",
+"doc": "RFC9147",
+"type": "Technical",
+"submit_date": "2024-10-15"
+},
+{
+"errata_id": "8143",
+"doc": "RFC9620",
+"type": "Technical",
+"submit_date": "2024-10-16"
+},
+{
+"errata_id": "8156",
+"doc": "RFC9253",
+"type": "Technical",
+"submit_date": "2024-10-24"
+},
+{
+"errata_id": "8157",
+"doc": "RFC9253",
+"type": "Technical",
+"submit_date": "2024-10-24"
+},
+{
+"errata_id": "8179",
+"doc": "RFC8422",
+"type": "Technical",
+"submit_date": "2024-11-16"
+},
+{
+"errata_id": "8181",
+"doc": "RFC6585",
+"type": "Technical",
+"submit_date": "2024-11-19"
+},
+{
+"errata_id": "8195",
+"doc": "RFC8878",
+"type": "Technical",
+"submit_date": "2024-12-02"
+},
+{
+"errata_id": "8200",
+"doc": "RFC5222",
+"type": "Technical",
+"submit_date": "2024-12-04"
+},
+{
+"errata_id": "8207",
+"doc": "RFC5248",
+"type": "Technical",
+"submit_date": "2024-12-07"
+},
+{
+"errata_id": "8211",
+"doc": "RFC9420",
+"type": "Editorial",
+"submit_date": "2024-12-11"
+},
+{
+"errata_id": "8212",
+"doc": "RFC9347",
+"type": "Technical",
+"submit_date": "2024-12-18"
+},
+{
+"errata_id": "8217",
+"doc": "RFC3516",
+"type": "Technical",
+"submit_date": "2024-12-21"
+},
+{
+"errata_id": "8222",
+"doc": "RFC127",
+"type": "Technical",
+"submit_date": "2024-12-27"
+},
+{
+"errata_id": "8225",
+"doc": "RFC7519",
+"type": "Technical",
+"submit_date": "2024-12-31"
+},
+{
+"errata_id": "8231",
+"doc": "RFC9202",
+"type": "Technical",
+"submit_date": "2025-01-03"
+},
+{
+"errata_id": "8232",
+"doc": "RFC9200",
+"type": "Technical",
+"submit_date": "2025-01-03"
+},
+{
+"errata_id": "8233",
+"doc": "RFC9200",
+"type": "Technical",
+"submit_date": "2025-01-03"
+},
+{
+"errata_id": "8234",
+"doc": "RFC9200",
+"type": "Technical",
+"submit_date": "2025-01-03"
+},
+{
+"errata_id": "8235",
+"doc": "RFC9200",
+"type": "Technical",
+"submit_date": "2025-01-03"
+},
+{
+"errata_id": "8236",
+"doc": "RFC9200",
+"type": "Technical",
+"submit_date": "2025-01-03"
+},
+{
+"errata_id": "8237",
+"doc": "RFC9200",
+"type": "Technical",
+"submit_date": "2025-01-03"
+},
+{
+"errata_id": "8238",
+"doc": "RFC9200",
+"type": "Technical",
+"submit_date": "2025-01-03"
+},
+{
+"errata_id": "8239",
+"doc": "RFC9594",
+"type": "Technical",
+"submit_date": "2025-01-03"
+},
+{
+"errata_id": "8249",
+"doc": "RFC7162",
+"type": "Technical",
+"submit_date": "2025-01-12"
+},
+{
+"errata_id": "8258",
+"doc": "RFC9528",
+"type": "Technical",
+"submit_date": "2025-01-23"
+},
+{
+"errata_id": "8262",
+"doc": "RFC1157",
+"type": "Technical",
+"submit_date": "2025-01-26"
+},
+{
+"errata_id": "8263",
+"doc": "RFC9553",
+"type": "Technical",
+"submit_date": "2025-01-27"
+},
+{
+"errata_id": "8264",
+"doc": "RFC9553",
+"type": "Technical",
+"submit_date": "2025-01-27"
+},
+{
+"errata_id": "8265",
+"doc": "RFC9553",
+"type": "Technical",
+"submit_date": "2025-01-27"
+},
+{
+"errata_id": "8266",
+"doc": "RFC9553",
+"type": "Technical",
+"submit_date": "2025-01-27"
+},
+{
+"errata_id": "8267",
+"doc": "RFC9553",
+"type": "Technical",
+"submit_date": "2025-01-28"
+},
+{
+"errata_id": "8272",
+"doc": "RFC9528",
+"type": "Technical",
+"submit_date": "2025-01-29"
+},
+{
+"errata_id": "8287",
+"doc": "RFC4647",
+"type": "Technical",
+"submit_date": "2025-02-08"
+},
+{
+"errata_id": "8302",
+"doc": "RFC8341",
+"type": "Technical",
+"submit_date": "2025-02-20"
+},
+{
+"errata_id": "8303",
+"doc": "RFC8460",
+"type": "Technical",
+"submit_date": "2025-02-20"
+},
+{
+"errata_id": "8310",
+"doc": "RFC5589",
+"type": "Technical",
+"submit_date": "2025-02-24"
+},
+{
+"errata_id": "8312",
+"doc": "RFC9172",
+"type": "Technical",
+"submit_date": "2025-02-24"
+},
+{
+"errata_id": "8314",
+"doc": "RFC6901",
+"type": "Technical",
+"submit_date": "2025-02-25"
+},
+{
+"errata_id": "8325",
+"doc": "RFC4042",
+"type": "Technical",
+"submit_date": "2025-03-10"
+},
+{
+"errata_id": "8330",
+"doc": "RFC9595",
+"type": "Technical",
+"submit_date": "2025-03-14"
+},
+{
+"errata_id": "8341",
+"doc": "RFC7946",
+"type": "Technical",
+"submit_date": "2025-03-20"
+},
+{
+"errata_id": "8346",
+"doc": "RFC2832",
+"type": "Technical",
+"submit_date": "2025-03-25"
+},
+{
+"errata_id": "8350",
+"doc": "RFC8519",
+"type": "Technical",
+"submit_date": "2025-03-27"
+},
+{
+"errata_id": "8357",
+"doc": "RFC8617",
+"type": "Technical",
+"submit_date": "2025-03-30"
+},
+{
+"errata_id": "8373",
+"doc": "RFC4291",
+"type": "Technical",
+"submit_date": "2025-04-04"
+},
+{
+"errata_id": "8381",
+"doc": "RFC8555",
+"type": "Technical",
+"submit_date": "2025-04-15"
+},
+{
+"errata_id": "8390",
+"doc": "RFC9679",
+"type": "Technical",
+"submit_date": "2025-04-22"
+},
+{
+"errata_id": "8394",
+"doc": "RFC6188",
+"type": "Technical",
+"submit_date": "2025-04-26"
+},
+{
+"errata_id": "8398",
+"doc": "RFC5545",
+"type": "Technical",
+"submit_date": "2025-04-29"
+},
+{
+"errata_id": "8412",
+"doc": "RFC3",
+"type": "Technical",
+"submit_date": "2025-05-10"
+},
+{
+"errata_id": "8413",
+"doc": "RFC2",
+"type": "Technical",
+"submit_date": "2025-05-11"
+},
+{
+"errata_id": "8414",
+"doc": "RFC8588",
+"type": "Editorial",
+"submit_date": "2025-05-13"
+},
+{
+"errata_id": "8416",
+"doc": "RFC6146",
+"type": "Technical",
+"submit_date": "2025-05-15"
+},
+{
+"errata_id": "8429",
+"doc": "RFC1951",
+"type": "Technical",
+"submit_date": "2025-05-25"
+},
+{
+"errata_id": "8461",
+"doc": "RFC8984",
+"type": "Technical",
+"submit_date": "2025-06-14"
+},
+{
+"errata_id": "8476",
+"doc": "RFC5730",
+"type": "Technical",
+"submit_date": "2025-06-23"
+},
+{
+"errata_id": "8477",
+"doc": "RFC9426",
+"type": "Technical",
+"submit_date": "2025-06-23"
+},
+{
+"errata_id": "8505",
+"doc": "RFC9485",
+"type": "Technical",
+"submit_date": "2025-07-05"
+},
+{
+"errata_id": "8509",
+"doc": "RFC5412",
+"type": "Technical",
+"submit_date": "2025-07-12"
+},
+{
+"errata_id": "8510",
+"doc": "RFC5412",
+"type": "Technical",
+"submit_date": "2025-07-12"
+},
+{
+"errata_id": "8511",
+"doc": "RFC5412",
+"type": "Technical",
+"submit_date": "2025-07-12"
+},
+{
+"errata_id": "8515",
+"doc": "RFC4643",
+"type": "Technical",
+"submit_date": "2025-07-16"
+},
+{
+"errata_id": "8519",
+"doc": "RFC7852",
+"type": "Technical",
+"submit_date": "2025-07-23"
+},
+{
+"errata_id": "8521",
+"doc": "RFC8532",
+"type": "Technical",
+"submit_date": "2025-07-29"
+},
+{
+"errata_id": "8535",
+"doc": "RFC8888",
+"type": "Technical",
+"submit_date": "2025-08-21"
+},
+{
+"errata_id": "8536",
+"doc": "RFC5412",
+"type": "Technical",
+"submit_date": "2025-08-22"
+},
+{
+"errata_id": "8537",
+"doc": "RFC5412",
+"type": "Technical",
+"submit_date": "2025-08-22"
+},
+{
+"errata_id": "8538",
+"doc": "RFC5412",
+"type": "Technical",
+"submit_date": "2025-08-22"
+},
+{
+"errata_id": "8539",
+"doc": "RFC5412",
+"type": "Technical",
+"submit_date": "2025-08-22"
+},
+{
+"errata_id": "8540",
+"doc": "RFC5412",
+"type": "Technical",
+"submit_date": "2025-08-22"
+},
+{
+"errata_id": "8541",
+"doc": "RFC5412",
+"type": "Technical",
+"submit_date": "2025-08-22"
+},
+{
+"errata_id": "8542",
+"doc": "RFC5412",
+"type": "Technical",
+"submit_date": "2025-08-22"
+},
+{
+"errata_id": "8543",
+"doc": "RFC5412",
+"type": "Technical",
+"submit_date": "2025-08-22"
+},
+{
+"errata_id": "8544",
+"doc": "RFC5412",
+"type": "Technical",
+"submit_date": "2025-08-22"
+},
+{
+"errata_id": "8545",
+"doc": "RFC5412",
+"type": "Technical",
+"submit_date": "2025-08-22"
+},
+{
+"errata_id": "8546",
+"doc": "RFC5412",
+"type": "Technical",
+"submit_date": "2025-08-22"
+},
+{
+"errata_id": "8547",
+"doc": "RFC5412",
+"type": "Technical",
+"submit_date": "2025-08-22"
+},
+{
+"errata_id": "8548",
+"doc": "RFC5412",
+"type": "Technical",
+"submit_date": "2025-08-22"
+},
+{
+"errata_id": "8549",
+"doc": "RFC5412",
+"type": "Technical",
+"submit_date": "2025-08-22"
+},
+{
+"errata_id": "8555",
+"doc": "RFC9555",
+"type": "Technical",
+"submit_date": "2025-08-26"
+},
+{
+"errata_id": "8564",
+"doc": "RFC7628",
+"type": "Technical",
+"submit_date": "2025-09-04"
+},
+{
+"errata_id": "8595",
+"doc": "RFC9754",
+"type": "Technical",
+"submit_date": "2025-10-08"
+},
+{
+"errata_id": "8596",
+"doc": "RFC7208",
+"type": "Technical",
+"submit_date": "2025-10-10"
+},
+{
+"errata_id": "8602",
+"doc": "RFC2418",
+"type": "Technical",
+"submit_date": "2025-10-14"
+},
+{
+"errata_id": "8607",
+"doc": "RFC3552",
+"type": "Editorial",
+"submit_date": "2025-10-17"
+},
+{
+"errata_id": "8608",
+"doc": "RFC2850",
+"type": "Editorial",
+"submit_date": "2025-10-17"
+},
+{
+"errata_id": "8615",
+"doc": "RFC9559",
+"type": "Technical",
+"submit_date": "2025-10-27"
+},
+{
+"errata_id": "8616",
+"doc": "RFC9559",
+"type": "Technical",
+"submit_date": "2025-10-27"
+},
+{
+"errata_id": "8617",
+"doc": "RFC8392",
+"type": "Technical",
+"submit_date": "2025-10-29"
+},
+{
+"errata_id": "8623",
+"doc": "RFC9052",
+"type": "Editorial",
+"submit_date": "2025-10-31"
+},
+{
+"errata_id": "8629",
+"doc": "RFC9595",
+"type": "Technical",
+"submit_date": "2025-11-10"
+},
+{
+"errata_id": "8631",
+"doc": "RFC8765",
+"type": "Technical",
+"submit_date": "2025-11-12"
+},
+{
+"errata_id": "8637",
+"doc": "RFC7628",
+"type": "Technical",
+"submit_date": "2025-11-16"
+},
+{
+"errata_id": "8645",
+"doc": "RFC9171",
+"type": "Technical",
+"submit_date": "2025-11-19"
+},
+{
+"errata_id": "8651",
+"doc": "RFC8636",
+"type": "Technical",
+"submit_date": "2025-11-17"
+},
+{
+"errata_id": "8655",
+"doc": "RFC8392",
+"type": "Technical",
+"submit_date": "2025-11-25"
+},
+{
+"errata_id": "8657",
+"doc": "RFC6664",
+"type": "Technical",
+"submit_date": "2025-11-26"
+},
+{
+"errata_id": "8660",
+"doc": "RFC8636",
+"type": "Technical",
+"submit_date": "2025-11-28"
+},
+{
+"errata_id": "8661",
+"doc": "RFC8789",
+"type": "Technical",
+"submit_date": "2025-11-28"
+},
+{
+"errata_id": "8664",
+"doc": "RFC2418",
+"type": "Technical",
+"submit_date": "2025-12-01"
+},
+{
+"errata_id": "8665",
+"doc": "RFC9750",
+"type": "Technical",
+"submit_date": "2025-12-01"
+},
+{
+"errata_id": "8667",
+"doc": "RFC2046",
+"type": "Technical",
+"submit_date": "2025-12-02"
+},
+{
+"errata_id": "8668",
+"doc": "RFC8878",
+"type": "Technical",
+"submit_date": "2025-12-03"
+},
+{
+"errata_id": "8669",
+"doc": "RFC4648",
+"type": "Technical",
+"submit_date": "2025-12-03"
+},
+{
+"errata_id": "8671",
+"doc": "RFC8044",
+"type": "Technical",
+"submit_date": "2025-12-06"
+},
+{
+"errata_id": "8672",
+"doc": "RFC6238",
+"type": "Technical",
+"submit_date": "2025-12-06"
+},
+{
+"errata_id": "8676",
+"doc": "RFC7516",
+"type": "Technical",
+"submit_date": "2025-12-12"
+},
+{
+"errata_id": "8677",
+"doc": "RFC6672",
+"type": "Technical",
+"submit_date": "2025-12-12"
+},
+{
+"errata_id": "8678",
+"doc": "RFC9203",
+"type": "Technical",
+"submit_date": "2025-12-16"
+},
+{
+"errata_id": "8680",
+"doc": "RFC9578",
+"type": "Technical",
+"submit_date": "2025-12-16"
+},
+{
+"errata_id": "8681",
+"doc": "RFC9172",
+"type": "Technical",
+"submit_date": "2025-12-17"
+},
+{
+"errata_id": "8691",
+"doc": "RFC791",
+"type": "Technical",
+"submit_date": "2026-01-01"
+},
+{
+"errata_id": "8692",
+"doc": "RFC2142",
+"type": "Technical",
+"submit_date": "2026-01-02"
+},
+{
+"errata_id": "8694",
+"doc": "RFC2217",
+"type": "Technical",
+"submit_date": "2026-01-05"
+},
+{
+"errata_id": "8698",
+"doc": "RFC8200",
+"type": "Technical",
+"submit_date": "2026-01-07"
+},
+{
+"errata_id": "8705",
+"doc": "RFC8881",
+"type": "Technical",
+"submit_date": "2026-01-16"
+},
+{
+"errata_id": "8716",
+"doc": "RFC8881",
+"type": "Technical",
+"submit_date": "2026-01-23"
+},
+{
+"errata_id": "8717",
+"doc": "RFC6386",
+"type": "Technical",
+"submit_date": "2026-01-23"
+},
+{
+"errata_id": "8722",
+"doc": "RFC6749",
+"type": "Technical",
+"submit_date": "2026-01-28"
+},
+{
+"errata_id": "8723",
+"doc": "RFC9172",
+"type": "Technical",
+"submit_date": "2026-01-29"
+},
+{
+"errata_id": "8726",
+"doc": "RFC959",
+"type": "Technical",
+"submit_date": "2026-01-31"
+},
+{
+"errata_id": "8728",
+"doc": "RFC5797",
+"type": "Technical",
+"submit_date": "2026-02-01"
+},
+{
+"errata_id": "8738",
+"doc": "RFC8879",
+"type": "Technical",
+"submit_date": "2026-02-04"
+},
+{
+"errata_id": "8745",
+"doc": "RFC9420",
+"type": "Technical",
+"submit_date": "2026-02-05"
+},
+{
+"errata_id": "8746",
+"doc": "RFC8489",
+"type": "Technical",
+"submit_date": "2026-02-08"
+},
+{
+"errata_id": "8750",
+"doc": "RFC9763",
+"type": "Technical",
+"submit_date": "2026-02-10"
+},
+{
+"errata_id": "8753",
+"doc": "RFC8879",
+"type": "Technical",
+"submit_date": "2026-02-11"
+},
+{
+"errata_id": "8757",
+"doc": "RFC6296",
+"type": "Technical",
+"submit_date": "2026-02-12"
+},
+{
+"errata_id": "8761",
+"doc": "RFC4791",
+"type": "Technical",
+"submit_date": "2026-02-15"
+},
+{
+"errata_id": "8762",
+"doc": "RFC4791",
+"type": "Technical",
+"submit_date": "2026-02-15"
+},
+{
+"errata_id": "8763",
+"doc": "RFC4791",
+"type": "Technical",
+"submit_date": "2026-02-15"
+},
+{
+"errata_id": "8770",
+"doc": "RFC9174",
+"type": "Technical",
+"submit_date": "2026-02-19"
+},
+{
+"errata_id": "8773",
+"doc": "RFC3645",
+"type": "Technical",
+"submit_date": "2026-02-20"
+},
+{
+"errata_id": "8786",
+"doc": "RFC9555",
+"type": "Technical",
+"submit_date": "2026-02-26"
+},
+{
+"errata_id": "8790",
+"doc": "RFC6749",
+"type": "Technical",
+"submit_date": "2026-03-01"
+},
+{
+"errata_id": "8791",
+"doc": "RFC6749",
+"type": "Technical",
+"submit_date": "2026-03-01"
+},
+{
+"errata_id": "8793",
+"doc": "RFC8498",
+"type": "Technical",
+"submit_date": "2026-03-02"
+},
+{
+"errata_id": "8796",
+"doc": "RFC9945",
+"type": "Technical",
+"submit_date": "2026-03-02"
+},
+{
+"errata_id": "8802",
+"doc": "RFC9068",
+"type": "Technical",
+"submit_date": "2026-03-04"
+},
+{
+"errata_id": "8806",
+"doc": "RFC9483",
+"type": "Technical",
+"submit_date": "2026-03-05"
+},
+{
+"errata_id": "8814",
+"doc": "RFC9580",
+"type": "Technical",
+"submit_date": "2026-03-08"
+},
+{
+"errata_id": "8815",
+"doc": "RFC9420",
+"type": "Technical",
+"submit_date": "2026-03-09"
+},
+{
+"errata_id": "8819",
+"doc": "RFC6337",
+"type": "Technical",
+"submit_date": "2026-03-11"
+},
+{
+"errata_id": "8824",
+"doc": "RFC3533",
+"type": "Technical",
+"submit_date": "2026-03-12"
+},
+{
+"errata_id": "8826",
+"doc": "RFC9249",
+"type": "Technical",
+"submit_date": "2026-03-13"
+},
+{
+"errata_id": "8828",
+"doc": "RFC9761",
+"type": "Editorial",
+"submit_date": "2026-03-14"
+},
+{
+"errata_id": "8833",
+"doc": "RFC8851",
+"type": "Technical",
+"submit_date": "2026-03-17"
+},
+{
+"errata_id": "8843",
+"doc": "RFC9729",
+"type": "Technical",
+"submit_date": "2026-03-18"
+},
+{
+"errata_id": "8847",
+"doc": "RFC9580",
+"type": "Technical",
+"submit_date": "2026-03-18"
+},
+{
+"errata_id": "8848",
+"doc": "RFC8832",
+"type": "Technical",
+"submit_date": "2026-03-20"
+},
+{
+"errata_id": "8849",
+"doc": "RFC2119",
+"type": "Technical",
+"submit_date": "2026-03-21"
+},
+{
+"errata_id": "8850",
+"doc": "RFC2119",
+"type": "Editorial",
+"submit_date": "2026-03-21"
+},
+{
+"errata_id": "8852",
+"doc": "RFC3507",
+"type": "Technical",
+"submit_date": "2026-03-24"
+},
+{
+"errata_id": "8858",
+"doc": "RFC9457",
+"type": "Technical",
+"submit_date": "2026-03-28"
+},
+{
+"errata_id": "8864",
+"doc": "RFC9594",
+"type": "Technical",
+"submit_date": "2026-04-01"
+},
+{
+"errata_id": "8866",
+"doc": "RFC3952",
+"type": "Technical",
+"submit_date": "2026-04-03"
+},
+{
+"errata_id": "8867",
+"doc": "RFC1928",
+"type": "Technical",
+"submit_date": "2026-04-03"
+},
+{
+"errata_id": "8868",
+"doc": "RFC2251",
+"type": "Technical",
+"submit_date": "2026-04-06"
+},
+{
+"errata_id": "8877",
+"doc": "RFC6265",
+"type": "Technical",
+"submit_date": "2026-04-13"
+},
+{
+"errata_id": "8881",
+"doc": "RFC6716",
+"type": "Technical",
+"submit_date": "2026-04-15"
+},
+{
+"errata_id": "8883",
+"doc": "RFC8555",
+"type": "Technical",
+"submit_date": "2026-04-16"
+},
+{
+"errata_id": "8884",
+"doc": "RFC5925",
+"type": "Technical",
+"submit_date": "2026-04-17"
+},
+{
+"errata_id": "8887",
+"doc": "RFC2326",
+"type": "Technical",
+"submit_date": "2026-04-22"
+},
+{
+"errata_id": "8890",
+"doc": "RFC9530",
+"type": "Technical",
+"submit_date": "2026-04-25"
+},
+{
+"errata_id": "8891",
+"doc": "RFC9909",
+"type": "Technical",
+"submit_date": "2026-04-27"
+},
+{
+"errata_id": "8892",
+"doc": "RFC9909",
+"type": "Technical",
+"submit_date": "2026-04-27"
+},
+{
+"errata_id": "8895",
+"doc": "RFC9309",
+"type": "Technical",
+"submit_date": "2026-04-28"
+},
+{
+"errata_id": "8896",
+"doc": "RFC9858",
+"type": "Technical",
+"submit_date": "2026-04-29"
+},
+{
+"errata_id": "8898",
+"doc": "RFC8520",
+"type": "Technical",
+"submit_date": "2026-04-30"
+},
+{
+"errata_id": "8900",
+"doc": "RFC8489",
+"type": "Technical",
+"submit_date": "2026-05-04"
+},
+{
+"errata_id": "8901",
+"doc": "RFC8656",
+"type": "Technical",
+"submit_date": "2026-05-04"
+},
+{
+"errata_id": "8903",
+"doc": "RFC5905",
+"type": "Editorial",
+"submit_date": "2026-05-06"
+},
+{
+"errata_id": "8904",
+"doc": "RFC5905",
+"type": "Technical",
+"submit_date": "2026-05-06"
+},
+{
+"errata_id": "8906",
+"doc": "RFC346",
+"type": "Technical",
+"submit_date": "2026-05-07"
+},
+{
+"errata_id": "8907",
+"doc": "RFC8554",
+"type": "Technical",
+"submit_date": "2026-05-07"
+},
+{
+"errata_id": "8909",
+"doc": "RFC790",
+"type": "Technical",
+"submit_date": "2026-05-08"
+},
+{
+"errata_id": "8915",
+"doc": "RFC6031",
+"type": "Technical",
+"submit_date": "2026-05-16"
+},
+{
+"errata_id": "8919",
+"doc": "RFC5939",
+"type": "Technical",
+"submit_date": "2026-05-18"
+},
+{
+"errata_id": "8924",
+"doc": "RFC7643",
+"type": "Technical",
+"submit_date": "2026-05-19"
+},
+{
+"errata_id": "8926",
+"doc": "RFC4028",
+"type": "Technical",
+"submit_date": "2026-05-25"
+},
+{
+"errata_id": "8962",
+"doc": "RFC1436",
+"type": "Technical",
+"submit_date": "2026-06-04"
+},
+{
+"errata_id": "8995",
+"doc": "RFC9989",
+"type": "Technical",
+"submit_date": "2026-06-09"
+},
+{
+"errata_id": "8996",
+"doc": "RFC9149",
+"type": "Technical",
+"submit_date": "2026-06-09"
+},
+{
+"errata_id": "8997",
+"doc": "RFC9861",
+"type": "Technical",
+"submit_date": "2026-06-09"
+},
+{
+"errata_id": "8998",
+"doc": "RFC6376",
+"type": "Technical",
+"submit_date": "2026-06-09"
+},
+{
+"errata_id": "8999",
+"doc": "RFC9114",
+"type": "Technical",
+"submit_date": "2026-06-10"
+},
+{
+"errata_id": "9004",
+"doc": "RFC9111",
+"type": "Technical",
+"submit_date": "2026-06-11"
+},
+{
+"errata_id": "9007",
+"doc": "RFC6572",
+"type": "Technical",
+"submit_date": "2026-06-21"
+},
+{
+"errata_id": "9008",
+"doc": "RFC5090",
+"type": "Technical",
+"submit_date": "2026-06-21"
+},
+{
+"errata_id": "9009",
+"doc": "RFC9727",
+"type": "Technical",
+"submit_date": "2026-06-21"
+},
+{
+"errata_id": "9010",
+"doc": "RFC4675",
+"type": "Technical",
+"submit_date": "2026-06-20"
+},
+{
+"errata_id": "9013",
+"doc": "RFC10008",
+"type": "Technical",
+"submit_date": "2026-06-23"
+},
+{
+"errata_id": "9016",
+"doc": "RFC10008",
+"type": "Technical",
+"submit_date": "2026-06-23"
+},
+{
+"errata_id": "9017",
+"doc": "RFC826",
+"type": "Editorial",
+"submit_date": "2026-06-26"
+},
+{
+"errata_id": "9018",
+"doc": "RFC7643",
+"type": "Technical",
+"submit_date": "2026-06-29"
+},
+{
+"errata_id": "9019",
+"doc": "RFC20",
+"type": "Editorial",
+"submit_date": "2026-06-29"
+},
+{
+"errata_id": "9020",
+"doc": "RFC9935",
+"type": "Technical",
+"submit_date": "2026-06-25"
+},
+{
+"errata_id": "9021",
+"doc": "RFC9935",
+"type": "Technical",
+"submit_date": "2026-06-25"
+},
+{
+"errata_id": "9022",
+"doc": "RFC9370",
+"type": "Technical",
+"submit_date": "2026-07-07"
+},
+{
+"errata_id": "9023",
+"doc": "RFC9980",
+"type": "Technical",
+"submit_date": "2026-07-05"
+},
+{
+"errata_id": "9026",
+"doc": "RFC5890",
+"type": "Editorial",
+"submit_date": "2026-07-10"
+},
+{
+"errata_id": "9027",
+"doc": "RFC7296",
+"type": "Technical",
+"submit_date": "2026-07-09"
+},
+{
+"errata_id": "9029",
+"doc": "RFC9886",
+"type": "Technical",
+"submit_date": "2026-07-14"
+},
+{
+"errata_id": "9031",
+"doc": "RFC9175",
+"type": "Technical",
+"submit_date": "2026-07-20"
+},
+{
+"errata_id": "9032",
+"doc": "RFC7578",
+"type": "Technical",
+"submit_date": "2026-07-20"
+},
+{
+"errata_id": "9035",
+"doc": "RFC7265",
+"type": "Technical",
+"submit_date": "2026-07-22"
+},
+{
+"errata_id": "9036",
+"doc": "RFC9370",
+"type": "Technical",
+"submit_date": "2026-07-21"
+},
+{
+"errata_id": "9038",
+"doc": "RFC6376",
+"type": "Technical",
+"submit_date": "2026-07-20"
+},
+{
+"errata_id": "9040",
+"doc": "RFC9846",
+"type": "Technical",
+"submit_date": "2026-07-24"
+},
+{
+"errata_id": "9041",
+"doc": "RFC5929",
+"type": "Technical",
+"submit_date": "2026-07-24"
+},
+{
+"errata_id": "9042",
+"doc": "RFC9846",
+"type": "Technical",
+"submit_date": "2026-07-29"
+},
+{
+"errata_id": "9043",
+"doc": "RFC9846",
+"type": "Technical",
+"submit_date": "2026-07-29"
+},
+{
+"errata_id": "9044",
+"doc": "RFC9810",
+"type": "Technical",
+"submit_date": "2026-07-28"
+},
+{
+"errata_id": "9045",
+"doc": "RFC8410",
+"type": "Technical",
+"submit_date": "2026-07-29"
+},
+{
+"errata_id": "9050",
+"doc": "RFC8555",
+"type": "Technical",
+"submit_date": "2026-07-28"
+},
+{
+"errata_id": "9051",
+"doc": "RFC9810",
+"type": "Technical",
+"submit_date": "2026-07-30"
+},
+{
+"errata_id": "9052",
+"doc": "RFC9483",
+"type": "Technical",
+"submit_date": "2026-07-30"
+},
+{
+"errata_id": "9053",
+"doc": "RFC6750",
+"type": "Technical",
+"submit_date": "2026-08-02"
+},
+{
+"errata_id": "9054",
+"doc": "RFC6750",
+"type": "Technical",
+"submit_date": "2026-08-02"
+},
+{
+"errata_id": "9055",
+"doc": "RFC9749",
+"type": "Technical",
+"submit_date": "2026-07-31"
+},
+{
+"errata_id": "9088",
+"doc": "RFC9999",
+"type": "Technical",
+"submit_date": "2026-08-04"
+},
+{
+"errata_id": "9089",
+"doc": "RFC9474",
+"type": "Technical",
+"submit_date": "2026-08-04"
+},
+{
+"errata_id": "9090",
+"doc": "RFC10023",
+"type": "Technical",
+"submit_date": "2026-08-04"
+},
+{
+"errata_id": "9091",
+"doc": "RFC8288",
+"type": "Technical",
+"submit_date": "2026-08-05"
+},
+{
+"errata_id": "9092",
+"doc": "RFC826",
+"type": "Technical",
+"submit_date": "2026-08-05"
+},
+{
+"errata_id": "9095",
+"doc": "RFC8259",
+"type": "Technical",
+"submit_date": "2026-08-06"
+},
+{
+"errata_id": "9097",
+"doc": "RFC3280",
+"type": "Technical",
+"submit_date": "2026-08-07"
+},
+{
+"errata_id": "9134",
+"doc": "RFC9907",
+"type": "Technical",
+"submit_date": "2026-08-15"
+},
+{
+"errata_id": "9137",
+"doc": "RFC10031",
+"type": "Technical",
+"submit_date": "2026-08-16"
+},
+{
+"errata_id": "9143",
+"doc": "RFC7314",
+"type": "Technical",
+"submit_date": "2026-08-18"
+},
+{
+"errata_id": "9144",
+"doc": "RFC6211",
+"type": "Technical",
+"submit_date": "2026-08-19"
+},
+{
+"errata_id": "9145",
+"doc": "RFC6211",
+"type": "Technical",
+"submit_date": "2026-08-19"
+},
+{
+"errata_id": "9147",
+"doc": "RFC3986",
+"type": "Technical",
+"submit_date": "2026-08-27"
+},
+{
+"errata_id": "9148",
+"doc": "RFC10006",
+"type": "Technical",
+"submit_date": "2026-08-27"
+}
+]
+}

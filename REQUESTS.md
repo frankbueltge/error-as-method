@@ -6,6 +6,89 @@ decides for itself and journals the decision.
 
 ---
 
+## From the practice — 2026-08-28 (Session 73) — three predictions lost the same way, Canguilhem finally read, and one sentence of ours that was wrong about our own rules
+
+> tl;dr: I took S72's open thread 2 — the **728** differences in the RFC Editor's record with no verdict
+> on them — and fixed five predictions before measuring. **Two won, three lost, and all three lost in
+> the same direction**, which is the night's result: the unjudged are not made by an absence. They are
+> made by a routing rule that works, and by a box the *reporter* ticks. Marked *editorial* → half have a
+> verdict in **5 days**. Marked *technical* → half are still unjudged at **389 days**, and 617 of the 728
+> are of that kind. Also: **Canguilhem is read** after nine sessions of being named, and it changed the
+> method rather than the argument. And one sentence I sent you last night was false.
+> braucht: one thing, at point 5, and it is about the network rather than about you.
+> frist: none.
+> kontext: `works/2026-08-28-the-unjudged/` · `works/fehlerkataster-029.md` · `works/FALSIFIERS.md`
+> (two rows added) · `journal/2026-08-28.md` · `tools/pulse_nodes.py` (repaired)
+
+**1. The finding, in one line each.** Same institution, same record, same four status words, one written
+norm. A report marked **Editorial** goes first to the RFC Editor: Kaplan–Meier median **5 days**, 5.6 % of
+those filed since 2019 still unjudged. A report marked **Technical** goes to the working group's authors,
+chairs and Area Directors: median **389 days**, **30.2 %** still unjudged. Seventy-eight times the median.
+And the type is not assigned after triage — the IESG's own guidance says *"Errata are classified as
+'technical' or 'editorial'. Please mark the report appropriately"*, so **the person who finds the
+difference chooses which desk will judge it**, before anyone has judged anything. Inside the technical
+path the reports still waiting are *shorter* than the ones already judged, so it is not simply that the
+hard cases went there.
+
+**2. The three losses, which are the reason to believe the finding.** I predicted the un-normed state
+absorbs (it drains: median 115 days, and a fifth of a first year's survivors are judged in the second);
+that it collects where the norm's own rule pre-decides the answer (the opposite: 9.0 % pending on
+obsoleted RFCs against 22.3 % elsewhere); and that it collects where a document has no working group
+(also the opposite, 18.9 % against 21.6 %). Three sentences, one picture — *something is missing* — and
+the picture was the error, not the numbers. Filed as **F-076**. Had I gone looking without predictions I
+would have found the same routing gap and never known I walked in expecting its opposite.
+
+**3. Canguilhem, read.** Nine sessions of naming him in open threads and never reading him; tonight a real
+primary was found — the excerpt *« Statistique, moyenne, norme et anormalité »* from `Le normal et le
+pathologique` (PUF 1979 [1966]), published by Les Classiques des sciences sociales — and read **before**
+the measurement, as the swerve requires. It did not decorate the argument; it took a class of sentences
+away from the night: *« la statistique ne fournit aucun moyen pour décider si l'écart est normal ou
+anormal »*. Since the institution publishes **no** rule about when an erratum must be dealt with (checked
+across five of its texts), and since a threshold may not be derived from the distribution itself, this
+work never says a pending erratum is late. That cost it its best sentence and it is the best thing in the
+night. The excerpt's publisher forbids redistribution, so it is quoted and not committed.
+
+**4. A sentence of ours that was wrong, and it was in the note I sent you last night.** I wrote that
+`tools/pulse_nodes.py` could not be repaired because *"`tools/` is protected for the gate"*. That is
+false: `.github/workflows/research-auto-land.yml` puts `tools/` **inside** the allowlist and protects
+exactly one file in it — its own validator. The repair was landable on the night I declined it. It is
+done now (authored nodes survive a regeneration; every edge endpoint is checked to resolve to a node,
+non-zero exit if not; 63 nodes, 92 edges, zero dangling) and the false claim is filed as **F-079**, with
+the rule: *a constraint remembered from a previous night is a claim about a file and is verified like any
+other claim.*
+
+**5. The one thing I need, and it is small.** This night was designed around comparing today's errata
+record with an archived copy from years ago — which would have turned the pending state into an observed
+exit rate and partly restored the adjudication dates a 2019 database migration overwrote. **Every request
+to `web.archive.org` from this session's network is reset before a byte arrives**, while `archive.org`'s
+availability API answers normally and names a capture. I replaced the design with survival estimation on
+one snapshot, which is better, so nothing is blocked. But if the Internet Archive is reachable and I am
+holding it wrong, that is worth knowing: a whole class of methods for this practice — *what did this
+public record say two years ago?* — has no route from here.
+
+**6. Prediction scoring.** Five fixed in `PREDICTIONS.md` before any measuring code existed. **P5** (the
+instrument check) and **P4** (the routing prediction) confirmed; **P1, P2, P3** lost, two reversed. None
+rewritten — F-059 forbids it. P5's winning is what makes the survival curve believable: the same estimate
+over the migration-contaminated dates says 85.0 % unjudged at 90 days where the clean cohort says 51.8 %.
+And the dump was checked against the RFC Editor's own pages at a seeded sample: **29 of 29 agree**, a
+negative result reported as one.
+
+**7. Your catalogue numbers.** `atlas/werke.json` **520** (unchanged eight nights) · `papers/index.json`
+**1,183** · `datasets/register.json` **59**; all 200, declared `count` and `len(entries)` agreeing, every
+term under both matching rules. The papers feed **gained 20** after losing 14 the night before — it moves
+in both directions, which is now two consecutive nights of direct evidence for the changed-corpus
+explanation S70 and S71 left live. *Canguilhem* and *Simondon* remain 0 under both rules, tenth session —
+and Canguilhem is now zero in your catalogue and read in my work, which is the right way round.
+
+**8. Two old asks renewed, neither blocking.** S60's `archive/protocols/` (v2 and the 2026-07-15
+amendment), thirteen sessions old. And S58's BLOCKING gate item, thirteen days old, which again did not
+bite: tonight touches `works/`, `journal/`, `pulse/`, `tools/` and this file, and commits no third-party
+bytes.
+
+**Status:** open · nothing owed
+
+---
+
 ## From the practice — 2026-08-27 (Session 72) — the object changed, the finding survived smaller, and one small offer
 
 > tl;dr: S71 wrote the condition under which its own two-norms finding would be worth nothing — that it

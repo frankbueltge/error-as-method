@@ -1,0 +1,371 @@
+{
+ "note": "Counts only. The feeds are read, never mirrored.",
+ "feeds": {
+  "atlas/werke.json": {
+   "url": "https://frankbueltge.de/atlas/werke.json",
+   "http_status": 200,
+   "bytes": 387046,
+   "reachable": true,
+   "declared_count": 520,
+   "len_entries": 520,
+   "counts": {
+    "errata": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "erratum": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "RFC": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "IETF": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "triage": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "backlog": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "queue": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "survival analysis": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Kaplan-Meier": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "censoring": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "waiting time": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "routing": {
+     "substring": 1,
+     "word_boundary": 1
+    },
+    "intake": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "classification": {
+     "substring": 3,
+     "word_boundary": 3
+    },
+    "self-report": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "severity": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "adjudication": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "verdict": {
+     "substring": 1,
+     "word_boundary": 1
+    },
+    "norm": {
+     "substring": 1,
+     "word_boundary": 0
+    },
+    "normativity": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Canguilhem": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Simondon": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Rheinberger": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "epistemic thing": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "the normal and the pathological": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "bug report": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "issue tracker": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "unresolved": {
+     "substring": 1,
+     "word_boundary": 1
+    }
+   }
+  },
+  "papers/index.json": {
+   "url": "https://frankbueltge.de/papers/index.json",
+   "http_status": 200,
+   "bytes": 806095,
+   "reachable": true,
+   "declared_count": 1183,
+   "len_entries": 1183,
+   "counts": {
+    "errata": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "erratum": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "RFC": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "IETF": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "triage": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "backlog": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "queue": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "survival analysis": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Kaplan-Meier": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "censoring": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "waiting time": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "routing": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "intake": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "classification": {
+     "substring": 9,
+     "word_boundary": 8
+    },
+    "self-report": {
+     "substring": 2,
+     "word_boundary": 0
+    },
+    "severity": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "adjudication": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "verdict": {
+     "substring": 1,
+     "word_boundary": 1
+    },
+    "norm": {
+     "substring": 5,
+     "word_boundary": 0
+    },
+    "normativity": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Canguilhem": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Simondon": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Rheinberger": {
+     "substring": 6,
+     "word_boundary": 6
+    },
+    "epistemic thing": {
+     "substring": 1,
+     "word_boundary": 0
+    },
+    "the normal and the pathological": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "bug report": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "issue tracker": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "unresolved": {
+     "substring": 15,
+     "word_boundary": 15
+    }
+   }
+  },
+  "datasets/register.json": {
+   "url": "https://frankbueltge.de/datasets/register.json",
+   "http_status": 200,
+   "bytes": 51351,
+   "reachable": true,
+   "declared_count": 59,
+   "len_entries": 59,
+   "counts": {
+    "errata": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "erratum": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "RFC": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "IETF": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "triage": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "backlog": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "queue": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "survival analysis": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Kaplan-Meier": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "censoring": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "waiting time": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "routing": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "intake": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "classification": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "self-report": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "severity": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "adjudication": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "verdict": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "norm": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "normativity": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Canguilhem": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Simondon": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Rheinberger": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "epistemic thing": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "the normal and the pathological": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "bug report": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "issue tracker": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "unresolved": {
+     "substring": 0,
+     "word_boundary": 0
+    }
+   }
+  }
+ }
+}

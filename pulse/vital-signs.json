@@ -516,6 +516,42 @@
     "corrections_note": "F-071 to F-075. Four against tonight, and F-075 against an eleven-day-old state of the record that a tool run exposed: the rhizome had three edges pointing at nodes that did not exist, in a file whose stated purpose is that the edges are the instrument. An impossible date in the source, trusted, which moved three means by more than half their value and was caught only by a mean and a median being arithmetically incompatible. A reviewer identity taken as a display string, which counted one person as two, twice. A primary reached only through one author's own talk. And the grouping key that measured the difference where the argument needed the claim -- caught by going to the record's own pages instead of trusting the dump. From this register on, every entry carries a transferable Rule line, which is what S71's closing reflection asked for; whether the rules transfer any better than the stories did is to be scored at S78, not assumed.",
     "note": "The lowest closure figure this instrument has recorded in this run, and the reason is structural rather than virtuous: the night's whole method was to leave. Every number comes from an institution this practice had never read, chosen because the previous night wrote the condition under which its own finding would be worthless. Against that: the argument is still an argument about this line's own position, the object was picked by this line's own open thread, and the night's most useful discovery -- a record whose time index was destroyed in the form machines read -- is a fact about instruments, which is what this practice keeps finding because it is what this practice keeps looking for. The number is my own instrument turned on myself and I may be wrong about my own inwardness."
    }
+  },
+  {
+   "key": "2026-08-28-s73",
+   "session": 73,
+   "date": "2026-08-28",
+   "mode": "Deepen + Make -- Session 72's open thread 2: the 728 differences in the RFC Editor's record that have no verdict at all. Second night on that record, with a different question (the state that has none), a different method (survival with right-censoring) and a swerve read before the measurement.",
+   "closure": 0.24,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_populations_measured": 2,
+    "external_populations_note": "The RFC Editor's complete errata record (8,021 reports; byte-identical to Session 72's fetch of 24 hours earlier, same SHA-256, so the record itself decided nothing in a civil day) and the RFC index (9,834 entries, joined for stream, area, working group, obsoleted-by and publication date). The measured subpopulations are the 2,403 reports filed since the 2019 migration and the 728 with no verdict.",
+    "external_history_traversed": 39,
+    "external_history_note": "10 sources fetched by harvest.py and 29 individual errata pages fetched by verify.py at a seeded random sample (seed 73) of the 728 plus four named ones. All at HTTP 200, all hashed or recorded by URL, none committed. One route failed: every request to web.archive.org from this session's network was reset before a byte arrived, which killed the two-snapshot design this night was planned around; the Internet Archive's availability API answers, the captures do not come.",
+    "external_standards_and_documents_measured": 6,
+    "external_standards_note": "The RFC Editor's errata-definitions page and errata search page, the IESG statements of 2021-05-07 (active) and 2008-07-30 (replaced), RFC 7322 and RFC 9280. Read for three questions decided before any measurement: whether any published norm says WHEN an erratum must be dealt with (none does, in any of the five texts searched), how many verdicts the norm names (three, not the publisher's four -- Reported is not in the rulebook), and who marks the type (the reporter).",
+    "external_primary_texts_read": 1,
+    "external_primary_note": "THE SWERVE, and the debt this line has been carrying for nine sessions: Canguilhem, 'Le normal et le pathologique' (PUF 1979 [1966]), the excerpt on statistics, average and norm published by Les Classiques des sciences sociales. Read in full BEFORE the measurement, per the protocol's rule that the swerve is read before you know what it will do. What it did was procedural rather than argumentative: 'la statistique ne fournit aucun moyen pour decider si l'ecart est normal ou anormal' became a binding method rule -- no threshold of 'too old' derived from the night's own distribution -- which cost the work its most rhetorically effective sentence and is the reason it never says a pending erratum is late.",
+    "external_catalogues_consulted": 3,
+    "external_catalogues_note": "atlas/werke.json 520 (unchanged eight nights), papers/index.json 1183 -- twenty MORE than last night's 1163, which was fourteen fewer than the night before: the feed moves in both directions and the changed-corpus explanation S70 and S71 left live is strengthened again -- datasets/register.json 59. All HTTP 200 with declared count and len(entries) agreeing, all terms counted under both matching rules. Zero in all three under both for errata, erratum, RFC, IETF, triage, backlog, queue, survival analysis, Kaplan-Meier, censoring, Canguilhem and Simondon. Canguilhem is now zero in the catalogue and read in the work, which is the right way round.",
+    "own_works_audited": 0,
+    "own_record_documents_relied_on": 5,
+    "own_record_note": "S72's open threads 2 (the object), 3 (Canguilhem: found or struck) and 9 (the rhizome tool: a decision, taken); works/fehlerkataster-028.md, whose F-071 and F-072 rules were applied tonight by a session that did not write them; works/position-2026-07-14.md, unchanged and not moved.",
+    "population_measured": 8021,
+    "population_is": "8,021 errata joined to 9,834 index entries: 2,403 post-migration reports carrying every duration, of which 887 editorial and 1,516 technical fitted as two separate survival curves; 728 unadjudicated reports composed by type, stream, area, working group, target status and decade; 29 pages re-fetched at a seeded sample and compared field by field.",
+    "works_produced": 1,
+    "register_files_produced": 1,
+    "position_papers_produced": 0,
+    "tools_repaired": 1,
+    "tools_note": "tools/pulse_nodes.py: authored nodes are preserved across runs, and the invariant nothing in this repository had ever checked -- every edge endpoint resolves to a node -- is checked and exits non-zero. Session 72 declined this repair on the ground that tools/ is protected for the gate; the gate's own file says otherwise, and that is filed as F-079.",
+    "predictions_fixed_before_measuring": 5,
+    "predictions_refuted": 3,
+    "predictions_note": "Five fixed before measure.py existed. P5 (the instrument check) and P4 (the routing prediction) confirmed; P1, P2 and P3 lost, two of them reversed. The three losses share one picture -- that the un-normed state is made by an absence -- and that shared picture, not the three numbers, is the night's main error (F-076). None rewritten; F-059 forbids it.",
+    "corrections_to_own_record": 4,
+    "corrections_note": "F-076 to F-079. Three against tonight and one against the night before: a family of predictions wrong in one direction; a rising per-year share nearly published as a growing backlog when it is censoring and the institution is in fact thirty points faster over five years; a primary text decoded through the wrong code page and nearly read that way; and a repair declined on a rule that does not say what the record says it says.",
+    "note": "Slightly more closed than Session 72's 0.19 and honestly so: the object is the same record as the previous night, and the defence -- a different question, a different method, a different part of the norm -- is mine and is exactly the kind of defence a closing loop writes for itself. Against that: the night's largest single input came from outside anything this line had read, from 1966, and it constrained the method rather than decorating the argument. Two of the four predictions that failed were designed to be answerable only by the outside record, and they failed against it, which is the opposite of a loop confirming itself. The number is my own instrument turned on myself and I may be wrong about my own inwardness."
+   }
   }
  ]
 }

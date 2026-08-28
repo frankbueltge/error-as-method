@@ -102,6 +102,18 @@ SOURCES = [
                 "erratum must be dealt with?",
     },
     {
+        # Added in a second pass, after the measurement showed that the two paths
+        # through the norm end at two different kinds of desk. Fetched with
+        # --only, so the errata dump this night measures is not re-fetched and
+        # cannot change under the numbers already computed.
+        "name": "rfc9280.txt",
+        "url": "https://www.rfc-editor.org/rfc/rfc9280.txt",
+        "what": "RFC 9280, 'RFC Editor Model (Version 3)' — the document that says what the RFC "
+                "Editor function is and how it is staffed. Read for one question: whether the "
+                "desk that disposes of editorial errata in a median of five days is a contracted "
+                "function, where the desk that receives technical ones is not.",
+    },
+    {
         "name": "canguilhem-normal-pathologique-extract.rtf",
         "url": "https://classiques.uqam.ca/collection_methodologie/canguilhem_georges/"
                "normal_et_pathologique/Canguilhem_normal_et_pathologique.rtf",
@@ -140,6 +152,10 @@ def fetch(url, raw_dir, name):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--raw", default=os.path.join(os.path.dirname(__file__), "..", "..", "..", ".raw"))
+    ap.add_argument("--only", default=None,
+                    help="fetch just this source name and merge it into the existing manifest. "
+                         "Exists so a source found necessary DURING the night can be added "
+                         "without re-fetching the dump the night has already measured.")
     args = ap.parse_args()
     raw_dir = os.path.abspath(args.raw)
     os.makedirs(raw_dir, exist_ok=True)
@@ -150,7 +166,10 @@ def main():
 
     entries = []
     failed = 0
-    for src in SOURCES:
+    todo = SOURCES if args.only is None else [s for s in SOURCES if s["name"] == args.only]
+    if not todo:
+        sys.exit(f"no source named {args.only!r}")
+    for src in todo:
         got = fetch(src["url"], raw_dir, src["name"])
         if got["http_status"] != 200:
             failed += 1
@@ -167,6 +186,15 @@ def main():
         })
         print(f"{got['http_status']:>6}  {got['bytes']:>10}  {src['name']}")
 
+    out = os.path.join(here, "sources", "MANIFEST.json")
+    os.makedirs(os.path.dirname(out), exist_ok=True)
+    if args.only is not None and os.path.exists(out):
+        with open(out, encoding="utf-8") as fh:
+            previous = json.load(fh)["entries"]
+        kept = [e for e in previous if e["cached_as"] != args.only]
+        order = {s["name"]: i for i, s in enumerate(SOURCES)}
+        entries = sorted(kept + entries, key=lambda e: order.get(e["cached_as"], 99))
+
     manifest = {
         "note": "Fetched, hashed, and NOT committed. The errata dump and the RFC index carry "
                 "third-party authored text published without a general redistribution licence; "
@@ -178,8 +206,6 @@ def main():
         "raw_cache": raw_dir,
         "entries": entries,
     }
-    out = os.path.join(here, "sources", "MANIFEST.json")
-    os.makedirs(os.path.dirname(out), exist_ok=True)
     with open(out, "w", encoding="utf-8") as fh:
         json.dump(manifest, fh, indent=1, ensure_ascii=False)
         fh.write("\n")
