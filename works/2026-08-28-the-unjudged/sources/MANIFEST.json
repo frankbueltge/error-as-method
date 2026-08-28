@@ -1,0 +1,105 @@
+{
+ "note": "Fetched, hashed, and NOT committed. The errata dump and the RFC index carry third-party authored text published without a general redistribution licence; the norm pages are the IETF's and the RFC Editor's own; the Canguilhem extract carries an explicit prohibition on redistribution. All of it lives only in an uncommitted raw cache outside the repository. This work quotes within citation length and commits derived aggregates. Re-fetch and compare the sha256 to reproduce.",
+ "raw_cache": "/home/user/.raw",
+ "entries": [
+  {
+   "url": "https://www.rfc-editor.org/errata.json",
+   "final_url": "https://www.rfc-editor.org/api/v1/errata.json",
+   "http_status": 200,
+   "bytes": 11640398,
+   "sha256": "6d1fec3466dfc2aadd8c5fe60e67de9876a7e417dafc180b0d4bdf2a4030c8eb",
+   "fetched": "2026-08-28T23:07:58Z",
+   "what": "The RFC Editor's complete errata record: every report against every RFC, with its status, type, section, submitted and corrected text, submitter, verifier and dates. Tonight's population is the subset of it that has no verdict.",
+   "cached_as": "errata.json",
+   "committed": false
+  },
+  {
+   "url": "https://www.rfc-editor.org/rfc-index.xml",
+   "final_url": "https://www.rfc-editor.org/rfc-index.xml",
+   "http_status": 200,
+   "bytes": 13707514,
+   "sha256": "965aaf35605104e629950b87c190cbdaa107b3e4141f1f7c106864ae489315a0",
+   "fetched": "2026-08-28T23:07:58Z",
+   "what": "The RFC index: per-RFC publication date, stream, current status and the obsoletes/obsoleted-by relations. Tonight joins against stream and obsoleted-by to ask whether a difference waits longer where the applier of the norm is structurally absent.",
+   "cached_as": "rfc-index.xml",
+   "committed": false
+  },
+  {
+   "url": "https://www.rfc-editor.org/errata-definitions/",
+   "final_url": "https://www.rfc-editor.org/series/rfc-errata/",
+   "http_status": 200,
+   "bytes": 50939,
+   "sha256": "0ad21cc7b8915571d5204400d1aa0f304c961f8b08a989d4dc0687b25cd6e23e",
+   "fetched": "2026-08-28T23:07:59Z",
+   "what": "The RFC Editor's own definitions of the four errata statuses and two types — the norm as the publisher states it, including the definition of Reported.",
+   "cached_as": "errata-definitions.html",
+   "committed": false
+  },
+  {
+   "url": "https://www.rfc-editor.org/errata.php",
+   "final_url": "https://errata.rfc-editor.org/search/",
+   "http_status": 200,
+   "bytes": 6917,
+   "sha256": "5f9f6c548912f2e4c87687d00b56e05967e149367ac75ac1d42f4fd1b200bd67",
+   "fetched": "2026-08-28T23:08:00Z",
+   "what": "The errata search page: the public surface on which a Reported erratum stands beside a Verified one. Fetched to check what a reader is told about waiting.",
+   "cached_as": "errata-search.html",
+   "committed": false
+  },
+  {
+   "url": "https://www.ietf.org/about/groups/iesg/statements/processing-errata-ietf-stream/",
+   "final_url": "https://datatracker.ietf.org/doc/statement-iesg-iesg-processing-of-rfc-errata-for-the-ietf-stream-20210507/",
+   "http_status": 200,
+   "bytes": 31409,
+   "sha256": "2895a8d1a5ad90f9238aabc4e0cb6dd0b61707c45c2505e533f4254a1b6edb42",
+   "fetched": "2026-08-28T23:08:01Z",
+   "what": "IESG Statement, 7 May 2021, active: how errata on the IETF stream are judged. Read for one thing tonight — whether it states any norm about WHEN.",
+   "cached_as": "iesg-statement-2021.html",
+   "committed": false
+  },
+  {
+   "url": "https://datatracker.ietf.org/doc/statement-iesg-iesg-processing-of-rfc-errata-for-the-ietf-stream-20210507/",
+   "final_url": "https://datatracker.ietf.org/doc/statement-iesg-iesg-processing-of-rfc-errata-for-the-ietf-stream-20210507/",
+   "http_status": 200,
+   "bytes": 31409,
+   "sha256": "909de16af9913ffd296044cb22693f7a5909d78897f78d559f76e7871822c332",
+   "fetched": "2026-08-28T23:08:01Z",
+   "what": "The same statement in the datatracker, which carries its date and status. Fetched as the dated copy of the norm.",
+   "cached_as": "iesg-statement-2021-datatracker.html",
+   "committed": false
+  },
+  {
+   "url": "https://www.ietf.org/about/groups/iesg/statements/processing-rfc-errata/",
+   "final_url": "https://datatracker.ietf.org/doc/statement-iesg-iesg-processing-of-rfc-errata-for-the-ietf-stream-20080730/",
+   "http_status": 200,
+   "bytes": 30624,
+   "sha256": "5e3f0ec95dacd95dd6179653bf114bda430646d641234349dcea3921db2352ed",
+   "fetched": "2026-08-28T23:08:02Z",
+   "what": "IESG Statement, 30 July 2008, marked Replaced: the previous version of the same norm, and the one in force over most of the waiting this work measures.",
+   "cached_as": "iesg-statement-2008.html",
+   "committed": false
+  },
+  {
+   "url": "https://www.rfc-editor.org/rfc/rfc7322.txt",
+   "final_url": "https://www.rfc-editor.org/rfc/rfc7322.txt",
+   "http_status": 200,
+   "bytes": 49915,
+   "sha256": "2098659cbbd189d9c42ce7bf4922f7d575885ff645811a36aaba61a212d55f46",
+   "fetched": "2026-08-28T23:08:02Z",
+   "what": "RFC 7322, the RFC Style Guide — the RFC Editor's own procedural document. Read for the same single question: is there a written norm about when an erratum must be dealt with?",
+   "cached_as": "rfc7322.txt",
+   "committed": false
+  },
+  {
+   "url": "https://classiques.uqam.ca/collection_methodologie/canguilhem_georges/normal_et_pathologique/Canguilhem_normal_et_pathologique.rtf",
+   "final_url": "https://classiques.uqam.ca/collection_methodologie/canguilhem_georges/normal_et_pathologique/Canguilhem_normal_et_pathologique.rtf",
+   "http_status": 200,
+   "bytes": 387833,
+   "sha256": "8ec9bec693e833d507a303a2efd0d76675c644e5eca2475504d354eb72da05c0",
+   "fetched": "2026-08-28T23:08:03Z",
+   "what": "Georges Canguilhem, 'Le normal et le pathologique' (Paris: PUF, coll. Galien, 1979 [1st ed. 1966]), the excerpt pp. 96-117, 155-157, 175-179 published by Les Classiques des sciences sociales (UQAC) under the title 'Statistique, moyenne, norme et anormalite'. THE SWERVE: read before the measurement, not after. Named unread in this line's open threads for nine sessions. Its own use policy forbids redistribution, so it is read and quoted, never committed.",
+   "cached_as": "canguilhem-normal-pathologique-extract.rtf",
+   "committed": false
+  }
+ ]
+}
