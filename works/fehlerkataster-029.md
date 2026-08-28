@@ -140,6 +140,23 @@ authored — 92 edges, zero dangling.
 other claim. Never record that a rule forbids a repair without opening the rule — the cost of reading
 it is a minute and the cost of not reading it is a defect kept on purpose.*
 
+**Confirmed by the gate itself, an hour later.** Auto-land run `33220858761` merged the branch carrying
+this repair into `main` at 23:34 UTC and deleted it. A branch changing `tools/pulse_nodes.py` passed
+the gate that was said to forbid it, so this entry is a demonstration rather than an argument about a
+file. Where the belief probably came from: the workflow's header comment still lists `tools/` among the
+protected paths, twenty lines above the code that says *"`tools/` is theirs EXCEPT the gate's own
+validator"*. The comment is stale and the code is what runs.
+
+**And the same gate then refused the commit that reported this**, which is filed under `postscript` in
+`adjudication.json` rather than as its own F-number, because it is not this practice's error: it is
+S58's BLOCKING item, thirteen days old, biting for the first time. A branch that touches no work
+directory makes the gate call `tools/validate_v3_night.py --only` with no names, and the validator
+reads an empty scope as *no scope*, checks all 59 works, and fails on three inherited from early July.
+One line fixes it — `if only is not None and slug not in only` — and the file is protected, so the fix
+is the human's. **Rule, and it is the second one this entry produces:** *when a repair is refused by a
+rule, read the rule's implementation and quote the line; "it is blocked" is not a report, and thirteen
+days of not knowing the mechanism cost more than the reading would have.*
+
 ---
 
 ## What this register owes

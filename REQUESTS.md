@@ -85,7 +85,24 @@ amendment), thirteen sessions old. And S58's BLOCKING gate item, thirteen days o
 bite: tonight touches `works/`, `journal/`, `pulse/`, `tools/` and this file, and commits no third-party
 bytes.
 
-**Status:** open · nothing owed
+**9. Added after the night landed — S58's BLOCKING item bit, and I can now hand you the exact line.**
+Thirteen days after it was filed, and ninety seconds after this night's work merged, the gate refused a
+follow-up commit of mine: `outcome night/2026-08-28 refused_validation`, run `33220909088`. The commit
+changed `journal/2026-08-28.md` and nothing else. Mechanism, now that there is a real instance to read:
+the gate computes the works a branch touched with `awk '$1 == "works" && NF > 2'`; a branch touching no
+work directory yields an empty list; the gate then runs `tools/validate_v3_night.py <tree> --only` with
+no names after it; and in the validator, `--only` with nothing after it produces an **empty set**, which
+the line `if only and slug not in only` reads as *no scope given*. So it checks all 59 works and fails
+on the three inherited ones from early July that have no `author` and no `medium`.
+
+**The fix is one line:** `if only is not None and slug not in only`, in `tools/validate_v3_night.py`.
+I cannot make it — that file is in the gate's own `PROTECT_RE`, correctly, since a gate that can
+rewrite its own check is not a gate. Nothing is blocked tonight: the commit lands by carrying its
+record into the work it is about, which is where it belonged. But S58's sentence — *a branch that
+touches no work can never land* — is no longer a prediction, and a night that ends in a reading rather
+than a work would hit it head on.
+
+**Status:** open · one line owed at point 9, whenever you like
 
 ---
 

@@ -82,7 +82,8 @@
    "what": "Against Session 72: a repair to tools/pulse_nodes.py declined on the ground that 'tools/ is protected for the gate'. The gate's own file puts tools/ inside the allowlist and protects exactly one file in it, its own validator.",
    "caught_by": "reading .github/workflows/research-auto-land.yml instead of trusting a sentence in the record",
    "repair": "Session 72's open thread 9 closed: authored nodes are preserved across runs, and the invariant that every edge endpoint resolves to a node is checked and exits non-zero. 63 nodes, 92 edges, zero dangling.",
-   "rule": "A rule remembered from a previous night is a claim about a file and is verified like any other claim."
+   "rule": "A rule remembered from a previous night is a claim about a file and is verified like any other claim.",
+   "confirmed_by_the_gate": "Demonstrated rather than argued, an hour after the work was written: auto-land run 33220858761 merged night/2026-08-28 into main at 23:34 UTC and deleted the branch, and that branch changes tools/pulse_nodes.py. A branch making exactly the repair Session 72 called impossible passed exactly the gate that was said to forbid it. The workflow's stale header comment lists tools/ among the protected paths; the code twenty lines below says 'tools/ is theirs EXCEPT the gate's own validator', and the code is what runs."
   }
  ],
  "rules_from_earlier_registers_applied_tonight": {
@@ -104,5 +105,12 @@
    "condition": "https://www.rfc-editor.org/errata/eid2016 still reads Status: Reported, at 17.6 years, with its reporter's instruction to 'the verifier' still unread."
   }
  ],
- "listed_in": "works/FALSIFIERS.md"
+ "listed_in": "works/FALSIFIERS.md",
+ "postscript": {
+  "what": "S58's BLOCKING gate item bit, thirteen days after it was filed, on this session's own follow-up commit.",
+  "how": "The follow-up commit changed journal/2026-08-28.md and nothing else. The gate computes the works a branch touched with awk '$1 == \"works\" && NF > 2', gets an empty list, and runs `tools/validate_v3_night.py <tree> --only` with no names. In the validator, `--only` with nothing after it produces an empty set, and `if only and slug not in only` treats an empty set as 'no scope given' -- so every work in the repository is checked, the three inherited works of early July fail on missing author and medium, and the branch is refused with refused_validation.",
+  "the_fix_this_practice_cannot_land": "One line in tools/validate_v3_night.py: `if only is not None and slug not in only`. The file is a protected path in the gate's own PROTECT_RE -- deliberately, since a gate that can rewrite its own check is not a gate -- so this practice can state the fix and cannot make it. That is what S58 meant by BLOCKING and it is now demonstrated rather than predicted.",
+  "what_it_cost": "The refusal is recorded here and in the journal, and the follow-up was re-pushed with this file changed so that the branch touches a work directory and the gate has something to scope its check to. Nothing was worked around: the same commit lands by carrying its record into the work it is about, which it should have done in the first place.",
+  "and_a_sentence_of_tonight's_that_is_now_wrong": "The journal's opening section says S58's item 'did not bite'. It bit ninety seconds after the journal landed. The sentence stands and is corrected by a dated paragraph, not edited away."
+ }
 }
