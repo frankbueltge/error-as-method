@@ -1,0 +1,2887 @@
+{
+ "night": "2026-08-29",
+ "session": 74,
+ "measured_utc": "2026-08-29T00:00:00+00:00",
+ "population": {
+  "n": 67272,
+  "window": [
+   "2024-01-01",
+   "2025-07-01"
+  ],
+  "products": [
+   "Core",
+   "DevTools",
+   "Firefox",
+   "Firefox for Android",
+   "Firefox for iOS",
+   "Toolkit",
+   "WebExtensions"
+  ],
+  "note": "publicly visible bugs only; security bugs are hidden from an unauthenticated client and are not in this population",
+  "min_age_days": 424,
+  "max_age_days": 970,
+  "min_age_weeks_vs_policy": 60.6
+ },
+ "P5a_vocabulary": {
+  "claim": "zero bugs in W carry a pre-2020 severity value",
+  "severity_counts": {
+   "--": 28721,
+   "S3": 15171,
+   "S4": 13776,
+   "N/A": 7689,
+   "S2": 1879,
+   "S1": 24,
+   "normal": 10,
+   "critical": 2
+  },
+  "pre_2020_values_present": {
+   "normal": 10,
+   "critical": 2
+  },
+  "pre_2020_total": 12,
+  "values_outside_both_vocabularies": {},
+  "won": false
+ },
+ "type_counts": {
+  "defect": 38753,
+  "task": 20195,
+  "enhancement": 8324
+ },
+ "by_type": {
+  "defect": {
+   "n": 38753,
+   "unnormed": 10403,
+   "unnormed_pct": 26.84,
+   "na": 161,
+   "na_pct": 0.42,
+   "triaged_by_policy": 28124,
+   "triaged_by_policy_pct": 72.57,
+   "open": 8647,
+   "open_unnormed": 884,
+   "open_unnormed_pct": 10.22
+  },
+  "task": {
+   "n": 20195,
+   "unnormed": 12988,
+   "unnormed_pct": 64.31,
+   "na": 5603,
+   "na_pct": 27.74,
+   "triaged_by_policy": 0,
+   "triaged_by_policy_pct": 0.0,
+   "open": 3741,
+   "open_unnormed": 1732,
+   "open_unnormed_pct": 46.3
+  },
+  "enhancement": {
+   "n": 8324,
+   "unnormed": 5330,
+   "unnormed_pct": 64.03,
+   "na": 1925,
+   "na_pct": 23.13,
+   "triaged_by_policy": 0,
+   "triaged_by_policy_pct": 0.0,
+   "open": 2786,
+   "open_unnormed": 1639,
+   "open_unnormed_pct": 58.83
+  }
+ },
+ "P1_routing_gap": {
+  "claim": "unnormed%(enhancement) - unnormed%(defect) >= 15 pp, enhancement higher",
+  "defect_unnormed_pct": 26.84,
+  "enhancement_unnormed_pct": 64.03,
+  "task_unnormed_pct": 64.31,
+  "gap_pp": 37.19,
+  "gap_pp_open_only": 48.61,
+  "won": true
+ },
+ "P2_norm_arrives_on_defect": {
+  "claim": "unnormed% for type=defect < 10%",
+  "value": 26.84,
+  "n": 38753,
+  "won": false
+ },
+ "by_product": {
+  "Core": {
+   "n": 38163,
+   "unnormed": 16667,
+   "unnormed_pct": 43.67,
+   "na": 2858,
+   "na_pct": 7.49,
+   "triaged_by_policy": 17202,
+   "triaged_by_policy_pct": 45.08,
+   "open": 7807,
+   "open_unnormed": 2152,
+   "open_unnormed_pct": 27.57
+  },
+  "Firefox": {
+   "n": 12342,
+   "unnormed": 5990,
+   "unnormed_pct": 48.53,
+   "na": 1440,
+   "na_pct": 11.67,
+   "triaged_by_policy": 4334,
+   "triaged_by_policy_pct": 35.12,
+   "open": 2641,
+   "open_unnormed": 1014,
+   "open_unnormed_pct": 38.39
+  },
+  "Firefox for Android": {
+   "n": 8136,
+   "unnormed": 2504,
+   "unnormed_pct": 30.78,
+   "na": 2000,
+   "na_pct": 24.58,
+   "triaged_by_policy": 3438,
+   "triaged_by_policy_pct": 42.26,
+   "open": 2071,
+   "open_unnormed": 324,
+   "open_unnormed_pct": 15.64
+  },
+  "Toolkit": {
+   "n": 5162,
+   "unnormed": 1979,
+   "unnormed_pct": 38.34,
+   "na": 1129,
+   "na_pct": 21.87,
+   "triaged_by_policy": 1621,
+   "triaged_by_policy_pct": 31.4,
+   "open": 1717,
+   "open_unnormed": 382,
+   "open_unnormed_pct": 22.25
+  },
+  "DevTools": {
+   "n": 2594,
+   "unnormed": 1256,
+   "unnormed_pct": 48.42,
+   "na": 19,
+   "na_pct": 0.73,
+   "triaged_by_policy": 1291,
+   "triaged_by_policy_pct": 49.77,
+   "open": 742,
+   "open_unnormed": 356,
+   "open_unnormed_pct": 47.98
+  },
+  "WebExtensions": {
+   "n": 788,
+   "unnormed": 248,
+   "unnormed_pct": 31.47,
+   "na": 242,
+   "na_pct": 30.71,
+   "triaged_by_policy": 229,
+   "triaged_by_policy_pct": 29.06,
+   "open": 173,
+   "open_unnormed": 10,
+   "open_unnormed_pct": 5.78
+  },
+  "Firefox for iOS": {
+   "n": 87,
+   "unnormed": 77,
+   "unnormed_pct": 88.51,
+   "na": 1,
+   "na_pct": 1.15,
+   "triaged_by_policy": 9,
+   "triaged_by_policy_pct": 10.34,
+   "open": 23,
+   "open_unnormed": 17,
+   "open_unnormed_pct": 73.91
+  }
+ },
+ "untriaged_component": {
+  "n": 589,
+  "pct_of_W": 0.88,
+  "unnormed_pct": 88.12,
+  "by_type": {
+   "defect": 522,
+   "enhancement": 61,
+   "task": 6
+  },
+  "what": "the component a reporter picks when they decline to name a desk; the policy's definition of Triaged excludes it by name"
+ },
+ "disposal_by_type": {
+  "defect": {
+   "n": 38753,
+   "closed": 30106,
+   "closed_pct": 77.69,
+   "closed_without_a_severity": 9519,
+   "closed_without_a_severity_pct": 31.62,
+   "resolutions": {
+    "FIXED": 11753,
+    "INCOMPLETE": 9390,
+    "DUPLICATE": 4400,
+    "WORKSFORME": 1926,
+    "INVALID": 1523,
+    "WONTFIX": 956,
+    "MOVED": 100,
+    "INACTIVE": 58
+   }
+  },
+  "enhancement": {
+   "n": 8324,
+   "closed": 5538,
+   "closed_pct": 66.53,
+   "closed_without_a_severity": 3691,
+   "closed_without_a_severity_pct": 66.65,
+   "resolutions": {
+    "FIXED": 4270,
+    "DUPLICATE": 668,
+    "WONTFIX": 253,
+    "INVALID": 195,
+    "WORKSFORME": 93,
+    "INCOMPLETE": 37,
+    "MOVED": 12,
+    "INACTIVE": 10
+   }
+  },
+  "task": {
+   "n": 20195,
+   "closed": 16454,
+   "closed_pct": 81.48,
+   "closed_without_a_severity": 11256,
+   "closed_without_a_severity_pct": 68.41,
+   "resolutions": {
+    "FIXED": 15020,
+    "INVALID": 448,
+    "DUPLICATE": 427,
+    "WONTFIX": 308,
+    "WORKSFORME": 147,
+    "MOVED": 77,
+    "INCOMPLETE": 23,
+    "INACTIVE": 4
+   }
+  }
+ },
+ "flow": {
+  "total": 67272,
+  "by_type": {
+   "defect": 38753,
+   "task": 20195,
+   "enhancement": 8324
+  },
+  "type_to_norm_state": {
+   "defect|N/A": 161,
+   "defect|none": 10403,
+   "defect|severity": 28189,
+   "enhancement|N/A": 1925,
+   "enhancement|none": 5330,
+   "enhancement|severity": 1069,
+   "task|N/A": 5603,
+   "task|none": 12988,
+   "task|severity": 1604
+  },
+  "norm_state_to_fate": {
+   "N/A|closed otherwise": 574,
+   "N/A|fixed": 4866,
+   "N/A|still open": 2249,
+   "none|closed otherwise": 8216,
+   "none|fixed": 16250,
+   "none|still open": 4255,
+   "severity|closed otherwise": 12265,
+   "severity|fixed": 9927,
+   "severity|still open": 8670
+  },
+  "fate_of_the_unnormed": {
+   "closed otherwise": 8216,
+   "fixed": 16250,
+   "still open": 4255
+  },
+  "fate_by_norm_state_and_type": {
+   "defect|N/A|closed otherwise": 26,
+   "defect|N/A|fixed": 125,
+   "defect|N/A|still open": 10,
+   "defect|none|closed otherwise": 6328,
+   "defect|none|fixed": 3191,
+   "defect|none|still open": 884,
+   "defect|severity|closed otherwise": 11999,
+   "defect|severity|fixed": 8437,
+   "defect|severity|still open": 7753,
+   "enhancement|N/A|closed otherwise": 153,
+   "enhancement|N/A|fixed": 1025,
+   "enhancement|N/A|still open": 747,
+   "enhancement|none|closed otherwise": 990,
+   "enhancement|none|fixed": 2701,
+   "enhancement|none|still open": 1639,
+   "enhancement|severity|closed otherwise": 125,
+   "enhancement|severity|fixed": 544,
+   "enhancement|severity|still open": 400,
+   "task|N/A|closed otherwise": 395,
+   "task|N/A|fixed": 3716,
+   "task|N/A|still open": 1492,
+   "task|none|closed otherwise": 898,
+   "task|none|fixed": 10358,
+   "task|none|still open": 1732,
+   "task|severity|closed otherwise": 141,
+   "task|severity|fixed": 946,
+   "task|severity|still open": 517
+  }
+ },
+ "P5a_sensitivity": {
+  "what": "every share above, recomputed with the pre-2020-vocabulary bugs dropped",
+  "dropped": 12,
+  "defect_unnormed_pct": 26.85,
+  "enhancement_unnormed_pct": 64.06,
+  "gap_pp": 37.21,
+  "the_twelve": [
+   {
+    "id": 1884400,
+    "severity": "normal",
+    "type": "enhancement",
+    "product": "Core",
+    "creation_time": "2024-03-08T17:01:00Z",
+    "status": "RESOLVED"
+   },
+   {
+    "id": 1892229,
+    "severity": "critical",
+    "type": "defect",
+    "product": "Core",
+    "creation_time": "2024-04-18T13:28:21Z",
+    "status": "RESOLVED"
+   },
+   {
+    "id": 1900843,
+    "severity": "normal",
+    "type": "enhancement",
+    "product": "Core",
+    "creation_time": "2024-06-05T17:00:52Z",
+    "status": "RESOLVED"
+   },
+   {
+    "id": 1920759,
+    "severity": "normal",
+    "type": "task",
+    "product": "Core",
+    "creation_time": "2024-09-24T17:00:47Z",
+    "status": "RESOLVED"
+   },
+   {
+    "id": 1921297,
+    "severity": "normal",
+    "type": "task",
+    "product": "Core",
+    "creation_time": "2024-09-26T17:00:51Z",
+    "status": "RESOLVED"
+   },
+   {
+    "id": 1926257,
+    "severity": "critical",
+    "type": "defect",
+    "product": "Core",
+    "creation_time": "2024-10-22T10:34:57Z",
+    "status": "RESOLVED"
+   },
+   {
+    "id": 1938770,
+    "severity": "normal",
+    "type": "enhancement",
+    "product": "Core",
+    "creation_time": "2024-12-21T17:00:38Z",
+    "status": "RESOLVED"
+   },
+   {
+    "id": 1965541,
+    "severity": "normal",
+    "type": "enhancement",
+    "product": "Core",
+    "creation_time": "2025-05-09T17:00:52Z",
+    "status": "RESOLVED"
+   },
+   {
+    "id": 1878618,
+    "severity": "normal",
+    "type": "defect",
+    "product": "Firefox",
+    "creation_time": "2024-02-05T09:50:31Z",
+    "status": "RESOLVED"
+   },
+   {
+    "id": 1911316,
+    "severity": "normal",
+    "type": "defect",
+    "product": "Firefox",
+    "creation_time": "2024-08-02T14:04:16Z",
+    "status": "RESOLVED"
+   },
+   {
+    "id": 1920026,
+    "severity": "normal",
+    "type": "defect",
+    "product": "Firefox",
+    "creation_time": "2024-09-20T09:53:39Z",
+    "status": "NEW"
+   },
+   {
+    "id": 1962702,
+    "severity": "normal",
+    "type": "defect",
+    "product": "Firefox",
+    "creation_time": "2025-04-25T14:41:44Z",
+    "status": "NEW"
+   }
+  ]
+ },
+ "unnormed_defects": {
+  "n": 10403,
+  "closed": 9519,
+  "closed_resolutions": {
+   "FIXED": 3191,
+   "DUPLICATE": 2730,
+   "INVALID": 1213,
+   "WORKSFORME": 862,
+   "INCOMPLETE": 822,
+   "WONTFIX": 586,
+   "MOVED": 73,
+   "INACTIVE": 42
+  },
+  "still_open": 884
+ },
+ "who_files_what": {
+  "what": "the confound the predictions did not see: a task may be an engineer writing themselves a work item rather than a difference reported to somebody else. Second pass, after the predictions were scored.",
+  "by_type": {
+   "defect": {
+    "n": 38753,
+    "filer_is_assignee": 3788,
+    "filer_is_assignee_pct": 9.77,
+    "assigned_to_nobody": 26863,
+    "assigned_to_nobody_pct": 69.32,
+    "distinct_filers": 7560
+   },
+   "enhancement": {
+    "n": 8324,
+    "filer_is_assignee": 3241,
+    "filer_is_assignee_pct": 38.94,
+    "assigned_to_nobody": 3525,
+    "assigned_to_nobody_pct": 42.35,
+    "distinct_filers": 1446
+   },
+   "task": {
+    "n": 20195,
+    "filer_is_assignee": 13783,
+    "filer_is_assignee_pct": 68.25,
+    "assigned_to_nobody": 4214,
+    "assigned_to_nobody_pct": 20.87,
+    "distinct_filers": 566
+   }
+  },
+  "controls": {
+   "filer_is_not_the_assignee": {
+    "n": 46460,
+    "defect_unnormed_pct": 25.66,
+    "enhancement_unnormed_pct": 64.78,
+    "task_unnormed_pct": 46.71,
+    "gap_pp": 39.12,
+    "n_by_type": {
+     "defect": 34965,
+     "task": 6412,
+     "enhancement": 5083
+    }
+   },
+   "assigned_to_nobody": {
+    "n": 34602,
+    "defect_unnormed_pct": 27.42,
+    "enhancement_unnormed_pct": 64.37,
+    "task_unnormed_pct": 45.44,
+    "gap_pp": 36.95,
+    "n_by_type": {
+     "defect": 26863,
+     "task": 4214,
+     "enhancement": 3525
+    }
+   }
+  }
+ },
+ "time_to_resolution_by_type": {
+  "defect": {
+   "n": 30097,
+   "median_days": 23,
+   "p25": 3,
+   "p75": 66,
+   "deciles": [
+    0,
+    0,
+    2,
+    5,
+    12,
+    23,
+    27,
+    44,
+    99,
+    249,
+    950
+   ],
+   "within_7_days": 10624,
+   "within_7_days_pct": 35.3,
+   "histogram_bins_days": [
+    0,
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128,
+    256,
+    512,
+    1024
+   ],
+   "histogram": [
+    4020,
+    1921,
+    1108,
+    1615,
+    2351,
+    2231,
+    6398,
+    2850,
+    2377,
+    2315,
+    2028,
+    883,
+    0
+   ]
+  },
+  "enhancement": {
+   "n": 5535,
+   "median_days": 11,
+   "p25": 2,
+   "p75": 60,
+   "deciles": [
+    0,
+    0,
+    1,
+    3,
+    6,
+    11,
+    21,
+    41,
+    89,
+    232,
+    941
+   ],
+   "within_7_days": 2481,
+   "within_7_days_pct": 44.82,
+   "histogram_bins_days": [
+    0,
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128,
+    256,
+    512,
+    1024
+   ],
+   "histogram": [
+    789,
+    500,
+    251,
+    377,
+    664,
+    494,
+    564,
+    573,
+    463,
+    366,
+    367,
+    127,
+    0
+   ]
+  },
+  "task": {
+   "n": 16442,
+   "median_days": 6.0,
+   "p25": 2,
+   "p75": 25,
+   "deciles": [
+    0,
+    1,
+    1,
+    3,
+    4,
+    6,
+    9,
+    17,
+    38,
+    113,
+    941
+   ],
+   "within_7_days": 9097,
+   "within_7_days_pct": 55.33,
+   "histogram_bins_days": [
+    0,
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128,
+    256,
+    512,
+    1024
+   ],
+   "histogram": [
+    1642,
+    1779,
+    1284,
+    1959,
+    2911,
+    1855,
+    1428,
+    1172,
+    938,
+    727,
+    532,
+    215,
+    0
+   ]
+  }
+ },
+ "P3_type_is_the_filers": {
+  "claim": "type has no change event for >= 90% of the sample",
+  "n_sample": 300,
+  "unchanged": 292,
+  "unchanged_pct": 97.33,
+  "changed": 8,
+  "who_changed_it": {
+   "emilio@crisal.io": 2,
+   "stransky@redhat.com": 1,
+   "donwalker1987@gmail.com": 1,
+   "dao+bmo@mozilla.com": 1,
+   "sebastianzartner@gmail.com": 1,
+   "hikezoe.birchill@mozilla.com": 1,
+   "tomica@gmail.com": 1,
+   "pascalc@gmail.com": 1
+  },
+  "won": true
+ },
+ "P4_address_revised_more_than_branch": {
+  "claim": "component changes for >= 25% of the sample, and at >= 3x the type-change rate",
+  "component_changed": 68,
+  "component_changed_pct": 22.67,
+  "type_changed_pct": 2.67,
+  "ratio_component_to_type": 8.5,
+  "product_changed": 51,
+  "product_changed_pct": 17.0,
+  "who_moved_components": {
+   "release-mgmt-account-bot@mozilla.tld": 23,
+   "wptsync@mozilla.bugs": 19,
+   "alice0775@gmail.com": 4,
+   "continuation@gmail.com": 3,
+   "francesco.lodolo@gmail.com": 2,
+   "gijskruitbosch+bugs@gmail.com": 2,
+   "htsai@mozilla.com": 1,
+   "oardelean@mozilla.com": 1,
+   "markh@mozilla.com": 1,
+   "cpeterson@mozilla.com": 1,
+   "bugzilla@thomasborowski.de": 1,
+   "dveditz@mozilla.com": 1
+  },
+  "won": false
+ },
+ "P5b_no_bulk_edit": {
+  "claim": "no single (account, day) pair is more than 10% of severity-setting events",
+  "severity_setting_events": 99,
+  "largest_account_day": [
+   {
+    "who": "dlee@mozilla.com",
+    "day": "2025-05-14",
+    "n": 3,
+    "pct": 3.03
+   },
+   {
+    "who": "jhirsch@mozilla.com",
+    "day": "2024-12-12",
+    "n": 2,
+    "pct": 2.02
+   },
+   {
+    "who": "mtigley@mozilla.com",
+    "day": "2025-04-22",
+    "n": 2,
+    "pct": 2.02
+   },
+   {
+    "who": "dao+bmo@mozilla.com",
+    "day": "2024-01-25",
+    "n": 1,
+    "pct": 1.01
+   },
+   {
+    "who": "dshin@mozilla.com",
+    "day": "2024-01-16",
+    "n": 1,
+    "pct": 1.01
+   }
+  ],
+  "won": true
+ },
+ "time_to_first_severity_sample": {
+  "what": "days from filing to the first severity value, on the seeded sample only; small cells, reported as such, and used descriptively",
+  "overall_median_of_those_set": 3.07,
+  "by_type": {
+   "defect": {
+    "n_with_a_severity_set": 76,
+    "n_never_set": 97,
+    "n_in_sample": 173,
+    "median_days": 2.58,
+    "within_one_week": 54,
+    "within_one_week_pct_of_those_set": 71.05,
+    "within_one_week_pct_of_all": 31.21
+   },
+   "enhancement": {
+    "n_with_a_severity_set": 7,
+    "n_never_set": 29,
+    "n_in_sample": 36,
+    "median_days": 1.59,
+    "within_one_week": 7,
+    "within_one_week_pct_of_those_set": 100.0,
+    "within_one_week_pct_of_all": 19.44
+   },
+   "task": {
+    "n_with_a_severity_set": 15,
+    "n_never_set": 76,
+    "n_in_sample": 91,
+    "median_days": 6.77,
+    "within_one_week": 9,
+    "within_one_week_pct_of_those_set": 60.0,
+    "within_one_week_pct_of_all": 9.89
+   }
+  }
+ },
+ "norm_present_at_filing": {
+  "what": "of the sampled bugs that carry a severity, how many have carried it since the moment of filing (no severity change event in the whole history)",
+  "cells": {
+   "defect|carried since filing": 57,
+   "defect|set later": 74,
+   "defect|still --": 42,
+   "enhancement|carried since filing": 6,
+   "enhancement|set later": 7,
+   "enhancement|still --": 23,
+   "task|carried since filing": 17,
+   "task|set later": 16,
+   "task|still --": 58
+  },
+  "sample_with_a_severity": 177,
+  "carried_since_filing": 80,
+  "carried_since_filing_pct_of_normed": 45.2,
+  "caveat": "the history endpoint records changes after creation only; it cannot name who set the creation-time value, only that no one changed it afterwards"
+ },
+ "per_bug_history": {
+  "1872797": {
+   "type": "enhancement",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1873685": {
+   "type": "enhancement",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1873978": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 14.753
+  },
+  "1874155": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1874897": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 0.125
+  },
+  "1874990": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1875107": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 13.96
+  },
+  "1875129": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1875218": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1875272": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1875334": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1875784": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 28.236
+  },
+  "1876695": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": null
+  },
+  "1876816": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": null
+  },
+  "1877271": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1877468": {
+   "type": "enhancement",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1877681": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1877758": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1878110": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1878134": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 0.67
+  },
+  "1878190": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1878330": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1878450": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 3.78
+  },
+  "1878512": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1878673": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 1.126
+  },
+  "1878864": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 0.002
+  },
+  "1878919": {
+   "type": "enhancement",
+   "type_changes": 1,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 0.968
+  },
+  "1879858": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1879921": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 1.434
+  },
+  "1880534": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": 3.917
+  },
+  "1880854": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": null
+  },
+  "1881412": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 0.531
+  },
+  "1881429": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1882028": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1882259": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 0,
+   "days_to_first_severity": 5.956
+  },
+  "1883311": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1883631": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1883656": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1883901": {
+   "type": "enhancement",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1884251": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1884438": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1884584": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 0.853
+  },
+  "1884887": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 0.264
+  },
+  "1885627": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 4.043
+  },
+  "1885721": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 19.001
+  },
+  "1885734": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 2.033
+  },
+  "1886280": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 6.818
+  },
+  "1886334": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1886559": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1886587": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": null
+  },
+  "1887065": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 3,
+   "product_changes": 1,
+   "days_to_first_severity": 41.01
+  },
+  "1887102": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1887183": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 5.016
+  },
+  "1887250": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": null
+  },
+  "1888088": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 0.078
+  },
+  "1888299": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1888540": {
+   "type": "enhancement",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1888623": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 2,
+   "product_changes": 0,
+   "days_to_first_severity": 12.218
+  },
+  "1888687": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1888944": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": null
+  },
+  "1889003": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 2,
+   "product_changes": 1,
+   "days_to_first_severity": 1.522
+  },
+  "1889255": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 13.675
+  },
+  "1889282": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 14.755
+  },
+  "1890870": {
+   "type": "enhancement",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1891002": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1892401": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1892429": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1892716": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 3.952
+  },
+  "1893726": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 24.662
+  },
+  "1894289": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1894348": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1894908": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1895301": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": null
+  },
+  "1895819": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1896547": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1897113": {
+   "type": "enhancement",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1897637": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": null
+  },
+  "1900220": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": 30.633
+  },
+  "1900582": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 0.0
+  },
+  "1900662": {
+   "type": "enhancement",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 1.985
+  },
+  "1900951": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1901191": {
+   "type": "task",
+   "type_changes": 1,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1901540": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 0.117
+  },
+  "1901625": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1901719": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 6.211
+  },
+  "1901758": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1901923": {
+   "type": "enhancement",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1903667": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1904029": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1904582": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 1.198
+  },
+  "1905023": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 2,
+   "product_changes": 1,
+   "days_to_first_severity": null
+  },
+  "1905384": {
+   "type": "enhancement",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1906071": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": null
+  },
+  "1906086": {
+   "type": "enhancement",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1906426": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 0.001
+  },
+  "1906443": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1906542": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1906974": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": null
+  },
+  "1907592": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 3.136
+  },
+  "1907627": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1908334": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1908409": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1908581": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 0.561
+  },
+  "1909002": {
+   "type": "enhancement",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1909441": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 1.161
+  },
+  "1909735": {
+   "type": "enhancement",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1910182": {
+   "type": "enhancement",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1910252": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": null
+  },
+  "1910882": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1911025": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1911108": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1911138": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1911239": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1911627": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 1.72
+  },
+  "1911852": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1912823": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": null
+  },
+  "1913598": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1914033": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1914564": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 2,
+   "product_changes": 1,
+   "days_to_first_severity": 4.217
+  },
+  "1914690": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1915265": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": 0.075
+  },
+  "1915383": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1915482": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 0.0
+  },
+  "1915544": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 14.919
+  },
+  "1915808": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": null
+  },
+  "1916154": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 4.586
+  },
+  "1916722": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 5.798
+  },
+  "1916766": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1916773": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": null
+  },
+  "1918115": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 0,
+   "days_to_first_severity": 0.069
+  },
+  "1918219": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 0,
+   "days_to_first_severity": 2.198
+  },
+  "1918782": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1919212": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1919613": {
+   "type": "enhancement",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1919835": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1920385": {
+   "type": "enhancement",
+   "type_changes": 1,
+   "component_changes": 3,
+   "product_changes": 1,
+   "days_to_first_severity": null
+  },
+  "1921270": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1921862": {
+   "type": "enhancement",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1921922": {
+   "type": "enhancement",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1922185": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": null
+  },
+  "1922268": {
+   "type": "defect",
+   "type_changes": 2,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 16.723
+  },
+  "1922475": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": null
+  },
+  "1922552": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1922789": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 0.004
+  },
+  "1923222": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": null
+  },
+  "1923294": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1923370": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 0.218
+  },
+  "1923393": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1923947": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1924415": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1925311": {
+   "type": "enhancement",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1926171": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 0.252
+  },
+  "1926365": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1926595": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1926756": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1927032": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 0.494
+  },
+  "1927111": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 0,
+   "days_to_first_severity": 0.157
+  },
+  "1927292": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": null
+  },
+  "1927677": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1928684": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1928746": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1928779": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": 2.527
+  },
+  "1928789": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": null
+  },
+  "1929317": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 0,
+   "days_to_first_severity": 0.001
+  },
+  "1929740": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1930027": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 0.809
+  },
+  "1931110": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 28.876
+  },
+  "1931137": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1931516": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 3.198
+  },
+  "1932290": {
+   "type": "enhancement",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1932694": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 21.251
+  },
+  "1932738": {
+   "type": "enhancement",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1932848": {
+   "type": "enhancement",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 4.216
+  },
+  "1932914": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1933626": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 3,
+   "product_changes": 3,
+   "days_to_first_severity": 36.388
+  },
+  "1933652": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1933816": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 10.448
+  },
+  "1934519": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": 1.425
+  },
+  "1935201": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 2,
+   "product_changes": 1,
+   "days_to_first_severity": null
+  },
+  "1935585": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": 32.38
+  },
+  "1936608": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 0,
+   "days_to_first_severity": 0.835
+  },
+  "1936626": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 5.934
+  },
+  "1936703": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 0.098
+  },
+  "1936896": {
+   "type": "enhancement",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1937100": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1937203": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1937205": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1937762": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 0.004
+  },
+  "1938327": {
+   "type": "enhancement",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1938501": {
+   "type": "enhancement",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 0.004
+  },
+  "1939007": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 0,
+   "days_to_first_severity": 2.601
+  },
+  "1939739": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1940088": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 2.555
+  },
+  "1940191": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1940361": {
+   "type": "enhancement",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1940638": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1940835": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1941148": {
+   "type": "enhancement",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": 1.588
+  },
+  "1941848": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1941970": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1942095": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 0.22
+  },
+  "1942352": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": null
+  },
+  "1942828": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 0.209
+  },
+  "1943875": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1944262": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1944623": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1944649": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1945342": {
+   "type": "enhancement",
+   "type_changes": 1,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 3.035
+  },
+  "1945529": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1945626": {
+   "type": "enhancement",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1946026": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 0.048
+  },
+  "1946792": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1947188": {
+   "type": "enhancement",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1947382": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1947452": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1947733": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1947895": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": null
+  },
+  "1948077": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 89.586
+  },
+  "1949210": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1949298": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1949475": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1949528": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1950195": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1950868": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1951016": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 14.647
+  },
+  "1951108": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1952251": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1952351": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": 19.058
+  },
+  "1952901": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1952917": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1952973": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1952994": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 0.983
+  },
+  "1953040": {
+   "type": "task",
+   "type_changes": 1,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1953732": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1953884": {
+   "type": "enhancement",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1954104": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 39.224
+  },
+  "1954246": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1955140": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": null
+  },
+  "1955353": {
+   "type": "enhancement",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1955429": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1956756": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": null
+  },
+  "1957155": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 3.806
+  },
+  "1957363": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1957443": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": null
+  },
+  "1957519": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1957837": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1958791": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 36.885
+  },
+  "1959250": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 3,
+   "product_changes": 1,
+   "days_to_first_severity": null
+  },
+  "1959297": {
+   "type": "task",
+   "type_changes": 1,
+   "component_changes": 2,
+   "product_changes": 1,
+   "days_to_first_severity": 33.549
+  },
+  "1959839": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": null
+  },
+  "1959935": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 3.106
+  },
+  "1960368": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1960553": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 7.413
+  },
+  "1960589": {
+   "type": "enhancement",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1960939": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1961072": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": 5.566
+  },
+  "1961301": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": null
+  },
+  "1961553": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 0.133
+  },
+  "1961785": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1962247": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 5.898
+  },
+  "1962699": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1963059": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1963487": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1964271": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 2,
+   "product_changes": 1,
+   "days_to_first_severity": null
+  },
+  "1964602": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1964986": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 6.77
+  },
+  "1965399": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1965403": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1965902": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1965951": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1966565": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": 53.507
+  },
+  "1966762": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1966822": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1966898": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1966915": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1967017": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": null
+  },
+  "1967485": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 2.151
+  },
+  "1967695": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1967853": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1968410": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 2,
+   "product_changes": 1,
+   "days_to_first_severity": 3.151
+  },
+  "1968643": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1968797": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1968883": {
+   "type": "task",
+   "type_changes": 1,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1968978": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1969081": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1969335": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1969960": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1969995": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1971162": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": 7.6
+  },
+  "1971201": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1971252": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1971598": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1971741": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": null
+  },
+  "1972390": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1972540": {
+   "type": "defect",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 1.349
+  },
+  "1974093": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 1,
+   "product_changes": 1,
+   "days_to_first_severity": null
+  },
+  "1974120": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 7.823
+  },
+  "1974149": {
+   "type": "enhancement",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": null
+  },
+  "1974389": {
+   "type": "enhancement",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 0.263
+  },
+  "1974707": {
+   "type": "task",
+   "type_changes": 0,
+   "component_changes": 0,
+   "product_changes": 0,
+   "days_to_first_severity": 15.016
+  }
+ },
+ "falsifier_population": {
+  "id": "S74.UNNORMED",
+  "n": 4255,
+  "by_type": {
+   "task": 1732,
+   "enhancement": 1639,
+   "defect": 884
+  },
+  "oldest_creation_time": "2024-01-02T04:12:52Z",
+  "committed_as": "unnormed-2026-08-29.json"
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "session": 74,
+ "date": "2026-08-29",
+ "work": "works/2026-08-29-who-will-be-asked/",
+ "note": "The night's own scoring, kept beside the work rather than only in the journal. Session 73's postscript established why: a commit that touches no work directory cannot pass the landing gate, so a night's adjudication belongs in the work it adjudicates.",
+ "predictions": {
+  "fixed_in": "PREDICTIONS.md, written and closed before measure.py, verify.py, figure.py or catalogues.py existed, and before harvest.py fetched a single bug of the population",
+  "count": 5,
+  "declared_before_predicting": "The three Mozilla policy documents, read in full first; seven count_only=1 totals per product, to size the harvest, with no breakdown by any field predicted about; and one page of 87 bugs from the smallest product, fetched to test that the REST interface returns the fields at all -- those 87 are members of the population and their values were on screen, which is declared in PREDICTIONS.md and filed as F-084. No share, gap or rate was computed before the file was closed.",
+  "scored": {
+   "P1": {
+    "claim": "unnormed%(enhancement) - unnormed%(defect) >= 15 percentage points, enhancement higher",
+    "comparand": "gap >= 15 pp, sign positive",
+    "measured": "26.84 % for defect, 64.03 % for enhancement, gap 37.19 pp; 48.61 pp among open bugs; 39.12 pp among reports whose filer is not the assignee; 36.95 pp among reports assigned to nobody",
+    "verdict": "WON",
+    "what_the_argument_needed": "the gap and its sign -- the claim is that the reporter's box predicts whether a norm arrives, not that either share has a particular level",
+    "false_win_check": "PREDICTIONS.md named the way this could be a false win -- enhancements being closed unread rather than left un-normed -- and required the gap to be reported twice. Both are reported; the open-only gap is larger."
+   },
+   "P2": {
+    "claim": "unnormed% for type=defect < 10 %",
+    "comparand": "< 10 %",
+    "measured": "26.84 % of 38,753",
+    "verdict": "LOST",
+    "was_it_at_risk": "yes, and it lost by 17 points",
+    "what_the_loss_sentence_said": "Mozilla's one-week rule is not kept on the branch it was written for, so the difference between branches cannot be read as one branch being served and the other not; both are unserved and the routing question does not arise here.",
+    "what_happened_to_that_sentence": "Its first clause is true and the rest is false on this night's own numbers. Not rewritten -- F-059 forbids it -- and filed as F-080: the pre-written loss sentence is itself a prediction and can be wrong."
+   },
+   "P3": {
+    "claim": "type has no change event at all in >= 90 % of a seeded sample of 300",
+    "comparand": ">= 90 %",
+    "measured": "292 of 300, 97.33 %; the 8 changes were made by 8 distinct accounts, none of them a machine",
+    "verdict": "WON",
+    "what_the_argument_needed": "that the deciding act is the filer's and not the institution's",
+    "limit_added_after_scoring": "Herzig, Just and Zeller (ICSE 2013) found 33.8 % of bug reports misclassified on manual review. Durability is not correctness, and the work says so."
+   },
+   "P4": {
+    "claim": "component changes for >= 25 % of the sample AND at >= 3x the type-change rate",
+    "comparand": "both halves",
+    "measured": "22.67 % (68 of 300), ratio 8.5, product changed 17.0 %",
+    "verdict": "LOST on the absolute half, won on the ratio; scored LOST because the claim was conjunctive",
+    "was_it_at_risk": "yes, and it missed by 2.33 points",
+    "named_in_advance": "that component moves might be made by machine accounts, and would then be reported as machine re-routing. 42 of the 68 were: release-mgmt-account-bot@mozilla.tld 23, wptsync@mozilla.bugs 19."
+   },
+   "P5a": {
+    "claim": "zero bugs in the window carry a pre-2020 severity value",
+    "comparand": "zero",
+    "measured": "12 -- ten `normal`, two `critical`; eight in Core, four in Firefox",
+    "verdict": "LOST",
+    "cost": "recomputed with all twelve dropped, the gap is 37.21 pp instead of 37.19. Reported anyway: a check reported only when it passes is not a check."
+   },
+   "P5b": {
+    "claim": "no single (account, calendar-day) pair is more than 10 % of severity-setting events in the sample",
+    "comparand": "<= 10 %",
+    "measured": "99 events, largest account-day 3 events, 3.03 %",
+    "verdict": "WON"
+   }
+  },
+  "tally": "two won, three lost, none rewritten"
+ },
+ "verification": {
+  "what": "the bulk REST search endpoint checked against the per-bug XML export, a different code path",
+  "sample": 40,
+  "field_comparisons": 240,
+  "disagreements": 0,
+  "first_run": "reported 2 disagreements, both of them the verifier's own XML-entity handling -- filed as F-081 and fixed before the run that is published"
+ },
+ "corrections": [
+  {"id": "F-080", "type": "A", "against": "tonight",
+   "short": "the sentence fixed in advance to say what P2's loss would mean was itself wrong: a threshold cannot tell two branches apart",
+   "rule": "The sentence you fix in advance to say what a loss will mean is itself a prediction and can be wrong in exactly the way a number can; a claim about a comparison may never rest on a threshold."},
+  {"id": "F-081", "type": "C", "against": "tonight",
+   "short": "verify.py reported two disagreements that were its own failure to unescape XML entities",
+   "rule": "A disagreement between two views of the same record is a claim about your comparator until the comparator has been cleared."},
+  {"id": "F-082", "type": "A", "against": "tonight",
+   "short": "four predictions compared three branches without asking who populates them; 68.25 % of tasks are filed by their own assignee, by 566 people",
+   "rule": "Before comparing the branches of a classification, ask who fills each branch; get the filer's identity in the first harvest, not the second."},
+  {"id": "F-083", "type": "F", "against": "tonight",
+   "short": "the filing form is behind a login, so the record cannot say who sets a creation-time severity; the claim is bounded instead of guessed",
+   "rule": "When a public record leaves an act unattributed, probe for the interface that would settle it and, if it is closed, write the boundary into the claim instead of the guess."},
+  {"id": "F-084", "type": "G", "against": "tonight",
+   "short": "87 bugs of the population were on screen before the predictions were closed, during an interface test",
+   "rule": "Test an interface on data outside the population you are about to predict over; if you have already looked, declare the exact rows and fields before closing the predictions file."}
+ ],
+ "rules_from_earlier_registers_applied_tonight": [
+  {"id": "F-077", "written_by": "Session 73", "applied": "before any measurement -- the window ends 2025-07-01 so every bug has at least 424 days of exposure and the comparison across branches is at equal exposure by construction"},
+  {"id": "F-070", "written_by": "Session 71, works/fehlerkataster-027.md", "applied": "each of the four predictions names the quantity the argument needs; F-080 is the discovery that the rule stops one sentence short"},
+  {"id": "F-059", "written_by": "Session 69", "applied": "three losses, none rewritten, loss sentences quoted where answered"},
+  {"id": "F-076", "written_by": "Session 73", "applied": "checked and found not to apply -- tonight's three losses fail in three different ways, and a rule that is tested and does not fire is a smaller data point than one that does"}
+ ],
+ "falsifiers_fixed_tonight": [
+  {"id": "S74.UNNORMED", "due": "2027-08-29",
+   "population": "unnormed-2026-08-29.json -- the 4,255 bugs open and carrying no severity on 2026-08-29, by id, type, product, component and creation date",
+   "condition": "If the branch account is right, in one year the 884 open un-normed defects will have received a severity at a higher rate than the 3,371 open un-normed tasks and enhancements. Convergence or reversal falsifies the mechanism this work's central table proposes."}
+ ],
+ "listed_in": "works/INDEX.md row 62; register works/fehlerkataster-030.md; falsifier row in works/FALSIFIERS.md"
+}

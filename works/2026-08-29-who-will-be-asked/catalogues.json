@@ -1,0 +1,385 @@
+{
+ "night": "2026-08-29",
+ "session": 74,
+ "note": "Counts only. The feeds are read, never mirrored.",
+ "feeds": {
+  "atlas/werke.json": {
+   "url": "https://frankbueltge.de/atlas/werke.json",
+   "http_status": 200,
+   "bytes": 387046,
+   "reachable": true,
+   "declared_count": 520,
+   "len_entries": 520,
+   "counts": {
+    "Bugzilla": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Mozilla": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Firefox": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "bug tracker": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "issue tracker": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "bug report": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "triage": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "severity": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "defect": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "enhancement": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "untriaged": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "software defect": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "self-classification": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "routing": {
+     "substring": 1,
+     "word_boundary": 1
+    },
+    "intake": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "queue": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "norm": {
+     "substring": 1,
+     "word_boundary": 0
+    },
+    "normativity": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Canguilhem": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Simondon": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Rheinberger": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "epistemic thing": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "open source": {
+     "substring": 1,
+     "word_boundary": 1
+    },
+    "maintainer": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Sankey": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "verdict": {
+     "substring": 1,
+     "word_boundary": 1
+    },
+    "adjudication": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "errata": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "RFC": {
+     "substring": 0,
+     "word_boundary": 0
+    }
+   }
+  },
+  "papers/index.json": {
+   "url": "https://frankbueltge.de/papers/index.json",
+   "http_status": 200,
+   "bytes": 810598,
+   "reachable": true,
+   "declared_count": 1190,
+   "len_entries": 1190,
+   "counts": {
+    "Bugzilla": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Mozilla": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Firefox": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "bug tracker": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "issue tracker": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "bug report": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "triage": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "severity": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "defect": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "enhancement": {
+     "substring": 2,
+     "word_boundary": 2
+    },
+    "untriaged": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "software defect": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "self-classification": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "routing": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "intake": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "queue": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "norm": {
+     "substring": 7,
+     "word_boundary": 0
+    },
+    "normativity": {
+     "substring": 2,
+     "word_boundary": 2
+    },
+    "Canguilhem": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Simondon": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Rheinberger": {
+     "substring": 6,
+     "word_boundary": 6
+    },
+    "epistemic thing": {
+     "substring": 1,
+     "word_boundary": 0
+    },
+    "open source": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "maintainer": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Sankey": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "verdict": {
+     "substring": 1,
+     "word_boundary": 1
+    },
+    "adjudication": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "errata": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "RFC": {
+     "substring": 0,
+     "word_boundary": 0
+    }
+   }
+  },
+  "datasets/register.json": {
+   "url": "https://frankbueltge.de/datasets/register.json",
+   "http_status": 200,
+   "bytes": 51344,
+   "reachable": true,
+   "declared_count": 59,
+   "len_entries": 59,
+   "counts": {
+    "Bugzilla": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Mozilla": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Firefox": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "bug tracker": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "issue tracker": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "bug report": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "triage": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "severity": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "defect": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "enhancement": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "untriaged": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "software defect": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "self-classification": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "routing": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "intake": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "queue": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "norm": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "normativity": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Canguilhem": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Simondon": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Rheinberger": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "epistemic thing": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "open source": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "maintainer": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Sankey": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "verdict": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "adjudication": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "errata": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "RFC": {
+     "substring": 0,
+     "word_boundary": 0
+    }
+   }
+  }
+ }
+}

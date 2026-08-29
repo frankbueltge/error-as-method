@@ -1,0 +1,111 @@
+{
+ "night": "2026-08-29",
+ "session": 74,
+ "rule": "Nothing fetched here is committed as bytes. The manifest is the warrant: re-fetch, compare the SHA-256, and the reading is reproducible without this repository republishing anyone's document or anyone's bug report.",
+ "raw_cache": "outside the repository (--raw), never inside it",
+ "sources": [
+  {
+   "name": "triage-bugzilla.html",
+   "url": "https://firefox-source-docs.mozilla.org/bug-mgmt/policies/triage-bugzilla.html",
+   "what": "Mozilla's Bugzilla triage policy: who triages, within what timeframe, and the institution's own definition of a triaged bug. This is the norm tonight measures against, and it is the reason tonight may use the word 'late' at all \u2014 it names one week, so no threshold has to be taken out of the distribution.",
+   "http_status": 200,
+   "bytes": 47388,
+   "sha256": "527824d761661d574f3e5c731a552cc8943b1e304327665bd7c2de10dd067517",
+   "fetched_utc": "2026-08-29T23:08:58+00:00",
+   "committed": false
+  },
+  {
+   "name": "bug-types.html",
+   "url": "https://firefox-source-docs.mozilla.org/bug-mgmt/guides/bug-types.html",
+   "what": "The definitions of the three bug types and the sentence that names a different applier for each branch: 'Engineering triages defects and tasks. Product management triages enhancements.'",
+   "http_status": 200,
+   "bytes": 25210,
+   "sha256": "c679d2138001cbe27fae2f23c9c80d666ec6f9f215ec6a0525be0db98bfb5903",
+   "fetched_utc": "2026-08-29T23:08:58+00:00",
+   "committed": false
+  },
+  {
+   "name": "severity.html",
+   "url": "https://firefox-source-docs.mozilla.org/bug-mgmt/guides/severity.html",
+   "what": "The severity scale in force, for the vocabulary P5(a) tests the window against.",
+   "http_status": 200,
+   "bytes": 28366,
+   "sha256": "4a2d163eec4a5873d8b7441ff2df8d6330459da2821d69f89a72c08fbd17d451",
+   "fetched_utc": "2026-08-29T23:08:58+00:00",
+   "committed": false
+  },
+  {
+   "name": "priority.html",
+   "url": "https://firefox-source-docs.mozilla.org/bug-mgmt/guides/priority.html",
+   "what": "The priority scale, read alongside severity so that the un-normed state is not confused with an un-prioritised one.",
+   "http_status": 200,
+   "bytes": 24664,
+   "sha256": "d741200a4ccfb0e301a917912fbe28e7f0c1a233260496de4acc4e8230f43166",
+   "fetched_utc": "2026-08-29T23:08:58+00:00",
+   "committed": false
+  },
+  {
+   "name": "field-bug_severity.json",
+   "url": "https://bugzilla.mozilla.org/rest/field/bug/bug_severity",
+   "what": "The machine-readable list of legal severity values. It still contains the pre-2020 vocabulary (blocker, critical, major, normal, minor, trivial, enhancement) alongside S1-S4, which is why P5(a) is a real check and not a formality: the old values remain assignable.",
+   "http_status": 200,
+   "bytes": 1109,
+   "sha256": "b5d850fe89190eced018ba50dfb902579d9e34720911e623a2217ea75e97b9d6",
+   "fetched_utc": "2026-08-29T23:08:59+00:00",
+   "committed": false
+  },
+  {
+   "name": "field-bug_type.json",
+   "url": "https://bugzilla.mozilla.org/rest/field/bug/bug_type",
+   "what": "The machine-readable list of legal type values: '--', defect, enhancement, task. The '--' is the reporter declining to choose a branch at all.",
+   "http_status": 200,
+   "bytes": 487,
+   "sha256": "432204a0f056050a4323167c7dfef13f370eed71e84b8fc654ff29fff205fbcf",
+   "fetched_utc": "2026-08-29T23:08:59+00:00",
+   "committed": false
+  },
+  {
+   "name": "bug-1522348.json",
+   "url": "https://bugzilla.mozilla.org/rest/bug/1522348",
+   "what": "'Bulk assign open bugs to task, enhancement, defect field' \u2014 the migration that gave a type to bugs filed before the field existed. Fetched to date it, so the window can be shown to start after it rather than merely asserted to.",
+   "http_status": 200,
+   "bytes": 2212,
+   "sha256": "e36ed4e65c351a735d6237c8c18a64531713fa0ac364b33a59152d69a0555ecd",
+   "fetched_utc": "2026-08-29T23:09:00+00:00",
+   "committed": false
+  },
+  {
+   "name": "population.json",
+   "url": "https://bugzilla.mozilla.org/rest/bug?<window and product filters; see harvest.py>",
+   "what": "The population W: every publicly visible bug created in [2024-01-01, 2025-07-01) in the seven products named in PREDICTIONS.md, 67272 rows over 72 paginated requests. Cached outside the repository; only aggregates and one named falsifier population are committed.",
+   "http_status": 200,
+   "bytes": 33972258,
+   "sha256": "36f9b89574a264a5066e9a2ce23eb2e3723514a9e292463ba14eab3ec6494004",
+   "fetched_utc": "2026-08-29T23:14:34+00:00",
+   "committed": false,
+   "note": "72 requests, 31438784 bytes over the wire, 0 duplicate rows dropped"
+  },
+  {
+   "name": "history.json",
+   "url": "https://bugzilla.mozilla.org/rest/bug/<id>/history",
+   "what": "The full change history of 300 of 300 sampled bugs (seed 20260829, drawn from the harvested id list). This is the only way to ask whether the value in a field is the one the person filing put there.",
+   "http_status": 200,
+   "bytes": 522823,
+   "sha256": "c6c81eeb5116a6b447e2b26b8feef74a616f0cccdffd6f44ff18ab324ea84b19",
+   "fetched_utc": "2026-08-29T23:17:38+00:00",
+   "committed": false,
+   "note": "0 ids returned no history and are listed in the cache"
+  },
+  {
+   "name": "creators.json",
+   "url": "https://bugzilla.mozilla.org/rest/bug?<same filters, include_fields=id,creator,assigned_to,type>",
+   "what": "Who filed each bug in W and who it is assigned to, fetched in a second pass after the first results showed a confound the predictions had not anticipated. Used only to ask whether the filer and the assignee are the same person.",
+   "http_status": 200,
+   "bytes": 30211202,
+   "sha256": "b22f285e34d7fc9b677624e70955c33ac599730502a8165996946469d9ee6749",
+   "fetched_utc": "2026-08-29T23:20:06+00:00",
+   "committed": false,
+   "note": "72 requests; post-prediction, declared as such"
+  }
+ ]
+}

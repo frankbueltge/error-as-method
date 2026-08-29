@@ -1,0 +1,1414 @@
+{
+ "night": "2026-08-29",
+ "session": 74,
+ "what": "the bulk search endpoint checked against the per-bug XML export",
+ "seed": 740829,
+ "sampled": 40,
+ "fetched": 40,
+ "fetch_failures": [],
+ "field_comparisons": 240,
+ "disagreements": [],
+ "verdict": "all fields agree",
+ "checks": [
+  {
+   "id": 1875654,
+   "fields": {
+    "product": {
+     "bulk": "Firefox",
+     "page": "Firefox",
+     "agree": true
+    },
+    "component": {
+     "bulk": "Search",
+     "page": "Search",
+     "agree": true
+    },
+    "type": {
+     "bulk": "defect",
+     "page": "defect",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "S3",
+     "page": "S3",
+     "agree": true
+    },
+    "status": {
+     "bulk": "VERIFIED",
+     "page": "VERIFIED",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2024-01-20T22:05:28Z",
+     "page_utc": "2024-01-20T22:05:28",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1875939,
+   "fields": {
+    "product": {
+     "bulk": "Core",
+     "page": "Core",
+     "agree": true
+    },
+    "component": {
+     "bulk": "Privacy: Anti-Tracking",
+     "page": "Privacy: Anti-Tracking",
+     "agree": true
+    },
+    "type": {
+     "bulk": "defect",
+     "page": "defect",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "S3",
+     "page": "S3",
+     "agree": true
+    },
+    "status": {
+     "bulk": "NEW",
+     "page": "NEW",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2024-01-22T22:55:25Z",
+     "page_utc": "2024-01-22T22:55:25",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1880733,
+   "fields": {
+    "product": {
+     "bulk": "Core",
+     "page": "Core",
+     "agree": true
+    },
+    "component": {
+     "bulk": "Layout: Text and Fonts",
+     "page": "Layout: Text and Fonts",
+     "agree": true
+    },
+    "type": {
+     "bulk": "defect",
+     "page": "defect",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "S4",
+     "page": "S4",
+     "agree": true
+    },
+    "status": {
+     "bulk": "RESOLVED",
+     "page": "RESOLVED",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2024-02-17T22:49:42Z",
+     "page_utc": "2024-02-17T22:49:42",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1881240,
+   "fields": {
+    "product": {
+     "bulk": "DevTools",
+     "page": "DevTools",
+     "agree": true
+    },
+    "component": {
+     "bulk": "Debugger",
+     "page": "Debugger",
+     "agree": true
+    },
+    "type": {
+     "bulk": "defect",
+     "page": "defect",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "--",
+     "page": "--",
+     "agree": true
+    },
+    "status": {
+     "bulk": "RESOLVED",
+     "page": "RESOLVED",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2024-02-21T12:52:21Z",
+     "page_utc": "2024-02-21T12:52:21",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1882811,
+   "fields": {
+    "product": {
+     "bulk": "Core",
+     "page": "Core",
+     "agree": true
+    },
+    "component": {
+     "bulk": "DOM: Security",
+     "page": "DOM: Security",
+     "agree": true
+    },
+    "type": {
+     "bulk": "task",
+     "page": "task",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "--",
+     "page": "--",
+     "agree": true
+    },
+    "status": {
+     "bulk": "RESOLVED",
+     "page": "RESOLVED",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2024-02-29T16:09:53Z",
+     "page_utc": "2024-02-29T16:09:53",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1883105,
+   "fields": {
+    "product": {
+     "bulk": "Firefox",
+     "page": "Firefox",
+     "agree": true
+    },
+    "component": {
+     "bulk": "Data Loss Prevention",
+     "page": "Data Loss Prevention",
+     "agree": true
+    },
+    "type": {
+     "bulk": "defect",
+     "page": "defect",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "S3",
+     "page": "S3",
+     "agree": true
+    },
+    "status": {
+     "bulk": "RESOLVED",
+     "page": "RESOLVED",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2024-03-01T18:51:23Z",
+     "page_utc": "2024-03-01T18:51:23",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1883771,
+   "fields": {
+    "product": {
+     "bulk": "Core",
+     "page": "Core",
+     "agree": true
+    },
+    "component": {
+     "bulk": "Layout",
+     "page": "Layout",
+     "agree": true
+    },
+    "type": {
+     "bulk": "defect",
+     "page": "defect",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "--",
+     "page": "--",
+     "agree": true
+    },
+    "status": {
+     "bulk": "RESOLVED",
+     "page": "RESOLVED",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2024-03-05T21:24:08Z",
+     "page_utc": "2024-03-05T21:24:08",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1884258,
+   "fields": {
+    "product": {
+     "bulk": "Core",
+     "page": "Core",
+     "agree": true
+    },
+    "component": {
+     "bulk": "Disability Access APIs",
+     "page": "Disability Access APIs",
+     "agree": true
+    },
+    "type": {
+     "bulk": "defect",
+     "page": "defect",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "S2",
+     "page": "S2",
+     "agree": true
+    },
+    "status": {
+     "bulk": "VERIFIED",
+     "page": "VERIFIED",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2024-03-07T22:07:26Z",
+     "page_utc": "2024-03-07T22:07:26",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1886906,
+   "fields": {
+    "product": {
+     "bulk": "Core",
+     "page": "Core",
+     "agree": true
+    },
+    "component": {
+     "bulk": "Graphics",
+     "page": "Graphics",
+     "agree": true
+    },
+    "type": {
+     "bulk": "defect",
+     "page": "defect",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "S3",
+     "page": "S3",
+     "agree": true
+    },
+    "status": {
+     "bulk": "UNCONFIRMED",
+     "page": "UNCONFIRMED",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2024-03-21T23:12:36Z",
+     "page_utc": "2024-03-21T23:12:36",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1887527,
+   "fields": {
+    "product": {
+     "bulk": "Core",
+     "page": "Core",
+     "agree": true
+    },
+    "component": {
+     "bulk": "Audio/Video: Playback",
+     "page": "Audio/Video: Playback",
+     "agree": true
+    },
+    "type": {
+     "bulk": "defect",
+     "page": "defect",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "S3",
+     "page": "S3",
+     "agree": true
+    },
+    "status": {
+     "bulk": "UNCONFIRMED",
+     "page": "UNCONFIRMED",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2024-03-24T03:10:19Z",
+     "page_utc": "2024-03-24T03:10:19",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1896954,
+   "fields": {
+    "product": {
+     "bulk": "Core",
+     "page": "Core",
+     "agree": true
+    },
+    "component": {
+     "bulk": "Fuzzing",
+     "page": "Fuzzing",
+     "agree": true
+    },
+    "type": {
+     "bulk": "task",
+     "page": "task",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "--",
+     "page": "--",
+     "agree": true
+    },
+    "status": {
+     "bulk": "RESOLVED",
+     "page": "RESOLVED",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2024-05-15T17:54:33Z",
+     "page_utc": "2024-05-15T17:54:33",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1897124,
+   "fields": {
+    "product": {
+     "bulk": "Core",
+     "page": "Core",
+     "agree": true
+    },
+    "component": {
+     "bulk": "Graphics: ImageLib",
+     "page": "Graphics: ImageLib",
+     "agree": true
+    },
+    "type": {
+     "bulk": "defect",
+     "page": "defect",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "S4",
+     "page": "S4",
+     "agree": true
+    },
+    "status": {
+     "bulk": "RESOLVED",
+     "page": "RESOLVED",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2024-05-16T12:02:50Z",
+     "page_utc": "2024-05-16T12:02:50",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1897244,
+   "fields": {
+    "product": {
+     "bulk": "Firefox",
+     "page": "Firefox",
+     "agree": true
+    },
+    "component": {
+     "bulk": "Address Bar",
+     "page": "Address Bar",
+     "agree": true
+    },
+    "type": {
+     "bulk": "task",
+     "page": "task",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "N/A",
+     "page": "N/A",
+     "agree": true
+    },
+    "status": {
+     "bulk": "RESOLVED",
+     "page": "RESOLVED",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2024-05-16T17:00:14Z",
+     "page_utc": "2024-05-16T17:00:14",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1900626,
+   "fields": {
+    "product": {
+     "bulk": "Core",
+     "page": "Core",
+     "agree": true
+    },
+    "component": {
+     "bulk": "Audio/Video: Playback",
+     "page": "Audio/Video: Playback",
+     "agree": true
+    },
+    "type": {
+     "bulk": "defect",
+     "page": "defect",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "S3",
+     "page": "S3",
+     "agree": true
+    },
+    "status": {
+     "bulk": "RESOLVED",
+     "page": "RESOLVED",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2024-06-04T14:32:12Z",
+     "page_utc": "2024-06-04T14:32:12",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1909383,
+   "fields": {
+    "product": {
+     "bulk": "Core",
+     "page": "Core",
+     "agree": true
+    },
+    "component": {
+     "bulk": "CSS Parsing and Computation",
+     "page": "CSS Parsing and Computation",
+     "agree": true
+    },
+    "type": {
+     "bulk": "task",
+     "page": "task",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "--",
+     "page": "--",
+     "agree": true
+    },
+    "status": {
+     "bulk": "RESOLVED",
+     "page": "RESOLVED",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2024-07-23T03:19:26Z",
+     "page_utc": "2024-07-23T03:19:26",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1910901,
+   "fields": {
+    "product": {
+     "bulk": "Firefox",
+     "page": "Firefox",
+     "agree": true
+    },
+    "component": {
+     "bulk": "Tabbed Browser",
+     "page": "Tabbed Browser",
+     "agree": true
+    },
+    "type": {
+     "bulk": "defect",
+     "page": "defect",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "--",
+     "page": "--",
+     "agree": true
+    },
+    "status": {
+     "bulk": "VERIFIED",
+     "page": "VERIFIED",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2024-07-31T13:50:59Z",
+     "page_utc": "2024-07-31T13:50:59",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1914866,
+   "fields": {
+    "product": {
+     "bulk": "Firefox for Android",
+     "page": "Firefox for Android",
+     "agree": true
+    },
+    "component": {
+     "bulk": "Autofill",
+     "page": "Autofill",
+     "agree": true
+    },
+    "type": {
+     "bulk": "defect",
+     "page": "defect",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "S3",
+     "page": "S3",
+     "agree": true
+    },
+    "status": {
+     "bulk": "RESOLVED",
+     "page": "RESOLVED",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2024-08-26T10:28:39Z",
+     "page_utc": "2024-08-26T10:28:39",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1915816,
+   "fields": {
+    "product": {
+     "bulk": "Core",
+     "page": "Core",
+     "agree": true
+    },
+    "component": {
+     "bulk": "DOM: Core & HTML",
+     "page": "DOM: Core & HTML",
+     "agree": true
+    },
+    "type": {
+     "bulk": "defect",
+     "page": "defect",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "--",
+     "page": "--",
+     "agree": true
+    },
+    "status": {
+     "bulk": "RESOLVED",
+     "page": "RESOLVED",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2024-08-30T10:24:28Z",
+     "page_utc": "2024-08-30T10:24:28",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1917140,
+   "fields": {
+    "product": {
+     "bulk": "Core",
+     "page": "Core",
+     "agree": true
+    },
+    "component": {
+     "bulk": "Layout",
+     "page": "Layout",
+     "agree": true
+    },
+    "type": {
+     "bulk": "defect",
+     "page": "defect",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "S3",
+     "page": "S3",
+     "agree": true
+    },
+    "status": {
+     "bulk": "NEW",
+     "page": "NEW",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2024-09-05T23:30:38Z",
+     "page_utc": "2024-09-05T23:30:38",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1917903,
+   "fields": {
+    "product": {
+     "bulk": "Toolkit",
+     "page": "Toolkit",
+     "agree": true
+    },
+    "component": {
+     "bulk": "General",
+     "page": "General",
+     "agree": true
+    },
+    "type": {
+     "bulk": "enhancement",
+     "page": "enhancement",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "--",
+     "page": "--",
+     "agree": true
+    },
+    "status": {
+     "bulk": "NEW",
+     "page": "NEW",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2024-09-10T17:37:36Z",
+     "page_utc": "2024-09-10T17:37:36",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1918553,
+   "fields": {
+    "product": {
+     "bulk": "Core",
+     "page": "Core",
+     "agree": true
+    },
+    "component": {
+     "bulk": "Panning and Zooming",
+     "page": "Panning and Zooming",
+     "agree": true
+    },
+    "type": {
+     "bulk": "defect",
+     "page": "defect",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "S4",
+     "page": "S4",
+     "agree": true
+    },
+    "status": {
+     "bulk": "NEW",
+     "page": "NEW",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2024-09-12T23:50:58Z",
+     "page_utc": "2024-09-12T23:50:58",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1922721,
+   "fields": {
+    "product": {
+     "bulk": "Core",
+     "page": "Core",
+     "agree": true
+    },
+    "component": {
+     "bulk": "Graphics",
+     "page": "Graphics",
+     "agree": true
+    },
+    "type": {
+     "bulk": "enhancement",
+     "page": "enhancement",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "--",
+     "page": "--",
+     "agree": true
+    },
+    "status": {
+     "bulk": "REOPENED",
+     "page": "REOPENED",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2024-10-04T02:50:34Z",
+     "page_utc": "2024-10-04T02:50:34",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1929835,
+   "fields": {
+    "product": {
+     "bulk": "Core",
+     "page": "Core",
+     "agree": true
+    },
+    "component": {
+     "bulk": "Layout: Ruby",
+     "page": "Layout: Ruby",
+     "agree": true
+    },
+    "type": {
+     "bulk": "defect",
+     "page": "defect",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "S3",
+     "page": "S3",
+     "agree": true
+    },
+    "status": {
+     "bulk": "NEW",
+     "page": "NEW",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2024-11-07T10:51:13Z",
+     "page_utc": "2024-11-07T10:51:13",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1930205,
+   "fields": {
+    "product": {
+     "bulk": "Core",
+     "page": "Core",
+     "agree": true
+    },
+    "component": {
+     "bulk": "CSS Parsing and Computation",
+     "page": "CSS Parsing and Computation",
+     "agree": true
+    },
+    "type": {
+     "bulk": "task",
+     "page": "task",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "--",
+     "page": "--",
+     "agree": true
+    },
+    "status": {
+     "bulk": "RESOLVED",
+     "page": "RESOLVED",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2024-11-08T17:15:20Z",
+     "page_utc": "2024-11-08T17:15:20",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1930889,
+   "fields": {
+    "product": {
+     "bulk": "Core",
+     "page": "Core",
+     "agree": true
+    },
+    "component": {
+     "bulk": "SVG",
+     "page": "SVG",
+     "agree": true
+    },
+    "type": {
+     "bulk": "defect",
+     "page": "defect",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "S4",
+     "page": "S4",
+     "agree": true
+    },
+    "status": {
+     "bulk": "RESOLVED",
+     "page": "RESOLVED",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2024-11-13T11:48:46Z",
+     "page_utc": "2024-11-13T11:48:46",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1935490,
+   "fields": {
+    "product": {
+     "bulk": "Core",
+     "page": "Core",
+     "agree": true
+    },
+    "component": {
+     "bulk": "CSS Parsing and Computation",
+     "page": "CSS Parsing and Computation",
+     "agree": true
+    },
+    "type": {
+     "bulk": "task",
+     "page": "task",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "--",
+     "page": "--",
+     "agree": true
+    },
+    "status": {
+     "bulk": "RESOLVED",
+     "page": "RESOLVED",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2024-12-05T18:31:36Z",
+     "page_utc": "2024-12-05T18:31:36",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1938047,
+   "fields": {
+    "product": {
+     "bulk": "Core",
+     "page": "Core",
+     "agree": true
+    },
+    "component": {
+     "bulk": "WebRTC: Audio/Video",
+     "page": "WebRTC: Audio/Video",
+     "agree": true
+    },
+    "type": {
+     "bulk": "defect",
+     "page": "defect",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "S3",
+     "page": "S3",
+     "agree": true
+    },
+    "status": {
+     "bulk": "RESOLVED",
+     "page": "RESOLVED",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2024-12-18T08:40:55Z",
+     "page_utc": "2024-12-18T08:40:55",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1943554,
+   "fields": {
+    "product": {
+     "bulk": "Core",
+     "page": "Core",
+     "agree": true
+    },
+    "component": {
+     "bulk": "CSS Parsing and Computation",
+     "page": "CSS Parsing and Computation",
+     "agree": true
+    },
+    "type": {
+     "bulk": "task",
+     "page": "task",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "--",
+     "page": "--",
+     "agree": true
+    },
+    "status": {
+     "bulk": "RESOLVED",
+     "page": "RESOLVED",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2025-01-24T11:24:28Z",
+     "page_utc": "2025-01-24T11:24:28",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1945283,
+   "fields": {
+    "product": {
+     "bulk": "Core",
+     "page": "Core",
+     "agree": true
+    },
+    "component": {
+     "bulk": "CSS Parsing and Computation",
+     "page": "CSS Parsing and Computation",
+     "agree": true
+    },
+    "type": {
+     "bulk": "defect",
+     "page": "defect",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "S4",
+     "page": "S4",
+     "agree": true
+    },
+    "status": {
+     "bulk": "RESOLVED",
+     "page": "RESOLVED",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2025-01-31T23:44:23Z",
+     "page_utc": "2025-01-31T23:44:23",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1945934,
+   "fields": {
+    "product": {
+     "bulk": "Toolkit",
+     "page": "Toolkit",
+     "agree": true
+    },
+    "component": {
+     "bulk": "Crash Reporting",
+     "page": "Crash Reporting",
+     "agree": true
+    },
+    "type": {
+     "bulk": "task",
+     "page": "task",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "--",
+     "page": "--",
+     "agree": true
+    },
+    "status": {
+     "bulk": "RESOLVED",
+     "page": "RESOLVED",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2025-02-04T20:19:12Z",
+     "page_utc": "2025-02-04T20:19:12",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1956766,
+   "fields": {
+    "product": {
+     "bulk": "Toolkit",
+     "page": "Toolkit",
+     "agree": true
+    },
+    "component": {
+     "bulk": "Form Autofill",
+     "page": "Form Autofill",
+     "agree": true
+    },
+    "type": {
+     "bulk": "task",
+     "page": "task",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "N/A",
+     "page": "N/A",
+     "agree": true
+    },
+    "status": {
+     "bulk": "NEW",
+     "page": "NEW",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2025-03-27T10:37:33Z",
+     "page_utc": "2025-03-27T10:37:33",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1957563,
+   "fields": {
+    "product": {
+     "bulk": "Core",
+     "page": "Core",
+     "agree": true
+    },
+    "component": {
+     "bulk": "Graphics",
+     "page": "Graphics",
+     "agree": true
+    },
+    "type": {
+     "bulk": "task",
+     "page": "task",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "--",
+     "page": "--",
+     "agree": true
+    },
+    "status": {
+     "bulk": "RESOLVED",
+     "page": "RESOLVED",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2025-04-01T07:47:44Z",
+     "page_utc": "2025-04-01T07:47:44",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1962807,
+   "fields": {
+    "product": {
+     "bulk": "Core",
+     "page": "Core",
+     "agree": true
+    },
+    "component": {
+     "bulk": "Graphics: WebGPU",
+     "page": "Graphics: WebGPU",
+     "agree": true
+    },
+    "type": {
+     "bulk": "defect",
+     "page": "defect",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "S3",
+     "page": "S3",
+     "agree": true
+    },
+    "status": {
+     "bulk": "RESOLVED",
+     "page": "RESOLVED",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2025-04-25T21:15:25Z",
+     "page_utc": "2025-04-25T21:15:25",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1963174,
+   "fields": {
+    "product": {
+     "bulk": "Core",
+     "page": "Core",
+     "agree": true
+    },
+    "component": {
+     "bulk": "Disability Access APIs",
+     "page": "Disability Access APIs",
+     "agree": true
+    },
+    "type": {
+     "bulk": "task",
+     "page": "task",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "S3",
+     "page": "S3",
+     "agree": true
+    },
+    "status": {
+     "bulk": "RESOLVED",
+     "page": "RESOLVED",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2025-04-28T19:25:48Z",
+     "page_utc": "2025-04-28T19:25:48",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1967670,
+   "fields": {
+    "product": {
+     "bulk": "Core",
+     "page": "Core",
+     "agree": true
+    },
+    "component": {
+     "bulk": "Disability Access APIs",
+     "page": "Disability Access APIs",
+     "agree": true
+    },
+    "type": {
+     "bulk": "task",
+     "page": "task",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "--",
+     "page": "--",
+     "agree": true
+    },
+    "status": {
+     "bulk": "RESOLVED",
+     "page": "RESOLVED",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2025-05-21T09:27:50Z",
+     "page_utc": "2025-05-21T09:27:50",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1968016,
+   "fields": {
+    "product": {
+     "bulk": "Firefox for Android",
+     "page": "Firefox for Android",
+     "agree": true
+    },
+    "component": {
+     "bulk": "Experimentation and Telemetry",
+     "page": "Experimentation and Telemetry",
+     "agree": true
+    },
+    "type": {
+     "bulk": "defect",
+     "page": "defect",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "--",
+     "page": "--",
+     "agree": true
+    },
+    "status": {
+     "bulk": "RESOLVED",
+     "page": "RESOLVED",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2025-05-22T15:43:35Z",
+     "page_utc": "2025-05-22T15:43:35",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1969157,
+   "fields": {
+    "product": {
+     "bulk": "Core",
+     "page": "Core",
+     "agree": true
+    },
+    "component": {
+     "bulk": "DOM: Core & HTML",
+     "page": "DOM: Core & HTML",
+     "agree": true
+    },
+    "type": {
+     "bulk": "defect",
+     "page": "defect",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "--",
+     "page": "--",
+     "agree": true
+    },
+    "status": {
+     "bulk": "RESOLVED",
+     "page": "RESOLVED",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2025-05-29T01:23:37Z",
+     "page_utc": "2025-05-29T01:23:37",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1970555,
+   "fields": {
+    "product": {
+     "bulk": "Firefox",
+     "page": "Firefox",
+     "agree": true
+    },
+    "component": {
+     "bulk": "Screenshots",
+     "page": "Screenshots",
+     "agree": true
+    },
+    "type": {
+     "bulk": "defect",
+     "page": "defect",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "S4",
+     "page": "S4",
+     "agree": true
+    },
+    "status": {
+     "bulk": "RESOLVED",
+     "page": "RESOLVED",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2025-06-05T07:01:08Z",
+     "page_utc": "2025-06-05T07:01:08",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1971650,
+   "fields": {
+    "product": {
+     "bulk": "Core",
+     "page": "Core",
+     "agree": true
+    },
+    "component": {
+     "bulk": "Graphics: WebGPU",
+     "page": "Graphics: WebGPU",
+     "agree": true
+    },
+    "type": {
+     "bulk": "defect",
+     "page": "defect",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "S4",
+     "page": "S4",
+     "agree": true
+    },
+    "status": {
+     "bulk": "RESOLVED",
+     "page": "RESOLVED",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2025-06-11T23:42:49Z",
+     "page_utc": "2025-06-11T23:42:49",
+     "agree": true
+    }
+   }
+  },
+  {
+   "id": 1974189,
+   "fields": {
+    "product": {
+     "bulk": "Core",
+     "page": "Core",
+     "agree": true
+    },
+    "component": {
+     "bulk": "Networking",
+     "page": "Networking",
+     "agree": true
+    },
+    "type": {
+     "bulk": "task",
+     "page": "task",
+     "agree": true
+    },
+    "severity": {
+     "bulk": "S3",
+     "page": "S3",
+     "agree": true
+    },
+    "status": {
+     "bulk": "RESOLVED",
+     "page": "RESOLVED",
+     "agree": true
+    },
+    "creation_time": {
+     "bulk": "2025-06-26T09:49:56Z",
+     "page_utc": "2025-06-26T09:49:56",
+     "agree": true
+    }
+   }
+  }
+ ]
+}

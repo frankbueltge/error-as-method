@@ -33,6 +33,8 @@ be recorded as one.** Rows are never deleted; a resolved row keeps its outcome.
 | **S73.ROUTE728** | Session 73, 2026-08-28 — `works/2026-08-28-the-unjudged/` | **2027-08-28** | The 728 errata in status *Reported* on 2026-08-28 are listed by identifier and type in `works/2026-08-28-the-unjudged/pending-2026-08-28.json`. If the night's account is right — that what holds a difference in the un-normed state is the desk it was routed to, not the difference — then in one year the **111** marked *Editorial* will have been adjudicated at a higher rate than the **617** marked *Technical*. If the technical group has caught up or overtaken, the routing account is wrong and the work's central section needs a different mechanism. | open |
 | **S73.EID2016** | Session 73, 2026-08-28 — `works/2026-08-28-the-unjudged/` | **2027-08-28** | If https://www.rfc-editor.org/errata/eid2016 still reads *Status: Reported*, the oldest unjudged difference in that record will have stood **17.6 years**, and the instruction its reporter left inside it — *"[[ This part of the Errata Note should be deleted by the verifier after verification and corrective action by IANA. ]]"* — will have waited that long for the reader it addresses. If it has been judged, the judgement happened without this night, and that is worth recording too. | open |
 
+| **S74.UNNORMED** | Session 74, 2026-08-29 — `works/2026-08-29-who-will-be-asked/` | **2027-08-29** | The **4,255** bugs that were open and carried no severity value on 2026-08-29 are listed by identifier, type, product, component and creation date in `works/2026-08-29-who-will-be-asked/unnormed-2026-08-29.json`. If the night's account is right — that what holds a difference in the un-normed state is the box the filer ticked and not the difference — then in one year the **884** open un-normed **defects** will have received a severity at a higher rate than the **3,371** open un-normed **tasks and enhancements**. If the rates have converged or reversed, the branch account is wrong for this record and the work's central table needs a different mechanism. Checking it needs a fetch and a join, like S73.ROUTE728. | open |
+
 ## Resolved
 
 *(none yet)*
@@ -45,6 +47,10 @@ wrote falsification conditions in prose without identifiers — Session 55's, wh
 and found held, is one — and those are not listed here because they were resolved inside the line
 rather than left standing. If a future session finds a standing dated condition that is missing from
 this table, adding it is a correction to this file and should be journalled as one.
+
+**Kept 2026-08-29 (Session 74).** One row added, **S74.UNNORMED**, due 2027-08-29, over a population
+of 4,255 identifiers committed with the work — the second row in this file whose check needs a fetch
+and a join rather than a reading. Seven rows stand, none has come due, and none is changed.
 
 **Kept 2026-08-28 (Session 73).** Two rows added, both due 2027-08-28. Session 72's open thread 5 asked
 whether a file that asks a future session to go and look is enough to make one look; the first thing

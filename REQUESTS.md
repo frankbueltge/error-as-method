@@ -6,6 +6,89 @@ decides for itself and journals the decision.
 
 ---
 
+## From the practice — 2026-08-29 (Session 74) — the object changed, the gap ported, and the thing that failed was a sentence rather than a number
+
+> tl;dr: S73 told itself, in writing and marked *not negotiable*, that the object had to change and
+> named the test: find a public record where the person reporting a difference **classifies it
+> themselves** into branches with different appliers. Tonight took **bugzilla.mozilla.org** — 67,272
+> bugs filed over nineteen months, the youngest 424 days old against a **published one-week rule**.
+> **The gap ports and it is 37 points.** And Mozilla's own definition of *triaged* admits only one of
+> the three boxes a reporter can tick, while another of its documents promises a different applier for
+> each. The night's real correction is not a number: it is that the sentence I had fixed *in advance*
+> to say what a losing prediction would mean was itself wrong.
+> braucht: nothing. One constraint reported at point 6 because it is about method, not about you.
+> frist: none.
+> kontext: `works/2026-08-29-who-will-be-asked/` · `works/fehlerkataster-030.md` ·
+> `works/FALSIFIERS.md` (one row) · `journal/2026-08-29.md`
+
+**1. The finding.** A person who has found a difference in Firefox ticks *defect*, *task* or
+*enhancement*. The box says nothing about whether the difference is real and everything about which
+**queue** — Mozilla's word — will be asked. Still carrying no severity after at least 424 days:
+**26.84 %** of 38,753 defects, **64.03 %** of 8,324 enhancements, 64.31 % of 20,195 tasks. Gap
+**37.19 points**; 48.61 among open bugs; **39.12** among the reports whose filer is demonstrably not
+the person the work sits with, so the obvious confound does not explain it. On S73's own terms that
+answers its test: the routing gap is a claim about norms, not about one body's staffing.
+
+**2. The part that is written down, which is why this record and not another.** *"All bug types need
+triage decisions. Engineering triages defects and tasks. Product management triages enhancements […]
+they use **different triage queues**."* And, in the same institution's triage policy: *"The new
+definition of Triaged will be Firefox-related bugs of type `defect` […]"* — so a task or an
+enhancement **cannot be triaged** by the measure the institution uses for itself, however carefully
+anyone attends to it. The reporter's box decides which of those two sentences applies to their report,
+and nothing on the form says so.
+
+**3. The correction that matters, and it is against my own method.** Since S69 this line has fixed,
+before measuring, the sentence it would write if a prediction lost — so that a loss cannot be
+reinterpreted afterwards. P2 lost. The sentence I had fixed for it said *both branches are unserved
+and the routing question does not arise*, and that is false on the same night's numbers: 26.84 %
+against 64.03 % is one branch served three times in four and another one time in three. **A threshold
+cannot tell two branches apart.** Filed as **F-080**, unrewritten. Writing the loss down in advance
+protects against reinterpreting the result and not at all against having been wrong about what the
+result would mean — first time in this run that the pre-written *sentence* rather than the
+pre-written *number* is what failed.
+
+**4. What nobody predicted, and it is bigger than what was.** At the RFC Editor the un-normed
+differences were the ones still waiting. Here they are mostly **finished**: of 28,721 differences with
+no norm imposed on them, **16,250 were fixed**. Inside `defect` alone — controlling for the branch
+whose reporters are outsiders — whether the norm was imposed makes **no difference to repair at all**:
+29.93 % fixed with a severity, 30.67 % without. And the stream on which the norm almost never arrives
+closes fastest (median **6 days** against 23). Also: in **45.2 %** of sampled bugs that carry a
+severity, the value has stood since the instant of filing and no later observer ever touched it — the
+report and the judgement were one act.
+
+**5. Prediction scoring, and the instrument.** Five conditions fixed before `measure.py` existed:
+**two won, three lost**, none rewritten. P5a lost by twelve bugs carrying severities from a vocabulary
+Mozilla retired — dropping all twelve moves the headline gap from 37.19 to 37.21, and it is reported
+anyway. The bulk feed was checked against Mozilla's own per-bug view at a seeded sample: **240 field
+comparisons, zero disagreements** — the first run's two were my own XML-entity bug (**F-081**). A
+second harvest, made *after* scoring and marked post-hoc everywhere, caught a confound the predictions
+had not seen (**F-082**): 68.25 % of `task`s are filed by their own assignee, by 566 people.
+
+**6. The one constraint worth telling you, and it is not a request.** I can read Mozilla's record and
+I cannot read Mozilla's *forms*: `enter_bug.cgi` returns a page with none of its fields to an
+unauthenticated client. So the most interesting fact of the night — that in nearly half the normed
+sample the severity has been there since filing — cannot be attributed to anyone, and the work says
+so instead of guessing (**F-083**). Creating an account would change this practice's relation to the
+record it measures, so I am not going to. A whole class of question — *what does the interface offer
+the person filing?* — is closed to this line, and that is a fact about method worth having on the
+record.
+
+**7. Your catalogue numbers.** `atlas/werke.json` **520** (unchanged nine nights) · `papers/index.json`
+**1,190** · `datasets/register.json` **59**; all 200, declared `count` and `len(entries)` agreeing,
+every term under both matching rules. The papers feed has gone 1,177 → 1,163 → 1,183 → **1,190** over
+four nights — a third consecutive night of direct evidence for the changed-corpus explanation.
+*Canguilhem* and *Simondon* remain 0 under both rules, eleventh session; *Rheinberger* stands at 6.
+*Bugzilla*, *Mozilla*, *Firefox*, *triage*, *bug report* and *issue tracker* are 0 in all three.
+
+**8. Three old asks renewed, none blocking.** S60's `archive/protocols/` (v2 and the 2026-07-15
+amendment), fourteen sessions old. S58's BLOCKING gate item, fourteen days old, with last night's
+exact one-line diagnosis attached. And S73's question about `web.archive.org`, which did not arise
+tonight because nothing needed a dated second observation.
+
+**Status:** open · nothing owed
+
+---
+
 ## From the practice — 2026-08-28 (Session 73) — three predictions lost the same way, Canguilhem finally read, and one sentence of ours that was wrong about our own rules
 
 > tl;dr: I took S72's open thread 2 — the **728** differences in the RFC Editor's record with no verdict
