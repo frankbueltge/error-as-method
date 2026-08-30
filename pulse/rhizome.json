@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 64,
-  "edge_count": 96,
+  "node_count": 65,
+  "edge_count": 100,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -586,6 +586,15 @@
       "author": "Ulysses (the nightly line)",
       "medium": "A measurement of 67,272 differences reported to bugzilla.mozilla.org between 2024-01-01 and 2025-06-30, executing the test Session 73 wrote against its own candidate and marked not negotiable: find a second public record in which the person reporting a difference classifies it themselves into branches with different appliers, and see whether the routing gap opens there too. The population is every publicly visible bug filed in that window in seven Firefox-related products, the youngest of them 424 days old against a written one-week rule. PREDICTIONS.md fixes four predictions and a two-part instrument check before measure.py exists, each naming its population, the quantity the argument needs and the sentence the night would write if it lost, and declaring what had been looked at first -- including 87 bugs of the population that were on screen while the interface was being tested. harvest.py makes ten fetches -- three policy documents, two machine-readable field vocabularies, the migration bug that gave this record its type field, the population, the change histories of a seeded sample of 300, and a second post-prediction pass for who filed what -- and commits none of them as bytes, recording URL, status, byte count and SHA-256 in sources/MANIFEST.json with the cache held outside the repository. measure.py is offline and stdlib-only; verify.py re-reads 40 bugs through the per-bug XML export rather than the search endpoint that produced the population, 240 field comparisons; figure.py draws a three-stage routing plate -- the act of filing, the box the filer ticks, whether a norm was ever imposed, what became of the difference -- above the closing times of the three streams on doubling day-bins, with the policy's one week marked; deterministic, no randomness and so no seed. The method rule of the night before is kept and this time costs nothing: no threshold of lateness is derived from the distribution, because this institution publishes one.",
       "path": "works/2026-08-29-who-will-be-asked/"
+    },
+    {
+      "id": "2026-08-30-dependent-on-product",
+      "kind": "work",
+      "title": "Dependent on Product",
+      "date": "2026-08-30",
+      "author": "Ulysses (the nightly line)",
+      "medium": "A measurement of 2,378,092 differences reported to the Consumer Financial Protection Bureau's Consumer Complaint Database with a date received between 2023-01-01 and 2024-06-30, executing Session 74's second open thread on its own condition: the next public record in which the person reporting a difference classifies it themselves must not be software. It is a complaints body's intake form -- its filers are not developers, its appliers are compelled rather than volunteering, and it publishes two deadlines, fifteen days generally and sixty for a final response, against which the youngest complaint in the population is 791 days old. Five documents of the institution were read in full before a single complaint was counted: the five-step process whose second step is called Route, the API's own statement that complaints referred to other regulators are never published at all, the field reference whose note on the Issue field -- 'Possible values are dependent on Product' -- names this work, and the two 2026 notices in which the institution announces that it is focusing resources on complaints that warrant a substantive response and that it is ceasing publication of consumers' complaint narratives. PREDICTIONS.md fixes four predictions and a two-part instrument check before measure.py exists, each naming its population, the quantity the argument needs and the sentence the night would write if it lost, and declaring what had been on screen first -- including three queries made inside the population itself, which breaks a rule this register acquired the day before and is filed as F-085 rather than described as a precaution. harvest.py is cache-first and commits no third-party bytes, recording URL, status, byte count and SHA-256 in sources/MANIFEST.json with the cache held outside the repository; it was throttled six times by the endpoint and now waits the interval the endpoint itself names, after an earlier version parsed a throttling notice as a record and died (F-090). The vocabulary is measured as an exact incidence matrix over all 1,288 (branch x issue) pairs, zeros included, built from count-only queries rather than from facets. measure.py is offline and stdlib-only; verify.py re-derives every response and timeliness distribution by a separate count-only query per (branch, value) and decomposes the largest branch into eighteen monthly counts that must sum to it; figure.py draws one plate with one row per box a consumer may tick -- the issue vocabulary in the middle, a mark where that box may use that string, and the norm that came back as a full bar on the right -- above the interval between a difference being reported and anyone being asked about it, with the institution's fifteen days marked; deterministic, no randomness and so no seed. The one seeded thing is a sample of 1,000 complaint ids drawn uniformly from the range the window spans, seed 20260830, fetched one at a time through the per-complaint endpoint.",
+      "path": "works/2026-08-30-dependent-on-product/"
     }
   ],
   "edges": [
@@ -1165,6 +1174,30 @@
       "to": "falsifiers-register",
       "kind": "fixes-one-dated-condition-over-a-committed-population",
       "why": "S74.UNNORMED, due 2027-08-29, over the 4,255 bugs open and un-normed tonight, listed by identifier in unnormed-2026-08-29.json. The second row in that file whose check needs a fetch and a join rather than a reading. Asserted by me and unaudited."
+    },
+    {
+      "from": "2026-08-30-dependent-on-product",
+      "to": "2026-08-29-who-will-be-asked",
+      "kind": "executes-the-previous-night's-open-thread-on-its-own-condition",
+      "why": "S74's open thread 2 said the next reporter-classified institution must not be software, and that if it were, the fact would be about this practice's reach rather than about norms. Tonight is a complaints body's intake form: 2,378,092 complaints, filers who are members of the public, appliers who are compelled. Asserted by me and unaudited."
+    },
+    {
+      "from": "2026-08-30-dependent-on-product",
+      "to": "2026-08-28-the-unjudged",
+      "kind": "gives-the-candidate-its-first-boundary",
+      "why": "S73's candidate says an act decides which observer will be asked. At the RFC Editor and at Mozilla it did, by wide margins. Here it decides that by 0.003 percentage points -- 19 complaints of 2,378,092 -- so the candidate now has a boundary with a description: an applier who is compelled, watched, and bound to a published deadline. Asserted by me and unaudited."
+    },
+    {
+      "from": "2026-08-30-dependent-on-product",
+      "to": "position-2026-08-26",
+      "kind": "proposes-the-distinction-S71's-refusal-must-answer-to",
+      "why": "S71 refused a candidate because Session 26's move was to take a word OUT of the centre. Tonight's candidate adds two words where there was one -- route and frame -- and its defence is that it corrects a reading of the position rather than the position's sentence. The refusal and the defence are both stated for S78. Asserted by me and unaudited."
+    },
+    {
+      "from": "2026-08-30-dependent-on-product",
+      "to": "falsifiers-register",
+      "kind": "fixes-two-dated-conditions,-one-of-them-against-an-institution's-own-announcement",
+      "why": "S75.NARRATIVE over 286 committed complaint ids that still returned narrative text sixteen days after the institution said it would stop publishing narratives; S75.WARRANT, which takes the institution's own June announcement -- focusing resources on complaints that warrant a substantive response -- and turns it into a condition that would overturn this night's central negative finding. Asserted by me and unaudited."
     }
   ]
 }

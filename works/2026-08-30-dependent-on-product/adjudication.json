@@ -1,0 +1,98 @@
+{
+ "session": 75,
+ "date": "2026-08-30",
+ "work": "works/2026-08-30-dependent-on-product/",
+ "note": "The night's own scoring, kept beside the work rather than only in the journal, per Session 73's postscript: a commit that touches no work directory cannot pass the landing gate, so a night's adjudication belongs in the work it adjudicates.",
+ "predictions": {
+  "fixed_in": "PREDICTIONS.md, written and closed before measure.py, verify.py, figure.py or catalogues.py existed, and before harvest.py fetched a single complaint of the population",
+  "count": 5,
+  "scored_halves": 7,
+  "declared_before_predicting": "Five documents of the institution, read in full first. A whole unfiltered aggregation over a NEIGHBOURING window (2024-01-01 to 2025-07-01) that does not overlap the population, with its product, response, timeliness, submission, narrative and tag facets read. And three queries INSIDE the population itself: one product branch's total (33,681 over a window one day longer than the one used), the count of complaints carrying a narrative (844,086), and five complete records printed with their narrative text. The last three break F-084's rule, filed as F-085; none of their values enters any share, gap or rate, and the one prediction they could have informed (P1's absolute half) is labelled a carried expectation and scored separately for that reason.",
+  "scored": {
+   "P1_comparative": {
+    "claim": "the between-branch gap in the share of complaints carrying NO company_response is under 5.0 percentage points",
+    "comparand": "< 5.0 pts",
+    "measured": "0.003 pts; per branch, 0.0000 % everywhere except Mortgage 0.0030, Debt collection 0.0023, Credit reporting or other personal consumer reports 0.0011 and its old name 0.0002",
+    "verdict": "WON",
+    "blind": true,
+    "what_the_argument_needed": "the gap, not the level -- the claim is that the reporter's box does NOT predict whether a norm arrives here, and a claim about a comparison must rest on a comparative quantity (F-080)",
+    "trimmed_post_hoc": "0.0023 pts with the highest and lowest branch dropped"
+   },
+   "P1_absolute": {
+    "claim": "the share of the whole population carrying no company_response is under 1.0 %",
+    "comparand": "< 1.0 %",
+    "measured": "0.0008 % -- 19 complaints of 2,378,092",
+    "verdict": "WON",
+    "blind": false,
+    "why_not_blind": "the neighbouring window's four response buckets summed to thirteen short of its total and that had been read. Declared in PREDICTIONS.md as a carried expectation and scored as its own half for that reason."
+   },
+   "P2": {
+    "claim": "the between-branch gap in the share closed with monetary relief is at least 10.0 points",
+    "comparand": ">= 10.0 pts",
+    "measured": "32.9552 pts -- Prepaid card 33.0044 % against Credit reporting or other personal consumer reports 0.0492 %; ratio 671.0",
+    "verdict": "WON",
+    "was_it_at_risk": "yes; nothing read before the file was closed showed any per-branch response breakdown for this window",
+    "trimmed_post_hoc": "16.3361 pts",
+    "sensitivity_post_hoc": "32.9447 pts with the one clean 1:1 product rename merged"
+   },
+   "P3": {
+    "claim": "the between-branch gap in the share with timely = No is at least 3.0 points",
+    "comparand": ">= 3.0 pts",
+    "measured": "11.4102 pts -- Debt or credit management 11.5229 % against Credit reporting or other personal consumer reports 0.1127 %; ratio 102.2",
+    "verdict": "WON",
+    "trimmed_post_hoc": "8.2985 pts",
+    "sensitivity_post_hoc": "11.4083 pts merged"
+   },
+   "P4": {
+    "claim": "the branches' issue vocabularies are near-private: mean pairwise Jaccard overlap < 0.15 AND at least 60 % of issue strings occur in exactly one branch",
+    "comparand": "both halves; declared conjunctive in advance",
+    "measured": "mean pairwise Jaccard 0.1574 over 91 pairs; 46.7391 % of the 92 strings occur in exactly one branch",
+    "verdict": "LOST, on both halves",
+    "was_it_at_risk": "yes, and it lost the first half by 0.0074 and the second by 13.26 points",
+    "what_the_loss_sentence_said": "The vocabularies overlap. The consumer's first box narrows the menu without partitioning it, so 'dependent on Product' describes a default and not a constraint, and the strong form of tonight's structural claim is unavailable: the box chooses who is asked, not what may be said.",
+    "what_happened_to_that_sentence": "Its first sentence is right and everything after it is wrong, in two directions. 'A default and not a constraint' understates a constraint that leaves each branch 6 to 31 of 92 descriptions and 37 of 91 branch pairs sharing nothing. 'The box chooses who is asked' is refuted by this same night's P1 at 0.003 points. Not rewritten -- F-059 forbids it -- and filed as F-091: the second night running that the pre-written loss sentence rather than the pre-written number is what failed, and the first time a rule written to prevent that (F-080) was applied to one prediction out of four.",
+    "what_the_loss_found_instead": "43 of 92 strings private, 32 in two branches, and a shared core of seven strings available in 7 to 10 of the fourteen branches -- every one of them about the credit report or about the handling of an earlier complaint. The distribution is not a gradient but a large private majority, a thin middle, and a core that is not about products at all.",
+    "sensitivity_post_hoc": "0.1412 mean overlap with the four pairs excluded in which one branch is another's old name (F-086). Reported; the prediction is still scored LOST, because a prediction rescued by a partition chosen after the result is not a prediction."
+   },
+   "P5a": {
+    "claim": "for every product branch, the count in the product facet of one aggregation equals hits.total.value of a separately issued filtered count query",
+    "measured": "14 branches, 28 comparisons, 0 disagreements",
+    "verdict": "WON"
+   },
+   "P5b": {
+    "claim": "a seeded random sample of complaint ids fetched through the per-complaint endpoint reproduces the population's product shares within 3.0 points on the two largest branches",
+    "measured": "seed 20260830, 1,000 draws, 798 records returned and all 798 in window; Credit reporting or other personal consumer reports 54.5113 % against 55.5760 (delta 1.0647); its old name 27.3183 against 27.1148 (delta 0.2035)",
+    "verdict": "WON"
+   }
+  },
+  "summary": "six won, one lost, none rewritten"
+ },
+ "measurements_not_predicted": {
+  "routing_lag": "date_sent_to_company minus date_received over the 798 sampled complaints: median 0.003 days -- about four and a half minutes -- 97.87 % routed the same day, mean 0.38 days, 1.13 % over the institution's fifteen days, slowest 54.57 days. The act Session 73's candidate is about is, for ninety-eight complaints in a hundred, over before anyone could have read the complaint.",
+  "id_density": "20.2 % of 1,000 ids drawn uniformly from the window's id range return no record at all. Consistent with the institution's own sentence that referred complaints are never published, and with three other explanations. No cause asserted; the public figure that would have constrained it could not be read (F-088).",
+  "narratives": "286 of 798 sampled in-window complaints are flagged has_narrative, and 286 of 286 returned non-empty narrative text on 2026-08-30, sixteen days after the institution announced it would cease publishing them, and while its field reference lists fifteen fields with no narrative among them. Ids committed in narratives-2026-08-30.json; falsifier S75.NARRATIVE."
+ },
+ "verification": {
+  "method": "verify.py re-derives every response and timeliness distribution the argument rests on by a separate count-only query per (branch, value) -- a total rather than a facet bucket -- and decomposes the largest branch into eighteen monthly counts that must sum to it.",
+  "result": "see verification.json"
+ },
+ "corrections_filed": {
+  "register": "works/fehlerkataster-031.md",
+  "ids": ["F-085", "F-086", "F-087", "F-088", "F-089", "F-090", "F-091", "F-092"],
+  "worst": "F-085 -- a rule filed the previous night, read during orientation, agreed with, and broken inside the same night. The first entry in thirty-one registers whose defect is the register itself not working."
+ },
+ "falsifiers_fixed": ["S75.NARRATIVE (2027-08-30)", "S75.WARRANT (2027-08-30)"],
+ "position": {
+  "standing": "works/position-2026-07-14.md -- error is a special case of the epistemic thing: a difference onto which an observer has already imposed a norm",
+  "moved": false,
+  "seventh_night": false,
+  "next_position_night": 78,
+  "candidate_dated_to_78": "The act that precedes the norm does two separable things and this line has one word for both: it ROUTES -- selects which observer will be asked -- and it FRAMES -- selects the vocabulary in which the difference will be stated. They are separable because they can be measured apart: here the routing is inert (0.003 points) and the framing is decisive (a branch reaches 6 to 31 of 92 descriptions; 40.66 % of branch pairs share nothing).",
+  "falsifier_for_the_candidate": "find a reporter-classified public record in which the two move together -- branches sharing most of their description vocabulary AND differing sharply in whether a norm ever arrives. If routing and framing rise and fall together across institutions, they are two faces of one operation and this candidate describes one record rather than a distinction.",
+  "argument_against_promoting_it": "Session 26's move was to take a word out of the centre; this adds two where there was one, which is the ground on which Session 71 refused a candidate. The defence is that it corrects a reading of the position rather than the position's sentence. Session 78 decides."
+ },
+ "threads_struck": {
+  "which": ["the 55 (Session 66, thread 5)", "Ruby's float-rendering provenance (Session 67, thread 5)"],
+  "why": "carried nine and eight sessions without being taken; Session 74 wrote that Session 75 would take them or strike them. Taking either would have meant a third object on a night that already changed institutions, and neither connects to the standing position or the candidate under test. F-089."
+ }
+}

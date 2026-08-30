@@ -1,0 +1,629 @@
+{
+ "night": "2026-08-30",
+ "session": 75,
+ "window": {
+  "date_received_min": "2023-01-01",
+  "date_received_max": "2024-06-30"
+ },
+ "method": "one count-only query per (branch, value), compared with the facet bucket the argument actually used; a second route to the same number.",
+ "comparisons": 99,
+ "disagreements": [],
+ "branches": {
+  "Credit reporting or other personal consumer reports": {
+   "n": 1321648,
+   "response": {
+    "Closed with explanation": {
+     "count_query": 557326,
+     "facet": 557326
+    },
+    "Closed with non-monetary relief": {
+     "count_query": 763412,
+     "facet": 763412
+    },
+    "Closed with monetary relief": {
+     "count_query": 650,
+     "facet": 650
+    },
+    "Untimely response": {
+     "count_query": 246,
+     "facet": 246
+    },
+    "In progress": {
+     "count_query": 0,
+     "facet": 0
+    }
+   },
+   "timely": {
+    "Yes": {
+     "count_query": 1320159,
+     "facet": 1320159
+    },
+    "No": {
+     "count_query": 1489,
+     "facet": 1489
+    }
+   },
+   "responses_sum": 1321634,
+   "unaccounted_for": 14
+  },
+  "Credit reporting, credit repair services, or other personal consumer reports": {
+   "n": 644815,
+   "response": {
+    "Closed with explanation": {
+     "count_query": 345910,
+     "facet": 345910
+    },
+    "Closed with non-monetary relief": {
+     "count_query": 298241,
+     "facet": 298241
+    },
+    "Closed with monetary relief": {
+     "count_query": 524,
+     "facet": 524
+    },
+    "Untimely response": {
+     "count_query": 139,
+     "facet": 139
+    },
+    "In progress": {
+     "count_query": 0,
+     "facet": 0
+    }
+   },
+   "timely": {
+    "Yes": {
+     "count_query": 644050,
+     "facet": 644050
+    },
+    "No": {
+     "count_query": 765,
+     "facet": 765
+    }
+   },
+   "responses_sum": 644814,
+   "unaccounted_for": 1
+  },
+  "Debt collection": {
+   "n": 132845,
+   "response": {
+    "Closed with explanation": {
+     "count_query": 102372,
+     "facet": 102372
+    },
+    "Closed with non-monetary relief": {
+     "count_query": 29354,
+     "facet": 29354
+    },
+    "Closed with monetary relief": {
+     "count_query": 592,
+     "facet": 592
+    },
+    "Untimely response": {
+     "count_query": 524,
+     "facet": 524
+    },
+    "In progress": {
+     "count_query": 0,
+     "facet": 0
+    }
+   },
+   "timely": {
+    "Yes": {
+     "count_query": 130148,
+     "facet": 130148
+    },
+    "No": {
+     "count_query": 2697,
+     "facet": 2697
+    }
+   },
+   "responses_sum": 132842,
+   "unaccounted_for": 3
+  },
+  "Checking or savings account": {
+   "n": 74747,
+   "response": {
+    "Closed with explanation": {
+     "count_query": 58985,
+     "facet": 58985
+    },
+    "Closed with non-monetary relief": {
+     "count_query": 4815,
+     "facet": 4815
+    },
+    "Closed with monetary relief": {
+     "count_query": 10923,
+     "facet": 10923
+    },
+    "Untimely response": {
+     "count_query": 24,
+     "facet": 24
+    },
+    "In progress": {
+     "count_query": 0,
+     "facet": 0
+    }
+   },
+   "timely": {
+    "Yes": {
+     "count_query": 74154,
+     "facet": 74154
+    },
+    "No": {
+     "count_query": 593,
+     "facet": 593
+    }
+   },
+   "responses_sum": 74747,
+   "unaccounted_for": 0
+  },
+  "Credit card": {
+   "n": 57161,
+   "response": {
+    "Closed with explanation": {
+     "count_query": 35087,
+     "facet": 35087
+    },
+    "Closed with non-monetary relief": {
+     "count_query": 14074,
+     "facet": 14074
+    },
+    "Closed with monetary relief": {
+     "count_query": 7989,
+     "facet": 7989
+    },
+    "Untimely response": {
+     "count_query": 11,
+     "facet": 11
+    },
+    "In progress": {
+     "count_query": 0,
+     "facet": 0
+    }
+   },
+   "timely": {
+    "Yes": {
+     "count_query": 57073,
+     "facet": 57073
+    },
+    "No": {
+     "count_query": 88,
+     "facet": 88
+    }
+   },
+   "responses_sum": 57161,
+   "unaccounted_for": 0
+  },
+  "Credit card or prepaid card": {
+   "n": 35310,
+   "response": {
+    "Closed with explanation": {
+     "count_query": 23188,
+     "facet": 23188
+    },
+    "Closed with non-monetary relief": {
+     "count_query": 6314,
+     "facet": 6314
+    },
+    "Closed with monetary relief": {
+     "count_query": 5797,
+     "facet": 5797
+    },
+    "Untimely response": {
+     "count_query": 11,
+     "facet": 11
+    },
+    "In progress": {
+     "count_query": 0,
+     "facet": 0
+    }
+   },
+   "timely": {
+    "Yes": {
+     "count_query": 35064,
+     "facet": 35064
+    },
+    "No": {
+     "count_query": 246,
+     "facet": 246
+    }
+   },
+   "responses_sum": 35310,
+   "unaccounted_for": 0
+  },
+  "Mortgage": {
+   "n": 33605,
+   "response": {
+    "Closed with explanation": {
+     "count_query": 31963,
+     "facet": 31963
+    },
+    "Closed with non-monetary relief": {
+     "count_query": 889,
+     "facet": 889
+    },
+    "Closed with monetary relief": {
+     "count_query": 713,
+     "facet": 713
+    },
+    "Untimely response": {
+     "count_query": 39,
+     "facet": 39
+    },
+    "In progress": {
+     "count_query": 0,
+     "facet": 0
+    }
+   },
+   "timely": {
+    "Yes": {
+     "count_query": 33281,
+     "facet": 33281
+    },
+    "No": {
+     "count_query": 324,
+     "facet": 324
+    }
+   },
+   "responses_sum": 33604,
+   "unaccounted_for": 1
+  },
+  "Money transfer, virtual currency, or money service": {
+   "n": 21702,
+   "response": {
+    "Closed with explanation": {
+     "count_query": 18907,
+     "facet": 18907
+    },
+    "Closed with non-monetary relief": {
+     "count_query": 1011,
+     "facet": 1011
+    },
+    "Closed with monetary relief": {
+     "count_query": 1735,
+     "facet": 1735
+    },
+    "Untimely response": {
+     "count_query": 49,
+     "facet": 49
+    },
+    "In progress": {
+     "count_query": 0,
+     "facet": 0
+    }
+   },
+   "timely": {
+    "Yes": {
+     "count_query": 21205,
+     "facet": 21205
+    },
+    "No": {
+     "count_query": 497,
+     "facet": 497
+    }
+   },
+   "responses_sum": 21702,
+   "unaccounted_for": 0
+  },
+  "Vehicle loan or lease": {
+   "n": 19319,
+   "response": {
+    "Closed with explanation": {
+     "count_query": 17648,
+     "facet": 17648
+    },
+    "Closed with non-monetary relief": {
+     "count_query": 1147,
+     "facet": 1147
+    },
+    "Closed with monetary relief": {
+     "count_query": 468,
+     "facet": 468
+    },
+    "Untimely response": {
+     "count_query": 56,
+     "facet": 56
+    },
+    "In progress": {
+     "count_query": 0,
+     "facet": 0
+    }
+   },
+   "timely": {
+    "Yes": {
+     "count_query": 19105,
+     "facet": 19105
+    },
+    "No": {
+     "count_query": 214,
+     "facet": 214
+    }
+   },
+   "responses_sum": 19319,
+   "unaccounted_for": 0
+  },
+  "Student loan": {
+   "n": 18201,
+   "response": {
+    "Closed with explanation": {
+     "count_query": 16786,
+     "facet": 16786
+    },
+    "Closed with non-monetary relief": {
+     "count_query": 1123,
+     "facet": 1123
+    },
+    "Closed with monetary relief": {
+     "count_query": 245,
+     "facet": 245
+    },
+    "Untimely response": {
+     "count_query": 47,
+     "facet": 47
+    },
+    "In progress": {
+     "count_query": 0,
+     "facet": 0
+    }
+   },
+   "timely": {
+    "Yes": {
+     "count_query": 16669,
+     "facet": 16669
+    },
+    "No": {
+     "count_query": 1532,
+     "facet": 1532
+    }
+   },
+   "responses_sum": 18201,
+   "unaccounted_for": 0
+  },
+  "Payday loan, title loan, personal loan, or advance loan": {
+   "n": 6896,
+   "response": {
+    "Closed with explanation": {
+     "count_query": 6223,
+     "facet": 6223
+    },
+    "Closed with non-monetary relief": {
+     "count_query": 319,
+     "facet": 319
+    },
+    "Closed with monetary relief": {
+     "count_query": 305,
+     "facet": 305
+    },
+    "Untimely response": {
+     "count_query": 49,
+     "facet": 49
+    },
+    "In progress": {
+     "count_query": 0,
+     "facet": 0
+    }
+   },
+   "timely": {
+    "Yes": {
+     "count_query": 6626,
+     "facet": 6626
+    },
+    "No": {
+     "count_query": 270,
+     "facet": 270
+    }
+   },
+   "responses_sum": 6896,
+   "unaccounted_for": 0
+  },
+  "Prepaid card": {
+   "n": 5675,
+   "response": {
+    "Closed with explanation": {
+     "count_query": 3565,
+     "facet": 3565
+    },
+    "Closed with non-monetary relief": {
+     "count_query": 233,
+     "facet": 233
+    },
+    "Closed with monetary relief": {
+     "count_query": 1873,
+     "facet": 1873
+    },
+    "Untimely response": {
+     "count_query": 4,
+     "facet": 4
+    },
+    "In progress": {
+     "count_query": 0,
+     "facet": 0
+    }
+   },
+   "timely": {
+    "Yes": {
+     "count_query": 5467,
+     "facet": 5467
+    },
+    "No": {
+     "count_query": 208,
+     "facet": 208
+    }
+   },
+   "responses_sum": 5675,
+   "unaccounted_for": 0
+  },
+  "Payday loan, title loan, or personal loan": {
+   "n": 4684,
+   "response": {
+    "Closed with explanation": {
+     "count_query": 4227,
+     "facet": 4227
+    },
+    "Closed with non-monetary relief": {
+     "count_query": 203,
+     "facet": 203
+    },
+    "Closed with monetary relief": {
+     "count_query": 229,
+     "facet": 229
+    },
+    "Untimely response": {
+     "count_query": 25,
+     "facet": 25
+    },
+    "In progress": {
+     "count_query": 0,
+     "facet": 0
+    }
+   },
+   "timely": {
+    "Yes": {
+     "count_query": 4505,
+     "facet": 4505
+    },
+    "No": {
+     "count_query": 179,
+     "facet": 179
+    }
+   },
+   "responses_sum": 4684,
+   "unaccounted_for": 0
+  },
+  "Debt or credit management": {
+   "n": 1484,
+   "response": {
+    "Closed with explanation": {
+     "count_query": 1141,
+     "facet": 1141
+    },
+    "Closed with non-monetary relief": {
+     "count_query": 169,
+     "facet": 169
+    },
+    "Closed with monetary relief": {
+     "count_query": 78,
+     "facet": 78
+    },
+    "Untimely response": {
+     "count_query": 96,
+     "facet": 96
+    },
+    "In progress": {
+     "count_query": 0,
+     "facet": 0
+    }
+   },
+   "timely": {
+    "Yes": {
+     "count_query": 1313,
+     "facet": 1313
+    },
+    "No": {
+     "count_query": 171,
+     "facet": 171
+    }
+   },
+   "responses_sum": 1484,
+   "unaccounted_for": 0
+  }
+ },
+ "monthly_decomposition": {
+  "branch": "Credit reporting or other personal consumer reports",
+  "months": [
+   {
+    "month": "2023-01",
+    "count": 0,
+    "next_day_edge": 0
+   },
+   {
+    "month": "2023-02",
+    "count": 0,
+    "next_day_edge": 0
+   },
+   {
+    "month": "2023-03",
+    "count": 0,
+    "next_day_edge": 0
+   },
+   {
+    "month": "2023-04",
+    "count": 0,
+    "next_day_edge": 0
+   },
+   {
+    "month": "2023-05",
+    "count": 0,
+    "next_day_edge": 0
+   },
+   {
+    "month": "2023-06",
+    "count": 0,
+    "next_day_edge": 0
+   },
+   {
+    "month": "2023-07",
+    "count": 0,
+    "next_day_edge": 0
+   },
+   {
+    "month": "2023-08",
+    "count": 20736,
+    "next_day_edge": 3348
+   },
+   {
+    "month": "2023-09",
+    "count": 92522,
+    "next_day_edge": 1517
+   },
+   {
+    "month": "2023-10",
+    "count": 94884,
+    "next_day_edge": 3121
+   },
+   {
+    "month": "2023-11",
+    "count": 92177,
+    "next_day_edge": 3546
+   },
+   {
+    "month": "2023-12",
+    "count": 101735,
+    "next_day_edge": 1430
+   },
+   {
+    "month": "2024-01",
+    "count": 119512,
+    "next_day_edge": 4810
+   },
+   {
+    "month": "2024-02",
+    "count": 132992,
+    "next_day_edge": 5390
+   },
+   {
+    "month": "2024-03",
+    "count": 147637,
+    "next_day_edge": 5516
+   },
+   {
+    "month": "2024-04",
+    "count": 160450,
+    "next_day_edge": 6002
+   },
+   {
+    "month": "2024-05",
+    "count": 181420,
+    "next_day_edge": 3574
+   },
+   {
+    "month": "2024-06",
+    "count": 177583,
+    "next_day_edge": 7414
+   }
+  ],
+  "sum": 1321648,
+  "branch_total": 1321648,
+  "agrees": true
+ }
+}

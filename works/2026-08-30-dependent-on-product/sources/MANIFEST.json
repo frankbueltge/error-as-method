@@ -1,0 +1,279 @@
+{
+ "night": "2026-08-30",
+ "session": 75,
+ "rule": "Third-party bytes are not committed here. The database declares itself CC0 in its own API metadata, so the derived aggregates in results.json are lawful to publish; the consumers' narratives are not committed all the same, and no narrative text leaves harvest.py \u2014 only its length in characters.",
+ "raw_cache": "outside the repository (--raw), never inside it",
+ "throttling": {
+  "note": "The endpoint refused this harvest partway through the seeded sample with 'Request was throttled'. The first version of this script parsed that refusal as a record and died (F-090). It now waits the interval the endpoint names, counts the waits, and reports them here.",
+  "events": 6,
+  "seconds_waited": 128
+ },
+ "sources": [
+  {
+   "name": "complaint-process.html",
+   "url": "https://www.consumerfinance.gov/complaint/process/",
+   "what": "The institution's own five-step account of what happens to a reported difference. Step 2 is called Route. Step 3 publishes the two deadlines this night measures against \u2014 fifteen days generally, sixty for a final response \u2014 so no threshold of lateness has to be taken out of the distribution.",
+   "http_status": 200,
+   "bytes": 139440,
+   "sha256": "2cc05f19d85c281dcdc763fd1a37929e1c15aaaab0b771b152fcbad6b0b8c386",
+   "from_cache": true,
+   "committed": false
+  },
+  {
+   "name": "ccdb-what-is-this-data.html",
+   "url": "https://cfpb.github.io/api/ccdb/",
+   "what": "The publication rule and the boundary of the record: complaints are published after the company responds or after fifteen days, whichever comes first; complaints referred to other regulators are never published at all.",
+   "http_status": 200,
+   "bytes": 4661,
+   "sha256": "16924754b0c924ec1b823edcfc5f1d5e7ada9b23072914d77cdc6e7a8a9c8605",
+   "from_cache": true,
+   "committed": false
+  },
+  {
+   "name": "ccdb-fields.html",
+   "url": "https://cfpb.github.io/api/ccdb/fields.html",
+   "what": "The field reference. Of Issue: 'Possible values are dependent on Product.' Of Sub-issue: 'Possible values are dependent on product and issue.' This is the sentence P4 tests.",
+   "http_status": 200,
+   "bytes": 9828,
+   "sha256": "908165f4255037de0ab5d8307d59d3bb5647223d0e884165b1deafaf12b3aa8f",
+   "from_cache": true,
+   "committed": false
+  },
+  {
+   "name": "cfpb-correcting-flaws-2026-06-24.html",
+   "url": "https://www.consumerfinance.gov/about-us/newsroom/the-cfpb-is-correcting-flaws-to-restore-integrity-and-utility-to-the-consumer-complaint-system/",
+   "what": "2026-06-24. The institution announcing that it is 'Focusing resources on complaints that warrant a substantive response' \u2014 a routing rule being rewritten in public, two months before this night.",
+   "http_status": 200,
+   "bytes": 149295,
+   "sha256": "07c340deb7db936b510d6cd7568d164d53faeacb33df0aa2da273a8fa5038908",
+   "from_cache": true,
+   "committed": false
+  },
+  {
+   "name": "cfpb-cease-narratives-2026-08-14.html",
+   "url": "https://www.consumerfinance.gov/about-us/newsroom/the-cfpb-to-cease-discretionary-publication-of-complaint-narratives-and-visualizations/",
+   "what": "2026-08-14, sixteen days before this night. The institution ceasing publication of the consumers' own descriptions of their differences, on the stated ground that they are unverified.",
+   "http_status": 200,
+   "bytes": 141074,
+   "sha256": "bc2b4150c8f617e874ef1090e3d5084cadc267c386351ea931b8b28c9cd0880c",
+   "from_cache": true,
+   "committed": false
+  },
+  {
+   "name": "aggs-window-all.json",
+   "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/?date_received_min=2023-01-01&date_received_max=2024-06-30&size=0",
+   "what": "faceted query: {}",
+   "http_status": 200,
+   "bytes": 241416,
+   "sha256": "47dc4ab685d7e6af27a99b5ccf42bba3704ed2a122ee68b0f5260336a1490544",
+   "from_cache": true,
+   "committed": false
+  },
+  {
+   "name": "aggs-p-credit-reporting-or-other-personal-consumer-reports.json",
+   "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/?date_received_min=2023-01-01&date_received_max=2024-06-30&size=0&product=Credit+reporting+or+other+personal+consumer+reports",
+   "what": "faceted query: {'product': 'Credit reporting or other personal consumer reports'}",
+   "http_status": 200,
+   "bytes": 98506,
+   "sha256": "90522b6100d7549fa17d4a73d426de5b2d528466cbd384fefbe87cdacc78d3f0",
+   "from_cache": true,
+   "committed": false
+  },
+  {
+   "name": "aggs-p-credit-reporting--credit-repair-services--or-other-personal-.json",
+   "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/?date_received_min=2023-01-01&date_received_max=2024-06-30&size=0&product=Credit+reporting%2C+credit+repair+services%2C+or+other+personal+consumer+reports",
+   "what": "faceted query: {'product': 'Credit reporting, credit repair services, or other personal consumer reports'}",
+   "http_status": 200,
+   "bytes": 89142,
+   "sha256": "4f316e1189ad45fa163942ec408494944d29e961bc3c350cad8ce228b63899da",
+   "from_cache": true,
+   "committed": false
+  },
+  {
+   "name": "aggs-p-debt-collection.json",
+   "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/?date_received_min=2023-01-01&date_received_max=2024-06-30&size=0&product=Debt+collection",
+   "what": "faceted query: {'product': 'Debt collection'}",
+   "http_status": 200,
+   "bytes": 139165,
+   "sha256": "9c88715b90d2332f9ce5628785e2ccb9db68d74e060b8f2f3f8d93bb049d5e51",
+   "from_cache": true,
+   "committed": false
+  },
+  {
+   "name": "aggs-p-checking-or-savings-account.json",
+   "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/?date_received_min=2023-01-01&date_received_max=2024-06-30&size=0&product=Checking+or+savings+account",
+   "what": "faceted query: {'product': 'Checking or savings account'}",
+   "http_status": 200,
+   "bytes": 38671,
+   "sha256": "e683cb8f4cb362854eec906a83609c551f8544692fb6e5e690476e7b36255fe8",
+   "from_cache": true,
+   "committed": false
+  },
+  {
+   "name": "aggs-p-credit-card.json",
+   "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/?date_received_min=2023-01-01&date_received_max=2024-06-30&size=0&product=Credit+card",
+   "what": "faceted query: {'product': 'Credit card'}",
+   "http_status": 200,
+   "bytes": 36588,
+   "sha256": "18039f9c1f7bd4a906748c2b638a6120b683dce34d2586a98fdce0b9f821ae0e",
+   "from_cache": true,
+   "committed": false
+  },
+  {
+   "name": "aggs-p-credit-card-or-prepaid-card.json",
+   "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/?date_received_min=2023-01-01&date_received_max=2024-06-30&size=0&product=Credit+card+or+prepaid+card",
+   "what": "faceted query: {'product': 'Credit card or prepaid card'}",
+   "http_status": 200,
+   "bytes": 35585,
+   "sha256": "2e1776479bced37964c28844f4a584117fc439570ed9f994b30672fed9e655bd",
+   "from_cache": true,
+   "committed": false
+  },
+  {
+   "name": "aggs-p-mortgage.json",
+   "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/?date_received_min=2023-01-01&date_received_max=2024-06-30&size=0&product=Mortgage",
+   "what": "faceted query: {'product': 'Mortgage'}",
+   "http_status": 200,
+   "bytes": 57512,
+   "sha256": "183c06ba6cf198fbeacc1748d7273920a154ffa1260f4a9f4459f46405d5524b",
+   "from_cache": true,
+   "committed": false
+  },
+  {
+   "name": "aggs-p-money-transfer--virtual-currency--or-money-service.json",
+   "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/?date_received_min=2023-01-01&date_received_max=2024-06-30&size=0&product=Money+transfer%2C+virtual+currency%2C+or+money+service",
+   "what": "faceted query: {'product': 'Money transfer, virtual currency, or money service'}",
+   "http_status": 200,
+   "bytes": 36676,
+   "sha256": "40d31cde5089ef05bb269f6d59bc027485c8811bb32180a7b00bd35b3916b9d8",
+   "from_cache": true,
+   "committed": false
+  },
+  {
+   "name": "aggs-p-vehicle-loan-or-lease.json",
+   "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/?date_received_min=2023-01-01&date_received_max=2024-06-30&size=0&product=Vehicle+loan+or+lease",
+   "what": "faceted query: {'product': 'Vehicle loan or lease'}",
+   "http_status": 200,
+   "bytes": 42389,
+   "sha256": "5d858ff4d40537cfca79d16e44f286f80a4334382f062e68ec38c3b52121ac7a",
+   "from_cache": true,
+   "committed": false
+  },
+  {
+   "name": "aggs-p-student-loan.json",
+   "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/?date_received_min=2023-01-01&date_received_max=2024-06-30&size=0&product=Student+loan",
+   "what": "faceted query: {'product': 'Student loan'}",
+   "http_status": 200,
+   "bytes": 25617,
+   "sha256": "06eeccb9837a42a45b7607274407755838abde3f73cca4d9e298d89dbc1ed51c",
+   "from_cache": true,
+   "committed": false
+  },
+  {
+   "name": "aggs-p-payday-loan--title-loan--personal-loan--or-advance-loan.json",
+   "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/?date_received_min=2023-01-01&date_received_max=2024-06-30&size=0&product=Payday+loan%2C+title+loan%2C+personal+loan%2C+or+advance+loan",
+   "what": "faceted query: {'product': 'Payday loan, title loan, personal loan, or advance loan'}",
+   "http_status": 200,
+   "bytes": 43284,
+   "sha256": "0407271db6ca4658d132966c93d6a7b911f4909c6b77c40ae0665c402f6c2eb8",
+   "from_cache": true,
+   "committed": false
+  },
+  {
+   "name": "aggs-p-prepaid-card.json",
+   "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/?date_received_min=2023-01-01&date_received_max=2024-06-30&size=0&product=Prepaid+card",
+   "what": "faceted query: {'product': 'Prepaid card'}",
+   "http_status": 200,
+   "bytes": 17538,
+   "sha256": "cf1fec0ec9a78d7e11d2c545b90b6edc9f4c54f24173edd2af27c0262578dde9",
+   "from_cache": true,
+   "committed": false
+  },
+  {
+   "name": "aggs-p-payday-loan--title-loan--or-personal-loan.json",
+   "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/?date_received_min=2023-01-01&date_received_max=2024-06-30&size=0&product=Payday+loan%2C+title+loan%2C+or+personal+loan",
+   "what": "faceted query: {'product': 'Payday loan, title loan, or personal loan'}",
+   "http_status": 200,
+   "bytes": 40041,
+   "sha256": "ca04ac613299372606d6b389fc082923cfdbd85005b8f670c3fe105f3cef4f9c",
+   "from_cache": true,
+   "committed": false
+  },
+  {
+   "name": "aggs-p-debt-or-credit-management.json",
+   "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/?date_received_min=2023-01-01&date_received_max=2024-06-30&size=0&product=Debt+or+credit+management",
+   "what": "faceted query: {'product': 'Debt or credit management'}",
+   "http_status": 200,
+   "bytes": 29453,
+   "sha256": "513fbf26ac5db30544d75adb8641c1e507bb848a5496143d4d5983876410acfd",
+   "from_cache": true,
+   "committed": false
+  },
+  {
+   "name": "edge-lo.json",
+   "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/?date_received_min=2023-01-01&date_received_max=2024-06-30&size=200&no_aggs=true&sort=created_date_asc",
+   "what": "window edge by created_date_asc, to learn the id range the sample draws from",
+   "http_status": 200,
+   "bytes": 221807,
+   "sha256": "c1f174909ab92610edd035ad4a8b68670ad22e44f52b4f136635860aa3c751d0",
+   "from_cache": true,
+   "committed": false
+  },
+  {
+   "name": "edge-hi.json",
+   "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/?date_received_min=2023-01-01&date_received_max=2024-06-30&size=200&no_aggs=true&sort=created_date_desc",
+   "what": "window edge by created_date_desc, to learn the id range the sample draws from",
+   "http_status": 200,
+   "bytes": 221496,
+   "sha256": "4ae28a80e56937a220fd5ffc0bec3872a71167a9714b0cd176e78f25ad75d2a0",
+   "from_cache": true,
+   "committed": false
+  }
+ ],
+ "query_groups": [
+  {
+   "group": "P5a: eleven count-only totals, one per product branch, issued separately from the faceted query they are checked against",
+   "requests": 14,
+   "http_statuses": {
+    "200": 14
+   },
+   "bytes_total": 5182,
+   "digest_over_response_hashes": "e12fb93d7e62ab125d73ada07619aad4a910d14931ed85ef8e0749c5dda74b1e",
+   "first_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/?date_received_min=2023-01-01&date_received_max=2024-06-30&no_aggs=true&size=0&product=Credit+reporting+or+other+personal+consumer+reports",
+   "last_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/?date_received_min=2023-01-01&date_received_max=2024-06-30&no_aggs=true&size=0&product=Debt+or+credit+management"
+  },
+  {
+   "group": "vocabulary discovery: five faceted slices per branch, each surfacing up to ten further issue strings",
+   "requests": 70,
+   "http_statuses": {
+    "200": 70
+   },
+   "bytes_total": 1608547,
+   "digest_over_response_hashes": "9e4acb87c79919b7ce769a7a6702fd1c23df0919cfe6787790df5adbd0ce9149",
+   "first_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/?date_received_min=2023-01-01&date_received_max=2024-06-30&size=0&product=Credit+reporting+or+other+personal+consumer+reports&company_response=Closed+with+explanation",
+   "last_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/?date_received_min=2023-01-01&date_received_max=2024-06-30&size=0&product=Debt+or+credit+management&timely=No"
+  },
+  {
+   "group": "P4: the (branch x issue) incidence matrix, one count-only query per pair the facets did not already give, zeros included",
+   "requests": 1080,
+   "http_statuses": {
+    "200": 1080
+   },
+   "bytes_total": 395307,
+   "digest_over_response_hashes": "5f6ded55ccc533d9a26c50ddb8b3047b722ef59cf5be404bd764b755d5d7abaf",
+   "first_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/?date_received_min=2023-01-01&date_received_max=2024-06-30&no_aggs=true&size=0&product=Credit+reporting+or+other+personal+consumer+reports&issue=Advertising",
+   "last_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/?date_received_min=2023-01-01&date_received_max=2024-06-30&no_aggs=true&size=0&product=Debt+or+credit+management&issue=Wrong+amount+charged+or+received"
+  },
+  {
+   "group": "P5b and the id-density measurement: one thousand seeded random complaint ids fetched one at a time through the per-complaint endpoint, a different route through the API than the search that produced the population",
+   "requests": 1000,
+   "http_statuses": {
+    "200": 1000
+   },
+   "bytes_total": 1039478,
+   "digest_over_response_hashes": "c85dd86334d23280283c428831de6841db70bbbb934f600bd5b05a57ca5be510",
+   "first_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/6613759",
+   "last_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/7720826"
+  }
+ ]
+}

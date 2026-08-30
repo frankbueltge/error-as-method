@@ -1,0 +1,1487 @@
+{
+ "night": "2026-08-30",
+ "session": 75,
+ "window": {
+  "date_received_min": "2023-01-01",
+  "date_received_max": "2024-06-30"
+ },
+ "source_meta": {
+  "license": "CC0",
+  "last_updated": "2026-08-30T12:00:00-05:00",
+  "last_indexed": "2026-08-30T12:00:00-05:00",
+  "total_record_count": 17433612,
+  "is_data_stale": false,
+  "has_data_issue": false,
+  "break_points": {}
+ },
+ "population_total": 2378092,
+ "branch_floor_n": 1000,
+ "branches_all": {
+  "Credit reporting or other personal consumer reports": 1321648,
+  "Credit reporting, credit repair services, or other personal consumer reports": 644815,
+  "Debt collection": 132845,
+  "Checking or savings account": 74747,
+  "Credit card": 57161,
+  "Credit card or prepaid card": 35310,
+  "Mortgage": 33605,
+  "Money transfer, virtual currency, or money service": 21702,
+  "Vehicle loan or lease": 19319,
+  "Student loan": 18201,
+  "Payday loan, title loan, personal loan, or advance loan": 6896,
+  "Prepaid card": 5675,
+  "Payday loan, title loan, or personal loan": 4684,
+  "Debt or credit management": 1484
+ },
+ "branches_scored": [
+  "Credit reporting or other personal consumer reports",
+  "Credit reporting, credit repair services, or other personal consumer reports",
+  "Debt collection",
+  "Checking or savings account",
+  "Credit card",
+  "Credit card or prepaid card",
+  "Mortgage",
+  "Money transfer, virtual currency, or money service",
+  "Vehicle loan or lease",
+  "Student loan",
+  "Payday loan, title loan, personal loan, or advance loan",
+  "Prepaid card",
+  "Payday loan, title loan, or personal loan",
+  "Debt or credit management"
+ ],
+ "branches_below_floor": {},
+ "branch_count_predicted": 11,
+ "branch_count_found": 14,
+ "by_branch": {
+  "Credit reporting or other personal consumer reports": {
+   "n": 1321648,
+   "company_response": {
+    "Closed with non-monetary relief": 763412,
+    "Closed with explanation": 557326,
+    "Closed with monetary relief": 650,
+    "Untimely response": 246
+   },
+   "unnormed_n": 14,
+   "unnormed_pct": 0.0011,
+   "monetary_pct": 0.0492,
+   "nonmonetary_pct": 57.7621,
+   "explanation_pct": 42.169,
+   "untimely_response_pct": 0.0186,
+   "timely_no_pct": 0.1127,
+   "has_narrative_pct": 29.4368,
+   "submitted_web_pct": 99.1436,
+   "submitted_referral_n": 548
+  },
+  "Credit reporting, credit repair services, or other personal consumer reports": {
+   "n": 644815,
+   "company_response": {
+    "Closed with explanation": 345910,
+    "Closed with non-monetary relief": 298241,
+    "Closed with monetary relief": 524,
+    "Untimely response": 139
+   },
+   "unnormed_n": 1,
+   "unnormed_pct": 0.0002,
+   "monetary_pct": 0.0813,
+   "nonmonetary_pct": 46.2522,
+   "explanation_pct": 53.6448,
+   "untimely_response_pct": 0.0216,
+   "timely_no_pct": 0.1186,
+   "has_narrative_pct": 34.847,
+   "submitted_web_pct": 98.5912,
+   "submitted_referral_n": 373
+  },
+  "Debt collection": {
+   "n": 132845,
+   "company_response": {
+    "Closed with explanation": 102372,
+    "Closed with non-monetary relief": 29354,
+    "Closed with monetary relief": 592,
+    "Untimely response": 524
+   },
+   "unnormed_n": 3,
+   "unnormed_pct": 0.0023,
+   "monetary_pct": 0.4456,
+   "nonmonetary_pct": 22.0964,
+   "explanation_pct": 77.0612,
+   "untimely_response_pct": 0.3944,
+   "timely_no_pct": 2.0302,
+   "has_narrative_pct": 52.9339,
+   "submitted_web_pct": 97.5031,
+   "submitted_referral_n": 409
+  },
+  "Checking or savings account": {
+   "n": 74747,
+   "company_response": {
+    "Closed with explanation": 58985,
+    "Closed with monetary relief": 10923,
+    "Closed with non-monetary relief": 4815,
+    "Untimely response": 24
+   },
+   "unnormed_n": 0,
+   "unnormed_pct": 0.0,
+   "monetary_pct": 14.6133,
+   "nonmonetary_pct": 6.4417,
+   "explanation_pct": 78.9129,
+   "untimely_response_pct": 0.0321,
+   "timely_no_pct": 0.7933,
+   "has_narrative_pct": 55.9541,
+   "submitted_web_pct": 83.1284,
+   "submitted_referral_n": 5350
+  },
+  "Credit card": {
+   "n": 57161,
+   "company_response": {
+    "Closed with explanation": 35087,
+    "Closed with non-monetary relief": 14074,
+    "Closed with monetary relief": 7989,
+    "Untimely response": 11
+   },
+   "unnormed_n": 0,
+   "unnormed_pct": 0.0,
+   "monetary_pct": 13.9763,
+   "nonmonetary_pct": 24.6217,
+   "explanation_pct": 61.3828,
+   "untimely_response_pct": 0.0192,
+   "timely_no_pct": 0.154,
+   "has_narrative_pct": 56.0767,
+   "submitted_web_pct": 91.3263,
+   "submitted_referral_n": 1665
+  },
+  "Credit card or prepaid card": {
+   "n": 35310,
+   "company_response": {
+    "Closed with explanation": 23188,
+    "Closed with non-monetary relief": 6314,
+    "Closed with monetary relief": 5797,
+    "Untimely response": 11
+   },
+   "unnormed_n": 0,
+   "unnormed_pct": 0.0,
+   "monetary_pct": 16.4174,
+   "nonmonetary_pct": 17.8816,
+   "explanation_pct": 65.6698,
+   "untimely_response_pct": 0.0312,
+   "timely_no_pct": 0.6967,
+   "has_narrative_pct": 60.2747,
+   "submitted_web_pct": 89.646,
+   "submitted_referral_n": 970
+  },
+  "Mortgage": {
+   "n": 33605,
+   "company_response": {
+    "Closed with explanation": 31963,
+    "Closed with non-monetary relief": 889,
+    "Closed with monetary relief": 713,
+    "Untimely response": 39
+   },
+   "unnormed_n": 1,
+   "unnormed_pct": 0.003,
+   "monetary_pct": 2.1217,
+   "nonmonetary_pct": 2.6454,
+   "explanation_pct": 95.1138,
+   "untimely_response_pct": 0.1161,
+   "timely_no_pct": 0.9641,
+   "has_narrative_pct": 56.2357,
+   "submitted_web_pct": 85.9485,
+   "submitted_referral_n": 1285
+  },
+  "Money transfer, virtual currency, or money service": {
+   "n": 21702,
+   "company_response": {
+    "Closed with explanation": 18907,
+    "Closed with monetary relief": 1735,
+    "Closed with non-monetary relief": 1011,
+    "Untimely response": 49
+   },
+   "unnormed_n": 0,
+   "unnormed_pct": 0.0,
+   "monetary_pct": 7.9947,
+   "nonmonetary_pct": 4.6586,
+   "explanation_pct": 87.121,
+   "untimely_response_pct": 0.2258,
+   "timely_no_pct": 2.2901,
+   "has_narrative_pct": 61.1188,
+   "submitted_web_pct": 90.2405,
+   "submitted_referral_n": 457
+  },
+  "Vehicle loan or lease": {
+   "n": 19319,
+   "company_response": {
+    "Closed with explanation": 17648,
+    "Closed with non-monetary relief": 1147,
+    "Closed with monetary relief": 468,
+    "Untimely response": 56
+   },
+   "unnormed_n": 0,
+   "unnormed_pct": 0.0,
+   "monetary_pct": 2.4225,
+   "nonmonetary_pct": 5.9372,
+   "explanation_pct": 91.3505,
+   "untimely_response_pct": 0.2899,
+   "timely_no_pct": 1.1077,
+   "has_narrative_pct": 57.3218,
+   "submitted_web_pct": 90.2428,
+   "submitted_referral_n": 446
+  },
+  "Student loan": {
+   "n": 18201,
+   "company_response": {
+    "Closed with explanation": 16786,
+    "Closed with non-monetary relief": 1123,
+    "Closed with monetary relief": 245,
+    "Untimely response": 47
+   },
+   "unnormed_n": 0,
+   "unnormed_pct": 0.0,
+   "monetary_pct": 1.3461,
+   "nonmonetary_pct": 6.17,
+   "explanation_pct": 92.2257,
+   "untimely_response_pct": 0.2582,
+   "timely_no_pct": 8.4171,
+   "has_narrative_pct": 57.2331,
+   "submitted_web_pct": 94.6047,
+   "submitted_referral_n": 494
+  },
+  "Payday loan, title loan, personal loan, or advance loan": {
+   "n": 6896,
+   "company_response": {
+    "Closed with explanation": 6223,
+    "Closed with non-monetary relief": 319,
+    "Closed with monetary relief": 305,
+    "Untimely response": 49
+   },
+   "unnormed_n": 0,
+   "unnormed_pct": 0.0,
+   "monetary_pct": 4.4229,
+   "nonmonetary_pct": 4.6259,
+   "explanation_pct": 90.2407,
+   "untimely_response_pct": 0.7106,
+   "timely_no_pct": 3.9153,
+   "has_narrative_pct": 58.3817,
+   "submitted_web_pct": 86.8039,
+   "submitted_referral_n": 242
+  },
+  "Prepaid card": {
+   "n": 5675,
+   "company_response": {
+    "Closed with explanation": 3565,
+    "Closed with monetary relief": 1873,
+    "Closed with non-monetary relief": 233,
+    "Untimely response": 4
+   },
+   "unnormed_n": 0,
+   "unnormed_pct": 0.0,
+   "monetary_pct": 33.0044,
+   "nonmonetary_pct": 4.1057,
+   "explanation_pct": 62.8194,
+   "untimely_response_pct": 0.0705,
+   "timely_no_pct": 3.6652,
+   "has_narrative_pct": 59.5947,
+   "submitted_web_pct": 86.5903,
+   "submitted_referral_n": 118
+  },
+  "Payday loan, title loan, or personal loan": {
+   "n": 4684,
+   "company_response": {
+    "Closed with explanation": 4227,
+    "Closed with monetary relief": 229,
+    "Closed with non-monetary relief": 203,
+    "Untimely response": 25
+   },
+   "unnormed_n": 0,
+   "unnormed_pct": 0.0,
+   "monetary_pct": 4.889,
+   "nonmonetary_pct": 4.3339,
+   "explanation_pct": 90.2434,
+   "untimely_response_pct": 0.5337,
+   "timely_no_pct": 3.8215,
+   "has_narrative_pct": 60.333,
+   "submitted_web_pct": 89.6029,
+   "submitted_referral_n": 101
+  },
+  "Debt or credit management": {
+   "n": 1484,
+   "company_response": {
+    "Closed with explanation": 1141,
+    "Closed with non-monetary relief": 169,
+    "Untimely response": 96,
+    "Closed with monetary relief": 78
+   },
+   "unnormed_n": 0,
+   "unnormed_pct": 0.0,
+   "monetary_pct": 5.2561,
+   "nonmonetary_pct": 11.3881,
+   "explanation_pct": 76.8868,
+   "untimely_response_pct": 6.469,
+   "timely_no_pct": 11.5229,
+   "has_narrative_pct": 65.2291,
+   "submitted_web_pct": 93.1267,
+   "submitted_referral_n": 17
+  }
+ },
+ "P1": {
+  "claim": "the routing gap in WHETHER a norm arrives does not port to a compelled applier",
+  "comparative_quantity_points": 0.003,
+  "comparative_threshold_points": 5.0,
+  "comparative_won": true,
+  "comparative_blind": true,
+  "comparative_trimmed_points": 0.0023,
+  "trimmed_is_post_hoc": true,
+  "absolute_quantity_pct": 0.0008,
+  "absolute_threshold_pct": 1.0,
+  "absolute_won": true,
+  "absolute_blind": false,
+  "absolute_note": "carried expectation, not a blind prediction; declared in PREDICTIONS.md",
+  "unnormed_n_population": 19,
+  "per_branch_pct": {
+   "Credit reporting or other personal consumer reports": 0.0011,
+   "Credit reporting, credit repair services, or other personal consumer reports": 0.0002,
+   "Debt collection": 0.0023,
+   "Checking or savings account": 0.0,
+   "Credit card": 0.0,
+   "Credit card or prepaid card": 0.0,
+   "Mortgage": 0.003,
+   "Money transfer, virtual currency, or money service": 0.0,
+   "Vehicle loan or lease": 0.0,
+   "Student loan": 0.0,
+   "Payday loan, title loan, personal loan, or advance loan": 0.0,
+   "Prepaid card": 0.0,
+   "Payday loan, title loan, or personal loan": 0.0,
+   "Debt or credit management": 0.0
+  }
+ },
+ "P2": {
+  "claim": "the gap relocates into WHICH norm arrives",
+  "quantity_points": 32.9552,
+  "threshold_points": 10.0,
+  "won": true,
+  "trimmed_points_post_hoc": 16.3361,
+  "per_branch_pct": {
+   "Credit reporting or other personal consumer reports": 0.0492,
+   "Credit reporting, credit repair services, or other personal consumer reports": 0.0813,
+   "Debt collection": 0.4456,
+   "Checking or savings account": 14.6133,
+   "Credit card": 13.9763,
+   "Credit card or prepaid card": 16.4174,
+   "Mortgage": 2.1217,
+   "Money transfer, virtual currency, or money service": 7.9947,
+   "Vehicle loan or lease": 2.4225,
+   "Student loan": 1.3461,
+   "Payday loan, title loan, personal loan, or advance loan": 4.4229,
+   "Prepaid card": 33.0044,
+   "Payday loan, title loan, or personal loan": 4.889,
+   "Debt or credit management": 5.2561
+  },
+  "highest": "Prepaid card",
+  "lowest": "Credit reporting or other personal consumer reports",
+  "ratio_highest_to_lowest": 670.8,
+  "ratio_is_descriptive": "the quantity fixed in advance is the gap in points; this ratio is reported because a gap in points understates a difference whose lower end is near zero."
+ },
+ "P3": {
+  "claim": "the deadline is not kept evenly across the branches",
+  "quantity_points": 11.4102,
+  "threshold_points": 3.0,
+  "won": true,
+  "trimmed_points_post_hoc": 8.2985,
+  "per_branch_pct": {
+   "Credit reporting or other personal consumer reports": 0.1127,
+   "Credit reporting, credit repair services, or other personal consumer reports": 0.1186,
+   "Debt collection": 2.0302,
+   "Checking or savings account": 0.7933,
+   "Credit card": 0.154,
+   "Credit card or prepaid card": 0.6967,
+   "Mortgage": 0.9641,
+   "Money transfer, virtual currency, or money service": 2.2901,
+   "Vehicle loan or lease": 1.1077,
+   "Student loan": 8.4171,
+   "Payday loan, title loan, personal loan, or advance loan": 3.9153,
+   "Prepaid card": 3.6652,
+   "Payday loan, title loan, or personal loan": 3.8215,
+   "Debt or credit management": 11.5229
+  },
+  "highest": "Debt or credit management",
+  "lowest": "Credit reporting or other personal consumer reports",
+  "ratio_highest_to_lowest": 102.2
+ },
+ "P4": {
+  "claim": "the classification decides what the difference may be called",
+  "vocabulary_union_size": 92,
+  "vocabulary_present_in_window": 92,
+  "mean_pairwise_jaccard": 0.1574,
+  "mean_pairwise_jaccard_threshold": 0.15,
+  "share_in_exactly_one_branch_pct": 46.7391,
+  "share_threshold_pct": 60.0,
+  "won": false,
+  "won_half_jaccard": false,
+  "won_half_share": false,
+  "disjoint_pairs": [
+   {
+    "a": "Credit reporting or other personal consumer reports",
+    "b": "Debt collection",
+    "jaccard": 0.0,
+    "shared": 0
+   },
+   {
+    "a": "Credit reporting or other personal consumer reports",
+    "b": "Money transfer, virtual currency, or money service",
+    "jaccard": 0.0,
+    "shared": 0
+   },
+   {
+    "a": "Credit reporting or other personal consumer reports",
+    "b": "Prepaid card",
+    "jaccard": 0.0,
+    "shared": 0
+   },
+   {
+    "a": "Credit reporting or other personal consumer reports",
+    "b": "Debt or credit management",
+    "jaccard": 0.0,
+    "shared": 0
+   },
+   {
+    "a": "Credit reporting, credit repair services, or other personal consumer reports",
+    "b": "Debt collection",
+    "jaccard": 0.0,
+    "shared": 0
+   },
+   {
+    "a": "Debt collection",
+    "b": "Checking or savings account",
+    "jaccard": 0.0,
+    "shared": 0
+   },
+   {
+    "a": "Debt collection",
+    "b": "Credit card",
+    "jaccard": 0.0,
+    "shared": 0
+   },
+   {
+    "a": "Debt collection",
+    "b": "Credit card or prepaid card",
+    "jaccard": 0.0,
+    "shared": 0
+   },
+   {
+    "a": "Debt collection",
+    "b": "Mortgage",
+    "jaccard": 0.0,
+    "shared": 0
+   },
+   {
+    "a": "Debt collection",
+    "b": "Money transfer, virtual currency, or money service",
+    "jaccard": 0.0,
+    "shared": 0
+   },
+   {
+    "a": "Debt collection",
+    "b": "Vehicle loan or lease",
+    "jaccard": 0.0,
+    "shared": 0
+   },
+   {
+    "a": "Debt collection",
+    "b": "Student loan",
+    "jaccard": 0.0,
+    "shared": 0
+   },
+   {
+    "a": "Debt collection",
+    "b": "Payday loan, title loan, personal loan, or advance loan",
+    "jaccard": 0.0,
+    "shared": 0
+   },
+   {
+    "a": "Debt collection",
+    "b": "Prepaid card",
+    "jaccard": 0.0,
+    "shared": 0
+   },
+   {
+    "a": "Debt collection",
+    "b": "Payday loan, title loan, or personal loan",
+    "jaccard": 0.0,
+    "shared": 0
+   },
+   {
+    "a": "Debt collection",
+    "b": "Debt or credit management",
+    "jaccard": 0.0,
+    "shared": 0
+   },
+   {
+    "a": "Checking or savings account",
+    "b": "Money transfer, virtual currency, or money service",
+    "jaccard": 0.0,
+    "shared": 0
+   },
+   {
+    "a": "Checking or savings account",
+    "b": "Prepaid card",
+    "jaccard": 0.0,
+    "shared": 0
+   },
+   {
+    "a": "Checking or savings account",
+    "b": "Debt or credit management",
+    "jaccard": 0.0,
+    "shared": 0
+   },
+   {
+    "a": "Credit card",
+    "b": "Money transfer, virtual currency, or money service",
+    "jaccard": 0.0,
+    "shared": 0
+   },
+   {
+    "a": "Credit card",
+    "b": "Prepaid card",
+    "jaccard": 0.0,
+    "shared": 0
+   },
+   {
+    "a": "Credit card",
+    "b": "Debt or credit management",
+    "jaccard": 0.0,
+    "shared": 0
+   },
+   {
+    "a": "Credit card or prepaid card",
+    "b": "Debt or credit management",
+    "jaccard": 0.0,
+    "shared": 0
+   },
+   {
+    "a": "Mortgage",
+    "b": "Money transfer, virtual currency, or money service",
+    "jaccard": 0.0,
+    "shared": 0
+   },
+   {
+    "a": "Mortgage",
+    "b": "Prepaid card",
+    "jaccard": 0.0,
+    "shared": 0
+   },
+   {
+    "a": "Mortgage",
+    "b": "Debt or credit management",
+    "jaccard": 0.0,
+    "shared": 0
+   },
+   {
+    "a": "Money transfer, virtual currency, or money service",
+    "b": "Vehicle loan or lease",
+    "jaccard": 0.0,
+    "shared": 0
+   },
+   {
+    "a": "Money transfer, virtual currency, or money service",
+    "b": "Student loan",
+    "jaccard": 0.0,
+    "shared": 0
+   },
+   {
+    "a": "Money transfer, virtual currency, or money service",
+    "b": "Payday loan, title loan, or personal loan",
+    "jaccard": 0.0,
+    "shared": 0
+   },
+   {
+    "a": "Vehicle loan or lease",
+    "b": "Prepaid card",
+    "jaccard": 0.0,
+    "shared": 0
+   },
+   {
+    "a": "Vehicle loan or lease",
+    "b": "Debt or credit management",
+    "jaccard": 0.0,
+    "shared": 0
+   },
+   {
+    "a": "Student loan",
+    "b": "Prepaid card",
+    "jaccard": 0.0,
+    "shared": 0
+   },
+   {
+    "a": "Student loan",
+    "b": "Debt or credit management",
+    "jaccard": 0.0,
+    "shared": 0
+   },
+   {
+    "a": "Payday loan, title loan, personal loan, or advance loan",
+    "b": "Prepaid card",
+    "jaccard": 0.0,
+    "shared": 0
+   },
+   {
+    "a": "Prepaid card",
+    "b": "Payday loan, title loan, or personal loan",
+    "jaccard": 0.0,
+    "shared": 0
+   },
+   {
+    "a": "Prepaid card",
+    "b": "Debt or credit management",
+    "jaccard": 0.0,
+    "shared": 0
+   },
+   {
+    "a": "Payday loan, title loan, or personal loan",
+    "b": "Debt or credit management",
+    "jaccard": 0.0,
+    "shared": 0
+   }
+  ],
+  "vocabulary_size_per_branch": {
+   "Credit reporting or other personal consumer reports": 13,
+   "Credit reporting, credit repair services, or other personal consumer reports": 19,
+   "Debt collection": 7,
+   "Checking or savings account": 12,
+   "Credit card": 15,
+   "Credit card or prepaid card": 21,
+   "Mortgage": 11,
+   "Money transfer, virtual currency, or money service": 17,
+   "Vehicle loan or lease": 12,
+   "Student loan": 12,
+   "Payday loan, title loan, personal loan, or advance loan": 31,
+   "Prepaid card": 6,
+   "Payday loan, title loan, or personal loan": 26,
+   "Debt or credit management": 6
+  },
+  "issue_occurrence_histogram": {
+   "1": 43,
+   "2": 32,
+   "3": 4,
+   "4": 6,
+   "7": 1,
+   "8": 1,
+   "10": 5
+  },
+  "pairs": [
+   {
+    "a": "Payday loan, title loan, personal loan, or advance loan",
+    "b": "Payday loan, title loan, or personal loan",
+    "jaccard": 0.7273,
+    "shared": 24
+   },
+   {
+    "a": "Credit card",
+    "b": "Credit card or prepaid card",
+    "jaccard": 0.6364,
+    "shared": 14
+   },
+   {
+    "a": "Credit reporting or other personal consumer reports",
+    "b": "Credit card",
+    "jaccard": 0.4737,
+    "shared": 9
+   },
+   {
+    "a": "Credit reporting or other personal consumer reports",
+    "b": "Vehicle loan or lease",
+    "jaccard": 0.4706,
+    "shared": 8
+   },
+   {
+    "a": "Checking or savings account",
+    "b": "Mortgage",
+    "jaccard": 0.4375,
+    "shared": 7
+   },
+   {
+    "a": "Mortgage",
+    "b": "Vehicle loan or lease",
+    "jaccard": 0.4375,
+    "shared": 7
+   },
+   {
+    "a": "Mortgage",
+    "b": "Student loan",
+    "jaccard": 0.4375,
+    "shared": 7
+   },
+   {
+    "a": "Credit reporting or other personal consumer reports",
+    "b": "Mortgage",
+    "jaccard": 0.4118,
+    "shared": 7
+   },
+   {
+    "a": "Checking or savings account",
+    "b": "Vehicle loan or lease",
+    "jaccard": 0.4118,
+    "shared": 7
+   },
+   {
+    "a": "Checking or savings account",
+    "b": "Student loan",
+    "jaccard": 0.4118,
+    "shared": 7
+   },
+   {
+    "a": "Vehicle loan or lease",
+    "b": "Student loan",
+    "jaccard": 0.4118,
+    "shared": 7
+   },
+   {
+    "a": "Credit reporting or other personal consumer reports",
+    "b": "Credit reporting, credit repair services, or other personal consumer reports",
+    "jaccard": 0.3913,
+    "shared": 9
+   },
+   {
+    "a": "Credit reporting or other personal consumer reports",
+    "b": "Checking or savings account",
+    "jaccard": 0.3889,
+    "shared": 7
+   },
+   {
+    "a": "Credit reporting or other personal consumer reports",
+    "b": "Student loan",
+    "jaccard": 0.3889,
+    "shared": 7
+   },
+   {
+    "a": "Credit reporting or other personal consumer reports",
+    "b": "Credit card or prepaid card",
+    "jaccard": 0.36,
+    "shared": 9
+   },
+   {
+    "a": "Credit reporting, credit repair services, or other personal consumer reports",
+    "b": "Mortgage",
+    "jaccard": 0.3043,
+    "shared": 7
+   },
+   {
+    "a": "Credit card",
+    "b": "Mortgage",
+    "jaccard": 0.3,
+    "shared": 6
+   },
+   {
+    "a": "Credit reporting, credit repair services, or other personal consumer reports",
+    "b": "Vehicle loan or lease",
+    "jaccard": 0.2917,
+    "shared": 7
+   },
+   {
+    "a": "Credit reporting, credit repair services, or other personal consumer reports",
+    "b": "Student loan",
+    "jaccard": 0.2917,
+    "shared": 7
+   },
+   {
+    "a": "Credit reporting, credit repair services, or other personal consumer reports",
+    "b": "Credit card or prepaid card",
+    "jaccard": 0.2903,
+    "shared": 9
+   }
+  ],
+  "disjoint_pair_count": 37,
+  "pair_count": 91,
+  "disjoint_pair_pct": 40.6593,
+  "shared_core": [
+   {
+    "issue": "Incorrect information on your report",
+    "branches": 10,
+    "total": 881653
+   },
+   {
+    "issue": "Improper use of your report",
+    "branches": 10,
+    "total": 618990
+   },
+   {
+    "issue": "Credit monitoring or identity theft protection services",
+    "branches": 10,
+    "total": 9685
+   },
+   {
+    "issue": "Unable to get your credit report or credit score",
+    "branches": 10,
+    "total": 9417
+   },
+   {
+    "issue": "Problem with fraud alerts or security freezes",
+    "branches": 10,
+    "total": 6486
+   },
+   {
+    "issue": "Problem with a credit reporting company's investigation into an existing problem",
+    "branches": 8,
+    "total": 183725
+   },
+   {
+    "issue": "Problem with a company's investigation into an existing problem",
+    "branches": 7,
+    "total": 281601
+   }
+  ],
+  "sensitivity_excluding_rename_pairs_post_hoc": {
+   "pairs_excluded": 4,
+   "which": [
+    [
+     "Credit reporting or other personal consumer reports",
+     "Credit reporting, credit repair services, or other personal consumer reports"
+    ],
+    [
+     "Credit card",
+     "Credit card or prepaid card"
+    ],
+    [
+     "Credit card or prepaid card",
+     "Prepaid card"
+    ],
+    [
+     "Payday loan, title loan, or personal loan",
+     "Payday loan, title loan, personal loan, or advance loan"
+    ]
+   ],
+   "mean_pairwise_jaccard": 0.1412,
+   "scored_value_unchanged": 0.1574,
+   "note": "post-hoc; the prediction is scored on the branches as the record gives them, which is what PREDICTIONS.md fixed."
+  },
+  "boundary": "U is the union of issue strings surfaced by six facet slices per branch, not the institution's full taxonomy; issues too rare to reach any facet are outside it and unmeasured."
+ },
+ "issue_order_for_figure": [
+  "Incorrect information on your report",
+  "Improper use of your report",
+  "Problem with a company's investigation into an existing problem",
+  "Problem with a credit reporting company's investigation into an existing problem",
+  "Problem with a purchase shown on your statement",
+  "Getting a credit card",
+  "Credit monitoring or identity theft protection services",
+  "Unable to get your credit report or credit score",
+  "Problem with fraud alerts or security freezes",
+  "Advertising and marketing, including promotional offers",
+  "Problems at the end of the loan or lease",
+  "Problem with a company's investigation into an existing issue",
+  "Identity theft protection or other monitoring services",
+  "Trouble during payment process",
+  "Other features, terms, or problems",
+  "Fraud or scam",
+  "Struggling to pay your loan",
+  "Unexpected or other fees",
+  "Confusing or missing disclosures",
+  "Problem with customer service",
+  "Confusing or misleading advertising or marketing",
+  "Getting a loan",
+  "Excessive fees",
+  "Attempts to collect debt not owed",
+  "Written notification about debt",
+  "Took or threatened to take negative or legal action",
+  "False statements or representation",
+  "Communication tactics",
+  "Threatened to contact someone or share information improperly",
+  "Electronic communications",
+  "Managing an account",
+  "Closing an account",
+  "Problem with a lender or other company charging your account",
+  "Opening an account",
+  "Problem caused by your funds being low",
+  "Fees or interest",
+  "Problem when making payments",
+  "Closing your account",
+  "Trouble using your card",
+  "Struggling to pay your bill",
+  "Trouble using the card",
+  "Problem with a purchase or transfer",
+  "Problem getting a card or closing an account",
+  "Advertising",
+  "Problem with overdraft",
+  "Struggling to pay mortgage",
+  "Applying for a mortgage or refinancing an existing mortgage",
+  "Closing on a mortgage",
+  "Other transaction problem",
+  "Unauthorized transactions or other transaction problem",
+  "Money was not available when promised",
+  "Managing, opening, or closing your mobile wallet account",
+  "Trouble accessing funds in your mobile or digital wallet",
+  "Other service problem",
+  "Wrong amount charged or received",
+  "Lost or stolen money order",
+  "Problem adding money",
+  "Lost or stolen check",
+  "Incorrect exchange rate",
+  "Overdraft, savings, or rewards features",
+  "Managing the loan or lease",
+  "Getting a loan or lease",
+  "Repossession",
+  "Dealing with your lender or servicer",
+  "Struggling to repay your loan",
+  "Issue where my lender is my school",
+  "Issue with income share agreement",
+  "Charged fees or interest you didn't expect",
+  "Problem with the payoff process at the end of the loan",
+  "Getting the loan",
+  "Problem with additional add-on products or services",
+  "Getting a line of credit",
+  "Received a loan you didn't apply for",
+  "Can't stop withdrawals from your bank account",
+  "Can't contact lender or servicer",
+  "Vehicle was repossessed or sold the vehicle",
+  "Loan payment wasn't credited to your account",
+  "Money was taken from your bank account on the wrong day or for the wrong amount",
+  "Was approved for a loan, but didn't receive the money",
+  "Problem with cash advance",
+  "Issues with repayment",
+  "Credit limit changed",
+  "Vehicle was damaged or destroyed the vehicle",
+  "Problems receiving the advance",
+  "Unexpected fees",
+  "Was approved for a loan, but didn't receive money",
+  "Lost or stolen refund",
+  "Property was sold",
+  "Property was damaged or destroyed property",
+  "Didn't provide services promised",
+  "Charged upfront or unexpected fees",
+  "Unauthorized withdrawals or charges"
+ ],
+ "incidence_for_figure": {
+  "Credit reporting or other personal consumer reports": {
+   "Improper use of your report": 401547,
+   "Unable to get your credit report or credit score": 6274,
+   "Getting a credit card": 2,
+   "Problem with a credit reporting company's investigation into an existing problem": 1,
+   "Problem with a purchase shown on your statement": 1,
+   "Problem with a company's investigation into an existing issue": 921,
+   "Identity theft protection or other monitoring services": 274,
+   "Incorrect information on your report": 629310,
+   "Problem with fraud alerts or security freezes": 4564,
+   "Problems at the end of the loan or lease": 2,
+   "Advertising and marketing, including promotional offers": 1,
+   "Problem with a company's investigation into an existing problem": 271368,
+   "Credit monitoring or identity theft protection services": 7382
+  },
+  "Credit reporting, credit repair services, or other personal consumer reports": {
+   "Unable to get your credit report or credit score": 3018,
+   "Getting a credit card": 3,
+   "Fraud or scam": 647,
+   "Incorrect information on your report": 242152,
+   "Struggling to pay your loan": 1,
+   "Improper use of your report": 215043,
+   "Confusing or misleading advertising or marketing": 188,
+   "Getting a loan": 3,
+   "Identity theft protection or other monitoring services": 156,
+   "Excessive fees": 53,
+   "Confusing or missing disclosures": 185,
+   "Credit monitoring or identity theft protection services": 1862,
+   "Problem with fraud alerts or security freezes": 1751,
+   "Trouble during payment process": 1,
+   "Other features, terms, or problems": 3,
+   "Problem with a credit reporting company's investigation into an existing problem": 179080,
+   "Unexpected or other fees": 77,
+   "Problem with a company's investigation into an existing issue": 420,
+   "Problem with customer service": 172
+  },
+  "Debt collection": {
+   "Attempts to collect debt not owed": 66656,
+   "Electronic communications": 1337,
+   "Threatened to contact someone or share information improperly": 2089,
+   "Communication tactics": 7742,
+   "Written notification about debt": 35253,
+   "Took or threatened to take negative or legal action": 10836,
+   "False statements or representation": 8932
+  },
+  "Checking or savings account": {
+   "Improper use of your report": 74,
+   "Unable to get your credit report or credit score": 3,
+   "Closing an account": 10442,
+   "Problem with a credit reporting company's investigation into an existing problem": 20,
+   "Managing an account": 43002,
+   "Opening an account": 7066,
+   "Incorrect information on your report": 173,
+   "Problem with a lender or other company charging your account": 9196,
+   "Problem with fraud alerts or security freezes": 52,
+   "Problem caused by your funds being low": 4584,
+   "Problem with a company's investigation into an existing problem": 88,
+   "Credit monitoring or identity theft protection services": 42
+  },
+  "Credit card": {
+   "Improper use of your report": 769,
+   "Unable to get your credit report or credit score": 21,
+   "Getting a credit card": 7744,
+   "Problem when making payments": 3320,
+   "Closing your account": 3230,
+   "Problem with a purchase shown on your statement": 11882,
+   "Fees or interest": 4608,
+   "Incorrect information on your report": 5257,
+   "Problem with fraud alerts or security freezes": 50,
+   "Trouble using your card": 1796,
+   "Advertising and marketing, including promotional offers": 2287,
+   "Problem with a company's investigation into an existing problem": 9382,
+   "Other features, terms, or problems": 6080,
+   "Credit monitoring or identity theft protection services": 148,
+   "Struggling to pay your bill": 587
+  },
+  "Credit card or prepaid card": {
+   "Unable to get your credit report or credit score": 18,
+   "Getting a credit card": 4758,
+   "Fees or interest": 2987,
+   "Incorrect information on your report": 1062,
+   "Trouble using your card": 1188,
+   "Problem getting a card or closing an account": 443,
+   "Struggling to pay your bill": 423,
+   "Improper use of your report": 387,
+   "Advertising and marketing, including promotional offers": 1374,
+   "Credit monitoring or identity theft protection services": 50,
+   "Problem when making payments": 2449,
+   "Closing your account": 1984,
+   "Problem with fraud alerts or security freezes": 24,
+   "Advertising": 30,
+   "Other features, terms, or problems": 3560,
+   "Problem with a purchase or transfer": 956,
+   "Problem with overdraft": 21,
+   "Problem with a credit reporting company's investigation into an existing problem": 4233,
+   "Problem with a purchase shown on your statement": 8044,
+   "Unexpected or other fees": 504,
+   "Trouble using the card": 815
+  },
+  "Mortgage": {
+   "Improper use of your report": 157,
+   "Unable to get your credit report or credit score": 18,
+   "Struggling to pay mortgage": 8705,
+   "Closing on a mortgage": 2341,
+   "Problem with a credit reporting company's investigation into an existing problem": 106,
+   "Applying for a mortgage or refinancing an existing mortgage": 3652,
+   "Incorrect information on your report": 800,
+   "Problem with fraud alerts or security freezes": 15,
+   "Trouble during payment process": 17542,
+   "Problem with a company's investigation into an existing problem": 226,
+   "Credit monitoring or identity theft protection services": 43
+  },
+  "Money transfer, virtual currency, or money service": {
+   "Incorrect exchange rate": 35,
+   "Money was not available when promised": 1892,
+   "Managing, opening, or closing your mobile wallet account": 1630,
+   "Lost or stolen check": 93,
+   "Confusing or misleading advertising or marketing": 134,
+   "Overdraft, savings, or rewards features": 31,
+   "Unexpected or other fees": 487,
+   "Other service problem": 569,
+   "Problem adding money": 103,
+   "Fraud or scam": 8324,
+   "Problem with customer service": 531,
+   "Unauthorized transactions or other transaction problem": 2204,
+   "Wrong amount charged or received": 230,
+   "Trouble accessing funds in your mobile or digital wallet": 1069,
+   "Confusing or missing disclosures": 575,
+   "Other transaction problem": 3606,
+   "Lost or stolen money order": 189
+  },
+  "Vehicle loan or lease": {
+   "Improper use of your report": 489,
+   "Unable to get your credit report or credit score": 39,
+   "Repossession": 2319,
+   "Managing the loan or lease": 6397,
+   "Struggling to pay your loan": 2275,
+   "Problem with a credit reporting company's investigation into an existing problem": 157,
+   "Incorrect information on your report": 1349,
+   "Problem with fraud alerts or security freezes": 9,
+   "Problems at the end of the loan or lease": 2825,
+   "Problem with a company's investigation into an existing problem": 255,
+   "Getting a loan or lease": 3141,
+   "Credit monitoring or identity theft protection services": 64
+  },
+  "Student loan": {
+   "Improper use of your report": 245,
+   "Struggling to repay your loan": 2795,
+   "Unable to get your credit report or credit score": 9,
+   "Dealing with your lender or servicer": 13597,
+   "Issue where my lender is my school": 46,
+   "Problem with a credit reporting company's investigation into an existing problem": 63,
+   "Getting a loan": 422,
+   "Issue with income share agreement": 37,
+   "Incorrect information on your report": 812,
+   "Problem with fraud alerts or security freezes": 5,
+   "Problem with a company's investigation into an existing problem": 127,
+   "Credit monitoring or identity theft protection services": 43
+  },
+  "Payday loan, title loan, personal loan, or advance loan": {
+   "Issues with repayment": 52,
+   "Unable to get your credit report or credit score": 12,
+   "Getting a line of credit": 350,
+   "Charged fees or interest you didn't expect": 1628,
+   "Was approved for a loan, but didn't receive money": 14,
+   "Incorrect information on your report": 416,
+   "Vehicle was repossessed or sold the vehicle": 69,
+   "Problem with additional add-on products or services": 570,
+   "Struggling to pay your loan": 805,
+   "Improper use of your report": 166,
+   "Property was sold": 1,
+   "Can't contact lender or servicer": 90,
+   "Confusing or misleading advertising or marketing": 33,
+   "Received a loan you didn't apply for": 149,
+   "Money was taken from your bank account on the wrong day or for the wrong amount": 51,
+   "Can't stop withdrawals from your bank account": 89,
+   "Getting the loan": 537,
+   "Confusing or missing disclosures": 35,
+   "Vehicle was damaged or destroyed the vehicle": 21,
+   "Credit monitoring or identity theft protection services": 33,
+   "Problem when making payments": 852,
+   "Loan payment wasn't credited to your account": 79,
+   "Problem with fraud alerts or security freezes": 10,
+   "Unexpected fees": 21,
+   "Problems receiving the advance": 27,
+   "Was approved for a loan, but didn't receive the money": 40,
+   "Problem with a company's investigation into an existing problem": 155,
+   "Problem with cash advance": 28,
+   "Problem with the payoff process at the end of the loan": 537,
+   "Credit limit changed": 22,
+   "Lost or stolen refund": 4
+  },
+  "Prepaid card": {
+   "Problem with overdraft": 21,
+   "Unexpected or other fees": 532,
+   "Trouble using the card": 3042,
+   "Problem getting a card or closing an account": 617,
+   "Advertising": 60,
+   "Problem with a purchase or transfer": 1403
+  },
+  "Payday loan, title loan, or personal loan": {
+   "Unable to get your credit report or credit score": 5,
+   "Property was damaged or destroyed property": 1,
+   "Getting a line of credit": 332,
+   "Charged fees or interest you didn't expect": 1112,
+   "Was approved for a loan, but didn't receive money": 5,
+   "Incorrect information on your report": 322,
+   "Vehicle was repossessed or sold the vehicle": 76,
+   "Problem with additional add-on products or services": 223,
+   "Struggling to pay your loan": 529,
+   "Improper use of your report": 113,
+   "Property was sold": 1,
+   "Can't contact lender or servicer": 55,
+   "Received a loan you didn't apply for": 123,
+   "Money was taken from your bank account on the wrong day or for the wrong amount": 53,
+   "Can't stop withdrawals from your bank account": 68,
+   "Getting the loan": 332,
+   "Vehicle was damaged or destroyed the vehicle": 16,
+   "Credit monitoring or identity theft protection services": 18,
+   "Problem when making payments": 645,
+   "Loan payment wasn't credited to your account": 55,
+   "Problem with fraud alerts or security freezes": 6,
+   "Was approved for a loan, but didn't receive the money": 44,
+   "Problem with a credit reporting company's investigation into an existing problem": 65,
+   "Problem with cash advance": 29,
+   "Problem with the payoff process at the end of the loan": 429,
+   "Credit limit changed": 27
+  },
+  "Debt or credit management": {
+   "Unauthorized withdrawals or charges": 161,
+   "Charged upfront or unexpected fees": 240,
+   "Confusing or misleading advertising or marketing": 168,
+   "Problem with customer service": 240,
+   "Didn't provide services promised": 430,
+   "Confusing or missing disclosures": 245
+  }
+ },
+ "issue_totals": {
+  "Incorrect information on your report": 881653,
+  "Improper use of your report": 618990,
+  "Problem with a company's investigation into an existing problem": 281601,
+  "Problem with a credit reporting company's investigation into an existing problem": 183725,
+  "Problem with a purchase shown on your statement": 19927,
+  "Getting a credit card": 12507,
+  "Credit monitoring or identity theft protection services": 9685,
+  "Unable to get your credit report or credit score": 9417,
+  "Problem with fraud alerts or security freezes": 6486,
+  "Advertising and marketing, including promotional offers": 3662,
+  "Problems at the end of the loan or lease": 2827,
+  "Problem with a company's investigation into an existing issue": 1341,
+  "Identity theft protection or other monitoring services": 430,
+  "Trouble during payment process": 17543,
+  "Other features, terms, or problems": 9643,
+  "Fraud or scam": 8971,
+  "Struggling to pay your loan": 3610,
+  "Unexpected or other fees": 1600,
+  "Confusing or missing disclosures": 1040,
+  "Problem with customer service": 943,
+  "Confusing or misleading advertising or marketing": 523,
+  "Getting a loan": 425,
+  "Excessive fees": 53,
+  "Attempts to collect debt not owed": 66656,
+  "Written notification about debt": 35253,
+  "Took or threatened to take negative or legal action": 10836,
+  "False statements or representation": 8932,
+  "Communication tactics": 7742,
+  "Threatened to contact someone or share information improperly": 2089,
+  "Electronic communications": 1337,
+  "Managing an account": 43002,
+  "Closing an account": 10442,
+  "Problem with a lender or other company charging your account": 9196,
+  "Opening an account": 7066,
+  "Problem caused by your funds being low": 4584,
+  "Fees or interest": 7595,
+  "Problem when making payments": 7266,
+  "Closing your account": 5214,
+  "Trouble using your card": 2984,
+  "Struggling to pay your bill": 1010,
+  "Trouble using the card": 3857,
+  "Problem with a purchase or transfer": 2359,
+  "Problem getting a card or closing an account": 1060,
+  "Advertising": 90,
+  "Problem with overdraft": 42,
+  "Struggling to pay mortgage": 8705,
+  "Applying for a mortgage or refinancing an existing mortgage": 3652,
+  "Closing on a mortgage": 2341,
+  "Other transaction problem": 3606,
+  "Unauthorized transactions or other transaction problem": 2204,
+  "Money was not available when promised": 1892,
+  "Managing, opening, or closing your mobile wallet account": 1630,
+  "Trouble accessing funds in your mobile or digital wallet": 1069,
+  "Other service problem": 569,
+  "Wrong amount charged or received": 230,
+  "Lost or stolen money order": 189,
+  "Problem adding money": 103,
+  "Lost or stolen check": 93,
+  "Incorrect exchange rate": 35,
+  "Overdraft, savings, or rewards features": 31,
+  "Managing the loan or lease": 6397,
+  "Getting a loan or lease": 3141,
+  "Repossession": 2319,
+  "Dealing with your lender or servicer": 13597,
+  "Struggling to repay your loan": 2795,
+  "Issue where my lender is my school": 46,
+  "Issue with income share agreement": 37,
+  "Charged fees or interest you didn't expect": 2740,
+  "Problem with the payoff process at the end of the loan": 966,
+  "Getting the loan": 869,
+  "Problem with additional add-on products or services": 793,
+  "Getting a line of credit": 682,
+  "Received a loan you didn't apply for": 272,
+  "Can't stop withdrawals from your bank account": 157,
+  "Can't contact lender or servicer": 145,
+  "Vehicle was repossessed or sold the vehicle": 145,
+  "Loan payment wasn't credited to your account": 134,
+  "Money was taken from your bank account on the wrong day or for the wrong amount": 104,
+  "Was approved for a loan, but didn't receive the money": 84,
+  "Problem with cash advance": 57,
+  "Issues with repayment": 52,
+  "Credit limit changed": 49,
+  "Vehicle was damaged or destroyed the vehicle": 37,
+  "Problems receiving the advance": 27,
+  "Unexpected fees": 21,
+  "Was approved for a loan, but didn't receive money": 19,
+  "Lost or stolen refund": 4,
+  "Property was sold": 2,
+  "Property was damaged or destroyed property": 1,
+  "Didn't provide services promised": 430,
+  "Charged upfront or unexpected fees": 240,
+  "Unauthorized withdrawals or charges": 161
+ },
+ "P5a": {
+  "claim": "three routes to one branch total agree",
+  "comparisons": 28,
+  "branches": 14,
+  "disagreements": [],
+  "won": true
+ },
+ "P5b": {
+  "claim": "a seeded sample fetched through the per-complaint endpoint reproduces the population's product shares",
+  "seed": 20260830,
+  "draws": 1000,
+  "returned_a_record": 798,
+  "returned_nothing": 202,
+  "in_window": 798,
+  "checks": [
+   {
+    "branch": "Credit reporting or other personal consumer reports",
+    "population_pct": 55.576,
+    "sample_pct": 54.5113,
+    "delta_points": 1.0647
+   },
+   {
+    "branch": "Credit reporting, credit repair services, or other personal consumer reports",
+    "population_pct": 27.1148,
+    "sample_pct": 27.3183,
+    "delta_points": 0.2035
+   }
+  ],
+  "threshold_points": 3.0,
+  "won": true
+ },
+ "id_density": {
+  "id_range": [
+   6382207,
+   9389093
+  ],
+  "draws": 1000,
+  "published_and_returned_pct": 79.8,
+  "returned_nothing_pct": 20.2,
+  "returned_but_out_of_window_pct": 0.0,
+  "reading": "an id in this range that returns no record is one the database does not publish. The institution's own sentence names one reason (complaints referred to other regulators are never published); non-contiguous id assignment and complaints withdrawn or still unpublished are others. This measurement does not distinguish them and no cause is asserted."
+ },
+ "routing_lag_days": {
+  "n": 798,
+  "median": 0.003,
+  "mean": 0.3808,
+  "same_day_pct": 97.8697,
+  "over_15_days_pct": 1.1278,
+  "max": 54.5667,
+  "by_branch_median": {
+   "Credit reporting or other personal consumer reports": 0.0023,
+   "Credit reporting, credit repair services, or other personal consumer reports": 0.0001,
+   "Debt collection": 0.0102,
+   "Credit card": 0.0078,
+   "Checking or savings account": 0.0094
+  },
+  "histogram": [
+   [
+    0,
+    781
+   ],
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    0
+   ],
+   [
+    3,
+    0
+   ],
+   [
+    4,
+    1
+   ],
+   [
+    5,
+    3
+   ],
+   [
+    6,
+    0
+   ],
+   [
+    7,
+    0
+   ],
+   [
+    8,
+    0
+   ],
+   [
+    9,
+    0
+   ],
+   [
+    10,
+    1
+   ],
+   [
+    11,
+    0
+   ],
+   [
+    12,
+    0
+   ],
+   [
+    13,
+    0
+   ],
+   [
+    14,
+    1
+   ],
+   [
+    15,
+    1
+   ],
+   [
+    16,
+    2
+   ],
+   [
+    17,
+    2
+   ],
+   [
+    18,
+    0
+   ],
+   [
+    19,
+    0
+   ],
+   [
+    20,
+    0
+   ],
+   [
+    21,
+    0
+   ],
+   [
+    22,
+    0
+   ],
+   [
+    23,
+    0
+   ],
+   [
+    24,
+    0
+   ],
+   [
+    25,
+    0
+   ],
+   [
+    26,
+    0
+   ],
+   [
+    27,
+    0
+   ],
+   [
+    28,
+    0
+   ],
+   [
+    29,
+    0
+   ],
+   [
+    30,
+    4
+   ]
+  ],
+  "what": "date_sent_to_company minus date_received: the interval before anyone is asked."
+ },
+ "narratives": {
+  "measured_on": "2026-08-30, sixteen days after the institution said it would cease discretionary publication of complaint narratives",
+  "sampled_in_window": 798,
+  "flagged_has_narrative": 286,
+  "flagged_and_text_returned": 286,
+  "served_pct_of_flagged": 100.0,
+  "population_flagged_pct": 35.4943,
+  "note": "no narrative text is committed anywhere in this work; only the count and the character length were carried out of harvest.py."
+ },
+ "sensitivity_renamed_branch_merged": {
+  "merged_branches": [
+   "Credit reporting or other personal consumer reports",
+   "Credit reporting, credit repair services, or other personal consumer reports"
+  ],
+  "n": 1966463,
+  "unnormed_pct": 0.0008,
+  "monetary_pct": 0.0597,
+  "timely_no_pct": 0.1146,
+  "P1_gap_if_merged": 0.003,
+  "P2_gap_if_merged": 32.9447,
+  "P3_gap_if_merged": 11.4083
+ },
+ "sensitivity_note": "The institution renamed products inside the window, so some products appear twice. Scoring uses the branches as the record gives them, fixed in advance; this block reports what the three gaps would be with the one rename that is a clean 1:1 substitution merged \u2014 'Credit reporting, credit repair services, or other personal consumer reports' into 'Credit reporting or other personal consumer reports'. The other two renamings are NOT merged and are left as the record has them, because neither is 1:1: 'Credit card or prepaid card' corresponds to two later branches, and 'Payday loan, title loan, or personal loan' to a later branch that also absorbs advance loans. Merging a one-to-many rename would invent a mapping the record does not contain."
+}

@@ -6,6 +6,86 @@ decides for itself and journals the decision.
 
 ---
 
+## From the practice — 2026-08-30 (Session 75) — the routing gap has a boundary, and it is the first one this line has found
+
+> tl;dr: S74 said the next reporter-classified institution must **not** be software. It is not: the
+> **CFPB's Consumer Complaint Database**, 2,378,092 complaints received over eighteen months, the
+> youngest 791 days old against a published fifteen-day rule. And the gap that opened at the RFC
+> Editor and at Mozilla **closes here to nothing**: 19 complaints of 2,378,092 got no response at
+> all, and the between-branch gap is **0.003 percentage points**. The same act is meanwhile
+> enormously consequential in two other dimensions — 32.96 points in *which* norm arrives and 11.41
+> in whether the deadline is kept. One act, three dimensions, four orders of magnitude between the
+> first and the third.
+> braucht: nothing. Two things reported because they are yours to know: your S73 question about
+> `web.archive.org` is answered at point 5, and point 6 is a constraint on method, not a request.
+> frist: none.
+> kontext: `works/2026-08-30-dependent-on-product/` · `works/fehlerkataster-031.md` ·
+> `works/FALSIFIERS.md` (two rows) · `journal/2026-08-30.md`
+
+**1. The finding.** A person with a difference against a financial company ticks a product, and that
+box decides almost nothing about whether anyone will answer them and almost everything about what the
+answer will be. Un-normed: **0.0008 %** of the population, gap between the fourteen branches **0.003
+points**. Closed with **monetary relief**: 33.00 % under *Prepaid card*, 0.05 % under *Credit
+reporting* — gap **32.96 points**, 671× as a ratio, still 16.34 with the top and bottom branch
+dropped. **Untimely**: 11.52 % under *Debt or credit management*, 0.11 % under *Credit reporting* —
+gap 11.41. Where Mozilla's filer's box predicted whether a norm ever arrived at 37.19 points, this
+one predicts it at 0.003. **Session 73's candidate now has a boundary with a description**: an
+applier who is compelled, watched, and bound to a published deadline.
+
+**2. The prediction that lost, and what it found.** P4 said the branches' issue vocabularies would be
+near-private. They are not: mean pairwise overlap 0.1574 against a bar of 0.15, and 46.74 % private
+against a bar of 60. But 43 of the 92 issue strings occur in exactly one branch and **37 of the 91
+branch pairs share nothing at all**, and the seven strings that are available almost everywhere are
+*all* about the credit report or about the handling of an earlier complaint — *"Incorrect information
+on your report"*, *"Improper use of your report"*, *"Problem with a company's investigation into an
+existing problem"*. **The only things a person may say whatever box they ticked are that the record
+about them is wrong, and that the last time they said so it was handled badly.** That is better than
+the win would have been.
+
+**3. The correction that is against my own method, again.** For the second night running the thing
+that failed was the *pre-written loss sentence*, not the number. P4's ended *"the box chooses who is
+asked, not what may be said"* — false on this night's own P1, which measures that at 0.003 points. And
+F-080's rule, written yesterday to prevent exactly this, **was applied — to one prediction out of
+four**, the one whose example produced it. F-091, with the sharpening: a loss sentence says what the
+measured quantity means for *its own* claim and never draws a conclusion another prediction in the
+same file is responsible for. Also filed: **F-085**, a rule one day old that I read, agreed with and
+broke inside the same night.
+
+**4. The record is being renormed while it is read.** On 2026-06-24 the institution said it is
+*"Focusing resources on complaints that warrant a substantive response"*; on **2026-08-14, sixteen
+days before this night**, it ceased publishing consumers' complaint narratives as *"unverified"*. Its
+field reference today lists fifteen fields and no narrative field — while the API still returns
+narrative text, and while a ZIP-code rule on the same page still turns on whether the consumer
+*"consented to publication of their complaint narrative"*. Both moves, read together, put more of what
+a difference is taken to be into the box and less into the person; that reading is marked as a reading
+and a dated falsifier is fixed on the measurable half.
+
+**5. Your S73 question, answered: `web.archive.org` is half-reachable from this network.** The
+availability API at `archive.org/wayback/available` returns **HTTP 200** and will name a snapshot.
+Retrieving the snapshot from `web.archive.org` returns **HTTP 403** over http and a reset connection
+over https. So the archive will say what it has and will not hand it over. That is enough to cost this
+night a claim: I could not check whether the field reference once listed a narrative field, so the
+edit is marked conjecture (**F-092**).
+
+**6. A constraint on method, not a request.** This night made **2,186** requests of a public
+government API, was **throttled six times** and waited **128 seconds** for it. The first version of the harvester read the
+throttling notice as if it were a record and died after two and a half hours with nothing written
+(**F-090**). It now waits the interval the endpoint names, counts the waits in the manifest, and is
+cache-first so a resumed run does not re-ask for what has been answered. Reporting it because a
+practice that measures other people's records at this volume should say out loud when it is told to
+slow down.
+
+**7. Two open threads struck.** S74 said Session 75 would take *the 55* and *Ruby's float-rendering
+provenance* or strike them. Struck, with the reason in `journal/2026-08-30.md` and the rule in
+**F-089**: a thread carried more than five sessions without being taken is struck with a stated
+reason, and the strike stays in the record.
+
+**8. Still open from before, none of it blocking:** S60's `archive/protocols/` ask, now fifteen
+sessions old and still cheap; S58's BLOCKING gate item, which did not bite tonight because this branch
+touches a work.
+
+---
+
 ## From the practice — 2026-08-29 (Session 74) — the object changed, the gap ported, and the thing that failed was a sentence rather than a number
 
 > tl;dr: S73 told itself, in writing and marked *not negotiable*, that the object had to change and

@@ -1,0 +1,107 @@
+-- the five documents
+   complaint-process.html
+   ccdb-what-is-this-data.html
+   ccdb-fields.html
+   cfpb-correcting-flaws-2026-06-24.html
+   cfpb-cease-narratives-2026-08-14.html
+-- population: one unfiltered faceted query
+   total 2,378,092 across 14 product branches
+-- per branch: one faceted query, plus five slices for vocabulary discovery
+   Credit reporting or other personal consumer  1,321,648
+   Credit reporting, credit repair services, or   644,815
+   Debt collection                                132,845
+   Checking or savings account                     74,747
+   Credit card                                     57,161
+   Credit card or prepaid card                     35,310
+   Mortgage                                        33,605
+   Money transfer, virtual currency, or money s    21,702
+   Vehicle loan or lease                           19,319
+   Student loan                                    18,201
+   Payday loan, title loan, personal loan, or a     6,896
+   Prepaid card                                     5,675
+   Payday loan, title loan, or personal loan        4,684
+   Debt or credit management                        1,484
+-- issue vocabulary union: 92 strings
+-- incidence matrix: every (branch, issue) pair, zeros included
+   Credit reporting or other personal consumer   13 of 92 non-zero
+   Credit reporting, credit repair services, or  19 of 92 non-zero
+   Debt collection                                7 of 92 non-zero
+   Checking or savings account                   12 of 92 non-zero
+   Credit card                                   15 of 92 non-zero
+   Credit card or prepaid card                   21 of 92 non-zero
+   Mortgage                                      11 of 92 non-zero
+   Money transfer, virtual currency, or money s  17 of 92 non-zero
+   Vehicle loan or lease                         12 of 92 non-zero
+   Student loan                                  12 of 92 non-zero
+   Payday loan, title loan, personal loan, or a  31 of 92 non-zero
+   Prepaid card                                   6 of 92 non-zero
+   Payday loan, title loan, or personal loan     26 of 92 non-zero
+   Debt or credit management                      6 of 92 non-zero
+-- seeded sample: 1000 ids, seed 20260830, per-complaint endpoint
+   id range 6,382,207 .. 9,389,093
+Traceback (most recent call last):
+  File "/home/user/error-as-method/works/2026-08-30-dependent-on-product/harvest.py", line 356, in <module>
+    main()
+  File "/home/user/error-as-method/works/2026-08-30-dependent-on-product/harvest.py", line 293, in main
+    hits = d["hits"]["hits"]
+           ~^^^^^^^^
+KeyError: 'hits'
+-- the five documents
+   complaint-process.html
+   ccdb-what-is-this-data.html
+   ccdb-fields.html
+   cfpb-correcting-flaws-2026-06-24.html
+   cfpb-cease-narratives-2026-08-14.html
+-- population: one unfiltered faceted query
+   total 2,378,092 across 14 product branches
+-- per branch: one faceted query, plus five slices for vocabulary discovery
+   Credit reporting or other personal consumer  1,321,648
+   Credit reporting, credit repair services, or   644,815
+   Debt collection                                132,845
+   Checking or savings account                     74,747
+   Credit card                                     57,161
+   Credit card or prepaid card                     35,310
+   Mortgage                                        33,605
+   Money transfer, virtual currency, or money s    21,702
+   Vehicle loan or lease                           19,319
+   Student loan                                    18,201
+   Payday loan, title loan, personal loan, or a     6,896
+   Prepaid card                                     5,675
+   Payday loan, title loan, or personal loan        4,684
+   Debt or credit management                        1,484
+-- issue vocabulary union: 92 strings
+-- incidence matrix: every (branch, issue) pair, zeros included
+   Credit reporting or other personal consumer   13 of 92 non-zero
+   Credit reporting, credit repair services, or  19 of 92 non-zero
+   Debt collection                                7 of 92 non-zero
+   Checking or savings account                   12 of 92 non-zero
+   Credit card                                   15 of 92 non-zero
+   Credit card or prepaid card                   21 of 92 non-zero
+   Mortgage                                      11 of 92 non-zero
+   Money transfer, virtual currency, or money s  17 of 92 non-zero
+   Vehicle loan or lease                         12 of 92 non-zero
+   Student loan                                  12 of 92 non-zero
+   Payday loan, title loan, personal loan, or a  31 of 92 non-zero
+   Prepaid card                                   6 of 92 non-zero
+   Payday loan, title loan, or personal loan     26 of 92 non-zero
+   Debt or credit management                      6 of 92 non-zero
+-- seeded sample: 1000 ids, seed 20260830, per-complaint endpoint
+   id range 6,382,207 .. 9,389,093
+   100/1000  hits 78  misses 22
+   200/1000  hits 162  misses 38
+   throttled by the endpoint; waiting 19s (event 1)
+   300/1000  hits 238  misses 62
+   400/1000  hits 316  misses 84
+   500/1000  hits 395  misses 105
+   600/1000  hits 478  misses 122
+   throttled by the endpoint; waiting 51s (event 2)
+   700/1000  hits 560  misses 140
+   throttled by the endpoint; waiting 20s (event 3)
+   800/1000  hits 644  misses 156
+   throttled by the endpoint; waiting 5s (event 4)
+   900/1000  hits 721  misses 179
+   throttled by the endpoint; waiting 11s (event 5)
+   throttled by the endpoint; waiting 22s (event 6)
+   1000/1000  hits 798  misses 202
+
+22 fetches recorded, 0 not 200.

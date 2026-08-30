@@ -1,0 +1,1728 @@
+{
+ "night": "2026-08-30",
+ "session": 75,
+ "falsifier": "S75.NARRATIVE",
+ "measured_utc_date": "2026-08-30",
+ "what": "Complaint ids from the seeded sample (seed 20260830) that were in the window, carried has_narrative = true, and for which the search API returned non-empty complaint_what_happened on this night. Re-fetch each in a year: if the text is gone, the 2026-08-14 announcement reached this endpoint late; if it is still there, 'publication' never meant this endpoint.",
+ "announcement": "https://www.consumerfinance.gov/about-us/newsroom/the-cfpb-to-cease-discretionary-publication-of-complaint-narratives-and-visualizations/",
+ "field_reference_at_the_time": "https://cfpb.github.io/api/ccdb/fields.html \u2014 lists fifteen fields 'currently included in the database' and no narrative field among them.",
+ "count": 286,
+ "ids": [
+  {
+   "complaint_id": "6613759",
+   "date_received": "2023-02-24",
+   "product": "Checking or savings account",
+   "narrative_chars": 68
+  },
+  {
+   "complaint_id": "7575030",
+   "date_received": "2023-09-19",
+   "product": "Student loan",
+   "narrative_chars": 1020
+  },
+  {
+   "complaint_id": "8658068",
+   "date_received": "2024-03-29",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 2880
+  },
+  {
+   "complaint_id": "6504522",
+   "date_received": "2023-01-30",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 866
+  },
+  {
+   "complaint_id": "8957299",
+   "date_received": "2024-05-08",
+   "product": "Credit card",
+   "narrative_chars": 985
+  },
+  {
+   "complaint_id": "8572148",
+   "date_received": "2024-03-18",
+   "product": "Debt collection",
+   "narrative_chars": 952
+  },
+  {
+   "complaint_id": "9181116",
+   "date_received": "2024-06-05",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 318
+  },
+  {
+   "complaint_id": "7596878",
+   "date_received": "2023-09-25",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 628
+  },
+  {
+   "complaint_id": "7340281",
+   "date_received": "2023-08-03",
+   "product": "Mortgage",
+   "narrative_chars": 1142
+  },
+  {
+   "complaint_id": "7370683",
+   "date_received": "2023-08-08",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 388
+  },
+  {
+   "complaint_id": "7965941",
+   "date_received": "2023-12-07",
+   "product": "Mortgage",
+   "narrative_chars": 1637
+  },
+  {
+   "complaint_id": "7082708",
+   "date_received": "2023-06-08",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 719
+  },
+  {
+   "complaint_id": "9170417",
+   "date_received": "2024-06-04",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 517
+  },
+  {
+   "complaint_id": "8450968",
+   "date_received": "2024-03-01",
+   "product": "Debt collection",
+   "narrative_chars": 401
+  },
+  {
+   "complaint_id": "8061355",
+   "date_received": "2023-12-26",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 316
+  },
+  {
+   "complaint_id": "6685289",
+   "date_received": "2023-03-14",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 172
+  },
+  {
+   "complaint_id": "7630836",
+   "date_received": "2023-09-30",
+   "product": "Credit card",
+   "narrative_chars": 242
+  },
+  {
+   "complaint_id": "6494781",
+   "date_received": "2023-01-27",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 268
+  },
+  {
+   "complaint_id": "8523375",
+   "date_received": "2024-03-11",
+   "product": "Debt collection",
+   "narrative_chars": 2061
+  },
+  {
+   "complaint_id": "6390977",
+   "date_received": "2023-01-03",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 1625
+  },
+  {
+   "complaint_id": "7217581",
+   "date_received": "2023-07-08",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 899
+  },
+  {
+   "complaint_id": "7459919",
+   "date_received": "2023-08-28",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 1117
+  },
+  {
+   "complaint_id": "7584007",
+   "date_received": "2023-09-22",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 838
+  },
+  {
+   "complaint_id": "6840075",
+   "date_received": "2023-04-14",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 776
+  },
+  {
+   "complaint_id": "8371245",
+   "date_received": "2024-02-19",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 1182
+  },
+  {
+   "complaint_id": "6982759",
+   "date_received": "2023-05-16",
+   "product": "Mortgage",
+   "narrative_chars": 1297
+  },
+  {
+   "complaint_id": "8677972",
+   "date_received": "2024-04-03",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 171
+  },
+  {
+   "complaint_id": "9171524",
+   "date_received": "2024-06-04",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 3290
+  },
+  {
+   "complaint_id": "6997766",
+   "date_received": "2023-05-18",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 336
+  },
+  {
+   "complaint_id": "8071691",
+   "date_received": "2023-12-28",
+   "product": "Checking or savings account",
+   "narrative_chars": 2311
+  },
+  {
+   "complaint_id": "7288928",
+   "date_received": "2023-07-23",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 950
+  },
+  {
+   "complaint_id": "8755322",
+   "date_received": "2024-04-12",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 424
+  },
+  {
+   "complaint_id": "7408475",
+   "date_received": "2023-08-16",
+   "product": "Vehicle loan or lease",
+   "narrative_chars": 303
+  },
+  {
+   "complaint_id": "9239858",
+   "date_received": "2024-06-13",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 462
+  },
+  {
+   "complaint_id": "6515489",
+   "date_received": "2023-02-02",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 686
+  },
+  {
+   "complaint_id": "8013739",
+   "date_received": "2023-12-17",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 2865
+  },
+  {
+   "complaint_id": "7233350",
+   "date_received": "2023-07-11",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 548
+  },
+  {
+   "complaint_id": "7187288",
+   "date_received": "2023-07-01",
+   "product": "Debt collection",
+   "narrative_chars": 50
+  },
+  {
+   "complaint_id": "6449485",
+   "date_received": "2023-01-17",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 687
+  },
+  {
+   "complaint_id": "7576056",
+   "date_received": "2023-09-20",
+   "product": "Debt collection",
+   "narrative_chars": 361
+  },
+  {
+   "complaint_id": "6491322",
+   "date_received": "2023-01-26",
+   "product": "Checking or savings account",
+   "narrative_chars": 870
+  },
+  {
+   "complaint_id": "8709101",
+   "date_received": "2024-04-05",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 3314
+  },
+  {
+   "complaint_id": "6560078",
+   "date_received": "2023-02-11",
+   "product": "Debt collection",
+   "narrative_chars": 475
+  },
+  {
+   "complaint_id": "8269743",
+   "date_received": "2024-02-03",
+   "product": "Credit card",
+   "narrative_chars": 179
+  },
+  {
+   "complaint_id": "6793255",
+   "date_received": "2023-04-04",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 3359
+  },
+  {
+   "complaint_id": "8837209",
+   "date_received": "2024-04-24",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 285
+  },
+  {
+   "complaint_id": "7289790",
+   "date_received": "2023-07-23",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 423
+  },
+  {
+   "complaint_id": "8850422",
+   "date_received": "2024-04-24",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 1809
+  },
+  {
+   "complaint_id": "8340146",
+   "date_received": "2024-02-13",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 272
+  },
+  {
+   "complaint_id": "7110677",
+   "date_received": "2023-06-13",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 946
+  },
+  {
+   "complaint_id": "8081761",
+   "date_received": "2023-12-29",
+   "product": "Checking or savings account",
+   "narrative_chars": 515
+  },
+  {
+   "complaint_id": "8329704",
+   "date_received": "2024-02-13",
+   "product": "Payday loan, title loan, personal loan, or advance loan",
+   "narrative_chars": 1276
+  },
+  {
+   "complaint_id": "7663831",
+   "date_received": "2023-10-08",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 313
+  },
+  {
+   "complaint_id": "7672733",
+   "date_received": "2023-10-10",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 473
+  },
+  {
+   "complaint_id": "8991498",
+   "date_received": "2024-05-13",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 1353
+  },
+  {
+   "complaint_id": "8076105",
+   "date_received": "2023-12-30",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 768
+  },
+  {
+   "complaint_id": "8884587",
+   "date_received": "2024-04-29",
+   "product": "Debt collection",
+   "narrative_chars": 256
+  },
+  {
+   "complaint_id": "8337205",
+   "date_received": "2024-02-13",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 1316
+  },
+  {
+   "complaint_id": "7228051",
+   "date_received": "2023-07-10",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 311
+  },
+  {
+   "complaint_id": "7236057",
+   "date_received": "2023-07-11",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 3731
+  },
+  {
+   "complaint_id": "7956445",
+   "date_received": "2023-12-06",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 1292
+  },
+  {
+   "complaint_id": "7204364",
+   "date_received": "2023-07-04",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 179
+  },
+  {
+   "complaint_id": "7507773",
+   "date_received": "2023-09-07",
+   "product": "Credit card",
+   "narrative_chars": 149
+  },
+  {
+   "complaint_id": "7082866",
+   "date_received": "2023-06-07",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 134
+  },
+  {
+   "complaint_id": "7050974",
+   "date_received": "2023-06-01",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 623
+  },
+  {
+   "complaint_id": "8021578",
+   "date_received": "2023-12-18",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 1017
+  },
+  {
+   "complaint_id": "7692810",
+   "date_received": "2023-10-13",
+   "product": "Checking or savings account",
+   "narrative_chars": 3672
+  },
+  {
+   "complaint_id": "8849352",
+   "date_received": "2024-04-25",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 123
+  },
+  {
+   "complaint_id": "7222691",
+   "date_received": "2023-07-09",
+   "product": "Debt collection",
+   "narrative_chars": 1843
+  },
+  {
+   "complaint_id": "7754270",
+   "date_received": "2023-10-25",
+   "product": "Vehicle loan or lease",
+   "narrative_chars": 1072
+  },
+  {
+   "complaint_id": "6640089",
+   "date_received": "2023-03-02",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 186
+  },
+  {
+   "complaint_id": "6575337",
+   "date_received": "2023-02-15",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 355
+  },
+  {
+   "complaint_id": "6991512",
+   "date_received": "2023-05-17",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 1288
+  },
+  {
+   "complaint_id": "7113707",
+   "date_received": "2023-06-13",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 1671
+  },
+  {
+   "complaint_id": "8646543",
+   "date_received": "2024-03-29",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 1278
+  },
+  {
+   "complaint_id": "8685794",
+   "date_received": "2024-04-03",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 564
+  },
+  {
+   "complaint_id": "9361639",
+   "date_received": "2024-06-27",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 239
+  },
+  {
+   "complaint_id": "8624035",
+   "date_received": "2024-03-25",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 1094
+  },
+  {
+   "complaint_id": "7299802",
+   "date_received": "2023-07-25",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 900
+  },
+  {
+   "complaint_id": "7860628",
+   "date_received": "2023-11-17",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 1641
+  },
+  {
+   "complaint_id": "8655267",
+   "date_received": "2024-03-30",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 237
+  },
+  {
+   "complaint_id": "7462581",
+   "date_received": "2023-08-28",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 392
+  },
+  {
+   "complaint_id": "7339483",
+   "date_received": "2023-08-02",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 387
+  },
+  {
+   "complaint_id": "8267713",
+   "date_received": "2024-02-01",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 292
+  },
+  {
+   "complaint_id": "7351958",
+   "date_received": "2023-08-05",
+   "product": "Checking or savings account",
+   "narrative_chars": 2144
+  },
+  {
+   "complaint_id": "7471406",
+   "date_received": "2023-08-27",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 589
+  },
+  {
+   "complaint_id": "7315838",
+   "date_received": "2023-07-27",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 282
+  },
+  {
+   "complaint_id": "8576781",
+   "date_received": "2024-03-19",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 1008
+  },
+  {
+   "complaint_id": "6463071",
+   "date_received": "2023-01-20",
+   "product": "Checking or savings account",
+   "narrative_chars": 200
+  },
+  {
+   "complaint_id": "7677387",
+   "date_received": "2023-10-11",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 340
+  },
+  {
+   "complaint_id": "7976640",
+   "date_received": "2023-12-10",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 2850
+  },
+  {
+   "complaint_id": "7503231",
+   "date_received": "2023-09-06",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 2061
+  },
+  {
+   "complaint_id": "6630991",
+   "date_received": "2023-02-28",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 198
+  },
+  {
+   "complaint_id": "8000591",
+   "date_received": "2023-12-14",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 1338
+  },
+  {
+   "complaint_id": "8958255",
+   "date_received": "2024-05-08",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 301
+  },
+  {
+   "complaint_id": "9196661",
+   "date_received": "2024-06-06",
+   "product": "Mortgage",
+   "narrative_chars": 4037
+  },
+  {
+   "complaint_id": "7135926",
+   "date_received": "2023-06-19",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 1065
+  },
+  {
+   "complaint_id": "7624228",
+   "date_received": "2023-10-01",
+   "product": "Checking or savings account",
+   "narrative_chars": 740
+  },
+  {
+   "complaint_id": "8019794",
+   "date_received": "2023-12-18",
+   "product": "Checking or savings account",
+   "narrative_chars": 480
+  },
+  {
+   "complaint_id": "7562558",
+   "date_received": "2023-09-18",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 110
+  },
+  {
+   "complaint_id": "6710828",
+   "date_received": "2023-03-17",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 1604
+  },
+  {
+   "complaint_id": "8057226",
+   "date_received": "2023-12-27",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 464
+  },
+  {
+   "complaint_id": "6686660",
+   "date_received": "2023-03-13",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 64
+  },
+  {
+   "complaint_id": "7585511",
+   "date_received": "2023-09-21",
+   "product": "Mortgage",
+   "narrative_chars": 1921
+  },
+  {
+   "complaint_id": "8842568",
+   "date_received": "2024-04-23",
+   "product": "Credit card",
+   "narrative_chars": 1870
+  },
+  {
+   "complaint_id": "9242765",
+   "date_received": "2024-06-12",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 1393
+  },
+  {
+   "complaint_id": "8654831",
+   "date_received": "2024-03-30",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 122
+  },
+  {
+   "complaint_id": "9044427",
+   "date_received": "2024-05-19",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 3230
+  },
+  {
+   "complaint_id": "7902936",
+   "date_received": "2023-11-25",
+   "product": "Checking or savings account",
+   "narrative_chars": 686
+  },
+  {
+   "complaint_id": "8193633",
+   "date_received": "2024-01-20",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 3515
+  },
+  {
+   "complaint_id": "8246662",
+   "date_received": "2024-01-29",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 1312
+  },
+  {
+   "complaint_id": "6698461",
+   "date_received": "2023-03-16",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 652
+  },
+  {
+   "complaint_id": "8992362",
+   "date_received": "2024-05-14",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 484
+  },
+  {
+   "complaint_id": "8751696",
+   "date_received": "2024-04-11",
+   "product": "Debt collection",
+   "narrative_chars": 246
+  },
+  {
+   "complaint_id": "7250986",
+   "date_received": "2023-07-14",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 865
+  },
+  {
+   "complaint_id": "6757376",
+   "date_received": "2023-03-27",
+   "product": "Debt collection",
+   "narrative_chars": 1676
+  },
+  {
+   "complaint_id": "7744017",
+   "date_received": "2023-10-23",
+   "product": "Debt collection",
+   "narrative_chars": 68
+  },
+  {
+   "complaint_id": "6670497",
+   "date_received": "2023-03-09",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 642
+  },
+  {
+   "complaint_id": "7792958",
+   "date_received": "2023-11-03",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 525
+  },
+  {
+   "complaint_id": "8902753",
+   "date_received": "2024-05-01",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 601
+  },
+  {
+   "complaint_id": "8716482",
+   "date_received": "2024-04-08",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 327
+  },
+  {
+   "complaint_id": "6747902",
+   "date_received": "2023-03-25",
+   "product": "Debt collection",
+   "narrative_chars": 1325
+  },
+  {
+   "complaint_id": "8398941",
+   "date_received": "2024-02-23",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 761
+  },
+  {
+   "complaint_id": "6735656",
+   "date_received": "2023-03-23",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 148
+  },
+  {
+   "complaint_id": "6651447",
+   "date_received": "2023-03-05",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 591
+  },
+  {
+   "complaint_id": "7321155",
+   "date_received": "2023-07-28",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 281
+  },
+  {
+   "complaint_id": "7077229",
+   "date_received": "2023-06-07",
+   "product": "Debt collection",
+   "narrative_chars": 85
+  },
+  {
+   "complaint_id": "8000052",
+   "date_received": "2023-12-14",
+   "product": "Debt collection",
+   "narrative_chars": 189
+  },
+  {
+   "complaint_id": "7304253",
+   "date_received": "2023-07-25",
+   "product": "Credit card or prepaid card",
+   "narrative_chars": 1730
+  },
+  {
+   "complaint_id": "8759912",
+   "date_received": "2024-04-13",
+   "product": "Debt collection",
+   "narrative_chars": 3640
+  },
+  {
+   "complaint_id": "8505100",
+   "date_received": "2024-03-09",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 2023
+  },
+  {
+   "complaint_id": "8697250",
+   "date_received": "2024-04-05",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 218
+  },
+  {
+   "complaint_id": "8634746",
+   "date_received": "2024-03-26",
+   "product": "Mortgage",
+   "narrative_chars": 2183
+  },
+  {
+   "complaint_id": "7780593",
+   "date_received": "2023-10-31",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 92
+  },
+  {
+   "complaint_id": "7584220",
+   "date_received": "2023-09-22",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 721
+  },
+  {
+   "complaint_id": "7519121",
+   "date_received": "2023-09-08",
+   "product": "Credit card",
+   "narrative_chars": 149
+  },
+  {
+   "complaint_id": "8446788",
+   "date_received": "2024-02-29",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 642
+  },
+  {
+   "complaint_id": "7412587",
+   "date_received": "2023-08-16",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 234
+  },
+  {
+   "complaint_id": "7262702",
+   "date_received": "2023-07-17",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 1353
+  },
+  {
+   "complaint_id": "8930203",
+   "date_received": "2024-05-03",
+   "product": "Credit card",
+   "narrative_chars": 268
+  },
+  {
+   "complaint_id": "7814522",
+   "date_received": "2023-11-07",
+   "product": "Checking or savings account",
+   "narrative_chars": 869
+  },
+  {
+   "complaint_id": "9100507",
+   "date_received": "2024-05-25",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 221
+  },
+  {
+   "complaint_id": "7939360",
+   "date_received": "2023-12-03",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 4710
+  },
+  {
+   "complaint_id": "8626974",
+   "date_received": "2024-03-26",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 466
+  },
+  {
+   "complaint_id": "7327729",
+   "date_received": "2023-08-01",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 492
+  },
+  {
+   "complaint_id": "6881671",
+   "date_received": "2023-04-25",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 2381
+  },
+  {
+   "complaint_id": "7110802",
+   "date_received": "2023-06-13",
+   "product": "Credit card or prepaid card",
+   "narrative_chars": 187
+  },
+  {
+   "complaint_id": "7680605",
+   "date_received": "2023-10-11",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 250
+  },
+  {
+   "complaint_id": "8202519",
+   "date_received": "2024-01-22",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 981
+  },
+  {
+   "complaint_id": "6836947",
+   "date_received": "2023-04-13",
+   "product": "Debt collection",
+   "narrative_chars": 562
+  },
+  {
+   "complaint_id": "7573898",
+   "date_received": "2023-09-19",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 1231
+  },
+  {
+   "complaint_id": "8956849",
+   "date_received": "2024-05-08",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 999
+  },
+  {
+   "complaint_id": "7863970",
+   "date_received": "2023-11-16",
+   "product": "Debt collection",
+   "narrative_chars": 2014
+  },
+  {
+   "complaint_id": "7963082",
+   "date_received": "2023-12-07",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 176
+  },
+  {
+   "complaint_id": "8190184",
+   "date_received": "2024-01-21",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 3329
+  },
+  {
+   "complaint_id": "8628325",
+   "date_received": "2024-03-26",
+   "product": "Credit card",
+   "narrative_chars": 500
+  },
+  {
+   "complaint_id": "7957146",
+   "date_received": "2023-12-06",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 214
+  },
+  {
+   "complaint_id": "8032822",
+   "date_received": "2023-12-21",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 87
+  },
+  {
+   "complaint_id": "6716396",
+   "date_received": "2023-03-18",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 78
+  },
+  {
+   "complaint_id": "6815549",
+   "date_received": "2023-04-09",
+   "product": "Debt collection",
+   "narrative_chars": 1168
+  },
+  {
+   "complaint_id": "7294961",
+   "date_received": "2023-07-24",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 2269
+  },
+  {
+   "complaint_id": "7873372",
+   "date_received": "2023-11-18",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 300
+  },
+  {
+   "complaint_id": "6440872",
+   "date_received": "2023-01-13",
+   "product": "Debt collection",
+   "narrative_chars": 332
+  },
+  {
+   "complaint_id": "7143135",
+   "date_received": "2023-06-20",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 300
+  },
+  {
+   "complaint_id": "7830564",
+   "date_received": "2023-11-09",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 1197
+  },
+  {
+   "complaint_id": "8694779",
+   "date_received": "2024-04-04",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 578
+  },
+  {
+   "complaint_id": "8055095",
+   "date_received": "2023-12-26",
+   "product": "Vehicle loan or lease",
+   "narrative_chars": 213
+  },
+  {
+   "complaint_id": "6662612",
+   "date_received": "2023-03-07",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 840
+  },
+  {
+   "complaint_id": "8125403",
+   "date_received": "2024-01-09",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 672
+  },
+  {
+   "complaint_id": "7603641",
+   "date_received": "2023-09-25",
+   "product": "Credit card",
+   "narrative_chars": 975
+  },
+  {
+   "complaint_id": "6965980",
+   "date_received": "2023-05-11",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 1094
+  },
+  {
+   "complaint_id": "7003062",
+   "date_received": "2023-05-21",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 1093
+  },
+  {
+   "complaint_id": "6395447",
+   "date_received": "2023-01-05",
+   "product": "Credit card or prepaid card",
+   "narrative_chars": 1894
+  },
+  {
+   "complaint_id": "9195593",
+   "date_received": "2024-06-06",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 626
+  },
+  {
+   "complaint_id": "7016769",
+   "date_received": "2023-05-23",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 2505
+  },
+  {
+   "complaint_id": "6988842",
+   "date_received": "2023-05-18",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 624
+  },
+  {
+   "complaint_id": "6743132",
+   "date_received": "2023-03-24",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 1235
+  },
+  {
+   "complaint_id": "7441595",
+   "date_received": "2023-08-22",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 85
+  },
+  {
+   "complaint_id": "6460087",
+   "date_received": "2023-01-19",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 233
+  },
+  {
+   "complaint_id": "6803066",
+   "date_received": "2023-04-06",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 123
+  },
+  {
+   "complaint_id": "6526628",
+   "date_received": "2023-02-03",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 973
+  },
+  {
+   "complaint_id": "6865235",
+   "date_received": "2023-04-20",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 292
+  },
+  {
+   "complaint_id": "8639152",
+   "date_received": "2024-03-28",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 189
+  },
+  {
+   "complaint_id": "7467895",
+   "date_received": "2023-08-29",
+   "product": "Checking or savings account",
+   "narrative_chars": 2307
+  },
+  {
+   "complaint_id": "9239633",
+   "date_received": "2024-06-12",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 302
+  },
+  {
+   "complaint_id": "8639659",
+   "date_received": "2024-03-27",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 779
+  },
+  {
+   "complaint_id": "8308653",
+   "date_received": "2024-02-09",
+   "product": "Mortgage",
+   "narrative_chars": 1013
+  },
+  {
+   "complaint_id": "9142503",
+   "date_received": "2024-05-31",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 239
+  },
+  {
+   "complaint_id": "9171828",
+   "date_received": "2024-06-04",
+   "product": "Debt collection",
+   "narrative_chars": 183
+  },
+  {
+   "complaint_id": "9290716",
+   "date_received": "2024-06-18",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 904
+  },
+  {
+   "complaint_id": "9330794",
+   "date_received": "2024-06-26",
+   "product": "Credit card",
+   "narrative_chars": 520
+  },
+  {
+   "complaint_id": "7656845",
+   "date_received": "2023-10-06",
+   "product": "Checking or savings account",
+   "narrative_chars": 590
+  },
+  {
+   "complaint_id": "7972519",
+   "date_received": "2023-12-08",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 1391
+  },
+  {
+   "complaint_id": "6708586",
+   "date_received": "2023-03-16",
+   "product": "Credit card or prepaid card",
+   "narrative_chars": 974
+  },
+  {
+   "complaint_id": "9042237",
+   "date_received": "2024-05-18",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 10551
+  },
+  {
+   "complaint_id": "8149894",
+   "date_received": "2024-01-12",
+   "product": "Debt collection",
+   "narrative_chars": 948
+  },
+  {
+   "complaint_id": "8221414",
+   "date_received": "2024-01-25",
+   "product": "Vehicle loan or lease",
+   "narrative_chars": 842
+  },
+  {
+   "complaint_id": "6743969",
+   "date_received": "2023-03-24",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 185
+  },
+  {
+   "complaint_id": "7514065",
+   "date_received": "2023-09-07",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 439
+  },
+  {
+   "complaint_id": "7511416",
+   "date_received": "2023-09-06",
+   "product": "Payday loan, title loan, personal loan, or advance loan",
+   "narrative_chars": 724
+  },
+  {
+   "complaint_id": "8972912",
+   "date_received": "2024-05-09",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 305
+  },
+  {
+   "complaint_id": "8641173",
+   "date_received": "2024-03-27",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 272
+  },
+  {
+   "complaint_id": "9032886",
+   "date_received": "2024-05-18",
+   "product": "Debt collection",
+   "narrative_chars": 833
+  },
+  {
+   "complaint_id": "7851368",
+   "date_received": "2023-11-14",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 373
+  },
+  {
+   "complaint_id": "8713329",
+   "date_received": "2024-04-06",
+   "product": "Vehicle loan or lease",
+   "narrative_chars": 4993
+  },
+  {
+   "complaint_id": "8059201",
+   "date_received": "2023-12-26",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 756
+  },
+  {
+   "complaint_id": "7480327",
+   "date_received": "2023-09-01",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 137
+  },
+  {
+   "complaint_id": "8821788",
+   "date_received": "2024-04-22",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 536
+  },
+  {
+   "complaint_id": "6983619",
+   "date_received": "2023-05-17",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 1846
+  },
+  {
+   "complaint_id": "7280569",
+   "date_received": "2023-07-20",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 480
+  },
+  {
+   "complaint_id": "7114229",
+   "date_received": "2023-06-14",
+   "product": "Debt collection",
+   "narrative_chars": 255
+  },
+  {
+   "complaint_id": "8494858",
+   "date_received": "2024-03-08",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 4061
+  },
+  {
+   "complaint_id": "7844670",
+   "date_received": "2023-11-13",
+   "product": "Credit card",
+   "narrative_chars": 742
+  },
+  {
+   "complaint_id": "8829531",
+   "date_received": "2024-04-22",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 612
+  },
+  {
+   "complaint_id": "8783757",
+   "date_received": "2024-04-17",
+   "product": "Vehicle loan or lease",
+   "narrative_chars": 3271
+  },
+  {
+   "complaint_id": "7302594",
+   "date_received": "2023-07-25",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 1405
+  },
+  {
+   "complaint_id": "7899818",
+   "date_received": "2023-11-24",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 671
+  },
+  {
+   "complaint_id": "8460292",
+   "date_received": "2024-03-02",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 1697
+  },
+  {
+   "complaint_id": "7054591",
+   "date_received": "2023-05-31",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 530
+  },
+  {
+   "complaint_id": "7881334",
+   "date_received": "2023-11-21",
+   "product": "Credit card",
+   "narrative_chars": 978
+  },
+  {
+   "complaint_id": "8687656",
+   "date_received": "2024-04-05",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 2302
+  },
+  {
+   "complaint_id": "8291334",
+   "date_received": "2024-02-06",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 2311
+  },
+  {
+   "complaint_id": "8669670",
+   "date_received": "2024-04-02",
+   "product": "Debt collection",
+   "narrative_chars": 210
+  },
+  {
+   "complaint_id": "8502487",
+   "date_received": "2024-03-08",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 134
+  },
+  {
+   "complaint_id": "9257250",
+   "date_received": "2024-06-13",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 975
+  },
+  {
+   "complaint_id": "8943766",
+   "date_received": "2024-05-06",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 297
+  },
+  {
+   "complaint_id": "8664364",
+   "date_received": "2024-03-31",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 662
+  },
+  {
+   "complaint_id": "6859316",
+   "date_received": "2023-04-19",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 195
+  },
+  {
+   "complaint_id": "7003571",
+   "date_received": "2023-05-20",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 849
+  },
+  {
+   "complaint_id": "9146054",
+   "date_received": "2024-05-31",
+   "product": "Debt collection",
+   "narrative_chars": 469
+  },
+  {
+   "complaint_id": "6926255",
+   "date_received": "2023-05-03",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 1361
+  },
+  {
+   "complaint_id": "6602327",
+   "date_received": "2023-02-22",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 1234
+  },
+  {
+   "complaint_id": "8138044",
+   "date_received": "2024-01-10",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 1004
+  },
+  {
+   "complaint_id": "7968198",
+   "date_received": "2023-12-07",
+   "product": "Prepaid card",
+   "narrative_chars": 931
+  },
+  {
+   "complaint_id": "8384952",
+   "date_received": "2024-02-20",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 119
+  },
+  {
+   "complaint_id": "9088677",
+   "date_received": "2024-05-23",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 325
+  },
+  {
+   "complaint_id": "8356142",
+   "date_received": "2024-02-14",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 71
+  },
+  {
+   "complaint_id": "7970732",
+   "date_received": "2023-12-08",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 1987
+  },
+  {
+   "complaint_id": "8835007",
+   "date_received": "2024-04-22",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 250
+  },
+  {
+   "complaint_id": "7536288",
+   "date_received": "2023-09-13",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 552
+  },
+  {
+   "complaint_id": "7215888",
+   "date_received": "2023-07-06",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 162
+  },
+  {
+   "complaint_id": "8420116",
+   "date_received": "2024-02-26",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 177
+  },
+  {
+   "complaint_id": "8512754",
+   "date_received": "2024-03-09",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 203
+  },
+  {
+   "complaint_id": "9082214",
+   "date_received": "2024-05-23",
+   "product": "Credit card",
+   "narrative_chars": 421
+  },
+  {
+   "complaint_id": "7404551",
+   "date_received": "2023-08-15",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 922
+  },
+  {
+   "complaint_id": "6593549",
+   "date_received": "2023-02-21",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 1246
+  },
+  {
+   "complaint_id": "7572809",
+   "date_received": "2023-09-19",
+   "product": "Credit card",
+   "narrative_chars": 263
+  },
+  {
+   "complaint_id": "6512520",
+   "date_received": "2023-01-31",
+   "product": "Credit card or prepaid card",
+   "narrative_chars": 636
+  },
+  {
+   "complaint_id": "7105270",
+   "date_received": "2023-06-12",
+   "product": "Debt collection",
+   "narrative_chars": 863
+  },
+  {
+   "complaint_id": "7622323",
+   "date_received": "2023-10-02",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 306
+  },
+  {
+   "complaint_id": "8766986",
+   "date_received": "2024-04-13",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 67
+  },
+  {
+   "complaint_id": "7563765",
+   "date_received": "2023-09-18",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 1146
+  },
+  {
+   "complaint_id": "6564279",
+   "date_received": "2023-02-14",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 444
+  },
+  {
+   "complaint_id": "6463039",
+   "date_received": "2023-01-21",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 495
+  },
+  {
+   "complaint_id": "6562030",
+   "date_received": "2023-02-13",
+   "product": "Money transfer, virtual currency, or money service",
+   "narrative_chars": 873
+  },
+  {
+   "complaint_id": "6530449",
+   "date_received": "2023-02-03",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 1061
+  },
+  {
+   "complaint_id": "6747498",
+   "date_received": "2023-03-26",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 1395
+  },
+  {
+   "complaint_id": "7387742",
+   "date_received": "2023-08-11",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 2694
+  },
+  {
+   "complaint_id": "8283100",
+   "date_received": "2024-02-06",
+   "product": "Money transfer, virtual currency, or money service",
+   "narrative_chars": 175
+  },
+  {
+   "complaint_id": "7321236",
+   "date_received": "2023-07-28",
+   "product": "Debt collection",
+   "narrative_chars": 393
+  },
+  {
+   "complaint_id": "7077198",
+   "date_received": "2023-06-07",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 1305
+  },
+  {
+   "complaint_id": "6512873",
+   "date_received": "2023-01-31",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 1016
+  },
+  {
+   "complaint_id": "6481815",
+   "date_received": "2023-01-24",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 2585
+  },
+  {
+   "complaint_id": "9360229",
+   "date_received": "2024-06-27",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 1667
+  },
+  {
+   "complaint_id": "8960896",
+   "date_received": "2024-05-08",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 218
+  },
+  {
+   "complaint_id": "7836605",
+   "date_received": "2023-11-10",
+   "product": "Student loan",
+   "narrative_chars": 353
+  },
+  {
+   "complaint_id": "7659508",
+   "date_received": "2023-10-06",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 324
+  },
+  {
+   "complaint_id": "7317891",
+   "date_received": "2023-07-28",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 272
+  },
+  {
+   "complaint_id": "6530850",
+   "date_received": "2023-02-03",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 363
+  },
+  {
+   "complaint_id": "6493950",
+   "date_received": "2023-01-28",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 1087
+  },
+  {
+   "complaint_id": "7668230",
+   "date_received": "2023-10-09",
+   "product": "Debt collection",
+   "narrative_chars": 315
+  },
+  {
+   "complaint_id": "8151928",
+   "date_received": "2024-01-11",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 362
+  },
+  {
+   "complaint_id": "8883976",
+   "date_received": "2024-04-29",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 274
+  },
+  {
+   "complaint_id": "6482145",
+   "date_received": "2023-01-24",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 2545
+  },
+  {
+   "complaint_id": "6539754",
+   "date_received": "2023-02-08",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 304
+  },
+  {
+   "complaint_id": "6677773",
+   "date_received": "2023-03-10",
+   "product": "Credit card or prepaid card",
+   "narrative_chars": 989
+  },
+  {
+   "complaint_id": "7183955",
+   "date_received": "2023-07-01",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 212
+  },
+  {
+   "complaint_id": "8588721",
+   "date_received": "2024-03-20",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 3057
+  },
+  {
+   "complaint_id": "6588237",
+   "date_received": "2023-02-18",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 2122
+  },
+  {
+   "complaint_id": "6529109",
+   "date_received": "2023-02-03",
+   "product": "Credit card or prepaid card",
+   "narrative_chars": 1244
+  },
+  {
+   "complaint_id": "7751305",
+   "date_received": "2023-10-25",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 899
+  },
+  {
+   "complaint_id": "8485967",
+   "date_received": "2024-03-06",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 188
+  },
+  {
+   "complaint_id": "6978898",
+   "date_received": "2023-05-15",
+   "product": "Checking or savings account",
+   "narrative_chars": 866
+  },
+  {
+   "complaint_id": "6964077",
+   "date_received": "2023-05-12",
+   "product": "Credit reporting, credit repair services, or other personal consumer reports",
+   "narrative_chars": 646
+  },
+  {
+   "complaint_id": "9091217",
+   "date_received": "2024-05-24",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 489
+  },
+  {
+   "complaint_id": "9091785",
+   "date_received": "2024-05-24",
+   "product": "Credit reporting or other personal consumer reports",
+   "narrative_chars": 57
+  }
+ ]
+}

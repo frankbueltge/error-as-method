@@ -1,0 +1,445 @@
+{
+ "night": "2026-08-30",
+ "session": 75,
+ "note": "Counts only. The feeds are read, never mirrored.",
+ "feeds": {
+  "atlas/werke.json": {
+   "url": "https://frankbueltge.de/atlas/werke.json",
+   "http_status": 200,
+   "bytes": 387046,
+   "reachable": true,
+   "declared_count": 520,
+   "len_entries": 520,
+   "counts": {
+    "CFPB": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Consumer Financial Protection Bureau": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "consumer complaint": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "complaint database": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "complaints body": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "intake form": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "regulator": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "financial": {
+     "substring": 4,
+     "word_boundary": 4
+    },
+    "credit reporting": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "debt collection": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "routing": {
+     "substring": 1,
+     "word_boundary": 1
+    },
+    "route": {
+     "substring": 3,
+     "word_boundary": 1
+    },
+    "queue": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "taxonomy": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "classification": {
+     "substring": 3,
+     "word_boundary": 3
+    },
+    "controlled vocabulary": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "menu": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "form design": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "grievance": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "redress": {
+     "substring": 1,
+     "word_boundary": 1
+    },
+    "norm": {
+     "substring": 1,
+     "word_boundary": 0
+    },
+    "normativity": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Canguilhem": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Simondon": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Rheinberger": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "epistemic thing": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Bowker": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Star": {
+     "substring": 95,
+     "word_boundary": 5
+    },
+    "classification and its consequences": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Desrosieres": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "administrative data": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "bureaucracy": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Sankey": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "adjudication": {
+     "substring": 0,
+     "word_boundary": 0
+    }
+   }
+  },
+  "papers/index.json": {
+   "url": "https://frankbueltge.de/papers/index.json",
+   "http_status": 200,
+   "bytes": 814825,
+   "reachable": true,
+   "declared_count": 1197,
+   "len_entries": 1197,
+   "counts": {
+    "CFPB": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Consumer Financial Protection Bureau": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "consumer complaint": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "complaint database": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "complaints body": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "intake form": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "regulator": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "financial": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "credit reporting": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "debt collection": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "routing": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "route": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "queue": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "taxonomy": {
+     "substring": 2,
+     "word_boundary": 2
+    },
+    "classification": {
+     "substring": 9,
+     "word_boundary": 8
+    },
+    "controlled vocabulary": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "menu": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "form design": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "grievance": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "redress": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "norm": {
+     "substring": 7,
+     "word_boundary": 0
+    },
+    "normativity": {
+     "substring": 2,
+     "word_boundary": 2
+    },
+    "Canguilhem": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Simondon": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Rheinberger": {
+     "substring": 6,
+     "word_boundary": 6
+    },
+    "epistemic thing": {
+     "substring": 1,
+     "word_boundary": 0
+    },
+    "Bowker": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Star": {
+     "substring": 360,
+     "word_boundary": 132
+    },
+    "classification and its consequences": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Desrosieres": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "administrative data": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "bureaucracy": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Sankey": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "adjudication": {
+     "substring": 0,
+     "word_boundary": 0
+    }
+   }
+  },
+  "datasets/register.json": {
+   "url": "https://frankbueltge.de/datasets/register.json",
+   "http_status": 200,
+   "bytes": 51414,
+   "reachable": true,
+   "declared_count": 59,
+   "len_entries": 59,
+   "counts": {
+    "CFPB": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Consumer Financial Protection Bureau": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "consumer complaint": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "complaint database": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "complaints body": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "intake form": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "regulator": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "financial": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "credit reporting": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "debt collection": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "routing": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "route": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "queue": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "taxonomy": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "classification": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "controlled vocabulary": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "menu": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "form design": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "grievance": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "redress": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "norm": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "normativity": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Canguilhem": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Simondon": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Rheinberger": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "epistemic thing": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Bowker": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Star": {
+     "substring": 5,
+     "word_boundary": 0
+    },
+    "classification and its consequences": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Desrosieres": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "administrative data": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "bureaucracy": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Sankey": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "adjudication": {
+     "substring": 0,
+     "word_boundary": 0
+    }
+   }
+  }
+ }
+}
