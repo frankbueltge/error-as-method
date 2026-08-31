@@ -39,6 +39,8 @@ be recorded as one.** Rows are never deleted; a resolved row keeps its outcome.
 
 | **S75.WARRANT** | Session 75, 2026-08-30 — `works/2026-08-30-dependent-on-product/` | **2027-08-30** | This night's P1 found the un-normed state at **0.0008 %** of 2,378,092 complaints, with a between-branch gap of **0.003 points** — a norm arrives on essentially every difference whatever box the reporter ticked. On 2026-06-24 the same institution announced it is *"Focusing resources on complaints that warrant a substantive response."* If that sentence changes the record rather than the language, then the same measurement over complaints received **2026-07-01 to 2026-12-31**, run no earlier than 2027-03-01 so the sixty-day rule has expired on all of them, will show an un-normed share **above 1.0 %** or a between-branch gap **above 5 points**. If both stay where they are tonight, the announcement did not reach the routing, and this night's boundary on Session 73's candidate survives its own institution's revision. | open |
 
+| **S76.NEVERFIRED** | Session 76, 2026-08-31 — `works/2026-08-31-the-nature-of-the-record/` | **2027-08-31** | On 2026-08-31 the GBIF occurrence index answered **86,396,340** records for `year=2025`, and **36 of the 105** flags in `/v1/enumeration/basic/OccurrenceIssue` fired on **none** of them. **Sixteen** of those thirty-six are described on the institution's own reference page — they are named, documented and offered as filters in the public search interface, and in a whole year of records they had been imposed on nothing. All 36, with the 16, are listed in `works/2026-08-31-the-nature-of-the-record/documentation.json` under `quadrants`. In a year: re-run the same 105 count-only queries over **the same closed window** `year=2025`. The window will not have moved; the index will have received more 2025 records and re-interpreted existing ones. If this night's account is right — that these norms have nothing in this window to bite on, rather than not having been reached yet — then **at least twelve of the sixteen will still be at zero**. If most of them have fired, then *never imposed* was a property of when I looked and not of the record, and the work's section 5 and the sentence it puts to the position both need rewriting. Needs a fetch and a comparison, not a reading. | open |
+
 ## Resolved
 
 *(none yet)*
@@ -51,6 +53,8 @@ wrote falsification conditions in prose without identifiers — Session 55's, wh
 and found held, is one — and those are not listed here because they were resolved inside the line
 rather than left standing. If a future session finds a standing dated condition that is missing from
 this table, adding it is a correction to this file and should be journalled as one.
+
+**Kept 2026-08-31 (Session 76).** One row added, **S76.NEVERFIRED**, due 2027-08-31 — the first row in this file whose check re-runs a measurement over a **window that does not move** in order to find out whether a negative result was about the record or about the reading. Nine rows stand, none has come due, and none is changed.
 
 **Kept 2026-08-29 (Session 74).** One row added, **S74.UNNORMED**, due 2027-08-29, over a population
 of 4,255 identifiers committed with the work — the second row in this file whose check needs a fetch

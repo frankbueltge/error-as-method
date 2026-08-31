@@ -1,0 +1,136 @@
+{
+ "rule_applied": "\\b(deriv|infer|assum|round|reproject|collaps)\\w*\\b|\\b(is|are) modified\\b",
+ "rule_as_first_stated": "\\b(derives?|derived|infer(?:s|red)?|assumed|rounded|reprojected|collapsed|is modified|are modified|interpretation (?:derives|assigns|sets))\\b",
+ "rule_as_first_stated_selects": [
+  "CONTINENT_DERIVED_FROM_COORDINATES",
+  "COORDINATE_REPROJECTED",
+  "COORDINATE_REPROJECTION_FAILED",
+  "COORDINATE_ROUNDED",
+  "COUNTRY_DERIVED_FROM_COORDINATES",
+  "OCCURRENCE_STATUS_INFERRED_FROM_BASIS_OF_RECORD",
+  "OCCURRENCE_STATUS_INFERRED_FROM_INDIVIDUAL_COUNT"
+ ],
+ "rule_as_first_stated_count": 7,
+ "why_amended": "rule A spells 'assumed'; GBIF wrote 'assumes' in the description of GEODETIC_DATUM_ASSUMED_WGS84, which fires on 5,428,125 records here. Both rules and both selections are reported.",
+ "rule_is": "this night's reading of the institution's own description text, NOT the institution's classification of its own flags — GBIF publishes the three-way Excluded/Altered/Inferred distinction per record, not per flag",
+ "source_page": "https://techdocs.gbif.org/en/data-use/occurrence-issues-and-flags",
+ "flags_with_a_published_description": 80,
+ "flags_with_no_published_description": 25,
+ "undescribed": [
+  "COORDINATE_ACCURACY_INVALID",
+  "COORDINATE_PRECISION_UNCERTAINTY_MISMATCH",
+  "SUSPECTED_TYPE",
+  "POSSIBLY_ON_LOAN",
+  "ERA_OR_ERATHEM_INFERRED_FROM_PARENT_RANK",
+  "PERIOD_OR_SYSTEM_INFERRED_FROM_PARENT_RANK",
+  "EPOCH_OR_SERIES_INFERRED_FROM_PARENT_RANK",
+  "AGE_OR_STAGE_INFERRED_FROM_PARENT_RANK",
+  "EON_OR_EONOTHEM_RANK_MISMATCH",
+  "ERA_OR_ERATHEM_RANK_MISMATCH",
+  "PERIOD_OR_SYSTEM_RANK_MISMATCH",
+  "EPOCH_OR_SERIES_RANK_MISMATCH",
+  "AGE_OR_STAGE_RANK_MISMATCH",
+  "EON_OR_EONOTHEM_INVALID_RANGE",
+  "ERA_OR_ERATHEM_INVALID_RANGE",
+  "PERIOD_OR_SYSTEM_INVALID_RANGE",
+  "EPOCH_OR_SERIES_INVALID_RANGE",
+  "AGE_OR_STAGE_INVALID_RANGE",
+  "EON_OR_EONOTHEM_AND_ERA_OR_ERATHEM_MISMATCH",
+  "ERA_OR_ERATHEM_AND_PERIOD_OR_SYSTEM_MISMATCH",
+  "PERIOD_OR_SYSTEM_AND_EPOCH_OR_SERIES_MISMATCH",
+  "EPOCH_OR_SERIES_AND_AGE_OR_STAGE_MISMATCH",
+  "TARGET_GENE_INVALID",
+  "DUPLICATE_NUCLEOTIDE_SEQUENCES_COLLAPSED",
+  "PARENT_EVENT_INFINITE_LINEAGE"
+ ],
+ "self_reporting": [
+  "CONTINENT_DERIVED_FROM_COORDINATES",
+  "COORDINATE_REPROJECTED",
+  "COORDINATE_REPROJECTION_FAILED",
+  "COORDINATE_REPROJECTION_SUSPICIOUS",
+  "COORDINATE_ROUNDED",
+  "COUNTRY_DERIVED_FROM_COORDINATES",
+  "GEODETIC_DATUM_ASSUMED_WGS84",
+  "OCCURRENCE_STATUS_INFERRED_FROM_BASIS_OF_RECORD",
+  "OCCURRENCE_STATUS_INFERRED_FROM_INDIVIDUAL_COUNT"
+ ],
+ "self_reporting_count": 9,
+ "descriptions_of_the_selected": {
+  "CONTINENT_DERIVED_FROM_COORDINATES": "If no value is supplied for the continent or if the values cannot be matched against a known vocabulary, data interpretation derives the continent from the decimal coordinates.",
+  "COORDINATE_REPROJECTED": "The original coordinates were successfully reprojected from a different geodetic datum to WGS84.",
+  "COORDINATE_REPROJECTION_FAILED": "The given decimal latitude and longitude could not be reprojected to WGS84 based on the provided datum.",
+  "COORDINATE_REPROJECTION_SUSPICIOUS": "Indicates successful coordinate reprojection according to provided datum, but which results in a datum shift larger than 0.1 decimal degrees.",
+  "COORDINATE_ROUNDED": "In the data interpretation the original coordinates are rounded to 6 decimals (~1m precision).",
+  "COUNTRY_DERIVED_FROM_COORDINATES": "If the country and country code are not supplied or cannot be matched to known values, data interpretation derives their content from the decimal coordinates through a lookup service .",
+  "GEODETIC_DATUM_ASSUMED_WGS84": "If the datum is null, data interpretation assumes the record coordinates are in WGS84.",
+  "OCCURRENCE_STATUS_INFERRED_FROM_BASIS_OF_RECORD": "The present/absent status of the occurrence was inferred from the basis of record value because no status value was supplied explicitly.",
+  "OCCURRENCE_STATUS_INFERRED_FROM_INDIVIDUAL_COUNT": "The present/absent status of the occurrence was inferred from the individual count value because no status value was supplied explicitly. An individual count of 0 is interpreted as status=\"absent\", a value > 0 as \"present\"."
+ },
+ "counts": {
+  "window": {
+   "self_reporting_union": 59222340,
+   "other_union": 43479330,
+   "total": 86396340
+  },
+  "by_branch": {
+   "HUMAN_OBSERVATION": {
+    "total": 82075006,
+    "self_reporting_union": 55284399,
+    "other_union": 40573077,
+    "any_union": 58224560
+   },
+   "MATERIAL_SAMPLE": {
+    "total": 1838693,
+    "self_reporting_union": 1638143,
+    "other_union": 1831650,
+    "any_union": 1833524
+   },
+   "LIVING_SPECIMEN": {
+    "total": 929585,
+    "self_reporting_union": 928709,
+    "other_union": 102082,
+    "any_union": 929527
+   },
+   "MACHINE_OBSERVATION": {
+    "total": 828603,
+    "self_reporting_union": 779234,
+    "other_union": 355756,
+    "any_union": 821802
+   },
+   "PRESERVED_SPECIMEN": {
+    "total": 645695,
+    "self_reporting_union": 515805,
+    "other_union": 540107,
+    "any_union": 639629
+   },
+   "OCCURRENCE": {
+    "total": 58950,
+    "self_reporting_union": 58122,
+    "other_union": 57748,
+    "any_union": 58193
+   },
+   "OBSERVATION": {
+    "total": 8136,
+    "self_reporting_union": 7946,
+    "other_union": 8133,
+    "any_union": 8136
+   },
+   "MATERIAL_CITATION": {
+    "total": 7255,
+    "self_reporting_union": 6812,
+    "other_union": 6384,
+    "any_union": 6824
+   },
+   "FOSSIL_SPECIMEN": {
+    "total": 4417,
+    "self_reporting_union": 3170,
+    "other_union": 4393,
+    "any_union": 4393
+   }
+  }
+ },
+ "window_shares": {
+  "self_reporting_pct": 68.54727873889102,
+  "other_pct": 50.32543045226221
+ }
+}

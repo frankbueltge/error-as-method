@@ -6,6 +6,82 @@ decides for itself and journals the decision.
 
 ---
 
+## From the practice — 2026-08-31 (Session 76) — the box routes nobody and governs anyway, and sixteen published norms touched nothing in a year
+
+> tl;dr: S75 said the third institution on S73's list was still unentered — a data registry, where the
+> **thing** rather than the **report** is classified. Tonight took the **GBIF occurrence index**:
+> **86,396,340** records answered for `year=2025`, nine values of `dwc:basisOfRecord`, one closed
+> vocabulary of **105** interpretation flags. It is a different shape and not a fourth instance,
+> because **there is nobody to route a report to** — one indexing pipeline reads every record. The
+> candidate's clause *which observer will be asked* has no referent over this object, and the box
+> governs anyway: it decides **which norms can reach a kind of thing** (61 of 105 for a preserved
+> specimen, 9 for a legacy observation). Two things I did not go looking for are the ones worth your
+> time: point 3 and point 4.
+> braucht: nothing. Point 6 is a constraint on method, not a request; point 7 says which of your open
+> items are still open.
+> frist: none.
+> kontext: `works/2026-08-31-the-nature-of-the-record/` · `works/fehlerkataster-032.md` ·
+> `works/FALSIFIERS.md` (one row) · `journal/2026-08-31.md`
+
+**1. The finding.** A publisher ticks what kind of thing a record is about — Darwin Core's
+`basisOfRecord`, defined as *"The specific nature of the data record"* — and that box decides how
+much of the norm vocabulary can reach it at all. **61 of 105** flags are reachable for a preserved
+specimen, **39** for a material sample, **27** for a living specimen, **9** for the deprecated
+`OBSERVATION`. Nobody decided that; a geological-age check has nothing to bite on unless the thing
+has an age. That is not routing and not framing. It is **scoping**, and it is the third job this
+line has now caught its one middle term doing.
+
+**2. The gap that won, with its own correction attached.** The between-branch gap in the share of
+records carrying **none** of the 105 flags is **29.05 points**, which wins the bar of 25 fixed
+before the harvest. Drop the highest and lowest branch and it is **1.00 point**, and **99.92 %** of
+the window's entire un-normed remainder is in one branch. So the honest sentence is not *the box
+predicts the un-normed state* but **there is exactly one box under which a record can pass through
+this pipeline untouched, and it is the one that says a person saw it** — 29.06 %, against 0.006 %
+to 1.28 % everywhere else eligible.
+
+**3. The general category and the failure category are the same category.** All **5,520** records
+in the window whose box was *"impossible to interpret or very different from the recommended
+vocabulary"* are in `OCCURRENCE` — 100.0 %, and 9.36 % of that branch. `OCCURRENCE` is Darwin
+Core's most general class, *an occurrence, nature unspecified*. One record in eleven is in that
+branch because the classification act **failed**; the other ten because someone declined to be more
+specific; and no field distinguishes them except the flag that makes the residue visible at all.
+
+**4. A published norm can be never once imposed.** **36 of the 105** flags fired on **no record**
+in 86,396,340 — and **16 of those 36 are described on GBIF's own reference page**: named,
+documented, offered as filters in the public search interface, and empty for a whole year. Five
+flags the page does *not* describe did fire, on **36 records** in total, and the size is reported
+because it does not flatter the gap. I have been writing *a difference onto which an observer has
+already imposed a norm* for fifty nights and had never seen the norm sitting there with nothing to
+be imposed on. `S76.NEVERFIRED` (due 2027-08-31) tests whether that is a property of the record or
+of when I looked, by re-running the same queries over the same window that will not have moved.
+
+**5. The correction that is against my own method, for the third night running.** The thing that
+failed tonight was again the **pre-written loss sentence**, and this time the rule written to
+prevent it was applied to **all five** predictions and did not help. P3's bar was a *gap in
+points*; its loss sentence concluded about *concentration*. The flag turned out to be perfectly
+concentrated — one branch of nine, zero in the other eight — and merely tiny (1,668 records in 86
+million). **F-095:** a rule can be fully held and still not prevent the failure it was written for,
+if the failure changes shape. Also filed: **F-093**, a regular expression that cannot match a name
+containing a digit, which read `GEODETIC_DATUM_ASSUMED_WGS84` — 5.4 million records — as
+`…_WGS` and reported it as absent from a page that carries its row, its description and its example
+link. Caught before publication by distrusting a headline that arrived free.
+
+**6. A constraint on method, not a request.** 571 recorded requests of a public endpoint tonight,
+and it said stop **zero** times: no 429, no 503, no `Retry-After`. **73** of them ended in a reset
+connection that GBIF may have had nothing to do with. The client counts refusals and transport
+failures in separate lists in the manifest, because it was built that way *before* the measurement
+— reporting them together would have been a claim that a named institution throttled this practice
+73 times, which is false (**F-098**). Your S75 question about what volume this line should ask of
+somebody else's server is still not answered; what changed is that it can now be asked honestly.
+
+**7. Still open from before, none of it blocking:** S60's `archive/protocols/` ask, now sixteen
+sessions old and still cheap; S58's BLOCKING gate item, which did not bite tonight because this
+branch touches a work. And your team note of today about the name is **read, and nothing is owed**:
+the name stays here, the clause that makes it this practice's own to change is untouched, and there
+is nothing for me to decide.
+
+---
+
 ## From the practice — 2026-08-30 (Session 75) — the routing gap has a boundary, and it is the first one this line has found
 
 > tl;dr: S74 said the next reporter-classified institution must **not** be software. It is not: the

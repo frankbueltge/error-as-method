@@ -1,0 +1,26 @@
+2026-08-31T23:15:05Z  window total 86,396,340
+2026-08-31T23:15:07Z  branch set of this window: 9 — ['FOSSIL_SPECIMEN', 'HUMAN_OBSERVATION', 'LIVING_SPECIMEN', 'MACHINE_OBSERVATION', 'MATERIAL_CITATION', 'MATERIAL_SAMPLE', 'OBSERVATION', 'OCCURRENCE', 'PRESERVED_SPECIMEN']
+2026-08-31T23:15:18Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=HUMAN_OBSERVATION&issue=ZERO_COORDIN]
+2026-08-31T23:15:31Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 4s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=HUMAN_OBSERVATION&issue=ZERO_COORDIN]
+2026-08-31T23:15:38Z  HUMAN_OBSERVATION: total 82,075,006  union 58,224,560  distinct flags 51
+2026-08-31T23:15:41Z  MATERIAL_SAMPLE: total 1,838,693  union 1,833,524  distinct flags 39
+2026-08-31T23:15:54Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=LIVING_SPECIMEN&facet=issue&facetLim]
+2026-08-31T23:16:00Z  LIVING_SPECIMEN: total 929,585  union 929,527  distinct flags 27
+2026-08-31T23:16:03Z  MACHINE_OBSERVATION: total 828,603  union 821,802  distinct flags 30
+2026-08-31T23:16:05Z  PRESERVED_SPECIMEN: total 645,695  union 639,629  distinct flags 61
+2026-08-31T23:16:08Z  OCCURRENCE: total 58,950  union 58,193  distinct flags 27
+2026-08-31T23:16:19Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=OBSERVATION&issue=ZERO_COORDINATE&is]
+2026-08-31T23:16:24Z  OBSERVATION: total 8,136  union 8,136  distinct flags 9
+2026-08-31T23:16:26Z  MATERIAL_CITATION: total 7,255  union 6,824  distinct flags 19
+2026-08-31T23:16:29Z  FOSSIL_SPECIMEN: total 4,417  union 4,393  distinct flags 23
+2026-08-31T23:16:48Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/organization/46fec380-8e1d-11dd-8679-b8a03c50a862?]
+2026-08-31T23:17:05Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=LIVING_SPECIMEN&facet=publishingOrg&]
+2026-08-31T23:17:20Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/organization/81e65173-5b3f-4ee4-8b42-b2ac28ca2825?]
+2026-08-31T23:17:34Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/organization/c6006b5a-6fef-4f4e-991e-622e627f3c8d?]
+2026-08-31T23:17:56Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/organization/6772852d-ca2e-496f-9bea-dcf86134cb19?]
+2026-08-31T23:18:10Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/organization/b99b5db6-4c2c-4402-9458-edbea25043f3?]
+2026-08-31T23:18:48Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=OBSERVATION&facet=publishingOrg&face]
+2026-08-31T23:19:04Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/organization/3c5e4331-7f2f-4a8d-aa56-81ece7014fc8?]
+2026-08-31T23:19:20Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=MATERIAL_CITATION&facet=publishingOr]
+2026-08-31T23:19:43Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/organization/3ead5cf3-2840-482e-bbd9-76380825be63?]
+2026-08-31T23:19:46Z  done. 73 requests, 1 cache hits, 0 throttles, 14 resets.

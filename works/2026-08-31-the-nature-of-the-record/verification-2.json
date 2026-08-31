@@ -1,0 +1,227 @@
+{
+ "partition": "hasCoordinate true|false — a boolean the index sets on every record",
+ "by_branch": {
+  "FOSSIL_SPECIMEN": {
+   "halves": {
+    "true": {
+     "total": 1153,
+     "union": 1129
+    },
+    "false": {
+     "total": 3264,
+     "union": 3264
+    }
+   },
+   "sum_total": 4417,
+   "harvest_total": 4417,
+   "total_agrees": true,
+   "sum_union": 4393,
+   "harvest_union": 4393,
+   "union_agrees": true
+  },
+  "MATERIAL_CITATION": {
+   "halves": {
+    "true": {
+     "total": 6579,
+     "union": 6148
+    },
+    "false": {
+     "total": 676,
+     "union": 676
+    }
+   },
+   "sum_total": 7255,
+   "harvest_total": 7255,
+   "total_agrees": true,
+   "sum_union": 6824,
+   "harvest_union": 6824,
+   "union_agrees": true
+  },
+  "OBSERVATION": {
+   "halves": {
+    "true": {
+     "total": 8136,
+     "union": 8136
+    },
+    "false": {
+     "total": 0,
+     "union": 0
+    }
+   },
+   "sum_total": 8136,
+   "harvest_total": 8136,
+   "total_agrees": true,
+   "sum_union": 8136,
+   "harvest_union": 8136,
+   "union_agrees": true
+  },
+  "OCCURRENCE": {
+   "halves": {
+    "true": {
+     "total": 58829,
+     "union": 58146
+    },
+    "false": {
+     "total": 121,
+     "union": 47
+    }
+   },
+   "sum_total": 58950,
+   "harvest_total": 58950,
+   "total_agrees": true,
+   "sum_union": 58193,
+   "harvest_union": 58193,
+   "union_agrees": true
+  },
+  "PRESERVED_SPECIMEN": {
+   "halves": {
+    "true": {
+     "total": 606439,
+     "union": 602266
+    },
+    "false": {
+     "total": 39256,
+     "union": 37363
+    }
+   },
+   "sum_total": 645695,
+   "harvest_total": 645695,
+   "total_agrees": true,
+   "sum_union": 639629,
+   "harvest_union": 639629,
+   "union_agrees": true
+  },
+  "MACHINE_OBSERVATION": {
+   "halves": {
+    "true": {
+     "total": 827666,
+     "union": 821106
+    },
+    "false": {
+     "total": 937,
+     "union": 696
+    }
+   },
+   "sum_total": 828603,
+   "harvest_total": 828603,
+   "total_agrees": true,
+   "sum_union": 821802,
+   "harvest_union": 821802,
+   "union_agrees": true
+  },
+  "LIVING_SPECIMEN": {
+   "halves": {
+    "true": {
+     "total": 929480,
+     "union": 929480
+    },
+    "false": {
+     "total": 105,
+     "union": 47
+    }
+   },
+   "sum_total": 929585,
+   "harvest_total": 929585,
+   "total_agrees": true,
+   "sum_union": 929527,
+   "harvest_union": 929527,
+   "union_agrees": true
+  },
+  "MATERIAL_SAMPLE": {
+   "halves": {
+    "true": {
+     "total": 1668564,
+     "union": 1663585
+    },
+    "false": {
+     "total": 170129,
+     "union": 169939
+    }
+   },
+   "sum_total": 1838693,
+   "harvest_total": 1838693,
+   "total_agrees": true,
+   "sum_union": 1833524,
+   "harvest_union": 1833524,
+   "union_agrees": true
+  },
+  "HUMAN_OBSERVATION": {
+   "halves": {
+    "true": {
+     "total": 81986012,
+     "union": 58142369
+    },
+    "false": {
+     "total": 88994,
+     "union": 82191
+    }
+   },
+   "sum_total": 82075006,
+   "harvest_total": 82075006,
+   "total_agrees": true,
+   "sum_union": 58224560,
+   "harvest_union": 58224560,
+   "union_agrees": true
+  }
+ },
+ "disagreements": [],
+ "records_with_a_year_and_no_month": {
+  "HUMAN_OBSERVATION": {
+   "with_month": 81477173,
+   "branch_total": 82075006,
+   "without_month": 597833,
+   "without_month_pct": 0.728398362834113
+  },
+  "MATERIAL_SAMPLE": {
+   "with_month": 1585364,
+   "branch_total": 1838693,
+   "without_month": 253329,
+   "without_month_pct": 13.777667071120627
+  },
+  "LIVING_SPECIMEN": {
+   "with_month": 1522,
+   "branch_total": 929585,
+   "without_month": 928063,
+   "without_month_pct": 99.83627102416669
+  },
+  "MACHINE_OBSERVATION": {
+   "with_month": 823261,
+   "branch_total": 828603,
+   "without_month": 5342,
+   "without_month_pct": 0.6446995726542144
+  },
+  "PRESERVED_SPECIMEN": {
+   "with_month": 618232,
+   "branch_total": 645695,
+   "without_month": 27463,
+   "without_month_pct": 4.25324650183136
+  },
+  "OCCURRENCE": {
+   "with_month": 54123,
+   "branch_total": 58950,
+   "without_month": 4827,
+   "without_month_pct": 8.188295165394402
+  },
+  "OBSERVATION": {
+   "with_month": 4318,
+   "branch_total": 8136,
+   "without_month": 3818,
+   "without_month_pct": 46.92723697148476
+  },
+  "MATERIAL_CITATION": {
+   "with_month": 3790,
+   "branch_total": 7255,
+   "without_month": 3465,
+   "without_month_pct": 47.76016540317023
+  },
+  "FOSSIL_SPECIMEN": {
+   "with_month": 3797,
+   "branch_total": 4417,
+   "without_month": 620,
+   "without_month_pct": 14.036676477247001
+  }
+ },
+ "window_records_without_month": 1824760,
+ "comparisons": 45,
+ "disagreement_count": 0
+}

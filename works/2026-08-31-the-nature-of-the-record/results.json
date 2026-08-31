@@ -1,0 +1,683 @@
+{
+ "population": {
+  "endpoint": "https://api.gbif.org/v1/occurrence/search",
+  "filter": "year=2025",
+  "harvested_utc": "2026-08-31T23:19:46Z",
+  "note": "year is an INTERPRETED field. A record whose date GBIF could not read carries no year and is not in this population. The window is drawn with the instrument being measured; this is stated, not repaired."
+ },
+ "window_total": 86396340,
+ "branch_count": 9,
+ "issue_enum_size": 105,
+ "branch_table": {
+  "HUMAN_OBSERVATION": {
+   "records": 82075006,
+   "share_of_window_pct": 94.99824413858272,
+   "with_at_least_one_flag": 58224560,
+   "un_normed": 23850446,
+   "un_normed_pct": 29.059328975254658,
+   "distinct_flags": 51,
+   "flag_share_of_enum_pct": 48.57142857142857,
+   "eligible_for_gap": true
+  },
+  "MATERIAL_SAMPLE": {
+   "records": 1838693,
+   "share_of_window_pct": 2.1282070513635185,
+   "with_at_least_one_flag": 1833524,
+   "un_normed": 5169,
+   "un_normed_pct": 0.2811236024719733,
+   "distinct_flags": 39,
+   "flag_share_of_enum_pct": 37.142857142857146,
+   "eligible_for_gap": true
+  },
+  "LIVING_SPECIMEN": {
+   "records": 929585,
+   "share_of_window_pct": 1.075954143427835,
+   "with_at_least_one_flag": 929527,
+   "un_normed": 58,
+   "un_normed_pct": 0.006239343362898497,
+   "distinct_flags": 27,
+   "flag_share_of_enum_pct": 25.714285714285715,
+   "eligible_for_gap": true
+  },
+  "MACHINE_OBSERVATION": {
+   "records": 828603,
+   "share_of_window_pct": 0.95907187735036,
+   "with_at_least_one_flag": 821802,
+   "un_normed": 6801,
+   "un_normed_pct": 0.8207790703147345,
+   "distinct_flags": 30,
+   "flag_share_of_enum_pct": 28.571428571428573,
+   "eligible_for_gap": true
+  },
+  "PRESERVED_SPECIMEN": {
+   "records": 645695,
+   "share_of_window_pct": 0.7473638350883846,
+   "with_at_least_one_flag": 639629,
+   "un_normed": 6066,
+   "un_normed_pct": 0.9394528376400623,
+   "distinct_flags": 61,
+   "flag_share_of_enum_pct": 58.095238095238095,
+   "eligible_for_gap": true
+  },
+  "OCCURRENCE": {
+   "records": 58950,
+   "share_of_window_pct": 0.0682320570524168,
+   "with_at_least_one_flag": 58193,
+   "un_normed": 757,
+   "un_normed_pct": 1.284139100932994,
+   "distinct_flags": 27,
+   "flag_share_of_enum_pct": 25.714285714285715,
+   "eligible_for_gap": true
+  },
+  "OBSERVATION": {
+   "records": 8136,
+   "share_of_window_pct": 0.009417065584028212,
+   "with_at_least_one_flag": 8136,
+   "un_normed": 0,
+   "un_normed_pct": 0.0,
+   "distinct_flags": 9,
+   "flag_share_of_enum_pct": 8.571428571428571,
+   "eligible_for_gap": false
+  },
+  "MATERIAL_CITATION": {
+   "records": 7255,
+   "share_of_window_pct": 0.008397346461667243,
+   "with_at_least_one_flag": 6824,
+   "un_normed": 431,
+   "un_normed_pct": 5.940730530668504,
+   "distinct_flags": 19,
+   "flag_share_of_enum_pct": 18.095238095238095,
+   "eligible_for_gap": false
+  },
+  "FOSSIL_SPECIMEN": {
+   "records": 4417,
+   "share_of_window_pct": 0.0051124850890674305,
+   "with_at_least_one_flag": 4393,
+   "un_normed": 24,
+   "un_normed_pct": 0.5433552184740774,
+   "distinct_flags": 23,
+   "flag_share_of_enum_pct": 21.904761904761905,
+   "eligible_for_gap": false
+  }
+ },
+ "eligible_branches": [
+  "HUMAN_OBSERVATION",
+  "LIVING_SPECIMEN",
+  "MACHINE_OBSERVATION",
+  "MATERIAL_SAMPLE",
+  "OCCURRENCE",
+  "PRESERVED_SPECIMEN"
+ ],
+ "P5a": {
+  "bar": "for every branch: max single flag <= union <= sum of flags, and union <= branch total",
+  "per_branch": {
+   "HUMAN_OBSERVATION": {
+    "union": 58224560,
+    "max_single_flag": 44459366,
+    "sum_of_flags": 147989642,
+    "branch_total": 82075006,
+    "holds": true
+   },
+   "MATERIAL_SAMPLE": {
+    "union": 1833524,
+    "max_single_flag": 1504471,
+    "sum_of_flags": 8955461,
+    "branch_total": 1838693,
+    "holds": true
+   },
+   "LIVING_SPECIMEN": {
+    "union": 929527,
+    "max_single_flag": 928587,
+    "sum_of_flags": 1960477,
+    "branch_total": 929585,
+    "holds": true
+   },
+   "MACHINE_OBSERVATION": {
+    "union": 821802,
+    "max_single_flag": 705062,
+    "sum_of_flags": 2010436,
+    "branch_total": 828603,
+    "holds": true
+   },
+   "PRESERVED_SPECIMEN": {
+    "union": 639629,
+    "max_single_flag": 380848,
+    "sum_of_flags": 1882740,
+    "branch_total": 645695,
+    "holds": true
+   },
+   "OCCURRENCE": {
+    "union": 58193,
+    "max_single_flag": 54973,
+    "sum_of_flags": 147414,
+    "branch_total": 58950,
+    "holds": true
+   },
+   "OBSERVATION": {
+    "union": 8136,
+    "max_single_flag": 8041,
+    "sum_of_flags": 23850,
+    "branch_total": 8136,
+    "holds": true
+   },
+   "MATERIAL_CITATION": {
+    "union": 6824,
+    "max_single_flag": 5978,
+    "sum_of_flags": 28129,
+    "branch_total": 7255,
+    "holds": true
+   },
+   "FOSSIL_SPECIMEN": {
+    "union": 4393,
+    "max_single_flag": 4280,
+    "sum_of_flags": 14788,
+    "branch_total": 4417,
+    "holds": true
+   }
+  },
+  "won": true
+ },
+ "P5b": {
+  "bar": "branch counts sum to the window total exactly",
+  "sum_of_branches": 86396340,
+  "window_total": 86396340,
+  "difference": 0,
+  "won": true
+ },
+ "P1": {
+  "bar": "gap in un-normed share between eligible branches >= 25 percentage points",
+  "highest": {
+   "branch": "HUMAN_OBSERVATION",
+   "un_normed_pct": 29.059328975254658
+  },
+  "lowest": {
+   "branch": "LIVING_SPECIMEN",
+   "un_normed_pct": 0.006239343362898497
+  },
+  "gap_points": 29.05308963189176,
+  "won": true,
+  "all_branches_un_normed_pct": {
+   "HUMAN_OBSERVATION": 29.059328975254658,
+   "MATERIAL_SAMPLE": 0.2811236024719733,
+   "LIVING_SPECIMEN": 0.006239343362898497,
+   "MACHINE_OBSERVATION": 0.8207790703147345,
+   "PRESERVED_SPECIMEN": 0.9394528376400623,
+   "OCCURRENCE": 1.284139100932994,
+   "OBSERVATION": 0.0,
+   "MATERIAL_CITATION": 5.940730530668504,
+   "FOSSIL_SPECIMEN": 0.5433552184740774
+  },
+  "window_un_normed_pct": 27.628198138948942,
+  "gap_points_trimmed": 1.003015498461021
+ },
+ "P2a": {
+  "bar": "the eligible branch reaching the fewest distinct flags reaches < half as many as the most",
+  "most": {
+   "branch": "PRESERVED_SPECIMEN",
+   "distinct_flags": 61
+  },
+  "fewest": {
+   "branch": "LIVING_SPECIMEN",
+   "distinct_flags": 27
+  },
+  "ratio": 0.4426229508196721,
+  "won": true,
+  "per_branch": {
+   "HUMAN_OBSERVATION": 51,
+   "MATERIAL_SAMPLE": 39,
+   "LIVING_SPECIMEN": 27,
+   "MACHINE_OBSERVATION": 30,
+   "PRESERVED_SPECIMEN": 61,
+   "OCCURRENCE": 27,
+   "OBSERVATION": 9,
+   "MATERIAL_CITATION": 19,
+   "FOSSIL_SPECIMEN": 23
+  }
+ },
+ "P2b": {
+  "bar": ">= 10 of the 105 flag types occur in exactly one branch",
+  "private_count": 9,
+  "private": {
+   "DEPTH_UNLIKELY": "PRESERVED_SPECIMEN",
+   "DEPTH_MIN_MAX_SWAPPED": "PRESERVED_SPECIMEN",
+   "MODIFIED_DATE_UNLIKELY": "PRESERVED_SPECIMEN",
+   "BASIS_OF_RECORD_INVALID": "OCCURRENCE",
+   "SUSPECTED_TYPE": "PRESERVED_SPECIMEN",
+   "MULTIMEDIA_DATE_INVALID": "HUMAN_OBSERVATION",
+   "OCCURRENCE_STATUS_INFERRED_FROM_BASIS_OF_RECORD": "PRESERVED_SPECIMEN",
+   "AGE_OR_STAGE_RANK_MISMATCH": "FOSSIL_SPECIMEN",
+   "NUCLEOTIDE_SEQUENCE_INVALID": "HUMAN_OBSERVATION"
+  },
+  "won": false,
+  "flags_never_seen_in_this_window": [
+   "COORDINATE_REPROJECTION_FAILED",
+   "COORDINATE_REPROJECTION_SUSPICIOUS",
+   "COORDINATE_ACCURACY_INVALID",
+   "COORDINATE_PRECISION_UNCERTAINTY_MISMATCH",
+   "COUNTRY_MISMATCH",
+   "RECORDED_DATE_UNLIKELY",
+   "TAXON_MATCH_AGGREGATE",
+   "TAXON_MATCH_SCIENTIFIC_NAME_ID_IGNORED",
+   "TAXON_MATCH_TAXON_CONCEPT_ID_IGNORED",
+   "TAXON_MATCH_TAXON_ID_IGNORED",
+   "DEPTH_NOT_METRIC",
+   "ELEVATION_UNLIKELY",
+   "ELEVATION_NOT_METRIC",
+   "INTERPRETATION_ERROR",
+   "GEOREFERENCED_DATE_UNLIKELY",
+   "GEOREFERENCED_DATE_INVALID",
+   "POSSIBLY_ON_LOAN",
+   "DIFFERENT_OWNER_INSTITUTION",
+   "ERA_OR_ERATHEM_INFERRED_FROM_PARENT_RANK",
+   "PERIOD_OR_SYSTEM_INFERRED_FROM_PARENT_RANK",
+   "EPOCH_OR_SERIES_INFERRED_FROM_PARENT_RANK",
+   "AGE_OR_STAGE_INFERRED_FROM_PARENT_RANK",
+   "EON_OR_EONOTHEM_RANK_MISMATCH",
+   "ERA_OR_ERATHEM_RANK_MISMATCH",
+   "PERIOD_OR_SYSTEM_RANK_MISMATCH",
+   "EPOCH_OR_SERIES_RANK_MISMATCH",
+   "EON_OR_EONOTHEM_INVALID_RANGE",
+   "ERA_OR_ERATHEM_INVALID_RANGE",
+   "PERIOD_OR_SYSTEM_INVALID_RANGE",
+   "EPOCH_OR_SERIES_INVALID_RANGE",
+   "AGE_OR_STAGE_INVALID_RANGE",
+   "EON_OR_EONOTHEM_AND_ERA_OR_ERATHEM_MISMATCH",
+   "ERA_OR_ERATHEM_AND_PERIOD_OR_SYSTEM_MISMATCH",
+   "EPOCH_OR_SERIES_AND_AGE_OR_STAGE_MISMATCH",
+   "NUCLEOTIDE_SEQUENCE_NATURAL_LANGUAGE",
+   "PARENT_EVENT_INFINITE_LINEAGE"
+  ],
+  "flags_in_every_branch": [
+   "GEODETIC_DATUM_ASSUMED_WGS84",
+   "CONTINENT_DERIVED_FROM_COORDINATES",
+   "TAXON_MATCH_FUZZY",
+   "TAXON_MATCH_HIGHERRANK",
+   "TAXON_MATCH_NONE"
+  ],
+  "branch_count_per_flag": {
+   "ZERO_COORDINATE": 4,
+   "COORDINATE_OUT_OF_RANGE": 3,
+   "COORDINATE_INVALID": 5,
+   "COORDINATE_ROUNDED": 8,
+   "GEODETIC_DATUM_INVALID": 5,
+   "GEODETIC_DATUM_ASSUMED_WGS84": 9,
+   "COORDINATE_REPROJECTED": 3,
+   "COORDINATE_REPROJECTION_FAILED": 0,
+   "COORDINATE_REPROJECTION_SUSPICIOUS": 0,
+   "COORDINATE_ACCURACY_INVALID": 0,
+   "COORDINATE_PRECISION_INVALID": 5,
+   "COORDINATE_UNCERTAINTY_METERS_INVALID": 4,
+   "COORDINATE_PRECISION_UNCERTAINTY_MISMATCH": 0,
+   "FOOTPRINT_SRS_INVALID": 4,
+   "FOOTPRINT_WKT_MISMATCH": 2,
+   "FOOTPRINT_WKT_INVALID": 2,
+   "COUNTRY_COORDINATE_MISMATCH": 6,
+   "COUNTRY_MISMATCH": 0,
+   "COUNTRY_INVALID": 5,
+   "COUNTRY_DERIVED_FROM_COORDINATES": 7,
+   "CONTINENT_COORDINATE_MISMATCH": 6,
+   "CONTINENT_COUNTRY_MISMATCH": 2,
+   "CONTINENT_INVALID": 4,
+   "CONTINENT_DERIVED_FROM_COUNTRY": 8,
+   "CONTINENT_DERIVED_FROM_COORDINATES": 9,
+   "PRESUMED_SWAPPED_COORDINATE": 5,
+   "PRESUMED_NEGATED_LONGITUDE": 6,
+   "PRESUMED_NEGATED_LATITUDE": 4,
+   "RECORDED_DATE_MISMATCH": 6,
+   "RECORDED_DATE_INVALID": 8,
+   "RECORDED_DATE_UNLIKELY": 0,
+   "TAXON_MATCH_FUZZY": 9,
+   "TAXON_MATCH_HIGHERRANK": 9,
+   "TAXON_MATCH_AGGREGATE": 0,
+   "TAXON_MATCH_SCIENTIFIC_NAME_ID_IGNORED": 0,
+   "TAXON_MATCH_TAXON_CONCEPT_ID_IGNORED": 0,
+   "TAXON_MATCH_TAXON_ID_IGNORED": 0,
+   "SCIENTIFIC_NAME_ID_NOT_FOUND": 6,
+   "TAXON_CONCEPT_ID_NOT_FOUND": 7,
+   "TAXON_ID_NOT_FOUND": 8,
+   "SCIENTIFIC_NAME_AND_ID_INCONSISTENT": 5,
+   "TAXON_MATCH_NONE": 9,
+   "TAXON_MATCH_NAME_AND_ID_AMBIGUOUS": 5,
+   "DEPTH_NOT_METRIC": 0,
+   "DEPTH_UNLIKELY": 1,
+   "DEPTH_MIN_MAX_SWAPPED": 1,
+   "DEPTH_NON_NUMERIC": 2,
+   "ELEVATION_UNLIKELY": 0,
+   "ELEVATION_MIN_MAX_SWAPPED": 3,
+   "ELEVATION_NOT_METRIC": 0,
+   "ELEVATION_NON_NUMERIC": 2,
+   "MODIFIED_DATE_INVALID": 4,
+   "MODIFIED_DATE_UNLIKELY": 1,
+   "IDENTIFIED_DATE_UNLIKELY": 2,
+   "IDENTIFIED_DATE_INVALID": 6,
+   "BASIS_OF_RECORD_INVALID": 1,
+   "TYPE_STATUS_INVALID": 2,
+   "SUSPECTED_TYPE": 1,
+   "MULTIMEDIA_DATE_INVALID": 1,
+   "MULTIMEDIA_URI_INVALID": 3,
+   "REFERENCES_URI_INVALID": 3,
+   "INTERPRETATION_ERROR": 0,
+   "INDIVIDUAL_COUNT_INVALID": 3,
+   "INDIVIDUAL_COUNT_CONFLICTS_WITH_OCCURRENCE_STATUS": 2,
+   "OCCURRENCE_STATUS_UNPARSABLE": 2,
+   "OCCURRENCE_STATUS_INFERRED_FROM_INDIVIDUAL_COUNT": 8,
+   "OCCURRENCE_STATUS_INFERRED_FROM_BASIS_OF_RECORD": 1,
+   "GEOREFERENCED_DATE_UNLIKELY": 0,
+   "GEOREFERENCED_DATE_INVALID": 0,
+   "AMBIGUOUS_INSTITUTION": 4,
+   "AMBIGUOUS_COLLECTION": 2,
+   "INSTITUTION_MATCH_NONE": 5,
+   "COLLECTION_MATCH_NONE": 5,
+   "INSTITUTION_MATCH_FUZZY": 5,
+   "COLLECTION_MATCH_FUZZY": 4,
+   "INSTITUTION_COLLECTION_MISMATCH": 4,
+   "POSSIBLY_ON_LOAN": 0,
+   "DIFFERENT_OWNER_INSTITUTION": 0,
+   "ERA_OR_ERATHEM_INFERRED_FROM_PARENT_RANK": 0,
+   "PERIOD_OR_SYSTEM_INFERRED_FROM_PARENT_RANK": 0,
+   "EPOCH_OR_SERIES_INFERRED_FROM_PARENT_RANK": 0,
+   "AGE_OR_STAGE_INFERRED_FROM_PARENT_RANK": 0,
+   "EON_OR_EONOTHEM_RANK_MISMATCH": 0,
+   "ERA_OR_ERATHEM_RANK_MISMATCH": 0,
+   "PERIOD_OR_SYSTEM_RANK_MISMATCH": 0,
+   "EPOCH_OR_SERIES_RANK_MISMATCH": 0,
+   "AGE_OR_STAGE_RANK_MISMATCH": 1,
+   "EON_OR_EONOTHEM_INVALID_RANGE": 0,
+   "ERA_OR_ERATHEM_INVALID_RANGE": 0,
+   "PERIOD_OR_SYSTEM_INVALID_RANGE": 0,
+   "EPOCH_OR_SERIES_INVALID_RANGE": 0,
+   "AGE_OR_STAGE_INVALID_RANGE": 0,
+   "EON_OR_EONOTHEM_AND_ERA_OR_ERATHEM_MISMATCH": 0,
+   "ERA_OR_ERATHEM_AND_PERIOD_OR_SYSTEM_MISMATCH": 0,
+   "PERIOD_OR_SYSTEM_AND_EPOCH_OR_SERIES_MISMATCH": 2,
+   "EPOCH_OR_SERIES_AND_AGE_OR_STAGE_MISMATCH": 0,
+   "NUCLEOTIDE_SEQUENCE_NATURAL_LANGUAGE": 0,
+   "NUCLEOTIDE_SEQUENCE_ENDS_TRIMMED": 4,
+   "NUCLEOTIDE_SEQUENCE_GAPS_REMOVED": 4,
+   "NUCLEOTIDE_SEQUENCE_INVALID": 1,
+   "NUCLEOTIDE_SEQUENCE_HIGH_N_FRACTION": 2,
+   "NUCLEOTIDE_SEQUENCE_HIGH_AMBIGUITY": 2,
+   "TARGET_GENE_INVALID": 2,
+   "DUPLICATE_NUCLEOTIDE_SEQUENCES_COLLAPSED": 2,
+   "PARENT_EVENT_INFINITE_LINEAGE": 0
+  },
+  "private_flags_by_branch": {
+   "HUMAN_OBSERVATION": [
+    "MULTIMEDIA_DATE_INVALID",
+    "NUCLEOTIDE_SEQUENCE_INVALID"
+   ],
+   "MATERIAL_SAMPLE": [],
+   "LIVING_SPECIMEN": [],
+   "MACHINE_OBSERVATION": [],
+   "PRESERVED_SPECIMEN": [
+    "DEPTH_MIN_MAX_SWAPPED",
+    "DEPTH_UNLIKELY",
+    "MODIFIED_DATE_UNLIKELY",
+    "OCCURRENCE_STATUS_INFERRED_FROM_BASIS_OF_RECORD",
+    "SUSPECTED_TYPE"
+   ],
+   "OCCURRENCE": [
+    "BASIS_OF_RECORD_INVALID"
+   ],
+   "OBSERVATION": [],
+   "MATERIAL_CITATION": [],
+   "FOSSIL_SPECIMEN": [
+    "AGE_OR_STAGE_RANK_MISMATCH"
+   ]
+  }
+ },
+ "vocabulary_overlap": {
+  "mean_pairwise_jaccard": 0.3896688505403645,
+  "pairs_sharing_nothing": 0,
+  "pair_count": 36,
+  "pairs": [
+   {
+    "a": "HUMAN_OBSERVATION",
+    "b": "PRESERVED_SPECIMEN",
+    "jaccard": 0.696969696969697
+   },
+   {
+    "a": "HUMAN_OBSERVATION",
+    "b": "MACHINE_OBSERVATION",
+    "jaccard": 0.5882352941176471
+   },
+   {
+    "a": "MATERIAL_SAMPLE",
+    "b": "PRESERVED_SPECIMEN",
+    "jaccard": 0.5873015873015873
+   },
+   {
+    "a": "LIVING_SPECIMEN",
+    "b": "MATERIAL_SAMPLE",
+    "jaccard": 0.5714285714285714
+   },
+   {
+    "a": "MACHINE_OBSERVATION",
+    "b": "OCCURRENCE",
+    "jaccard": 0.5405405405405406
+   },
+   {
+    "a": "HUMAN_OBSERVATION",
+    "b": "MATERIAL_SAMPLE",
+    "jaccard": 0.5254237288135594
+   },
+   {
+    "a": "MACHINE_OBSERVATION",
+    "b": "MATERIAL_SAMPLE",
+    "jaccard": 0.5
+   },
+   {
+    "a": "MACHINE_OBSERVATION",
+    "b": "PRESERVED_SPECIMEN",
+    "jaccard": 0.4918032786885246
+   },
+   {
+    "a": "LIVING_SPECIMEN",
+    "b": "MATERIAL_CITATION",
+    "jaccard": 0.4838709677419355
+   },
+   {
+    "a": "HUMAN_OBSERVATION",
+    "b": "OCCURRENCE",
+    "jaccard": 0.4716981132075472
+   },
+   {
+    "a": "MATERIAL_SAMPLE",
+    "b": "OCCURRENCE",
+    "jaccard": 0.4666666666666667
+   },
+   {
+    "a": "MATERIAL_CITATION",
+    "b": "MATERIAL_SAMPLE",
+    "jaccard": 0.45
+   },
+   {
+    "a": "LIVING_SPECIMEN",
+    "b": "MACHINE_OBSERVATION",
+    "jaccard": 0.425
+   },
+   {
+    "a": "FOSSIL_SPECIMEN",
+    "b": "MATERIAL_SAMPLE",
+    "jaccard": 0.4090909090909091
+   },
+   {
+    "a": "FOSSIL_SPECIMEN",
+    "b": "MATERIAL_CITATION",
+    "jaccard": 0.4
+   },
+   {
+    "a": "LIVING_SPECIMEN",
+    "b": "PRESERVED_SPECIMEN",
+    "jaccard": 0.3968253968253968
+   },
+   {
+    "a": "OCCURRENCE",
+    "b": "PRESERVED_SPECIMEN",
+    "jaccard": 0.3968253968253968
+   },
+   {
+    "a": "FOSSIL_SPECIMEN",
+    "b": "LIVING_SPECIMEN",
+    "jaccard": 0.3888888888888889
+   },
+   {
+    "a": "FOSSIL_SPECIMEN",
+    "b": "PRESERVED_SPECIMEN",
+    "jaccard": 0.3548387096774194
+   },
+   {
+    "a": "MATERIAL_CITATION",
+    "b": "OCCURRENCE",
+    "jaccard": 0.35294117647058826
+   },
+   {
+    "a": "FOSSIL_SPECIMEN",
+    "b": "OCCURRENCE",
+    "jaccard": 0.35135135135135137
+   },
+   {
+    "a": "LIVING_SPECIMEN",
+    "b": "OCCURRENCE",
+    "jaccard": 0.35
+   },
+   {
+    "a": "HUMAN_OBSERVATION",
+    "b": "LIVING_SPECIMEN",
+    "jaccard": 0.3448275862068966
+   },
+   {
+    "a": "OBSERVATION",
+    "b": "OCCURRENCE",
+    "jaccard": 0.3333333333333333
+   },
+   {
+    "a": "FOSSIL_SPECIMEN",
+    "b": "MACHINE_OBSERVATION",
+    "jaccard": 0.325
+   },
+   {
+    "a": "MACHINE_OBSERVATION",
+    "b": "MATERIAL_CITATION",
+    "jaccard": 0.32432432432432434
+   },
+   {
+    "a": "MATERIAL_CITATION",
+    "b": "PRESERVED_SPECIMEN",
+    "jaccard": 0.3114754098360656
+   },
+   {
+    "a": "MACHINE_OBSERVATION",
+    "b": "OBSERVATION",
+    "jaccard": 0.3
+   },
+   {
+    "a": "LIVING_SPECIMEN",
+    "b": "OBSERVATION",
+    "jaccard": 0.2857142857142857
+   },
+   {
+    "a": "FOSSIL_SPECIMEN",
+    "b": "OBSERVATION",
+    "jaccard": 0.28
+   },
+   {
+    "a": "HUMAN_OBSERVATION",
+    "b": "MATERIAL_CITATION",
+    "jaccard": 0.2727272727272727
+   },
+   {
+    "a": "MATERIAL_CITATION",
+    "b": "OBSERVATION",
+    "jaccard": 0.2727272727272727
+   },
+   {
+    "a": "FOSSIL_SPECIMEN",
+    "b": "HUMAN_OBSERVATION",
+    "jaccard": 0.2542372881355932
+   },
+   {
+    "a": "MATERIAL_SAMPLE",
+    "b": "OBSERVATION",
+    "jaccard": 0.2
+   },
+   {
+    "a": "HUMAN_OBSERVATION",
+    "b": "OBSERVATION",
+    "jaccard": 0.17647058823529413
+   },
+   {
+    "a": "OBSERVATION",
+    "b": "PRESERVED_SPECIMEN",
+    "jaccard": 0.14754098360655737
+   }
+  ]
+ },
+ "P3": {
+  "flag": "OCCURRENCE_STATUS_INFERRED_FROM_BASIS_OF_RECORD",
+  "bar": "gap between eligible branches >= 10 percentage points",
+  "highest": {
+   "branch": "PRESERVED_SPECIMEN",
+   "pct": 0.2583262995686818
+  },
+  "lowest": {
+   "branch": "HUMAN_OBSERVATION",
+   "pct": 0.0
+  },
+  "gap_points": 0.2583262995686818,
+  "won": false,
+  "per_branch_pct": {
+   "HUMAN_OBSERVATION": 0.0,
+   "MATERIAL_SAMPLE": 0.0,
+   "LIVING_SPECIMEN": 0.0,
+   "MACHINE_OBSERVATION": 0.0,
+   "PRESERVED_SPECIMEN": 0.2583262995686818,
+   "OCCURRENCE": 0.0,
+   "OBSERVATION": 0.0,
+   "MATERIAL_CITATION": 0.0,
+   "FOSSIL_SPECIMEN": 0.0
+  },
+  "per_branch_n": {
+   "HUMAN_OBSERVATION": 0,
+   "MATERIAL_SAMPLE": 0,
+   "LIVING_SPECIMEN": 0,
+   "MACHINE_OBSERVATION": 0,
+   "PRESERVED_SPECIMEN": 1668,
+   "OCCURRENCE": 0,
+   "OBSERVATION": 0,
+   "MATERIAL_CITATION": 0,
+   "FOSSIL_SPECIMEN": 0
+  },
+  "window_n": 1668
+ },
+ "P4": {
+  "declared_not_blind": true,
+  "bar_a": ">= 99 % of the window's BASIS_OF_RECORD_INVALID records sit in one branch",
+  "bar_b": "that branch is under 25 % residue",
+  "window_total_flagged": 5520,
+  "by_branch": {
+   "OCCURRENCE": 5520
+  },
+  "branch": "OCCURRENCE",
+  "share_of_flag_in_that_branch_pct": 100.0,
+  "residue_share_of_that_branch_pct": 9.363867684478372,
+  "won_a": true,
+  "won_b": true
+ },
+ "scoreboard": {
+  "blind": {
+   "P1": true,
+   "P2a": true,
+   "P2b": false,
+   "P3": false,
+   "P5a": true,
+   "P5b": true
+  },
+  "blind_won": 4,
+  "blind_lost": 2,
+  "declared": {
+   "P4a": true,
+   "P4b": true
+  }
+ }
+}

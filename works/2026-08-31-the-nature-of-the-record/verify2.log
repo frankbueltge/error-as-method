@@ -1,0 +1,12 @@
+2026-08-31T23:36:19Z  FOSSIL_SPECIMEN: 4,417 vs 4,417 (True), unions 4,393 vs 4,393 (True)
+2026-08-31T23:36:33Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=MATERIAL_CITATION&hasCoordinate=fals]
+2026-08-31T23:36:37Z  MATERIAL_CITATION: 7,255 vs 7,255 (True), unions 6,824 vs 6,824 (True)
+2026-08-31T23:36:42Z  OBSERVATION: 8,136 vs 8,136 (True), unions 8,136 vs 8,136 (True)
+2026-08-31T23:36:47Z  OCCURRENCE: 58,950 vs 58,950 (True), unions 58,193 vs 58,193 (True)
+2026-08-31T23:36:52Z  PRESERVED_SPECIMEN: 645,695 vs 645,695 (True), unions 639,629 vs 639,629 (True)
+2026-08-31T23:36:57Z  MACHINE_OBSERVATION: 828,603 vs 828,603 (True), unions 821,802 vs 821,802 (True)
+2026-08-31T23:37:01Z  LIVING_SPECIMEN: 929,585 vs 929,585 (True), unions 929,527 vs 929,527 (True)
+2026-08-31T23:37:13Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=MATERIAL_SAMPLE&hasCoordinate=true&i]
+2026-08-31T23:37:27Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 4s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=MATERIAL_SAMPLE&hasCoordinate=true&i]
+2026-08-31T23:37:35Z  MATERIAL_SAMPLE: 1,838,693 vs 1,838,693 (True), unions 1,833,524 vs 1,833,524 (True)
+2026-08-31T23:37:40Z  HUMAN_OBSERVATION: 82,075,006 vs 82,075,006 (True), unions 58,224,560 vs 58,224,560 (True)

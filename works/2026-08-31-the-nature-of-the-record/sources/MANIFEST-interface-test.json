@@ -1,0 +1,854 @@
+{
+ "what": "Every GBIF API query made by the interface test, all of them on year=2024.",
+ "why": "F-084: the instrument is tested outside the population it will be used on.",
+ "fetched_utc": "2026-08-31T23:14:51Z",
+ "bytes_are_not_committed": "Per PROTOCOL.md (architect, 2026-08-18): a source's bytes are committed only where the licence permits redistribution. GBIF's API responses are re-fetchable by anyone without a key; the SHA-256 below is the warrant, the cache is outside this repository.",
+ "requests_made": 112,
+ "cache_hits": 0,
+ "throttled": 0,
+ "throttle_events": [],
+ "connection_resets": 11,
+ "reset_events": [
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=RECORDED_DATE_INVALID",
+   "error": "URLError(ConnectionResetError(104, 'Connection reset by peer'))",
+   "waited_s": 2.0
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=TAXON_CONCEPT_ID_NOT_FOUND",
+   "error": "URLError(ConnectionResetError(104, 'Connection reset by peer'))",
+   "waited_s": 2.0
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=INDIVIDUAL_COUNT_CONFLICTS_WITH_OCCURRENCE_STATUS",
+   "error": "URLError(ConnectionResetError(104, 'Connection reset by peer'))",
+   "waited_s": 2.0
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=GEOREFERENCED_DATE_UNLIKELY",
+   "error": "URLError(ConnectionResetError(104, 'Connection reset by peer'))",
+   "waited_s": 2.0
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=GEOREFERENCED_DATE_UNLIKELY",
+   "error": "URLError(ConnectionResetError(104, 'Connection reset by peer'))",
+   "waited_s": 4.0
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=GEOREFERENCED_DATE_UNLIKELY",
+   "error": "URLError(ConnectionResetError(104, 'Connection reset by peer'))",
+   "waited_s": 8.0
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=INSTITUTION_MATCH_NONE",
+   "error": "URLError(ConnectionResetError(104, 'Connection reset by peer'))",
+   "waited_s": 2.0
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=EPOCH_OR_SERIES_AND_AGE_OR_STAGE_MISMATCH",
+   "error": "URLError(ConnectionResetError(104, 'Connection reset by peer'))",
+   "waited_s": 2.0
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=NUCLEOTIDE_SEQUENCE_ENDS_TRIMMED",
+   "error": "URLError(ConnectionResetError(104, 'Connection reset by peer'))",
+   "waited_s": 2.0
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=NUCLEOTIDE_SEQUENCE_HIGH_AMBIGUITY",
+   "error": "URLError(ConnectionResetError(104, 'Connection reset by peer'))",
+   "waited_s": 2.0
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=TARGET_GENE_INVALID",
+   "error": "URLError(ConnectionResetError(104, 'Connection reset by peer'))",
+   "waited_s": 2.0
+  }
+ ],
+ "queries": [
+  {
+   "url": "https://api.gbif.org/v1/enumeration/basic/OccurrenceIssue?",
+   "http_status": 200,
+   "bytes": 3149,
+   "sha256": "cb33d6d9538d831ea60cf025dbb51c889970df48194ebe41562314e27fdcd68d",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN",
+   "http_status": 200,
+   "bytes": 81,
+   "sha256": "2844753aeb3b219f69fa88f4e22d668f25dfd28988a471def87b0fee131a4236",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&facet=issue&facetLimit=10",
+   "http_status": 200,
+   "bytes": 619,
+   "sha256": "2723844b22d3b4f5614ff44b4d882b2d698f0a9e8738d729a10269eee7f4a4de",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&facet=issue&facetLimit=105",
+   "http_status": 200,
+   "bytes": 1281,
+   "sha256": "97b743b2f26b6956d5a492d25e6079361d2c64353b306fe5fab474a9fee72297",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&facet=issue&facetLimit=300",
+   "http_status": 200,
+   "bytes": 1281,
+   "sha256": "97b743b2f26b6956d5a492d25e6079361d2c64353b306fe5fab474a9fee72297",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=AGE_OR_STAGE_INFERRED_FROM_PARENT_RANK",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=AGE_OR_STAGE_INVALID_RANGE",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=AGE_OR_STAGE_RANK_MISMATCH",
+   "http_status": 200,
+   "bytes": 78,
+   "sha256": "ac70273e6e3c55c4fd9f2c17eb5a18d6acae12398b195409de222f4f294b514f",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=AMBIGUOUS_COLLECTION",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=AMBIGUOUS_INSTITUTION",
+   "http_status": 200,
+   "bytes": 79,
+   "sha256": "d7ae55eeb3992f5febc380b16240cf2d004ca4e051a8b3d3fe957ebabd36a46d",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=BASIS_OF_RECORD_INVALID",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=COLLECTION_MATCH_FUZZY",
+   "http_status": 200,
+   "bytes": 80,
+   "sha256": "76dfb8e6d804151f442e20ffe88c4fba01b1af34dc358686b14ebd78741a418a",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=COLLECTION_MATCH_NONE",
+   "http_status": 200,
+   "bytes": 79,
+   "sha256": "220906cd6094032dd851c0f4142eb73a740b7b9e0f9767f5c1c698acf029f103",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=CONTINENT_COORDINATE_MISMATCH",
+   "http_status": 200,
+   "bytes": 78,
+   "sha256": "8fd78501d7fd80d209d4a42b4c07961b118910a474fec87524486b1970cf2ff5",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=CONTINENT_COUNTRY_MISMATCH",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=CONTINENT_DERIVED_FROM_COORDINATES",
+   "http_status": 200,
+   "bytes": 80,
+   "sha256": "4b4a956e530380c421c1f84b20ca6187fadce18eb10707aaceb0c8a23a5f35b5",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=CONTINENT_DERIVED_FROM_COUNTRY",
+   "http_status": 200,
+   "bytes": 79,
+   "sha256": "f290b5870811644002cfeea6f841660e859fd44976f227a70551c3c3ba6ff39e",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=CONTINENT_INVALID",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=COORDINATE_ACCURACY_INVALID",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=COORDINATE_INVALID",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=COORDINATE_OUT_OF_RANGE",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=COORDINATE_PRECISION_INVALID",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=COORDINATE_PRECISION_UNCERTAINTY_MISMATCH",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=COORDINATE_REPROJECTED",
+   "http_status": 200,
+   "bytes": 79,
+   "sha256": "f043f9cc046a433db5722339c87af9589ce6b8733922b6c290a03ed06064692e",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=COORDINATE_REPROJECTION_FAILED",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=COORDINATE_REPROJECTION_SUSPICIOUS",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=COORDINATE_ROUNDED",
+   "http_status": 200,
+   "bytes": 78,
+   "sha256": "94fae5dcb4fca3ca349fb9a2a7413abbb445719cde7d04886d1f7e20623bd759",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=COORDINATE_UNCERTAINTY_METERS_INVALID",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=COUNTRY_COORDINATE_MISMATCH",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=COUNTRY_DERIVED_FROM_COORDINATES",
+   "http_status": 200,
+   "bytes": 78,
+   "sha256": "8a0144022524c0c584c8c21185164c70e72a24c396d56735460f0a6a907739eb",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=COUNTRY_INVALID",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=COUNTRY_MISMATCH",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=DEPTH_MIN_MAX_SWAPPED",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=DEPTH_NON_NUMERIC",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=DEPTH_NOT_METRIC",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=DEPTH_UNLIKELY",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=DIFFERENT_OWNER_INSTITUTION",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=DUPLICATE_NUCLEOTIDE_SEQUENCES_COLLAPSED",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=ELEVATION_MIN_MAX_SWAPPED",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=ELEVATION_NON_NUMERIC",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=ELEVATION_NOT_METRIC",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=ELEVATION_UNLIKELY",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=EON_OR_EONOTHEM_AND_ERA_OR_ERATHEM_MISMATCH",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=EON_OR_EONOTHEM_INVALID_RANGE",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=EON_OR_EONOTHEM_RANK_MISMATCH",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=EPOCH_OR_SERIES_AND_AGE_OR_STAGE_MISMATCH",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=EPOCH_OR_SERIES_INFERRED_FROM_PARENT_RANK",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=EPOCH_OR_SERIES_INVALID_RANGE",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=EPOCH_OR_SERIES_RANK_MISMATCH",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=ERA_OR_ERATHEM_AND_PERIOD_OR_SYSTEM_MISMATCH",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=ERA_OR_ERATHEM_INFERRED_FROM_PARENT_RANK",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=ERA_OR_ERATHEM_INVALID_RANGE",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=ERA_OR_ERATHEM_RANK_MISMATCH",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=FOOTPRINT_SRS_INVALID",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=FOOTPRINT_WKT_INVALID",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=FOOTPRINT_WKT_MISMATCH",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=GEODETIC_DATUM_ASSUMED_WGS84",
+   "http_status": 200,
+   "bytes": 80,
+   "sha256": "b897607f756938e85b9c2624407b4d7736a8d77a7e7eadabfabe422e62040517",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=GEODETIC_DATUM_INVALID",
+   "http_status": 200,
+   "bytes": 78,
+   "sha256": "34669bb4b646dca7d214b63eb69425a42ac996dea745e687e5aa768254a37fda",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=GEOREFERENCED_DATE_INVALID",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=GEOREFERENCED_DATE_UNLIKELY",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=IDENTIFIED_DATE_INVALID",
+   "http_status": 200,
+   "bytes": 80,
+   "sha256": "c3c2249975590bbec6d54483fce04a6888e0dab06942d57f0f54c36c23392c16",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=IDENTIFIED_DATE_UNLIKELY",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=INDIVIDUAL_COUNT_CONFLICTS_WITH_OCCURRENCE_STATUS",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=INDIVIDUAL_COUNT_INVALID",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=INSTITUTION_COLLECTION_MISMATCH",
+   "http_status": 200,
+   "bytes": 81,
+   "sha256": "f2e8dec9772ec0ada6455eb511806f75dbd14e06e0a712595c548e50bb116816",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=INSTITUTION_MATCH_FUZZY",
+   "http_status": 200,
+   "bytes": 81,
+   "sha256": "4833c342ed79b36a01723f082a9e7e651df270996df063120adc2db11b8f6ee2",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=INSTITUTION_MATCH_NONE",
+   "http_status": 200,
+   "bytes": 78,
+   "sha256": "4d218eb3bc533a631c9aa717467b3832256d78a61001eccfcf369feb54d77c46",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=INTERPRETATION_ERROR",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=MODIFIED_DATE_INVALID",
+   "http_status": 200,
+   "bytes": 78,
+   "sha256": "ac70273e6e3c55c4fd9f2c17eb5a18d6acae12398b195409de222f4f294b514f",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=MODIFIED_DATE_UNLIKELY",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=MULTIMEDIA_DATE_INVALID",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=MULTIMEDIA_URI_INVALID",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=NUCLEOTIDE_SEQUENCE_ENDS_TRIMMED",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=NUCLEOTIDE_SEQUENCE_GAPS_REMOVED",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=NUCLEOTIDE_SEQUENCE_HIGH_AMBIGUITY",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=NUCLEOTIDE_SEQUENCE_HIGH_N_FRACTION",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=NUCLEOTIDE_SEQUENCE_INVALID",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=NUCLEOTIDE_SEQUENCE_NATURAL_LANGUAGE",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=OCCURRENCE_STATUS_INFERRED_FROM_BASIS_OF_RECORD",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=OCCURRENCE_STATUS_INFERRED_FROM_INDIVIDUAL_COUNT",
+   "http_status": 200,
+   "bytes": 81,
+   "sha256": "1eef4d188f7c09120c950197ba763b3788b21ee995913489ba5b91c33e81ad23",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=OCCURRENCE_STATUS_UNPARSABLE",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=PARENT_EVENT_INFINITE_LINEAGE",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=PERIOD_OR_SYSTEM_AND_EPOCH_OR_SERIES_MISMATCH",
+   "http_status": 200,
+   "bytes": 78,
+   "sha256": "ac70273e6e3c55c4fd9f2c17eb5a18d6acae12398b195409de222f4f294b514f",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=PERIOD_OR_SYSTEM_INFERRED_FROM_PARENT_RANK",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=PERIOD_OR_SYSTEM_INVALID_RANGE",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=PERIOD_OR_SYSTEM_RANK_MISMATCH",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=POSSIBLY_ON_LOAN",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=PRESUMED_NEGATED_LATITUDE",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=PRESUMED_NEGATED_LONGITUDE",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=PRESUMED_SWAPPED_COORDINATE",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=RECORDED_DATE_INVALID",
+   "http_status": 200,
+   "bytes": 80,
+   "sha256": "9239fd3a6c4497af5643a1dcc2eff4425827e1c189b3dca4968cf0b72747540b",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=RECORDED_DATE_MISMATCH",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=RECORDED_DATE_UNLIKELY",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=REFERENCES_URI_INVALID",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=SCIENTIFIC_NAME_AND_ID_INCONSISTENT",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=SCIENTIFIC_NAME_ID_NOT_FOUND",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=SUSPECTED_TYPE",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=TARGET_GENE_INVALID",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=TAXON_CONCEPT_ID_NOT_FOUND",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=TAXON_ID_NOT_FOUND",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=TAXON_MATCH_AGGREGATE",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=TAXON_MATCH_FUZZY",
+   "http_status": 200,
+   "bytes": 79,
+   "sha256": "55d1604b8ff2b6bda3f88724a1921443d838f4a3bc047e4e277e22b275c163a6",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=TAXON_MATCH_HIGHERRANK",
+   "http_status": 200,
+   "bytes": 81,
+   "sha256": "c45c506ef8a247d0e32140ef907028c06bdd74b55169cdcfa62c42b8b12f778e",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=TAXON_MATCH_NAME_AND_ID_AMBIGUOUS",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=TAXON_MATCH_NONE",
+   "http_status": 200,
+   "bytes": 80,
+   "sha256": "546dbc137d44c49c9a90d09977853352ab90d3524a50bd84fda2dd1d15ef7f58",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=TAXON_MATCH_SCIENTIFIC_NAME_ID_IGNORED",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=TAXON_MATCH_TAXON_CONCEPT_ID_IGNORED",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=TAXON_MATCH_TAXON_ID_IGNORED",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=TYPE_STATUS_INVALID",
+   "http_status": 200,
+   "bytes": 80,
+   "sha256": "fb807c34bbc35861aaac51198398381b338edfda1c02b938d0070865e96eb0a3",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=ZERO_COORDINATE",
+   "http_status": 200,
+   "bytes": 77,
+   "sha256": "842e210a1dc11a43b863a7438d0b8ae273f0182c290a7c64e760c176778cc9fa",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&basisOfRecord=FOSSIL_SPECIMEN&issue=ZERO_COORDINATE&issue=COORDINATE_OUT_OF_RANGE&issue=COORDINATE_INVALID&issue=COORDINATE_ROUNDED&issue=GEODETIC_DATUM_INVALID&issue=GEODETIC_DATUM_ASSUMED_WGS84&issue=COORDINATE_REPROJECTED&issue=COORDINATE_REPROJECTION_FAILED&issue=COORDINATE_REPROJECTION_SUSPICIOUS&issue=COORDINATE_ACCURACY_INVALID&issue=COORDINATE_PRECISION_INVALID&issue=COORDINATE_UNCERTAINTY_METERS_INVALID&issue=COORDINATE_PRECISION_UNCERTAINTY_MISMATCH&issue=FOOTPRINT_SRS_INVALID&issue=FOOTPRINT_WKT_MISMATCH&issue=FOOTPRINT_WKT_INVALID&issue=COUNTRY_COORDINATE_MISMATCH&issue=COUNTRY_MISMATCH&issue=COUNTRY_INVALID&issue=COUNTRY_DERIVED_FROM_COORDINATES&issue=CONTINENT_COORDINATE_MISMATCH&issue=CONTINENT_COUNTRY_MISMATCH&issue=CONTINENT_INVALID&issue=CONTINENT_DERIVED_FROM_COUNTRY&issue=CONTINENT_DERIVED_FROM_COORDINATES&issue=PRESUMED_SWAPPED_COORDINATE&issue=PRESUMED_NEGATED_LONGITUDE&issue=PRESUMED_NEGATED_LATITUDE&issue=RECORDED_DATE_MISMATCH&issue=RECORDED_DATE_INVALID&issue=RECORDED_DATE_UNLIKELY&issue=TAXON_MATCH_FUZZY&issue=TAXON_MATCH_HIGHERRANK&issue=TAXON_MATCH_AGGREGATE&issue=TAXON_MATCH_SCIENTIFIC_NAME_ID_IGNORED&issue=TAXON_MATCH_TAXON_CONCEPT_ID_IGNORED&issue=TAXON_MATCH_TAXON_ID_IGNORED&issue=SCIENTIFIC_NAME_ID_NOT_FOUND&issue=TAXON_CONCEPT_ID_NOT_FOUND&issue=TAXON_ID_NOT_FOUND&issue=SCIENTIFIC_NAME_AND_ID_INCONSISTENT&issue=TAXON_MATCH_NONE&issue=TAXON_MATCH_NAME_AND_ID_AMBIGUOUS&issue=DEPTH_NOT_METRIC&issue=DEPTH_UNLIKELY&issue=DEPTH_MIN_MAX_SWAPPED&issue=DEPTH_NON_NUMERIC&issue=ELEVATION_UNLIKELY&issue=ELEVATION_MIN_MAX_SWAPPED&issue=ELEVATION_NOT_METRIC&issue=ELEVATION_NON_NUMERIC&issue=MODIFIED_DATE_INVALID&issue=MODIFIED_DATE_UNLIKELY&issue=IDENTIFIED_DATE_UNLIKELY&issue=IDENTIFIED_DATE_INVALID&issue=BASIS_OF_RECORD_INVALID&issue=TYPE_STATUS_INVALID&issue=SUSPECTED_TYPE&issue=MULTIMEDIA_DATE_INVALID&issue=MULTIMEDIA_URI_INVALID&issue=REFERENCES_URI_INVALID&issue=INTERPRETATION_ERROR&issue=INDIVIDUAL_COUNT_INVALID&issue=INDIVIDUAL_COUNT_CONFLICTS_WITH_OCCURRENCE_STATUS&issue=OCCURRENCE_STATUS_UNPARSABLE&issue=OCCURRENCE_STATUS_INFERRED_FROM_INDIVIDUAL_COUNT&issue=OCCURRENCE_STATUS_INFERRED_FROM_BASIS_OF_RECORD&issue=GEOREFERENCED_DATE_UNLIKELY&issue=GEOREFERENCED_DATE_INVALID&issue=AMBIGUOUS_INSTITUTION&issue=AMBIGUOUS_COLLECTION&issue=INSTITUTION_MATCH_NONE&issue=COLLECTION_MATCH_NONE&issue=INSTITUTION_MATCH_FUZZY&issue=COLLECTION_MATCH_FUZZY&issue=INSTITUTION_COLLECTION_MISMATCH&issue=POSSIBLY_ON_LOAN&issue=DIFFERENT_OWNER_INSTITUTION&issue=ERA_OR_ERATHEM_INFERRED_FROM_PARENT_RANK&issue=PERIOD_OR_SYSTEM_INFERRED_FROM_PARENT_RANK&issue=EPOCH_OR_SERIES_INFERRED_FROM_PARENT_RANK&issue=AGE_OR_STAGE_INFERRED_FROM_PARENT_RANK&issue=EON_OR_EONOTHEM_RANK_MISMATCH&issue=ERA_OR_ERATHEM_RANK_MISMATCH&issue=PERIOD_OR_SYSTEM_RANK_MISMATCH&issue=EPOCH_OR_SERIES_RANK_MISMATCH&issue=AGE_OR_STAGE_RANK_MISMATCH&issue=EON_OR_EONOTHEM_INVALID_RANGE&issue=ERA_OR_ERATHEM_INVALID_RANGE&issue=PERIOD_OR_SYSTEM_INVALID_RANGE&issue=EPOCH_OR_SERIES_INVALID_RANGE&issue=AGE_OR_STAGE_INVALID_RANGE&issue=EON_OR_EONOTHEM_AND_ERA_OR_ERATHEM_MISMATCH&issue=ERA_OR_ERATHEM_AND_PERIOD_OR_SYSTEM_MISMATCH&issue=PERIOD_OR_SYSTEM_AND_EPOCH_OR_SERIES_MISMATCH&issue=EPOCH_OR_SERIES_AND_AGE_OR_STAGE_MISMATCH&issue=NUCLEOTIDE_SEQUENCE_NATURAL_LANGUAGE&issue=NUCLEOTIDE_SEQUENCE_ENDS_TRIMMED&issue=NUCLEOTIDE_SEQUENCE_GAPS_REMOVED&issue=NUCLEOTIDE_SEQUENCE_INVALID&issue=NUCLEOTIDE_SEQUENCE_HIGH_N_FRACTION&issue=NUCLEOTIDE_SEQUENCE_HIGH_AMBIGUITY&issue=TARGET_GENE_INVALID&issue=DUPLICATE_NUCLEOTIDE_SEQUENCES_COLLAPSED&issue=PARENT_EVENT_INFINITE_LINEAGE",
+   "http_status": 200,
+   "bytes": 81,
+   "sha256": "93c1b4ce9f698c4e1c9c5f1b53ca48fb52230e9bb84131911f65439ba90cbd6a",
+   "served_from_cache_this_run": false
+  },
+  {
+   "url": "https://api.gbif.org/v1/occurrence/search?limit=0&year=2024&issue=BASIS_OF_RECORD_INVALID&facet=basisOfRecord&facetLimit=40",
+   "http_status": 200,
+   "bytes": 154,
+   "sha256": "778926dc7c5f46796178c467e5ddc156d61b82880662760c9ca187d6529f0733",
+   "served_from_cache_this_run": false
+  }
+ ]
+}

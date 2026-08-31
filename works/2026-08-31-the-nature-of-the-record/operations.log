@@ -1,0 +1,31 @@
+2026-08-31T23:38:04Z  HUMAN_OBSERVATION: self-reporting 54,856,847  other 44,215,739  any 58,224,560  of 82,075,006
+2026-08-31T23:38:07Z  MATERIAL_SAMPLE: self-reporting 1,606,314  other 1,833,188  any 1,833,524  of 1,838,693
+2026-08-31T23:38:10Z  LIVING_SPECIMEN: self-reporting 928,709  other 102,168  any 929,527  of 929,585
+2026-08-31T23:38:13Z  MACHINE_OBSERVATION: self-reporting 779,234  other 358,277  any 821,802  of 828,603
+2026-08-31T23:38:24Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=PRESERVED_SPECIMEN&issue=COORDINATE_]
+2026-08-31T23:38:28Z  PRESERVED_SPECIMEN: self-reporting 486,611  other 545,119  any 639,629  of 645,695
+2026-08-31T23:38:40Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=OCCURRENCE&issue=ZERO_COORDINATE&iss]
+2026-08-31T23:38:44Z  OCCURRENCE: self-reporting 55,500  other 57,864  any 58,193  of 58,950
+2026-08-31T23:38:46Z  OBSERVATION: self-reporting 7,946  other 8,136  any 8,136  of 8,136
+2026-08-31T23:38:57Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=MATERIAL_CITATION&issue=COORDINATE_R]
+2026-08-31T23:39:12Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=MATERIAL_CITATION&issue=ZERO_COORDIN]
+2026-08-31T23:39:15Z  MATERIAL_CITATION: self-reporting 6,812  other 6,412  any 6,824  of 7,255
+2026-08-31T23:39:18Z  FOSSIL_SPECIMEN: self-reporting 3,169  other 4,393  any 4,393  of 4,417
+2026-08-31T23:40:22Z  HUMAN_OBSERVATION: self-reporting 54,856,847  other 44,215,739  any 58,224,560  of 82,075,006
+2026-08-31T23:40:22Z  MATERIAL_SAMPLE: self-reporting 1,606,314  other 1,833,188  any 1,833,524  of 1,838,693
+2026-08-31T23:40:22Z  LIVING_SPECIMEN: self-reporting 928,709  other 102,168  any 929,527  of 929,585
+2026-08-31T23:40:22Z  MACHINE_OBSERVATION: self-reporting 779,234  other 358,277  any 821,802  of 828,603
+2026-08-31T23:40:22Z  PRESERVED_SPECIMEN: self-reporting 486,611  other 545,119  any 639,629  of 645,695
+2026-08-31T23:40:22Z  OCCURRENCE: self-reporting 55,500  other 57,864  any 58,193  of 58,950
+2026-08-31T23:40:22Z  OBSERVATION: self-reporting 7,946  other 8,136  any 8,136  of 8,136
+2026-08-31T23:40:22Z  MATERIAL_CITATION: self-reporting 6,812  other 6,412  any 6,824  of 7,255
+2026-08-31T23:40:22Z  FOSSIL_SPECIMEN: self-reporting 3,169  other 4,393  any 4,393  of 4,417
+2026-08-31T23:40:48Z  HUMAN_OBSERVATION: self-reporting 55,284,399  other 40,573,077  any 58,224,560  of 82,075,006
+2026-08-31T23:40:51Z  MATERIAL_SAMPLE: self-reporting 1,638,143  other 1,831,650  any 1,833,524  of 1,838,693
+2026-08-31T23:40:53Z  LIVING_SPECIMEN: self-reporting 928,709  other 102,082  any 929,527  of 929,585
+2026-08-31T23:40:56Z  MACHINE_OBSERVATION: self-reporting 779,234  other 355,756  any 821,802  of 828,603
+2026-08-31T23:40:58Z  PRESERVED_SPECIMEN: self-reporting 515,805  other 540,107  any 639,629  of 645,695
+2026-08-31T23:41:01Z  OCCURRENCE: self-reporting 58,122  other 57,748  any 58,193  of 58,950
+2026-08-31T23:41:04Z  OBSERVATION: self-reporting 7,946  other 8,133  any 8,136  of 8,136
+2026-08-31T23:41:06Z  MATERIAL_CITATION: self-reporting 6,812  other 6,384  any 6,824  of 7,255
+2026-08-31T23:41:08Z  FOSSIL_SPECIMEN: self-reporting 3,170  other 4,393  any 4,393  of 4,417

@@ -1,0 +1,663 @@
+{
+ "route_1_by_month": {
+  "FOSSIL_SPECIMEN": {
+   "months": {
+    "1": {
+     "total": 572,
+     "union": 564
+    },
+    "2": {
+     "total": 579,
+     "union": 572
+    },
+    "3": {
+     "total": 621,
+     "union": 621
+    },
+    "4": {
+     "total": 534,
+     "union": 532
+    },
+    "5": {
+     "total": 552,
+     "union": 552
+    },
+    "6": {
+     "total": 95,
+     "union": 94
+    },
+    "7": {
+     "total": 35,
+     "union": 35
+    },
+    "8": {
+     "total": 15,
+     "union": 14
+    },
+    "9": {
+     "total": 29,
+     "union": 29
+    },
+    "10": {
+     "total": 207,
+     "union": 207
+    },
+    "11": {
+     "total": 386,
+     "union": 382
+    },
+    "12": {
+     "total": 172,
+     "union": 172
+    }
+   },
+   "months_sum_total": 3797,
+   "harvest_total": 4417,
+   "total_agrees": false,
+   "months_sum_union": 3774,
+   "harvest_union": 4393,
+   "union_agrees": false
+  },
+  "MATERIAL_CITATION": {
+   "months": {
+    "1": {
+     "total": 158,
+     "union": 151
+    },
+    "2": {
+     "total": 135,
+     "union": 131
+    },
+    "3": {
+     "total": 337,
+     "union": 301
+    },
+    "4": {
+     "total": 416,
+     "union": 351
+    },
+    "5": {
+     "total": 573,
+     "union": 505
+    },
+    "6": {
+     "total": 550,
+     "union": 513
+    },
+    "7": {
+     "total": 690,
+     "union": 677
+    },
+    "8": {
+     "total": 288,
+     "union": 272
+    },
+    "9": {
+     "total": 351,
+     "union": 173
+    },
+    "10": {
+     "total": 170,
+     "union": 163
+    },
+    "11": {
+     "total": 96,
+     "union": 96
+    },
+    "12": {
+     "total": 26,
+     "union": 26
+    }
+   },
+   "months_sum_total": 3790,
+   "harvest_total": 7255,
+   "total_agrees": false,
+   "months_sum_union": 3359,
+   "harvest_union": 6824,
+   "union_agrees": false
+  },
+  "OBSERVATION": {
+   "months": {
+    "1": {
+     "total": 186,
+     "union": 186
+    },
+    "2": {
+     "total": 944,
+     "union": 944
+    },
+    "3": {
+     "total": 785,
+     "union": 785
+    },
+    "4": {
+     "total": 795,
+     "union": 795
+    },
+    "5": {
+     "total": 531,
+     "union": 531
+    },
+    "6": {
+     "total": 172,
+     "union": 172
+    },
+    "7": {
+     "total": 127,
+     "union": 127
+    },
+    "8": {
+     "total": 93,
+     "union": 93
+    },
+    "9": {
+     "total": 155,
+     "union": 155
+    },
+    "10": {
+     "total": 227,
+     "union": 227
+    },
+    "11": {
+     "total": 187,
+     "union": 187
+    },
+    "12": {
+     "total": 116,
+     "union": 116
+    }
+   },
+   "months_sum_total": 4318,
+   "harvest_total": 8136,
+   "total_agrees": false,
+   "months_sum_union": 4318,
+   "harvest_union": 8136,
+   "union_agrees": false
+  },
+  "OCCURRENCE": {
+   "months": {
+    "1": {
+     "total": 3285,
+     "union": 3284
+    },
+    "2": {
+     "total": 8406,
+     "union": 8406
+    },
+    "3": {
+     "total": 10036,
+     "union": 10027
+    },
+    "4": {
+     "total": 6232,
+     "union": 6125
+    },
+    "5": {
+     "total": 3660,
+     "union": 3651
+    },
+    "6": {
+     "total": 3193,
+     "union": 3124
+    },
+    "7": {
+     "total": 4230,
+     "union": 4206
+    },
+    "8": {
+     "total": 4766,
+     "union": 4759
+    },
+    "9": {
+     "total": 2401,
+     "union": 2381
+    },
+    "10": {
+     "total": 2648,
+     "union": 2636
+    },
+    "11": {
+     "total": 2906,
+     "union": 2902
+    },
+    "12": {
+     "total": 2360,
+     "union": 2356
+    }
+   },
+   "months_sum_total": 54123,
+   "harvest_total": 58950,
+   "total_agrees": false,
+   "months_sum_union": 53857,
+   "harvest_union": 58193,
+   "union_agrees": false
+  },
+  "PRESERVED_SPECIMEN": {
+   "months": {
+    "1": {
+     "total": 26432,
+     "union": 26015
+    },
+    "2": {
+     "total": 31659,
+     "union": 31500
+    },
+    "3": {
+     "total": 36706,
+     "union": 36117
+    },
+    "4": {
+     "total": 50781,
+     "union": 50209
+    },
+    "5": {
+     "total": 76109,
+     "union": 75170
+    },
+    "6": {
+     "total": 88237,
+     "union": 87524
+    },
+    "7": {
+     "total": 110599,
+     "union": 110055
+    },
+    "8": {
+     "total": 74548,
+     "union": 74086
+    },
+    "9": {
+     "total": 55666,
+     "union": 54999
+    },
+    "10": {
+     "total": 33642,
+     "union": 33200
+    },
+    "11": {
+     "total": 22274,
+     "union": 21926
+    },
+    "12": {
+     "total": 11579,
+     "union": 11397
+    }
+   },
+   "months_sum_total": 618232,
+   "harvest_total": 645695,
+   "total_agrees": false,
+   "months_sum_union": 612198,
+   "harvest_union": 639629,
+   "union_agrees": false
+  },
+  "MACHINE_OBSERVATION": {
+   "months": {
+    "1": {
+     "total": 45783,
+     "union": 45479
+    },
+    "2": {
+     "total": 58452,
+     "union": 57721
+    },
+    "3": {
+     "total": 93987,
+     "union": 92718
+    },
+    "4": {
+     "total": 113633,
+     "union": 112758
+    },
+    "5": {
+     "total": 100165,
+     "union": 99761
+    },
+    "6": {
+     "total": 83554,
+     "union": 83238
+    },
+    "7": {
+     "total": 89024,
+     "union": 88750
+    },
+    "8": {
+     "total": 73615,
+     "union": 73376
+    },
+    "9": {
+     "total": 64851,
+     "union": 64542
+    },
+    "10": {
+     "total": 55109,
+     "union": 54712
+    },
+    "11": {
+     "total": 28754,
+     "union": 28607
+    },
+    "12": {
+     "total": 16334,
+     "union": 16024
+    }
+   },
+   "months_sum_total": 823261,
+   "harvest_total": 828603,
+   "total_agrees": false,
+   "months_sum_union": 817686,
+   "harvest_union": 821802,
+   "union_agrees": false
+  },
+  "LIVING_SPECIMEN": {
+   "months": {
+    "1": {
+     "total": 223,
+     "union": 223
+    },
+    "2": {
+     "total": 187,
+     "union": 187
+    },
+    "3": {
+     "total": 214,
+     "union": 214
+    },
+    "4": {
+     "total": 12,
+     "union": 12
+    },
+    "5": {
+     "total": 95,
+     "union": 95
+    },
+    "6": {
+     "total": 101,
+     "union": 101
+    },
+    "7": {
+     "total": 222,
+     "union": 222
+    },
+    "8": {
+     "total": 274,
+     "union": 274
+    },
+    "9": {
+     "total": 106,
+     "union": 106
+    },
+    "10": {
+     "total": 88,
+     "union": 88
+    },
+    "11": {
+     "total": 0,
+     "union": 0
+    },
+    "12": {
+     "total": 0,
+     "union": 0
+    }
+   },
+   "months_sum_total": 1522,
+   "harvest_total": 929585,
+   "total_agrees": false,
+   "months_sum_union": 1522,
+   "harvest_union": 929527,
+   "union_agrees": false
+  },
+  "MATERIAL_SAMPLE": {
+   "months": {
+    "1": {
+     "total": 184529,
+     "union": 184528
+    },
+    "2": {
+     "total": 276907,
+     "union": 276904
+    },
+    "3": {
+     "total": 151907,
+     "union": 151906
+    },
+    "4": {
+     "total": 148071,
+     "union": 146119
+    },
+    "5": {
+     "total": 197950,
+     "union": 197136
+    },
+    "6": {
+     "total": 141060,
+     "union": 140537
+    },
+    "7": {
+     "total": 157253,
+     "union": 156550
+    },
+    "8": {
+     "total": 99441,
+     "union": 98535
+    },
+    "9": {
+     "total": 91705,
+     "union": 91546
+    },
+    "10": {
+     "total": 89521,
+     "union": 89443
+    },
+    "11": {
+     "total": 24345,
+     "union": 24318
+    },
+    "12": {
+     "total": 22675,
+     "union": 22675
+    }
+   },
+   "months_sum_total": 1585364,
+   "harvest_total": 1838693,
+   "total_agrees": false,
+   "months_sum_union": 1580197,
+   "harvest_union": 1833524,
+   "union_agrees": false
+  },
+  "HUMAN_OBSERVATION": {
+   "months": {
+    "1": {
+     "total": 3781244,
+     "union": 2596603
+    },
+    "2": {
+     "total": 3182225,
+     "union": 2179951
+    },
+    "3": {
+     "total": 5485199,
+     "union": 3614194
+    },
+    "4": {
+     "total": 8603887,
+     "union": 5795334
+    },
+    "5": {
+     "total": 9456070,
+     "union": 6168739
+    },
+    "6": {
+     "total": 10366692,
+     "union": 7392716
+    },
+    "7": {
+     "total": 14557402,
+     "union": 11551971
+    },
+    "8": {
+     "total": 7884602,
+     "union": 5296305
+    },
+    "9": {
+     "total": 6198142,
+     "union": 4383851
+    },
+    "10": {
+     "total": 5088238,
+     "union": 3606087
+    },
+    "11": {
+     "total": 4012603,
+     "union": 3050533
+    },
+    "12": {
+     "total": 2860869,
+     "union": 2071981
+    }
+   },
+   "months_sum_total": 81477173,
+   "harvest_total": 82075006,
+   "total_agrees": false,
+   "months_sum_union": 57708265,
+   "harvest_union": 58224560,
+   "union_agrees": false
+  }
+ },
+ "route_2_flag_by_flag": {
+  "branch": "FOSSIL_SPECIMEN",
+  "branch_total": 4417,
+  "count_only_nonzero": 23,
+  "facet_nonzero": 23,
+  "agrees": true,
+  "disagreements": {},
+  "count_only": {
+   "ZERO_COORDINATE": 0,
+   "COORDINATE_OUT_OF_RANGE": 0,
+   "COORDINATE_INVALID": 0,
+   "COORDINATE_ROUNDED": 1,
+   "GEODETIC_DATUM_INVALID": 0,
+   "GEODETIC_DATUM_ASSUMED_WGS84": 2,
+   "COORDINATE_REPROJECTED": 111,
+   "COORDINATE_REPROJECTION_FAILED": 0,
+   "COORDINATE_REPROJECTION_SUSPICIOUS": 0,
+   "COORDINATE_ACCURACY_INVALID": 0,
+   "COORDINATE_PRECISION_INVALID": 1,
+   "COORDINATE_UNCERTAINTY_METERS_INVALID": 6,
+   "COORDINATE_PRECISION_UNCERTAINTY_MISMATCH": 0,
+   "FOOTPRINT_SRS_INVALID": 0,
+   "FOOTPRINT_WKT_MISMATCH": 0,
+   "FOOTPRINT_WKT_INVALID": 0,
+   "COUNTRY_COORDINATE_MISMATCH": 0,
+   "COUNTRY_MISMATCH": 0,
+   "COUNTRY_INVALID": 0,
+   "COUNTRY_DERIVED_FROM_COORDINATES": 0,
+   "CONTINENT_COORDINATE_MISMATCH": 3,
+   "CONTINENT_COUNTRY_MISMATCH": 0,
+   "CONTINENT_INVALID": 0,
+   "CONTINENT_DERIVED_FROM_COUNTRY": 503,
+   "CONTINENT_DERIVED_FROM_COORDINATES": 21,
+   "PRESUMED_SWAPPED_COORDINATE": 0,
+   "PRESUMED_NEGATED_LONGITUDE": 0,
+   "PRESUMED_NEGATED_LATITUDE": 0,
+   "RECORDED_DATE_MISMATCH": 3,
+   "RECORDED_DATE_INVALID": 265,
+   "RECORDED_DATE_UNLIKELY": 0,
+   "TAXON_MATCH_FUZZY": 6,
+   "TAXON_MATCH_HIGHERRANK": 2047,
+   "TAXON_MATCH_AGGREGATE": 0,
+   "TAXON_MATCH_SCIENTIFIC_NAME_ID_IGNORED": 0,
+   "TAXON_MATCH_TAXON_CONCEPT_ID_IGNORED": 0,
+   "TAXON_MATCH_TAXON_ID_IGNORED": 0,
+   "SCIENTIFIC_NAME_ID_NOT_FOUND": 0,
+   "TAXON_CONCEPT_ID_NOT_FOUND": 0,
+   "TAXON_ID_NOT_FOUND": 0,
+   "SCIENTIFIC_NAME_AND_ID_INCONSISTENT": 0,
+   "TAXON_MATCH_NONE": 36,
+   "TAXON_MATCH_NAME_AND_ID_AMBIGUOUS": 0,
+   "DEPTH_NOT_METRIC": 0,
+   "DEPTH_UNLIKELY": 0,
+   "DEPTH_MIN_MAX_SWAPPED": 0,
+   "DEPTH_NON_NUMERIC": 0,
+   "ELEVATION_UNLIKELY": 0,
+   "ELEVATION_MIN_MAX_SWAPPED": 0,
+   "ELEVATION_NOT_METRIC": 0,
+   "ELEVATION_NON_NUMERIC": 0,
+   "MODIFIED_DATE_INVALID": 0,
+   "MODIFIED_DATE_UNLIKELY": 0,
+   "IDENTIFIED_DATE_UNLIKELY": 0,
+   "IDENTIFIED_DATE_INVALID": 121,
+   "BASIS_OF_RECORD_INVALID": 0,
+   "TYPE_STATUS_INVALID": 0,
+   "SUSPECTED_TYPE": 0,
+   "MULTIMEDIA_DATE_INVALID": 0,
+   "MULTIMEDIA_URI_INVALID": 0,
+   "REFERENCES_URI_INVALID": 0,
+   "INTERPRETATION_ERROR": 0,
+   "INDIVIDUAL_COUNT_INVALID": 0,
+   "INDIVIDUAL_COUNT_CONFLICTS_WITH_OCCURRENCE_STATUS": 0,
+   "OCCURRENCE_STATUS_UNPARSABLE": 0,
+   "OCCURRENCE_STATUS_INFERRED_FROM_INDIVIDUAL_COUNT": 3037,
+   "OCCURRENCE_STATUS_INFERRED_FROM_BASIS_OF_RECORD": 0,
+   "GEOREFERENCED_DATE_UNLIKELY": 0,
+   "GEOREFERENCED_DATE_INVALID": 0,
+   "AMBIGUOUS_INSTITUTION": 20,
+   "AMBIGUOUS_COLLECTION": 0,
+   "INSTITUTION_MATCH_NONE": 1,
+   "COLLECTION_MATCH_NONE": 10,
+   "INSTITUTION_MATCH_FUZZY": 4280,
+   "COLLECTION_MATCH_FUZZY": 815,
+   "INSTITUTION_COLLECTION_MISMATCH": 3486,
+   "POSSIBLY_ON_LOAN": 0,
+   "DIFFERENT_OWNER_INSTITUTION": 0,
+   "ERA_OR_ERATHEM_INFERRED_FROM_PARENT_RANK": 0,
+   "PERIOD_OR_SYSTEM_INFERRED_FROM_PARENT_RANK": 0,
+   "EPOCH_OR_SERIES_INFERRED_FROM_PARENT_RANK": 0,
+   "AGE_OR_STAGE_INFERRED_FROM_PARENT_RANK": 0,
+   "EON_OR_EONOTHEM_RANK_MISMATCH": 0,
+   "ERA_OR_ERATHEM_RANK_MISMATCH": 0,
+   "PERIOD_OR_SYSTEM_RANK_MISMATCH": 0,
+   "EPOCH_OR_SERIES_RANK_MISMATCH": 0,
+   "AGE_OR_STAGE_RANK_MISMATCH": 11,
+   "EON_OR_EONOTHEM_INVALID_RANGE": 0,
+   "ERA_OR_ERATHEM_INVALID_RANGE": 0,
+   "PERIOD_OR_SYSTEM_INVALID_RANGE": 0,
+   "EPOCH_OR_SERIES_INVALID_RANGE": 0,
+   "AGE_OR_STAGE_INVALID_RANGE": 0,
+   "EON_OR_EONOTHEM_AND_ERA_OR_ERATHEM_MISMATCH": 0,
+   "ERA_OR_ERATHEM_AND_PERIOD_OR_SYSTEM_MISMATCH": 0,
+   "PERIOD_OR_SYSTEM_AND_EPOCH_OR_SERIES_MISMATCH": 2,
+   "EPOCH_OR_SERIES_AND_AGE_OR_STAGE_MISMATCH": 0,
+   "NUCLEOTIDE_SEQUENCE_NATURAL_LANGUAGE": 0,
+   "NUCLEOTIDE_SEQUENCE_ENDS_TRIMMED": 0,
+   "NUCLEOTIDE_SEQUENCE_GAPS_REMOVED": 0,
+   "NUCLEOTIDE_SEQUENCE_INVALID": 0,
+   "NUCLEOTIDE_SEQUENCE_HIGH_N_FRACTION": 0,
+   "NUCLEOTIDE_SEQUENCE_HIGH_AMBIGUITY": 0,
+   "TARGET_GENE_INVALID": 0,
+   "DUPLICATE_NUCLEOTIDE_SEQUENCES_COLLAPSED": 0,
+   "PARENT_EVENT_INFINITE_LINEAGE": 0
+  }
+ },
+ "disagreements": [
+  "FOSSIL_SPECIMEN: months sum to 3797, harvest says 4417",
+  "FOSSIL_SPECIMEN: month unions sum to 3774, harvest union 4393",
+  "MATERIAL_CITATION: months sum to 3790, harvest says 7255",
+  "MATERIAL_CITATION: month unions sum to 3359, harvest union 6824",
+  "OBSERVATION: months sum to 4318, harvest says 8136",
+  "OBSERVATION: month unions sum to 4318, harvest union 8136",
+  "OCCURRENCE: months sum to 54123, harvest says 58950",
+  "OCCURRENCE: month unions sum to 53857, harvest union 58193",
+  "PRESERVED_SPECIMEN: months sum to 618232, harvest says 645695",
+  "PRESERVED_SPECIMEN: month unions sum to 612198, harvest union 639629",
+  "MACHINE_OBSERVATION: months sum to 823261, harvest says 828603",
+  "MACHINE_OBSERVATION: month unions sum to 817686, harvest union 821802",
+  "LIVING_SPECIMEN: months sum to 1522, harvest says 929585",
+  "LIVING_SPECIMEN: month unions sum to 1522, harvest union 929527",
+  "MATERIAL_SAMPLE: months sum to 1585364, harvest says 1838693",
+  "MATERIAL_SAMPLE: month unions sum to 1580197, harvest union 1833524",
+  "HUMAN_OBSERVATION: months sum to 81477173, harvest says 82075006",
+  "HUMAN_OBSERVATION: month unions sum to 57708265, harvest union 58224560"
+ ],
+ "comparisons": 321,
+ "disagreement_count": 18
+}

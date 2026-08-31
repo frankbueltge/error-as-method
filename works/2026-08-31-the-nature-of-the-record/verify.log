@@ -1,0 +1,55 @@
+2026-08-31T23:20:31Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=FOSSIL_SPECIMEN&month=10]
+2026-08-31T23:20:50Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=FOSSIL_SPECIMEN&month=12&issue=ZERO_]
+2026-08-31T23:20:53Z  FOSSIL_SPECIMEN: months 3,797 vs 4,417 (False), unions 3,774 vs 4,393 (False)
+2026-08-31T23:21:16Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=MATERIAL_CITATION&month=6]
+2026-08-31T23:21:35Z  MATERIAL_CITATION: months 3,790 vs 7,255 (False), unions 3,359 vs 6,824 (False)
+2026-08-31T23:21:47Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=OBSERVATION&month=1&issue=ZERO_COORD]
+2026-08-31T23:22:01Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 4s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=OBSERVATION&month=1&issue=ZERO_COORD]
+2026-08-31T23:22:18Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=OBSERVATION&month=2]
+2026-08-31T23:22:53Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=OBSERVATION&month=11&issue=ZERO_COOR]
+2026-08-31T23:23:03Z  OBSERVATION: months 4,318 vs 8,136 (False), unions 4,318 vs 8,136 (False)
+2026-08-31T23:23:17Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=OCCURRENCE&month=2]
+2026-08-31T23:23:36Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=OCCURRENCE&month=4&issue=ZERO_COORDI]
+2026-08-31T23:23:53Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=OCCURRENCE&month=6]
+2026-08-31T23:24:09Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=OCCURRENCE&month=7]
+2026-08-31T23:24:26Z  OCCURRENCE: months 54,123 vs 58,950 (False), unions 53,857 vs 58,193 (False)
+2026-08-31T23:24:40Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=PRESERVED_SPECIMEN&month=2&issue=ZER]
+2026-08-31T23:25:03Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=PRESERVED_SPECIMEN&month=6]
+2026-08-31T23:25:16Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 4s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=PRESERVED_SPECIMEN&month=6]
+2026-08-31T23:25:39Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=PRESERVED_SPECIMEN&month=9&issue=ZER]
+2026-08-31T23:25:57Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=PRESERVED_SPECIMEN&month=11]
+2026-08-31T23:26:04Z  PRESERVED_SPECIMEN: months 618,232 vs 645,695 (False), unions 612,198 vs 639,629 (False)
+2026-08-31T23:26:35Z  MACHINE_OBSERVATION: months 823,261 vs 828,603 (False), unions 817,686 vs 821,802 (False)
+2026-08-31T23:26:47Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=LIVING_SPECIMEN&month=1&issue=ZERO_C]
+2026-08-31T23:27:10Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=LIVING_SPECIMEN&month=6]
+2026-08-31T23:27:34Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=LIVING_SPECIMEN&month=10&issue=ZERO_]
+2026-08-31T23:27:51Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=LIVING_SPECIMEN&month=12]
+2026-08-31T23:28:04Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 4s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=LIVING_SPECIMEN&month=12]
+2026-08-31T23:28:11Z  LIVING_SPECIMEN: months 1,522 vs 929,585 (False), unions 1,522 vs 929,527 (False)
+2026-08-31T23:28:23Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=MATERIAL_SAMPLE&month=1&issue=ZERO_C]
+2026-08-31T23:28:39Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=MATERIAL_SAMPLE&month=2&issue=ZERO_C]
+2026-08-31T23:29:08Z  MATERIAL_SAMPLE: months 1,585,364 vs 1,838,693 (False), unions 1,580,197 vs 1,833,524 (False)
+2026-08-31T23:29:22Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=HUMAN_OBSERVATION&month=2]
+2026-08-31T23:29:37Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=HUMAN_OBSERVATION&month=3]
+2026-08-31T23:30:01Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=HUMAN_OBSERVATION&month=7]
+2026-08-31T23:30:28Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=HUMAN_OBSERVATION&month=12&issue=ZER]
+2026-08-31T23:30:32Z  HUMAN_OBSERVATION: months 81,477,173 vs 82,075,006 (False), unions 57,708,265 vs 58,224,560 (False)
+2026-08-31T23:30:55Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=FOSSIL_SPECIMEN&issue=FOOTPRINT_SRS_]
+2026-08-31T23:31:10Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=FOSSIL_SPECIMEN&issue=FOOTPRINT_WKT_]
+2026-08-31T23:31:26Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=FOSSIL_SPECIMEN&issue=COUNTRY_MISMAT]
+2026-08-31T23:31:40Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=FOSSIL_SPECIMEN&issue=COUNTRY_INVALI]
+2026-08-31T23:31:53Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 4s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=FOSSIL_SPECIMEN&issue=COUNTRY_INVALI]
+2026-08-31T23:32:13Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=FOSSIL_SPECIMEN&issue=CONTINENT_DERI]
+2026-08-31T23:32:28Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=FOSSIL_SPECIMEN&issue=PRESUMED_SWAPP]
+2026-08-31T23:32:47Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=FOSSIL_SPECIMEN&issue=TAXON_MATCH_FU]
+2026-08-31T23:33:11Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=FOSSIL_SPECIMEN&issue=TAXON_MATCH_NA]
+2026-08-31T23:33:25Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=FOSSIL_SPECIMEN&issue=DEPTH_NOT_METR]
+2026-08-31T23:33:44Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=FOSSIL_SPECIMEN&issue=ELEVATION_NOT_]
+2026-08-31T23:34:25Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=FOSSIL_SPECIMEN&issue=PERIOD_OR_SYST]
+2026-08-31T23:34:46Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=FOSSIL_SPECIMEN&issue=EON_OR_EONOTHE]
+2026-08-31T23:35:01Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=FOSSIL_SPECIMEN&issue=PERIOD_OR_SYST]
+2026-08-31T23:35:21Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=FOSSIL_SPECIMEN&issue=NUCLEOTIDE_SEQ]
+2026-08-31T23:35:37Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=FOSSIL_SPECIMEN&issue=NUCLEOTIDE_SEQ]
+2026-08-31T23:35:51Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 2s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=FOSSIL_SPECIMEN&issue=NUCLEOTIDE_SEQ]
+2026-08-31T23:36:05Z  route dropped (<urlopen error [Errno 104] Connection reset by peer>); waiting 4s  [https://api.gbif.org/v1/occurrence/search?limit=0&year=2025&basisOfRecord=FOSSIL_SPECIMEN&issue=NUCLEOTIDE_SEQ]
+2026-08-31T23:36:14Z  FOSSIL_SPECIMEN: facet 23 vs count-only 23 nonzero flags, agrees=True

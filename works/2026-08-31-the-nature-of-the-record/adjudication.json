@@ -1,0 +1,137 @@
+{
+ "session": 76,
+ "date": "2026-08-31",
+ "work": "works/2026-08-31-the-nature-of-the-record/",
+ "note": "The night's own scoring, kept beside the work rather than only in the journal, per Session 73's postscript: a commit that touches no work directory cannot pass the landing gate, so a night's adjudication belongs in the work it adjudicates.",
+ "predictions": {
+  "fixed_in": "PREDICTIONS.md, written and closed before measure.py, verify.py, verify2.py, figure.py, documentation.py, operations.py or catalogues.py existed, and before a single query carried year=2025",
+  "count": 5,
+  "scored_halves": 8,
+  "blind_halves": 6,
+  "declared_before_predicting": "The 105-value issue enumeration; the nine basisOfRecord branches and counts of year=2024 with its window total of 339,643,206; for year=2024 & FOSSIL_SPECIMEN, 3,860 records of which 3,836 carry at least one flag across 24 distinct types; and that all 2,449 year=2024 records flagged BASIS_OF_RECORD_INVALID sit in OCCURRENCE. Every one of those is the INTERFACE YEAR 2024 and not the population 2025, so F-084's rule is held rather than broken. The last of the four is why P4 is declared not blind and scored apart. One further thing was read after the bars were fixed and before the harvest ran, and is recorded as a dated addendum in PREDICTIONS.md rather than folded into P3: GBIF's own description of the flag P3 measures, which says the inference is drawn from the box. That makes P3 a test of the institution's documentation against its record rather than of my foresight, and it is labelled so.",
+  "scored": {
+   "P1": {
+    "claim": "at an institution with one automatic applier the branch still predicts whether any norm arrives",
+    "comparand": ">= 25.0 pts between eligible branches (>= 10,000 records, bar fixed before the counts)",
+    "measured": "29.0531 pts -- HUMAN_OBSERVATION 29.0593 % against LIVING_SPECIMEN 0.0062 %; the six eligible branches otherwise run 0.0062 to 1.2841",
+    "verdict": "WON",
+    "blind": true,
+    "the_win_carries_its_own_correction": "1.0030 pts with the highest and lowest branch dropped, and 99.92 % of the window's 23,869,752 un-normed records are in one branch. Reported in the work as the finding, not as a footnote: there is one box under which a record can pass through un-normed and it is the one that says a person saw it.",
+    "not_separable": "HUMAN_OBSERVATION is 56.93 % two citizen-science platforms. This record cannot separate the box narrowing the check set from those publishers sending cleaner data. F-082."
+   },
+   "P2a": {
+    "claim": "the box selects which of the applier's norms are applicable at all",
+    "comparand": "fewest-reaching eligible branch < half the most-reaching",
+    "measured": "27 of 105 (LIVING_SPECIMEN, OCCURRENCE) against 61 (PRESERVED_SPECIMEN); ratio 0.4426",
+    "verdict": "WON",
+    "blind": true,
+    "below_the_eligibility_line": "OBSERVATION reaches 9 of 105"
+   },
+   "P2b": {
+    "claim": "some norms are reachable from exactly one box",
+    "comparand": ">= 10 of the 105 flags occur in exactly one branch",
+    "measured": "9 -- and honestly 8, because BASIS_OF_RECORD_INVALID is branch-private by construction and not by measurement (F-096)",
+    "verdict": "LOST",
+    "blind": true,
+    "what_the_loss_does_not_touch": "the nine are about depth, type status, modified date, multimedia, nucleotide sequence and geological stage -- properties some kinds of thing have and others do not"
+   },
+   "P3": {
+    "claim": "the box's documented power to supply content is unevenly distributed across branches",
+    "comparand": ">= 10.0 pts between eligible branches on OCCURRENCE_STATUS_INFERRED_FROM_BASIS_OF_RECORD",
+    "measured": "0.2583 pts -- 1,668 records, all in PRESERVED_SPECIMEN, zero in the other eight branches",
+    "verdict": "LOST",
+    "blind": true,
+    "the_loss_sentence_was_itself_wrong": "it said the inference 'is not concentrated in particular branches at that scale'. It is perfectly concentrated -- one branch of nine -- and merely small. The bar measured a magnitude; the sentence concluded about a concentration. Third night running that the pre-written loss sentence is what failed, and a third distinct failure mode. F-095. Not rewritten (F-059).",
+    "blind_clause_added_in_the_addendum": "whether the flag appears in branches the documented rule does not cover. It does not: the documented rule names specimen-type values, and only PRESERVED_SPECIMEN carries it here, FOSSIL_SPECIMEN at zero."
+   },
+   "P4a": {
+    "claim": "the residue of failed classification is confined to one branch",
+    "comparand": ">= 99 %",
+    "measured": "100.0 % -- all 5,520 in OCCURRENCE",
+    "verdict": "WON",
+    "blind": false,
+    "why_not_blind": "seen for year=2024 (100.0 % of 2,449) before PREDICTIONS.md closed; declared there and scored apart."
+   },
+   "P4b": {
+    "claim": "that branch is not constituted by the residue",
+    "comparand": "< 25 %",
+    "measured": "9.3639 % of OCCURRENCE",
+    "verdict": "WON",
+    "blind": false,
+    "why_not_blind": "seen for year=2024 (1.6 %) before PREDICTIONS.md closed.",
+    "F086_note": "the two windows differ by a factor of six on this quantity, which is a property of the window and is not reported as a trend -- the windows have very unequal exposure (339,643,206 records for 2024 against 86,396,340 for 2025 on the day of reading). F-077."
+   },
+   "P5a": {
+    "claim": "the issue parameter repeated is a union, so total minus union is the un-normed count",
+    "comparand": "max single flag <= union <= sum of flags, and union <= branch total, for every branch",
+    "measured": "holds for all nine branches",
+    "verdict": "WON",
+    "blind": true
+   },
+   "P5b": {
+    "claim": "the branches partition the window",
+    "comparand": "branch counts sum to the window total exactly",
+    "measured": "86,396,340 = 86,396,340",
+    "verdict": "WON",
+    "blind": true
+   }
+  },
+  "scoreboard": {
+   "blind_won": 4,
+   "blind_lost": 2,
+   "declared_won": 2,
+   "declared_lost": 0,
+   "rewritten": 0
+  }
+ },
+ "verification": {
+  "route_1_by_month": {
+   "comparisons": 321,
+   "disagreements": 18,
+   "outcome": "disagreed on every branch; the comparator was checked on the interface year and found sound, so the disagreement is a hole in the record: 1,824,760 records of the window carry a year and no month, 99.84 % of LIVING_SPECIMEN among them. F-097, and the first firing of F-081."
+  },
+  "route_2_flag_by_flag": {
+   "branch": "FOSSIL_SPECIMEN",
+   "facet_nonzero": 23,
+   "count_only_nonzero": 23,
+   "agrees": true
+  },
+  "route_3_complete_partition": {
+   "partition": "hasCoordinate true|false",
+   "comparisons": 45,
+   "disagreements": 0,
+   "outcome": "every branch total and every branch union re-derived exactly, all nine branches"
+  }
+ },
+ "unpredicted_findings": {
+  "documentation_quadrants": {
+   "described_and_fires": 64,
+   "described_never_fires": 16,
+   "undescribed_and_fires": 5,
+   "undescribed_never_fires": 20
+  },
+  "never_fired": 36,
+  "undescribed_and_firing_records": 36,
+  "self_reporting": {
+   "rule_applied": "\\b(deriv|infer|assum|round|reproject|collaps)\\w*\\b|\\b(is|are) modified\\b",
+   "rule_as_first_stated": "\\b(derives?|derived|infer(?:s|red)?|assumed|rounded|reprojected|collapsed|is modified|are modified|interpretation (?:derives|assigns|sets))\\b",
+   "selected": 9,
+   "selected_under_first_rule": 7,
+   "window_share_pct": 68.54727873889102,
+   "records_flagged_only_by_self_reporting_flags": 19047258,
+   "share_of_all_flagged_pct": 30.46,
+   "label": "this night's reading of the institution's own description text, NOT the institution's classification of its own flags — GBIF publishes the three-way Excluded/Altered/Inferred distinction per record, not per flag"
+  }
+ },
+ "corrections": [
+  "F-093",
+  "F-094",
+  "F-095",
+  "F-096",
+  "F-097",
+  "F-098"
+ ],
+ "register": "works/fehlerkataster-032.md",
+ "falsifier_fixed": "S76.NEVERFIRED, due 2027-08-31",
+ "position": "unchanged; thirtieth night without a centre-move; not a seventh night (the next is Session 78)"
+}

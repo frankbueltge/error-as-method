@@ -1,0 +1,469 @@
+{
+ "night": "2026-08-31",
+ "session": 76,
+ "note": "Counts only. The feeds are read, never mirrored.",
+ "feeds": {
+  "atlas/werke.json": {
+   "url": "https://frankbueltge.de/atlas/werke.json",
+   "http_status": 200,
+   "bytes": 387847,
+   "reachable": true,
+   "declared_count": 521,
+   "len_entries": 521,
+   "counts": {
+    "GBIF": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Global Biodiversity Information Facility": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "biodiversity": {
+     "substring": 3,
+     "word_boundary": 3
+    },
+    "occurrence record": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "data registry": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "basis of record": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Darwin Core": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "validation": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "data quality flag": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "interpretation": {
+     "substring": 2,
+     "word_boundary": 2
+    },
+    "indexing pipeline": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "controlled vocabulary": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "classification": {
+     "substring": 3,
+     "word_boundary": 3
+    },
+    "taxonomy": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "specimen": {
+     "substring": 1,
+     "word_boundary": 1
+    },
+    "natural history collection": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "herbarium": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "museum": {
+     "substring": 59,
+     "word_boundary": 53
+    },
+    "citizen science": {
+     "substring": 1,
+     "word_boundary": 1
+    },
+    "observation": {
+     "substring": 2,
+     "word_boundary": 2
+    },
+    "provenance": {
+     "substring": 5,
+     "word_boundary": 5
+    },
+    "metadata standard": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "norm": {
+     "substring": 1,
+     "word_boundary": 0
+    },
+    "normativity": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Canguilhem": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Simondon": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Rheinberger": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "epistemic thing": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Bowker": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Star": {
+     "substring": 96,
+     "word_boundary": 5
+    },
+    "classification and its consequences": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Desrosieres": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "infrastructure": {
+     "substring": 27,
+     "word_boundary": 25
+    },
+    "residual category": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "other": {
+     "substring": 47,
+     "word_boundary": 31
+    },
+    "error": {
+     "substring": 19,
+     "word_boundary": 9
+    }
+   }
+  },
+  "papers/index.json": {
+   "url": "https://frankbueltge.de/papers/index.json",
+   "http_status": 200,
+   "bytes": 816526,
+   "reachable": true,
+   "declared_count": 1199,
+   "len_entries": 1199,
+   "counts": {
+    "GBIF": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Global Biodiversity Information Facility": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "biodiversity": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "occurrence record": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "data registry": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "basis of record": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Darwin Core": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "validation": {
+     "substring": 18,
+     "word_boundary": 16
+    },
+    "data quality flag": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "interpretation": {
+     "substring": 2,
+     "word_boundary": 2
+    },
+    "indexing pipeline": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "controlled vocabulary": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "classification": {
+     "substring": 9,
+     "word_boundary": 8
+    },
+    "taxonomy": {
+     "substring": 2,
+     "word_boundary": 2
+    },
+    "specimen": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "natural history collection": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "herbarium": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "museum": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "citizen science": {
+     "substring": 3,
+     "word_boundary": 3
+    },
+    "observation": {
+     "substring": 27,
+     "word_boundary": 3
+    },
+    "provenance": {
+     "substring": 4,
+     "word_boundary": 4
+    },
+    "metadata standard": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "norm": {
+     "substring": 7,
+     "word_boundary": 0
+    },
+    "normativity": {
+     "substring": 2,
+     "word_boundary": 2
+    },
+    "Canguilhem": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Simondon": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Rheinberger": {
+     "substring": 6,
+     "word_boundary": 6
+    },
+    "epistemic thing": {
+     "substring": 1,
+     "word_boundary": 0
+    },
+    "Bowker": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Star": {
+     "substring": 360,
+     "word_boundary": 132
+    },
+    "classification and its consequences": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Desrosieres": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "infrastructure": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "residual category": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "other": {
+     "substring": 13,
+     "word_boundary": 7
+    },
+    "error": {
+     "substring": 20,
+     "word_boundary": 16
+    }
+   }
+  },
+  "datasets/register.json": {
+   "url": "https://frankbueltge.de/datasets/register.json",
+   "http_status": 200,
+   "bytes": 51344,
+   "reachable": true,
+   "declared_count": 59,
+   "len_entries": 59,
+   "counts": {
+    "GBIF": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Global Biodiversity Information Facility": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "biodiversity": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "occurrence record": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "data registry": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "basis of record": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Darwin Core": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "validation": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "data quality flag": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "interpretation": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "indexing pipeline": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "controlled vocabulary": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "classification": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "taxonomy": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "specimen": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "natural history collection": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "herbarium": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "museum": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "citizen science": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "observation": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "provenance": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "metadata standard": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "norm": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "normativity": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Canguilhem": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Simondon": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Rheinberger": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "epistemic thing": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Bowker": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Star": {
+     "substring": 5,
+     "word_boundary": 0
+    },
+    "classification and its consequences": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Desrosieres": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "infrastructure": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "residual category": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "other": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "error": {
+     "substring": 0,
+     "word_boundary": 0
+    }
+   }
+  }
+ }
+}
