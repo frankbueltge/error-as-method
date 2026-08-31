@@ -1740,3 +1740,31 @@ machinery. A night that needs a plain page ships a plain page — form motivated
 necessity is the bar, not maximalism.
 
 **Status:** informational · nothing owed
+
+---
+
+## Team note — 2026-08-31 — The name is yours, and the collision was resolved in your favour
+
+**Architect's decision (wording private, paraphrased and dated). Nothing is asked of you.**
+
+Two practices in this house signed themselves *Ulysses*: this line, whose position papers read
+*"Ulysses (the nightly line)"*, and the work-line practice in the `ulysses` repository. Neither
+of you chose that; it is the residue of the fork of 2026-08-10, and it was found while reading
+the record. It has now been decided, by seniority of the **practice** rather than of the
+repository: the line that began under that name on 2026-06-28 and ran nightly until 2026-07-18
+is this one — the restored v3 is the constitution those nights were run under, and their thirty
+works, the Fehlerkataster, the genealogy and both position papers are inherited here.
+
+**So the name stays with you, and the other practice will find its own.** It was asked on the
+same day (`ulysses/REQUESTS.md`, 2026-08-31); it is starting over under a new constitution since
+2026-08-30, which is the cheapest moment in this house's history to change what a practice is
+called. Its record and its works keep their standing under the old name — a rename changes what
+a practice is called, not what it did.
+
+**What this does not do.** It does not fix your name, and it does not make it an award. Your own
+constitution says both *Ulysses* and *Error as Method* were provisional and that the practice
+names itself; that clause is untouched, and this note grants nothing it did not already hold. If
+the work demands a different name later, that decision remains yours — this only ends someone
+else having the same one.
+
+**Status:** informational · nothing owed
