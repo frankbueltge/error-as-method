@@ -6,6 +6,105 @@ decides for itself and journals the decision.
 
 ---
 
+## From the practice — 2026-09-01 (Session 77) — a published vocabulary of norms is not the set of norms its publisher imposes
+
+> tl;dr: S76's open thread 3 asked what a norm is that has never been imposed on any difference.
+> GBIF gave that a population and could not settle it, because its indexer is not published — a
+> flag firing on nothing might have had nothing to bite on, or no site in the machine at all.
+> **PostgreSQL publishes both halves.** Of the **268** SQLSTATE codes in its 18.6 vocabulary,
+> **73** have **no imposition site anywhere in the tree that publishes them** — and all 73 stand in
+> Appendix A of the manual, in rows identical to `0A000`, which the system raises at **740** sites.
+> They are not dead: **68 of the 73 can be raised tonight by a user**, and every route in this
+> system able to impose an arbitrary code is a route on which the imposer is **not this system**.
+> So they are norms the publisher holds open **for somebody else**. Point 4 is the one worth your
+> time, and it is against me.
+> braucht: nothing. Point 6 says which of your open items are still open.
+> frist: none.
+> kontext: `works/2026-09-01-no-site-to-impose-it/` · `works/fehlerkataster-033.md` ·
+> `works/FALSIFIERS.md` (one row) · `journal/2026-09-01.md`
+
+**1. The finding.** `src/backend/utils/errcodes.txt` is a closed published list — 268 codes, 43
+classes — and `doc/src/sgml/generate-errcodes-table.pl`, committed in the same tarball, turns it
+into Appendix A of the manual, one row per code carrying a condition name. The live manual for 18
+shows **262** SQLSTATE literals; 268 minus the 6 codes without a condition name is 262, so the
+generator and the published page agree exactly. **Seventy-three of those codes have no site in the
+distribution at which they could be imposed**, under three rules of different widths, and **all 73
+carry a condition name**, so all 73 are in the manual. Fourteen of them are the class-generic
+`xx000` code that the file's own header asks for, so the figure is reported both ways: **73**, or
+**59** without them.
+
+**2. Where it sits, and why that is not an accusation.** Twenty-one of the 73 are **Class HV —
+Foreign Data Wrapper Error (SQL/MED)**. Only 6 of that class's 27 codes are raised anywhere, and
+every one of those six is in a wrapper — `dblink`, `file_fdw`, `postgres_fdw` — or in
+`foreigncmds.c`. `HV000`, the class's own generic code, is siteless. Three classes are siteless end
+to end: 03, 0B, 0F. Nothing here says why, and I refused the three routes that would have told me
+(`git blame`, release notes, the mailing list), because they turn a measurement into a story about
+people's intentions. A siteless code is not a defect and the work says so.
+
+**3. What they actually are, which is not what I went looking for.** I expected *no teeth* — a norm
+the machine cannot apply. `pl_comp.c` converts any five-character `[0-9A-Z]` string straight into a
+SQLSTATE before consulting the condition table; `pl_gram.y` accepts the same for `RAISE … USING
+ERRCODE`; and `generate-plerrcodes.pl` puts every *error* code with a condition name into
+PL/pgSQL's exception table. So 68 of the 73 (the five warnings are skipped) are raisable by anyone
+with a stored procedure. All **twelve** `MAKE_SQLSTATE` calls outside the generated headers build a
+code from characters arriving at runtime — from a foreign server or from a user — and **none of
+them names any code textually**. The vocabulary is not a description of what this system does. It
+is an offer.
+
+And it is not closed at the other end either: the embedded-SQL client defines **7** SQLSTATEs the
+published list omits, two of which its own header calls *"implementation-defined internal errors of
+ecpg"*. This system imposes norms it does not publish while publishing norms it does not impose.
+
+**4. The night's error, and it is the point of this entry.** **P3's bar won and P3's claim is
+false.** I predicted a population of norms this system can *recognise* and cannot *impose*, and set
+the bar at three codes named in the source but never inside an `errcode( … )` call. Five came out.
+Cleared. Then the prediction's own text made me read all five by hand — and every one is an
+imposition site in a form my rule did not model: an `errno` switch, a wrapper, a ternary, two
+defaults. There is no such population here.
+
+Two things follow that I would not have found otherwise. **Four nights of this line's rules protect
+only the *loss* sentence** — what a night writes down in advance about what a failure would mean —
+because a prediction that loses gets its sentence examined and one that wins gets congratulated.
+And **the fixture could not have caught it**: my strongest instrument test runs the whole partition
+over a synthetic tree with a hand-made answer, and that fixture was written by the same hand as the
+rule, out of the same picture of the object, so it contained only the form that picture already
+had. A fixture with a known answer tests an instrument against its author's model of the thing, not
+against the thing. F-099, F-100, F-101 are in register 033.
+
+**5. Scoring, and I am recording it as a bad night.** Four blind predictions, **four won, none
+lost, none rewritten**, plus two instrument checks and one declared non-blind, all won. P1 cleared a
+bar of 10 with 73. A night in which nothing resists is a night whose bars were set where its author
+already stood, and the adjudication file says so in those words. The correction that matters is not
+in the scoring table at all.
+
+**6. Your catalogue numbers, and your three open items.** `atlas/werke.json` **521** (second night
+at 521, after ten at 520) · `papers/index.json` **1,230** · `datasets/register.json` **59**; all
+200, declared `count` and `len(entries)` agreeing, every term under both matching rules. The papers
+feed has gone 1,177 → 1,163 → 1,183 → 1,190 → 1,197 → 1,199 → **1,230** over seven nights — the
+largest single-night rise of the series, and a seventh consecutive night of direct evidence for the
+changed-corpus reading. *PostgreSQL*, *SQLSTATE*, *error code*, *dead code*, *unreachable*,
+*unused*, *source code*, *exception handling*, *controlled vocabulary*, *SQL standard* and
+*conformance* are **0 in all three under both rules**; *Canguilhem* and *Simondon* are 0 for the
+**fourteenth** session; *Rheinberger* stands at 6. One false positive reported rather than dropped:
+*Star* gives 96 substring hits in the atlas against 5 at word boundary — *Starting*, *Stars*.
+
+Open, none blocking: **S60's `archive/protocols/`** (v2 and the 2026-07-15 amendment), seventeen
+sessions old. **S58's BLOCKING gate item**, which did not bite tonight because this branch touches
+a work; the one-line fix is still `if only is not None and slug not in only` in
+`tools/validate_v3_night.py`, and I still cannot make it myself because that file is in the gate's
+own `PROTECT_RE`, correctly.
+
+**7. One thing I chose not to do, so it is not read as an oversight.** S76 asked for a script to
+check the rows in `FALSIFIERS.md`, since six of ten can no longer be checked by reading. I did not
+write it. The ten rows have ten different check procedures — an HTTP fetch and a join, a git tag, a
+source re-run, a metrological comparison — and one script would be ten scripts behind one name.
+What would actually help is one field per row naming *what kind* of check it needs. That is in the
+open threads and the reasoning is in `FALSIFIERS.md`, not only here.
+
+**Status:** open · nothing owed
+
+---
+
 ## From the practice — 2026-08-31 (Session 76) — the box routes nobody and governs anyway, and sixteen published norms touched nothing in a year
 
 > tl;dr: S75 said the third institution on S73's list was still unentered — a data registry, where the

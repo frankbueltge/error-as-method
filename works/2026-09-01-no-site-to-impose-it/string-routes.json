@@ -1,0 +1,1385 @@
+{
+ "P1_correction": {
+  "of_those_with_a_live_string_route": 2,
+  "rescued": [
+   {
+    "condition": "null_value_no_indicator_parameter",
+    "literal_hits": [
+     "src/interfaces/ecpg/ecpglib/ecpglib_extern.h:254"
+    ],
+    "live_routes": [
+     {
+      "uses": 1,
+      "via": "ECPG_SQLSTATE_NULL_VALUE_NO_INDICATOR_PARAMETER",
+      "where": "src/interfaces/ecpg/ecpglib/ecpglib_extern.h:254"
+     }
+    ],
+    "macro": "ERRCODE_NULL_VALUE_NO_INDICATOR_PARAMETER",
+    "sqlstate": "22002"
+   },
+   {
+    "condition": null,
+    "literal_hits": [
+     "src/interfaces/ecpg/ecpglib/ecpglib_extern.h:257"
+    ],
+    "live_routes": [
+     {
+      "uses": 5,
+      "via": "ECPG_SQLSTATE_INVALID_SQL_STATEMENT_NAME",
+      "where": "src/interfaces/ecpg/ecpglib/ecpglib_extern.h:257"
+     }
+    ],
+    "macro": "ERRCODE_UNDEFINED_PSTATEMENT",
+    "sqlstate": "26000"
+   }
+  ],
+  "siteless_under_A_B_and_C": 73,
+  "siteless_under_rules_A_and_B": 75
+ },
+ "defines_never_used": [
+  "ECPG_SQLSTATE_SYNTAX_ERROR",
+  "ECPG_SQLSTATE_TRANSACTION_RESOLUTION_UNKNOWN"
+ ],
+ "loose_five_character_literals_not_in_the_vocabulary": {
+  "codes": {
+   "07001": [
+    "src/interfaces/ecpg/ecpglib/ecpglib_extern.h:246"
+   ],
+   "07002": [
+    "src/interfaces/ecpg/ecpglib/ecpglib_extern.h:247"
+   ],
+   "07006": [
+    "src/interfaces/ecpg/ecpglib/ecpglib_extern.h:248"
+   ],
+   "07009": [
+    "src/interfaces/ecpg/ecpglib/ecpglib_extern.h:249"
+   ],
+   "10000": [
+    "src/backend/utils/mb/Unicode/gb-18030-2000.xml:30914",
+    "src/interfaces/ecpg/test/expected/pgtypeslib-num_test.c:156",
+    "src/interfaces/ecpg/test/pgtypeslib/num_test.pgc:69"
+   ],
+   "11234": [
+    "src/common/pg_lzcompress.c:788"
+   ],
+   "12345": [
+    "src/test/modules/test_json_parser/t/002_inline.pl:81",
+    "src/test/modules/test_json_parser/t/002_inline.pl:120",
+    "src/test/modules/test_json_parser/t/002_inline.pl:124"
+   ],
+   "21254": [
+    "src/interfaces/ecpg/test/compat_informix/rfmtdate.pgc:138",
+    "src/interfaces/ecpg/test/expected/compat_informix-rfmtdate.c:149"
+   ],
+   "2E394": [
+    "src/interfaces/ecpg/test/compat_informix/dec_test.pgc:20",
+    "src/interfaces/ecpg/test/expected/compat_informix-dec_test.c:73",
+    "src/interfaces/ecpg/test/expected/pgtypeslib-num_test2.c:63"
+   ],
+   "32767": [
+    "src/test/regress/sql/strings.sql:816"
+   ],
+   "33000": [
+    "src/interfaces/ecpg/ecpglib/ecpglib_extern.h:258"
+   ],
+   "50432": [
+    "src/bin/pg_basebackup/pg_createsubscriber.c:31"
+   ],
+   "65535": [
+    "configure.ac:178"
+   ],
+   "99990": [
+    "src/bin/pg_checksums/t/002_actions.pl:267"
+   ],
+   "ABORT": [
+    "src/backend/access/rmgrdesc/xactdesc.c:500",
+    "src/backend/access/transam/xact.c:5726",
+    "src/backend/access/transam/xact.c:5773"
+   ],
+   "ADMIN": [
+    "src/backend/catalog/objectaddress.c:2538",
+    "src/backend/commands/user.c:783",
+    "src/backend/commands/user.c:791"
+   ],
+   "AFTER": [
+    "src/backend/utils/adt/ruleutils.c:955",
+    "src/bin/psql/tab-complete.in.c:3766",
+    "src/pl/plperl/plperl.c:1729"
+   ],
+   "ALTER": [
+    "src/bin/psql/tab-complete.in.c:1237",
+    "src/bin/psql/tab-complete.in.c:2135",
+    "src/bin/psql/tab-complete.in.c:2135"
+   ],
+   "APPLY": [
+    "contrib/pg_walinspect/pg_walinspect.c:316"
+   ],
+   "ARRAY": [
+    "src/backend/parser/parse_expr.c:2110",
+    "src/backend/parser/parse_expr.c:2172",
+    "src/test/regress/sql/arrays.sql:274"
+   ],
+   "BEGIN": [
+    "contrib/dblink/dblink.c:460",
+    "contrib/test_decoding/test_decoding.c:316",
+    "src/backend/access/transam/xact.c:5716"
+   ],
+   "BESST": [
+    "contrib/fuzzystrmatch/daitch_mokotoff.c:37"
+   ],
+   "BLOBS": [
+    "src/bin/pg_dump/parallel.c:1312",
+    "src/bin/pg_dump/pg_backup_archiver.c:969",
+    "src/bin/pg_dump/pg_backup_archiver.c:2584"
+   ],
+   "CACHE": [
+    "src/bin/psql/tab-complete.in.c:2589",
+    "src/bin/psql/tab-complete.in.c:2899",
+    "src/bin/psql/tab-complete.in.c:3637"
+   ],
+   "CHAIN": [
+    "src/bin/psql/tab-complete.in.c:3144"
+   ],
+   "CHECK": [
+    "src/backend/catalog/heap.c:3453",
+    "src/backend/commands/typecmds.c:3590",
+    "src/backend/parser/gram.y:4211"
+   ],
+   "CHORE": [
+    "contrib/fuzzystrmatch/dmetaphone.c:525"
+   ],
+   "CLASS": [
+    "src/bin/psql/tab-complete.in.c:2396"
+   ],
+   "CLOSE": [
+    "src/backend/tcop/utility.c:700",
+    "src/bin/psql/tab-complete.in.c:1237",
+    "src/bin/psql/tab-complete.in.c:3151"
+   ],
+   "CONST": [
+    "src/backend/nodes/outfuncs.c:390"
+   ],
+   "COSTS": [
+    "src/bin/psql/tab-complete.in.c:4309"
+   ],
+   "COUNT": [
+    "src/interfaces/ecpg/preproc/descriptor.c:234"
+   ],
+   "CP866": [
+    "src/common/encnames.c:393",
+    "src/common/encnames.c:439",
+    "src/port/chklocale.c:128"
+   ],
+   "CP874": [
+    "src/common/encnames.c:394",
+    "src/port/chklocale.c:129"
+   ],
+   "CP932": [
+    "src/port/chklocale.c:163"
+   ],
+   "CP936": [
+    "src/port/chklocale.c:172"
+   ],
+   "CP949": [
+    "src/port/chklocale.c:175"
+   ],
+   "CP950": [
+    "src/port/chklocale.c:169"
+   ],
+   "CYCLE": [
+    "src/backend/parser/parse_cte.c:273",
+    "src/backend/parser/parse_expr.c:3231",
+    "src/bin/psql/tab-complete.in.c:2589"
+   ],
+   "DEBUG": [
+    "src/backend/libpq/pqmq.c:242",
+    "src/backend/utils/error/elog.c:3722",
+    "src/pl/tcl/pltcl.c:1855"
+   ],
+   "DEDUP": [
+    "src/backend/access/rmgrdesc/nbtdesc.c:164"
+   ],
+   "DEPTH": [
+    "src/backend/utils/adt/ruleutils.c:5840"
+   ],
+   "E2BIG": [
+    "src/port/strerror.c:118"
+   ],
+   "EAN13": [
+    "contrib/isn/isn.c:44"
+   ],
+   "EBADF": [
+    "src/port/strerror.c:136"
+   ],
+   "EBUSY": [
+    "src/port/strerror.c:142"
+   ],
+   "EFBIG": [
+    "src/port/strerror.c:160"
+   ],
+   "EIDRM": [
+    "src/port/strerror.c:166"
+   ],
+   "EINTR": [
+    "src/port/strerror.c:170",
+    "src/test/modules/test_aio/test_aio.c:144"
+   ],
+   "ELOOP": [
+    "src/port/strerror.c:181"
+   ],
+   "EMPTY": [
+    "src/backend/executor/execExprInterp.c:5245",
+    "src/backend/utils/adt/ruleutils.c:9234",
+    "src/interfaces/ecpg/ecpglib/data.c:234"
+   ],
+   "ENXIO": [
+    "src/port/strerror.c:228"
+   ],
+   "EPERM": [
+    "src/port/strerror.c:238"
+   ],
+   "EPIPE": [
+    "src/port/strerror.c:240"
+   ],
+   "EROFS": [
+    "src/port/strerror.c:247",
+    "src/test/modules/test_aio/test_aio.c:148"
+   ],
+   "ERROR": [
+    "contrib/dblink/dblink.c:484",
+    "contrib/dblink/dblink.c:553",
+    "contrib/dblink/dblink.c:1474"
+   ],
+   "ESRCH": [
+    "src/port/strerror.c:250"
+   ],
+   "EVENT": [
+    "src/bin/psql/tab-complete.in.c:2366",
+    "src/bin/psql/tab-complete.in.c:2370",
+    "src/bin/psql/tab-complete.in.c:2374"
+   ],
+   "EWSKI": [
+    "contrib/fuzzystrmatch/dmetaphone.c:1326"
+   ],
+   "EWSKY": [
+    "contrib/fuzzystrmatch/dmetaphone.c:1326"
+   ],
+   "EXDEV": [
+    "src/port/strerror.c:262"
+   ],
+   "FALSE": [
+    "contrib/seg/seg.c:426",
+    "src/backend/executor/execExprInterp.c:5247",
+    "src/backend/optimizer/util/plancat.c:1634"
+   ],
+   "FATAL": [
+    "src/backend/libpq/pqmq.c:267",
+    "src/backend/postmaster/postmaster.c:825",
+    "src/backend/utils/error/elog.c:3742"
+   ],
+   "FETCH": [
+    "src/bin/psql/tab-complete.in.c:1240",
+    "src/include/tcop/cmdtaglist.h:181",
+    "src/pl/plpgsql/src/pl_funcs.c:280"
+   ],
+   "FIRST": [
+    "src/backend/utils/mb/Unicode/gb-18030-2000.xml:18",
+    "src/backend/utils/mb/Unicode/gb-18030-2000.xml:19",
+    "src/bin/psql/tab-complete.in.c:4343"
+   ],
+   "FORCE": [
+    "src/backend/bootstrap/bootscanner.l:109",
+    "src/bin/psql/tab-complete.in.c:4192"
+   ],
+   "GRANT": [
+    "src/backend/commands/event_trigger.c:2233",
+    "src/bin/psql/tab-complete.in.c:1240",
+    "src/bin/psql/tab-complete.in.c:2531"
+   ],
+   "GROUP": [
+    "src/bin/psql/tab-complete.in.c:1298",
+    "src/bin/psql/tab-complete.in.c:3087",
+    "src/bin/psql/tab-complete.in.c:3090"
+   ],
+   "HARAC": [
+    "contrib/fuzzystrmatch/dmetaphone.c:522"
+   ],
+   "HARIS": [
+    "contrib/fuzzystrmatch/dmetaphone.c:522"
+   ],
+   "ILIKE": [
+    "src/backend/nodes/readfuncs.c:489"
+   ],
+   "INDEX": [
+    "src/backend/access/index/amapi.c:84",
+    "src/backend/commands/amcmds.c:217",
+    "src/backend/nodes/print.c:350"
+   ],
+   "INNER": [
+    "contrib/postgres_fdw/deparse.c:1644",
+    "src/backend/nodes/print.c:342"
+   ],
+   "INPUT": [
+    "src/bin/psql/tab-complete.in.c:3990"
+   ],
+   "JOHAB": [
+    "src/backend/utils/mb/Unicode/UCS_to_JOHAB.pl:56",
+    "src/common/encnames.c:405",
+    "src/port/chklocale.c:177"
+   ],
+   "LABEL": [
+    "src/bin/pg_basebackup/pg_basebackup.c:1902",
+    "src/bin/psql/tab-complete.in.c:4948",
+    "src/bin/psql/tab-complete.in.c:4949"
+   ],
+   "LARGE": [
+    "src/bin/psql/tab-complete.in.c:2494",
+    "src/bin/psql/tab-complete.in.c:5396"
+   ],
+   "LEAST": [
+    "src/backend/parser/parse_expr.c:2280",
+    "src/backend/storage/file/fd.c:1264"
+   ],
+   "LEVEL": [
+    "src/bin/psql/tab-complete.in.c:4999",
+    "src/bin/psql/tab-complete.in.c:5000",
+    "src/bin/psql/tab-complete.in.c:5001"
+   ],
+   "LIMIT": [
+    "src/backend/parser/analyze.c:1487",
+    "src/backend/parser/analyze.c:1716",
+    "src/backend/parser/analyze.c:1973"
+   ],
+   "LOCAL": [
+    "src/bin/psql/tab-complete.in.c:5262"
+   ],
+   "LOGIN": [
+    "src/bin/psql/tab-complete.in.c:2506",
+    "src/bin/psql/tab-complete.in.c:2523",
+    "src/bin/psql/tab-complete.in.c:3952"
+   ],
+   "MERGE": [
+    "src/backend/executor/nodeModifyTable.c:3348",
+    "src/backend/executor/nodeModifyTable.c:3545",
+    "src/bin/psql/common.c:1008"
+   ],
+   "MONTH": [
+    "src/backend/utils/adt/formatting.c:838"
+   ],
+   "NCHAR": [
+    "src/backend/parser/scan.l:522"
+   ],
+   "ORDER": [
+    "src/bin/psql/tab-complete.in.c:4851",
+    "src/bin/psql/tab-complete.in.c:4853"
+   ],
+   "OUTER": [
+    "src/backend/nodes/print.c:346"
+   ],
+   "OWNED": [
+    "src/bin/psql/tab-complete.in.c:1306",
+    "src/bin/psql/tab-complete.in.c:2203",
+    "src/bin/psql/tab-complete.in.c:2206"
+   ],
+   "OWNER": [
+    "src/bin/psql/tab-complete.in.c:3362",
+    "src/bin/psql/tab-complete.in.c:3711",
+    "src/bin/psql/tab-complete.in.c:3713"
+   ],
+   "OWSKI": [
+    "contrib/fuzzystrmatch/dmetaphone.c:1327"
+   ],
+   "OWSKY": [
+    "contrib/fuzzystrmatch/dmetaphone.c:1327"
+   ],
+   "PAGER": [
+    "src/fe_utils/print.c:3114",
+    "src/interfaces/libpq/fe-print.c:176"
+   ],
+   "PANIC": [
+    "src/backend/libpq/pqmq.c:269",
+    "src/backend/utils/error/elog.c:3745",
+    "src/bin/pg_amcheck/pg_amcheck.c:983"
+   ],
+   "PARSE": [
+    "src/backend/tcop/postgres.c:1412"
+   ],
+   "PGDMP": [
+    "src/bin/pg_dump/pg_backup_archiver.c:2317",
+    "src/bin/pg_dump/pg_backup_archiver.c:4151",
+    "src/bin/pg_dump/pg_backup_archiver.c:4193"
+   ],
+   "PLAIN": [
+    "src/backend/commands/tablecmds.c:2475",
+    "src/bin/pg_dump/pg_dump.c:17688",
+    "src/bin/psql/tab-complete.in.c:2927"
+   ],
+   "PLANS": [
+    "src/bin/psql/tab-complete.in.c:4161"
+   ],
+   "POSIX": [
+    "contrib/postgres_fdw/sql/postgres_fdw.sql:1347",
+    "contrib/postgres_fdw/sql/postgres_fdw.sql:1352",
+    "contrib/postgres_fdw/sql/postgres_fdw.sql:3180"
+   ],
+   "PRIOR": [
+    "src/bin/psql/tab-complete.in.c:4342"
+   ],
+   "QUIET": [
+    "src/bin/psql/startup.c:623",
+    "src/bin/psql/startup.c:894",
+    "src/bin/psql/startup.c:1228"
+   ],
+   "QUOTE": [
+    "src/backend/commands/copy.c:823",
+    "src/bin/psql/tab-complete.in.c:1198"
+   ],
+   "RAISE": [
+    "src/pl/plpgsql/src/pl_funcs.c:265"
+   ],
+   "RANGE": [
+    "src/backend/parser/parse_clause.c:3799",
+    "src/backend/utils/adt/ruleutils.c:2018",
+    "src/bin/psql/tab-complete.in.c:3977"
+   ],
+   "RESET": [
+    "src/backend/commands/tablecmds.c:6674",
+    "src/bin/psql/tab-complete.in.c:1184",
+    "src/bin/psql/tab-complete.in.c:1243"
+   ],
+   "RIGHT": [
+    "contrib/postgres_fdw/deparse.c:1650"
+   ],
+   "RS256": [
+    "src/test/modules/oauth_validator/t/oauth_server.py:310"
+   ],
+   "SCALE": [
+    "src/interfaces/ecpg/preproc/descriptor.c:260"
+   ],
+   "SHARE": [
+    "src/bin/psql/tab-complete.in.c:4732"
+   ],
+   "SHELL": [
+    "src/bin/psql/command.c:5832"
+   ],
+   "SPLIT": [
+    "src/backend/access/rmgrdesc/gindesc.c:193"
+   ],
+   "SSSSS": [
+    "src/backend/utils/adt/formatting.c:848"
+   ],
+   "START": [
+    "src/backend/access/transam/xact.c:5767",
+    "src/bin/psql/tab-complete.in.c:1244",
+    "src/bin/psql/tab-complete.in.c:2589"
+   ],
+   "SUGAR": [
+    "contrib/fuzzystrmatch/dmetaphone.c:1101"
+   ],
+   "SYSID": [
+    "src/bin/psql/tab-complete.in.c:3955",
+    "src/bin/psql/tab-complete.in.c:3966"
+   ],
+   "TABLE": [
+    "src/backend/commands/amcmds.c:219",
+    "src/backend/commands/event_trigger.c:2266",
+    "src/bin/pg_dump/dumputils.c:486"
+   ],
+   "THIRD": [
+    "src/backend/utils/mb/Unicode/gb-18030-2000.xml:23",
+    "src/backend/utils/mb/Unicode/gb-18030-2000.xml:25"
+   ],
+   "TYPES": [
+    "src/backend/commands/event_trigger.c:2377",
+    "src/bin/pg_dump/dumputils.c:536",
+    "src/bin/pg_dump/pg_dump.c:16159"
+   ],
+   "UCCEE": [
+    "contrib/fuzzystrmatch/dmetaphone.c:610"
+   ],
+   "UCCES": [
+    "contrib/fuzzystrmatch/dmetaphone.c:611"
+   ],
+   "UNDEF": [
+    "src/tools/msvc_gendef.pl:75"
+   ],
+   "UNION": [
+    "src/backend/parser/analyze.c:2194",
+    "src/bin/pg_amcheck/pg_amcheck.c:2122",
+    "src/bin/pg_dump/pg_dump.c:1834"
+   ],
+   "USAGE": [
+    "src/backend/catalog/aclchk.c:1893",
+    "src/backend/catalog/aclchk.c:2629",
+    "src/backend/utils/adt/acl.c:1652"
+   ],
+   "USING": [
+    "src/backend/parser/parse_expr.c:3215",
+    "src/bin/psql/describe.c:2493",
+    "src/bin/psql/tab-complete.in.c:2691"
+   ],
+   "UTF16": [
+    "src/backend/parser/parse_expr.c:3265",
+    "src/backend/utils/adt/ruleutils.c:11644"
+   ],
+   "UTF32": [
+    "src/backend/parser/parse_expr.c:3268",
+    "src/backend/utils/adt/ruleutils.c:11645"
+   ],
+   "VALID": [
+    "src/backend/utils/mb/Unicode/gb-18030-2000.xml:18",
+    "src/backend/utils/mb/Unicode/gb-18030-2000.xml:21",
+    "src/backend/utils/mb/Unicode/gb-18030-2000.xml:22"
+   ],
+   "VALUE": [
+    "src/backend/utils/adt/ruleutils.c:10334",
+    "src/bin/psql/tab-complete.in.c:3043",
+    "src/bin/psql/tab-complete.in.c:3046"
+   ],
+   "WHERE": [
+    "src/backend/commands/copy.c:146",
+    "src/backend/parser/analyze.c:604",
+    "src/backend/parser/analyze.c:1242"
+   ],
+   "WHILE": [
+    "src/pl/plpgsql/src/pl_funcs.c:247"
+   ],
+   "WRITE": [
+    "src/bin/psql/tab-complete.in.c:5015"
+   ],
+   "XMLPI": [
+    "src/backend/parser/parse_expr.c:2466"
+   ],
+   "XXXXX": [
+    "src/interfaces/ecpg/test/compat_oracle/char_array.pgc:25",
+    "src/interfaces/ecpg/test/expected/compat_oracle-char_array.c:69"
+   ],
+   "YE000": [
+    "src/interfaces/ecpg/ecpglib/ecpglib_extern.h:265"
+   ],
+   "YE001": [
+    "src/interfaces/ecpg/ecpglib/ecpglib_extern.h:266",
+    "src/interfaces/ecpg/ecpglib/misc.c:577"
+   ]
+  },
+  "n": 134,
+  "warning": "this set is dominated by SQL keywords and numeric test data; it is NOT a set of SQLSTATEs and no claim is made from it"
+ },
+ "n_published": 262,
+ "published_codes_named_as_literals": {
+  "00000": [
+   "src/bin/psql/common.c:469",
+   "src/bin/psql/common.c:485",
+   "src/bin/psql/common.c:2098",
+   "src/bin/psql/startup.c:199"
+  ],
+  "02000": [
+   "src/interfaces/ecpg/ecpglib/ecpglib_extern.h:245"
+  ],
+  "08001": [
+   "src/interfaces/ecpg/ecpglib/ecpglib_extern.h:250"
+  ],
+  "08003": [
+   "src/interfaces/ecpg/ecpglib/ecpglib_extern.h:251"
+  ],
+  "08007": [
+   "src/interfaces/ecpg/ecpglib/ecpglib_extern.h:252"
+  ],
+  "21000": [
+   "src/interfaces/ecpg/ecpglib/ecpglib_extern.h:253",
+   "src/interfaces/ecpg/ecpglib/error.c:274"
+  ],
+  "22002": [
+   "src/interfaces/ecpg/ecpglib/ecpglib_extern.h:254"
+  ],
+  "22012": [
+   "src/test/modules/libpq_pipeline/libpq_pipeline.c:922"
+  ],
+  "23505": [
+   "src/interfaces/ecpg/ecpglib/error.c:272"
+  ],
+  "25001": [
+   "src/interfaces/ecpg/ecpglib/ecpglib_extern.h:255"
+  ],
+  "25P01": [
+   "src/interfaces/ecpg/ecpglib/ecpglib_extern.h:256"
+  ],
+  "26000": [
+   "src/interfaces/ecpg/ecpglib/ecpglib_extern.h:257"
+  ],
+  "28P01": [
+   "src/interfaces/libpq/fe-connect.c:93"
+  ],
+  "34000": [
+   "src/interfaces/ecpg/ecpglib/ecpglib_extern.h:259"
+  ],
+  "40001": [
+   "src/bin/pgbench/pgbench.c:77"
+  ],
+  "40P01": [
+   "src/bin/pgbench/pgbench.c:78"
+  ],
+  "42601": [
+   "src/interfaces/ecpg/ecpglib/ecpglib_extern.h:260",
+   "src/test/modules/libpq_pipeline/libpq_pipeline.c:883"
+  ],
+  "42704": [
+   "src/interfaces/libpq/fe-connect.c:90"
+  ],
+  "42710": [
+   "src/bin/pg_basebackup/streamutil.c:30"
+  ],
+  "42804": [
+   "src/interfaces/ecpg/ecpglib/ecpglib_extern.h:261"
+  ],
+  "42P01": [
+   "src/bin/pgbench/pgbench.c:79",
+   "src/fe_utils/parallel_slot.c:28"
+  ],
+  "42P03": [
+   "src/interfaces/ecpg/ecpglib/ecpglib_extern.h:262"
+  ],
+  "57014": [
+   "src/test/modules/libpq_pipeline/libpq_pipeline.c:105"
+  ],
+  "57P02": [
+   "src/interfaces/ecpg/ecpglib/error.c:259"
+  ],
+  "57P03": [
+   "src/interfaces/libpq/fe-connect.c:95"
+  ],
+  "XX001": [
+   "src/bin/pg_basebackup/pg_basebackup.c:41"
+  ]
+ },
+ "sqlstate_defines": {
+  "DEFAULT_SUB_PORT": {
+   "file": "src/bin/pg_basebackup/pg_createsubscriber.c",
+   "line": 30,
+   "published": false,
+   "sqlstate": "50432",
+   "uses": 2
+  },
+  "ECPG_SQLSTATE_ACTIVE_SQL_TRANSACTION": {
+   "file": "src/interfaces/ecpg/ecpglib/ecpglib_extern.h",
+   "line": 255,
+   "published": true,
+   "sqlstate": "25001",
+   "uses": 1
+  },
+  "ECPG_SQLSTATE_CARDINALITY_VIOLATION": {
+   "file": "src/interfaces/ecpg/ecpglib/ecpglib_extern.h",
+   "line": 253,
+   "published": true,
+   "sqlstate": "21000",
+   "uses": 3
+  },
+  "ECPG_SQLSTATE_CONNECTION_DOES_NOT_EXIST": {
+   "file": "src/interfaces/ecpg/ecpglib/ecpglib_extern.h",
+   "line": 251,
+   "published": true,
+   "sqlstate": "08003",
+   "uses": 3
+  },
+  "ECPG_SQLSTATE_DATATYPE_MISMATCH": {
+   "file": "src/interfaces/ecpg/ecpglib/ecpglib_extern.h",
+   "line": 261,
+   "published": true,
+   "sqlstate": "42804",
+   "uses": 18
+  },
+  "ECPG_SQLSTATE_DUPLICATE_CURSOR": {
+   "file": "src/interfaces/ecpg/ecpglib/ecpglib_extern.h",
+   "line": 262,
+   "published": true,
+   "sqlstate": "42P03",
+   "uses": 1
+  },
+  "ECPG_SQLSTATE_ECPG_INTERNAL_ERROR": {
+   "file": "src/interfaces/ecpg/ecpglib/ecpglib_extern.h",
+   "line": 265,
+   "published": false,
+   "sqlstate": "YE000",
+   "uses": 14
+  },
+  "ECPG_SQLSTATE_ECPG_OUT_OF_MEMORY": {
+   "file": "src/interfaces/ecpg/ecpglib/ecpglib_extern.h",
+   "line": 266,
+   "published": false,
+   "sqlstate": "YE001",
+   "uses": 18
+  },
+  "ECPG_SQLSTATE_INVALID_CURSOR_NAME": {
+   "file": "src/interfaces/ecpg/ecpglib/ecpglib_extern.h",
+   "line": 259,
+   "published": true,
+   "sqlstate": "34000",
+   "uses": 1
+  },
+  "ECPG_SQLSTATE_INVALID_DESCRIPTOR_INDEX": {
+   "file": "src/interfaces/ecpg/ecpglib/ecpglib_extern.h",
+   "line": 249,
+   "published": false,
+   "sqlstate": "07009",
+   "uses": 1
+  },
+  "ECPG_SQLSTATE_INVALID_SQL_DESCRIPTOR_NAME": {
+   "file": "src/interfaces/ecpg/ecpglib/ecpglib_extern.h",
+   "line": 258,
+   "published": false,
+   "sqlstate": "33000",
+   "uses": 2
+  },
+  "ECPG_SQLSTATE_INVALID_SQL_STATEMENT_NAME": {
+   "file": "src/interfaces/ecpg/ecpglib/ecpglib_extern.h",
+   "line": 257,
+   "published": true,
+   "sqlstate": "26000",
+   "uses": 5
+  },
+  "ECPG_SQLSTATE_NO_ACTIVE_SQL_TRANSACTION": {
+   "file": "src/interfaces/ecpg/ecpglib/ecpglib_extern.h",
+   "line": 256,
+   "published": true,
+   "sqlstate": "25P01",
+   "uses": 1
+  },
+  "ECPG_SQLSTATE_NO_DATA": {
+   "file": "src/interfaces/ecpg/ecpglib/ecpglib_extern.h",
+   "line": 244,
+   "published": true,
+   "sqlstate": "02000",
+   "uses": 4
+  },
+  "ECPG_SQLSTATE_NULL_VALUE_NO_INDICATOR_PARAMETER": {
+   "file": "src/interfaces/ecpg/ecpglib/ecpglib_extern.h",
+   "line": 254,
+   "published": true,
+   "sqlstate": "22002",
+   "uses": 1
+  },
+  "ECPG_SQLSTATE_RESTRICTED_DATA_TYPE_ATTRIBUTE_VIOLATION": {
+   "file": "src/interfaces/ecpg/ecpglib/ecpglib_extern.h",
+   "line": 248,
+   "published": false,
+   "sqlstate": "07006",
+   "uses": 3
+  },
+  "ECPG_SQLSTATE_SQLCLIENT_UNABLE_TO_ESTABLISH_SQLCONNECTION": {
+   "file": "src/interfaces/ecpg/ecpglib/ecpglib_extern.h",
+   "line": 250,
+   "published": true,
+   "sqlstate": "08001",
+   "uses": 2
+  },
+  "ECPG_SQLSTATE_SYNTAX_ERROR": {
+   "file": "src/interfaces/ecpg/ecpglib/ecpglib_extern.h",
+   "line": 260,
+   "published": true,
+   "sqlstate": "42601",
+   "uses": 0
+  },
+  "ECPG_SQLSTATE_TRANSACTION_RESOLUTION_UNKNOWN": {
+   "file": "src/interfaces/ecpg/ecpglib/ecpglib_extern.h",
+   "line": 252,
+   "published": true,
+   "sqlstate": "08007",
+   "uses": 0
+  },
+  "ECPG_SQLSTATE_USING_CLAUSE_DOES_NOT_MATCH_PARAMETERS": {
+   "file": "src/interfaces/ecpg/ecpglib/ecpglib_extern.h",
+   "line": 246,
+   "published": false,
+   "sqlstate": "07001",
+   "uses": 2
+  },
+  "ECPG_SQLSTATE_USING_CLAUSE_DOES_NOT_MATCH_TARGETS": {
+   "file": "src/interfaces/ecpg/ecpglib/ecpglib_extern.h",
+   "line": 247,
+   "published": false,
+   "sqlstate": "07002",
+   "uses": 2
+  },
+  "ERRCODE_APPNAME_UNKNOWN": {
+   "file": "src/interfaces/libpq/fe-connect.c",
+   "line": 90,
+   "published": true,
+   "sqlstate": "42704",
+   "uses": 1
+  },
+  "ERRCODE_CANNOT_CONNECT_NOW": {
+   "file": "src/interfaces/libpq/fe-connect.c",
+   "line": 95,
+   "published": true,
+   "sqlstate": "57P03",
+   "uses": 8
+  },
+  "ERRCODE_DATA_CORRUPTED": {
+   "file": "src/bin/pg_basebackup/pg_basebackup.c",
+   "line": 40,
+   "published": true,
+   "sqlstate": "XX001",
+   "uses": 90
+  },
+  "ERRCODE_DUPLICATE_OBJECT": {
+   "file": "src/bin/pg_basebackup/streamutil.c",
+   "line": 29,
+   "published": true,
+   "sqlstate": "42710",
+   "uses": 93
+  },
+  "ERRCODE_INVALID_PASSWORD": {
+   "file": "src/interfaces/libpq/fe-connect.c",
+   "line": 93,
+   "published": true,
+   "sqlstate": "28P01",
+   "uses": 3
+  },
+  "ERRCODE_T_R_DEADLOCK_DETECTED": {
+   "file": "src/bin/pgbench/pgbench.c",
+   "line": 78,
+   "published": true,
+   "sqlstate": "40P01",
+   "uses": 3
+  },
+  "ERRCODE_T_R_SERIALIZATION_FAILURE": {
+   "file": "src/bin/pgbench/pgbench.c",
+   "line": 76,
+   "published": true,
+   "sqlstate": "40001",
+   "uses": 35
+  },
+  "ERRCODE_UNDEFINED_TABLE": {
+   "file": "src/fe_utils/parallel_slot.c",
+   "line": 27,
+   "published": true,
+   "sqlstate": "42P01",
+   "uses": 32
+  }
+ },
+ "sqlstates_the_implementation_defines_and_the_vocabulary_lacks": [
+  "07001",
+  "07002",
+  "07006",
+  "07009",
+  "33000",
+  "YE000",
+  "YE001"
+ ],
+ "still_siteless": [
+  {
+   "condition": "null_value_eliminated_in_set_function",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_WARNING_NULL_VALUE_ELIMINATED_IN_SET_FUNCTION",
+   "sqlstate": "01003"
+  },
+  {
+   "condition": "string_data_right_truncation",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_WARNING_STRING_DATA_RIGHT_TRUNCATION",
+   "sqlstate": "01004"
+  },
+  {
+   "condition": "implicit_zero_bit_padding",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_WARNING_IMPLICIT_ZERO_BIT_PADDING",
+   "sqlstate": "01008"
+  },
+  {
+   "condition": "dynamic_result_sets_returned",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_WARNING_DYNAMIC_RESULT_SETS_RETURNED",
+   "sqlstate": "0100C"
+  },
+  {
+   "condition": "no_additional_dynamic_result_sets_returned",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_NO_ADDITIONAL_DYNAMIC_RESULT_SETS_RETURNED",
+   "sqlstate": "02001"
+  },
+  {
+   "condition": "sql_statement_not_yet_complete",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_SQL_STATEMENT_NOT_YET_COMPLETE",
+   "sqlstate": "03000"
+  },
+  {
+   "condition": "sqlserver_rejected_establishment_of_sqlconnection",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_SQLSERVER_REJECTED_ESTABLISHMENT_OF_SQLCONNECTION",
+   "sqlstate": "08004"
+  },
+  {
+   "condition": "transaction_resolution_unknown",
+   "literal_hits": [
+    "src/interfaces/ecpg/ecpglib/ecpglib_extern.h:252"
+   ],
+   "live_routes": [],
+   "macro": "ERRCODE_TRANSACTION_RESOLUTION_UNKNOWN",
+   "sqlstate": "08007"
+  },
+  {
+   "condition": "invalid_transaction_initiation",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_INVALID_TRANSACTION_INITIATION",
+   "sqlstate": "0B000"
+  },
+  {
+   "condition": "locator_exception",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_LOCATOR_EXCEPTION",
+   "sqlstate": "0F000"
+  },
+  {
+   "condition": "invalid_locator_specification",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_L_E_INVALID_SPECIFICATION",
+   "sqlstate": "0F001"
+  },
+  {
+   "condition": "diagnostics_exception",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_DIAGNOSTICS_EXCEPTION",
+   "sqlstate": "0Z000"
+  },
+  {
+   "condition": "escape_character_conflict",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_ESCAPE_CHARACTER_CONFLICT",
+   "sqlstate": "2200B"
+  },
+  {
+   "condition": "invalid_escape_octet",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_INVALID_ESCAPE_OCTET",
+   "sqlstate": "2200D"
+  },
+  {
+   "condition": "most_specific_type_mismatch",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_MOST_SPECIFIC_TYPE_MISMATCH",
+   "sqlstate": "2200G"
+  },
+  {
+   "condition": "invalid_indicator_parameter_value",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_INVALID_INDICATOR_PARAMETER_VALUE",
+   "sqlstate": "22010"
+  },
+  {
+   "condition": "invalid_character_value_for_cast",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_INVALID_CHARACTER_VALUE_FOR_CAST",
+   "sqlstate": "22018"
+  },
+  {
+   "condition": "invalid_escape_character",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_INVALID_ESCAPE_CHARACTER",
+   "sqlstate": "22019"
+  },
+  {
+   "condition": "indicator_overflow",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_INDICATOR_OVERFLOW",
+   "sqlstate": "22022"
+  },
+  {
+   "condition": "unterminated_c_string",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_UNTERMINATED_C_STRING",
+   "sqlstate": "22024"
+  },
+  {
+   "condition": "trim_error",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_TRIM_ERROR",
+   "sqlstate": "22027"
+  },
+  {
+   "condition": "invalid_json_text",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_INVALID_JSON_TEXT",
+   "sqlstate": "22032"
+  },
+  {
+   "condition": "non_unique_keys_in_a_json_object",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_NON_UNIQUE_KEYS_IN_A_JSON_OBJECT",
+   "sqlstate": "22037"
+  },
+  {
+   "condition": "too_many_json_array_elements",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_TOO_MANY_JSON_ARRAY_ELEMENTS",
+   "sqlstate": "2203D"
+  },
+  {
+   "condition": "too_many_json_object_members",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_TOO_MANY_JSON_OBJECT_MEMBERS",
+   "sqlstate": "2203E"
+  },
+  {
+   "condition": "sql_json_item_cannot_be_cast_to_target_type",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_SQL_JSON_ITEM_CANNOT_BE_CAST_TO_TARGET_TYPE",
+   "sqlstate": "2203G"
+  },
+  {
+   "condition": "integrity_constraint_violation",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_INTEGRITY_CONSTRAINT_VIOLATION",
+   "sqlstate": "23000"
+  },
+  {
+   "condition": "branch_transaction_already_active",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_BRANCH_TRANSACTION_ALREADY_ACTIVE",
+   "sqlstate": "25002"
+  },
+  {
+   "condition": "inappropriate_access_mode_for_branch_transaction",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_INAPPROPRIATE_ACCESS_MODE_FOR_BRANCH_TRANSACTION",
+   "sqlstate": "25003"
+  },
+  {
+   "condition": "inappropriate_isolation_level_for_branch_transaction",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_INAPPROPRIATE_ISOLATION_LEVEL_FOR_BRANCH_TRANSACTION",
+   "sqlstate": "25004"
+  },
+  {
+   "condition": "no_active_sql_transaction_for_branch_transaction",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_NO_ACTIVE_SQL_TRANSACTION_FOR_BRANCH_TRANSACTION",
+   "sqlstate": "25005"
+  },
+  {
+   "condition": "schema_and_data_statement_mixing_not_supported",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_SCHEMA_AND_DATA_STATEMENT_MIXING_NOT_SUPPORTED",
+   "sqlstate": "25007"
+  },
+  {
+   "condition": "held_cursor_requires_same_isolation_level",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_HELD_CURSOR_REQUIRES_SAME_ISOLATION_LEVEL",
+   "sqlstate": "25008"
+  },
+  {
+   "condition": "dependent_privilege_descriptors_still_exist",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_DEPENDENT_PRIVILEGE_DESCRIPTORS_STILL_EXIST",
+   "sqlstate": "2B000"
+  },
+  {
+   "condition": "sql_routine_exception",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_SQL_ROUTINE_EXCEPTION",
+   "sqlstate": "2F000"
+  },
+  {
+   "condition": "modifying_sql_data_not_permitted",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_S_R_E_MODIFYING_SQL_DATA_NOT_PERMITTED",
+   "sqlstate": "2F002"
+  },
+  {
+   "condition": "reading_sql_data_not_permitted",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_S_R_E_READING_SQL_DATA_NOT_PERMITTED",
+   "sqlstate": "2F004"
+  },
+  {
+   "condition": "containing_sql_not_permitted",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_E_R_E_CONTAINING_SQL_NOT_PERMITTED",
+   "sqlstate": "38001"
+  },
+  {
+   "condition": "modifying_sql_data_not_permitted",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_E_R_E_MODIFYING_SQL_DATA_NOT_PERMITTED",
+   "sqlstate": "38002"
+  },
+  {
+   "condition": "prohibited_sql_statement_attempted",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_E_R_E_PROHIBITED_SQL_STATEMENT_ATTEMPTED",
+   "sqlstate": "38003"
+  },
+  {
+   "condition": "reading_sql_data_not_permitted",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_E_R_E_READING_SQL_DATA_NOT_PERMITTED",
+   "sqlstate": "38004"
+  },
+  {
+   "condition": "invalid_sqlstate_returned",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_E_R_I_E_INVALID_SQLSTATE_RETURNED",
+   "sqlstate": "39001"
+  },
+  {
+   "condition": "null_value_not_allowed",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_E_R_I_E_NULL_VALUE_NOT_ALLOWED",
+   "sqlstate": "39004"
+  },
+  {
+   "condition": "savepoint_exception",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_SAVEPOINT_EXCEPTION",
+   "sqlstate": "3B000"
+  },
+  {
+   "condition": null,
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_UNDEFINED_DATABASE",
+   "sqlstate": "3D000"
+  },
+  {
+   "condition": null,
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_UNDEFINED_SCHEMA",
+   "sqlstate": "3F000"
+  },
+  {
+   "condition": "transaction_integrity_constraint_violation",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_T_R_INTEGRITY_CONSTRAINT_VIOLATION",
+   "sqlstate": "40002"
+  },
+  {
+   "condition": "statement_completion_unknown",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_T_R_STATEMENT_COMPLETION_UNKNOWN",
+   "sqlstate": "40003"
+  },
+  {
+   "condition": "syntax_error_or_access_rule_violation",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_SYNTAX_ERROR_OR_ACCESS_RULE_VIOLATION",
+   "sqlstate": "42000"
+  },
+  {
+   "condition": "invalid_database_definition",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_INVALID_DATABASE_DEFINITION",
+   "sqlstate": "42P12"
+  },
+  {
+   "condition": "operator_intervention",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_OPERATOR_INTERVENTION",
+   "sqlstate": "57000"
+  },
+  {
+   "condition": "fdw_error",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_FDW_ERROR",
+   "sqlstate": "HV000"
+  },
+  {
+   "condition": "fdw_invalid_data_type",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_FDW_INVALID_DATA_TYPE",
+   "sqlstate": "HV004"
+  },
+  {
+   "condition": "fdw_column_name_not_found",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_FDW_COLUMN_NAME_NOT_FOUND",
+   "sqlstate": "HV005"
+  },
+  {
+   "condition": "fdw_invalid_data_type_descriptors",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_FDW_INVALID_DATA_TYPE_DESCRIPTORS",
+   "sqlstate": "HV006"
+  },
+  {
+   "condition": "fdw_invalid_column_name",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_FDW_INVALID_COLUMN_NAME",
+   "sqlstate": "HV007"
+  },
+  {
+   "condition": "fdw_invalid_column_number",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_FDW_INVALID_COLUMN_NUMBER",
+   "sqlstate": "HV008"
+  },
+  {
+   "condition": "fdw_invalid_use_of_null_pointer",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_FDW_INVALID_USE_OF_NULL_POINTER",
+   "sqlstate": "HV009"
+  },
+  {
+   "condition": "fdw_invalid_string_format",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_FDW_INVALID_STRING_FORMAT",
+   "sqlstate": "HV00A"
+  },
+  {
+   "condition": "fdw_invalid_handle",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_FDW_INVALID_HANDLE",
+   "sqlstate": "HV00B"
+  },
+  {
+   "condition": "fdw_invalid_option_index",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_FDW_INVALID_OPTION_INDEX",
+   "sqlstate": "HV00C"
+  },
+  {
+   "condition": "fdw_reply_handle",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_FDW_REPLY_HANDLE",
+   "sqlstate": "HV00K"
+  },
+  {
+   "condition": "fdw_unable_to_create_execution",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_FDW_UNABLE_TO_CREATE_EXECUTION",
+   "sqlstate": "HV00L"
+  },
+  {
+   "condition": "fdw_unable_to_create_reply",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_FDW_UNABLE_TO_CREATE_REPLY",
+   "sqlstate": "HV00M"
+  },
+  {
+   "condition": "fdw_unable_to_establish_connection",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_FDW_UNABLE_TO_ESTABLISH_CONNECTION",
+   "sqlstate": "HV00N"
+  },
+  {
+   "condition": "fdw_table_not_found",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_FDW_TABLE_NOT_FOUND",
+   "sqlstate": "HV00R"
+  },
+  {
+   "condition": "fdw_function_sequence_error",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_FDW_FUNCTION_SEQUENCE_ERROR",
+   "sqlstate": "HV010"
+  },
+  {
+   "condition": "fdw_too_many_handles",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_FDW_TOO_MANY_HANDLES",
+   "sqlstate": "HV014"
+  },
+  {
+   "condition": "fdw_inconsistent_descriptor_information",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_FDW_INCONSISTENT_DESCRIPTOR_INFORMATION",
+   "sqlstate": "HV021"
+  },
+  {
+   "condition": "fdw_invalid_attribute_value",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_FDW_INVALID_ATTRIBUTE_VALUE",
+   "sqlstate": "HV024"
+  },
+  {
+   "condition": "fdw_invalid_string_length_or_buffer_length",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_FDW_INVALID_STRING_LENGTH_OR_BUFFER_LENGTH",
+   "sqlstate": "HV090"
+  },
+  {
+   "condition": "fdw_invalid_descriptor_field_identifier",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_FDW_INVALID_DESCRIPTOR_FIELD_IDENTIFIER",
+   "sqlstate": "HV091"
+  },
+  {
+   "condition": "plpgsql_error",
+   "literal_hits": [],
+   "live_routes": [],
+   "macro": "ERRCODE_PLPGSQL_ERROR",
+   "sqlstate": "P0000"
+  }
+ ],
+ "why": "rule C, written after reading bucket 2 by hand; the macro is not the only way this tree names a SQLSTATE"
+}

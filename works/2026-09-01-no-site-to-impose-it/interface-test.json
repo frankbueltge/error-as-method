@@ -1,0 +1,49 @@
+{
+ "all_passed": true,
+ "checks": [
+  {
+   "detail": "fixture buckets {\"ERRCODE_FIXTURE_NAMED_ONLY\": \"2-named-not-raised\", \"ERRCODE_FIXTURE_ORPHAN\": \"4-vocabulary-only\", \"ERRCODE_FIXTURE_PROSE_ONLY\": \"3-prose-only\", \"ERRCODE_FIXTURE_RAISED\": \"1-raised\"}",
+   "id": "IT7",
+   "pass": true
+  },
+  {
+   "detail": "fixture file classes {\"doc\": 1, \"generated\": 1, \"implementation\": 1, \"vocabulary\": 1}",
+   "id": "IT2",
+   "pass": true
+  },
+  {
+   "detail": "266 code lines, 266 unique macros, kinds ['E', 'S', 'W'], sqlstate widths [5]",
+   "id": "IT1",
+   "pass": true
+  },
+  {
+   "detail": "file classes {\"doc\": 14, \"generated\": 4, \"implementation\": 544, \"translation\": 2, \"vocabulary\": 1}; generated: src/backend/utils/errcodes.h, src/pl/plpgsql/src/plerrcodes.h, src/pl/plpython/spiexceptions.h, src/pl/tcl/pltclerrcodes.h",
+   "id": "IT2b",
+   "pass": true
+  },
+  {
+   "detail": "0 macros with sites_a > sites_b",
+   "id": "IT3",
+   "pass": true
+  },
+  {
+   "detail": "rule A finds sites for {\"ERRCODE_DIVISION_BY_ZERO\": true, \"ERRCODE_SYNTAX_ERROR\": true, \"ERRCODE_UNDEFINED_TABLE\": true}",
+   "id": "IT4",
+   "pass": true
+  },
+  {
+   "detail": "negative control ERRCODE_THIS_MACRO_IS_NOT_IN_ANY_POSTGRESQL_TREE found 0 times",
+   "id": "IT5",
+   "pass": true
+  },
+  {
+   "detail": "3 macro names in implementation files that the vocabulary does not contain: ERRCODE_APPNAME_UNKNOWN, ERRCODE_IS_CATEGORY, ERRCODE_TO_CATEGORY",
+   "id": "IT6",
+   "pass": true
+  }
+ ],
+ "note": "the 16.9 measurement itself is in interface-measurement-16.9.json and was not read before PREDICTIONS.md closed",
+ "population": "postgresql-18.6",
+ "purpose": "instrument test, F-084, on a tree outside the population",
+ "tree": "postgresql-16.9"
+}

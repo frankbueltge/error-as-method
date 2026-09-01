@@ -1,0 +1,133 @@
+{
+ "night": "2026-09-01",
+ "session": 77,
+ "work": "works/2026-09-01-no-site-to-impose-it/",
+ "population": "the 268 code lines of src/backend/utils/errcodes.txt in postgresql-18.6, and every shipped file in that tree that names one of them",
+ "predictions_fixed_before_measurement": "PREDICTIONS.md, closed before measure.py existed",
+
+ "headline": {
+  "codes_in_the_published_vocabulary": 268,
+  "classes": 43,
+  "codes_with_at_least_one_imposition_site": 195,
+  "codes_with_no_imposition_site_anywhere": 73,
+  "of_those_carrying_a_condition_name": 73,
+  "of_those_that_are_the_class_generic_xx000_code": 14,
+  "siteless_excluding_the_class_generic_codes": 59,
+  "rule_A_sites_total": 6566,
+  "rule_B_token_occurrences_total": 6686
+ },
+
+ "scoring": {
+  "P1": {
+   "blind": true,
+   "bar": "at least 10 of 268 codes with zero occurrences in any implementation file",
+   "measured_under_rules_A_and_B": 75,
+   "measured_under_rules_A_B_and_C": 73,
+   "won": true,
+   "margin": "73 against a bar of 10 -- 27.2 % of the published vocabulary",
+   "correction_applied_before_scoring": "rule C (strings.py) found that 2 of the 75 are imposed by the embedded-SQL client library through five-character string literals rather than the published macro: 22002 via ECPG_SQLSTATE_NULL_VALUE_NO_INDICATOR_PARAMETER and 26000 via ECPG_SQLSTATE_INVALID_SQL_STATEMENT_NAME. The corrected figure, 73, is the one used everywhere. The uncorrected figure is kept because it is what the pre-registered instrument produced.",
+   "F096_members_in_by_construction": "14 of the 73 are the class-generic xx000 code, and the vocabulary file's own header says 'Each class should have a generic 000 subclass' -- so those 14 are in the count because the format asks for them, not because anyone decided the norm should exist and go unimposed. Reported both ways: 73 with them, 59 without. The bar is cleared either way."
+  },
+
+  "P2": {
+   "blind": true,
+   "bar": "at least 0.5 of the siteless codes carry a condition name",
+   "measured": 1.0,
+   "numerator": 73,
+   "denominator": 73,
+   "won": true,
+   "what_the_condition_name_buys": "doc/src/sgml/generate-errcodes-table.pl emits one Appendix A row per code carrying a condition name and skips the rest; the published manual for 18 shows 262 SQLSTATE literals, which is 268 minus the 6 codes with no condition name. So all 73 stand in the published manual. src/pl/plpgsql/src/generate-plerrcodes.pl additionally skips warnings and success ('next unless $type eq E'), so of the 73, the 68 errors are catchable by name in PL/pgSQL and the 5 warnings are not.",
+   "refinement_the_bar_did_not_measure": "the bar measured whether these codes are published to the user. It cleared at 1.0. It did not measure whether they are catchable, and 5 of the 73 are not."
+  },
+
+  "P3": {
+   "blind": true,
+   "bar": "at least 3 codes named in an implementation file but never inside an errcode( ... ) call",
+   "measured": 5,
+   "won": true,
+   "the_bar_won_and_the_claim_is_false": "P3's claim was that some norms the system can RECOGNISE it cannot IMPOSE. All five members were read by hand, as the prediction required, and all five are imposition sites in forms rule A does not model: ERRCODE_SUCCESSFUL_COMPLETION assigned as the default code for any message below WARNING (src/backend/utils/error/elog.c:454); ERRCODE_FILE_NAME_TOO_LONG assigned by errcode_for_file_access's errno switch (elog.c:932); ERRCODE_INVALID_XML_DOCUMENT passed to the wrapper xml_ereport at five sites; ERRCODE_DATABASE_DROPPED selected by a ternary in src/backend/tcop/postgres.c:3243; ERRCODE_RAISE_EXCEPTION assigned as PL/pgSQL's default RAISE code (pl_exec.c:3891). There is no population of recognise-only norms in this object. The number cleared the bar and the sentence the number was supposed to support is wrong. Filed as F-099.",
+   "not_rewritten": "F-059: the prediction and its loss sentence stand verbatim in PREDICTIONS.md"
+  },
+
+  "P4": {
+   "blind": true,
+   "bar": "at least 0.25 of the siteless codes in the single largest SQLSTATE class",
+   "measured": 0.2877,
+   "class": "HV",
+   "class_section": "Class HV - Foreign Data Wrapper Error (SQL/MED)",
+   "numerator": 21,
+   "denominator": 73,
+   "won": true,
+   "margin": "0.2877 against 0.25 -- won by 0.0377, the narrowest of the night",
+   "without_the_generic_codes": "20 of 59 = 0.3390",
+   "F082_who_fills_the_branch": "Class HV is the SQL/MED standard's, not PostgreSQL's invention, and nothing here says anyone chose to leave it unimplemented. What the measurement shows is where the sitelessness sits, not why. Of HV's 27 codes, 6 have imposition sites and every one of those 6 is in a wrapper -- contrib/dblink, contrib/file_fdw, contrib/postgres_fdw -- or in src/backend/commands/foreigncmds.c. HV000, the class's own generic code, has none.",
+   "three_classes_are_wholly_siteless": [
+    "03 - SQL Statement Not Yet Complete (1 of 1)",
+    "0B - Invalid Transaction Initiation (1 of 1)",
+    "0F - Locator Exception (2 of 2)"
+   ]
+  },
+
+  "P5a": {
+   "instrument_check": true,
+   "bar": "an independently written line-anchored verifier assigns the same bucket to all 268",
+   "measured": "268 of 268 agree, 0 disagreements",
+   "won": true,
+   "also_checked": "F-097 -- the file decomposition is complete by construction: 5,134 files with a readable extension, and the class counts (doc 412, implementation 4,255, translation 466, vocabulary 1) sum to exactly 5,134, because the classifier is a total function on that set."
+  },
+
+  "P5b": {
+   "instrument_check": true,
+   "bar": "0 codes with sites_a > sites_b",
+   "measured": 0,
+   "won": true
+  },
+
+  "P6": {
+   "blind": false,
+   "declared_not_blind_in_PREDICTIONS": true,
+   "bar": "the same three macro names seen in 16.9 -- ERRCODE_APPNAME_UNKNOWN, ERRCODE_IS_CATEGORY, ERRCODE_TO_CATEGORY -- and no others",
+   "measured": ["ERRCODE_APPNAME_UNKNOWN", "ERRCODE_IS_CATEGORY", "ERRCODE_TO_CATEGORY"],
+   "won": true,
+   "note": "two of the three (IS_CATEGORY, TO_CATEGORY) are helper macros in elog.h and not codes at all; the third is contrib/sepgsql's own. Scored apart from P1-P4."
+  }
+ },
+
+ "summary": {
+  "blind_predictions": 4,
+  "blind_won": 4,
+  "blind_lost": 0,
+  "instrument_checks": 2,
+  "instrument_won": 2,
+  "declared_not_blind": 1,
+  "declared_not_blind_won": 1,
+  "none_rewritten": true,
+  "the_night_s_real_result_is_not_in_the_scoring": "four of four blind predictions won, which is the worst scoring record this line has had in a fortnight, because a night in which nothing resists is a night whose bars were set where the author already stood. The correction that matters -- P3's bar clearing while P3's claim is false -- is not a loss in this table and should have been one."
+ },
+
+ "completeness_checks_run": [
+  {
+   "check": "does the instrument's extension filter hide any site?",
+   "method": "walk the whole tree with no extension filter; count files carrying ERRCODE_ that the filter would skip",
+   "result": "0 files skipped; 576 files carry the token and all 576 were read (doc 6 + implementation 567 + translation 2 + vocabulary 1 = 576)"
+  },
+  {
+   "check": "can a code be imposed through a route neither macro nor string literal?",
+   "method": "read every MAKE_SQLSTATE call outside the generated headers",
+   "result": "12 sites, all of them constructing a SQLSTATE from RUNTIME characters -- a code arriving from another server (postgres_fdw, dblink, libpqwalreceiver, pqmq), or one a user names (pl_comp.c, pl_gram.y, plpython). None of them names any code textually, so none of them is a site for a particular norm. This is the finding's sharpest edge, not a gap in it: the routes that can impose an arbitrary code are exactly the routes where the imposer is not this system."
+  },
+  {
+   "check": "does the population ship the generated files the classifier excludes?",
+   "method": "search both trees for the autogenerated-from-errcodes marker in a file head",
+   "result": "16.9 ships four such files; 18.6 ships NONE, and no prebuilt HTML documentation either. The exclusion rule the instrument was built around, and which interface_test.py check IT2b verified on 16.9, never fires on the population -- there is nothing there to exclude. The check passed on a code path the population does not exercise. Filed as F-101."
+  }
+ ],
+
+ "refused": [
+  "any claim about why a code has no site -- intent is not in the tarball (F-083)",
+  "git blame, release notes or mailing-list archaeology as a route to intent",
+  "any suggestion that a siteless code is a defect",
+  "reporting the 134 loose five-character literals as SQLSTATEs -- they are dominated by SQL keywords (ORDER, GROUP, WHERE, TABLE) and numeric test data; only the 7 that the tree itself defines under a SQLSTATE-named constant are reported (F-100)",
+  "building or running PostgreSQL"
+ ]
+}

@@ -1,0 +1,421 @@
+{
+ "night": "2026-09-01",
+ "session": 77,
+ "note": "Counts only. The feeds are read, never mirrored.",
+ "feeds": {
+  "atlas/werke.json": {
+   "url": "https://frankbueltge.de/atlas/werke.json",
+   "http_status": 200,
+   "bytes": 387847,
+   "reachable": true,
+   "declared_count": 521,
+   "len_entries": 521,
+   "counts": {
+    "PostgreSQL": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "SQLSTATE": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "error code": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "database": {
+     "substring": 21,
+     "word_boundary": 21
+    },
+    "DBMS": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "exception handling": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "source code": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "software": {
+     "substring": 6,
+     "word_boundary": 6
+    },
+    "vocabulary": {
+     "substring": 2,
+     "word_boundary": 2
+    },
+    "controlled vocabulary": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "SQL standard": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "standard": {
+     "substring": 9,
+     "word_boundary": 4
+    },
+    "specification": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "compliance": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "conformance": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "dead code": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "unreachable": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "unused": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "norm": {
+     "substring": 1,
+     "word_boundary": 0
+    },
+    "normativity": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Canguilhem": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Simondon": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Rheinberger": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "epistemic thing": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Bowker": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Star": {
+     "substring": 96,
+     "word_boundary": 5
+    },
+    "Desrosieres": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "infrastructure": {
+     "substring": 27,
+     "word_boundary": 25
+    },
+    "residual category": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "classification": {
+     "substring": 3,
+     "word_boundary": 3
+    },
+    "taxonomy": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "error": {
+     "substring": 19,
+     "word_boundary": 9
+    }
+   }
+  },
+  "papers/index.json": {
+   "url": "https://frankbueltge.de/papers/index.json",
+   "http_status": 200,
+   "bytes": 832125,
+   "reachable": true,
+   "declared_count": 1230,
+   "len_entries": 1230,
+   "counts": {
+    "PostgreSQL": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "SQLSTATE": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "error code": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "database": {
+     "substring": 8,
+     "word_boundary": 4
+    },
+    "DBMS": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "exception handling": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "source code": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "software": {
+     "substring": 7,
+     "word_boundary": 7
+    },
+    "vocabulary": {
+     "substring": 1,
+     "word_boundary": 1
+    },
+    "controlled vocabulary": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "SQL standard": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "standard": {
+     "substring": 3,
+     "word_boundary": 2
+    },
+    "specification": {
+     "substring": 4,
+     "word_boundary": 3
+    },
+    "compliance": {
+     "substring": 6,
+     "word_boundary": 6
+    },
+    "conformance": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "dead code": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "unreachable": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "unused": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "norm": {
+     "substring": 16,
+     "word_boundary": 2
+    },
+    "normativity": {
+     "substring": 2,
+     "word_boundary": 2
+    },
+    "Canguilhem": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Simondon": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Rheinberger": {
+     "substring": 6,
+     "word_boundary": 6
+    },
+    "epistemic thing": {
+     "substring": 1,
+     "word_boundary": 0
+    },
+    "Bowker": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Star": {
+     "substring": 21,
+     "word_boundary": 16
+    },
+    "Desrosieres": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "infrastructure": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "residual category": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "classification": {
+     "substring": 1,
+     "word_boundary": 0
+    },
+    "taxonomy": {
+     "substring": 2,
+     "word_boundary": 2
+    },
+    "error": {
+     "substring": 15,
+     "word_boundary": 13
+    }
+   }
+  },
+  "datasets/register.json": {
+   "url": "https://frankbueltge.de/datasets/register.json",
+   "http_status": 200,
+   "bytes": 51344,
+   "reachable": true,
+   "declared_count": 59,
+   "len_entries": 59,
+   "counts": {
+    "PostgreSQL": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "SQLSTATE": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "error code": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "database": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "DBMS": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "exception handling": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "source code": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "software": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "vocabulary": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "controlled vocabulary": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "SQL standard": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "standard": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "specification": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "compliance": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "conformance": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "dead code": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "unreachable": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "unused": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "norm": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "normativity": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Canguilhem": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Simondon": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Rheinberger": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "epistemic thing": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Bowker": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "Star": {
+     "substring": 5,
+     "word_boundary": 0
+    },
+    "Desrosieres": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "infrastructure": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "residual category": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "classification": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "taxonomy": {
+     "substring": 0,
+     "word_boundary": 0
+    },
+    "error": {
+     "substring": 0,
+     "word_boundary": 0
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,104 @@
+{
+ "agree": 268,
+ "bucket_totals": {
+  "1-raised": 188,
+  "2-named-not-raised": 5,
+  "3-prose-only": 0,
+  "4-vocabulary-only": 75
+ },
+ "disagreements": [],
+ "evidence_sample": {
+  "ERRCODE_ACTIVE_SQL_TRANSACTION": {
+   "A": [
+    {
+     "file": "src/backend/access/transam/xact.c",
+     "line": 3655,
+     "text": "(errcode(ERRCODE_ACTIVE_SQL_TRANSACTION),"
+    },
+    {
+     "file": "src/backend/access/transam/xact.c",
+     "line": 3665,
+     "text": "(errcode(ERRCODE_ACTIVE_SQL_TRANSACTION),"
+    }
+   ],
+   "B": [
+    {
+     "file": "src/backend/access/transam/xact.c",
+     "line": 3655,
+     "text": "(errcode(ERRCODE_ACTIVE_SQL_TRANSACTION),"
+    },
+    {
+     "file": "src/backend/access/transam/xact.c",
+     "line": 3665,
+     "text": "(errcode(ERRCODE_ACTIVE_SQL_TRANSACTION),"
+    }
+   ]
+  },
+  "ERRCODE_ADMIN_SHUTDOWN": {
+   "A": [
+    {
+     "file": "src/backend/access/transam/parallel.c",
+     "line": 939,
+     "text": "(errcode(ERRCODE_ADMIN_SHUTDOWN),"
+    },
+    {
+     "file": "src/backend/access/transam/xlogfuncs.c",
+     "line": 739,
+     "text": "(errcode(ERRCODE_ADMIN_SHUTDOWN),"
+    }
+   ],
+   "B": [
+    {
+     "file": "src/backend/access/transam/parallel.c",
+     "line": 939,
+     "text": "(errcode(ERRCODE_ADMIN_SHUTDOWN),"
+    },
+    {
+     "file": "src/backend/access/transam/xlogfuncs.c",
+     "line": 739,
+     "text": "(errcode(ERRCODE_ADMIN_SHUTDOWN),"
+    }
+   ]
+  },
+  "ERRCODE_AMBIGUOUS_ALIAS": {
+   "A": [
+    {
+     "file": "src/backend/parser/parse_relation.c",
+     "line": 225,
+     "text": "(errcode(ERRCODE_AMBIGUOUS_ALIAS),"
+    },
+    {
+     "file": "src/backend/parser/parse_relation.c",
+     "line": 272,
+     "text": "(errcode(ERRCODE_AMBIGUOUS_ALIAS),"
+    }
+   ],
+   "B": [
+    {
+     "file": "src/backend/parser/parse_relation.c",
+     "line": 225,
+     "text": "(errcode(ERRCODE_AMBIGUOUS_ALIAS),"
+    },
+    {
+     "file": "src/backend/parser/parse_relation.c",
+     "line": 272,
+     "text": "(errcode(ERRCODE_AMBIGUOUS_ALIAS),"
+    }
+   ]
+  }
+ },
+ "file_decomposition": {
+  "classes": {
+   "doc": 412,
+   "implementation": 4255,
+   "translation": 466,
+   "vocabulary": 1
+  },
+  "complete_by_construction": true,
+  "files_with_a_readable_extension": 5134,
+  "sum_of_class_counts": 5134
+ },
+ "macros_whose_errcode_call_spans_lines": {},
+ "method": "line-anchored re-derivation with evidence lists, plus a whole-file pass for calls that span lines",
+ "n_macros": 268
+}

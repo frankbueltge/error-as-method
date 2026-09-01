@@ -1,0 +1,685 @@
+{
+ "also_rescued_by_rule_C": [
+  {
+   "macro": "ERRCODE_NULL_VALUE_NO_INDICATOR_PARAMETER",
+   "sqlstate": "22002",
+   "via": [
+    "ECPG_SQLSTATE_NULL_VALUE_NO_INDICATOR_PARAMETER"
+   ]
+  },
+  {
+   "macro": "ERRCODE_UNDEFINED_PSTATEMENT",
+   "sqlstate": "26000",
+   "via": [
+    "ECPG_SQLSTATE_INVALID_SQL_STATEMENT_NAME"
+   ]
+  }
+ ],
+ "codes": [
+  {
+   "class_generic": false,
+   "condition": "null_value_eliminated_in_set_function",
+   "kind": "W",
+   "klass": "01",
+   "macro": "ERRCODE_WARNING_NULL_VALUE_ELIMINATED_IN_SET_FUNCTION",
+   "section": "Class 01 - Warning",
+   "sqlstate": "01003"
+  },
+  {
+   "class_generic": false,
+   "condition": "string_data_right_truncation",
+   "kind": "W",
+   "klass": "01",
+   "macro": "ERRCODE_WARNING_STRING_DATA_RIGHT_TRUNCATION",
+   "section": "Class 01 - Warning",
+   "sqlstate": "01004"
+  },
+  {
+   "class_generic": false,
+   "condition": "implicit_zero_bit_padding",
+   "kind": "W",
+   "klass": "01",
+   "macro": "ERRCODE_WARNING_IMPLICIT_ZERO_BIT_PADDING",
+   "section": "Class 01 - Warning",
+   "sqlstate": "01008"
+  },
+  {
+   "class_generic": false,
+   "condition": "dynamic_result_sets_returned",
+   "kind": "W",
+   "klass": "01",
+   "macro": "ERRCODE_WARNING_DYNAMIC_RESULT_SETS_RETURNED",
+   "section": "Class 01 - Warning",
+   "sqlstate": "0100C"
+  },
+  {
+   "class_generic": false,
+   "condition": "no_additional_dynamic_result_sets_returned",
+   "kind": "W",
+   "klass": "02",
+   "macro": "ERRCODE_NO_ADDITIONAL_DYNAMIC_RESULT_SETS_RETURNED",
+   "section": "Class 02 - No Data (this is also a warning class per the SQL standard)",
+   "sqlstate": "02001"
+  },
+  {
+   "class_generic": true,
+   "condition": "sql_statement_not_yet_complete",
+   "kind": "E",
+   "klass": "03",
+   "macro": "ERRCODE_SQL_STATEMENT_NOT_YET_COMPLETE",
+   "section": "Class 03 - SQL Statement Not Yet Complete",
+   "sqlstate": "03000"
+  },
+  {
+   "class_generic": false,
+   "condition": "sqlserver_rejected_establishment_of_sqlconnection",
+   "kind": "E",
+   "klass": "08",
+   "macro": "ERRCODE_SQLSERVER_REJECTED_ESTABLISHMENT_OF_SQLCONNECTION",
+   "section": "Class 08 - Connection Exception",
+   "sqlstate": "08004"
+  },
+  {
+   "class_generic": false,
+   "condition": "transaction_resolution_unknown",
+   "kind": "E",
+   "klass": "08",
+   "macro": "ERRCODE_TRANSACTION_RESOLUTION_UNKNOWN",
+   "section": "Class 08 - Connection Exception",
+   "sqlstate": "08007"
+  },
+  {
+   "class_generic": true,
+   "condition": "invalid_transaction_initiation",
+   "kind": "E",
+   "klass": "0B",
+   "macro": "ERRCODE_INVALID_TRANSACTION_INITIATION",
+   "section": "Class 0B - Invalid Transaction Initiation",
+   "sqlstate": "0B000"
+  },
+  {
+   "class_generic": true,
+   "condition": "locator_exception",
+   "kind": "E",
+   "klass": "0F",
+   "macro": "ERRCODE_LOCATOR_EXCEPTION",
+   "section": "Class 0F - Locator Exception",
+   "sqlstate": "0F000"
+  },
+  {
+   "class_generic": false,
+   "condition": "invalid_locator_specification",
+   "kind": "E",
+   "klass": "0F",
+   "macro": "ERRCODE_L_E_INVALID_SPECIFICATION",
+   "section": "Class 0F - Locator Exception",
+   "sqlstate": "0F001"
+  },
+  {
+   "class_generic": true,
+   "condition": "diagnostics_exception",
+   "kind": "E",
+   "klass": "0Z",
+   "macro": "ERRCODE_DIAGNOSTICS_EXCEPTION",
+   "section": "Class 0Z - Diagnostics Exception",
+   "sqlstate": "0Z000"
+  },
+  {
+   "class_generic": false,
+   "condition": "escape_character_conflict",
+   "kind": "E",
+   "klass": "22",
+   "macro": "ERRCODE_ESCAPE_CHARACTER_CONFLICT",
+   "section": "Class 22 - Data Exception",
+   "sqlstate": "2200B"
+  },
+  {
+   "class_generic": false,
+   "condition": "invalid_escape_octet",
+   "kind": "E",
+   "klass": "22",
+   "macro": "ERRCODE_INVALID_ESCAPE_OCTET",
+   "section": "Class 22 - Data Exception",
+   "sqlstate": "2200D"
+  },
+  {
+   "class_generic": false,
+   "condition": "most_specific_type_mismatch",
+   "kind": "E",
+   "klass": "22",
+   "macro": "ERRCODE_MOST_SPECIFIC_TYPE_MISMATCH",
+   "section": "Class 22 - Data Exception",
+   "sqlstate": "2200G"
+  },
+  {
+   "class_generic": false,
+   "condition": "invalid_indicator_parameter_value",
+   "kind": "E",
+   "klass": "22",
+   "macro": "ERRCODE_INVALID_INDICATOR_PARAMETER_VALUE",
+   "section": "Class 22 - Data Exception",
+   "sqlstate": "22010"
+  },
+  {
+   "class_generic": false,
+   "condition": "invalid_character_value_for_cast",
+   "kind": "E",
+   "klass": "22",
+   "macro": "ERRCODE_INVALID_CHARACTER_VALUE_FOR_CAST",
+   "section": "Class 22 - Data Exception",
+   "sqlstate": "22018"
+  },
+  {
+   "class_generic": false,
+   "condition": "invalid_escape_character",
+   "kind": "E",
+   "klass": "22",
+   "macro": "ERRCODE_INVALID_ESCAPE_CHARACTER",
+   "section": "Class 22 - Data Exception",
+   "sqlstate": "22019"
+  },
+  {
+   "class_generic": false,
+   "condition": "indicator_overflow",
+   "kind": "E",
+   "klass": "22",
+   "macro": "ERRCODE_INDICATOR_OVERFLOW",
+   "section": "Class 22 - Data Exception",
+   "sqlstate": "22022"
+  },
+  {
+   "class_generic": false,
+   "condition": "unterminated_c_string",
+   "kind": "E",
+   "klass": "22",
+   "macro": "ERRCODE_UNTERMINATED_C_STRING",
+   "section": "Class 22 - Data Exception",
+   "sqlstate": "22024"
+  },
+  {
+   "class_generic": false,
+   "condition": "trim_error",
+   "kind": "E",
+   "klass": "22",
+   "macro": "ERRCODE_TRIM_ERROR",
+   "section": "Class 22 - Data Exception",
+   "sqlstate": "22027"
+  },
+  {
+   "class_generic": false,
+   "condition": "invalid_json_text",
+   "kind": "E",
+   "klass": "22",
+   "macro": "ERRCODE_INVALID_JSON_TEXT",
+   "section": "Class 22 - Data Exception",
+   "sqlstate": "22032"
+  },
+  {
+   "class_generic": false,
+   "condition": "non_unique_keys_in_a_json_object",
+   "kind": "E",
+   "klass": "22",
+   "macro": "ERRCODE_NON_UNIQUE_KEYS_IN_A_JSON_OBJECT",
+   "section": "Class 22 - Data Exception",
+   "sqlstate": "22037"
+  },
+  {
+   "class_generic": false,
+   "condition": "too_many_json_array_elements",
+   "kind": "E",
+   "klass": "22",
+   "macro": "ERRCODE_TOO_MANY_JSON_ARRAY_ELEMENTS",
+   "section": "Class 22 - Data Exception",
+   "sqlstate": "2203D"
+  },
+  {
+   "class_generic": false,
+   "condition": "too_many_json_object_members",
+   "kind": "E",
+   "klass": "22",
+   "macro": "ERRCODE_TOO_MANY_JSON_OBJECT_MEMBERS",
+   "section": "Class 22 - Data Exception",
+   "sqlstate": "2203E"
+  },
+  {
+   "class_generic": false,
+   "condition": "sql_json_item_cannot_be_cast_to_target_type",
+   "kind": "E",
+   "klass": "22",
+   "macro": "ERRCODE_SQL_JSON_ITEM_CANNOT_BE_CAST_TO_TARGET_TYPE",
+   "section": "Class 22 - Data Exception",
+   "sqlstate": "2203G"
+  },
+  {
+   "class_generic": true,
+   "condition": "integrity_constraint_violation",
+   "kind": "E",
+   "klass": "23",
+   "macro": "ERRCODE_INTEGRITY_CONSTRAINT_VIOLATION",
+   "section": "Class 23 - Integrity Constraint Violation",
+   "sqlstate": "23000"
+  },
+  {
+   "class_generic": false,
+   "condition": "branch_transaction_already_active",
+   "kind": "E",
+   "klass": "25",
+   "macro": "ERRCODE_BRANCH_TRANSACTION_ALREADY_ACTIVE",
+   "section": "Class 25 - Invalid Transaction State",
+   "sqlstate": "25002"
+  },
+  {
+   "class_generic": false,
+   "condition": "inappropriate_access_mode_for_branch_transaction",
+   "kind": "E",
+   "klass": "25",
+   "macro": "ERRCODE_INAPPROPRIATE_ACCESS_MODE_FOR_BRANCH_TRANSACTION",
+   "section": "Class 25 - Invalid Transaction State",
+   "sqlstate": "25003"
+  },
+  {
+   "class_generic": false,
+   "condition": "inappropriate_isolation_level_for_branch_transaction",
+   "kind": "E",
+   "klass": "25",
+   "macro": "ERRCODE_INAPPROPRIATE_ISOLATION_LEVEL_FOR_BRANCH_TRANSACTION",
+   "section": "Class 25 - Invalid Transaction State",
+   "sqlstate": "25004"
+  },
+  {
+   "class_generic": false,
+   "condition": "no_active_sql_transaction_for_branch_transaction",
+   "kind": "E",
+   "klass": "25",
+   "macro": "ERRCODE_NO_ACTIVE_SQL_TRANSACTION_FOR_BRANCH_TRANSACTION",
+   "section": "Class 25 - Invalid Transaction State",
+   "sqlstate": "25005"
+  },
+  {
+   "class_generic": false,
+   "condition": "schema_and_data_statement_mixing_not_supported",
+   "kind": "E",
+   "klass": "25",
+   "macro": "ERRCODE_SCHEMA_AND_DATA_STATEMENT_MIXING_NOT_SUPPORTED",
+   "section": "Class 25 - Invalid Transaction State",
+   "sqlstate": "25007"
+  },
+  {
+   "class_generic": false,
+   "condition": "held_cursor_requires_same_isolation_level",
+   "kind": "E",
+   "klass": "25",
+   "macro": "ERRCODE_HELD_CURSOR_REQUIRES_SAME_ISOLATION_LEVEL",
+   "section": "Class 25 - Invalid Transaction State",
+   "sqlstate": "25008"
+  },
+  {
+   "class_generic": true,
+   "condition": "dependent_privilege_descriptors_still_exist",
+   "kind": "E",
+   "klass": "2B",
+   "macro": "ERRCODE_DEPENDENT_PRIVILEGE_DESCRIPTORS_STILL_EXIST",
+   "section": "Class 2B - Dependent Privilege Descriptors Still Exist",
+   "sqlstate": "2B000"
+  },
+  {
+   "class_generic": true,
+   "condition": "sql_routine_exception",
+   "kind": "E",
+   "klass": "2F",
+   "macro": "ERRCODE_SQL_ROUTINE_EXCEPTION",
+   "section": "Class 2F - SQL Routine Exception",
+   "sqlstate": "2F000"
+  },
+  {
+   "class_generic": false,
+   "condition": "modifying_sql_data_not_permitted",
+   "kind": "E",
+   "klass": "2F",
+   "macro": "ERRCODE_S_R_E_MODIFYING_SQL_DATA_NOT_PERMITTED",
+   "section": "Class 2F - SQL Routine Exception",
+   "sqlstate": "2F002"
+  },
+  {
+   "class_generic": false,
+   "condition": "reading_sql_data_not_permitted",
+   "kind": "E",
+   "klass": "2F",
+   "macro": "ERRCODE_S_R_E_READING_SQL_DATA_NOT_PERMITTED",
+   "section": "Class 2F - SQL Routine Exception",
+   "sqlstate": "2F004"
+  },
+  {
+   "class_generic": false,
+   "condition": "containing_sql_not_permitted",
+   "kind": "E",
+   "klass": "38",
+   "macro": "ERRCODE_E_R_E_CONTAINING_SQL_NOT_PERMITTED",
+   "section": "Class 38 - External Routine Exception",
+   "sqlstate": "38001"
+  },
+  {
+   "class_generic": false,
+   "condition": "modifying_sql_data_not_permitted",
+   "kind": "E",
+   "klass": "38",
+   "macro": "ERRCODE_E_R_E_MODIFYING_SQL_DATA_NOT_PERMITTED",
+   "section": "Class 38 - External Routine Exception",
+   "sqlstate": "38002"
+  },
+  {
+   "class_generic": false,
+   "condition": "prohibited_sql_statement_attempted",
+   "kind": "E",
+   "klass": "38",
+   "macro": "ERRCODE_E_R_E_PROHIBITED_SQL_STATEMENT_ATTEMPTED",
+   "section": "Class 38 - External Routine Exception",
+   "sqlstate": "38003"
+  },
+  {
+   "class_generic": false,
+   "condition": "reading_sql_data_not_permitted",
+   "kind": "E",
+   "klass": "38",
+   "macro": "ERRCODE_E_R_E_READING_SQL_DATA_NOT_PERMITTED",
+   "section": "Class 38 - External Routine Exception",
+   "sqlstate": "38004"
+  },
+  {
+   "class_generic": false,
+   "condition": "invalid_sqlstate_returned",
+   "kind": "E",
+   "klass": "39",
+   "macro": "ERRCODE_E_R_I_E_INVALID_SQLSTATE_RETURNED",
+   "section": "Class 39 - External Routine Invocation Exception",
+   "sqlstate": "39001"
+  },
+  {
+   "class_generic": false,
+   "condition": "null_value_not_allowed",
+   "kind": "E",
+   "klass": "39",
+   "macro": "ERRCODE_E_R_I_E_NULL_VALUE_NOT_ALLOWED",
+   "section": "Class 39 - External Routine Invocation Exception",
+   "sqlstate": "39004"
+  },
+  {
+   "class_generic": true,
+   "condition": "savepoint_exception",
+   "kind": "E",
+   "klass": "3B",
+   "macro": "ERRCODE_SAVEPOINT_EXCEPTION",
+   "section": "Class 3B - Savepoint Exception",
+   "sqlstate": "3B000"
+  },
+  {
+   "class_generic": true,
+   "condition": "invalid_catalog_name",
+   "kind": "E",
+   "klass": "3D",
+   "macro": "ERRCODE_INVALID_CATALOG_NAME",
+   "section": "Class 3D - Invalid Catalog Name",
+   "sqlstate": "3D000"
+  },
+  {
+   "class_generic": true,
+   "condition": "invalid_schema_name",
+   "kind": "E",
+   "klass": "3F",
+   "macro": "ERRCODE_INVALID_SCHEMA_NAME",
+   "section": "Class 3F - Invalid Schema Name",
+   "sqlstate": "3F000"
+  },
+  {
+   "class_generic": false,
+   "condition": "transaction_integrity_constraint_violation",
+   "kind": "E",
+   "klass": "40",
+   "macro": "ERRCODE_T_R_INTEGRITY_CONSTRAINT_VIOLATION",
+   "section": "Class 40 - Transaction Rollback",
+   "sqlstate": "40002"
+  },
+  {
+   "class_generic": false,
+   "condition": "statement_completion_unknown",
+   "kind": "E",
+   "klass": "40",
+   "macro": "ERRCODE_T_R_STATEMENT_COMPLETION_UNKNOWN",
+   "section": "Class 40 - Transaction Rollback",
+   "sqlstate": "40003"
+  },
+  {
+   "class_generic": true,
+   "condition": "syntax_error_or_access_rule_violation",
+   "kind": "E",
+   "klass": "42",
+   "macro": "ERRCODE_SYNTAX_ERROR_OR_ACCESS_RULE_VIOLATION",
+   "section": "Class 42 - Syntax Error or Access Rule Violation",
+   "sqlstate": "42000"
+  },
+  {
+   "class_generic": false,
+   "condition": "invalid_database_definition",
+   "kind": "E",
+   "klass": "42",
+   "macro": "ERRCODE_INVALID_DATABASE_DEFINITION",
+   "section": "Class 42 - Syntax Error or Access Rule Violation",
+   "sqlstate": "42P12"
+  },
+  {
+   "class_generic": true,
+   "condition": "operator_intervention",
+   "kind": "E",
+   "klass": "57",
+   "macro": "ERRCODE_OPERATOR_INTERVENTION",
+   "section": "Class 57 - Operator Intervention",
+   "sqlstate": "57000"
+  },
+  {
+   "class_generic": true,
+   "condition": "fdw_error",
+   "kind": "E",
+   "klass": "HV",
+   "macro": "ERRCODE_FDW_ERROR",
+   "section": "Class HV - Foreign Data Wrapper Error (SQL/MED)",
+   "sqlstate": "HV000"
+  },
+  {
+   "class_generic": false,
+   "condition": "fdw_invalid_data_type",
+   "kind": "E",
+   "klass": "HV",
+   "macro": "ERRCODE_FDW_INVALID_DATA_TYPE",
+   "section": "Class HV - Foreign Data Wrapper Error (SQL/MED)",
+   "sqlstate": "HV004"
+  },
+  {
+   "class_generic": false,
+   "condition": "fdw_column_name_not_found",
+   "kind": "E",
+   "klass": "HV",
+   "macro": "ERRCODE_FDW_COLUMN_NAME_NOT_FOUND",
+   "section": "Class HV - Foreign Data Wrapper Error (SQL/MED)",
+   "sqlstate": "HV005"
+  },
+  {
+   "class_generic": false,
+   "condition": "fdw_invalid_data_type_descriptors",
+   "kind": "E",
+   "klass": "HV",
+   "macro": "ERRCODE_FDW_INVALID_DATA_TYPE_DESCRIPTORS",
+   "section": "Class HV - Foreign Data Wrapper Error (SQL/MED)",
+   "sqlstate": "HV006"
+  },
+  {
+   "class_generic": false,
+   "condition": "fdw_invalid_column_name",
+   "kind": "E",
+   "klass": "HV",
+   "macro": "ERRCODE_FDW_INVALID_COLUMN_NAME",
+   "section": "Class HV - Foreign Data Wrapper Error (SQL/MED)",
+   "sqlstate": "HV007"
+  },
+  {
+   "class_generic": false,
+   "condition": "fdw_invalid_column_number",
+   "kind": "E",
+   "klass": "HV",
+   "macro": "ERRCODE_FDW_INVALID_COLUMN_NUMBER",
+   "section": "Class HV - Foreign Data Wrapper Error (SQL/MED)",
+   "sqlstate": "HV008"
+  },
+  {
+   "class_generic": false,
+   "condition": "fdw_invalid_use_of_null_pointer",
+   "kind": "E",
+   "klass": "HV",
+   "macro": "ERRCODE_FDW_INVALID_USE_OF_NULL_POINTER",
+   "section": "Class HV - Foreign Data Wrapper Error (SQL/MED)",
+   "sqlstate": "HV009"
+  },
+  {
+   "class_generic": false,
+   "condition": "fdw_invalid_string_format",
+   "kind": "E",
+   "klass": "HV",
+   "macro": "ERRCODE_FDW_INVALID_STRING_FORMAT",
+   "section": "Class HV - Foreign Data Wrapper Error (SQL/MED)",
+   "sqlstate": "HV00A"
+  },
+  {
+   "class_generic": false,
+   "condition": "fdw_invalid_handle",
+   "kind": "E",
+   "klass": "HV",
+   "macro": "ERRCODE_FDW_INVALID_HANDLE",
+   "section": "Class HV - Foreign Data Wrapper Error (SQL/MED)",
+   "sqlstate": "HV00B"
+  },
+  {
+   "class_generic": false,
+   "condition": "fdw_invalid_option_index",
+   "kind": "E",
+   "klass": "HV",
+   "macro": "ERRCODE_FDW_INVALID_OPTION_INDEX",
+   "section": "Class HV - Foreign Data Wrapper Error (SQL/MED)",
+   "sqlstate": "HV00C"
+  },
+  {
+   "class_generic": false,
+   "condition": "fdw_reply_handle",
+   "kind": "E",
+   "klass": "HV",
+   "macro": "ERRCODE_FDW_REPLY_HANDLE",
+   "section": "Class HV - Foreign Data Wrapper Error (SQL/MED)",
+   "sqlstate": "HV00K"
+  },
+  {
+   "class_generic": false,
+   "condition": "fdw_unable_to_create_execution",
+   "kind": "E",
+   "klass": "HV",
+   "macro": "ERRCODE_FDW_UNABLE_TO_CREATE_EXECUTION",
+   "section": "Class HV - Foreign Data Wrapper Error (SQL/MED)",
+   "sqlstate": "HV00L"
+  },
+  {
+   "class_generic": false,
+   "condition": "fdw_unable_to_create_reply",
+   "kind": "E",
+   "klass": "HV",
+   "macro": "ERRCODE_FDW_UNABLE_TO_CREATE_REPLY",
+   "section": "Class HV - Foreign Data Wrapper Error (SQL/MED)",
+   "sqlstate": "HV00M"
+  },
+  {
+   "class_generic": false,
+   "condition": "fdw_unable_to_establish_connection",
+   "kind": "E",
+   "klass": "HV",
+   "macro": "ERRCODE_FDW_UNABLE_TO_ESTABLISH_CONNECTION",
+   "section": "Class HV - Foreign Data Wrapper Error (SQL/MED)",
+   "sqlstate": "HV00N"
+  },
+  {
+   "class_generic": false,
+   "condition": "fdw_table_not_found",
+   "kind": "E",
+   "klass": "HV",
+   "macro": "ERRCODE_FDW_TABLE_NOT_FOUND",
+   "section": "Class HV - Foreign Data Wrapper Error (SQL/MED)",
+   "sqlstate": "HV00R"
+  },
+  {
+   "class_generic": false,
+   "condition": "fdw_function_sequence_error",
+   "kind": "E",
+   "klass": "HV",
+   "macro": "ERRCODE_FDW_FUNCTION_SEQUENCE_ERROR",
+   "section": "Class HV - Foreign Data Wrapper Error (SQL/MED)",
+   "sqlstate": "HV010"
+  },
+  {
+   "class_generic": false,
+   "condition": "fdw_too_many_handles",
+   "kind": "E",
+   "klass": "HV",
+   "macro": "ERRCODE_FDW_TOO_MANY_HANDLES",
+   "section": "Class HV - Foreign Data Wrapper Error (SQL/MED)",
+   "sqlstate": "HV014"
+  },
+  {
+   "class_generic": false,
+   "condition": "fdw_inconsistent_descriptor_information",
+   "kind": "E",
+   "klass": "HV",
+   "macro": "ERRCODE_FDW_INCONSISTENT_DESCRIPTOR_INFORMATION",
+   "section": "Class HV - Foreign Data Wrapper Error (SQL/MED)",
+   "sqlstate": "HV021"
+  },
+  {
+   "class_generic": false,
+   "condition": "fdw_invalid_attribute_value",
+   "kind": "E",
+   "klass": "HV",
+   "macro": "ERRCODE_FDW_INVALID_ATTRIBUTE_VALUE",
+   "section": "Class HV - Foreign Data Wrapper Error (SQL/MED)",
+   "sqlstate": "HV024"
+  },
+  {
+   "class_generic": false,
+   "condition": "fdw_invalid_string_length_or_buffer_length",
+   "kind": "E",
+   "klass": "HV",
+   "macro": "ERRCODE_FDW_INVALID_STRING_LENGTH_OR_BUFFER_LENGTH",
+   "section": "Class HV - Foreign Data Wrapper Error (SQL/MED)",
+   "sqlstate": "HV090"
+  },
+  {
+   "class_generic": false,
+   "condition": "fdw_invalid_descriptor_field_identifier",
+   "kind": "E",
+   "klass": "HV",
+   "macro": "ERRCODE_FDW_INVALID_DESCRIPTOR_FIELD_IDENTIFIER",
+   "section": "Class HV - Foreign Data Wrapper Error (SQL/MED)",
+   "sqlstate": "HV091"
+  },
+  {
+   "class_generic": true,
+   "condition": "plpgsql_error",
+   "kind": "E",
+   "klass": "P0",
+   "macro": "ERRCODE_PLPGSQL_ERROR",
+   "section": "Class P0 - PL/pgSQL Error",
+   "sqlstate": "P0000"
+  }
+ ],
+ "falsifier": "S77.SITELESS",
+ "measured": "2026-09-01",
+ "n": 73,
+ "n_excluding_class_generic_xx000": 59,
+ "session": 77,
+ "tarball_sha256": "555610c24d53e4316da5b7d3fc25c279d96856d5e0e23ee308c328c5fa881d9f",
+ "tree": "postgresql-18.6",
+ "what": "the 73 SQLSTATE codes published in PostgreSQL 18.6 errcodes.txt that have no imposition site anywhere in that tree, under rules A, B and C"
+}

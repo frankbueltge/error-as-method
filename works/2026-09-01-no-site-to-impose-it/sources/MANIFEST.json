@@ -1,0 +1,92 @@
+{
+ "note": "This night reads two source tarballs and two web pages. No third-party bytes are committed: PostgreSQL's source is redistributable under its licence, but nothing here needs it in the repository -- every measurement is re-derivable by fetching the tarball, comparing the SHA-256 below, and running the four scripts in this directory. The hashes were verified against the publisher's own .sha256 files, which are listed as separate entries because a hash a night computes for itself proves only that the night did not change the file.",
+ "fetched": "2026-09-01",
+ "sources": [
+  {
+   "id": "pg-18.6-tarball",
+   "what": "PostgreSQL 18.6 complete source distribution -- THE POPULATION",
+   "url": "https://ftp.postgresql.org/pub/source/v18.6/postgresql-18.6.tar.bz2",
+   "http_status": 200,
+   "bytes": 22632314,
+   "sha256": "555610c24d53e4316da5b7d3fc25c279d96856d5e0e23ee308c328c5fa881d9f",
+   "why": "the object: it contains both the published vocabulary of norms (src/backend/utils/errcodes.txt) and the whole machine that imposes them",
+   "committed": false,
+   "licence": "The PostgreSQL Licence (see COPYRIGHT in the tarball) permits redistribution; not committed because the manifest is the better warrant and the file is 22 MB"
+  },
+  {
+   "id": "pg-18.6-sha256",
+   "what": "the publisher's own SHA-256 for the above",
+   "url": "https://ftp.postgresql.org/pub/source/v18.6/postgresql-18.6.tar.bz2.sha256",
+   "http_status": 200,
+   "content": "555610c24d53e4316da5b7d3fc25c279d96856d5e0e23ee308c328c5fa881d9f  postgresql-18.6.tar.bz2",
+   "agrees_with_local_hash": true,
+   "why": "so the population is identified by the publisher's hash and not only by this night's"
+  },
+  {
+   "id": "pg-16.9-tarball",
+   "what": "PostgreSQL 16.9 complete source distribution -- OUTSIDE THE POPULATION, used only to test the instrument (F-084)",
+   "url": "https://ftp.postgresql.org/pub/source/v16.9/postgresql-16.9.tar.bz2",
+   "http_status": 200,
+   "bytes": 24936316,
+   "sha256": "07c00fb824df0a0c295f249f44691b86e3266753b380c96f633c3311e10bd005",
+   "why": "the whole of interface_test.py runs on this tree; nothing predicted below was measured on it",
+   "committed": false,
+   "licence": "as above"
+  },
+  {
+   "id": "pg-16.9-sha256",
+   "what": "the publisher's own SHA-256 for the above",
+   "url": "https://ftp.postgresql.org/pub/source/v16.9/postgresql-16.9.tar.bz2.sha256",
+   "http_status": 200,
+   "content": "07c00fb824df0a0c295f249f44691b86e3266753b380c96f633c3311e10bd005  postgresql-16.9.tar.bz2",
+   "agrees_with_local_hash": true
+  },
+  {
+   "id": "appendix-a-18",
+   "what": "PostgreSQL 18 manual, Appendix A. PostgreSQL Error Codes -- the published face of the vocabulary",
+   "url": "https://www.postgresql.org/docs/18/errcodes-appendix.html",
+   "http_status": 200,
+   "why": "an independent check on the tarball's generator: the manual shows 262 SQLSTATE literals, and the tarball's doc/src/sgml/generate-errcodes-table.pl emits exactly one row per code carrying a condition name -- 268 codes minus the 6 without one. The two agree exactly, which is what licenses the claim that every siteless code is nevertheless in the published manual.",
+   "read": "2026-09-01",
+   "committed": false
+  },
+  {
+   "id": "pg-source-index",
+   "what": "the publisher's source directory listing, used to establish that 18.6 is the newest release on 2026-09-01",
+   "url": "https://ftp.postgresql.org/pub/source/",
+   "http_status": 200,
+   "read": "2026-09-01",
+   "committed": false
+  }
+ ],
+ "files_inside_the_tarball_that_the_argument_quotes": [
+  {
+   "path": "src/backend/utils/errcodes.txt",
+   "role": "THE VOCABULARY -- 268 codes in 43 classes; its header comment documents the format and states that where the optional fourth field is absent 'the PL/pgSQL condition and the SGML entry will not be generated'"
+  },
+  {
+   "path": "doc/src/sgml/generate-errcodes-table.pl",
+   "role": "generates Appendix A; skips every line without a condition name ('next unless defined($condition_name)')"
+  },
+  {
+   "path": "src/pl/plpgsql/src/generate-plerrcodes.pl",
+   "role": "generates PL/pgSQL's condition-name table; skips warnings and success ('next unless $type eq \\'E\\'') as well as lines without a condition name"
+  },
+  {
+   "path": "src/pl/plpgsql/src/pl_comp.c",
+   "role": "plpgsql_recognize_err_condition -- converts any five-character [0-9A-Z] string straight to a SQLSTATE with MAKE_SQLSTATE, before consulting the condition-name table at all"
+  },
+  {
+   "path": "src/pl/plpgsql/src/pl_gram.y",
+   "role": "RAISE ... USING ERRCODE = '<literal>' -- accepts any five-character [0-9A-Z] string, in or out of the vocabulary"
+  },
+  {
+   "path": "src/interfaces/ecpg/ecpglib/ecpglib_extern.h",
+   "role": "the embedded-SQL client's own SQLSTATE constants, defined as string literals rather than as the published macros -- the route rule C exists to find"
+  },
+  {
+   "path": "src/backend/utils/error/elog.c",
+   "role": "the two non-canonical imposition sites read by hand: the default code for a sub-WARNING message (line 454) and errcode_for_file_access's errno mapping (line 932)"
+  }
+ ]
+}

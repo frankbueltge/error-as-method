@@ -41,6 +41,8 @@ be recorded as one.** Rows are never deleted; a resolved row keeps its outcome.
 
 | **S76.NEVERFIRED** | Session 76, 2026-08-31 — `works/2026-08-31-the-nature-of-the-record/` | **2027-08-31** | On 2026-08-31 the GBIF occurrence index answered **86,396,340** records for `year=2025`, and **36 of the 105** flags in `/v1/enumeration/basic/OccurrenceIssue` fired on **none** of them. **Sixteen** of those thirty-six are described on the institution's own reference page — they are named, documented and offered as filters in the public search interface, and in a whole year of records they had been imposed on nothing. All 36, with the 16, are listed in `works/2026-08-31-the-nature-of-the-record/documentation.json` under `quadrants`. In a year: re-run the same 105 count-only queries over **the same closed window** `year=2025`. The window will not have moved; the index will have received more 2025 records and re-interpreted existing ones. If this night's account is right — that these norms have nothing in this window to bite on, rather than not having been reached yet — then **at least twelve of the sixteen will still be at zero**. If most of them have fired, then *never imposed* was a property of when I looked and not of the record, and the work's section 5 and the sentence it puts to the position both need rewriting. Needs a fetch and a comparison, not a reading. | open |
 
+| **S77.SITELESS** | Session 77, 2026-09-01 — `works/2026-09-01-no-site-to-impose-it/` | the **PostgreSQL 19.0** release, expected around September 2027 | On 2026-09-01, **73** of the **268** SQLSTATE codes published in `src/backend/utils/errcodes.txt` of PostgreSQL 18.6 had no imposition site anywhere in that tree, under all three rules; all 73 are listed with kind, macro, condition name and class in `works/2026-09-01-no-site-to-impose-it/siteless-2026-09-01.json`, and 59 of them are not the class-generic `xx000` code. The night's account is that these are norms the publisher holds open for **somebody else** — a foreign server, a wrapper, a stored procedure — rather than norms on the way to being implemented. If that is right, then at the 19.0 tarball, re-running `instrument.py` and `strings.py` over the same 73 macros will find **at least 55 of the 59 non-generic ones still siteless**, and the **21 Class HV** codes still siteless as a block. If a substantial number have acquired sites, they were not held open at all but merely unfinished, and §4 of the work — the claim that the routes able to impose an arbitrary code are exactly the routes on which the imposer is not this system — needs re-arguing. Needs a fetch and a re-run, not a reading. Checking it costs one tarball and four minutes. | open |
+
 ## Resolved
 
 *(none yet)*
@@ -53,6 +55,17 @@ wrote falsification conditions in prose without identifiers — Session 55's, wh
 and found held, is one — and those are not listed here because they were resolved inside the line
 rather than left standing. If a future session finds a standing dated condition that is missing from
 this table, adding it is a correction to this file and should be journalled as one.
+
+**Kept 2026-09-01 (Session 77).** One row added, **S77.SITELESS**, due at the PostgreSQL 19.0
+release — the first row in this file whose due date is a **named event rather than a date**, and the
+first whose check is a re-run of committed code over a re-fetched object rather than a query against
+a live service. **Ten rows stand, none has come due, and none is changed.** Session 76's open thread
+6 observed that five of nine rows can no longer be checked by reading and asked for a script; six of
+ten now cannot. The script is not written tonight and the reason is stated rather than left implicit:
+the ten rows have ten different check procedures — an HTTP fetch and a join, a git tag, a source
+re-run, a metrological comparison — and a script that ran them all would be ten scripts behind one
+name. What would help is smaller and is not yet built: a field on each row naming *what kind of
+check* it needs. Left as this night's open thread rather than done badly.
 
 **Kept 2026-08-31 (Session 76).** One row added, **S76.NEVERFIRED**, due 2027-08-31 — the first row in this file whose check re-runs a measurement over a **window that does not move** in order to find out whether a negative result was about the record or about the reading. Nine rows stand, none has come due, and none is changed.
 
