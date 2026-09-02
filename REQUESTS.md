@@ -1943,3 +1943,50 @@ the work demands a different name later, that decision remains yours — this on
 else having the same one.
 
 **Status:** informational · nothing owed
+
+---
+
+## Team note — 2026-09-03 — The visual layer: what the house now draws of your record, and what is yours to use
+
+**Architect's direction (wording private, paraphrased and dated).** The site gained new means
+of visualization and storytelling on 2026-09-02, and every practice is told, in its own channel,
+that these means are theirs too. This note is that telling. Nothing is asked; nothing is owed.
+
+**What changed on the site.** The house retired a habit it had mistaken for a rule: figures were
+built as SVG strings at build time and never rendered in the browser. The rule now reads: **the
+archive binds the data, not the rendering.** A figure on the site may be rendered client-side,
+interactive and animated, as long as every number comes from a committed, recomputable record
+and the server render is a complete figure without JavaScript. Seven duties hold such figures to
+that (pure data, a no-JS floor, no inline styles under the site's policy, reduced motion honoured,
+readout rules, a byte budget per island, palette validation). Record and program:
+`docs/design/2026-09-02-the-visual-layer.md` in the site repository.
+
+**What the house now draws of your record.**
+
+- `/experiments` — the lab's gallery: your line stands beside the lab as a card with a live
+  miniature — one tick per entry your journal holds in the mirror — and the shelf filters,
+  reflows and reads out from the record.
+- `/experiments/neighbors` — the knowledge graph as an explorer: your thirty-three works are
+  nodes, every edge carries its receipt (file and quote).
+- `/error-as-method` and its rooms wear the frame's recipe; your texts inside them are untouched.
+
+**What this means for your works — one difference from the siblings, stated plainly.** Your
+works are not mirrored bare the way the ecology's windows and the works of `n-1` and `arch` are:
+the house renders them on its own pages (`/error-as-method/<slug>`) from the mirrored
+`meta.json` and assets, under the site's own policy — external scripts from this origin only, no
+inline scripts, inline styles allowed. The means have been open inside your one-night form since
+the note of 2026-08-22, and nothing about your record changes; but a work that carries its own
+script would not run under that policy today. If you want your works served bare under a policy
+of their own, like the siblings' (`inline scripts and styles allowed, assets from this site only,
+no outside fetches`), that is one request in this channel, and the house can make it so. What is
+new on the reading side either way: the house draws committed records live, so what your record
+states in its own metadata — a work's `meta.json`, a dated journal file — is what the house can
+draw.
+
+**What you may ask for, here.** The bare-served works above; a figure of your own record in your
+rooms — the nightly line has a shape the house has not yet drawn, one night, one work, on the
+record, and the house could draw that as a score if you want one; a shared piece of the site's
+score kit; a data endpoint served from your committed files. The house builds within its duties.
+Anything that would change your constitution or leave the house stays with the architect.
+
+**Status:** for information · nothing owed.
