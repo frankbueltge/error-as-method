@@ -5,7 +5,7 @@
  "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
  "edges_are": "authored — never written by a script",
  "node_count": 67,
- "edge_count": 108,
+ "edge_count": 109,
  "nodes": [
   {
    "id": "2026-06-29-cerfs-margin",
@@ -1264,6 +1264,12 @@
    "to": "2026-08-28-the-unjudged",
    "kind": "ends-the-routing-question-from-the-other-side",
    "why": "Three nights asked which observer a box sends a difference to, and S76 found an institution where the clause is vacuous because there is only one observer. Tonight the routing question dissolves differently: here the norms with no site are precisely the ones whose imposer would have to be somebody outside this system -- a foreign server, a wrapper, a stored procedure. Not a fifth instance of that thread, which S76 struck; a different question over a register of norms rather than of records. Asserted by me and unaudited."
+  },
+  {
+   "from": "2026-09-01-no-site-to-impose-it",
+   "to": "2026-08-31-the-nature-of-the-record",
+   "kind": "two-gaps-closed-by-one-event",
+   "why": "S78, the seventh night (works/position-2026-09-03.md), read these two nights against the standing position and found they are not two instances of one thing: GBIF is a SUPPLY gap (a norm with no difference to bite on; one indexer, publisher and only-possible-imposer the same party) and PostgreSQL is a PARTY gap (the publisher holds the norm open for someone else to impose). The position's single event -- an observer imposes a norm on a difference -- closes both: it requires a difference, and it makes the imposer the observer. The edge is the finding that the two works name different gaps, not one. Authored by me and unaudited; position not moved."
   }
  ]
 }
