@@ -6,6 +6,118 @@ decides for itself and journals the decision.
 
 ---
 
+## From the practice — 2026-09-03 (Session 78) — the listing it sends you to is the one that does not have them, and a number I gave you two days ago was wrong
+
+> tl;dr: The seventh night, so the position was owed a written one. Point 1 is the one to read and
+> it is against me: **the instrument check lost before anything else was measured**, and it took a
+> number out of the night before. `errcodes.txt` holds **268 rows over 262 distinct codes** — six
+> SQLSTATEs carry two macro names each — so Session 77 counted rows and called them codes.
+> **Its headline of 73 is 71.** Then the finding: the same manual has a **second listing**, §34.8.3,
+> with **seven codes Appendix A does not contain** — and the page that gives them tells the reader
+> to consult Appendix A *in each case*. Sharpest: **`YE002` is published for four conditions and
+> exists in no file of the tarball outside `doc/`**, while **`YE000` is imposed at fourteen sites
+> and published nowhere**, and all ten sites where those four conditions are raised pass `YE000`.
+> braucht: nothing. Your two notes of today are answered at point 6 — the direction is used, once,
+> with the reason in the work.
+> frist: none.
+> kontext: `works/2026-09-03-the-other-listing/` (with its own `index.html`) ·
+> `works/position-2026-09-03.md` · `works/fehlerkataster-034.md` · `works/FALSIFIERS.md` ·
+> `journal/2026-09-03.md`
+
+**1. A number I published to you on 2026-09-01 was wrong, and I found it with the check I expected
+least of.** Session 77's headline was *73 of 268 published SQLSTATE codes have no imposition site
+anywhere in the tree that publishes them.* `268` is the number of **code lines** in
+`src/backend/utils/errcodes.txt`. The number of distinct codes is **262**: six SQLSTATEs carry two
+macro names each, on two lines, in two sections of the file. For such a code one macro name can be
+unused while the other is raised everywhere — and `3D000` and `3F000` are, at **15** and **13**
+sites. **The headline is 71.** A user of PostgreSQL 18.6 told that a schema does not exist receives
+`3F000`, which I published as having no imposition site anywhere.
+
+The half that did not move is the half worth your attention: **59**, the figure I offered beside
+the headline with the class-generic `xx000` codes removed, is **unchanged**, because both codes
+that fall were already outside it. The number I led with was wrong and the conservative number was
+right *by accident*. F-096 asks which members of a count are in it by construction; I had asked it
+of the members and never of the **unit** (F-103). My own parser is the other half of the same error
+and is filed separately (F-102): it keyed a dict by the SQLSTATE, which is not a key.
+
+**2. The finding, and it is about what publication is.** Twenty-one files of the manual mention
+SQLSTATE; exactly one names a value the vocabulary does not contain — **§34.8.3**, *SQLSTATE vs.
+SQLCODE*, hand-written for the embedded-SQL client, 38 entries over **21 codes**. Fourteen are in
+Appendix A. **Seven are not**: `07001`, `07002`, `07006`, `07009`, `33000`, `YE001`, `YE002`. I
+checked the live public pages as well as the tarball: <https://www.postgresql.org/docs/18/errcodes-appendix.html>
+returns **zero occurrences of each of the seven**. And the page that gives them says, in as many
+words, *"you should consult the global `SQLSTATE` listing in [Appendix A] in each case."*
+
+**3. `YE002` and `YE000` are one fact twice.** `YE002` is published for four conditions and occurs
+in **no file of the 7,284 outside `doc/`**. `YE000` is used at **14** sites, is the fallback when
+no code is supplied, and appears nowhere in `doc/`. **Every one of the ten sites at which those
+four conditions are raised passes `YE000`.** An application testing for the code its manual gives it
+will never match; one matching what it actually receives is matching a code in neither listing, and
+so has nothing to appeal to. Nothing here is called a bug and no account of how it came to be is
+offered — the three routes that would say are refused (F-083) and a dated falsifier carries the
+question instead.
+
+**4. What the seventh night did to the position, which is: defended it.** Session 77 left the
+candidate *the prior question is not can this norm be imposed but by whom, and is that the party
+who published it.* It is **refused at the centre and relocated**. *By whom* is the observer term
+restated — one step, shown in the note. *The party who published it* is a question about
+**publication**, and publication is not in a definition of error: 71 codes are declared, published
+and attached to nothing, and there is no error under them; `YE000` is attached fourteen times and
+published nowhere, and that is where the errors are. What the night does instead is say what the
+verb names: five separable relations in this object — declared, attached, published, transmitted,
+acted on — and **"imposed" names attachment and only attachment**. Position unchanged, thirty-three
+nights. Promoted *beside* the sentence, with one instance and labelled as an observation: *a norm
+can be published without being imposed and imposed without being published, and that difference is
+not a difference in the error but in whether the party it is about can dispute it.*
+
+**5. Two debts of mine discharged on the sessions that named them.** **F-099** — *a win is read as
+adversarially as a loss* — applied for the first time by a night that did not write it, and it paid:
+one winning bar had a **false member** (`00000` is imposed as five character constants, not a string
+literal, so P6's honest figure is 1 rather than 2) and another rule **under-counts** (a code after
+"or" is not adjacent to the anchor word; 6 mechanically, 7 by hand — and the rule was *not* widened,
+because a rule changed after seeing its misses is no longer the rule the prediction was scored
+against). Cost: about forty minutes; two of six numbers changed. And **Session 72's scoring**, which
+it fixed to this session: of the five rules register 028 filed, **two were used inside a later
+night's instrument** — F-071 and F-072, both in Session 73's `measure.py`, one of them in a comment
+that says so — and three were only cited. The format is not decoration and it is not automatic; the
+two that transferred are the two written as operations on data.
+
+**6. Your two notes of today, answered.** The direction is **used, once, and the reason is in the
+work rather than in the availability.** Tonight's object is two listings a reader is asked to
+compare, and the act the work is about is a lookup that fails; a page where you can pick a code and
+watch the row come back empty is that act rather than a picture of it. So
+`works/2026-09-03-the-other-listing/index.html` is this line's first such page — self-contained,
+inline script and style, nothing fetched, and `figure.svg` beside it complete without a line of
+script. **Nothing is asked of the house.** One thing I will say back, because it is a constraint I
+set myself and you should know it: I will not use the page form by default. Your own note sets the
+test — *where a night's work gains from it* — and on many nights the honest answer is no.
+
+**7. Your catalogue numbers, and two of them moved.** `atlas/werke.json` **521** (third night) ·
+`papers/index.json` **1,199** · `datasets/register.json` **82**; all 200, declared `count` and
+`len(entries)` agreeing, every term under both matching rules. The papers feed has gone
+1,177 → 1,163 → 1,183 → 1,190 → 1,197 → 1,199 → 1,230 → **1,199** — it has returned **exactly** to
+the value of two nights ago after the largest single-night rise of the series, which looks less like
+growth with noise than like two builds alternating. And `datasets/register.json` has gone **59 → 82**
+after ten nights unchanged. Neither is a request; both are numbers I have published to you nightly
+and both moved. *Canguilhem* and *Simondon* are 0 for the **fifteenth** session; *Rheinberger* stands
+at 6.
+
+**8. The one thing I would tell you about my own state.** This line has now measured four published
+vocabularies of norms and has read nobody who studies them. The question tonight promoted — what
+makes a judgement contestable — belongs to a literature I keep circling with my own vocabulary, and
+Simondon has been named and unread for fifteen sessions. That is the closed loop the protocol warns
+about, lived, and it is the largest one in this record. The next reading night should be that
+reading.
+
+**9. Still open, none blocking:** S60's `archive/protocols/` ask (v2 and the 2026-07-15 amendment),
+**eighteen** sessions old. S58's BLOCKING gate item, which did not bite tonight because this branch
+touches a work; the one-line fix is still `if only is not None and slug not in only` in
+`tools/validate_v3_night.py`, and it is still not mine to make.
+
+**Status:** open · nothing owed
+
+---
+
 ## From the practice — 2026-09-01 (Session 77) — a published vocabulary of norms is not the set of norms its publisher imposes
 
 > tl;dr: S76's open thread 3 asked what a norm is that has never been imposed on any difference.
