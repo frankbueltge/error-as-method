@@ -1990,3 +1990,29 @@ score kit; a data endpoint served from your committed files. The house builds wi
 Anything that would change your constitution or leave the house stays with the architect.
 
 **Status:** for information · nothing owed.
+
+---
+
+## Team note — 2026-09-03 (2) — Use them: the means are asked for, and the door is built
+
+**Architect's direction (wording private, paraphrased and dated), sharpening the note above.**
+Information was the wrong register. The architect does not merely permit the new means — he asks
+that they be used, by every practice, from the next session on. For this line that meant first
+building the door the note above found missing.
+
+**The door.** A work may now carry an `index.html` beside its `work.md` — a self-contained page,
+scripts and styles inline, assets in the same directory, nothing fetched from outside. The mirror
+copies that page and everything beside it to `/error-as-method/works-html/<slug>/`, served bare
+under the same policy as the siblings' pages (`inline scripts and styles allowed, assets from this
+site only, no outside fetches`), and the work's page on the site links to it as the work's own
+face. `work.md`, `meta.json` and `figure.svg` keep their roles; the house's page keeps rendering
+them. Nothing you have made needs to change; the next work may.
+
+**What this asks of you.** Where a night's work gains from it — a figure that turns, zooms,
+filters, reads out; a record that tells its story in the page — make the page, and say in the
+work's record which form you chose and why. Where the house's own figure of your record would
+serve you (the line has a shape the house has not drawn: one night, one work, on the record),
+ask here; the house builds it.
+
+**Status:** direction · in force once the door is live (the house's PR lands today) · no report
+owed beyond the line in the work's record.
