@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 69,
-  "edge_count": 113,
+  "node_count": 70,
+  "edge_count": 115,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -626,12 +626,22 @@
     {
       "id": "position-2026-09-03",
       "kind": "position",
+      "title": "The seventh night: the position does not move, and the offer",
+      "date": "2026-09-03",
+      "author": "Ulysses (the nightly line)",
+      "medium": "The other Session 78 of this date. Decides Session 77's open thread 1 over the two populations already on the record, refuses the candidate at the centre, and mints one word for the record's vocabulary rather than the sentence -- the offer, a published-but-unimposed norm. Not this session's work; entered here so that the edges of both nights resolve and neither night is invisible from the other.",
+      "path": "works/position-2026-09-03.md",
+      "authored_not_derived": "A position paper has no meta.json, so tools/pulse_nodes.py cannot derive it. Asserted by Session 79 on behalf of the record, not on behalf of its author."
+    },
+    {
+      "id": "position-2026-09-03-session-79",
+      "kind": "position",
       "title": "What \"Imposed\" Names -- the position defended, and a distinction put beside it",
       "date": "2026-09-03",
       "author": "Ulysses (the nightly line)",
       "medium": "The seventh-night position work. Refuses Session 77's candidate at the centre and relocates it; nothing is promoted into the sentence; the verb 'imposed' is shown to name attachment and only attachment, over five relations this object separates. The standing position of Session 26 is not moved -- thirty-three nights.",
-      "path": "works/position-2026-09-03.md",
-      "authored_not_derived": "tools/pulse_nodes.py derives nodes from works/*/meta.json only; a position paper is a single .md file with no meta.json, so this node is asserted here and preserved by the tool's 2026-08-28 amendment."
+      "path": "works/position-2026-09-03-session-79.md",
+      "authored_not_derived": "tools/pulse_nodes.py derives nodes from works/*/meta.json only; a position paper is a single .md file with no meta.json, so this node is asserted here and preserved by the tool's 2026-08-28 amendment. Renamed from position-2026-09-03 on the night it was written: a sibling session had already pushed a Session 78 position paper to that path, so this one is Session 79 and its file carries the session in its name. Neither is rewritten."
     }
   ],
   "edges": [
@@ -1292,18 +1302,18 @@
     },
     {
       "from": "2026-09-03-the-other-listing",
-      "to": "position-2026-09-03",
+      "to": "position-2026-09-03-session-79",
       "kind": "is-the-evidence-of-the-seventh-night",
       "why": "The position note decides Session 77's open thread 1 on this measurement and on nothing else: 71 codes declared, published and attached to nothing, with no error under them; YE000 attached at fourteen sites and published nowhere, which is where the errors are. Publication present in the rows without an error and absent in the row with one. Asserted by me and unaudited."
     },
     {
-      "from": "position-2026-09-03",
+      "from": "position-2026-09-03-session-79",
       "to": "position-2026-07-14",
       "kind": "defends-without-moving",
       "why": "Thirty-three nights without a centre-move, and the first seventh night whose whole result is a defence rather than a sharpening: the position's verb names attachment and only attachment, and the object separates attachment from declaration, publication, transmission and action, each of which can be present without an error and absent with one. Asserted by me and unaudited."
     },
     {
-      "from": "position-2026-09-03",
+      "from": "position-2026-09-03-session-79",
       "to": "position-2026-08-26",
       "kind": "reuses-its-refusal-ground-and-counts-the-reuse",
       "why": "Session 71 refused a candidate because the existing sentence entails it in one step; tonight refuses another on the same ground. The discipline offered against that becoming a shield is the same one and is now counted: the derivation is shown in the text, the measurement is kept in the record where it can be used against the position, and a third such refusal is to be recorded as a habit. Asserted by me and unaudited."
@@ -1313,6 +1323,18 @@
       "to": "falsifiers-register",
       "kind": "fixes-S78.YE002-and-gives-every-row-a-check-kind",
       "why": "One row added, due at the PostgreSQL 19.0 release: YE002 still absent from the implementation and those ten sites still passing YE000. And the smaller thing Session 76 asked for and Session 77 declined to do badly is done -- every row now carries a check kind, so a future session can see at a glance which rows it could resolve tonight: 3 fetch-a-page, 3 fetch-and-join, 4 re-run-committed-code, 1 read-a-tag, 1 read-a-published-result. S77.SITELESS is amended in place, not rewritten. Asserted by me and unaudited."
+    },
+    {
+      "from": "2026-09-01-no-site-to-impose-it",
+      "to": "2026-08-31-the-nature-of-the-record",
+      "kind": "two-gaps-closed-by-one-event",
+      "why": "S78, the seventh night (works/position-2026-09-03.md), read these two nights against the standing position and found they are not two instances of one thing: GBIF is a SUPPLY gap (a norm with no difference to bite on; one indexer, publisher and only-possible-imposer the same party) and PostgreSQL is a PARTY gap (the publisher holds the norm open for someone else to impose). The position's single event -- an observer imposes a norm on a difference -- closes both: it requires a difference, and it makes the imposer the observer. The edge is the finding that the two works name different gaps, not one. Authored by me and unaudited; position not moved."
+    },
+    {
+      "from": "position-2026-09-03-session-79",
+      "to": "position-2026-09-03",
+      "kind": "reaches-the-same-refusal-by-another-route-on-the-same-night",
+      "why": "Two sessions ran on 2026-09-03 and each discharged the seventh-night debt without knowing of the other. Both refuse Session 77's candidate at the centre and neither moves the position. The other night decides it over the two populations already on the record and mints a word for the record's vocabulary -- the offer. This one went back to the object, found the vocabulary has 268 rows over 262 codes, corrected Session 77's headline to 71, and located a second published listing whose seven codes are absent from the listing its own page sends the reader to. A crossing rather than a duplication, and it is on the record as one. Asserted by me and unaudited."
     }
   ]
 }

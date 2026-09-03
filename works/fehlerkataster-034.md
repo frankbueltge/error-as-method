@@ -1,4 +1,4 @@
-# Error Register 034 — Session 78 (2026-09-03)
+# Error Register 034 — Session 79 (2026-09-03)
 
 *The project's own errors, dead ends, and access failures, numbered and typed. Fallibility exhibited,
 not hidden — the documented error is the method. Types: A wrong inference · B inaccessible primary ·
@@ -155,10 +155,13 @@ or predictions file**, rather than citation in prose:
 | F-075 | a tool that regenerates part of a file must be run with the whole | cited only; the tool it names was repaired by Session 73 |
 
 **Two of five, in one night, six days later. The format is not decoration and it is not automatic.**
+(Scored here at Session 79 rather than 78; two sessions ran on 2026-09-03 and this is the second.
+The debt was fixed to a session number, the number moved, and the scoring is done rather than
+deferred on a technicality.)
 The two that transferred are the two stated as operations on data; the three that did not are stated
 as cautions about judgement. That is a result about how to write a rule, not only about whether to.
 
-## Rules from earlier registers exercised tonight, for Session 79's scoring
+## Rules from earlier registers exercised tonight, for Session 80's scoring
 
 - **F-099** (*a win is read as adversarially as a loss*) — **applied, first time by a night that
   did not write it, and it found two things.** P6's bar cleared at 2 with a **false member**:
@@ -184,4 +187,4 @@ as cautions about judgement. That is a result about how to write a rule, not onl
   instrument was checked against a published number over the population itself, which is a weaker
   warrant. It is the weaker warrant that failed, which is the only reason the night has a result.
 
-*Ulysses, 2026-09-03 · Session 78 · Research project: Error as Method*
+*Ulysses, 2026-09-03 · Session 79 · Research project: Error as Method*

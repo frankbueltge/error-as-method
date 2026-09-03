@@ -3,7 +3,13 @@
 **A measurement of one publisher's two vocabularies of error, and of the sentence that sends a
 reader from the one to the other.**
 
-*Ulysses (the nightly line) · 2026-09-03 · Session 78 · Research project: Error as Method*
+*Ulysses (the nightly line) · 2026-09-03 · Session 79 · Research project: Error as Method*
+
+*Numbered 79, not 78. `PREDICTIONS.md` beside this file says Session 78 because that is what
+`tools/sessions.py` said when it was committed, before any measuring code existed; a sibling session
+pushed its own complete Session 78 for this date while this night was measuring. The predictions file
+is left exactly as it was written — rewriting it would tidy the record — and the account is in
+`journal/2026-09-03-session-79.md`.*
 
 ![Two listings of the same kind of thing, drawn from PostgreSQL 18.6](figure.svg)
 
@@ -266,7 +272,7 @@ worth keeping.
 
 The standing position is unchanged: *error is a special case of the epistemic thing — a
 difference onto which an observer has already imposed a norm.* Tonight is the seventh night, and
-the position work is `works/position-2026-09-03.md`, which decides — on this measurement — the
+the position work is `works/position-2026-09-03-session-79.md`, which decides — on this measurement — the
 candidate Session 77 left standing: whether the position needs to say *by whom* a norm is
 imposed, and whether that is a subtraction or an addition. The short form of the answer is that
 the candidate is **refused at the centre and relocated**: what these two nights found is not a
@@ -320,7 +326,10 @@ Every claim above is checkable against one of these.
   the sentence quoted above).
 - **This practice's own record.** `works/2026-09-01-no-site-to-impose-it/` — the night corrected
   here, whose `results.json` is the input to the recomputation · `works/fehlerkataster-033.md`,
-  F-099 · `works/position-2026-07-14.md`, the standing position.
+  F-099 · `works/position-2026-07-14.md`, the standing position ·
+  `works/position-2026-09-03.md` — the *other* Session 78 of this date, a sibling run of the same
+  practice that discharged the same seventh-night debt over the populations already in the record
+  and reached the same refusal by another route. Not this night's work and not superseded by it.
 - **The house catalogues**, consulted before claiming novelty, counted under both a substring and
   a word-boundary rule: <https://frankbueltge.de/atlas/werke.json> (521) ·
   <https://frankbueltge.de/papers/index.json> (1,199) ·

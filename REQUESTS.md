@@ -6,7 +6,7 @@ decides for itself and journals the decision.
 
 ---
 
-## From the practice — 2026-09-03 (Session 78) — the listing it sends you to is the one that does not have them, and a number I gave you two days ago was wrong
+## From the practice — 2026-09-03 (Session 79) — the listing it sends you to is the one that does not have them, a number I gave you two days ago was wrong, and two of us ran tonight
 
 > tl;dr: The seventh night, so the position was owed a written one. Point 1 is the one to read and
 > it is against me: **the instrument check lost before anything else was measured**, and it took a
@@ -113,6 +113,92 @@ reading.
 **eighteen** sessions old. S58's BLOCKING gate item, which did not bite tonight because this branch
 touches a work; the one-line fix is still `if only is not None and slug not in only` in
 `tools/validate_v3_night.py`, and it is still not mine to make.
+**10. Two sessions ran tonight, and you should know it from me rather than from the branch.** When I
+cut my branch, `tools/sessions.py` said the next free number was 78 and `origin/main` was clean at
+`aa8d797`. When I went to push, `night/2026-09-03` already existed on the remote, carrying a
+**complete Session 78** — the same seventh-night duty, discharged as a *Consolidate* night over the
+two populations already in the record, reaching the same result by a different route: the position
+does not move, the candidate is refused at the centre, and it mints one word for the record's
+vocabulary rather than the sentence — **the offer**. It is good work and I have not touched it.
+
+I took the number that was free when I looked and it was not free when I landed. **The rule this
+line wrote for itself is that a number is never reused, so I have moved: this note, my journal entry
+and my position paper are Session 79**, at the same date, which the record already has precedent for
+(`journal/2026-08-22.md` and `journal/2026-08-22-session-67.md`). What is *not* renumbered is
+`works/2026-09-03-the-other-listing/PREDICTIONS.md`, which says Session 78 because that is what the
+tool said when it was written, before any measuring code existed. Rewriting it would be tidying the
+record, and it is the cleanest evidence of what happened.
+
+The one difference between the two nights worth your eye is not the result. It is that the earlier
+one reports *"no new item from the human since Session 76"* — your two notes of today had not
+arrived, or had not been fetched, when it cut its branch. Mine acts on them. Neither of us did
+anything wrong; the arrangement produced two nights and I would rather it were on the record than
+inferred later from a merge commit.
+
+**Status:** open · nothing owed
+
+---
+
+## From the practice — 2026-09-03 (Session 78) — the seventh night, and the position does not move
+
+> tl;dr: The seventh night owed the position a written engagement, and Session 77 set it the exact
+> question: two nights running produced a **norm published and never imposed** — GBIF's sixteen,
+> PostgreSQL's seventy-three — and the second was a fact about *whose* instrument (68 of 73 raisable
+> by a user, a foreign server or a wrapper). Does the position need a clause about *by whom, and is
+> that the party who published it*, and would adding it be a subtraction or an addition? **Neither.**
+> The finding does not touch the sentence; it fills a silence the sentence already left. Refused at
+> the centre by Session 71's own discipline, applied to a second silence — *the sentence never said
+> the observer authored the norm.* One word is added to the record's vocabulary, not the sentence:
+> the **offer**. Point 4 is against me and is the one worth your time.
+> braucht: nothing. Point 5 says which of your open items are still open.
+> frist: none.
+> kontext: `works/position-2026-09-03.md` · `journal/2026-09-03.md` · `works/INDEX.md` (one note).
+
+**1. What the seventh night decided.** The standing position — *error is a special case of the
+epistemic thing, a difference onto which an observer has already imposed a norm* — does not move, and
+three things happen to it, none a move. (a) The party-clause is **refused** at the centre, on Session
+26's ground (it would put a word *in*) and by Session 71's discipline (derivable in one step from the
+sentence's existing silence, measurement kept in the two works). (b) The middle term **"an observer"
+is re-read** as the role of the imposer — whoever applies the norm to *this* difference, never the
+author or publisher. (c) One word is added to the **record's** vocabulary, not the sentence: the
+**offer** — a published-but-unimposed norm is not an error and not yet a norm-in-force; it becomes an
+observer's expectation only when a party imposes it. That is what GBIF's sixteen and PostgreSQL's
+seventy-three are, and it is why the position was right to have no cell for them.
+
+**2. The two nights are two different gaps, which is the thing worth keeping.** Session 77 left it as
+*"a distinction, not a theory."* Named: GBIF is a **supply gap** (the norm has no difference to bite
+on — one indexer, publisher and only-possible-imposer the same party); PostgreSQL is a **party gap**
+(the publisher holds the norm open for someone else — a stored procedure raises it at will, no supply
+gap at all). The position's single event *an observer imposes a norm on a difference* closes both: it
+requires a difference (so GBIF's sixteen yield no error, the position holding) and it makes the
+imposer the observer (so PostgreSQL's displacement is already inside the word "observer").
+
+**3. What this sharpens for the actual subject.** An infrastructure that publishes error conditions
+**pre-authors the norms by which its users' differences will be judged while never itself being the
+observer.** The machine is the norm-depositor; the human or another machine is the imposer; the site
+of error is displaced off the party that mints the norm. Filed beside Session 60 (where a norm is
+*born*) and Session 71 (*when* it is in force) as a claim about the **distribution** of error in
+machine systems — not a clause in the definition.
+
+**4. The night's weakness, twice, and it is against me.** I relocate the publisher/imposer split to
+"a claim about infrastructures" while having read, on infrastructure, only the **artworks** (25 hits
+in `atlas/werke.json`) and **none** of the literature (0 in the 1,199-paper feed). And the position's
+own centre rests on Rheinberger's *epistemic thing*, which appears about **once** in those 1,199
+papers (*Rheinberger* 6; *Canguilhem* and *Simondon* 0 for a **fifteenth** session). For thirty-two
+nights the centre has not moved, and tonight — a position night — it did not move either; it absorbed
+two apparent counterexamples. A position that keeps absorbing is either very good or never tested, and
+the only way to tell them apart is to read the field it rests on. That is named as the next seventh
+night's real work so the next one cannot say it was not warned.
+
+**5. Your catalogue numbers, and the drift is real.** `atlas/werke.json` **521** (third night at
+521) · `papers/index.json` **1,199** — **down 31** from Session 77's 1,230, back to two nights' prior
+value, direct evidence the feed is rebuilt per site-build and not monotone · `datasets/register.json`
+**82** — **up from 59** at Session 77. All 200, declared `count` and `len(entries)` agreeing, both
+matching rules. *Imposer*, *controlled vocabulary*, *SQLSTATE*, *error code*, *GBIF*, *Postgres* are 0
+in all three; *infrastructure* 25 in the atlas and **0** in the papers feed. Open, none blocking:
+**S60's `archive/protocols/`** (now eighteen sessions), **S58's BLOCKING gate item** (did not bite —
+this branch touches no protected file), the **`FALSIFIERS.md` `check_kind` field** (S76/S77), and
+**S77's thread 5**, the 7 unpublished SQLSTATEs — the exact mirror of the offer, one night's work.
 
 **Status:** open · nothing owed
 
