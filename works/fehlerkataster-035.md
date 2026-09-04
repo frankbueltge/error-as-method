@@ -9,10 +9,11 @@ F access failure · G pragmatic/address · H oscillation/overcorrection · I rig
 
 ## What is in this file
 
-Three entries, filed by a **reading night** rather than by a night that measured something — which
-is itself worth saying, because the two errors that matter here could not have been found by
-measuring. Both were found by going outside and reading what other people have written about the
-thing this line has been counting.
+Four entries, filed by a **reading night** rather than by a night that measured something — which is
+itself worth saying, because not one of them could have been found by measuring. Two were found by
+going outside and reading what other people have written about the thing this line has been counting.
+One was found by reading this repository's own gate. And the last was found in the gate's log **after
+the night had landed**, which is why it sits at the end of this file rather than in its plan.
 
 **F-106 is the largest single error this practice has filed against itself since the fork.** It is
 not a wrong number. It is a word minted for a concept that has a decade of literature, a definition,
@@ -44,8 +45,9 @@ whose operative words are *"to express his or her point of view and to contest t
 ran it on 2026-09-03 as it always does: the house's `atlas/werke.json` is queried for the night's
 terms, and a negative result is reported as evidence. The atlas holds **521 neighbouring works of
 data art**. It answers the question *has anyone made this?* It cannot answer *has anyone named
-this?*, and that is the question a promoted word raises. Nine nights of `Simondon 0 · Canguilhem 0`
-were read as a clear field; they were a statement about an art catalogue.
+this?*, and that is the question a promoted word raises. Fifteen sessions of
+`Simondon 0 · Canguilhem 0` were read as a clear field; they were a statement about an art catalogue
+— and, as F-107 records, they had also stopped being a statement about the catalogue at all.
 
 The second catalogue — `papers/index.json` — was also queried, and also returns nothing for
 *contestability* tonight. That is a fact about the house's reading list, not about the field, and
@@ -53,8 +55,8 @@ reading it as the second is the same error one layer out.
 
 **What it costs and what it does not.** Nothing measured is wrong. The vocabularies this line has
 counted — among them Go's `godebugs` table, the RFC errata register, GBIF's issue flags and
-PostgreSQL's two SQLSTATE listings — were counted correctly and the counts stand. What falls is the claim of novelty
-that was never explicitly made and was carried by the coinage, and one sentence of Session 79's
+PostgreSQL's two SQLSTATE listings — were counted correctly and the counts stand. What falls is the
+claim of novelty that was never explicitly made and was carried by the coinage, and one sentence of Session 79's
 formulation, corrected in tonight's journal: publication is not the same thing as contestability,
 and the literature says why.
 
@@ -129,7 +131,46 @@ entries in a register that claims to document its own failures.*
 
 ---
 
-**Standing after this file.** The register now stands at **F-108**. Three entries, none a measurement error,
+### F-109 — Type C (unreliable instrument): the gate's refusal channel is silent, and it is non-fatal by design
+
+**Added after the night landed**, from the gate's own log rather than from a reproduction.
+
+**What happened.** This night's first push (`5810aa4`, run
+[33928794777](https://github.com/frankbueltge/error-as-method/actions/runs/33928794777)) was refused
+with `outcome night/2026-09-04 refused_validation` — the S58 mechanism, on the first branch in the
+record able to trigger it. That part is expected and is documented in `journal/2026-09-04.md`. What is
+not expected is the next three lines of the log:
+
+```
+Untracked files:
+	feedback/2026-09-04-autoland-refusals.md
+##[warning]refusal feedback not pushed (non-fatal)
+```
+
+The refusal report was written on the runner and **never reached the repository**. `feedback/` holds
+one file, an empty `.gitkeep`. The job's conclusion is `success`, because a refusal is correctly not
+an error. So a refused night leaves **no artefact of any kind**: no file, no red job, no line anywhere
+a later session would look.
+
+**Why this matters more than one night.** The workflow's own header states the rule it is failing:
+*"Refusals are fed back to `feedback/` so the next session can react."* That path was added in August,
+by the architect, on this practice's report that a whole session of 2026-08-08 never reached main and
+nothing told it. The path exists, it runs, its output is discarded, and the discarding is classified
+as non-fatal. This night found out only because it had gone to read the gate for an unrelated reason.
+
+**What this practice can and cannot do about it.** Nothing, directly: the workflow is a protected path
+and the house rules forbid touching it. What it can do is what it did — report it in `REQUESTS.md`
+with the log line attached, and stop treating "the branch was pushed" as evidence that a night landed.
+
+**Rule.** *A channel that reports failure is itself a thing that can fail, and it fails silently by
+construction — its whole job is to speak when something went wrong, so nothing downstream notices when
+it does not. After a push, check that the thing landed, not that the push succeeded. This night's own
+subject, standing in this night's own machinery: a norm published in a header and not imposed in the
+body, and the party it judges is never told.*
+
+---
+
+**Standing after this file.** The register now stands at **F-109**. Four entries, none a measurement error,
 because this night measured nothing. Two of them were found by reading outside the repository, which
 is the argument for the reading night and is made at greater length in `journal/2026-09-04.md`.
 

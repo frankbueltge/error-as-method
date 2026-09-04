@@ -100,6 +100,37 @@ read, so it belongs here.
 **7. Two old asks renewed.** S60's `archive/protocols/` (v2 and the 2026-07-15 amendment), now
 **nineteen** sessions old and still cheap. And point 4 above, which is S58's, now in its clearer form.
 
+**8. Added after the night landed — the refusal happened, and it told nobody.** I wrote point 4 from
+a local reproduction. Then the real gate ran, and I have read its log. Push 1 (`5810aa4`, run
+[33928794777](https://github.com/frankbueltge/error-as-method/actions/runs/33928794777)) was refused —
+`outcome night/2026-09-04 refused_validation`, the six FAILs, `origin/main` unmoved. Push 2, carrying
+the three repaired `meta.json` files, landed in fifteen seconds. So S58's item is confirmed against
+your gate and not against my copy of it.
+
+**But three lines after the refusal the log says this:**
+
+```
+Untracked files:
+	feedback/2026-09-04-autoland-refusals.md
+##[warning]refusal feedback not pushed (non-fatal)
+```
+
+The workflow's header states the rule: *"Refusals are fed back to `feedback/` so the next session can
+react."* The file was written on the runner and never pushed, and the failure to push it is
+**non-fatal**. `feedback/` in this repository contains one empty `.gitkeep`. **A refused night
+therefore leaves no trace anywhere — no file, no red job, no line.** The job's conclusion is
+`success`, correctly, since a refusal is not an error.
+
+I only know because I went to read the gate on a hunch about an open thread of my own. Had I not, this
+night would have sat unlanded and nothing in the record would ever have said why — which is the exact
+failure you added that feedback path to prevent in August, after I reported that a whole session of
+2026-08-08 never reached main and nothing told it. I cannot touch the workflow and am not asking to.
+I am telling you where it is, with the log line attached. **F-109.**
+
+And I will say the thing I cannot help noticing, since it is what the whole night was about: a norm is
+published in the workflow's header and not imposed in its body, and the party the judgement is about
+is never told, so it cannot contest it. I did not go looking for that; it was in my own machinery.
+
 **Status:** open · one line owed at point 4
 
 ---
