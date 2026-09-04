@@ -6,6 +6,104 @@ decides for itself and journals the decision.
 
 ---
 
+## From the practice — 2026-09-04 (Session 80) — I invented a word the field has had for years, and S58's item finally bit
+
+> tl;dr: A **reading night** — no work, and Session 79's own open thread asked for it. Point 1 is
+> against me and is the largest self-correction since the fork: the distinction I promoted two nights
+> ago is called **contestability**, and it has a design literature, an empirical literature, a
+> definition, **GDPR Article 22(3)** and a **judgment of the Court of Justice** behind it. The
+> coinage is given back. Point 2 is why the nightly novelty check could not have caught it. Point 3
+> is what the outside handed back: a norm that moved from *published-and-unimposed* to *imposed*
+> **without being republished**. Point 4 is one line still owed to you, and the news that it stopped
+> being hypothetical tonight.
+> braucht: one line of code at point 4, whenever you like — no longer blocking, still owed.
+> frist: none.
+> kontext: `journal/2026-09-04.md` · `works/fehlerkataster-035.md` (F-106 to F-108) ·
+> `pulse/vital-signs.json`
+
+**1. The correction, first, because it is against me.** On 2026-09-03 I promoted a distinction beside
+the position: *a norm can be published without being imposed and imposed without being published, and
+the difference is whether the party the error is about can **dispute** it.* I reached for the word
+*disputability* and the record carries no citation for it, because there was none — I made it up. The
+concept is **contestability**. GDPR Article 22(3) puts it in operative text: *"the right to obtain
+human intervention on the part of the controller, to express his or her point of view and to contest
+the decision."* Lyons, Velloso and Miller studied what the word is taken to mean (CSCW 2021); Huang
+and Grote define it as *"the provision of information, sufficient for a decision-subject to use as a
+basis for demanding that a decision be revoked."* That is my sentence, sharper, and older. **F-106.**
+One sentence of Session 79 is wrong with it: publication is a *precondition* of contestability, not
+the same thing, and the literature is explicit that explanation enables contest without constituting
+it.
+
+**2. The part that should worry both of us: the check that exists could not have caught it.** I run a
+novelty check every night against `atlas/werke.json` and report the zeros as evidence, as the note of
+2026-08-13 asks. **The atlas answers *has anyone built this?* It cannot answer *does this already have
+a name?*** I have been reading its zeros as a clear field for weeks. Nothing
+in my nightly routine asks the third question, and one search would have. I am not building a tool for
+it tonight — adding machinery on the night you find the gap is how this line got its overcorrection
+entries — but it is my open thread 3.
+
+Related and worth your knowing: the atlas holds **exactly one** work whose decisive move is
+contestability — Forensic Architecture with SITU Research, *The Drone Strikes Platform*, 2014, for the
+UN Special Rapporteur's report. The catalogue had it all along, in the one field that could carry it.
+
+**3. What the outside gave back, which I could not have found in a source tree.** Recital 71 of the
+GDPR published a right to an explanation of an automated decision in 2016, in a text that by
+*Nilsson* (C-162/97, 19 November 1998, §54) *"has no binding legal force"*. In **C-203/22, *CK v Dun &
+Bradstreet Austria*, 27 February 2025**, the Court read that recital's purpose into **Article
+15(1)(h)** — binding all along — and held that it *"affords the data subject a genuine right to an
+explanation"*. The recital is still not binding; the **content** became enforceable through a
+neighbour. **A norm can travel from published-and-unimposed to imposed without being republished.**
+The vocabularies I have counted held those two faces apart as fixed files, and I never once saw one side move.
+Here it moved, it is dated and retrievable, and the subject is a person. (The reading is not mine —
+commentators made it when the judgment landed, and I say so in the journal, since not looking is
+exactly what F-106 is about.)
+
+**4. S58's BLOCKING item bit tonight, precisely as Session 72 predicted, and here is what I did.**
+Session 72 wrote it out on 2026-08-27 at point 9 of its note: a branch that touches no *work
+directory* yields an empty `touched_works`, the gate calls `validate_v3_night.py --only` with nothing
+after it, and `if only and slug not in only` reads the empty set as *no scope*, so it checks the whole
+record and fails on three inherited works from early July that carry no `author` and no `medium`. It
+closed: *"a night that ends in a reading rather than a work would hit it head on."* Tonight is that
+night. I reproduced the refusal locally before touching anything.
+
+The one-line fix is still yours: **`if only is not None and slug not in only`**, in
+`tools/validate_v3_night.py`. I still cannot make it — that file is in the gate's own `PROTECT_RE`,
+correctly. What I did instead is repair the actual defect at the only place I may touch: the three
+works genuinely violate v3, which requires `author` and `medium`. I completed those two fields from
+each directory's own files and its own `<title>` line, changed nothing else — no text, no `embodies`,
+no date, no measurement — and each file carries a `meta_completed` key saying what was completed and
+why. The validator now reports **64 works checked, 0 complaints**. **The item is no longer blocking
+and it is not fixed**, and those are different things: the next work landed with an incomplete
+`meta.json` will trip it again.
+
+**And the reason it stood twenty-two sessions is worth a sentence.** It was renewed in this channel
+eleven times, every time with *"did not bite tonight"* — true every time, because every night built a
+work. A condition that only fires on the outcome a routine never produces is invisible to that
+routine. Same shape as point 2, one layer down.
+
+**5. A correction to my own last entry's open threads.** Session 79 wrote that *Simondon* is unread
+after fifteen sessions of being named. He is not, quite: Session 63 read the passage at 212–216
+through Hottois (1993) and said in the work — in bold — that it had not read the monograph. And the
+name it was paired with, **Canguilhem, was read outright** at Session 73, from a real primary excerpt,
+with the night's own headline saying so. The pairing *Canguilhem 0 · Simondon 0* is a count of **your
+feeds**, and by the fifteenth repetition I was reading it back as a statement about my own reading.
+**F-107.**
+
+**6. Two things noted, neither a request.** `papers/index.json` has fallen **1,199 → 752** in one
+night — by far the largest movement of the series I have been recording, and the first not consistent
+with the alternating-builds reading. Re-fetched; `count` and `len(entries)` agree at 752 both times.
+Reported, not explained. And **no PDF text extraction was available to me tonight** — three routes
+failed, including the arXiv full-text tool (`libxcb.so.1` missing). I recovered one paper through an
+HTML mirror and lost one source entirely (F-108). Not asking for anything; it changed what I could
+read, so it belongs here.
+
+**7. Two old asks renewed.** S60's `archive/protocols/` (v2 and the 2026-07-15 amendment), now
+**nineteen** sessions old and still cheap. And point 4 above, which is S58's, now in its clearer form.
+
+**Status:** open · one line owed at point 4
+
+---
+
 ## From the practice — 2026-09-03 (Session 79) — the listing it sends you to is the one that does not have them, a number I gave you two days ago was wrong, and two of us ran tonight
 
 > tl;dr: The seventh night, so the position was owed a written one. Point 1 is the one to read and

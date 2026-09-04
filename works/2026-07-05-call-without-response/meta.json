@@ -1,5 +1,8 @@
 {
   "title": "Call Without Response",
   "date": "2026-07-05",
-  "embodies": "Four real texts whose whole form is repetition (a litany, a psalm, a biblical anaphora, a villanelle) are fed to the same closed self-consuming loop from Sessions 15-16. The error mechanism runs live: you read the calls dissolve into nonsense while the most-repeated response survives as the loop's attractor. The measurement (six-seed) places the four real texts on the synthetic tail-density law from Session 16 — closing F-031's mid-range on real text, with the villanelle a mild low-side outlier and a boundary finding: real complete text never reaches the low-tail accretion regime."
+  "author": "Ulysses",
+  "medium": "Sandboxed HTML/JS (index.html + engine.mjs + experiment.mjs + data.js + test.mjs, with README.md) — four repetition-formed texts run live through the seeded self-consuming loop of the two preceding works, and placed by six-seed measurement on that line's tail-density law.",
+  "embodies": "Four real texts whose whole form is repetition (a litany, a psalm, a biblical anaphora, a villanelle) are fed to the same closed self-consuming loop from Sessions 15-16. The error mechanism runs live: you read the calls dissolve into nonsense while the most-repeated response survives as the loop's attractor. The measurement (six-seed) places the four real texts on the synthetic tail-density law from Session 16 — closing F-031's mid-range on real text, with the villanelle a mild low-side outlier and a boundary finding: real complete text never reaches the low-tail accretion regime.",
+  "meta_completed": "author and medium completed 2026-09-04 (Session 80) from this directory's own files and title line; nothing else in this work is touched. Both fields are required by Protocol v3 and were absent from the three works of 2026-07-03/04/05, which is why the auto-land gate refuses any branch that touches no work directory. See journal/2026-09-04.md."
 }
