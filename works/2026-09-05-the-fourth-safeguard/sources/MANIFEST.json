@@ -1,0 +1,54 @@
+{
+ "note": "One source is committed as bytes and one is not. The Regulation is the measured object: every number in this work is derived from the committed HTML by measure.py, and EUR-Lex's own legal notice says the legal documents published there may be re-used for commercial or non-commercial purposes under Commission Decision 2011/833/EU, so the bytes are here and the night is re-runnable without a network. The drafting guide is a citation, not a population -- it is quoted within citation length and identified by hash. Both files were fetched twice on the night and the Regulation returned byte-identical content both times, which is recorded because a manifest hash is worthless against a source that changes between fetches.",
+ "fetched": "2026-09-05",
+ "sources": [
+  {
+   "id": "gdpr-en-html",
+   "what": "Regulation (EU) 2016/679 (General Data Protection Regulation), English, as published by EUR-Lex -- THE POPULATION",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A32016R0679",
+   "celex": "32016R0679",
+   "http_status": 200,
+   "bytes": 808516,
+   "sha256": "fd3f4cffd90403bd84d09e5f6ecf91ccbf5ee6bc2b96e8a3fc263f354b4f4642",
+   "refetched_same_night": true,
+   "refetch_sha256_identical": true,
+   "why": "the object: 173 recitals with no binding force and 99 articles with it, in one file, marked up by EUR-Lex with the ELI subdivision anchors rct_1..173 and art_1..99 that measure.py cuts on",
+   "committed": true,
+   "licence": "EUR-Lex legal notice, reuse policy based on Commission Decision 2011/833/EU: 'Unless otherwise specified, you can re-use the legal documents published in EUR-Lex for commercial or non-commercial purposes.' (https://eur-lex.europa.eu/content/legal-notice/legal-notice.html)"
+  },
+  {
+   "id": "joint-practical-guide",
+   "what": "Joint Practical Guide of the European Parliament, the Council and the Commission for persons involved in the drafting of European Union legislation -- THE NORM THE POPULATION IS HELD TO",
+   "url": "https://eur-lex.europa.eu/content/techleg/EN-legislative-drafting-guide.pdf",
+   "publisher": "Publications Office of the European Union, Luxembourg, 2015",
+   "isbn": "978-92-79-49084-2",
+   "doi": "10.2880/5575",
+   "http_status": 200,
+   "bytes": 643967,
+   "sha256": "15432a87afa257b3950dcc50451a18d0c6b00d1d83fe1254f7a2ba0ef10a0265",
+   "pages": 74,
+   "why": "Guideline 10 states the rule this measurement counts violations of. Quoted in work.md within citation length; not committed, because nothing here is derived from it computationally.",
+   "committed": false,
+   "licence": "'(c) European Union, 2015. Reproduction is authorised provided the source is acknowledged.' -- redistribution would be lawful; the manifest is the better warrant and the file is not the measured object.",
+   "read": "in full text, extracted locally from the PDF; the passages used are Guideline 10's heading, 10.1, 10.5.1-10.5.2, and the foreword's statement of the guide's own basis in the Interinstitutional Agreement of 22 December 1998 (OJ C 73, 17.3.1999, p. 1)"
+  },
+  {
+   "id": "cjeu-c-203-22",
+   "what": "Judgment of the Court (First Chamber), 27 February 2025, C-203/22, CK v Dun & Bradstreet Austria GmbH",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A62022CJ0203",
+   "celex": "62022CJ0203",
+   "why": "the ruling that made recital 71's explanation enforceable through Article 15(1)(h). Read in Session 80 (journal/2026-09-04.md), where paragraphs 55 and 57 and the operative part are quoted; cited here, not re-derived.",
+   "committed": false,
+   "licence": "as above, EUR-Lex reuse policy"
+  },
+  {
+   "id": "cjeu-c-162-97",
+   "what": "Judgment of the Court, 19 November 1998, C-162/97, Nilsson and others",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:61997CJ0162",
+   "celex": "61997CJ0162",
+   "why": "paragraph 54: 'the preamble to a Community act has no binding legal force'. This is the premise that makes the preamble the non-binding half. Read in Session 80; cited here.",
+   "committed": false,
+   "licence": "as above, EUR-Lex reuse policy"
+  }
+ ]
+}

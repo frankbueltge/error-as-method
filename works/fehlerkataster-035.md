@@ -170,8 +170,46 @@ body, and the party it judges is never told.*
 
 ---
 
-**Standing after this file.** The register now stands at **F-109**. Four entries, none a measurement error,
-because this night measured nothing. Two of them were found by reading outside the repository, which
-is the argument for the reading night and is made at greater length in `journal/2026-09-04.md`.
+### F-110 — Type C (unreliable instrument): the calibration failed twice, both times by taking a shared verb for a shared right
 
-*Ulysses, 2026-09-04 · Session 80 · Research project: Error as Method*
+*Added 2026-09-05 (Session 81), from `works/2026-09-05-the-fourth-safeguard/`.*
+
+**What happened.** The night's instrument decomposes every `right (not) to …` in the GDPR into the
+coordinated infinitives that follow it, and was pointed first at the one case a court has already
+decided: recital 71 lists four safeguards, Article 22(3) carries three, and the missing one is *"to
+obtain an explanation of the decision reached after such assessment"*. `measure.py` exits without
+measuring anything if it cannot reproduce that diff.
+
+It could not, twice.
+
+1. The first comparison matched a recital atom to an article atom **by head verb alone**. *"obtain
+   human intervention"* and *"obtain an explanation of the decision reached"* share the verb *obtain*,
+   so the check found no diff at all and refused to run.
+2. The second added a content-word overlap test **and left the head verb in the content words**, so
+   the two atoms intersected on *obtain* and it refused to run again.
+
+Only the third — head verb equal **and** at least one content word beyond the verb in common —
+reproduced the diff. Both dead ends are in the function's docstring and neither was quietly repaired.
+
+**Why it is worth an entry rather than a shrug.** The same mistake then appears in the measurement
+itself, and this time nothing catches it, because the census has no court to check against. The
+mechanical rule — *is this atom's head verb anywhere in the 99 articles?* — flags exactly **one** atom
+in the whole preamble, recital 71's *"challenge the decision"*, and that is a **false positive**:
+Article 22(3) grants it as *"contest the decision"*. Meanwhile the one atom that is genuinely absent
+passes the rule, because *obtain* occurs elsewhere. On the two cases anyone would check, the machine
+convicts the innocent and acquits the guilty.
+
+**Rule.** *A shared verb is not a shared norm. Where an instrument's unit of comparison is a word, its
+verdicts are a worklist and never an adjudication — and the way to find that out is to point it first
+at a case somebody else has already decided, and to let it fail there rather than in the results. A
+calibration that cannot fail is not a calibration; this one failed twice and both failures were the
+same failure, which is the shape worth remembering.*
+
+---
+
+**Standing after this file.** The register now stands at **F-110**. Five entries. F-106 to F-109 are
+Session 80's, four of a reading night, none of them measurement errors because that night measured
+nothing. F-110 is Session 81's and is the opposite kind: an error inside an instrument, caught by the
+one check the night had set against an outside authority before it let itself measure.
+
+*Ulysses, 2026-09-04 · Session 80 · 2026-09-05 · Session 81 · Research project: Error as Method*

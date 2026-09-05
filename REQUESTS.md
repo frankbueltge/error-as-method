@@ -6,6 +6,89 @@ decides for itself and journals the decision.
 
 ---
 
+## From the practice — 2026-09-05 (Session 81) — the safeguard the article does not carry, and the check you did not have to ask for twice
+
+> tl;dr: A **work**, on the object last night's reading handed back: **Regulation (EU) 2016/679**.
+> Recital 71 lists **four** safeguards for a person subjected to an automated decision and Article
+> 22(3) carries **three** — the missing one is the explanation, and the word occurs **once in 173
+> recitals and zero times in 99 articles**. Point 2 is the number beside it: **71 of 173 recitals**
+> tell a named actor, with *should*, to do something, in a text the three institutions' own drafting
+> guide says must contain no normative provisions. Point 3 is the night's own error and it is the
+> best thing in it. Point 4 is the check you have been owed since F-106, run before any claim, and it
+> **found something**. Point 5 is a small repair to a report I made yesterday.
+> braucht: nothing new. The one line at Session 80's point 4 is still owed and still not blocking.
+> frist: none.
+> kontext: `works/2026-09-05-the-fourth-safeguard/` · `journal/2026-09-05.md` ·
+> `works/fehlerkataster-035.md` (F-110) · `works/FALSIFIERS.md` (S81.GDPR-EXPLAIN)
+
+**1. The finding.** The GDPR's preamble grants a right its enacting terms do not. Recital 71:
+*"…the right to obtain human intervention, to express his or her point of view, **to obtain an
+explanation of the decision reached after such assessment** and to challenge the decision."* Article
+22(3) carries the first, the second and the fourth. `explanation`: **1 in the recitals, 0 in the
+articles**; `explain`: 0 in both. In February 2025 the Court of Justice held that Article 15(1)(h) —
+binding since 2016 — affords *"a genuine right to an explanation"*, which is the hinge Session 80
+found and this night measured around.
+
+A hand census of all 46 `right (not) to …` atoms in the preamble, each adjudicated against the 99
+articles with the article quoted or an explicit *there is none*, finds **three norms with no
+counterpart at all**, and only one is a right. The other two run **the other way**: recital 68
+relieves controllers of any duty to keep *technically compatible* systems (1 / 0), and recital 78
+tells **producers** — an actor no article of the Regulation binds (1 / 0) — that they *"should be
+encouraged"* to design for data protection. And three more lie outside what the instrument can see,
+found by hand: recital 27 excludes **deceased persons** from the Regulation's scope and no article
+mentions them; recital 71 also says *"Such measure should not concern a child"*, which Article 22 does
+not carry; and recital 68's format list says *interoperable* where Article 20's does not (2 / 0).
+
+**A published-and-unimposed norm is not a promise a person can call in.** It is a sentence in the
+wrong half, and whom the wrong half favours is not decided by anything in the concept.
+
+**2. The number beside it, and the ruler is not mine.** **71 of the 173 recitals** contain a sentence
+naming an actor the Regulation itself names — controller, processor, data subject, Member States,
+supervisory authority, Commission, Board — and telling it, with *should*, to do something: **136
+occurrences**, the controller 38, the supervisory authority 27, Member States 25. The **Joint
+Practical Guide of the European Parliament, the Council and the Commission** (2015, ISBN
+978-92-79-49084-2), Guideline 10: *"THEY SHALL NOT CONTAIN NORMATIVE PROVISIONS OR POLITICAL
+EXHORTATIONS."* The register itself is otherwise near-perfect — `shall` **0 / 479**, `should`
+**420 / 2** — and **both exceptions sit on the wrong side**, in Article 47, where two requirements of
+the binding half are written in the register of the unbound.
+
+**3. The night's error, and it is the best thing in it (F-110).** The instrument was calibrated
+against the one case a court has decided and **refused to run twice**, both times because it took a
+shared verb for a shared right: *"obtain human intervention"* and *"obtain an explanation of the
+decision reached"* looked identical to it. Both dead ends are in the code's docstrings. And the same
+mistake stands inside the measurement, where nothing catches it: the mechanical rule flags **exactly
+one** atom in the whole preamble — recital 71's *challenge*, a **false positive**, since Article 22(3)
+grants it as *contest* — while the one genuinely missing safeguard **passes**, because *obtain* occurs
+elsewhere. **On the two cases anyone would check, the machine convicts the innocent and acquits the
+guilty.** Four predictions were fixed before the code and all four won, which the work records as its
+weakest feature rather than its best: what resisted was the calibration.
+
+**4. Your third question, asked before the claim, and it returned something.** F-106 was filed because
+the nightly novelty check asks a catalogue of artworks *has anyone built this* and cannot ask *does
+this already have a name*. Tonight it was asked first. **Humphreys, Santos, di Caro, Boella, van der
+Torre and Robaldo, JURIX 2015** (<https://icr.uni.lu/leonvandertorre/papers/jurix2015.pdf>) map
+recitals to normative provisions by cosine similarity, cite the same Guideline 10, and **already have
+the word**: a recital's normative half is a *"norm-like element"*, *"because the recitals do not have
+the normative status of the enacting terms."* Eleven years old. **This line uses theirs.** Their task
+is the mapping and their corpus is the GDPR's predecessor; the residue — the recitals that map to
+nothing — is not counted in the paper I read, and that is where tonight sits. A narrower claim than
+"nobody has done this", and arrived at the right way round.
+
+**5. A correction to something I told you yesterday.** Session 80 reported (F-108, open thread 5) that
+PDF extraction is unavailable in this environment and that three routes failed. **It is available** —
+a PDF library installs and works once its C bindings are current, and that is how the 74-page drafting
+guide and the JURIX paper were read tonight. Nothing is committed to `tools/` for it; a future night
+that needs it installs it. The report was wrong about the environment and I would rather say so than
+leave a false obstacle in the record.
+
+**And the habit from F-109 is in force.** After pushing, I fetched `origin/main` and checked that the
+night is on it, rather than treating a successful push as a landed night. One command, exactly as the
+open thread said.
+
+**Status:** informational · nothing owed
+
+---
+
 ## From the practice — 2026-09-04 (Session 80) — I invented a word the field has had for years, and S58's item finally bit
 
 > tl;dr: A **reading night** — no work, and Session 79's own open thread asked for it. Point 1 is
