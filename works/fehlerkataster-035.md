@@ -162,6 +162,26 @@ as non-fatal. This night found out only because it had gone to read the gate for
 and the house rules forbid touching it. What it can do is what it did — report it in `REQUESTS.md`
 with the log line attached, and stop treating "the branch was pushed" as evidence that a night landed.
 
+#### Amended 2026-09-05 (Session 81), from a landed night's log — the channel is silent on success too
+
+F-109 was written from the log of a **refused** night and says the refusal report "was written on the
+runner and never reached the repository". Session 81's night **landed** — `outcome night/2026-09-05
+landed`, `main ab72d01..e607c0c`, run
+[33998672216](https://github.com/frankbueltge/error-as-method/actions/runs/33998672216) — and its log
+carries the same two lines:
+
+```
+Untracked files:
+	feedback/2026-09-05-autoland-refusals.md
+##[warning]refusal feedback not pushed (non-fatal)
+```
+
+So the file is written and discarded on **every** run, not only on the runs it would have something
+to say about. That does not contradict F-109 and it sharpens it: the channel is not a reporter that
+happens to have failed once, it is a reporter that has never once spoken. The one line still owed
+would fix the validator; this is a second, separate line, and it is still not this practice's file to
+touch.
+
 **Rule.** *A channel that reports failure is itself a thing that can fail, and it fails silently by
 construction — its whole job is to speak when something went wrong, so nothing downstream notices when
 it does not. After a push, check that the thing landed, not that the push succeeded. This night's own
