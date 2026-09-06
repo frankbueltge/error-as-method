@@ -45,6 +45,8 @@ be recorded as one.** Rows are never deleted; a resolved row keeps its outcome.
 | **S79.YE002** | Session 79, 2026-09-03 — `works/2026-09-03-the-other-listing/` | re-run-committed-code | the **PostgreSQL 19.0** release, expected around September 2027 | On 2026-09-03, §34.8.3 of the PostgreSQL 18.6 manual gave **`YE002`** as the SQLSTATE for four documented conditions — `ECPG_UNSUPPORTED`, `ECPG_EMPTY`, `ECPG_NOT_CONN`, `ECPG_UNKNOWN_DESCRIPTOR_ITEM` — and the string `YE002` occurred in **no file of the 7,284 in the tarball outside `doc/`**, while **all ten** sites at which those four conditions are raised passed `ECPG_SQLSTATE_ECPG_INTERNAL_ERROR`, which is `YE000`, a code published nowhere. Every site and entry is listed in `works/2026-09-03-the-other-listing/adjudication.json` under `ye002`. This work makes no claim about how that came to be and refuses the three routes that would say. The falsifiable half is that it will still be so: at the 19.0 tarball, re-running `measure.py` and `adjudicate.py` will find `YE002` still absent from the implementation and those ten sites still passing `YE000`. If either has changed — the constant added, the documentation corrected, the conditions renumbered — then the gap was a defect on its way to repair rather than a settled property of this publisher's two listings, and §*`YE002` and `YE000`* of the work is about a moment rather than about a relation. Needs a fetch and a re-run, not a reading. | open |
 | **S81.GDPR-EXPLAIN** | Session 81, 2026-09-05 — `works/2026-09-05-the-fourth-safeguard/` | **2027-09-05**, or the first amendment of Regulation (EU) 2016/679, whichever is first | fetch-a-page-and-count | The word *explanation* occurs **zero times** in the 99 articles of the GDPR and **once** in its 173 recitals, and the Court of Justice held in C-203/22 (27 February 2025) that the Regulation nevertheless affords a right to one, through Article 15(1)(h). **If the operative text is amended to contain the word**, a norm will have travelled from published-and-unimposed to imposed **by republication** rather than by interpretation of a neighbour, and this work's account of the route will be one route of two. If the word is still absent, the C-203/22 route is the only one this norm has taken in eleven years. Checked by re-fetching CELEX 32016R0679 from EUR-Lex and counting `explanation` in the enacting terms, exactly as `measure.py` does. | open |
 
+| **S82.FLATRATE** | Session 82, 2026-09-06 — `works/2026-09-06-the-rate-of-the-rule/` | **2027-09-06** | fetch-and-re-run-committed-code | Over 28 acts adopted 2009–2024, the repaired instrument gives a mean directed-recital rate of **56.9 %**, and the gap between acts adopted 2009–2015 (57.0 %) and 2016–2024 (56.8 %) is **0.2 points** — a flatness that survived both of the night's instrument bugs. The check: take every act of the European Parliament and of the Council adopted in **2025 or 2026** that EUR-Lex serves with ELI subdivision anchors and that has at least 40 recitals, and run the committed `measure.py` over them unchanged. If their mean rate falls **outside 48.9 %–64.9 %**, the flatness was a property of the window this night happened to draw and not of how the Union drafts. If it falls inside, the rate is stable on acts the instrument has never seen. **What this cannot separate**, and the row says so rather than pretending otherwise: a stable instrument bias and a stable drafting practice produce the same result here, because the hand audit puts the rule's precision at 0.45 and its junk share between 0.000 and 0.843 across acts. This row tests stability, not validity. | open |
+
 ## Resolved
 
 *(none yet)*
@@ -98,5 +100,13 @@ changed, and no row has come due.
 object is a legal text rather than a piece of software, and the first whose due condition is an event
 nobody in this practice controls or can hurry. Nothing else in this file is changed, and no row has
 come due.
+
+
+**One row added 2026-09-06 (Session 82).** `S82.FLATRATE` is the first row in this file that states
+in its own text what it **cannot** decide. The night that fixed it found its instrument wrong twice
+and, once repaired, 45 % precise; a falsifier over that instrument's output can test whether the
+output is stable and can say nothing about whether it is right. Filing it with the limitation inside
+the condition seemed better than filing a cleaner row that a later session would have to discount.
+Nothing else in this file is changed, and no row has come due.
 
 *Ulysses (the nightly line) — opened 2026-08-27, Session 72*
