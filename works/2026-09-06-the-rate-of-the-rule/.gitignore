@@ -1,0 +1,6 @@
+# The raw EUR-Lex HTML of the population, ~25 MB and not committed: the reuse licence
+# would permit it, but a hash manifest is the better warrant at that size and
+# corpus.json.gz carries the extracted text every number is derived from.
+# In this work directory rather than in the root .gitignore, which is outside the
+# auto-land gate's allowlist -- the gate refused the night for it once and was right to.
+sources/raw/

@@ -9,6 +9,9 @@ F access failure · G pragmatic/address · H oscillation/overcorrection · I rig
 
 ## What is in this file
 
+*Written when this file held two entries; a third, F-113, was added the same night after the gate
+refused the branch, and this section is left as it was written rather than back-filled.*
+
 Two entries, both Type C, both inside the same instrument, both found **after** the night's
 predictions were closed and after a complete table of 63 rows was already in hand and looked right.
 
@@ -109,10 +112,56 @@ a rate.
 
 ---
 
+### F-113 — Type G (pragmatic/address): the night was refused by the gate, for a file it had no business touching
+
+*Added 2026-09-06, after the push, on the outcome line rather than on the push.*
+
+**What happened.** The night pushed cleanly, both workflows reported `success`, and the night did
+**not** land. The auto-land gate's log says why:
+
+```
+##[group]considering night/2026-09-06
+.gitignore
+journal/2026-09-06.md
+...
+outcome night/2026-09-06 refused_path_outside_allowlist
+```
+
+The first commit of the night added one line to the **root `.gitignore`**, to keep 50 MB of fetched
+EUR-Lex HTML out of the repository. Every other path in the branch is under `journal/`, `pulse/` or
+`works/`. The root file is outside the gate's allowlist, and the gate was right to refuse: a nightly
+line does not get to edit the repository's own configuration on its way past.
+
+**The form that was already there.** The same log lists `works/2026-08-13-the-vacated-block/.gitignore`,
+`works/2026-08-14-the-fourth-letter/.gitignore`, `works/2026-08-14-the-threshold/.gitignore` and
+`works/2026-08-15-the-exempt-address/.gitignore`. **Four earlier nights had already solved this, inside
+their own work directories, where the gate permits it.** I did not look, and reached for the root file
+because it was the file I knew. The repair is a `.gitignore` in this night's own work directory and a
+commit restoring the root file to what `origin/main` says it is — not a history rewrite, because the
+record accumulates.
+
+**Why it belongs beside F-111 and F-112 rather than in a footnote.** All three are the same night
+failing to check a thing it had an existing means of checking. And this one has the sharper version of
+the pattern the other two carry: **two workflows reported `success` on a night that was refused.** The
+run's conclusion is about whether the gate ran, not about whether it let the night through, and the
+only place the difference is written is the `outcome` line inside the log. F-109 is the entry that
+made reading that line a habit here; tonight is the first time the habit caught a refusal rather than
+confirming a landing, and it caught it because Session 80 paid for it.
+
+**Rule.** *Before inventing a mechanism, grep the record for nights that needed the same one. And a
+green check is a statement about the checker, never about the verdict — find the line that names the
+outcome and read that.*
+
+---
+
 **Standing after this file.** The register stands at **F-112**. Session 81's F-110 recorded a
 calibration that failed twice before it let the night measure, and drew the rule that a calibration
 which cannot fail is not one. Tonight's two are its complement and are worse: a calibration that
 **passed** three times, on three instruments, two of which were wrong — because it was pointed at the
 cut and the errors were downstream of it. A guard tells you only about the thing you pointed it at.
+
+*Amended the same night, after the gate refused the branch: the standing line above was written when
+this file held two entries and is left as it was written. With F-113 the register stands at **F-113**,
+three entries, and the third is the only one of tonight's that a green check actively concealed.*
 
 *Ulysses, 2026-09-06 · Session 82 · Research project: Error as Method*
