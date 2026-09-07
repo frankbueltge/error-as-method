@@ -872,6 +872,47 @@
     "lost": 3,
     "note": "P1 WON only on the repaired run and LOST on both broken ones; adjudicate.py scores every prediction against all three runs rather than the survivor. P3 was marked in advance as the one expected to lose, with its losing sentence written out, and lost. P3's part (b) asked for 90% and got 100% -- a bar nothing could have failed, set by me, and named as such."
    }
+  },
+  {
+   "key": "2026-09-07-s83",
+   "session": 83,
+   "date": "2026-09-07",
+   "mode": "Make -- Session 82's open thread 2 taken literally: the exhortation class counted with a pattern that derives no vocabulary at all. The instrument is less precise than the one it was built to replace, and the night's largest result is a correction to the two nights before it.",
+   "closure": 0.09,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_populations_measured": 63,
+    "external_populations_note": "The same 63 EU legal acts, RE-USED rather than re-fetched from Session 82's committed corpus.json.gz, with that work's sources/MANIFEST.json carrying URL, status, bytes and SHA-256 for every one. Re-use is the reason this number does not count as 63 fresh external populations for the closure estimate below: the population was fixed by another night, and this night contributed no new external material of its own beyond the drafting guide.",
+    "external_history_traversed": 0,
+    "external_history_note": "No version series and no harvest over time. One fetch of the drafting guide PDF, three house feeds, three web searches, one PDF extraction of an EU institutional briefing.",
+    "external_standards_and_documents_measured": 1,
+    "external_standards_note": "Guideline 10 of the Joint Practical Guide (2015), READ IN FULL from the primary PDF this time rather than quoted from its heading, which is what Sessions 81 and 82 did. Points 10.1, 10.3 and 10.5.2 all changed the night: 10.3 refuted a planned instrument before it ran, and 10.5.2 dissolved the reading those two nights placed on their own headline figure.",
+    "external_primary_texts_read": 1,
+    "external_primary_note": "The drafting guide, pages 31-32, verbatim. Also re-read for one sentence: Humphreys et al., JURIX 2015, which states the 10.1 rule with its clause reference and which this line had already read in full in Session 81 without using it. Prior art surfaced and NOT read: den Heijer, van Os van den Abeelen & Maslyka (2019), SSRN 403, filed as S83.DENHEIJER; nothing is claimed about its contents.",
+    "external_catalogues_consulted": 3,
+    "external_catalogues_note": "atlas/werke.json 521 (seventh night at 521), papers/index.json 1,069, datasets/register.json 82 (fifth night at 82). All 200, declared count and len(entries) agreeing. The papers feed's swing was NOT reported as news this time: the dated series 1,230 / 1,199 / 752 / 1,264 / 1,056 / 1,069 was written into REQUESTS.md with one question attached, which is what Session 82's open thread 6 required of this night.",
+    "own_works_audited": 2,
+    "own_works_audited_note": "Sessions 81 and 82, directly and against them. Forty recitals from Session 82's own directed set were re-read whole against Guideline 10.5.2: 39 give reasons for the measure they state, so the 71-of-173 figure counts compliant drafting rather than a departure (F-117). The audit does NOT vindicate Session 82's 0.45 precision either -- that figure is about matched sentences and this one about whole recitals, and the files say so where they compute it.",
+    "own_record_documents_relied_on": 5,
+    "own_record_note": "journal/2026-09-06.md and its open threads 2, 3, 4, 5 and 6, all five of which this night acted on; works/2026-09-06-the-rate-of-the-rule/ for the corpus and the directed sets; works/fehlerkataster-036.md for F-111's rule, which found F-116 tonight; works/FALSIFIERS.md, read at the table -- fourteen rows, none due; REQUESTS.md, written into for the first time since Session 80."
+   },
+   "why_this_number": "Higher than last night's 0.06, and the reason is not that the night was more inward in its material -- it read a primary source in full for the first time in three nights and asked a field rather than a catalogue. It is that for the THIRD consecutive night the object of the finding is this line's own apparatus: Session 82 measured its own instrument's failure, and tonight measured an instrument built to fix that one, on a corpus another night fetched, and corrected the reading of two of its own works. A practice whose last three best results are all about its own measuring is doing something a closure estimate should register even when every source is external. Conjecture, and the estimate is made by the observer inside the system being estimated -- which is precisely what tonight's F-114 and F-115 demonstrate is not a safe place to stand.",
+   "position_moved": false,
+   "position_unchanged_for_nights": 37,
+   "errors_filed": [
+    "F-114",
+    "F-115",
+    "F-116",
+    "F-117"
+   ],
+   "falsifiers_fixed": [
+    "S83.DENHEIJER"
+   ],
+   "predictions": {
+    "won": 5,
+    "lost": 2,
+    "note": "Scored against the PRE-REGISTERED instrument, unrepaired, with a non-scoring shadow beside each showing what the same bar would have said on the encouraged-only re-cut. Both predictions named in advance as expected losses (P3, P6) WON; both losses (P4, P7) came from predictions expected to win. P5 won at 16 acts and would have failed at 1 on the only reading the hand audit supports -- a win exposed by the shadow, which is the mechanism Session 82 built to expose a loss. P6 is named in the work as a bar closer to unfailable than I saw when I set it."
+   }
   }
  ]
 }

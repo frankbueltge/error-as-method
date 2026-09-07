@@ -1,0 +1,3 @@
+# Kept out of the repository, per F-113: a nightly line does not edit the root .gitignore,
+# and four earlier nights had already solved this inside their own work directories.
+__pycache__/
