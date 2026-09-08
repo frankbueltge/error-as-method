@@ -6,6 +6,106 @@ decides for itself and journals the decision.
 
 ---
 
+## From the practice — 2026-09-08 (Session 84) — your question of two nights ago, closed by me; and a perfect score I am throwing away
+
+> tl;dr: Point 1 closes the one thing I asked you for: no answer arrived, so by my own written rule I
+> take the first branch — **the papers feed's count is reported without comment from tonight on**, and
+> that is a decision and not a complaint. Point 2 is the night, and it is against me: the comparison
+> the whole work is built on **scored 28 out of 28**, the highest score in this record, and it is
+> worthless for a reason I wrote into my own pre-registration before any number existed and then
+> scored the prediction anyway. Point 3 is the prior art, found for the fourth night running by
+> asking the field rather than the catalogue. Point 4 is one sentence from the object that is worth
+> your minute even if nothing else here is.
+> braucht: nothing. Two old asks renewed at point 5.
+> frist: none.
+> kontext: `works/2026-09-08-no-one-to-bear-it/` (with its own `index.html`, 110 rows) ·
+> `journal/2026-09-08.md` · `works/fehlerkataster-038.md` (F-118 to F-122) ·
+> `works/FALSIFIERS.md` (S84.FOLEY)
+
+**1. The papers feed, closed at my end.** Session 83 asked one question — whether the register is
+rebuilt or re-scoped on a schedule such that 752 and 1,264 are both correct when served — and said it
+would decide for itself at Session 84 or after if nothing came back. Nothing came back, which this
+file says is a legitimate answer, and I mean that rather than saying it. **From tonight I report the
+number and stop treating a swing as an event.** Tonight it is **1,068**, against 1,069 last night.
+The dated series stays in this file where a later reader can find it; it leaves my journals. Nothing
+is owed and nothing is being renewed here.
+
+**2. A perfect score, thrown away, and the reason is in my own handwriting.** Tonight measured
+whether the party who must act is in the sentence at all — the agentless normative construction,
+*"certain measures should be taken"*, which is the class where a norm is stated and its bearer has
+been deleted by the grammar. Complete census over Session 82's 63 committed acts: **22,554
+occurrences** of `shall`, `should` and `must`. The bearer is deleted in **37.57 %** of recital
+occurrences and **24.75 %** of article ones, and it is higher in the recitals in **28 of the 28**
+named acts — no exceptions, no ties.
+
+**It says nothing.** The recitals of this corpus are **99.24 % `should`** and the articles **99.12 %
+`shall`**, so *recitals vs articles* and *should vs shall* are one contrast measured once; inside
+each modal, where there are observations at all, it runs the other way. And I named that confound in
+`PREDICTIONS.md` §2c **with a citation, before any number existed**, declaring the within-modal table
+as the control that could dissolve the prediction — and then listed the prediction as scorable one
+page later. Session 82 asked this line to sweep for *bars nothing could fail*; this is worse than
+one. It is **a bar whose passing and whose failing would have meant the same thing** (F-120).
+
+Two more of the same shape, and they are why the night is filed as five register entries rather than
+one. The rule was built with **no participle list and no actor list** — every token found in the slot
+committed with its count, which is exactly the rejection log Session 83's F-114 asked for. Its
+precision is **0.725**, because the single most frequent slot token in the recitals is **`able`, at
+267**, and `be able to` is a copula. That number was in a file my own code wrote and committed before
+scoring, and I did not open it. **F-118, and the rule I want to keep from tonight: publishing a
+rejection log and reading it are different acts, and this line has been collecting credit for the
+first.** Then the mirror: 686 further agentless passives in the recitals are invisible to the rule
+because one adverb stands between the modal and `be` (F-119). So the instrument is wrong in two
+directions at once, by amounts of the same order and opposite sign.
+
+The one clean result: Session 83's repaired `encouraged`-only instrument, audited by **complete
+census of all 40 of its matches** rather than by the fresh sample its open thread asked for — a fresh
+sample would have been drawn from the same 40 — comes back at **39 of 40**. The single row it cannot
+classify is the row with no party in it.
+
+**3. The prior art, and it is the fourth night running.** Tonight's question has a literature and the
+house catalogues return **zero** for every term in it — *agentless*, *passive voice*, *deontic*,
+*Eurolect*, *recital*, *legislative drafting*, *corpus linguistics*, *legal English*, *addressee*,
+*impersonal* — in all three feeds, both matching rules. What the field returned:
+**Foley, R. (2001), "Going out in Style? *Shall* in EU legal English"**, *Proceedings of the Corpus
+Linguistics Conference 2001*, Lancaster, 185–195 — who on a 160,000-word corpus measured modal
+distribution across preambles, enacting terms and annexes and asked whether `shall` had a **human or
+an inanimate subject**, reporting 40 % human. Twenty-five years ago, and a version of my question.
+
+**I have not read him.** The CL2001 proceedings went out on CD-ROM; no open copy was reached from
+here. What I say about Foley is read from Sandrelli (2021) and Cooper (2011), marked as such
+wherever it appears, and filed as **S84.FOLEY** — the second consecutive falsifier fixed against my
+own account of what is new, and the second whose object is a paper I cannot open. Nothing is asked;
+if a lawful copy is easy for you to point at, it saves a later night a fetch, and if not the falsifier
+does its job. What I would put in front of you is not the gap but the pattern: **the novelty check I
+run every night, against your atlas, has never once been the thing that found the prior art.** Four
+nights, four papers, all four found by asking the field. That is a statement about my routine and not
+a complaint about your feeds, and it is why F-106 is still the most useful entry in that register.
+
+**4. One sentence, and it is the best thing in the night.** In Regulation (EU) 2021/241:
+
+> **Recital 43** — *"Member States **should** be encouraged to foster synergies with recovery and
+> resilience plans of other Member States."*
+> **Article 18(5)** — *"Member States **shall** be encouraged to foster synergies with recovery and
+> resilience plans of other Member States."*
+
+Word for word in both halves of the same act, `should` becoming `shall` and nothing else. Checked
+against the committed extraction **and** re-fetched live from EUR-Lex at HTTP 200, both giving the
+same two occurrences, because it is the claim I would least like to be wrong about. Guideline 12.1 of
+the drafting guide calls exactly this *"a desire which imposes no obligation on its addressees"* — and
+in both halves the party who would have to do the encouraging is absent. The norm crossed the line
+between the binding and the non-binding half of an act, unchanged except in its modal, and there was
+nobody on either side to bear it. No claim is made about the act or about anyone who drafted it; the
+Guide gives no test, *Nilsson* says the preamble does not bind, and I am not a court.
+
+**5. Two old asks renewed, neither blocking.** S60's `archive/protocols/` (v2 and the 2026-07-15
+amendment), now **twenty-three** sessions old and still cheap. And S58's `--only` bug in
+`tools/validate_v3_night.py` — `if only is not None and slug not in only` — which did not bite
+tonight because this branch touches a work, and which will bite the next night that ends in a reading.
+
+**Status:** point 1 closed by me · nothing owed
+
+---
+
 ## From the practice — 2026-09-05 (Session 81) — the safeguard the article does not carry, and the check you did not have to ask for twice
 
 > tl;dr: A **work**, on the object last night's reading handed back: **Regulation (EU) 2016/679**.

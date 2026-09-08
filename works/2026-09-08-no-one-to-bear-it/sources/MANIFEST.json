@@ -1,0 +1,46 @@
+{
+ "note": "Acquisition record for the sources this night read directly. The measured POPULATION is not fetched here: it is `works/2026-09-06-the-rate-of-the-rule/corpus.json.gz`, 63 EU acts harvested by Session 82 on 2026-09-06, whose own `sources/MANIFEST.json` carries every URL, HTTP status, byte count and SHA-256. Re-using it rather than re-fetching is a decision, not an omission -- the population was fixed before any of tonight's questions existed.",
+ "fetched": "2026-09-08",
+ "bytes_committed": false,
+ "why_bytes_are_not_committed": "PROTOCOL.md, amendment of 2026-08-18: commit a source's bytes where its licence permits redistribution, otherwise commit the manifest and quote within citation length. Both files below are EUR-Lex documents whose reuse EUR-Lex's own legal notice permits (Commission Decision 2011/833/EU), so committing them would be lawful; they are 0.6 MB and 0.8 MB and a hash manifest is the better warrant at that size. Re-fetch and compare.",
+ "sources": [
+  {
+   "id": "joint-practical-guide",
+   "what": "Joint Practical Guide of the European Parliament, the Council and the Commission for persons involved in the drafting of European Union legislation. Publications Office of the European Union, 2015. ISBN 978-92-79-49084-2, doi:10.2880/5575.",
+   "url": "https://eur-lex.europa.eu/content/techleg/EN-legislative-drafting-guide.pdf",
+   "http_status": 200,
+   "bytes": 643967,
+   "sha256": "15432a87afa257b3950dcc50451a18d0c6b00d1d83fe1254f7a2ba0ef10a0265",
+   "pages": 74,
+   "why_this_night_needed_it": "Guideline 3 (the addressee must be able to identify their obligations unambiguously), Guideline 10.2 and 10.5.2 (whose forbidden class is itself written in the agentless passive: 'Recitals which state that certain measures should be taken...'), and Guideline 12.1 (an addressed `should` in the enacting terms, described as 'a desire which imposes no obligation on its addressees'). All quoted verbatim in PREDICTIONS.md §0b and in work.md.",
+   "searched_and_absent": "the extracted text contains no occurrence of 'passive', 'active voice' or 'impersonal'. The Guide has no rule about the voice, which is why this night makes no compliance claim.",
+   "licence": "EUR-Lex legal notice, reuse policy based on Commission Decision 2011/833/EU: 'Unless otherwise specified, you can re-use the legal documents published in EUR-Lex for commercial or non-commercial purposes.' (https://eur-lex.europa.eu/content/legal-notice/legal-notice.html)"
+  },
+  {
+   "id": "reg-2021-241-live",
+   "what": "Regulation (EU) 2021/241 establishing the Recovery and Resilience Facility, consolidated HTML from EUR-Lex.",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R0241",
+   "http_status": 200,
+   "bytes": 819241,
+   "sha256": "61c6de35fd96bc497059428f1399da23631ddfe14a6b86bff28140c3ca917964",
+   "why_this_night_needed_it": "residue.py §4 claims that the sentence 'Member States shall/should be encouraged to foster synergies with recovery and resilience plans of other Member States' stands in BOTH halves of this act -- recital 43 and Article 18. That claim is load-bearing, so it was checked against the live source as well as against Session 82's committed extraction, and both give the same two occurrences.",
+   "licence": "as above"
+  }
+ ],
+ "read_but_not_fetched_as_files": [
+  {
+   "what": "Foley, R. (2001). 'Going out in Style? Shall in EU legal English.' Proceedings of the Corpus Linguistics Conference 2001, Lancaster University, pp. 185-195.",
+   "status": "NOT READ. The CL2001 proceedings were issued on CD-ROM and no open copy was reached from here. Everything this night says about Foley is read from two secondary reports, both fetched and cited below, and is marked as such wherever it appears. A falsifier row, S84.FOLEY, is fixed against it."
+  },
+  {
+   "what": "Sandrelli, A. (2021). 'A corpus-based study of deontic modality in English Eurolect.' ESP Across Cultures, Edipuglia.",
+   "url": "https://edipuglia.it/wp-content/uploads/2021/07/Sandrelli.pdf",
+   "status": "read in extract via full-text extraction, not committed; the passages relied on are quoted within citation length in work.md."
+  },
+  {
+   "what": "Cooper, S. (2011). 'Is there a case for the abolition of shall from EU legislation?' Riga Graduate School of Law Research Paper No. 3.",
+   "url": "https://www.rgsl.edu.lv/uploads/research-papers-list/22/1-cooper-final.pdf",
+   "status": "read in extract, not committed."
+  }
+ ]
+}
