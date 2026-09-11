@@ -1,0 +1,291 @@
+{
+ "harvested": "2026-09-11",
+ "index": "https://spec.whatwg.org/",
+ "index_status": 200,
+ "licence": "Copyright (c) WHATWG (Apple, Google, Mozilla, Microsoft). Licensed under a Creative Commons Attribution 4.0 International License; portions incorporated into source code under BSD 3-Clause. Quoted from the 'Intellectual property rights' section carried by every document harvested.",
+ "note": "The raw HTML is not committed. It is lawful to commit (CC BY 4.0) and was left out because 23 MB of Bikeshed markup is not the evidence: the SHA-256 below lets a stranger re-fetch and compare, and corpus.json.gz holds exactly what was measured.",
+ "documents": [
+  {
+   "url": "https://bluetooth.spec.whatwg.org/",
+   "status": 0,
+   "bytes": 0,
+   "sha256": null,
+   "in_corpus": false,
+   "reason": "not served at HTTP 200"
+  },
+  {
+   "url": "https://compat.spec.whatwg.org/",
+   "status": 200,
+   "bytes": 278656,
+   "sha256": "e85d1e96c1cdd3bb3c52023c1c9b0ad2f82da92b55085603cfe4d15cfbc8c3c6",
+   "title": "Compatibility Standard",
+   "updated": "",
+   "blocks_kept": 497,
+   "blocks_dropped_as_furniture": 73,
+   "in_corpus": true
+  },
+  {
+   "url": "https://compression.spec.whatwg.org/",
+   "status": 200,
+   "bytes": 114311,
+   "sha256": "a876eedfb8bbe232c9f497861a274aa1cc059367698e7a7125055e1aa7af1e55",
+   "title": "Compression Standard",
+   "updated": "",
+   "blocks_kept": 176,
+   "blocks_dropped_as_furniture": 38,
+   "in_corpus": true
+  },
+  {
+   "url": "https://console.spec.whatwg.org/",
+   "status": 200,
+   "bytes": 202285,
+   "sha256": "a49f1831f48251c7867ec6a50ef84257952c1ac405e60393fb8dd161159d0ad8",
+   "title": "Console Standard",
+   "updated": "",
+   "blocks_kept": 354,
+   "blocks_dropped_as_furniture": 60,
+   "in_corpus": true
+  },
+  {
+   "url": "https://cookiestore.spec.whatwg.org/",
+   "status": 200,
+   "bytes": 384023,
+   "sha256": "a8b7cf6c37deda7825da440db3fef21a71f24bc57f8d5b73a908c6f9f46ebb2e",
+   "title": "Cookie Store API Standard",
+   "updated": "",
+   "blocks_kept": 689,
+   "blocks_dropped_as_furniture": 68,
+   "in_corpus": true
+  },
+  {
+   "url": "https://dom.spec.whatwg.org/",
+   "status": 200,
+   "bytes": 3158685,
+   "sha256": "bfde1117739cf93463ed17ba0af7d663abf098fbd126f2bcf92e93ce7d787487",
+   "title": "DOM Standard",
+   "updated": "",
+   "blocks_kept": 5659,
+   "blocks_dropped_as_furniture": 107,
+   "in_corpus": true
+  },
+  {
+   "url": "https://encoding.spec.whatwg.org/",
+   "status": 200,
+   "bytes": 609688,
+   "sha256": "6dc34b5b039ed96a492ac4816fa5c9b5124edc9846fe29b52423b6fb4077eeea",
+   "title": "Encoding Standard",
+   "updated": "",
+   "blocks_kept": 1302,
+   "blocks_dropped_as_furniture": 90,
+   "in_corpus": true
+  },
+  {
+   "url": "https://fetch.spec.whatwg.org/",
+   "status": 200,
+   "bytes": 1929966,
+   "sha256": "f72f58d3320c54413fcc95da4e125f07b4141663c6ff7077733909216ad1905b",
+   "title": "Fetch Standard",
+   "updated": "",
+   "blocks_kept": 3979,
+   "blocks_dropped_as_furniture": 100,
+   "in_corpus": true
+  },
+  {
+   "url": "https://fs.spec.whatwg.org/",
+   "status": 200,
+   "bytes": 532058,
+   "sha256": "99fac08af784f8e92fa405d934acc1eb958e6dd9c90806a38e70243a92a7bc43",
+   "title": "File System Standard",
+   "updated": "",
+   "blocks_kept": 892,
+   "blocks_dropped_as_furniture": 53,
+   "in_corpus": true
+  },
+  {
+   "url": "https://fullscreen.spec.whatwg.org/",
+   "status": 200,
+   "bytes": 236137,
+   "sha256": "64fe7b7223f2c37c8a9834a1f05a02a0e5c16b2ad05920a134ca5893d637be76",
+   "title": "Fullscreen API Standard",
+   "updated": "",
+   "blocks_kept": 397,
+   "blocks_dropped_as_furniture": 37,
+   "in_corpus": true
+  },
+  {
+   "url": "https://hid.spec.whatwg.org/",
+   "status": 0,
+   "bytes": 0,
+   "sha256": null,
+   "in_corpus": false,
+   "reason": "not served at HTTP 200"
+  },
+  {
+   "url": "https://html.spec.whatwg.org/",
+   "status": 200,
+   "bytes": 15593584,
+   "sha256": "fd7d0e08037ac31655693c27e5723ae26d314f9bbc37f5d84bafb4bdae30fabe",
+   "title": "HTML Standard",
+   "updated": "",
+   "blocks_kept": 39289,
+   "blocks_dropped_as_furniture": 1264,
+   "in_corpus": true
+  },
+  {
+   "url": "https://infra.spec.whatwg.org/",
+   "status": 200,
+   "bytes": 360671,
+   "sha256": "66af85968c5e99d67ccb8cdf5e54c05c5f7e23760ef85ecb336c4907ad093cd8",
+   "title": "Infra Standard",
+   "updated": "",
+   "blocks_kept": 981,
+   "blocks_dropped_as_furniture": 64,
+   "in_corpus": true
+  },
+  {
+   "url": "https://mimesniff.spec.whatwg.org/",
+   "status": 200,
+   "bytes": 245762,
+   "sha256": "d8212c3949b8ec2ac0ec38136955d4fd751dd0eab73e1687716bfe3796fdda1e",
+   "title": "MIME Sniffing Standard",
+   "updated": "",
+   "blocks_kept": 554,
+   "blocks_dropped_as_furniture": 59,
+   "in_corpus": true
+  },
+  {
+   "url": "https://nfc.spec.whatwg.org/",
+   "status": 0,
+   "bytes": 0,
+   "sha256": null,
+   "in_corpus": false,
+   "reason": "not served at HTTP 200"
+  },
+  {
+   "url": "https://notifications.spec.whatwg.org/",
+   "status": 200,
+   "bytes": 415402,
+   "sha256": "178a374a1271d426f151a0c39c41e00881d2a50dd9b179aedfe407ac5949223e",
+   "title": "Notifications API Standard",
+   "updated": "",
+   "blocks_kept": 696,
+   "blocks_dropped_as_furniture": 50,
+   "in_corpus": true
+  },
+  {
+   "url": "https://quirks.spec.whatwg.org/",
+   "status": 200,
+   "bytes": 160760,
+   "sha256": "9db9f3f61c2d7076766a1fc4830787685fb82ebf3f5bba56ae3b2b1e7dc186eb",
+   "title": "Quirks Mode Standard",
+   "updated": "",
+   "blocks_kept": 266,
+   "blocks_dropped_as_furniture": 48,
+   "in_corpus": true
+  },
+  {
+   "url": "https://serial.spec.whatwg.org/",
+   "status": 0,
+   "bytes": 0,
+   "sha256": null,
+   "in_corpus": false,
+   "reason": "not served at HTTP 200"
+  },
+  {
+   "url": "https://storage.spec.whatwg.org/",
+   "status": 200,
+   "bytes": 202328,
+   "sha256": "bab62b870d9d5458405729ec870dddb48da07ca4858ba5315d139077aad9b338",
+   "title": "Storage Standard",
+   "updated": "",
+   "blocks_kept": 348,
+   "blocks_dropped_as_furniture": 44,
+   "in_corpus": true
+  },
+  {
+   "url": "https://streams.spec.whatwg.org/",
+   "status": 200,
+   "bytes": 2014928,
+   "sha256": "5ceddd6d934be19fddaa8ac74bfef53e532a5aa23cb3349abf71d1ba7e2ed72c",
+   "title": "Streams Standard",
+   "updated": "",
+   "blocks_kept": 4058,
+   "blocks_dropped_as_furniture": 159,
+   "in_corpus": true
+  },
+  {
+   "url": "https://testutils.spec.whatwg.org/",
+   "status": 200,
+   "bytes": 42615,
+   "sha256": "2d0f86a1ef8052d3c224a3ad1e2960524a2caeecd7307440cbc39bf7ede60d16",
+   "title": "Test Utils Standard",
+   "updated": "",
+   "blocks_kept": 48,
+   "blocks_dropped_as_furniture": 31,
+   "in_corpus": true
+  },
+  {
+   "url": "https://url.spec.whatwg.org/",
+   "status": 200,
+   "bytes": 740143,
+   "sha256": "8e2eef304c23375141e1ac38268d5b5a54eff934c14c3175b323aab419b0dfbe",
+   "title": "URL Standard",
+   "updated": "",
+   "blocks_kept": 1497,
+   "blocks_dropped_as_furniture": 61,
+   "in_corpus": true
+  },
+  {
+   "url": "https://urlpattern.spec.whatwg.org/",
+   "status": 200,
+   "bytes": 728778,
+   "sha256": "16e93f4dd228d22f4bbd7fb0ee97cb6d8272e73483c09768082a118d21ca6eb2",
+   "title": "URL Pattern Standard",
+   "updated": "",
+   "blocks_kept": 1720,
+   "blocks_dropped_as_furniture": 50,
+   "in_corpus": true
+  },
+  {
+   "url": "https://usb.spec.whatwg.org/",
+   "status": 0,
+   "bytes": 0,
+   "sha256": null,
+   "in_corpus": false,
+   "reason": "not served at HTTP 200"
+  },
+  {
+   "url": "https://webidl.spec.whatwg.org/",
+   "status": 200,
+   "bytes": 2541269,
+   "sha256": "bd4d0345c5a2164bccea124842afe4c6f1d7aa2373ce182bfd6f049055fdd05a",
+   "title": "Web IDL Standard",
+   "updated": "",
+   "blocks_kept": 4532,
+   "blocks_dropped_as_furniture": 263,
+   "in_corpus": true
+  },
+  {
+   "url": "https://websockets.spec.whatwg.org/",
+   "status": 200,
+   "bytes": 291325,
+   "sha256": "a3cfd05d5fbb7617a052563ec71d6429a5c2a99f18d1afe972aaf64deab7228f",
+   "title": "WebSockets Standard",
+   "updated": "",
+   "blocks_kept": 472,
+   "blocks_dropped_as_furniture": 36,
+   "in_corpus": true
+  },
+  {
+   "url": "https://xhr.spec.whatwg.org/",
+   "status": 200,
+   "bytes": 605324,
+   "sha256": "6c52a7f84144c212ebd99c47627ef5c86d156214bc02c08973884359cf68ca24",
+   "title": "XMLHttpRequest Standard",
+   "updated": "",
+   "blocks_kept": 1070,
+   "blocks_dropped_as_furniture": 61,
+   "in_corpus": true
+  }
+ ]
+}
