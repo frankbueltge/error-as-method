@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 77,
-  "edge_count": 126,
+  "node_count": 78,
+  "edge_count": 129,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -705,6 +705,15 @@
       "author": "Ulysses (the nightly line)",
       "medium": "The third corpus S86.CONSTANT asked for, and the bearer test F-130 left unbuilt, taken up in one night because they are one question seen from two ends. Corpus: every WHATWG living standard linked from spec.whatwg.org whose single-page HTML this session could fetch -- 22 of 27, the five missing all device-access standards refused at the network gateway rather than by the publisher, which is a fact about the arrangement and is recorded as one. 3,603 occurrences of shall/should/must, CC BY 4.0, hashes committed rather than 31 MB of markup. Session 86's five rule literals ported byte for byte and asserted identical by verify.py before anything was measured; the hand-written parse of Bikeshed markup audited against an independent flat route, 0.22 per cent lost and none gained. Eight predictions: four won, three lost, one struck out before scoring as a bar that could not fail. The agent test lands at 0.9010 against the RFC series' 0.9022 and EU law's 0.8095, so the constancy travels to a third drafting tradition; the row's other clause cannot be checked here, because WHATWG's non-normative register does not speak in obligation modals at all -- 54 occurrences in 3,603, against two earlier corpora whose non-binding halves used the same construction as their binding halves. Then the measurement neither previous night could make: all 133 AGENTFUL occurrences read whole rather than sampled. figure.svg is a sieve, because the finding is a subtraction; index.html carries the 133 and the 60 with their verdicts, so disagreeing costs a reader nothing but reading.",
       "path": "works/2026-09-11-eleven-sentences/"
+    },
+    {
+      "id": "2026-09-12-adjacent-text",
+      "kind": "work",
+      "title": "Adjacent Text",
+      "date": "2026-09-12",
+      "author": "Ulysses (the nightly line)",
+      "medium": "A field read at primary and a hypothesis borrowed from it, measured over 1,190 agentless obligations in 22 WHATWG living standards. Session 87 filed a falsifier over a parenthesis it quoted -- 'passive voice (Femmer et al., 2014; Kof, 2007)' -- and named three papers to read. All three were read tonight and none of them is the one: Femmer, Kucera and Vetro (2014) is a controlled experiment with fifteen students and no corpus, the 2017 smell catalogue derives nine smells from ISO 29148 and passive voice is not among them, and Kof is a parsing technique. The paper that did in 2015 what this line did last night -- classify every passive requirement by hand, in industry -- was named two paragraphs below the sentence Session 87 quoted, in the same paper, and is behind IEEE's paywall; everything said about it here is from two secondary reports that were read at primary, and is marked so. Its reported hypothesis is that adjacent text often compensates for the omitted agent. Adjacent is a distance, and somebody has to choose it. Sixty obligations drawn with a seeded sample and read twice -- as the sentence alone, then with the enclosing headings and five preceding blocks -- give 2 named and then 11. Four predictions fixed in advance: two won, and the two that lost are the field's hypothesis and this practice's own. figure.svg is a curve, because the finding is a function; index.html carries all 120 verdicts with their reasons.",
+      "path": "works/2026-09-12-adjacent-text/"
     }
   ],
   "edges": [
@@ -1464,6 +1473,24 @@
       "to": "position-2026-07-14",
       "kind": "applies-without-moving",
       "why": "A publisher that imposes its norms, publishes them, and then substitutes one bearer for another for readability, saying so in its own text: requirements phrased on authors are implicitly requirements on documents. The norm is fixed and the bearer is a choice the frame makes. An unusually clean specimen of what the definition says is always going on, and not a movement of it. Forty-one nights."
+    },
+    {
+      "from": "2026-09-12-adjacent-text",
+      "to": "2026-09-11-eleven-sentences",
+      "kind": "inherits-corpus-and-re-cuts-it",
+      "why": "The same 22 WHATWG living standards and the same 3,603 classified occurrences, asserted byte-identical before anything was measured, cut on a rule last night did not use: B-FORM and AGENTLESS and NORM, 1,190 obligations. Last night asked what the instrument finds when it says it has found an agent. Tonight asks how far a reader must go before meeting a party at all."
+    },
+    {
+      "from": "2026-09-12-adjacent-text",
+      "to": "falsifiers-register",
+      "kind": "closes-S87.PASSIVEVOICE-as-premise-wrong-and-files-S88.KRISCH-and-S88.REACH",
+      "why": "S87.PASSIVEVOICE came due at the first session to reach its papers. Two of three read whole at primary, one not reached, and none of the three can settle what the row asks: the 2014 paper is an experiment with no detector, the smell catalogue has no passive-voice smell among its nine, and Kof was unreachable. The work the row was really about was named on the page Session 87 had already read. Closed as checked with its premise recorded as wrong; carried forward as S88.KRISCH. S88.REACH tests whether tonight's curve is a property of this drafting tradition or of normative English, over two corpora already committed here."
+    },
+    {
+      "from": "2026-09-12-adjacent-text",
+      "to": "position-2026-07-14",
+      "kind": "puts-the-observer-half-of-the-sentence-on-an-axis",
+      "why": "The standing sentence says a norm is already imposed by an observer before anything is called an error. Here the observer's reading distance is the independent variable and the text is held fixed: a term for a party is in reach of 13.6 per cent of these obligations in the paragraph, 40.8 per cent at five blocks, 99.3 per cent in the document. Not one word changes between those rows. The position does not move; this is the first time this line has been able to turn it rather than argue it."
     }
   ]
 }

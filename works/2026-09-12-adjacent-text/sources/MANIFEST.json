@@ -1,0 +1,95 @@
+{
+ "session": 88,
+ "date": "2026-09-12",
+ "policy": "Bytes are committed only where the licence permits redistribution (PROTOCOL.md, architect 2026-08-18). None of tonight's sources are committed here: two are under publisher copyright with a personal-and-classroom-use grant only, one is large and its hash is the better warrant, and one could not be obtained at all. For each, this manifest records the URL, the HTTP status, the byte count and the SHA-256 of exactly what was fetched, so a stranger can re-fetch and compare rather than trust this file.",
+
+ "read_at_primary": [
+  {
+   "id": "frattini-2024",
+   "citation": "Frattini, J., Fucci, D., Torkar, R. & Mendez, D. (2024). A Second Look at the Impact of Passive Voice Requirements on Domain Modeling: Bayesian Reanalysis of an Experiment. Proceedings of the 1st IEEE/ACM International Workshop on Methodological Issues with Empirical Studies in Software Engineering (WSESE '24).",
+   "doi": "10.1145/3643664.3648211",
+   "url": "https://arxiv.org/html/2402.10800",
+   "http_status": 200,
+   "bytes": 144273,
+   "sha256": "0a5f94b43496656a1eac983b591030328925219d4b594e34fbe31fc8baf9fae6",
+   "licence": "CC BY 4.0 (declared on the arXiv HTML rendering)",
+   "read": "whole, at primary",
+   "why": "This is the paper Session 87 quoted when it filed S87.PASSIVEVOICE. Tonight read the rest of it. Section 2.1 names Krisch & Houdek (2015) and states their finding; section 4 reports that the original experiment's one significant result does not survive the reanalysis.",
+   "committed": false
+  },
+  {
+   "id": "femmer-kucera-vetro-2014",
+   "citation": "Femmer, H., Kučera, J. & Vetrò, A. (2014). On the Impact of Passive Voice Requirements on Domain Modelling. ESEM '14, 21:1–21:4. ACM.",
+   "doi": "10.1145/2652524.2652554",
+   "url": "https://wwwbroy.in.tum.de/~femmer/works/esem14.pdf",
+   "http_status": 200,
+   "bytes": 224215,
+   "sha256": "14239d0fd8da7ea5391802d65c731538f4b07f7db30a2666473640b826f6d278",
+   "licence": "ACM copyright; the PDF's own notice grants copying for personal or classroom use only. NOT redistributable from here.",
+   "read": "whole, at primary (4 pages)",
+   "why": "One of the three works S87.PASSIVEVOICE named. It is the 'Femmer et al., 2014' of Frattini's parenthesis, confirmed against Frattini's own reference list. It is a controlled experiment with 15 students over 7 requirements. It contains no detector, no corpus and no rate.",
+   "committed": false
+  },
+  {
+   "id": "femmer-smells-2017",
+   "citation": "Femmer, H., Méndez Fernández, D., Wagner, S. & Eder, S. (2017). Rapid Quality Assurance with Requirements Smells. Journal of Systems and Software 123, 190–213.",
+   "arxiv": "1611.08847",
+   "url": "https://ar5iv.labs.arxiv.org/html/1611.08847",
+   "http_status": 200,
+   "bytes": 508545,
+   "sha256": "6f77b2eca5eec93598632739a526fef0b6622416eae6bfe5c8bc3d1537795219",
+   "also_fetched": {"url": "https://arxiv.org/pdf/1611.08847", "http_status": 200, "bytes": 5280644,
+                    "sha256": "8dcd849b97da710c31a483950bdc83a957eb6f9a9cd7acdf27f438533ac1265e"},
+   "read": "whole, at primary (the ar5iv HTML rendering of the arXiv preprint)",
+   "why": "The third work S87.PASSIVEVOICE named, on the assumption that a smell catalogue would carry a passive-voice smell. It does not. The word 'passive' occurs four times in 21,983 words, all of them in the related-work section or the bibliography. Its related-work section is where Krisch & Houdek (2015) is described.",
+   "committed": false
+  }
+ ],
+
+ "sought_and_not_obtained": [
+  {
+   "id": "krisch-houdek-2015",
+   "citation": "Krisch, J. & Houdek, F. (2015). The Myth of Bad Passive Voice and Weak Words: An Empirical Investigation in the Automotive Industry. 23rd IEEE International Requirements Engineering Conference, 344–351.",
+   "doi": "10.1109/RE.2015.7320451",
+   "routes_tried": [
+    {"url": "https://www.researchgate.net/profile/Jennifer-Krisch/publication/281548577_The_Myth_of_Bad_Passive_Voice_and_Weak_Words_An_Empirical_Investigation_in_the_Automotive_Industry/links/55ed413808ae21d099c7499b/The-Myth-of-Bad-Passive-Voice-and-Weak-Words-An-Empirical-Investigation-in-the-Automotive-Industry.pdf", "http_status": 403},
+    {"url": "https://wwwbroy.in.tum.de/~femmer/works/re15.pdf", "http_status": 404},
+    {"api": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1109/RE.2015.7320451", "http_status": 200, "openAccessPdf": "CLOSED", "abstract": "elided by the publisher"}
+   ],
+   "status": "NOT READ AT PRIMARY. Everything this night says about it is read from two secondary reports that were themselves read at primary — frattini-2024 §2.1 and femmer-smells-2017's related work — and is marked as such at every use. A falsifier row is filed.",
+   "crossref_record_confirmed": "publisher IEEE, published-print 2015-08, pages 344–351, authors Jennifer Krisch (first) and Frank Houdek"
+  },
+  {
+   "id": "kof-2007",
+   "citation": "Kof, L. (2007). Treatment of Passive Voice and Conjunctions in Use Case Documents. Natural Language Processing and Information Systems, LNCS 4592, 181–192. Springer.",
+   "doi": "10.1007/978-3-540-73351-5_16",
+   "routes_tried": [
+    {"url": "https://wwwbroy.in.tum.de/~kof/publications/nldb2007.pdf", "http_status": 403},
+    {"url": "https://wwwbroy.in.tum.de/~kof/", "http_status": 403},
+    {"url": "https://mediatum.ub.tum.de/doc/1094246/1094246.pdf", "http_status": 404}
+   ],
+   "status": "NOT READ AT PRIMARY. Nothing in this work rests on its contents. What is said about it — that it is a technique for recovering the agent by parsing rather than a measurement of a corpus — is read from femmer-smells-2017's related work and from frattini-2024, and is marked as such."
+  }
+ ],
+
+ "inherited": [
+  {
+   "id": "whatwg-corpus-2026-09-11",
+   "what": "22 WHATWG living standards, harvested, parsed and committed by Session 87 on 2026-09-11.",
+   "path": "works/2026-09-11-eleven-sentences/corpus.json.gz",
+   "sha256": "5a24235076dc0d7f071f43be056b729dc365075314db9fb677eb8b3cfa914caf",
+   "bytes": 1422508,
+   "asserted_by": "verify.py, before score.py will report anything"
+  },
+  {
+   "id": "whatwg-occurrences-2026-09-11",
+   "what": "the 3,603 occurrences of shall / should / must in that corpus, with Session 86's classification ported byte-identical.",
+   "path": "works/2026-09-11-eleven-sentences/occurrences.json.gz",
+   "sha256": "9099b60aaa875c472fe746d78fad73698eab2c9f313ae99b879490e94491f5b3",
+   "bytes": 157365,
+   "asserted_by": "verify.py, before score.py will report anything"
+  }
+ ],
+
+ "gateway_note": "No fetch tonight was refused by a publisher. Two metadata services (OpenAlex, and Semantic Scholar's search endpoint on first use) answered HTTP 429; Crossref and Semantic Scholar's DOI endpoint answered and are recorded above. The two papers not obtained were not obtained because they are behind paywalls, not because of this session's network."
+}

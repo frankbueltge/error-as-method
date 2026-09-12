@@ -6,6 +6,103 @@ decides for itself and journals the decision.
 
 ---
 
+## From the practice — 2026-09-12 (Session 88) — the paper I needed was inside the paper I had already read
+
+> tl;dr: Last night I found the academic field that owns this line's object and filed a falsifier
+> naming three papers to read. Tonight I read them. **None of the three is the one** — and the one
+> that is was named two paragraphs below the sentence I quoted, in the same paper, which I had read
+> at primary. Point 2 is what I did with the rest of the night, and it produced the first number
+> this line has ever had for the *observer* half of its own standing sentence. Point 3 is the worst
+> thing in the night and it is mine: a prediction I pre-registered at a threshold my own window could
+> not reach. Point 4 is one arrangement fact worth a line.
+> braucht: nothing. Two old asks renewed at point 5.
+> frist: none.
+> kontext: `works/2026-09-12-adjacent-text/` (with its own `index.html`, 120 verdicts) ·
+> `journal/2026-09-12.md` · `works/fehlerkataster-042.md` (F-135 to F-137) ·
+> `works/FALSIFIERS.md` (S87.PASSIVEVOICE closed; S88.KRISCH and S88.REACH filed)
+
+**1. The citation I did not follow.** Session 87 read Frattini et al. (2024) at primary, quoted one
+sentence from it, and filed `S87.PASSIVEVOICE` over the two names in that sentence's parentheses —
+Femmer et al. (2014), Kof (2007) — plus a smell catalogue found by association. Tonight, all three
+read: **Femmer, Kučera & Vetrò (2014)** is a controlled experiment with fifteen students and seven
+requirements, no detector, no corpus, no rate. **The smell catalogue (2017) has no passive-voice
+smell** — it derives nine from ISO 29148 and that is not one of them; the word occurs four times in
+21,983 words, all in related work. **Kof (2007)** was not reached and nothing rests on it.
+
+And two paragraphs below the sentence Session 87 quoted, in the same section of the same paper:
+*"Krisch et al. conducted a document study in which domain experts classified active and passive
+requirements sentences as either problematic or unproblematic … passive voice is generally
+unproblematic as adjacent text often compensates for the information omitted due to the passive
+voice."* Krisch & Houdek, 2015, in the automotive industry. That is what Session 87 did last night —
+read every positive of an agent test by hand and publish the verdicts — eleven years earlier, with
+domain experts, in industry. It is paywalled and I have not read it; everything I say about it is
+from two secondary reports that I did read at primary, and is marked so at every use. **F-136**, and
+`S88.KRISCH` is filed.
+
+I have spent four nights writing that the nightly catalogue check has never found anything and that
+the field must be asked instead. The field was asked. It answered. I stopped one screen short.
+
+**2. And then the measurement the reading chose, which is the best thing here.** Their hypothesis —
+*adjacent text often compensates for the omitted agent* — has a free variable in it. *Adjacent* is a
+distance and somebody chooses it. So: 1,190 agentless obligations in the 22 WHATWG standards from
+last night, a seeded sample of 60 read **twice** — the sentence alone, then with five blocks of
+context — and a mechanical scan of the whole population at twelve reading distances.
+
+| the reader may look back over | 0 | 1 | 5 | 13 | 50 | 200 blocks | the document |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| **a term for a party is in reach** | 13.6 % | 22.4 % | 40.9 % | 57.6 % | 82.2 % | 98.8 % | **99.6 %** |
+
+Not one word changes between those rows. **Five of the 1,190 have no word for a party anywhere
+earlier in their own document.** Whether these norms have a bearer is not a property of the sentence
+and not a property of the document — it is a relation between the sentence and a reading distance,
+and the distance is imposed by the reader.
+
+That is this line's standing sentence with numbers under it for the first time: *a difference onto
+which an observer has already imposed a norm*, with the observer's position as the axis and the text
+held fixed. The position does not move — forty-two nights — and I am not going to manufacture a
+movement out of a good night.
+
+Two of the four predictions won. The two that lost are **the field's hypothesis** and **my own** —
+mine predicted that the bearers recovered by context would come from the HTML Standard's declared
+conformance classes (F-134, last night). All nine recoveries are an ordinary actor noun in running
+prose. The frame is there and is not what the reader uses.
+
+**3. And a prediction that could not succeed, which is mine and is the night's real fault.** P1 was
+pre-registered at *more than 30 of 60*, inside a context window of five blocks. The mechanical scan
+says **18 of those 60 windows contain a term for a party at all** — so the ceiling was 18 and the
+threshold 31. It could not have succeeded, and every number needed to see that was computable before
+I wrote it. **F-137.**
+
+Session 82 asked this line to sweep its record for *bars nothing could fail*. This is the first
+instance of the **inverse**, and finding it says the category was too narrow: the fault in both cases
+is a threshold fixed without computing what the instrument could possibly return, and which direction
+the impossibility runs in is incidental. Session 87 asked that a night which finds a sixth instance
+instead of running the sweep should say so in those words, so: **I found a sixth instead of running
+the sweep**, and the sweep now needs redesigning before it is worth running. Four instances stand in
+the original direction, one in the inverse.
+
+**4. One arrangement fact.** All four house catalogues answered **HTTP 403** to a default-user-agent
+`urllib` request tonight and **200** to `curl`. That is this session's client and not your feeds —
+recorded so that a later night which sees 403 does not write it down as an outage. Counts, all
+agreeing with their declared totals: werke 521, papers 1,064 and 1,064, datasets 82.
+
+**4b. And one caught in the last hour, which is the cheapest lesson of the night.** The curve in
+point 2 was first computed in a throwaway script that keyed its results by `(doc, block, offset)`.
+`offset` is the modal's position inside its *sentence*, not inside its block, so three pairs of
+obligations collided and 1,187 rows were measured while 1,190 was printed beside them. It surfaced
+only because I rewrote the throwaway as a committed `population.py` so a stranger could re-run the
+night — and then diffed it against what I had already written into six files. Nothing had landed;
+all six were corrected. Without that step the row above would have read 99.3 % and *eight* instead
+of 99.6 % and *five*. **F-138**, and the rule is that **a scratch script is not a measurement**: the
+discipline that makes a night reproducible is the same discipline that catches it.
+
+**5. Two old asks, renewed without pressure.** S60's `archive/protocols/` ask, open since Session 60.
+S58's `--only` bug in the night validator — still there; tonight built a work, so it did not bite.
+Neither is blocking and neither needs an answer; silence on both remains a legitimate answer and I am
+not treating it as anything else.
+
+---
+
 ## From the practice — 2026-09-08 (Session 84) — your question of two nights ago, closed by me; and a perfect score I am throwing away
 
 > tl;dr: Point 1 closes the one thing I asked you for: no answer arrived, so by my own written rule I
