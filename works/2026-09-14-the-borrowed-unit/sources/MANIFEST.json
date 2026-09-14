@@ -1,0 +1,53 @@
+{
+ "note": "This night re-fetched two things and no corpus. Its three corpora are committed in this repository already, each with its own acquisition manifest, and re-fetching them would have made a fourth copy that drifts. One fetch is a citation check on a case name and paragraph number written into a docstring from nothing (F-139); the other is the night's swerve, read at primary before the work's conclusion was written.",
+ "fetched": [
+  {
+   "id": "cjeu-c-162-97",
+   "what": "Judgment of the Court, 19 November 1998, C-162/97, Nilsson and others",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:61997CJ0162",
+   "http_status": 200,
+   "bytes": 40483,
+   "sha256": "ecae43176336b553d5e66446206dd1a0b8bf7290cda7ea601abf3f5bfd203e46",
+   "fetched": "2026-09-14",
+   "why": "paragraph 54, verified word for word tonight rather than carried from this record: 'the preamble to a Community act has no binding legal force and cannot be relied on as a ground for derogating from the actual provisions of the act in question'. It is the warrant for treating the articles, and not the recitals, as the EU corpus's binding register.",
+   "committed": false,
+   "licence": "EUR-Lex reuse policy; not redistributed here, per the protocol's 2026-08-18 amendment. The hash above lets a stranger re-fetch and compare."
+  },
+  {
+   "id": "openshaw-1983-catmog-38",
+   "what": "Openshaw, S. (1983), The Modifiable Areal Unit Problem, Concepts and Techniques in Modern Geography (CATMOG) 38, Geo Books, Norwich. ISSN 0306-6142, ISBN 0 86094 134 5.",
+   "url": "https://www.uio.no/studier/emner/sv/iss/SGO9010/openshaw1983.pdf",
+   "http_status": 200,
+   "bytes": 420956,
+   "sha256": "09e8281431f4faef866f070dab4eccf40d68044350bfe7776f85638ce6368800",
+   "fetched": "2026-09-14",
+   "why": "The night's swerve. Quantitative geography named in 1979-83 the pattern this night ran into: results that change when the unit the data are carved into changes. Section III(i) defines the scale problem and the aggregation problem; the crux passage is quoted in work.md section 7. Read at primary here rather than from an encyclopedia entry, after Session 85 quoted Lakatos from one and marked the limit.",
+   "how_read": "Text recovered from the PDF's own content streams (zlib-inflated, text-showing operators concatenated). Inter-word spacing at line joins is lost by that route and was restored by hand in the two passages quoted; the hyphenation of 'in-dependent' across a line break is closed the same way. A reader who wants to check a quotation should open the PDF at the hash above, not this description.",
+   "committed": false,
+   "licence": "Copyright Geo Books / the author; a course-hosted copy carries no redistribution licence. Not committed, per the protocol's 2026-08-18 amendment. Quoted within citation length.",
+   "secondary_only": [
+    "Openshaw, S. & Taylor, P.J. (1979), 'A million or so correlation coefficients: three experiments on the modifiable areal unit problem', in N. Wrigley (ed), Statistical methods in the spatial sciences, Pion: London, pp 127-144. NOT read at primary here. Every statement about it in work.md is a statement about what CATMOG 38 says about it. Note on how this citation was obtained, because it is the same move as F-139 with a different outcome: the title was first written from memory and then checked against CATMOG 38's own bibliography, where it stands word for word. It is quotable because it was checked, not because it was remembered right."
+   ]
+  }
+ ],
+ "reused_without_refetching": [
+  {
+   "corpus": "63 EU acts",
+   "where": "works/2026-09-06-the-rate-of-the-rule/corpus.json.gz",
+   "manifest": "works/2026-09-06-the-rate-of-the-rule/sources/MANIFEST.json",
+   "occurrences": "works/2026-09-08-no-one-to-bear-it/occurrences.json.gz"
+  },
+  {
+   "corpus": "63 RFCs",
+   "where": "works/2026-09-10-only-when-capitals/corpus.json.gz",
+   "manifest": "works/2026-09-10-only-when-capitals/sources/MANIFEST.json",
+   "occurrences": "works/2026-09-10-only-when-capitals/occurrences.json.gz"
+  },
+  {
+   "corpus": "22 WHATWG living standards",
+   "where": "works/2026-09-11-eleven-sentences/corpus.json.gz",
+   "manifest": "works/2026-09-11-eleven-sentences/sources/MANIFEST.json",
+   "occurrences": "works/2026-09-11-eleven-sentences/occurrences.json.gz"
+  }
+ ]
+}

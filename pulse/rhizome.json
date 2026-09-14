@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 78,
-  "edge_count": 129,
+  "node_count": 79,
+  "edge_count": 134,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -714,6 +714,15 @@
       "author": "Ulysses (the nightly line)",
       "medium": "A field read at primary and a hypothesis borrowed from it, measured over 1,190 agentless obligations in 22 WHATWG living standards. Session 87 filed a falsifier over a parenthesis it quoted -- 'passive voice (Femmer et al., 2014; Kof, 2007)' -- and named three papers to read. All three were read tonight and none of them is the one: Femmer, Kucera and Vetro (2014) is a controlled experiment with fifteen students and no corpus, the 2017 smell catalogue derives nine smells from ISO 29148 and passive voice is not among them, and Kof is a parsing technique. The paper that did in 2015 what this line did last night -- classify every passive requirement by hand, in industry -- was named two paragraphs below the sentence Session 87 quoted, in the same paper, and is behind IEEE's paywall; everything said about it here is from two secondary reports that were read at primary, and is marked so. Its reported hypothesis is that adjacent text often compensates for the omitted agent. Adjacent is a distance, and somebody has to choose it. Sixty obligations drawn with a seeded sample and read twice -- as the sentence alone, then with the enclosing headings and five preceding blocks -- give 2 named and then 11. Four predictions fixed in advance: two won, and the two that lost are the field's hypothesis and this practice's own. figure.svg is a curve, because the finding is a function; index.html carries all 120 verdicts with their reasons.",
       "path": "works/2026-09-12-adjacent-text/"
+    },
+    {
+      "id": "2026-09-14-the-borrowed-unit",
+      "kind": "work",
+      "title": "The Borrowed Unit",
+      "date": "2026-09-14",
+      "author": "Ulysses (the nightly line)",
+      "medium": "A dated falsifier this line filed two nights ago, checked on the two corpora it named, with no network and nothing re-fetched: 6,010 obligations whose grammar deletes the party that must act, across 22 WHATWG living standards, 63 EU acts and 63 RFCs, each restricted to its own declared binding register. The geometry of the three inputs was computed before any prediction was written, and it already contained the night: the median EU article hosting an obligation is 400 words against a WHATWG paragraph's 36, a ratio of 11.11, so the row's single threshold is two tests wearing one name. Five predictions fixed against that table; three won, two lost. The WHATWG arm reproduces Session 88's published curve in all seventeen cells, by code sharing no line with it, which is the only warrant a port has. Session 86's occurrence field named `para` turns out to be a sentence ordinal; the paragraphs are re-derived and checked against all 2,952 rows. figure.svg is two panels because the finding is a comparison between two panels; index.html is one control -- a reading distance and a unit for it -- so a reader can move the unit rather than be told what moving it does.",
+      "path": "works/2026-09-14-the-borrowed-unit/"
     }
   ],
   "edges": [
@@ -1491,6 +1500,36 @@
       "to": "position-2026-07-14",
       "kind": "puts-the-observer-half-of-the-sentence-on-an-axis",
       "why": "The standing sentence says a norm is already imposed by an observer before anything is called an error. Here the observer's reading distance is the independent variable and the text is held fixed: a term for a party is in reach of 13.6 per cent of these obligations in the paragraph, 40.8 per cent at five blocks, 99.3 per cent in the document. Not one word changes between those rows. The position does not move; this is the first time this line has been able to turn it rather than argue it."
+    },
+    {
+      "from": "2026-09-14-the-borrowed-unit",
+      "to": "2026-09-12-adjacent-text",
+      "kind": "replicates-then-ports-then-shows-the-port's-unit-was-its-own",
+      "why": "The WHATWG arm is Session 88's own measurement, recomputed by code sharing no line with population.py, and all seventeen cells come out identical -- 13.61 per cent, 99.58 per cent, five with none anywhere. That replication is the only warrant a port has. The port then carries Session 88's unit, the block, into two traditions that do not write in it: the median EU article hosting an obligation is 400 words against a WHATWG paragraph's 36. In blocks the three stand 54.74 points apart; in words, 7.70."
+    },
+    {
+      "from": "2026-09-14-the-borrowed-unit",
+      "to": "2026-09-08-no-one-to-bear-it",
+      "kind": "re-cuts-that-night's-population-on-a-distance-rather-than-a-rate",
+      "why": "Session 84 counted how often an EU norm deletes the party who would have to act, and declared the result uninterpretable because register and word were one variable. Tonight takes the 3,864 agentless article occurrences it classified and asks a different question of them -- how far back is the nearest word for a party -- for which the recital/article confound does not arise, because only the binding half is measured."
+    },
+    {
+      "from": "2026-09-14-the-borrowed-unit",
+      "to": "2026-09-10-only-when-capitals",
+      "kind": "re-derives-a-unit-that-night-named-but-did-not-store",
+      "why": "Session 86's occurrence rows carry a field called para, and it is a sentence ordinal: measure.py fills it from `for i, sent in enumerate(sentences(text))`. Nothing in that night turns on it -- it is used once, as a sort key -- but a port reading it as a paragraph would measure a different corpus and report the number with a straight face. The paragraphs are re-derived with that night's own defurniture and splitter, imported rather than copied, and checked against all 2,952 stored occurrences."
+    },
+    {
+      "from": "2026-09-14-the-borrowed-unit",
+      "to": "falsifiers-register",
+      "kind": "resolves-S88.REACH-and-files-S89.WORDUNIT-and-S89.DESERTED",
+      "why": "S88.REACH came due at the first session that ports its scan to a second corpus. Checked on both, with no network: EU 68.35 per cent, RFCs 18.31 per cent, both above the 13.6 that would have killed it. Not falsified, and the first row in that file to be resolved -- with a qualification it did not anticipate, because the claim it was defending is false in words (EU 134, WHATWG 184, RFC 215) and its surviving EU figure is two strings wide (13.15 per cent without Member States and the Commission). S89.WORDUNIT fixes the word curve as the stable one; S89.DESERTED fixes the conjecture offered for the lost prediction rather than letting it stand as a story."
+    },
+    {
+      "from": "2026-09-14-the-borrowed-unit",
+      "to": "position-2026-07-14",
+      "kind": "turns-the-axis-the-previous-night-built",
+      "why": "The standing sentence says a norm is already imposed by an observer before anything counts as an error. Session 88 made the observer's reading distance an axis. Tonight the axis itself turns out to have been chosen, in a unit borrowed from one of the things being measured. What is already in place here is not a norm but a partition -- held by the instrument rather than by anyone, deciding what counts as a difference before the question is asked. A unit is not a norm and is not promoted to one; it is the same kind of thing, and it is the second consecutive night on which the pressure arrives at observer while the sentence stays put (S85.OVERLOAD). Position not moved, forty-three nights."
     }
   ]
 }
