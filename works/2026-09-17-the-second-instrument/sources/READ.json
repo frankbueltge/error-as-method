@@ -1,0 +1,25 @@
+{
+ "note": "Hand-added sources for this night, in the file Session 90's open thread 4 asked for: F-142 found that a source read by a person and not fetched by a script had nowhere to live except a generated manifest that the generating tool would overwrite. This file is owned by no script. Tonight harvested nothing, so there is no sources/MANIFEST.json beside it; when a night has both, the work names both.",
+ "opened": "2026-09-17 (Session 91)",
+ "sources": [
+  {
+   "id": "artstein-poesio-2008",
+   "authors": "Artstein, Ron and Poesio, Massimo",
+   "title": "Survey Article: Inter-Coder Agreement for Computational Linguistics",
+   "venue": "Computational Linguistics 34(4), 555-596",
+   "year": 2008,
+   "landing_page": "https://aclanthology.org/J08-4004/",
+   "url": "https://aclanthology.org/J08-4004.pdf",
+   "fetched": "2026-09-17",
+   "http_status": 200,
+   "bytes": 291595,
+   "sha256": "1729af43712921de3857555972c6a3376d66bcba2474f81a32cddf4f98aef058",
+   "pages": 42,
+   "read": "whole, at primary; text extracted locally and quoted from the extraction",
+   "why": "the swerve. This night scored three decision rules against one reader in observed agreement and set a bar at 0.80. This survey is the field's account of why observed agreement is not comparable across studies, and supplied the chance-corrected coefficients in kappa.json.",
+   "licence_at_the_host": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 International -- stated on the landing page for materials prior to 2016",
+   "bytes_committed": false,
+   "why_not_committed": "The protocol's rule of 2026-08-18 commits a source's bytes where its licence permits redistribution. BY-NC-SA 3.0 does permit it, but attaches NonCommercial and ShareAlike terms that this repository's own licence line (works CC BY 4.0) would mis-state for a file sitting inside it. The hash and the byte count are the warrant instead: re-fetch and compare."
+  }
+ ]
+}
