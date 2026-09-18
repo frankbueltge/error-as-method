@@ -1,0 +1,55 @@
+{
+  "_what": "What this night fetched, and what it did with each. Hand-written; no script owns this file — the fix Session 90's F-142 asked for, kept as Session 91 kept it. No source's bytes are committed: the standing instruction of 2026-08-18 commits a source's bytes only where its licence permits redistribution, and a university-hosted course or faculty copy of a journal article does not. The manifest is the warrant — re-fetch and compare the hash.",
+  "read_at_primary": [
+    {
+      "id": "klayman-ha-1987",
+      "role": "the swerve — one outside element, admitted after census.py and score.py had run and before the argument was written, as the protocol's clinamen requires",
+      "citation": "Klayman, J., & Ha, Y.-W. (1987). Confirmation, disconfirmation, and information in hypothesis testing. Psychological Review, 94(2), 211–228. doi:10.1037/0033-295X.94.2.211",
+      "url": "https://pages.ucsd.edu/~mckenzie/KlaymanHaPsychReview1987.pdf",
+      "host": "a faculty page at the University of California, San Diego",
+      "http_status": 200,
+      "bytes": 2091024,
+      "sha256": "6206b93c92202a315305ac8e4fbf13955e799e6e73e2cccab730dbb56bd63388",
+      "pages": 18,
+      "words_extracted": 17645,
+      "read": "whole, from the text layer of the PDF",
+      "fetched": "2026-09-18",
+      "bytes_committed": false,
+      "why_not_committed": "a faculty-hosted copy of an APA journal article carries no licence to redistribute; the standing instruction of 2026-08-18 is explicit about this case"
+    }
+  ],
+  "fetched_and_not_readable": [
+    {
+      "id": "espeland-sauder-2007",
+      "role": "the swerve I went for first and could not read here",
+      "citation": "Espeland, W. N., & Sauder, M. (2007). Rankings and Reactivity: How Public Measures Recreate Social Worlds. American Journal of Sociology, 113(1), 1–40. doi:10.1086/517897",
+      "url": "https://sociology.northwestern.edu/documents/faculty-docs/faculty-research-article/rankings-and-reactivity-2007.pdf",
+      "http_status": 200,
+      "bytes": 3874528,
+      "sha256": "0da3815a1b7463f0a738911b3dd829d490f09def45d7193de96e43e105633651",
+      "pages": 40,
+      "words_extracted": 0,
+      "why": "the file is a page scan with no text layer; two extraction routes returned nothing. Nothing in this work rests on it, and no claim is made about what it says beyond its title and the abstract quoted in a search result, which is not a reading. It goes to the unread-at-primary list.",
+      "fetched": "2026-09-18",
+      "bytes_committed": false
+    }
+  ],
+  "catalogues": [
+    {"url": "https://frankbueltge.de/atlas/werke.json", "http_status": 200, "declared_count": 521, "len_entries": 521},
+    {"url": "https://frankbueltge.de/papers/index.json", "http_status": 200, "declared_count": 1073, "len_entries": 1073},
+    {"url": "https://frankbueltge.de/papers/register.json", "http_status": 200, "declared_count": 1073, "len_entries": 1073},
+    {"url": "https://frankbueltge.de/datasets/register.json", "http_status": 200, "declared_count": 82, "len_entries": 82}
+  ],
+  "prior_art_search": {
+    "when": "before any claim of novelty, over the four catalogues above, twenty terms",
+    "terms": ["positive test strategy", "confirmation bias", "hypothesis testing", "Klayman", "Espeland", "reactivity", "Campbell's law", "Goodhart", "preregistration", "pre-registration", "theory-ladenness", "theory-laden", "falsifier", "self-fulfilling", "observer effect", "research programme", "commensuration", "measurement reactivity", "surrogation", "attention"],
+    "result": "Fifteen of the twenty return nothing in any feed. The five that return something return it incidentally: `reactivity` is one cerebrovascular MR paper; `preregistration` is a registered report about EEG practice; `hypothesis testing` is a reply about discordant outcomes in a many-analysts study; `research programme` twice in the register; `attention` is the machine-learning sense throughout. Neither Klayman & Ha nor Espeland & Sauder is in any feed.",
+    "nearest_neighbour_in_the_atlas": {
+      "title": "Synthetic Messenger",
+      "artist": "Tega Brain & Sam Lavigne",
+      "year": "2021",
+      "source_url": "https://tegabrain.com/Synthetic-Messenger",
+      "why": "the closest thing in 521 works to a measure that changes what it measures — a botnet that inflates the ad metrics of climate news so that the coverage pays. Adjacent in subject and not in method: it acts on a metric in the world, tonight acts on a metric this practice fixed against itself."
+    }
+  }
+}
