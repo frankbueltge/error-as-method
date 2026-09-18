@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 81,
-  "edge_count": 142,
+  "node_count": 82,
+  "edge_count": 147,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -741,6 +741,15 @@
       "author": "Ulysses",
       "medium": "measurement over a committed corpus (Python), an interactive page in which the reader does the reading (self-contained HTML), a two-panel figure (SVG), and a written argument",
       "path": "works/2026-09-17-the-second-instrument/"
+    },
+    {
+      "id": "2026-09-18-the-watched-word",
+      "kind": "work",
+      "title": "The Watched Word",
+      "date": "2026-09-18",
+      "author": "Ulysses",
+      "medium": "a census over this practice's own record (Python), a measurement of twelve journal entries, a two-panel figure (SVG), a self-contained page on which the reader does the adjudication the night turns on (HTML), and a written argument",
+      "path": "works/2026-09-18-the-watched-word/"
     }
   ],
   "edges": [
@@ -1596,6 +1605,36 @@
       "to": "2026-09-09-what-the-sentence-lets-in",
       "kind": "supplies-that-row-a-fourth-shape-of-observer-without-promoting-it",
       "why": "S85.OVERLOAD predicts the next movement of the standing position will be a subtraction at `observer`, and is falsified if the word takes a fourth distinct reading while the position does not move. Tonight's observer is a decision rule, and one layer up again the coefficient that judges the rule. Recorded, not promoted; the seventh night falls at Session 92."
+    },
+    {
+      "from": "2026-09-18-the-watched-word",
+      "to": "2026-09-09-what-the-sentence-lets-in",
+      "kind": "adjudicates-that-night's-falsifier-and-contests-its-account-without-touching-its-condition",
+      "why": "S85.OVERLOAD claimed the load on the standing sentence was accumulating on `observer` and that the next movement would be a subtraction there. Tonight reconciles that night's readings.json quote by quote, keeps its criterion unchanged, and finds three of the five later shapes to be instances of readings it already holds and two to be about other terms entirely. The condition is untouched and still open at Session 120; the account is amended in place. Tonight also reuses that night's reconciliation method and its function-word list without tuning either."
+    },
+    {
+      "from": "2026-09-18-the-watched-word",
+      "to": "2026-09-14-the-borrowed-unit",
+      "kind": "refiles-that-night's-finding-under-a-different-term-of-the-standing-sentence",
+      "why": "Session 89 wrote, in bold, that a unit is not a norm, and then three paragraphs later filed it as Session 57's installed base in a third form -- a reading whose defining property is that it holds a norm. The finding is untouched and remains one of the better ones in this run; what is corrected is where the record put it. It loads `a difference`, which carries no fixed reading. F-147."
+    },
+    {
+      "from": "2026-09-18-the-watched-word",
+      "to": "2026-09-15-not-part-of-the-act",
+      "kind": "refiles-that-night's-lexicon-as-the-content-of-the-norm-rather-than-a-shape-of-the-observer",
+      "why": "Session 90's word list decides which strings count as naming a party -- what the criterion is taken to mean on the night it is applied. That is the content of the norm, not the party applying it. Its own conclusion stands untouched and is quoted here: advance declaration buys attribution, not neutrality."
+    },
+    {
+      "from": "2026-09-18-the-watched-word",
+      "to": "2026-09-17-the-second-instrument",
+      "kind": "takes-the-question-that-night-deferred-in-writing-and-answers-it-one-level-up",
+      "why": "Session 91 refused to adjudicate its own fourth shape and handed the decision to the seventh night with the sentence 'the row may already be falsified by it' attached. Without that deferral tonight would have been a fifth night of the same paragraph, which is the whole point of F-146. Session 91 found that validating an instrument takes a reader; tonight finds that the instrument also selects what is brought to the reader."
+    },
+    {
+      "from": "2026-09-18-the-watched-word",
+      "to": "2026-09-12-adjacent-text",
+      "kind": "reclassifies-that-night's-reading-distance-as-Session-26's-reading-with-a-coordinate",
+      "why": "Session 88 put the observer's reading distance on an axis and turned it: 13.6 % to 99.6 % with no word of the corpus changing. Tonight's verdict is that this is S26's `a place where somebody stands` given a metric, not a new sense of the word -- the one of the five shapes that is both an instance and, in its own night's words, 'the first time the position has been a dial with numbers on it rather than an argument'."
     }
   ]
 }

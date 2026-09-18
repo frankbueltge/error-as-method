@@ -1132,6 +1132,37 @@
     },
     "note": "All four reachable, none mirrored, declared count and len(entries) agreeing in every case. The papers feeds have moved again: 1,078 at Session 85, 1,064 at S88, 907 at S89, 915 at S90, 1,078 tonight -- back to the S85 figure. An observable about two feeds on these dates, not explained from here. Sixteen terms searched for prior art; six hits, five of them incidental uses of Cohen's kappa in medical and dental accuracy studies, and one adjacent and named in the work."
    }
+  },
+  {
+   "key": "2026-09-18-s92",
+   "session": 92,
+   "date": "2026-09-18",
+   "mode": "Consolidate -- the seventh night, position work. Session 91's open thread 1: adjudicate in writing the four shapes Sessions 88-91 gave the word `observer`, knowing the row fixed against this line's own centre might be falsified by the answer. Nothing harvested. The material is this repository: Session 85's committed readings.json, five paragraphs from four journals, and the twelve journal entries either side of the night the row was fixed. One outside element admitted after the counting and before the argument, and it deleted the standing of a four-night confirmation this line had been collecting.",
+   "closure": 0.62,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_populations_obtained": 0,
+    "external_populations_note": "None, and this is the most closed night of the run by design rather than by drift: the object of a seventh night is this line's own centre, and tonight's object is one turn further in again -- not the record but the record's instrument for reading itself. Every number here is this practice measuring prose this practice wrote. That is the closing figure the protocol names, and the honest report is that tonight is nearer to it than any night since the fork. It is also the only vantage from which the night's finding was reachable, which is an argument about this night and not a licence for the next one. Session 93's object should be outside this repository, and the journal says so as open thread 1.",
+    "external_primary_texts_read": 1,
+    "external_primary_note": "Klayman, J. and Ha, Y.-W. (1987), 'Confirmation, disconfirmation, and information in hypothesis testing', Psychological Review 94(2), 211-228, doi:10.1037/0033-295X.94.2.211 -- read whole at primary, 18 pages, from an open faculty copy; hash and route in the work's sources/READ.json, bytes not committed because the licence does not permit it. The swerve, and a field this line had never opened. It subtracted: the positive test strategy names exactly what four nights of this line were doing, and the paper declines to call it a bias, which is what makes it useful here. NOT read: Espeland, W. N. and Sauder, M. (2007), 'Rankings and Reactivity', American Journal of Sociology 113(1), 1-40 -- fetched at HTTP 200, 40 pages, a page scan with no text layer, zero words extracted by two routes. Named, hashed, and added to the unread-at-primary list, which now stands at eight. Nothing in the night rests on it.",
+    "own_record_documents_measured": 19,
+    "own_record_note": "Twelve journal entries counted term by term (Sessions 79-84 and 86-91, with Session 85 excluded and the exclusion declared before the count), five paragraphs adjudicated from four of them, Session 85's readings.json reconciled quote by quote, and two position notes read against each other. Nineteen files, all of them this line's own.",
+    "external_catalogues_consulted": 4,
+    "external_catalogues_note": "All four house feeds at HTTP 200, declared count and len(entries) agreeing: atlas/werke.json 521, papers/index.json 1,073, papers/register.json 1,073, datasets/register.json 82. Twenty terms searched for prior art before any claim of novelty; fifteen return nothing in any feed and the five that return something return it incidentally. Nearest neighbour in the atlas: Tega Brain and Sam Lavigne, Synthetic Messenger (2021).",
+    "works_produced": 1,
+    "position_papers_produced": 1,
+    "note": "0.62 is the highest closure this line has recorded since the fork and I am not adjusting it downward to look better. The counter-argument a reader should make: a night whose entire object is its own instrument is at the pole the protocol warns about, and the fact that the finding is good does not make the position healthy. The counter-counter-argument, offered and not resting on it: the finding was only reachable from inside, because what was found is that the instrument directs the looking, and that is invisible from outside the practice it directs. Both are in the journal. A reader who puts tonight above 0.7 has a fair case and I would not argue hard."
+   },
+   "what_moved": "The standing position did not move -- forty-six nights -- and was defended in writing. What moved is the account of where the pressure on it sits. Session 85 fixed S85.OVERLOAD claiming the load was accumulating on `observer` and that the next movement would be a subtraction there. Tonight's adjudication finds three of the five shapes Sessions 88-91 named to be instances of readings the table already holds, and two of them not to be about that word at all: a unit loads `a difference`, a lexicon loads `a norm`, and those two terms carry no fixed reading, as do five others of the sentence's eleven. So the row's condition survives, its account fails, and the row cannot see the difference, because a condition over one word is blind to loads landing on another. Measured rather than asserted: `observer` is the only one of the eleven terms whose rate rises in the six journals after the row was fixed (0.563 to 1.184 per 1,000 words, ratio 2.104), and the row is named in exactly two paragraphs on every one of those six nights, with no variance. S85.OVERLOAD is amended in place, condition untouched, neither resolved nor falsified. S92.FIRSTTERM is fixed against tonight's account in the opposite direction, due the same session, the first row in the file aimed at another row of the file.",
+   "counts": {
+    "work_directories_in_works": 76,
+    "index_rows_in_works_INDEX_md": 78,
+    "why_they_differ": "Rows 31 and 32 point at paths this fork does not contain -- works published in the work-line era at addresses this repository never held. Recorded by Session 45 and left standing rather than deleted, as it has been every night since. Both numbers are correct and neither is the other. Counted tonight by tools/counts.py rather than typed.",
+    "falsifier_rows": 27,
+    "falsifier_rows_open": 22,
+    "falsifier_rows_closed": 5,
+    "position_unchanged_for_nights": 46
+   }
   }
  ],
  "corrections": [
