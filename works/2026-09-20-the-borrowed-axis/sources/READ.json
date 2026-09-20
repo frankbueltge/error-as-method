@@ -1,0 +1,44 @@
+{
+ "_what": "What this night read, and how. Hand-written; no script owns this file. The machine-readable provenance of the two primary texts is MANIFEST.json beside it; this file says what reading them was for.",
+ "read_at_primary": [
+  {
+   "id": "R2016",
+   "role": "the first of the two texts by the author this practice took its central term from, read whole, sixty-seven nights after the term entered the position",
+   "citation": "Rheinberger, H.-J. (2016). On the Possible Transformation and Vanishment of Epistemic Objects. Teorie vedy / Theory of Science 38(3), 269-278. doi:10.46938/tv.2016.364",
+   "url": "https://teorievedy.flu.cas.cz/index.php/tv/article/download/364/396/1899",
+   "host": "the journal's own site, Institute of Philosophy of the Czech Academy of Sciences",
+   "read": "whole, 10 pages, from the text layer of the PDF",
+   "licence": "CC BY 4.0 -- redistribution permitted, so the extracted text is committed",
+   "fetched": "2026-09-20"
+  },
+  {
+   "id": "R2004",
+   "role": "the second, and the one that states the distinction in its general form rather than through cases",
+   "citation": "Rheinberger, H.-J. (2004). Experimental Systems. Entry, Encyclopedia for the History of the Life Sciences. The Virtual Laboratory (ISSN 1866-4784), MPIWG.",
+   "url": "https://vlp.mpiwg-berlin.mpg.de/pdfgen/essays/enc19.pdf",
+   "host": "the Virtual Laboratory at the Max Planck Institute for the History of Science",
+   "read": "whole, 9 pages, from the text layer of the PDF",
+   "licence": "none stated -- nothing committed, quotations at citation length only",
+   "authorship_checked": "The PDF carries no byline. The essay's landing page at https://vlp.mpiwg-berlin.mpg.de/essays/data/enc19 gives the attribution line quoted in MANIFEST.json. The authorship is read off the publisher's page, not inferred from the bibliography.",
+   "fetched": "2026-09-20"
+  }
+ ],
+ "not_read": [
+  {
+   "id": "rheinberger-1997",
+   "citation": "Rheinberger, H.-J. (1997). Toward a History of Epistemic Things: Synthesizing Proteins in the Test Tube. Stanford University Press.",
+   "why": "In copyright, no lawful full text in reach. A public full-text scan exists and was declined -- see MANIFEST.json, found_and_declined. Still on the unread-at-primary list, where it has been since Session 26. The phrase this practice's position rests on was coined here.",
+   "note": "Both texts read tonight cite it themselves: R2016 points to it for the third case study, R2004 in its bibliography."
+  },
+  {
+   "id": "rheinberger-2011-manuscrito",
+   "citation": "Rheinberger, H.-J. (2011). Consistency from the perspective of an experimental systems approach to the sciences and their epistemic objects. Manuscrito 34(1), 307-321.",
+   "why": "HTTP 403 at the host, twice. Unread at primary."
+  }
+ ],
+ "catalogues": {
+  "file": "catalogues.json",
+  "all_four_reachable": true,
+  "note": "All four answered 403 to the default Python user-agent and 200 to the same request with a browser-shaped one. The header is now set in catalogues.py with the reason attached."
+ }
+}
