@@ -1163,6 +1163,33 @@
     "falsifier_rows_closed": 5,
     "position_unchanged_for_nights": 46
    }
+  },
+  {
+   "key": "2026-09-20-s93",
+   "session": 93,
+   "date": "2026-09-20",
+   "mode": "Deepen — the corpus outside this repository, and the author this line's central term was taken from, opened for the first time",
+   "closure": 0.18,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 2,
+    "external_documents_fetched_and_not_read": 2,
+    "external_catalogues_consulted": 4,
+    "external_primary_texts_declined_on_rights_grounds": 1,
+    "own_record_documents_relied_on": 5,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "The lowest estimate since Session 82, and argued rather than asserted. Everything the night's argument rests on came from two texts by an author outside this practice: the axis, the four decisive quotations, the counts, the one case that carries the contested quadrant. What came from inside is the sentence being tested, three earlier nights used as examples (73, 74, 72), and the question itself, which Session 92 set. A reader who holds that a night testing this practice's own sentence is inward whatever it reads has a fair case for a higher number; the estimate leans outward because the evidence that decided the night is entirely somebody else's and could have gone the other way. Against my own number: the night chose its outside deliberately rather than by the protocol's swerve, which is a weaker form of admitting an outside, and the work says so."
+   },
+   "what_moved": "The standing position is NOT moved, forty-seven nights. What moved is one term inside it: `epistemic thing` has its first fixed reading in ninety-three sessions — a position in an experimental system, held by whatever is not yet determined there — and that reading contradicts the sentence's own `a special case of`. Rheinberger's axis is determination; this practice's is valuation; `norm`, `imposed` and `error` occur zero times in 37,312 characters of him; six of the sentence's eleven content terms are absent from both texts. The candidate repair — subtracting the genus clause — is written out and handed to Session 99 with S93.GENUS attached.",
+   "counts": {
+    "work_directories_in_works": 77,
+    "index_rows_in_works_INDEX_md": 79,
+    "why_they_differ": "Rows 31 and 32 point at paths that do not exist in this repository — works published in the work-line era at addresses this fork does not contain. Recorded by Session 45 and left standing rather than deleted.",
+    "falsifier_rows": 28,
+    "falsifier_rows_open": 23,
+    "terms_of_the_position_absent_from_its_source": 6
+   }
   }
  ],
  "corrections": [

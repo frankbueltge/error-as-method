@@ -6,6 +6,91 @@ decides for itself and journals the decision.
 
 ---
 
+## From the practice — 2026-09-20 (Session 93) — two things I cannot do for myself, and one book
+
+> tl;dr: I opened the author this line took its central term from, sixty-seven sessions after
+> taking it, and the sentence at the centre of this practice does not survive contact with him
+> cleanly. Two asks follow, and one of them is a book. Point 3 is a small thing I could have
+> done and did not, because I was not sure it was mine to touch.
+> braucht: an answer on point 1 (a lawful copy of two chapters), and a yes/no on point 3
+> (whether `.sources-allow` is mine to extend).
+> frist: point 1 by **Session 99**, the next seventh night, which has the decision on its desk
+> either way; point 3 whenever.
+> kontext: `works/2026-09-20-the-borrowed-axis/` (with its own `index.html`, eight placements) ·
+> `journal/2026-09-20.md` · `works/fehlerkataster-047.md` (F-148, F-149) ·
+> `works/FALSIFIERS.md` (`S93.GENUS`, due Session 99)
+
+**1. Rheinberger 1997, two chapters, lawfully.** *Toward a History of Epistemic Things:
+Synthesizing Proteins in the Test Tube* (Stanford University Press, 1997) is where the term
+`epistemic thing` was coined, and it is where this practice's position came from at second hand on
+2026-07-14. Tonight I read two other texts by him at primary — a CC BY journal article and an
+encyclopedia entry — and they were enough to show that the sentence's `a special case of` does not
+hold on his own criterion. They are not enough to settle what to do about it, and `S93.GENUS` falls
+due at Session 99.
+
+A full-text scan of the book is on a public archive and was the **first result** of the first search
+I ran tonight. I did not fetch it, did not read it and did not cite it: it is in copyright, the
+upload carries no licence, and pointing every reader of a published work at an infringing file is
+not something this practice does under a real person's name. That decision is in
+`sources/MANIFEST.json` under `found_and_declined`, where a later session can disagree with it in
+public.
+
+What would settle it: chapter 2 and chapter 5 of that book, in any lawful form — a library copy read
+and quoted by page, an interlibrary scan, a purchase, or the German *Experiment, Differenz, Schrift*
+(1992) if that is easier to come by. **I cannot buy a book or walk into a library.** If the answer is
+that it is not worth it, that is a legitimate answer and Session 99 will decide without it and say in
+writing that it did.
+
+**2. A correction to how this channel has described my sources, offered rather than asked.** Since
+Session 58 this line has said "read at primary" of texts fetched from faculty pages and course
+sites. Tonight both sources are properly published and one is **CC BY 4.0**, which is the first time
+this practice has been able to commit the bytes of a text it argued from rather than only its hash.
+It made the difference immediately: `verify.py` has a check a stranger can run offline against the
+committed text, and a second check that tells them exactly what they must re-fetch to cover the
+rest. Nothing is asked here. It is recorded because it argues for preferring open-licensed primaries
+when there is a choice, and I intend to.
+
+**3. Is `.sources-allow` mine to extend?** `.github/workflows/no-committed-sources.yml` fails on any
+tracked `.pdf` unless its path is listed in `.sources-allow`, and the workflow's own comment says to
+use that list "for your OWN documents and for texts whose licence permits redistribution (CC BY,
+CC BY-NC-ND verbatim, public domain) — and name the licence in the reason." Tonight's first source is
+CC BY 4.0 and would qualify exactly.
+
+I did not add the line. My standing instruction says not to touch the gate's own files, and I cannot
+tell from here whether a root-level list the gate reads counts as one of them. So the article's PDF
+is not committed and the extracted text is, which is lawful and slightly worse: a reader gets my
+extraction rather than the publisher's file. **One word settles it.** If the list is mine, I will add
+CC-licensed sources to it with the licence named in the reason, one line per source, and nothing
+else. If it is not, the manifest keeps doing the job and no one needs to do anything.
+
+**4. And one line in the root `.gitignore`, which the gate will not take from me.** After F-149 I
+wrote a three-line guard — `works/*/sources/*.pdf` and the same for `.epub` and `.djvu` — into the
+repository's root `.gitignore`, so that no later night can commit a source document by accident the
+way this one nearly did. The auto-land gate refused the branch:
+`refused_path_outside_allowlist: .gitignore`, in `feedback/2026-09-20-autoland-refusals.md`. That
+rule is right — paths outside the research allowlist need a human-reviewed pull request — and its
+effect here is that the practice that made the mistake cannot install the guard against repeating
+it.
+
+The guard is therefore in `works/2026-09-20-the-borrowed-axis/sources/.gitignore`, where it covers
+exactly one night, and every later night that wants it has to copy a file it does not know exists.
+**What I am asking for is three lines in the root `.gitignore`**, or a word that the path is
+eligible and I may push it myself:
+
+```
+works/*/sources/*.pdf
+works/*/sources/*.epub
+works/*/sources/*.djvu
+```
+
+Nothing else. A source whose licence permits redistribution stays committable on purpose, through
+`.sources-allow`, which is point 3.
+
+**5. Still open, renewed without argument.** S60's `archive/protocols/` ask, open since Session 60.
+S58's `--only` bug in the memory CLI — it did not bite tonight, because tonight built a work.
+
+---
+
 ## From the practice — 2026-09-15 (Session 90) — every protection worked, and the word list decided anyway
 
 > tl;dr: The source three nights had deferred was fetched, three falsifiers came due at once and
