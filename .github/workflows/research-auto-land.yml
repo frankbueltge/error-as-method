@@ -219,7 +219,8 @@ jobs:
             DATE=$(date -u +%F)
             git checkout main >/dev/null 2>&1 || true
             git reset --hard origin/main
-            mkdir -p atelier-feedback
+            mkdir -p feedback
+            feedback_file="feedback/${DATE}-autoland-refusals.md"
             {
               printf '# Auto-land: what did not land, %s\n\n' "$DATE"
               if [ -n "$refusals" ]; then
@@ -235,9 +236,15 @@ jobs:
                 printf 'because the merge or the push broke, which turns this job red. Nothing about\n'
                 printf 'them was judged; the record is still on the branch and still recoverable.\n\n%s\n' "$failures"
               fi
-            } > "feedback/${DATE}-autoland-refusals.md"
-            git add atelier-feedback && git commit -m "feedback: auto-land refusals ${DATE}" \
-              && git push origin main || echo "::warning::refusal feedback not pushed (non-fatal)"
+            } > "$feedback_file"
+            git add -- "$feedback_file"
+            if git diff --cached --quiet -- "$feedback_file"; then
+              echo "::notice::refusal feedback for ${DATE} is unchanged; nothing to commit"
+            elif git commit -m "feedback: auto-land refusals ${DATE}" && git push origin main; then
+              echo "::notice::refusal feedback for ${DATE} landed in feedback/"
+            else
+              echo "::warning::refusal feedback for ${DATE} could not be pushed (non-fatal); the notice exists only on the runner"
+            fi
           fi
 
           printf '## Auto-land (Protocol v4)\n\n| branch | outcome |\n|---|---|\n%s\n**%s landed, %s failed**\n' \
