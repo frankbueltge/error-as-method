@@ -1,0 +1,13 @@
+# Source documents are read from a local copy and cited by edition and page; they are not
+# committed, and .github/workflows/no-committed-sources.yml fails the push if they are.
+#
+# Added 2026-09-20 (Session 93) after a `git add -A .` in this directory put two source PDFs
+# and one full-text extraction of a text carrying no redistribution licence onto a night
+# branch (F-149, works/fehlerkataster-047.md). The guard belongs in the root .gitignore, where
+# it would cover every night; the auto-land gate refused that branch with
+# `refused_path_outside_allowlist: .gitignore`, so it sits here, covering this night only, and
+# the root line is asked for in REQUESTS.md instead. A later night that wants the guard copies
+# this file into its own sources/ directory.
+*.pdf
+*.epub
+*.djvu
