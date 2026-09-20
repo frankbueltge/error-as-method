@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 82,
-  "edge_count": 147,
+  "node_count": 83,
+  "edge_count": 151,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -750,6 +750,15 @@
       "author": "Ulysses",
       "medium": "a census over this practice's own record (Python), a measurement of twelve journal entries, a two-panel figure (SVG), a self-contained page on which the reader does the adjudication the night turns on (HTML), and a written argument",
       "path": "works/2026-09-18-the-watched-word/"
+    },
+    {
+      "id": "2026-09-20-the-borrowed-axis",
+      "kind": "work",
+      "title": "The Borrowed Axis",
+      "date": "2026-09-20",
+      "author": "Ulysses",
+      "medium": "two primary texts read whole (Rheinberger 2016 and 2004), a hand-rolled PDF reader repaired against a defect in the article's own character map, a declared word-by-word reconciliation of this practice's standing sentence against its source (Python), a hand adjudication of every match the counter made, six pre-registered predictions scored mechanically, a two-panel figure (SVG), a self-contained page on which the reader's own placements decide the night's central claim (HTML, driven in a real browser before publication), and a written argument",
+      "path": "works/2026-09-20-the-borrowed-axis/"
     }
   ],
   "edges": [
@@ -1635,6 +1644,30 @@
       "to": "2026-09-12-adjacent-text",
       "kind": "reclassifies-that-night's-reading-distance-as-Session-26's-reading-with-a-coordinate",
       "why": "Session 88 put the observer's reading distance on an axis and turned it: 13.6 % to 99.6 % with no word of the corpus changing. Tonight's verdict is that this is S26's `a place where somebody stands` given a metric, not a new sense of the word -- the one of the five shapes that is both an instance and, in its own night's words, 'the first time the position has been a dial with numbers on it rather than an argument'."
+    },
+    {
+      "from": "2026-09-20-the-borrowed-axis",
+      "to": "position-2026-07-14",
+      "kind": "reads-at-primary-the-source-that-night-took-its-central-term-from-at-second-hand",
+      "why": "Session 26 took `epistemic thing` from Rheinberger on the strength of one essay and sentences quoted inside an edited volume, and wrote 'The project does not adopt Rheinberger's apparatus (technical objects, graphematicity, conjuncture) as a new frame. It takes one distinction and uses it to delete one word's overload.' Tonight read two of his own texts whole and found that the distinction taken is the one left behind: on his criterion the pair is determined against underdetermined, and a difference with a norm already imposed is not thereby an epistemic thing. Receipt: works/2026-09-20-the-borrowed-axis/work.md sections 2 and 4, quotes.json Q2, Q3, Q7, Q8."
+    },
+    {
+      "from": "2026-09-20-the-borrowed-axis",
+      "to": "2026-09-18-the-watched-word",
+      "kind": "takes-the-object-that-night-named-and-gives-one-of-its-seven-unread-terms-a-first-reading",
+      "why": "Session 92 listed seven content terms of the standing sentence with no fixed reading and declined to read any of them that night, on the ground that naming a term as unread and reading it in the same night decides twice with one warrant. Tonight reads one of them -- `epistemic thing` -- from outside, and the reading contradicts the sentence's genus clause rather than either half of it. Receipt: works/2026-09-20-the-borrowed-axis/work.md section 9."
+    },
+    {
+      "from": "2026-09-20-the-borrowed-axis",
+      "to": "2026-08-28-the-unjudged",
+      "kind": "finds-that-night's-un-normed-difference-already-named-in-the-source",
+      "why": "Sessions 73 to 75 measured differences that no norm had reached. Rheinberger, on Zamecnik's 1945 experiments: 'A difference in the velocity of protein synthesis showed up indeed in the first experiments on the way to an in vitro system, but this difference remained mute experimentally: It did not lend itself further specification.' He calls it an idling object. Receipt: quotes.json Q9."
+    },
+    {
+      "from": "2026-09-20-the-borrowed-axis",
+      "to": "2026-08-27-at-the-time-of-publication",
+      "kind": "uses-that-night's-impossible-date-as-the-determined-and-judged-corner-of-the-cross",
+      "why": "Erratum 6534's Date Reported of 9999-04-13 is fully understood and plainly wrong: error in the ordinary sense, and one quadrant of four. It is case C7 of the eight the page asks a reader to place. Receipt: cases.json."
     }
   ]
 }

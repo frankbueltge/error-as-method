@@ -1,0 +1,55 @@
+{
+ "_what": "What this night fetched, what it read, and what it committed. The manifest is the warrant, not the file: re-fetch the URL, compare the SHA-256, run extract.py, and every count and every quotation in this work recomputes.",
+ "_rule": "The standing instruction of 2026-08-18 commits a source's bytes only where its licence permits redistribution. Two sources were fetched tonight and they fall on opposite sides of that line, which is why one text is here and the other is not.",
+ "fetched": [
+  {
+   "id": "R2016",
+   "citation": "Rheinberger, H.-J. (2016). On the Possible Transformation and Vanishment of Epistemic Objects. Teorie vedy / Theory of Science 38(3), 269-278.",
+   "doi": "10.46938/tv.2016.364",
+   "landing_page": "https://teorievedy.flu.cas.cz/index.php/tv/article/view/364",
+   "url": "https://teorievedy.flu.cas.cz/index.php/tv/article/download/364/396/1899",
+   "http_status": 200,
+   "bytes": 161297,
+   "sha256": "992a02490b97871da1ae60d49e9ac8c57b76fb7f62e01590aecd8adfb1bb8f1f",
+   "pages": 10,
+   "read": "whole",
+   "licence": "CC BY 4.0. The journal states that authors retain copyright and publication rights without restrictions, and that since 2019 it provides open access to its content under the Creative Commons Attribution 4.0 International License.",
+   "extracted_text": "rheinberger-2016-vanishment.txt",
+   "extracted_text_sha256": "f884e2521ef43282aff53e4247bb01a7b08ed64cfa461c8be270e48b7ab1b41a",
+   "text_committed": true,
+   "pdf_committed": false,
+   "why_the_pdf_is_not_committed": "Its licence permits redistribution and the extracted text is therefore committed. The PDF itself is not, because .github/workflows/no-committed-sources.yml fails on any tracked .pdf unless the path is added to .sources-allow, and the standing instruction for this session forbids touching the gate's own files. Whether that escape hatch is this practice's to extend is asked in REQUESTS.md tonight rather than decided here."
+  },
+  {
+   "id": "R2004",
+   "citation": "Rheinberger, H.-J. (2004). Experimental Systems. Entry, Encyclopedia for the History of the Life Sciences. The Virtual Laboratory (ISSN 1866-4784), Max Planck Institute for the History of Science.",
+   "attribution_line_at_the_host": "Reference: Rheinberger, Hans-Jorg. 2004. Experimental Systems. The Virtual Laboratory (ISSN 1866-4784), https://vlp.mpiwg-berlin.mpg.de/references?id=enc19",
+   "landing_page": "https://vlp.mpiwg-berlin.mpg.de/essays/data/enc19",
+   "url": "https://vlp.mpiwg-berlin.mpg.de/pdfgen/essays/enc19.pdf",
+   "http_status": 200,
+   "bytes": 24226,
+   "sha256": "1bcb20e177cdc13a6474fa1ceed73b614354dff0efba36bb8a066906f8bb1f24",
+   "pages": 9,
+   "read": "whole",
+   "licence": "none stated at the host. Treated as all rights reserved.",
+   "extracted_text": "vlp-enc19-experimental-systems.txt",
+   "extracted_text_sha256": "4b88bb171c2c43335b6a9532087fafce7a7f951e0a3173dee9a166204947fc55",
+   "text_committed": false,
+   "pdf_committed": false,
+   "why_nothing_is_committed": "No licence permits redistribution, so neither the bytes nor the extraction is published here. Quotations from it stay at citation length, in quotes.json. A reader who wants the counts in the R2004 column re-fetches the URL, compares the hash and runs extract.py; verify.py then checks that column too and says so when it cannot."
+  }
+ ],
+ "found_and_declined": [
+  {
+   "what": "A full-text scan of Rheinberger, Toward a History of Epistemic Things (Stanford University Press, 1997) -- the book this practice's central term comes from -- on a public archive, returned by the first search of the night.",
+   "decision": "not fetched, not read, not cited.",
+   "why": "The book is in copyright and the upload carries no licence. Reading it through that copy and then citing the copy would point every reader of this work at an infringing file, and this practice publishes under a real person's name. So the book stays on the unread-at-primary list, where it has been since Session 26, and tonight names it there rather than quietly using it. That is a cost of the night and it is in the work."
+  },
+  {
+   "what": "Rheinberger, H.-J. (2011). Consistency from the perspective of an experimental systems approach to the sciences and their epistemic objects. Manuscrito 34(1), 307-321, at SciELO.",
+   "decision": "fetched, HTTP 403, not read.",
+   "why": "The host refused both routes tried. It goes to the unread-at-primary list and nothing in this work rests on it."
+  }
+ ],
+ "catalogues": "See READ.json."
+}
