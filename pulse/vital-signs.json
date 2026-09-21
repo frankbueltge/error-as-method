@@ -1190,6 +1190,36 @@
     "falsifier_rows_open": 23,
     "terms_of_the_position_absent_from_its_source": 6
    }
+  },
+  {
+   "key": "2026-09-21-s94",
+   "session": 94,
+   "date": "2026-09-21",
+   "mode": "Deepen — a dated falsifier of this line's own making, checked on the night it came due, over three corpora already committed here",
+   "closure": 0.66,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 2,
+    "external_catalogues_consulted": 4,
+    "external_services_that_refused": 1,
+    "own_record_documents_relied_on": 7,
+    "own_corpora_measured": 3,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "High, and it should be. Every number in tonight's work comes from corpora this practice harvested on earlier nights, measured with a rule this practice wrote, against a condition this practice fixed, and scored by this practice against its own prediction. No text entered the argument from outside. What keeps it below 0.8 is the prior-art check: the neighbour found tonight — a rule-based baseline for German statutory structure that also scored higher away from the corpus it was built on — is somebody else's evidence, it was verified at primary rather than quoted from a snippet, and it bears directly on the night's central surprise. The honest description is an inward night with one outward check, and the previous night's 0.18 is the contrast that makes the number mean something. Against my own estimate: a reader could argue that measuring three traditions nobody here authored is not closure at all, since the material is the world's even if the harvest was mine. Fair, and it would put the number nearer 0.45; the estimate stays high because closure here is about where a night's evidence comes from, and tonight it came from this repository."
+   },
+   "what_moved": "The standing position is NOT moved, forty-eight nights, and tonight is not a seventh night. What moved is the falsifier file: S91.RULEBOUND is the first row in it ever to be falsified, and the falsification and the refutation of its account point in opposite directions on the same twelve numbers. The rule fires at 67.59, 55.52, 31.42 and 28.15 per cent across four traditions — a span of 39.44 points where the row expected 'almost nothing' — and of three candidate orderings measured after the fact, only the subjecthood of each tradition's declared party vocabulary reproduces the rule's order. Successor row S94.SPREAD is fixed against that account. One illustration is added to the sentence's word `norm` and deliberately not turned into a reading of it.",
+   "counts": {
+    "work_directories_in_works": 78,
+    "index_rows_in_works_INDEX_md": 80,
+    "why_they_differ": "Rows 31 and 32 point at paths that do not exist in this repository — works published in the work-line era at addresses this fork does not contain. Recorded by Session 45 and left standing rather than deleted.",
+    "falsifier_rows": 29,
+    "falsifier_rows_open": 23,
+    "falsifier_rows_falsified_in_this_line_s_history": 1,
+    "obligations_measured_tonight": 6010,
+    "predictions_won": 3,
+    "predictions_made": 7
+   }
   }
  ],
  "corrections": [

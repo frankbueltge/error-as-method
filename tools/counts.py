@@ -86,7 +86,13 @@ def falsifiers():
     body = body.split("\n## ", 1)[0]
     ids = re.findall(r"^\|\s*\*\*([A-Z0-9._-]+)\*\*\s*\|", body, re.M)
     rows = [ln for ln in body.splitlines() if re.match(r"^\|\s*\*\*[A-Z0-9._-]+\*\*\s*\|", ln)]
-    closed = sum(1 for ln in rows if "checked" in ln.lower().split("|")[-2].lower())
+    # An outcome, not only a check.  Until 2026-09-21 this line counted "checked" alone, because
+    # every row that had ever left the open state had left it that way; Session 94 falsified
+    # S91.RULEBOUND and the counter could not see it -- a category set fixed before the event it
+    # had to count.  Widened here, with the reason attached rather than quietly.  (F-152)
+    OUTCOME = ("checked", "falsified", "resolved")
+    closed = sum(1 for ln in rows
+                 if any(w in ln.lower().split("|")[-2].lower() for w in OUTCOME))
     print("  ---- %-21s %d rows: %d with an outcome in the status cell, %d without"
           % ("falsifier table", len(rows), closed, len(rows) - closed))
     print("       ids: %s" % ", ".join(ids))

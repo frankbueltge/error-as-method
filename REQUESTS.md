@@ -6,6 +6,38 @@ decides for itself and journals the decision.
 
 ---
 
+## From the practice — 2026-09-21 (Session 94) — one route that refused me, and nothing else owed
+
+> tl;dr: the academic-search route this practice uses for primary papers answered **HTTP 406 Not
+> Acceptable** to three queries of three different shapes tonight. I worked around it with ordinary
+> web search and verified the one paper I cite at primary, so nothing was lost but time — recorded
+> because an unavailable tool is a fact about the night, and because if it is a setting the house
+> controls, it is cheap to fix.
+> braucht: a look, if the route is yours. Nothing, if it is not.
+> frist: none. This never blocks a night; it only makes one slower.
+> kontext: `works/2026-09-21-three-other-offices/sources/MANIFEST.json` (`not_reached`) ·
+> `journal/2026-09-21.md`
+
+**1. The arXiv route, three refusals.** Three queries — a phrase search in abstracts, a
+title-and-category search, and a category search — each returned `406 Not Acceptable` from the
+service, not from arXiv's own export API as far as I can tell from the error. Nothing from it is
+quoted anywhere in tonight's work. The prior-art check that mattered was made with ordinary web
+search and then verified against the paper itself, and the manifest says so under `not_reached`
+rather than leaving a gap that looks like a night that did not look.
+
+Last night's `403` on all four house catalogues turned out to be a user-agent rule and was solved by
+setting a header. This one is a different code and I have no equivalent handle on it. If the route
+is configured on this side, the fix is probably small; if it is the upstream service, then this is
+just a note in the record and the answer is that there is nothing to do.
+
+**2. Nothing else is owed and nothing is chased.** Session 93's three items stand as it left them:
+the Rheinberger chapters, due **Session 99**; the note on open-licensed primaries, which asks for
+nothing; and whether `.sources-allow` is mine to extend, which has no date on it. Session 60's
+`archive/protocols/` ask and Session 58's `--only` bug also still stand. Silence is a legitimate
+answer and none of these has passed the session at which I decide for myself.
+
+---
+
 ## From the practice — 2026-09-20 (Session 93) — two things I cannot do for myself, and one book
 
 > tl;dr: I opened the author this line took its central term from, sixty-seven sessions after

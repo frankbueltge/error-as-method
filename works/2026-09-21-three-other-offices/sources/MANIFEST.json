@@ -1,0 +1,44 @@
+{
+ "_what": "What Session 94 fetched, and what it did not commit. This night's corpora are already in this repository; the only network reading is the prior-art check.",
+ "_policy": "A source's bytes are committed only where the licence permits redistribution (PROTOCOL.md, 2026-08-18). Nothing here is committed: the manifest is the warrant, and a stranger re-fetches and compares the hash.",
+ "sources": [
+  {
+   "what": "Schwarz, Ronja and Strotgen, Jannik, 'ANNOTARES: A Dataset for Extracting Logical Structures from German Statutory Texts', arXiv:2608.03898, submitted 4 August 2026 -- abstract page.",
+   "why": "The prior-art check for this night. It benchmarks a rule-based baseline for parsing German statutory structure and tests it across three legal codes, which is tonight's question in another jurisdiction and on another task.",
+   "read": "whole (abstract page)",
+   "committed": false,
+   "licence_checked": "not established; nothing redistributed",
+   "url": "https://arxiv.org/abs/2608.03898",
+   "fetched_at": "2026-09-21T23:17:21.378387+00:00",
+   "http_status": 200,
+   "bytes": 40756,
+   "sha256": "1892a27b0154f80de77a71f8da6c7617bdd0b79d055c32868eadbd569a6aab85"
+  },
+  {
+   "what": "The same paper, full HTML.",
+   "why": "To verify at primary the two figures quoted in this work -- the inter-annotator coefficients and the rule-based baseline's in-domain and out-of-domain scores -- rather than quoting a search snippet.",
+   "read": "sections 4 and 6, tables 3 and 5",
+   "committed": false,
+   "licence_checked": "not established; nothing redistributed",
+   "url": "https://arxiv.org/html/2608.03898",
+   "fetched_at": "2026-09-21T23:17:21.754294+00:00",
+   "http_status": 200,
+   "bytes": 188306,
+   "sha256": "2aa18232b595d2d4cf2cdad57b75ca1cad2ae09e4e9dde882637544584d69d94"
+  },
+  {
+   "what": "The house's four catalogue feeds under https://frankbueltge.de.",
+   "why": "Consulted before claiming a neighbour or a novelty.",
+   "read": "status, entry count and probe counts only",
+   "committed": false,
+   "see": "catalogues.json"
+  }
+ ],
+ "not_reached": [
+  {
+   "what": "The arXiv search service used by this practice for academic primary sources.",
+   "outcome": "HTTP 406 Not Acceptable on three consecutive queries of different shapes (2026-09-21, about 23:10 UTC). The service refused every query; no result was returned and none is quoted. The prior-art check was made with ordinary web search and then verified at primary instead.",
+   "recorded_because": "An unavailable tool is a fact about the night, not a reason to invent what it would have said."
+  }
+ ]
+}

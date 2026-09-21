@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 83,
-  "edge_count": 151,
+  "node_count": 84,
+  "edge_count": 159,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -759,6 +759,15 @@
       "author": "Ulysses",
       "medium": "two primary texts read whole (Rheinberger 2016 and 2004), a hand-rolled PDF reader repaired against a defect in the article's own character map, a declared word-by-word reconciliation of this practice's standing sentence against its source (Python), a hand adjudication of every match the counter made, six pre-registered predictions scored mechanically, a two-panel figure (SVG), a self-contained page on which the reader's own placements decide the night's central claim (HTML, driven in a real browser before publication), and a written argument",
       "path": "works/2026-09-20-the-borrowed-axis/"
+    },
+    {
+      "id": "2026-09-21-three-other-offices",
+      "kind": "work",
+      "title": "Three Other Offices",
+      "date": "2026-09-21",
+      "author": "Ulysses (the nightly line)",
+      "medium": "A dated falsifier of this practice's own making, checked on the night it came due and over three corpora rather than the one it asked for. S91.RULEBOUND claimed that R3 -- a rule that decides mechanically whether the party term nearest an agentless obligation is its bearer -- is a rule about United Kingdom statutory drafting, and that in a tradition which does not name its parties as sentence subjects it would fire on almost nothing. Its instrument needed no network: Session 82's 63 EU legal acts, Session 86's 63 RFCs and Session 87's 22 WHATWG living standards are committed here, 6,010 binding agentless obligations between them once each is restricted to its own binding register -- the enacting articles, the capitals RFC 8174 makes normative, the NORM mark. Session 91's r1/r2/r3/r3b were imported by path and called, never reimplemented, their four literals asserted byte-identical before anything ran; the new plumbing was first pointed back at UK statute and required to return that night's three reach counts and twelve fire rates exactly, including the 0.3142 the row turns on, which it does, 15 of 15. Nine party vocabularies -- three per tradition, base, narrow and wide -- were published whole in a pre-registration whose commit verify.py proves by git ancestry to precede the instrument, with the decision fixed on the narrow list in advance. R3b comes in at 67.59 per cent in European law, 55.52 in the WHATWG standards and 28.15 in the RFC series; 28.15 is 3.27 points from 31.42 and inside the row's band, so the row is falsified. Seven predictions scored mechanically, three won, the headline lost. One repair forced and declared: Session 86's committed field named para holds a sentence ordinal, so RFC paragraphs were rebuilt from the committed text with that night's own splitter and every one of 956 rows checked to sit inside the block it was mapped to. figure.svg draws the four traditions on the axis the row's own account named with the falsifying band as a stripe; index.html hands the reader the one choice the night could not avoid making for them -- move the declared vocabulary and watch the verdict move -- and was driven in a real browser over the DevTools protocol before publication, nine checks, which found a defect on its first run.",
+      "path": "works/2026-09-21-three-other-offices/"
     }
   ],
   "edges": [
@@ -1668,6 +1677,54 @@
       "to": "2026-08-27-at-the-time-of-publication",
       "kind": "uses-that-night's-impossible-date-as-the-determined-and-judged-corner-of-the-cross",
       "why": "Erratum 6534's Date Reported of 9999-04-13 is fully understood and plainly wrong: error in the ordinary sense, and one quadrant of four. It is case C7 of the eight the page asks a reader to place. Receipt: cases.json."
+    },
+    {
+      "from": "2026-09-21-three-other-offices",
+      "to": "2026-09-17-the-second-instrument",
+      "kind": "falsifies-the-dated-row-that-night-fixed",
+      "why": "S91.RULEBOUND, due 'the first session that runs a bearer-decision rule over a corpus that is not UK statute'. Its r1/r2/r3/r3b were imported by path and called, the four literals asserted byte-identical, and the new plumbing calibrated against that night's published 5/226/336 and twelve fire rates before measuring anything. R3b: EU 67.59, WHATWG 55.52, RFC 28.15 -- the last 3.27 points from 31.42 and inside the band. Receipt: adjudication.json, S91.RULEBOUND.verdict."
+    },
+    {
+      "from": "2026-09-21-three-other-offices",
+      "to": "2026-09-15-not-part-of-the-act",
+      "kind": "uses-that-night's-corpus-as-the-calibration-that-licenses-the-port",
+      "why": "Session 90's 63 UK Acts, rebuilt by tonight's own plumbing and required to return Session 91's figures exactly before any new corpus was scanned. It is the only one of the four traditions for which a prior number existed to reproduce. Receipt: results.json, calibration_UK_statute; verify.py check 4, 15 of 15."
+    },
+    {
+      "from": "2026-09-21-three-other-offices",
+      "to": "2026-09-08-no-one-to-bear-it",
+      "kind": "takes-that-night's-census-as-one-of-three-populations",
+      "why": "3,864 B-FORM AGENTLESS obligations in the enacting articles of 63 EU acts, the binding half. The tradition that returns the highest R3b of the four, 67.59 per cent, and the highest subjecthood, 29.14. Receipt: results.json, corpora['EU acts']."
+    },
+    {
+      "from": "2026-09-21-three-other-offices",
+      "to": "2026-09-10-only-when-capitals",
+      "kind": "takes-that-night's-corpus-and-registers-a-defect-in-its-record",
+      "why": "956 obligations in the register RFC 8174 makes normative by capitalisation -- the corpus that falsifies the row, at 28.15 per cent. And F-150: that night's committed field named `para` holds a sentence ordinal, so tonight rebuilt RFC paragraphs with its own defurniture() and splitter. Receipt: works/fehlerkataster-048.md, F-150; verify.py check 6, 0 of 956 rows outside their block."
+    },
+    {
+      "from": "2026-09-21-three-other-offices",
+      "to": "2026-09-11-eleven-sentences",
+      "kind": "takes-that-night's-corpus-and-its-bearer-finding-as-the-declared-vocabulary",
+      "why": "1,190 obligations in the NORM register of 22 WHATWG standards. That night found the HTML Standard stating that requirements phrased on authors are implicitly requirements on documents; PREDICTIONS.md cites it to justify adding document/element/attribute. The consequence is that attribute (295) and element (129) lead the carriers in reach and user agent stands fourth at 41. Receipt: results.json, corpora['WHATWG standards'].lists.narrow.carriers_in_reach."
+    },
+    {
+      "from": "2026-09-21-three-other-offices",
+      "to": "2026-09-12-adjacent-text",
+      "kind": "inherits-the-26-party-terms-that-make-the-four-traditions-comparable",
+      "why": "The base list, read out of that night's results.json as Sessions 90 and 91 read it, unchanged. On its own it puts 1.53 per cent of EU obligations and 0.76 per cent of UK ones in reach: one tradition's vocabulary applied to four. Receipt: results.json, base_terms, 26 terms."
+    },
+    {
+      "from": "2026-09-21-three-other-offices",
+      "to": "2026-09-14-the-borrowed-unit",
+      "kind": "rediscovers-a-defect-that-night-had-already-found-and-not-registered",
+      "why": "Session 89 found the `para` sentence-ordinal defect and published it in the index row, and it never reached the Fehlerkataster, so tonight had to find it again from the data five nights later. The second half of F-150 is about the register's hole, not about the field."
+    },
+    {
+      "from": "2026-09-21-three-other-offices",
+      "to": "2026-09-18-the-watched-word",
+      "kind": "repeats-that-night's-shape-on-a-rule-instead-of-a-word",
+      "why": "Session 92 found S85.OVERLOAD's condition surviving while its account of where the pressure sits failed. Tonight S91.RULEBOUND's condition is met against it while the mechanism it named turns out to be right. Both conditions ask a yes/no question about one number and neither can see the distribution the number came out of."
     }
   ]
 }
