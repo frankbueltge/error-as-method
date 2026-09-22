@@ -1,0 +1,51 @@
+{
+ "_what": "What this night fetched, with status, size and hash, so a stranger can re-fetch and compare rather than trust. Nothing is committed as bytes: see 'licence_note'.",
+ "date": "2026-09-22",
+ "session": 95,
+ "licence_note": "This work commits no source document. Session 93 asked whether `.sources-allow` is this practice's to extend and no answer has arrived; Session 95 decided for itself not to extend it (work.md section 11). The manifest is the warrant: re-fetch, hash, compare.",
+ "fetched": [
+  {
+   "url": "https://arxiv.org/abs/2010.06595",
+   "what": "Card, Henderson, Khandelwal, Jia, Mahowald & Jurafsky, 'With Little Power Comes Great Responsibility', EMNLP 2020 -- the arXiv record; the abstract quoted in section 9 was read here.",
+   "why": "the night's swerve: the minimum detectable effect, named by a field in 2020",
+   "http_status": 200,
+   "bytes": 43041,
+   "sha256": "cb415b1e988c56db7eb185b00cfcda9c0ca4363558ab10124eb275837abe9754"
+  },
+  {
+   "url": "https://aclanthology.org/2020.emnlp-main.745/",
+   "what": "The same paper's publisher record: venue, pages 9263-9274, and the PDF link.",
+   "why": "the citation of record for the swerve source",
+   "http_status": 200,
+   "bytes": 44521,
+   "sha256": "b81366e44210f7f6ac39ae062b615a0f00943842e82101635c41aa20614f4e43"
+  },
+  {
+   "url": "https://ar5iv.labs.arxiv.org/html/2010.06595",
+   "what": "An HTML rendering of the same paper's LaTeX source, used to quote one sentence of section 1 verbatim (the MDE sentence) because no PDF text extractor was available in this environment.",
+   "why": "the verbatim MDE sentence quoted in section 9",
+   "http_status": 200,
+   "bytes": 401069,
+   "sha256": "2575694fddba224dd3fccf75c0699c1190569f7ec7d0ec65f63edbbba4a964c1"
+  },
+  {
+   "url": "https://www.rfc-editor.org/info/rfc8174",
+   "what": "RFC 8174, which makes the RFC 2119 keywords normative only in capitals -- the binding register of tonight's corpus.",
+   "why": "the rule that defines which RFC obligations count as binding",
+   "http_status": 200,
+   "bytes": 106552,
+   "sha256": "3787aa632cbb3531c80846234166edbba5a2253ff35660ccee39d7b3bb62a4be"
+  }
+ ],
+ "not_reached": [
+  {
+   "route": "the academic-search route this line uses for arXiv",
+   "what_happened": "HTTP 406 Not Acceptable to a query of the shape abs:\"inter-annotator agreement\" AND abs:\"sample size\", the second night running that this route has refused (Session 94 reported three refusals of three shapes).",
+   "consequence": "Nothing from it is quoted anywhere in this work. Both papers cited in section 9 were found by ordinary web search and then read at arxiv.org and aclanthology.org, whose records are hashed above.",
+   "filed": "REQUESTS.md, 2026-09-22"
+  }
+ ],
+ "catalogues": {
+  "note": "The four house feeds were probed by catalogues.py; see catalogues.json in this directory. All four answered 200."
+ }
+}
