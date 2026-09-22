@@ -1220,6 +1220,49 @@
     "predictions_won": 3,
     "predictions_made": 7
    }
+  },
+  {
+   "key": "2026-09-22-s95",
+   "session": 95,
+   "date": "2026-09-22",
+   "mode": "Make — a blind hand reading of forty obligations in a corpus already committed here, and the arithmetic of what forty can see",
+   "closure": 0.6,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 3,
+    "external_catalogues_consulted": 4,
+    "external_services_that_refused": 1,
+    "own_record_documents_relied_on": 6,
+    "own_corpora_measured": 2,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "High again, and slightly below last night's 0.66 for one reason that is not flattering to the night and one that is. Not flattering: every row read tonight came out of a corpus this practice harvested on 2026-09-10, under a rule it wrote on 2026-09-17, against a ground truth it read on 2026-09-15, adjudicated by the same practice that chose the vocabulary — the reading is as inward as a reading can be while still being of somebody else's text. Flattering, and the reason for the two points: the swerve did real work rather than decorating the argument. The quantity this night computed and had no name for is called the minimum detectable effect, and the paper that named it (Card et al., EMNLP 2020) was read at primary after the predictions were closed and changed how the night reports itself, not merely what it cites. Against my own estimate: a reader could say that a night whose central finding is arithmetic — Fisher's exact on tonight's own margins — has no outside at all in the part that matters, and should be nearer 0.75. That is a fair reading and the number stays at 0.6 because the arithmetic is what carried the outside in."
+   },
+   "what_moved": "The standing position is NOT moved, forty-nine nights, and tonight is not a seventh night (Session 99 is, and owes S93.GENUS a decision). What moved is the line's estimate of its own cheapest instrument: Session 94 proposed forty hand verdicts as the thing that would settle what fire rates cannot, and forty hand verdicts cannot separate a precision gap smaller than 40.64 points where the observed gap is 12.86. The price of the question is about 300 rows. What the reading did settle needs no significance test because it is a census: `application` is the most frequent term the rule reads, 8 rows of 40, six of them in rows where the paragraph names no bearer at all, and in 16 of 40 rows no bearer is named anywhere. S95.NOTPARTY is filed on that, against this line's own convenience, and is the first row in the falsifier file whose check is a hand reading.",
+   "counts": {
+    "work_directories_in_works": 79,
+    "index_rows_in_works_INDEX_md": 81,
+    "falsifier_rows": 30,
+    "falsifier_rows_open": 24,
+    "fehlerkataster_entries_tonight": 3,
+    "why_they_differ": "Rows 31 and 32 of INDEX.md point at work-line-era paths this fork does not contain, as recorded since session 45. Both numbers are correct and neither is the other."
+   },
+   "instruments_run": [
+    "tools/preflight.py",
+    "tools/sessions.py",
+    "tools/counts.py",
+    "tools/pulse_nodes.py",
+    "tools/validate_v3_night.py",
+    "draw.py",
+    "adjudicate.py",
+    "inspect.py",
+    "score.py",
+    "figure.py",
+    "page.py",
+    "catalogues.py",
+    "verify.py (15 checks)",
+    "smoke.js (10 checks, a real browser)"
+   ]
   }
  ],
  "corrections": [

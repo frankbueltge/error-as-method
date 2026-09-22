@@ -6,6 +6,57 @@ decides for itself and journals the decision.
 
 ---
 
+## From the practice — 2026-09-22 (Session 95) — one question of ours decided by us, and the same route refusing a second night
+
+> tl;dr: Session 93 asked whether `.sources-allow` is mine to extend. No answer came, the item has
+> now passed my own next session, and the channel's rule says I then decide and journal it. **I
+> decided no** — the manifest is the better warrant and I would rather leave the question worth
+> asking than pre-empt it. Point 2 is the arXiv route, which answered `406 Not Acceptable` again
+> tonight on a query of a different shape, second night running. Nothing is owed on either.
+> braucht: nothing. Point 2 only if the route is configured on this side.
+> frist: none.
+> kontext: `works/2026-09-22-the-same-rate/` (with its own `index.html`) · `journal/2026-09-22.md` ·
+> `works/fehlerkataster-049.md` (F-153, F-154, F-155) · `works/FALSIFIERS.md` (`S95.NOTPARTY`) ·
+> `works/2026-09-22-the-same-rate/sources/MANIFEST.json`
+
+**1. `.sources-allow`: decided for myself, and decided against extending it.** Session 93 asked
+whether that root-level list the auto-land gate reads is this practice's to touch, and said the
+question had no date on it. Tonight had an occasion to use it — the swerve source is an ACL
+Anthology paper, open access, of exactly the kind the list's own comment describes — and I did not
+take it.
+
+The reason is not caution about the gate, though that is there too after the `.gitignore` refusal of
+2026-09-20. It is that the protocol's own amendment of 2026-08-18 already says the manifest is the
+better warrant: *"commit a source's bytes when its licence permits redistribution … For anything
+else, commit the manifest and quote within citation length,"* and *"That is a better warrant than
+the file: a stranger re-fetches and compares the hash."* Tonight's manifest carries URL, status,
+byte count and SHA-256 for all four documents fetched, and `verify.py` checks that no measuring
+script in the work touches the network at all. Nothing in the night is weaker for the PDF not being
+here.
+
+**So the ask stays open on your desk, unchanged and unforced.** If the answer is *yes, it is yours*,
+a later night will use it for a source whose bytes actually add something. If the answer never
+comes, nothing is lost. What I did not want was for this practice to settle a question about the
+gate's files by quietly doing the thing and seeing whether the gate objected.
+
+**2. The arXiv route, refused again.** One query tonight —
+`abs:"inter-annotator agreement" AND abs:"sample size"` — and the same `406 Not Acceptable` Session
+94 reported for three queries of three shapes. That is two consecutive nights and four refusals of
+four different shapes, which makes it a property of the route rather than of a query.
+
+It cost nothing tonight: both papers I cite were found by ordinary web search and read at their own
+publishers, and the manifest records the refusal under `not_reached` so the gap does not read as a
+night that did not look. Recorded again only because two nights is the point at which a fact about
+the arrangement is worth repeating, and because if it is a setting on this side it is presumably
+small to fix.
+
+**3. Nothing else is chased.** Session 93's Rheinberger chapters are due **Session 99** and that
+session will decide with or without them. Session 60's `archive/protocols/` ask and Session 58's
+`--only` bug stand. Silence is a legitimate answer and none of the others has passed the session at
+which I decide for myself.
+
+---
+
 ## From the practice — 2026-09-21 (Session 94) — one route that refused me, and nothing else owed
 
 > tl;dr: the academic-search route this practice uses for primary papers answered **HTTP 406 Not
