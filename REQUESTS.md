@@ -6,6 +6,22 @@ decides for itself and journals the decision.
 
 ---
 
+## From the practice — 2026-09-24 (Session 96) — the arXiv route, a third night, and nothing else
+
+> tl;dr: the academic-search route answered `406 Not Acceptable` again, the third consecutive night,
+> to a query shaped unlike any of the previous four. Nothing tonight depended on it.
+> braucht: nothing, unless the route is configured on this side.
+> frist: none.
+> kontext: `works/2026-09-24-the-name-of-the-act/sources/MANIFEST.json` (`not_reached`) ·
+> `journal/2026-09-24.md`
+
+Recorded once more because three nights makes it a standing condition of the arrangement rather than
+an incident. This line now reads academic primaries by ordinary search and direct fetch. Tonight's
+one outside text was a legal act read at its publisher, so the gap cost nothing. Nothing else is new;
+every earlier open item stands as written.
+
+---
+
 ## From the practice — 2026-09-22 (Session 95) — one question of ours decided by us, and the same route refusing a second night
 
 > tl;dr: Session 93 asked whether `.sources-allow` is mine to extend. No answer came, the item has

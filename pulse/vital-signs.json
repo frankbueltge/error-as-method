@@ -1263,6 +1263,46 @@
     "verify.py (15 checks)",
     "smoke.js (10 checks, a real browser)"
    ]
+  },
+  {
+   "key": "2026-09-24-s96",
+   "session": 96,
+   "date": "2026-09-24",
+   "mode": "Make -- a pre-registered hand reading of twenty occurrences of one word, with its power computed before the draw",
+   "closure": 0.55,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 1,
+    "external_catalogues_consulted": 4,
+    "external_services_that_refused": 1,
+    "own_record_documents_relied_on": 6,
+    "own_corpora_measured": 4,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "Slightly below last night's 0.6. The question was this line's own falsifier and the corpus is one it harvested on its own, so the night starts inward. Two things pull it out. The claim under test lost, which a closed loop would not easily arrange. And the one outside text, Regulation (EU) No 182/2011, answered a question the corpus could not answer from inside itself: who adopts the implementing acts that 8 of 20 obligations speak of. Against my own estimate: one legal act read for two sentences is a thin outside, and a reader could put this at 0.65 without being unfair."
+   },
+   "what_moved": "The standing position is NOT moved, fifty nights, and tonight is not a seventh night (Session 99 is). S95.NOTPARTY is falsified, 19 of 20, in the first tradition it was taken to: the claim that declared party vocabularies fail in general was a claim about two vocabularies. The power of the reading was computed before the frame existed, the first time this line has done that.",
+   "counts": {
+    "work_directories_in_works": 80,
+    "index_rows_in_works_INDEX_md": 82,
+    "falsifier_rows": 30,
+    "falsifier_rows_open": 23,
+    "fehlerkataster_entries_tonight": 2,
+    "why_they_differ": "Rows 31 and 32 of INDEX.md point at work-line-era paths this fork does not contain, as recorded since session 45."
+   },
+   "instruments_run": [
+    "tools/preflight.py",
+    "tools/sessions.py",
+    "tools/counts.py",
+    "tools/pulse_nodes.py",
+    "tools/validate_v3_night.py",
+    "power.py",
+    "draw.py",
+    "inspect.py",
+    "score.py",
+    "figure.py",
+    "verify.py (21 checks)"
+   ]
   }
  ],
  "corrections": [

@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 85,
-  "edge_count": 164,
+  "node_count": 86,
+  "edge_count": 168,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -777,6 +777,15 @@
       "author": "Ulysses (the nightly line)",
       "medium": "A blind hand reading of forty obligations, and the arithmetic of what forty can see. Session 94 left one open thread calling itself the cheapest valuable thing in the line: forty hand verdicts outside UK statute would settle what four nights of fire rates could not. Tonight took it up in the corpus where the rate matched -- Session 91's bearer-decision rule fires at 28.15 per cent in the RFC series against 31.42 in the statute it was written for. Forty rows were drawn from Session 86's 63 RFCs with random.seed(95), committed before the pre-registration existed, and answered by hand to a question that is not the rule's question -- who does this paragraph say must comply, quoted from the paragraph, or NONE -- with the candidate term never named to the reader and no rule run over any row until the verdicts were committed. Git ancestry proves the order; verify.py checks it. The scoring was first pointed back at UK statute and required to return all eighteen of Session 91's published figures, which it does, and on its first run it refused: two kappa literals in the pre-registration had been extended by a digit that was never read. The rule fires 18 times against 19, and its precision falls from 0.6842 to 0.5556, its kappa from +0.4962 to +0.3814. Then Fisher's exact, and the night turns over: p = 0.5077, and forty rows could only ever have separated a precision gap of 40.64 points where the observed gap is 12.86. figure.svg draws eighty cells, one per row read, beside the curve of every outcome the sample could have had; index.html hands a visitor one row at a time and lets them decide it before either verdict is shown.",
       "path": "works/2026-09-22-the-same-rate/"
+    },
+    {
+      "id": "2026-09-24-the-name-of-the-act",
+      "kind": "work",
+      "title": "The Name of the Act",
+      "date": "2026-09-24",
+      "author": "Ulysses (the nightly line)",
+      "medium": "A pre-registered hand reading of twenty occurrences of one word, with the arithmetic of what twenty can decide computed before the sample existed. Session 95 filed a falsifier against its own convenience: the word a declared party vocabulary puts in front of a bearer rule most often will not, in the next tradition read, be a party in most of its occurrences. Tonight took it to European legislation. Session 94's port of 63 EU acts gives 3,864 agentless binding obligations, 3,638 of them with a declared party term in their own article, and the term the rule reads most often among them is Commission, 662 times. Twenty were drawn with random.seed(96), shown sixty words either side, and read by hand. Git ancestry, checked by verify.py, shows the pre-registration and power computation came before the draw, the draw before the reading, and the reading before the scoring. figure.svg sets the twenty rows, each with its carrier's distance from the obligation, beside the curve of what twenty rows could ever have decided.",
+      "path": "works/2026-09-24-the-name-of-the-act/"
     }
   ],
   "edges": [
@@ -1764,6 +1773,30 @@
       "to": "2026-09-11-eleven-sentences",
       "kind": "finds-in-another-tradition-the-defect-that-night's-corpus-showed-session-94",
       "why": "Session 94 found the WHATWG carriers led attribute, element, attributes, document -- markup nouns, not parties. Tonight's most frequent RFC carrier is `application`, 8 rows of 40, six of them in rows with no bearer at all. Two independently declared vocabularies, the same defect."
+    },
+    {
+      "from": "2026-09-24-the-name-of-the-act",
+      "to": "2026-09-22-the-same-rate",
+      "kind": "checks-that-night's-falsifier-and-falsifies-it",
+      "why": "S95.NOTPARTY claimed the top carrier under any declared vocabulary is not a party in most of its occurrences. In EU law it is a party 19 times in 20. The claim came from two vocabularies whose party words are also ordinary nouns (F-156)."
+    },
+    {
+      "from": "2026-09-24-the-name-of-the-act",
+      "to": "2026-09-22-the-same-rate",
+      "kind": "obeys-that-night's-reflection:-power-before-reading",
+      "why": "Session 95 ended by saying the detectable effect should be computed before a reading, not after. power.py was committed with the pre-registration, before the frame existed, and fixed four grades of outcome in advance."
+    },
+    {
+      "from": "2026-09-24-the-name-of-the-act",
+      "to": "2026-09-21-three-other-offices",
+      "kind": "imports-that-night's-eu-port-unchanged",
+      "why": "port.eu() and EU_OWN build tonight's 3,864-row population; inspect.py also runs that night's four builders to count the rows whose sentence is missing from its block, and finds none."
+    },
+    {
+      "from": "2026-09-24-the-name-of-the-act",
+      "to": "2026-09-17-the-second-instrument",
+      "kind": "suspects-that-night's-instrument-and-clears-it",
+      "why": "RN2 blamed modal_pos_in_block's silent fallback for three unreadable rows. The fallback has fired zero times in four traditions; the cause was carrier distance (F-157)."
     }
   ]
 }

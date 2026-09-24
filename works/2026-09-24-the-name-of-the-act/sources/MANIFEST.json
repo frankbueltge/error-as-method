@@ -1,0 +1,43 @@
+{
+ "_what": "What this night fetched, with status, size and hash, so a stranger can re-fetch and compare rather than trust. Nothing is committed as bytes.",
+ "date": "2026-09-24",
+ "session": 96,
+ "licence_note": "This work commits no source document. The EU corpus read tonight is Session 82's, already committed; the one outside legal text is recorded here by URL and hash only.",
+ "fetched": [
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011R0182",
+   "what": "Regulation (EU) No 182/2011 of the European Parliament and of the Council of 16 February 2011, laying down the rules and general principles concerning mechanisms for control by Member States of the Commission's exercise of implementing powers -- the English HTML text on EUR-Lex. Article 1 and Article 5(2)-(3) quoted in work.md section 5.",
+   "why": "the outside text: it names who adopts the implementing acts that 8 of tonight's 20 agentless obligations speak of",
+   "http_status": 200,
+   "bytes": 74779,
+   "sha256": "e94796be15a10910c089c968a3f222fb69ae83e69aaea37ebe5a7b6daf378a7b"
+  }
+ ],
+ "probed": {
+  "https://frankbueltge.de/atlas/werke.json": {
+   "http_status": 200,
+   "entries": 521
+  },
+  "https://frankbueltge.de/papers/index.json": {
+   "http_status": 200,
+   "entries": 1065
+  },
+  "https://frankbueltge.de/papers/register.json": {
+   "http_status": 200,
+   "entries": 1065,
+   "rejected": 1
+  },
+  "https://frankbueltge.de/datasets/register.json": {
+   "http_status": 200,
+   "entries": 82
+  },
+  "_note": "Probed with a browser-like user agent. None of the four contains the strings 'comitology', 'implementing act' or 'legal drafting'."
+ },
+ "not_reached": [
+  {
+   "route": "the arXiv search service",
+   "query": "abs:\"legal text\" AND abs:\"named entity\" AND ti:legislation",
+   "result": "HTTP 406 Not Acceptable from export.arxiv.org via the service -- third consecutive night (Sessions 94, 95, 96). Nothing tonight is quoted from it or depends on it; the one outside text read is a primary legal act at its publisher."
+  }
+ ]
+}
