@@ -1,0 +1,157 @@
+{
+ "EU acts": {
+  "rows": 3864,
+  "sentence_not_in_its_block": 0,
+  "share": 0.0,
+  "of_those_found_in_another_block_of_same_document": 0
+ },
+ "RFCs": {
+  "rows": 956,
+  "sentence_not_in_its_block": 0,
+  "share": 0.0,
+  "of_those_found_in_another_block_of_same_document": 0
+ },
+ "WHATWG standards": {
+  "rows": 1190,
+  "sentence_not_in_its_block": 0,
+  "share": 0.0,
+  "of_those_found_in_another_block_of_same_document": 0
+ },
+ "UK Acts (calibration)": {
+  "rows": 660,
+  "sentence_not_in_its_block": 0,
+  "share": 0.0,
+  "of_those_found_in_another_block_of_same_document": 0
+ },
+ "tonight's sheet": [],
+ "sheet_word_distance": {
+  "1": [
+   23,
+   "before"
+  ],
+  "2": [
+   1,
+   "before"
+  ],
+  "3": [
+   37,
+   "before"
+  ],
+  "4": [
+   22,
+   "after"
+  ],
+  "5": [
+   7,
+   "before"
+  ],
+  "6": [
+   176,
+   "before"
+  ],
+  "7": [
+   23,
+   "before"
+  ],
+  "8": [
+   27,
+   "after"
+  ],
+  "9": [
+   0,
+   "before"
+  ],
+  "10": [
+   21,
+   "before"
+  ],
+  "11": [
+   33,
+   "before"
+  ],
+  "12": [
+   16,
+   "after"
+  ],
+  "13": [
+   0,
+   "before"
+  ],
+  "14": [
+   197,
+   "before"
+  ],
+  "15": [
+   95,
+   "after"
+  ],
+  "16": [
+   23,
+   "before"
+  ],
+  "17": [
+   81,
+   "after"
+  ],
+  "18": [
+   5,
+   "before"
+  ],
+  "19": [
+   16,
+   "before"
+  ],
+  "20": [
+   27,
+   "before"
+  ]
+ },
+ "sheet_rows_whose_carrier_is_inside_the_obligation_sentence": [
+  2,
+  5,
+  9,
+  13,
+  19
+ ],
+ "sheet_rows_carrier_beyond_the_sixty_word_window": [
+  6,
+  14,
+  15,
+  17
+ ],
+ "formula": {
+  "pattern": "\\bimplementing acts shall be adopted in accordance with the (examination|advisory) procedure",
+  "population_rows": 3864,
+  "population_formula_rows": 215,
+  "top_carrier_rows": 662,
+  "top_carrier_formula_rows": 135,
+  "formula_rows_by_carrier": {
+   "commission": 135,
+   "member states": 20,
+   "authorities": 18,
+   "member state": 11,
+   "implementation": 7,
+   "bodies": 5,
+   "authority": 4,
+   "board": 3,
+   "operators": 3,
+   "agency": 3,
+   "council": 1,
+   "importers": 1,
+   "manufacturers": 1,
+   "supplier": 1,
+   "providers": 1,
+   "provider": 1
+  },
+  "sheet_formula_rows": [
+   1,
+   3,
+   4,
+   7,
+   10,
+   11,
+   16,
+   20
+  ]
+ }
+}

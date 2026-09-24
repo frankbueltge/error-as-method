@@ -1,0 +1,50 @@
+{
+ "top_carrier": "commission",
+ "top_carrier_share_of_frame": 0.182,
+ "yes": 19,
+ "no": 1,
+ "undecided": 0,
+ "k_strict": 19,
+ "k_undecided_as_yes": 19,
+ "settled": true,
+ "k_under_rn1_opposite_reading": 18,
+ "grade": "falsified, and the sample can see it",
+ "grade_under_rn1_opposite": "falsified, and the sample can see it",
+ "clopper_pearson_95": [
+  0.7513,
+  0.9987
+ ],
+ "chance_of_k_or_more_if_true_share_were_one_half": 2.003e-05,
+ "no_rows": [
+  5
+ ],
+ "act_name_no_rows": [
+  5
+ ],
+ "S95.NOTPARTY": "FALSIFIED",
+ "predictions": {
+  "P1 top carrier is 'member states' or 'commission'": "HELD",
+  "P2 top carrier is 'member states'": "FAILED",
+  "P3 the row is falsified: YES > 10": "HELD",
+  "P4 k >= 15": "HELD",
+  "P5 at least one NO is an act-name": "HELD",
+  "P6 UNDECIDED at most 2": "HELD"
+ },
+ "formula_rows_on_sheet": [
+  1,
+  3,
+  4,
+  7,
+  10,
+  11,
+  16,
+  20
+ ],
+ "carrier_inside_obligation_sentence_on_sheet": [
+  2,
+  5,
+  9,
+  13,
+  19
+ ]
+}
