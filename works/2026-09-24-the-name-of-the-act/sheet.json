@@ -1,0 +1,229 @@
+{
+ "note": "Twenty occurrences of the top carrier, drawn with random.seed(96) before any verdict was written. The reader answers per PREDICTIONS.md section 4: is the marked span, in this occurrence, a party? YES / NO / UNDECIDED.",
+ "top_carrier": "commission",
+ "occurrences_of_top_in_frame": 662,
+ "seed": 96,
+ "sampled": 20,
+ "rows": [
+  {
+   "n": 1,
+   "celex": "32017R0745",
+   "block": 15,
+   "offset": 24,
+   "carrier": "Commission",
+   "start": 185,
+   "end": 195,
+   "sentence": "Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 114(3).",
+   "context": "Article 112 Funding of activities related to designation and monitoring of notified bodies The costs associated with joint assessment activities shall be covered by the Commission. The [[Commission]] shall, by means of implementing acts, lay down the scale and structure of recoverable costs and other necessary implementing rules. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 114(3)."
+  },
+  {
+   "n": 2,
+   "celex": "32017R0625",
+   "block": 19,
+   "offset": 49,
+   "carrier": "Commission",
+   "start": 1448,
+   "end": 1458,
+   "sentence": "National experts accompanying Commission experts shall be given the same rights of access as the Commission experts.",
+   "context": "... be organised in cooperation with the competent authorities of the Member States and shall be performed on a regular basis. 3. The controls provided for in paragraph 1 may include on-the-spot verifications. The Commission experts may accompany the staff of the competent authorities performing official controls. 4. Experts from the Member States may assist the Commission experts. National experts accompanying [[Commission]] experts shall be given the same rights of access as the Commission experts."
+  },
+  {
+   "n": 3,
+   "celex": "32017R0745",
+   "block": 66,
+   "offset": 24,
+   "carrier": "Commission",
+   "start": 1832,
+   "end": 1842,
+   "sentence": "Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 114(3).",
+   "context": "... the choice of having such reviews take place as part of its monitoring activities referred to in Article 44. 3. The Commission shall participate in the organisation and provide support to the implementation of the peer review mechanism. 4. The Commission shall compile an annual summary report of the peer review activities, which shall be made publicly available. 5. The [[Commission]] may, by means of implementing acts, adopt measures setting out the detailed arrangements and related documents for the peer review mechanism and training and qualification as referred to in paragraph 1 of this Article. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 114(3)."
+  },
+  {
+   "n": 4,
+   "celex": "32013R1308",
+   "block": 137,
+   "offset": 24,
+   "carrier": "Commission",
+   "start": 1441,
+   "end": 1451,
+   "sentence": "Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 229(2). 2.",
+   "context": "... account the specific nature of the production cycle. The Commission shall specify in implementing acts the substantive and geographic scope of this derogation and, subject to paragraph 3, the period for which the derogation applies. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 229(2). 2. Paragraph 1 shall apply only if the [[Commission]] has already adopted one of the measures referred to in this Chapter, if products have been bought in under public intervention or if aid for private storage referred to in Chapter I of Title I of Part II has been granted. 3. The agreements and decisions referred to in paragraph 1 shall only be valid for a period of up ..."
+  },
+  {
+   "n": 5,
+   "celex": "32013R1308",
+   "block": 9,
+   "offset": 156,
+   "carrier": "Commission",
+   "start": 155,
+   "end": 165,
+   "sentence": "Wine names referred to in Articles 51 and 54 of Council Regulation (EC) No 1493/1999 ( 33 ) and Article 28 of Commission Regulation (EC) No 753/2002 ( 34 ) shall be automatically protected under this Regulation.",
+   "context": "Article 107 Existing protected wine names 1. Wine names referred to in Articles 51 and 54 of Council Regulation (EC) No 1493/1999 ( 33 ) and Article 28 of [[Commission]] Regulation (EC) No 753/2002 ( 34 ) shall be automatically protected under this Regulation. The Commission shall list them in the register provided for in Article 104 of this Regulation. 2. The Commission shall take the corresponding formal step of removing wine names to which Article 118s(3) of Regulation (EC) No 1234/2007 applies from the register provided for in Article ..."
+  },
+  {
+   "n": 6,
+   "celex": "32017R0625",
+   "block": 84,
+   "offset": 141,
+   "carrier": "Commission",
+   "start": 2348,
+   "end": 2358,
+   "sentence": "For the purpose of Article 30, the delegation of certain official control tasks, referred to in this Article, to one or more natural persons shall be allowed.",
+   "context": "... the market, entry into the Union, labelling, packaging, transport, storage and use of plant protection products to ensure their safe and sustainable use and to combat their illegal trade; and (b) the cases where the competent authorities in relation to specific non-compliances are to take one or more of the measures referred to in Articles 137(2) and 138(2). 4. The [[Commission]] may, by means of implementing acts, lay down detailed rules on uniform practical arrangements for the performance of official controls on the products referred to in paragraph 1 regarding: (a) uniform minimum frequency of such official controls, where a minimum level of official control is necessary to respond to recognised uniform hazards and risks which might be posed by plant ..."
+  },
+  {
+   "n": 7,
+   "celex": "32012R0500",
+   "block": 0,
+   "offset": 24,
+   "carrier": "Commission",
+   "start": 13851,
+   "end": 13861,
+   "sentence": "Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 38a.’;",
+   "context": "... ICCAT transfer declaration has been correctly filled in and duly transmitted to the master of the towing vessel. The tuna trap operator shall complete and send the ICCAT transfer declaration to the competent authorities of its Member State at the end of the transfer to the fishing vessel, in accordance with the format set out in Annex IV. 10. The [[Commission]] may adopt implementing acts laying down detailed rules pertaining to transfer operations under paragraphs 2 and 7 of this Article. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 38a.’; (11) Article 24 is replaced by the following: ‘Article 24 Caging operations 1. Within one week of the completion of the caging operation, ..."
+  },
+  {
+   "n": 8,
+   "celex": "32010L0075",
+   "block": 4,
+   "offset": 33,
+   "carrier": "Commission",
+   "start": 2229,
+   "end": 2239,
+   "sentence": "Decisions on the BAT conclusions shall be adopted in accordance with the regulatory procedure referred to in Article 75(2). 6.",
+   "context": "... of the forum on the proposed content of the BAT reference documents and shall take into account this opinion for the procedures laid down in paragraph 5. 5. Decisions on the BAT conclusions shall be adopted in accordance with the regulatory procedure referred to in Article 75(2). 6. After the adoption of a decision in accordance with paragraph 5, the [[Commission]] shall without delay make the BAT reference document publicly available and ensure that BAT conclusions are made available in all the official languages of the Union. 7. Pending the adoption of a relevant decision in accordance with paragraph 5, the conclusions on best available techniques from BAT reference documents adopted by the Commission prior to the date referred to in ..."
+  },
+  {
+   "n": 9,
+   "celex": "32013R1308",
+   "block": 100,
+   "offset": 101,
+   "carrier": "Commission",
+   "start": 2269,
+   "end": 2279,
+   "sentence": "In order to ensure that aid for private storage has the desired effect on the market, the Commission shall be empowered to adopt delegated acts in accordance with Article 227 laying down:",
+   "context": "... to public intervention; (b) rules on the storage of products inside and outside the Member State responsible for them and for the treatment of such products as regards customs duties and any other amounts to be granted or levied under the CAP. 4. In order to ensure that aid for private storage has the desired effect on the market, the [[Commission]] shall be empowered to adopt delegated acts in accordance with Article 227 laying down: (a) rules and conditions applicable where the quantity stored is lower than the contracted quantity; (b) the conditions for granting an advance payment of such aid; (c) the conditions under which it may be decided that products covered by private storage contracts may be re-marketed or ..."
+  },
+  {
+   "n": 10,
+   "celex": "32017R0745",
+   "block": 91,
+   "offset": 24,
+   "carrier": "Commission",
+   "start": 4747,
+   "end": 4757,
+   "sentence": "Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 114(3).",
+   "context": "... purpose of consulting with experts. 8. The Commission is empowered to adopt delegated acts in accordance with Article 115 amending, in the light of technical progress and global regulatory developments, the requirements laid down in Chapter II of Annex XV. 9. In order to ensure the uniform application of the requirements laid down in Chapter II of Annex XV, the [[Commission]] may adopt implementing acts to the extent necessary to resolve issues of divergent interpretation and of practical application. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 114(3)."
+  },
+  {
+   "n": 11,
+   "celex": "32024R1689",
+   "block": 105,
+   "offset": 24,
+   "carrier": "Commission",
+   "start": 1613,
+   "end": 1623,
+   "sentence": "Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 98(2). 7.",
+   "context": "... the general-purpose AI model concerned or its representative shall supply the information requested. In the case of legal persons, companies or firms, or where the provider has no legal personality, the persons authorised to represent them by law or by their statutes, shall provide the access requested on behalf of the provider of the general-purpose AI model concerned. 6. The [[Commission]] shall adopt implementing acts setting out the detailed arrangements and the conditions for the evaluations, including the detailed arrangements for involving independent experts, and the procedure for the selection thereof. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 98(2). 7. Prior to requesting access to the general-purpose AI model concerned, the AI ..."
+  },
+  {
+   "n": 12,
+   "celex": "32013R1300",
+   "block": 5,
+   "offset": 139,
+   "carrier": "Commission",
+   "start": 741,
+   "end": 751,
+   "sentence": "For programme-specific result indicators, which relate to investment priorities, baselines shall use the latest available data and targets shall be set for 2023.",
+   "context": "... 2. For common and programme-specific output indicators, baselines shall be set at zero. Cumulative quantified target values for those indicators shall be set for 2023. 3. For programme-specific result indicators, which relate to investment priorities, baselines shall use the latest available data and targets shall be set for 2023. Targets may be expressed in quantitative or qualitative terms. 4. The [[Commission]] shall be empowered to adopt delegated acts in accordance with Article 7 to amend the list of common output indicators set out in Annex I, in order to make adjustments, where justified to ensure effective assessment of progress in operational programme implementation."
+  },
+  {
+   "n": 13,
+   "celex": "32013R1308",
+   "block": 220,
+   "offset": 219,
+   "carrier": "Commission",
+   "start": 208,
+   "end": 218,
+   "sentence": "Article 89 General provisions In order to take into account the specific characteristics of trade between the Union and certain third countries and the special character of certain agricultural products, the Commission shall be empowered to adopt delegated acts in accordance with Article 227 concerning:",
+   "context": "Article 89 General provisions In order to take into account the specific characteristics of trade between the Union and certain third countries and the special character of certain agricultural products, the [[Commission]] shall be empowered to adopt delegated acts in accordance with Article 227 concerning: (a) the conditions under which imported products are considered to have an equivalent level of conformity to the Union marketing standards and conditions allowing derogation from Article 74; and (b) the rules concerning the application of the marketing standards to products exported from the Union."
+  },
+  {
+   "n": 14,
+   "celex": "32017R0625",
+   "block": 83,
+   "offset": 141,
+   "carrier": "Commission",
+   "start": 1855,
+   "end": 1865,
+   "sentence": "For the purpose of Article 30, the delegation of certain official control tasks, referred to in this Article, to one or more natural persons shall be allowed.",
+   "context": "... monitoring referred to in point (e) of Article 13(2) of Directive 2001/18/EC and in point (b) of Article 5(5) and point (b) of Article 17(5) of Regulation (EC) No 1829/2003; (b) the cases where the competent authorities in relation to specific non-compliances are to take one or more of the measures referred to in Articles 137(2) and 138(2). 3. The [[Commission]] may, by means of implementing acts, lay down rules on uniform practical arrangements for the performance of the official controls referred to in paragraph 1, taking into account the need to ensure a minimum level of official controls to prevent practices that infringe those rules regarding uniform minimum frequency of such official controls where a minimum level of official control ..."
+  },
+  {
+   "n": 15,
+   "celex": "32017R0625",
+   "block": 159,
+   "offset": 102,
+   "carrier": "Commission",
+   "start": 786,
+   "end": 796,
+   "sentence": "In the areas governed by the rules referred to in Article 1(2), a European Union reference laboratory shall be established where the effectiveness of official controls and other official activities also depends on the quality, uniformity and reliability of:",
+   "context": "... designated in accordance with Article 37(1); and (b) the results of the analyses, tests and diagnoses performed by those official laboratories. 2. A European Union reference laboratory shall be established where there is a recognised need to promote uniform practices in relation to the development or use of the methods referred to in point (a) of paragraph 1. 3. The [[Commission]] shall review regularly the mandate and operation of the European Union reference laboratories. 4. The Commission shall supplement this Regulation by adopting the decision to establish a European Union reference laboratory by means of a delegated act in accordance with Article 144."
+  },
+  {
+   "n": 16,
+   "celex": "32014L0024",
+   "block": 72,
+   "offset": 24,
+   "carrier": "Commission",
+   "start": 1500,
+   "end": 1510,
+   "sentence": "Those implementing acts shall be adopted in accordance with the advisory procedure referred to in Article 89(2). 4.",
+   "context": "... by means of a contract award notice, which shall contain the information referred to in Annex V Part J, in accordance with the standard forms referred to in Article 51. They may, however, group such notices on a quarterly basis. In that case, they shall send the grouped notices within 30 days of the end of each quarter. 3. The [[Commission]] shall establish the standard forms referred to in paragraphs 1 and 2 of this Article by means of implementing acts. Those implementing acts shall be adopted in accordance with the advisory procedure referred to in Article 89(2). 4. The notices referred to in this Article shall be published in accordance with Article 51."
+  },
+  {
+   "n": 17,
+   "celex": "32013R1308",
+   "block": 46,
+   "offset": 67,
+   "carrier": "Commission",
+   "start": 549,
+   "end": 559,
+   "sentence": "Industrial sugar, industrial isoglucose or industrial inulin syrup shall be reserved for the production of one of the products referred to in paragraph 2 when:",
+   "context": "... subject to a delivery contract concluded before the end of the marketing year between a producer and a user which have both been granted approval in accordance with Article 137; and (b) it has been delivered to the user on 30 November of the following marketing year at the latest. 2. In order to take account of technical developments, the [[Commission]] shall be empowered to adopt delegated acts in accordance with Article 227 establishing a list of products for the production of which industrial sugar, industrial isoglucose or industrial inulin syrup may be used. The list shall, in particular, include: (a) bioethanol, alcohol, rum, live yeast and quantities of syrups for spreading and those to be processed into \"Rinse appelstroop\"; (b) ..."
+  },
+  {
+   "n": 18,
+   "celex": "32021R1119",
+   "block": 11,
+   "offset": 24,
+   "carrier": "Commission",
+   "start": 2305,
+   "end": 2315,
+   "sentence": "(c) the recommendations shall be complementary to the latest country-specific recommendations issued in the context of the European Semester.",
+   "context": "... integrated national energy and climate progress report submitted in accordance with Article 17 of Regulation (EU) 2018/1999, in the year following the year in which the recommendations were issued, how it has taken due account of the recommendations; if the Member State concerned decides not to address the recommendations or a substantial part thereof, that Member State shall provide the [[Commission]] its reasoning; (c) the recommendations shall be complementary to the latest country-specific recommendations issued in the context of the European Semester."
+  },
+  {
+   "n": 19,
+   "celex": "32009R1223",
+   "block": 7,
+   "offset": 181,
+   "carrier": "Commission",
+   "start": 2597,
+   "end": 2607,
+   "sentence": "Where the SCCS finds that any necessary data is lacking, the Commission shall request the responsible person to provide such data within an explicitly stated reasonable time, which shall not be extended.",
+   "context": "... request the SCCS to give its opinion on the safety of such nanomaterial for use in the relevant categories of cosmetic products and on the reasonably foreseeable exposure conditions. The Commission shall make this information public. The SCCS shall deliver its opinion within six months of the Commission's request. Where the SCCS finds that any necessary data is lacking, the [[Commission]] shall request the responsible person to provide such data within an explicitly stated reasonable time, which shall not be extended. The SCCS shall deliver its final opinion within six months of submission of additional data. The opinion of the SCCS shall be made publicly available. 5. The Commission may, at any time, invoke the procedure in paragraph 4 where it ..."
+  },
+  {
+   "n": 20,
+   "celex": "32022R2065",
+   "block": 16,
+   "offset": 24,
+   "carrier": "Commission",
+   "start": 2721,
+   "end": 2731,
+   "sentence": "Those implementing acts shall be adopted in accordance with the advisory procedure referred to in Article 88.",
+   "context": "... shall inform the Commission thereof. 5. Providers of online platforms shall, without undue delay, submit to the Commission the decisions and the statements of reasons referred to in Article 17(1) for the inclusion in a publicly accessible machine-readable database managed by the Commission. Providers of online platforms shall ensure that the information submitted does not contain personal data. 6. The [[Commission]] may adopt implementing acts to lay down templates concerning the form, content and other details of reports pursuant to paragraph 1 of this Article. Those implementing acts shall be adopted in accordance with the advisory procedure referred to in Article 88."
+  }
+ ]
+}
