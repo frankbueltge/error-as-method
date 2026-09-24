@@ -1,0 +1,116 @@
+{
+ "reader": "the practice, Session 96, one reader",
+ "question": "PREDICTIONS.md section 4: is the marked span, in this occurrence, a party? YES / NO / UNDECIDED",
+ "reading_notes": {
+  "RN1": {
+   "arose_at_row": 2,
+   "note": "A party word used as a modifier whose head is itself an actor ('Commission experts'). Section 4's NO clause covers modifiers whose head is NOT an actor; this one is not covered, and the span refers to the institution the experts belong to, so YES by the letter. The opposite reading (the span classifies, it does not act) gives NO; score.py reports the count both ways."
+  },
+  "RN2": {
+   "arose_at_row": 6,
+   "note": "Rows 6, 14 and 15 show a context that does not contain the obligation sentence printed beneath it; rows 6 and 14 carry the same sentence at the same offset in two different article blocks. The question tonight is about the span, which is shown correctly, so the verdicts are unaffected. But it says the carrier was chosen at a position that is not where the obligation stands. Filed for measurement AFTER these verdicts are committed, not before."
+  }
+ },
+ "verdicts": [
+  {
+   "n": 1,
+   "verdict": "YES",
+   "reason": "'The Commission shall ... lay down the scale and structure of recoverable costs': the institution acts."
+  },
+  {
+   "n": 2,
+   "verdict": "YES",
+   "reason": "'National experts accompanying Commission experts': a modifier, but its head (experts) is itself an actor, so section 4's NO clause does not reach it; the span names the institution the experts belong to. Decided by the letter of section 4; see RN1."
+  },
+  {
+   "n": 3,
+   "verdict": "YES",
+   "reason": "'The Commission may, by means of implementing acts, adopt measures': the institution acts."
+  },
+  {
+   "n": 4,
+   "verdict": "YES",
+   "reason": "'only if the Commission has already adopted one of the measures': the institution is spoken of as the one that adopted."
+  },
+  {
+   "n": 5,
+   "verdict": "NO",
+   "reason": "'Article 28 of Commission Regulation (EC) No 753/2002': part of the name of a legal act."
+  },
+  {
+   "n": 6,
+   "verdict": "YES",
+   "reason": "'The Commission may, by means of implementing acts, lay down detailed rules': the institution acts. (The obligation sentence on the sheet is not in this context; see RN2.)"
+  },
+  {
+   "n": 7,
+   "verdict": "YES",
+   "reason": "'The Commission may adopt implementing acts laying down detailed rules': the institution acts."
+  },
+  {
+   "n": 8,
+   "verdict": "YES",
+   "reason": "'the Commission shall without delay make the BAT reference document publicly available': the institution acts."
+  },
+  {
+   "n": 9,
+   "verdict": "YES",
+   "reason": "'the Commission shall be empowered to adopt delegated acts': the institution is empowered."
+  },
+  {
+   "n": 10,
+   "verdict": "YES",
+   "reason": "'the Commission may adopt implementing acts to the extent necessary': the institution acts."
+  },
+  {
+   "n": 11,
+   "verdict": "YES",
+   "reason": "'The Commission shall adopt implementing acts setting out the detailed arrangements': the institution acts."
+  },
+  {
+   "n": 12,
+   "verdict": "YES",
+   "reason": "'The Commission shall be empowered to adopt delegated acts ... to amend the list': the institution is empowered."
+  },
+  {
+   "n": 13,
+   "verdict": "YES",
+   "reason": "'the Commission shall be empowered to adopt delegated acts in accordance with Article 227': the institution is empowered."
+  },
+  {
+   "n": 14,
+   "verdict": "YES",
+   "reason": "'The Commission may, by means of implementing acts, lay down rules': the institution acts. (Obligation sentence not in context; see RN2.)"
+  },
+  {
+   "n": 15,
+   "verdict": "YES",
+   "reason": "'The Commission shall review regularly the mandate and operation': the institution acts. (Obligation sentence not in context; see RN2.)"
+  },
+  {
+   "n": 16,
+   "verdict": "YES",
+   "reason": "'The Commission shall establish the standard forms': the institution acts."
+  },
+  {
+   "n": 17,
+   "verdict": "YES",
+   "reason": "'the Commission shall be empowered to adopt delegated acts ... establishing a list of products': the institution is empowered."
+  },
+  {
+   "n": 18,
+   "verdict": "YES",
+   "reason": "'that Member State shall provide the Commission its reasoning': the institution is the recipient."
+  },
+  {
+   "n": 19,
+   "verdict": "YES",
+   "reason": "'the Commission shall request the responsible person to provide such data': the institution acts."
+  },
+  {
+   "n": 20,
+   "verdict": "YES",
+   "reason": "'The Commission may adopt implementing acts to lay down templates': the institution acts."
+  }
+ ]
+}
