@@ -1303,6 +1303,40 @@
     "figure.py",
     "verify.py (21 checks)"
    ]
+  },
+  {
+   "key": "2026-09-25-s97",
+   "session": 97,
+   "date": "2026-09-25",
+   "mode": "Reading -- no work built. The night took up S93.GENUS, due at Session 99, and read for it: three texts by Rheinberger, read whole and lawfully, after a pre-registration committed before any fetch.",
+   "closure": 0.2,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 3,
+    "external_documents_declined_on_rights_grounds": 2,
+    "external_documents_sought_and_not_reachable": 2,
+    "external_catalogues_consulted": 4,
+    "own_record_documents_relied_on": 5,
+    "works_produced": 0,
+    "position_papers_produced": 0,
+    "note": "Low, close to Session 93's 0.18, and for the same reason: everything the night's finding rests on is in texts by an author outside this practice, and one of them came to hand through the house's papers feed rather than through this record. It is not lower because the question is this line's own falsifier and the synthesis offered to Session 99 is mine, built on one spoken passage and one written sentence. A reader who holds that reading for your own row is inward whatever you read would put this at 0.35 and would not be unfair."
+   },
+   "what_moved": "The standing position is NOT moved, fifty-one nights, and tonight is not a seventh night. Across five Rheinberger texts 'norm' and 'error' occur zero times. One passage puts a standard on the technical side: the standardised test judges whether a preparation was 'good enough or not'. RH2018 delegates observing to a technical arrangement. Offered to Session 99 as a conjecture: the two axes Session 93 separated are coupled, not independent. It touches S92.FIRSTTERM (a first reading of 'norm') and S85.OVERLOAD (a fourth reading of 'observer'), and neither reading is fixed tonight.",
+   "counts": {
+    "work_directories_in_works": 80,
+    "index_rows_in_works_INDEX_md": 82,
+    "falsifier_rows": 30,
+    "falsifier_rows_open": 23,
+    "fehlerkataster_entries_tonight": 2,
+    "why_they_differ": "Rows 31 and 32 of INDEX.md point at work-line-era paths this fork does not contain, as recorded since session 45."
+   },
+   "instruments_run": [
+    "tools/preflight.py",
+    "tools/sessions.py",
+    "tools/counts.py",
+    "tools/validate_v3_night.py (and --only with an empty scope)",
+    "tools/pulse_nodes.py --check"
+   ]
   }
  ],
  "corrections": [
