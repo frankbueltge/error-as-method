@@ -1,0 +1,712 @@
+{
+ "session": 98,
+ "date": "2026-09-26",
+ "corpus": "14 CFR Chapter I, Subchapters F and G, eCFR 2026-09-24; harvest.py",
+ "documents": 23,
+ "blocks": 13954,
+ "words": 399210,
+ "classify": {
+  "whole": {
+   "occurrences": 3970,
+   "b_form": 1311,
+   "agentless": 1029,
+   "B_FORM_share_pct": 33.02,
+   "agent_test": 0.7849,
+   "bearer_deletion_rate_pct": 25.92,
+   "modal_mix": {
+    "must": 2991,
+    "shall": 958,
+    "should": 21
+   }
+  },
+  "population_BFORM_AGENTLESS": 1029,
+  "may": 2805,
+  "no_person_may": 665,
+  "may_over_shall_should_must": 0.707,
+  "prior_agent_tests": {
+   "rfc": 0.9022,
+   "whatwg": 0.901,
+   "eu": 0.8095,
+   "uk": 0.7763
+  }
+ },
+ "reach": {
+  "term_lists": {
+   "base": {
+    "n": 26,
+    "terms": [
+     "user agent",
+     "user agents",
+     "browser",
+     "browsers",
+     "author",
+     "authors",
+     "implementation",
+     "implementations",
+     "implementer",
+     "implementers",
+     "markup generator",
+     "markup generators",
+     "conformance checker",
+     "conformance checkers",
+     "parser",
+     "parsers",
+     "server",
+     "servers",
+     "client",
+     "clients",
+     "validator",
+     "validators",
+     "editor",
+     "editors",
+     "specification author",
+     "specification authors"
+    ]
+   },
+   "narrow": {
+    "n": 55,
+    "terms": [
+     "user agent",
+     "user agents",
+     "browser",
+     "browsers",
+     "author",
+     "authors",
+     "implementation",
+     "implementations",
+     "implementer",
+     "implementers",
+     "markup generator",
+     "markup generators",
+     "conformance checker",
+     "conformance checkers",
+     "parser",
+     "parsers",
+     "server",
+     "servers",
+     "client",
+     "clients",
+     "validator",
+     "validators",
+     "editor",
+     "editors",
+     "specification author",
+     "specification authors",
+     "Administrator",
+     "FAA",
+     "Federal Aviation Administration",
+     "certificate holder",
+     "certificate holders",
+     "air carrier",
+     "air carriers",
+     "operator",
+     "operators",
+     "pilot in command",
+     "pilot",
+     "pilots",
+     "crewmember",
+     "crewmembers",
+     "flight crewmember",
+     "flight crewmembers",
+     "flight attendant",
+     "flight attendants",
+     "aircraft dispatcher",
+     "dispatcher",
+     "dispatchers",
+     "applicant",
+     "applicants",
+     "owner",
+     "owners",
+     "air traffic control",
+     "ATC",
+     "manufacturer",
+     "manufacturers"
+    ]
+   },
+   "wide": {
+    "n": 57,
+    "terms": [
+     "user agent",
+     "user agents",
+     "browser",
+     "browsers",
+     "author",
+     "authors",
+     "implementation",
+     "implementations",
+     "implementer",
+     "implementers",
+     "markup generator",
+     "markup generators",
+     "conformance checker",
+     "conformance checkers",
+     "parser",
+     "parsers",
+     "server",
+     "servers",
+     "client",
+     "clients",
+     "validator",
+     "validators",
+     "editor",
+     "editors",
+     "specification author",
+     "specification authors",
+     "Administrator",
+     "FAA",
+     "Federal Aviation Administration",
+     "certificate holder",
+     "certificate holders",
+     "air carrier",
+     "air carriers",
+     "operator",
+     "operators",
+     "pilot in command",
+     "pilot",
+     "pilots",
+     "crewmember",
+     "crewmembers",
+     "flight crewmember",
+     "flight crewmembers",
+     "flight attendant",
+     "flight attendants",
+     "aircraft dispatcher",
+     "dispatcher",
+     "dispatchers",
+     "applicant",
+     "applicants",
+     "owner",
+     "owners",
+     "air traffic control",
+     "ATC",
+     "manufacturer",
+     "manufacturers",
+     "person",
+     "persons"
+    ]
+   }
+  },
+  "lists": {
+   "base": {
+    "blocks": {
+     "population": 1029,
+     "counts": {
+      "0": 3,
+      "1": 4,
+      "2": 4,
+      "3": 4,
+      "5": 10,
+      "8": 17,
+      "13": 28,
+      "20": 42,
+      "35": 65,
+      "50": 84,
+      "100": 132,
+      "200": 168
+     },
+     "pct": {
+      "0": 0.29,
+      "1": 0.39,
+      "2": 0.39,
+      "3": 0.39,
+      "5": 0.97,
+      "8": 1.65,
+      "13": 2.72,
+      "20": 4.08,
+      "35": 6.32,
+      "50": 8.16,
+      "100": 12.83,
+      "200": 16.33
+     },
+     "whole_document": 338,
+     "whole_document_pct": 32.85,
+     "none_anywhere": 691,
+     "median_where_present": 204.5,
+     "mean_where_present": 315.0
+    },
+    "words": {
+     "population": 1029,
+     "counts": {
+      "0": 0,
+      "5": 0,
+      "10": 0,
+      "25": 3,
+      "36": 3,
+      "50": 3,
+      "100": 4,
+      "200": 6,
+      "400": 23,
+      "800": 55,
+      "1600": 89,
+      "3200": 144,
+      "6400": 177
+     },
+     "pct": {
+      "0": 0.0,
+      "5": 0.0,
+      "10": 0.0,
+      "25": 0.29,
+      "36": 0.29,
+      "50": 0.29,
+      "100": 0.39,
+      "200": 0.58,
+      "400": 2.24,
+      "800": 5.34,
+      "1600": 8.65,
+      "3200": 13.99,
+      "6400": 17.2
+     },
+     "whole_document": 338,
+     "whole_document_pct": 32.85,
+     "none_anywhere": 691,
+     "median_where_present": 5314.0,
+     "mean_where_present": 8412.8
+    },
+    "carriers": {
+     "implementation": 338
+    },
+    "rows_with_a_duplicated_sentence_in_their_block": 0
+   },
+   "narrow": {
+    "blocks": {
+     "population": 1029,
+     "counts": {
+      "0": 409,
+      "1": 577,
+      "2": 678,
+      "3": 741,
+      "5": 809,
+      "8": 885,
+      "13": 936,
+      "20": 984,
+      "35": 1015,
+      "50": 1015,
+      "100": 1021,
+      "200": 1029
+     },
+     "pct": {
+      "0": 39.75,
+      "1": 56.07,
+      "2": 65.89,
+      "3": 72.01,
+      "5": 78.62,
+      "8": 86.01,
+      "13": 90.96,
+      "20": 95.63,
+      "35": 98.64,
+      "50": 98.64,
+      "100": 99.22,
+      "200": 100.0
+     },
+     "whole_document": 1029,
+     "whole_document_pct": 100.0,
+     "none_anywhere": 0,
+     "median_where_present": 1,
+     "mean_where_present": 4.9
+    },
+    "words": {
+     "population": 1029,
+     "counts": {
+      "0": 27,
+      "5": 76,
+      "10": 143,
+      "25": 329,
+      "36": 407,
+      "50": 500,
+      "100": 663,
+      "200": 819,
+      "400": 935,
+      "800": 1007,
+      "1600": 1027,
+      "3200": 1029,
+      "6400": 1029
+     },
+     "pct": {
+      "0": 2.62,
+      "5": 7.39,
+      "10": 13.9,
+      "25": 31.97,
+      "36": 39.55,
+      "50": 48.59,
+      "100": 64.43,
+      "200": 79.59,
+      "400": 90.86,
+      "800": 97.86,
+      "1600": 99.81,
+      "3200": 100.0,
+      "6400": 100.0
+     },
+     "whole_document": 1029,
+     "whole_document_pct": 100.0,
+     "none_anywhere": 0,
+     "median_where_present": 54,
+     "mean_where_present": 137.2
+    },
+    "carriers": {
+     "certificate holder": 201,
+     "administrator": 146,
+     "pilot": 105,
+     "faa": 95,
+     "operator": 71,
+     "air carrier": 49,
+     "crewmembers": 45,
+     "pilot in command": 40,
+     "manufacturer": 38,
+     "pilots": 37,
+     "crewmember": 35,
+     "air traffic control": 33,
+     "flight attendant": 31,
+     "flight crewmember": 19,
+     "atc": 17
+    },
+    "rows_with_a_duplicated_sentence_in_their_block": 0
+   },
+   "wide": {
+    "blocks": {
+     "population": 1029,
+     "counts": {
+      "0": 469,
+      "1": 648,
+      "2": 737,
+      "3": 797,
+      "5": 858,
+      "8": 918,
+      "13": 970,
+      "20": 992,
+      "35": 1015,
+      "50": 1015,
+      "100": 1021,
+      "200": 1029
+     },
+     "pct": {
+      "0": 45.58,
+      "1": 62.97,
+      "2": 71.62,
+      "3": 77.45,
+      "5": 83.38,
+      "8": 89.21,
+      "13": 94.27,
+      "20": 96.4,
+      "35": 98.64,
+      "50": 98.64,
+      "100": 99.22,
+      "200": 100.0
+     },
+     "whole_document": 1029,
+     "whole_document_pct": 100.0,
+     "none_anywhere": 0,
+     "median_where_present": 1,
+     "mean_where_present": 4.0
+    },
+    "words": {
+     "population": 1029,
+     "counts": {
+      "0": 29,
+      "5": 84,
+      "10": 166,
+      "25": 375,
+      "36": 465,
+      "50": 565,
+      "100": 750,
+      "200": 884,
+      "400": 970,
+      "800": 1013,
+      "1600": 1029,
+      "3200": 1029,
+      "6400": 1029
+     },
+     "pct": {
+      "0": 2.82,
+      "5": 8.16,
+      "10": 16.13,
+      "25": 36.44,
+      "36": 45.19,
+      "50": 54.91,
+      "100": 72.89,
+      "200": 85.91,
+      "400": 94.27,
+      "800": 98.45,
+      "1600": 100.0,
+      "3200": 100.0,
+      "6400": 100.0
+     },
+     "whole_document": 1029,
+     "whole_document_pct": 100.0,
+     "none_anywhere": 0,
+     "median_where_present": 43,
+     "mean_where_present": 106.3
+    },
+    "carriers": {
+     "person": 245,
+     "certificate holder": 145,
+     "administrator": 103,
+     "pilot": 79,
+     "faa": 69,
+     "operator": 45,
+     "crewmembers": 43,
+     "air carrier": 40,
+     "pilots": 36,
+     "persons": 33,
+     "crewmember": 30,
+     "flight attendant": 27,
+     "pilot in command": 25,
+     "flight crewmember": 18,
+     "manufacturer": 15
+    },
+    "rows_with_a_duplicated_sentence_in_their_block": 0
+   }
+  },
+  "S90_LEXICON": {
+   "word_window_36_by_list": {
+    "base": 0.29,
+    "narrow": 39.55,
+    "wide": 45.19
+   },
+   "span_points": 44.9,
+   "band_points": 20,
+   "S90_LEXICON_falsified": false
+  }
+ },
+ "port": {
+  "lists": {
+   "base": {
+    "terms_in_list": 26,
+    "population": 1029,
+    "rows_in_reach_at_word_36": 3,
+    "reach_pct": 0.29,
+    "of_them_carrier_in_the_obligation_s_own_block": 3,
+    "carrier_in_own_block_pct": 100.0,
+    "median_carrier_block_words": 30,
+    "median_obligation_block_words": 30,
+    "median_word_distance_to_carrier": 16,
+    "by_rule": {
+     "R1_adjacent_subject": {
+      "fires": 0,
+      "fire_rate": 0.0,
+      "fire_pct": 0.0
+     },
+     "R2_no_competing_nominal": {
+      "fires": 0,
+      "fire_rate": 0.0,
+      "fire_pct": 0.0
+     },
+     "R3_active_governor": {
+      "fires": 0,
+      "fire_rate": 0.0,
+      "fire_pct": 0.0
+     },
+     "R3b_active_governor_own_block": {
+      "fires": 0,
+      "fire_rate": 0.0,
+      "fire_pct": 0.0
+     }
+    },
+    "carriers_in_reach": {
+     "implementation": 3
+    },
+    "R3b_fire_share_by_carrier": {
+     "implementation": 0.0
+    }
+   },
+   "narrow": {
+    "terms_in_list": 55,
+    "population": 1029,
+    "rows_in_reach_at_word_36": 407,
+    "reach_pct": 39.55,
+    "of_them_carrier_in_the_obligation_s_own_block": 247,
+    "carrier_in_own_block_pct": 60.69,
+    "median_carrier_block_words": 52,
+    "median_obligation_block_words": 51,
+    "median_word_distance_to_carrier": 15,
+    "by_rule": {
+     "R1_adjacent_subject": {
+      "fires": 27,
+      "fire_rate": 0.0663,
+      "fire_pct": 6.63
+     },
+     "R2_no_competing_nominal": {
+      "fires": 60,
+      "fire_rate": 0.1474,
+      "fire_pct": 14.74
+     },
+     "R3_active_governor": {
+      "fires": 77,
+      "fire_rate": 0.1892,
+      "fire_pct": 18.92
+     },
+     "R3b_active_governor_own_block": {
+      "fires": 104,
+      "fire_rate": 0.2555,
+      "fire_pct": 25.55
+     }
+    },
+    "carriers_in_reach": {
+     "certificate holder": 91,
+     "administrator": 50,
+     "pilot": 45,
+     "faa": 29,
+     "air carrier": 26,
+     "pilot in command": 25,
+     "crewmember": 17,
+     "flight attendant": 17,
+     "operator": 15,
+     "manufacturer": 12,
+     "flight attendants": 12,
+     "atc": 10
+    },
+    "R3b_fire_share_by_carrier": {
+     "certificate holder": 0.3956,
+     "administrator": 0.14,
+     "pilot": 0.2667,
+     "faa": 0.2414,
+     "air carrier": 0.0769,
+     "pilot in command": 0.4,
+     "crewmember": 0.0,
+     "flight attendant": 0.4118,
+     "operator": 0.0667,
+     "manufacturer": 0.0,
+     "flight attendants": 0.0833,
+     "atc": 0.1
+    }
+   },
+   "wide": {
+    "terms_in_list": 57,
+    "population": 1029,
+    "rows_in_reach_at_word_36": 465,
+    "reach_pct": 45.19,
+    "of_them_carrier_in_the_obligation_s_own_block": 288,
+    "carrier_in_own_block_pct": 61.94,
+    "median_carrier_block_words": 51,
+    "median_obligation_block_words": 49,
+    "median_word_distance_to_carrier": 15,
+    "by_rule": {
+     "R1_adjacent_subject": {
+      "fires": 29,
+      "fire_rate": 0.0624,
+      "fire_pct": 6.24
+     },
+     "R2_no_competing_nominal": {
+      "fires": 68,
+      "fire_rate": 0.1462,
+      "fire_pct": 14.62
+     },
+     "R3_active_governor": {
+      "fires": 84,
+      "fire_rate": 0.1806,
+      "fire_pct": 18.06
+     },
+     "R3b_active_governor_own_block": {
+      "fires": 119,
+      "fire_rate": 0.2559,
+      "fire_pct": 25.59
+     }
+    },
+    "carriers_in_reach": {
+     "certificate holder": 85,
+     "person": 70,
+     "administrator": 47,
+     "pilot": 44,
+     "faa": 26,
+     "air carrier": 23,
+     "persons": 20,
+     "pilot in command": 19,
+     "crewmember": 17,
+     "flight attendant": 16,
+     "operator": 14,
+     "flight attendants": 11
+    },
+    "R3b_fire_share_by_carrier": {
+     "certificate holder": 0.3765,
+     "person": 0.3429,
+     "administrator": 0.1277,
+     "pilot": 0.2727,
+     "faa": 0.2692,
+     "air carrier": 0.087,
+     "persons": 0.05,
+     "pilot in command": 0.3158,
+     "crewmember": 0.0,
+     "flight attendant": 0.4375,
+     "operator": 0.0714,
+     "flight attendants": 0.0909
+    }
+   }
+  },
+  "calibration_reproduced": true
+ },
+ "subjecthood": {
+  "narrow": {
+   "party_term_occurrences": 9088,
+   "of_them_followed_by_an_R3_verb": 1902,
+   "subjecthood_rate_pct": 20.93,
+   "words_of_binding_text": 399210,
+   "party_terms_per_10k_words": 227.6,
+   "blocks": 13954,
+   "median_block_words": 22.0
+  },
+  "wide": {
+   "party_term_occurrences": 11625,
+   "of_them_followed_by_an_R3_verb": 2837,
+   "subjecthood_rate_pct": 24.4,
+   "words_of_binding_text": 399210,
+   "party_terms_per_10k_words": 291.2,
+   "blocks": 13954,
+   "median_block_words": 22.0
+  }
+ },
+ "S94_SPREAD": {
+  "subjecthood": 20.93,
+  "R3b": 25.55,
+  "position": "between 19.88 and 29.14",
+  "letter_applies": true,
+  "R3b_interval": [
+   55.52,
+   67.59
+  ],
+  "S94_SPREAD_falsified": true,
+  "extension_applies": false
+ },
+ "prior_points": {
+  "EU acts": [
+   29.14,
+   67.59
+  ],
+  "WHATWG standards": [
+   19.88,
+   55.52
+  ],
+  "UK Acts": [
+   19.07,
+   31.42
+  ],
+  "RFCs": [
+   13.65,
+   28.15
+  ]
+ },
+ "predictions": {
+  "P0": {
+   "population": 1029,
+   "modal_occurrences": 3970,
+   "held": true
+  },
+  "P1": {
+   "agent_test": 0.7849,
+   "held": true
+  },
+  "P2": {
+   "span_points": 44.9,
+   "held": true
+  },
+  "P3": {
+   "subjecthood": 20.93,
+   "held": false
+  },
+  "P4": {
+   "held": false
+  },
+  "P5": {
+   "may_over_ssm": 0.707,
+   "held": true
+  }
+ }
+}
