@@ -1,0 +1,80 @@
+{
+ "note": "EXPLORATORY, post hoc. See the docstring.",
+ "rows": {
+  "EU acts": {
+   "party_term_occurrences": 24944,
+   "immediate": 7269,
+   "immediate_pct": 29.14,
+   "immediate_or_within_12_words": 11937,
+   "within_12_pct": 47.86,
+   "delayed_share_of_acting_pct": 39.11,
+   "R3b_narrow_pct": 67.59
+  },
+  "RFCs": {
+   "party_term_occurrences": 8350,
+   "immediate": 1140,
+   "immediate_pct": 13.65,
+   "immediate_or_within_12_words": 2435,
+   "within_12_pct": 29.16,
+   "delayed_share_of_acting_pct": 53.18,
+   "R3b_narrow_pct": 28.15
+  },
+  "WHATWG standards": {
+   "party_term_occurrences": 28966,
+   "immediate": 5757,
+   "immediate_pct": 19.88,
+   "immediate_or_within_12_words": 11768,
+   "within_12_pct": 40.63,
+   "delayed_share_of_acting_pct": 51.08,
+   "R3b_narrow_pct": 55.52
+  },
+  "UK Acts": {
+   "party_term_occurrences": 14332,
+   "immediate": 2733,
+   "immediate_pct": 19.07,
+   "immediate_or_within_12_words": 5124,
+   "within_12_pct": 35.75,
+   "delayed_share_of_acting_pct": 46.66,
+   "R3b_narrow_pct": 31.42
+  },
+  "14 CFR F+G": {
+   "party_term_occurrences": 9088,
+   "immediate": 1902,
+   "immediate_pct": 20.93,
+   "immediate_or_within_12_words": 3986,
+   "within_12_pct": 43.86,
+   "delayed_share_of_acting_pct": 52.28,
+   "R3b_narrow_pct": 25.55
+  }
+ },
+ "orderings": {
+  "by_R3b": [
+   "EU acts",
+   "WHATWG standards",
+   "UK Acts",
+   "RFCs",
+   "14 CFR F+G"
+  ],
+  "by_immediate": [
+   "EU acts",
+   "14 CFR F+G",
+   "WHATWG standards",
+   "UK Acts",
+   "RFCs"
+  ],
+  "by_within_12": [
+   "EU acts",
+   "14 CFR F+G",
+   "WHATWG standards",
+   "UK Acts",
+   "RFCs"
+  ],
+  "by_delayed_share": [
+   "RFCs",
+   "14 CFR F+G",
+   "WHATWG standards",
+   "UK Acts",
+   "EU acts"
+  ]
+ }
+}
