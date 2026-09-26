@@ -1337,6 +1337,40 @@
     "tools/validate_v3_night.py (and --only with an empty scope)",
     "tools/pulse_nodes.py --check"
    ]
+  },
+  {
+   "key": "2026-09-26-s98",
+   "session": 98,
+   "date": "2026-09-26",
+   "mode": "Make -- one harvest, three falsifiers. The fifth tradition, 14 CFR Chapter I Subchapters F and G, pre-registered before any text was fetched; three inherited instruments run unchanged.",
+   "closure": 0.3,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_corpora_harvested": 1,
+    "external_documents_read_tonight": 1,
+    "external_catalogues_consulted": 4,
+    "own_record_documents_relied_on": 9,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "Higher than the last two nights. The material is new to this repository: 399,210 words of US federal regulation that none of the instruments was written for. But the questions, the instruments, the vocabularies' construction and every comparison point are this line's own, and the night's two errors both concern this record reading its own file. A reader who calls a night spent settling its own falsifiers with its own tools 0.45 has a case. The outside answered on one point against the line's account (S94.SPREAD), which is the reason not to go higher."
+   },
+   "what_moved": "The standing position is NOT moved, fifty-two nights; tonight is not a seventh night. S94.SPREAD falsified (the subjecthood ordering fails at its fifth point). S90.FLOOR closed without its claim shown (F-161). S90.LEXICON undecided, because the checking night did not fix in advance which reading the row meant (F-160).",
+   "counts": {
+    "work_directories_in_works": 81,
+    "index_rows_in_works_INDEX_md": 83,
+    "falsifier_rows": 30,
+    "falsifier_rows_open": 20,
+    "fehlerkataster_entries_tonight": 2,
+    "why_they_differ": "Rows 31 and 32 of INDEX.md point at work-line-era paths this fork does not contain, as recorded since session 45."
+   },
+   "instruments_run": [
+    "tools/preflight.py",
+    "tools/sessions.py",
+    "tools/counts.py",
+    "tools/validate_v3_night.py",
+    "tools/pulse_nodes.py --check",
+    "works/2026-09-26-no-person-may/verify.py"
+   ]
   }
  ],
  "corrections": [
