@@ -1,0 +1,14 @@
+{
+ "excluded_elements": {
+  "TABLE": 39,
+  "EXTRACT": 7,
+  "EDNOTE": 8,
+  "NOTE": 4
+ },
+ "appendices_not_entered": {
+  "DIV9 appendices": 55
+ },
+ "parts": 27,
+ "parts_with_text": 23,
+ "words": 399210
+}

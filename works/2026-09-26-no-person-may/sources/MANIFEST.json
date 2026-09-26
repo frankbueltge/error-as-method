@@ -1,0 +1,16 @@
+{
+ "note": "Works of the United States Government are not subject to copyright (17 U.S.C. § 105, https://www.law.cornell.edu/uscode/text/17/105). The bytes are committed gzipped beside this file; re-fetch and compare the SHA-256 of the decompressed body. The API ignored the chapter/subchapter qualifiers on 2026-09-26 and served the whole title either way; see harvest.py.",
+ "rows": [
+  {
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-09-24/title-14.xml",
+   "http_status": 200,
+   "content_encoding": "gzip",
+   "bytes": 16000260,
+   "sha256": "f2b2c5f98c036dad694f8b5259af4a2b325aef278bcdbc947aeec1db148213c1",
+   "fetched": "2026-09-26T23:06:57Z",
+   "what": "eCFR full XML of 14 CFR, all chapters, as of 2026-09-24",
+   "why": "the fifth tradition: Chapter I, Subchapters F and G, selected in harvest.py from the document's own DIV3/DIV4 structure",
+   "committed_as": "sources/title-14-2026-09-24.xml.gz"
+  }
+ ]
+}
