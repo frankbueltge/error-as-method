@@ -1,0 +1,67 @@
+{
+ "_what": "S93.GENUS judged clause by clause under the rule committed in PREDICTIONS.md (50691f4) before anything was fetched, and the predictions scored. Hand-written after the fetches. A reader can disagree with each verdict separately.",
+ "row": "S93.GENUS",
+ "clauses": {
+  "a": {
+   "verdict": "not testable tonight",
+   "why": "The only lawful part of Rheinberger 1997 reached is its title page and table of contents (sources/MANIFEST.json, row 1). A table of contents carries no argument. The publisher's page answered 429 twice. The unlicensed scan stayed declined. Recorded as not testable, not as 'not falsified', as the rule requires."
+  },
+  "b": {
+   "verdict": "does not fire",
+   "why": "No argument that the axes collapse is published here. Evidence against collapse was found in a field the row did not name. VIM 2.16 Note 1 lets measurement error be 'known' (reference supplied by a measurement standard or a conventional value) or 'not known' (reference a true value). So one field's own error concept lies on both sides of a known/unknown line. The sense of 'known' there is the error's value, not the thing's identity, and it is marked as an analogy, not as Rheinberger's axis."
+  },
+  "c": {
+   "verdict": "does not fire",
+   "cases": {
+    "C2": {
+     "holds": "with a qualification",
+     "source_says": "“deemed it to be a degradation product of the much bigger microsomal RNA that he was unable to remove from the fraction – a contaminant of the system thus” (Rheinberger 2016, committed text, works/2026-09-20-the-borrowed-axis/sources/rheinberger-2016-vanishment.txt)",
+     "qualification": "At the moment of the verdict Zamecnik believed he knew what the RNA was: a degradation product. It sits in the judged-and-unknown quadrant only if 'underdetermined' is a property of the thing in the system, which later turned out to be transfer RNA, and not of the actor's belief. Read the other way, it enters the quadrant in retrospect. Session 93's 'why' ('passed on something nobody had identified') overstates this.",
+     "transcription_errors_found": "cases.json quotes 'deemed to be a degradation product' (the source has 'deemed it to be') and attributes the passage to Q13, whose text in quotes.json is a different sentence. F-162."
+    },
+    "C6": {
+     "holds": "yes",
+     "source_says": "Status: Reported · Type: Technical · Date Reported: 2010-01-26 (https://errata.rfc-editor.org/eid2016/, fetched 2026-09-28)",
+     "note": "A reporter's verdict against the RFC text, never judged by the verifier in sixteen years. cases.json says 'reported in 2009'; Session 73's own verification.json has 2010-01-26. F-162."
+    }
+   },
+   "why": "The rule fires (c) only if both cases fail. Neither fails."
+  }
+ },
+ "outcome": "closed: survived at due date, decided without Rheinberger 1997",
+ "position_move": {
+  "rule": "M1 if the row survives (PREDICTIONS.md). M3 excluded in advance.",
+  "taken": "M1",
+  "before": "Error is a special case of the epistemic thing — a difference onto which an observer has already imposed a norm.",
+  "after": "Error is a difference onto which an observer has already imposed a norm.",
+  "subtracted": "a special case of the epistemic thing — "
+ },
+ "standards_test": {
+  "VIM_2.16": {
+   "text": "measured quantity value minus a reference quantity value",
+   "fr": "différence entre la valeur mesurée d'une grandeur et une valeur de référence",
+   "note_1": "a) when there is a single reference quantity value to refer to, which occurs if a calibration is made by means of a measurement standard … or if a conventional quantity value is given, in which case the measurement error is known, and b) if a measurand is supposed to be represented by a unique true quantity value …, in which case the measurement error is not known",
+   "where": "JCGM 200:2012, entry 2.16, printed p. 22"
+  },
+  "FDA_1995_ISO": {
+   "text": "A discrepancy between a computed, observed, or measured value or condition and the true, specified, or theoretically correct value or condition.",
+   "where": "FDA Glossary of Computer System Software Development Terminology (8/95), entry 'error. (ISO)'"
+  },
+  "alignment": {
+   "a difference": "VIM 'minus' / French 'différence'; FDA 'discrepancy'. Present in both.",
+   "a norm": "VIM 'reference quantity value'; FDA 'true, specified, or theoretically correct value'. Present in both.",
+   "imposed": "Partly present. FDA 'specified' and VIM 'conventional quantity value' are imposed references. But both standards also admit a reference nobody imposed: 'true'. M1 has no such branch.",
+   "already": "Partly present. VIM Note 1(a): the error is known when the reference was fixed beforehand, by calibration or by convention. The FDA's 'specified' value is also fixed before the check, but it is one of three references that definition allows, and 'true' and 'theoretically correct' are fixed by nobody.",
+   "an observer": "Absent from both. Neither standard says who holds the reference."
+  },
+  "residue": "What M1 says that neither standard says: an observer holds the norm, and there is no error against a value nobody imposed. The second is what VIM Note 1(b) calls a measurement error that is 'not known'. Under M1 that is not yet an error. It is a difference."
+ },
+ "predictions": {
+  "P1": {"held": true, "note": "Held by the letter. A table of contents was reached and is a lawful part of the book, but it holds no argument, and the prediction meant argument."},
+  "P2": {"held": true},
+  "P3": {"held": true, "note": "Both definitions, at lawful sources."},
+  "P4": {"held": false, "note": "Named the wrong residue. 'already' has a partial counterpart in VIM Note 1(a). What the standards lack is 'observer' and the exclusion of a true value, which M1 carries through 'imposed'."},
+  "P5": {"held": true, "note": "Neither S85.OVERLOAD nor S92.FIRSTTERM fires: the move is not an addition, not at 'observer', and gives no term a new reading. Both rows' accounts of where the next move would come are contradicted, and neither row's condition can see a move at the join. Neither row is amended; both are due at Session 120."}
+ },
+ "gap_in_the_rule": "PREDICTIONS.md said (c) fires 'only if both fail' but did not say what failing is: not real, not in the source, or not in the quadrant. C2 is real and in the source, and it is in the quadrant only on one reading of 'underdetermined'. I judged it as holding, and I report the gap here rather than repairing the rule. F-163."
+}

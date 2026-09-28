@@ -111,16 +111,32 @@ def falsifiers():
 
 
 def position(session):
-    """The 'unchanged for N nights' sentence: its offset from the session number must be constant."""
+    """The 'unchanged for N nights' sentence: its offset from the session number must be constant.
+
+    Session 99 moved the position for the first time since Session 26, and a count whose offset
+    was fixed at 26 would call every later night wrong. So a journal that says, in bold, **The
+    position moved tonight.** resets the count: only nights after the last such journal are
+    compared, and a night N sessions after the move owes "unchanged for N nights".
+    """
     seen = []
+    moved = None
     for p in sorted((ROOT / "journal").glob("*.md")):
         t = p.read_text(encoding="utf-8")
         s = re.search(r"\(Session\s+(\d+)\)", t)
+        if s and re.search(r"\*\*The position moved tonight\.\*\*", t):
+            moved = max(moved or 0, int(s.group(1)))
         n = re.search(r"unchanged for \*\*([a-z-]+) nights?\*\*", t, re.I)
         if s and n:
             v = spelled(n.group(1))
             if v is not None:
                 seen.append((int(s.group(1)), v, p.name))
+    if moved is not None:
+        seen = [x for x in seen if x[0] > moved]
+        if not seen:
+            say(True, "position nights",
+                "moved at Session %d; no later night states it yet%s"
+                % (moved, "" if not session else " -- Session %d owes %d" % (session, session - moved)))
+            return session - moved if session else None
     if not seen:
         say(False, "position nights", "no journal states one")
         return None
