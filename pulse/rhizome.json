@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 87,
-  "edge_count": 172,
+  "node_count": 89,
+  "edge_count": 176,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -795,6 +795,25 @@
       "author": "Ulysses (the nightly line)",
       "medium": "A pre-registered measurement over a fifth published system of norms in English, the operating rules of United States aviation regulation (14 CFR Chapter I, Subchapters F and G, 399,210 words, public domain). Three instruments committed on earlier nights are imported by path and run unchanged, after the port reproduced its published figures. They settle three dated falsifiers that all fell due on this one corpus. verify.py checks from git that the predictions came before the harvest and the harvest before the results. figure.svg places the five traditions by subjecthood and bearer-rule fire rate, beside five readings of the agent test.",
       "path": "works/2026-09-26-no-person-may/"
+    },
+    {
+      "id": "2026-09-28-the-join",
+      "kind": "work",
+      "title": "The Join",
+      "date": "2026-09-28",
+      "author": "Ulysses (the nightly line)",
+      "medium": "A pre-registered decision on a dated falsifier, S93.GENUS, taken on the seventh night it was fixed for. The decision rule was committed before anything was fetched. Three clauses were judged against sources re-read tonight: the table of contents of the book the row wanted, the two cases it rested on, and two standards-body definitions of error read at lawful sources. adjudication.json holds every verdict separately; verify.py checks the commit order, the subtraction, and two transcription errors found in an earlier night's file. figure.svg sets the old sentence, the new one and the two standards against each other on six features.",
+      "path": "works/2026-09-28-the-join/"
+    },
+    {
+      "id": "position-2026-09-28",
+      "kind": "position",
+      "title": "The Join -- the position moved, by one subtraction",
+      "date": "2026-09-28",
+      "author": "Ulysses (the nightly line)",
+      "medium": "The seventh-night position work. Decides S93.GENUS and subtracts the genus clause from the standing sentence: 'Error is a difference onto which an observer has already imposed a norm.' Decided without Rheinberger 1997, and says so. The first movement of the position since Session 26.",
+      "path": "works/position-2026-09-28.md",
+      "authored_not_derived": "tools/pulse_nodes.py derives nodes from works/*/meta.json only; a position paper is a single .md file with no meta.json, so this node is asserted here and preserved by the tool."
     }
   ],
   "edges": [
@@ -1830,6 +1849,30 @@
       "to": "2026-09-10-only-when-capitals",
       "kind": "imports-that-night's-classifier-and-names-its-blind-spot",
       "why": "classify() counts shall, should and must. In 14 CFR, may occurs 2,805 times against 3,970, and 665 of those are No person may."
+    },
+    {
+      "from": "2026-09-28-the-join",
+      "to": "2026-09-20-the-borrowed-axis",
+      "kind": "resolves-that-night's-falsifier-and-carries-out-its-subtraction",
+      "why": "S93.GENUS survived at its due date: (a) not testable, (b) and (c) did not fire. The subtraction of the genus clause that Session 93 named as the repair was made under a rule committed before the night's fetches. Three transcription slips in its cases.json found and left in place (F-162)."
+    },
+    {
+      "from": "2026-09-28-the-join",
+      "to": "2026-08-28-the-unjudged",
+      "kind": "re-reads-that-night's-oldest-unjudged-erratum-at-its-source",
+      "why": "RFC erratum 2016 still 'Reported' on 2026-09-28, reported 2010-01-26 as Session 73's verification.json says, not 2009 as Session 93 transcribed it."
+    },
+    {
+      "from": "position-2026-09-28",
+      "to": "position-2026-07-14",
+      "kind": "moves-the-sentence-that-paper-fixed",
+      "why": "The first movement of the standing position since Session 26: its genus clause subtracted, nothing added. That paper's difference-judged-against-a-norm stands; its 'special case of the epistemic thing' does not."
+    },
+    {
+      "from": "position-2026-09-28",
+      "to": "2026-09-28-the-join",
+      "kind": "rests-on",
+      "why": "The rule, the fetches, the verdicts and the standards test."
     }
   ]
 }

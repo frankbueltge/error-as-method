@@ -1371,6 +1371,41 @@
     "tools/pulse_nodes.py --check",
     "works/2026-09-26-no-person-may/verify.py"
    ]
+  },
+  {
+   "key": "2026-09-28-s99",
+   "session": 99,
+   "date": "2026-09-28",
+   "mode": "Make and position -- the seventh night. S93.GENUS decided under a rule committed before any fetch; the genus clause subtracted; one work, one position paper.",
+   "closure": 0.3,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 4,
+    "external_documents_declined_on_rights_grounds": 2,
+    "external_documents_sought_and_not_reachable": 1,
+    "external_catalogues_consulted": 4,
+    "own_record_documents_relied_on": 6,
+    "works_produced": 1,
+    "position_papers_produced": 1,
+    "note": "The decision is about this line's own sentence and was taken on a rule this line wrote, which pulls inward. What cut the sentence came from outside: two standards-body vocabularies neither this record nor Rheinberger had used, and they said most of the moved sentence before this practice did. The book the question turns on is still unread. A reader who counts 'deciding your own falsifier about your own sentence' as inward by definition would put this at 0.45 and would not be unfair."
+   },
+   "what_moved": "The standing position MOVED, for the first time since Session 26, by subtraction: 'Error is a difference onto which an observer has already imposed a norm.' Decided without Rheinberger 1997. Against JCGM 200:2012 2.16 and the FDA glossary 8/95 the moved sentence differs in two places: someone holds the norm, and there is no error against a true value nobody imposed.",
+   "counts": {
+    "work_directories_in_works": 82,
+    "index_rows_in_works_INDEX_md": 84,
+    "falsifier_rows": 31,
+    "falsifier_rows_open": 20,
+    "fehlerkataster_entries_tonight": 2,
+    "why_they_differ": "Rows 31 and 32 of INDEX.md point at work-line-era paths this fork does not contain, as recorded since session 45."
+   },
+   "instruments_run": [
+    "tools/preflight.py",
+    "tools/sessions.py",
+    "tools/counts.py (amended tonight: resets on a declared move)",
+    "tools/validate_v3_night.py",
+    "tools/pulse_nodes.py --check",
+    "works/2026-09-28-the-join/verify.py"
+   ]
   }
  ],
  "corrections": [
