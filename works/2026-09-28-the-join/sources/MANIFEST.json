@@ -1,0 +1,51 @@
+{
+ "note": "Nothing fetched tonight is committed. The metrology vocabulary may be reproduced only with written permission of the JCGM (its own copyright page); the library scan is a catalogue enrichment of a copyrighted book; the FDA glossary is a work of the United States Government but was read through the web-research extraction route, so there are no bytes of it to commit; the RFC errata page changes with the register. The warrant is this manifest: re-fetch and compare. Quotations in work.md stay within citation length.",
+ "rows": [
+  {
+   "url": "https://doc1.bibliothek.li/aap/000A093789.pdf",
+   "http_status": 200, "bytes": 7690, "sha256": "a475c7cfa9d6240fb170a2cdf10b6227a7e583bb0eda8bafcc49feed0a164f36",
+   "fetched": "2026-09-28",
+   "what": "Liechtensteinische Landesbibliothek catalogue enrichment for Rheinberger, Toward a History of Epistemic Things (Stanford UP 1997): title page and table of contents, three pages",
+   "why": "clause (a) of S93.GENUS: the only lawful part of the 1997 book reached. It holds no argument. It shows a Glossary at pp. 233-248 and the two chapters Session 93 asked for: 2, 'Experimental Systems and Epistemic Things' (p. 24), and 5, 'Reproduction and Difference' (p. 74)."
+  },
+  {
+   "url": "https://www.sup.org/books/theory-and-philosophy/toward-history-epistemic-things",
+   "http_status": 429, "bytes": null, "sha256": null, "fetched": "2026-09-28",
+   "what": "the publisher's page for the 1997 book", "why": "looked for a publisher's excerpt; refused twice with 429 Too Many Requests, a second time with a browser user agent. Not reached."
+  },
+  {
+   "url": "https://www.bipm.org/documents/20126/2071204/JCGM_200_2012.pdf",
+   "http_status": 200, "bytes": 4019623, "sha256": "8a603e99d236a65d771f38b6dcf627953146fe023a5266b3307681ada30f4fe7",
+   "fetched": "2026-09-28",
+   "what": "JCGM 200:2012, International vocabulary of metrology (VIM), 3rd edition, 2008 version with minor corrections, E/F",
+   "why": "the declared standards test: entry 2.16 'measurement error', printed p. 22 (PDF p. 37), with its Notes 1 and 2",
+   "licence": "copyright shared by the JCGM member organizations; reproduction only with written permission (the document's own copyright page). Not committed; quoted within citation length."
+  },
+  {
+   "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-guides/glossary-computer-system-software-development-terminology-895",
+   "http_status": 401, "bytes": null, "sha256": null, "fetched": "2026-09-28",
+   "what": "FDA, Glossary of Computer System Software Development Terminology (8/95)",
+   "why": "the declared standards test, software side: its entry 'error. (ISO)'. A direct fetch answered 401; the page was read through the web-research extraction route, which returned the entry verbatim. A work of the United States Government (17 U.S.C. § 105).",
+   "read_via": "web-research extract"
+  },
+  {
+   "url": "https://www.rfc-editor.org/errata/eid2016",
+   "http_status": 200, "final_url": "https://errata.rfc-editor.org/eid2016/", "bytes": 10345, "sha256": "a5012ca4a81220d90b89b3b897007b468d5016079c65fb33555f30e4d2a049a3",
+   "fetched": "2026-09-28",
+   "what": "RFC erratum 2016, against RFC 5665", "why": "clause (c): re-reading case C6 at its source. Status: Reported. Date Reported: 2010-01-26."
+  }
+ ],
+ "found_and_declined": [
+  {
+   "url": "https://www.informatik.htw-dresden.de/~hauptman/SEI/IEEE_Standard_Glossary_of_Software_Engineering_Terminology%20.pdf",
+   "what": "IEEE Std 610.12-1990, a full copy downloaded from a subscription database in 2010 and hosted on a university course page ('Restrictions apply', in its own footer)",
+   "why_declined": "the same case as the protocol's amendment of 2026-08-18: a course-hosted copy carries a teaching exemption, not a licence. Not fetched. Its search snippet is not quoted anywhere in this work. The software-side definition is taken instead from the FDA glossary, which carries the same wording under 'discrepancy'."
+  },
+  {
+   "url": "https://archive.org/stream/hans-jorg-rheinberger.-toward-a-history-of-epistemic-things.-1997/",
+   "what": "an unlicensed full-text scan of the 1997 book, returned again by the first search of the night",
+   "why_declined": "as on Sessions 93 and 97: in copyright, no licence. Not opened."
+  }
+ ],
+ "not_reached": ["the publisher's excerpt of the 1997 book (429)", "any openly licensed part of the 1997 book (none found)"]
+}
