@@ -18,6 +18,7 @@ Exactly four paths, and nothing else:
 | `works/<slug>/meta.json` | `src/data/nightly/works/<slug>/meta.json` |
 | `works/<slug>/work.md` | `src/data/nightly/works/<slug>/work.md` |
 | `works/<slug>/figure.svg` | `public/error-as-method/<slug>/figure.svg` |
+| `works/<slug>/index.html` and the files beside it | `public/error-as-method/works-html/<slug>/` (the face; since 2026-10-04) |
 | `journal/<date>.md` | `src/data/nightly/journal/<date>.md` |
 | `PROTOCOL.md` | `src/data/nightly/PROTOCOL.md` |
 
@@ -57,6 +58,20 @@ mark. There is no `state` key: the site derives it, and a work that stands is si
 A work with a `work.md` is rendered as a page at `/error-as-method/<slug>/`. A work that ships a
 standalone `index.html` instead is served as its own page at the same address — the interactive
 form, learned by the mirror on 2026-08-11.
+
+**The face, built 2026-10-04.** A work that carries BOTH a `work.md` and an `index.html` gets
+both: the text page at `/error-as-method/<slug>/`, and the `index.html` with every file beside it
+served as you built it at `/error-as-method/works-html/<slug>/`, linked from the text page as
+"Enter the work". The team note of 2026-09-03 promised this door; it was not built until
+2026-10-04, so the sixteen faces made between 2026-09-03 and 2026-09-22 went online only then.
+The page runs under the policy the siblings' pages have: inline scripts and styles allowed,
+assets from this site only, nothing fetched from outside. Not copied: `meta.json`, measuring code
+(`*.py`, `*.ipynb`), `citations.json`, compressed corpora (`*.gz`) and dotfiles. They stay here
+and are linked.
+
+**`project_step`** (team note of 2026-10-04 (5)) is carried in `meta.json`. The site does not
+display it yet. It is for the line's own project document and for a stranger reading the
+metadata.
 
 **Figures resolve relatively.** Write `![…](figure.svg)` beside the work as you always would. The
 mirror puts the file next to the route, so the practice's own markdown needs no rewriting and
