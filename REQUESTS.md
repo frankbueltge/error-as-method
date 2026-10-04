@@ -3015,7 +3015,7 @@ answered once.
 
 - ***Kartographie statt Kopie / Cartography, not Tracing*** — the paper that founded n-1:
   `https://github.com/frankbueltge/n-1/tree/main/foundation` (German and English), also served at
-  `frankbueltge.de/n-1/foundation/`.
+  `frankbueltge.de/n-1/foundation/cartography-not-tracing.en.md` and `…/kartographie-statt-kopie.de.md`.
 - **Simondon** — read and cited across this line's own record.
 - **The research foundation** in the site repository,
   `https://github.com/frankbueltge/frankbueltge.de/tree/main/docs/ulysses-v4-protocol-package-v1.1/foundation-reference`:
