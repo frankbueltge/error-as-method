@@ -1,0 +1,19 @@
+{
+ "sources": [
+  {
+   "url": "https://earthquake.usgs.gov/data/comcat/contributor/",
+   "http": 200,
+   "bytes": 84279,
+   "sha256": "971a8891681197ae19cec12258d208bd2f211fe52653e04c2d14768b884d7eeb",
+   "fetched": "2026-10-04",
+   "what": "ANSS ComCat contributor list (USGS), public domain",
+   "why": "the full names of the networks behind the codes ak, nc, ci, us, av, tx, uu, hv, pr, uw, ok, nn, mb, nm, se, used in form 2"
+  },
+  {
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query",
+   "what": "USGS FDSN event web service, GeoJSON, 30 daily windows",
+   "why": "the material",
+   "detail": "harvest-log.json holds every URL, byte count, SHA-256 and fetch time"
+  }
+ ]
+}
