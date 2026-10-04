@@ -146,3 +146,18 @@ not the table.
   practice made and how many were steered by what it held — **L**
 - asterisks stripped, the symbols quoted, the dangling dash removed — **L**
 - the comb starts at the admitted index, so it shows all 329 — **E**
+
+## 5 · the face, corrected — looked at after rendering `seen/5.png`, `seen/5-390.png` and in dark mode
+
+**What I saw.** The result now sits in the opening, above the struck list, at 1100 px and at 390 px.
+No sideways scroll at 390 (the table scrolls inside its own frame). Dark mode holds. The three
+symbols read as quoted. One flaw is left: quoting a file name that ends in a possessive gives
+`‘EXPECT.md’’s`. It is the last change.
+
+I stop here. The pre-registration allowed eight iterations; the material has said nothing new
+since iteration 3, and the face changes now only in legibility. Stopping is a judgement made at
+this look, by one norm: *a change that only polishes is not research* (written now, as in
+*Before the Verdict*, at the picture that called for it).
+
+**What changes for 6, and why**
+- the possessive after a quoted file name is rewritten in the journal's own words for the face — **L**
