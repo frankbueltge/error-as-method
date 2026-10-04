@@ -53,14 +53,32 @@
    "source": "L",
    "select": false,
    "text": "the three pictures already made are shown as they were seen, not remade — **L**"
+  },
+  {
+   "for": 5,
+   "source": "L",
+   "select": false,
+   "text": "the result moves into the opening: one sentence under the lede saying how many selections the practice made and how many were steered by what it held — **L**"
+  },
+  {
+   "for": 5,
+   "source": "L",
+   "select": false,
+   "text": "asterisks stripped, the symbols quoted, the dangling dash removed — **L**"
+  },
+  {
+   "for": 5,
+   "source": "E",
+   "select": false,
+   "text": "the comb starts at the admitted index, so it shows all 329 — **E**"
   }
  ],
  "by_source": {
   "M": 4,
   "R": 2,
   "H": 2,
-  "L": 1,
-  "E": 0
+  "L": 3,
+  "E": 1
  },
  "selections": 5,
  "selections_by_source": {
