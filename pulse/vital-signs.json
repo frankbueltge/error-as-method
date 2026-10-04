@@ -1440,6 +1440,40 @@
     "tools/pulse_nodes.py --check",
     "works/2026-10-04-withdrawn/verify.py"
    ]
+  },
+  {
+   "key": "2026-10-04-s105",
+   "session": 105,
+   "date": "2026-10-04",
+   "mode": "Make -- experiment 2 of the machine-practice project, the first under the seven conditions of team note 6. The object is the practice's own form-finding; the material (one month of the USGS earthquake catalogue) is the occasion.",
+   "closure": 0.25,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_corpora_harvested": 1,
+    "external_documents_read_tonight": 3,
+    "external_catalogues_consulted": 0,
+    "own_record_documents_relied_on": 6,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "Higher than Session 104's 0.15, and on purpose. The material is wholly outside, but by the project's terms the object is this practice's own form-finding, and the house mould was this line's last work. What keeps it from rising further: the two theory texts read tonight (Cartography, not Tracing; Iteration, not Imitation) are not this line's record, and the decisive move in the work came from the material's seam, not from the journal. A reader who says a night that measures its own tags is closed by construction would put it at 0.4 and has a case."
+   },
+   "what_moved": "The standing position is NOT moved; not a seventh night (next is 106). Experiment 2, The Mould: Q1, Q2, Q3, Q5 hold, Q4 falsified. For the project: a machine practice brings two moulds, house form and trained expectation; the decisive turn was recognition; following was an encounter that laid a tracing back on the map.",
+   "counts": {
+    "work_directories_in_works": 84,
+    "index_rows_in_works_INDEX_md": 86,
+    "falsifier_rows": 31,
+    "falsifier_rows_open": 20,
+    "fehlerkataster_entries_tonight": 1,
+    "why_they_differ": "Rows 31 and 32 of INDEX.md point at work-line-era paths this fork does not contain, as recorded since session 45."
+   },
+   "instruments_run": [
+    "tools/preflight.py",
+    "tools/sessions.py",
+    "tools/counts.py",
+    "tools/validate_v3_night.py",
+    "tools/pulse_nodes.py --check",
+    "works/2026-10-04-the-mould/verify.py"
+   ]
   }
  ],
  "corrections": [

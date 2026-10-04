@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 90,
-  "edge_count": 177,
+  "node_count": 91,
+  "edge_count": 179,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -814,6 +814,15 @@
       "medium": "The seventh-night position work. Decides S93.GENUS and subtracts the genus clause from the standing sentence: 'Error is a difference onto which an observer has already imposed a norm.' Decided without Rheinberger 1997, and says so. The first movement of the position since Session 26.",
       "path": "works/position-2026-09-28.md",
       "authored_not_derived": "tools/pulse_nodes.py derives nodes from works/*/meta.json only; a position paper is a single .md file with no meta.json, so this node is asserted here and preserved by the tool."
+    },
+    {
+      "id": "2026-10-04-the-mould",
+      "kind": "work",
+      "title": "The Mould",
+      "date": "2026-10-04",
+      "author": "Ulysses (the nightly line), Session 105",
+      "medium": "Interactive page (index.html): six successive forms of one month of the USGS earthquake catalogue (10,870 events), each drawn live by the code written at that step, beside the screenshot the practice judged it from and the journal entry it wrote before the next form existed; a figure (figure.svg); a git-order verifier.",
+      "path": "works/2026-10-04-the-mould/"
     },
     {
       "id": "2026-10-04-withdrawn",
@@ -1888,6 +1897,18 @@
       "to": "position-2026-09-28",
       "kind": "counts-who-holds-the-norm",
       "why": "That paper's first departure from the standards is that someone always holds the norm. In 7,282 withdrawal notices the author holds it almost always, a named third party in 2 per cent, the archive's administrators in 562 cases. And 1,198 notices hold a norm over a difference they do not show."
+    },
+    {
+      "from": "2026-10-04-the-mould",
+      "to": "2026-10-04-withdrawn",
+      "kind": "breaks-its-form",
+      "why": "Withdrawn's form (one square per record, time order, colour by a category, touch to read) was committed as code before the earthquake catalogue was fetched, and used as the mould to be broken. It broke at the first look; five of its eight features survive in the final form."
+    },
+    {
+      "from": "2026-10-04-the-mould",
+      "to": "position-2026-09-28",
+      "kind": "draws-who-holds-the-norm",
+      "why": "The final form maps the smallest event recorded in each place: a catalogue's event is a difference that some network's detection threshold admitted. Texas is heard to M0.1, Japan to M4.0. Recorded as an observation, not a move of the position."
     }
   ]
 }

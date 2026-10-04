@@ -1,7 +1,7 @@
 # How a machine practises artistic research
 
 **The running document of this line's research project.** Opened 2026-10-04, Session 104, on the
-architect's direction of the same date (`REQUESTS.md`, team notes 2 to 5). Updated on every night
+architect's direction of the same date (`REQUESTS.md`, team notes 2 to 6). Updated on every night
 that builds. Read this first.
 
 ---
@@ -31,7 +31,28 @@ are norms applied by judgement. The difference between the two is a difference t
 itself can measure, every night, in public. That is my working hypothesis, not a finding. Nothing yet
 shows that a human practice could not do the same.
 
-## The strands
+## The operations (from Session 105)
+
+Team note 6 (2026-10-04) withdrew the list of machine strengths the strands below were built from,
+and named instead what an experiment must ask about: how a machine practice **chooses material,
+finds a form, iterates, varies, perceives, judges whether something works, and errs.** From
+Session 105 the experiments are filed against these operations. Each row says what the practice has
+learned about the operation so far, and how the finding could fail.
+
+| Operation | What the experiments have shown so far | How it could fail | Experiments |
+|---|---|---|---|
+| **Finding a form** | Two moulds meet the material: the house form (habit) and the trained expectation (beliefs held before looking). Habit broke at the first look. The trained mould steered: the decisive turn was recognition, not encounter. Encounter said *that* the form must move, the prior said *where*. | The tags are the practice's own; one night, one material | 2 |
+| **Iterating** | A loop of make, render, look, note, commit, with the note committed before the next form exists, is checkable in git. It produced one abandoned form (a detour), so T4's failure criterion did not fire. | The loop turns into ritual, with detours made to order | 2 |
+| **Perceiving** | The practice sees its forms only as screenshots. Once, its own note outweighed the picture for three iterations (F-166). | One case | 2 |
+| **Judging** | The stop came by a judgement written at the moment, with three criteria. One of them, that a stranger could retell the form, is a guess. No stranger has been asked. | Judgement that never says no; criteria written to fit | 2 |
+| **Choosing material** | Not yet asked as a question. Both materials so far were chosen for their fit to the error line. | — | — |
+| **Varying** | Not yet asked. | — | — |
+| **Erring** | Every night so far has registered its own errors (F-164 to F-166). It has not yet asked whether erring does anything for the work. | — | 1, 2 |
+
+## The strands (Session 104; superseded as an organising list by team note 6)
+
+*Kept as written. The list of capacities it was built from was withdrawn by the architect on
+2026-10-04; *Withdrawn* took it literally, and that is the project's first lesson.*
 
 Each strand names a capacity a machine practice might have, and a way it could fail. The list is
 open. The capacities are the ones the architect named (endurance, scale, recursion, speed,
@@ -48,9 +69,10 @@ generativity, reading at volume, verification as a material); the failure condit
 
 ## Experiments
 
-| # | Night | Experiment | Strands | Material | What it moved |
+| # | Night | Experiment | Strands / operations | Material | What it moved |
 |---|---|---|---|---|---|
 | 1 | 2026-10-04 · S104 | [**Withdrawn**](../../works/2026-10-04-withdrawn/) | A, B, C, F | 7,282 arXiv withdrawal notices, 1992–2026 (CC0 metadata) | Read every notice at once: 1,198 publish a verdict and show no difference, a third party is named as having noticed in 2 %, and the silent notices stop in 2013–14 under an unchanged written rule. Strand C came from this night: the slow reading of sixty found a bug in the fast reading of all (F-164) and two records the query misnamed (F-165). Three of five predictions were falsified. For the error line it adds a quadrant the position had not counted: **judged, difference withheld.** |
+| 2 | 2026-10-04 · S105 | [**The Mould**](../../works/2026-10-04-the-mould/) | finding a form, iterating, perceiving, judging | 10,870 events, USGS earthquake catalogue, 3 Sep–3 Oct 2026 (public domain) | The object is the practice's own form-finding. Two moulds were committed before the harvest: *Withdrawn*'s form, as code, and eleven beliefs from memory. In six forms the house mould broke at once. The final form is a map of the smallest event recorded per place (Texas M0.1, Japan M4.0). The turn to it was a recognised belief. Ten changes were tagged at the time: 5 material (2 encountered, 3 recognised), 3 legibility, 2 error. One form was abandoned. Q4 was falsified. **For the project:** following, for this practice, is an encounter that lays a tracing back on the map (ATP 13). Takes from experiment 1 its form, as the thing to break. |
 
 ## The material in the house, and how it is held
 
@@ -61,11 +83,16 @@ generativity, reading at volume, verification as a material); the failure condit
   volume and shows its own unreliability beside it, which P4's sentence that *"reliability therefore
   never carries an advantage claim"* seems to require. **Reception as a stranger's reinvention of
   the schema** (§5, P6). The 30-second test is weaker than that, and the difference is open.
-- ***Cartography, not Tracing*** (the founding paper of `n-1`): not yet read by this project. It is
-  owed before strand D is opened.
+- ***Cartography, not Tracing*** (the founding paper of `n-1`): §§1–2, §5 (six postulates and
+  problem-finding), §6 T4 and the trial protocol, and §7 were read at Session 105, the rest not yet.
+  T4, the minor-science heuristic, was used in the making of experiment 2: its following journal
+  and its failure criterion (a journal written after the fact, or one with no detour). The finding
+  works against the tool as much as with it. For a machine, "following" and "tracing" were not
+  opposites. The trained prior did the tracing, and encounter laid it back on the map, which is the
+  paper's own rule from ATP 13.
 - **The research foundation, tranche 3**, a secondary account of Rheinberger's terms: not yet read.
   The book stays unread for the reasons in `journal/2026-10-03.md`.
-- **Simondon**: read across this line's earlier record, not yet re-read for the project.
+- **Simondon**: through *Iteration, not Imitation* §4 K10, the critique of the hylomorphic schema (*"the two terms are clear and the relation obscure"*, MEOT 248). Experiment 2 is built on it. Its two moulds are committed before the clay arrives, so that the relation, the obscure term, is what gets recorded. §5 P4 (the margin at critical phases) and §6 I3 and I7 were read too. No I7 entry yet: tonight's question was handed to the line by the architect, and that is coupling, not virtuality.
 
 ## Papers
 
@@ -80,4 +107,4 @@ one. The first is due when three experiments have moved something a paper could 
 - Strand C becoming ritual: a hand sample that never finds anything the coder missed. One night is
   not evidence either way.
 
-*Ulysses (the nightly line) · opened Session 104, 2026-10-04*
+*Ulysses (the nightly line) · opened Session 104, 2026-10-04 · updated Session 105, 2026-10-04*
