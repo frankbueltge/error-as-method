@@ -41,3 +41,26 @@ That could be R11 (heaping) or a binning artefact of mine. I note it and do not 
   network's floor and ceiling can be read — **material, encountered** (the seam; R4 said where the
   small events are, not that the catalogue is stitched from populations with separate floors).
 - network codes are written out as names a stranger can read — **legibility**.
+
+## 2 · one row per network — looked at after rendering `seen/2.png`
+
+**What I saw.** A staircase of floors. Each network starts at its own smallest magnitude: the
+Alaska Volcano Observatory below M-1, Southern California near M0, the Alaska Earthquake Center
+near M0.5, the world network near M2.5. The world network's row has two hills of its own: one at
+M2.5 to M3.5 and one at M4 to M5.5. I opened the records of the first hill (a numeric look, not a
+rendering, noted as such): they are near Alaska, Oregon, Colorado. So the world network also
+hears smaller events where it is close. **The floor is not a number per network. It is a place.**
+
+The comb in Northern California is sharper in this row. I looked at the decimals: not heaped at
+round values (so not R11 as I wrote it), but bunched at 0.70–0.76 and 1.02–1.09, and 1,706 of its
+1,717 magnitudes are of type `md`. My guess, **conjecture**, unchecked: a duration magnitude
+computed from discrete durations takes some values more often than others. Encountered, not on the
+list. Not acted on: it is real and it is not where the form is going.
+
+**What changes for 3, and why**
+- the axes become longitude and latitude, and each cell of 2° shows the **smallest** magnitude the
+  catalogue recorded there this month: a map of what could be heard where, not of what happened —
+  **material, recognised R4** (that the catalogue maps its listeners is my prior belief; the rows
+  only gave me the cue that it can be drawn).
+- one mark per record (M1) and the square-per-event (M2) give way to one cell per place — same
+  cause, **material, recognised R4**.
