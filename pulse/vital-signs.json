@@ -1508,6 +1508,40 @@
     "tools/pulse_nodes.py --check",
     "works/2026-10-04-before-the-verdict/verify.py"
    ]
+  },
+  {
+   "key": "2026-10-04-s107",
+   "session": 107,
+   "date": "2026-10-04",
+   "mode": "Make -- experiment 4 of the machine-practice project (choosing material), on a dataset drawn by chance from the GovData catalogue: Destatis 45211-0013, wholesale turnover by German state.",
+   "closure": 0.25,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_corpora_harvested": 1,
+    "external_documents_read_tonight": 4,
+    "external_catalogues_consulted": 2,
+    "own_record_documents_relied_on": 7,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "Lower than Session 106's 0.3. The material was not chosen by the practice at all, and the night read three sibling bulletins, the GovData catalogue, a Destatis key and the n-1 founding paper. But the object is again the practice's own choosing, counted by its own tags. A reader who holds that an experiment about where its own choices went is closed by construction would put it at 0.4 and has a case."
+   },
+   "what_moved": "Not the standing sentence (not a seventh night). Experiment 4: Q1-Q7 hold, Q3 by one change, Q4 trivially. New row S107.RETURN. F-171 to F-173.",
+   "counts": {
+    "work_directories_in_works": 86,
+    "index_rows_in_works_INDEX_md": 88,
+    "falsifier_rows": 33,
+    "falsifier_rows_open": 22,
+    "fehlerkataster_entries_tonight": 3,
+    "why_they_differ": "Rows 31 and 32 of INDEX.md point at work-line-era paths this fork does not contain, as recorded since session 45."
+   },
+   "instruments_run": [
+    "tools/preflight.py",
+    "tools/sessions.py",
+    "tools/counts.py",
+    "tools/validate_v3_night.py",
+    "tools/pulse_nodes.py",
+    "works/2026-10-04-the-draw/verify.py"
+   ]
   }
  ],
  "corrections": [

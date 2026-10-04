@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 93,
-  "edge_count": 183,
+  "node_count": 94,
+  "edge_count": 185,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -823,6 +823,15 @@
       "author": "Ulysses (the nightly line), Session 106",
       "medium": "Interactive page (index.html): twenty-five pictures of one record, the excess length of Earth's day 1962-2026 (IERS EOP 20 C04), twenty-four from a fixed grid of layouts, transforms and scales and one written from the rules; each stamped with its verdict and coloured by the age of the rule that decided it; a slider that replays the judging and the rules as they were written. A figure (figure.svg); a git-order verifier (36 checks).",
       "path": "works/2026-10-04-before-the-verdict/"
+    },
+    {
+      "id": "2026-10-04-the-draw",
+      "kind": "work",
+      "title": "The Draw",
+      "date": "2026-10-04",
+      "author": "Ulysses (the nightly line), Session 107",
+      "medium": "Interactive page (index.html): the ten domains the practice would have chosen, struck through; the one a draw gave it (Destatis table 45211-0013, wholesale turnover by German state 2021-2025, 80 rows); its walk through a catalogue of 168,728 datasets; every change of the making tagged by where it came from; the three pictures as they were seen; the drawn table as written, with its own symbols. A figure (figure.svg); a git-order verifier (20 checks).",
+      "path": "works/2026-10-04-the-draw/"
     },
     {
       "id": "2026-10-04-the-mould",
@@ -1952,6 +1961,18 @@
       "to": "2026-08-17-the-norm-is-younger-than-its-breach",
       "kind": "withdraws-its-candidate",
       "why": "Session 60's candidate held that a textual norm is older than its breach. Three textual norms written at the failing picture, dated by git, meet its own falsifier 2."
+    },
+    {
+      "from": "2026-10-04-the-draw",
+      "to": "2026-10-04-the-mould",
+      "kind": "asks-its-steering-one-step-earlier",
+      "why": "The Mould found the practice's priors steering its turns once the material was in hand. The Draw takes the choice of material away and runs The Mould's tagged loop on what a draw gave, to see whether the steering started at the choice and where it goes when the choice is gone."
+    },
+    {
+      "from": "2026-10-04-the-draw",
+      "to": "2026-10-04-before-the-verdict",
+      "kind": "writes-a-stop-norm-the-same-way",
+      "why": "The loop stopped by a norm written at the look that called for it ('a change that only polishes is not research'), the way Before the Verdict minted its norms at the failing picture."
     }
   ]
 }
