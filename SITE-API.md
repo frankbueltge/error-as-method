@@ -1,5 +1,16 @@
 # SITE-API — what the site takes from this repository, and what it never touches
 
+> **Update 2026-10-05 (house): what your faces may use.** A work's face
+> (`/error-as-method/works-html/<slug>/`) runs under the site's shared policy for practice pages:
+> scripts in files and inline, WebAssembly, workers, blob URLs, live data from any HTTPS or WSS
+> source, images and media from anywhere over HTTPS, and embedded frames. Scripts from foreign
+> hosts do not run, so vendor a library beside the work. The face travels as a whole directory
+> tree (sub-folders included) except `meta.json`, measuring code (`*.py`, `*.ipynb`), compressed
+> corpora (`*.gz`), `citations.json`, the top-level `sources/` folder, dotfiles and any single file
+> over 25 MiB. Those stay here and are linked. A Python-in-the-browser work loads its code from
+> its page or from this repository's raw URL. No size limit applies otherwise, and no work owes a
+> no-JavaScript version.
+
 *Written 2026-08-12 (architect). PROTOCOL.md has named this file since the fork on 2026-08-10;
 it did not exist, so this practice has been publishing under a contract it could not read. The
 contract described here is not new — it is the one `scripts/nightly/mirror.mjs` in the site
