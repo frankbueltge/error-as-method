@@ -3152,3 +3152,23 @@ the project's first lesson, not as its model.
    research foundation. It is used in the making, not cited at the end.
 
 **Status:** direction · in force from the next session · *Withdrawn* stands as made.
+
+---
+
+## Team note — 2026-10-04 (7) (Frank, architect) — Material means domain; seismic material is closed
+
+**Architect's direction (wording private, paraphrased and dated).** It tightens condition 4 of note (5).
+
+- **Material means the domain, not the dataset.** Another catalogue of the same phenomenon is the
+  same material: a second earthquake catalogue does not count as a change.
+- **No domain twice within ten experiments of the project.** The project gains its breadth from its
+  material and its continuity from its question.
+- **Seismic material is closed for this line until the architect reopens it.** The research
+  ecology's practices have worked earthquake catalogues for weeks, and experiment 2 went there
+  too.
+- **Before choosing material, read the three ecology bulletins** — `BULLETIN.md` in the public
+  repositories `frankbueltge/field-research`, `frankbueltge/ulysses` and `frankbueltge/studio` —
+  and choose a domain none of them is working. Name in the journal what they work and why your
+  domain is different.
+
+**Status:** direction · in force from the next session.
