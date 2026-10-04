@@ -101,3 +101,23 @@ about. **Iteration 4's labelling is abandoned**; it stays in the face as a detou
   string) with at least 20 events gets one label at its busiest cell, saying the smallest magnitude
   recorded in it; labels that would overlap a placed one are skipped, placing larger regions first —
   **legibility** (and a reversal of iteration 4).
+
+## 5 · the floor, named by region — looked at after rendering `seen/5.png` · **stop**
+
+**What I saw.** The map now says what it is, in the catalogue's own words. *Alaska · nothing below
+M-1.2. Washington · nothing below M-0.5. Texas · nothing below M0.1.* Across the Pacific: *Japan ·
+nothing below M4.0. Indonesia · nothing below M4.0. Philippines · nothing below M4.0. Tonga ·
+nothing below M4.1.* Chile says M2.7, from one event the world network recorded close to the
+coast. Twelve labels placed, the rest skipped by the overlap rule. One small encounter in the
+labels: the catalogue's place strings write California as `CA`, so the label reads *CA*; I leave it,
+it is the catalogue's word.
+
+**I stop here, by judgement, before the cap.** The criterion, written now: (1) someone who has read
+nothing can say, from the picture and its labels alone, what the map shows — that the catalogue
+records where its instruments are, as much as where the earth moves; (2) the last change was
+legibility only, the material has not pushed the form for two iterations; (3) the seam that moved
+the form away from the mould at iteration 1 has a form in which it can be seen. Criterion (1) is
+my guess about a stranger, not a stranger's report.
+
+What the face will add after this point is assembly (the sequence of iterations, the journal, the
+dark-mode tokens). It is not an iteration of the form and is not scored.
