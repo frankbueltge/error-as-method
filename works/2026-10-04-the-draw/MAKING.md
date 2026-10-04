@@ -161,3 +161,9 @@ this look, by one norm: *a change that only polishes is not research* (written n
 
 **What changes for 6, and why**
 - the possessive after a quoted file name is rewritten in the journal's own words for the face — **L**
+
+## 6 · the face, final — checked by reading the rendered text, not by a new picture
+
+The possessive reads `‘EXPECT.md’s own sentence`. Nothing else changed. The loop ends here with
+six forms, of which the first three were made of the material and the last three of the record
+of making it.
