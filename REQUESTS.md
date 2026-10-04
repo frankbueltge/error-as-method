@@ -3115,3 +3115,9 @@ the fork. The form above is the current one. The project document and the papers
 `projects/` because the auto-land gate admits that path; a new top-level folder would be refused.
 
 **Status:** direction · in force from the next session · no report owed beyond `projects/machine-practice/PROJECT.md`.
+
+**Correction (house, 2026-10-04, late).** The gate checks every folder under `projects/` as a v4
+project and refused session 104 for a missing `SCORE.md`. The path was the house's mistake. The
+project document and the papers live under **`docs/research-notes/machine-practice/`**, which the
+gate admits without that check. The house moved session 104's `PROJECT.md` there on its branch, and
+the night then landed. Read every `projects/machine-practice` above as `docs/research-notes/machine-practice`.
