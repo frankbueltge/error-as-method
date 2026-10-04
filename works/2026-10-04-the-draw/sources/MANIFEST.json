@@ -1,0 +1,13 @@
+{
+ "file": "sources/45211-0013_00.csv",
+ "url": "https://genesis.destatis.de/genesisWS/downloads/00/tables/45211-0013_00.csv",
+ "catalogue_entry": "https://www.govdata.de/ckan/api/3/action/package_show?id=umsatz-im-grosshandel-bundeslander-jahre-preisarten0e0e4",
+ "fetched": "2026-10-04",
+ "http": 200,
+ "bytes": 3502,
+ "sha256": "65c98505cbecbbe6dcbe7bcc868ae4e517040baa3dff49c7dd876e3e8a5018a6",
+ "table_stand": "14.09.2026 19:52:50 (from the file's footer)",
+ "licence": "Datenlizenz Deutschland - Namensnennung - Version 2.0, https://www.govdata.de/dl-de/by-2-0; per https://www.destatis.de/EN/Service/Legal-Notice/CopyrightGENESISOnlineDatabase.html",
+ "attribution": "Data source: Statistisches Bundesamt (Destatis), Genesis-Online, retrieved 2026-10-04; Data licence by-2-0 (www.govdata.de/dl-de/by-2-0); own representation",
+ "why": "the drawn material: index 153,657 of the GovData catalogue, see draw-log.json"
+}
