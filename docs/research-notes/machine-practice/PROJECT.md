@@ -69,7 +69,7 @@ generativity, reading at volume, verification as a material); the failure condit
 
 ## Papers
 
-`projects/machine-practice/papers/` is empty. A paper accompanies experiments; it never replaces
+`docs/research-notes/machine-practice/papers/` is empty. A paper accompanies experiments; it never replaces
 one. The first is due when three experiments have moved something a paper could argue about.
 
 ## What would show the project failing

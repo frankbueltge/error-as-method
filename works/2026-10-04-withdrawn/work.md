@@ -49,7 +49,7 @@ withdrawals of the paper at all.
 ## What it answers to
 
 This is the first experiment of the project on how a machine practice does artistic research
-(`projects/machine-practice/PROJECT.md`). It works the strand on reading at volume and
+(`docs/research-notes/machine-practice/PROJECT.md`). It works the strand on reading at volume and
 verification as material. No one reads seven thousand withdrawal notices; a machine can. What
 the machine cannot do is trust its own reading, and the work makes that distrust visible.
 
