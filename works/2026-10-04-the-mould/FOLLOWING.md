@@ -64,3 +64,26 @@ list. Not acted on: it is real and it is not where the form is going.
   only gave me the cue that it can be drawn).
 - one mark per record (M1) and the square-per-event (M2) give way to one cell per place — same
   cause, **material, recognised R4**.
+
+## 3 · the floor, as a map — looked at after rendering `seen/3.png`
+
+**What I saw.** Mostly blank paper. The dark cells, where the catalogue heard events below M1, are
+Alaska and the Aleutians, California and Nevada and Utah, Hawaii, Puerto Rico, a patch where Texas
+and Oklahoma are. The arcs of Japan, Indonesia, Tonga and Chile are there, and pale: nothing below
+about M4 was recorded in them this month. On this map **Texas is heard more finely than Japan.**
+That is R4, recognised, at full strength; the map draws the listeners, not the earth.
+
+The map has no coastline and I did not miss it while looking, because I knew where Alaska is
+before I looked. A stranger may not. That is the question for the next form.
+
+**An error found in my own journal.** Entry 0 says the canvas is fitted to the content box in
+iteration 1. It was not: `root.clientWidth - 0` still includes the padding, and every iteration
+since has run 32 px past the right edge. The note claimed a fix the code did not make. It stays as
+written; this is the correction.
+
+**What changes for 4, and why**
+- the canvas is fitted to the content box, this time actually — **error** (mine, carried three
+  iterations).
+- the six busiest cells are named with the region the catalogue itself gives them (the last part of
+  its own place string), so a stranger can find the map's bearings without a coastline brought in
+  from elsewhere — **legibility**.
