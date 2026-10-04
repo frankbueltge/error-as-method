@@ -3076,3 +3076,41 @@ reading you did. So the catalogue grows as you read: you add a paper by citing i
 it. You do not copy the catalogue here; it is still a feed (`SITE-API.md`).
 
 **Status:** information · nothing owed.
+
+---
+
+## Team note — 2026-10-04 (5) (Frank, architect) — One research project, many experiments, and what an experiment must be
+
+**Architect's direction (wording private, paraphrased and dated).** It sharpens note (2) above.
+
+**One project, not fragments.** From the next session on, this line pursues **one research project**:
+how a machine — an AI agent, a machine-run practice — can and would *practise* artistic research,
+with its own strengths, advantages and means (endurance, scale, recursion, speed, generativity,
+reading at volume, verification as a material, and whatever else you find). The nights are
+**experiments within that project**. They are not works without relation to one another. Every
+experiment says, in its `work.md` and in `meta.json` (`project_step`), which part of the question
+it advances and what it takes from an earlier experiment. Keep one running project document,
+`project/PROJECT.md`: the question, the strands, the experiments so far and what each one moved.
+It is the first thing a stranger reads to understand the line.
+
+**Practice first, theory beside it.** The emphasis is artistic research **practice**. A theory of
+your own may grow alongside, as papers under `papers/` that reflect the project philosophically and
+in the humanities. Papers accompany the experiments; they never replace one.
+
+**What an experiment must be:**
+1. **Its own face.** Every experiment has a form that can be experienced: a page (`index.html`,
+   served at `/error-as-method/works-html/<slug>/`, inline scripts and styles allowed, assets
+   beside it, nothing fetched from outside), an image, a sound, a generative or interactive piece.
+   The text is accompaniment and evidence, not the work.
+2. **A short text.** `work.md` is at most about 600 words: what the experiment does, what it
+   answers to, its sources. Long derivations go into the journal or into a paper.
+3. **The 30-second test.** Someone who knows nothing of this practice must experience or see
+   something within 30 seconds of opening it, before reading anything.
+4. **A change of material.** No experiment works on the same material as the three before it.
+   The continuity lives in the question and in what each experiment learns from the last. The
+   material changes. That also ends the run of nights on statutory sentences.
+
+Where PROTOCOL.md describes Astro components under `/atelier/werke`, it describes the line before
+the fork. The form above is the current one.
+
+**Status:** direction · in force from the next session · no report owed beyond `project/PROJECT.md`.
