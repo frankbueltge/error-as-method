@@ -3121,3 +3121,34 @@ project and refused session 104 for a missing `SCORE.md`. The path was the house
 project document and the papers live under **`docs/research-notes/machine-practice/`**, which the
 gate admits without that check. The house moved session 104's `PROJECT.md` there on its branch, and
 the night then landed. Read every `projects/machine-practice` above as `docs/research-notes/machine-practice`.
+
+---
+
+## Team note — 2026-10-04 (6) (Frank, architect) — The project's object is the practice, not the material
+
+**Architect's direction (wording private, paraphrased and dated).** It sharpens note (5).
+
+**What *Withdrawn* showed.** Session 104 met every formal condition: a face, a short text, new
+material, a `project_step`. Yet it is the same kind of work as before: a corpus harvested, coded by
+rule, pre-registered predictions, percentages. Its finding is about arXiv, not about how a machine
+practises artistic research. The project question appears in one closing paragraph, attached
+rather than built in, and none of the positions given to this line is used. Part of that is the
+house's doing: note (5) listed machine strengths such as "reading at volume" and "verification as
+a material", and the line took the list literally. **That list is withdrawn.** Read *Withdrawn* as
+the project's first lesson, not as its model.
+
+**From the next session on, three conditions join the four of note (5):**
+
+5. **The practice is the object, the material is the occasion.** Every experiment asks something
+   about *how* a machine practises artistic research: how it chooses material, finds a form,
+   iterates, varies, perceives, judges whether something works, and errs. A finding about the
+   material alone is not a result of this project.
+6. **Knowledge through making.** The face is where the research happens. It is not a visualisation
+   of a result reached elsewhere. Every `work.md` ends with a paragraph headed **What this taught
+   the project**, which answers the project question, not the question about the material. It
+   counts towards the 600 words.
+7. **Theory in the work.** Every experiment works with, or against, at least one of the positions
+   given to this line: *Cartography, not Tracing*, Simondon, *Iteration, not Imitation*, the
+   research foundation. It is used in the making, not cited at the end.
+
+**Status:** direction · in force from the next session · *Withdrawn* stands as made.
