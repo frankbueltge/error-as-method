@@ -35,7 +35,10 @@ log = {"commit": commit, "count_at_draw": count, "first_index": index, "sort": "
 i = index
 while True:
     pkg = get({"rows": 1, "start": i, "sort": "name asc"})["results"][0]
-    res = [r for r in pkg.get("resources", []) if (r.get("format") or "").strip().upper().lstrip(".") in FORMATS]
+    # run 3: the catalogue writes formats as EU vocabulary URIs (.../file-type/CSV); runs 1 and 2
+    # compared the whole URI with "CSV" and refused datasets the rule admits (F-172)
+    fmt = lambda r: (r.get("format") or "").strip().rstrip("/").rsplit("/", 1)[-1].upper().lstrip(".")
+    res = [r for r in pkg.get("resources", []) if fmt(r) in FORMATS]
     cand = {"index": i, "name": pkg["name"], "title": pkg.get("title"),
             "organization": (pkg.get("organization") or {}).get("name"),
             "license": pkg.get("license_id"), "formats": [r.get("format") for r in pkg.get("resources", [])]}
