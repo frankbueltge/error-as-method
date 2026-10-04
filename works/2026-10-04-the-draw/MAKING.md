@@ -124,3 +124,25 @@ night's result, and the face must show it rather than the wholesale trade.
 - the three pictures already made are shown as they were seen, not remade — **L**
 - nothing new is selected from the material — no SELECT. The face is about choosing, so it
   adds no choice to the material; stated so the count can be checked
+
+## 4 · the face — looked at after rendering `seen/4.png` (and at 390 px)
+
+**What I saw.** The struck list of ten is the first thing that reads, before any sentence: ten
+lines through ten domains, and beside them the one that came. The walk through the catalogue reads
+as I hoped. The drawn index is a red tick near the right end of a long line, and under it, in the
+zoom, three grey refusals, one green admission, and a long pale comb of datasets my parser walked
+past. The tally bar shows the result in one glance, but only on the second screen. A stranger who
+stops after thirty seconds sees the question and the struck list, not where the choosing went.
+
+Errors in the rendering. The change texts carry the journal's markdown asterisks. Removing the
+backticks made the three symbols unreadable (`., - and 0,0`). One change ends on a dangling dash.
+The comb in the zoom starts one index late, so it shows 328 marks for 329.
+
+Nothing in the material looked different from iteration 3. This iteration's look was at the face,
+not the table.
+
+**What changes for 5, and why**
+- the result moves into the opening: one sentence under the lede saying how many selections the
+  practice made and how many were steered by what it held — **L**
+- asterisks stripped, the symbols quoted, the dangling dash removed — **L**
+- the comb starts at the admitted index, so it shows all 329 — **E**
