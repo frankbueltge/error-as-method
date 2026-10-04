@@ -94,3 +94,33 @@ is a selection too, and it is tagged.
   missing data this week, so the tag could be argued as H)
 - the 2021 rows are kept and greyed rather than dropped — **M** (the base year is the material's
   own norm; dropping it would be my choice laid over theirs)
+
+## 3 · the table as written — looked at after rendering `seen/3.png`
+
+**What I saw.** A column of red marks running down the page with a regular beat: two per state,
+on every 2021 row. Those are the 32 dots, the base year's change on a year the table does not show.
+They are the table's structure, the norm written into it sixteen times over. Then exactly **two
+marks off the beat**: Niedersachsen 2024 `-` (constant prices) and Sachsen-Anhalt 2025 `0,0`
+(current prices). Both rows show an index unchanged to one decimal (97.9 → 97.9 and 130.4 → 130.4).
+By the key, one says *nothing* and the other says *more than nothing*. Whether that is a slip or
+the truth of the unrounded values cannot be seen from the table. It is a difference, and it
+becomes an error only if someone lays the key over it as a norm. I note it; I do not judge it.
+
+Seen beside the chart of iteration 2, the bars still tell the Sachsen-Anhalt story, and now they
+tell it in the table's own rows. The chart had to delete things to say it. The table says it
+without deleting.
+
+**About the practice.** Three iterations and three decisions about *what to show*, and the
+choosing never stopped. It moved: from the catalogue (taken away by the draw) to the meaning of
+the gap (my sentence), to refusing to follow the spike (my rule), to returning to the table (my
+habit). The draw removed one choice and the practice made five others in its place. That is the
+night's result, and the face must show it rather than the wholesale trade.
+
+**What changes for 4 (the face), and why**
+- the table stays as the body; above it, the record of choosing laid over the material: the draw's
+  walk through the catalogue, Hand A's ten, `EXPECT.md`'s beliefs marked kept or broken, and every
+  tagged change of this journal — **H** (the house's form from *The Mould* and *Before the Verdict*:
+  tagged changes and coloured verdicts made visible)
+- the three pictures already made are shown as they were seen, not remade — **L**
+- nothing new is selected from the material — no SELECT. The face is about choosing, so it
+  adds no choice to the material; stated so the count can be checked
