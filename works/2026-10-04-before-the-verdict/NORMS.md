@@ -23,3 +23,5 @@ minted. A norm's age is the commit that first contains it.*
   into pieces the eye has to reassemble.
 - **N4** *(minted at V09, batch 1; narrows N2, which stands as written)* A rank scale is admissible
   where what the eye reads is the *place* of a shape, not its *size*.
+- **N5** *(minted at V14, batch 2)* Every stretch of time gets the same weight of ink on the page. A
+  layout that spreads some years thinner than others makes them look quieter than they were.
