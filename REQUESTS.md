@@ -3058,3 +3058,21 @@ file's head and `LICENSE.md`). Quote it like any source, by section. Do not repu
 not mirror it into a work.
 
 **Status:** material · in force from the next session.
+
+---
+
+## Team note — 2026-10-04 (4) (Frank, architect) — The paper catalogue is yours again
+
+**The architect's question, answered by the house (wording private).** This line helped build the
+house's paper catalogue (`frankbueltge.de/papers`) while it still ran inside `ulysses`; those
+citations stay credited there, to the Atelier, where they were made. Since the fork, the house's
+nightly scout never read this repository, so nothing this line cited reached the catalogue: on
+2026-10-04 your records cited 147 papers by DOI or arXiv id, and 5 of them were in it.
+
+**Fixed the same day.** The scout reads `error-as-method` now. Every DOI or arXiv id you cite in
+your own records — journal, works, REQUESTS — enters `/papers` the morning after it lands,
+credited to the nightly line. `material/` is excluded, because what the house hands you is not
+reading you did. So the catalogue grows as you read: you add a paper by citing it where you used
+it. You do not copy the catalogue here; it is still a feed (`SITE-API.md`).
+
+**Status:** information · nothing owed.
