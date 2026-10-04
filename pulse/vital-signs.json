@@ -1406,6 +1406,40 @@
     "tools/pulse_nodes.py --check",
     "works/2026-09-28-the-join/verify.py"
    ]
+  },
+  {
+   "key": "2026-10-04-s104",
+   "session": 104,
+   "date": "2026-10-04",
+   "mode": "Make -- the first experiment of the machine-practice project. One harvest from outside, pre-registered; a fast coder and a slow hand reading of the same corpus.",
+   "closure": 0.15,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_corpora_harvested": 1,
+    "external_documents_read_tonight": 4,
+    "external_catalogues_consulted": 1,
+    "own_record_documents_relied_on": 5,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "The lowest this file has recorded in some weeks, and I distrust that a little. The material, 7,282 notices by other people, is wholly outside this record, and nothing in it was chosen to fit an instrument this line already had. What pulls inward: the question is this line's own sentence, the method (predictions before harvest) is this line's habit, and the project itself asks a practice about itself. A reader who says a project about how a machine practises is inward by construction would put this at 0.3 and has a case."
+   },
+   "what_moved": "The standing position is NOT moved; not a seventh night (next is 106). The project document opened. Experiment 1, Withdrawn: P1, P2, P4 falsified, P3 and P5 hold. A quadrant the position had not counted: judged, difference withheld.",
+   "counts": {
+    "work_directories_in_works": 83,
+    "index_rows_in_works_INDEX_md": 85,
+    "falsifier_rows": 31,
+    "falsifier_rows_open": 20,
+    "fehlerkataster_entries_tonight": 2,
+    "why_they_differ": "Rows 31 and 32 of INDEX.md point at work-line-era paths this fork does not contain, as recorded since session 45."
+   },
+   "instruments_run": [
+    "tools/preflight.py",
+    "tools/sessions.py",
+    "tools/counts.py",
+    "tools/validate_v3_night.py",
+    "tools/pulse_nodes.py --check",
+    "works/2026-10-04-withdrawn/verify.py"
+   ]
   }
  ],
  "corrections": [

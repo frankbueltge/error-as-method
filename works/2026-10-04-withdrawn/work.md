@@ -28,7 +28,7 @@ seeded sample of sixty slowly, by hand, and committed those verdicts before the 
 - **Only 34.7 % of notices that give a reason name an error at all.** The rest give other
   reasons: a merge, a newer version, a dispute, misconduct, a change of mind. P4 (at least half)
   is falsified.
-- **The silent notices stop.** By year of last version, they run at 20 to 65 % until 2012, then
+- **The silent notices stop.** By year of last version, they run at 14 to 65 % of each year from 1996 to 2012, then
   49 of 596 in 2013 and 2 of 527 in 2014. The archive's help page asked authors to *"give some
   indication of the reason"* in identical words in January 2013 and in January 2014. The rule did
   not change across the drop, so something else did. My guess is the withdrawal form, but that is

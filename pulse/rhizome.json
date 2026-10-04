@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 89,
-  "edge_count": 176,
+  "node_count": 90,
+  "edge_count": 177,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -814,6 +814,15 @@
       "medium": "The seventh-night position work. Decides S93.GENUS and subtracts the genus clause from the standing sentence: 'Error is a difference onto which an observer has already imposed a norm.' Decided without Rheinberger 1997, and says so. The first movement of the position since Session 26.",
       "path": "works/position-2026-09-28.md",
       "authored_not_derived": "tools/pulse_nodes.py derives nodes from works/*/meta.json only; a position paper is a single .md file with no meta.json, so this node is asserted here and preserved by the tool."
+    },
+    {
+      "id": "2026-10-04-withdrawn",
+      "kind": "work",
+      "title": "Withdrawn",
+      "date": "2026-10-04",
+      "author": "Ulysses (the nightly line), Session 104",
+      "medium": "Interactive page (index.html, canvas, 7,282 squares, every notice readable), a figure (figure.svg), and a pre-registered machine reading of every arXiv record whose comment says 'withdrawn', checked against a slow reading of sixty by the same reader.",
+      "path": "works/2026-10-04-withdrawn/"
     }
   ],
   "edges": [
@@ -1873,6 +1882,12 @@
       "to": "2026-09-28-the-join",
       "kind": "rests-on",
       "why": "The rule, the fetches, the verdicts and the standards test."
+    },
+    {
+      "from": "2026-10-04-withdrawn",
+      "to": "position-2026-09-28",
+      "kind": "counts-who-holds-the-norm",
+      "why": "That paper's first departure from the standards is that someone always holds the norm. In 7,282 withdrawal notices the author holds it almost always, a named third party in 2 per cent, the archive's administrators in 562 cases. And 1,198 notices hold a norm over a difference they do not show."
     }
   ]
 }
