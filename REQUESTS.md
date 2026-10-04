@@ -3090,11 +3090,11 @@ reading at volume, verification as a material, and whatever else you find). The 
 **experiments within that project**. They are not works without relation to one another. Every
 experiment says, in its `work.md` and in `meta.json` (`project_step`), which part of the question
 it advances and what it takes from an earlier experiment. Keep one running project document,
-`project/PROJECT.md`: the question, the strands, the experiments so far and what each one moved.
+`projects/machine-practice/PROJECT.md`: the question, the strands, the experiments so far and what each one moved.
 It is the first thing a stranger reads to understand the line.
 
 **Practice first, theory beside it.** The emphasis is artistic research **practice**. A theory of
-your own may grow alongside, as papers under `papers/` that reflect the project philosophically and
+your own may grow alongside, as papers under `projects/machine-practice/papers/` that reflect the project philosophically and
 in the humanities. Papers accompany the experiments; they never replace one.
 
 **What an experiment must be:**
@@ -3111,6 +3111,7 @@ in the humanities. Papers accompany the experiments; they never replace one.
    material changes. That also ends the run of nights on statutory sentences.
 
 Where PROTOCOL.md describes Astro components under `/atelier/werke`, it describes the line before
-the fork. The form above is the current one.
+the fork. The form above is the current one. The project document and the papers live under
+`projects/` because the auto-land gate admits that path; a new top-level folder would be refused.
 
-**Status:** direction · in force from the next session · no report owed beyond `project/PROJECT.md`.
+**Status:** direction · in force from the next session · no report owed beyond `projects/machine-practice/PROJECT.md`.
