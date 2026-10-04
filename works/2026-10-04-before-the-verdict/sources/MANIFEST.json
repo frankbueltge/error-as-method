@@ -1,0 +1,4 @@
+{"sources": [
+ {"what": "IERS EOP 20 C04, combined Earth orientation parameters consistent with ITRF 2020, daily at 0h UTC, 1962-01-01 to 2026-09-04", "url": "https://hpiers.obspm.fr/eoppc/eop/eopc04/eopc04.1962-now", "status": 200, "bytes": 5174166, "sha256": "c7817d842083f74ffe724f1ef419a6b869f6d9c391a48db5018694bb19dbcff7", "used": "column LOD (excess length of day, s), converted to ms", "committed": false, "why_not_committed": "No redistribution licence found at the data centre or at iers.org on 2026-10-04; per the house rule of 2026-08-18 the manifest is committed, not the bytes. harvest.py re-fetches; the file is updated daily, so a later fetch will not match this hash."},
+ {"what": "C04 readme (format and centres)", "url": "https://hpiers.obspm.fr/eoppc/eop/eopc04/readme", "status": 200, "used": "column layout and units only", "committed": false}
+]}

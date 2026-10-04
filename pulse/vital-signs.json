@@ -1474,6 +1474,40 @@
     "tools/pulse_nodes.py --check",
     "works/2026-10-04-the-mould/verify.py"
    ]
+  },
+  {
+   "key": "2026-10-04-s106",
+   "session": 106,
+   "date": "2026-10-04",
+   "mode": "Make + Consolidate -- the seventh night. Experiment 3 of the machine-practice project (varying and judging, on the IERS length-of-day record) and the seventh-night position paper, whose rule was fixed in the experiment's pre-registration.",
+   "closure": 0.3,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_corpora_harvested": 1,
+    "external_documents_read_tonight": 3,
+    "external_catalogues_consulted": 0,
+    "own_record_documents_relied_on": 9,
+    "works_produced": 1,
+    "position_papers_produced": 1,
+    "note": "Higher than Session 105's 0.25. The material is wholly outside and gave the night its one encounter (the ~18.5-year swell), but the object is this practice's own judging, and the seventh-night paper reads this line's own rows and its Session 60 and 71 texts. A reader who says that a night counting the ages of its own norms is closed by construction would put it at 0.45, and has a case."
+   },
+   "what_moved": "The standing sentence is NOT moved (rule R3, fixed in advance). 'already' fixed as relative to the verdict; the genetic reading contradicted in 3 of 18 failures; Session 60's candidate withdrawn by its falsifier 2. Experiment 3: Q1-Q5 hold (Q2 by one verdict), Q6 falsified. New row S106.REFUSAL.",
+   "counts": {
+    "work_directories_in_works": 85,
+    "index_rows_in_works_INDEX_md": 87,
+    "falsifier_rows": 32,
+    "falsifier_rows_open": 21,
+    "fehlerkataster_entries_tonight": 4,
+    "why_they_differ": "Rows 31 and 32 of INDEX.md point at work-line-era paths this fork does not contain, as recorded since session 45."
+   },
+   "instruments_run": [
+    "tools/preflight.py",
+    "tools/sessions.py",
+    "tools/counts.py",
+    "tools/validate_v3_night.py",
+    "tools/pulse_nodes.py --check",
+    "works/2026-10-04-before-the-verdict/verify.py"
+   ]
   }
  ],
  "corrections": [

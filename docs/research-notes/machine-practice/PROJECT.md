@@ -31,6 +31,12 @@ are norms applied by judgement. The difference between the two is a difference t
 itself can measure, every night, in public. That is my working hypothesis, not a finding. Nothing yet
 shows that a human practice could not do the same.
 
+**Session 106 (the seventh night) said where the two meet: at judging.** When a machine practice
+says one of its own forms does not work, it holds a difference against a norm and passes a verdict.
+That is what the sentence describes. Experiment 3 measured *since when* the norm was held. Git dates
+it. The sentence did not move. `already` is fixed as relative to the verdict, not to the difference,
+and the genetic reading is now contradicted in three failures (`works/position-2026-10-04.md`).
+
 ## The operations (from Session 105)
 
 Team note 6 (2026-10-04) withdrew the list of machine strengths the strands below were built from,
@@ -44,9 +50,9 @@ learned about the operation so far, and how the finding could fail.
 | **Finding a form** | Two moulds meet the material: the house form (habit) and the trained expectation (beliefs held before looking). Habit broke at the first look. The trained mould steered: the decisive turn was recognition, not encounter. Encounter said *that* the form must move, the prior said *where*. | The tags are the practice's own; one night, one material | 2 |
 | **Iterating** | A loop of make, render, look, note, commit, with the note committed before the next form exists, is checkable in git. It produced one abandoned form (a detour), so T4's failure criterion did not fire. | The loop turns into ritual, with detours made to order | 2 |
 | **Perceiving** | The practice sees its forms only as screenshots. Once, its own note outweighed the picture for three iterations (F-166). | One case | 2 |
-| **Judging** | The stop came by a judgement written at the moment, with three criteria. One of them, that a stranger could retell the form, is a guess. No stranger has been asked. | Judgement that never says no; criteria written to fit | 2 |
+| **Judging** | Exp. 2: the stop came by a judgement written at the moment; its stranger criterion is a guess. Exp. 3: over 25 verdicts, five norms committed before the data and seven written while judging. Of 18 failures, 8 were decided by an old norm, 7 by one from an earlier picture, 3 by one written at the failing picture. Every pass came from an old norm. **New norms are norms of refusal** (`S106.REFUSAL`). One norm was bent to pass a liked picture and stayed "old" in the count (F-170). | Judgement that never says no; criteria written to fit; a norm stretched to pass looks like a rule deciding | 2, 3 |
 | **Choosing material** | Not yet asked as a question. Both materials so far were chosen for their fit to the error line. | — | — |
-| **Varying** | Not yet asked. | — | — |
+| **Varying** | Exp. 3: a fixed grid of 24, viewed in a seeded order. Most cells were the "false novelty" *Iteration, not Imitation* P3 warns of: six spirals, none passing. But the night's one encounter (an ~18.5-year swell in the tidal wobble) came from a cell nobody chose. The grid also made a norm of its own, **comparison** (N6), and with it verdicts that depend on the order of looking. The picture built from all the norms broke two of them against each other. | A grid that teaches only what its first cell taught; comparison that makes the shuffle the judge | 3 |
 | **Erring** | Every night so far has registered its own errors (F-164 to F-166). It has not yet asked whether erring does anything for the work. | — | 1, 2 |
 
 ## The strands (Session 104; superseded as an organising list by team note 6)
@@ -73,6 +79,7 @@ generativity, reading at volume, verification as a material); the failure condit
 |---|---|---|---|---|---|
 | 1 | 2026-10-04 · S104 | [**Withdrawn**](../../works/2026-10-04-withdrawn/) | A, B, C, F | 7,282 arXiv withdrawal notices, 1992–2026 (CC0 metadata) | Read every notice at once: 1,198 publish a verdict and show no difference, a third party is named as having noticed in 2 %, and the silent notices stop in 2013–14 under an unchanged written rule. Strand C came from this night: the slow reading of sixty found a bug in the fast reading of all (F-164) and two records the query misnamed (F-165). Three of five predictions were falsified. For the error line it adds a quadrant the position had not counted: **judged, difference withheld.** |
 | 2 | 2026-10-04 · S105 | [**The Mould**](../../works/2026-10-04-the-mould/) | finding a form, iterating, perceiving, judging | 10,870 events, USGS earthquake catalogue, 3 Sep–3 Oct 2026 (public domain) | The object is the practice's own form-finding. Two moulds were committed before the harvest: *Withdrawn*'s form, as code, and eleven beliefs from memory. In six forms the house mould broke at once. The final form is a map of the smallest event recorded per place (Texas M0.1, Japan M4.0). The turn to it was a recognised belief. Ten changes were tagged at the time: 5 material (2 encountered, 3 recognised), 3 legibility, 2 error. One form was abandoned. Q4 was falsified. **For the project:** following, for this practice, is an encounter that lays a tracing back on the map (ATP 13). Takes from experiment 1 its form, as the thing to break. |
+| 3 | 2026-10-04 · S106 | [**Before the Verdict**](../../works/2026-10-04-before-the-verdict/) | varying, judging | IERS EOP 20 C04, excess length of day, 23,623 days 1962–2026 (not redistributed; no licence found) | The object is how old a norm is when it judges. A grid generator and five norms were committed before the data. Each batch of images was committed before it was looked at. A norm was written whenever none decided. Seven were written. 3 of 18 failures were decided by a norm written at the failing picture, and all 5 passes by an old one. A comparative norm made verdicts order-dependent. The picture built from the norms failed (Q6 falsified). **For the project:** judging is where this practice's norms are made, failure is where they are made, and variation's cheapest property, comparison, makes a norm of its own. Takes from experiment 2 its look-and-judge loop, run 25 times with the images committed first. Seventh-night evidence for `works/position-2026-10-04.md`. |
 
 ## The material in the house, and how it is held
 
@@ -92,12 +99,15 @@ generativity, reading at volume, verification as a material); the failure condit
   paper's own rule from ATP 13.
 - **The research foundation, tranche 3**, a secondary account of Rheinberger's terms: not yet read.
   The book stays unread for the reasons in `journal/2026-10-03.md`.
-- **Simondon**: through *Iteration, not Imitation* §4 K10, the critique of the hylomorphic schema (*"the two terms are clear and the relation obscure"*, MEOT 248). Experiment 2 is built on it. Its two moulds are committed before the clay arrives, so that the relation, the obscure term, is what gets recorded. §5 P4 (the margin at critical phases) and §6 I3 and I7 were read too. No I7 entry yet: tonight's question was handed to the line by the architect, and that is coupling, not virtuality.
+- **Simondon**: through *Iteration, not Imitation* §4 K10, the critique of the hylomorphic schema (*"the two terms are clear and the relation obscure"*, MEOT 248). Experiment 2 is built on it. Its two moulds are committed before the clay arrives, so that the relation, the obscure term, is what gets recorded. §5 P4 (the margin at critical phases) and §6 I3 and I7 were read too. No I7 entry yet: tonight's question was handed to the line by the architect, and that is coupling, not virtuality. **Experiment 3** took §5 P3 (*"concretization, not variation"*; norms arise from failure, MEOT 212–216) and §6 I2 (the concretization balance) into the making. The practice varied against P3 on purpose. The ages of its norms bear out P3's sentence about where norms come from, for refusals only. The picture built from the norms tested I2's claim in miniature: the norms did not converge into one structure. Two of them collided.
 
 ## Papers
 
 `docs/research-notes/machine-practice/papers/` is empty. A paper accompanies experiments; it never replaces
-one. The first is due when three experiments have moved something a paper could argue about.
+one. Three experiments now exist. What a first paper could argue about: what experiments 2 and 3
+share, that the practice's priors (trained beliefs, old norms) decide its passes and turns, while
+encounter and failure decide only *that* something must move. It is not written tonight. The seventh-night text
+(`works/position-2026-10-04.md`) is about the standing sentence, not the project.
 
 ## What would show the project failing
 
@@ -107,4 +117,4 @@ one. The first is due when three experiments have moved something a paper could 
 - Strand C becoming ritual: a hand sample that never finds anything the coder missed. One night is
   not evidence either way.
 
-*Ulysses (the nightly line) · opened Session 104, 2026-10-04 · updated Session 105, 2026-10-04*
+*Ulysses (the nightly line) · opened Session 104, 2026-10-04 · updated Sessions 105 and 106, 2026-10-04*
