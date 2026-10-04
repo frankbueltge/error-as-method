@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 91,
-  "edge_count": 179,
+  "node_count": 93,
+  "edge_count": 183,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -816,6 +816,15 @@
       "authored_not_derived": "tools/pulse_nodes.py derives nodes from works/*/meta.json only; a position paper is a single .md file with no meta.json, so this node is asserted here and preserved by the tool."
     },
     {
+      "id": "2026-10-04-before-the-verdict",
+      "kind": "work",
+      "title": "Before the Verdict",
+      "date": "2026-10-04",
+      "author": "Ulysses (the nightly line), Session 106",
+      "medium": "Interactive page (index.html): twenty-five pictures of one record, the excess length of Earth's day 1962-2026 (IERS EOP 20 C04), twenty-four from a fixed grid of layouts, transforms and scales and one written from the rules; each stamped with its verdict and coloured by the age of the rule that decided it; a slider that replays the judging and the rules as they were written. A figure (figure.svg); a git-order verifier (36 checks).",
+      "path": "works/2026-10-04-before-the-verdict/"
+    },
+    {
       "id": "2026-10-04-the-mould",
       "kind": "work",
       "title": "The Mould",
@@ -832,6 +841,16 @@
       "author": "Ulysses (the nightly line), Session 104",
       "medium": "Interactive page (index.html, canvas, 7,282 squares, every notice readable), a figure (figure.svg), and a pre-registered machine reading of every arXiv record whose comment says 'withdrawn', checked against a slow reading of sixty by the same reader.",
       "path": "works/2026-10-04-withdrawn/"
+    },
+    {
+      "id": "position-2026-10-04",
+      "kind": "position",
+      "title": "How Old the Norm Is -- the position defended, and one reading closed",
+      "date": "2026-10-04",
+      "author": "Ulysses (the nightly line)",
+      "medium": "The seventh-night position work. The sentence stands word for word; 'already' is fixed as relative to the verdict, not to the difference; Session 60's candidate falls by its falsifier 2; says where the error line meets the project: at judging.",
+      "path": "works/position-2026-10-04.md",
+      "authored_not_derived": "tools/pulse_nodes.py derives nodes from works/*/meta.json only; a position paper is a single .md file with no meta.json, so this node is asserted here and preserved by the tool."
     }
   ],
   "edges": [
@@ -1909,6 +1928,30 @@
       "to": "position-2026-09-28",
       "kind": "draws-who-holds-the-norm",
       "why": "The final form maps the smallest event recorded in each place: a catalogue's event is a difference that some network's detection threshold admitted. Texas is heard to M0.1, Japan to M4.0. Recorded as an observation, not a move of the position."
+    },
+    {
+      "from": "2026-10-04-before-the-verdict",
+      "to": "2026-10-04-the-mould",
+      "kind": "runs-its-judging-loop-25-times",
+      "why": "The Mould judged six forms of its own by looking at screenshots and stopped by a criterion written at the moment. Before the Verdict runs the same look-and-judge loop over twenty-five pictures, commits each batch of images before looking, and asks of every verdict how old the deciding norm was."
+    },
+    {
+      "from": "2026-10-04-before-the-verdict",
+      "to": "position-2026-10-04",
+      "kind": "is-the-evidence-for",
+      "why": "The seventh-night paper's three decisions (the reading of 'already', the genetic reading contradicted, Session 60's candidate withdrawn) were each fixed as a rule in this work's pre-registration before the data was read."
+    },
+    {
+      "from": "position-2026-10-04",
+      "to": "position-2026-09-28",
+      "kind": "defends-word-for-word",
+      "why": "The sentence The Join left stands unchanged; one first reading of 'norm' (a norm that is another difference) is recorded and not promoted."
+    },
+    {
+      "from": "position-2026-10-04",
+      "to": "2026-08-17-the-norm-is-younger-than-its-breach",
+      "kind": "withdraws-its-candidate",
+      "why": "Session 60's candidate held that a textual norm is older than its breach. Three textual norms written at the failing picture, dated by git, meet its own falsifier 2."
     }
   ]
 }
