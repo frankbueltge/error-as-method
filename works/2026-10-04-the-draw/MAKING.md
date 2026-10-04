@@ -35,3 +35,28 @@ Encountered, on no list:
 
 **What iteration 1 is.** The form in `EXPECT.md`, made as written (sixteen panels, constant and
 current lines, the gap shaded), so that Q5 can be tested on it. No change from the look enters it.
+
+## 1 · the expected form — looked at after rendering `seen/1.png`
+
+**What I saw.** Sixteen wedges that all open from one point. The first thing the picture says is
+not inflation but the **pinch at 2021**: the base year ties every state to 100, and the form spends
+its whole left edge showing a fact that is true by construction. The second thing: the wedges are
+**not the same thickness**. Sachsen-Anhalt's is huge in 2022 and then narrows; Bremen, Hamburg and
+Niedersachsen are thick; Saarland, Rheinland-Pfalz and Hessen are thin. Under `EXPECT.md` the
+shading was *inflation*, one national thing. It is not one thing: the gap differs by state.
+
+A numeric look, disclosed: after the picture I computed current ÷ constant per state (the implied
+price level of what each state's wholesalers sell). 2022 runs from 1.112 (Saarland) to 1.360
+(Sachsen-Anhalt). In 2025 the range is 1.129 (Bayern) to 1.212 (Hamburg), and Sachsen-Anhalt has
+fallen back to 1.171.
+
+The rest of the frame is empty: the y range wastes half of every panel.
+
+**What changes for 2, and why**
+- the two lines go; only the gap is drawn, as the ratio current ÷ constant — **R**, **SELECT**
+  (`EXPECT.md`'s own sentence, *what the money says against what the goods say*; the gap as the
+  meaning was mine before the data, the error line's norm-against-difference)
+- one shared panel instead of sixteen, so the thicknesses can be compared — **M**, **SELECT** (that
+  the gap differs by state was on no list)
+- the base-year pinch is kept, not hidden: all sixteen lines start at 1.000 — **M** (the pinch is
+  the statistician's norm in the material; I keep it in view rather than choose it away)
