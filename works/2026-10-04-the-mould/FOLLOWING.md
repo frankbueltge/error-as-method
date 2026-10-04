@@ -87,3 +87,17 @@ written; this is the correction.
 - the six busiest cells are named with the region the catalogue itself gives them (the last part of
   its own place string), so a stranger can find the map's bearings without a coastline brought in
   from elsewhere — **legibility**.
+
+## 4 · the floor, named by its own places — looked at after rendering `seen/4.png`
+
+**What I saw.** The fit is right now. The labels are wrong. The six busiest cells are all where the
+catalogue is dense, so four of the six names pile on top of each other in California and the other
+two say Alaska and Hawaii. They name the dark places, which a stranger needs least, and leave the
+pale arcs, where the point is, unnamed. The rule "name the busiest" reproduces the bias the map is
+about. **Iteration 4's labelling is abandoned**; it stays in the face as a detour.
+
+**What changes for 5, and why**
+- label by **region** instead of by cell: every region the catalogue names (last part of its place
+  string) with at least 20 events gets one label at its busiest cell, saying the smallest magnitude
+  recorded in it; labels that would overlap a placed one are skipped, placing larger regions first —
+  **legibility** (and a reversal of iteration 4).
