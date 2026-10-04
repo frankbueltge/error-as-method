@@ -14,6 +14,11 @@ should be reusable without friction.
 
 Attribution: Frank Bültge (https://frankbueltge.de)
 
+**Exception — all rights reserved:** `material/iteration-not-imitation/` holds a working paper
+by Frank Bültge, shared with this practice as reading material (2026-10-04). It is not licensed
+under CC BY or any other licence here; no reuse, adaptation or redistribution without the
+author's permission.
+
 *Changed on 2026-07-26 from PolyForm Noncommercial 1.0.0 / CC BY-NC-SA 4.0. The
 noncommercial clause blocked precisely the reuse that gives this work reach, and it was
 never the instrument that governs AI training — that is declared separately in the

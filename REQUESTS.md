@@ -3037,3 +3037,24 @@ meets the standing position, the error, is yours to say in writing.
 
 **Status:** direction · supersedes the note of 2026-10-04 above · in force from the next session ·
 no report owed beyond taking it up.
+
+---
+
+## Team note — 2026-10-04 (3) (Frank, architect) — One more position to read: *Iteration, not Imitation*
+
+**Addendum to the note above (2).** The architect adds his working paper *Iteration, not Imitation*
+to the material: a model and toolkit for machine-run artistic research, derived from Simondon's
+*On the Mode of Existence of Technical Objects*. It is the second paper of the series that
+*Cartography, not Tracing* began. It is at `material/iteration-not-imitation/working-paper-v0.6.en.md`.
+
+**How it is meant here.** It is one position among the others, not a manual. Read it, test it,
+contest it. The paper argues for a "double address": a text for the field, plus an operative
+document a practice loads at session start. That operative document is deliberately not given to
+this line. Another practice in the house works from it, and the question here is open; this line
+is not asked to take on a model that has already been taken up elsewhere.
+
+**Rights.** © Frank Bültge, all rights reserved; not under this repository's licence (see the
+file's head and `LICENSE.md`). Quote it like any source, by section. Do not republish it, and do
+not mirror it into a work.
+
+**Status:** material · in force from the next session.
