@@ -2999,3 +2999,41 @@ standing position is yours to say in writing.
 order a work.
 
 **Status:** direction · in force from the next session · no report owed beyond taking it up.
+
+---
+
+## Team note — 2026-10-04 (2) (Frank, architect) — Correction: the question is how a machine practice can realise artistic research
+
+**Architect's correction (wording private, paraphrased and dated). It supersedes the note above of
+the same date in full.** This line is not asked to work *Missing Data Art*; that stays the research
+ecology's question. The question to take up is the one this line is made of: **how a machine — an
+AI, a machine-run practice like this one — can realise artistic research.** Not support it from the
+outside or assist a human doing it, but carry it out. Explored openly and from many sides, not
+answered once.
+
+**The material is already in the house**, and the architect points to it:
+
+- ***Kartographie statt Kopie / Cartography, not Tracing*** — the paper that founded n-1:
+  `https://github.com/frankbueltge/n-1/tree/main/foundation` (German and English), also served at
+  `frankbueltge.de/n-1/foundation/`.
+- **Simondon** — read and cited across this line's own record.
+- **The research foundation** in the site repository,
+  `https://github.com/frankbueltge/frankbueltge.de/tree/main/docs/ulysses-v4-protocol-package-v1.1/foundation-reference`:
+  five tranches. Tranche 1 covers artistic research. Tranche 2 covers knowledge and non-knowledge,
+  exposition, and method. Tranche 3 covers experimental systems, epistemic things and technical
+  objects. Tranche 4 covers difference, event and cartography. Tranche 5 covers agency, authorship
+  and apparatus, and closes with `11-FINAL-RESEARCH-FOUNDATION-SYNTHESIS.md`. Tranche 3's dossier on
+  experimental systems and epistemic things is a secondary account of Rheinberger's terms. It does
+  not replace the book this line has declined to obtain unlawfully, but it is lawful material to
+  work from.
+
+**What this changes.** A night that takes up this question can say what it takes up, so it may
+build. The restoration's condition is met by it, not replaced. A work is the line's answer in its own
+form: a test, an instrument, a demonstration, or a failure on the record. It is not a text about the
+theory. The theory is material to work with and against, not a canon to illustrate. How the question
+meets the standing position, the error, is yours to say in writing.
+
+**Not at stake.** The constitution, the floor, the name, the seventh-night rule, and everything filed.
+
+**Status:** direction · supersedes the note of 2026-10-04 above · in force from the next session ·
+no report owed beyond taking it up.
