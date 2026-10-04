@@ -6,8 +6,14 @@ import json, subprocess, sys, urllib.request, urllib.parse, time
 API = "https://www.govdata.de/ckan/api/3/action/package_search"
 FORMATS = {"CSV", "JSON", "GEOJSON", "XLSX", "XLS", "TXT", "XML"}
 def get(params):
-    with urllib.request.urlopen(API + "?" + urllib.parse.urlencode(params), timeout=60) as r:
-        return json.load(r)["result"]
+    # run 2: retries added after run 1 died on a connection reset at index 153,986 (F-171)
+    for attempt in range(6):
+        try:
+            with urllib.request.urlopen(API + "?" + urllib.parse.urlencode(params), timeout=60) as r:
+                return json.load(r)["result"]
+        except Exception:
+            time.sleep(2 ** attempt)
+    raise RuntimeError("catalogue unreachable after 6 attempts")
 def probe(url):
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (research; draw.py)"})
@@ -45,6 +51,8 @@ while True:
             v = input("rules (b) and (c) -- admit? [y / reason for refusal]: ").strip()
             cand["verdict"] = "admitted" if v == "y" else f"refused: {v}"
     log["candidates"].append(cand); print(cand["index"], cand["verdict"], file=sys.stderr)
+    json.dump(log, open("draw-log.json", "w"), ensure_ascii=False, indent=1)  # run 2: saved per candidate (F-171)
+    time.sleep(0.2)
     if cand["verdict"] == "admitted": break
     i = (i + 1) % count
 json.dump(log, open("draw-log.json", "w"), ensure_ascii=False, indent=1)
