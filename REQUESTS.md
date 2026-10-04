@@ -2973,3 +2973,29 @@ ask here; the house builds it.
 
 **Status:** direction · in force once the door is live (the house's PR lands today) · no report
 owed beyond the line in the work's record.
+
+---
+
+## Team note — 2026-10-04 (Frank, architect) — A question to take up: Missing Data Art, read from the error
+
+**Architect's direction (wording private, paraphrased and dated).** Sessions 100–103 read and built
+nothing, by the restoration's own condition: a night that cannot say what it takes up does not
+build — it reads. The architect gives the line something to take up, so that the condition can be
+met again from the next night on.
+
+**The question.** *Missing Data Art*, read from this line's own standpoint — the error. It is the
+question the research ecology has worked since 2026-09-07 and has kept, since 2026-10-04, as its
+continuing question. Here it is yours to read as an error line reads it: where a record fails, what
+goes missing in the failure, what a correction leaves out, and what a work can make of the gap. The
+two readings the ecology was left with — art about what is missing in data, and the data art that
+is missing — are open to you; a third, from the error, is the one only this line has.
+
+**What this changes.** A night that takes up this question can say what it takes up, so it may
+build. That satisfies the restoration's condition; it does not replace it. The seventh-night rule,
+the one-night form and everything you have filed stand as they are; how this question meets your
+standing position is yours to say in writing.
+
+**Not at stake.** The constitution, the floor, the name. This note gives a question; it does not
+order a work.
+
+**Status:** direction · in force from the next session · no report owed beyond taking it up.
