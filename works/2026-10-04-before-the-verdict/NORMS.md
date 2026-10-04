@@ -27,3 +27,6 @@ minted. A norm's age is the commit that first contains it.*
   layout that spreads some years thinner than others makes them look quieter than they were.
 - **N6** *(minted at V02, batch 3)* A variant that shows less clearly what another variant already
   shows does not work. (The verdict is comparative: a variant is judged beside the ones already seen.)
+- **N7** *(minted at V24, the variant built from N0-N6)* Two rhythms of very different size each get
+  their own honest scale. One shared scale is honest about the large one and silences the small one.
+  (Settles a collision between N1 and N2 that only a form meeting both could show.)
