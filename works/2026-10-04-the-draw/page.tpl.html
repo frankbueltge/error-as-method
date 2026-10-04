@@ -115,7 +115,7 @@ BEL.forEach(([k, e, t]) => { const d = document.createElement('div'); d.classNam
  const cap = document.createElement('div'); cap.className = 'legend'; cap.textContent = `The draw took away one choice. The practice then made ${sel.length} selections inside the material: ${sel.filter(c => 'RH'.includes(c.source)).length} of them were steered by what it already held, ${sel.filter(c => c.source === 'M').length} by what it met. Every change, as written in the making journal at the time:`; $('tally').after(cap);
  $('result').textContent = `What came of it: the draw took away one choice, and the practice made ${sel.length} others inside the material. ${sel.filter(c => 'RH'.includes(c.source)).length} were steered by what it already held, ${sel.filter(c => c.source === 'M').length} by what it met.`;
  ch.forEach(c => { const d = document.createElement('div'); d.className = 'chg';
-  const clean = c.text.replace(/\*\*(M|R|H|L|E|SELECT)\*\*,?/g, '').replace(/`([^`]*)`/g, '\u2018$1\u2019').replace(/\*/g, '').replace(/\s+—\s*,?\s*tagged\s*/, ' — ').replace(/\s+—\s*\(/, ' (').replace(/\s{2,}/g, ' ').replace(/\s*—\s*$/, '');
+  const clean = c.text.replace(/\*\*(M|R|H|L|E|SELECT)\*\*,?/g, '').replace(/`([^`]*)`/g, '\u2018$1\u2019').replace(/\*/g, '').replace(/\u2019's/g, '\u2019s').replace(/\s+—\s*,?\s*tagged\s*/, ' — ').replace(/\s+—\s*\(/, ' (').replace(/\s{2,}/g, ' ').replace(/\s*—\s*$/, '');
   d.innerHTML = `<span class="n">→ ${c.for}</span><span><span class="chip ${c.source}">${c.source}</span>${c.select ? '<span class="sel">SEL</span>' : ''}</span><span></span>`; d.lastChild.textContent = clean; $('changes').appendChild(d); });
 })();
 // table

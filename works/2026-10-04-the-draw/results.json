@@ -71,13 +71,19 @@
    "source": "E",
    "select": false,
    "text": "the comb starts at the admitted index, so it shows all 329 — **E**"
+  },
+  {
+   "for": 6,
+   "source": "L",
+   "select": false,
+   "text": "the possessive after a quoted file name is rewritten in the journal's own words for the face — **L**"
   }
  ],
  "by_source": {
   "M": 4,
   "R": 2,
   "H": 2,
-  "L": 3,
+  "L": 4,
   "E": 1
  },
  "selections": 5,
