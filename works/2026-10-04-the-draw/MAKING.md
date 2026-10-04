@@ -60,3 +60,37 @@ The rest of the frame is empty: the y range wastes half of every panel.
   the gap differs by state was on no list)
 - the base-year pinch is kept, not hidden: all sixteen lines start at 1.000 — **M** (the pinch is
   the statistician's norm in the material; I keep it in view rather than choose it away)
+
+## 2 · the ratio — looked at after rendering `seen/2.png`
+
+**What I saw.** A fan from one point, and one red spike. Sachsen-Anhalt's implied price leaps to
+1.36 in 2022 and then comes down every year, crossing the others' band by 2025. The other fifteen
+spread into a band from about 1.13 to 1.21 and stay there. The pinch at 2021 now takes the whole
+left half of the picture. It carries no information; it is the base year. The labels on the right
+are a sorted list and do not sit at their lines, so no line can be named. That is a legibility
+failure.
+
+And something about the practice, which matters more tonight than the spike. **This is an
+economist's chart.** It is the standard picture of a deflator, and I reached it in two steps. In
+neither step did I look at what the drawn table *is*. I looked at what my sentence in `EXPECT.md`
+said it means. The table has things no chart of it shows: the two kinds of zero, the dot that
+hides the year before 2021, a base year that makes every state equal by decree. The chart deletes
+them all. Choosing went into the chart.
+
+Following the spike would mean leaving the table, to find out what Sachsen-Anhalt's wholesalers
+sold in 2022. *Cartography, not Tracing* asks for that: *follow the singularities of a material*
+(§5, postulate 3). I refuse it tonight, on purpose. Leaving the table is choosing a second material,
+and the night's question is what happens to choosing inside the material it was given. The refusal
+is a selection too, and it is tagged.
+
+**What changes for 3, and why**
+- refuse to follow Sachsen-Anhalt outside the table — **SELECT**, tagged **R** (the experiment's
+  own rule, written before the data, decides it, not the material)
+- the chart goes; the table comes back as written, all 80 rows and every cell, with the ratio as a
+  small mark beside each row — **H**, **SELECT** (the house's *read every item* from *Withdrawn*,
+  strand A; it is a return to a habit, not a discovery)
+- the three symbols `.`, `-` and `0,0` are set apart in colour — **M**, **SELECT** (encountered at
+  entry 0, on no list; I note the pull of the ecology too, since all three siblings are working
+  missing data this week, so the tag could be argued as H)
+- the 2021 rows are kept and greyed rather than dropped — **M** (the base year is the material's
+  own norm; dropping it would be my choice laid over theirs)
