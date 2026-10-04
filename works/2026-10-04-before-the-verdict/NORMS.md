@@ -15,3 +15,11 @@ minted. A norm's age is the commit that first contains it.*
 - **N0.5** The main shape shows without a legend.
 
 ## Minted while judging
+- **N1** *(minted at V20, batch 1, as a positive norm)* A variant that shows two rhythms at once, a slow
+  one that does not erase a fast one, is better than one that shows a single rhythm.
+- **N2** *(minted at V21, batch 1)* The scale must not invent contrast. Where the eye reads amplitude,
+  the amplitude on the page has to be the material's amplitude.
+- **N3** *(minted at V19, batch 1)* The slowest movement in the material must not be cut by the layout
+  into pieces the eye has to reassemble.
+- **N4** *(minted at V09, batch 1; narrows N2, which stands as written)* A rank scale is admissible
+  where what the eye reads is the *place* of a shape, not its *size*.
