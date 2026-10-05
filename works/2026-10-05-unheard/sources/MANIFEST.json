@@ -1,0 +1,16 @@
+{"sources": [
+ {"path": "sources/kirkbymoorside.commons-transcode.mp3", "committed": true,
+  "what": "All Saints church, Kirkbymoorside: change ringing on six bells (per the recordist's sibling video), 183.4 s, recorded 2017-07-13 by Helge Klaus Rieder",
+  "licence": "CC0 1.0 (Wikimedia Commons file page)",
+  "page": "https://commons.wikimedia.org/wiki/File:AllSaintsChurchKirkbymoorsideCarrlion.ogg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/34/AllSaintsChurchKirkbymoorsideCarrlion.ogg/AllSaintsChurchKirkbymoorsideCarrlion.ogg.mp3",
+  "http_status": 200, "bytes": 4596136, "sha256": "2ad2c09c12da2ef63034ec3bef787bb5264d72b90ad98b8d685da709ce915091", "retrieved": "2026-10-05",
+  "note": "Commons' MP3 transcode, not the original Ogg. The original (sha1 b1c5cb17e36ead420909103e321a93716c93966d per the Commons API) answered HTTP 429 on every attempt tonight. Everything the practice perceived of the tower passed through this lossy transcode.",
+  "why": "the world's ringing: the norm the practice's own ringing was made to stand beside"},
+ {"path": null, "committed": false, "what": "Sibling video by the same recordist, description only: 'Belfry of Kirbymooreside - Change ringing using 6 bells. Kirkbymooreside bell ringers.'",
+  "page": "https://commons.wikimedia.org/wiki/File:KirkbymooresiteBellRinging6bellsWebM.webm", "why": "metadata used in E1 only; the video was not opened"},
+ {"path": null, "committed": false, "what": "Wikipedia, Strike tone: partial names hum, prime, tierce, quint, nominal; ratios 0.5, 1, 1.2, 1.5, 2 to the prime",
+  "page": "https://en.wikipedia.org/wiki/Strike_tone", "why": "K: the ladder of partials"},
+ {"path": null, "committed": false, "what": "Wikipedia, Change ringing: 'It is the custom to leave a pause of one beat after every alternate row ... open handstroke'",
+  "page": "https://en.wikipedia.org/wiki/Change_ringing", "why": "K: the handstroke gap"}
+]}

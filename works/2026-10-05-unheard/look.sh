@@ -4,7 +4,7 @@ set -e
 N=$1; W=/tmp/claude-0/w
 python3 synth.py iterations/i$N.json $W/i$N.wav
 cp $W/i$N.rows.json iterations/i$N.rows.json
-ffmpeg -y -loglevel error -i $W/i$N.wav -ac 1 -b:a 48k audio/i$N.mp3
+ffmpeg -y -loglevel error -i $W/i$N.wav -ac 1 -b:a 64k audio/i$N-whole.mp3
 python3 perceive.py S $W/i$N.wav seen/i$N-S-030-045 30 45 >/dev/null
 python3 perceive.py N $W/i$N.wav 30 45 > iterations/i$N-N-out.txt
 python3 blows.py $W/i$N.wav iterations/i$N-blows.json >> iterations/i$N-N-out.txt
