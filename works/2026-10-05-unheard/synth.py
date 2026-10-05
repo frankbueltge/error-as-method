@@ -91,6 +91,12 @@ def render(p, out):
         for d, g in ((0.031, 0.5), (0.067, 0.35), (0.113, 0.25), (0.19, 0.15)):
             k = int(d * SR)
             y[k:] += p["room"] * g * y[:-k]
+    if p.get("tail", 0):  # a diffuse tail: noise decaying over `tail` seconds, convolved
+        n = int(p["tail"] * 1.5 * SR)
+        ir = rng.normal(0, 1, n) * np.exp(-np.arange(n) / SR / (p["tail"] / 3))
+        ir[0] = 0; ir *= p.get("wet", 0.03)
+        L = len(y) + n
+        y = y + np.fft.irfft(np.fft.rfft(y, L) * np.fft.rfft(ir, L), L)[:len(y)]
     if p.get("noise", 0):
         y += p["noise"] * rng.normal(0, 1, len(y))
     y = y / np.abs(y).max() * 0.8
