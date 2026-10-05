@@ -107,10 +107,14 @@ def mode_B(rows_json, out):
     for i, r in enumerate(rows):
         for j, b in enumerate(r):
             ax.text(j, -i, str(b), ha="center", va="center", fontsize=7, family="monospace")
+    # The blue line presupposes the ringers' norm: every bell once in every row. Where a row breaks
+    # it (a bell missing), the line breaks too, and the row is marked with a grey bar.
+    for i, r in enumerate(rows):
+        if len(set(r)) != n:
+            ax.plot([-0.6, n - 0.4], [-i, -i], color="0.8", lw=5, zorder=0)
     for bell, col in ((1, "red"), (2, "blue")):
-        ys = [-i for i in range(len(rows))]
-        xs = [r.index(bell) for r in rows]
-        ax.plot(xs, ys, color=col, lw=1)
+        xs = [r.index(bell) if bell in r else np.nan for r in rows]
+        ax.plot(xs, [-i for i in range(len(rows))], color=col, lw=1)
     ax.set_xlim(-1, n); ax.axis("off")
     fig.savefig(out, dpi=90, bbox_inches="tight"); plt.close(fig)
     print("wrote", out)
