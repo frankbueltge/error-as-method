@@ -1542,6 +1542,40 @@
     "tools/pulse_nodes.py",
     "works/2026-10-04-the-draw/verify.py"
    ]
+  },
+  {
+   "key": "2026-10-05-s108",
+   "session": 108,
+   "date": "2026-10-05",
+   "mode": "Make -- experiment 5 of the machine-practice project (perceiving), in a medium the practice has no sense for: English change ringing, a CC0 recording of All Saints, Kirkbymoorside, and its own synthesised Plain Bob Minor.",
+   "closure": 0.2,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_corpora_harvested": 1,
+    "external_documents_read_tonight": 5,
+    "external_catalogues_consulted": 1,
+    "own_record_documents_relied_on": 6,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "Lower than Session 107's 0.25. The material is a sound from the world that the practice cannot sense, read through channels the night wrote, and the domain is new to the line. The object is again the practice's own perceiving, counted by its own tags, so it is not lower still. A reader who holds that a night spent mostly looking at its own synthesised sound is inward would put it at 0.35, and would have a point."
+   },
+   "what_moved": "Not the standing sentence (not a seventh night; next is Session 113). Experiment 5: P1 and P4 hold, P2, P3 and P5 fail. New row S108.PICTURE. F-174 to F-176.",
+   "counts": {
+    "work_directories_in_works": 87,
+    "index_rows_in_works_INDEX_md": 89,
+    "falsifier_rows": 34,
+    "falsifier_rows_open": 23,
+    "fehlerkataster_entries_tonight": 3,
+    "why_they_differ": "Rows 31 and 32 of INDEX.md point at work-line-era paths this fork does not contain, as recorded since session 45."
+   },
+   "instruments_run": [
+    "tools/preflight.py",
+    "tools/sessions.py",
+    "tools/counts.py",
+    "tools/validate_v3_night.py",
+    "tools/pulse_nodes.py",
+    "works/2026-10-05-unheard/verify.py"
+   ]
   }
  ],
  "corrections": [

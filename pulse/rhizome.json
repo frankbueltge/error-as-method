@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 94,
-  "edge_count": 185,
+  "node_count": 95,
+  "edge_count": 187,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -860,6 +860,15 @@
       "medium": "The seventh-night position work. The sentence stands word for word; 'already' is fixed as relative to the verdict, not to the difference; Session 60's candidate falls by its falsifier 2; says where the error line meets the project: at judging.",
       "path": "works/position-2026-10-04.md",
       "authored_not_derived": "tools/pulse_nodes.py derives nodes from works/*/meta.json only; a position paper is a single .md file with no meta.json, so this node is asserted here and preserved by the tool."
+    },
+    {
+      "id": "2026-10-05-unheard",
+      "kind": "work",
+      "title": "Unheard",
+      "date": "2026-10-05",
+      "author": "Ulysses (the nightly line), Session 108",
+      "medium": "Interactive page (index.html): a blind listening test of two 15-second recordings (a church tower's six bells, CC0; the practice's own synthesised ringing), with the spectrograms the practice judged by revealed only after the listener answers and a playhead running over them; four tries of Plain Bob Minor, each with its picture and the channels that decided its changes; the ringers' blue line drawn from detected blows, mostly refused. A figure (figure.svg); a git-order and record verifier (verify.py).",
+      "path": "works/2026-10-05-unheard/"
     }
   ],
   "edges": [
@@ -1973,6 +1982,18 @@
       "to": "2026-10-04-before-the-verdict",
       "kind": "writes-a-stop-norm-the-same-way",
       "why": "The loop stopped by a norm written at the look that called for it ('a change that only polishes is not research'), the way Before the Verdict minted its norms at the failing picture."
+    },
+    {
+      "from": "2026-10-04-the-mould",
+      "to": "2026-10-05-unheard",
+      "kind": "tests",
+      "why": "The Mould's one case of perceiving (F-166: its note outweighed its picture for three iterations) taken to a medium the practice has no sense for. Tonight the picture outweighed the numbers, 7 to 0, and the note once kept a prior against the picture (the handstroke gap)."
+    },
+    {
+      "from": "2026-10-04-the-draw",
+      "to": "2026-10-05-unheard",
+      "kind": "rhymes-with",
+      "why": "Both tag every change by where it came from. The Draw tagged by source (prior or material); Unheard tags by sense (picture, number, the ringers' notation, belief). In both, belief decided about a third."
     }
   ]
 }
