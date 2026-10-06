@@ -21,10 +21,15 @@ dec = [c for c in claims if c["verdict"] in "GH"]
 nH = sum(c["verdict"] == "H" for c in dec); nm = sum(c["match"] for c in dec)
 share = {i: [sum(c["verdict"] == "G" for c in dec if c["instrument"] == i), sum(c["instrument"] == i for c in dec)] for i in ("ear", "mould", "grid24")}
 r = lambda i: share[i][0] / share[i][1]
-R = {"claims": claims, "posthoc": POSTHOC,
+# LITERATURE: the second adjudicator named in PREDICTIONS.md step 4, read after home.py ran.
+LIT = {
+ "E3": "G: a one-minute pattern in GB frequency is reported, 'a persistent one-minute oscillatory pattern' traced to battery storage energy management, its amplitude 'increased substantially in the Nordic and British grids' (Hartmann et al. 2025, arXiv:2510.09862)",
+ "E1": "G in kind: 'regular power dispatch actions every 15 minutes are clearly observable in the ... British (GB) ... grids' (Rydin Gorjao et al. 2020, arXiv:2006.02481); the half-hour itself not named there",
+ "E7": "consistent: NESO's operational target is 'within 0.2Hz of 50Hz in normal conditions' (neso.energy, What is frequency?)"}
+R = {"claims": claims, "posthoc": POSTHOC, "literature": LIT,
  "P1": {"rule": "H >= half of decided", "value": f"{nH}/{len(dec)}", "holds": nH * 2 >= len(dec)},
  "P2": {"rule": "a claim G and new", "value": [c["id"] for c in dec if c["id"] in new and c["verdict"] == "G"], "holds": any(c["id"] in new and c["verdict"] == "G" for c in dec),
-        "posthoc": "E3 and E4 both true of the grid (see posthoc); P2 would hold"},
+        "posthoc": "E3 and E4 both true of the grid (see posthoc); P2 would hold", "literature": "E3 is G by the literature (arXiv:2510.09862); with the literature deciding, P2 holds"},
  "P3": {"rule": "blind tag matches >= 70 %", "value": f"{nm}/{len(dec)}", "holds": nm / len(dec) >= 0.7,
         "posthoc": "by kind (instrument vs grid feature) 16/16: every H-tag confirmed, every G-tagged feature present in the grid; the five misses are sizes and one check"},
  "P4": {"rule": "ear lowest share of G, grid24 highest", "value": {i: f"{a}/{b}" for i, (a, b) in share.items()},

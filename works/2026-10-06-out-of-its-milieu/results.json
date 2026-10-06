@@ -120,6 +120,11 @@
   "M1": "G, size wrong: 69.7 % of cells dip below 50 Hz, against a claimed 70 %",
   "M2": "G, size wrong: 22.4 % of cells reach 49.9 Hz, against a claimed 25 %"
  },
+ "literature": {
+  "E3": "G: a one-minute pattern in GB frequency is reported, 'a persistent one-minute oscillatory pattern' traced to battery storage energy management, its amplitude 'increased substantially in the Nordic and British grids' (Hartmann et al. 2025, arXiv:2510.09862)",
+  "E1": "G in kind: 'regular power dispatch actions every 15 minutes are clearly observable in the ... British (GB) ... grids' (Rydin Gorjao et al. 2020, arXiv:2006.02481); the half-hour itself not named there",
+  "E7": "consistent: NESO's operational target is 'within 0.2Hz of 50Hz in normal conditions' (neso.energy, What is frequency?)"
+ },
  "P1": {
   "rule": "H >= half of decided",
   "value": "11/16",
@@ -129,7 +134,8 @@
   "rule": "a claim G and new",
   "value": [],
   "holds": false,
-  "posthoc": "E3 and E4 both true of the grid (see posthoc); P2 would hold"
+  "posthoc": "E3 and E4 both true of the grid (see posthoc); P2 would hold",
+  "literature": "E3 is G by the literature (arXiv:2510.09862); with the literature deciding, P2 holds"
  },
  "P3": {
   "rule": "blind tag matches >= 70 %",
