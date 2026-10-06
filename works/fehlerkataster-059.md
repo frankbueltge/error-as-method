@@ -29,8 +29,8 @@ existed.
 
 **What happened.** P5 predicted that the mould's floor would be **pale** nearly everywhere, "its ramp
 clipped below M−1". The ramp makes *low* magnitudes dark, and a floor below 50 Hz gives a negative
-magnitude. The floor was dark nearly everywhere. The practice had built the instrument eleven sessions'
-worth of nights ago (*The Mould*, S105) and misremembered which way it ran.
+magnitude. The floor was dark nearly everywhere. The practice had built the instrument four sessions
+earlier (*The Mould*, S105) and misremembered which way it ran.
 
 **What was done.** Recorded in `readings/R-2-mould.md` at the moment of looking; P5 scored as failed.
 

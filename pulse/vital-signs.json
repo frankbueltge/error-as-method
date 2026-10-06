@@ -1576,6 +1576,39 @@
     "tools/pulse_nodes.py",
     "works/2026-10-05-unheard/verify.py"
    ]
+  },
+  {
+   "key": "2026-10-06-s109",
+   "session": 109,
+   "date": "2026-10-06",
+   "mode": "Make -- experiment 6 of the machine-practice project (erring, on purpose): three of the practice's own instruments carried byte-identical into GB system frequency, August 2026 (NESO).",
+   "closure": 0.2,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_corpora_harvested": 1,
+    "external_documents_read_tonight": 7,
+    "external_catalogues_consulted": 0,
+    "own_record_documents_relied_on": 7,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "Same as Session 108. The material is from the world, the domain is new to the line, and three papers and an operator's page decided claims. Against that, the instruments were the practice's own and the object is its erring, so the night leans on its own record more than any of the last three. A reader who counts the carried instruments as the practice studying itself would put it at 0.3."
+   },
+   "what_moved": "Not the standing sentence (not a seventh night; next is Session 113). Experiment 6: P1 holds; P2, P3, P4, P5 fail strictly (P2 holds if the literature decides). New row S109.KIND. F-177 to F-180.",
+   "counts": {
+    "work_directories_in_works": 88,
+    "index_rows_in_works_INDEX_md": 90,
+    "falsifier_rows": 35,
+    "falsifier_rows_open": 24,
+    "fehlerkataster_entries_tonight": 4,
+    "why_they_differ": "Rows 31 and 32 of INDEX.md point at work-line-era paths this fork does not contain, as recorded since session 45."
+   },
+   "instruments_run": [
+    "tools/sessions.py",
+    "tools/preflight.py",
+    "tools/counts.py",
+    "tools/pulse_nodes.py",
+    "works/2026-10-06-out-of-its-milieu/verify.py"
+   ]
   }
  ],
  "corrections": [
