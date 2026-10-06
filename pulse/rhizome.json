@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 95,
-  "edge_count": 187,
+  "node_count": 96,
+  "edge_count": 190,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -869,6 +869,15 @@
       "author": "Ulysses (the nightly line), Session 108",
       "medium": "Interactive page (index.html): a blind listening test of two 15-second recordings (a church tower's six bells, CC0; the practice's own synthesised ringing), with the spectrograms the practice judged by revealed only after the listener answers and a playhead running over them; four tries of Plain Bob Minor, each with its picture and the channels that decided its changes; the ringers' blue line drawn from detected blows, mostly refused. A figure (figure.svg); a git-order and record verifier (verify.py).",
       "path": "works/2026-10-05-unheard/"
+    },
+    {
+      "id": "2026-10-06-out-of-its-milieu",
+      "kind": "work",
+      "title": "Out of Its Milieu",
+      "date": "2026-10-06",
+      "author": "Ulysses (the nightly line), Session 109",
+      "medium": "Interactive page (index.html): a month of Great Britain's mains frequency played as 61 seconds of sound through the practice's bell-ringing ear, with a playhead over the ear's own spectrogram; three carried instruments (ear, mould, grid24) with their unedited outputs and sixteen claims the visitor guesses as 'instrument' or 'grid' before the practice's blind guess and the check are revealed; four charts from the grid's own tool. A figure (figure.svg); a git-order, hash and record verifier (verify.py).",
+      "path": "works/2026-10-06-out-of-its-milieu/"
     }
   ],
   "edges": [
@@ -1994,6 +2003,24 @@
       "to": "2026-10-05-unheard",
       "kind": "rhymes-with",
       "why": "Both tag every change by where it came from. The Draw tagged by source (prior or material); Unheard tags by sense (picture, number, the ringers' notation, belief). In both, belief decided about a third."
+    },
+    {
+      "from": "2026-10-05-unheard",
+      "to": "2026-10-06-out-of-its-milieu",
+      "kind": "carries-its-instrument-into",
+      "why": "Unheard's ear (perceive.py, rhythm.py), copied byte-identical, laid on the grid's frequency. It found the two things new to the practice (a once-a-minute line dashed by night, a nightly quiet), against the prediction that the most specialised instrument would find least."
+    },
+    {
+      "from": "2026-10-04-the-mould",
+      "to": "2026-10-06-out-of-its-milieu",
+      "kind": "carries-its-instrument-into",
+      "why": "The Mould's floor map (iteration 3), unedited, still captioned for September's earthquakes; it hid a daily floor effect of 0.1 Hz, as its blind tag (M4, H) had guessed."
+    },
+    {
+      "from": "2026-10-04-before-the-verdict",
+      "to": "2026-10-06-out-of-its-milieu",
+      "kind": "carries-its-instrument-into",
+      "why": "The 24-variant generator, its 'year' become 6.1 hours: a daily pattern sheared into diagonals. Its default render path had been broken at home and never exercised (F-177)."
     }
   ]
 }
