@@ -1,0 +1,16 @@
+{
+ "hourly": {
+  "url": "https://luftdaten.umweltbundesamt.de/api/air-data/v3/measures/json?date_from=2025-01-01&date_to=2025-12-31&time_from=1&time_to=24&station=145&component=1&lang=en&scope=2",
+  "bytes": 498105,
+  "sha256": "d5b97740f8fbe3730be22a8b0e4add95c830f9f5bf358e13673e39a975430996"
+ },
+ "daily": {
+  "url": "https://luftdaten.umweltbundesamt.de/api/air-data/v3/measures/json?date_from=2025-01-01&date_to=2025-12-31&time_from=1&time_to=24&station=145&component=1&lang=en&scope=1",
+  "bytes": 21161,
+  "sha256": "2a67e724e01508371c39adc1f516393f20477327949818bab3d5b90f708d017d"
+ },
+ "what": "Umweltbundesamt (German Environment Agency), Air Data API v3: PM10 at Berlin Neukoelln (DEBE034), 2025",
+ "licence": "Datenlizenz Deutschland (Data licence Germany), as stated on https://luftdaten.umweltbundesamt.de/api/air-data/v4/doc; source: Umweltbundesamt with data of the Berlin air quality network",
+ "retrieved_utc": "2026-10-07T14:52:35Z",
+ "note": "Times are CET (MEZ) per the API description; hours 1..24, value is for the hour ending at date_end."
+}
