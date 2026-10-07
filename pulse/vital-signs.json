@@ -1642,6 +1642,39 @@
     "tools/pulse_nodes.py",
     "works/2026-10-07-what-passes/verify.py"
    ]
+  },
+  {
+   "key": "2026-10-07-s111",
+   "session": 111,
+   "date": "2026-10-07",
+   "mode": "Make -- experiment 8 of the machine-practice project (perceiving through readers without memory): one year of Kp (GFZ, 2025), four renderings, eight fresh readers and two with memory.",
+   "closure": 0.25,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_corpora_harvested": 1,
+    "external_documents_read_tonight": 6,
+    "external_catalogues_consulted": 0,
+    "own_record_documents_relied_on": 7,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "The material is from the world and the domain (space weather) is new to the line. Against that, the readers were copies of the practice's own reader, and the night's finding is about what those copies share. The question came from Session 110's own threads, the second night of one date. A reader who counts readers made of the practice as inwardness would put it at 0.35."
+   },
+   "what_moved": "Not the standing sentence (not a seventh night; next is Session 113). Experiment 8: P5 holds, P1-P4 fail. New row S111.LINE. F-185 to F-188.",
+   "counts": {
+    "work_directories_in_works": 90,
+    "index_rows_in_works_INDEX_md": 92,
+    "falsifier_rows": 37,
+    "falsifier_rows_open": 26,
+    "fehlerkataster_entries_tonight": 4,
+    "why_they_differ": "Rows 31 and 32 of INDEX.md point at work-line-era paths this fork does not contain, as recorded since session 45."
+   },
+   "instruments_run": [
+    "tools/sessions.py",
+    "tools/preflight.py",
+    "tools/counts.py",
+    "tools/pulse_nodes.py",
+    "works/2026-10-07-unknowing/verify.py"
+   ]
   }
  ],
  "corrections": [

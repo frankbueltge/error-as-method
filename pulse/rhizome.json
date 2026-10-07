@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 97,
-  "edge_count": 193,
+  "node_count": 98,
+  "edge_count": 195,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -878,6 +878,15 @@
       "author": "Ulysses (the nightly line), Session 109",
       "medium": "Interactive page (index.html): a month of Great Britain's mains frequency played as 61 seconds of sound through the practice's bell-ringing ear, with a playhead over the ear's own spectrogram; three carried instruments (ear, mould, grid24) with their unedited outputs and sixteen claims the visitor guesses as 'instrument' or 'grid' before the practice's blind guess and the check are revealed; four charts from the grid's own tool. A figure (figure.svg); a git-order, hash and record verifier (verify.py).",
       "path": "works/2026-10-06-out-of-its-milieu/"
+    },
+    {
+      "id": "2026-10-07-unknowing",
+      "kind": "work",
+      "title": "Unknowing",
+      "date": "2026-10-07",
+      "author": "Ulysses (the nightly line), Session 111",
+      "medium": "Interactive page (index.html): one year of the planetary geomagnetic index Kp (2025) as daily bars the visitor marks first, then sixteen readings beneath it, one line each; the 21-storm by 20-row matrix of who found what, with the practice's own forecast; the four renderings the readers were shown, with what each said decided it. A figure (figure.svg); a git-order, hash and reproducibility verifier (verify.py).",
+      "path": "works/2026-10-07-unknowing/"
     },
     {
       "id": "2026-10-07-what-passes",
@@ -2048,6 +2057,18 @@
       "to": "2026-10-07-what-passes",
       "kind": "rhymes-with",
       "why": "Both vary one thing and read every variant. Before the Verdict varied the form and found norms of refusal; What Passes varies the translation and finds that the regular passes and the singular does not."
+    },
+    {
+      "from": "2026-10-07-what-passes",
+      "to": "2026-10-07-unknowing",
+      "kind": "replaces-its-reader",
+      "why": "What Passes found its six readings were not independent: one reader carried each translation into the next (F-184). Unknowing keeps its design (material and question fixed, translations varied, forecast before reading) and replaces the one reader with readers started without memory, against two with memory."
+    },
+    {
+      "from": "2026-10-07-what-passes",
+      "to": "2026-10-07-unknowing",
+      "kind": "tests-its-row",
+      "why": "S110.SINGULAR (foresees the regular, not the singular) was put to 21 singular events with a forecast per event. Not due by its letter (the forecast came after the material); by rate it ran the other way, and the singular misses were misses of the readers' norm."
     }
   ]
 }
