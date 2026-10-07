@@ -1,0 +1,40 @@
+{
+ "reader": "F-T2b",
+ "condition": "fresh",
+ "translation": "T2",
+ "agent_tool_uses": 2,
+ "answer": {
+  "cycle": "yes",
+  "period_days": 29.5,
+  "week": "cannot tell",
+  "level": "lower",
+  "year": "yes",
+  "highest_day": 291,
+  "second_day": 262,
+  "peak_shape": "run",
+  "drops": "none",
+  "stands_out": [
+   "100",
+   "327",
+   "359",
+   "392",
+   "417",
+   "444"
+  ],
+  "decided": {
+   "cycle": "24 regularly spaced peaks (~25, 56, 85, 114 ... 675, 704), about 29.5 days apart",
+   "week": "small wiggles too fine to resolve at this resolution",
+   "level": "baseline in year 1 runs about 500-700, year 2 about 350-500 (log axis)",
+   "year": "low baseline around days 150-230 and again around days 515-595, higher baseline in winter in both years",
+   "highest_day": "tallest spike, near 4000 on the log axis at about day 291",
+   "second_day": "next tallest spike, about 3700 at day 262; day 616 is nearly as high",
+   "peak_shape": "peaks span several days; neighbors within 2-3 days still well above half the peak (e.g. about 1500 two days after 291)",
+   "drops": "no dips to a third of the local baseline; troughs are shallow",
+   "stands_out": "off-cycle single-day spikes between the regular peaks: a strong one at ~100 (~2000), smaller ones at ~327, ~359, ~392 (~1400), ~417, ~444"
+  },
+  "guess": "Daily page views/searches for something tied to the full moon (lunar cycle), e.g. a 'full moon' Wikipedia article.",
+  "files_opened": [
+   "/tmp/claude-0/-home-user/9f8c7896-7e5a-5799-9945-fa7a377bc045/scratchpad/r/T2.png"
+  ]
+ }
+}
