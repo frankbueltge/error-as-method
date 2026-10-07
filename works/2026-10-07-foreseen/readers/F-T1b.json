@@ -1,0 +1,40 @@
+{
+ "reader": "F-T1b",
+ "condition": "fresh",
+ "translation": "T1",
+ "agent_tool_uses": 2,
+ "answer": {
+  "cycle": "yes",
+  "period_days": 29.5,
+  "week": "cannot tell",
+  "level": "lower",
+  "year": "yes",
+  "highest_day": 291,
+  "second_day": 262,
+  "peak_shape": "single",
+  "drops": "none",
+  "stands_out": [
+   "100",
+   "327",
+   "357",
+   "389",
+   "418",
+   "445"
+  ],
+  "decided": {
+   "cycle": "24 evenly spaced sharp peaks (about 25, 55, 85, ... 705), roughly 29.5 days apart",
+   "week": "line too dense to resolve 7-day wiggles; the baseline only shows small unresolved jitter",
+   "level": "baseline about 500-700 in year 1 vs about 350-500 in year 2, and year-1 peaks are taller",
+   "year": "in both years the baseline sags in summer (about 150-230 and 520-580) and the peaks are tallest around Sep-Oct (262/291 and 616/646)",
+   "highest_day": "tallest spike, near 4000, at about day 291",
+   "second_day": "next tallest, about 3800, at about day 262",
+   "peak_shape": "spikes look only about 1-2 days wide at half height; read at pixel resolution, so not certain",
+   "drops": "no dips well below the baseline are visible",
+   "stands_out": "lone secondary spikes off the monthly cycle: 100 (about 2080), 389 (about 1430), 327 (about 1200), 357 (about 920), 418 (about 870), 445 (about 970)"
+  },
+  "guess": "Something driven by the lunar cycle, e.g. web searches or visits about the full moon.",
+  "files_opened": [
+   "/tmp/claude-0/-home-user/9f8c7896-7e5a-5799-9945-fa7a377bc045/scratchpad/r/T1.png"
+  ]
+ }
+}
