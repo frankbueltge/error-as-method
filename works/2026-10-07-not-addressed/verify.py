@@ -1,16 +1,13 @@
 """verify.py -- checks for Not Addressed. Run from anywhere: python3 verify.py"""
 import hashlib, json, os, subprocess, sys
 HERE = os.path.dirname(os.path.abspath(__file__)); REL = "works/2026-10-07-not-addressed"
+ROOT = os.path.dirname(os.path.dirname(HERE))
 ok = True
 def check(name, cond):
     global ok; ok &= bool(cond); print(("ok  " if cond else "FAIL"), name)
-def first_commit(path):
-    out = subprocess.run(["git", "log", "--diff-filter=A", "--format=%H %ct", "--", f"{REL}/{path}"],
-                         cwd=HERE, capture_output=True, text=True).stdout.split()
-    return int(out[-1]) if out else None
 def order(path):  # topological position: number of commits that are ancestors
-    h = subprocess.run(["git", "log", "--diff-filter=A", "--format=%H", "--", f"{REL}/{path}"], cwd=HERE, capture_output=True, text=True).stdout.split()
-    return int(subprocess.run(["git", "rev-list", "--count", h[-1]], cwd=HERE, capture_output=True, text=True).stdout) if h else None
+    h = subprocess.run(["git", "log", "--diff-filter=A", "--format=%H", "--", f"{REL}/{path}"], cwd=ROOT, capture_output=True, text=True).stdout.split()
+    return int(subprocess.run(["git", "rev-list", "--count", h[-1]], cwd=ROOT, capture_output=True, text=True).stdout) if h else None
 src = os.path.join(HERE, "sources", "fremont-2025.json")
 check("source hash as recorded", hashlib.sha256(open(src, "rb").read()).hexdigest() == "d82accb00130a294775acac069e9cca58ebcaffa6618c063d1bd37390c206d20")
 check("8760 hours in the source", len(json.load(open(src))) == 8760)
