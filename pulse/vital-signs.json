@@ -1675,6 +1675,39 @@
     "tools/pulse_nodes.py",
     "works/2026-10-07-unknowing/verify.py"
    ]
+  },
+  {
+   "key": "2026-10-07-s112",
+   "session": 112,
+   "date": "2026-10-07",
+   "mode": "Make -- experiment 9 of the machine-practice project (perceiving through readers of other trainings): a year of hourly PM10 (Umweltbundesamt, Berlin Neukoelln, 2025), two renderings, twelve fresh readers of three trainings.",
+   "closure": 0.25,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_corpora_harvested": 1,
+    "external_documents_read_tonight": 5,
+    "external_catalogues_consulted": 0,
+    "own_record_documents_relied_on": 7,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "The material is from the world and the domain (air quality) is new to the line. The readers were of other trainings, but of one maker, so the night's other is still close kin. The question came from Session 111's own threads, the third night of one date. A reader who counts that as inwardness would put it at 0.35."
+   },
+   "what_moved": "Not the standing sentence (not a seventh night; next is Session 113). Experiment 9: P1-P5 fail. S110.SINGULAR and S111.LINE falsified; S112.FAMILY added. F-189 to F-192.",
+   "counts": {
+    "work_directories_in_works": 91,
+    "index_rows_in_works_INDEX_md": 93,
+    "falsifier_rows": 38,
+    "falsifier_rows_open": 25,
+    "fehlerkataster_entries_tonight": 4,
+    "why_they_differ": "Rows 31 and 32 of INDEX.md point at work-line-era paths this fork does not contain, as recorded since session 45."
+   },
+   "instruments_run": [
+    "tools/sessions.py",
+    "tools/preflight.py",
+    "tools/counts.py",
+    "tools/pulse_nodes.py",
+    "works/2026-10-07-other-trainings/verify.py"
+   ]
   }
  ],
  "corrections": [
