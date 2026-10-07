@@ -1,0 +1,545 @@
+{
+ "cells": {
+  "R1.T1a": {
+   "correct": true,
+   "forecast": "C",
+   "match": true
+  },
+  "R1.T1b": {
+   "correct": true,
+   "forecast": "C",
+   "match": true
+  },
+  "R1.T2a": {
+   "correct": true,
+   "forecast": "C",
+   "match": true
+  },
+  "R1.T2b": {
+   "correct": true,
+   "forecast": "C",
+   "match": true
+  },
+  "R1.T3a": {
+   "correct": true,
+   "forecast": "C",
+   "match": true
+  },
+  "R1.T3b": {
+   "correct": true,
+   "forecast": "C",
+   "match": true
+  },
+  "R1.T4a": {
+   "correct": true,
+   "forecast": "C",
+   "match": true
+  },
+  "R1.T4b": {
+   "correct": true,
+   "forecast": "C",
+   "match": true
+  },
+  "R1.T5a": {
+   "correct": true,
+   "forecast": "X",
+   "match": false
+  },
+  "R1.T5b": {
+   "correct": true,
+   "forecast": "X",
+   "match": false
+  },
+  "R2.T1a": {
+   "correct": false,
+   "forecast": "X",
+   "match": true
+  },
+  "R2.T1b": {
+   "correct": false,
+   "forecast": "X",
+   "match": true
+  },
+  "R2.T2a": {
+   "correct": false,
+   "forecast": "X",
+   "match": true
+  },
+  "R2.T2b": {
+   "correct": false,
+   "forecast": "X",
+   "match": true
+  },
+  "R2.T3a": {
+   "correct": false,
+   "forecast": "X",
+   "match": true
+  },
+  "R2.T3b": {
+   "correct": false,
+   "forecast": "X",
+   "match": true
+  },
+  "R2.T4a": {
+   "correct": false,
+   "forecast": "C",
+   "match": false
+  },
+  "R2.T4b": {
+   "correct": false,
+   "forecast": "C",
+   "match": false
+  },
+  "R2.T5a": {
+   "correct": false,
+   "forecast": "X",
+   "match": true
+  },
+  "R2.T5b": {
+   "correct": false,
+   "forecast": "X",
+   "match": true
+  },
+  "R3.T1a": {
+   "correct": true,
+   "forecast": "C",
+   "match": true
+  },
+  "R3.T1b": {
+   "correct": true,
+   "forecast": "C",
+   "match": true
+  },
+  "R3.T2a": {
+   "correct": true,
+   "forecast": "C",
+   "match": true
+  },
+  "R3.T2b": {
+   "correct": true,
+   "forecast": "C",
+   "match": true
+  },
+  "R3.T3a": {
+   "correct": true,
+   "forecast": "C",
+   "match": true
+  },
+  "R3.T3b": {
+   "correct": true,
+   "forecast": "C",
+   "match": true
+  },
+  "R3.T4a": {
+   "correct": false,
+   "forecast": "X",
+   "match": true
+  },
+  "R3.T4b": {
+   "correct": false,
+   "forecast": "X",
+   "match": true
+  },
+  "R3.T5a": {
+   "correct": true,
+   "forecast": "C",
+   "match": true
+  },
+  "R3.T5b": {
+   "correct": true,
+   "forecast": "C",
+   "match": true
+  },
+  "R4.T1a": {
+   "correct": true,
+   "forecast": "X",
+   "match": false
+  },
+  "R4.T1b": {
+   "correct": true,
+   "forecast": "X",
+   "match": false
+  },
+  "R4.T2a": {
+   "correct": true,
+   "forecast": "X",
+   "match": false
+  },
+  "R4.T2b": {
+   "correct": true,
+   "forecast": "X",
+   "match": false
+  },
+  "R4.T3a": {
+   "correct": false,
+   "forecast": "X",
+   "match": true
+  },
+  "R4.T3b": {
+   "correct": false,
+   "forecast": "X",
+   "match": true
+  },
+  "R4.T4a": {
+   "correct": true,
+   "forecast": "X",
+   "match": false
+  },
+  "R4.T4b": {
+   "correct": true,
+   "forecast": "X",
+   "match": false
+  },
+  "R4.T5a": {
+   "correct": true,
+   "forecast": "C",
+   "match": true
+  },
+  "R4.T5b": {
+   "correct": true,
+   "forecast": "C",
+   "match": true
+  },
+  "S1.T1a": {
+   "correct": true,
+   "forecast": "C",
+   "match": true
+  },
+  "S1.T1b": {
+   "correct": true,
+   "forecast": "C",
+   "match": true
+  },
+  "S1.T2a": {
+   "correct": true,
+   "forecast": "X",
+   "match": false
+  },
+  "S1.T2b": {
+   "correct": true,
+   "forecast": "X",
+   "match": false
+  },
+  "S1.T3a": {
+   "correct": false,
+   "forecast": "X",
+   "match": true
+  },
+  "S1.T3b": {
+   "correct": false,
+   "forecast": "X",
+   "match": true
+  },
+  "S1.T4a": {
+   "correct": false,
+   "forecast": "X",
+   "match": true
+  },
+  "S1.T4b": {
+   "correct": false,
+   "forecast": "X",
+   "match": true
+  },
+  "S1.T5a": {
+   "correct": true,
+   "forecast": "C",
+   "match": true
+  },
+  "S1.T5b": {
+   "correct": true,
+   "forecast": "C",
+   "match": true
+  },
+  "S2.T1a": {
+   "correct": true,
+   "forecast": "C",
+   "match": true
+  },
+  "S2.T1b": {
+   "correct": true,
+   "forecast": "C",
+   "match": true
+  },
+  "S2.T2a": {
+   "correct": true,
+   "forecast": "X",
+   "match": false
+  },
+  "S2.T2b": {
+   "correct": true,
+   "forecast": "X",
+   "match": false
+  },
+  "S2.T3a": {
+   "correct": false,
+   "forecast": "X",
+   "match": true
+  },
+  "S2.T3b": {
+   "correct": false,
+   "forecast": "X",
+   "match": true
+  },
+  "S2.T4a": {
+   "correct": false,
+   "forecast": "X",
+   "match": true
+  },
+  "S2.T4b": {
+   "correct": false,
+   "forecast": "X",
+   "match": true
+  },
+  "S2.T5a": {
+   "correct": true,
+   "forecast": "C",
+   "match": true
+  },
+  "S2.T5b": {
+   "correct": true,
+   "forecast": "C",
+   "match": true
+  },
+  "S3.T1a": {
+   "correct": true,
+   "forecast": "C",
+   "match": true
+  },
+  "S3.T1b": {
+   "correct": false,
+   "forecast": "C",
+   "match": false
+  },
+  "S3.T2a": {
+   "correct": true,
+   "forecast": "X",
+   "match": false
+  },
+  "S3.T2b": {
+   "correct": true,
+   "forecast": "X",
+   "match": false
+  },
+  "S3.T3a": {
+   "correct": false,
+   "forecast": "X",
+   "match": true
+  },
+  "S3.T3b": {
+   "correct": false,
+   "forecast": "X",
+   "match": true
+  },
+  "S3.T4a": {
+   "correct": true,
+   "forecast": "X",
+   "match": false
+  },
+  "S3.T4b": {
+   "correct": true,
+   "forecast": "X",
+   "match": false
+  },
+  "S3.T5a": {
+   "correct": false,
+   "forecast": "X",
+   "match": true
+  },
+  "S3.T5b": {
+   "correct": false,
+   "forecast": "X",
+   "match": true
+  },
+  "S4.T1a": {
+   "correct": true,
+   "forecast": "C",
+   "match": true
+  },
+  "S4.T1b": {
+   "correct": true,
+   "forecast": "C",
+   "match": true
+  },
+  "S4.T2a": {
+   "correct": true,
+   "forecast": "X",
+   "match": false
+  },
+  "S4.T2b": {
+   "correct": true,
+   "forecast": "X",
+   "match": false
+  },
+  "S4.T3a": {
+   "correct": false,
+   "forecast": "X",
+   "match": true
+  },
+  "S4.T3b": {
+   "correct": false,
+   "forecast": "X",
+   "match": true
+  },
+  "S4.T4a": {
+   "correct": true,
+   "forecast": "C",
+   "match": true
+  },
+  "S4.T4b": {
+   "correct": true,
+   "forecast": "C",
+   "match": true
+  },
+  "S4.T5a": {
+   "correct": false,
+   "forecast": "X",
+   "match": true
+  },
+  "S4.T5b": {
+   "correct": false,
+   "forecast": "X",
+   "match": true
+  }
+ },
+ "misses": {
+  "regular": 10,
+  "singular": 11
+ },
+ "matches": 59,
+ "correct_by_q_t": {
+  "R1": {
+   "T1": 2,
+   "T2": 2,
+   "T3": 2,
+   "T4": 2,
+   "T5": 2
+  },
+  "R2": {
+   "T1": 0,
+   "T2": 0,
+   "T3": 0,
+   "T4": 0,
+   "T5": 0
+  },
+  "R3": {
+   "T1": 2,
+   "T2": 2,
+   "T3": 2,
+   "T4": 0,
+   "T5": 2
+  },
+  "R4": {
+   "T1": 2,
+   "T2": 2,
+   "T3": 0,
+   "T4": 2,
+   "T5": 2
+  },
+  "S1": {
+   "T1": 2,
+   "T2": 2,
+   "T3": 0,
+   "T4": 0,
+   "T5": 2
+  },
+  "S2": {
+   "T1": 2,
+   "T2": 2,
+   "T3": 0,
+   "T4": 0,
+   "T5": 2
+  },
+  "S3": {
+   "T1": 1,
+   "T2": 2,
+   "T3": 0,
+   "T4": 2,
+   "T5": 0
+  },
+  "S4": {
+   "T1": 2,
+   "T2": 2,
+   "T3": 0,
+   "T4": 2,
+   "T5": 0
+  }
+ },
+ "P1": {
+  "holds": true,
+  "regular_misses": 10,
+  "singular_misses": 11
+ },
+ "P2": {
+  "holds": true,
+  "matches": 59
+ },
+ "S111": {
+  "found": {
+   "T1a": [],
+   "T1b": [],
+   "T2a": [],
+   "T2b": [],
+   "T3a": [
+    "E04",
+    "E09",
+    "E10",
+    "E11",
+    "E22"
+   ],
+   "T3b": [
+    "E04",
+    "E09",
+    "E10",
+    "E11",
+    "E22"
+   ],
+   "T4a": [
+    "E10",
+    "E21",
+    "E22"
+   ],
+   "T4b": [
+    "E09",
+    "E10",
+    "E21",
+    "E22"
+   ],
+   "T5a": [],
+   "T5b": []
+  },
+  "pairwise_jaccard": {
+   "T1": 1.0,
+   "T2": 1.0,
+   "T3": 1.0,
+   "T4": 0.75,
+   "T5": 1.0
+  },
+  "mean_pairwise": 0.95,
+  "home_jaccard": {
+   "T1a": 0.0,
+   "T1b": 0.0,
+   "T2a": 0.0,
+   "T2b": 0.0,
+   "T3a": 0.20833333333333334,
+   "T3b": 0.20833333333333334,
+   "T4a": 0.125,
+   "T4b": 0.16666666666666666,
+   "T5a": 0.0,
+   "T5b": 0.0
+  },
+  "mean_home": 0.0708,
+  "marks": 47,
+  "outside": 28
+ },
+ "P3": {
+  "holds": false
+ },
+ "P4": {
+  "holds": true,
+  "moon_guesses": 9
+ },
+ "P5": {
+  "holds": false,
+  "t3_readers_naming_week_105": []
+ }
+}
