@@ -2,10 +2,10 @@
 import subprocess, json, hashlib, os, sys
 W = 'works/2026-10-07-unknowing/'
 def first_commit(path):
-    out = subprocess.run(['git', 'log', '--diff-filter=A', '--format=%H %ct', '--', W + path], capture_output=True, text=True).stdout.split()
+    out = subprocess.run(['git', 'log', '--diff-filter=A', '--format=%H %ct', '--', W + path], capture_output=True, text=True, cwd='../..').stdout.split()
     return out[-2] if out else None
 def order(c):  # position in first-parent history (older = smaller)
-    revs = subprocess.run(['git', 'rev-list', '--reverse', 'HEAD'], capture_output=True, text=True).stdout.split()
+    revs = subprocess.run(['git', 'rev-list', '--reverse', 'HEAD'], capture_output=True, text=True, cwd='../..').stdout.split()
     return revs.index(c)
 ok = 0; bad = 0
 def check(name, cond):
