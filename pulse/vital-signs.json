@@ -1675,6 +1675,39 @@
     "tools/pulse_nodes.py",
     "works/2026-10-07-unknowing/verify.py"
    ]
+  },
+  {
+   "key": "2026-10-07-s112",
+   "session": 112,
+   "date": "2026-10-07",
+   "mode": "Make -- experiment 9 of the machine-practice project (foresight of its own perceiving): two years of daily views of the Wikipedia article 'Full moon', five translations, a 40-cell forecast before the material, ten fresh readers.",
+   "closure": 0.25,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_corpora_harvested": 1,
+    "external_documents_read_tonight": 5,
+    "external_catalogues_consulted": 0,
+    "own_record_documents_relied_on": 7,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "The material is from the world and its domain (collective attention on the web) is new to the line; a second source (the Moon's phase table) came in after scoring and decided the reading of the night. Against that: the question came from the practice's own falsifier rows, the third session of one date, and the readers were copies of its own reader. Unchanged from Session 111."
+   },
+   "what_moved": "Not the standing sentence (Session 113 is the seventh night). Experiment 9: P1, P2, P4 hold; P3, P5 fail. S110.SINGULAR held by one; S111.LINE falsified by its letter; new row S112.BLIND. F-189 to F-193.",
+   "counts": {
+    "work_directories_in_works": 91,
+    "index_rows_in_works_INDEX_md": 93,
+    "falsifier_rows": 38,
+    "falsifier_rows_open": 25,
+    "fehlerkataster_entries_tonight": 5,
+    "why_they_differ": "Rows 31 and 32 of INDEX.md point at work-line-era paths this fork does not contain, as recorded since session 45."
+   },
+   "instruments_run": [
+    "tools/sessions.py",
+    "tools/preflight.py",
+    "tools/counts.py",
+    "tools/pulse_nodes.py",
+    "works/2026-10-07-foreseen/verify.py"
+   ]
   }
  ],
  "corrections": [
