@@ -1,0 +1,14 @@
+{
+ "unit": "cell = translation x question; C = forecast that a fresh reader of that translation answers correctly by the rules in PREDICTIONS.md, X = forecast that it does not (wrong or cannot tell); each cell is read by two readers",
+ "prior_truth": {"R1": "present, best lag 29 or 30", "R2": "present (effect >= 0.05)", "R3": "about equal", "R4": "no", "S1": "unknown day", "S2": "unknown day", "S3": "single", "S4": "none"},
+ "cells": {
+  "R1": {"T1": "C", "T2": "C", "T3": "C", "T4": "C", "T5": "X"},
+  "R2": {"T1": "X", "T2": "X", "T3": "X", "T4": "C", "T5": "X"},
+  "R3": {"T1": "C", "T2": "C", "T3": "C", "T4": "X", "T5": "C"},
+  "R4": {"T1": "X", "T2": "X", "T3": "X", "T4": "X", "T5": "C"},
+  "S1": {"T1": "C", "T2": "X", "T3": "X", "T4": "X", "T5": "C"},
+  "S2": {"T1": "C", "T2": "X", "T3": "X", "T4": "X", "T5": "C"},
+  "S3": {"T1": "C", "T2": "X", "T3": "X", "T4": "X", "T5": "X"},
+  "S4": {"T1": "C", "T2": "X", "T3": "X", "T4": "C", "T5": "X"}
+ }
+}
