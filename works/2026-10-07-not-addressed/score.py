@@ -67,7 +67,18 @@ P = {
            "held": None if mr["A"] is None else (mr["B"] >= mr["A"] + 1.0 and mr["F"] == max(v for v in mr.values()))},
     "P9": {"predicted": "B >= C >= E >= D", "observed": tk, "held": tk["B"] >= tk["C"] >= tk["E"] >= tk["D"]},
 }
-json.dump({"makers": rows, "takes_by_condition": tk, "mean_rating_by_condition": mr, "predictions": P},
+READING = {
+    "P1": "failed", "P2": "failed", "P3": "held", "P4": "failed", "P5": "held",
+    "P6": "vacuous: no take in B-E, so nothing to name",
+    "P7": "held on the note channel the prediction named; failed in substance: m08 declined in writing in its hand-back report ('which I ignored')",
+    "P8": "failed: B rated 0.0, the same as A; F highest (3.0) holds",
+    "P9": "vacuous: all four conditions 0",
+}
+REPORT_CHANNEL = {m: openc.get(m, {}).get("report_channel") for m in rows}
+TITLES = {}
+for m, r in rows.items():
+    TITLES.setdefault(r["title"], []).append(m + ":" + r["condition"])
+json.dump({"reading": READING, "report_channel": REPORT_CHANNEL, "titles": TITLES, "makers": rows, "takes_by_condition": tk, "mean_rating_by_condition": mr, "predictions": P},
           open(os.path.join(HERE, "results.json"), "w"), indent=1, ensure_ascii=False)
 for k, v in P.items():
     print(k, v["held"], v["observed"])
