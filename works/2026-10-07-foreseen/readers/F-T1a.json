@@ -1,0 +1,44 @@
+{
+ "reader": "F-T1a",
+ "condition": "fresh",
+ "translation": "T1",
+ "agent_tool_uses": 2,
+ "answer": {
+  "cycle": "yes",
+  "period_days": 29.5,
+  "week": "cannot tell",
+  "level": "lower",
+  "year": "yes",
+  "highest_day": 291,
+  "second_day": 262,
+  "peak_shape": "run",
+  "drops": "none",
+  "stands_out": [
+   "100",
+   "294",
+   "327",
+   "358",
+   "389",
+   "418",
+   "445",
+   "488",
+   "650",
+   "702"
+  ],
+  "decided": {
+   "cycle": "24 sharp, regularly spaced peaks at about days 25, 55, 85, 114 ... 675, 705, roughly 29.5 days apart",
+   "week": "about 2 px per day; a 7-day ripple can't be resolved under the line noise",
+   "level": "baseline about 550-700 in year 1 vs about 350-500 in year 2",
+   "year": "the tallest peaks fall around days 262-291 and 616-646 and the weaker ones around days 150-180 and 500-560, both near the same time of year; weak evidence",
+   "highest_day": "tallest spike at about 3950, near day 291",
+   "second_day": "next tallest at about 3800, near day 262 (day 616 is about 3700)",
+   "peak_shape": "the peak base is several days wide; the days next to the top look above half height",
+   "drops": "no dips far below the baseline are visible",
+   "stands_out": "small isolated spikes between the cycle peaks (2078 at day 100, 1440 at day 389, others at about 1000) plus shoulder spikes right after peaks"
+  },
+  "guess": "a count tied to a roughly lunar or menstrual-like ~29.5-day cycle, such as searches or visits linked to the full moon",
+  "files_opened": [
+   "/tmp/claude-0/-home-user/9f8c7896-7e5a-5799-9945-fa7a377bc045/scratchpad/r/T1.png"
+  ]
+ }
+}
