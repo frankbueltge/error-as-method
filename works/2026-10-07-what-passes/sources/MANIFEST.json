@@ -1,0 +1,13 @@
+{
+ "merced-11264500-2026-04-01_07-31.rdb": {
+  "url": "https://nwis.waterservices.usgs.gov/nwis/iv/?format=rdb&sites=11264500&parameterCd=00060&startDT=2026-04-01&endDT=2026-07-31",
+  "requested_as": "https://waterservices.usgs.gov/nwis/iv/?format=rdb&sites=11264500&parameterCd=00060&startDT=2026-04-01&endDT=2026-07-31 (HTTP 301 to the URL above)",
+  "http_status": 200,
+  "bytes": 483700,
+  "sha256": "63102b51b1dc1ca7d72094d5c09d8a0cfbd696f7e65d733294a00aa6c1a38826",
+  "retrieved": "2026-10-07 06:47:10 -04:00 (the file's own header)",
+  "what": "USGS NWIS instantaneous values, site 11264500 Merced R at Happy Isles Bridge nr Yosemite CA, parameter 00060 discharge (cubic feet per second), 15-minute, 11,712 values; 3,509 approved (A), 8,203 provisional (P), as the file itself states",
+  "licence": "U.S. Geological Survey information is in the public domain (https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits); provisional data are subject to revision (https://help.waterdata.usgs.gov/policies/provisional-data-statement)",
+  "why": "the one material held fixed while six adapters vary"
+ }
+}
