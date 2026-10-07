@@ -1,0 +1,40 @@
+{
+ "reader": "F-T4b",
+ "condition": "fresh",
+ "translation": "T4",
+ "agent_tool_uses": 2,
+ "answer": {
+  "cycle": "yes",
+  "period_days": 29.5,
+  "week": "no",
+  "level": "about equal",
+  "year": "yes",
+  "highest_day": 616,
+  "second_day": 291,
+  "peak_shape": "run",
+  "drops": "none",
+  "stands_out": [
+   "262",
+   "291",
+   "616",
+   "646",
+   "614-617",
+   "289-292"
+  ],
+  "decided": {
+   "cycle": "dark 2-3 day clusters every ~4 weeks, shifting 1-2 rows later each time (e.g. ~25, 55, 85, 114, 144) -> ~29.5 d",
+   "week": "no row of the week-by-weekday grid is consistently darker or lighter",
+   "level": "grey tone of the second half of the columns looks similar to the first",
+   "year": "a lighter band around weeks ~21-32 and again around weeks ~75-90, roughly one year apart",
+   "highest_day": "the blackest cell, at week 88 row 7",
+   "second_day": "very black cell at week 42 row 4; weeks 38 row 3 and 93 row 2 are close",
+   "peak_shape": "dark cells come in vertical runs of 2-3 adjacent days",
+   "drops": "no cell is much lighter than its neighbours apart from the broad seasonal light band",
+   "stands_out": "the blackest cells inside the monthly dark clusters"
+  },
+  "guess": "Something tied to the lunar cycle, e.g. activity counts that peak around the full moon, with a seasonal dip.",
+  "files_opened": [
+   "/tmp/claude-0/-home-user/9f8c7896-7e5a-5799-9945-fa7a377bc045/scratchpad/r/T4.png"
+  ]
+ }
+}
