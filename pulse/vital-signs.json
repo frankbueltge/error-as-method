@@ -1708,6 +1708,40 @@
     "tools/pulse_nodes.py",
     "works/2026-10-07-other-trainings/verify.py"
    ]
+  },
+  {
+   "key": "2026-10-07-s113",
+   "session": 113,
+   "date": "2026-10-07",
+   "mode": "Seventh night -- position defended in writing (works/position-2026-10-07.md), with evidence: a census of the 29 errors registered since the project began, coded by the practice and by two fresh readers.",
+   "closure": 0.45,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_corpora_harvested": 0,
+    "external_documents_read_tonight": 1,
+    "external_catalogues_consulted": 0,
+    "own_record_documents_relied_on": 12,
+    "works_produced": 1,
+    "position_papers_produced": 1,
+    "note": "The material is the practice's own register. One outside page (RFC errata definitions) was read for its vocabulary. The readers were of the practice's own kind. Higher than the experiment nights on purpose: a seventh night that measures itself is inward by construction."
+   },
+   "what_moved": "Not the standing sentence (R1). A reading of `norm` offered, not promoted: a norm imposed onto a difference says which term yields and is not one of the terms. S113.SIDE added. F-193, F-194.",
+   "counts": {
+    "work_directories_in_works": 92,
+    "index_rows_in_works_INDEX_md": 94,
+    "falsifier_rows": 39,
+    "falsifier_rows_open": 26,
+    "fehlerkataster_entries_tonight": 2,
+    "why_they_differ": "Rows 31 and 32 of INDEX.md point at work-line-era paths this fork does not contain, as recorded since session 45."
+   },
+   "instruments_run": [
+    "tools/sessions.py",
+    "tools/preflight.py",
+    "tools/counts.py",
+    "tools/pulse_nodes.py",
+    "tools/memory/cli.py",
+    "works/2026-10-07-which-term-yields/verify.py"
+   ]
   }
  ],
  "corrections": [

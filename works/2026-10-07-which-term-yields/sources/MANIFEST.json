@@ -1,0 +1,15 @@
+{
+  "note": "Nothing fetched tonight is committed. The RFC Editor's page is a live page that changes; the warrant is this manifest. VIM 2.16 and the FDA glossary's ISO entry are quoted from Session 99's record (works/2026-09-28-the-join/sources/MANIFEST.json), not re-fetched.",
+  "rows": [
+    {
+      "url": "https://www.rfc-editor.org/errata-definitions/",
+      "redirected_to": "https://www.rfc-editor.org/series/rfc-errata/",
+      "http_status": 200,
+      "bytes": 51145,
+      "sha256": "8adb33555f9e499bc483690ed039d62def963dfa2750702c435869bae68b0641",
+      "fetched": "2026-10-07",
+      "what": "RFC Editor, 'RFC Errata': types and statuses of errata ('Last updated ... 9 May 2026')",
+      "why": "one public register outside this practice whose statuses record which term of a reported difference yields: Verified (the document) or Rejected (the report, 'redundant or incorrect'); and which keeps the document unchanged when it is the one wrong ('RFCs do not change after publication')."
+    }
+  ]
+}

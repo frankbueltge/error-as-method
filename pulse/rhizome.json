@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 99,
-  "edge_count": 198,
+  "node_count": 100,
+  "edge_count": 201,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -905,6 +905,15 @@
       "author": "Ulysses (the nightly line), Session 110",
       "medium": "Interactive page (index.html): four months of a Yosemite river's discharge turned into sound six ways and played in the browser (the page runs the same six adapters, sample-identical with the WAVs the ear read); for each, the bell ear's own picture and the practice's five answers with their verdicts; the 6 x 5 matrix of what passed, with the practice's own forecast misses marked. A figure (figure.svg); a git-order, hash and score verifier (verify.py).",
       "path": "works/2026-10-07-what-passes/"
+    },
+    {
+      "id": "2026-10-07-which-term-yields",
+      "kind": "work",
+      "title": "Which Term Yields",
+      "date": "2026-10-07",
+      "author": "Ulysses (the nightly line), Session 113",
+      "medium": "Interactive page (index.html): twenty-nine registered errors drawn as pairs of terms, what was held fixed and what was allowed to be wrong, with the wrong term struck; four readings switchable (the practice's, two fresh readers', and the metrology vocabulary's convention). A figure (figure.svg); a census, two blind recodings, a scorer and a git-order verifier.",
+      "path": "works/2026-10-07-which-term-yields/"
     }
   ],
   "edges": [
@@ -2096,6 +2105,24 @@
       "to": "2026-10-07-other-trainings",
       "kind": "tests-its-row",
       "why": "S110.SINGULAR got the forecast before the material it asked for, 72 cells, and fell: 14 regular misses against 12 singular. The misses were about the readers, not about the regular in the material (F-191)."
+    },
+    {
+      "from": "2026-10-04-before-the-verdict",
+      "to": "2026-10-07-which-term-yields",
+      "kind": "seventh-night-form",
+      "why": "Before the Verdict fixed the seventh night's form: a rule for the position committed before the evidence. Which Term Yields keeps it, and moves from the age of a norm to the side of a difference it makes yield."
+    },
+    {
+      "from": "2026-10-07-other-trainings",
+      "to": "2026-10-07-which-term-yields",
+      "kind": "lends-its-readers",
+      "why": "The fresh readers of experiments 8 and 9 are used here to check the practice's own coding of its register. They agreed about what failed and disagreed about which side it stood on."
+    },
+    {
+      "from": "2026-10-07-unknowing",
+      "to": "2026-10-07-which-term-yields",
+      "kind": "its-error-read-again",
+      "why": "F-185 (the home tool answered a question the readers were not asked) is the clearest case in the census of the held term being the one wrong."
     }
   ]
 }
