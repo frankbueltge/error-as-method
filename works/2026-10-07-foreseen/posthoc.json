@@ -1,0 +1,521 @@
+{
+ "phases_parsed": 99,
+ "full_moons": 24,
+ "events": [
+  {
+   "id": "E01",
+   "peak_day": 25,
+   "date": "20240125",
+   "phase": "full",
+   "eclipse": "",
+   "offset_days": -0.2,
+   "to_full": -0.2
+  },
+  {
+   "id": "E02",
+   "peak_day": 55,
+   "date": "20240224",
+   "phase": "full",
+   "eclipse": "",
+   "offset_days": -0.0,
+   "to_full": -0.0
+  },
+  {
+   "id": "E03",
+   "peak_day": 84,
+   "date": "20240324",
+   "phase": "full",
+   "eclipse": "n",
+   "offset_days": -0.8,
+   "to_full": -0.8
+  },
+  {
+   "id": "E04",
+   "peak_day": 114,
+   "date": "20240423",
+   "phase": "full",
+   "eclipse": "",
+   "offset_days": -0.5,
+   "to_full": -0.5
+  },
+  {
+   "id": "E05",
+   "peak_day": 144,
+   "date": "20240523",
+   "phase": "full",
+   "eclipse": "",
+   "offset_days": -0.1,
+   "to_full": -0.1
+  },
+  {
+   "id": "E06",
+   "peak_day": 173,
+   "date": "20240621",
+   "phase": "full",
+   "eclipse": "",
+   "offset_days": -0.5,
+   "to_full": -0.5
+  },
+  {
+   "id": "E07",
+   "peak_day": 203,
+   "date": "20240721",
+   "phase": "full",
+   "eclipse": "",
+   "offset_days": 0.1,
+   "to_full": 0.1
+  },
+  {
+   "id": "E08",
+   "peak_day": 232,
+   "date": "20240819",
+   "phase": "full",
+   "eclipse": "",
+   "offset_days": -0.3,
+   "to_full": -0.3
+  },
+  {
+   "id": "E09",
+   "peak_day": 262,
+   "date": "20240918",
+   "phase": "full",
+   "eclipse": "p",
+   "offset_days": 0.4,
+   "to_full": 0.4
+  },
+  {
+   "id": "E10",
+   "peak_day": 291,
+   "date": "20241017",
+   "phase": "full",
+   "eclipse": "",
+   "offset_days": 0.0,
+   "to_full": 0.0
+  },
+  {
+   "id": "E11",
+   "peak_day": 321,
+   "date": "20241116",
+   "phase": "full",
+   "eclipse": "",
+   "offset_days": 0.6,
+   "to_full": 0.6
+  },
+  {
+   "id": "E12",
+   "peak_day": 350,
+   "date": "20241215",
+   "phase": "full",
+   "eclipse": "",
+   "offset_days": 0.1,
+   "to_full": 0.1
+  },
+  {
+   "id": "E13",
+   "peak_day": 379,
+   "date": "20250113",
+   "phase": "full",
+   "eclipse": "",
+   "offset_days": -0.4,
+   "to_full": -0.4
+  },
+  {
+   "id": "E14",
+   "peak_day": 409,
+   "date": "20250212",
+   "phase": "full",
+   "eclipse": "",
+   "offset_days": -0.1,
+   "to_full": -0.1
+  },
+  {
+   "id": "E15",
+   "peak_day": 439,
+   "date": "20250314",
+   "phase": "full",
+   "eclipse": "t",
+   "offset_days": 0.2,
+   "to_full": 0.2
+  },
+  {
+   "id": "E16",
+   "peak_day": 469,
+   "date": "20250413",
+   "phase": "full",
+   "eclipse": "",
+   "offset_days": 0.5,
+   "to_full": 0.5
+  },
+  {
+   "id": "E17",
+   "peak_day": 498,
+   "date": "20250512",
+   "phase": "full",
+   "eclipse": "",
+   "offset_days": -0.2,
+   "to_full": -0.2
+  },
+  {
+   "id": "E18",
+   "peak_day": 528,
+   "date": "20250611",
+   "phase": "full",
+   "eclipse": "",
+   "offset_days": 0.2,
+   "to_full": 0.2
+  },
+  {
+   "id": "E19",
+   "peak_day": 557,
+   "date": "20250710",
+   "phase": "full",
+   "eclipse": "",
+   "offset_days": -0.4,
+   "to_full": -0.4
+  },
+  {
+   "id": "E20",
+   "peak_day": 587,
+   "date": "20250809",
+   "phase": "full",
+   "eclipse": "",
+   "offset_days": 0.2,
+   "to_full": 0.2
+  },
+  {
+   "id": "E21",
+   "peak_day": 616,
+   "date": "20250907",
+   "phase": "full",
+   "eclipse": "t",
+   "offset_days": -0.3,
+   "to_full": -0.3
+  },
+  {
+   "id": "E22",
+   "peak_day": 646,
+   "date": "20251007",
+   "phase": "full",
+   "eclipse": "",
+   "offset_days": 0.3,
+   "to_full": 0.3
+  },
+  {
+   "id": "E23",
+   "peak_day": 675,
+   "date": "20251105",
+   "phase": "full",
+   "eclipse": "",
+   "offset_days": -0.1,
+   "to_full": -0.1
+  },
+  {
+   "id": "E24",
+   "peak_day": 704,
+   "date": "20251204",
+   "phase": "full",
+   "eclipse": "",
+   "offset_days": -0.5,
+   "to_full": -0.5
+  }
+ ],
+ "events_within_1_day_of_full": 24,
+ "marks_outside": [
+  {
+   "reader": "T1a",
+   "mark": "100",
+   "phase": "new",
+   "eclipse": "T",
+   "offset_days": 0.7
+  },
+  {
+   "reader": "T1a",
+   "mark": "294",
+   "phase": "full",
+   "eclipse": "",
+   "offset_days": 3.0
+  },
+  {
+   "reader": "T1a",
+   "mark": "327",
+   "phase": "last quarter",
+   "eclipse": "",
+   "offset_days": -0.6
+  },
+  {
+   "reader": "T1a",
+   "mark": "358",
+   "phase": "last quarter",
+   "eclipse": "",
+   "offset_days": 0.6
+  },
+  {
+   "reader": "T1a",
+   "mark": "389",
+   "phase": "last quarter",
+   "eclipse": "",
+   "offset_days": 1.6
+  },
+  {
+   "reader": "T1a",
+   "mark": "418",
+   "phase": "last quarter",
+   "eclipse": "",
+   "offset_days": 0.8
+  },
+  {
+   "reader": "T1a",
+   "mark": "445",
+   "phase": "last quarter",
+   "eclipse": "",
+   "offset_days": -2.0
+  },
+  {
+   "reader": "T1a",
+   "mark": "488",
+   "phase": "first quarter",
+   "eclipse": "",
+   "offset_days": -2.1
+  },
+  {
+   "reader": "T1a",
+   "mark": "650",
+   "phase": "last quarter",
+   "eclipse": "",
+   "offset_days": -2.3
+  },
+  {
+   "reader": "T1a",
+   "mark": "702",
+   "phase": "full",
+   "eclipse": "",
+   "offset_days": -2.5
+  },
+  {
+   "reader": "T1b",
+   "mark": "100",
+   "phase": "new",
+   "eclipse": "T",
+   "offset_days": 0.7
+  },
+  {
+   "reader": "T1b",
+   "mark": "327",
+   "phase": "last quarter",
+   "eclipse": "",
+   "offset_days": -0.6
+  },
+  {
+   "reader": "T1b",
+   "mark": "357",
+   "phase": "last quarter",
+   "eclipse": "",
+   "offset_days": -0.4
+  },
+  {
+   "reader": "T1b",
+   "mark": "389",
+   "phase": "last quarter",
+   "eclipse": "",
+   "offset_days": 1.6
+  },
+  {
+   "reader": "T1b",
+   "mark": "418",
+   "phase": "last quarter",
+   "eclipse": "",
+   "offset_days": 0.8
+  },
+  {
+   "reader": "T1b",
+   "mark": "445",
+   "phase": "last quarter",
+   "eclipse": "",
+   "offset_days": -2.0
+  },
+  {
+   "reader": "T2a",
+   "mark": "100",
+   "phase": "new",
+   "eclipse": "T",
+   "offset_days": 0.7
+  },
+  {
+   "reader": "T2a",
+   "mark": "324",
+   "phase": "last quarter",
+   "eclipse": "",
+   "offset_days": -3.6
+  },
+  {
+   "reader": "T2a",
+   "mark": "358",
+   "phase": "last quarter",
+   "eclipse": "",
+   "offset_days": 0.6
+  },
+  {
+   "reader": "T2a",
+   "mark": "393",
+   "phase": "new",
+   "eclipse": "",
+   "offset_days": -2.0
+  },
+  {
+   "reader": "T2a",
+   "mark": "418",
+   "phase": "last quarter",
+   "eclipse": "",
+   "offset_days": 0.8
+  },
+  {
+   "reader": "T2a",
+   "mark": "444",
+   "phase": "last quarter",
+   "eclipse": "",
+   "offset_days": -3.0
+  },
+  {
+   "reader": "T2b",
+   "mark": "100",
+   "phase": "new",
+   "eclipse": "T",
+   "offset_days": 0.7
+  },
+  {
+   "reader": "T2b",
+   "mark": "327",
+   "phase": "last quarter",
+   "eclipse": "",
+   "offset_days": -0.6
+  },
+  {
+   "reader": "T2b",
+   "mark": "359",
+   "phase": "last quarter",
+   "eclipse": "",
+   "offset_days": 1.6
+  },
+  {
+   "reader": "T2b",
+   "mark": "392",
+   "phase": "new",
+   "eclipse": "",
+   "offset_days": -3.0
+  },
+  {
+   "reader": "T2b",
+   "mark": "417",
+   "phase": "last quarter",
+   "eclipse": "",
+   "offset_days": -0.2
+  },
+  {
+   "reader": "T2b",
+   "mark": "444",
+   "phase": "last quarter",
+   "eclipse": "",
+   "offset_days": -3.0
+  }
+ ],
+ "misses": [
+  {
+   "cell": "R1.T5a",
+   "direction": "forecast blind, reader saw"
+  },
+  {
+   "cell": "R1.T5b",
+   "direction": "forecast blind, reader saw"
+  },
+  {
+   "cell": "R2.T4a",
+   "direction": "forecast sight, reader did not"
+  },
+  {
+   "cell": "R2.T4b",
+   "direction": "forecast sight, reader did not"
+  },
+  {
+   "cell": "R4.T1a",
+   "direction": "forecast blind, reader saw"
+  },
+  {
+   "cell": "R4.T1b",
+   "direction": "forecast blind, reader saw"
+  },
+  {
+   "cell": "R4.T2a",
+   "direction": "forecast blind, reader saw"
+  },
+  {
+   "cell": "R4.T2b",
+   "direction": "forecast blind, reader saw"
+  },
+  {
+   "cell": "R4.T4a",
+   "direction": "forecast blind, reader saw"
+  },
+  {
+   "cell": "R4.T4b",
+   "direction": "forecast blind, reader saw"
+  },
+  {
+   "cell": "S1.T2a",
+   "direction": "forecast blind, reader saw"
+  },
+  {
+   "cell": "S1.T2b",
+   "direction": "forecast blind, reader saw"
+  },
+  {
+   "cell": "S2.T2a",
+   "direction": "forecast blind, reader saw"
+  },
+  {
+   "cell": "S2.T2b",
+   "direction": "forecast blind, reader saw"
+  },
+  {
+   "cell": "S3.T1b",
+   "direction": "forecast sight, reader did not"
+  },
+  {
+   "cell": "S3.T2a",
+   "direction": "forecast blind, reader saw"
+  },
+  {
+   "cell": "S3.T2b",
+   "direction": "forecast blind, reader saw"
+  },
+  {
+   "cell": "S3.T4a",
+   "direction": "forecast blind, reader saw"
+  },
+  {
+   "cell": "S3.T4b",
+   "direction": "forecast blind, reader saw"
+  },
+  {
+   "cell": "S4.T2a",
+   "direction": "forecast blind, reader saw"
+  },
+  {
+   "cell": "S4.T2b",
+   "direction": "forecast blind, reader saw"
+  }
+ ],
+ "miss_counts": {
+  "R forecast blind, reader saw": 8,
+  "R forecast sight, reader did not": 2,
+  "S forecast blind, reader saw": 10,
+  "S forecast sight, reader did not": 1
+ },
+ "prior_truth_vs_home": {
+  "R1": "right",
+  "R2": "right",
+  "R3": "wrong (about equal; home lower, 0.80)",
+  "R4": "wrong (no; home yes, rho 0.74)",
+  "S3": "wrong (single; home run)",
+  "S4": "right"
+ }
+}

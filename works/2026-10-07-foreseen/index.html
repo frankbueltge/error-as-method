@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Foreseen</title>
+<style>
+:root{--bg:#f1efe9;--ink:#1b1b1d;--mute:#66636b;--line:#cfcac2;--card:#fbfaf6;--trace:#1b1b1d;--norm:#c9a04a;--read:#2f5f9e;--you:#b2452f;--moon:#8a8790;--ok:#2f5f9e;--soft:#e8e3da}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141417;--ink:#e9e7ee;--mute:#9b98a3;--line:#37353d;--card:#1c1b21;--trace:#e9e7ee;--norm:#d8b468;--read:#7fa8e3;--you:#e9846c;--moon:#77747e;--ok:#7fa8e3;--soft:#26252b}}
+:root[data-theme="dark"]{--bg:#141417;--ink:#e9e7ee;--mute:#9b98a3;--line:#37353d;--card:#1c1b21;--trace:#e9e7ee;--norm:#d8b468;--read:#7fa8e3;--you:#e9846c;--moon:#77747e;--ok:#7fa8e3;--soft:#26252b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 "Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif}
+main{max-width:1080px;margin:0 auto;padding:22px 16px 60px}
+h1{font-weight:normal;font-size:2.1rem;margin:0 0 4px}
+h2{font-weight:normal;font-size:1.3rem;margin:34px 0 6px}
+.lede{margin:0 0 12px;color:var(--mute);max-width:50em}
+.mono{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-size:.8rem}
+.panel{background:var(--card);border:1px solid var(--line);padding:8px}
+svg{display:block;width:100%;height:auto;touch-action:manipulation}
+svg text{font-family:ui-monospace,Menlo,Consolas,monospace;fill:var(--mute);font-size:11px}
+.cap{color:var(--mute);font-size:.88rem;margin:6px 0 0;max-width:56em}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:8px 0}
+button{font:inherit;font-size:.88rem;padding:5px 11px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+button[aria-pressed="true"]{box-shadow:inset 0 -3px 0 var(--ink)}
+.k{display:inline-block;width:12px;height:12px;vertical-align:-1px;margin-right:5px}.k-you{background:var(--you)}.k-norm{background:var(--norm)}.k-read{background:var(--read)}.k-moon{background:var(--moon)}
+.mx{overflow-x:auto}
+.mx table{border-collapse:collapse;min-width:560px;width:100%}
+.mx th,.mx td{border:1px solid var(--line);padding:3px;text-align:center;font-size:.78rem}
+.mx th{font-weight:normal;color:var(--mute)}
+.mx td.l{text-align:left;white-space:nowrap;color:var(--mute);font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.72rem}
+.mx td.c{cursor:pointer}
+.mx td.fc{background:var(--soft)}
+.mx td.sel{outline:2px solid var(--you);outline-offset:-2px}
+.dot{display:inline-block;width:13px;height:13px;border:2px solid var(--ok);border-radius:50%;margin:0 2px;vertical-align:-2px}
+.dot.y{background:var(--ok)}
+.dot.miss{border-color:var(--you)}.dot.y.miss{background:var(--you)}
+.mx tr.sep td{border-top:2px solid var(--ink)}
+.said{font-size:.92rem;margin-top:10px}
+.said p{margin:0 0 6px}
+.view img{width:100%;height:auto;display:block;background:#fff}
+.view pre{margin:0;max-height:380px;overflow:auto;font-size:.76rem;background:#fff;color:#111;padding:8px}
+.nums{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:10px 0}
+.nums div{background:var(--card);border:1px solid var(--line);padding:8px}
+.nums b{display:block;font-size:1.5rem;font-weight:normal}
+</style>
+</head>
+<body>
+<main>
+<h1>Foreseen</h1>
+<p class="lede">Two years of daily visits to one encyclopedia article, 2024–2025. <b>Tap the day that looks singular to you.</b> Then see where the practice drew its line, where ten readers drew theirs, and where the Moon was.</p>
+<div class="panel"><svg id="line" viewBox="0 0 1000 300" role="img" aria-label="Daily views of the English Wikipedia article Full moon, 731 days"></svg></div>
+<div class="row" id="tog">
+ <button data-l="you" aria-pressed="true"><span class="k k-you"></span>your tap</button>
+ <button data-l="norm" aria-pressed="false"><span class="k k-norm"></span>the practice's norm: 24 events</button>
+ <button data-l="read" aria-pressed="false"><span class="k k-read"></span>the readers' marks</button>
+ <button data-l="moon" aria-pressed="false"><span class="k k-moon"></span>the Moon</button>
+</div>
+<p class="cap" id="say">The line is the article "Full moon" on the English Wikipedia, views by people, per day (Wikimedia, CC0). Day 1 is 1 January 2024.</p>
+
+<h2>What the practice foresaw, before it had the data</h2>
+<p class="lede">Eight questions, five translations of the same series written by the practice, two readers per translation started without memory. Before the data existed here, the practice forecast for each cell whether a reader would get it right. Shaded cell: forecast "right". Filled dot: the reader was right. A red dot: the forecast missed. Tap a cell.</p>
+<div class="nums" id="nums"></div>
+<div class="mx panel"><table id="mx"></table></div>
+<div class="said panel" id="said"><p>Tap a cell to read what the two readers answered and what decided it for them.</p></div>
+
+<h2>The five translations, as the readers saw them</h2>
+<div class="row" id="tabs"></div>
+<div class="view panel" id="view"></div>
+<p class="cap">Each reader opened one of these and nothing else, without being told what the count was. Nine of ten named the Moon; one named the article.</p>
+<p class="cap mono">Sources: Wikimedia Analytics pageviews API (CC0); NASA/GSFC, F. Espenak, Phases of the Moon 2001–2100. Evidence, code and every reading: the experiment's directory in the repository.</p>
+</main>
+<script src="data.js"></script>
+<script>
+(function(){
+const D=window.D, N=D.v.length, W=1000, H=300, L=46, R=8, T=10, B=34;
+const max=4000, X=d=>L+(W-L-R)*(d-1)/(N-1), Y=v=>T+(H-T-B)*(1-v/max);
+const css=n=>getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const svg=document.getElementById('line'), NS='http://www.w3.org/2000/svg';
+const on={you:true,norm:false,read:false,moon:false}; let tap=null;
+function el(t,a,p){const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);(p||svg).appendChild(e);return e}
+const readMarks=[];for(const k in D.readers)for(const s of D.readers[k].stands_out){const n=s.match(/\d+/g).map(Number);readMarks.push([n[0],n[n.length-1],k])}
+function draw(){
+ svg.innerHTML='';
+ for(const t of [0,1000,2000,3000,4000]){el('line',{x1:L,x2:W-R,y1:Y(t),y2:Y(t),stroke:css('--line'),'stroke-width':.5});el('text',{x:L-6,y:Y(t)+4,'text-anchor':'end'}).textContent=t}
+ for(const d of [1,100,200,300,400,500,600,700,731]){el('text',{x:X(d),y:H-16,'text-anchor':'middle'}).textContent=d}
+ el('text',{x:L+(W-L-R)/2,y:H-3,'text-anchor':'middle'}).textContent='day (1 = 1 Jan 2024)';
+ if(on.moon)for(const p of D.phases){if(p[1]!==0&&p[1]!==2)continue;const x=X(p[0]-.5);el('line',{x1:x,x2:x,y1:T,y2:H-B,stroke:css('--moon'),'stroke-width':p[1]===2?.8:.6,'stroke-dasharray':p[1]===0?'2 3':'none'});if(p[2])el('text',{x:x+3,y:T+10+(p[1]===0?12:0)}).textContent=(p[2]==='T'?'solar eclipse':p[2]==='t'?'lunar eclipse':p[2]==='p'?'partial lunar':p[2]==='P'?'partial solar':'')}
+ if(on.norm)for(const e of D.events){el('rect',{x:X(e[0])-2,y:T,width:Math.max(4,X(e[1])-X(e[0])+4),height:H-T-B,fill:css('--norm'),opacity:.35})}
+ let pts='';D.v.forEach((v,i)=>pts+=(i?' ':'')+X(i+1).toFixed(1)+','+Y(v).toFixed(1));
+ el('polyline',{points:pts,fill:'none',stroke:css('--trace'),'stroke-width':1});
+ if(on.read){const seen={};for(const m of readMarks){const key=m[0];seen[key]=(seen[key]||0)+1;const x=X((m[0]+m[1])/2);el('circle',{cx:x,cy:H-B-4-6*(seen[key]-1),r:3,fill:css('--read')})}}
+ if(on.you&&tap){el('line',{x1:X(tap),x2:X(tap),y1:T,y2:H-B,stroke:css('--you'),'stroke-width':2});el('text',{x:X(tap)+4,y:H-B-60,fill:css('--you')}).textContent='day '+tap+' · '+D.dates[tap-1].replace(/(\d{4})(\d\d)(\d\d)/,'$1-$2-$3')+' · '+D.v[tap-1]}
+}
+svg.addEventListener('click',ev=>{const r=svg.getBoundingClientRect();const x=(ev.clientX-r.left)*W/r.width;tap=Math.max(1,Math.min(N,Math.round((x-L)/(W-L-R)*(N-1)+1)));
+ // snap to the local maximum within 3 days
+ let b=tap;for(let d=tap-3;d<=tap+3;d++)if(d>=1&&d<=N&&D.v[d-1]>D.v[b-1])b=d;tap=b;
+ for(const k of ['norm','read','moon'])on[k]=true;sync();say();draw()});
+function inNorm(d){return D.events.some(e=>d>=e[0]-1&&d<=e[1]+1)}
+function say(){const s=document.getElementById('say');if(!tap)return;
+ const n=inNorm(tap), r=readMarks.filter(m=>tap>=m[0]-1&&tap<=m[1]+1).length;
+ s.innerHTML='Your day '+tap+': '+(n?'<b>inside</b>':'<b>outside</b>')+' the practice\'s norm (a day at three times or more its 29-day median), named by '+r+' of 47 reader marks. The norm caught 24 events, all within a day and a half of a full moon: it marked the rhythm as singular. Of the readers\' 47 marks, 28 fell outside it: off-cycle spikes, among them day 100, beside the total solar eclipse of 8 April 2024 (day 99, 2.93 times its median, just under the line).'}
+function sync(){document.querySelectorAll('#tog button').forEach(b=>b.setAttribute('aria-pressed',on[b.dataset.l]))}
+document.getElementById('tog').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;on[b.dataset.l]=!on[b.dataset.l];sync();draw()});
+// numbers
+const nm=document.getElementById('nums');
+nm.innerHTML='<div><b>'+D.matches+' / 80</b>readings as forecast</div><div><b>'+D.misses.regular+'</b>misses on the four regular questions</div><div><b>'+D.misses.singular+'</b>misses on the four singular questions</div><div><b>18 / 21</b>misses where the practice forecast blindness and the reader saw</div>';
+// matrix
+const TS=['T1','T2','T3','T4','T5'], TN={T1:'line',T2:'log line',T3:'weekly sums',T4:'week grid',T5:'monthly table'};
+const mx=document.getElementById('mx');let h='<tr><th></th>'+TS.map(t=>'<th>'+t+'<br>'+TN[t]+'</th>').join('')+'</tr>';
+for(const q in D.q){h+='<tr'+(q==='S1'?' class="sep"':'')+'><td class="l">'+q+' '+D.q[q]+'</td>';for(const t of TS){const f=D.forecast[q][t]==='C';let c='';for(const r of 'ab'){const y=D.cells[q+'.'+t+r];c+='<span class="dot'+(y?' y':'')+(y!==f?' miss':'')+'"></span>'}h+='<td class="c'+(f?' fc':'')+'" data-q="'+q+'" data-t="'+t+'">'+c+'</td>'}h+='</tr>'}
+mx.innerHTML=h;
+const esc=s=>String(s==null?'—':s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+mx.addEventListener('click',e=>{const td=e.target.closest('td.c');if(!td)return;mx.querySelectorAll('td.sel').forEach(x=>x.classList.remove('sel'));td.classList.add('sel');
+ const q=td.dataset.q,t=td.dataset.t,K={R1:'cycle',R2:'week',R3:'level',R4:'year',S1:'highest_day',S2:'second_day',S3:'peak_shape',S4:'drops'}[q];
+ let s='<p><b>'+q+' · '+D.q[q]+' · '+t+' '+TN[t]+'</b></p><p>True answer (home tool): '+esc(D.home[q])+'. Forecast: '+(D.forecast[q][t]==='C'?'a reader gets it right':'a reader does not')+'.</p>';
+ for(const r of 'ab'){const a=D.readers[t+r];s+='<p>Reader '+t+r+' answered <b>'+esc(a.ans[q])+'</b> ('+(D.cells[q+'.'+t+r]?'right':'wrong')+'): <i>'+esc(a.decided[K])+'</i></p>'}
+ document.getElementById('said').innerHTML=s});
+// tabs
+const tabs=document.getElementById('tabs'),view=document.getElementById('view');
+TS.forEach((t,i)=>{const b=document.createElement('button');b.textContent=t+' '+TN[t];b.setAttribute('aria-pressed',i===0);b.addEventListener('click',()=>{tabs.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed','false'));b.setAttribute('aria-pressed','true');show(t)});tabs.appendChild(b)});
+function show(t){view.innerHTML='';if(t==='T5'){const p=document.createElement('pre');p.textContent=D.t5;view.appendChild(p)}else{const im=document.createElement('img');im.src='renders/'+t+'.png';im.alt='Translation '+t+' as shown to the readers';view.appendChild(im)}}
+show('T1');draw();
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change',draw);
+})();
+</script>
+</body>
+</html>
