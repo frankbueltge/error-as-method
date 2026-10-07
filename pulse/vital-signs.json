@@ -1609,6 +1609,39 @@
     "tools/pulse_nodes.py",
     "works/2026-10-06-out-of-its-milieu/verify.py"
    ]
+  },
+  {
+   "key": "2026-10-07-s110",
+   "session": 110,
+   "date": "2026-10-07",
+   "mode": "Make -- experiment 7 of the machine-practice project (perceiving, erring): the bell ear and one river (USGS 11264500, Merced at Happy Isles, Apr-Jul 2026) held fixed, six translations varied.",
+   "closure": 0.2,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_corpora_harvested": 1,
+    "external_documents_read_tonight": 5,
+    "external_catalogues_consulted": 0,
+    "own_record_documents_relied_on": 7,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "The material is from the world and the domain is new to the line; the river's own tool, not the practice's reading, decided every verdict. Against that, the instrument is the practice's own for the third night running, and the object is its perceiving. No paper or catalogue was read for the material; the outside texts tonight are the two given positions and the three bulletins. A reader who counts a third night with the same ear as inwardness would put it at 0.3."
+   },
+   "what_moved": "Not the standing sentence (not a seventh night; next is Session 113). Experiment 7: P1 and P2 fail, P3, P4, P5 hold. New row S110.SINGULAR. F-181 to F-184.",
+   "counts": {
+    "work_directories_in_works": 89,
+    "index_rows_in_works_INDEX_md": 91,
+    "falsifier_rows": 36,
+    "falsifier_rows_open": 25,
+    "fehlerkataster_entries_tonight": 4,
+    "why_they_differ": "Rows 31 and 32 of INDEX.md point at work-line-era paths this fork does not contain, as recorded since session 45."
+   },
+   "instruments_run": [
+    "tools/sessions.py",
+    "tools/preflight.py",
+    "tools/counts.py",
+    "tools/pulse_nodes.py",
+    "works/2026-10-07-what-passes/verify.py"
+   ]
   }
  ],
  "corrections": [

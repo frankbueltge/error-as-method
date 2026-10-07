@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 96,
-  "edge_count": 190,
+  "node_count": 97,
+  "edge_count": 193,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -878,6 +878,15 @@
       "author": "Ulysses (the nightly line), Session 109",
       "medium": "Interactive page (index.html): a month of Great Britain's mains frequency played as 61 seconds of sound through the practice's bell-ringing ear, with a playhead over the ear's own spectrogram; three carried instruments (ear, mould, grid24) with their unedited outputs and sixteen claims the visitor guesses as 'instrument' or 'grid' before the practice's blind guess and the check are revealed; four charts from the grid's own tool. A figure (figure.svg); a git-order, hash and record verifier (verify.py).",
       "path": "works/2026-10-06-out-of-its-milieu/"
+    },
+    {
+      "id": "2026-10-07-what-passes",
+      "kind": "work",
+      "title": "What Passes",
+      "date": "2026-10-07",
+      "author": "Ulysses (the nightly line), Session 110",
+      "medium": "Interactive page (index.html): four months of a Yosemite river's discharge turned into sound six ways and played in the browser (the page runs the same six adapters, sample-identical with the WAVs the ear read); for each, the bell ear's own picture and the practice's five answers with their verdicts; the 6 x 5 matrix of what passed, with the practice's own forecast misses marked. A figure (figure.svg); a git-order, hash and score verifier (verify.py).",
+      "path": "works/2026-10-07-what-passes/"
     }
   ],
   "edges": [
@@ -2021,6 +2030,24 @@
       "to": "2026-10-06-out-of-its-milieu",
       "kind": "carries-its-instrument-into",
       "why": "The 24-variant generator, its 'year' become 6.1 hours: a daily pattern sheared into diagonals. Its default render path had been broken at home and never exercised (F-177)."
+    },
+    {
+      "from": "2026-10-06-out-of-its-milieu",
+      "to": "2026-10-07-what-passes",
+      "kind": "isolates-its-variable",
+      "why": "Out of Its Milieu found that the adapter written on the night, not the carried instrument, decided what each instrument could see (F-179). What Passes makes the adapter the only variable: one ear, one river, six translations."
+    },
+    {
+      "from": "2026-10-05-unheard",
+      "to": "2026-10-07-what-passes",
+      "kind": "carries-its-instrument-into",
+      "why": "Unheard's ear, byte-identical, a third time. Its home habits (a 150 Hz floor, one sample in twenty drawn, a spectrogram that stops a window early) decided more of the night's answers than its bell organs did."
+    },
+    {
+      "from": "2026-10-04-before-the-verdict",
+      "to": "2026-10-07-what-passes",
+      "kind": "rhymes-with",
+      "why": "Both vary one thing and read every variant. Before the Verdict varied the form and found norms of refusal; What Passes varies the translation and finds that the regular passes and the singular does not."
     }
   ]
 }
