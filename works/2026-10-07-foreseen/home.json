@@ -1,0 +1,321 @@
+{
+ "n_days": 731,
+ "missing_days": [],
+ "R1": {
+  "best_lag": 29,
+  "acf": 0.839,
+  "present": true,
+  "acf_by_lag": {
+   "20": -0.288,
+   "21": -0.245,
+   "22": -0.1994,
+   "23": -0.1394,
+   "24": -0.0534,
+   "25": 0.0704,
+   "26": 0.2443,
+   "27": 0.4641,
+   "28": 0.6924,
+   "29": 0.839,
+   "30": 0.8303,
+   "31": 0.6779,
+   "32": 0.4588,
+   "33": 0.2398,
+   "34": 0.0712,
+   "35": -0.0415,
+   "36": -0.1309,
+   "37": -0.2054,
+   "38": -0.2627,
+   "39": -0.301,
+   "40": -0.3212
+  }
+ },
+ "R2": {
+  "weekday_mean_log_residual": {
+   "1": 0.0339,
+   "2": 0.0279,
+   "3": 0.034,
+   "4": 0.0313,
+   "5": 0.0014,
+   "6": -0.0957,
+   "7": -0.0333
+  },
+  "effect": 0.1298,
+  "present": true,
+  "lowest_position": 6
+ },
+ "R3": {
+  "median_y1": 608.0,
+  "median_y2": 484,
+  "ratio": 0.7961,
+  "answer": "lower"
+ },
+ "R4": {
+  "monthly_median_2024": [
+   637,
+   605,
+   736,
+   701.0,
+   547,
+   404.0,
+   418,
+   469,
+   591.0,
+   704,
+   700.5,
+   539
+  ],
+  "monthly_median_2025": [
+   575,
+   572.5,
+   539,
+   464.0,
+   437,
+   374.0,
+   346,
+   416,
+   511.0,
+   532,
+   425.0,
+   377
+  ],
+  "spearman": 0.7413,
+  "answer": "yes"
+ },
+ "S1": {
+  "day": 291,
+  "date": "20241017",
+  "views": 3959
+ },
+ "S2": {
+  "day": 262,
+  "date": "20240918",
+  "views": 3803
+ },
+ "S3": {
+  "days_at_half_peak_within_3": 3,
+  "answer": "run"
+ },
+ "S4": {
+  "days": [],
+  "answer": "none"
+ },
+ "events": [
+  {
+   "id": "E01",
+   "start": 25,
+   "end": 26,
+   "peak_day": 25,
+   "peak_date": "20240125",
+   "peak_views": 2139,
+   "ratio": 3.36
+  },
+  {
+   "id": "E02",
+   "start": 54,
+   "end": 56,
+   "peak_day": 55,
+   "peak_date": "20240224",
+   "peak_views": 2775,
+   "ratio": 4.43
+  },
+  {
+   "id": "E03",
+   "start": 84,
+   "end": 85,
+   "peak_day": 84,
+   "peak_date": "20240324",
+   "peak_views": 2934,
+   "ratio": 3.89
+  },
+  {
+   "id": "E04",
+   "start": 114,
+   "end": 115,
+   "peak_day": 114,
+   "peak_date": "20240423",
+   "peak_views": 3280,
+   "ratio": 4.7
+  },
+  {
+   "id": "E05",
+   "start": 143,
+   "end": 145,
+   "peak_day": 144,
+   "peak_date": "20240523",
+   "peak_views": 2354,
+   "ratio": 4.97
+  },
+  {
+   "id": "E06",
+   "start": 172,
+   "end": 174,
+   "peak_day": 173,
+   "peak_date": "20240621",
+   "peak_views": 2058,
+   "ratio": 5.04
+  },
+  {
+   "id": "E07",
+   "start": 202,
+   "end": 204,
+   "peak_day": 203,
+   "peak_date": "20240721",
+   "peak_views": 2673,
+   "ratio": 6.39
+  },
+  {
+   "id": "E08",
+   "start": 231,
+   "end": 233,
+   "peak_day": 232,
+   "peak_date": "20240819",
+   "peak_views": 2895,
+   "ratio": 6.08
+  },
+  {
+   "id": "E09",
+   "start": 261,
+   "end": 263,
+   "peak_day": 262,
+   "peak_date": "20240918",
+   "peak_views": 3803,
+   "ratio": 6.25
+  },
+  {
+   "id": "E10",
+   "start": 290,
+   "end": 292,
+   "peak_day": 291,
+   "peak_date": "20241017",
+   "peak_views": 3959,
+   "ratio": 5.58
+  },
+  {
+   "id": "E11",
+   "start": 320,
+   "end": 321,
+   "peak_day": 321,
+   "peak_date": "20241116",
+   "peak_views": 2854,
+   "ratio": 4.05
+  },
+  {
+   "id": "E12",
+   "start": 350,
+   "end": 350,
+   "peak_day": 350,
+   "peak_date": "20241215",
+   "peak_views": 1845,
+   "ratio": 3.48
+  },
+  {
+   "id": "E13",
+   "start": 379,
+   "end": 380,
+   "peak_day": 379,
+   "peak_date": "20250113",
+   "peak_views": 2372,
+   "ratio": 4.13
+  },
+  {
+   "id": "E14",
+   "start": 409,
+   "end": 409,
+   "peak_day": 409,
+   "peak_date": "20250212",
+   "peak_views": 1815,
+   "ratio": 3.18
+  },
+  {
+   "id": "E15",
+   "start": 438,
+   "end": 439,
+   "peak_day": 439,
+   "peak_date": "20250314",
+   "peak_views": 2612,
+   "ratio": 4.73
+  },
+  {
+   "id": "E16",
+   "start": 468,
+   "end": 469,
+   "peak_day": 469,
+   "peak_date": "20250413",
+   "peak_views": 1675,
+   "ratio": 3.46
+  },
+  {
+   "id": "E17",
+   "start": 497,
+   "end": 498,
+   "peak_day": 498,
+   "peak_date": "20250512",
+   "peak_views": 1696,
+   "ratio": 3.83
+  },
+  {
+   "id": "E18",
+   "start": 527,
+   "end": 529,
+   "peak_day": 528,
+   "peak_date": "20250611",
+   "peak_views": 2456,
+   "ratio": 6.45
+  },
+  {
+   "id": "E19",
+   "start": 556,
+   "end": 558,
+   "peak_day": 557,
+   "peak_date": "20250710",
+   "peak_views": 1982,
+   "ratio": 5.49
+  },
+  {
+   "id": "E20",
+   "start": 586,
+   "end": 588,
+   "peak_day": 587,
+   "peak_date": "20250809",
+   "peak_views": 2478,
+   "ratio": 6.16
+  },
+  {
+   "id": "E21",
+   "start": 615,
+   "end": 617,
+   "peak_day": 616,
+   "peak_date": "20250907",
+   "peak_views": 3689,
+   "ratio": 7.72
+  },
+  {
+   "id": "E22",
+   "start": 645,
+   "end": 647,
+   "peak_day": 646,
+   "peak_date": "20251007",
+   "peak_views": 3589,
+   "ratio": 6.48
+  },
+  {
+   "id": "E23",
+   "start": 674,
+   "end": 676,
+   "peak_day": 675,
+   "peak_date": "20251105",
+   "peak_views": 2903,
+   "ratio": 5.94
+  },
+  {
+   "id": "E24",
+   "start": 704,
+   "end": 705,
+   "peak_day": 704,
+   "peak_date": "20251204",
+   "peak_views": 1700,
+   "ratio": 4.13
+  }
+ ],
+ "n_events": 24
+}
