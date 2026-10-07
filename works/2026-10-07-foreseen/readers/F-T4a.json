@@ -1,0 +1,37 @@
+{
+ "reader": "F-T4a",
+ "condition": "fresh",
+ "translation": "T4",
+ "agent_tool_uses": 2,
+ "answer": {
+  "cycle": "yes",
+  "period_days": 29.5,
+  "week": "no",
+  "level": "about equal",
+  "year": "yes",
+  "highest_day": 616,
+  "second_day": 291,
+  "peak_shape": "run",
+  "drops": "none",
+  "stands_out": [
+   "616",
+   "291",
+   "646"
+  ],
+  "decided": {
+   "cycle": "dark cells form clusters every ~4.2 weeks that step down one row each time (e.g. ~25, ~55, ~84, ~114, ~143 ... ~291, ~320 ... ~616, ~646), so the spacing is about 29-30 days",
+   "week": "the rows (weekdays) show no consistent difference in shade; the dark cells drift through every row",
+   "level": "overall shading of weeks 53-105 looks like that of weeks 1-52",
+   "year": "a lighter band around weeks ~20-35 shows up again around weeks ~73-90, i.e. at the same time of year",
+   "highest_day": "the blackest cell is week 88 row 7 (day 616), but week 42 row 4 and week 93 row 2 are nearly as dark, so I am not sure",
+   "second_day": "week 42 row 4 (day 291) is black; day 646 is a close alternative",
+   "peak_shape": "the cells next to the darkest ones are also dark-gray, so each peak lasts 2-3 days",
+   "drops": "no near-white cells stand alone; the light cells are in broad seasonal bands",
+   "stands_out": "only the blackest cells inside the recurring dark clusters; the clusters themselves are periodic, not singular"
+  },
+  "guess": "Something tied to the lunar (~29.5-day) cycle, e.g. searches or visits related to the full moon or to menstrual cycles, with a summer dip.",
+  "files_opened": [
+   "/tmp/claude-0/-home-user/9f8c7896-7e5a-5799-9945-fa7a377bc045/scratchpad/r/T4.png"
+  ]
+ }
+}
