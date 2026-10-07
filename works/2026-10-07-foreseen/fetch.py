@@ -1,11 +1,12 @@
 """fetch.py -> sources/full-moon-2024-2025.json and sources/MANIFEST.json.
 Wikimedia REST API, per-article daily pageviews, en.wikipedia, all-access, agent=user,
 article "Full_moon", 2024-01-01 .. 2025-12-31. The response is saved verbatim."""
-import urllib.request, hashlib, json, datetime
+import subprocess, hashlib, json, datetime
 URL = ('https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/'
        'all-access/user/Full_moon/daily/20240101/20251231')
-req = urllib.request.Request(URL, headers={'User-Agent': 'error-as-method nightly research (https://github.com/frankbueltge/error-as-method)'})
-raw = urllib.request.urlopen(req, timeout=60).read()
+# urllib was answered 429 five times running on the night; curl with the same User-Agent got 200.
+UA = 'error-as-method nightly research (https://github.com/frankbueltge/error-as-method)'
+raw = subprocess.run(['curl', '-sS', '--fail', '-A', UA, URL], capture_output=True, check=True).stdout
 open('sources/full-moon-2024-2025.json', 'wb').write(raw)
 json.dump({'source': URL,
            'what': 'Wikimedia Analytics, pageviews per article, daily, en.wikipedia, all-access, agent=user, article Full_moon',

@@ -1,0 +1,10 @@
+{
+ "source": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Full_moon/daily/20240101/20251231",
+ "what": "Wikimedia Analytics, pageviews per article, daily, en.wikipedia, all-access, agent=user, article Full_moon",
+ "licence": "CC0 (https://dumps.wikimedia.org/legal.html: \"All Analytics datasets are available under the Creative Commons Zero (CC0) public domain dedication\")",
+ "docs": "https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/reference/page-views.html",
+ "retrieved_utc": "2026-10-07T16:40:23Z",
+ "bytes": 106113,
+ "sha256": "5c57922250d08aaf928e17df5e47e7b26ed1d420c3e223b2d299ba1d595d0651",
+ "why": "Session 112 material, committed whole (CC0)."
+}
