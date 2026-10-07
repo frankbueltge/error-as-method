@@ -1775,6 +1775,39 @@
     "tools/pulse_nodes.py",
     "works/2026-10-07-the-balance/verify.py"
    ]
+  },
+  {
+   "key": "2026-10-07-s115",
+   "session": 115,
+   "date": "2026-10-07",
+   "mode": "Make -- experiment 11 of the project (Not Addressed): one unaddressed word moved through a maker's surround, the brief held fixed.",
+   "closure": 0.25,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_corpora_harvested": 1,
+    "external_documents_read_tonight": 5,
+    "external_catalogues_consulted": 0,
+    "own_record_documents_relied_on": 9,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "The material (Seattle bicycle counts) and the domain are new and outside the record; the three bulletins, the City's dataset page and the n-1 foundation's order-word passage were read. The question came from Session 114's open thread 1, and the makers and coder were of the practice's own kind, which keeps it from going lower."
+   },
+   "what_moved": "Not the standing sentence (not due). Finding a form: the project document's sentence from Session 114 corrected by dated note. S115.ADDRESS added. F-198 to F-200.",
+   "counts": {
+    "work_directories_in_works": 94,
+    "index_rows_in_works_INDEX_md": 96,
+    "falsifier_rows": 41,
+    "falsifier_rows_open": 28,
+    "fehlerkataster_entries_tonight": 3,
+    "why_they_differ": "Rows 31 and 32 of INDEX.md point at work-line-era paths this fork does not contain, as recorded since session 45."
+   },
+   "instruments_run": [
+    "tools/sessions.py",
+    "tools/preflight.py",
+    "tools/counts.py",
+    "tools/pulse_nodes.py",
+    "works/2026-10-07-not-addressed/verify.py"
+   ]
   }
  ],
  "corrections": [
