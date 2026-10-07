@@ -235,6 +235,212 @@
    "files_opened": [
     "/tmp/claude-0/-home-user/0dd51c7d-85fe-53f3-b0e2-8edf9b09e4a1/scratchpad/look/S1/step1.png"
    ]
+  },
+  "S1-2-T3": {
+   "condition": "sequential",
+   "translation": "T3",
+   "found": [
+    "E1",
+    "E7",
+    "E9",
+    "E10",
+    "E11",
+    "E14",
+    "E15",
+    "E19",
+    "E20"
+   ],
+   "n_found": 9,
+   "n_items": 9,
+   "max_item_width": 3,
+   "false_alarms": [],
+   "near": [],
+   "R3": 2,
+   "R3_right": true,
+   "R2": "yes",
+   "R2_period": 27,
+   "guess": "Geomagnetic Kp index (8 three-hour values per day, 0-9 scale); the roughly 27-day repeat matches the Sun's rotation.",
+   "files_opened": [
+    "/tmp/claude-0/-home-user/0dd51c7d-85fe-53f3-b0e2-8edf9b09e4a1/scratchpad/look/S1/step1.png (earlier step)",
+    "/tmp/claude-0/-home-user/0dd51c7d-85fe-53f3-b0e2-8edf9b09e4a1/scratchpad/look/S1/step2.txt (read with the file reader, then parsed once by a Python one-liner to get quarter means and autocorrelation)"
+   ]
+  },
+  "S1-3-T4": {
+   "condition": "sequential",
+   "translation": "T4",
+   "found": [
+    "E1",
+    "E9",
+    "E10",
+    "E15",
+    "E18",
+    "E19"
+   ],
+   "n_found": 6,
+   "n_items": 4,
+   "max_item_width": 9,
+   "false_alarms": [],
+   "near": [],
+   "R3": 2,
+   "R3_right": true,
+   "R2": "yes",
+   "R2_period": 27,
+   "guess": "A smoothed daily geomagnetic activity index, likely daily ap or a running mean of ap derived from Kp.",
+   "files_opened": [
+    "/tmp/claude-0/-home-user/0dd51c7d-85fe-53f3-b0e2-8edf9b09e4a1/scratchpad/look/S1/step1.png (earlier step)",
+    "/tmp/claude-0/-home-user/0dd51c7d-85fe-53f3-b0e2-8edf9b09e4a1/scratchpad/look/S1/step2.txt (earlier step)",
+    "/tmp/claude-0/-home-user/0dd51c7d-85fe-53f3-b0e2-8edf9b09e4a1/scratchpad/look/S1/step3.png"
+   ]
+  },
+  "S1-4-T2": {
+   "condition": "sequential",
+   "translation": "T2",
+   "found": [
+    "E1",
+    "E7",
+    "E8",
+    "E10",
+    "E11",
+    "E14",
+    "E15",
+    "E17",
+    "E18",
+    "E19",
+    "E20"
+   ],
+   "n_found": 11,
+   "n_items": 10,
+   "max_item_width": 3,
+   "false_alarms": [],
+   "near": [],
+   "R3": 4,
+   "R3_right": false,
+   "R2": "yes",
+   "R2_period": 27,
+   "guess": "Daily maximum of the geomagnetic Kp index (0-9), laid out by 27-day solar rotations (a Bartels-style chart).",
+   "files_opened": [
+    "/tmp/claude-0/-home-user/0dd51c7d-85fe-53f3-b0e2-8edf9b09e4a1/scratchpad/look/S1/step1.png (earlier step)",
+    "/tmp/claude-0/-home-user/0dd51c7d-85fe-53f3-b0e2-8edf9b09e4a1/scratchpad/look/S1/step2.txt (earlier step)",
+    "/tmp/claude-0/-home-user/0dd51c7d-85fe-53f3-b0e2-8edf9b09e4a1/scratchpad/look/S1/step3.png (earlier step)",
+    "/tmp/claude-0/-home-user/0dd51c7d-85fe-53f3-b0e2-8edf9b09e4a1/scratchpad/look/S1/step4.png"
+   ]
+  },
+  "S2-1-T1": {
+   "condition": "sequential",
+   "translation": "T1",
+   "found": [
+    "E1",
+    "E7",
+    "E10",
+    "E11",
+    "E14",
+    "E15",
+    "E18",
+    "E19"
+   ],
+   "n_found": 8,
+   "n_items": 7,
+   "max_item_width": 7,
+   "false_alarms": [],
+   "near": [],
+   "R3": 4,
+   "R3_right": false,
+   "R2": "cannot tell",
+   "R2_period": null,
+   "guess": "A 3-hourly geomagnetic activity index such as Kp (0-9, eight values per day) over one year.",
+   "files_opened": [
+    "/tmp/claude-0/-home-user/0dd51c7d-85fe-53f3-b0e2-8edf9b09e4a1/scratchpad/look/S2/step1.png"
+   ]
+  },
+  "S2-2-T3": {
+   "condition": "sequential",
+   "translation": "T3",
+   "found": [
+    "E1",
+    "E7",
+    "E9",
+    "E10",
+    "E11",
+    "E12",
+    "E14",
+    "E15",
+    "E19"
+   ],
+   "n_found": 9,
+   "n_items": 9,
+   "max_item_width": 3,
+   "false_alarms": [],
+   "near": [],
+   "R3": 2,
+   "R3_right": true,
+   "R2": "cannot tell",
+   "R2_period": null,
+   "guess": "A 3-hourly geomagnetic activity index such as Kp (0-9, eight values per day) over one year.",
+   "files_opened": [
+    "/tmp/claude-0/-home-user/0dd51c7d-85fe-53f3-b0e2-8edf9b09e4a1/scratchpad/look/S2/step1.png",
+    "/tmp/claude-0/-home-user/0dd51c7d-85fe-53f3-b0e2-8edf9b09e4a1/scratchpad/look/S2/step2.txt"
+   ]
+  },
+  "S2-3-T4": {
+   "condition": "sequential",
+   "translation": "T4",
+   "found": [
+    "E1",
+    "E9",
+    "E10",
+    "E11",
+    "E15",
+    "E18",
+    "E19"
+   ],
+   "n_found": 7,
+   "n_items": 5,
+   "max_item_width": 9,
+   "false_alarms": [],
+   "near": [],
+   "R3": 2,
+   "R3_right": true,
+   "R2": "cannot tell",
+   "R2_period": null,
+   "guess": "A smoothed daily geomagnetic activity index, possibly a running mean of ap or of 3-hourly Kp converted to ap units.",
+   "files_opened": [
+    "/tmp/claude-0/-home-user/0dd51c7d-85fe-53f3-b0e2-8edf9b09e4a1/scratchpad/look/S2/step1.png",
+    "/tmp/claude-0/-home-user/0dd51c7d-85fe-53f3-b0e2-8edf9b09e4a1/scratchpad/look/S2/step2.txt",
+    "/tmp/claude-0/-home-user/0dd51c7d-85fe-53f3-b0e2-8edf9b09e4a1/scratchpad/look/S2/step3.png"
+   ]
+  },
+  "S2-4-T2": {
+   "condition": "sequential",
+   "translation": "T2",
+   "found": [
+    "E1",
+    "E7",
+    "E8",
+    "E10",
+    "E11",
+    "E14",
+    "E15",
+    "E16",
+    "E17",
+    "E18",
+    "E19"
+   ],
+   "n_found": 11,
+   "n_items": 10,
+   "max_item_width": 3,
+   "false_alarms": [],
+   "near": [],
+   "R3": 4,
+   "R3_right": false,
+   "R2": "yes",
+   "R2_period": 27,
+   "guess": "A 3-hourly geomagnetic activity index such as Kp; a 27-day recurrence would match the Sun's rotation.",
+   "files_opened": [
+    "/tmp/claude-0/-home-user/0dd51c7d-85fe-53f3-b0e2-8edf9b09e4a1/scratchpad/look/S2/step1.png",
+    "/tmp/claude-0/-home-user/0dd51c7d-85fe-53f3-b0e2-8edf9b09e4a1/scratchpad/look/S2/step2.txt",
+    "/tmp/claude-0/-home-user/0dd51c7d-85fe-53f3-b0e2-8edf9b09e4a1/scratchpad/look/S2/step3.png",
+    "/tmp/claude-0/-home-user/0dd51c7d-85fe-53f3-b0e2-8edf9b09e4a1/scratchpad/look/S2/step4.png"
+   ]
   }
  },
  "n_events": 21,
@@ -303,6 +509,41 @@
     "translation": "T1",
     "rate": 0.381,
     "fresh_mean": 0.333
+   },
+   "S1-2-T3": {
+    "translation": "T3",
+    "rate": 0.429,
+    "fresh_mean": 0.381
+   },
+   "S1-3-T4": {
+    "translation": "T4",
+    "rate": 0.286,
+    "fresh_mean": 0.286
+   },
+   "S1-4-T2": {
+    "translation": "T2",
+    "rate": 0.524,
+    "fresh_mean": 0.357
+   },
+   "S2-1-T1": {
+    "translation": "T1",
+    "rate": 0.381,
+    "fresh_mean": 0.333
+   },
+   "S2-2-T3": {
+    "translation": "T3",
+    "rate": 0.429,
+    "fresh_mean": 0.381
+   },
+   "S2-3-T4": {
+    "translation": "T4",
+    "rate": 0.333,
+    "fresh_mean": 0.286
+   },
+   "S2-4-T2": {
+    "translation": "T2",
+    "rate": 0.524,
+    "fresh_mean": 0.357
    }
   },
   "holds": false
@@ -328,9 +569,16 @@
    "F-T3b",
    "F-T4a",
    "F-T4b",
-   "S1-1-T1"
+   "S1-1-T1",
+   "S1-2-T3",
+   "S1-3-T4",
+   "S1-4-T2",
+   "S2-1-T1",
+   "S2-2-T3",
+   "S2-3-T4",
+   "S2-4-T2"
   ],
-  "of": 9,
+  "of": 16,
   "holds": true
  },
  "events_found_by_n_fresh": {
