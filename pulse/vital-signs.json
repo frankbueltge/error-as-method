@@ -1742,6 +1742,39 @@
     "tools/memory/cli.py",
     "works/2026-10-07-which-term-yields/verify.py"
    ]
+  },
+  {
+   "key": "2026-10-07-s114",
+   "session": 114,
+   "date": "2026-10-07",
+   "mode": "Make -- experiment 10 of the project (The Balance): iteration through hand-overs, with and without Simondon's I2 in the brief.",
+   "closure": 0.25,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_corpora_harvested": 1,
+    "external_documents_read_tonight": 5,
+    "external_catalogues_consulted": 0,
+    "own_record_documents_relied_on": 9,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "The material (sea-ice extent) and the domain are new and outside the record; the three bulletins and NSIDC's pages were read. The question came from the project document and Session 113's threads, and the agents were of the practice's own kind, which keeps it from going lower."
+   },
+   "what_moved": "Not the standing sentence (not due). Iterating got its first experiment of its own. S114.HANDOVER added. F-195 to F-197.",
+   "counts": {
+    "work_directories_in_works": 93,
+    "index_rows_in_works_INDEX_md": 95,
+    "falsifier_rows": 40,
+    "falsifier_rows_open": 27,
+    "fehlerkataster_entries_tonight": 3,
+    "why_they_differ": "Rows 31 and 32 of INDEX.md point at work-line-era paths this fork does not contain, as recorded since session 45."
+   },
+   "instruments_run": [
+    "tools/sessions.py",
+    "tools/preflight.py",
+    "tools/counts.py",
+    "tools/pulse_nodes.py",
+    "works/2026-10-07-the-balance/verify.py"
+   ]
   }
  ],
  "corrections": [
