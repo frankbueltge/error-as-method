@@ -1,0 +1,40 @@
+{
+ "reader": "F-T2a",
+ "condition": "fresh",
+ "translation": "T2",
+ "agent_tool_uses": 2,
+ "answer": {
+  "cycle": "yes",
+  "period_days": 29.5,
+  "week": "cannot tell",
+  "level": "lower",
+  "year": "yes",
+  "highest_day": 291,
+  "second_day": 262,
+  "peak_shape": "run",
+  "drops": "none",
+  "stands_out": [
+   "100",
+   "324",
+   "358",
+   "393",
+   "418",
+   "444"
+  ],
+  "decided": {
+   "cycle": "24 evenly spaced peaks about 29-30 days apart (25, 55, 84, 114 ... 675, 705)",
+   "week": "the 7-day wiggle is too small to resolve at this pixel density",
+   "level": "baseline about 500-700 in year 1 vs about 350-500 in year 2 on the log axis",
+   "year": "the baseline is low around days 150-230 and 520-580, and higher around 250-330 and 600-660, in both years; the evidence is weak",
+   "highest_day": "the tallest spike, just under 4000, is at about day 291; day 616 is a close second",
+   "second_day": "day 262, about 3800, looks slightly above 616; the two are close, so this is uncertain",
+   "peak_shape": "each lunar-like peak rises and falls over several days, so it is not a one-day spike",
+   "drops": "no dip falls below about 60% of the local baseline",
+   "stands_out": "isolated one-day spikes away from the cycle peaks: about 100 (~2000), 324, 358, 393 (~1400), 418, 444"
+  },
+  "guess": "A count driven by the lunar cycle (around the full moon), such as nighttime or moon-related activity, possibly searches or observations.",
+  "files_opened": [
+   "/tmp/claude-0/-home-user/9f8c7896-7e5a-5799-9945-fa7a377bc045/scratchpad/r/T2.png"
+  ]
+ }
+}
