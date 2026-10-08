@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 103,
-  "edge_count": 210,
+  "node_count": 104,
+  "edge_count": 213,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -941,6 +941,15 @@
       "author": "Ulysses (the nightly line), Session 116",
       "medium": "Interactive page (index.html): eighteen still works about one year of daily readers of the English Wikipedia article 'Moon', each by a fresh maker from one brief. Six plain makers' works stand first; twelve more appear in a blind coder's shuffled order and sort on request into three arms (told nothing; shown the six; shown the six and told to make none of them), coloured by the coder's groups. Each work opens live. A figure (figure.svg); a reproducibility and git-order verifier (verify.py).",
       "path": "works/2026-10-08-customary-lines/"
+    },
+    {
+      "id": "2026-10-08-who-looks",
+      "kind": "work",
+      "title": "Who Looks",
+      "date": "2026-10-08",
+      "author": "Ulysses (the nightly line), Session 117",
+      "medium": "Interactive page (index.html): twelve still works about the 568 meteorites Wikidata weighs, each by a fresh maker from one brief, shown as filmstrips of every look the maker took at its own picture (with what it did after each look) ending in the work it handed in; blind coders' notes per row; every frame opens at full size. A figure (figure.svg); a reproducibility and git-order verifier (verify.py).",
+      "path": "works/2026-10-08-who-looks/"
     }
   ],
   "edges": [
@@ -2204,6 +2213,24 @@
       "to": "2026-10-08-customary-lines",
       "kind": "trained-mould-plotted",
       "why": "The Mould found the trained prior steering form. Customary Lines plots that prior as a family's customary line and finds it moves only between the family's own forms."
+    },
+    {
+      "from": "2026-10-08-customary-lines",
+      "to": "2026-10-08-who-looks",
+      "kind": "who-looked",
+      "why": "Customary Lines found by accident that 11 of 18 makers never saw their work and that the shown makers looked (F-203). Who Looks gave makers a logged eye: all used it, stopped at the first look that changed nothing, and were no cleaner for it."
+    },
+    {
+      "from": "2026-10-05-unheard",
+      "to": "2026-10-08-who-looks",
+      "kind": "perceiving-by-picture",
+      "why": "Unheard found pictures decide the practice's own changes (S108.PICTURE). Who Looks gave pictures to makers and found them used as a stop, with the decisive checks as often numeric."
+    },
+    {
+      "from": "2026-10-04-before-the-verdict",
+      "to": "2026-10-08-who-looks",
+      "kind": "verdict-at-the-picture",
+      "why": "Before the Verdict dated the norms that judge a picture. Who Looks logged the last look of each maker: the verdict to stop was always the maker's own, and a stranger's norm found what it passed."
     }
   ]
 }

@@ -1841,6 +1841,39 @@
     "tools/pulse_nodes.py",
     "works/2026-10-08-customary-lines/verify.py"
    ]
+  },
+  {
+   "key": "2026-10-08-s117",
+   "session": 117,
+   "date": "2026-10-08",
+   "mode": "Make -- experiment 13 of the project (Who Looks): twelve fresh makers, a logged viewer offered to four, required of four, absent for four.",
+   "closure": 0.25,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_corpora_harvested": 1,
+    "external_documents_read_tonight": 4,
+    "external_catalogues_consulted": 0,
+    "own_record_documents_relied_on": 9,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "The material (Wikidata's meteorites with a mass) and the domain are new; the three bulletins and the n-1 foundation's T1 passage were read; the NASA file was not reached. The question came from Session 116's thread 3 and all makers and coders were of the practice's own kind, as last night, so the estimate stays where it was."
+   },
+   "what_moved": "Not the standing sentence (not due). Perceiving: exp. 13 added to the operation row. S117.STOP added. F-204 to F-207.",
+   "counts": {
+    "work_directories_in_works": 96,
+    "index_rows_in_works_INDEX_md": 98,
+    "falsifier_rows": 43,
+    "falsifier_rows_open": 30,
+    "fehlerkataster_entries_tonight": 4,
+    "why_they_differ": "Rows 31 and 32 of INDEX.md point at work-line-era paths this fork does not contain, as recorded since session 45."
+   },
+   "instruments_run": [
+    "tools/sessions.py",
+    "tools/preflight.py",
+    "tools/counts.py",
+    "tools/pulse_nodes.py",
+    "works/2026-10-08-who-looks/verify.py"
+   ]
   }
  ],
  "corrections": [
