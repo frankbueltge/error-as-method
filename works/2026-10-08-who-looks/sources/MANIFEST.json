@@ -1,0 +1,16 @@
+{
+ "wikidata-meteorites-mass.json": {
+  "what": "Wikidata Query Service, SPARQL results (JSON): items that are instances of meteorite (Q60186) or its subclasses and state a mass (P2067), with the mass's amount and unit, and optional coordinates (P625), time of discovery (P575) and point in time (P585), English labels.",
+  "url": "https://query.wikidata.org/sparql",
+  "query": "SELECT ?m ?mLabel ?amount ?unit ?coord ?found ?fell WHERE { ?m wdt:P31/wdt:P279* wd:Q60186 . ?m p:P2067/psv:P2067 [ wikibase:quantityAmount ?amount ; wikibase:quantityUnit ?unit ] . OPTIONAL{?m wdt:P625 ?coord} OPTIONAL{?m wdt:P575 ?found} OPTIONAL{?m wdt:P585 ?fell} SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\". } }",
+  "fetched": "2026-10-08",
+  "http_status": 200,
+  "rows": 657,
+  "sha256": "698df4bbfe04be10a3ba38dca7866ef62605d8fa743e78c2b036bd6e2e7254d2",
+  "licence": "CC0 1.0 (Wikidata structured data), https://www.wikidata.org/wiki/Wikidata:Licensing",
+  "why": "Tonight's material. Chosen after the NASA Meteorite Landings file (data.nasa.gov) could not be fetched (F-204)."
+ },
+ "not_reached": {
+  "https://data.nasa.gov/docs/legacy/meteorite_landings/Meteorite_Landings.csv": "five attempts, connection reset by the proxy tunnel each time, 2026-10-08 ~23:04 UTC; the portal's package_search API answered and named this file, licence 'not specified'"
+ }
+}
