@@ -5,31 +5,25 @@
 Twelve fresh makers of this practice's own kind got one brief and one material: make a still picture
 of the 568 meteorites that Wikidata records with a mass (CC0). Four got the brief alone (N). Four got
 a viewer beside their folder, *"as often or as little as you like"* (O). Four got the same viewer and
-were told to use it at least once (R). Each call to the viewer rendered the page, showed the maker its
-picture and kept the page exactly as it stood. So every look is on record, with what came after it.
+were told to use it at least once (R). Each call to the viewer kept the page as it stood, so every look is
+on record, with what came after it.
 The predictions were committed before any maker ran (`PREDICTIONS.md`).
 
 **What happened.** All eight who had a viewer used it: 2 to 9 looks, median 4 (P3 failed: at most 3
 was predicted). **Every one of them changed its work after every look but the last, and handed in
-exactly what its last look showed.** No maker looked and then kept working, and none stopped without a
-final look. A blind coder compared each first look with the final. Of 38 differences it listed, 35
+exactly what its last look showed.** A blind coder compared each first look with the final. Of 38 differences it listed, 35
 were finish (labels, placement, clipping, scale) and 3 were form (P4 held). Two pairs, not one, were
-rated *same idea, form changed* (P5 failed). One maker changed the order the stones fall in; one added
-a dust of the lightest stones. A second blind coder counted visible defects in all twelve finals. With
+rated *same idea, form changed* (P5 failed). A second blind coder counted visible defects in all twelve finals. With
 a viewer the mean was 1.6, without one 1.5 (P6 failed: the lookers were predicted cleaner by at least
 1.0). Two makers named defects they had seen at their last look and left them.
 
 The four without a viewer were not blind. One rendered its page by its own means. Three checked their
 layout with numbers, and two of those said no browser was available. Their pages carry 45 % more code
-than the lookers' (238 lines against 165, mean). No maker reported anything a look showed it about the
-material. What they found about the material (Agpalilik's coordinates are Copenhagen's, where it is
-kept) they found by reading the data, lookers and non-lookers alike. The coder put ten of the twelve
+than the lookers' (238 lines against 165, mean). No look showed any maker something about the material.
+What they found there (Agpalilik's coordinates are Copenhagen's) came from reading the data, with or
+without a viewer. The coder put ten of the twelve
 works into three groups of stone heaps. The material has no cycle in it, and the family's mould
 formed anyway (P7 held).
-
-**The face** shows each maker as a filmstrip: every look, a red bar where the maker changed something
-after it, a green bar where it stopped, and the work handed in. Each row also gives the maker's own
-words and the coder's defect notes.
 
 **Theory in the making.** *Cartography, not Tracing* (n-1 foundation) §6 T1: the map is *"entirely
 oriented toward an experimentation in contact with the real"* (ATP 12), and *"The map belongs to
