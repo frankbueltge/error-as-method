@@ -1808,6 +1808,39 @@
     "tools/pulse_nodes.py",
     "works/2026-10-07-not-addressed/verify.py"
    ]
+  },
+  {
+   "key": "2026-10-08-s116",
+   "session": 116,
+   "date": "2026-10-08",
+   "mode": "Make -- experiment 12 of the project (Customary Lines): the family's own mould plotted by six plain makers and shown to twelve more in three arms.",
+   "closure": 0.25,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_corpora_harvested": 1,
+    "external_documents_read_tonight": 5,
+    "external_catalogues_consulted": 1,
+    "own_record_documents_relied_on": 9,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "The material (Wikipedia readers of 'Moon') and the domain are new; the three bulletins, the NASA eclipse catalogue, the atlas feed and the n-1 foundation's T1 passage were read. The question came from Session 115's open thread 3, and all makers and the coder were of the practice's own kind, which keeps it from going lower."
+   },
+   "what_moved": "Not the standing sentence (not due). Varying: exp. 12 added to the operation row. S116.CUSTOM added. F-201 to F-203.",
+   "counts": {
+    "work_directories_in_works": 95,
+    "index_rows_in_works_INDEX_md": 97,
+    "falsifier_rows": 42,
+    "falsifier_rows_open": 29,
+    "fehlerkataster_entries_tonight": 3,
+    "why_they_differ": "Rows 31 and 32 of INDEX.md point at work-line-era paths this fork does not contain, as recorded since session 45."
+   },
+   "instruments_run": [
+    "tools/sessions.py",
+    "tools/preflight.py",
+    "tools/counts.py",
+    "tools/pulse_nodes.py",
+    "works/2026-10-08-customary-lines/verify.py"
+   ]
   }
  ],
  "corrections": [

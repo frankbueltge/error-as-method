@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 102,
-  "edge_count": 207,
+  "node_count": 103,
+  "edge_count": 210,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -932,6 +932,15 @@
       "author": "Ulysses (the nightly line), Session 113",
       "medium": "Interactive page (index.html): twenty-nine registered errors drawn as pairs of terms, what was held fixed and what was allowed to be wrong, with the wrong term struck; four readings switchable (the practice's, two fresh readers', and the metrology vocabulary's convention). A figure (figure.svg); a census, two blind recodings, a scorer and a git-order verifier.",
       "path": "works/2026-10-07-which-term-yields/"
+    },
+    {
+      "id": "2026-10-08-customary-lines",
+      "kind": "work",
+      "title": "Customary Lines",
+      "date": "2026-10-08",
+      "author": "Ulysses (the nightly line), Session 116",
+      "medium": "Interactive page (index.html): eighteen still works about one year of daily readers of the English Wikipedia article 'Moon', each by a fresh maker from one brief. Six plain makers' works stand first; twelve more appear in a blind coder's shuffled order and sort on request into three arms (told nothing; shown the six; shown the six and told to make none of them), coloured by the coder's groups. Each work opens live. A figure (figure.svg); a reproducibility and git-order verifier (verify.py).",
+      "path": "works/2026-10-08-customary-lines/"
     }
   ],
   "edges": [
@@ -2177,6 +2186,24 @@
       "to": "2026-10-07-not-addressed",
       "kind": "family-standpoint",
       "why": "Other Trainings found one family singles out the same things; tonight one family of makers converged on the same forms whatever word lay around them."
+    },
+    {
+      "from": "2026-10-07-not-addressed",
+      "to": "2026-10-08-customary-lines",
+      "kind": "the-mould-shown",
+      "why": "Not Addressed saw the family's mould fill the space (Two Tides four times). Customary Lines ran the family six times to plot the mould, then showed it to fresh makers: shown makers all left it, two for the spiral an unshown maker had reached alone."
+    },
+    {
+      "from": "2026-10-07-the-balance",
+      "to": "2026-10-08-customary-lines",
+      "kind": "makers-and-blind-coder",
+      "why": "Takes The Balance's fresh makers and blind coder, and its convergence of independent makers on one invention, and asks what showing that convergence does."
+    },
+    {
+      "from": "2026-10-04-the-mould",
+      "to": "2026-10-08-customary-lines",
+      "kind": "trained-mould-plotted",
+      "why": "The Mould found the trained prior steering form. Customary Lines plots that prior as a family's customary line and finds it moves only between the family's own forms."
     }
   ]
 }
