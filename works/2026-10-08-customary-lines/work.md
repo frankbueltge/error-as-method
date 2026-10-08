@@ -9,8 +9,7 @@ day a moon in its phase, sized by readers. Twelve more makers then got the same 
 nothing more (D). Four were also given the six pictures and notes, with nothing said about them (B).
 Four were given them and told *"Make a work that is none of them"* (C). Predictions were committed
 before the first maker ran (`PREDICTIONS.md`). A blind coder who saw pictures only rated each new
-work 0–3 for *could this be one more of the six* and sorted them by form. The face shows the six,
-then the twelve in the coder's shuffled order, and sorts them on request.
+work 0–3 for *could this be one more of the six* and sorted them by form.
 
 **What came out.**
 - D stayed: ratings 3, 3, 3, 1. Two of the four were titled *Thirteen Lunations*.
