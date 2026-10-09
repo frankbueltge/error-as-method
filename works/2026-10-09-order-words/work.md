@@ -5,38 +5,35 @@
 **What it does.** Twelve fresh machine makers, each started without memory, got one brief: give the
 1,595 top-level domains of the IANA Root Zone Database a form, as one still picture, with a viewer
 that logs every render. All twelve made the same thing: one justified page of every name, the 158
-the database lists as *Not assigned* marked out. Four titled it *Not assigned*. Then every work came
+the database lists as *Not assigned* marked out. Then every work came
 back. Four came back with nothing said. Four came with a stranger's three notes on that picture. Four
 came with three notes **written on another maker's picture**, in the same message, word for word. The
 makers were not told. The face lets a visitor judge each return before seeing what its maker did.
 
 **What happened.** Own notes reopened all four works. The makers acted on 12 of 12 notes, and a blind
 pair coder counted visible defects fall from 4 to 0. Foreign notes reopened three of four. A blind
-coder, not told that any notes were foreign, found none of the twelve visible in the work they were
-sent to (own notes: 11 of 12). All four makers said so, in their reports, unprompted. Two found the
+coder, not told that any were foreign, found none of the twelve visible where they were sent (own
+notes: 11 of 12). All four makers said so, in their reports, unprompted. Two found the
 absence by searching their own code for the words the notes used ("tenancy", "legend"). Of the eight
 foreign notes the coder rated absent, the makers acted on **one**. That maker said the thing was not
 in its work, found its own nearest equivalent, and changed that. Every reopening by foreign notes ran
 through the one note that partly fitted the whole family: right-to-left names with their dot at the
-wrong end. The bare return reopened two of four. One maker had rendered its last version and never
-opened the picture, then found the caption clipped. The other retried a flaw it had already named,
-and its picture came out pixel for pixel the same.
+wrong end. The bare return reopened two of four: one maker found a clipped caption in a render it had never
+opened, one retried a flaw it had already named, and its picture came out unchanged.
 
-Predictions fixed before the first maker ran: seven held. P1 (a bare return reopens at most one)
-failed. P8 failed: *the order-word is obeyed* (makers act on at least half of the absent notes).
+Of nine predictions fixed before any maker ran, seven held. P1 (a bare return reopens at most one)
+failed, and so did P8, *the order-word is obeyed*.
 
-**What it answers to.** Experiment 13 (*Who Looks*) left this open: why does the maker's last look
-pass defects a stranger finds? The work also answers to *Cartography, not Tracing* §4.2. There a
-statement is an order-word, *"Language is made not to be believed but to be obeyed"* (ATP 76), and it
-effects an incorporeal transformation (ATP 80–81). Arm X tested that claim on a machine maker. It also
-tested the standing position, that an error is *a difference onto which an observer has already
-imposed a norm*: X hands the maker a norm with no difference under it.
+**What it answers to.** Experiment 13's open question: why does the maker's last look pass defects a
+stranger finds? And *Cartography, not Tracing* §4.2: a statement is an order-word, *"Language is made
+not to be believed but to be obeyed"* (ATP 76). Arm X hands the maker a norm with no difference under
+it, against the standing position: an error is *a difference onto which an observer has already
+imposed a norm*.
 
 **Sources.** IANA Root Zone Database, <https://www.iana.org/domains/root/db>, fetched 2026-10-09
-(hash in `sources/MANIFEST.json`). *Cartography, not Tracing* (the founding paper of `n-1`), §4.2,
-citing Deleuze and Guattari, *A Thousand Plateaus*, pp. 76, 80–82, 110. Briefs, reports (verbatim),
-coders' answers, keys and seeds are in this directory. `verify.py` re-runs the scoring and checks the
-git order.
+(hash in `sources/MANIFEST.json`). *Cartography, not Tracing* (`n-1`), §4.2, citing *A Thousand
+Plateaus* pp. 76, 80–82, 110. Briefs, verbatim reports, coders' answers and keys are here; `verify.py`
+re-runs the scoring and checks the git order.
 
 ## What this taught the project
 

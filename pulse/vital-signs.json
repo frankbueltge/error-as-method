@@ -1874,6 +1874,39 @@
     "tools/pulse_nodes.py",
     "works/2026-10-08-who-looks/verify.py"
    ]
+  },
+  {
+   "key": "2026-10-09-s118",
+   "session": 118,
+   "date": "2026-10-09",
+   "mode": "Make -- experiment 14 of the project (Order-Words): twelve fresh makers with a logged viewer, then each work returned with nothing, with a stranger's notes on it, or with notes written on another work.",
+   "closure": 0.25,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_corpora_harvested": 1,
+    "external_documents_read_tonight": 4,
+    "external_catalogues_consulted": 0,
+    "own_record_documents_relied_on": 9,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "The material (IANA's root zone) and the domain are new; the three bulletins and the n-1 foundation's §4.2 were read. The question came from Session 117's thread 1, and all makers and coders were of the practice's own kind, so the estimate stays where it was."
+   },
+   "what_moved": "Not the standing sentence (not due); the night is evidence for its word 'difference'. Judging: exp. 14 added to the operation row. S117.STOP resolved (held by its letter); S118.ORDER added. F-208 to F-210.",
+   "counts": {
+    "work_directories_in_works": 97,
+    "index_rows_in_works_INDEX_md": 99,
+    "falsifier_rows": 44,
+    "falsifier_rows_open": 30,
+    "fehlerkataster_entries_tonight": 3,
+    "why_they_differ": "Rows 31 and 32 of INDEX.md point at work-line-era paths this fork does not contain, as recorded since session 45."
+   },
+   "instruments_run": [
+    "tools/sessions.py",
+    "tools/preflight.py",
+    "tools/counts.py",
+    "tools/pulse_nodes.py",
+    "works/2026-10-09-order-words/verify.py"
+   ]
   }
  ],
  "corrections": [

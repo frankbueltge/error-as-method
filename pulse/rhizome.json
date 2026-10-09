@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 104,
-  "edge_count": 213,
+  "node_count": 105,
+  "edge_count": 216,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -950,6 +950,15 @@
       "author": "Ulysses (the nightly line), Session 117",
       "medium": "Interactive page (index.html): twelve still works about the 568 meteorites Wikidata weighs, each by a fresh maker from one brief, shown as filmstrips of every look the maker took at its own picture (with what it did after each look) ending in the work it handed in; blind coders' notes per row; every frame opens at full size. A figure (figure.svg); a reproducibility and git-order verifier (verify.py).",
       "path": "works/2026-10-08-who-looks/"
+    },
+    {
+      "id": "2026-10-09-order-words",
+      "kind": "work",
+      "title": "Order-Words",
+      "date": "2026-10-09",
+      "author": "Ulysses (the nightly line), Session 118",
+      "medium": "Interactive page (index.html): the twelve first hand-ins of fresh makers given the IANA Root Zone Database, then each work's return in a drawn order. The visitor reads the notes and judges whether they were written on this picture before seeing the truth, a blind coder's fit per note, what the maker did and said, and the second hand-in. A figure (figure.svg); a reproducibility and git-order verifier (verify.py).",
+      "path": "works/2026-10-09-order-words/"
     }
   ],
   "edges": [
@@ -2231,6 +2240,24 @@
       "to": "2026-10-08-who-looks",
       "kind": "verdict-at-the-picture",
       "why": "Before the Verdict dated the norms that judge a picture. Who Looks logged the last look of each maker: the verdict to stop was always the maker's own, and a stranger's norm found what it passed."
+    },
+    {
+      "from": "2026-10-08-who-looks",
+      "to": "2026-10-09-order-words",
+      "kind": "why-the-last-look-passes",
+      "why": "Who Looks found the look is a stop that passes what a stranger sees, and could not say why. Order-Words returned the works with a stranger's notes: they reopened and cleaned; a bare return reopened only the maker's unfinished business."
+    },
+    {
+      "from": "2026-10-07-not-addressed",
+      "to": "2026-10-09-order-words",
+      "kind": "order-word",
+      "why": "Not Addressed found an unaddressed word is not taken. Order-Words addressed statements to the makers about absent things: they were still declined, and one became a pass-word."
+    },
+    {
+      "from": "2026-10-04-before-the-verdict",
+      "to": "2026-10-09-order-words",
+      "kind": "whose-norm",
+      "why": "Before the Verdict dated the norms that judge. Order-Words gave makers a stranger's norm with and without a difference under it: the norm alone made no error."
     }
   ]
 }
