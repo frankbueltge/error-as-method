@@ -1,0 +1,17 @@
+[
+ {
+  "url": "https://www.iana.org/domains/root/db",
+  "fetched": "2026-10-09",
+  "status": 200,
+  "bytes": 377768,
+  "sha256": "69faf42b6235a46de14e454fc23a3df2272b26954af150c0eb8586d50af103a3",
+  "what": "IANA Root Zone Database, the HTML table of every top-level domain with its type and TLD manager",
+  "why": "the night's material; parsed into root-zone.json (domain, type, manager), which is committed. The page itself is not committed (site chrome); re-fetch and compare the hash, or the row count.",
+  "rows": 1595
+ },
+ {
+  "file": "root-zone.json",
+  "sha256": "befe86b14158af96fe70728d16c52d7957fed8e9eb05487a673e93036d626cea",
+  "rows": 1595
+ }
+]
