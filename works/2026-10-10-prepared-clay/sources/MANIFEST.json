@@ -1,0 +1,23 @@
+[
+ {
+  "url": "https://ourworldindata.org/grapher/date-of-the-peak-cherry-tree-blossom-in-kyoto.csv?v=1&csvType=full&useColumnShortNames=false",
+  "file": "owid-kyoto-cherry-blossom.csv",
+  "fetched": "2026-10-10",
+  "status": 200,
+  "bytes": 28372,
+  "sha256": "aea6779dc2a586454bbb46cdb2edbdd0063181daffcd0dcbeec0868bf6236bd5",
+  "what": "Day of the year with peak cherry blossom in Kyoto (Prunus jamasakura), 812-2026, and OWID's thirty-year average; 838 years with a date",
+  "licence": "CC BY 4.0 (OWID origin metadata; producers Yasuyuki Aono and Genki Katata). Committed with attribution.",
+  "cite": "Aono and Kazui (2008) International Journal of Climatology 28, 905-914; Aono and Saito (2010) International Journal of Biometeorology 54, 211-219; Aono (2012) Chikyu Kankyo 17, 21-29; Katata (2026) https://cigs.canon/katata_date/260420sakura_katata.html; via Our World in Data",
+  "why": "the night's material; prepare.py turns it into the three preparations"
+ },
+ {
+  "url": "https://ourworldindata.org/grapher/date-of-the-peak-cherry-tree-blossom-in-kyoto.metadata.json?v=1&csvType=full&useColumnShortNames=false",
+  "file": "owid-kyoto-cherry-blossom.metadata.json",
+  "fetched": "2026-10-10",
+  "status": 200,
+  "sha256": "c94508428c880297b5f7419d35f846f6389849c56a2898e78586c6ad797eca3c",
+  "what": "the chart's metadata (citation, units, processing note)",
+  "why": "attribution; the licence is in the indicator metadata at https://api.ourworldindata.org/v1/indicators/1227647.metadata.json (origins[0].license: CC BY 4.0), read on the night and not committed"
+ }
+]
