@@ -10,6 +10,7 @@ under the auto-land-eligible paths.
 - `night/2026-08-13-session-53-request` — refused_protected_path: SITE-API.md 
 - `night/2026-08-13-session-54` — refused_protected_path: SITE-API.md 
 - `night/2026-08-16` — refused_protected_path: SITE-API.md 
+- `night/2026-10-10` — refused_validation: see validator output above
 
 ## Failed — the machinery, not the gate
 
