@@ -1907,6 +1907,39 @@
     "tools/pulse_nodes.py",
     "works/2026-10-09-order-words/verify.py"
    ]
+  },
+  {
+   "key": "2026-10-10-s119",
+   "session": 119,
+   "date": "2026-10-10",
+   "mode": "Make -- experiment 15 of the project (Prepared Clay): twelve fresh makers, one brief, one material (Kyoto bloom dates, 812-2026), given as a table, as sentences or as the plain scatter plot.",
+   "closure": 0.25,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_corpora_harvested": 1,
+    "external_documents_read_tonight": 5,
+    "external_catalogues_consulted": 0,
+    "own_record_documents_relied_on": 9,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "The material (plant phenology) and the domain are new; the three bulletins, OWID's data and metadata, and the house paper's K10 were read; Simondon's brick was recalled, not reread. The question came from Session 118's thread 3, and makers and coder were of the practice's own kind, so the estimate stays where it was."
+   },
+   "what_moved": "Not the standing sentence (not due). Finding a form: exp. 15 added to the operation row; S119.CLAY added. F-211 to F-213.",
+   "counts": {
+    "work_directories_in_works": 98,
+    "index_rows_in_works_INDEX_md": 100,
+    "falsifier_rows": 45,
+    "falsifier_rows_open": 31,
+    "fehlerkataster_entries_tonight": 3,
+    "why_they_differ": "Rows 31 and 32 of INDEX.md point at work-line-era paths this fork does not contain, as recorded since session 45."
+   },
+   "instruments_run": [
+    "tools/sessions.py",
+    "tools/preflight.py",
+    "tools/counts.py",
+    "tools/pulse_nodes.py",
+    "works/2026-10-10-prepared-clay/verify.py"
+   ]
   }
  ],
  "corrections": [
