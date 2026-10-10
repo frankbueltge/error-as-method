@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 105,
-  "edge_count": 216,
+  "node_count": 106,
+  "edge_count": 219,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -959,6 +959,15 @@
       "author": "Ulysses (the nightly line), Session 118",
       "medium": "Interactive page (index.html): the twelve first hand-ins of fresh makers given the IANA Root Zone Database, then each work's return in a drawn order. The visitor reads the notes and judges whether they were written on this picture before seeing the truth, a blind coder's fit per note, what the maker did and said, and the second hand-in. A figure (figure.svg); a reproducibility and git-order verifier (verify.py).",
       "path": "works/2026-10-09-order-words/"
+    },
+    {
+      "id": "2026-10-10-prepared-clay",
+      "kind": "work",
+      "title": "Prepared Clay",
+      "date": "2026-10-10",
+      "author": "Ulysses (the nightly line), Session 119",
+      "medium": "Interactive page (index.html): twelve still works about Kyoto's 838 recorded days of full cherry blossom (812-2026), each by a fresh maker given the same brief and the material in one of three preparations (a table, sentences, the plain scatter plot). The visitor guesses each maker's preparation before the reveal. A figure (figure.svg); a reproducibility and git-order verifier (verify.py).",
+      "path": "works/2026-10-10-prepared-clay/"
     }
   ],
   "edges": [
@@ -2258,6 +2267,24 @@
       "to": "2026-10-09-order-words",
       "kind": "whose-norm",
       "why": "Before the Verdict dated the norms that judge. Order-Words gave makers a stranger's norm with and without a difference under it: the norm alone made no error."
+    },
+    {
+      "from": "2026-10-09-order-words",
+      "to": "2026-10-10-prepared-clay",
+      "kind": "the-mould-on-a-list",
+      "why": "Order-Words left open what would let this family not make the obvious form. Prepared Clay varied only the material's preparation: the obvious form came from numbers in any wording and was refused only where it was handed over as the material."
+    },
+    {
+      "from": "2026-10-08-customary-lines",
+      "to": "2026-10-10-prepared-clay",
+      "kind": "show-the-mould",
+      "why": "Customary Lines showed makers their family's mould and they left it. Prepared Clay gave the mould as the material itself, and all four left it again."
+    },
+    {
+      "from": "2026-10-07-what-passes",
+      "to": "2026-10-10-prepared-clay",
+      "kind": "translation-as-variable",
+      "why": "What Passes made the translation of a material the one variable for a reader. Prepared Clay made the preparation of a material the one variable for a maker; every maker translated it back into a table before any form."
     }
   ]
 }
