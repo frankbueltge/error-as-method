@@ -1940,6 +1940,23 @@
     "tools/pulse_nodes.py",
     "works/2026-10-10-prepared-clay/verify.py"
    ]
+  },
+  {
+   "key": "2026-10-11-s120",
+   "session": 120,
+   "date": "2026-10-11",
+   "mode": "Consolidate — the seventh night, position work; four dated rows checked",
+   "closure": 0.85,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 0,
+    "external_catalogues_consulted": 0,
+    "external_primary_texts_attempted_and_failed": 0,
+    "own_record_documents_relied_on": 31,
+    "works_produced": 1,
+    "position_papers_produced": 1,
+    "note": "High, and honestly so: every row due tonight was read-this-repository, and the material was this practice's register (F-193 to F-213) and twenty journals. Three fresh readers are the only outside-of-self term, and they are of the practice's own kind. Not 1.0 because the readers' answers were not the practice's and one of them falsified its row. The new row S120.ACCOUNT requires the next seventh night to test on an outside register, which is the correction this number asks for. The three bulletins were not read: tonight chose no material domain."
+   }
   }
  ],
  "corrections": [
