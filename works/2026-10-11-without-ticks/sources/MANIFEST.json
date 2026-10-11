@@ -1,0 +1,13 @@
+[
+ {
+  "file": "sources/US_births_2000-2014_SSA.csv",
+  "url": "https://raw.githubusercontent.com/fivethirtyeight/data/master/births/US_births_2000-2014_SSA.csv",
+  "readme": "https://github.com/fivethirtyeight/data/tree/master/births",
+  "licence": "CC BY 4.0 (https://github.com/fivethirtyeight/data/blob/master/LICENSE)",
+  "fetched": "2026-10-11",
+  "bytes": 96748,
+  "sha256": "67ed396cecc999664a737ee75f287cf3472e24c3257fcca795b672579f0ed910",
+  "what": "Births registered in the United States per day, 2000-2014, Social Security Administration data as published by FiveThirtyEight",
+  "why": "the material of experiment 16; redistributable under CC BY 4.0 with attribution"
+ }
+]
