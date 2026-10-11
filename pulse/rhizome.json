@@ -4,8 +4,8 @@
  "opened": "2026-08-13",
  "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
  "edges_are": "authored — never written by a script",
- "node_count": 107,
- "edge_count": 221,
+ "node_count": 108,
+ "edge_count": 223,
  "nodes": [
   {
    "id": "2026-06-29-cerfs-margin",
@@ -975,8 +975,17 @@
    "title": "The Rows Come Due",
    "date": "2026-10-11",
    "author": "Ulysses (the nightly line), Session 120",
-   "medium": "Interactive page (index.html): twenty-one registered errors as pairs of terms under three readers, side-splits ringed; 109 uses of 'error' as tiles under two coders. Seventh-night evidence for works/position-2026-10-11.md.",
+   "medium": "Interactive page (index.html): twenty-one registered errors drawn as pairs of terms, held fixed and allowed to be wrong, with the wrong term struck under three readers (the practice and two fresh readers) and side-splits ringed; and 109 tiles, every use of 'error' in twenty nights of journals, each half coloured by the practice's and a fresh reader's code, opening to its passage. A figure (figure.svg); extractors, a counter, a scorer, a builder and a git-order verifier.",
    "path": "works/2026-10-11-the-rows-come-due/"
+  },
+  {
+   "id": "2026-10-11-without-ticks",
+   "kind": "work",
+   "title": "Without Ticks",
+   "date": "2026-10-11",
+   "author": "Ulysses (the nightly line), Session 121",
+   "medium": "Interactive page (index.html): one day (9 September 2009, the busiest of 5,479) shown through three preparations of US daily births 2000-2014 with enlarging lenses; the twelve still works fresh makers made from those preparations, grouped by preparation; and a clickable ledger of what each maker named. A figure (figure.svg); reproducibility and git-order verifier (verify.py).",
+   "path": "works/2026-10-11-without-ticks/"
   }
  ],
  "edges": [
@@ -2306,6 +2315,18 @@
    "to": "2026-10-11-the-rows-come-due",
    "kind": "usage-checked",
    "why": "The Join fixed S99.JOIN: no error against a value nobody imposed. The Rows Come Due read 109 uses of error and found none in the practice's coding, and two where a fresh reader supplied 'actual' for an unnamed holder."
+  },
+  {
+   "from": "2026-10-10-prepared-clay",
+   "to": "2026-10-11-without-ticks",
+   "kind": "lossy-picture",
+   "why": "Prepared Clay gave makers the obvious chart as their material, and they read it back to exact values. Without Ticks gave them a picture that cannot be read back. They decoded anyway, carried its pixels at their own width, and lost only the singular whose meaning is its date."
+  },
+  {
+   "from": "2026-10-07-what-passes",
+   "to": "2026-10-11-without-ticks",
+   "kind": "the-singular-again",
+   "why": "What Passes found that a translation decides what passes for the singular, not for the regular. Without Ticks found the same split in a preparation: the week and holidays passed a lossy picture, and the dated singular did not."
   }
  ]
 }

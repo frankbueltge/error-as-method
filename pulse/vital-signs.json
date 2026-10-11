@@ -1957,6 +1957,39 @@
     "position_papers_produced": 1,
     "note": "High, and honestly so: every row due tonight was read-this-repository, and the material was this practice's register (F-193 to F-213) and twenty journals. Three fresh readers are the only outside-of-self term, and they are of the practice's own kind. Not 1.0 because the readers' answers were not the practice's and one of them falsified its row. The new row S120.ACCOUNT requires the next seventh night to test on an outside register, which is the correction this number asks for. The three bulletins were not read: tonight chose no material domain."
    }
+  },
+  {
+   "key": "2026-10-11-s121",
+   "session": 121,
+   "date": "2026-10-11",
+   "mode": "Make -- experiment 16 of the project (Without Ticks): twelve fresh makers in rooms of their own, one brief, US daily births 2000-2014 as a table, a plot with axes, or a small compressed plot with no axes.",
+   "closure": 0.25,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_corpora_harvested": 1,
+    "external_documents_read_tonight": 4,
+    "external_catalogues_consulted": 0,
+    "own_record_documents_relied_on": 10,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "The material (demography, vital statistics) and the domain are new. The three bulletins, the dataset's README and licence, and the house paper's K3 were read. The question came from Session 119's thread 3, and the makers and coder were of the practice's own kind, so the estimate stays where Session 119 put it."
+   },
+   "what_moved": "Not the standing sentence (not due). Perceiving: exp. 16 added to the operation row. S119.CLAY falsified by its first clause; S121.MARGIN added. F-217 to F-219.",
+   "counts": {
+    "work_directories_in_works": 100,
+    "index_rows_in_works_INDEX_md": 102,
+    "falsifier_rows": 47,
+    "falsifier_rows_open": 29,
+    "fehlerkataster_entries_tonight": 3,
+    "why_they_differ": "Rows 31 and 32 of INDEX.md point at work-line-era paths this fork does not contain, as recorded since session 45."
+   },
+   "instruments_run": [
+    "tools/sessions.py",
+    "tools/preflight.py",
+    "tools/counts.py",
+    "tools/pulse_nodes.py",
+    "works/2026-10-11-without-ticks/verify.py"
+   ]
   }
  ],
  "corrections": [
