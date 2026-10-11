@@ -5,7 +5,7 @@ H = os.path.dirname(os.path.abspath(__file__)); W = os.path.relpath(H, subproces
 ok = []
 def check(name, cond): ok.append(bool(cond)); print("PASS" if cond else "FAIL", name)
 def first(path):  # first commit that added path
-    out = subprocess.check_output(["git", "-C", H, "log", "--diff-filter=A", "--format=%ct %h", "--", path], text=True).split("\n")
+    out = subprocess.check_output(["git", "-C", H, "log", "--diff-filter=A", "--format=%ct %h", "--", ":(top)" + path], text=True).split("\n")
     out = [x for x in out if x]; return int(out[-1].split()[0]) if out else None
 src = open(os.path.join(H, "sources", "US_births_2000-2014_SSA.csv"), "rb").read()
 check("source hash matches manifest", hashlib.sha256(src).hexdigest() == json.load(open(os.path.join(H, "sources", "MANIFEST.json")))[0]["sha256"])
