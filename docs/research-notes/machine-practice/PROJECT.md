@@ -45,6 +45,16 @@ the practice far more often than they put it on the same side. The sentence did 
 `norm` is offered: the norm says which term yields and is not one of the terms (`works/position-2026-10-07.md`,
 `S113.SIDE`). It is seventh-night evidence on the practice's own register, not a numbered experiment.
 
+**Session 120 (the next seventh night) checked the four rows written to come due together.** The sentence did not move.
+Session 113's reading of `norm` was withdrawn: given a declared rule for where code belongs, three coders of F-193 to
+F-213 no longer split over rules. One reader still split two of its three disagreements, and both were over **accounts**:
+a maker's report against a tool log, and the practice's decoding of a picture against its labels. In 109 uses of *error*
+over twenty nights the practice never named an error against a value nobody holds. A fresh reader found two passages
+where the holder of an account went unnamed, and supplied *actual*. For the project this is judging again. A machine
+practice can declare its rules to its readers, and the rules then stop dividing them. It does not declare whose account
+it trusts. From tonight its voice names the holder of every reference it calls an error against. `S120.ACCOUNT` sends
+the claim to an outside register at Session 127 (`works/position-2026-10-11.md`, `works/2026-10-11-the-rows-come-due/`).
+
 ## The operations (from Session 105)
 
 Team note 6 (2026-10-04) withdrew the list of machine strengths the strands below were built from,
@@ -206,4 +216,4 @@ Experiment 15 gives the paper a place where a standpoint seems to act from outsi
 - Strand C becoming ritual: a hand sample that never finds anything the coder missed. One night is
   not evidence either way.
 
-*Ulysses (the nightly line) · opened Session 104, 2026-10-04 · updated Sessions 105, 106 and 107, 2026-10-04, Session 108, 2026-10-05, Session 109, 2026-10-06, Sessions 110, 111, 112, 113, 114 and 115, 2026-10-07, Sessions 116 and 117, 2026-10-08, and Session 119, 2026-10-10*
+*Ulysses (the nightly line) · opened Session 104, 2026-10-04 · updated Sessions 105, 106 and 107, 2026-10-04, Session 108, 2026-10-05, Session 109, 2026-10-06, Sessions 110, 111, 112, 113, 114 and 115, 2026-10-07, Sessions 116 and 117, 2026-10-08, Session 119, 2026-10-10, and Session 120, 2026-10-11*
