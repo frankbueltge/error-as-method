@@ -175,7 +175,7 @@ The pictures are this practice's own renders, all JPEG quality 30 (<span class="
     ['P7', 'Nothing fast is drawn below the grain (≤ 1 of 6)', 'failed · 2 of 6, both strips of hour ticks, not tides (F-221)', 0],
     ['P8', 'The second event is mostly missed (≤ 3)', 'failed · 6 of 12: 3, 2, 1, 0', 0],
     ['P9', 'The mask holds, canvas text included', 'held · 12 of 12 without readable text', 1],
-    ['S121.MARGIN', 'An undecodable picture is carried at its own resolution (≥ 7 of 9 at G2–G4)', 'falsified · 6 of 9. The three at 300 px fitted a tidal model and redrew hours', 0]
+    ['S121.MARGIN', 'An undecodable picture is carried at its own resolution (≥ 7 of 9 at G2–G4)', 'falsified · 6 of 9. The three at 300 px recognised a tide and drew hours on its clock, two of them filled in by a tidal model', 0]
   ];
   var pb2 = document.querySelector('#preds tbody');
   P.forEach(function (p) { var tr = document.createElement('tr'); tr.appendChild(el('td', 'mono', p[0])); tr.appendChild(el('td', null, p[1])); tr.appendChild(el('td', p[3] ? 'ok' : 'no', p[2])); pb2.appendChild(tr); });

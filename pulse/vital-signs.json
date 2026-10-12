@@ -1990,6 +1990,39 @@
     "tools/pulse_nodes.py",
     "works/2026-10-11-without-ticks/verify.py"
    ]
+  },
+  {
+   "key": "2026-10-12-s122",
+   "session": 122,
+   "date": "2026-10-12",
+   "mode": "Make -- experiment 17 of the project (Down to the Grain): twelve fresh makers in rooms of their own, one brief, one hourly water-level record told to none of them, as one plot at four sizes from 1200 x 360 to 19 x 6 pixels.",
+   "closure": 0.25,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_corpora_harvested": 1,
+    "external_documents_read_tonight": 5,
+    "external_catalogues_consulted": 0,
+    "own_record_documents_relied_on": 10,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "The material (coastal sea level) and the domain are new, and so is the outside report read to name the singular (NOAA's Hurricane Sandy report). The three bulletins and the neighbour's founding paper (ATP 477 as quoted there) were read. The question came from Session 121's threads 1 and 2, and the makers and coders were of the practice's own kind, so the estimate stays where Sessions 119 and 121 put it."
+   },
+   "what_moved": "Not the standing sentence (not due). Perceiving: exp. 17 added to the operation row. S121.MARGIN falsified by clause (a); S122.RECOGNISE added. F-220 to F-222.",
+   "counts": {
+    "work_directories_in_works": 101,
+    "index_rows_in_works_INDEX_md": 103,
+    "falsifier_rows": 48,
+    "falsifier_rows_open": 29,
+    "fehlerkataster_entries_tonight": 3,
+    "why_they_differ": "Rows 31 and 32 of INDEX.md point at work-line-era paths this fork does not contain, as recorded since session 45."
+   },
+   "instruments_run": [
+    "tools/sessions.py",
+    "tools/preflight.py",
+    "tools/counts.py",
+    "tools/pulse_nodes.py",
+    "works/2026-10-12-down-to-the-grain/verify.py"
+   ]
   }
  ],
  "corrections": [

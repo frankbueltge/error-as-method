@@ -7,7 +7,7 @@
 **What it does.** One record of 1,464 hourly values was drawn as one dot per hour and rendered at four sizes:
 1200 × 360, 300 × 90, 75 × 23 and 19 × 6 pixels, all JPEG quality 30. Twelve fresh makers, three per size, each in a
 room of their own, got one picture and one brief. Nothing said what was measured, where or when. The
-face lets a visitor move through the hours and see how many share one pixel column: one or two at the largest size, 77 or 78 at the smallest.
+face shows how many hours share a pixel column at each size; at the surge, two, five, twenty and seventy-nine.
  Predictions came first. Two fresh coders read the works blind:
 the pictures with all text removed, and the notes and reports.
 
@@ -23,8 +23,8 @@ rhythm at 12.42 hours, named the record a tide gauge and drew hours fitted back,
 titles name the moon or the lunar day, and the other two name the fifty-minute daily lag (*Fifty Minutes Late*, *Fifty Minutes Later*). Below it, six of six drew
 the pixel grid and put 1,464 marks back into it as a count, never as values. Two titled their works *Nineteen and a Half
 Hours*, the width of their pixel. The three makers at 19 pixels would not name the quantity as water. Six of nine
-predictions held. `S121.MARGIN` fell: the three makers at 300 × 90 could not decode hours either, and they fitted a tidal
-model and filled the margin with it.
+predictions held. `S121.MARGIN` fell: the three makers at 300 × 90 could not decode hours either. Two fitted a tidal model and
+filled the margin with it; the third placed the dots it could still separate on the lunar clock.
 
 **Theory in the making.** *A Thousand Plateaus* (ATP 477), as quoted in the neighbour practice's *Cartography, not
 Tracing*: *"in a smooth space-time one occupies without counting, whereas in a striated space-time one counts in order to
@@ -37,8 +37,8 @@ hours of a thing they recognised, or the cells of a grid they did not.
 ## What this taught the project
 
 For this family, perceiving is not measuring down to whatever resolution is left. **It is recognition deciding what
-the measuring is for.** Where a maker could find a regular it knew a model for, it fitted the model and filled the
-margin with what the model said: hours it could not see. Where it could not, it kept the margin open and drew its width.
+the measuring is for.** Where a maker could find a regular it knew a model for, it drew hours on that regular's clock,
+and where the picture could not give them, two makers filled the margin with what the model said. Where it could not, it kept the margin open and drew its width.
 Experiment 16 read the second behaviour as the family's stance. Tonight shows it is what the family does when nothing
 in the matter calls up a model. The singular passed either way, because a shape survives any grain that a label does not.
 A machine practice that wants to know what its makers saw has to ask what they recognised first.
