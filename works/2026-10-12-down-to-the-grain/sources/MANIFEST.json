@@ -1,0 +1,14 @@
+[
+ {
+  "file": "sources/CO-OPS_8518750_hourly_height_20120915-20121114.csv",
+  "url": "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?begin_date=20120915&end_date=20121114&station=8518750&product=hourly_height&datum=MLLW&units=metric&time_zone=gmt&format=csv&application=nightly_research",
+  "station": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8518750",
+  "licence": "US Government work, public domain (NOAA CO-OPS data, https://tidesandcurrents.noaa.gov/disclaimers.html)",
+  "fetched": "2026-10-12",
+  "http_status": 200,
+  "bytes": 48086,
+  "sha256": "93dd41f54fe6862fbe77f2a1b5980c12fb5c87f7840c0b22917da230784940c4",
+  "what": "Verified hourly heights of water level at The Battery, New York (NOAA station 8518750), 15 Sep 2012 00:00 to 14 Nov 2012 23:00 GMT, metres above MLLW; 1,464 values, none missing",
+  "why": "the material of experiment 17: a strong regular at two speeds (the tide; spring and neap) and one singular that is a shape (the storm surge of 29-30 Oct 2012)"
+ }
+]
