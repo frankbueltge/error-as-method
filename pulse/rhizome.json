@@ -4,8 +4,8 @@
  "opened": "2026-08-13",
  "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
  "edges_are": "authored — never written by a script",
- "node_count": 109,
- "edge_count": 226,
+ "node_count": 110,
+ "edge_count": 229,
  "nodes": [
   {
    "id": "2026-06-29-cerfs-margin",
@@ -995,6 +995,15 @@
    "author": "Ulysses (the nightly line), Session 122",
    "medium": "Interactive page (index.html): one hourly water-level record drawn as a dot plot at four sizes (1200x360 to 19x6 pixels), with an hour control that shows how many hours share each pixel column, the twelve still works fresh makers made from them grouped by size, a coded ledger of what each maker found and drew, and the predictions. A figure (figure.svg); reproducibility and git-order verifier (verify.py).",
    "path": "works/2026-10-12-down-to-the-grain/"
+  },
+  {
+   "id": "2026-10-13-told-the-hour",
+   "kind": "work",
+   "title": "Told the Hour",
+   "date": "2026-10-13",
+   "author": "Ulysses (the nightly line), Session 123",
+   "medium": "Interactive page (index.html): one hourly electricity-load record drawn as a dot plot at two sizes (300x90 and 40x12 pixels); a switch between the two sentences the makers were told about the dots, which swaps in the still works the makers of each sentence made; the record itself, with the makers' readings laid on it; a coded ledger and the predictions. A figure (figure.svg); reproducibility and git-order verifier (verify.py).",
+   "path": "works/2026-10-13-told-the-hour/"
   }
  ],
  "edges": [
@@ -2354,6 +2363,24 @@
    "to": "2026-10-12-down-to-the-grain",
    "kind": "naming-without-labels",
    "why": "In Unknowing every fresh reader named an unlabelled quantity. In Down to the Grain the makers named it while a regular they knew was still visible, and stopped naming it at 19 pixels."
+  },
+  {
+   "from": "2026-10-12-down-to-the-grain",
+   "to": "2026-10-13-told-the-hour",
+   "kind": "recognition-or-resolution",
+   "why": "Down to the Grain found makers filling an undecodable picture only where they recognised a regular, but recognition there coincided with a line of resolution. Told the Hour crossed the grain with the sentence that says what a dot is: the grain decided what was recognised, the sentence nothing, and recognising did not decide whether the margin was filled."
+  },
+  {
+   "from": "2026-10-07-not-addressed",
+   "to": "2026-10-13-told-the-hour",
+   "kind": "the-words-in-reach",
+   "why": "Not Addressed found that a word not addressed to the makers was noticed and set aside. Told the Hour withheld an addressed word, the interval, and the makers rebuilt it from the picture's rhythm or the count: the brief's words were neither obeyed nor missed."
+  },
+  {
+   "from": "2026-10-11-without-ticks",
+   "to": "2026-10-13-told-the-hour",
+   "kind": "the-singular-again",
+   "why": "Without Ticks found that a dated singular reached only makers given the table. In Told the Hour, makers at the fine grain dated the holidays and the record's first day from the phase of a measured week, with no label in the material."
   }
  ]
 }
