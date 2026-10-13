@@ -41,7 +41,9 @@ For each maker answer:
 - B11 stopped counting: does the maker say that it stopped measuring, or chose not to measure, or that it worked
   from the look of the picture rather than from numbers taken from it? `yes` or `no`.
 
-Write your answers to `{FOLDER}/answers.json` as an object keyed by `m01` to `m12`, each with the fields above and
+Write your answers to `{FOLDER}/answers.json` as an object keyed by `m01` to `m12`. Use exactly these keys for each
+maker: `B1`, `B2`, `B2_periods`, `B3`, `B4`, `B5`, `B6`, `B6_where`, `B7_quote`, `B7_category`, `B8`, `B9`, `B9_outside`,
+`B10`, `B11` (use `""` for a field that does not apply), and add
 a short quotation that supports each `yes`, `measured`, `supplied`, `told` or `inferred` (fields named like
 `B3_quote`). Write nothing else anywhere. Then reply with a short report: how you went about it and which answers
 were hard.
