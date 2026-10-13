@@ -17,7 +17,7 @@ CC BY 4.0, 15-minute values averaged to hours).
 **What came back.** The sentence changed nothing. At 300 pixels all six makers measured a period of about 24 values and
 one of seven of those. All six called it electricity demand and read the low weeks as Christmas to
 New Year, flagged as a guess. The three who were not told the interval worked out *hourly* from
-the picture's own rhythm. Four makers, two of them untold, named a start on Saturday 15 November, in a year like 2025;
+the picture's own rhythm. Four makers, three of them untold, named a start on Saturday 15 November, in a year like 2025;
 that is the record's first day. At 40 pixels none saw the week (wide enough, but a fifth of a pixel row deep). All six supplied a daily swing from the band's thickness and the count (1,464 = 61 × 24), called it air
 temperature, and read the holidays as a cool spell. The grain moved recognition by six makers; the sentence by none.
 
