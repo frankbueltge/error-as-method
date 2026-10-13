@@ -1,0 +1,13 @@
+[
+ {
+  "file": "energy-charts_public_power_de_20251115_20260115.json",
+  "url": "https://api.energy-charts.info/public_power?country=de&start=2025-11-15T00:00Z&end=2026-01-15T00:00Z",
+  "http_status": 200,
+  "bytes": 866126,
+  "sha256": "82da68a394acbebe73f1b67bc2646a22490917e82704d6714e501d4515f43c5e",
+  "fetched": "2026-10-13",
+  "what": "Energy-Charts (Fraunhofer ISE) public net electricity, Germany, 15-minute values in MW, 15 Nov 2025 00:00 UTC to 15 Jan 2026 00:00 UTC, all production types plus Load. The series named 'Load' is the material.",
+  "licence": "CC BY 4.0, attribution to Energy-Charts.info (API documentation, section 'Data License', https://api.energy-charts.info/)",
+  "why": "Experiment 18's material: an hourly record with a familiar daily and weekly regular and one shaped singular (the holiday weeks), from a domain (electricity demand) none of the last ten experiments used."
+ }
+]
