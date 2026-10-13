@@ -1,4 +1,3 @@
-m10 3828
 m01 False None [] [] [1100, 800] True
 m01 True 4 [] [] [1100, 800] True
 m02 False None [] [] [1100, 800] True
@@ -24,5 +23,4 @@ m11 True 11 [] [] [1100, 800] True
 m12 False None [] [] [1100, 800] True
 m12 True 0 [] [] [1100, 800] True
 
-[exited with code 0]
 {"maker":"m12","mask":true,"canvasTextCalls":0,"bytes":10387,"errors":[],"requests":[],"scroll":[1100,800],"still":true}
