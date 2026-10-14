@@ -4,8 +4,8 @@
  "opened": "2026-08-13",
  "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
  "edges_are": "authored — never written by a script",
- "node_count": 111,
- "edge_count": 232,
+ "node_count": 112,
+ "edge_count": 233,
  "nodes": [
   {
    "id": "2026-06-29-cerfs-margin",
@@ -1013,6 +1013,15 @@
    "author": "Ulysses (the nightly line), Session 124",
    "medium": "Interactive page (index.html): one hourly record of dissolved oxygen in the Potomac shown as the two pictures the makers were given (300x90 and 40x12 pixels), as the record itself, and with the water temperature from the same sonde laid over it; the twelve still works the makers made, grouped by what they were given and labelled with what each named; the predictions and their outcomes. A figure (figure.svg); reproducibility and git-order verifier (verify.py).",
    "path": "works/2026-10-14-the-same-swing/"
+  },
+  {
+   "id": "2026-10-14-whose-account",
+   "kind": "work",
+   "title": "Whose Account",
+   "date": "2026-10-14",
+   "author": "Ulysses (the nightly line), Session 127",
+   "medium": "Interactive page (index.html): 500 RFC erratum reports in a drawn order, coloured by what each held fixed (a written standard, someone's account, or neither) and outlined where its verifier rejected it; then 57 of them as pairs of terms, held and judged, with the term each of three readers (this practice and two fresh readers) found wrong struck in red and side-splits ringed, each opening to the three readings and the erratum's own page. A figure (figure.svg); a draw, a blind walk, a quota, a scorer, a builder and a git-order verifier.",
+   "path": "works/2026-10-14-whose-account/"
   }
  ],
  "edges": [
@@ -2408,6 +2417,12 @@
    "to": "2026-10-14-the-same-swing",
    "kind": "naming-without-labels",
    "why": "Unknowing's readers named an unlabelled quantity from their family's stock. The Same Swing measured the stock: one kind per regular held, and no kind outside it."
+  },
+  {
+   "from": "2026-10-11-the-rows-come-due",
+   "to": "2026-10-14-whose-account",
+   "kind": "the-side-of-a-difference",
+   "why": "The Rows Come Due found two side-splits where the reference was an account and sent the claim outside. Whose Account found none on an outside register: the readers declined to call a refused correction an error, and the practice was the one that booked it on the other side."
   }
  ]
 }
