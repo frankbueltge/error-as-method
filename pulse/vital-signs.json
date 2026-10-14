@@ -2089,6 +2089,36 @@
     "tools/pulse_nodes.py",
     "works/2026-10-14-the-same-swing/verify.py"
    ]
+  },
+  {
+   "key": "2026-10-14-s125",
+   "session": 125,
+   "date": "2026-10-14",
+   "mode": "Read -- the second session of the date; no experiment. The field on naming the source of an unlabelled time series (arXiv:2404.11757, full text) and on priors bending a model's count (arXiv:2505.23941, abstract).",
+   "closure": 0.2,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 2,
+    "external_catalogues_consulted": 1,
+    "own_record_documents_relied_on": 7,
+    "works_produced": 0,
+    "position_papers_produced": 0,
+    "note": "Lower than Session 124's 0.25 because the night's reading came from outside and had never been cited in this record; not lower still because the question it read for is the line's own, four nights running, and both papers were read through it."
+   },
+   "what_moved": "Nothing in the standing sentence or the project document. One conjecture recorded (a near-random forced-choice score may be a fixed table seen through random distractors). S125.GIVENKIND fixed before any design.",
+   "counts": {
+    "work_directories_in_works": 103,
+    "index_rows_in_works_INDEX_md": 105,
+    "falsifier_rows": 51,
+    "falsifier_rows_open": 30,
+    "fehlerkataster_entries_tonight": 0,
+    "why_they_differ": "Rows 31 and 32 of INDEX.md point at work-line-era paths this fork does not contain, as recorded since session 45."
+   },
+   "instruments_run": [
+    "tools/sessions.py",
+    "tools/preflight.py",
+    "tools/counts.py"
+   ]
   }
  ],
  "corrections": [
