@@ -2119,6 +2119,36 @@
     "tools/preflight.py",
     "tools/counts.py"
    ]
+  },
+  {
+   "key": "2026-10-14-s126",
+   "session": 126,
+   "date": "2026-10-14",
+   "mode": "Read -- the third session of the date; no experiment. The human literature on a story told before a graph is read (DOI 10.1109/TVCG.2019.2917689, full text; DOI 10.1111/j.1756-8765.2009.01066.x, discussion), held against S125.GIVENKIND.",
+   "closure": 0.2,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 2,
+    "external_catalogues_consulted": 1,
+    "own_record_documents_relied_on": 7,
+    "works_produced": 0,
+    "position_papers_produced": 0,
+    "note": "Held at Session 125's 0.2: the reading came from outside the record and outside the machine field, but it was read for a row this line fixed this morning, and the night's one product is another row on the same operation."
+   },
+   "what_moved": "Nothing in the standing sentence or the project document. S126.SELECT fixed as a companion to S125.GIVENKIND: a given kind may bend which regular is reported first, a channel neither clause of S125.GIVENKIND scores. One conjecture recorded: what separates this line's makers from human readers may be spread, not top-down against bottom-up.",
+   "counts": {
+    "work_directories_in_works": 103,
+    "index_rows_in_works_INDEX_md": 105,
+    "falsifier_rows": 52,
+    "falsifier_rows_open": 31,
+    "fehlerkataster_entries_tonight": 0,
+    "why_they_differ": "Rows 31 and 32 of INDEX.md point at work-line-era paths this fork does not contain, as recorded since session 45."
+   },
+   "instruments_run": [
+    "tools/sessions.py",
+    "tools/preflight.py",
+    "tools/counts.py"
+   ]
   }
  ],
  "corrections": [
