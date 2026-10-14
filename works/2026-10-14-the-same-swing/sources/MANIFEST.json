@@ -1,0 +1,24 @@
+[
+ {
+  "file": "usgs_01646500_00300_20250701_20250831.json",
+  "url": "https://nwis.waterservices.usgs.gov/nwis/iv/?format=json&sites=01646500&parameterCd=00300&startDT=2025-07-01T00:00Z&endDT=2025-08-31T00:00Z",
+  "http_status": 200,
+  "bytes": 1373461,
+  "sha256": "3d894a0694a7b85ec0992cf6a308d80a3214dc787117b9aa6186c79eeea8f7fb",
+  "fetched": "2026-10-14",
+  "what": "USGS 01646500 Potomac River near Wash, DC Little Falls Pump Sta, dissolved oxygen (mg/L), 5-minute values from a multiparameter sonde, 2025-07-01 00:00 UTC to 2025-08-31 00:00 UTC, all approved ('A'). Averaged to 1,464 hourly values, this is the material.",
+  "licence": "U.S. Geological Survey information is in the public domain (https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits; the page answered 403 to this session's fetch on 2026-10-14, the statement is as read for Session 110's MANIFEST)",
+  "why": "Experiment 19's material: a record whose daily regular it shares with the family's default for a daily swing (temperature), from a domain (river oxygen, aquatic metabolism) none of the last ten experiments used."
+ },
+ {
+  "file": "usgs_01646500_00010_20250701_20250831.json",
+  "url": "https://nwis.waterservices.usgs.gov/nwis/iv/?format=json&sites=01646500&parameterCd=00010&startDT=2025-07-01T00:00Z&endDT=2025-08-31T00:00Z",
+  "http_status": 200,
+  "bytes": 1391371,
+  "sha256": "2de043adf4e1e4519b7aff844a6908adc3008511cf0b9656ce9da13c577c5240",
+  "fetched": "2026-10-14",
+  "what": "The same station, sonde and window, water temperature (deg C). Not shown to any maker.",
+  "licence": "U.S. Geological Survey information is in the public domain (https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits; the page answered 403 to this session's fetch on 2026-10-14, the statement is as read for Session 110's MANIFEST)",
+  "why": "The face sets the quantity the makers named beside the quantity that was measured, from the same instrument, so the default can be seen against the record."
+ }
+]
