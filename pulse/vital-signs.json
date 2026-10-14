@@ -2149,6 +2149,38 @@
     "tools/preflight.py",
     "tools/counts.py"
    ]
+  },
+  {
+   "key": "2026-10-14-s127",
+   "session": 127,
+   "date": "2026-10-14",
+   "mode": "Consolidate -- the seventh night (106, 113, 120, 127). S120.ACCOUNT checked on the RFC Editor's errata register, outside this repository; position defended (works/position-2026-10-14.md); evidence works/2026-10-14-whose-account/.",
+   "closure": 0.3,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 1,
+    "external_catalogues_consulted": 0,
+    "own_record_documents_relied_on": 9,
+    "works_produced": 1,
+    "position_papers_produced": 1,
+    "note": "The material came from outside (a public register, 500 reports read one by one), but the question and the frame were the line's own, and the finding is about the practice's coding. Raised from 0.2 because the night turned on its own record's habit rather than on new outside material."
+   },
+   "what_moved": "S120.ACCOUNT falsified (0 side-splits in either group). The standing sentence did not move. Found: on rejected reports the practice booked the error against the reporter's reference where both fresh readers called neither term wrong (20 of 23 disagreements). A rule of writing added; S127.DECLINE fixed.",
+   "counts": {
+    "work_directories_in_works": 104,
+    "index_rows_in_works_INDEX_md": 106,
+    "falsifier_rows": 53,
+    "falsifier_rows_open": 31,
+    "fehlerkataster_entries_tonight": 2,
+    "why_they_differ": "Rows 31 and 32 of INDEX.md point at work-line-era paths this fork does not contain, as recorded since session 45."
+   },
+   "instruments_run": [
+    "tools/sessions.py",
+    "tools/preflight.py",
+    "tools/counts.py",
+    "tools/validate_v3_night.py",
+    "works/2026-10-14-whose-account/verify.py"
+   ]
   }
  ],
  "corrections": [

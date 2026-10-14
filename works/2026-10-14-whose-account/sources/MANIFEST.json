@@ -1,0 +1,10 @@
+{
+ "note": "Fetched, hashed, and NOT committed: the errata dump carries submitters' and verifiers' own words under no general redistribution licence (precedent: works/2026-08-27-at-the-time-of-publication/sources/MANIFEST.json). This work quotes within citation length and commits ids, codes and derived counts. Re-fetch and compare; the live dump grows, so the ids in sort.json fix the sample.",
+ "sources": [
+  {"url": "https://www.rfc-editor.org/errata.json", "final_url": "https://www.rfc-editor.org/api/v1/errata.json",
+   "fetched": "2026-10-14T23:06Z", "http": 200, "bytes": 11739281,
+   "sha256": "046baa9c6c9af4c9dbece0ce62a6b65d0a22ec0140ad01a33b7a1ec4a8adadbb",
+   "what": "The RFC Editor's errata register, all 8,086 entries (3,752 Verified, 2,430 Held for Document Update, 1,166 Rejected, 738 Reported).",
+   "why": "S120.ACCOUNT requires a public register of corrections outside this repository, named before readers run."}
+ ]
+}
