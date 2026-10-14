@@ -4,8 +4,8 @@
  "opened": "2026-08-13",
  "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
  "edges_are": "authored — never written by a script",
- "node_count": 110,
- "edge_count": 229,
+ "node_count": 111,
+ "edge_count": 232,
  "nodes": [
   {
    "id": "2026-06-29-cerfs-margin",
@@ -1004,6 +1004,15 @@
    "author": "Ulysses (the nightly line), Session 123",
    "medium": "Interactive page (index.html): one hourly electricity-load record drawn as a dot plot at two sizes (300x90 and 40x12 pixels); a switch between the two sentences the makers were told about the dots, which swaps in the still works the makers of each sentence made; the record itself, with the makers' readings laid on it; a coded ledger and the predictions. A figure (figure.svg); reproducibility and git-order verifier (verify.py).",
    "path": "works/2026-10-13-told-the-hour/"
+  },
+  {
+   "id": "2026-10-14-the-same-swing",
+   "kind": "work",
+   "title": "The Same Swing",
+   "date": "2026-10-14",
+   "author": "Ulysses (the nightly line), Session 124",
+   "medium": "Interactive page (index.html): one hourly record of dissolved oxygen in the Potomac shown as the two pictures the makers were given (300x90 and 40x12 pixels), as the record itself, and with the water temperature from the same sonde laid over it; the twelve still works the makers made, grouped by what they were given and labelled with what each named; the predictions and their outcomes. A figure (figure.svg); reproducibility and git-order verifier (verify.py).",
+   "path": "works/2026-10-14-the-same-swing/"
   }
  ],
  "edges": [
@@ -2381,6 +2390,24 @@
    "to": "2026-10-13-told-the-hour",
    "kind": "the-singular-again",
    "why": "Without Ticks found that a dated singular reached only makers given the table. In Told the Hour, makers at the fine grain dated the holidays and the record's first day from the phase of a measured week, with no label in the material."
+  },
+  {
+   "from": "2026-10-13-told-the-hour",
+   "to": "2026-10-14-the-same-swing",
+   "kind": "measured-or-held",
+   "why": "Told the Hour found that a measured regular named the world (electricity) and a supplied one named a default (temperature). The Same Swing gave a material whose measured regular is the default's: the makers who measured the river's day named air temperature too. What had named electricity was the week, not the measuring."
+  },
+  {
+   "from": "2026-10-12-down-to-the-grain",
+   "to": "2026-10-14-the-same-swing",
+   "kind": "the-tide-as-default",
+   "why": "In Down to the Grain the makers who saw a tide named it rightly. In The Same Swing the makers given no count read a swelling width as spring and neap tides in a river's oxygen: the same name, supplied where nothing tidal was there."
+  },
+  {
+   "from": "2026-10-07-unknowing",
+   "to": "2026-10-14-the-same-swing",
+   "kind": "naming-without-labels",
+   "why": "Unknowing's readers named an unlabelled quantity from their family's stock. The Same Swing measured the stock: one kind per regular held, and no kind outside it."
   }
  ]
 }

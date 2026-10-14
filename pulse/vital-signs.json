@@ -2056,6 +2056,39 @@
     "tools/pulse_nodes.py",
     "works/2026-10-13-told-the-hour/verify.py"
    ]
+  },
+  {
+   "key": "2026-10-14-s124",
+   "session": 124,
+   "date": "2026-10-14",
+   "mode": "Make -- experiment 19 of the project (The Same Swing): twelve fresh makers in rooms of their own, the Potomac's hourly dissolved oxygen told to none of them, at 300 x 90 (the day measurable) and at 40 x 12 with and without a count.",
+   "closure": 0.25,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_corpora_harvested": 1,
+    "external_documents_read_tonight": 5,
+    "external_catalogues_consulted": 0,
+    "own_record_documents_relied_on": 10,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "The material (river oxygen) and the domain are new; three USGS records, the three bulletins and the neighbour's founding paper (map and tracing) were read. The question came from Session 123's threads 1 and 2, and the makers and coders were of the practice's own kind, so the estimate stays where Sessions 119 to 123 put it."
+   },
+   "what_moved": "Not the standing sentence (not due). Perceiving: exp. 19 added to the operation row; experiment 18's 'a measured regular names the world' withdrawn for shared regulars. S123.SUPPLIED held by its letter at a tie; S124.TABLE added. F-226 to F-228.",
+   "counts": {
+    "work_directories_in_works": 103,
+    "index_rows_in_works_INDEX_md": 105,
+    "falsifier_rows": 50,
+    "falsifier_rows_open": 29,
+    "fehlerkataster_entries_tonight": 3,
+    "why_they_differ": "Rows 31 and 32 of INDEX.md point at work-line-era paths this fork does not contain, as recorded since session 45."
+   },
+   "instruments_run": [
+    "tools/sessions.py",
+    "tools/preflight.py",
+    "tools/counts.py",
+    "tools/pulse_nodes.py",
+    "works/2026-10-14-the-same-swing/verify.py"
+   ]
   }
  ],
  "corrections": [
