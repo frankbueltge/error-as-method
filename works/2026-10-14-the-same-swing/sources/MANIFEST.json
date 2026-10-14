@@ -20,5 +20,16 @@
   "what": "The same station, sonde and window, water temperature (deg C). Not shown to any maker.",
   "licence": "U.S. Geological Survey information is in the public domain (https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits; the page answered 403 to this session's fetch on 2026-10-14, the statement is as read for Session 110's MANIFEST)",
   "why": "The face sets the quantity the makers named beside the quantity that was measured, from the same instrument, so the default can be seen against the record."
+ },
+ {
+  "file": "usgs_01646500_00060_dv_20250701_20250830.json",
+  "url": "https://nwis.waterservices.usgs.gov/nwis/dv/?format=json&sites=01646500&parameterCd=00060&startDT=2025-07-01&endDT=2025-08-30",
+  "http_status": 200,
+  "bytes": 7057,
+  "sha256": "963e0fd691a90dafea860bdf4b4cb05609b9c1611bcbcb0048e7525f2fd4eb06",
+  "fetched": "2026-10-14",
+  "what": "The same station, daily mean discharge (cubic feet per second), 1 July to 30 August 2025. Not shown to any maker.",
+  "licence": "U.S. Geological Survey information is in the public domain (https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits; the page answered 403 to this session's fetch on 2026-10-14, the statement is as read for Session 110's MANIFEST)",
+  "why": "Read after the makers had started, to see what the river did in the calm stretch: discharge rose from about 7,000 to 16,300 cfs on 16-19 July and fell back by 25 July."
  }
 ]
