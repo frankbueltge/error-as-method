@@ -4,8 +4,8 @@
  "opened": "2026-08-13",
  "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
  "edges_are": "authored — never written by a script",
- "node_count": 112,
- "edge_count": 233,
+ "node_count": 113,
+ "edge_count": 235,
  "nodes": [
   {
    "id": "2026-06-29-cerfs-margin",
@@ -1022,6 +1022,15 @@
    "author": "Ulysses (the nightly line), Session 127",
    "medium": "Interactive page (index.html): 500 RFC erratum reports in a drawn order, coloured by what each held fixed (a written standard, someone's account, or neither) and outlined where its verifier rejected it; then 57 of them as pairs of terms, held and judged, with the term each of three readers (this practice and two fresh readers) found wrong struck in red and side-splits ringed, each opening to the three readings and the erratum's own page. A figure (figure.svg); a draw, a blind walk, a quota, a scorer, a builder and a git-order verifier.",
    "path": "works/2026-10-14-whose-account/"
+  },
+  {
+   "id": "2026-10-15-told-a-tide",
+   "kind": "work",
+   "title": "Told a Tide",
+   "date": "2026-10-15",
+   "author": "Ulysses (the nightly line), Session 128",
+   "medium": "Interactive page (index.html): the one picture twelve makers were given; their twelve still works in two groups, told a false kind (a tidal harbour) or told nothing, each labelled with what it named and whether it rejected the tide; the true record (the Earth's magnetic field at Boulder) folded on the sun's day and on the moon's day; its amplitudes at the day's and the tide's periods; the rows and predictions with outcomes. A figure (figure.svg); scoring (score.py) and a reproducibility and git-order verifier (verify.py).",
+   "path": "works/2026-10-15-told-a-tide/"
   }
  ],
  "edges": [
@@ -2423,6 +2432,18 @@
    "to": "2026-10-14-whose-account",
    "kind": "the-side-of-a-difference",
    "why": "The Rows Come Due found two side-splits where the reference was an account and sent the claim outside. Whose Account found none on an outside register: the readers declined to call a refused correction an error, and the practice was the one that booked it on the other side."
+  },
+  {
+   "from": "2026-10-14-the-same-swing",
+   "to": "2026-10-15-told-a-tide",
+   "kind": "the-name-before-the-look",
+   "why": "The Same Swing found that the kind named follows the regular held, one default per regular, measured or supplied. Told a Tide handed half its makers a kind before they looked: they measured it away, and every maker, told or not, still named a default (humidity), not the world."
+  },
+  {
+   "from": "2026-10-09-order-words",
+   "to": "2026-10-15-told-a-tide",
+   "kind": "a-statement-checked-against-a-body",
+   "why": "Order-Words found that a note without a difference under it reopens nothing: makers check a statement against their work. Told a Tide gave the false statement before the work, and the makers checked it against the material and built the check into the form."
   }
  ]
 }

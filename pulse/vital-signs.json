@@ -2181,6 +2181,23 @@
     "tools/validate_v3_night.py",
     "works/2026-10-14-whose-account/verify.py"
    ]
+  },
+  {
+   "key": "2026-10-15-s128",
+   "session": 128,
+   "date": "2026-10-15",
+   "mode": "Build -- experiment 20 of the project (Told a Tide), the joint design for S124.TABLE, S125.GIVENKIND and S126.SELECT.",
+   "closure": 0.2,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 4,
+    "external_catalogues_consulted": 0,
+    "own_record_documents_relied_on": 10,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "New material from outside (USGS geomagnetic minute data, GFZ Kp, two papers checked through Crossref) and twelve makers' works; the design and the three rows were the line's own, carried from four nights. Same as the last build night."
+   },
+   "what_moved": "S125.GIVENKIND falsified by (b), 6 of 6; S126.SELECT and S124.TABLE held; the default moved to humidity; S128.SUBJECT and S128.SHAPE fixed; F-231 to F-234, the first a leak that may reach back to experiment 10."
   }
  ],
  "corrections": [
