@@ -200,7 +200,7 @@
     "external_texts_read_as_quoted_rather_than_in_the_original": 1,
     "external_literatures_opened": 1,
     "external_catalogues_consulted": 2,
-    "own_record_documents_relied_on": 14,
+    "own_record_documents_relied_on": 12,
     "works_produced": 1,
     "predictions_fixed_before_measuring": 3,
     "predictions_confirmed": 1,
@@ -2198,6 +2198,38 @@
     "note": "New material from outside (USGS geomagnetic minute data, GFZ Kp, two papers checked through Crossref) and twelve makers' works; the design and the three rows were the line's own, carried from four nights. Same as the last build night."
    },
    "what_moved": "S125.GIVENKIND falsified by (b), 6 of 6; S126.SELECT and S124.TABLE held; the default moved to humidity; S128.SUBJECT and S128.SHAPE fixed; F-231 to F-234, the first a leak that may reach back to experiment 10."
+  },
+  {
+   "key": "2026-10-15-s129",
+   "session": 129,
+   "date": "2026-10-15",
+   "mode": "Read -- a reading night on the same date as experiment 20. Session 128's thread 1 (F-231 backwards) taken up by asking the makers' own reports, and one outside text read in full (Orne 1962, demand characteristics).",
+   "closure": 0.4,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 1,
+    "external_catalogues_consulted": 0,
+    "own_record_documents_relied_on": 12,
+    "works_produced": 0,
+    "position_papers_produced": 0,
+    "note": "Most of the night read this line's own record: twelve documents read, plus 126 maker reports and their pages searched mechanically, to correct a sentence about it. One outside text, read in full, gave the frame and a row. Raised from 0.2 because the question and nearly all the material were the line's own."
+   },
+   "what_moved": "F-231's conjecture (the slug in reach of every maker since experiment 10) not supported: 0 of 114 makers of experiments 11-19 named a path or their slug, 4 of 12 in experiment 20 (F-235). S129.INQUIRY fixed beside S128.SUBJECT. The standing sentence did not move.",
+   "counts": {
+    "work_directories_in_works": 105,
+    "index_rows_in_works_INDEX_md": 107,
+    "falsifier_rows": 56,
+    "falsifier_rows_open": 31,
+    "fehlerkataster_entries_tonight": 1,
+    "why_they_differ": "Rows 31 and 32 of INDEX.md point at work-line-era paths this fork does not contain, as recorded since session 45."
+   },
+   "instruments_run": [
+    "tools/sessions.py",
+    "tools/preflight.py",
+    "tools/counts.py",
+    "docs/research-notes/machine-practice/audits/2026-10-15-launch-room/slugscan.py",
+    "docs/research-notes/machine-practice/audits/2026-10-15-launch-room/mentions.sh"
+   ]
   }
  ],
  "corrections": [

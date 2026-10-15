@@ -1,0 +1,215 @@
+{
+ "units": {
+  "the-balance": 20,
+  "not-addressed": 12,
+  "customary-lines": 18,
+  "who-looks": 12,
+  "order-words": 37,
+  "prepared-clay": 13,
+  "without-ticks": 13,
+  "down-to-the-grain": 13,
+  "told-the-hour": 12,
+  "the-same-swing": 12,
+  "told-a-tide": 12
+ },
+ "matrix": {
+  "the-balance": [
+   20,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   14,
+   0
+  ],
+  "not-addressed": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0
+  ],
+  "customary-lines": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   2,
+   0,
+   0,
+   0
+  ],
+  "who-looks": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   4,
+   0,
+   0,
+   0
+  ],
+  "order-words": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "prepared-clay": [
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   2,
+   0,
+   0,
+   0
+  ],
+  "without-ticks": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   1,
+   0,
+   0,
+   0
+  ],
+  "down-to-the-grain": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   6,
+   0,
+   4,
+   0
+  ],
+  "told-the-hour": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   6,
+   0
+  ],
+  "the-same-swing": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   10,
+   0
+  ],
+  "told-a-tide": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   5,
+   5
+  ]
+ },
+ "words": {
+  "the-balance": [
+   "balance"
+  ],
+  "not-addressed": [
+   "addressed",
+   "unaddressed"
+  ],
+  "customary-lines": [
+   "customary"
+  ],
+  "who-looks": [
+   "who looks",
+   "who-looks"
+  ],
+  "order-words": [
+   "order-word",
+   "order word"
+  ],
+  "prepared-clay": [
+   "clay"
+  ],
+  "without-ticks": [
+   "without ticks",
+   "tickless",
+   "no ticks"
+  ],
+  "down-to-the-grain": [
+   "grain"
+  ],
+  "told-the-hour": [
+   "told the hour",
+   "told-the-hour"
+  ],
+  "the-same-swing": [
+   "swing"
+  ],
+  "told-a-tide": [
+   "told a tide",
+   "told-a-tide"
+  ]
+ },
+ "dirs": {
+  "the-balance": "2026-10-07-the-balance",
+  "not-addressed": "2026-10-07-not-addressed",
+  "customary-lines": "2026-10-08-customary-lines",
+  "who-looks": "2026-10-08-who-looks",
+  "order-words": "2026-10-09-order-words",
+  "prepared-clay": "2026-10-10-prepared-clay",
+  "without-ticks": "2026-10-11-without-ticks",
+  "down-to-the-grain": "2026-10-12-down-to-the-grain",
+  "told-the-hour": "2026-10-13-told-the-hour",
+  "the-same-swing": "2026-10-14-the-same-swing",
+  "told-a-tide": "2026-10-15-told-a-tide"
+ }
+}

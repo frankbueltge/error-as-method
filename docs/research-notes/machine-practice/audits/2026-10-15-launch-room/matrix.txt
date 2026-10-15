@@ -1,0 +1,12 @@
+experiment         n  the-balan not-addre customary who-looks order-wor prepared- without-t down-to-t told-the- the-same- told-a-ti
+the-balance        20         20         0         0         0         0         0         0         0         0        14         0
+not-addressed      12          0         0         0         0         0         0         0         1         0         0         0
+customary-lines    18          0         0         0         0         0         1         0         2         0         0         0
+who-looks          12          0         0         0         0         0         0         0         4         0         0         0
+order-words        37          0         0         0         0         0         0         0         0         0         0         0
+prepared-clay      13          1         0         0         0         0         0         0         2         0         0         0
+without-ticks      13          0         0         0         0         0         0         1         1         0         0         0
+down-to-the-grain  13          0         0         0         0         0         0         0         6         0         4         0
+told-the-hour      12          0         0         0         0         0         0         0         0         0         6         0
+the-same-swing     12          0         0         0         0         0         0         0         0         0        10         0
+told-a-tide        12          0         0         0         0         0         0         0         1         0         5         5
