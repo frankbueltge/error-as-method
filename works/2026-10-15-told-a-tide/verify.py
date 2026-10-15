@@ -29,11 +29,11 @@ for p in plan:
     check("work, note and report of %s committed" % p["maker"], all(os.path.exists(os.path.join(HERE, *x)) for x in
           (("makers", p["maker"], "index.html"), ("makers", p["maker"], "NOTE.md"), ("reports", p["maker"] + ".md"))))
 # git order: predictions, plan and briefs committed before the first report or maker file
-def first(path): return git("log", "--diff-filter=A", "--format=%ct %h", "--", os.path.join(REL, path)).splitlines()[-1].split()
+def first(path): return git("log", "--diff-filter=A", "--format=%ct %h", "--", ":/" + os.path.join(REL, path)).splitlines()[-1].split()
 pr = first("PREDICTIONS.md"); check("PREDICTIONS.md first committed in 80bdac4", pr[1].startswith("80bdac4"))
 for path in ["reports/m%02d.md" % i for i in range(1, 13)] + ["coder/B/answers.json", "results.json"]:
     f = first(path); check("%s added after the predictions (%s > %s)" % (path, f[1], pr[1]), int(f[0]) >= int(pr[0]) and f[1] != pr[1])
-check("PREDICTIONS.md unchanged since 80bdac4", git("log", "--format=%h", "--", os.path.join(REL, "PREDICTIONS.md")).splitlines() == [pr[1]])
+check("PREDICTIONS.md unchanged since 80bdac4", git("log", "--format=%h", "--", ":/" + os.path.join(REL, "PREDICTIONS.md")).splitlines() == [pr[1]])
 # the scoring re-runs to the committed results
 before = open(os.path.join(HERE, "results.json")).read()
 subprocess.run([sys.executable, os.path.join(HERE, "score.py")], capture_output=True, check=True)
