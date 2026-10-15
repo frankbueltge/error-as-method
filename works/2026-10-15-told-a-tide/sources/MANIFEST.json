@@ -1,0 +1,22 @@
+[
+ {
+  "file": "usgs_geomag_BOU_H_minute_20250702_20250901.json",
+  "url": "https://geomag.usgs.gov/ws/data/?id=BOU&elements=H&starttime=2025-07-02T00:00:00Z&endtime=2025-08-31T23:59:00Z&sampling_period=60&format=json",
+  "fetched": "2026-10-15",
+  "bytes": 3241019,
+  "sha256": "4c6dfdecae15f7bed0a55407e583650c8da825f25dc0944900a82a56f36366cb",
+  "what": "USGS Geomagnetism Program web service: Boulder observatory (BOU), horizontal intensity H, one-minute values, data_type 'adjusted', 87,840 values, 2 null",
+  "why": "the material: averaged to 1,464 hourly values by prepare.py",
+  "licence": "US Government work, public domain"
+ },
+ {
+  "file": "gfz_kp_20250702_20250831.json",
+  "url": "https://kp.gfz.de/app/json/?start=2025-07-02T00:00:00Z&end=2025-08-31T23:59:59Z&index=Kp",
+  "fetched": "2026-10-15",
+  "bytes": 16795,
+  "sha256": "d535aef71e718f57d8f2ab4f3a4a6fca799c7d1ec18939a94c9fdb71200468ae",
+  "what": "GFZ Potsdam, geomagnetic Kp index, three-hourly, 488 values",
+  "why": "fetched after the makers ran, to check what the two lowest stretches of the record were (Kp 5 on 6-7 Jul and 8-9 Aug 2025)",
+  "licence": "CC BY 4.0 (GFZ German Research Centre for Geosciences; Matzka et al.)"
+ }
+]
