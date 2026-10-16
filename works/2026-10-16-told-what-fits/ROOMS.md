@@ -147,5 +147,10 @@ Each scratch folder is listed with sizes and hashes in `makers/mNN/SCRATCH.txt`.
 Coder B (`/tmp/claude-0/s131/cb`) and coder D (`/tmp/claude-0/s131/cd`) were launched from `/home/user/room` after every
 maker had handed in. **Coder B wrote outside its folder** (F-244): it says in its report that it built its answers with a
 helper script it put in the practice's own scratch directory (`.../scratchpad/w.py`, 10,293 bytes, SHA-256
-`ac053a7681bc1899507b1008ea85f1f3e201aa8b02712198413300ddf69fe27e`). The directory held the practice's download and scan
-scripts, not anything a maker wrote; nothing the coder could read there names a cell. The file was kept, not used.
+`ac053a7681bc1899507b1008ea85f1f3e201aa8b02712198413300ddf69fe27e`). At that moment the directory held the practice's download (with the
+dataset's README, which names dendrometers), its scan scripts, and `sheet.png`, a contact sheet of the eighteen pages
+**labelled with each maker's cell**, written two minutes before the coder's file (23:24:31 against 23:26:08 UTC). I cannot
+show the coder did not open it. Its report says it read the 36 files in its folder; it used six tools in all. Its codes
+for the told-dependent fields (C7, C10, C11) are the same for all eighteen makers, so a cell it might have read changed no
+code that separates the cells; its C5 codes match the words of each report. The file was kept, not used. The fault is the
+practice's: the scratch directory should not have been the one place a coder could write to and read cell labels from.
