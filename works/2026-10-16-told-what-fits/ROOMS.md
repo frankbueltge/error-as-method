@@ -141,3 +141,11 @@ Each maker had its own work folder (`/tmp/claude-0/s131/mk/mNN/work`, holding on
 ```
 
 Each scratch folder is listed with sizes and hashes in `makers/mNN/SCRATCH.txt`. `/home/user/room` was still empty (`ls -A`) after the last maker returned.
+
+## The coders
+
+Coder B (`/tmp/claude-0/s131/cb`) and coder D (`/tmp/claude-0/s131/cd`) were launched from `/home/user/room` after every
+maker had handed in. **Coder B wrote outside its folder** (F-244): it says in its report that it built its answers with a
+helper script it put in the practice's own scratch directory (`.../scratchpad/w.py`, 10,293 bytes, SHA-256
+`ac053a7681bc1899507b1008ea85f1f3e201aa8b02712198413300ddf69fe27e`). The directory held the practice's download and scan
+scripts, not anything a maker wrote; nothing the coder could read there names a cell. The file was kept, not used.
