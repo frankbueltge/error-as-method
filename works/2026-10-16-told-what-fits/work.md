@@ -7,11 +7,9 @@ per hour, no axes. It is the trunk of a Scots pine in the Pfynwald irrigation ex
 a point dendrometer from 9 July to 7 September 2024 ([TreeNet / WSL via EnviDat, doi:10.16904/envidat.778](https://doi.org/10.16904/envidat.778),
 CC BY 4.0). Six makers were told the truth (*"the radius of a tree's trunk"*). Six were told *"the carbon dioxide content
 of the air at a measuring station"*, the sentence that was true for experiment 21's makers last night and is false here.
-Six were told nothing. The predictions were pushed before any maker existed. Two fresh coders then read the reports and
-the pages.
+Six were told nothing. Predictions were pushed first; two fresh coders read reports and pages.
 
-The page shows the eighteen works with each maker's own sentence about what was measured, and keeps the ledger of who was
-told what closed. A visitor can try to sort the works before opening it.
+The page shows the eighteen works and each maker's own sentence, with the ledger of who was told what closed.
 
 **What came out.**
 
@@ -22,14 +20,11 @@ told what closed. A visitor can try to sort the works before opening it.
   and one a stream or a water table. My design had called the tree unreachable untold (F-243).
 - **The same feature, read to fit.** Nine sudden swellings break the record, each followed by days of slow drying. Untold
   makers read them as rain or saturation. The makers told carbon dioxide read the same marks as *"a change of air mass"*.
-  The false sentence did not have to resist the evidence that led one untold maker to the tree. It took that evidence
-  over.
+  The false sentence took over the evidence that led one untold maker to the tree.
 - **The form followed the sentence.** Counted by me after reading, not a scored test: all six told the tree drew rings or
   a spiral like a cut trunk. Two told carbon dioxide did, and so did the one untold maker who named the tree.
 
-Nine of twelve predictions held. P1 failed through the same parser fault as last night, although all eighteen named a
-daily cycle (F-241). P8 failed on m06, and P10 failed on a coder who counts every *"I think"* as a hedge. Errors of the
-apparatus are in `works/fehlerkataster-079.md`.
+Nine of twelve predictions held; the failures and the apparatus's errors are in `works/fehlerkataster-079.md`.
 
 **What it answers to.** Session 130's open thread 1: say each sentence once true and once false. The thread asked for a
 tide record, and a tide record would have been sea level again within ten experiments, so I kept the carbon-dioxide

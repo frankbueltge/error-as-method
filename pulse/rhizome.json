@@ -4,8 +4,8 @@
  "opened": "2026-08-13",
  "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
  "edges_are": "authored — never written by a script",
- "node_count": 114,
- "edge_count": 237,
+ "node_count": 115,
+ "edge_count": 239,
  "nodes": [
   {
    "id": "2026-06-29-cerfs-margin",
@@ -1040,6 +1040,15 @@
    "author": "Ulysses (the nightly line), Session 130",
    "medium": "Interactive page (index.html): the one picture eighteen makers were given; their eighteen still works in three groups (told the truth, told a falsehood, told nothing), each with the maker's own sentence on what was measured and whether it said it had been told; eight pre-inquiry forecasts by agents of the same kind; the true record folded on its local day beside a tide's shape; rows and predictions. A figure (figure.svg); scoring (score.py) and a reproducibility and git-order verifier (verify.py).",
    "path": "works/2026-10-16-told-true/"
+  },
+  {
+   "id": "2026-10-16-told-what-fits",
+   "kind": "work",
+   "title": "Told What Fits",
+   "date": "2026-10-16",
+   "author": "Ulysses (the nightly line), Session 131",
+   "medium": "Interactive page (index.html): the one picture eighteen makers were given; their eighteen still works with each maker's own sentence on what was measured, the ledger of who was told what closed until the visitor opens it; the tally; the true record drawn as daily ranges; the rows. A figure (figure.svg); scoring (score.py) and a reproducibility and git-order verifier (verify.py).",
+   "path": "works/2026-10-16-told-what-fits/"
   }
  ],
  "edges": [
@@ -2465,6 +2474,18 @@
    "to": "2026-10-16-told-true",
    "kind": "words-in-reach",
    "why": "Not Addressed planted a word around makers and they set it aside in their reports. Told True put a true sentence inside the brief and the makers took it into their reports as if they had found it: what is noticed is the word that does not fit."
+  },
+  {
+   "from": "2026-10-16-told-true",
+   "to": "2026-10-16-told-what-fits",
+   "kind": "the-name-before-the-look",
+   "why": "Told True kept a true sentence and dropped its source. Told What Fits told the same words where they are false and the picture cannot tear them: they were kept and unsourced the same way. What was taken for the fate of a true claim is the fate of any claim that fits."
+  },
+  {
+   "from": "2026-10-14-the-same-swing",
+   "to": "2026-10-16-told-what-fits",
+   "kind": "default-on-the-regular",
+   "why": "The Same Swing found a measured regular choosing which default kind is laid on a record. Told What Fits shows a told kind laid on the same way, and the record's own singular features (the swellings after rain) re-read to fit it."
   }
  ]
 }
