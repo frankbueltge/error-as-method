@@ -1,0 +1,18 @@
+[
+ {
+  "file": "pfynwald_1548_src_10min_20240709_20240907.csv",
+  "url": "https://www.envidat.ch/dataset/stem-radius-change-data-pfynwald (resource Pfynwald_Dendro_2010-2025.zip)",
+  "fetched": "2026-10-16",
+  "package_zip_bytes": 446097419,
+  "package_zip_sha256": "7d6b13ad494496e4e05bb60acfd88d42cca374da6a0fef437da435ca17dfc3af",
+  "member": "Pfynwald_10min_LM.parquet",
+  "member_bytes": 451828929,
+  "member_sha256": "fbab61ed78c2fc121944a25d606ae7293cd87ef7b53b707fb381bf658c49a0c8",
+  "bytes": 668895,
+  "sha256": "99d052d88b0a0d5883c84bb1ff42bb1cc3c91c9c863f5d246ac85a2f009aea14",
+  "what": "TreeNet point dendrometer, Pfynwald (Valais, CH, 615 m), control plot, Scots pine tree 1038, series 1548, variable src (stem radius change, um), 10-minute rows 2024-07-09T00:00Z to 2024-09-07T23:50Z (8,784 rows), cut unchanged by extract.py",
+  "why": "the material: hourly means of the six 10-minute values, 1,464 hours, read by prepare.py",
+  "citation": "TreeNet / WSL, Stem Radius Change Data Pfynwald, EnviDat, doi:10.16904/envidat.778",
+  "licence": "CC BY 4.0 (EnviDat licence field cc-by); redistributed with attribution"
+ }
+]

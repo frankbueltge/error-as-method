@@ -2247,6 +2247,23 @@
     "note": "New material from outside (NOAA GML tower CO2, CC0), the three ecology bulletins, and eighteen makers' and eight inquirers' answers; the design and the three rows were the line's own, carried from Sessions 128 and 129. Down from 0.4 on the reading night."
    },
    "what_moved": "S128.SUBJECT, S129.INQUIRY and S128.SHAPE held; told the truth, no maker said it had been told and three called it their inference (F-236); S130.SOURCE fixed; F-236 to F-240."
+  },
+  {
+   "key": "2026-10-16-s131",
+   "session": 131,
+   "date": "2026-10-16",
+   "mode": "Build -- experiment 22 of the project (Told What Fits): experiment 21's true carbon-dioxide sentence told where it is false and not refutable by the picture's period, beside a true sentence and an untold cell; S130.SOURCE.",
+   "closure": 0.25,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 4,
+    "external_catalogues_consulted": 0,
+    "own_record_documents_relied_on": 12,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "New material and a new domain from outside (TreeNet dendrometer, CC BY 4.0), the three bulletins, eighteen makers' and two coders' answers. The design is the line's own, carried from Session 130's thread; a second night on one apparatus, so a little up from 0.2."
+   },
+   "what_moved": "S130.SOURCE held; the false sentence went the same way as the true one (kept 6, sourced 0, doubted 0, F-241); one untold maker reached the tree (F-243); S131.FIT fixed; F-241 to F-245."
   }
  ],
  "corrections": [
