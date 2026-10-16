@@ -1,0 +1,15 @@
+[
+ {
+  "file": "noaa_gml_co2_wbi_tower_hourly_20190715_20190913.txt",
+  "url": "https://gml.noaa.gov/aftp/data/greenhouse_gases/co2/in-situ/tower/txt/co2_wbi_tower-insitu_1_ccgg_HourlyData.txt",
+  "fetched": "2026-10-16",
+  "full_file_bytes": 57036949,
+  "full_file_sha256": "b5e6f0e6ef6abdf471edeec2e8919a3f699f15ed535cbd6c5218691064339fa8",
+  "bytes": 633615,
+  "sha256": "93b2c5030f57233642be8863ee874aa5200e4109df9203d3cbee92ddfe624ba6",
+  "what": "NOAA GML tall-tower in-situ CO2, West Branch, Iowa (WBI), hourly, all three intakes (31, 99, 379 m); this file is the full header plus every data row from 2019-07-15T00Z to 2019-09-13T23Z (4,387 rows), cut from the full file unchanged",
+  "why": "the material: the 31 m intake, rejection flag '.', 1,464 hours, read by prepare.py",
+  "citation": "J. B. Miller et al., Continuous measurements of CO2, CO, CH4 on tall towers starting in 1992, NOAA Global Monitoring Laboratory, version 2025-09-25, doi:10.7289/V57W69F2",
+  "licence": "CC0-1.0 (dataset_provider_license in the file header)"
+ }
+]
