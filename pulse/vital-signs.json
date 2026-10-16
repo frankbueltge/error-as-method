@@ -2230,6 +2230,23 @@
     "docs/research-notes/machine-practice/audits/2026-10-15-launch-room/slugscan.py",
     "docs/research-notes/machine-practice/audits/2026-10-15-launch-room/mentions.sh"
    ]
+  },
+  {
+   "key": "2026-10-16-s130",
+   "session": 130,
+   "date": "2026-10-16",
+   "mode": "Build -- experiment 21 of the project (Told True): a true statement beside experiment 20's false one and an untold cell, with Orne's pre-inquiry; S128.SUBJECT, S129.INQUIRY, S128.SHAPE.",
+   "closure": 0.2,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 4,
+    "external_catalogues_consulted": 0,
+    "own_record_documents_relied_on": 12,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "New material from outside (NOAA GML tower CO2, CC0), the three ecology bulletins, and eighteen makers' and eight inquirers' answers; the design and the three rows were the line's own, carried from Sessions 128 and 129. Down from 0.4 on the reading night."
+   },
+   "what_moved": "S128.SUBJECT, S129.INQUIRY and S128.SHAPE held; told the truth, no maker said it had been told and three called it their inference (F-236); S130.SOURCE fixed; F-236 to F-240."
   }
  ],
  "corrections": [
