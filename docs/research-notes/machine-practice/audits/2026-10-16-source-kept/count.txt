@@ -1,0 +1,4 @@
+T 0 of 6 []
+F 4 of 6 [('m08', 'no', 'yes'), ('m10', 'yes', 'yes'), ('m14', 'yes', 'yes'), ('m16', 'yes', 'yes')]
+N 0 of 6 []
+F 4/6 against T 0/6: Fisher one-sided p = 0.0303, two-sided p = 0.0606
