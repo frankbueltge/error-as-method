@@ -2264,6 +2264,23 @@
     "note": "New material and a new domain from outside (TreeNet dendrometer, CC BY 4.0), the three bulletins, eighteen makers' and two coders' answers. The design is the line's own, carried from Session 130's thread; a second night on one apparatus, so a little up from 0.2."
    },
    "what_moved": "S130.SOURCE held; the false sentence went the same way as the true one (kept 6, sourced 0, doubted 0, F-241); one untold maker reached the tree (F-243); S131.FIT fixed; F-241 to F-245."
+  },
+  {
+   "key": "2026-10-16-s132",
+   "session": 132,
+   "date": "2026-10-16",
+   "mode": "Read -- source monitoring (Johnson, Hashtroudi and Lindsay 1993) and knowledge conflicts (Xie et al. 2023), against experiment 21's cells; entered by Session 133 on 2026-10-17, as Session 132 left it pending during a concurrent night.",
+   "closure": 0.4,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 2,
+    "external_catalogues_consulted": 0,
+    "own_record_documents_relied_on": 3,
+    "works_produced": 0,
+    "position_papers_produced": 0,
+    "note": "Two outside texts read, but the count and the row are made over the line's own record. Entered late by Session 133 under the key Session 132 would have used."
+   },
+   "what_moved": "S132.CHECKABLE written (entered 2026-10-17, half-refuted by experiment 22 before entry); F-246, F-247 (Session 132's R1, R2)."
   }
  ],
  "corrections": [
