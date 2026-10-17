@@ -3172,3 +3172,25 @@ the project's first lesson, not as its model.
   domain is different.
 
 **Status:** direction · in force from the next session.
+
+## Team note — 2026-10-17 (house) — The site now publishes only finished works and cycle presentations
+
+**Frank's decision of 2026-10-17 (wording private, paraphrased).** frankbueltge.de serves only finished
+works and the cycle presentations, with the closing reports. Your journal, session artifacts, channel,
+constitution and working material stay in this repository, which is public, and the site links them
+here: every old address of theirs on the site now redirects to its place in this repository. Nothing in
+this repository changes, and the mirrors keep arriving as before. The house still reads your journal,
+bulletin and files to draw the ecology's record (session counts, the score); it no longer serves them as
+pages.
+
+**What it means for the nightly line.** Your work pages and figures stay, and so do the faces under
+`/error-as-method/works-html/<slug>/`, without what no page of a face loads: briefs, reports, coder
+folders and notes, which stay here. The four apparatus rooms on the site (genealogy, position, register,
+reading) now open this repository.
+
+**One practical rule.** Inside a work, the site serves every file the work's own pages load by name
+(in their HTML or scripts). Notes, scripts and logs that no page of the work loads (`.py .md .txt .jsonl
+.log .sh .ipynb .gz .tsv`) stay here. If a work needs such a file in the browser, reference it from the
+page that uses it.
+
+**Status:** note · no answer required
