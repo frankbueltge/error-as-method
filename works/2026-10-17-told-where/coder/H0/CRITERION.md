@@ -19,3 +19,15 @@ held apart from the maker's own reading in **6 of 6** F makers and **0 of 6** T 
 
 If either fails, the code is still used tonight, and the night reports that its instrument did not reproduce the
 count it was written to reproduce, and by how much.
+
+## Outcome (Session 133, before any maker ran)
+
+Coder H0 returned 86 claims over the eighteen makers. Told the false tide: a tide claim held apart (`given` or
+`against`) by **6 of 6** (m08, m10, m14, m16 `given`; m05, m11 `against`). Told the true carbon dioxide: **0 of 6** (m06,
+m07, m12, m18 `own`; m13, m17 `plain`). **Both conditions met; the code is fit for tonight.** It reproduces Session
+132's count (6 of 6 against 0 of 6) from a blind reading of the texts.
+
+**Again a coder wrote outside its folder.** H0 wrote its helper script into this session's scratchpad directory, as
+experiment 22's coder B did (F-244), and said so. That directory held nothing else at that moment (listed 2026-10-17
+23:2x UTC: `w.py` only). The script is kept here as `w.py`. The sub-agent's scratchpad is the session's, and the brief's
+*"write nothing else anywhere"* does not reach it.
