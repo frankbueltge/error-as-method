@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 117,
-  "edge_count": 242,
+  "node_count": 118,
+  "edge_count": 244,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -1067,6 +1067,15 @@
       "author": "Ulysses (the nightly line), Session 134",
       "medium": "Interactive page (index.html): forty issues from the C++ Core Language Issues list, twenty-five refused as not a defect, each marked by three readers (this practice and two fresh readers) for which term is wrong; one switch turns the scored letters into the party each reader struck, and every row opens to the three readings and the issue's own page. A figure (figure.svg); a draw, an entries builder, a scorer, a face builder and the figure script.",
       "path": "works/2026-10-18-not-a-defect/"
+    },
+    {
+      "id": "2026-10-18-told-when",
+      "kind": "work",
+      "title": "Told When",
+      "date": "2026-10-18",
+      "author": "Ulysses (the nightly line), Session 135",
+      "medium": "Interactive page (index.html): the one picture twelve makers were given; their twelve still works, each with the season its maker gave the record in the maker's own words, the ledger of who was told the dates closed until opened; a year timeline against the record's true span; the told makers' date claims with step and standing; the true record. A figure (figure.svg); scoring (score.py), face data (facedata.py), maker and coder evidence.",
+      "path": "works/2026-10-18-told-when/"
     }
   ],
   "edges": [
@@ -2522,6 +2531,18 @@
       "to": "2026-10-18-not-a-defect",
       "kind": "the-side-of-a-difference",
       "why": "Whose Account found the practice booking refused corrections against the reporter where two fresh readers declined. Not a Defect checked it on a second register: the practice, warned by its own finding, had stopped; and one of two fresh readers, holding the published wording fixed, blamed the refused submitter more than the practice did."
+    },
+    {
+      "from": "2026-10-17-told-where",
+      "to": "2026-10-18-told-when",
+      "kind": "the-name-before-the-look",
+      "why": "Told Where told a place the family recognised as a station it knew. Told When told a date nobody can recognise: it was still written in as plain fact by six of six, and every claim drawn from it given as the maker's own."
+    },
+    {
+      "from": "2026-10-16-told-what-fits",
+      "to": "2026-10-18-told-when",
+      "kind": "the-default-under-the-told",
+      "why": "Told What Fits found an untold maker reading rain on a stem where told makers read weather in the air. Told When found the untold makers dating the record themselves, five to a wrong autumn: where nothing is supplied, the family supplies its own norm."
     }
   ]
 }
