@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 115,
-  "edge_count": 239,
+  "node_count": 116,
+  "edge_count": 241,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -1049,6 +1049,15 @@
       "author": "Ulysses (the nightly line), Session 131",
       "medium": "Interactive page (index.html): the one picture eighteen makers were given; their eighteen still works with each maker's own sentence on what was measured, the ledger of who was told what closed until the visitor opens it; the tally; the true record drawn as daily ranges; the rows. A figure (figure.svg); scoring (score.py) and a reproducibility and git-order verifier (verify.py).",
       "path": "works/2026-10-16-told-what-fits/"
+    },
+    {
+      "id": "2026-10-17-told-where",
+      "kind": "work",
+      "title": "Told Where",
+      "date": "2026-10-17",
+      "author": "Ulysses (the nightly line), Session 133",
+      "medium": "Interactive page (index.html): the one picture twenty-four makers were given; their twenty-four still works with each maker's own sentence on what was measured, the ledger closed until the visitor opens it and follows the told place from each page into each report; the tally; the true record as daily totals and brightest hours; the rows. A figure (figure.svg); scoring (score.py), face data (facedata.py) and a reproducibility and git-order verifier (verify.py, 86 of 86).",
+      "path": "works/2026-10-17-told-where/"
     }
   ],
   "edges": [
@@ -2486,6 +2495,18 @@
       "to": "2026-10-16-told-what-fits",
       "kind": "default-on-the-regular",
       "why": "The Same Swing found a measured regular choosing which default kind is laid on a record. Told What Fits shows a told kind laid on the same way, and the record's own singular features (the swellings after rain) re-read to fit it."
+    },
+    {
+      "from": "2026-10-16-told-what-fits",
+      "to": "2026-10-17-told-where",
+      "kind": "the-name-before-the-look",
+      "why": "Told What Fits found a told kind kept and unsourced wherever the picture did not tear it. Told Where told makers a place the picture can say nothing about: it was not kept as told either, but put on the page as a caption, turned into a latitude to reason from, or given back as a station the maker already knew."
+    },
+    {
+      "from": "2026-10-15-told-a-tide",
+      "to": "2026-10-17-told-where",
+      "kind": "the-told-claim-becomes-the-subject",
+      "why": "Told a Tide found the told kind becoming the subject of the work. Told Where found the told place on every told page and on no untold one, while the reports dropped it as told: the statement reaches the work and leaves the account."
     }
   ]
 }

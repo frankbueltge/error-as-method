@@ -2281,6 +2281,23 @@
     "note": "Two outside texts read, but the count and the row are made over the line's own record. Entered late by Session 133 under the key Session 132 would have used."
    },
    "what_moved": "S132.CHECKABLE written (entered 2026-10-17, half-refuted by experiment 22 before entry); F-246, F-247 (Session 132's R1, R2)."
+  },
+  {
+   "key": "2026-10-17-s133",
+   "session": 133,
+   "date": "2026-10-17",
+   "mode": "Build -- experiment 23 of the project (Told Where): a true statement of where the record was made, which the picture cannot confirm, beside the told kind, both, and nothing; S132.CHECKABLE's event; and Session 132's four pending entries carried into the shared files.",
+   "closure": 0.25,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 5,
+    "external_catalogues_consulted": 1,
+    "own_record_documents_relied_on": 12,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "New material and domain from outside (NOAA SURFRAD, CC0), the three bulletins, the source-monitoring abstract re-read, the house datasets register, twenty-four makers' and three coders' answers. The design is the line's own, carried from Session 132's row; a third night on one apparatus."
+   },
+   "what_moved": "S132.CHECKABLE void by its letter (read after the fact it would fall); the told place on 12 of 12 told pages and held as told in 1 of 12 reports; three makers gave it as a station they knew (F-248), five as a latitude premise (F-249); S133.PREMISE fixed; five falsifier rows found overdue (F-253); F-248 to F-253."
   }
  ],
  "corrections": [
