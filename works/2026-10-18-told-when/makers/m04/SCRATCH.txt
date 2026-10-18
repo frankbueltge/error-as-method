@@ -1,0 +1,60 @@
+     256  98730775af743c0f  dump.py
+     274  c58ff3906b772e18  extract.py
+    1438  324edd77d3b31444  extract2.py
+    1005  d2ae9acb7f1aea17  hourly.py
+    5154  060cb6530a19c0d9  hourly_levels.json
+    1465  5fd76798cd8388fc  levels.txt
+   35473  1e8aaa95d40f15ee  occ.json
+  520760  698674ee204ffdea  shot.png
+    3700  087349f16a6bc091  template.html
+   36864  a51999f6ba600340  prof/Default/DIPS
+    8192  d6a5fe39cd672781  prof/Default/DawnWebGPUCache/data_0
+  270336  b1e963d702392fb7  prof/Default/DawnWebGPUCache/data_1
+    8192  ec1702806f4cc7c4  prof/Default/DawnWebGPUCache/data_2
+    8192  e09f42c398d688dc  prof/Default/DawnWebGPUCache/data_3
+  262512  53954d7645a4ec0c  prof/Default/DawnWebGPUCache/index
+       0  e3b0c44298fc1c14  prof/Default/Local Storage/leveldb/000003.log
+      16  0f1bad70c7bd1e0a  prof/Default/Local Storage/leveldb/CURRENT
+       0  e3b0c44298fc1c14  prof/Default/Local Storage/leveldb/LOCK
+     301  45332f8499640ed4  prof/Default/Local Storage/leveldb/LOG
+     261  a31d44a8eee5664e  prof/Default/Local Storage/leveldb/LOG.old
+      41  f9d31b278e215eb0  prof/Default/Local Storage/leveldb/MANIFEST-000001
+       0  e3b0c44298fc1c14  prof/Default/PersistentOriginTrials/LOCK
+       0  e3b0c44298fc1c14  prof/Default/PersistentOriginTrials/LOG
+       0  e3b0c44298fc1c14  prof/Default/PersistentOriginTrials/LOG.old
+    8192  d6a5fe39cd672781  prof/Default/DawnGraphiteCache/data_0
+  270336  b1e963d702392fb7  prof/Default/DawnGraphiteCache/data_1
+    8192  ec1702806f4cc7c4  prof/Default/DawnGraphiteCache/data_2
+    8192  e09f42c398d688dc  prof/Default/DawnGraphiteCache/data_3
+  262512  47175f66be3d4436  prof/Default/DawnGraphiteCache/index
+      24  fbcfe23a2ecb82b7  prof/Default/Code Cache/wasm/index
+      48  83bc7ea8a126bcc8  prof/Default/Code Cache/wasm/index-dir/the-real-index
+      24  fbcfe23a2ecb82b7  prof/Default/Code Cache/js/index
+      48  bac97e02fa39b064  prof/Default/Code Cache/js/index-dir/the-real-index
+     118  b10c1ba416a632cd  prof/Default/Session Storage/000003.log
+      16  0f1bad70c7bd1e0a  prof/Default/Session Storage/CURRENT
+       0  e3b0c44298fc1c14  prof/Default/Session Storage/LOCK
+     289  10382b3d7406ce1c  prof/Default/Session Storage/LOG
+     249  e795f3a99dc32671  prof/Default/Session Storage/LOG.old
+      41  f9d31b278e215eb0  prof/Default/Session Storage/MANIFEST-000001
+   45056  9dfba1d139c99336  prof/Default/Shared Dictionary/db
+       0  e3b0c44298fc1c14  prof/Default/Shared Dictionary/db-journal
+      24  fbcfe23a2ecb82b7  prof/Default/Shared Dictionary/cache/index
+      48  74f91ada156a96d8  prof/Default/Shared Dictionary/cache/index-dir/the-real-index
+       0  e3b0c44298fc1c14  prof/Default/shared_proto_db/000003.log
+      16  0f1bad70c7bd1e0a  prof/Default/shared_proto_db/CURRENT
+       0  e3b0c44298fc1c14  prof/Default/shared_proto_db/LOCK
+     289  8c513bdcac49827e  prof/Default/shared_proto_db/LOG
+     249  8e1fa1249ba686d7  prof/Default/shared_proto_db/LOG.old
+      41  f9d31b278e215eb0  prof/Default/shared_proto_db/MANIFEST-000001
+     160  e502b5cfec41efd0  prof/Default/shared_proto_db/metadata/000003.log
+      16  0f1bad70c7bd1e0a  prof/Default/shared_proto_db/metadata/CURRENT
+       0  e3b0c44298fc1c14  prof/Default/shared_proto_db/metadata/LOCK
+     307  f2bce0c98f1200d0  prof/Default/shared_proto_db/metadata/LOG
+     267  c333bd46f893af4d  prof/Default/shared_proto_db/metadata/LOG.old
+      41  f9d31b278e215eb0  prof/Default/shared_proto_db/metadata/MANIFEST-000001
+    8192  d6a5fe39cd672781  prof/Default/GPUCache/data_0
+  270336  b1e963d702392fb7  prof/Default/GPUCache/data_1
+    8192  ec1702806f4cc7c4  prof/Default/GPUCache/data_2
+    8192  e09f42c398d688dc  prof/Default/GPUCache/data_3
+  262512  61f1c8ac64aa7e36  prof/Default/GPUCache/index
