@@ -1,0 +1,19 @@
+{
+ "fetched_utc": "2026-10-18T15:03:46Z",
+ "publisher": "USDA NRCS National Water and Climate Center",
+ "licence": "US public domain (https://catalog.data.gov/dataset/soil-climate-analysis-network-scan: https://www.usa.gov/publicdomain/label/1.0/)",
+ "files": {
+  "sto_2in_hourly.json": {
+   "url": "https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=2064:MS:SCAN&elements=STO:-2&duration=HOURLY&beginDate=2025-07-15%2000:00&endDate=2025-09-13%2023:00",
+   "http": 200,
+   "bytes": 114742,
+   "sha256": "88cf7ea2ba013d6fc0a9f01db6ebe88f25ffa8c479e685faa9e569eb27f23add"
+  },
+  "station.json": {
+   "url": "https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/stations?stationTriplets=2064:MS:SCAN",
+   "http": 200,
+   "bytes": 463,
+   "sha256": "020be8718836ab8c77350feebb9c194edffc4806587cac9edfc35879e7bcfcbe"
+  }
+ }
+}
