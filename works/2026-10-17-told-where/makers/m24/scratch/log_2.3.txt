@@ -1,0 +1,9 @@
+sweep 0 moved 1346 err 285.29
+sweep 1 moved 552 err 229.95
+sweep 2 moved 247 err 219.28
+sweep 3 moved 97 err 214.55
+sweep 4 moved 25 err 214.1
+sweep 5 moved 6 err 213.58
+sweep 6 moved 2 err 213.38
+sweep 7 moved 1 err 213.29
+final 2.3 0.85 213.2935272508525

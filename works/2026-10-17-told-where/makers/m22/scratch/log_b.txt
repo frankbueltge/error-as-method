@@ -1,0 +1,8 @@
+sweep 0 moved 1117 err 20618752
+sweep 1 moved 433 err 15344434
+sweep 2 moved 220 err 14190202
+sweep 3 moved 74 err 13698693
+sweep 4 moved 30 err 13576989
+sweep 5 moved 11 err 13526067
+sweep 6 moved 4 err 13519764
+sweep 7 moved 0 err 13519764

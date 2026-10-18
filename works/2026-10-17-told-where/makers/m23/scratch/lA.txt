@@ -1,0 +1,14 @@
+pass 0 607.65
+pass 1 491.84
+pass 2 477.22
+pass 3 467.91
+pass 4 467.46
+pass 5 466.91
+pass 6 462.63
+pass 7 458.11
+pass 8 457.43
+pass 9 457.13
+pass 10 457.13
+pass 11 457.13
+pass 12 457.13
+pass 13 457.13

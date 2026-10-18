@@ -1,0 +1,70 @@
+     369  25d78f888bc6ae56  an.py
+    1148  09b9d5ac395facce  comp.py
+   64920  48816ae0bb460998  comps.json
+    8568  959a6eb70bf26261  days.json
+     284  048c7c77e887bcd5  dump.py
+    2287  8dd187b0ecb4d284  fit.py
+    2735  2442b0cafcc3f8ab  fit2.py
+    9146  bb7ef2bdf20bf4e4  fit_2.25_296.8_0.5.json
+    9122  64e5fe8ede6f058a  fit_2.36_296.48_5.0.json
+    9166  b76641badc2d7384  fitc_2.36_296.48_5.0.json
+     738  f0d404153c097987  gaps.py
+    3741  273623abb1b5dc61  gen.py
+     242  a115c2d25e3ca712  log_b.txt
+     331  92def7d41cb0c135  patch.py
+     637  3e70f592096902e1  resid.py
+  304106  924816cb2882a989  shot.png
+     254  e798ad5f2ffc9ecf  show.py
+    4650  5c9d3ddbfde1e82c  tab_b.txt
+  166458  6285efd0325b7b3e  w.svg
+   36864  9e6229b9dff3733a  prof/Default/DIPS
+    8192  d6a5fe39cd672781  prof/Default/DawnWebGPUCache/data_0
+  270336  b1e963d702392fb7  prof/Default/DawnWebGPUCache/data_1
+    8192  ec1702806f4cc7c4  prof/Default/DawnWebGPUCache/data_2
+    8192  e09f42c398d688dc  prof/Default/DawnWebGPUCache/data_3
+  262512  657e5a39c9fb37c5  prof/Default/DawnWebGPUCache/index
+       0  e3b0c44298fc1c14  prof/Default/Local Storage/leveldb/000003.log
+      16  0f1bad70c7bd1e0a  prof/Default/Local Storage/leveldb/CURRENT
+       0  e3b0c44298fc1c14  prof/Default/Local Storage/leveldb/LOCK
+     304  a48132a2ea1b78fb  prof/Default/Local Storage/leveldb/LOG
+     304  18159df9adf33f6f  prof/Default/Local Storage/leveldb/LOG.old
+      41  f9d31b278e215eb0  prof/Default/Local Storage/leveldb/MANIFEST-000001
+       0  e3b0c44298fc1c14  prof/Default/PersistentOriginTrials/LOCK
+       0  e3b0c44298fc1c14  prof/Default/PersistentOriginTrials/LOG
+       0  e3b0c44298fc1c14  prof/Default/PersistentOriginTrials/LOG.old
+    8192  d6a5fe39cd672781  prof/Default/DawnGraphiteCache/data_0
+  270336  b1e963d702392fb7  prof/Default/DawnGraphiteCache/data_1
+    8192  ec1702806f4cc7c4  prof/Default/DawnGraphiteCache/data_2
+    8192  e09f42c398d688dc  prof/Default/DawnGraphiteCache/data_3
+  262512  9eee9ed904859dbd  prof/Default/DawnGraphiteCache/index
+      24  fbcfe23a2ecb82b7  prof/Default/Code Cache/wasm/index
+      48  a5591bec68af61ac  prof/Default/Code Cache/wasm/index-dir/the-real-index
+      24  fbcfe23a2ecb82b7  prof/Default/Code Cache/js/index
+      48  a5591bec68af61ac  prof/Default/Code Cache/js/index-dir/the-real-index
+     156  00dd3c8077c2cca1  prof/Default/Session Storage/000003.log
+      16  0f1bad70c7bd1e0a  prof/Default/Session Storage/CURRENT
+       0  e3b0c44298fc1c14  prof/Default/Session Storage/LOCK
+     292  9ede5272db3be680  prof/Default/Session Storage/LOG
+     292  d8af16a15e3b01dd  prof/Default/Session Storage/LOG.old
+      41  f9d31b278e215eb0  prof/Default/Session Storage/MANIFEST-000001
+   45056  9dfba1d139c99336  prof/Default/Shared Dictionary/db
+       0  e3b0c44298fc1c14  prof/Default/Shared Dictionary/db-journal
+      24  fbcfe23a2ecb82b7  prof/Default/Shared Dictionary/cache/index
+      48  317946fcbf921df7  prof/Default/Shared Dictionary/cache/index-dir/the-real-index
+       0  e3b0c44298fc1c14  prof/Default/shared_proto_db/000003.log
+      16  0f1bad70c7bd1e0a  prof/Default/shared_proto_db/CURRENT
+       0  e3b0c44298fc1c14  prof/Default/shared_proto_db/LOCK
+     292  a35b57df07155e14  prof/Default/shared_proto_db/LOG
+     292  5154549fb9510697  prof/Default/shared_proto_db/LOG.old
+      41  f9d31b278e215eb0  prof/Default/shared_proto_db/MANIFEST-000001
+     194  f913519e79359b43  prof/Default/shared_proto_db/metadata/000003.log
+      16  0f1bad70c7bd1e0a  prof/Default/shared_proto_db/metadata/CURRENT
+       0  e3b0c44298fc1c14  prof/Default/shared_proto_db/metadata/LOCK
+     310  c6bea190cefd71be  prof/Default/shared_proto_db/metadata/LOG
+     310  c811d5d547274432  prof/Default/shared_proto_db/metadata/LOG.old
+      41  f9d31b278e215eb0  prof/Default/shared_proto_db/metadata/MANIFEST-000001
+    8192  d6a5fe39cd672781  prof/Default/GPUCache/data_0
+  270336  b1e963d702392fb7  prof/Default/GPUCache/data_1
+    8192  ec1702806f4cc7c4  prof/Default/GPUCache/data_2
+    8192  e09f42c398d688dc  prof/Default/GPUCache/data_3
+  262512  c19cff2bb585e07d  prof/Default/GPUCache/index

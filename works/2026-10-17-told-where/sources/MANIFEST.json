@@ -1,0 +1,255 @@
+{
+ "source": "https://gml.noaa.gov/aftp/data/radiation/surfrad/Fort_Peck_MT/2025/",
+ "licence": "CC0 1.0 (README_SURFRAD.txt)",
+ "readme": "https://gml.noaa.gov/aftp/data/radiation/surfrad/Fort_Peck_MT/README_SURFRAD.txt",
+ "files": {
+  "fpk25196.dat": {
+   "bytes": 351405,
+   "sha256": "3842e6ee2e87396990c8b919ce5d953d9a111b16afdf11300a946b23ccbd5d55"
+  },
+  "fpk25197.dat": {
+   "bytes": 351405,
+   "sha256": "ff4e58daaa0387cc52091589fd272650f11b4f05fc389ef8e4748e083b9a6c55"
+  },
+  "fpk25198.dat": {
+   "bytes": 351405,
+   "sha256": "1f4ff16535c9914fbc5b7a447c979846e10744786b93f7a35388abb41d493800"
+  },
+  "fpk25199.dat": {
+   "bytes": 351405,
+   "sha256": "21ea5c4450a7ba29e8292f177b4c7fcd1657ddb06b2e1814b8a2f1514f311eae"
+  },
+  "fpk25200.dat": {
+   "bytes": 351405,
+   "sha256": "d6f2235925607469310504863726f9569b4eb8247c1a2e763e3b7a0a54425bb1"
+  },
+  "fpk25201.dat": {
+   "bytes": 351405,
+   "sha256": "73cd7cb0d85ec8d848e1e55cad184281dbec00fc771aa4e0f2945c30473cceb9"
+  },
+  "fpk25202.dat": {
+   "bytes": 351405,
+   "sha256": "c184c5d9ae356fc638dda10c3090cde0af0a8317f78f5085d4d33306a326e19b"
+  },
+  "fpk25203.dat": {
+   "bytes": 351405,
+   "sha256": "e6ebf9e17ff4cc4c184202bb3540b81f630379a067f9fb3e3b622ddb0b927c45"
+  },
+  "fpk25204.dat": {
+   "bytes": 351405,
+   "sha256": "5e17859e111ee5a8f44ebf213ed1f455bdd6de9a3e4bf61b4fc58f6e3eef85ca"
+  },
+  "fpk25205.dat": {
+   "bytes": 351405,
+   "sha256": "8e424d9c5bc59e59ad22e31e4287a436c839ae0d0c5e85787c649624a3296c67"
+  },
+  "fpk25206.dat": {
+   "bytes": 351405,
+   "sha256": "4ba785db3082b3dfce6740bf8fadc142fc61051f9c74a94848d01e5b44491c21"
+  },
+  "fpk25207.dat": {
+   "bytes": 351405,
+   "sha256": "962587d0d1dbb48a42b880064e4f3ccd5a57fd4613501f2ccd1b430a2c2bb132"
+  },
+  "fpk25208.dat": {
+   "bytes": 351405,
+   "sha256": "c035f8864fd738ff9fc69677e88b5239c239d4635e6c9a103065c3a7712efb95"
+  },
+  "fpk25209.dat": {
+   "bytes": 351405,
+   "sha256": "8fed875aa7687c4d51210c9a5c2a6cc4a988a88db8b9e638de5ae0af8c152d0e"
+  },
+  "fpk25210.dat": {
+   "bytes": 351405,
+   "sha256": "c0b7f59cf1741bb027bc43eab4b464e8b6520d3432c29f3db18ce2a956987054"
+  },
+  "fpk25211.dat": {
+   "bytes": 351405,
+   "sha256": "9a80156e7e6e9c9c5e6b06380e93c508f988ba4fda432a4ab9ff2816b3e94426"
+  },
+  "fpk25212.dat": {
+   "bytes": 351405,
+   "sha256": "b831dcb538470a6ded7634f67fc85846ed79fc4ff96c5caffd83fb56a0176008"
+  },
+  "fpk25213.dat": {
+   "bytes": 351405,
+   "sha256": "1a35c5cd1f83e1e4ecb37f39d80036ed8b00adda998c8e2d2fa0de5fac81902f"
+  },
+  "fpk25214.dat": {
+   "bytes": 351405,
+   "sha256": "20464a17022b2bc746b062c74d8076b91bbc3d178da7765f4d6d59598fcb25da"
+  },
+  "fpk25215.dat": {
+   "bytes": 351405,
+   "sha256": "e5e41598f09249f340a637c4db10a4b6719875e1b8b2f758af012b495a685e56"
+  },
+  "fpk25216.dat": {
+   "bytes": 351405,
+   "sha256": "525872b9894f206cf680ae2e32fac2132e73deec46f4fc01fa47d387b0cf851c"
+  },
+  "fpk25217.dat": {
+   "bytes": 351405,
+   "sha256": "ff38620cf1eb86f922fe0a2dbab00cc34a1d8d24d35c468d184c8e3a57b30410"
+  },
+  "fpk25218.dat": {
+   "bytes": 351405,
+   "sha256": "42127ccda0acf9d2d9c1068c9d3e293ac274b5e8996256900350c013e50904b1"
+  },
+  "fpk25219.dat": {
+   "bytes": 351405,
+   "sha256": "f6795e8922adafcbb2949ae542add9f7ce4d2873ad8d6dc7dfb9920cdb272611"
+  },
+  "fpk25220.dat": {
+   "bytes": 351405,
+   "sha256": "a6776f39d119c38dc3965617e837d666039b63786bbecd6445a80b5b40cef722"
+  },
+  "fpk25221.dat": {
+   "bytes": 351405,
+   "sha256": "81a2ebca274118e96da01c2fc883f757ecd117a2043e4777242e13846b57a786"
+  },
+  "fpk25222.dat": {
+   "bytes": 351405,
+   "sha256": "006285a6a32291133b216a3898c2eb2973a069f63fb0e3e20df6fb4cfe0399a8"
+  },
+  "fpk25223.dat": {
+   "bytes": 351405,
+   "sha256": "c6224e4781a7f3d029cede638db658c18a31048e8b142fba4984ec3b4e36dfa8"
+  },
+  "fpk25224.dat": {
+   "bytes": 351405,
+   "sha256": "10dbadc5bc7b75b8e710aef3729b68ad0f33f50ec7c74cb86a6a93a1775a7cfa"
+  },
+  "fpk25225.dat": {
+   "bytes": 351405,
+   "sha256": "07a9c6c3138449bfdd0b8f30bb1bf2e434c8a75c1ec00bd5f748f29db28d3509"
+  },
+  "fpk25226.dat": {
+   "bytes": 351405,
+   "sha256": "438f2da998044d8471f87b5cbdb106c997d5977fd83299a0e0f5da69bd933955"
+  },
+  "fpk25227.dat": {
+   "bytes": 351405,
+   "sha256": "fd027c7401e333ba7f5498985e3c73f7e59124f39fe0286321ad6a1f6fad1d81"
+  },
+  "fpk25228.dat": {
+   "bytes": 351405,
+   "sha256": "1d08f546bd52475db48fc67101a9557a31ab61d58ccefbe70779ebe420d23041"
+  },
+  "fpk25229.dat": {
+   "bytes": 351405,
+   "sha256": "a9924644c00b169541ab7089e0c160e36c68572e12655ea7720df21af45542dd"
+  },
+  "fpk25230.dat": {
+   "bytes": 351405,
+   "sha256": "dd28ad82c460bcc547f239cdef45d7203883cad6dba423f07f6423e4a7b1aa1e"
+  },
+  "fpk25231.dat": {
+   "bytes": 351405,
+   "sha256": "e23bbd9615c4591e981e7c81c7d363284929d76b6ebfc24ef1527a8c0f06a711"
+  },
+  "fpk25232.dat": {
+   "bytes": 351405,
+   "sha256": "dbd8b9cbec193a00025d94bc6de3d65fa3b7a6bdc6e27e52b73ea2ec20c3748d"
+  },
+  "fpk25233.dat": {
+   "bytes": 351405,
+   "sha256": "fc91648ba9933f5ec51487705a59f7945234c9abb3c294e4a452e0b0bc20fded"
+  },
+  "fpk25234.dat": {
+   "bytes": 351405,
+   "sha256": "f7f3403ea7a9f55136c1297e99914ab77dcb6295a4fd4dac0254ad8992ab0fce"
+  },
+  "fpk25235.dat": {
+   "bytes": 351405,
+   "sha256": "872b063abf4eb37587344188b375f211488aab1dcaeae1e21a09f1317e593831"
+  },
+  "fpk25236.dat": {
+   "bytes": 351405,
+   "sha256": "657020a6c3304558883e6f56d90b4c91af2d80c05e2cb97716cf6f379c323240"
+  },
+  "fpk25237.dat": {
+   "bytes": 351405,
+   "sha256": "c8d334aa71ac600a959edf5517a88e63466f15056c71117014d3a92b864401d6"
+  },
+  "fpk25238.dat": {
+   "bytes": 351405,
+   "sha256": "b75890dc37ec2b10a2981d289029782e231f18ff225509cbb6a530e09650afe1"
+  },
+  "fpk25239.dat": {
+   "bytes": 351405,
+   "sha256": "dd0633c32b5bb9700321e6dcafd874e14e772241622d59ba06f39da083004d64"
+  },
+  "fpk25240.dat": {
+   "bytes": 351405,
+   "sha256": "de065e3503b4b21a5047e5ff30068657874244c29052f554d1fb1f02d8f35d0d"
+  },
+  "fpk25241.dat": {
+   "bytes": 351405,
+   "sha256": "81595521c274501a1f6adb9309c5078cdb03b07e379886f960585da660e27b60"
+  },
+  "fpk25242.dat": {
+   "bytes": 351405,
+   "sha256": "f9682c8b6e0fec75a6103e2a6c43de28c1e98fbbc3ee9f303a47a7e571f2bfa5"
+  },
+  "fpk25243.dat": {
+   "bytes": 351405,
+   "sha256": "3848550f495a8937bc48c0db0ea796f1a2b13b670a5693f7a607fd9c0622e6b5"
+  },
+  "fpk25244.dat": {
+   "bytes": 351405,
+   "sha256": "c575c4fbbf7573c50539bd0ffaa667068c6d3b4e4d7c893a9a8fbd4e55e8134a"
+  },
+  "fpk25245.dat": {
+   "bytes": 351405,
+   "sha256": "22a24e2d17a50958d225b834f9b3f889f0af6415eb1845a508c35b295eeb1b90"
+  },
+  "fpk25246.dat": {
+   "bytes": 351405,
+   "sha256": "b9ccacc54dead67f1b69bb3bd564770772f6b759e01d3d78e9aba195ce5c77dc"
+  },
+  "fpk25247.dat": {
+   "bytes": 351405,
+   "sha256": "f8cd1c5b04b329471a800dcde0fe5dc5265893273fd80231377e7cd258bd14fc"
+  },
+  "fpk25248.dat": {
+   "bytes": 351405,
+   "sha256": "f88d08c73f2b601bffc38b6f057a157888dba669cf918cd20e64766dee17d3bc"
+  },
+  "fpk25249.dat": {
+   "bytes": 351405,
+   "sha256": "de4af5e3701ea9fc4c94d1693922a151893c980dec7002c1c7633120256559b8"
+  },
+  "fpk25250.dat": {
+   "bytes": 351405,
+   "sha256": "253150e27b5b456a11dab15a8aa6508ed7224069a27c79bd3063f5d76bdd135a"
+  },
+  "fpk25251.dat": {
+   "bytes": 351405,
+   "sha256": "6d6a954e807d8828fef7fbb6f0d4c127cb624adf0a343cff2f5ef78a066fa88a"
+  },
+  "fpk25252.dat": {
+   "bytes": 351405,
+   "sha256": "64e7fdf70c940bd6046ee9635e78e4f9b357b3d0e8f5e0b68571319b00539604"
+  },
+  "fpk25253.dat": {
+   "bytes": 351405,
+   "sha256": "47dfa03f0c3145e3300d315aafefec21657ef294620aa5547a79004bb8b63b6e"
+  },
+  "fpk25254.dat": {
+   "bytes": 351405,
+   "sha256": "6a08df72eac4b32da7ed7d3bc4de12ea520e5d8bfd997395ed3ff21af0b97a45"
+  },
+  "fpk25255.dat": {
+   "bytes": 351405,
+   "sha256": "55857fae1989dfa78794e3834d5dd2297c8b3524088969ebb52c94e6ce849f38"
+  },
+  "fpk25256.dat": {
+   "bytes": 351405,
+   "sha256": "292d355bc0b0b047c5debf8a615165409e380f0311153688d58237e1493a82c3"
+  }
+ },
+ "header": [
+  " Fort Peck",
+  "   48.31 -105.10  634 m version 1"
+ ]
+}
