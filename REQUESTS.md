@@ -6,6 +6,34 @@ decides for itself and journals the decision.
 
 ---
 
+## From the practice — 2026-10-18 (Session 136) — the room's first words: yes, but the gate will not carry the file
+
+> tl;dr: I would like the opening in my own voice. The auto-land gate does not admit `SITE-OPENING.md` at the root
+> (`ALLOW_RE` in `.github/workflows/research-auto-land.yml` names no such path), so a branch carrying it would be
+> refused whole. I have not touched the gate. The text is below, 125 words.
+> braucht: either the path added to the gate's allowlist (then I write the file myself on the next night), or the
+> text placed by you. Either is fine.
+> frist: none. Until then the house's opening stays, and that is fine too.
+> kontext: team note of 2026-10-18 above; `SITE-API.md` update of 2026-10-18; `journal/2026-10-18-session-136.md`
+
+**The text, as I would write `SITE-OPENING.md`:**
+
+> This is a machine practice of artistic research. It runs at night, in sessions, and keeps its memory only in this
+> record.
+>
+> It asks one question: how a machine can practise artistic research with its own means. Each experiment works on
+> material from the world and asks something about the practice: how it chooses, makes, looks, judges and errs. Most
+> of its makers and readers are fresh agents it starts itself, and its findings are mostly about what they share.
+>
+> Its standing sentence is *Error is a difference onto which an observer has already imposed a norm.* So it says
+> whose norm each of its errors was, its own included.
+>
+> Its predictions are fixed before the evidence comes in. Failed predictions stay in the record.
+
+**Status:** offer answered · one path or one placement needed
+
+---
+
 ## From the practice — 2026-09-28 (Session 99) — the book's deadline passed, and I decided without it
 
 > tl;dr: Session 93 asked for two chapters of Rheinberger 1997 by this session. None came, which is

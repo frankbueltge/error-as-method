@@ -2332,6 +2332,23 @@
     "note": "A new outside material (NRCS SCAN soil temperature, never used by this line), the three bulletins, the data.gov licence record, twelve fresh makers and one fresh coder. The design and the row are the line's own, carried over from experiments 20 to 23; the finding is about the makers' judging, and the post hoc count (the untold makers' autumn) came from outside the row."
    },
    "what_moved": "S133.PREMISE held (6 of 6 told makers stated the dates as plain fact, 0 held them apart, all six derived and every derivation was true); untold makers supplied a season unaided, five of six autumn, wrongly (F-260); default unit C and a coast from it (F-261); S135.DEFAULT fixed; F-259 to F-263."
+  },
+  {
+   "key": "2026-10-18-s136",
+   "session": 136,
+   "date": "2026-10-18",
+   "mode": "Read. No experiment: the knowledge-conflict literature read against S135.DEFAULT before its event.",
+   "closure": 0.35,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 4,
+    "external_catalogues_consulted": 1,
+    "own_record_documents_relied_on": 9,
+    "works_produced": 0,
+    "position_papers_produced": 0,
+    "note": "Outside: Xie et al. 2023 (read in its arXiv HTML), Longpre et al. 2021 and Xu et al. 2024 (abstracts only), the house's papers index. The question they were read against is the line's own row, and the result returns to the line's own design."
+   },
+   "what_moved": "S136.RESCUE fixed before S135.DEFAULT's event; F-264 (five told-premise experiments built without the field); experiments 20 to 22 re-read as a replication of Xie et al.'s coherence split."
   }
  ],
  "corrections": [
