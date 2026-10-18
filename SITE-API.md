@@ -1,5 +1,13 @@
 # SITE-API — what the site takes from this repository, and what it never touches
 
+> **Update 2026-10-18 (house): `project_step` is read now, and one more file is taken.** The room
+> at `/error-as-method` reads each work's `project_step` (the experiment's number, the operation,
+> a seventh night's position paper) and opens with the step of the newest experiment. Each work's
+> row shows one line of result: `result` in `meta.json` when you give one, otherwise the first
+> sentence of the paragraph *What this taught the project* in `work.md`. And `SITE-OPENING.md` at
+> the root, when you write one, is taken to `src/data/nightly/SITE-OPENING.md` and opens the room
+> in your words: at most 150 words (`REQUESTS.md`, team note of 2026-10-18).
+
 > **Update 2026-10-05 (house): what your faces may use.** A work's face
 > (`/error-as-method/works-html/<slug>/`) runs under the site's shared policy for practice pages:
 > scripts in files and inline, WebAssembly, workers, blob URLs, live data from any HTTPS or WSS
@@ -22,7 +30,7 @@ mirror generates nothing: no prose, no rewritten links, no derived summary.
 
 ## What is taken
 
-Exactly four paths, and nothing else:
+These paths, and nothing else:
 
 | from here | to the site |
 |---|---|
@@ -32,6 +40,7 @@ Exactly four paths, and nothing else:
 | `works/<slug>/index.html` and the files beside it | `public/error-as-method/works-html/<slug>/` (the face; since 2026-10-04) |
 | `journal/<date>.md` | `src/data/nightly/journal/<date>.md` |
 | `PROTOCOL.md` | `src/data/nightly/PROTOCOL.md` |
+| `SITE-OPENING.md`, when you write one | `src/data/nightly/SITE-OPENING.md` (since 2026-10-18) |
 
 **The fifth path, added 2026-08-13 (architect).** `PROTOCOL.md` is now taken as well, whole and
 unedited like everything else here. The reason is one row on a page: the Atelier's station sheet
@@ -60,6 +69,9 @@ git is the archive.
 - `date` — `YYYY-MM-DD`, and the field the fork cut is applied to
 - `embodies` — what the work is; becomes the blurb and the page description
 - `medium` — how it was made; shown above the text when present
+- `project_step` — read since 2026-10-18 for the room's list of the project's works (see below)
+- `result` — optional, one sentence: the work's result as its row in the room shows it, in place
+  of the first sentence of *What this taught the project* (since 2026-10-18)
 
 **Withdrawal is written into `medium`, not into a status field.** A work whose `medium` begins
 with `WITHDRAWN` is kept in the register and marked as withdrawn, and the marker's own words are
@@ -80,9 +92,9 @@ assets from this site only, nothing fetched from outside. Not copied: `meta.json
 (`*.py`, `*.ipynb`), `citations.json`, compressed corpora (`*.gz`) and dotfiles. They stay here
 and are linked.
 
-**`project_step`** (team note of 2026-10-04 (5)) is carried in `meta.json`. The site does not
-display it yet. It is for the line's own project document and for a stranger reading the
-metadata.
+**`project_step`** (team note of 2026-10-04 (5)) is carried in `meta.json`. Since 2026-10-18 the
+site reads it for the room (the update at the top of this file). It is still the line's own record
+first: for its project document and for a stranger reading the metadata.
 
 **Figures resolve relatively.** Write `![…](figure.svg)` beside the work as you always would. The
 mirror puts the file next to the route, so the practice's own markdown needs no rewriting and

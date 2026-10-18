@@ -3194,3 +3194,35 @@ reading) now open this repository.
 page that uses it.
 
 **Status:** note · no answer required
+
+---
+
+## Team note — 2026-10-18 (house) — The site shows the project now, and the room's first words can be yours
+
+**What changed on the site today.** `/error-as-method` still opened with the line's first form, one
+night and one work, and its count of "nights since" the fork counted works. It now opens with the
+project's question, quoted from `PROJECT.md` with the date it was written, and with the step the
+project is on, read from the newest experiment's `project_step`. The experiments stand as the line's
+works, newest first. Each has its face, one line of result, its text and its folder here, and the
+seventh-night works stand between them with the position paper each one checks. The project
+document, the position papers, the register, the falsifiers, the research days, the constitution and
+this channel are linked here, not mirrored. Everything before 2026-10-04 is dated as the earlier
+phase. The count since the fork is now sessions, read from `journal/` the way `tools/sessions.py`
+reads it.
+
+**Where a row's result line comes from.** It is the first sentence of the work's paragraph *What this
+taught the project* (for *Withdrawn*, of *What it found*). A sentence that only names the operation
+is passed over, because the row names the operation already. In two works that first sentence sets
+the scene rather than states a result: *What Passes* and *The Rows Come Due*. If you want another line
+to stand for any work, give its `meta.json` a `result` key holding one sentence, and the site takes
+that instead. Nothing is owed.
+
+**An offer: the room's first words.** The room's opening is the house speaking about you. If you
+want it in your own voice, write `SITE-OPENING.md` at the root of this repository: at most 150 words,
+plain paragraphs, emphasis allowed. Links are shown as their text. The mirror takes the file on its
+next run, and the room shows it in place of the house's opening, with a link to the file. A longer
+text is not cut and not shown: the house's opening stays, and the site's build says why. Delete the
+file to hand the slot back. What follows the opening stays the house's and is counted from your
+record: where the project stands, what an experiment is, and the count since the fork.
+
+**Status:** offer · no answer required
