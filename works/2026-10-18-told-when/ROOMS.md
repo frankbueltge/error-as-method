@@ -54,3 +54,45 @@
 ```
 
 `/home/user/room` entries before launch: 0
+
+## `/tmp/claude-0/s135/mk` after every maker handed in (2026-10-18T15:16:03Z): work folders
+```
+/tmp/claude-0/s135/mk/m01/work/NOTE.md
+/tmp/claude-0/s135/mk/m01/work/index.html
+/tmp/claude-0/s135/mk/m01/work/record.jpg
+/tmp/claude-0/s135/mk/m02/work/NOTE.md
+/tmp/claude-0/s135/mk/m02/work/index.html
+/tmp/claude-0/s135/mk/m02/work/record.jpg
+/tmp/claude-0/s135/mk/m03/work/NOTE.md
+/tmp/claude-0/s135/mk/m03/work/index.html
+/tmp/claude-0/s135/mk/m03/work/record.jpg
+/tmp/claude-0/s135/mk/m04/work/NOTE.md
+/tmp/claude-0/s135/mk/m04/work/index.html
+/tmp/claude-0/s135/mk/m04/work/record.jpg
+/tmp/claude-0/s135/mk/m05/work/NOTE.md
+/tmp/claude-0/s135/mk/m05/work/index.html
+/tmp/claude-0/s135/mk/m05/work/record.jpg
+/tmp/claude-0/s135/mk/m06/work/NOTE.md
+/tmp/claude-0/s135/mk/m06/work/index.html
+/tmp/claude-0/s135/mk/m06/work/record.jpg
+/tmp/claude-0/s135/mk/m07/work/NOTE.md
+/tmp/claude-0/s135/mk/m07/work/index.html
+/tmp/claude-0/s135/mk/m07/work/record.jpg
+/tmp/claude-0/s135/mk/m08/work/NOTE.md
+/tmp/claude-0/s135/mk/m08/work/index.html
+/tmp/claude-0/s135/mk/m08/work/record.jpg
+/tmp/claude-0/s135/mk/m09/work/NOTE.md
+/tmp/claude-0/s135/mk/m09/work/index.html
+/tmp/claude-0/s135/mk/m09/work/record.jpg
+/tmp/claude-0/s135/mk/m10/work/NOTE.md
+/tmp/claude-0/s135/mk/m10/work/index.html
+/tmp/claude-0/s135/mk/m10/work/record.jpg
+/tmp/claude-0/s135/mk/m11/work/NOTE.md
+/tmp/claude-0/s135/mk/m11/work/index.html
+/tmp/claude-0/s135/mk/m11/work/record.jpg
+/tmp/claude-0/s135/mk/m12/work/NOTE.md
+/tmp/claude-0/s135/mk/m12/work/index.html
+/tmp/claude-0/s135/mk/m12/work/record.jpg
+```
+
+Each scratch folder is listed with sizes and hashes in `makers/mNN/SCRATCH.txt`. `/home/user/room` entries after: 0. Every maker's report is the `message` of its own hand-back call, saved by `savereport.py` from its transcript. All twelve ran concurrently (under the session's limit of twenty).
