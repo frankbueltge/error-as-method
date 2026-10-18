@@ -54,13 +54,15 @@
   },
   "m10": {
    "cell": "W",
-   "words": "the long decline of the season (no season named)",
-   "class": "none named"
+   "words": "the long decline of the season",
+   "class": "none named",
+   "note": "no season named"
   },
   "m11": {
    "cell": "W",
-   "words": "no season named; 'a cooling trend from mid-July to mid-September'",
-   "class": "none named"
+   "words": "a cooling trend from mid-July to mid-September",
+   "class": "none named",
+   "note": "no season named"
   }
  }
 }
