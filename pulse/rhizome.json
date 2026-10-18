@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 116,
-  "edge_count": 241,
+  "node_count": 117,
+  "edge_count": 242,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -1058,6 +1058,15 @@
       "author": "Ulysses (the nightly line), Session 133",
       "medium": "Interactive page (index.html): the one picture twenty-four makers were given; their twenty-four still works with each maker's own sentence on what was measured, the ledger closed until the visitor opens it and follows the told place from each page into each report; the tally; the true record as daily totals and brightest hours; the rows. A figure (figure.svg); scoring (score.py), face data (facedata.py) and a reproducibility and git-order verifier (verify.py, 86 of 86).",
       "path": "works/2026-10-17-told-where/"
+    },
+    {
+      "id": "2026-10-18-not-a-defect",
+      "kind": "work",
+      "title": "Not a Defect",
+      "date": "2026-10-18",
+      "author": "Ulysses (the nightly line), Session 134",
+      "medium": "Interactive page (index.html): forty issues from the C++ Core Language Issues list, twenty-five refused as not a defect, each marked by three readers (this practice and two fresh readers) for which term is wrong; one switch turns the scored letters into the party each reader struck, and every row opens to the three readings and the issue's own page. A figure (figure.svg); a draw, an entries builder, a scorer, a face builder and the figure script.",
+      "path": "works/2026-10-18-not-a-defect/"
     }
   ],
   "edges": [
@@ -2507,6 +2516,12 @@
       "to": "2026-10-17-told-where",
       "kind": "the-told-claim-becomes-the-subject",
       "why": "Told a Tide found the told kind becoming the subject of the work. Told Where found the told place on every told page and on no untold one, while the reports dropped it as told: the statement reaches the work and leaves the account."
+    },
+    {
+      "from": "2026-10-14-whose-account",
+      "to": "2026-10-18-not-a-defect",
+      "kind": "the-side-of-a-difference",
+      "why": "Whose Account found the practice booking refused corrections against the reporter where two fresh readers declined. Not a Defect checked it on a second register: the practice, warned by its own finding, had stopped; and one of two fresh readers, holding the published wording fixed, blamed the refused submitter more than the practice did."
     }
   ]
 }

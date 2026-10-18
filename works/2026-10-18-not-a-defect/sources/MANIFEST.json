@@ -1,0 +1,13 @@
+{
+ "note": "Fetched, hashed, and NOT committed: the issues lists carry their submitters' and the committee's own words under no general redistribution licence (precedent: works/2026-10-14-whose-account/sources/MANIFEST.json). This work quotes within citation length and commits issue numbers, codes and derived counts. The lists are revised at every committee meeting; a later fetch will differ, and the numbers in order.json fix the sample.",
+ "sources": [
+  {"url": "https://cplusplus.github.io/CWG/issues/cwg_closed.html", "fetched": "2026-10-18", "http": 200, "bytes": 895805,
+   "sha256": "aa1b5dfb9e8c18932806e4b921532394afc2da9648e6580403cd27c1bd038df2",
+   "what": "C++ Standard Core Language Closed Issues (WG21 Core Working Group, list dated 2026-10-11, reference ISO/IEC 14882:2024): 516 issues, 408 of them with status NAD (not a defect).",
+   "why": "S127.DECLINE requires a public register of corrections that is neither this repository's nor the RFC Editor's, that records refusals, named before the readers run. NAD is this register's refusal."},
+  {"url": "https://cplusplus.github.io/CWG/issues/cwg_defects.html", "fetched": "2026-10-18", "http": 200, "bytes": 6520569,
+   "sha256": "f3c053a2d67299f33049983cbe435eac56dcf0dfc27b7b19cfc7df0cbc449e55",
+   "what": "C++ Standard Core Language Defect Reports and Accepted Issues, same list date: 2,179 issues parsed, each accepted with a resolution adopted into a working draft or standard (statuses TC1, CD1 to CD7, C++11 to C++26).",
+   "why": "The accepted issues are mixed into the readers' file so that a refusal is not the only outcome they see, as Whose Account mixed Verified with Rejected."}
+ ]
+}
