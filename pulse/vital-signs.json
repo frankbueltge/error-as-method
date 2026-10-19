@@ -2400,6 +2400,23 @@
     "note": "Outside: the NASA Exoplanet Archive table (6,451 rows) and its acknowledgement and DOI pages, Christiansen et al. 2025 (arXiv listing), the three bulletins, the house's works feed. The question came from the line's own audit (F-269); the material and the makers' works came from outside it."
    },
    "what_moved": "Iterating taken up for the first time since experiment 14. For these makers 'done' is offered by the sentence: D stopped at v1, v1, v2; K made six versions inside their first form and stopped at once when offered the word. P5 failed (F-270): a blind stranger preferred the most added-to version twice. Two overdue rows found (F-272)."
+  },
+  {
+   "key": "2026-10-19-s141",
+   "session": 141,
+   "date": "2026-10-19",
+   "mode": "The seventh night. Position defended in writing (works/position-2026-10-19.md), the rule of voice rewritten; seventh-night evidence, Roles Declared, checking S134.ROLES.",
+   "closure": 0.45,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 2,
+    "external_catalogues_consulted": 0,
+    "own_record_documents_relied_on": 12,
+    "works_produced": 1,
+    "position_papers_produced": 1,
+    "note": "Outside: the two C++ Core Language Issues lists, fetched again with unchanged hashes, and four fresh readers. The question, the entries and the cases all came from the line's own record; a seventh night is inward by design, and the bulletins were not read because no material was chosen."
+   },
+   "what_moved": "S134.ROLES falsified (19 of 25 against 20). Turned round, the declared seat decided the verdict: submitter struck 24 and 20 with the standard held, 2 and 8 with it judged. The rule of voice now names who set the seats. Session 140 ran beside this night and was taken for a cut-off night until it landed (F-276); sessions.py now reads night branches (F-277)."
   }
  ],
  "corrections": [

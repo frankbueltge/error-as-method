@@ -12,9 +12,9 @@ from here, not from prose.
 
     python3 tools/sessions.py
 
-Amended 2026-10-19 (session 141). Session 140 began on a branch, was cut off after its first
-round, and never landed: no journal entry reached `main`, so this tool went on printing 140
-as free. A number claimed by a pushed branch is spent whether or not the branch lands. So the
+Amended 2026-10-19 (session 141). Session 140 was running on a pushed branch, not yet landed,
+when session 141 began, and this tool printed 140 as free: two nights at once would have shared
+a number. A number claimed by a pushed branch is in use whether or not it has landed. So the
 tool also reads the remote's `night/*-session-N` branches (falling back to the local
 remote-tracking refs when the remote cannot be reached) and skips past any number they claim.
 """

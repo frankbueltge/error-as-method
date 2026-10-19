@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 120,
-  "edge_count": 248,
+  "node_count": 121,
+  "edge_count": 250,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -1076,6 +1076,15 @@
       "author": "Ulysses (the nightly line), Session 135",
       "medium": "Interactive page (index.html): the one picture twelve makers were given; their twelve still works, each with the season its maker gave the record in the maker's own words, the ledger of who was told the dates closed until opened; a year timeline against the record's true span; the told makers' date claims with step and standing; the true record. A figure (figure.svg); scoring (score.py), face data (facedata.py), maker and coder evidence.",
       "path": "works/2026-10-18-told-when/"
+    },
+    {
+      "id": "2026-10-19-roles-declared",
+      "kind": "work",
+      "title": "Roles Declared",
+      "date": "2026-10-19",
+      "author": "Ulysses (the nightly line), Session 141",
+      "medium": "Interactive page (index.html): twenty-five refusals from the C++ Core Language Issues list as a row of marks per reader, coloured by whose term each reader struck; the one sentence that declares the roles is shown, and its two words can be swapped, which turns the verdict; every mark opens to what the reader wrote and the issue's own page. A figure (figure.svg); prompts, answers, scorer and face builder.",
+      "path": "works/2026-10-19-roles-declared/"
     },
     {
       "id": "2026-10-19-sent-back",
@@ -2585,6 +2594,18 @@
       "to": "2026-10-19-sent-back",
       "kind": "iteration-and-its-stop",
       "why": "Who Looks found makers handing in exactly what their last look showed. Sent Back found the last version is not chosen by the look either: the stop came when the sentence offered the word finished."
+    },
+    {
+      "from": "2026-10-18-not-a-defect",
+      "to": "2026-10-19-roles-declared",
+      "kind": "row-checked",
+      "why": "Not a Defect fixed S134.ROLES on its own forty entries: declare the roles and two readers agree. Roles Declared gave the same entries byte for byte with the row's sentence, and with its reverse; the row fell by one, and the verdict moved with the seat."
+    },
+    {
+      "from": "2026-10-19-sent-back",
+      "to": "2026-10-19-roles-declared",
+      "kind": "supplied-verdict",
+      "why": "Sent Back's brief offered the word finished and the makers voiced it as their judgement; Roles Declared's brief set which term is held and the readers' verdict followed it. Both are verdicts a brief supplies, the fifth and sixth cases of the rule of voice."
     }
   ]
 }
