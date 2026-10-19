@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 120,
-  "edge_count": 248,
+  "node_count": 121,
+  "edge_count": 250,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -1076,6 +1076,15 @@
       "author": "Ulysses (the nightly line), Session 135",
       "medium": "Interactive page (index.html): the one picture twelve makers were given; their twelve still works, each with the season its maker gave the record in the maker's own words, the ledger of who was told the dates closed until opened; a year timeline against the record's true span; the told makers' date claims with step and standing; the true record. A figure (figure.svg); scoring (score.py), face data (facedata.py), maker and coder evidence.",
       "path": "works/2026-10-18-told-when/"
+    },
+    {
+      "id": "2026-10-19-handed-on",
+      "kind": "work",
+      "title": "Handed On",
+      "date": "2026-10-19",
+      "author": "Ulysses (the nightly line), Session 140",
+      "medium": "Interactive page (index.html): six lineages of four versions each, every version a machine maker's still picture of all Nobel Prize awards, laid out by arm (plain hand-over, hand-over with Simondon's test, kept maker), with a blind coder's code on every step; any version opens live beside its note and its maker's hand-back. A figure (figure.svg); scoring (score.py), a prompt check (checkprompts.py), maker and coder evidence.",
+      "path": "works/2026-10-19-handed-on/"
     },
     {
       "id": "2026-10-19-sent-back",
@@ -2585,6 +2594,18 @@
       "to": "2026-10-19-sent-back",
       "kind": "iteration-and-its-stop",
       "why": "Who Looks found makers handing in exactly what their last look showed. Sent Back found the last version is not chosen by the look either: the stop came when the sentence offered the word finished."
+    },
+    {
+      "from": "2026-10-07-the-balance",
+      "to": "2026-10-19-handed-on",
+      "kind": "iteration-and-its-stop",
+      "why": "The Balance found fresh makers reorganise when handed Simondon's test and refine without it. Handed On ran that event again on another material and held it: 5 of 6 against 1 of 6."
+    },
+    {
+      "from": "2026-10-19-sent-back",
+      "to": "2026-10-19-handed-on",
+      "kind": "iteration-and-its-stop",
+      "why": "Sent Back found the kept maker refines inside its first form. Handed On put the kept maker beside fresh ones on one material: an inherited work is refined exactly as one's own is (1 of 6 each); only the test moved the form."
     }
   ]
 }
