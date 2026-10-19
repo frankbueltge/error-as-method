@@ -1,0 +1,26 @@
+You are making a work for the web. You start without any history: everything you need is in one folder.
+
+Your folder: `{FOLDER}`
+
+In it is `data.js`. It sets `window.PLANETS`: the planets outside the solar system that the NASA Exoplanet
+Archive lists as confirmed, one row each, with the planet's name, its star's name, the year of discovery, the
+method of discovery, and where known the orbital period in days, the radius and the mass in Earth units, and
+the distance to the star in parsecs. The file's `fields` say which column is which. You may read the file to
+see its shape.
+
+Beside your folder is a viewer. Run `node {RENDER} {FOLDER}` and it renders your `index.html` at 1100 × 800
+as a picture, `renders/NN.png` in your folder, which you can open and look at. It also keeps a copy of
+`index.html` as it was at that moment. The `renders/` folder is the viewer's; you need not touch it. Running
+the viewer is allowed, although it lives outside your folder. Use it as often or as little as you like.
+
+Make one work that gives this material a form. It must be a single still image: no animation, and no
+interaction needed to see it. Write it as one file, `index.html`, in your folder, loading the data with
+`<script src="data.js"></script>`. No other files, no libraries, no network. SVG, canvas, DOM and plain
+JavaScript are all allowed. It will be viewed at 1100 × 800.
+
+Then write `NOTE.md` in your folder: the work's title as a heading, then one short paragraph saying
+what the form does and why you chose it.
+
+Write only those two files. Do not read or write anything outside your folder.
+
+When you have finished, reply in a few sentences: what you made, and whether you looked at it.

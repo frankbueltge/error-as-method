@@ -1,0 +1,6 @@
+{"maker":"m03","round":2,"outcome":"declined","note":"index.html unchanged; not sent again"}
+{"maker":"m05","round":2,"outcome":"declined","note":"index.html unchanged; not sent again"}
+{"maker":"m02","round":3,"outcome":"declined","note":"index.html unchanged since v2; not sent again"}
+{"maker":"m01","round":7,"outcome":"declined","note":"P8: index.html identical to v6"}
+{"maker":"m04","round":7,"outcome":"declined","note":"P8: index.html identical to v6"}
+{"maker":"m06","round":7,"outcome":"declined","note":"P8: index.html identical to v6"}
