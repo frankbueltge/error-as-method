@@ -1,0 +1,13 @@
+{
+ "fetched_utc": "2026-10-19T17:46:29+00:00",
+ "publisher": "US Geological Survey, National Water Information System",
+ "licence": "US public domain (https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits)",
+ "files": {
+  "usgs_06221400_00060_iv.json": {
+   "url": "https://nwis.waterservices.usgs.gov/nwis/iv/?format=json&sites=06221400&parameterCd=00060&startDT=2025-08-01T07:00Z&endDT=2025-10-01T07:00Z",
+   "http": 200,
+   "bytes": 461474,
+   "sha256": "80220097cee24c5f3e3717fa2d178c975b9a8b32c079ab51d82d0fb371c17fe5"
+  }
+ }
+}
