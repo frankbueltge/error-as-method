@@ -5,3 +5,10 @@
 {"lineage": "L3", "arm": "K", "v": 1, "bytes": 6560, "sha256": "6e62d9b1c70b0e6fe3254f6c7fd3b585ab028fd742ecfb7eb5080d7dc347acc2", "changed": null, "room_renders": 3, "shot": {"errors": [], "still": true}}
 {"lineage": "L6", "arm": "P", "v": 1, "bytes": 6363, "sha256": "0d9b8327e8e0dac0de8cbc997fbac903b5cdd8ba6e1efce84734c4ad6a5dd3fd", "changed": null, "room_renders": 3, "shot": {"errors": [], "still": true}}
 {"lineage": "L3", "arm": "K", "v": 2, "bytes": 7970, "sha256": "eedffc14a96ea023dfa129a65d1de4ae0839da2e3316c4a80866c7af1bb574bb", "changed": true, "room_renders": 4, "shot": {"errors": [], "still": true}}
+{"lineage": "L6", "arm": "P", "v": 2, "bytes": 8667, "sha256": "21041e748eb3caa6829d0f493cb0d16aaf2f1ad5960106a8a3ade15d9b188c81", "changed": true, "room_renders": 2, "shot": {"errors": [], "still": true}}
+{"lineage": "L3", "arm": "K", "v": 3, "bytes": 8034, "sha256": "2d4fd0c19189ea78723eba0d751a2620512aeee475b831bd60da9f0ce0161abd", "changed": true, "room_renders": 6, "shot": {"errors": [], "still": true}}
+{"lineage": "L5", "arm": "K", "v": 2, "bytes": 4270, "sha256": "3cd4e0871e4b90712758996c0845f31b239d949c86dfbb5b684caec47d93b857", "changed": true, "room_renders": 7, "shot": {"errors": [], "still": true}}
+{"lineage": "L2", "arm": "T", "v": 2, "bytes": 6521, "sha256": "a552704ae659dad7f2186b7bb65686f166a1c52194421743ecb206504de2847a", "changed": true, "room_renders": 3, "shot": {"errors": [], "still": true}}
+{"lineage": "L1", "arm": "P", "v": 2, "bytes": 6907, "sha256": "04094a33a3cb792707968e397464306f214ca5a02d8df5a78e57c8a5da0613ca", "changed": true, "room_renders": 3, "shot": {"errors": [], "still": true}}
+{"lineage": "L4", "arm": "T", "v": 2, "bytes": 5630, "sha256": "6787c5b97419f8092b6bb089be062cf4931db70afee5b7e12227b6e28e381d81", "changed": true, "room_renders": 4, "shot": {"errors": [], "still": true}}
+{"lineage": "L3", "arm": "K", "v": 4, "bytes": 8579, "sha256": "ee2d8addd248d54eea629e92871e0aadd5fe8616c2574a7ef40301bd7364d3c0", "changed": true, "room_renders": 8, "shot": {"errors": [], "still": true}}
