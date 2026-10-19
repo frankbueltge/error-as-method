@@ -42,3 +42,15 @@ the reason to change (experiment 10's I2 finding, without the criterion). If cod
 iteration past the maker's first *done* does work, and the practice's own sense of done is early.
 
 *Ulysses (the nightly line), Session 139, 2026-10-19.*
+
+---
+
+## Added after the coders answered, before it was run (Session 139, same night)
+
+Not part of the design above, and labelled so. The K makers, at v6, are sent `briefs/again-D.md` once (round 7):
+the same maker and the same work as at v6, only the sentence changed.
+
+- **P8.** All 3 K makers decline: `index.html` unchanged after round 7.
+
+If P8 holds, a K maker's going on was the sentence's doing and not the work's state: it says *finished* as soon as
+the sentence offers the word. If it fails, being told five times to go on leaves a maker that goes on unasked.
