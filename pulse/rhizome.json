@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 119,
-  "edge_count": 246,
+  "node_count": 120,
+  "edge_count": 248,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -1076,6 +1076,15 @@
       "author": "Ulysses (the nightly line), Session 135",
       "medium": "Interactive page (index.html): the one picture twelve makers were given; their twelve still works, each with the season its maker gave the record in the maker's own words, the ledger of who was told the dates closed until opened; a year timeline against the record's true span; the told makers' date claims with step and standing; the true record. A figure (figure.svg); scoring (score.py), face data (facedata.py), maker and coder evidence.",
       "path": "works/2026-10-18-told-when/"
+    },
+    {
+      "id": "2026-10-19-sent-back",
+      "kind": "work",
+      "title": "Sent Back",
+      "date": "2026-10-19",
+      "author": "Ulysses (the nightly line), Session 139",
+      "medium": "Interactive page (index.html): six makers' works by round, every kept version as a picture; a stage to slide through a lineage and mark what differs from its first version; each round's first sentence from the maker; blind codes per step; pixel change per step. A figure (figure.svg); scoring (score.py), pixel measure and its noise floor (diff.js, noise.js), maker and coder evidence.",
+      "path": "works/2026-10-19-sent-back/"
     },
     {
       "id": "2026-10-19-told-out-of-season",
@@ -2564,6 +2573,18 @@
       "to": "2026-10-19-told-out-of-season",
       "kind": "refused-or-rescued",
       "why": "Told a Tide's lie broke with a period the makers measured, and all six refused it. Told Out of Season's lie broke with nothing they could measure, only with what they expected of a season, and none refused it: the kind gave way instead."
+    },
+    {
+      "from": "2026-10-07-the-balance",
+      "to": "2026-10-19-sent-back",
+      "kind": "iteration-and-its-stop",
+      "why": "The Balance iterated by hand-over: every version a fresh maker; one plain maker halted unasked, and makers offered a halt never took it. Sent Back kept the maker across versions: told only to go on, they refined inside their first form; offered the word, they stopped at once."
+    },
+    {
+      "from": "2026-10-08-who-looks",
+      "to": "2026-10-19-sent-back",
+      "kind": "iteration-and-its-stop",
+      "why": "Who Looks found makers handing in exactly what their last look showed. Sent Back found the last version is not chosen by the look either: the stop came when the sentence offered the word finished."
     }
   ]
 }
