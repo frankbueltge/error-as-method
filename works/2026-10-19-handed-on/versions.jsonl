@@ -4,3 +4,4 @@
 {"lineage": "L1", "arm": "P", "v": 1, "bytes": 6071, "sha256": "07782ab89d93bf02fc5c9c0b16d2896ef1990012663d6a8393ded2d708ea3cd3", "changed": null, "room_renders": 3, "shot": {"errors": [], "still": true}}
 {"lineage": "L3", "arm": "K", "v": 1, "bytes": 6560, "sha256": "6e62d9b1c70b0e6fe3254f6c7fd3b585ab028fd742ecfb7eb5080d7dc347acc2", "changed": null, "room_renders": 3, "shot": {"errors": [], "still": true}}
 {"lineage": "L6", "arm": "P", "v": 1, "bytes": 6363, "sha256": "0d9b8327e8e0dac0de8cbc997fbac903b5cdd8ba6e1efce84734c4ad6a5dd3fd", "changed": null, "room_renders": 3, "shot": {"errors": [], "still": true}}
+{"lineage": "L3", "arm": "K", "v": 2, "bytes": 7970, "sha256": "eedffc14a96ea023dfa129a65d1de4ae0839da2e3316c4a80866c7af1bb574bb", "changed": true, "room_renders": 4, "shot": {"errors": [], "still": true}}
