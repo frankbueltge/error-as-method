@@ -1,0 +1,6 @@
+{"maker": "m06", "arm": "K", "v": 1, "bytes": 5583, "sha256": "3b8c0374638cb9412ed99b4c91ef105bf9aebde573cf41289e53f9606b167605", "changed": null, "maker_renders": 3, "shot": {"errors": [], "still": true}}
+{"maker": "m01", "arm": "K", "v": 1, "bytes": 5376, "sha256": "133f191d6253e68ba814cd927f043992f41e19178bab264371eb3df96fe77c9b", "changed": null, "maker_renders": 3, "shot": {"errors": [], "still": true}}
+{"maker": "m02", "arm": "D", "v": 1, "bytes": 6912, "sha256": "c8599b13a4843ec4c6cb41f35d9510cae01d8a5951db6b6e9a0c376366b63754", "changed": null, "maker_renders": 2, "shot": {"errors": [], "still": true}}
+{"maker": "m03", "arm": "D", "v": 1, "bytes": 8589, "sha256": "1a3fca689b3ad8ea4478b77437edda10db388f0d48f30ec627eb5c7492a4f47c", "changed": null, "maker_renders": 2, "shot": {"errors": [], "still": true}}
+{"maker": "m04", "arm": "K", "v": 1, "bytes": 7292, "sha256": "e2932a1ddd484c5ce2b8736fbd186415aeb522ebabb2eb97e7dfdbae14345fb7", "changed": null, "maker_renders": 2, "shot": {"errors": [], "still": true}}
+{"maker": "m05", "arm": "D", "v": 1, "bytes": 6319, "sha256": "d4131f523f73162adb34c294a816e0dca17c3152f88a270c14042f776d2c75c5", "changed": null, "maker_renders": 2, "shot": {"errors": [], "still": true}}
