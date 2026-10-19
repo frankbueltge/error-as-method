@@ -1,0 +1,13 @@
+[
+ {
+  "file": "laureates.json",
+  "url": "https://api.nobelprize.org/2.1/laureates?limit=2000&format=json",
+  "status": 200,
+  "bytes": 3926295,
+  "sha256": "f5ed2c881984050c717df74ba4fa66f919d12ed022ddcac63f0aa9c88f8857ad",
+  "fetched": "2026-10-19",
+  "what": "Nobel Prize API v2.1: every laureate (1,028) with their prizes (1,036 awards)",
+  "licence": "CC0, per https://www.nobelprize.org/about/terms-of-use-for-api-nobelprize-org-and-data-nobelprize-org/ (the API's own meta.license field points there); the terms also ask that the data not be altered to mislead or used to discredit persons",
+  "why": "the material every maker of experiment 27 gives a form"
+ }
+]
