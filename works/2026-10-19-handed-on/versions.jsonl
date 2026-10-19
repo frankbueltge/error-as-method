@@ -17,3 +17,5 @@
 {"lineage": "L2", "arm": "T", "v": 3, "bytes": 5500, "sha256": "1b6ebc6f9cfc6386fcf749c3e0f1282007cdbf4bbd38480be425e30ba350cb93", "changed": true, "room_renders": 2, "shot": {"errors": [], "still": true}}
 {"lineage": "L6", "arm": "P", "v": 4, "bytes": 9241, "sha256": "5c9cfa10013b7dcec3ecba5b1cf922993802269881cefb2b2939e051bffa8bfa", "changed": true, "room_renders": 1, "shot": {"errors": [], "still": true}}
 {"lineage": "L5", "arm": "K", "v": 4, "bytes": 5844, "sha256": "d991c246dd12712df9ef565479b808880b3bf8f3c143bf3de6fffc90781ad0ac", "changed": true, "room_renders": 10, "shot": {"errors": [], "still": true}}
+{"lineage": "L1", "arm": "P", "v": 3, "bytes": 7449, "sha256": "2473b4def98fa50de154c4913510916c268ddc8e0c7d12295c7a9651657e7f4c", "changed": true, "room_renders": 2, "shot": {"errors": [], "still": true}}
+{"lineage": "L4", "arm": "T", "v": 3, "bytes": 6117, "sha256": "f9c92089d89704d5f187e6d14c0021b407e93d709264373e7b7224a594e75286", "changed": true, "room_renders": 3, "shot": {"errors": [], "still": true}}
