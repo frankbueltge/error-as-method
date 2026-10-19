@@ -1,0 +1,1 @@
+python3 -I build.py && sed -i "s/__TOP__/$1/; s/__S__/$2/" /tmp/claude-0/s137/mk/m17/work/index.html && /opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell --no-sandbox --disable-gpu --window-size=1100,800 --screenshot=/tmp/claude-0/s137/mk/m17/scratch/$3 file:///tmp/claude-0/s137/mk/m17/work/index.html >/dev/null 2>&1
