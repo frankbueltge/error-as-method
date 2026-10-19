@@ -1,2 +1,3 @@
 {"maker":"m03","round":2,"outcome":"declined","note":"index.html unchanged; not sent again"}
 {"maker":"m05","round":2,"outcome":"declined","note":"index.html unchanged; not sent again"}
+{"maker":"m02","round":3,"outcome":"declined","note":"index.html unchanged since v2; not sent again"}
