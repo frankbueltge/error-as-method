@@ -2349,6 +2349,23 @@
     "note": "Outside: Xie et al. 2023 (read in its arXiv HTML), Longpre et al. 2021 and Xu et al. 2024 (abstracts only), the house's papers index. The question they were read against is the line's own row, and the result returns to the line's own design."
    },
    "what_moved": "S136.RESCUE fixed before S135.DEFAULT's event; F-264 (five told-premise experiments built without the field); experiments 20 to 22 re-read as a replication of Xie et al.'s coherence split."
+  },
+  {
+   "key": "2026-10-19-s137",
+   "session": 137,
+   "date": "2026-10-19",
+   "mode": "Build. Experiment 25, Told Out of Season: eighteen makers, two false told dates and none, on a glacier stream's discharge.",
+   "closure": 0.3,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 2,
+    "external_catalogues_consulted": 3,
+    "own_record_documents_relied_on": 8,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "Outside: the USGS record (new domain, glaciology), Barkdull et al. 2021 for the stream's glacier feed, the three ecology bulletins. The question was the line's own pair of rows, one of them written from the field on Session 136; the answer came from the makers, not the ledger."
+   },
+   "what_moved": "S135.DEFAULT falsified, S136.RESCUE held, S137.KIND fixed; F-265 to F-267; untold makers named the true kind 5 of 6, told makers 1 of 12."
   }
  ],
  "corrections": [
