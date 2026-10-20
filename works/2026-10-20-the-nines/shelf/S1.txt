@@ -1,0 +1,25 @@
+1. Wrong encoding (mojibake) — decodes the bytes in the wrong character set (UTF-8 read as Latin-1, for example), so names and words turn into garbled glyphs.
+2. Bytes as image — treats the raw file as pixel values, so the table shows up as a texture of colour and noise.
+3. Bytes as sound — plays the file as PCM audio, so structure, repetition and gaps become rhythm and drone.
+4. Units swapped — reads metres as feet, Celsius as Fahrenheit or tonnes as grams, so sizes become absurd while the proportions stay correct.
+5. Lat/long transposed — swaps latitude and longitude, so places move to mirrored or impossible positions, often out in the ocean.
+6. Date format confusion — reads DD/MM as MM/DD (or two-digit years as the wrong century), so events move into other months and eras.
+7. Epoch misread — reads timestamps as seconds instead of milliseconds, or from the wrong epoch, so records land in 1970 or far in the future.
+8. Codes as quantities — treats ZIP codes, IDs or category codes as numbers and does arithmetic on them (sums, averages, plots).
+9. Quantities as words — reads numbers as text and sorts them alphabetically, so 10 comes before 9 and magnitude becomes spelling.
+10. Null as zero (or zero as null) — fills missing values with zero, or deletes true zeros, so absence becomes measurement and measurement becomes absence.
+11. Sentinel values as real — takes placeholder values like -9999 or 999 at face value, so fake extremes dominate the picture.
+12. Correlation as causation — draws causal arrows between any two columns that move together, so the data tells an invented story of influence.
+13. Row order as time — treats the order of rows in the file as chronology, so arbitrary sorting becomes history.
+14. Column order as hierarchy — treats leftmost columns as most important, so the database schema becomes a ranking of values.
+15. Delimiter mis-split — parses the file with the wrong separator (comma vs semicolon, decimal comma vs point), so fields break apart and numbers swell or merge.
+16. Off-by-one shift — shifts one column by a row against the others, so every value sits next to the wrong record.
+17. Scale flattening — plots logarithmic data on a linear scale, or linear data on a log scale, so exponential gaps vanish or tiny differences explode.
+18. Ecological fallacy — reads an aggregate (a county or country average) as describing every individual in it, which produces imagined typical people.
+19. Survivorship reading — treats only the records that exist as the whole population, so the missing (failed, dead, unrecorded) disappear and what remains becomes the norm.
+20. Literal metadata — reads column headers, field descriptions or error flags as the content itself, so the dataset turns into a poem about its own structure.
+21. Numerology / gematria — reads numbers as letters, omens or symbolic codes, so the statistics become prophecy or a hidden message.
+22. Astrological reading — maps values onto zodiac, horoscope or tarot systems, so the data becomes fate and character.
+23. Data as score or notation — reads values as musical pitches, dance steps or knitting instructions, so the numbers become a performance.
+24. Anthropomorphic reading — treats each record or variable as a person with motives and feelings, so the time series becomes a biography or melodrama.
+25. Precision as truth — takes the full floating-point precision (ten decimal places) as meaningful and enlarges the rounding noise into the main subject.
