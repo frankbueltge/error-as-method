@@ -1,0 +1,3 @@
+# Annus Historico-naturalis
+
+In his last letter White says he had meant to add an *Annus Historico-naturalis*, a natural history of the twelve months, and then decided against it. This page puts that year together from the book itself. Every place where the text names a month (about 320 of them, leaving out the dates the letters were written) becomes a short fragment of its own clause. Each fragment goes on that month's row, ordered by the day of the month where the text gives one. Undated fragments sit at mid-month, in the order they come in the book. The type is the same size on every row, so each row's depth shows how often White wrote about that month. April runs deep with arrivals, January is thick with rain tables, and December is a thin strip of frost.

@@ -1,0 +1,28 @@
+{
+ "sources": [
+  {
+   "url": "https://www.gutenberg.org/cache/epub/1408/pg1408.txt",
+   "fetched": "2026-10-20",
+   "http": 200,
+   "bytes": 519454,
+   "sha256": "e942a9a44399b4639f2579324359128395486fc12313116297b1bc9f3355ff01",
+   "what": "Gilbert White, The Natural History of Selborne (1789), Project Gutenberg eBook #1408 (release 1998-08-01, updated 2026-03-26), plain text UTF-8. Public domain in the USA.",
+   "why": "tonight's material"
+  },
+  {
+   "file": "selborne.txt",
+   "derived_from": "pg1408.txt",
+   "how": "lines strictly between the '*** START OF' and '*** END OF' markers, i.e. Project Gutenberg's header and licence footer removed; nothing else changed",
+   "bytes": 489445,
+   "sha256": "60c0190600027f8a32141e1260aa5217b00e8e34fc43afdee5b63c13e77b50c5",
+   "words": 85498
+  },
+  {
+   "url": "https://www.cbr.washington.edu/dart/cs/php/rpt/adult_daily.php",
+   "fetched": "2026-10-20",
+   "http": null,
+   "what": "Columbia Basin Research DART, adult salmon daily counts at Bonneville Dam (the material first chosen)",
+   "why": "not used: TLS verification failed upstream (curl 60, unable to get local issuer certificate) over https and after the http redirect; fpc.org's daily-count page redirected to its 404. Verification was not disabled."
+  }
+ ]
+}
