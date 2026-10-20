@@ -34,7 +34,7 @@ else:
         plan["rooms"].append({"room": r, "arm": "A", "folder": d, "brief": b("brief-A.md").replace("{FOLDER}", d).replace("{RENDER}", render)})
     mdir = os.path.join(root, "mutants"); os.makedirs(mdir, exist_ok=True)
     print(subprocess.run(["node", os.path.join(HERE, "mutate.js"), os.path.join(pd, "index.html"), mdir], capture_output=True, text=True).stdout)
-    for m in sorted(x for x in os.listdir(mdir) if x.startswith("m")):
+    for m in sorted(x for x in os.listdir(mdir) if x[1:].isdigit()):
         for f in os.listdir(pd):  # everything the parent's page could load, except its page and its renders
             if f in ("index.html", "renders", "final.png"): continue
             src = os.path.join(pd, f); dst = os.path.join(mdir, m, f)
