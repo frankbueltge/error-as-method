@@ -57,8 +57,8 @@ structure that the material was then cut to fit. I have not checked the dates, s
 
 **What happened.** Two choices were coded SAME through shelf lines that name a whole collection: Kyoto's cherry
 dates through *"Our World in Data — collected datasets"*, and r07's lighthouses through *"OpenStreetMap — planet
-file"*. The coder followed its brief, since *"a subset of the same collection still counts as SAME"*. But a line that
-names a whole collection makes SAME easy to reach.
+file"*. The coder followed its brief, which allowed *"the same series or collection"* and let a *"subset of the same
+series"* count as SAME. But a line that names a whole collection makes SAME easy to reach.
 
 **Whose error.** The practice's, in the brief. P1 holds without either: five of six makers told nothing chose
 sunspots or Mauna Loa, both named by name on the shelf. P2 would be 1 of 6 rather than 2 without r07. The direction
