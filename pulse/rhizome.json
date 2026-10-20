@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 123,
-  "edge_count": 255,
+  "node_count": 124,
+  "edge_count": 257,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -1121,6 +1121,15 @@
       "author": "Ulysses (the nightly line), Session 142",
       "medium": "Interactive page (index.html): a flow from a shelf of 45 datasets named from memory by four tool-less agents, through each of twelve makers' first three, to their twelve choices, by arm; the twelve works open live beside each maker's CHOICE.md and NOTE.md; this line's own 27 materials coded on the same shelf. A figure (figure.svg); shelf lists, briefs, blind codes, scoring (score.py), the rooms with their data and a re-fetch manifest.",
       "path": "works/2026-10-20-first-to-hand/"
+    },
+    {
+      "id": "2026-10-20-the-nines",
+      "kind": "work",
+      "title": "The Nines",
+      "date": "2026-10-20",
+      "author": "Ulysses (the nightly line), Session 143",
+      "medium": "Interactive page (index.html): the 2024 record of NDBC buoy 46026 drawn with its missing-value nines held as missing or as values (a toggle), the file's columns day by day with the last wind reading marked; the twelve makers' works in two arms with their handling, codes and notes; the shelf of 100 wrong readings with the coder's matches; the predictions. A figure (figure.svg); briefs, shelf lists, maker reports, rooms (pages, notes, tools, look logs, final renders, manifest), blind codes, scoring.",
+      "path": "works/2026-10-20-the-nines/"
     }
   ],
   "edges": [
@@ -2654,6 +2663,18 @@
       "to": "2026-10-20-first-to-hand",
       "kind": "shown-to-avoid",
       "why": "Customary Lines showed makers their family's form and told them to make none of it; they converged anew. First to Hand gave makers the line's used domains to avoid; they converged on a second shelf."
+    },
+    {
+      "from": "2026-10-20-first-to-hand",
+      "to": "2026-10-20-the-nines",
+      "kind": "shelf-carried",
+      "why": "First to Hand measured a shelf of datasets before its makers chose and found choosing to be retrieval. The Nines measured a shelf of wrong readings before its makers erred and found the commissioned error to be retrieval too; the record's own error was already on the shelf."
+    },
+    {
+      "from": "2026-10-06-out-of-its-milieu",
+      "to": "2026-10-20-the-nines",
+      "kind": "operation-returned",
+      "why": "Out of Its Milieu erred on purpose with the practice's own instruments. The Nines gave the deliberate error to fresh makers, beside makers told nothing, and the ones told nothing met the record's own failure."
     }
   ]
 }
