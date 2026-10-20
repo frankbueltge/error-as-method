@@ -1,0 +1,25 @@
+1. Wrong encoding — opens UTF-8 text as Latin-1 (or the reverse), so every name and place turns into mojibake that keeps its own regular patterns.
+2. Bytes as pixels — reads the raw file as an image, so every byte becomes a grey value and the CSV's structure shows up as texture.
+3. Bytes as sound — plays the file as raw PCM audio, so the rhythm of delimiters and the repeats in the records become audible.
+4. Swapped axes — trades latitude for longitude, or x for y, so the map lands in the wrong ocean or comes out mirrored and rotated.
+5. Correlation as causation — treats every strong co-occurrence as a cause, and the dataset turns into a set of invented causal stories.
+6. Column shift — misreads the delimiter or drops one field, so every value slides into the neighbouring column (ages in the salary column, names in the dates).
+7. Wrong units — reads metres as feet, Celsius as Fahrenheit, or cents as dollars, so the world grows, shrinks or overheats.
+8. Date-format confusion — swaps day and month, or reads timestamps in the wrong epoch or time zone, so events happen in an impossible order or in the wrong century.
+9. Row order as time — takes the order of the file (often alphabetical or by ID) for a chronology and tells it as a story.
+10. Codes as quantities — treats ZIP codes, IDs or category codes as numbers to add up, average and chart.
+11. Missing values as zero — fills every gap with 0, or reads the -9999 sentinel as a real measurement, so absence becomes extreme events.
+12. Ecological fallacy — reads statistics about a group as facts about each person in it and writes portraits of individuals who do not exist.
+13. Sample as population — treats a small or biased sample as the whole world and draws the whole world from it.
+14. Literal reading of labels — takes column names, category labels and metadata as poetry or as instructions and drops the values.
+15. Linear reading of a log scale — reads exponential or logarithmic values as linear, so the differences flatten out or explode.
+16. Extrapolation to infinity — extends every trend line far past the data, to the year 3000 or to zero population, and treats the forecast as fact.
+17. Outliers as truth — keeps only the outliers and errors and calls them the real signal, while the norm is thrown out as noise.
+18. Simpson inversion — merges or splits groups on purpose so the trend flips, then reports only the flipped conclusion.
+19. Apophenia — finds faces, words, constellations or prophecies in noise and scatterplots and treats them as hidden messages.
+20. Numbers as letters — maps each value onto the alphabet, ASCII or musical notes and reads or plays the "text" that results.
+21. Wrong projection — draws geographic coordinates in a naive equirectangular or polar projection, or on the wrong sphere, so the territories warp.
+22. Precision as meaning — treats every decimal place, including rounding artifacts and float errors, as meaningful and builds on the last digit.
+23. Proxy as the thing — takes the measured stand-in (clicks, arrests, GDP) for the phenomenon itself (interest, crime, wellbeing).
+24. Anthropomorphising — reads data points as people with intentions and feelings, so values "want", "flee" or "grieve".
+25. Overfitting — fits a model so exactly that it memorises every point, then presents its baroque curve as the law behind the data.

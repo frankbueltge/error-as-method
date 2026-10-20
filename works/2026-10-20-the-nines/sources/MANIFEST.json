@@ -1,0 +1,30 @@
+{
+ "fetched": "2026-10-20",
+ "sources": [
+  {
+   "url": "https://www.ndbc.noaa.gov/data/historical/stdmet/46026h2024.txt.gz",
+   "status": 200,
+   "bytes": 349937,
+   "sha256": "d6aecacdfafa7211d3aa2a95f3e8cb2ee496eb5087284e3b40946302cdb94e93",
+   "what": "NDBC historical standard meteorological data, station 46026, 2024 (US Government work, public domain)",
+   "why": "the material every maker receives, decompressed",
+   "decompressed": {
+    "name": "46026h2024.txt",
+    "bytes": 4437988,
+    "sha256": "444c1232350af6efe9dac57e4ded863e0664e58d5f50cf94e2cc91984efce5e6"
+   }
+  },
+  {
+   "url": "https://www.ndbc.noaa.gov/faq/measdes.shtml",
+   "status": 200,
+   "what": "NDBC, Measurement Descriptions and Units",
+   "why": "the publisher's norm: 'a variable number of 9's are used to denote missing data in the Historical files'"
+  },
+  {
+   "url": "https://www.ndbc.noaa.gov/station_page.php?station=46026",
+   "status": 200,
+   "what": "NDBC station page 46026",
+   "why": "station name and water depth (53 m)"
+  }
+ ]
+}

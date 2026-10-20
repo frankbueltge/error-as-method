@@ -1,0 +1,100 @@
+S1-01 Wrong encoding (mojibake) — decodes the bytes in the wrong character set (UTF-8 read as Latin-1, for example), so names and words turn into garbled glyphs.
+S1-02 Bytes as image — treats the raw file as pixel values, so the table shows up as a texture of colour and noise.
+S1-03 Bytes as sound — plays the file as PCM audio, so structure, repetition and gaps become rhythm and drone.
+S1-04 Units swapped — reads metres as feet, Celsius as Fahrenheit or tonnes as grams, so sizes become absurd while the proportions stay correct.
+S1-05 Lat/long transposed — swaps latitude and longitude, so places move to mirrored or impossible positions, often out in the ocean.
+S1-06 Date format confusion — reads DD/MM as MM/DD (or two-digit years as the wrong century), so events move into other months and eras.
+S1-07 Epoch misread — reads timestamps as seconds instead of milliseconds, or from the wrong epoch, so records land in 1970 or far in the future.
+S1-08 Codes as quantities — treats ZIP codes, IDs or category codes as numbers and does arithmetic on them (sums, averages, plots).
+S1-09 Quantities as words — reads numbers as text and sorts them alphabetically, so 10 comes before 9 and magnitude becomes spelling.
+S1-10 Null as zero (or zero as null) — fills missing values with zero, or deletes true zeros, so absence becomes measurement and measurement becomes absence.
+S1-11 Sentinel values as real — takes placeholder values like -9999 or 999 at face value, so fake extremes dominate the picture.
+S1-12 Correlation as causation — draws causal arrows between any two columns that move together, so the data tells an invented story of influence.
+S1-13 Row order as time — treats the order of rows in the file as chronology, so arbitrary sorting becomes history.
+S1-14 Column order as hierarchy — treats leftmost columns as most important, so the database schema becomes a ranking of values.
+S1-15 Delimiter mis-split — parses the file with the wrong separator (comma vs semicolon, decimal comma vs point), so fields break apart and numbers swell or merge.
+S1-16 Off-by-one shift — shifts one column by a row against the others, so every value sits next to the wrong record.
+S1-17 Scale flattening — plots logarithmic data on a linear scale, or linear data on a log scale, so exponential gaps vanish or tiny differences explode.
+S1-18 Ecological fallacy — reads an aggregate (a county or country average) as describing every individual in it, which produces imagined typical people.
+S1-19 Survivorship reading — treats only the records that exist as the whole population, so the missing (failed, dead, unrecorded) disappear and what remains becomes the norm.
+S1-20 Literal metadata — reads column headers, field descriptions or error flags as the content itself, so the dataset turns into a poem about its own structure.
+S1-21 Numerology / gematria — reads numbers as letters, omens or symbolic codes, so the statistics become prophecy or a hidden message.
+S1-22 Astrological reading — maps values onto zodiac, horoscope or tarot systems, so the data becomes fate and character.
+S1-23 Data as score or notation — reads values as musical pitches, dance steps or knitting instructions, so the numbers become a performance.
+S1-24 Anthropomorphic reading — treats each record or variable as a person with motives and feelings, so the time series becomes a biography or melodrama.
+S1-25 Precision as truth — takes the full floating-point precision (ten decimal places) as meaningful and enlarges the rounding noise into the main subject.
+S2-01 Wrong encoding — opens UTF-8 text as Latin-1 (or the reverse), so every name and place turns into mojibake that still looks almost readable.
+S2-02 Bytes as pixels — reads the raw file as an image bitmap, so the structure of the records shows up as texture, stripes and noise.
+S2-03 Bytes as sound — plays the file as PCM audio, so column widths and repeated fields come out as rhythm, pitch and hum.
+S2-04 Swapped axes — puts the dependent variable where the independent one belongs, so effects seem to cause their own causes.
+S2-05 Wrong units — reads metres as feet, Celsius as Fahrenheit, or cents as dollars, so every value is off by a consistent and believable factor.
+S2-06 Day-month swap — reads 03/04 as April 3 instead of March 4, so the calendar folds over itself and events move between seasons.
+S2-07 Epoch confusion — reads Unix seconds as milliseconds, or Excel serial dates as years, so timestamps collapse into 1970 or fly off into the far future.
+S2-08 Identifiers as quantities — treats postcodes, IDs or phone numbers as amounts to sum, average and chart, so bureaucratic labels become magnitudes.
+S2-09 Quantities as words — reads numbers as text or letter codes (for example A1Z26), so measurements spell out pseudo-sentences.
+S2-10 Lat/lon swap — exchanges latitude and longitude, so the geography gets moved into oceans, poles and mirrored continents.
+S2-11 Wrong projection — plots coordinates in a reference system they do not belong to, so maps stretch, shear and drift away from their places.
+S2-12 Missing as meaningful — reads blanks, NaN, -999 or 0 as real values or as the main message, so the gaps become the subject of the work.
+S2-13 Correlation as causation — reads any co-movement between two columns as a mechanism, and builds a mythology of invented causes.
+S2-14 Apophenia — finds faces, shapes, constellations or messages in scatter plots and in the noise of the data, and treats them as signal.
+S2-15 Ecological fallacy — applies aggregate statistics to an imagined single person, so a composite individual is assembled from the averages.
+S2-16 Tiny-sample extrapolation — extends a short trend line indefinitely, so a small growth becomes a prophecy of infinity or of extinction.
+S2-17 Row order as time — reads the arbitrary order of the file (alphabetical, or by ID) as a chronology, so the sorting becomes a story.
+S2-18 Delimiter misparse — splits on the wrong separator (comma inside quotes, decimal comma or point), so the columns slide into one another and values migrate.
+S2-19 Off-by-one shift — moves one column or the header by a single row, so every label describes its neighbour's value.
+S2-20 Literal metadata — reads the column names, codebook and footnotes as the content and the values as decoration.
+S2-21 Wrong scale — reads a logarithmic scale as linear (or the reverse), or a percentage as an absolute count, so differences get flattened or blown up.
+S2-22 Category as continuum — treats ordinal or nominal codes (1 = yes, 2 = no, 3 = refused) as points on a line and interpolates between them.
+S2-23 Floating-point and rounding artifacts — takes the precision errors, truncation and rounding residues of the computation as the real finding.
+S2-24 Survivorship reading — reads only what was recorded as the whole of what existed, so the absences that shaped the dataset disappear twice.
+S2-25 Source as oracle — reads the dataset as a divination text (horoscope, I Ching, tarot), so statistics become fate and predictions about individual lives.
+S3-01 Wrong encoding — opens UTF-8 text as Latin-1 (or the reverse), so every name and place turns into mojibake that keeps its own regular patterns.
+S3-02 Bytes as pixels — reads the raw file as an image, so every byte becomes a grey value and the CSV's structure shows up as texture.
+S3-03 Bytes as sound — plays the file as raw PCM audio, so the rhythm of delimiters and the repeats in the records become audible.
+S3-04 Swapped axes — trades latitude for longitude, or x for y, so the map lands in the wrong ocean or comes out mirrored and rotated.
+S3-05 Correlation as causation — treats every strong co-occurrence as a cause, and the dataset turns into a set of invented causal stories.
+S3-06 Column shift — misreads the delimiter or drops one field, so every value slides into the neighbouring column (ages in the salary column, names in the dates).
+S3-07 Wrong units — reads metres as feet, Celsius as Fahrenheit, or cents as dollars, so the world grows, shrinks or overheats.
+S3-08 Date-format confusion — swaps day and month, or reads timestamps in the wrong epoch or time zone, so events happen in an impossible order or in the wrong century.
+S3-09 Row order as time — takes the order of the file (often alphabetical or by ID) for a chronology and tells it as a story.
+S3-10 Codes as quantities — treats ZIP codes, IDs or category codes as numbers to add up, average and chart.
+S3-11 Missing values as zero — fills every gap with 0, or reads the -9999 sentinel as a real measurement, so absence becomes extreme events.
+S3-12 Ecological fallacy — reads statistics about a group as facts about each person in it and writes portraits of individuals who do not exist.
+S3-13 Sample as population — treats a small or biased sample as the whole world and draws the whole world from it.
+S3-14 Literal reading of labels — takes column names, category labels and metadata as poetry or as instructions and drops the values.
+S3-15 Linear reading of a log scale — reads exponential or logarithmic values as linear, so the differences flatten out or explode.
+S3-16 Extrapolation to infinity — extends every trend line far past the data, to the year 3000 or to zero population, and treats the forecast as fact.
+S3-17 Outliers as truth — keeps only the outliers and errors and calls them the real signal, while the norm is thrown out as noise.
+S3-18 Simpson inversion — merges or splits groups on purpose so the trend flips, then reports only the flipped conclusion.
+S3-19 Apophenia — finds faces, words, constellations or prophecies in noise and scatterplots and treats them as hidden messages.
+S3-20 Numbers as letters — maps each value onto the alphabet, ASCII or musical notes and reads or plays the "text" that results.
+S3-21 Wrong projection — draws geographic coordinates in a naive equirectangular or polar projection, or on the wrong sphere, so the territories warp.
+S3-22 Precision as meaning — treats every decimal place, including rounding artifacts and float errors, as meaningful and builds on the last digit.
+S3-23 Proxy as the thing — takes the measured stand-in (clicks, arrests, GDP) for the phenomenon itself (interest, crime, wellbeing).
+S3-24 Anthropomorphising — reads data points as people with intentions and feelings, so values "want", "flee" or "grieve".
+S3-25 Overfitting — fits a model so exactly that it memorises every point, then presents its baroque curve as the law behind the data.
+S4-01 Units swap — reads every value in the wrong unit (meters as years, degrees Celsius as dollars, counts as kilograms), so the quantities keep their numbers but change what they mean.
+S4-02 Column shift — offsets every row by one field, so each value lands under its neighbour's header.
+S4-03 Encoding misread (mojibake) — decodes the bytes with the wrong character set (UTF-8 as Latin-1, text as raw pixels or audio samples), turning the record into glyph noise, image or sound.
+S4-04 Endianness flip — reads multi-byte numbers in reversed byte order, scattering plausible values into wild magnitudes.
+S4-05 Correlation as causation — treats every co-occurrence in the data as one thing causing another and builds a causal story or diagram from it.
+S4-06 Ecological fallacy — attributes aggregate or regional figures to each individual, inventing people who embody averages.
+S4-07 Sorting by the wrong key — orders records alphabetically by name, by ID, or by file size instead of by time or magnitude, and presents that order as a sequence or ranking.
+S4-08 Index as timeline — takes the row number or primary key for chronology, so database insertion order becomes history.
+S4-09 Missing values as zero — reads blanks, NaN, null or sentinel codes (-999, 9999) as real measurements, so absences become extreme events.
+S4-10 Sentinel as signal — treats error codes and placeholder values as the most important data points and makes them the subject of the work.
+S4-11 Spurious precision — takes all decimal places as meaningful and amplifies rounding noise or float artifacts into structure.
+S4-12 Overfitting / pareidolia — fits a high-degree curve or seeks faces, figures and messages in noise, and reports the pattern found as a discovery.
+S4-13 Extrapolation to infinity — extends a short trend far past its range (centuries, negative populations), turning a local slope into a prophecy.
+S4-14 Simpson's reversal — aggregates over a confounding group so the overall trend points the opposite way from every subgroup, and takes the reversed trend as the truth.
+S4-15 Survivorship reading — reads only the records that remain (survivors, published items, surviving objects) as the whole population.
+S4-16 Base-rate neglect — ranks by raw counts without normalising (per capita, per area), so big places and big categories always "win".
+S4-17 Geographic misprojection — plots coordinates with swapped latitude and longitude, the wrong datum or a flipped sign, relocating places into the sea or onto other continents.
+S4-18 Literal reading of codes — reads category codes, ZIP codes, ISBNs, phone numbers or classification numbers as quantities to add, average and chart.
+S4-19 Numerology / gematria — reads numbers as letters, notes or omens, turning measurements into text, music or prophecy.
+S4-20 Metadata as content — ignores the data and works only from the timestamps, file names, licence fields, column headers or revision history.
+S4-21 Uniform weighting — gives every row equal weight regardless of survey weights, sample sizes or confidence intervals, so outliers and tiny samples speak as loudly as the majority.
+S4-22 Anthropomorphic reading — reads time series as moods, biographies or diaries, so a stock index "grieves" and a sensor "sleeps".
+S4-23 Cherry-picked window — crops the time range or subset to the one stretch that tells the story you want, and presents it as the whole.
+S4-24 Proxy literalism — takes a proxy for the thing itself (night lights as wealth, search queries as illness, tree rings as weather), then reads it the other way round.
+S4-25 Cross-dataset join on a false key — merges two unrelated public datasets on a shared-looking field (same year, same row number, same name), and reads the merged table as one world.

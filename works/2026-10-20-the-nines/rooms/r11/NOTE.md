@@ -1,0 +1,3 @@
+# After 22:50
+
+The year of buoy 46026 is laid out as a grid of every ten-minute line in the file: one column per day, midnight at the top, coloured by sea-surface temperature, the one sensor that runs nearly all year. Over the first five weeks the wind is drawn as fine strokes pointing downwind, so January reads as a dense hatching. Then, at 22:50 UTC on 4 February, in a storm (17.8 m/s, gusting 24.4, barometer 989.4 hPa), the wind and pressure columns turn to 99.0 and 9999.0 and never return. That last stroke is marked in red. After it the sea keeps going on its own: summer upwelling and the slow autumn warmth as bands of colour, wave height hanging below as a ragged fringe, and the lines the file never wrote left black.

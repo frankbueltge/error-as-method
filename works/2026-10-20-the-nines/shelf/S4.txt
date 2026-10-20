@@ -1,0 +1,25 @@
+1. Units swap — reads every value in the wrong unit (meters as years, degrees Celsius as dollars, counts as kilograms), so the quantities keep their numbers but change what they mean.
+2. Column shift — offsets every row by one field, so each value lands under its neighbour's header.
+3. Encoding misread (mojibake) — decodes the bytes with the wrong character set (UTF-8 as Latin-1, text as raw pixels or audio samples), turning the record into glyph noise, image or sound.
+4. Endianness flip — reads multi-byte numbers in reversed byte order, scattering plausible values into wild magnitudes.
+5. Correlation as causation — treats every co-occurrence in the data as one thing causing another and builds a causal story or diagram from it.
+6. Ecological fallacy — attributes aggregate or regional figures to each individual, inventing people who embody averages.
+7. Sorting by the wrong key — orders records alphabetically by name, by ID, or by file size instead of by time or magnitude, and presents that order as a sequence or ranking.
+8. Index as timeline — takes the row number or primary key for chronology, so database insertion order becomes history.
+9. Missing values as zero — reads blanks, NaN, null or sentinel codes (-999, 9999) as real measurements, so absences become extreme events.
+10. Sentinel as signal — treats error codes and placeholder values as the most important data points and makes them the subject of the work.
+11. Spurious precision — takes all decimal places as meaningful and amplifies rounding noise or float artifacts into structure.
+12. Overfitting / pareidolia — fits a high-degree curve or seeks faces, figures and messages in noise, and reports the pattern found as a discovery.
+13. Extrapolation to infinity — extends a short trend far past its range (centuries, negative populations), turning a local slope into a prophecy.
+14. Simpson's reversal — aggregates over a confounding group so the overall trend points the opposite way from every subgroup, and takes the reversed trend as the truth.
+15. Survivorship reading — reads only the records that remain (survivors, published items, surviving objects) as the whole population.
+16. Base-rate neglect — ranks by raw counts without normalising (per capita, per area), so big places and big categories always "win".
+17. Geographic misprojection — plots coordinates with swapped latitude and longitude, the wrong datum or a flipped sign, relocating places into the sea or onto other continents.
+18. Literal reading of codes — reads category codes, ZIP codes, ISBNs, phone numbers or classification numbers as quantities to add, average and chart.
+19. Numerology / gematria — reads numbers as letters, notes or omens, turning measurements into text, music or prophecy.
+20. Metadata as content — ignores the data and works only from the timestamps, file names, licence fields, column headers or revision history.
+21. Uniform weighting — gives every row equal weight regardless of survey weights, sample sizes or confidence intervals, so outliers and tiny samples speak as loudly as the majority.
+22. Anthropomorphic reading — reads time series as moods, biographies or diaries, so a stock index "grieves" and a sensor "sleeps".
+23. Cherry-picked window — crops the time range or subset to the one stretch that tells the story you want, and presents it as the whole.
+24. Proxy literalism — takes a proxy for the thing itself (night lights as wealth, search queries as illness, tree rings as weather), then reads it the other way round.
+25. Cross-dataset join on a false key — merges two unrelated public datasets on a shared-looking field (same year, same row number, same name), and reads the merged table as one world.

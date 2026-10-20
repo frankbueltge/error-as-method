@@ -1,0 +1,25 @@
+1. Wrong encoding — opens UTF-8 text as Latin-1 (or the reverse), so every name and place turns into mojibake that still looks almost readable.
+2. Bytes as pixels — reads the raw file as an image bitmap, so the structure of the records shows up as texture, stripes and noise.
+3. Bytes as sound — plays the file as PCM audio, so column widths and repeated fields come out as rhythm, pitch and hum.
+4. Swapped axes — puts the dependent variable where the independent one belongs, so effects seem to cause their own causes.
+5. Wrong units — reads metres as feet, Celsius as Fahrenheit, or cents as dollars, so every value is off by a consistent and believable factor.
+6. Day-month swap — reads 03/04 as April 3 instead of March 4, so the calendar folds over itself and events move between seasons.
+7. Epoch confusion — reads Unix seconds as milliseconds, or Excel serial dates as years, so timestamps collapse into 1970 or fly off into the far future.
+8. Identifiers as quantities — treats postcodes, IDs or phone numbers as amounts to sum, average and chart, so bureaucratic labels become magnitudes.
+9. Quantities as words — reads numbers as text or letter codes (for example A1Z26), so measurements spell out pseudo-sentences.
+10. Lat/lon swap — exchanges latitude and longitude, so the geography gets moved into oceans, poles and mirrored continents.
+11. Wrong projection — plots coordinates in a reference system they do not belong to, so maps stretch, shear and drift away from their places.
+12. Missing as meaningful — reads blanks, NaN, -999 or 0 as real values or as the main message, so the gaps become the subject of the work.
+13. Correlation as causation — reads any co-movement between two columns as a mechanism, and builds a mythology of invented causes.
+14. Apophenia — finds faces, shapes, constellations or messages in scatter plots and in the noise of the data, and treats them as signal.
+15. Ecological fallacy — applies aggregate statistics to an imagined single person, so a composite individual is assembled from the averages.
+16. Tiny-sample extrapolation — extends a short trend line indefinitely, so a small growth becomes a prophecy of infinity or of extinction.
+17. Row order as time — reads the arbitrary order of the file (alphabetical, or by ID) as a chronology, so the sorting becomes a story.
+18. Delimiter misparse — splits on the wrong separator (comma inside quotes, decimal comma or point), so the columns slide into one another and values migrate.
+19. Off-by-one shift — moves one column or the header by a single row, so every label describes its neighbour's value.
+20. Literal metadata — reads the column names, codebook and footnotes as the content and the values as decoration.
+21. Wrong scale — reads a logarithmic scale as linear (or the reverse), or a percentage as an absolute count, so differences get flattened or blown up.
+22. Category as continuum — treats ordinal or nominal codes (1 = yes, 2 = no, 3 = refused) as points on a line and interpolates between them.
+23. Floating-point and rounding artifacts — takes the precision errors, truncation and rounding residues of the computation as the real finding.
+24. Survivorship reading — reads only what was recorded as the whole of what existed, so the absences that shaped the dataset disappear twice.
+25. Source as oracle — reads the dataset as a divination text (horoscope, I Ching, tarot), so statistics become fate and predictions about individual lives.

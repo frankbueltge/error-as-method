@@ -1,0 +1,89 @@
+N01
+# Swell Ledger
+
+Every day of 2024 at buoy 46026 is one thread, drawn from midnight to midnight and stacked from January at the top to December at the bottom, each day occluding the one above like a ridge of water seen from low on the sea. The thread rises in proportion to the significant wave height, so the winter storms stand up as dark peaks and the summer flattens into tight lines; the spacing of its undulation follows the dominant wave period, long groundswell drawn as slow broad swells and short wind-sea as fine ripple; its colour is the sea-surface temperature, which shows the cold upwelling of May and June and the warm water of September. Where the buoy recorded nothing, as in the late-February to early-March outage, the line stops. One note marks 4 February at 22:50, the buoy's last wind reading, taken in a storm. After that its record is only of the sea. (The page reads the record from `data/46026h2024.js`, a verbatim copy of the .txt wrapped as a JavaScript string, because a page opened from file:// is not allowed to read the plain text file.)
+
+N02
+# Passage of a Moored Buoy
+
+The form takes every wave record buoy 46026 made in 2024, 17,021 of them, and turns each one into a short leg of a journey. The buoy sets off from its real mooring, 18 nautical miles west of San Francisco, and for each record travels the way that swell was going (the reported mean wave direction plus 180 degrees). It moves at the deep-water speed of a wave with the reported dominant period (gT/2π, about 19 m/s for a 12-second swell) until the next record arrives, and each leg is stepped across a spherical Earth. The whole globe is drawn as one disc seen from the South Pole, with the North Pole as its rim. The line is coloured by month and gets thicker with wave height. The year adds up to about 544,000 km, 1.42 times the distance to the Moon. Westerly and north-westerly swell keeps pushing it south-east, so it winds down a loxodrome into the South Pole and circles there. Only southern swell, mostly in summer, pulls it out in wide loops. The red ring marks where it actually stayed all year. (`data/46026h2024.js` is the unchanged text file wrapped in a JavaScript string, so that the page can read it over `file://`. `tools/mkjs.js` makes it.)
+
+## The wrong reading
+
+I read the wave columns as the buoy's own log of travel, as though it rode each swell it measured. That is wrong in three ways. First, 46026 is moored: it is anchored to the seabed and goes nowhere, and the record describes the water passing it. Second, a wave is not a current. The energy and the crest shape move at the phase speed, but the water, and anything floating in it, mostly goes round in small circles. A floating object drifts only slowly with the Stokes drift, centimetres per second and not tens of metres. Third, MWD is the direction the waves come *from*, and DPD is a property of the spectrum's peak, not the speed of anything. Turning these into a heading and a speed treats a description of the sea as the buoy's own movement.
+
+N03
+# Air at 999 Degrees
+
+Every value in the year's 49,309 ten-minute rows, from all thirteen measurement columns, is laid as a faint point of light on one logarithmic scale, with time running left to right. Where readings pile up, the light adds until it turns white. The real sea, a sea temperature around 12–16 °C, wave periods, wave heights of a metre or two, swell from about 290°, makes thin, restless threads in the lower half. Above them run perfectly straight white lines at 99, 999 and 9999. These are the steadiest things in the picture, and each is labelled as a measurement: pressure 9999 hPa, air and dew point 999 °C, wind and waves from 999°, visibility 99 miles, a tide of 99 feet. The air-temperature line gives off an orange heat that grows brighter wherever it has more readings. The only breaks in these lines are the days in February and March when the buoy sent nothing at all.
+
+## The wrong reading
+
+I read the file's fill values as data. NDBC writes 99, 999 or 9999 (with its decimals) in a column when there is no measurement. In this file the air temperature, dew point, visibility and tide columns are never measured. Wind and pressure are missing most of the time, and wave values for about two thirds of the rows. So I took the placeholders at face value, as if the air 18 miles off San Francisco had been 999 °C all year and the pressure ten times what it is on Earth. That is wrong because these numbers stand for "nothing was recorded here", not for anything that was recorded. Taking them literally turns the record's silences into its loudest and most constant signal. The values that really were measured end up as small noise underneath.
+
+(Technical note: browsers block `fetch` from `file://`, so `data/46026h2024.js` holds the raw text file unchanged, wrapped in one JavaScript string. The page reads that, and falls back to fetching the `.txt` when served over HTTP.)
+
+N04
+# Eighteen Miles Out
+
+Buoy 46026's year is redrawn as sea, one thin row for each day of 2024, from 1 January at the top to 31 December at the bottom, and from midnight to midnight across. Each row is a drawn wave. Its height follows the significant wave height and its wavelength follows the dominant period, so long winter swells and short, choppy seas leave different textures. Its colour is the water temperature under it, which makes the cold spring upwelling a blue band and the warm late summer a copper one. Where the file holds its 99.00 placeholders the sea is simply left out, so the gap in March shows as an empty strip. A small mark at 4 February shows where the wind and pressure columns turn to nines for good. From then on the buoy reports only water and waves. The page reads `data/buoy.js`, a slot-by-slot copy of the original text file made by `tools/build.js`, because a page opened from `file://` cannot fetch the .txt directly.
+
+N05
+# Eighteen Nautical Miles
+
+The form is a chart of a voyage that never happened. Starting at buoy 46026 on 1 January, each of the 17,021 wave readings of 2024 moves the buoy a little: as many metres as the significant wave height (WVHT), in the direction the waves were heading (away from MWD). Each reading is also drawn as a hair across the track, as long as the wave was tall, so the stormy months come out as a rough, wide brush stroke and the summer as a thin one. Over the year the waves push the buoy east-south-east across a grid of nautical miles toward the point the station's own name gives for San Francisco, 18 NM to the east. The path it travels is 33.31 km long, 17.98 nautical miles, nearly the exact distance to the city. But the waves came from slightly north of west, so it ends on 31 December 10.3 km short and well to the south. (The page reads the raw file through `data/46026h2024.js`, which is the unchanged text wrapped in one JavaScript string, because a page opened from disk cannot fetch a local .txt file.)
+
+## The wrong reading
+
+I read the record as a ship's log of movement: every wave height is a distance the buoy moved, and every wave direction is the way it went. This is wrong in several ways at once. Buoy 46026 is moored to the seabed and stays where it is. WVHT is a vertical, statistical measure: the mean height, trough to crest, of the highest third of waves over a sampling period. It is not a horizontal displacement. A wave passing a float moves it up and down and back and forth in a near-closed orbit, so all that motion adds up to almost no travel. Adding wave heights end to end as if they were steps turns a year of standing in one place into a trip, and the near-match with the 18 NM in the station's name is pure coincidence that the wrong reading makes look like destiny.
+
+N06
+# After 22:50
+
+The year of buoy 46026 is laid out as a grid of every ten-minute line in the file: one column per day, midnight at the top, coloured by sea-surface temperature, the one sensor that runs nearly all year. Over the first five weeks the wind is drawn as fine strokes pointing downwind, so January reads as a dense hatching. Then, at 22:50 UTC on 4 February, in a storm (17.8 m/s, gusting 24.4, barometer 989.4 hPa), the wind and pressure columns turn to 99.0 and 9999.0 and never return. That last stroke is marked in red. After it the sea keeps going on its own: summer upwelling and the slow autumn warmth as bands of colour, wave height hanging below as a ragged fringe, and the lines the file never wrote left black.
+
+N07
+# One Wave
+
+Each of the 17,023 rows that carry a wave measurement becomes one cycle of a sine wave. The cycle is as tall as WVHT (5.2 px per metre, trough to crest) and lasts as long as DPD. The cycles follow each other with no gaps, so the whole year forms a single unbroken wave train, wrapped into 44 lines like text. Together they last only 53 h 36 min. The left margin keeps that invented clock, running from 00:00:00 to 52:22:56. The right margin quietly gives the real calendar date each line was taken from. Winter swells swell out of their lines and run into the lines next to them. Summer narrows to a tight dark seam, and a quiet spell in late November thins to a thread.
+
+## The wrong reading
+
+I read every record as a single wave: one wave of height WVHT and period DPD, then the next record as the next wave. That is wrong in three ways. First, WVHT is the *significant* wave height of a 20-minute sample. It is a statistic, the mean of the highest third of all the waves in that sample, so no single wave has to be that tall. Second, DPD is the period where the spectrum holds the most energy, not how long any one wave lasted. Each record therefore stands for a hundred or more real waves, not one. Third, the records are about half an hour apart, and laying them end to end throws away all the time between them. The real year of 8,784 hours shrinks into the 53.6 hours it would take for one imagined wave from each record to pass the buoy.
+
+(Technical note: the viewer opens the page from `file://`, where the browser cannot read a plain text file. So `data/46026h2024.js` holds the original text unchanged, wrapped in one JavaScript string, and the page parses that.)
+
+N08
+# After the Wind
+
+Every ten-minute record of the year becomes one cell of a woven field: the day runs across and the hour runs down, and each cell takes the colour of the sea temperature. The field reads as vertical bands, from the cold upwelling blues of spring to the warm ochres of late summer. Gaps in the record stay blank paper. Under the field, daily wave heights hang down like a fringe. Above it, the wind trace covers only the first five weeks and ends at one point: 4 February, 22:50, 17.8 m/s with gusts to 24.4 and pressure at 989.4 hPa. After that the file holds only the placeholder nines for wind and pressure, and a dotted line marks the silence for the rest of the year while the water goes on being measured. The page reads the unchanged NDBC text (wrapped as a JS string in `data/46026h2024.js` so it loads offline) and draws everything from it.
+
+N09
+# Carried by the Swell
+
+The work sets buoy 46026 loose from its mooring off San Francisco and lets the waves of 2024 carry it. Each of the 17,021 wave reports in the record (mean wave direction and dominant period) becomes a leg of a voyage: the buoy moves the way the waves are travelling, at the speed of their crests (g·T/2π), until the next report, stepping across the curved Earth. The North Pacific swell, arriving almost always from the west-north-west, pushes it east-south-east, and on a sphere a steady east-south-east heading spirals into the South Pole. So the buoy crosses the hemisphere within weeks and spends the rest of the year, about 545,000 km of travel, circling the Pole more than a thousand times. It is lifted back out toward the latitudes only when the southern-hemisphere swell of the northern summer turns the waves around. The image is a south-polar view with distance from the Pole on a logarithmic scale, so that the knot at the centre can be seen at all. The year's track is drawn in fine lines coloured by month, and the one small ring near the edge marks where the buoy actually was the whole time.
+
+## The wrong reading
+
+I read the wave columns as a current: as if the waves were water that flows and takes floating things with it at the speed of the crests. That is wrong. A surface gravity wave carries energy, not water. A floating object under a passing swell mostly moves up and down in a small orbit and ends up nearly where it started. Stokes drift moves it forward slightly, at centimetres per second, not at the roughly 18 m/s phase speed of a 12-second swell. The reading also ignores that 46026 is moored and cannot travel at all, and it treats each wave report as holding steady until the next one. The voyage it produces is impossible: thirteen times around the Equator, then a thousand turns around the South Pole for a buoy that never left the Gulf of the Farallones.
+
+N10
+# Combed Year
+
+Each of the 17,021 half-hourly sea states that buoy 46026 recorded in 2024 is drawn as one stroke. The stroke starts at its moment in the year (left to right) and at its dominant wave period (log scale, bottom to top). It points the way the waves were travelling, with north up, and its length is the significant wave height. Its colour comes from the water temperature at that time, cold slate-blue to warm rust. The buoy measures period in fixed spectral bins, so the strokes fall into ruled rows, like lines in a ledger, and the whole field is combed toward the coast. Winter shows as long, dark, heavy strokes in the long-period rows. Spring upwelling shows as short, cold blue chop. In summer, the long-period rows hold small upright strokes: swell arriving from the far south. The gap in February is where the buoy stopped reporting. The page reads the unchanged text record through `data/46026h2024.js`, which wraps the original file as a JavaScript string so the page can load it without a server.
+
+N11
+# Ninety-Nine
+
+Every hour of 2024 at buoy 46026 is one ink stroke, laid out like lines of text, three days to a row: the stroke points where the wind blew and its length is the wind's speed. January and the first days of February are a restless script of short, crossing ticks, the ordinary weather off the Golden Gate. Then, at 22:50 on 4 February, in the middle of a real storm (17.8 m/s from the south-southeast, pressure down to 989 hPa), every stroke turns the same way and grows to a hundred pixels long. From there to the end of December the page is one grey sheet of parallel lines running off its right edge: a wind of 99 m/s that never changes direction and never stops. The only breaks in it are the pale bands where whole days of records are missing.
+
+## The wrong reading
+
+I read the file's missing-value codes as measurements. In the NDBC format, `999` in the wind-direction column and `99.0` in the speed and gust columns mean "no data". The anemometer on 46026 stopped reporting during the 4 February storm and stayed silent for the rest of the year (the barometer went with it, which is why pressure reads `9999.0`). Taken at its word, the file says that storm never ended: it rose to 99 m/s, about 356 km/h and well beyond any recorded hurricane, and blew for eleven months from a bearing of 999 degrees, which is just under three full turns, or 279 degrees, roughly west. That is wrong because those numbers describe the instrument's silence, not the air. Wave height, water temperature and the buoy's later records all show an ordinary year of Pacific weather going on underneath.
+
+(The data is loaded from `data/46026h2024.js`, a copy of the unchanged text file wrapped in one JavaScript string, because the viewer opens the page from disk, where `fetch` is not allowed.)
+
+N12
+# After the Wind
+
+The year at buoy 46026 is laid out like a recording of sound, one month to a row, with the days of each month lined up. Each wave record becomes one vertical stroke, drawn as far above and below the centre line as the significant wave height. Its colour is the sea temperature at that moment, and longer-period swell is drawn brighter. Across January and early February a thin white line traces the wind. It stops at a single point, 22:50 UTC on 4 February, in the storm, at 17.8 m/s, gusting 24.4. The file holds no wind or pressure after that. The form shows the record losing its sensors one by one: the big winter swells, the cold blue water of spring upwelling, the flat warm days of late summer, the dark gap at the turn of February into March, and a faint thermometer thread where the wave sensor went quiet but the thermometer kept reading.
