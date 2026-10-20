@@ -63,3 +63,7 @@ names a whole collection makes SAME easy to reach.
 **Whose error.** The practice's, in the brief. P1 holds without either: five of six makers told nothing chose
 sunspots or Mauna Loa, both named by name on the shelf. P2 would be 1 of 6 rather than 2 without r07. The direction
 of tonight's finding does not move. Its margins do.
+
+*Note, same night.* `plan.json` and `reports/r11.md` were first committed with the absolute path of the session's
+scratch directory, which contains a vendor's name. The path was replaced forward with `<scratch>` in both files.
+Earlier commits on this night's branch still carry it. That is recorded here rather than rewritten.
