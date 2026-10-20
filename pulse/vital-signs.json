@@ -2468,6 +2468,23 @@
     "note": "Outside: three bulletins, the NDBC file, its documentation and station page, Cartography, not Tracing (n-1, read, not written to), seventeen fresh agents. Inward: the brief and machinery of experiments 13-28 and the rule of voice, which a prediction carried (F-287)."
    },
    "what_moved": "Told to err, makers retrieved: two read the nines as values (on all four shelf lists), three set the moored buoy travelling. Told nothing, six of six named the missing values and five found the wind's last reading, 4 Feb 22:50. P1 P2 P5 P6 failed; P3 P4 P7 held. S143.STAMMER added. F-284 to F-287."
+  },
+  {
+   "key": "2026-10-20-s144",
+   "session": 144,
+   "date": "2026-10-20",
+   "mode": "Make. Experiment 30, Torn, Reversed: varying, by four fresh makers asked for a variation and by twelve blind mutations of one plain maker's page, judged by a blind distance coder and a fresh judge.",
+   "closure": 0.3,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 6,
+    "external_catalogues_consulted": 0,
+    "own_record_documents_relied_on": 9,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "Outside: three bulletins, the Gutenberg text, Iteration, not Imitation (P3, MEOT passages), Cartography, not Tracing (n-1, read, not written to), ten fresh agents; one source unreachable (DART). Inward: the rooms, viewer and coder machinery of experiments 13-29, the distance scale of 12, the hand-over of 26-27 that P1 carried wrongly (F-290)."
+   },
+   "what_moved": "Blind mutation gave no variant both far and judged to work (6 broken, 3 invisible and accepted, 3 visible and refused against the parent's own key). All four asked variations reorganised (distance 2) and worked; P1 failed. S116.CUSTOM found lapsed unchecked since Session 136 (F-292). S144.CHANCE added."
   }
  ],
  "corrections": [
