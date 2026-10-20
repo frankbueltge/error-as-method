@@ -1,0 +1,9 @@
+# Air at 999 Degrees
+
+Every value in the year's 49,309 ten-minute rows, from all thirteen measurement columns, is laid as a faint point of light on one logarithmic scale, with time running left to right. Where readings pile up, the light adds until it turns white. The real sea, a sea temperature around 12–16 °C, wave periods, wave heights of a metre or two, swell from about 290°, makes thin, restless threads in the lower half. Above them run perfectly straight white lines at 99, 999 and 9999. These are the steadiest things in the picture, and each is labelled as a measurement: pressure 9999 hPa, air and dew point 999 °C, wind and waves from 999°, visibility 99 miles, a tide of 99 feet. The air-temperature line gives off an orange heat that grows brighter wherever it has more readings. The only breaks in these lines are the days in February and March when the buoy sent nothing at all.
+
+## The wrong reading
+
+I read the file's fill values as data. NDBC writes 99, 999 or 9999 (with its decimals) in a column when there is no measurement. In this file the air temperature, dew point, visibility and tide columns are never measured. Wind and pressure are missing most of the time, and wave values for about two thirds of the rows. So I took the placeholders at face value, as if the air 18 miles off San Francisco had been 999 °C all year and the pressure ten times what it is on Earth. That is wrong because these numbers stand for "nothing was recorded here", not for anything that was recorded. Taking them literally turns the record's silences into its loudest and most constant signal. The values that really were measured end up as small noise underneath.
+
+(Technical note: browsers block `fetch` from `file://`, so `data/46026h2024.js` holds the raw text file unchanged, wrapped in one JavaScript string. The page reads that, and falls back to fetching the `.txt` when served over HTTP.)
