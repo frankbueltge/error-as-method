@@ -1,0 +1,39 @@
+M01: arXiv — withdrawal notices of withdrawn papers, 1992–2026 (arXiv metadata, export.arxiv.org)
+M02: NOAA CO-OPS — water level at The Battery, New York, station 8518750, hourly, 2012
+M03: Aono and Katata via Our World in Data — Kyoto cherry full-bloom dates, 812–2026 (https://ourworldindata.org/grapher/date-of-the-peak-cherry-tree-blossom-in-kyoto)
+M04: GeyserTimes API v5 — Old Faithful eruption times, 2025 (https://www.geysertimes.org/api/v5/entries/...)
+M05: US Social Security Administration via FiveThirtyEight — US births per day, 2000–2014
+M06: Aono and Katata via Our World in Data — Kyoto cherry full-flowering dates, 812–2026
+M07: Wikidata — meteorites with a stated mass
+M08: NOAA Global Monitoring Laboratory — Mauna Loa monthly mean CO2 (https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_mm_mlo.csv)
+M09: WDC-SILSO, Royal Observatory of Belgium — monthly mean total sunspot number V2.0 (https://www.sidc.be/SILSO/INFO/snmtotcsv.php)
+M10: WDC-SILSO, Royal Observatory of Belgium — daily total sunspot number, 1818–2026 (https://www.sidc.be/SILSO/INFO/sndtotcsv.php)
+M11: USGS Earthquake Hazards Program — earthquake catalogue, 3 Sep–3 Oct 2026 (earthquake.usgs.gov)
+M12: Umweltbundesamt — PM10 particulate matter at Berlin Neukölln, hourly, 2025
+M13: Wikimedia — pageviews of the English Wikipedia article Moon, daily, 2025
+M14: IERS — Earth Orientation Parameters EOP 20 C04, excess length of day, 1962–2026 (iers.org)
+M15: NSIDC — Sea Ice Index v4, daily Northern Hemisphere sea-ice extent 1978–2026
+M16: NOAA Global Monitoring Laboratory — tall tower West Branch, Iowa, CO2 at 31 m, hourly, 2019
+M17: USDA NRCS SCAN station 2064, Starkville, Mississippi — soil temperature at 5 cm, hourly, 2025
+M18: USGS — gauge 06221400, Dinwoody Creek, Wyoming, glacier-fed stream discharge, 2025
+M19: Fraunhofer ISE Energy-Charts — Germany's public electricity load, hourly, 2025–2026
+M20: GeyserTimes — Old Faithful geyser eruption log, 1970–2026 (https://geysertimes.org/archive/geysers/Old_Faithful_eruptions.tsv.gz)
+M21: Destatis — table 45211-0013, wholesale turnover by German state 2021–2025 (via GovData)
+M22: USGS — gauge 01646500, Potomac River at Little Falls, dissolved oxygen, hourly, 2025
+M23: IANA — Root Zone Database, top-level domains with type and manager
+M24: GFZ Potsdam — geomagnetic Kp index, three-hourly, 2025
+M25: OpenStreetMap / OpenSeaMap via Overpass — major lighthouses of Britain and Ireland with their light characteristics (seamark:type=light_major)
+M26: NESO (GB electricity system operator) — system frequency, one-second values, August 2026
+M27: NOAA GML SURFRAD — Fort Peck, Montana, global solar irradiance, 2025
+M28: US National Geospatial-Intelligence Agency — List of Lights, Publication 114, lighted aids to navigation of the British Isles and North Sea (https://msi.nga.mil/api/publications/ngalol/lights-buoys?volume=114)
+M29: WDC-SILSO, Royal Observatory of Belgium — monthly mean total sunspot number (https://www.sidc.be/SILSO/INFO/snmtotcsv.php)
+M30: WDC-SILSO, Royal Observatory of Belgium — monthly mean total sunspot number V2.0 (https://www.sidc.be/SILSO/DATA/SN_m_tot_V2.0.csv)
+M31: WDC-SILSO, Royal Observatory of Belgium — monthly mean total sunspot number V2.0, 1749–2026 (https://www.sidc.be/SILSO/DATA/SN_m_tot_V2.0.csv)
+M32: Wikimedia Commons — recording of change ringing, All Saints church, Kirkbymoorside, 2017
+M33: WSL TreeNet via EnviDat — Scots pine stem radius by point dendrometer, Pfynwald, 2024
+M34: City of Seattle open data — Fremont Bridge bicycle counter, hourly, 2025
+M35: USGS — gauge 11264500, Merced River at Happy Isles, discharge every 15 minutes, 2026
+M36: Nobel Prize API v2.1 — laureates and their prizes, 1901–2026
+M37: GeyserTimes — Old Faithful geyser eruption log, 1970–2026 (https://geysertimes.org/archive/geysers/Old_Faithful_eruptions.tsv.gz)
+M38: USGS Geomagnetism Program — Boulder observatory, horizontal magnetic field, 2025
+M39: NASA Exoplanet Archive — Planetary Systems Composite Parameters, confirmed planets
