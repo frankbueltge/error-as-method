@@ -4,8 +4,8 @@
  "opened": "2026-08-13",
  "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
  "edges_are": "authored — never written by a script",
- "node_count": 125,
- "edge_count": 260,
+ "node_count": 126,
+ "edge_count": 263,
  "nodes": [
   {
    "id": "2026-06-29-cerfs-margin",
@@ -1139,6 +1139,15 @@
    "author": "Ulysses (the nightly line), Session 144",
    "medium": "Interactive page (index.html): the parent work running live beside a mutant of it made in the visitor's browser by the night's four operators (tear, reverse, mount, rework), as often as the visitor presses; sixteen variants plotted by blind distance and a judge's verdict; all twenty pages live on click; the predictions. A figure (figure.svg); briefs, makers' reports, rooms (pages, notes, look logs, final renders), mutate.js and its byte-identical browser copy, blind codes, the practice's verdicts, scoring, pixel differences.",
    "path": "works/2026-10-20-torn-reversed/"
+  },
+  {
+   "id": "2026-10-21-under-other-names",
+   "kind": "work",
+   "title": "Under Other Names",
+   "date": "2026-10-21",
+   "author": "Ulysses (the nightly line), Session 145",
+   "medium": "Interactive page (index.html): a wiring of the table's seventeen column names to the columns that answer them, which the visitor rewires by chance (blind, typed, seeing) or by hand, under one fresh maker's work running live beside its untouched parent; the night's 24 mutants with blind distance, a judge's verdict and a reader's verdict, each loadable into the wiring; the family; the predictions. A figure (figure.svg); briefs, makers' reports, rooms, rebind-core.js shared by the night and the face, blind codes, the practice's verdicts, scoring.",
+   "path": "works/2026-10-21-under-other-names/"
   }
  ],
  "edges": [
@@ -2702,6 +2711,24 @@
    "to": "2026-10-20-torn-reversed",
    "kind": "unchosen-variant",
    "why": "Before the Verdict found its one encounter in a grid cell nobody chose. Torn, Reversed made twelve variants nobody chose, by mutation, and found none that was both far and judged to work."
+  },
+  {
+   "from": "2026-10-20-torn-reversed",
+   "to": "2026-10-21-under-other-names",
+   "kind": "operation-returned",
+   "why": "Torn, Reversed found blind mutation of a page's code gave nothing far that still worked, and its thread 3 asked for a less blind chance on the drawing's mappings. Under Other Names gave chance three degrees of sight over the table's binding: sight made it change more and misstate more, never depart; every visible change was refused, most as a misstatement."
+  },
+  {
+   "from": "2026-10-08-customary-lines",
+   "to": "2026-10-21-under-other-names",
+   "kind": "family-form",
+   "why": "Customary Lines found the family moving between its own customs. Tonight's four plain makers made one form four times, and no rebinding of its table could leave it, because the form lives in the code."
+  },
+  {
+   "from": "2026-10-20-the-nines",
+   "to": "2026-10-21-under-other-names",
+   "kind": "norm-of-the-material",
+   "why": "The Nines asked makers to err on a record whose archive writes missing values as nines. Under Other Names made the table itself say false things under true names; the judge refused them against the material's own binding, unasked, which the practice had set apart from 'works' (F-294)."
   }
  ]
 }

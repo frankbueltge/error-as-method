@@ -1,0 +1,3 @@
+# The Liquid Interval
+
+Each of the 118 elements stands as one column, in order of atomic number, on a logarithmic scale of temperature in kelvin. A hairline rises from the floor while the element is solid. A bar in its CPK colour marks the span between melting and boiling, where it is liquid. Sparse points above it stand for gas. Where no boiling point is recorded, the bar fades upward and never ends. The last fifteen elements have neither a melting nor a boiling point and are left as empty dotted columns. One horizontal line marks the temperature of the room the image is seen in, and only two bars cross it: bromine and mercury, the only elements here that are liquid where the viewer is standing.

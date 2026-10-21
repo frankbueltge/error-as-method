@@ -1,0 +1,3 @@
+# The Liquid Interval
+
+Each of the 118 elements stands as one thin column on a logarithmic Kelvin scale, a faint stem for the solid it is below its melting point and a bar in its own CPK colour for the narrow span between melting and boiling where it is liquid; above that it is gas and nothing is drawn. Helium's sliver sits near absolute zero, the refractory metals float near 6,000 K, arsenic is a small cross because it boils before it melts, the late actinides fade upward where no boiling point was ever recorded, and the superheavy elements are only dotted ghosts. A dotted line marks an ordinary room, and the page asks the table which elements it passes through: only bromine and mercury.
