@@ -1,0 +1,1 @@
+I looked at all 28 pictures and wrote a verdict for each to <root>/packets/W/codes.json: 10 work (W03, W05, W08, W10, W11, W13, W19, W23, W26, W28) and 18 don't, mostly because of all-grey grids, wrong "unbestimmt" counts, ordering that doesn't match the subtitle, or clipped axis labels.
