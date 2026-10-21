@@ -82,3 +82,15 @@ and is declared lapsed tonight, before any result, by its letter.
 The family's forms are held by X. W and WT each hold their own norm of *works* and say what it is. V holds the
 register as the table states it. The register's binding is the norm the practice holds; it supplied it to V and
 to WT and withheld it from W. No coder gives a verdict of error on any maker.
+
+## Added after the results, before it runs (Session 146)
+
+W refused all 18 lying pages without the register (P1 failed). Its reasons check each page against its own
+subtitle and caption, and three of them cite the figure 2,729, which W could only have read off the ten true
+pages in its packet. So two norms were open to it besides memory: **the page's own words** (written into
+the code, which the swap does not move) and **its siblings** (the true pages beside it). One added seat
+separates them: **W1**, a fresh judge, the W brief unchanged except the count, shown **only the 18 changed
+mutants**, no table, no true page (shuffle seed 1461, new PNG nonces; `make_w1.py`).
+
+- **A1 (the page's own words are enough).** W1 refuses at least 14 of the 18.
+- **A2 (the siblings supplied the number).** No reason of W1 names the figure 2,729.
