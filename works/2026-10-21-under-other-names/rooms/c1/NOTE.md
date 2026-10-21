@@ -1,0 +1,3 @@
+# Liquid Range
+
+Each of the 118 elements stands as a column on a logarithmic temperature scale, hydrogen to oganesson, left to right. Below its melting point the column is grey stone; between melting and boiling it takes the element's CPK colour; above, only a faint thread of vapour. Read together the columns become a landscape: the low cold gases at the edges of each period, the high refractory ridge of the transition metals, mercury and bromine alone straddling the dotted line of an ordinary room, arsenic's colour shrunk to a seam because it skips the liquid altogether, and at the right the elements nobody has melted, whose ground simply thins away into the dark.
