@@ -1,0 +1,13 @@
+[
+ {
+  "file": "sources/pubchem-periodictable.csv",
+  "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/CSV",
+  "fetched": "2026-10-21",
+  "http_status": 200,
+  "bytes": 15017,
+  "sha256": "efcadb3dd180bd06fc0fa069a81082e86553ba2b8b5d679b7827bb8c03afd3ce",
+  "what": "PubChem Periodic Table, download of all 118 elements, 17 columns (National Center for Biotechnology Information, US National Library of Medicine). Page: https://pubchem.ncbi.nlm.nih.gov/periodic-table/",
+  "rights": "Committed: NCBI 'itself places no restrictions on the use or distribution of the data contained therein' (https://www.ncbi.nlm.nih.gov/home/about/policies/); NLM: works of the US government are not subject to copyright in the US (https://www.nlm.nih.gov/web_policies.html). The values are physical properties compiled by PubChem from named sources; NCBI notes that submitters may claim rights it cannot assess. No claim of that kind was found for this table.",
+  "why": "Tonight's material: the table every page reads, and whose columns the operator swaps."
+ }
+]
