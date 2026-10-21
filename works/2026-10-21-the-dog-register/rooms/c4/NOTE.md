@@ -1,0 +1,3 @@
+# Fell
+
+Every dog in Zürich's register becomes one small square, painted in the colour its holder gave for it. Squares for two-coloured coats are split diagonally, tricolour coats get three bands, and brindled or merle coats are hatched. The squares are woven from left to right and top to bottom like a piece of cloth, from the oldest dog to the youngest, with each birth year sorted from dark to light. The 2,729 dogs whose colour was entered as "unbestimmt" are left as empty outlines. In every year they gather as a pale seam at the end of the year's rows. From the 2025 birth year on, the cloth runs out almost completely: the youngest dogs have been registered with no colour at all.

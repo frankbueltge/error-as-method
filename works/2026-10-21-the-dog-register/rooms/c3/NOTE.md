@@ -1,0 +1,3 @@
+# Fell, unbestimmt
+
+Each of the 10,106 dogs in Zürich's register is one small square, painted in the coat colour the register writes for it. A coat given as several colours ("schwarz/weiss", "tricolor") is split into bands. The squares are stacked in columns by the dog's year of birth, so the columns together make a histogram. Inside each column the darkest coats are at the bottom, the lighter ones above them, and on top are the dogs whose coat is recorded only as "unbestimmt". Those are left blank, with a single dot. The 2020–21 bulge in the columns is visible. The main finding is at the right edge: almost no dog born in 2024, 2025 or 2026 has a colour yet. The youngest dogs show up only as dots, so the form shows the register falling behind the animals it counts.
