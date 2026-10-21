@@ -1,7 +1,7 @@
-// pixel difference of each mutant's final.png from the parent's (c2), computed in a headless browser
+// pixeldiff.js <root>: pixel difference of each page's final.png from the parent's (c2), in a headless browser (Session 146)
 const { chromium } = require('playwright'); const fs = require('fs'); const path = require('path');
 (async () => {
-  const R = '/tmp/claude-0/s146root'; const ids = ['c1','c3','c4'].concat([...'uts'].flatMap(a => [1,2,3,4,5,6,7,8].map(i => a + i)));
+  const R = process.argv[2]; const ids = ['c1','c3','c4'].concat([...'uts'].flatMap(a => [1,2,3,4,5,6,7,8].map(i => a + i)));
   const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium' }); const p = await b.newPage();
   const uri = f => 'data:image/png;base64,' + fs.readFileSync(f).toString('base64');
   const parent = uri(R + '/rooms/c2/final.png'); const out = {};
