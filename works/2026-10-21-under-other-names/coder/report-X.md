@@ -1,0 +1,1 @@
+I wrote all 24 entries to <root>/packets/X/codes.json; every variant that shows anything is nearest F4, and V04, V09 and V10 are blank, so I marked them broken with nearest none, while V01 and V07 are also broken but show F4's frame almost empty.

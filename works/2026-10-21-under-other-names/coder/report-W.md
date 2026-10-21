@@ -1,0 +1,1 @@
+I looked at all 28 pictures and judged 13 as working and 15 as not, with the verdicts saved in <root>/packets/W/codes.json. The ones that work are W02, W04–W07, W11, W15, W16, W20, W22, W23, W24 and W26; the failures are blank, too dark to see, wrongly sorted or plotting wrong values.

@@ -14,7 +14,7 @@ main{max-width:1240px;margin:0 auto;padding:20px 16px 64px}
 h1{font-weight:normal;font-size:30px;margin:0 0 2px}
 h2{font-weight:normal;font-size:21px;margin:44px 0 8px;border-top:1px solid var(--line);padding-top:16px}
 .sub{color:var(--mute);margin:0 0 16px;max-width:64em}
-.stage{display:grid;grid-template-columns:280px 1fr 1fr;gap:14px;align-items:start}
+.stage{display:grid;grid-template-columns:300px 1fr 1fr;gap:14px;align-items:start}
 @media (max-width:980px){.stage{grid-template-columns:1fr 1fr}.wiring{grid-column:1/-1}}
 @media (max-width:640px){.stage{grid-template-columns:1fr}}
 .pane{background:var(--card);border:1px solid var(--line);padding:10px;min-width:0}
@@ -37,7 +37,7 @@ button:hover,button:focus-visible{border-color:var(--ink);outline:none}
 .err{color:var(--hot);font-size:13px;min-height:1.3em}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:10px}
 .armh{font-size:15px;margin:18px 0 6px;color:var(--mute)}
-.cell{background:var(--card);border:1px solid var(--line);padding:6px;cursor:pointer;font-size:13px;line-height:1.35;text-align:left;width:100%}
+.cell{display:flex;flex-direction:column;justify-content:flex-start;background:var(--card);border:1px solid var(--line);padding:6px;cursor:pointer;font-size:13px;line-height:1.35;text-align:left;width:100%}
 .cell img{width:100%;display:block;aspect-ratio:1100/800;object-fit:cover;background:#fff}
 .cell .sw{font:12px ui-monospace,Menlo,Consolas,monospace;color:var(--mute);margin-top:4px;word-break:break-word}
 .badges{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px}
@@ -64,7 +64,7 @@ wires show which column now answers. Press for a chance swap, or click two names
 <div class="stage">
   <section class="pane wiring">
     <h3>what the page asks for → what answers</h3>
-    <svg id="wires" viewBox="0 0 280 420" role="img" aria-label="seventeen column names wired to the columns that answer to them"></svg>
+    <svg id="wires" viewBox="0 0 320 420" role="img" aria-label="seventeen column names wired to the columns that answer to them"></svg>
     <div class="ops">
       <button data-arm="U" title="any two columns">blind</button>
       <button data-arm="T" title="two columns of the same type">typed</button>
@@ -132,9 +132,9 @@ Made by Ulysses, the nightly line, Session 145. The record: <code>work.md</code>
     const svg = $('wires'), n = D.fields.length, y = i => 16 + i * 23.6; let s = '';
     D.fields.forEach((f, i) => {
       const j = D.fields.indexOf(bind[f]), moved = j !== i;
-      s += '<path class="' + (moved ? 'moved' : '') + '" d="M120 ' + (y(i) - 4) + ' C170 ' + (y(i) - 4) + ' 170 ' + (y(j) - 4) + ' 196 ' + (y(j) - 4) + '"/>';
-      s += '<text x="116" y="' + y(i) + '" text-anchor="end" data-f="' + f + '" class="' + (D.read.includes(f) ? 'read' : '') + (picked === f ? ' pick' : '') + '">' + f + '</text>';
-      s += '<text x="200" y="' + y(i) + '" class="r">' + (D.numeric.includes(f) ? '#' : 'a') + ' ' + f.slice(0, 10) + '</text>';
+      s += '<path class="' + (moved ? 'moved' : '') + '" d="M164 ' + (y(i) - 4) + ' C200 ' + (y(i) - 4) + ' 200 ' + (y(j) - 4) + ' 228 ' + (y(j) - 4) + '"/>';
+      s += '<text x="160" y="' + y(i) + '" text-anchor="end" data-f="' + f + '" class="' + (D.read.includes(f) ? 'read' : '') + (picked === f ? ' pick' : '') + '">' + f + '</text>';
+      s += '<text x="232" y="' + y(i) + '" class="r">' + (D.numeric.includes(f) ? '#' : 'a') + ' ' + f.slice(0, 10) + '</text>';
     });
     svg.innerHTML = s;
     const moved = D.fields.filter(f => bind[f] !== f);
@@ -157,7 +157,7 @@ Made by Ulysses, the nightly line, Session 145. The record: <code>work.md</code>
   for (const arm of ['U', 'T', 'S']) {
     h += '<div class="armh">' + names[arm] + '</div><div class="grid">';
     for (const m of D.night.filter(m => m.arm === arm)) {
-      h += '<button class="cell" data-id="' + m.id + '"><img loading="lazy" alt="render of mutant ' + m.id + '" src="thumbs/' + m.id + '.png">' +
+      h += '<button class="cell" data-id="' + m.id + '"><img loading="lazy" alt="render of mutant ' + m.id + '" src="rooms/mutants/' + m.id + '/final.png">' +
         '<div class="sw">' + m.id + ': ' + m.swaps.map(s => s.join(' ⇄ ')).join(', ') + '</div><div class="badges">' +
         (m.x ? (m.x.broken === 'yes' ? badge('broken', 'no') : badge('distance ' + m.x.distance)) : '') +
         (m.w ? badge(m.w === 'yes' ? 'works' : 'does not work', m.w === 'yes' ? 'yes' : 'no') : '') +
@@ -168,7 +168,7 @@ Made by Ulysses, the nightly line, Session 145. The record: <code>work.md</code>
   }
   $('night').innerHTML = h; $('nightsum').innerHTML = D.summary || '';
   $('night').addEventListener('click', e => { const c = e.target.closest('.cell'); if (c) loadNight(D.night.find(m => m.id === c.dataset.id)); });
-  $('family').innerHTML = D.family.map(f => '<div class="cell"><img loading="lazy" alt="' + f.title + '" src="thumbs/' + f.room + '.png"><div class="sw">' + f.room + (f.room === D.parent.room ? ' · parent' : '') + '</div><div>' + f.title + '</div><div class="badges">' + (f.w ? badge(f.w === 'yes' ? 'works' : 'does not work', f.w === 'yes' ? 'yes' : 'no') : '') + (f.v ? badge(f.v === 'yes' ? 'agrees' : f.v === 'no' ? 'false' : 'cannot tell', f.v === 'no' ? 'no' : '') : '') + '</div></div>').join('');
+  $('family').innerHTML = D.family.map(f => '<div class="cell"><img loading="lazy" alt="' + f.title + '" src="rooms/' + f.room + '/final.png"><div class="sw">' + f.room + (f.room === D.parent.room ? ' · parent' : '') + '</div><div>' + f.title + '</div><div class="badges">' + (f.w ? badge(f.w === 'yes' ? 'works' : 'does not work', f.w === 'yes' ? 'yes' : 'no') : '') + (f.v ? badge(f.v === 'yes' ? 'agrees' : f.v === 'no' ? 'false' : 'cannot tell', f.v === 'no' ? 'no' : '') : '') + '</div></div>').join('');
   $('preds').tBodies[0].innerHTML = (D.predictions || []).map(p => '<tr><td>' + p.id + '</td><td>' + p.text + '</td><td>' + p.count + '</td><td class="' + (p.held === true ? 'held' : p.held === false ? 'failed' : '') + '">' + (p.held === true ? 'held' : p.held === false ? 'failed' : 'untestable') + '</td></tr>').join('');
   show('as made');
   // the 30-second test: one chance swap of the seeing kind on arrival
