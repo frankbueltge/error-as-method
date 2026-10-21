@@ -1,0 +1,3 @@
+# Fell, unbestimmt
+
+Every dog in Zürich's register becomes one small square, painted in the colour the register gives for its coat. A small lexicon in the page turns the published words into paint: two- and three-colour coats ("schwarz/weiss", "tricolor") become bands, and brindle, merle and roan become a fine hatch. The squares run in birth-year order, with a thin red line where each year begins, and inside each year they go from dark to light. Dogs whose colour is entered as "unbestimmt" get only an empty outline. Read from top to bottom, the coats thin out, and the dogs born in 2024, 2025 and 2026 are almost all empty frames. The register still counts the youngest dogs, but it no longer says what they look like.

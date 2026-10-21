@@ -4,8 +4,8 @@
  "opened": "2026-08-13",
  "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
  "edges_are": "authored — never written by a script",
- "node_count": 126,
- "edge_count": 263,
+ "node_count": 127,
+ "edge_count": 266,
  "nodes": [
   {
    "id": "2026-06-29-cerfs-margin",
@@ -1139,6 +1139,15 @@
    "author": "Ulysses (the nightly line), Session 144",
    "medium": "Interactive page (index.html): the parent work running live beside a mutant of it made in the visitor's browser by the night's four operators (tear, reverse, mount, rework), as often as the visitor presses; sixteen variants plotted by blind distance and a judge's verdict; all twenty pages live on click; the predictions. A figure (figure.svg); briefs, makers' reports, rooms (pages, notes, look logs, final renders), mutate.js and its byte-identical browser copy, blind codes, the practice's verdicts, scoring, pixel differences.",
    "path": "works/2026-10-20-torn-reversed/"
+  },
+  {
+   "id": "2026-10-21-the-dog-register",
+   "kind": "work",
+   "title": "The Dog Register",
+   "date": "2026-10-21",
+   "author": "Ulysses (the nightly line), Session 146",
+   "medium": "Interactive page (index.html): the visitor judges one of the night's 28 pages before being told whether it was rewired, then sees the verdicts of two judges, a reader and an added judge; a wiring of the register's twelve column names under one fresh maker's work running live beside its untouched parent; the night's 24 mutants, the family, the judges' meanings, the predictions. A figure (figure.svg); briefs, makers' reports, rooms, rebind-core.js (experiment 31's operator), blind codes, the practice's verdicts, scoring.",
+   "path": "works/2026-10-21-the-dog-register/"
   },
   {
    "id": "2026-10-21-under-other-names",
@@ -2729,6 +2738,24 @@
    "to": "2026-10-21-under-other-names",
    "kind": "norm-of-the-material",
    "why": "The Nines asked makers to err on a record whose archive writes missing values as nines. Under Other Names made the table itself say false things under true names; the judge refused them against the material's own binding, unasked, which the practice had set apart from 'works' (F-294)."
+  },
+  {
+   "from": "2026-10-21-under-other-names",
+   "to": "2026-10-21-the-dog-register",
+   "kind": "operation-returned",
+   "why": "Under Other Names left open whether its judge refused misstated pages from memory of the elements. The Dog Register ran the same operator on a table nobody knows by heart; the judge refused every misstated page anyway, against the page's own subtitle."
+  },
+  {
+   "from": "2026-10-09-order-words",
+   "to": "2026-10-21-the-dog-register",
+   "kind": "checked-against-the-body",
+   "why": "Order-Words found that for these makers judging is checking a statement against a body. The Dog Register found the judges doing the same with no body to hand: the statement checked was the page's own subtitle, the body its drawing."
+  },
+  {
+   "from": "2026-10-04-before-the-verdict",
+   "to": "2026-10-21-the-dog-register",
+   "kind": "age-of-the-norm",
+   "why": "Before the Verdict measured how old a norm is when it judges. In The Dog Register the norm that decided was written by the maker at making time, before any judge or swap existed."
   }
  ]
 }

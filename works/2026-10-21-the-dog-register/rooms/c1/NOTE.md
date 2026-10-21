@@ -1,0 +1,3 @@
+# Fell
+
+Every dog on the Zürich register is one small square, painted in the coat colour the register writes down for it (schwarz, weiss, braun, apricot, and so on, with mixed coats split into bands). The squares are stacked by the dog's year of birth, darkest at the foot, so the columns rise as a histogram of the city's living dogs, with the pandemic puppies of 2020 and 2021 standing tallest. Coats recorded as "unbestimmt" stay hollow, and they gather at the top of each column. Those outlines grow year by year until, for every dog born in 2025 and 2026, the column is only outline: the newest dogs are counted, but the register has not written down a colour for any of them.
