@@ -1,0 +1,13 @@
+[
+ {
+  "file": "sources/KUL100OD1003.csv",
+  "url": "https://data.stadt-zuerich.ch/dataset/sid_stapo_aktueller_hundebestand_monat_od1003/download/KUL100OD1003.csv",
+  "fetched": "2026-10-21",
+  "http_status": 200,
+  "bytes": 2456873,
+  "sha256": "c4279791fa0279c64cee3572e91843368ed094f9232ab9f5d34f2a674f340294",
+  "what": "Aktueller Hundebestand der Stadt Zürich: the city's dog register on the reference day 2026-09-30, one row per dog, 10,106 dogs, 35 columns (owner's age group, sex and statistical quarter; the dog's breeds, breed type, sex, birth year, age and colour). Kept by the Hundekontrolle of the Stadtpolizei Zürich, published by Open Data Zürich (Statistik Stadt Zürich). Dataset page: https://data.stadt-zuerich.ch/dataset/sid_stapo_aktueller_hundebestand_monat_od1003",
+  "rights": "Committed: the dataset's licence is Creative Commons CCZero (license_id 'cc-zero' in https://data.stadt-zuerich.ch/api/3/action/package_show?id=sid_stapo_aktueller_hundebestand_monat_od1003, read 2026-10-21). The register gives no owner's name or address; HID is a holder number, and the place is a statistical quarter of the city.",
+  "why": "Tonight's material: a table no reader can check from memory, so that a judge's refusal of a misstating page cannot rest on what it already knows of the material (S145.BINDING, Session 145's thread 2)."
+ }
+]
