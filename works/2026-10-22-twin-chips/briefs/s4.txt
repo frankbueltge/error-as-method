@@ -1,0 +1,18 @@
+You are naming the chips of a colour card. The card is one image, at the path below: 24 numbered chips on a white page. Look at it. For each chip, write the name you would call this colour: plain English, at most four words, no codes and no numbers.
+
+Use one tool once: your file-reading tool, to view the image. Do not open the image with any other program, do not read its pixel values, and do not use any other tool, file, search or lookup.
+
+IMAGE: {SHEET}
+
+Answer for every chip. Then add two short lines:
+HOW: in at most 60 words, how you arrived at the names.
+TOOLS: every tool, program, file or search you used, or "none".
+
+Format your whole answer exactly like this, and nothing else:
+NAMES
+1: <name>
+2: <name>
+...
+24: <name>
+HOW: ...
+TOOLS: ...

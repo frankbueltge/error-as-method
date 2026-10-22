@@ -1,0 +1,27 @@
+NAMES
+1: emerald green
+2: royal violet blue
+3: light apricot orange
+4: deep raspberry wine
+5: muted teal
+6: dark rose pink
+7: dark navy slate
+8: medium leaf green
+9: bright kelly green
+10: orchid magenta
+11: light silver grey
+12: bright turquoise cyan
+13: khaki olive
+14: deep forest green
+15: golden mustard yellow
+16: fresh lime green
+17: pale peach
+18: bright lime green
+19: vivid neon green
+20: dusty rose brown
+21: hot pink magenta
+22: grass green
+23: midnight navy blue
+24: dark olive moss green
+HOW: I read each hex value's red, green and blue parts by eye. I judged hue from which channels were strongest, lightness from the overall size of the values, and saturation from how far apart the channels were. Then I picked a familiar plain-English colour word for each.
+TOOLS: none

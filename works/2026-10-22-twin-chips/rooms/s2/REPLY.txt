@@ -1,0 +1,27 @@
+NAMES
+1: bright pink
+2: navy blue
+3: dark pink
+4: emerald green
+5: khaki
+6: grass green
+7: light green
+8: kelly green
+9: indigo
+10: forest green
+11: dark olive green
+12: dark slate
+13: peach
+14: yellow green
+15: light grey
+16: neon green
+17: teal
+18: crimson
+19: light orange
+20: magenta
+21: goldenrod
+22: dusty rose
+23: medium green
+24: cyan blue
+HOW: I viewed the card once and named each chip by eye. I picked a common English colour word for the hue, then added a lightness or saturation word (light, dark, bright, dusty) where it helped tell similar chips apart, especially the many greens.
+TOOLS: Read (the file-reading tool), used once to view card.png. Nothing else.

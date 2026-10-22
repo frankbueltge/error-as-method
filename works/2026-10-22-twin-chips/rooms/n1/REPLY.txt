@@ -1,0 +1,27 @@
+NAMES
+1: khaki olive
+2: indigo violet
+3: grass green
+4: muted teal
+5: emerald green
+6: turquoise cyan
+7: bright neon green
+8: soft lime green
+9: golden mustard yellow
+10: light peach
+11: raspberry pink
+12: kelly green
+13: yellowish lime green
+14: light silver grey
+15: medium leaf green
+16: dark olive green
+17: orchid magenta
+18: dark navy charcoal
+19: dusty rose brown
+20: light tangerine orange
+21: bright pink magenta
+22: deep forest green
+23: midnight navy blue
+24: deep burgundy crimson
+HOW: I read each hex value in my head. I estimated the red, green and blue levels, the hue, how light it was and how saturated. Then I matched that to common English colour words, adding a modifier for lightness or brightness.
+TOOLS: none

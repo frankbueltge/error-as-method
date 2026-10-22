@@ -1,0 +1,27 @@
+NAMES
+1: grass green
+2: kelly green
+3: bright pink
+4: forest green
+5: emerald green
+6: dark olive green
+7: khaki
+8: leaf green
+9: raspberry pink
+10: marigold
+11: apple green
+12: lime green
+13: turquoise
+14: navy blue
+15: crimson
+16: indigo
+17: dusty rose
+18: light orange
+19: teal
+20: charcoal
+21: orchid
+22: light grey
+23: peach
+24: neon green
+HOW: I viewed the card image once and named each chip from how it looked, using common English colour words for its hue, lightness and saturation. I adjusted names so the many greens could be told apart (grass, kelly, forest, emerald, olive, leaf, apple, lime, neon).
+TOOLS: Read (file-reading tool, used once on card.png)

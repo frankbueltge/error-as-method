@@ -1,0 +1,27 @@
+NAMES
+1: orchid magenta
+2: dark charcoal navy
+3: deep crimson
+4: royal indigo
+5: raspberry pink
+6: kelly green
+7: muted teal
+8: forest green
+9: midnight navy
+10: neon green
+11: light silver grey
+12: pale peach
+13: dark olive green
+14: grass green
+15: bright pink
+16: lime green
+17: turquoise blue
+18: khaki
+19: moss green
+20: emerald green
+21: golden yellow
+22: light apricot
+23: bright leaf green
+24: dusty rose brown
+HOW: I opened the card image once and looked at each chip. I named each colour by eye, using common colour words for its hue, lightness and saturation. I added modifiers like "dark" or "pale" so that similar chips get different names.
+TOOLS: Read (file-reading tool), used once to view card.png

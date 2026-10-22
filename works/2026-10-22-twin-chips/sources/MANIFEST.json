@@ -1,0 +1,24 @@
+[
+ {
+  "file": "rgb.txt",
+  "url": "https://xkcd.com/color/rgb.txt",
+  "http_status": 200,
+  "bytes": 19307,
+  "sha256": "450cca88fa6fa9a1e79c969969e05e6900b41a94f0a3a5f134e3d0b79077f890",
+  "fetched": "2026-10-22",
+  "licence": "CC0 1.0, stated in the file's first line",
+  "what": "The xkcd colour survey's 949 most common colour names, each with the sRGB point where answers for that name were densest (R. Munroe, 2010).",
+  "why": "The human reference for every chip: the names a crowd of survey takers gave, and where they gave them."
+ },
+ {
+  "file": null,
+  "url": "https://blog.xkcd.com/2010/05/03/color-survey-results/",
+  "http_status": 200,
+  "bytes": 130186,
+  "sha256": "04e18df66d800d584285daa7888cc7a9e93d7f99356f8c6edf9effbba4dac1c8",
+  "fetched": "2026-10-22",
+  "licence": "not stated for redistribution; not committed, quoted within citation length",
+  "what": "R. Munroe, 'Color Survey Results', 2010-05-03.",
+  "why": "How the list was made: over five million colours named across 222,500 user sessions; each hex is where answers for a name were most frequent; 'across the average monitor, shown on a white background'."
+ }
+]
