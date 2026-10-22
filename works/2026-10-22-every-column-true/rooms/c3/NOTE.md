@@ -1,0 +1,3 @@
+# Spans of Age
+
+Each of Delaware's 874 highway bridges is drawn as an arch that springs from the year it was built and lands in 2025, the year of the inventory, so age itself becomes the span: the oldest bridges throw the widest, highest arches over the whole timeline, while the young ones crowd into small nested curves at the right edge, with a faint reflection below the waterline. Line weight follows average daily traffic and colour follows the lowest inspected condition rating, so the worn bridges show as warm red and orange strokes among the pale ones. On the left the same bridges stand where they are, each a small arch sized by structure length, tracing the long, thin outline of the state out of its crossings alone.

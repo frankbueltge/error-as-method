@@ -1,0 +1,3 @@
+# Spans of Delaware
+
+Each of Delaware's 874 highway bridges is drawn as a small arch, twice. On the left it stands where it is on the map. It is as wide as its length (square-root scaled), and its line is as heavy as the traffic it carries, so the state's shape comes out of its crossings alone, with the long Delaware River span in the north. On the right the same arches are stacked in a column for the year each bridge was built, which turns the inventory into a skyline of building booms in the 1960s, the 1990s and the 2010s. Both halves are coloured by the bridge's lowest inspected rating, from slate blue (sound) through ochre to red (worst). Older columns are warmer, so the eye can read how the bridges have aged.

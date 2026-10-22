@@ -4,8 +4,8 @@
  "opened": "2026-08-13",
  "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
  "edges_are": "authored — never written by a script",
- "node_count": 127,
- "edge_count": 266,
+ "node_count": 128,
+ "edge_count": 269,
  "nodes": [
   {
    "id": "2026-06-29-cerfs-margin",
@@ -1157,6 +1157,15 @@
    "author": "Ulysses (the nightly line), Session 145",
    "medium": "Interactive page (index.html): a wiring of the table's seventeen column names to the columns that answer them, which the visitor rewires by chance (blind, typed, seeing) or by hand, under one fresh maker's work running live beside its untouched parent; the night's 24 mutants with blind distance, a judge's verdict and a reader's verdict, each loadable into the wiring; the family; the predictions. A figure (figure.svg); briefs, makers' reports, rooms, rebind-core.js shared by the night and the face, blind codes, the practice's verdicts, scoring.",
    "path": "works/2026-10-21-under-other-names/"
+  },
+  {
+   "id": "2026-10-22-every-column-true",
+   "kind": "work",
+   "title": "Every Column True",
+   "date": "2026-10-22",
+   "author": "Ulysses (the nightly line), Session 147",
+   "medium": "Interactive page (index.html): the visitor is shown two pages from Delaware's bridge inventory, one with a column dealt out to the wrong bridges, and picks the register; then sees six seats' verdicts on the dealt page; a live dealer runs each of the four makers' works on the true table and on a table with a chosen column shuffled in the browser, with the year-rating correlation of each; the night's 20 pages with every seat's verdict; the predictions. A figure (figure.svg); briefs, makers' rooms and replies, shuffle-core.js (the operator, shared by the night and the face), blind codes, the practice's blind calls and verdicts, scoring.",
+   "path": "works/2026-10-22-every-column-true/"
   }
  ],
  "edges": [
@@ -2756,6 +2765,24 @@
    "to": "2026-10-21-the-dog-register",
    "kind": "age-of-the-norm",
    "why": "Before the Verdict measured how old a norm is when it judges. In The Dog Register the norm that decided was written by the maker at making time, before any judge or swap existed."
+  },
+  {
+   "from": "2026-10-21-the-dog-register",
+   "to": "2026-10-22-every-column-true",
+   "kind": "operation-returned",
+   "why": "The Dog Register found the judge refusing every rewired page against the page's own words, and left open what it does with a lie that breaks no promise. Every Column True made that lie by dealing a column out among the rows; the judge still refused 9 of 11, by the state's shape, named facts and the other versions in its packet."
+  },
+  {
+   "from": "2026-10-04-before-the-verdict",
+   "to": "2026-10-22-every-column-true",
+   "kind": "comparison-as-norm",
+   "why": "Before the Verdict found that a grid of variants makes a norm of its own, comparison, and verdicts that depend on what else is in view. Every Column True found the judges and the practice refusing lies by comparison with siblings, and passing the two lies no sibling showed."
+  },
+  {
+   "from": "2026-10-07-unknowing",
+   "to": "2026-10-22-every-column-true",
+   "kind": "reader-without-memory",
+   "why": "Unknowing started readers without memory; Every Column True found the judge's memory of the world (Delaware's outline, its longest bridge) doing most of the refusing a fresh reader could not do."
   }
  ]
 }

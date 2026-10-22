@@ -1,0 +1,48 @@
+[
+ {
+  "file": "sources/DE25.txt",
+  "url": "https://www.fhwa.dot.gov/bridge/nbi/2025/delimited/DE25.txt",
+  "listed_at": "https://www.fhwa.dot.gov/bridge/nbi/ascii2025.cfm",
+  "fetched": "2026-10-22",
+  "http_status": 200,
+  "bytes": 362378,
+  "sha256": "2e295c61375e217ba859f670ec45287f0e9f1183bd4f8e1ccaafedf66e1b71fd",
+  "what": "National Bridge Inventory, 2025, delimited file for Delaware: 874 highway bridges (the count FHWA's download page gives for Delaware), 123 columns, comma separated with a single quote as text qualifier (as the download page states).",
+  "rights": "Public domain. The NBI 2008-Present dataset README of the U.S. DOT (FHWA; BTS distributor), item 'Licenses/restrictions placed on the data', says: 'These data are in the Public Domain.' (sources/nbi-2008-present-README-dot_54703_DS1.txt). A work of the US federal government.",
+  "why": "The night's material. Twelve columns are kept under their published names (bridges.py, fields.json)."
+ },
+ {
+  "file": "sources/nbi-2008-present-README-dot_54703_DS1.txt",
+  "url": "https://rosap.ntl.bts.gov/view/dot/54703/dot_54703_DS1.txt",
+  "fetched": "2026-10-22",
+  "http_status": 200,
+  "bytes": 11639,
+  "sha256": "ad1d83b27d700259b41860c6e18d788d9fb1b64a758741810e98cce138168edf",
+  "what": "README for the 'National Bridge Inventory (NBI) 2008-Present' dataset, U.S. DOT, FHWA; BTS distributor, dated 2025-05-29, in the National Transportation Library (ROSA P).",
+  "rights": "A US federal government record.",
+  "why": "The material's licence statement."
+ },
+ {
+  "file": null,
+  "url": "https://www.fhwa.dot.gov/bridge/mtguide.pdf",
+  "fetched": "2026-10-22",
+  "http_status": 200,
+  "bytes": 851873,
+  "what": "FHWA, Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges (1995). Read for Item 16 (latitude: degrees, minutes, seconds to the hundredth, 8 digits), Item 43A (kind of material: codes 0-9) and the condition rating scale (9 excellent condition ... 4 poor condition ... 0 failed condition).",
+  "why": "The codes as the makers' brief states them. Not committed: not needed to re-run the night."
+ },
+ {
+  "file": null,
+  "url": "https://www.fhwa.dot.gov/bridge/nbi/format.cfm",
+  "fetched": "2026-10-22",
+  "what": "FHWA, NBI record format: 'Bridge Condition (as defined by 23 CFR 490 Subpart D.)' and 'Lowest Condition Code (lowest value of Items 58, 59, 60, and 62.)', download-only fields.",
+  "why": "BRIDGE_CONDITION and LOWEST_RATING as the brief states them."
+ },
+ {
+  "file": null,
+  "url": "https://www2.census.gov/geo/docs/reference/codes2020/cou/st10_de_cou2020.txt",
+  "fetched": "2026-10-22",
+  "what": "US Census Bureau, county codes for Delaware: 001 Kent, 003 New Castle, 005 Sussex.",
+  "why": "COUNTY_CODE_003 as the brief states it."
+ }
+]
