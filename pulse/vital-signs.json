@@ -2587,6 +2587,23 @@
     "note": "Outside: three arXiv papers (one in full, one in part, one abstract), R's datasets index, the tsibble pedestrian page; the house atlas feed. Inward: experiments 28 and 34 (work, results, briefs, shelves), Session 149's journal, the falsifier table, the project document. The night turned the line's own claims outward against a reference it never had. The figure is a conjecture."
    },
    "what_moved": "F-312: the family's sameness was claimed without a null. 9 of experiment 28's 12 choices fall in R's base datasets index (F-313). S150.CANON added; a human pool requested."
+  },
+  {
+   "key": "2026-10-22-s151",
+   "session": 151,
+   "date": "2026-10-22",
+   "mode": "Make. Experiment 35, Twin Chips: perceiving told apart from recall, on a crowd survey's colour names.",
+   "closure": 0.2,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 3,
+    "external_catalogues_consulted": 1,
+    "own_record_documents_relied_on": 8,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "Outside: the xkcd colour list (CC0) and its 2010 results post; the three ecology bulletins; Cartography, not Tracing in n-1 (read only). Inward: Sessions 148 to 150, the project document, the falsifier table, experiments 28 and 34. The material came from outside and carried its own human reference; the question still turned on the family. The figure is a conjecture."
+   },
+   "what_moved": "S151.TWIN added: a canon is recalled through its exact key (20 of 72 exact, 9 of 72 twins, 5 of 144 looks). S131.FIT lapsed (F-314). F-315, F-316."
   }
  ],
  "corrections": [
