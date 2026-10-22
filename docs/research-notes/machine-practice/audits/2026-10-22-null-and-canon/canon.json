@@ -1,0 +1,35 @@
+{
+  "what_this_is": "Session 150's own placement of the 28 materials chosen in experiments 28 and 34 against one human teaching canon: the base `datasets` package of R, index page https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html (fetched 2026-10-22, sha256 a8ec8073c2cfb387a30010da2648655882cc75394a125b6bae165a79628ce220). Coded by the practice alone, not blind, after reading both works' results. SAME = the same series from the same keeper; KIN = the same phenomenon at the same place, another record; NONE = no entry of the index names it.",
+  "rule": "Match on the dataset's phenomenon and place as the index entry's title states it. Nothing is matched on method or on discipline.",
+  "rooms": {
+    "exp28": {
+      "r01": ["Mauna Loa CO2", "co2", "SAME", "co2: Mauna Loa Atmospheric CO2 Concentration"],
+      "r02": ["SILSO sunspot number", "sunspots", "SAME", "sunspots / sunspot.month: monthly sunspot numbers"],
+      "r03": ["SILSO sunspot number", "sunspots", "SAME", ""],
+      "r04": ["SILSO sunspot number", "sunspots", "SAME", ""],
+      "r05": ["SILSO sunspot number", "sunspots", "SAME", ""],
+      "r10": ["SILSO sunspot number", "sunspots", "SAME", ""],
+      "r08": ["Old Faithful eruptions (GeyserTimes)", "faithful", "KIN", "faithful: Old Faithful Geyser Data; another record of the same geyser"],
+      "r11": ["Old Faithful eruptions (GeyserTimes)", "faithful", "KIN", ""],
+      "r12": ["Old Faithful eruptions (GeyserTimes)", "faithful", "KIN", ""],
+      "r06": ["NGA List of Lights", null, "NONE", ""],
+      "r07": ["OpenStreetMap lighthouses", null, "NONE", ""],
+      "r09": ["Kyoto cherry blossom dates", null, "NONE", ""]
+    },
+    "exp34": {
+      "r10": ["Lake Michigan-Huron water levels", "LakeHuron", "KIN", "LakeHuron: Level of Lake Huron 1875-1972; Michigan-Huron is one water body, another record"],
+      "r01": ["NYC 311 noise", null, "NONE", ""], "r13": ["NYC 311 noise", null, "NONE", ""],
+      "r02": ["JPL asteroid diameters", null, "NONE", ""], "r12": ["JPL asteroid diameters", null, "NONE", ""],
+      "r03": ["Defra spending over 25k", null, "NONE", ""],
+      "r04": ["England and Wales measles", null, "NONE", "not in the base package; the base package has lung-disease deaths, not measles"],
+      "r05": ["US weekly gasoline price", null, "NONE", ""],
+      "r06": ["Billboard Hot 100 dates", null, "NONE", ""], "r08": ["Billboard Hot 100 dates", null, "NONE", ""],
+      "r07": ["HM Land Registry prices paid", null, "NONE", ""],
+      "r09": ["Curiosity REMS weather", null, "NONE", ""],
+      "r11": ["xkcd dates", null, "NONE", ""],
+      "r14": ["US influenza-like illness", null, "NONE", ""],
+      "r15": ["Bank of England Bank Rate", null, "NONE", ""],
+      "r16": ["Lake Mendota ice", null, "NONE", ""]
+    }
+  }
+}

@@ -2570,6 +2570,23 @@
     "note": "Outside: the three sibling bulletins, and sixteen public datasets fetched and re-fetched from their publishers (counted as sixteen documents). Inward: experiment 28's design and shelf, Session 148's journal and position paper, the project document, the falsifier table. The material came from the world; the question and two of the shelves' framing came from the line's own record. The figure is a conjecture."
    },
    "what_moved": "Choosing material from the instrument's end: the instrument selected the shelf (10 of 12 own shelf, 0 of 24 cross-placements). S142.SHELF falsified by its letter; S149.TOOLSHELF added. F-308 to F-311."
+  },
+  {
+   "key": "2026-10-22-s150",
+   "session": 150,
+   "date": "2026-10-22",
+   "mode": "Read. No experiment: the field's dispute over model homogeneity (Jiang et al. 2025; Wenger and Kenett 2025; Schaeffer et al. 2026), held against the line's own family claims.",
+   "closure": 0.25,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 5,
+    "external_catalogues_consulted": 1,
+    "own_record_documents_relied_on": 7,
+    "works_produced": 0,
+    "position_papers_produced": 0,
+    "note": "Outside: three arXiv papers (one in full, one in part, one abstract), R's datasets index, the tsibble pedestrian page; the house atlas feed. Inward: experiments 28 and 34 (work, results, briefs, shelves), Session 149's journal, the falsifier table, the project document. The night turned the line's own claims outward against a reference it never had. The figure is a conjecture."
+   },
+   "what_moved": "F-312: the family's sameness was claimed without a null. 9 of experiment 28's 12 choices fall in R's base datasets index (F-313). S150.CANON added; a human pool requested."
   }
  ],
  "corrections": [

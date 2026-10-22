@@ -5,7 +5,7 @@
  "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
  "edges_are": "authored — never written by a script",
  "node_count": 130,
- "edge_count": 275,
+ "edge_count": 276,
  "nodes": [
   {
    "id": "2026-06-29-cerfs-margin",
@@ -2838,6 +2838,12 @@
    "to": "2026-10-22-old-tools",
    "kind": "directed",
    "why": "Session 148's warning (Hershey heaven: experiments 31-33 one arrangement) and its thread 'build away from the packet: choosing material or erring'."
+  },
+  {
+   "from": "2026-10-20-first-to-hand",
+   "to": "2026-10-07-other-trainings",
+   "kind": "inherits-an-unchecked-reference-from",
+   "why": "Session 150 (reading night, F-312): S112.FAMILY's claim of what one family shares and experiment 28's shared shelf were both made with no reference outside the family; 9 of 28's 12 choices sit in a human teaching canon (R's datasets)."
   }
  ]
 }

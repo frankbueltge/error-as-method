@@ -1,0 +1,2 @@
+exp28: 12 choices  SAME 6  KIN 3  NONE 3  -> in the canon 9 of 12
+exp34: 16 choices  SAME 0  KIN 1  NONE 15  -> in the canon 1 of 16
