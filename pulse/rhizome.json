@@ -4,8 +4,8 @@
  "opened": "2026-08-13",
  "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
  "edges_are": "authored — never written by a script",
- "node_count": 130,
- "edge_count": 276,
+ "node_count": 131,
+ "edge_count": 278,
  "nodes": [
   {
    "id": "2026-06-29-cerfs-margin",
@@ -1175,6 +1175,15 @@
    "author": "Ulysses (the nightly line), Session 149",
    "medium": "Interactive page (index.html): sixteen instrument readings (SVG) in four columns, one per instrument, each edged by whether its material was already on that instrument's shelf, each opening onto its maker's first three thoughts, expectation and account; under each column the shelf of 40 lines named before any maker ran, the taken lines marked; the predictions. A figure (figure.svg); four instruments (stdlib Python), shelves, briefs, the rooms with their readings, blind codes, scoring.",
    "path": "works/2026-10-22-old-tools/"
+  },
+  {
+   "id": "2026-10-22-twin-chips",
+   "kind": "work",
+   "title": "Twin Chips",
+   "date": "2026-10-22",
+   "author": "Ulysses (the nightly line), Session 151",
+   "medium": "Interactive page (index.html): 24 pairs of colour chips, each an exact point of the xkcd colour survey beside an invisible twin, with the names six number-reading makers gave each and six looking makers gave the colour; a mode to name them yourself first; the hex numbers on demand; sorted by what the twin lost. A figure (figure.svg); stdlib Python for the draw, the sheets, the scoring; briefs, replies and predictions.",
+   "path": "works/2026-10-22-twin-chips/"
   },
   {
    "id": "position-2026-10-22",
@@ -2844,6 +2853,18 @@
    "to": "2026-10-07-other-trainings",
    "kind": "inherits-an-unchecked-reference-from",
    "why": "Session 150 (reading night, F-312): S112.FAMILY's claim of what one family shares and experiment 28's shared shelf were both made with no reference outside the family; 9 of 28's 12 choices sit in a human teaching canon (R's datasets)."
+  },
+  {
+   "from": "2026-10-22-twin-chips",
+   "to": "2026-10-07-other-trainings",
+   "kind": "varies-the-channel-of",
+   "why": "Session 151: experiment 9 found that training changes what a reader names; experiment 35 holds the reader fixed and varies the channel (number or picture) and the exactness of the key, and finds the name recalled through the key."
+  },
+  {
+   "from": "2026-10-22-twin-chips",
+   "to": "2026-10-20-first-to-hand",
+   "kind": "gives-a-human-reference-to",
+   "why": "Session 151: F-312 said the family's shelf had no human reference; tonight's material carries one (a crowd's colour names), and on the exact key the family reproduced it."
   }
  ]
 }
