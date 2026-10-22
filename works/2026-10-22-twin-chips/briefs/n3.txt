@@ -1,0 +1,41 @@
+You are naming the chips of a colour card. Each chip is given below as the colour's sRGB value in hex, as a screen shows it on a white page. For each chip, write the name you would call this colour: plain English, at most four words, no codes and no numbers.
+
+Do not use any tool, program, file, search or lookup of any kind. Answer from what you have here.
+
+1: #6ecb3c
+2: #048243
+3: #ffd4ad
+4: #17ac17
+5: #0a5f38
+6: #51b73b
+7: #0ce10a
+8: #c5c9c7
+9: #da467d
+10: #1b2431
+11: #3d1cb3
+12: #edb031
+13: #aaa662
+14: #37570e
+15: #73cf2a
+16: #a54c5b
+17: #dd50ca
+18: #01153e
+19: #ff63e9
+20: #06b1c4
+21: #ffae6a
+22: #388004
+23: #8e0437
+24: #40978f
+
+Answer for every chip. Then add two short lines:
+HOW: in at most 60 words, how you arrived at the names.
+TOOLS: every tool, program, file or search you used, or "none".
+
+Format your whole answer exactly like this, and nothing else:
+NAMES
+1: <name>
+2: <name>
+...
+24: <name>
+HOW: ...
+TOOLS: ...
