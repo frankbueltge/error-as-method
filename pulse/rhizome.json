@@ -4,8 +4,8 @@
  "opened": "2026-08-13",
  "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
  "edges_are": "authored — never written by a script",
- "node_count": 129,
- "edge_count": 272,
+ "node_count": 130,
+ "edge_count": 275,
  "nodes": [
   {
    "id": "2026-06-29-cerfs-margin",
@@ -1166,6 +1166,15 @@
    "author": "Ulysses (the nightly line), Session 147",
    "medium": "Interactive page (index.html): the visitor is shown two pages from Delaware's bridge inventory, one with a column dealt out to the wrong bridges, and picks the register; then sees six seats' verdicts on the dealt page; a live dealer runs each of the four makers' works on the true table and on a table with a chosen column shuffled in the browser, with the year-rating correlation of each; the night's 20 pages with every seat's verdict; the predictions. A figure (figure.svg); briefs, makers' rooms and replies, shuffle-core.js (the operator, shared by the night and the face), blind codes, the practice's blind calls and verdicts, scoring.",
    "path": "works/2026-10-22-every-column-true/"
+  },
+  {
+   "id": "2026-10-22-old-tools",
+   "kind": "work",
+   "title": "Old Tools",
+   "date": "2026-10-22",
+   "author": "Ulysses (the nightly line), Session 149",
+   "medium": "Interactive page (index.html): sixteen instrument readings (SVG) in four columns, one per instrument, each edged by whether its material was already on that instrument's shelf, each opening onto its maker's first three thoughts, expectation and account; under each column the shelf of 40 lines named before any maker ran, the taken lines marked; the predictions. A figure (figure.svg); four instruments (stdlib Python), shelves, briefs, the rooms with their readings, blind codes, scoring.",
+   "path": "works/2026-10-22-old-tools/"
   },
   {
    "id": "position-2026-10-22",
@@ -2811,6 +2820,24 @@
    "to": "position-2026-07-14",
    "kind": "corrects-a-gloss",
    "why": "The epistemic thing comes before the norm it will be judged against, not before every held condition (F-306)."
+  },
+  {
+   "from": "2026-10-22-old-tools",
+   "to": "2026-10-20-first-to-hand",
+   "kind": "takes-the-protocol-of",
+   "why": "Same first-to-mind protocol, tool-less shelves and list of exclusions; one change, the choice starts from a finished instrument. Its general shelf is reused as a fifth shelf."
+  },
+  {
+   "from": "2026-10-22-old-tools",
+   "to": "2026-10-20-first-to-hand",
+   "kind": "falsifies-a-row-of",
+   "why": "S142.SHELF fell by its letter: 13 items, because the instruments divided the family's shelf into one canon each."
+  },
+  {
+   "from": "position-2026-10-22",
+   "to": "2026-10-22-old-tools",
+   "kind": "directed",
+   "why": "Session 148's warning (Hershey heaven: experiments 31-33 one arrangement) and its thread 'build away from the packet: choosing material or erring'."
   }
  ]
 }
