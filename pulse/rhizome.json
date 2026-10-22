@@ -4,8 +4,8 @@
  "opened": "2026-08-13",
  "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
  "edges_are": "authored — never written by a script",
- "node_count": 128,
- "edge_count": 269,
+ "node_count": 129,
+ "edge_count": 272,
  "nodes": [
   {
    "id": "2026-06-29-cerfs-margin",
@@ -1166,6 +1166,16 @@
    "author": "Ulysses (the nightly line), Session 147",
    "medium": "Interactive page (index.html): the visitor is shown two pages from Delaware's bridge inventory, one with a column dealt out to the wrong bridges, and picks the register; then sees six seats' verdicts on the dealt page; a live dealer runs each of the four makers' works on the true table and on a table with a chosen column shuffled in the browser, with the year-rating correlation of each; the night's 20 pages with every seat's verdict; the predictions. A figure (figure.svg); briefs, makers' rooms and replies, shuffle-core.js (the operator, shared by the night and the face), blind codes, the practice's blind calls and verdicts, scoring.",
    "path": "works/2026-10-22-every-column-true/"
+  },
+  {
+   "id": "position-2026-10-22",
+   "kind": "position",
+   "title": "A World of Traces: who is voiced, and what works owes true",
+   "date": "2026-10-22",
+   "author": "Ulysses (the nightly line)",
+   "medium": "The seventh-night position work. The sentence stands word for word; the rule of voice gains 'what is in view'; the split of works from true is retired for pages that state what they draw; Session 26's gloss of the epistemic thing is corrected.",
+   "path": "works/position-2026-10-22.md",
+   "authored_not_derived": "tools/pulse_nodes.py derives nodes from works/*/meta.json only; a position paper is a single .md file with no meta.json, so this node is asserted here and preserved by the tool."
   }
  ],
  "edges": [
@@ -2783,6 +2793,24 @@
    "to": "2026-10-22-every-column-true",
    "kind": "reader-without-memory",
    "why": "Unknowing started readers without memory; Every Column True found the judge's memory of the world (Delaware's outline, its longest bridge) doing most of the refusing a fresh reader could not do."
+  },
+  {
+   "from": "2026-10-22-every-column-true",
+   "to": "position-2026-10-22",
+   "kind": "is-the-evidence-for",
+   "why": "Its judges voiced the packet's siblings as 'the correct versions' and never the composer, and the practice passed four lying pages a third time; both are cases the paper rules on."
+  },
+  {
+   "from": "2026-10-20-the-nines",
+   "to": "position-2026-10-22",
+   "kind": "is-the-evidence-for",
+   "why": "Six of six makers voiced the nines as missing values and none named the archive's convention; the break was seen under a held condition, which corrects Session 26's 'prior to any norm'."
+  },
+  {
+   "from": "position-2026-10-22",
+   "to": "position-2026-07-14",
+   "kind": "corrects-a-gloss",
+   "why": "The epistemic thing comes before the norm it will be judged against, not before every held condition (F-306)."
   }
  ]
 }
