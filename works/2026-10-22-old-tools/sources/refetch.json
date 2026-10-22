@@ -1,0 +1,18 @@
+{
+ "r01": {"ok": true, "how": "Socrata count of complaint types beginning 'Noise' on 2025-07-04 = 3313, equal to the room's row"},
+ "r02": {"ok": true, "how": "SBDB Query API re-run with diameter defined: count 139688, equal to the room's rows"},
+ "r03": {"ok": true, "how": "January 2025 file re-fetched (200): 1228 data rows, equal to the room's 2025-01 rows; the room's first row (-49915.20, Phoenix Software) found in it"},
+ "r04": {"ok": true, "how": "60measles.txt re-fetched; SHA-256 identical to the maker's download (10fbed070efff17f...)"},
+ "r05": {"ok": true, "how": "FRED GASREGW CSV re-fetched; last rows (2026-10-12 4.331, 2026-10-19 4.284) identical"},
+ "r06": {"ok": true, "how": "valid_dates.json re-fetched: 3560 dates, 1958-08-04 to 2026-10-24, equal to the room's 3560 rows"},
+ "r07": {"ok": true, "how": "monthly update file re-fetched (15,840,574 bytes): 90,867 records, 86,284 with record status A, equal to the room's rows"},
+ "r08": {"ok": true, "how": "hot-100-current.csv re-fetched: 3560 distinct chart_week values, equal to the room's rows"},
+ "r09": {"ok": true, "how": "REMS weather feed re-fetched: 4745 sols, 2012-08-07 to 2026-08-25, equal to the room's rows"},
+ "r10": {"ok": true, "how": "the Committee's Michigan-Huron file re-fetched via its Google Drive link: 1918-01 176.71, 2013-01 175.57, 2013-02 175.61 equal to the room"},
+ "r11": {"ok": true, "how": "xkcd.com/archive re-fetched: 3313 dated links, equal to the room's rows"},
+ "r12": {"ok": true, "how": "as r02: count 139688"},
+ "r13": {"ok": true, "how": "Socrata count of 'Noise - Residential' on 2025-05-05 00:00-00:59 = 56, equal to the room's first row"},
+ "r14": {"ok": true, "how": "Delphi Epidata re-run 200240-202640: 1254 weeks, first and last wili equal to the room"},
+ "r15": {"ok": true, "how": "baserate.xls re-fetched (200, 1,171,156 bytes); NOT row-matched: no xls reader in this environment"},
+ "r16": {"ok": true, "how": "the Climatology Office page re-fetched; it gives 21 days (2001-02) as shortest, as the room's row does"}
+}

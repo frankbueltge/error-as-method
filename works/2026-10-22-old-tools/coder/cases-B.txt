@@ -1,0 +1,513 @@
+=== Y01
+EXPECTED (written before the run):
+Because nothing under £25,000 is published, the band 10,000–24,999 that normally supplies many 1s and 2s
+is missing, so I expect digit 1 to fall well below Benford's 30.1% and digits 2–4 to be over-represented,
+with a large chi-square. Digit 2 may be especially inflated by the many payments just above £25,000.
+
+INSTRUMENT OUTPUT:
+{
+ "column": "amount_gbp",
+ "n": 14264,
+ "skipped": 4,
+ "counts": [
+  3190,
+  2615,
+  2414,
+  1726,
+  1303,
+  1045,
+  783,
+  665,
+  523
+ ],
+ "shares": [
+  0.2236,
+  0.1833,
+  0.1692,
+  0.121,
+  0.0913,
+  0.0733,
+  0.0549,
+  0.0466,
+  0.0367
+ ],
+ "benford": [
+  0.301,
+  0.1761,
+  0.1249,
+  0.0969,
+  0.0792,
+  0.0669,
+  0.058,
+  0.0512,
+  0.0458
+ ],
+ "mad": 0.02091,
+ "chi_square_8df": 666.54,
+ "instrument": "FIRST DIGITS"
+}
+
+=== Y02
+EXPECTED (written before the run):
+I expect the strongest period to be 24 hours (complaints peak late at night), with the weekly
+period of 168 hours second, because weekend nights (parties) should be much louder than weeknights;
+a 12-hour harmonic may come third.
+
+INSTRUMENT OUTPUT:
+{
+ "column": "complaints",
+ "n": 4032,
+ "block": 1,
+ "step": "1 hour",
+ "strongest": [
+  {
+   "period_steps": 24.0,
+   "share_of_power": 0.2218
+  },
+  {
+   "period_steps": 168.0,
+   "share_of_power": 0.0855
+  },
+  {
+   "period_steps": 12.0,
+   "share_of_power": 0.0761
+  }
+ ],
+ "instrument": "CYCLES"
+}
+
+=== Y03
+EXPECTED (written before the run):
+A line that sits near $1 through the 1990s, climbs through the 2000s to a peak around $4 in mid-2008 and
+collapses at the end of that year, a second high plateau 2011-2014, a drop in 2015-2016 and a 2020 dip,
+then the sharp spike to about $5 in June 2022; I expect the last stretch in 2026 to be somewhere around $3-4.
+
+INSTRUMENT OUTPUT:
+{
+ "column": "GASREGW",
+ "n": 1882,
+ "skipped": 6,
+ "min": 0.907,
+ "max": 5.006,
+ "instrument": "PLOT"
+}
+
+=== Y04
+EXPECTED (written before the run):
+I expect a strong peak near 26 fortnights (one year, the school-term seasonality) and probably one near 52
+fortnights (two years), but less clean than London's biennial cycle, since in a small city measles fades out
+between epidemics and returns irregularly; long-period power may also be large.
+
+INSTRUMENT OUTPUT:
+{
+ "column": "cases",
+ "n": 598,
+ "block": 1,
+ "step": "fortnight",
+ "strongest": [
+  {
+   "period_steps": 54.36363636363637,
+   "share_of_power": 0.114
+  },
+  {
+   "period_steps": 26.0,
+   "share_of_power": 0.092
+  },
+  {
+   "period_steps": 74.75,
+   "share_of_power": 0.0402
+  }
+ ],
+ "instrument": "CYCLES"
+}
+
+=== Y05
+EXPECTED (written before the run):
+I expect the strongest period to be the year (about 365 days, summer nights being louder), followed by the week (7 days, with weekend peaks) and possibly its harmonic at 3.5 days. The year may dominate because the record holds less than seven years and the summer swing is large.
+
+INSTRUMENT OUTPUT:
+{
+ "column": "complaints",
+ "n": 2485,
+ "block": 1,
+ "step": "day",
+ "strongest": [
+  {
+   "period_steps": 7.0,
+   "share_of_power": 0.199
+  },
+  {
+   "period_steps": 355.0,
+   "share_of_power": 0.0832
+  },
+  {
+   "period_steps": 3.5,
+   "share_of_power": 0.0391
+  }
+ ],
+ "instrument": "CYCLES"
+}
+
+=== Y06
+EXPECTED (written before the run):
+Prices cluster between about £100,000 and £500,000, so I expect far too many 1s, 2s and 3s and far too
+few 5s to 9s compared with Benford, with a large chi-square; the digit 2 may even rival or beat 1.
+
+INSTRUMENT OUTPUT:
+{
+ "column": "price_gbp",
+ "n": 86284,
+ "skipped": 0,
+ "counts": [
+  21222,
+  22077,
+  16085,
+  9907,
+  5684,
+  3940,
+  2953,
+  2348,
+  2068
+ ],
+ "shares": [
+  0.246,
+  0.2559,
+  0.1864,
+  0.1148,
+  0.0659,
+  0.0457,
+  0.0342,
+  0.0272,
+  0.024
+ ],
+ "benford": [
+  0.301,
+  0.1761,
+  0.1249,
+  0.0969,
+  0.0792,
+  0.0669,
+  0.058,
+  0.0512,
+  0.0458
+ ],
+ "mad": 0.03537,
+ "chi_square_8df": 10362.93,
+ "instrument": "FIRST DIGITS"
+}
+
+=== Y07
+EXPECTED (written before the run):
+A cadence of 7 days kept almost everywhere, with a handful of irregular steps where Billboard moved the
+weekday the chart is dated (I recall a shift from Monday to Saturday dating around 1962), and possibly one
+or two gaps around holidays or missing issues in the archive.
+
+INSTRUMENT OUTPUT:
+{
+ "time_column": "chart_week",
+ "rows": 3560,
+ "unreadable_times": 0,
+ "cadence_seconds": 604800.0,
+ "cadence": "7 days",
+ "breaks": {
+  "gap": 2,
+  "irregular": 1
+ },
+ "largest_gaps": [
+  {
+   "after_row": 179,
+   "length": "12 days"
+  },
+  {
+   "after_row": 935,
+   "length": "8 days"
+  }
+ ],
+ "instrument": "GAPS"
+}
+
+=== Y08
+EXPECTED (written before the run):
+I expect a cadence of 1 day with a steady sprinkle of 2-day "gaps" roughly every 36-37 rows, where an Earth date is skipped because a sol is longer than a day, plus a few longer gaps for solar conjunctions (about every 26 months) and rover safe modes; possibly some "repeats" where two sols carry the same Earth date.
+
+INSTRUMENT OUTPUT:
+{
+ "time_column": "terrestrial_date",
+ "rows": 4745,
+ "unreadable_times": 0,
+ "cadence_seconds": 86400.0,
+ "cadence": "1 days",
+ "breaks": {
+  "gap": 182
+ },
+ "largest_gaps": [
+  {
+   "after_row": 2092,
+   "length": "31 days"
+  },
+  {
+   "after_row": 3797,
+   "length": "24 days"
+  },
+  {
+   "after_row": 192,
+   "length": "16 days"
+  },
+  {
+   "after_row": 2204,
+   "length": "15 days"
+  },
+  {
+   "after_row": 3175,
+   "length": "14 days"
+  }
+ ],
+ "instrument": "GAPS"
+}
+
+=== Y09
+EXPECTED (written before the run):
+Diameters run from tens of metres to ~940 km, so I expect a roughly Benford-shaped fall from 1 to 9, but
+with a distortion: the bulk of measured asteroids lie in a narrow band of a few kilometres (set by the
+survey's sensitivity), so I expect the digits 2-5 to be over-represented and 1 under-represented, with a
+large chi-square given ~140,000 values.
+
+INSTRUMENT OUTPUT:
+{
+ "column": "diameter_km",
+ "n": 139688,
+ "skipped": 0,
+ "counts": [
+  20445,
+  29872,
+  29658,
+  22441,
+  15162,
+  9620,
+  6044,
+  3793,
+  2653
+ ],
+ "shares": [
+  0.1464,
+  0.2138,
+  0.2123,
+  0.1607,
+  0.1085,
+  0.0689,
+  0.0433,
+  0.0272,
+  0.019
+ ],
+ "benford": [
+  0.301,
+  0.1761,
+  0.1249,
+  0.0969,
+  0.0792,
+  0.0669,
+  0.058,
+  0.0512,
+  0.0458
+ ],
+ "mad": 0.04892,
+ "chi_square_8df": 32434.48,
+ "instrument": "FIRST DIGITS"
+}
+
+=== Y10
+EXPECTED (written before the run):
+I expect a cadence of 7 days and almost no breaks, except for a handful of irregular steps (shorter than a
+week) where Billboard moved the weekday its issues are dated, most likely around 1962 when the dating changed
+from Mondays to Saturdays; I do not expect any real gaps.
+
+INSTRUMENT OUTPUT:
+{
+ "time_column": "chart_date",
+ "rows": 3560,
+ "unreadable_times": 0,
+ "cadence_seconds": 604800.0,
+ "cadence": "7 days",
+ "breaks": {
+  "gap": 1
+ },
+ "largest_gaps": [
+  {
+   "after_row": 179,
+   "length": "12 days"
+  }
+ ],
+ "instrument": "GAPS"
+}
+
+=== Y11
+EXPECTED (written before the run):
+A line of about 1,300 months with a fine yearly sawtooth (summer high, winter low, roughly 0.3 m)
+riding on slow multi-year swings of over a metre: lows in the mid-1930s and mid-1960s, highs around
+1952, 1973 and 1986, a long low stretch 1999 to 2013, the sharp rise to the 2020 peak, and a decline
+since.
+
+INSTRUMENT OUTPUT:
+{
+ "column": "level_m",
+ "n": 1305,
+ "skipped": 0,
+ "min": 175.57,
+ "max": 177.5,
+ "instrument": "PLOT"
+}
+
+=== Y12
+EXPECTED (written before the run):
+A long, nearly flat stretch near 4-5% through the eighteenth century (the usury laws capped the rate
+at 5% until 1833), then a nervous, spiky nineteenth century, the long "cheap money" floor of 2% from
+1932 to 1951, a single great mountain peaking at 17% in 1979, and a fall to almost nothing after 2009
+with a small bump in 2022-23.
+
+INSTRUMENT OUTPUT:
+{
+ "column": "bank_rate_pct",
+ "n": 3984,
+ "skipped": 0,
+ "min": 0.1,
+ "max": 17.0,
+ "instrument": "PLOT"
+}
+
+=== Y13
+EXPECTED (written before the run):
+The commonest interval will be 2 days (Monday to Wednesday, Wednesday to Friday), so every Friday to
+Monday weekend will show as a 3-day "gap" and the line will be densely red throughout; on top of
+that I expect a burst of repeats in January 2006 (the old sketches all dated on one day), a handful
+of longer gaps of a week or two, and a few irregular one-day steps from extra or out-of-schedule
+comics such as April Fools' interactives.
+
+INSTRUMENT OUTPUT:
+{
+ "time_column": "date",
+ "rows": 3313,
+ "unreadable_times": 0,
+ "cadence_seconds": 172800.0,
+ "cadence": "2 days",
+ "breaks": {
+  "repeat": 46,
+  "gap": 1098,
+  "irregular": 40
+ },
+ "largest_gaps": [
+  {
+   "after_row": 1662,
+   "length": "5 days"
+  },
+  {
+   "after_row": 635,
+   "length": "4 days"
+  },
+  {
+   "after_row": 961,
+   "length": "4 days"
+  },
+  {
+   "after_row": 1642,
+   "length": "4 days"
+  },
+  {
+   "after_row": 2287,
+   "length": "4 days"
+  }
+ ],
+ "instrument": "GAPS"
+}
+
+=== Y14
+EXPECTED (written before the run):
+A noisy line of roughly 170 winters, from about 160 days of ice in the 1800s down towards 40-70 days recently, with a slow downward drift and large year-to-year scatter; the very short winter of 2001-02 (21 days) should appear as the lowest point near the right.
+
+INSTRUMENT OUTPUT:
+{
+ "column": "ice_days",
+ "n": 171,
+ "skipped": 11,
+ "min": 21.0,
+ "max": 161.0,
+ "instrument": "PLOT"
+}
+
+=== Y15
+EXPECTED (written before the run):
+I expect the digits to fall roughly along Benford but not closely: because most measured asteroids
+are a few kilometres across (between about 1 and 10 km, with the survey's detection limit cutting off
+the small end), I expect too many 2s, 3s and 4s and too few 1s compared with Benford, and a large
+chi-square given ~140,000 numbers.
+
+INSTRUMENT OUTPUT:
+{
+ "column": "diameter_km",
+ "n": 139688,
+ "skipped": 0,
+ "counts": [
+  20445,
+  29872,
+  29658,
+  22441,
+  15162,
+  9620,
+  6044,
+  3793,
+  2653
+ ],
+ "shares": [
+  0.1464,
+  0.2138,
+  0.2123,
+  0.1607,
+  0.1085,
+  0.0689,
+  0.0433,
+  0.0272,
+  0.019
+ ],
+ "benford": [
+  0.301,
+  0.1761,
+  0.1249,
+  0.0969,
+  0.0792,
+  0.0669,
+  0.058,
+  0.0512,
+  0.0458
+ ],
+ "mad": 0.04892,
+ "chi_square_8df": 32434.48,
+ "instrument": "FIRST DIGITS"
+}
+
+=== Y16
+EXPECTED (written before the run):
+A dominant peak at about 52 weeks (the winter flu season) carrying most of the power, with its
+harmonic near 26 weeks next. I expect the 2009 H1N1 autumn pandemic wave and the COVID-era collapse
+and later shifted seasons to smear the annual peak and add some power at multi-year periods.
+
+INSTRUMENT OUTPUT:
+{
+ "column": "wili",
+ "n": 1254,
+ "block": 1,
+ "step": "week",
+ "strongest": [
+  {
+   "period_steps": 52.25,
+   "share_of_power": 0.3273
+  },
+  {
+   "period_steps": 89.57142857142857,
+   "share_of_power": 0.0269
+  },
+  {
+   "period_steps": 26.125,
+   "share_of_power": 0.0201
+  }
+ ],
+ "instrument": "CYCLES"
+}
