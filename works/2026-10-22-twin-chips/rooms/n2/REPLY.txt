@@ -1,0 +1,27 @@
+NAMES
+1: raspberry pink
+2: dark forest green
+3: indigo blue
+4: muted teal
+5: pale orange
+6: light peach
+7: pale grey
+8: apple green
+9: burgundy
+10: grass green
+11: green
+12: emerald green
+13: vivid bright green
+14: dark grass green
+15: bright leaf green
+16: midnight navy
+17: turquoise blue
+18: candy pink
+19: golden yellow
+20: khaki
+21: dusty raspberry
+22: orchid pink
+23: dark olive green
+24: dark slate navy
+HOW: I read each hex triplet, judged the relative red, green and blue amounts to place the hue, then judged lightness and saturation. I picked familiar English colour words, with modifiers to tell apart the many close greens.
+TOOLS: none

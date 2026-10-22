@@ -1,0 +1,27 @@
+NAMES
+1: apricot
+2: deep emerald green
+3: macaroni and cheese
+4: muted teal
+5: grassy lime green
+6: dark raspberry
+7: medium leaf green
+8: light peach
+9: pale silver grey
+10: deep grass green
+11: indigo blue
+12: pale olive
+13: green
+14: darkest navy
+15: dark olive green
+16: orchid pink
+17: deep pine green
+18: vibrant green
+19: dark slate navy
+20: bright turquoise blue
+21: apple green
+22: deep rose pink
+23: bright fuchsia pink
+24: dusky rose red
+HOW: I read each hex value as red, green and blue amounts and pictured the colour. Where a code matched a crowd-sourced colour name I already knew, like apricot, apple green or indigo blue, I used that name. For the others I described the hue, how light it is and how strong it is.
+TOOLS: none

@@ -1,0 +1,27 @@
+NAMES
+1: grass green
+2: forest green
+3: jungle green
+4: bright pink
+5: indigo blue
+6: leaf green
+7: dull khaki
+8: dusty raspberry
+9: apricot
+10: macaroni and cheese
+11: deep rose pink
+12: lime green
+13: light grey
+14: apple green
+15: orchid pink
+16: light peach
+17: dark slate navy
+18: green
+19: midnight navy
+20: vivid green
+21: muted teal
+22: dark olive green
+23: burgundy
+24: turquoise blue
+HOW: I read each hex value in my head, judged its hue, lightness and saturation, and gave it a common English colour name. Several of these values match names I remember from the xkcd colour survey (apricot, apple green, light peach, indigo blue), so I used those names where they fit.
+TOOLS: none

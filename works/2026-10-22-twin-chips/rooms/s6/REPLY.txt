@@ -1,0 +1,27 @@
+NAMES
+1: dark charcoal navy
+2: raspberry pink
+3: emerald green
+4: orchid magenta
+5: dusty rose brown
+6: indigo violet
+7: light apricot orange
+8: dark olive green
+9: deep crimson
+10: grass green
+11: turquoise blue
+12: light silver grey
+13: bright neon green
+14: midnight navy blue
+15: dark forest green
+16: medium leaf green
+17: khaki olive
+18: muted teal
+19: bright pink magenta
+20: golden mustard yellow
+21: fresh lime green
+22: yellow-green chartreuse
+23: kelly green
+24: pale peach
+HOW: I opened the card image once and looked at each numbered chip, judging hue, lightness and saturation by eye, then picked the common English colour name that best fit. Where neighbouring greens looked alike, I separated them by brightness and by how yellow or blue they leaned.
+TOOLS: Read (file-reading tool), used once on /tmp/claude-0/-home-user/32ba1e97-05b6-57ea-bd84-674c147ae370/scratchpad/rooms/s6/card.png

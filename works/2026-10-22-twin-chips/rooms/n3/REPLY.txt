@@ -1,0 +1,27 @@
+NAMES
+1: apple green
+2: jade green
+3: light peach
+4: kelly green
+5: dark forest green
+6: leaf green
+7: neon green
+8: silver grey
+9: raspberry pink
+10: dark navy charcoal
+11: indigo violet
+12: marigold
+13: khaki
+14: dark olive green
+15: bright lime green
+16: dusty rose red
+17: orchid magenta
+18: midnight navy
+19: candy pink
+20: turquoise
+21: apricot
+22: dark grass green
+23: burgundy
+24: teal
+HOW: I estimated hue, lightness and saturation from each hex's red, green and blue bytes in my head. Then I matched them to common English colour words and picked different names for the similar greens.
+TOOLS: none
