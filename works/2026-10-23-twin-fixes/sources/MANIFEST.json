@@ -33,5 +33,27 @@
   "licence": "CC0 (Wikidata)",
   "what": "Wikidata's coordinates for 21 of the 24 drawn places.",
   "why": "A second human canon, to say how large the twin step is against the canons' own disagreement."
+ },
+ {
+  "file": null,
+  "url": "https://download.geonames.org/export/dump/cities500.zip",
+  "http_status": 200,
+  "bytes": 13902532,
+  "sha256": "8c9b0ad3de5a80493b48344d964972685405380cd2ae2206dc70fce2bf52ac9e",
+  "fetched": "2026-10-23",
+  "licence": "CC BY 4.0 (GeoNames)",
+  "what": "GeoNames' 236,640 places with 500 people or more.",
+  "why": "Post hoc, after both rounds were scored: to place the villages the round-2 makers named (place500.py, place500.json). Not committed for size; re-fetch and compare the hash."
+ },
+ {
+  "file": null,
+  "url": "https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/land-110m.json",
+  "http_status": 200,
+  "bytes": 55207,
+  "sha256": "ead5f68119c49a9250902e7da303bcb209341bbb8fefe7369a439b48b704658a",
+  "fetched": "2026-10-23",
+  "licence": "Natural Earth data, public domain; world-atlas package ISC",
+  "what": "Natural Earth 1:110m land as TopoJSON.",
+  "why": "The face's basemap; basemap.py turns it into land.js, which is committed."
  }
 ]

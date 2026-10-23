@@ -1,0 +1,27 @@
+PLACES
+1: Memari, India
+2: Mendi, Papua New Guinea
+3: Oliveira, Brazil
+4: Pittsburg, United States
+5: Eumungerie, Australia
+6: Amargosa, Brazil
+7: Ogwashi-Uku, Nigeria
+8: Gemolong, Indonesia
+9: Anzorey, Russia
+10: Cessnock, Australia
+11: Beaune, France
+12: Shangil Tobaya, Sudan
+13: Neubrandenburg, Germany
+14: Nasarawa, Nigeria
+15: Copiapó, Chile
+16: Zalingei, Sudan
+17: Nanpara, India
+18: Turrialba, Costa Rica
+19: Sivrice, Turkey
+20: Mirador, Brazil
+21: Nadi, Fiji
+22: Calpulalpan, Mexico
+23: Sombrerete, Mexico
+24: Svetlograd, Russia
+HOW: I matched each coordinate from memory to the nearest town whose approximate coordinates I know. Pins in sparse or unfamiliar areas (9, 12, 14, 16, 19, 24, and to a lesser extent 5, 6, 8, 13) are low-confidence best guesses based on regional proximity.
+TOOLS: none

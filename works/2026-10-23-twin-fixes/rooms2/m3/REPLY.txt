@@ -1,0 +1,27 @@
+PLACES
+1: Ipatovo, Russia
+2: Onitsha, Nigeria
+3: Zalingei, Sudan
+4: Copiapó, Chile
+5: Woodville, Australia
+6: Neubrandenburg, Germany
+7: Colinas, Brazil
+8: Columbus, United States
+9: Mendi, Papua New Guinea
+10: Sragen, Indonesia
+11: Keffi, Nigeria
+12: Amargosa, Brazil
+13: Aiserey, France
+14: Lautoka, Fiji
+15: Calpulalpan, Mexico
+16: Shaeria, Sudan
+17: Dubbo, Australia
+18: Elkhotovo, Russia
+19: Cláudio, Brazil
+20: Arambagh, India
+21: Sombrerete, Mexico
+22: Ergani, Turkey
+23: Turrialba, Costa Rica
+24: Nanpara, India
+HOW: I matched each coordinate from memory to the town I remember being closest to it, comparing against nearby known places. Pins 5, 13, 16, 18 and 20 are low-confidence guesses. I didn't check any of them.
+TOOLS: none

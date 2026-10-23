@@ -1,0 +1,27 @@
+PLACES
+1: Dubbo, Australia
+2: Calpulalpan, Mexico
+3: Colinas, Brazil
+4: Copiapó, Chile
+5: Terek, Russia
+6: Sombrerete, Mexico
+7: Onitsha, Nigeria
+8: Zalingei, Sudan
+9: Genlis, France
+10: Ipatovo, Russia
+11: Nanpara, India
+12: Ergani, Turkey
+13: Sragen, Indonesia
+14: Neubrandenburg, Germany
+15: Cláudio, Brazil
+16: Paterson, Australia
+17: Amargosa, Brazil
+18: Lautoka, Fiji
+19: Turrialba, Costa Rica
+20: Arambagh, India
+21: Keffi, Nigeria
+22: Columbus, United States
+23: Shearia, Sudan
+24: Mendi, Papua New Guinea
+HOW: I matched each coordinate from memory to the nearest town whose approximate latitude and longitude I remember. I'm fairly sure of the well-known cities. Pins 9, 16, 20 and 23 are lower-confidence best guesses between nearby towns.
+TOOLS: none

@@ -1,0 +1,27 @@
+PLACES
+1: Svetlograd, Russia
+2: Zalingei, Sudan
+3: Chikola, Russia
+4: Neubrandenburg, Germany
+5: Cessnock, Australia
+6: Pittsburg, United States
+7: Memari, India
+8: Shangil Tobaya, Sudan
+9: Sombrerete, Mexico
+10: Oliveira, Brazil
+11: Sivrice, Turkey
+12: Copiapó, Chile
+13: Mirador, Brazil
+14: Nanpara, India
+15: Nadi, Fiji
+16: Beaune, France
+17: Eumungerie, Australia
+18: Nasarawa, Nigeria
+19: Amargosa, Brazil
+20: Gemolong, Indonesia
+21: Calpulalpan, Mexico
+22: Mendi, Papua New Guinea
+23: Turrialba, Costa Rica
+24: Ogwashi-Uku, Nigeria
+HOW: From memory, I matched each coordinate to the region it falls in, then picked the nearest town whose coordinates I remembered. Several are low-confidence guesses, especially 1, 3, 8, 11, 17, 18 and 20.
+TOOLS: none

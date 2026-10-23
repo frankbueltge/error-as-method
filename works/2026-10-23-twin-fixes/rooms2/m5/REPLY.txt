@@ -1,0 +1,27 @@
+PLACES
+1: Memari, India
+2: Tierra Amarilla, Chile
+3: Dubbo, Australia
+4: Kagua, Papua New Guinea
+5: Shearia, Sudan
+6: Friedland, Germany
+7: Frontenac, United States
+8: Sragen, Indonesia
+9: Bahraich, India
+10: Ipatovo, Russia
+11: Magny-lès-Villers, France
+12: Acolman, Mexico
+13: Nadi, Fiji
+14: Ubaíra, Brazil
+15: Ergani, Turkey
+16: Mirador, Brazil
+17: Chalchihuites, Mexico
+18: Ibusa, Nigeria
+19: Tres Ríos, Costa Rica
+20: Zalingei, Sudan
+21: Oliveira, Brazil
+22: Cessnock, Australia
+23: Terek, Russia
+24: Keffi, Nigeria
+HOW: I compared each coordinate with the town coordinates I remember and picked the closest settlement. These match well: Dubbo, Ipatovo, Ergani, Zalingei, Keffi, Terek, Sragen, Oliveira, Mirador, Chalchihuites. These are rough guesses: pins 1, 4, 5, 6, 9, 11, 12, 18 and 22.
+TOOLS: none
