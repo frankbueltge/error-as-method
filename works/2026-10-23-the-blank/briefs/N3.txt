@@ -1,0 +1,41 @@
+Below are 24 English words, each with a blank next to it and one word in brackets. For each word, write on its blank the first word that comes to mind that is meaningfully related or strongly associated to the presented word, other than the word in brackets. Write one word on each blank. Work quickly; there are no right or wrong answers.
+
+Do not use any tool, program, file, search or lookup of any kind. Answer from what you have here.
+
+1. MATTER ________   (not ATOM)
+2. MADE ________   (not CREATED)
+3. SIGN ________   (not STOP)
+4. CLOSE ________   (not OPEN)
+5. COVER ________   (not LID)
+6. PROOF ________   (not EVIDENCE)
+7. BEHAVIOR ________   (not ACT)
+8. PASTRY ________   (not DOUGHNUT)
+9. NATIVE ________   (not INDIAN)
+10. CHEESE ________   (not MOUSE)
+11. STUCK ________   (not GLUE)
+12. THUNDER ________   (not LIGHTNING)
+13. BICYCLE ________   (not RIDE)
+14. WHEAT ________   (not BREAD)
+15. STILL ________   (not MOVE)
+16. REEF ________   (not CORAL)
+17. ARTERY ________   (not VEIN)
+18. RACK ________   (not SHELF)
+19. RESTROOM ________   (not BATHROOM)
+20. PRIM ________   (not PROPER)
+21. LEMON ________   (not LIME)
+22. LOTTERY ________   (not MONEY)
+23. TEENAGER ________   (not YOUNG)
+24. FOREST ________   (not TREE)
+
+Answer for every item. Then add two short lines:
+HOW: in at most 40 words, how you arrived at the words.
+TOOLS: every tool, program, file or search you used, or "none".
+
+Format your whole answer exactly like this, and nothing else:
+WORDS
+1: <one word>
+2: <one word>
+...
+24: <one word>
+HOW: ...
+TOOLS: ...

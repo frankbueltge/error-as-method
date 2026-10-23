@@ -1,0 +1,41 @@
+Below are 24 pairs of English words, each pair with a blank next to it. For each pair, write on its blank the first word that comes to mind that is meaningfully related or strongly associated to both presented words at once. Write one word on each blank. Work quickly; there are no right or wrong answers.
+
+Do not use any tool, program, file, search or lookup of any kind. Answer from what you have here.
+
+1. RAG + MEDIA ________
+2. TELL + DIFFERENCE ________
+3. CHOICE + REFRESHING ________
+4. LUST + ECSTASY ________
+5. INJECTION + STAPLE ________
+6. TOUGH + MATH ________
+7. RESEARCH + STRATEGY ________
+8. DENY + SLOPE ________
+9. PRINTER + NEWS ________
+10. STAG + STABLE ________
+11. STRAWBERRY + MOST ________
+12. ORE + TEACHER ________
+13. BASKET + RESCUE ________
+14. CROCHET + BOWLING ________
+15. RICE + RING ________
+16. QUAIL + GEM ________
+17. TRADITION + DINOSAUR ________
+18. CASHIER + TARGET ________
+19. ADVERB + WEATHER ________
+20. CREATOR + DIRECTION ________
+21. LOYALTY + SINCERITY ________
+22. BOIL + DIVING ________
+23. FIND + GANDER ________
+24. SPICE + FATTENING ________
+
+Answer for every item. Then add two short lines:
+HOW: in at most 40 words, how you arrived at the words.
+TOOLS: every tool, program, file or search you used, or "none".
+
+Format your whole answer exactly like this, and nothing else:
+WORDS
+1: <one word>
+2: <one word>
+...
+24: <one word>
+HOW: ...
+TOOLS: ...
