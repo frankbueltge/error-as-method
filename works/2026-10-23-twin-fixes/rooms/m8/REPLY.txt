@@ -1,0 +1,27 @@
+PLACES
+1: Sragen, Indonesia
+2: Calpulalpan, Mexico
+3: Terek, Russia
+4: Dubbo, Australia
+5: Oliveira, Brazil
+6: Nadi, Fiji
+7: Turrialba, Costa Rica
+8: Mirador, Brazil
+9: Sombrerete, Mexico
+10: Cessnock, Australia
+11: Mendi, Papua New Guinea
+12: Pittsburg, United States
+13: Beaune, France
+14: Ogwashi-Uku, Nigeria
+15: Ergani, Turkey
+16: Memari, India
+17: Nanpara, India
+18: Neubrandenburg, Germany
+19: Keffi, Nigeria
+20: Copiapó, Chile
+21: Amargosa, Brazil
+22: Zalingei, Sudan
+23: Ipatovo, Russia
+24: Shearia, Sudan
+HOW: I converted the DMS values to decimal in my head and matched each point against town coordinates I remember, using nearby reference cities to check. I am least sure about 3, 8, 14 and 24.
+TOOLS: none

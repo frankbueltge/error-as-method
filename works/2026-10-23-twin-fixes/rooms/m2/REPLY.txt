@@ -1,0 +1,27 @@
+PLACES
+1: Keffi, Nigeria
+2: Sombrerete, Mexico
+3: Oliveira, Brazil
+4: Mendi, Papua New Guinea
+5: Nadi, Fiji
+6: Sragen, Indonesia
+7: Turrialba, Costa Rica
+8: Memari, India
+9: Pittsburg, United States
+10: Amargosa, Brazil
+11: Copiapó, Chile
+12: Mirador, Brazil
+13: Shearia, Sudan
+14: Neubrandenburg, Germany
+15: Zalingei, Sudan
+16: Ipatovo, Russia
+17: Terek, Russia
+18: Cessnock, Australia
+19: Nanpara, India
+20: Dubbo, Australia
+21: Ogwashi-Uku, Nigeria
+22: Calpulalpan, Mexico
+23: Ergani, Turkey
+24: Beaune, France
+HOW: I converted the DMS values to decimal in my head, then matched each point to towns whose coordinates I remember, working from nearby reference cities such as Abuja, Nyala, Onitsha and Elazığ. Least certain: 13 (Shearia), 12 (Mirador) and 8 (Memari).
+TOOLS: none

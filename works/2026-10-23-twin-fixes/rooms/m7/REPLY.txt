@@ -1,0 +1,27 @@
+PLACES
+1: Cessnock, Australia
+2: Keffi, Nigeria
+3: Sragen, Indonesia
+4: Shearia, Sudan
+5: Mirador, Brazil
+6: Terek, Russia
+7: Turrialba, Costa Rica
+8: Amargosa, Brazil
+9: Neubrandenburg, Germany
+10: Zalingei, Sudan
+11: Dubbo, Australia
+12: Ogwashi-Uku, Nigeria
+13: Beaune, France
+14: Ergani, Turkey
+15: Copiapó, Chile
+16: Memari, India
+17: Oliveira, Brazil
+18: Pittsburg, United States
+19: Nanpara, India
+20: Sombrerete, Mexico
+21: Ipatovo, Russia
+22: Mendi, Papua New Guinea
+23: Calpulalpan, Mexico
+24: Nadi, Fiji
+HOW: I worked these out from memory. I converted the DMS values to decimal in my head, then matched each point against the town coordinates I remember near it. Pin 4 is a low-confidence guess. Pins 2, 12 and 19 are also less certain than the others.
+TOOLS: none

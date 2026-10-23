@@ -1,0 +1,27 @@
+PLACES
+1: Mendi, Papua New Guinea
+2: Zalingei, Sudan
+3: Terek, Russia
+4: Sragen, Indonesia
+5: Shearia, Sudan
+6: Ogwashi-Uku, Nigeria
+7: Nanpara, India
+8: Pittsburg, United States
+9: Ipatovo, Russia
+10: Beaune, France
+11: Dubbo, Australia
+12: Neubrandenburg, Germany
+13: Oliveira, Brazil
+14: Cessnock, Australia
+15: Calpulalpan, Mexico
+16: Mirador, Brazil
+17: Keffi, Nigeria
+18: Nadi, Fiji
+19: Sombrerete, Mexico
+20: Memari, India
+21: Copiapó, Chile
+22: Turrialba, Costa Rica
+23: Amargosa, Brazil
+24: Ergani, Turkey
+HOW: I converted the DMS values to decimal in my head and matched each point against town coordinates I remember. Most matches are close. Pin 5 (Darfur) is a low-confidence guess, and pins 3, 16 and 23 are moderately uncertain.
+TOOLS: none

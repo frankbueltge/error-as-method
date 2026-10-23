@@ -60,3 +60,37 @@ list that was copied as strings is recalled as strings; a world learned as a wor
 **What this cannot do.** No person pinned these points tonight. One family of makers, nine instances, 24 places.
 `cities15000` is one gazetteer among several; the makers may hold another canon's string, which would read here as
 a twin.
+
+---
+
+# Round 2 — added after round 1 was scored, before any round-2 maker ran
+
+**Why a second round.** Round 1 came back at its ceiling: TOWN 69 of 72 under E, D and T alike (`results.json`).
+The three misses per key are the same answer, *Shearia*, the English spelling under which Wikipedia carries the
+place ([Shearia District](https://en.wikipedia.org/wiki/Shearia_District)); GeoNames holds no alternate name for
+Sh'īarīah, so the fixed rule scores it a miss. A twin of 0.6 km cannot tell a table from a map when the makers'
+holding is much coarser than 0.6 km. So round 2 asks where the holding stops: **how far can a pin move before the
+makers stop naming the town?** Nine new fresh makers, the same brief, the same 24 places.
+
+- Keys (`round2.py`, seed 1522): each place moved **2, 8 or 30 km** on a seeded bearing, printed like E. Maker *i*
+  sees place *j* at step (*i* + *j*) mod 3: 72 pins per step. No round-2 maker has seen round 1.
+- At 30 km, seven places fall **captured**: another `cities15000` place lies within 10 km of the moved pin
+  (Cláudio 1.3 km from Oliveira's pin, Onitsha 1.0 from Ogwashi-Uku's, San Diego 5.1 from Turrialba's, Ubaíra 6.0
+  from Amargosa's, Teotihuacán de Arista 6.7 from Calpulalpan's, Maitland 9.4 from Cessnock's, Lautoka 9.95 from
+  Nadi's): 21 pins. At those pins the original town is the wrong answer.
+
+**Scoring, fixed now.** As round 1, and also:
+- **ORIG**: the answer is the original town (TOWN as above; for round 2 *Shearia* also counts for Sh'īarīah, on the
+  source just cited).
+- **NEAR**: the answer is the `cities15000` place nearest the moved pin, when that is not the original.
+- **ERR**: if the answered town is a `cities15000` place in the answered country, the distance from the pin to it.
+
+**Predictions.**
+- **Q1.** S2 ORIG ≥ 90 %.
+- **Q2.** S8 ORIG ≥ 75 %.
+- **Q3 (is the neighbour on the map?).** On the 21 captured pins, NEAR ≥ 50 % and ORIG ≤ 20 %. If ORIG is high, the
+  holding is a set of anchors with wide basins — a tracing with a tolerance, not a map.
+- **Q4.** Median ERR at S30 ≤ 15 km.
+- **Q5 (silence).** Fewer than 5 of the 72 S30 answers say, unasked, that the pin lies outside any town.
+
+The practice's guess: Q1, Q2 hold; Q3 holds for Onitsha and fails for the small captures; Q4 holds; Q5 holds.

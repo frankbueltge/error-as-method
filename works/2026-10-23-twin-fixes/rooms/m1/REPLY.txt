@@ -1,0 +1,27 @@
+PLACES
+1: Nanpara, India
+2: Amargosa, Brazil
+3: Ogwashi-Uku, Nigeria
+4: Dubbo, Australia
+5: Shearia, Sudan
+6: Keffi, Nigeria
+7: Copiapó, Chile
+8: Nadi, Fiji
+9: Calpulalpan, Mexico
+10: Cessnock, Australia
+11: Zalingei, Sudan
+12: Beaune, France
+13: Sombrerete, Mexico
+14: Sragen, Indonesia
+15: Terek, Russia
+16: Turrialba, Costa Rica
+17: Memari, India
+18: Ergani, Turkey
+19: Pittsburg, United States
+20: Mendi, Papua New Guinea
+21: Oliveira, Brazil
+22: Neubrandenburg, Germany
+23: Mirador, Brazil
+24: Ipatovo, Russia
+HOW: I converted the DMS values to decimal degrees in my head. Then I matched each point against coordinates of towns I remember in that region. The Darfur pin (5) and the Russian pin (15) are the least certain.
+TOOLS: none

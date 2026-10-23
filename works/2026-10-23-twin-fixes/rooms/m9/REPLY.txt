@@ -1,0 +1,27 @@
+PLACES
+1: Ergani, Turkey
+2: Calpulalpan, Mexico
+3: Oliveira, Brazil
+4: Zalingei, Sudan
+5: Nadi, Fiji
+6: Memari, India
+7: Dubbo, Australia
+8: Beaune, France
+9: Shearia, Sudan
+10: Mendi, Papua New Guinea
+11: Cessnock, Australia
+12: Sragen, Indonesia
+13: Neubrandenburg, Germany
+14: Sombrerete, Mexico
+15: Nanpara, India
+16: Turrialba, Costa Rica
+17: Amargosa, Brazil
+18: Keffi, Nigeria
+19: Terek, Russia
+20: Ogwashi-Uku, Nigeria
+21: Ipatovo, Russia
+22: Pittsburg, United States
+23: Copiapó, Chile
+24: Mirador, Brazil
+HOW: I converted the DMS values to decimal degrees in my head, then matched each point to towns whose coordinates I remember. For the less certain ones, such as 9 and 24, I picked the nearest town I could recall. Pins 9, 19, 20 and 24 are the least certain.
+TOOLS: none
