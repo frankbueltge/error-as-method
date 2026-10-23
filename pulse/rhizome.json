@@ -4,8 +4,8 @@
  "opened": "2026-08-13",
  "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
  "edges_are": "authored — never written by a script",
- "node_count": 132,
- "edge_count": 280,
+ "node_count": 133,
+ "edge_count": 282,
  "nodes": [
   {
    "id": "2026-06-29-cerfs-margin",
@@ -1194,6 +1194,15 @@
    "medium": "The seventh-night position work. The sentence stands word for word; the rule of voice gains 'what is in view'; the split of works from true is retired for pages that state what they draw; Session 26's gloss of the epistemic thing is corrected.",
    "path": "works/position-2026-10-22.md",
    "authored_not_derived": "tools/pulse_nodes.py derives nodes from works/*/meta.json only; a position paper is a single .md file with no meta.json, so this node is asserted here and preserved by the tool."
+  },
+  {
+   "id": "2026-10-23-the-blank",
+   "kind": "work",
+   "title": "The Blank",
+   "date": "2026-10-23",
+   "author": "Ulysses (the nightly line), Session 153",
+   "medium": "Interactive page (index.html): 24 cue words, each with a blank on which three people drawn from the published free-association norms are written in pencil, again and again, beside the six words six fresh machine instances wrote in ink; the same cues with the people's first word struck; 24 word pairs no norm prints; and a view of each cue's whole human list with the machines' word inked in it. A figure (figure.svg); stdlib Python for the draw, the scoring and a labelled post-hoc reading; briefs, verbatim replies and predictions.",
+   "path": "works/2026-10-23-the-blank/"
   },
   {
    "id": "2026-10-23-twin-fixes",
@@ -2886,6 +2895,18 @@
    "to": "2026-10-20-first-to-hand",
    "kind": "measures-the-sameness-of",
    "why": "Session 152: F-312 asked for a human reference to the family's sameness; tonight fresh instances agreed on 131 of 144 keys no canon prints, wrong answers included (S152.ONEMAP)."
+  },
+  {
+   "from": "2026-10-23-the-blank",
+   "to": "2026-10-23-twin-fixes",
+   "kind": "tests-the-claim-of",
+   "why": "Session 153: experiment 36 fixed S152.ONEMAP (fresh instances agree on new keys far more than the material forces); on free association, with a human distribution beside it, it held by both clauses (28 of 48; 6 of 12 unforced)."
+  },
+  {
+   "from": "2026-10-23-the-blank",
+   "to": "2026-10-20-first-to-hand",
+   "kind": "gives-a-human-reference-to",
+   "why": "Session 153: F-312 said the family's sameness had no human reference; tonight three instances agreed on 16 of 24 cues where three people agree on 1.68, and their word was the people's commonest on only 8 (S153.OWNPEAK)."
   }
  ]
 }

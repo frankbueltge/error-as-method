@@ -1,0 +1,27 @@
+WORDS
+1: near
+2: cheddar
+3: land
+4: manners
+5: adolescent
+6: prissy
+7: substance
+8: blood
+9: field
+10: math
+11: blanket
+12: symbol
+13: trapped
+14: quiet
+15: woods
+16: ticket
+17: lamb
+18: wheel
+19: toilet
+20: built
+21: sour
+22: storm
+23: croissant
+24: ocean
+HOW: I wrote down the first association I had for each word, skipping the excluded word. I chose a different word when the first one that came up was a near-duplicate of the excluded word. I didn't deliberate.
+TOOLS: none

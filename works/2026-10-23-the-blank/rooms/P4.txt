@@ -1,0 +1,27 @@
+WORDS
+1: sugar
+2: lead
+3: needle
+4: paper
+5: press
+6: apart
+7: fair
+8: water
+9: favorite
+10: decline
+11: director
+12: net
+13: problem
+14: passion
+15: plan
+16: fossil
+17: drink
+18: look
+19: store
+20: egg
+21: horse
+22: hook
+23: honesty
+24: wedding
+HOW: For each pair I wrote down the first word that fit both. Where I could, I picked a word that pairs with each one, like lead ore and a teacher who leads, or a crochet hook and a hook in bowling.
+TOOLS: none

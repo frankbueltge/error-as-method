@@ -1,0 +1,27 @@
+WORDS
+1: sweet
+2: fair
+3: drink
+4: hook
+5: fidelity
+6: net
+7: director
+8: problem
+9: old
+10: press
+11: water
+12: tabloid
+13: lead
+14: plan
+15: horse
+16: passion
+17: egg
+18: look
+19: store
+20: distinguish
+21: food
+22: wedding
+23: needle
+24: decline
+HOW: For each pair I took the first word that fit both cues. Often it was a word with two meanings, like hook, decline or lead, or a common phrase, like wedding rice and wedding ring. I went fast, without double-checking.
+TOOLS: none

@@ -1,0 +1,27 @@
+WORDS
+1: toilet
+2: book
+3: cheddar
+4: lamb
+5: barrier
+6: storm
+7: field
+8: stuck-up
+9: substance
+10: american
+11: built
+12: conduct
+13: wheel
+14: ticket
+15: alcohol
+16: croissant
+17: adolescent
+18: prudish
+19: woods
+20: quiet
+21: heart
+22: sour
+23: near
+24: symbol
+HOW: Quick free association for each word: I wrote down whatever came to mind first, unless it was the excluded word, in which case I took the next strong link.
+TOOLS: none

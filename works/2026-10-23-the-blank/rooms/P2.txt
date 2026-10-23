@@ -1,0 +1,27 @@
+WORDS
+1: apart
+2: horse
+3: passion
+4: fossil
+5: hook
+6: sugar
+7: sweet
+8: look
+9: decline
+10: tabloid
+11: problem
+12: drink
+13: store
+14: director
+15: water
+16: needle
+17: honesty
+18: wedding
+19: helicopter
+20: paper
+21: lead
+22: egg
+23: fair
+24: plan
+HOW: For each pair I went with the first word that fit both. Usually that was a shared phrase or a double meaning (hook, lead, fair, decline). Where nothing fit both cleanly, I took the nearest match, as with helicopter, sweet and horse.
+TOOLS: none

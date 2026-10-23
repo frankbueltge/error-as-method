@@ -1,0 +1,27 @@
+WORDS
+1: symbol
+2: lightning
+3: bread
+4: book
+5: conduct
+6: quiet
+7: built
+8: sour
+9: coral
+10: blood
+11: indigenous
+12: wheel
+13: dough
+14: toilet
+15: proper
+16: trapped
+17: near
+18: ticket
+19: shelf
+20: adolescent
+21: trees
+22: cheddar
+23: physics
+24: evidence
+HOW: I read each word and wrote down the first strong associate that came to mind, usually a synonym, a common collocate, or a category member, without second-guessing it.
+TOOLS: none
