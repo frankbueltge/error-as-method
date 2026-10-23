@@ -1,0 +1,27 @@
+WORDS
+1: symbol
+2: lightning
+3: conduct
+4: trees
+5: substance
+6: ticket
+7: blood
+8: near
+9: blanket
+10: bread
+11: built
+12: mouse
+13: indigenous
+14: wheel
+15: adolescent
+16: sour
+17: toilet
+18: evidence
+19: trapped
+20: proper
+21: croissant
+22: quiet
+23: coral
+24: shelf
+HOW: For each cue I wrote down the first word that came to mind, usually a synonym or a common pairing. I didn't stop to second-guess any of them.
+TOOLS: none

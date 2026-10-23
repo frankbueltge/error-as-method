@@ -1,0 +1,27 @@
+WORDS
+1: sweet
+2: look
+3: water
+4: paper
+5: problem
+6: wedding
+7: fossil
+8: director
+9: dog
+10: distinguish
+11: egg
+12: horse
+13: passion
+14: honesty
+15: well
+16: decline
+17: sugar
+18: store
+19: gun
+20: ball
+21: newspaper
+22: drink
+23: lead
+24: plan
+HOW: I went through the pairs fast and wrote the first word that fit both, often through a shared phrase or a second meaning (lead ore and leading, staple gun, rag meaning newspaper).
+TOOLS: none

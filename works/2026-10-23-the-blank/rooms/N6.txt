@@ -1,0 +1,27 @@
+WORDS
+1: near
+2: storm
+3: ocean
+4: blood
+5: prissy
+6: wheel
+7: trapped
+8: adolescent
+9: conduct
+10: quiet
+11: blanket
+12: math
+13: ticket
+14: woods
+15: lamb
+16: toilet
+17: cheddar
+18: symbol
+19: indigenous
+20: sour
+21: croissant
+22: physics
+23: field
+24: manufactured
+HOW: I wrote the first word each cue brought to mind, skipped the banned word, and went with a different strong association when the first one was banned.
+TOOLS: none

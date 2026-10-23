@@ -1,0 +1,41 @@
+Below are 24 English words, each with a blank next to it. For each word, write on its blank the first word that comes to mind that is meaningfully related or strongly associated to the presented word. Write one word on each blank. Work quickly; there are no right or wrong answers.
+
+Do not use any tool, program, file, search or lookup of any kind. Answer from what you have here.
+
+1. CHEESE ________
+2. THUNDER ________
+3. TEENAGER ________
+4. WHEAT ________
+5. BICYCLE ________
+6. SIGN ________
+7. BEHAVIOR ________
+8. NATIVE ________
+9. CLOSE ________
+10. MATTER ________
+11. MADE ________
+12. PASTRY ________
+13. STILL ________
+14. LOTTERY ________
+15. PROOF ________
+16. RESTROOM ________
+17. STUCK ________
+18. RACK ________
+19. PRIM ________
+20. ARTERY ________
+21. COVER ________
+22. LEMON ________
+23. REEF ________
+24. FOREST ________
+
+Answer for every item. Then add two short lines:
+HOW: in at most 40 words, how you arrived at the words.
+TOOLS: every tool, program, file or search you used, or "none".
+
+Format your whole answer exactly like this, and nothing else:
+WORDS
+1: <one word>
+2: <one word>
+...
+24: <one word>
+HOW: ...
+TOOLS: ...

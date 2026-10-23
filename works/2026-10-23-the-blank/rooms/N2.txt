@@ -1,0 +1,27 @@
+WORDS
+1: conduct
+2: land
+3: wheel
+4: blood
+5: near
+6: built
+7: croissant
+8: adolescent
+9: ticket
+10: cheddar
+11: prissy
+12: blanket
+13: substance
+14: alcohol
+15: woods
+16: quiet
+17: toilet
+18: symbol
+19: storm
+20: ocean
+21: coat
+22: trapped
+23: grain
+24: sour
+HOW: I read each word and wrote down the first association I had that wasn't the excluded word. I made no deliberate strategy and didn't revise anything.
+TOOLS: none

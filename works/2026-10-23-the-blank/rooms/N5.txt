@@ -1,0 +1,27 @@
+WORDS
+1: cheddar
+2: adolescent
+3: croissant
+4: quiet
+5: storm
+6: blanket
+7: field
+8: math
+9: signature
+10: coat
+11: stuck-up
+12: ocean
+13: prissy
+14: ticket
+15: toilet
+16: heart
+17: wheel
+18: maid
+19: woods
+20: physics
+21: conduct
+22: sour
+23: near
+24: American
+HOW: I went through the list once and wrote down the first association that came to mind for each word, skipping the banned word in brackets. Where a cue had several meanings, I took whichever sense came up first.
+TOOLS: none

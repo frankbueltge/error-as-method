@@ -1,0 +1,27 @@
+WORDS
+1: dough
+2: blood
+3: evidence
+4: mud
+5: quiet
+6: book
+7: near
+8: coral
+9: sour
+10: lightning
+11: lamb
+12: stop
+13: toilet
+14: proper
+15: trees
+16: manners
+17: ticket
+18: mouse
+19: wheel
+20: physics
+21: american
+22: bread
+23: rebellious
+24: built
+HOW: I wrote down the first association that came to mind for each word, taking them in order and without second-guessing. Most are common collocations or category links.
+TOOLS: none

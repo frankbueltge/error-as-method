@@ -1,0 +1,27 @@
+WORDS
+1: paper
+2: distinguish
+3: drink
+4: passion
+5: needle
+6: problem
+7: plan
+8: decline
+9: press
+10: horse
+11: sweet
+12: lead
+13: case
+14: hook
+15: wedding
+16: egg
+17: old
+18: store
+19: fair
+20: vision
+21: trust
+22: water
+23: look
+24: sugar
+HOW: For each pair I picked the first word that fit both, often through a common phrase or double meaning (lead, decline, hook, sugar and spice, take a gander), and went with gut feel on the harder ones.
+TOOLS: none

@@ -1,0 +1,27 @@
+WORDS
+1: drink
+2: egg
+3: apart
+4: tabloid
+5: fidelity
+6: hook
+7: decline
+8: fossil
+9: helicopter
+10: press
+11: store
+12: passion
+13: plan
+14: wedding
+15: fair
+16: favorite
+17: look
+18: sugar
+19: film
+20: problem
+21: lead
+22: needle
+23: water
+24: horse
+HOW: I took the first word I thought of that fits both cues, often one with two meanings (decline, lead, hook, press). For the hard pairs I went with the best guess and didn't second-guess it.
+TOOLS: none

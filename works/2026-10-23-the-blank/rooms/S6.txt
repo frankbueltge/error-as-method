@@ -1,0 +1,27 @@
+WORDS
+1: quiet
+2: adolescent
+3: near
+4: ticket
+5: trapped
+6: evidence
+7: wheel
+8: cheddar
+9: coral
+10: bread
+11: conduct
+12: symbol
+13: blood
+14: lightning
+15: trees
+16: book
+17: built
+18: sour
+19: proper
+20: indigenous
+21: bathroom
+22: shelf
+23: substance
+24: croissant
+HOW: I read each word once and wrote down the first word that came to mind, usually a synonym or something closely tied to it. I didn't reason it through or go back and change any.
+TOOLS: none
