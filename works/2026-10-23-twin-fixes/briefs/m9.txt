@@ -1,0 +1,41 @@
+You are labelling the pins of a world map. Each pin is given below as a point on the Earth's surface, some in decimal degrees (latitude, longitude) and some in degrees, minutes and seconds. For each pin, write the town or city the pin stands in, and its country.
+
+Do not use any tool, program, file, search or lookup of any kind. Answer from what you have here.
+
+1: 38°16'08.4"N 39°45'16.1"E
+2: 19.58867, -98.56972
+3: -20.69317, -44.83401
+4: 12°54'33.0"N 23°28'14.1"E
+5: -17.80653, 177.41122
+6: 23.17525, 88.10131
+7: 32°14'34.6"S 148°36'17.4"E
+8: 47.03003, 4.84428
+9: 12°26'19.8"N 25°34'52.0"E
+10: -6.14755, 143.65633
+11: -32.83114, 151.36216
+12: 7°25'35.0"S 111°01'20.0"E
+13: 53.55735, 13.26105
+14: 23.63138, -103.64134
+15: 27.86459, 81.50036
+16: 9.90371, -83.68361
+17: -13.03028, -39.60472
+18: 8°50'47.4"N 7°52'24.7"E
+19: 43°28'59.8"N 44°08'16.1"E
+20: 6.17305, 6.52078
+21: 45°43'04.8"N 42°54'22.0"E
+22: 37.41537, -94.70689
+23: -27.36737, -70.33219
+24: -6.37674, -44.35949
+
+Answer for every pin. If you are unsure, give your best answer anyway. Then add two short lines:
+HOW: in at most 60 words, how you arrived at the places.
+TOOLS: every tool, program, file or search you used, or "none".
+
+Format your whole answer exactly like this, and nothing else:
+PLACES
+1: <town or city>, <country>
+2: <town or city>, <country>
+...
+24: <town or city>, <country>
+HOW: ...
+TOOLS: ...

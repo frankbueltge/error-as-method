@@ -1,0 +1,37 @@
+[
+ {
+  "file": "cities15000-columns.tsv",
+  "url": "https://download.geonames.org/export/dump/cities15000.zip",
+  "http_status": 200,
+  "bytes": 3363074,
+  "sha256_of_download": "6d9ec0783783fd382b632dc120a9e1d401020ac98552fc74d05f40e56ea719b2",
+  "sha256_of_extracted_txt": "4dd78861ab16e454e7e5cd162afa4598d35bd04dffc704fcc7a59eac5bcc3181",
+  "sha256_of_committed_file": "5afb182a6bf93844ca51045a263c5a1c5afc46eb1010d3a1d4d5b86fe24d3155",
+  "fetched": "2026-10-23",
+  "licence": "CC BY 4.0 (GeoNames, download.geonames.org/export/dump/readme.txt)",
+  "what": "GeoNames' 34,179 places with a population of at least 15,000; ten of nineteen columns kept, alternate names omitted (those of the 24 drawn places are in plan.json).",
+  "why": "The human canon: the gazetteer's printed coordinate string for each town, from which the 24 places and their keys were drawn."
+ },
+ {
+  "file": "countryInfo.txt",
+  "url": "https://download.geonames.org/export/dump/countryInfo.txt",
+  "http_status": 200,
+  "bytes": 31690,
+  "sha256": "c55f638cfaafb4fe45a9aa15120a0f1f78e8a34a8e1847d7b9320cf740fbc9ab",
+  "fetched": "2026-10-23",
+  "licence": "CC BY 4.0 (GeoNames)",
+  "what": "GeoNames' country table, with continent codes.",
+  "why": "Continent strata for the draw; country names for scoring."
+ },
+ {
+  "file": "wikidata-p625.json",
+  "url": "https://query.wikidata.org/sparql (query in canons.py's history: items with P1566 in the 24 GeoNames IDs, their P625)",
+  "http_status": 200,
+  "bytes": 7907,
+  "sha256": "91ea9825f987b4d9d10baffaeb69e03a7f6ba61199299517f40b6a10ff5ebe69",
+  "fetched": "2026-10-23",
+  "licence": "CC0 (Wikidata)",
+  "what": "Wikidata's coordinates for 21 of the 24 drawn places.",
+  "why": "A second human canon, to say how large the twin step is against the canons' own disagreement."
+ }
+]
