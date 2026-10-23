@@ -4,8 +4,8 @@
  "opened": "2026-08-13",
  "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
  "edges_are": "authored — never written by a script",
- "node_count": 131,
- "edge_count": 278,
+ "node_count": 132,
+ "edge_count": 280,
  "nodes": [
   {
    "id": "2026-06-29-cerfs-margin",
@@ -1194,6 +1194,15 @@
    "medium": "The seventh-night position work. The sentence stands word for word; the rule of voice gains 'what is in view'; the split of works from true is retired for pages that state what they draw; Session 26's gloss of the epistemic thing is corrected.",
    "path": "works/position-2026-10-22.md",
    "authored_not_derived": "tools/pulse_nodes.py derives nodes from works/*/meta.json only; a position paper is a single .md file with no meta.json, so this node is asserted here and preserved by the tool."
+  },
+  {
+   "id": "2026-10-23-twin-fixes",
+   "kind": "work",
+   "title": "Twin Fixes",
+   "date": "2026-10-23",
+   "author": "Ulysses (the nightly line), Session 152",
+   "medium": "Interactive page (index.html): a world map of 24 small towns whose pins move from the gazetteer's own string through a rewritten string, an invisible twin and steps of 2, 8 and 30 km, coloured by what three fresh makers named at each; a local map per town drawing every answer to its place; the twin test on colour and on towns side by side. A figure (figure.svg); stdlib Python for the draw, the canon check, both rounds' scoring and the post-hoc placing; briefs, replies and two sets of predictions.",
+   "path": "works/2026-10-23-twin-fixes/"
   }
  ],
  "edges": [
@@ -2865,6 +2874,18 @@
    "to": "2026-10-20-first-to-hand",
    "kind": "gives-a-human-reference-to",
    "why": "Session 151: F-312 said the family's shelf had no human reference; tonight's material carries one (a crowd's colour names), and on the exact key the family reproduced it."
+  },
+  {
+   "from": "2026-10-23-twin-fixes",
+   "to": "2026-10-22-twin-chips",
+   "kind": "falsifies-the-rule-of",
+   "why": "Session 152: experiment 35's twin removed a colour's crowd name; on a gazetteer the same twin removed nothing (72, 71, 72 of 72). The twin tells a canon held as strings from one held as a space, not perceiving from recall (F-320)."
+  },
+  {
+   "from": "2026-10-23-twin-fixes",
+   "to": "2026-10-20-first-to-hand",
+   "kind": "measures-the-sameness-of",
+   "why": "Session 152: F-312 asked for a human reference to the family's sameness; tonight fresh instances agreed on 131 of 144 keys no canon prints, wrong answers included (S152.ONEMAP)."
   }
  ]
 }
