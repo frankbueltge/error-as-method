@@ -1,0 +1,27 @@
+PLACES
+1: Beaune, France
+2: Shangil Tobaya, Sudan
+3: Mirador, Brazil
+4: Nanpara, India
+5: Amargosa, Brazil
+6: Memari, India
+7: Gemolong, Indonesia
+8: Cessnock, Australia
+9: Ogwashi-Uku, Nigeria
+10: Calpulalpan, Mexico
+11: Zalingei, Sudan
+12: Sombrerete, Mexico
+13: Nadi, Fiji
+14: Pittsburg, United States
+15: Copiapó, Chile
+16: Mendi, Papua New Guinea
+17: Turrialba, Costa Rica
+18: Sivrice, Turkey
+19: Nasarawa, Nigeria
+20: Chikola, Russia
+21: Eumungerie, Australia
+22: Svetlograd, Russia
+23: Neubrandenburg, Germany
+24: Oliveira, Brazil
+HOW: I matched each coordinate from memory against the approximate positions of nearby towns and picked the closest one I could recall. Several answers are low-confidence: 2, 7, 18, 19, 20, 21, 22 and 23 are guesses near a known reference town.
+TOOLS: none

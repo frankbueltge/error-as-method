@@ -1,0 +1,27 @@
+PLACES
+1: Cessnock, Australia
+2: Sragen, Indonesia
+3: Sucupira do Norte, Brazil
+4: Spantekow, Germany
+5: Ogwashi-Uku, Nigeria
+6: Oliveira, Brazil
+7: Ipatovo, Russia
+8: Frontenac, United States
+9: Memari, India
+10: Tierra Amarilla, Chile
+11: Kagua, Papua New Guinea
+12: Shearia, Sudan
+13: Chalchihuites, Mexico
+14: Terek, Russia
+15: Ubaíra, Brazil
+16: Keffi, Nigeria
+17: Acolman, Mexico
+18: Bahraich, India
+19: Dubbo, Australia
+20: Nadi, Fiji
+21: Zalingei, Sudan
+22: Tres Ríos, Costa Rica
+23: Échevronne, France
+24: Ergani, Turkey
+HOW: I matched each coordinate from memory to the nearest town whose approximate latitude and longitude I know, using nearby reference cities to fix the region. I'm confident about Dubbo, Zalingei, Ergani, Keffi, Oliveira, Ipatovo and Sragen. Several small-town answers (3, 4, 5, 12, 18, 23) are best guesses.
+TOOLS: none

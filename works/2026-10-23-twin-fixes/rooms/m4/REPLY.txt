@@ -1,0 +1,27 @@
+PLACES
+1: Nanpara, India
+2: Cessnock, Australia
+3: Dubbo, Australia
+4: Turrialba, Costa Rica
+5: Oliveira, Brazil
+6: Sombrerete, Mexico
+7: Sragen, Indonesia
+8: Zalingei, Sudan
+9: Calpulalpan, Mexico
+10: Beaune, France
+11: Copiapó, Chile
+12: Shearia, Sudan
+13: Neubrandenburg, Germany
+14: Mirador, Brazil
+15: Memari, India
+16: Terek, Russia
+17: Ogwashi-Uku, Nigeria
+18: Mendi, Papua New Guinea
+19: Nadi, Fiji
+20: Pittsburg, United States
+21: Ipatovo, Russia
+22: Ergani, Turkey
+23: Keffi, Nigeria
+24: Amargosa, Brazil
+HOW: I converted the DMS values to decimal in my head, then matched each point to towns I remember at about those coordinates. I'm fairly sure of most of them. Pin 12 (Shearia, Sudan) is a rough guess, and pins 1, 14 and 16 are less certain than the rest.
+TOOLS: none

@@ -1,0 +1,27 @@
+PLACES
+1: Mirador, Brazil
+2: Mendi, Papua New Guinea
+3: Calpulalpan, Mexico
+4: Ogwashi-Uku, Nigeria
+5: Ergani, Turkey
+6: Keffi, Nigeria
+7: Zalingei, Sudan
+8: Beaune, France
+9: Ipatovo, Russia
+10: Shearia, Sudan
+11: Cessnock, Australia
+12: Sragen, Indonesia
+13: Memari, India
+14: Sombrerete, Mexico
+15: Oliveira, Brazil
+16: Copiapó, Chile
+17: Pittsburg, United States
+18: Amargosa, Brazil
+19: Dubbo, Australia
+20: Neubrandenburg, Germany
+21: Terek, Russia
+22: Nadi, Fiji
+23: Turrialba, Costa Rica
+24: Nanpara, India
+HOW: I turned the DMS values into decimal degrees in my head. Then I matched each point against the town coordinates I remember for that region. I'm least sure of pins 1, 10 and 21; those are best guesses.
+TOOLS: none

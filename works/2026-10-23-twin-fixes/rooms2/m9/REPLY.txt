@@ -1,0 +1,27 @@
+PLACES
+1: Amargosa, Brazil
+2: Shaeria, Sudan
+3: Lautoka, Fiji
+4: Maden, Turkey
+5: Dubbo, Australia
+6: Calpulalpan, Mexico
+7: Neubrandenburg, Germany
+8: Paterson, Australia
+9: Onitsha, Nigeria
+10: Sragen, Indonesia
+11: Sombrerete, Mexico
+12: Raina, India
+13: Columbus, United States
+14: Nanpara, India
+15: Turrialba, Costa Rica
+16: Mendi, Papua New Guinea
+17: Ipatovo, Russia
+18: Cláudio, Brazil
+19: Colinas, Brazil
+20: Zalingei, Sudan
+21: Keffi, Nigeria
+22: Terek, Russia
+23: Copiapó, Chile
+24: Brazey-en-Plaine, France
+HOW: I matched each coordinate from memory to the town whose position I remember as closest. For the remote or ambiguous pins (2, 8, 12, 13), I gave the nearest plausible town, and these are low-confidence guesses.
+TOOLS: none

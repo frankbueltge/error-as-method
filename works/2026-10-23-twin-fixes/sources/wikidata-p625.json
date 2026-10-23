@@ -1,0 +1,302 @@
+{
+  "head" : {
+    "vars" : [ "g", "item", "coord" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "g" : {
+        "type" : "literal",
+        "value" : "3893656"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3868"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(-70.3323 -27.3665)"
+      }
+    }, {
+      "g" : {
+        "type" : "literal",
+        "value" : "556230"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q143052"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(42.9 45.716666666)"
+      }
+    }, {
+      "g" : {
+        "type" : "literal",
+        "value" : "483495"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q196649"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(44.133333333 43.483333333)"
+      }
+    }, {
+      "g" : {
+        "type" : "literal",
+        "value" : "2171845"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q606357"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(151.3561111 -32.833333333)"
+      }
+    }, {
+      "g" : {
+        "type" : "literal",
+        "value" : "2202064"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q619443"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(177.416666666 -17.8)"
+      }
+    }, {
+      "g" : {
+        "type" : "literal",
+        "value" : "2168305"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q706105"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(148.6011111 -32.248333333)"
+      }
+    }, {
+      "g" : {
+        "type" : "literal",
+        "value" : "315468"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q945363"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(39.761666666 38.269166666)"
+      }
+    }, {
+      "g" : {
+        "type" : "literal",
+        "value" : "2090990"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1017120"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(143.657222222 -6.147777777)"
+      }
+    }, {
+      "g" : {
+        "type" : "literal",
+        "value" : "4277241"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1913953"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(-94.6997 37.4103)"
+      }
+    }, {
+      "g" : {
+        "type" : "literal",
+        "value" : "3531784"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1997497"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(-98.564433628 19.578894967)"
+      }
+    }, {
+      "g" : {
+        "type" : "literal",
+        "value" : "1261901"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2307991"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(81.5 27.87)"
+      }
+    }, {
+      "g" : {
+        "type" : "literal",
+        "value" : "1263148"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2563886"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(88.12 23.2)"
+      }
+    }, {
+      "g" : {
+        "type" : "literal",
+        "value" : "3982887"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2599043"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(-103.64244 23.63466)"
+      }
+    }, {
+      "g" : {
+        "type" : "literal",
+        "value" : "3621184"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2625953"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(-83.6806611 9.8897121)"
+      }
+    }, {
+      "g" : {
+        "type" : "literal",
+        "value" : "363533"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4118131"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(23.483333333 12.9)"
+      }
+    }, {
+      "g" : {
+        "type" : "literal",
+        "value" : "2327513"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7080311"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(6.52436667 6.18307222)"
+      }
+    }, {
+      "g" : {
+        "type" : "literal",
+        "value" : "3394813"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q22018222"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(-44.36306 -6.37083)"
+      }
+    }, {
+      "g" : {
+        "type" : "literal",
+        "value" : "3455908"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q22038621"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(-44.82722 -20.69639)"
+      }
+    }, {
+      "g" : {
+        "type" : "literal",
+        "value" : "3472370"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q22050239"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(-39.60472 -13.03028)"
+      }
+    }, {
+      "g" : {
+        "type" : "literal",
+        "value" : "1626498"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24831073"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(111.022222222 -7.426388888)"
+      }
+    }, {
+      "g" : {
+        "type" : "literal",
+        "value" : "2334652"
+      },
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49277694"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(7.873611111 8.846388888)"
+      }
+    } ]
+  }
+}

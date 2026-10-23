@@ -1,0 +1,27 @@
+PLACES
+1: Cessnock, Australia
+2: Frontenac, United States
+3: Ipatovo, Russia
+4: Ubaíra, Brazil
+5: Chalchihuites, Mexico
+6: Oliveira, Brazil
+7: Terek, Russia
+8: Keffi, Nigeria
+9: Friedland, Germany
+10: Nadi, Fiji
+11: Tierra Amarilla, Chile
+12: Acolman, Mexico
+13: Zalingei, Sudan
+14: Tres Ríos, Costa Rica
+15: Memari, India
+16: Dubbo, Australia
+17: Ogwashi-Uku, Nigeria
+18: Bahraich, India
+19: Labado, Sudan
+20: Kagua, Papua New Guinea
+21: Ergani, Turkey
+22: Savigny-lès-Beaune, France
+23: Sragen, Indonesia
+24: Mirador, Brazil
+HOW: I matched each coordinate from memory to the nearest town I could recall. Some are confident (Dubbo, Zalingei, Keffi, Ergani, Sragen, Oliveira, Ipatovo). Others are best guesses where I don't remember the towns in that area well (2, 9, 11, 12, 14, 17, 18, 19, 22).
+TOOLS: none
