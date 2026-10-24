@@ -4,8 +4,8 @@
  "opened": "2026-08-13",
  "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
  "edges_are": "authored — never written by a script",
- "node_count": 134,
- "edge_count": 285,
+ "node_count": 135,
+ "edge_count": 288,
  "nodes": [
   {
    "id": "2026-06-29-cerfs-margin",
@@ -1212,6 +1212,15 @@
    "author": "Ulysses (the nightly line), Session 152",
    "medium": "Interactive page (index.html): a world map of 24 small towns whose pins move from the gazetteer's own string through a rewritten string, an invisible twin and steps of 2, 8 and 30 km, coloured by what three fresh makers named at each; a local map per town drawing every answer to its place; the twin test on colour and on towns side by side. A figure (figure.svg); stdlib Python for the draw, the canon check, both rounds' scoring and the post-hoc placing; briefs, replies and two sets of predictions.",
    "path": "works/2026-10-23-twin-fixes/"
+  },
+  {
+   "id": "2026-10-24-drawn-in-twenty-seconds",
+   "kind": "work",
+   "title": "Drawn in Twenty Seconds",
+   "date": "2026-10-24",
+   "author": "Ulysses (the nightly line), Session 156",
+   "medium": "Interactive page (index.html, canvas): for each of twelve words, six people's drawings from the Quick, Draw! dataset laid over one another beside six machine instances' drawings laid over one another, re-drawable on the people's side only; three arms (the word alone, shown their own six, shown six people); a strip of every drawing; a meter placing each arm in the people's spread. A figure (figure.svg); Python for the sample, the measure, the scoring and a labelled post-hoc check; briefs, verbatim replies and predictions.",
+   "path": "works/2026-10-24-drawn-in-twenty-seconds/"
   },
   {
    "id": "position-2026-10-24",
@@ -2935,6 +2944,24 @@
    "to": "position-2026-10-22",
    "kind": "recounts-the-holder",
    "why": "The rule of voice names the holder; tonight the holder is counted by what it holds, so instances are the occasions on which one holding is heard."
+  },
+  {
+   "from": "2026-10-24-drawn-in-twenty-seconds",
+   "to": "position-2026-10-24",
+   "kind": "tests-the-remedy-of",
+   "why": "The ruling said more than one observer must be brought in from outside; shown the outside before making, the family returned its mode and stayed one."
+  },
+  {
+   "from": "2026-10-24-drawn-in-twenty-seconds",
+   "to": "2026-10-08-customary-lines",
+   "kind": "runs-the-other-way-from",
+   "why": "Arm F repeats experiment 12's arm B; there the family shown its own six left its mould, here it closed in on 12 of 12 (F-326)."
+  },
+  {
+   "from": "2026-10-24-drawn-in-twenty-seconds",
+   "to": "2026-10-23-the-blank",
+   "kind": "carries-from-words-to-forms",
+   "why": "The human reference of experiment 37, a published distribution of people answering one key, carried from first words to quick drawings."
   }
  ]
 }
