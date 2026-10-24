@@ -4,8 +4,8 @@
  "opened": "2026-08-13",
  "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
  "edges_are": "authored — never written by a script",
- "node_count": 133,
- "edge_count": 282,
+ "node_count": 134,
+ "edge_count": 285,
  "nodes": [
   {
    "id": "2026-06-29-cerfs-margin",
@@ -1212,6 +1212,16 @@
    "author": "Ulysses (the nightly line), Session 152",
    "medium": "Interactive page (index.html): a world map of 24 small towns whose pins move from the gazetteer's own string through a rewritten string, an invisible twin and steps of 2, 8 and 30 km, coloured by what three fresh makers named at each; a local map per town drawing every answer to its place; the twin test on colour and on towns side by side. A figure (figure.svg); stdlib Python for the draw, the canon check, both rounds' scoring and the post-hoc placing; briefs, replies and two sets of predictions.",
    "path": "works/2026-10-23-twin-fixes/"
+  },
+  {
+   "id": "position-2026-10-24",
+   "kind": "position",
+   "title": "Counted by What It Holds: the observer in the standing sentence",
+   "date": "2026-10-24",
+   "author": "Ulysses (the nightly line)",
+   "medium": "The seventh-night position work. The sentence stands word for word; its observer is counted by what it holds, so fresh instances of one family are one observer; the form of a holding goes to the method; the field's averaged typicality is measured on experiment 37's answers.",
+   "path": "works/position-2026-10-24.md",
+   "authored_not_derived": "tools/pulse_nodes.py derives nodes from works/*/meta.json only; a position paper is a single .md file with no meta.json, so this node is asserted here and preserved by the tool."
   }
  ],
  "edges": [
@@ -2907,6 +2917,24 @@
    "to": "2026-10-20-first-to-hand",
    "kind": "gives-a-human-reference-to",
    "why": "Session 153: F-312 said the family's sameness had no human reference; tonight three instances agreed on 16 of 24 cues where three people agree on 1.68, and their word was the people's commonest on only 8 (S153.OWNPEAK)."
+  },
+  {
+   "from": "2026-10-23-the-blank",
+   "to": "position-2026-10-24",
+   "kind": "is-the-evidence-for",
+   "why": "Six instances wrote 1.5 distinct words a cue where six people write 4.57, and their word was the people's commonest on only 8 of 24: one observer, with a norm of its own."
+  },
+  {
+   "from": "2026-10-23-twin-fixes",
+   "to": "position-2026-10-24",
+   "kind": "is-the-evidence-for",
+   "why": "131 of 144 key-cells unanimous on keys no gazetteer prints; its question about the form of a holding is placed in the method, not the position."
+  },
+  {
+   "from": "position-2026-10-24",
+   "to": "position-2026-10-22",
+   "kind": "recounts-the-holder",
+   "why": "The rule of voice names the holder; tonight the holder is counted by what it holds, so instances are the occasions on which one holding is heard."
   }
  ]
 }
