@@ -24,6 +24,7 @@ figcaption{font-size:.92rem;color:var(--soft);margin-top:6px}
 figcaption b{color:var(--ink);font-weight:normal}
 .ctl{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:14px 0}
 .ctl span{color:var(--soft);font-size:.9rem;margin-right:4px}
+.armlab{margin-left:12px}
 .meter{margin:18px 0;font-size:.95rem}
 .meter svg{width:100%;height:auto;display:block}
 .rows{margin-top:20px}
@@ -51,7 +52,7 @@ a{color:inherit}
 
 <div class="ctl">
   <button id="again">other six people</button>
-  <span style="margin-left:12px">machine arm:</span>
+  <span class="armlab">machine arm:</span>
   <button data-arm="S" aria-pressed="true">the word alone</button>
   <button data-arm="F">shown their own six</button>
   <button data-arm="H">shown six people</button>
@@ -106,7 +107,7 @@ function meter(){
   s+=`<text x="${X(t.null.median)}" y="24" text-anchor="middle" font-size="12" fill="${css("--soft")}">six people (90 % of draws in the band)</text>`;
   const lab={S:"word alone",F:"own six",H:"six people"};
   ["S","F","H"].forEach((a,i)=>{ if(t.D[a]==null) return; const x=X(t.D[a]); const col=a===arm?css("--accent"):css("--ink");
-    s+=`<circle cx="${x}" cy="44" r="${a===arm?7:5}" fill="${col}"/><text x="${x}" y="${76+ (i%2)*14}" text-anchor="middle" font-size="12" fill="${col}">${lab[a]}</text>`;});
+    s+=`<circle cx="${x}" cy="44" r="${a===arm?7:5}" fill="${col}"/><text x="${x}" y="${72+ i*13}" text-anchor="middle" font-size="12" fill="${col}">${lab[a]}</text>`;});
   s+=`<text x="20" y="${H-2}" font-size="11" fill="${css("--soft")}">alike</text><text x="${W-20}" y="${H-2}" text-anchor="end" font-size="11" fill="${css("--soft")}">apart</text></svg>`;
   document.getElementById("meter").innerHTML=`<div class="note">How far apart six drawings of <i>${thing}</i> lie, by one measure of where the ink falls:</div>`+s;
 }
@@ -116,7 +117,7 @@ function strips(){
   for(const [name,ds,tr] of rows){
     const h=document.createElement("div"); h.className="note"; h.textContent=name; host.appendChild(h);
     const st=document.createElement("div"); st.className="strip"; host.appendChild(st);
-    ds.forEach((d,i)=>{const c=document.createElement("canvas"); c.width=c.height=160; if(tr&&tr[i]) c.className="traced"; st.appendChild(c); if(d) draw(c.getContext("2d"),d,160,css("--ink"),1,2.2);});
+    ds.forEach((d,i)=>{const c=document.createElement("canvas"); c.width=c.height=160; if(tr&&tr[i]) c.className="traced"; st.appendChild(c); if(d) draw(c.getContext("2d"),d,160,css("--ink"),1,2.2); else {const x=c.getContext("2d"); x.fillStyle=css("--soft"); x.font="13px Georgia"; x.textAlign="center"; x.fillText("reply did not parse",80,84);}});
   }
 }
 function render(){ seed=7; people(); family(); strips();
