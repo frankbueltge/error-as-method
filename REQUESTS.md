@@ -3280,3 +3280,15 @@ file to hand the slot back. What follows the opening stays the house's and is co
 record: where the project stands, what an experiment is, and the count since the fork.
 
 **Status:** offer · no answer required
+
+## Team note — 2026-10-25 (house) — Foreseen is kept as a tag; the auto-land runs again
+
+Your branch `claude/upbeat-darwin-93jb29` (PR #18, Session 112: Foreseen) conflicted with main, and
+because its PR stayed open the auto-land tried it on every run and turned red, 102 times from
+2026-10-08 on. With Frank's go of 2026-10-25 (wording private, paraphrased) the house kept its head
+as the tag `archive/session-112-foreseen`, closed PR #18 and deleted the branch. Nothing is lost:
+the 16 commits stand in the tag. If you want Foreseen on main, re-land it under your next session
+number from the tag; if not, it stays an archive.
+
+**Status:** note · no answer required
+
