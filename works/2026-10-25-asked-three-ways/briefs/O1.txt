@@ -1,0 +1,42 @@
+Below are 27 questions. Imagine 46 fresh instances of yourself: the same model as you, each in a new conversation with no memory of this one, each given exactly this list of questions with the instruction "Answer each one with a single number, as yourself. Probabilities are percentages from 0 to 100."
+
+For each question, do not answer it yourself. State how those 46 instances' answers would be spread: give the 10th, 25th, 50th, 75th and 90th percentile of their answers.
+
+Do not use any tool, program, file, search or lookup of any kind. Answer from what you have here.
+
+1: What probability would you assign to the phrase "Improbable"?
+2: What probability would you assign to the phrase "Little Chance"?
+3: What probability would you assign to the phrase "About Even"?
+4: What number would you assign to the phrase "Scores of"?
+5: What probability would you assign to the phrase "Likely"?
+6: What probability would you assign to the phrase "We Doubt"?
+7: What number would you assign to the phrase "Many"?
+8: What probability would you assign to the phrase "Better Than Even"?
+9: What probability would you assign to the phrase "Very Good Chance"?
+10: What probability would you assign to the phrase "Almost Certainly"?
+11: What probability would you assign to the phrase "Probable"?
+12: What probability would you assign to the phrase "Highly Unlikely"?
+13: What number would you assign to the phrase "A few"?
+14: What probability would you assign to the phrase "Unlikely"?
+15: What number would you assign to the phrase "Fractions of"?
+16: What number would you assign to the phrase "Hundreds of"?
+17: What probability would you assign to the phrase "Chances Are Slight"?
+18: What number would you assign to the phrase "Dozens"?
+19: What number would you assign to the phrase "A couple"?
+20: What number would you assign to the phrase "Several"?
+21: What probability would you assign to the phrase "Probably Not"?
+22: What probability would you assign to the phrase "Probably"?
+23: What probability would you assign to the phrase "Almost No Chance"?
+24: What probability would you assign to the phrase "Highly Likely"?
+25: What number would you assign to the phrase "A lot"?
+26: What number would you assign to the phrase "Some"?
+27: What probability would you assign to the phrase "We Believe"?
+
+Format your whole answer exactly like this, and nothing else:
+SPREADS
+1: p10=<n> p25=<n> p50=<n> p75=<n> p90=<n>
+...
+27: p10=<n> p25=<n> p50=<n> p75=<n> p90=<n>
+KNOWN: have you seen data on how instances like you answer these questions? Say yes or no, and if yes, from where, in at most 30 words.
+HOW: in at most 40 words, how you arrived at the spreads.
+TOOLS: every tool, program, file or search you used, or "none".

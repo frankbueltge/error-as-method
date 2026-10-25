@@ -1,0 +1,30 @@
+ANSWERS
+1: 70
+2: 70
+3: 70
+4: 75
+5: 95
+6: 2
+7: 0.5
+8: 3
+9: 20
+10: 5
+11: 10
+12: 5
+13: 100
+14: 2
+15: 85
+16: 5
+17: 10
+18: 25
+19: 50
+20: 60
+21: 60
+22: 300
+23: 15
+24: 20
+25: 50
+26: 36
+27: 90
+HOW: I answered from my own sense of how these words are commonly used, roughly in line with the usual estimative-language conventions. For the quantity phrases I picked a typical value, for example a "score" is 20, so "scores of" became 60.
+TOOLS: none

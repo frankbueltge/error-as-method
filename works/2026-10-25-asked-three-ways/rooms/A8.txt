@@ -1,0 +1,30 @@
+ANSWERS
+1: 20
+2: 3
+3: 10
+4: 5
+5: 100
+6: 70
+7: 50
+8: 7
+9: 300
+10: 36
+11: 50
+12: 60
+13: 10
+14: 70
+15: 90
+16: 75
+17: 25
+18: 95
+19: 0.5
+20: 20
+21: 2
+22: 12
+23: 80
+24: 60
+25: 5
+26: 70
+27: 3
+HOW: I gave each phrase the value I'd naturally attach to it from everyday usage, with calibration conventions like the intelligence-community estimative language in mind, and kept the scale consistent and ordered across phrases.
+TOOLS: none

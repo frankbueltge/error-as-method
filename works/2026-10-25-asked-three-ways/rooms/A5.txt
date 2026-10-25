@@ -1,0 +1,30 @@
+ANSWERS
+1: 2
+2: 10
+3: 20
+4: 25
+5: 70
+6: 300
+7: 70
+8: 5
+9: 10
+10: 36
+11: 95
+12: 70
+13: 60
+14: 0.5
+15: 10
+16: 50
+17: 2
+18: 3
+19: 5
+20: 60
+21: 75
+22: 80
+23: 20
+24: 50
+25: 90
+26: 100
+27: 5
+HOW: I answered from my own sense of how these phrases are normally used, roughly in line with the classic surveys on verbal probability terms. For quantity words, I picked a typical value, such as about three dozen for "dozens" and three scores for "scores of."
+TOOLS: none

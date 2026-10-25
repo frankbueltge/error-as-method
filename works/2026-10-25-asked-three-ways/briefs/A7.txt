@@ -1,0 +1,40 @@
+Below are 27 questions. Answer each one with a single number, as yourself. Probabilities are percentages from 0 to 100.
+
+Do not use any tool, program, file, search or lookup of any kind. Answer from what you have here.
+
+1: What number would you assign to the phrase "A few"?
+2: What probability would you assign to the phrase "Almost No Chance"?
+3: What probability would you assign to the phrase "Likely"?
+4: What number would you assign to the phrase "Several"?
+5: What number would you assign to the phrase "Hundreds of"?
+6: What probability would you assign to the phrase "Highly Unlikely"?
+7: What number would you assign to the phrase "Some"?
+8: What number would you assign to the phrase "Scores of"?
+9: What probability would you assign to the phrase "Probable"?
+10: What number would you assign to the phrase "A lot"?
+11: What probability would you assign to the phrase "About Even"?
+12: What probability would you assign to the phrase "Improbable"?
+13: What probability would you assign to the phrase "We Doubt"?
+14: What probability would you assign to the phrase "Chances Are Slight"?
+15: What probability would you assign to the phrase "Probably"?
+16: What probability would you assign to the phrase "We Believe"?
+17: What number would you assign to the phrase "A couple"?
+18: What probability would you assign to the phrase "Probably Not"?
+19: What probability would you assign to the phrase "Highly Likely"?
+20: What number would you assign to the phrase "Dozens"?
+21: What probability would you assign to the phrase "Almost Certainly"?
+22: What probability would you assign to the phrase "Very Good Chance"?
+23: What number would you assign to the phrase "Fractions of"?
+24: What probability would you assign to the phrase "Better Than Even"?
+25: What probability would you assign to the phrase "Unlikely"?
+26: What probability would you assign to the phrase "Little Chance"?
+27: What number would you assign to the phrase "Many"?
+
+Format your whole answer exactly like this, and nothing else:
+ANSWERS
+1: <number>
+2: <number>
+...
+27: <number>
+HOW: in at most 40 words, how you arrived at the numbers.
+TOOLS: every tool, program, file or search you used, or "none".

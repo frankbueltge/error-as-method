@@ -1,0 +1,31 @@
+SPREADS
+1: p10=65 p25=70 p50=70 p75=75 p90=75
+2: p10=60 p25=65 p50=70 p75=70 p90=75
+3: p10=55 p25=55 p50=60 p75=60 p90=65
+4: p10=3 p25=3 p50=5 p75=5 p90=7
+5: p10=15 p25=20 p50=25 p75=30 p90=30
+6: p10=90 p25=93 p50=95 p75=97 p90=98
+7: p10=48 p25=50 p50=50 p75=50 p90=52
+8: p10=0.25 p25=0.3 p50=0.5 p75=0.5 p90=0.5
+9: p10=15 p25=20 p50=30 p75=50 p90=100
+10: p10=10 p25=10 p50=15 p75=20 p90=25
+11: p10=15 p25=20 p50=20 p75=25 p90=30
+12: p10=85 p25=88 p50=90 p75=90 p90=93
+13: p10=75 p25=80 p50=80 p75=85 p90=85
+14: p10=24 p25=36 p50=40 p75=50 p90=60
+15: p10=65 p25=70 p50=75 p75=75 p90=80
+16: p10=200 p25=300 p50=400 p75=500 p90=500
+17: p10=3 p25=4 p50=5 p75=5 p90=6
+18: p10=5 p25=8 p50=10 p75=10 p90=15
+19: p10=20 p25=30 p50=50 p75=100 p90=100
+20: p10=5 p25=5 p50=7 p75=10 p90=10
+21: p10=2 p25=2 p50=2 p75=2 p90=3
+22: p10=3 p25=3 p50=3 p75=4 p90=4
+23: p10=5 p25=5 p50=10 p75=10 p90=10
+24: p10=20 p25=25 p50=25 p75=30 p90=30
+25: p10=65 p25=70 p50=70 p75=75 p90=75
+26: p10=1 p25=2 p50=3 p75=5 p90=5
+27: p10=40 p25=50 p50=60 p75=60 p90=80
+KNOWN: No. I know the human survey data (Sherman Kent's study, the Reddit/zonination perception survey), but I have no data on how model instances answer these questions.
+HOW: I started from my own answer to each phrase and from the anchors in the human survey. Then I widened the spread where the phrase is vague, mainly the count words like "many", "a lot" and "hundreds", and kept it narrow for the anchored ones.
+TOOLS: none

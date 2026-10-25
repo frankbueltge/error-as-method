@@ -1,0 +1,30 @@
+ANSWERS
+1: 95
+2: 0.5
+3: 60
+4: 88
+5: 75
+6: 8
+7: 100
+8: 25
+9: 10
+10: 10
+11: 3
+12: 60
+13: 5
+14: 36
+15: 50
+16: 22
+17: 5
+18: 50
+19: 3
+20: 70
+21: 300
+22: 70
+23: 70
+24: 2
+25: 15
+26: 25
+27: 82
+HOW: I answered from my own sense of how people usually use these words, roughly in line with the standard calibration surveys for probability terms. For the quantity words I picked a typical value for each.
+TOOLS: none

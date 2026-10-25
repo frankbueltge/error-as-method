@@ -1,0 +1,37 @@
+{
+ "fetched": "2026-10-25",
+ "files": [
+  {
+   "file": "README.md",
+   "url": "https://raw.githubusercontent.com/zonination/perceptions/master/README.md",
+   "http_status": 200,
+   "bytes": 1989,
+   "sha256": "02c02656704dc05184908bb69b22b92cd4c8fc37156c19a0df9aea4156c4963d",
+   "what_and_why": "Repository README: names the r/samplesize poll, the question wording and the 2015 Reddit post; read for provenance."
+  },
+  {
+   "file": "LICENSE",
+   "url": "https://raw.githubusercontent.com/zonination/perceptions/master/LICENSE",
+   "http_status": 200,
+   "bytes": 1078,
+   "sha256": "6ee531c7f55761ff8dba80865bacd392abfd17f304ef24b91fb2d66cb0d77d0e",
+   "what_and_why": "MIT licence, Copyright (c) 2016 Zoni Nation; permits redistribution with this notice."
+  },
+  {
+   "file": "probly.csv",
+   "url": "https://raw.githubusercontent.com/zonination/perceptions/master/probly.csv",
+   "http_status": 200,
+   "bytes": 2465,
+   "sha256": "235c1b22fc8bd096f8235b93e8d4801bcaf5b6f042dd90cc81a0d3afa45e4ee9",
+   "what_and_why": "46 rows x 17 probability phrases; the human distribution for arm comparisons."
+  },
+  {
+   "file": "numberly.csv",
+   "url": "https://raw.githubusercontent.com/zonination/perceptions/master/numberly.csv",
+   "http_status": 200,
+   "bytes": 1437,
+   "sha256": "92e6bfc13eed3c9019fb85dfe7303abac999e2c67ec199a2d20d44650ef7b5e6",
+   "what_and_why": "46 rows x 10 quantity phrases; the human distribution for arm comparisons."
+  }
+ ]
+}
