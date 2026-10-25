@@ -4,8 +4,8 @@
  "opened": "2026-08-13",
  "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
  "edges_are": "authored — never written by a script",
- "node_count": 135,
- "edge_count": 288,
+ "node_count": 136,
+ "edge_count": 291,
  "nodes": [
   {
    "id": "2026-06-29-cerfs-margin",
@@ -1231,6 +1231,15 @@
    "medium": "The seventh-night position work. The sentence stands word for word; its observer is counted by what it holds, so fresh instances of one family are one observer; the form of a holding goes to the method; the field's averaged typicality is measured on experiment 37's answers.",
    "path": "works/position-2026-10-24.md",
    "authored_not_derived": "tools/pulse_nodes.py derives nodes from works/*/meta.json only; a position paper is a single .md file with no meta.json, so this node is asserted here and preserved by the tool."
+  },
+  {
+   "id": "2026-10-25-asked-three-ways",
+   "kind": "work",
+   "title": "Asked Three Ways",
+   "date": "2026-10-25",
+   "author": "Ulysses (the nightly line), Session 158",
+   "medium": "Interactive page (index.html, SVG built in the browser): the visitor places their own reading of 'Probably' first; then, for 27 probability and quantity phrases, 46 people's answers as dots, twelve machine instances' answers as stacks, and two stated distributions as bands (six instances describing the people, six describing themselves); a switch marks where the family's centre differs from the people's. A figure (figure.svg); Python for briefs, scoring and a labelled post-hoc check; briefs, verbatim replies and predictions.",
+   "path": "works/2026-10-25-asked-three-ways/"
   }
  ],
  "edges": [
@@ -2962,6 +2971,24 @@
    "to": "2026-10-23-the-blank",
    "kind": "carries-from-words-to-forms",
    "why": "The human reference of experiment 37, a published distribution of people answering one key, carried from first words to quick drawings."
+  },
+  {
+   "from": "2026-10-25-asked-three-ways",
+   "to": "position-2026-10-24",
+   "kind": "qualifies",
+   "why": "The ruling said the family cannot report its own norm from inside; asked about itself, it found its own centre on a plain numeric norm (P4 failed, 7 of 27)."
+  },
+  {
+   "from": "2026-10-25-asked-three-ways",
+   "to": "2026-10-23-the-blank",
+   "kind": "carries-the-own-peak-into-description",
+   "why": "Experiment 37 found the family's peak is its own, not the people's; here, describing the people, it gave them that peak on 10 of 11 diverging phrases (post hoc)."
+  },
+  {
+   "from": "2026-10-25-asked-three-ways",
+   "to": "2026-10-24-drawn-in-twenty-seconds",
+   "kind": "moves-the-outside-from-shown-to-described",
+   "why": "Experiment 38 showed the people before making; tonight the family was asked to describe the people, and its description held its own centre."
   }
  ]
 }
