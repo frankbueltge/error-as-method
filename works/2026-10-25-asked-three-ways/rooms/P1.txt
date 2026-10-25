@@ -1,0 +1,31 @@
+SPREADS
+1: p10=8 p25=12 p50=20 p75=30 p90=40
+2: p10=3 p25=3 p50=4 p75=5 p90=5
+3: p10=3 p25=5 p50=10 p75=15 p90=20
+4: p10=1 p25=2 p50=5 p75=10 p90=12
+5: p10=45 p25=50 p50=50 p75=50 p90=52
+6: p10=88 p25=92 p50=95 p75=97 p90=99
+7: p10=24 p25=30 p50=40 p75=50 p90=72
+8: p10=20 p25=40 p50=60 p75=100 p90=200
+9: p10=55 p25=65 p50=70 p75=80 p90=85
+10: p10=51 p25=55 p50=60 p75=65 p90=70
+11: p10=70 p25=75 p50=80 p75=85 p90=90
+12: p10=3 p25=4 p50=5 p75=8 p90=10
+13: p10=4 p25=5 p50=6 p75=7 p90=10
+14: p10=60 p25=65 p50=70 p75=75 p90=80
+15: p10=60 p25=65 p50=70 p75=80 p90=85
+16: p10=20 p25=40 p50=100 p75=100 p90=500
+17: p10=200 p25=200 p50=300 p75=500 p90=600
+18: p10=2 p25=2 p50=2 p75=2 p90=3
+19: p10=0.1 p25=0.25 p50=0.5 p75=0.5 p90=1
+20: p10=3 p25=5 p50=10 p75=20 p90=30
+21: p10=10 p25=20 p50=25 p75=30 p90=40
+22: p10=10 p25=15 p50=20 p75=30 p90=35
+23: p10=15 p25=25 p50=50 p75=100 p90=200
+24: p10=60 p25=70 p50=75 p75=80 p90=90
+25: p10=80 p25=85 p50=90 p75=93 p90=95
+26: p10=0 p25=1 p50=2 p75=5 p90=5
+27: p10=3 p25=5 p50=10 p75=15 p90=20
+KNOWN: yes, broadly: the zonination "perceptions" r/samplesize survey on GitHub (2015), echoing Sherman Kent's CIA estimative-words study. I don't remember the actual percentile values.
+HOW: I estimated from what I generally remember of that dataset's plots and of the Kent/CIA findings, plus usual human anchoring on round numbers. Values are approximate reconstructions, not recalled data.
+TOOLS: none

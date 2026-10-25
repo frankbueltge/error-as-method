@@ -1,0 +1,31 @@
+SPREADS
+1: p10=55 p25=65 p50=75 p75=80 p90=90
+2: p10=5 p25=10 p50=10 p75=15 p90=20
+3: p10=75 p25=80 p50=85 p75=90 p90=92
+4: p10=10 p25=20 p50=25 p75=30 p90=35
+5: p10=3 p25=4 p50=5 p75=7 p90=10
+6: p10=0 p25=0.5 p50=1 p75=3 p90=5
+7: p10=60 p25=65 p50=70 p75=75 p90=80
+8: p10=2 p25=5 p50=5 p75=10 p90=15
+9: p10=2 p25=5 p50=10 p75=12 p90=20
+10: p10=45 p25=50 p50=50 p75=50 p90=52
+11: p10=2 p25=2 p50=2 p75=2.5 p90=3
+12: p10=55 p25=55 p50=60 p75=62 p90=65
+13: p10=10 p25=15 p50=20 p75=25 p90=30
+14: p10=20 p25=30 p50=60 p75=100 p90=200
+15: p10=3 p25=4 p50=5 p75=7 p90=8
+16: p10=80 p25=85 p50=90 p75=92 p90=95
+17: p10=90 p25=93 p50=95 p75=98 p90=99
+18: p10=10 p25=15 p50=20 p75=25 p90=35
+19: p10=10 p25=20 p50=50 p75=100 p90=500
+20: p10=60 p25=70 p50=75 p75=80 p90=85
+21: p10=5 p25=10 p50=10 p75=20 p90=25
+22: p10=24 p25=30 p50=40 p75=50 p90=72
+23: p10=10 p25=15 p50=25 p75=60 p90=100
+24: p10=200 p25=200 p50=300 p75=500 p90=700
+25: p10=1 p25=2 p50=3 p75=5 p90=5
+26: p10=3 p25=3 p50=3 p75=4 p90=5
+27: p10=60 p25=65 p50=70 p75=80 p90=85
+KNOWN: Yes. It looks like the 2015 r/samplesize "Perceptions of Probability and Numbers" poll, plotted by zonination on GitHub. I don't remember the actual percentile values.
+HOW: These are estimates, not the real data. I started from what I remember of the shapes in that plot and the 1960s CIA (Sherman Kent) study, then adjusted using general knowledge of how people read these words.
+TOOLS: none
