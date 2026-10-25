@@ -1,0 +1,30 @@
+ANSWERS
+1: 5
+2: 20
+3: 50
+4: 100
+5: 60
+6: 20
+7: 3
+8: 5
+9: 70
+10: 0.5
+11: 36
+12: 70
+13: 25
+14: 95
+15: 60
+16: 300
+17: 80
+18: 5
+19: 2
+20: 10
+21: 10
+22: 75
+23: 70
+24: 2
+25: 90
+26: 50
+27: 10
+HOW: I went with my own sense of how people usually use each phrase, roughly in line with the intelligence-community estimative language scales. For the quantity words, I picked a typical value that fits everyday usage.
+TOOLS: none

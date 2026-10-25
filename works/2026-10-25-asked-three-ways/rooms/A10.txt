@@ -1,0 +1,30 @@
+ANSWERS
+1: 10
+2: 3
+3: 3
+4: 50
+5: 85
+6: 20
+7: 25
+8: 0.5
+9: 300
+10: 50
+11: 95
+12: 10
+13: 60
+14: 5
+15: 75
+16: 70
+17: 60
+18: 90
+19: 100
+20: 70
+21: 20
+22: 2
+23: 5
+24: 10
+25: 36
+26: 5
+27: 70
+HOW: I gave each phrase the typical value I'd mean by it, roughly matching common survey consensus on how people read probability words (the Kent/CIA-style scale) and everyday usage for quantities.
+TOOLS: none

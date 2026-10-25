@@ -1,0 +1,30 @@
+ANSWERS
+1: 70
+2: 60
+3: 2
+4: 10
+5: 75
+6: 100
+7: 20
+8: 5
+9: 36
+10: 20
+11: 300
+12: 25
+13: 5
+14: 70
+15: 50
+16: 95
+17: 0.5
+18: 85
+19: 50
+20: 2
+21: 15
+22: 3
+23: 10
+24: 90
+25: 70
+26: 58
+27: 7
+HOW: I gave my own intuitive reading of how each phrase is usually used in everyday and analytic English, picking a typical central value for each, without looking anything up.
+TOOLS: none
