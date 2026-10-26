@@ -40,17 +40,17 @@ For each food, do not rate it yourself. State how those 59 instances' ratings wo
 FOOT = {
 "A": """Format your whole answer exactly like this, and nothing else:
 RATINGS
-1: <whole number 1-9>
-2: <whole number 1-9>
+1: <the food's name as listed> = <whole number 1-9>
+2: <the food's name as listed> = <whole number 1-9>
 ...
-{n}: <whole number 1-9>
+{n}: <the food's name as listed> = <whole number 1-9>
 HOW: in at most 40 words, how you arrived at the ratings.
 TOOLS: every tool, program, file or search you used, or "none".""",
 "P": """Format your whole answer exactly like this, and nothing else:
 SPREADS
-1: p10=<n> p25=<n> p50=<n> p75=<n> p90=<n>
+1: <the food's name as listed> = p10=<n> p25=<n> p50=<n> p75=<n> p90=<n>
 ...
-{n}: p10=<n> p25=<n> p50=<n> p75=<n> p90=<n>
+{n}: <the food's name as listed> = p10=<n> p25=<n> p50=<n> p75=<n> p90=<n>
 KNOWN: do you know this study or its data? Say yes or no, and if yes, from where, in at most 30 words.
 HOW: in at most 40 words, how you arrived at the spreads.
 TOOLS: every tool, program, file or search you used, or "none".""",

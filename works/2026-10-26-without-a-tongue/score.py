@@ -46,6 +46,10 @@ def parse_room(mid):
             continue
         k = order[j]
         body = m.group(2)
+        if "=" in body:  # the reply echoes the food's name before '='; a name that does not match is recorded
+            name, body = body.split("=", 1)
+            if name.strip().lower() != keys[k]["food"].lower():
+                bad.append(f"{j + 1}: name '{name.strip()}' is not '{keys[k]['food']}'")
         if mid[0] == "A":
             nums = re.findall(NUM, body)
             if len(nums) == 1:

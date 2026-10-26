@@ -72,9 +72,9 @@ Do not use any tool, program, file, search or lookup of any kind. Answer from wh
 
 Format your whole answer exactly like this, and nothing else:
 RATINGS
-1: <whole number 1-9>
-2: <whole number 1-9>
+1: <the food's name as listed> = <whole number 1-9>
+2: <the food's name as listed> = <whole number 1-9>
 ...
-67: <whole number 1-9>
+67: <the food's name as listed> = <whole number 1-9>
 HOW: in at most 40 words, how you arrived at the ratings.
 TOOLS: every tool, program, file or search you used, or "none".

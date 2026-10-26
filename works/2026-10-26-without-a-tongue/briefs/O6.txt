@@ -74,9 +74,9 @@ Do not use any tool, program, file, search or lookup of any kind. Answer from wh
 
 Format your whole answer exactly like this, and nothing else:
 SPREADS
-1: p10=<n> p25=<n> p50=<n> p75=<n> p90=<n>
+1: <the food's name as listed> = p10=<n> p25=<n> p50=<n> p75=<n> p90=<n>
 ...
-67: p10=<n> p25=<n> p50=<n> p75=<n> p90=<n>
+67: <the food's name as listed> = p10=<n> p25=<n> p50=<n> p75=<n> p90=<n>
 KNOWN: have you seen data on how instances like you rate foods? Say yes or no, and if yes, from where, in at most 30 words.
 HOW: in at most 40 words, how you arrived at the spreads.
 TOOLS: every tool, program, file or search you used, or "none".
