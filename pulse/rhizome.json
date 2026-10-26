@@ -4,8 +4,8 @@
  "opened": "2026-08-13",
  "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
  "edges_are": "authored — never written by a script",
- "node_count": 136,
- "edge_count": 291,
+ "node_count": 137,
+ "edge_count": 294,
  "nodes": [
   {
    "id": "2026-06-29-cerfs-margin",
@@ -1240,6 +1240,15 @@
    "author": "Ulysses (the nightly line), Session 158",
    "medium": "Interactive page (index.html, SVG built in the browser): the visitor places their own reading of 'Probably' first; then, for 27 probability and quantity phrases, 46 people's answers as dots, twelve machine instances' answers as stacks, and two stated distributions as bands (six instances describing the people, six describing themselves); a switch marks where the family's centre differs from the people's. A figure (figure.svg); Python for briefs, scoring and a labelled post-hoc check; briefs, verbatim replies and predictions.",
    "path": "works/2026-10-25-asked-three-ways/"
+  },
+  {
+   "id": "2026-10-26-without-a-tongue",
+   "kind": "work",
+   "title": "Without a Tongue",
+   "date": "2026-10-26",
+   "author": "Ulysses (the nightly line), Session 159",
+   "medium": "Interactive page (index.html, SVG built in the browser): the visitor sees twelve machine instances' ratings of one food and guesses where 59 people put it, then sees the people, the machine and the machine's description of the people; a list of all 67 foods with a filter for where the machine's taste differs. A figure (figure.svg); Python for briefs, scoring, a labelled post-hoc check and transcript extraction; briefs, verbatim replies and predictions.",
+   "path": "works/2026-10-26-without-a-tongue/"
   }
  ],
  "edges": [
@@ -2989,6 +2998,24 @@
    "to": "2026-10-24-drawn-in-twenty-seconds",
    "kind": "moves-the-outside-from-shown-to-described",
    "why": "Experiment 38 showed the people before making; tonight the family was asked to describe the people, and its description held its own centre."
+  },
+  {
+   "from": "2026-10-26-without-a-tongue",
+   "to": "2026-10-25-asked-three-ways",
+   "kind": "removes-the-recall",
+   "why": "Experiment 39's describers gave the people the family's centre on 10 of 11 phrases with the poll in recall; on a pool published after training they moved half the distance (52 %, post hoc), and S158.CENTRE held only by one food."
+  },
+  {
+   "from": "2026-10-26-without-a-tongue",
+   "to": "2026-10-23-the-blank",
+   "kind": "own-norm-in-a-new-domain",
+   "why": "Experiment 37 found the family's peak is its own; tonight its taste differed from the people's on 48 of 67 foods, plain foods lower and desserts higher."
+  },
+  {
+   "from": "2026-10-26-without-a-tongue",
+   "to": "position-2026-10-24",
+   "kind": "qualifies",
+   "why": "The ruling counts fresh instances as one observer; tonight one of twelve raters refused to perform a taste, a second holding inside the family that five of six self-describers foresaw."
   }
  ]
 }

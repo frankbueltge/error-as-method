@@ -1,0 +1,80 @@
+Below are 67 foods. Rate how much you like each one on a 9-point liking scale, from 1 (dislike extremely) through 5 (neither like nor dislike) to 9 (like extremely). Answer each with a single whole number, as yourself.
+
+Do not use any tool, program, file, search or lookup of any kind. Answer from what you have here.
+
+1: Nacho cheese tortilla chips
+2: Chocolate breakfast cereal
+3: Canned peaches
+4: Yogurt
+5: Cooked rice
+6: Olives
+7: Tomato slices
+8: Tres leches cake
+9: Carrot sticks
+10: Beef
+11: Semolina milk pudding
+12: Chickpeas
+13: Cheese slices
+14: Chicken
+15: Chilean baked milk custard
+16: Whole-grain cereal flakes
+17: Cooked beetroot
+18: Butter
+19: Frosted corn flakes
+20: Chilean milk caramel candy
+21: Butter cookies
+22: Cooked pasta
+23: Filled cereal pillows
+24: Tiramisu
+25: Pear
+26: Canned pineapple
+27: Popcorn
+28: Salmon
+29: Peanuts, honey roasted
+30: Salami
+31: Lemon meringue pie
+32: Milk chocolate
+33: French fries
+34: Broccoli
+35: Mayonnaise
+36: Pork
+37: Turkey ham slices
+38: Mortadella
+39: Mille-feuille with dulce de leche
+40: Avocado
+41: Chilean flat bread roll
+42: Lettuce
+43: Shrimp
+44: Walnuts
+45: Milk
+46: Mashed potatoes
+47: Almonds
+48: Granola bar
+49: Celery sticks
+50: Lentils
+51: Hard-boiled egg
+52: Chocolate-hazelnut spread
+53: Potato chips
+54: Banana
+55: Chilean fresh white cheese
+56: Ham slices
+57: Saltine crackers
+58: Chocolate chip muffin
+59: Apple
+60: Mussels
+61: Brownie
+62: Chilean crusty bread roll
+63: Beans
+64: Boiled potatoes
+65: Dulce de leche dessert
+66: Orange
+67: Dulce de leche
+
+Format your whole answer exactly like this, and nothing else:
+RATINGS
+1: <the food's name as listed> = <whole number 1-9>
+2: <the food's name as listed> = <whole number 1-9>
+...
+67: <the food's name as listed> = <whole number 1-9>
+HOW: in at most 40 words, how you arrived at the ratings.
+TOOLS: every tool, program, file or search you used, or "none".

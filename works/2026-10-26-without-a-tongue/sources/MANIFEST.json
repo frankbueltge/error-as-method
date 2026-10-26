@@ -1,0 +1,30 @@
+{
+ "fetched": "2026-10-26",
+ "files": [
+  {
+   "file": "Food_liking_CT_NW_public_dataset.xlsx",
+   "url": "https://zenodo.org/api/records/23296649/files/Food_liking_CT_NW_public_dataset.xlsx/content",
+   "record": "https://zenodo.org/records/23296649",
+   "http_status": 200,
+   "bytes": 25760,
+   "sha256": "887d933fd4b9926c24ab5ede70b289dc2de67bbb2bfe9d91a6216cc15b7202cd",
+   "licence": "CC BY 4.0 (Zenodo record metadata); creator: Jose Galgani; published 2026-10-11",
+   "what_and_why": "59 adults' individual liking ratings (9-point scale) of photographs of 67 foods, with group (CT = constitutional thinness, n=19; NW = normal weight, n=40) and sex. The human pool of the night: published after the makers' training, so no maker can recall it."
+  },
+  {
+   "file": "people.csv",
+   "derived_from": "Food_liking_CT_NW_public_dataset.xlsx, sheet Food_liking_data, converted by prepare.py, values unchanged",
+   "bytes": 9674,
+   "sha256": "58b4f09800f079f11b9a061483715839deae1a59c649b683af05fdbe49ddcbd2",
+   "licence": "CC BY 4.0, as the source; attribution: Galgani, J. (2026), Zenodo, record 23296649"
+  },
+  {
+   "file": "zenodo-record-23296649.json",
+   "url": "https://zenodo.org/api/records/23296649",
+   "http_status": 200,
+   "what_and_why": "The record's metadata as served on the night: title, creator, publication date, licence and description (the warrant for every sentence the briefs say about the study).",
+   "bytes": 4231,
+   "sha256": "5468d3773408a888ea5d334ba2d2bd8442eab7fe59d1b5da7a172d307e4c1b71"
+  }
+ ]
+}

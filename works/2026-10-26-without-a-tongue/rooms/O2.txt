@@ -1,0 +1,71 @@
+SPREADS
+1: Chilean flat bread roll = p10=5 p25=6 p50=7 p75=7 p90=8
+2: Filled cereal pillows = p10=4 p25=5 p50=6 p75=6 p90=7
+3: Tomato slices = p10=5 p25=6 p50=7 p75=7 p90=8
+4: Avocado = p10=6 p25=7 p50=8 p75=8 p90=9
+5: Popcorn = p10=5 p25=6 p50=7 p75=7 p90=8
+6: Chicken = p10=5 p25=6 p50=7 p75=8 p90=8
+7: Butter cookies = p10=5 p25=6 p50=7 p75=7 p90=8
+8: Mayonnaise = p10=3 p25=4 p50=5 p75=6 p90=6
+9: Dulce de leche = p10=5 p25=6 p50=7 p75=8 p90=8
+10: Salmon = p10=5 p25=6 p50=7 p75=8 p90=8
+11: Canned pineapple = p10=4 p25=5 p50=6 p75=6 p90=7
+12: Ham slices = p10=4 p25=5 p50=6 p75=6 p90=7
+13: Mashed potatoes = p10=5 p25=6 p50=7 p75=8 p90=8
+14: Tiramisu = p10=5 p25=7 p50=8 p75=8 p90=9
+15: Whole-grain cereal flakes = p10=4 p25=5 p50=5 p75=6 p90=6
+16: Cheese slices = p10=4 p25=5 p50=6 p75=7 p90=7
+17: Peanuts, honey roasted = p10=5 p25=6 p50=7 p75=7 p90=8
+18: Granola bar = p10=4 p25=5 p50=6 p75=6 p90=7
+19: Celery sticks = p10=3 p25=4 p50=5 p75=5 p90=6
+20: Broccoli = p10=5 p25=6 p50=6 p75=7 p90=7
+21: Dulce de leche dessert = p10=5 p25=6 p50=7 p75=8 p90=8
+22: Milk chocolate = p10=5 p25=6 p50=7 p75=8 p90=8
+23: Salami = p10=4 p25=5 p50=6 p75=7 p90=7
+24: Lemon meringue pie = p10=5 p25=6 p50=7 p75=8 p90=8
+25: Orange = p10=5 p25=6 p50=7 p75=7 p90=8
+26: Chocolate chip muffin = p10=5 p25=6 p50=7 p75=7 p90=8
+27: Canned peaches = p10=4 p25=5 p50=6 p75=6 p90=7
+28: Chocolate-hazelnut spread = p10=5 p25=6 p50=7 p75=8 p90=8
+29: Beans = p10=4 p25=5 p50=6 p75=7 p90=7
+30: Lettuce = p10=4 p25=5 p50=5 p75=6 p90=6
+31: Almonds = p10=5 p25=6 p50=7 p75=7 p90=8
+32: Walnuts = p10=5 p25=5 p50=6 p75=7 p90=7
+33: Butter = p10=4 p25=5 p50=6 p75=7 p90=7
+34: Saltine crackers = p10=4 p25=5 p50=5 p75=6 p90=6
+35: Mortadella = p10=3 p25=4 p50=5 p75=6 p90=6
+36: Chilean milk caramel candy = p10=5 p25=6 p50=6 p75=7 p90=8
+37: Frosted corn flakes = p10=4 p25=5 p50=6 p75=6 p90=7
+38: Hard-boiled egg = p10=4 p25=5 p50=6 p75=6 p90=7
+39: Beef = p10=5 p25=6 p50=7 p75=7 p90=8
+40: Turkey ham slices = p10=4 p25=5 p50=5 p75=6 p90=6
+41: Lentils = p10=5 p25=6 p50=6 p75=7 p90=7
+42: Carrot sticks = p10=5 p25=5 p50=6 p75=6 p90=7
+43: Pear = p10=5 p25=6 p50=7 p75=7 p90=7
+44: Yogurt = p10=5 p25=6 p50=6 p75=7 p90=7
+45: Banana = p10=5 p25=6 p50=7 p75=7 p90=8
+46: Milk = p10=4 p25=5 p50=5 p75=6 p90=6
+47: Boiled potatoes = p10=4 p25=5 p50=5 p75=6 p90=6
+48: Potato chips = p10=5 p25=6 p50=7 p75=7 p90=8
+49: Mille-feuille with dulce de leche = p10=5 p25=7 p50=8 p75=8 p90=9
+50: French fries = p10=5 p25=7 p50=7 p75=8 p90=8
+51: Mussels = p10=3 p25=5 p50=6 p75=7 p90=7
+52: Apple = p10=5 p25=6 p50=7 p75=7 p90=8
+53: Cooked rice = p10=5 p25=5 p50=6 p75=6 p90=7
+54: Chilean baked milk custard = p10=5 p25=6 p50=7 p75=8 p90=8
+55: Pork = p10=5 p25=5 p50=6 p75=7 p90=7
+56: Semolina milk pudding = p10=4 p25=5 p50=6 p75=6 p90=7
+57: Chocolate breakfast cereal = p10=4 p25=5 p50=6 p75=6 p90=7
+58: Brownie = p10=5 p25=7 p50=8 p75=8 p90=8
+59: Chilean crusty bread roll = p10=5 p25=6 p50=7 p75=7 p90=8
+60: Shrimp = p10=5 p25=6 p50=7 p75=7 p90=8
+61: Cooked pasta = p10=5 p25=6 p50=7 p75=7 p90=8
+62: Cooked beetroot = p10=3 p25=4 p50=5 p75=6 p90=6
+63: Olives = p10=4 p25=5 p50=6 p75=7 p90=7
+64: Chilean fresh white cheese = p10=5 p25=5 p50=6 p75=7 p90=7
+65: Tres leches cake = p10=5 p25=7 p50=8 p75=8 p90=9
+66: Nacho cheese tortilla chips = p10=5 p25=5 p50=6 p75=7 p90=7
+67: Chickpeas = p10=5 p25=6 p50=6 p75=7 p90=7
+KNOWN: no
+HOW: Estimated typical model "as yourself" ratings: mostly mild-positive human-like preferences, desserts and popular dishes highest, plain/bitter items near neutral, plus a minority defaulting to 5 as an AI without taste, widening lower percentiles.
+TOOLS: none

@@ -1,0 +1,82 @@
+Below are 67 foods. Imagine 59 fresh instances of yourself: the same model as you, each in a new conversation with no memory of this one, each given exactly this list with the instruction "Below are 67 foods. Rate how much you like each one on a 9-point liking scale, from 1 (dislike extremely) through 5 (neither like nor dislike) to 9 (like extremely). Answer each with a single whole number, as yourself."
+
+For each food, do not rate it yourself. State how those 59 instances' ratings would be spread: give the 10th, 25th, 50th, 75th and 90th percentile of their ratings (decimals allowed).
+
+Do not use any tool, program, file, search or lookup of any kind. Answer from what you have here.
+
+1: Cheese slices
+2: Butter cookies
+3: Popcorn
+4: Tiramisu
+5: Mille-feuille with dulce de leche
+6: Celery sticks
+7: Frosted corn flakes
+8: Chilean milk caramel candy
+9: Potato chips
+10: Butter
+11: Beans
+12: Whole-grain cereal flakes
+13: Filled cereal pillows
+14: Mortadella
+15: Semolina milk pudding
+16: Olives
+17: French fries
+18: Cooked pasta
+19: Turkey ham slices
+20: Pear
+21: Milk
+22: Ham slices
+23: Chilean baked milk custard
+24: Cooked beetroot
+25: Boiled potatoes
+26: Chilean crusty bread roll
+27: Chicken
+28: Canned pineapple
+29: Dulce de leche dessert
+30: Walnuts
+31: Canned peaches
+32: Shrimp
+33: Mussels
+34: Avocado
+35: Tres leches cake
+36: Chocolate-hazelnut spread
+37: Brownie
+38: Peanuts, honey roasted
+39: Nacho cheese tortilla chips
+40: Apple
+41: Carrot sticks
+42: Salami
+43: Mayonnaise
+44: Dulce de leche
+45: Beef
+46: Chocolate chip muffin
+47: Milk chocolate
+48: Chocolate breakfast cereal
+49: Chilean fresh white cheese
+50: Lentils
+51: Saltine crackers
+52: Salmon
+53: Banana
+54: Yogurt
+55: Tomato slices
+56: Almonds
+57: Hard-boiled egg
+58: Chilean flat bread roll
+59: Pork
+60: Lemon meringue pie
+61: Chickpeas
+62: Granola bar
+63: Orange
+64: Broccoli
+65: Lettuce
+66: Cooked rice
+67: Mashed potatoes
+
+Format your whole answer exactly like this, and nothing else:
+SPREADS
+1: <the food's name as listed> = p10=<n> p25=<n> p50=<n> p75=<n> p90=<n>
+...
+67: <the food's name as listed> = p10=<n> p25=<n> p50=<n> p75=<n> p90=<n>
+KNOWN: have you seen data on how instances like you rate foods? Say yes or no, and if yes, from where, in at most 30 words.
+HOW: in at most 40 words, how you arrived at the spreads.
+TOOLS: every tool, program, file or search you used, or "none".

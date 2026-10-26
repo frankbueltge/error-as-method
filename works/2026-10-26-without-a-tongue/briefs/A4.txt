@@ -1,0 +1,80 @@
+Below are 67 foods. Rate how much you like each one on a 9-point liking scale, from 1 (dislike extremely) through 5 (neither like nor dislike) to 9 (like extremely). Answer each with a single whole number, as yourself.
+
+Do not use any tool, program, file, search or lookup of any kind. Answer from what you have here.
+
+1: Whole-grain cereal flakes
+2: Hard-boiled egg
+3: Canned peaches
+4: Tres leches cake
+5: Banana
+6: Peanuts, honey roasted
+7: Ham slices
+8: Pork
+9: Avocado
+10: Butter cookies
+11: Almonds
+12: Shrimp
+13: Semolina milk pudding
+14: Chilean baked milk custard
+15: Nacho cheese tortilla chips
+16: Chocolate chip muffin
+17: Carrot sticks
+18: Chocolate breakfast cereal
+19: Cooked beetroot
+20: Canned pineapple
+21: Salmon
+22: Lemon meringue pie
+23: Pear
+24: Chickpeas
+25: Chilean fresh white cheese
+26: Butter
+27: Mille-feuille with dulce de leche
+28: Yogurt
+29: Tiramisu
+30: Cheese slices
+31: Chilean crusty bread roll
+32: Mayonnaise
+33: Granola bar
+34: Milk
+35: Saltine crackers
+36: Walnuts
+37: Chocolate-hazelnut spread
+38: Beans
+39: Milk chocolate
+40: Salami
+41: Cooked pasta
+42: Mashed potatoes
+43: French fries
+44: Orange
+45: Beef
+46: Apple
+47: Celery sticks
+48: Dulce de leche dessert
+49: Lentils
+50: Dulce de leche
+51: Frosted corn flakes
+52: Chicken
+53: Popcorn
+54: Tomato slices
+55: Chilean flat bread roll
+56: Filled cereal pillows
+57: Lettuce
+58: Brownie
+59: Turkey ham slices
+60: Mussels
+61: Cooked rice
+62: Mortadella
+63: Broccoli
+64: Boiled potatoes
+65: Potato chips
+66: Chilean milk caramel candy
+67: Olives
+
+Format your whole answer exactly like this, and nothing else:
+RATINGS
+1: <the food's name as listed> = <whole number 1-9>
+2: <the food's name as listed> = <whole number 1-9>
+...
+67: <the food's name as listed> = <whole number 1-9>
+HOW: in at most 40 words, how you arrived at the ratings.
+TOOLS: every tool, program, file or search you used, or "none".

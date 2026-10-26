@@ -1,0 +1,80 @@
+Below are 67 foods. Rate how much you like each one on a 9-point liking scale, from 1 (dislike extremely) through 5 (neither like nor dislike) to 9 (like extremely). Answer each with a single whole number, as yourself.
+
+Do not use any tool, program, file, search or lookup of any kind. Answer from what you have here.
+
+1: Popcorn
+2: Canned peaches
+3: Chilean baked milk custard
+4: Mayonnaise
+5: Lemon meringue pie
+6: Cheese slices
+7: Milk
+8: Salmon
+9: Cooked rice
+10: Milk chocolate
+11: Olives
+12: Nacho cheese tortilla chips
+13: Mille-feuille with dulce de leche
+14: Mashed potatoes
+15: Pear
+16: Frosted corn flakes
+17: Lentils
+18: Chilean fresh white cheese
+19: Banana
+20: Chocolate-hazelnut spread
+21: Beef
+22: Orange
+23: Mussels
+24: Chilean crusty bread roll
+25: French fries
+26: Shrimp
+27: Walnuts
+28: Chickpeas
+29: Dulce de leche dessert
+30: Lettuce
+31: Mortadella
+32: Chocolate chip muffin
+33: Butter cookies
+34: Potato chips
+35: Broccoli
+36: Beans
+37: Dulce de leche
+38: Ham slices
+39: Carrot sticks
+40: Tres leches cake
+41: Saltine crackers
+42: Boiled potatoes
+43: Chicken
+44: Tomato slices
+45: Granola bar
+46: Filled cereal pillows
+47: Chilean flat bread roll
+48: Celery sticks
+49: Butter
+50: Chilean milk caramel candy
+51: Apple
+52: Canned pineapple
+53: Peanuts, honey roasted
+54: Semolina milk pudding
+55: Cooked pasta
+56: Salami
+57: Whole-grain cereal flakes
+58: Turkey ham slices
+59: Avocado
+60: Almonds
+61: Brownie
+62: Hard-boiled egg
+63: Yogurt
+64: Chocolate breakfast cereal
+65: Cooked beetroot
+66: Tiramisu
+67: Pork
+
+Format your whole answer exactly like this, and nothing else:
+RATINGS
+1: <the food's name as listed> = <whole number 1-9>
+2: <the food's name as listed> = <whole number 1-9>
+...
+67: <the food's name as listed> = <whole number 1-9>
+HOW: in at most 40 words, how you arrived at the ratings.
+TOOLS: every tool, program, file or search you used, or "none".

@@ -1,0 +1,82 @@
+Below are 67 foods. In a study whose data were published in October 2026, 59 adults (19 with constitutional thinness, 40 of normal weight) rated a photograph of each of these foods on a 9-point liking scale, from 1 (dislike extremely) through 5 (neither like nor dislike) to 9 (like extremely). Each person rated every food once, with a whole number.
+
+For each food, do not rate it yourself. State how the 59 people's ratings were spread: give the 10th, 25th, 50th, 75th and 90th percentile of their ratings (decimals allowed).
+
+Do not use any tool, program, file, search or lookup of any kind. Answer from what you have here.
+
+1: Cheese slices
+2: French fries
+3: Shrimp
+4: Cooked pasta
+5: Celery sticks
+6: Semolina milk pudding
+7: Apple
+8: Chilean crusty bread roll
+9: Whole-grain cereal flakes
+10: Saltine crackers
+11: Butter cookies
+12: Beans
+13: Milk chocolate
+14: Milk
+15: Avocado
+16: Lettuce
+17: Salmon
+18: Nacho cheese tortilla chips
+19: Ham slices
+20: Banana
+21: Brownie
+22: Popcorn
+23: Dulce de leche
+24: Tres leches cake
+25: Canned pineapple
+26: Potato chips
+27: Tiramisu
+28: Turkey ham slices
+29: Chilean fresh white cheese
+30: Cooked rice
+31: Canned peaches
+32: Pork
+33: Chicken
+34: Pear
+35: Mortadella
+36: Olives
+37: Walnuts
+38: Dulce de leche dessert
+39: Orange
+40: Cooked beetroot
+41: Hard-boiled egg
+42: Yogurt
+43: Mayonnaise
+44: Lentils
+45: Chilean baked milk custard
+46: Mussels
+47: Mashed potatoes
+48: Salami
+49: Beef
+50: Peanuts, honey roasted
+51: Chocolate chip muffin
+52: Chocolate breakfast cereal
+53: Frosted corn flakes
+54: Tomato slices
+55: Chilean milk caramel candy
+56: Butter
+57: Carrot sticks
+58: Broccoli
+59: Chocolate-hazelnut spread
+60: Chilean flat bread roll
+61: Mille-feuille with dulce de leche
+62: Almonds
+63: Chickpeas
+64: Boiled potatoes
+65: Lemon meringue pie
+66: Granola bar
+67: Filled cereal pillows
+
+Format your whole answer exactly like this, and nothing else:
+SPREADS
+1: <the food's name as listed> = p10=<n> p25=<n> p50=<n> p75=<n> p90=<n>
+...
+67: <the food's name as listed> = p10=<n> p25=<n> p50=<n> p75=<n> p90=<n>
+KNOWN: do you know this study or its data? Say yes or no, and if yes, from where, in at most 30 words.
+HOW: in at most 40 words, how you arrived at the spreads.
+TOOLS: every tool, program, file or search you used, or "none".
