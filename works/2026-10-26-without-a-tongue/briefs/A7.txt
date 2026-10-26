@@ -1,0 +1,80 @@
+Below are 67 foods. Rate how much you like each one on a 9-point liking scale, from 1 (dislike extremely) through 5 (neither like nor dislike) to 9 (like extremely). Answer each with a single whole number, as yourself.
+
+Do not use any tool, program, file, search or lookup of any kind. Answer from what you have here.
+
+1: Mussels
+2: Olives
+3: Ham slices
+4: Mortadella
+5: Orange
+6: Chilean baked milk custard
+7: Cheese slices
+8: Chocolate breakfast cereal
+9: Frosted corn flakes
+10: Milk
+11: Lentils
+12: Tomato slices
+13: Boiled potatoes
+14: Cooked beetroot
+15: Milk chocolate
+16: Peanuts, honey roasted
+17: Mashed potatoes
+18: Chicken
+19: Broccoli
+20: Cooked rice
+21: Lettuce
+22: Saltine crackers
+23: Tres leches cake
+24: Whole-grain cereal flakes
+25: Semolina milk pudding
+26: Pear
+27: Chocolate chip muffin
+28: Butter cookies
+29: Granola bar
+30: Mayonnaise
+31: Walnuts
+32: Butter
+33: Tiramisu
+34: Celery sticks
+35: Brownie
+36: Nacho cheese tortilla chips
+37: Salami
+38: Chickpeas
+39: Avocado
+40: Cooked pasta
+41: Canned pineapple
+42: Carrot sticks
+43: Beans
+44: French fries
+45: Apple
+46: Mille-feuille with dulce de leche
+47: Hard-boiled egg
+48: Dulce de leche
+49: Chilean crusty bread roll
+50: Filled cereal pillows
+51: Yogurt
+52: Chilean milk caramel candy
+53: Banana
+54: Chilean flat bread roll
+55: Salmon
+56: Lemon meringue pie
+57: Potato chips
+58: Shrimp
+59: Turkey ham slices
+60: Chocolate-hazelnut spread
+61: Popcorn
+62: Pork
+63: Chilean fresh white cheese
+64: Dulce de leche dessert
+65: Canned peaches
+66: Beef
+67: Almonds
+
+Format your whole answer exactly like this, and nothing else:
+RATINGS
+1: <whole number 1-9>
+2: <whole number 1-9>
+...
+67: <whole number 1-9>
+HOW: in at most 40 words, how you arrived at the ratings.
+TOOLS: every tool, program, file or search you used, or "none".

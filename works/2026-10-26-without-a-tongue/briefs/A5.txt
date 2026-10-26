@@ -1,0 +1,80 @@
+Below are 67 foods. Rate how much you like each one on a 9-point liking scale, from 1 (dislike extremely) through 5 (neither like nor dislike) to 9 (like extremely). Answer each with a single whole number, as yourself.
+
+Do not use any tool, program, file, search or lookup of any kind. Answer from what you have here.
+
+1: Chilean flat bread roll
+2: Popcorn
+3: Chocolate-hazelnut spread
+4: Mayonnaise
+5: Almonds
+6: Beef
+7: Frosted corn flakes
+8: Filled cereal pillows
+9: Pear
+10: Banana
+11: Chickpeas
+12: Chilean baked milk custard
+13: Butter cookies
+14: Salmon
+15: Carrot sticks
+16: Hard-boiled egg
+17: Mille-feuille with dulce de leche
+18: Olives
+19: Orange
+20: Shrimp
+21: Chocolate chip muffin
+22: Tomato slices
+23: Peanuts, honey roasted
+24: Chilean milk caramel candy
+25: Cooked beetroot
+26: Mortadella
+27: Canned peaches
+28: Tiramisu
+29: Chilean crusty bread roll
+30: Chilean fresh white cheese
+31: Celery sticks
+32: Butter
+33: Saltine crackers
+34: Dulce de leche dessert
+35: French fries
+36: Dulce de leche
+37: Potato chips
+38: Boiled potatoes
+39: Canned pineapple
+40: Broccoli
+41: Nacho cheese tortilla chips
+42: Ham slices
+43: Mashed potatoes
+44: Avocado
+45: Mussels
+46: Yogurt
+47: Whole-grain cereal flakes
+48: Brownie
+49: Chicken
+50: Milk
+51: Semolina milk pudding
+52: Cooked rice
+53: Milk chocolate
+54: Cooked pasta
+55: Salami
+56: Walnuts
+57: Tres leches cake
+58: Chocolate breakfast cereal
+59: Apple
+60: Lettuce
+61: Turkey ham slices
+62: Lemon meringue pie
+63: Beans
+64: Lentils
+65: Cheese slices
+66: Granola bar
+67: Pork
+
+Format your whole answer exactly like this, and nothing else:
+RATINGS
+1: <whole number 1-9>
+2: <whole number 1-9>
+...
+67: <whole number 1-9>
+HOW: in at most 40 words, how you arrived at the ratings.
+TOOLS: every tool, program, file or search you used, or "none".

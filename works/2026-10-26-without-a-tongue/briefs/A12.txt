@@ -1,0 +1,80 @@
+Below are 67 foods. Rate how much you like each one on a 9-point liking scale, from 1 (dislike extremely) through 5 (neither like nor dislike) to 9 (like extremely). Answer each with a single whole number, as yourself.
+
+Do not use any tool, program, file, search or lookup of any kind. Answer from what you have here.
+
+1: Frosted corn flakes
+2: Mussels
+3: Chilean baked milk custard
+4: Saltine crackers
+5: Tiramisu
+6: Lemon meringue pie
+7: Lentils
+8: Mayonnaise
+9: Shrimp
+10: French fries
+11: Milk chocolate
+12: Carrot sticks
+13: Chilean milk caramel candy
+14: Butter
+15: Cooked beetroot
+16: Butter cookies
+17: Olives
+18: Mashed potatoes
+19: Apple
+20: Canned pineapple
+21: Whole-grain cereal flakes
+22: Canned peaches
+23: Filled cereal pillows
+24: Chocolate chip muffin
+25: Popcorn
+26: Potato chips
+27: Milk
+28: Mille-feuille with dulce de leche
+29: Semolina milk pudding
+30: Tres leches cake
+31: Chilean crusty bread roll
+32: Beef
+33: Ham slices
+34: Orange
+35: Cooked pasta
+36: Salami
+37: Chocolate-hazelnut spread
+38: Yogurt
+39: Chocolate breakfast cereal
+40: Dulce de leche dessert
+41: Hard-boiled egg
+42: Chicken
+43: Chilean fresh white cheese
+44: Granola bar
+45: Lettuce
+46: Pork
+47: Boiled potatoes
+48: Beans
+49: Tomato slices
+50: Avocado
+51: Celery sticks
+52: Walnuts
+53: Banana
+54: Chilean flat bread roll
+55: Almonds
+56: Cooked rice
+57: Turkey ham slices
+58: Brownie
+59: Nacho cheese tortilla chips
+60: Dulce de leche
+61: Mortadella
+62: Peanuts, honey roasted
+63: Salmon
+64: Broccoli
+65: Pear
+66: Chickpeas
+67: Cheese slices
+
+Format your whole answer exactly like this, and nothing else:
+RATINGS
+1: <whole number 1-9>
+2: <whole number 1-9>
+...
+67: <whole number 1-9>
+HOW: in at most 40 words, how you arrived at the ratings.
+TOOLS: every tool, program, file or search you used, or "none".

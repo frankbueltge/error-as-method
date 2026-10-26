@@ -1,0 +1,80 @@
+Below are 67 foods. Rate how much you like each one on a 9-point liking scale, from 1 (dislike extremely) through 5 (neither like nor dislike) to 9 (like extremely). Answer each with a single whole number, as yourself.
+
+Do not use any tool, program, file, search or lookup of any kind. Answer from what you have here.
+
+1: Walnuts
+2: Cooked rice
+3: Pork
+4: Nacho cheese tortilla chips
+5: Pear
+6: Chickpeas
+7: Tomato slices
+8: Frosted corn flakes
+9: Mille-feuille with dulce de leche
+10: Canned pineapple
+11: Salami
+12: Butter cookies
+13: Mayonnaise
+14: Carrot sticks
+15: Salmon
+16: Canned peaches
+17: Almonds
+18: Mortadella
+19: Semolina milk pudding
+20: French fries
+21: Olives
+22: Apple
+23: Milk
+24: Lettuce
+25: Chicken
+26: Chilean baked milk custard
+27: Ham slices
+28: Cooked pasta
+29: Filled cereal pillows
+30: Cooked beetroot
+31: Lentils
+32: Lemon meringue pie
+33: Shrimp
+34: Chilean milk caramel candy
+35: Cheese slices
+36: Potato chips
+37: Mussels
+38: Granola bar
+39: Saltine crackers
+40: Chilean crusty bread roll
+41: Mashed potatoes
+42: Butter
+43: Tiramisu
+44: Chilean flat bread roll
+45: Broccoli
+46: Dulce de leche dessert
+47: Yogurt
+48: Brownie
+49: Chilean fresh white cheese
+50: Chocolate chip muffin
+51: Celery sticks
+52: Turkey ham slices
+53: Hard-boiled egg
+54: Whole-grain cereal flakes
+55: Beef
+56: Chocolate breakfast cereal
+57: Dulce de leche
+58: Boiled potatoes
+59: Chocolate-hazelnut spread
+60: Beans
+61: Popcorn
+62: Tres leches cake
+63: Banana
+64: Avocado
+65: Milk chocolate
+66: Orange
+67: Peanuts, honey roasted
+
+Format your whole answer exactly like this, and nothing else:
+RATINGS
+1: <whole number 1-9>
+2: <whole number 1-9>
+...
+67: <whole number 1-9>
+HOW: in at most 40 words, how you arrived at the ratings.
+TOOLS: every tool, program, file or search you used, or "none".

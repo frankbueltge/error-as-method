@@ -1,0 +1,82 @@
+Below are 67 foods. In a study whose data were published in October 2026, 59 adults (19 with constitutional thinness, 40 of normal weight) rated a photograph of each of these foods on a 9-point liking scale, from 1 (dislike extremely) through 5 (neither like nor dislike) to 9 (like extremely). Each person rated every food once, with a whole number.
+
+For each food, do not rate it yourself. State how the 59 people's ratings were spread: give the 10th, 25th, 50th, 75th and 90th percentile of their ratings (decimals allowed).
+
+Do not use any tool, program, file, search or lookup of any kind. Answer from what you have here.
+
+1: Mille-feuille with dulce de leche
+2: Broccoli
+3: Butter cookies
+4: French fries
+5: Lemon meringue pie
+6: Beef
+7: Carrot sticks
+8: Salmon
+9: Filled cereal pillows
+10: Frosted corn flakes
+11: Canned pineapple
+12: Banana
+13: Granola bar
+14: Cheese slices
+15: Cooked beetroot
+16: Avocado
+17: Ham slices
+18: Butter
+19: Lettuce
+20: Cooked pasta
+21: Milk
+22: Cooked rice
+23: Mashed potatoes
+24: Chocolate chip muffin
+25: Pear
+26: Beans
+27: Tiramisu
+28: Chicken
+29: Canned peaches
+30: Salami
+31: Chocolate-hazelnut spread
+32: Orange
+33: Hard-boiled egg
+34: Whole-grain cereal flakes
+35: Peanuts, honey roasted
+36: Nacho cheese tortilla chips
+37: Semolina milk pudding
+38: Walnuts
+39: Popcorn
+40: Mayonnaise
+41: Saltine crackers
+42: Chickpeas
+43: Pork
+44: Mortadella
+45: Almonds
+46: Celery sticks
+47: Dulce de leche dessert
+48: Lentils
+49: Yogurt
+50: Shrimp
+51: Dulce de leche
+52: Chilean fresh white cheese
+53: Chilean milk caramel candy
+54: Chilean crusty bread roll
+55: Tres leches cake
+56: Mussels
+57: Milk chocolate
+58: Brownie
+59: Tomato slices
+60: Apple
+61: Olives
+62: Chilean flat bread roll
+63: Chocolate breakfast cereal
+64: Turkey ham slices
+65: Potato chips
+66: Boiled potatoes
+67: Chilean baked milk custard
+
+Format your whole answer exactly like this, and nothing else:
+SPREADS
+1: p10=<n> p25=<n> p50=<n> p75=<n> p90=<n>
+...
+67: p10=<n> p25=<n> p50=<n> p75=<n> p90=<n>
+KNOWN: do you know this study or its data? Say yes or no, and if yes, from where, in at most 30 words.
+HOW: in at most 40 words, how you arrived at the spreads.
+TOOLS: every tool, program, file or search you used, or "none".

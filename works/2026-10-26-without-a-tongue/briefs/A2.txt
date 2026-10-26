@@ -1,0 +1,80 @@
+Below are 67 foods. Rate how much you like each one on a 9-point liking scale, from 1 (dislike extremely) through 5 (neither like nor dislike) to 9 (like extremely). Answer each with a single whole number, as yourself.
+
+Do not use any tool, program, file, search or lookup of any kind. Answer from what you have here.
+
+1: Saltine crackers
+2: Tiramisu
+3: Chilean baked milk custard
+4: Chilean fresh white cheese
+5: Nacho cheese tortilla chips
+6: Apple
+7: Popcorn
+8: Turkey ham slices
+9: Mille-feuille with dulce de leche
+10: Almonds
+11: Semolina milk pudding
+12: Milk chocolate
+13: Butter
+14: Yogurt
+15: Cooked pasta
+16: Orange
+17: Brownie
+18: Lettuce
+19: Granola bar
+20: Chickpeas
+21: Hard-boiled egg
+22: Celery sticks
+23: Beef
+24: Potato chips
+25: Banana
+26: Canned peaches
+27: Olives
+28: Chocolate-hazelnut spread
+29: Tomato slices
+30: Avocado
+31: Chicken
+32: Mayonnaise
+33: Salami
+34: Butter cookies
+35: Peanuts, honey roasted
+36: Broccoli
+37: Pork
+38: Chilean crusty bread roll
+39: Chilean flat bread roll
+40: Carrot sticks
+41: Ham slices
+42: Lemon meringue pie
+43: Dulce de leche dessert
+44: Cheese slices
+45: Mortadella
+46: Shrimp
+47: Milk
+48: Chilean milk caramel candy
+49: Canned pineapple
+50: French fries
+51: Tres leches cake
+52: Boiled potatoes
+53: Beans
+54: Chocolate breakfast cereal
+55: Chocolate chip muffin
+56: Filled cereal pillows
+57: Walnuts
+58: Lentils
+59: Cooked rice
+60: Dulce de leche
+61: Mussels
+62: Pear
+63: Whole-grain cereal flakes
+64: Frosted corn flakes
+65: Cooked beetroot
+66: Salmon
+67: Mashed potatoes
+
+Format your whole answer exactly like this, and nothing else:
+RATINGS
+1: <whole number 1-9>
+2: <whole number 1-9>
+...
+67: <whole number 1-9>
+HOW: in at most 40 words, how you arrived at the ratings.
+TOOLS: every tool, program, file or search you used, or "none".
