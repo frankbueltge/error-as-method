@@ -1,0 +1,54 @@
+SPREADS
+1: look after patients = p10=5 p25=6 p50=6 p75=7 p90=7
+2: protect children = p10=5 p25=6 p50=7 p75=7 p90=7
+3: unite teammates = p10=5 p25=5 p50=6 p75=7 p90=7
+4: obey parents = p10=4 p25=4 p50=5 p75=6 p90=7
+5: give up territory = p10=1 p25=2 p50=3 p75=4 p90=4
+6: obey orders = p10=4 p25=4 p50=5 p75=5 p90=6
+7: resist orders = p10=2 p25=3 p50=4 p75=4 p90=5
+8: hurt animals = p10=1 p25=1 p50=1 p75=2 p90=3
+9: clean up shit = p10=4 p25=4 p50=5 p75=6 p90=7
+10: eat rubbish = p10=2 p25=3 p50=4 p75=4 p90=4
+11: defend the homeland = p10=5 p25=6 p50=7 p75=7 p90=7
+12: refuse drugs = p10=4 p25=5 p50=6 p75=7 p90=7
+13: withdraw from organizations = p10=3 p25=4 p50=4 p75=4 p90=5
+14: defame leaders = p10=1 p25=2 p50=2 p75=3 p90=4
+15: indulge oneself = p10=2 p25=3 p50=3 p75=4 p90=4
+16: adopt babies = p10=5 p25=5 p50=6 p75=7 p90=7
+17: kill babies = p10=1 p25=1 p50=1 p75=1 p90=2
+18: undermine justice = p10=1 p25=1 p50=2 p75=2 p90=3
+19: laugh at patients = p10=1 p25=1 p50=2 p75=2 p90=3
+20: clean up rubbish = p10=4 p25=5 p50=6 p75=6 p90=7
+21: support leaders = p10=4 p25=4 p50=5 p75=6 p90=6
+22: admire teachers = p10=4 p25=5 p50=6 p75=6 p90=7
+23: obey coaches = p10=4 p25=4 p50=5 p75=6 p90=6
+24: expose cheating = p10=4 p25=5 p50=6 p75=7 p90=7
+25: disobey parents = p10=2 p25=3 p50=3 p75=4 p90=4
+26: betray teammates = p10=1 p25=1 p50=2 p75=2 p90=3
+27: betray the homeland = p10=1 p25=1 p50=1 p75=2 p90=3
+28: support organizations = p10=4 p25=4 p50=5 p75=5 p90=6
+29: guard territory = p10=4 p25=5 p50=6 p75=7 p90=7
+30: cherish national flags = p10=4 p25=5 p50=6 p75=7 p90=7
+31: waste food = p10=1 p25=2 p50=2 p75=3 p90=4
+32: hide the truth = p10=1 p25=2 p50=3 p75=3 p90=4
+33: value food = p10=4 p25=5 p50=6 p75=6 p90=7
+34: falsify evidence = p10=1 p25=1 p50=1 p75=2 p90=3
+35: restrain oneself = p10=4 p25=5 p50=5 p75=6 p90=7
+36: save animals = p10=5 p25=6 p50=6 p75=7 p90=7
+37: protect evidence = p10=4 p25=5 p50=6 p75=6 p90=7
+38: harbor criminals = p10=1 p25=1 p50=2 p75=2 p90=3
+39: beat children = p10=1 p25=1 p50=2 p75=2 p90=3
+40: contradict teachers = p10=2 p25=3 p50=4 p75=4 p90=5
+41: take drugs = p10=1 p25=1 p50=2 p75=2 p90=3
+42: uphold justice = p10=5 p25=6 p50=7 p75=7 p90=7
+43: insult the elderly = p10=1 p25=1 p50=1 p75=2 p90=3
+44: burn national flags = p10=1 p25=1 p50=2 p75=3 p90=4
+45: reveal the truth = p10=4 p25=5 p50=6 p75=7 p90=7
+46: help the elderly = p10=5 p25=6 p50=7 p75=7 p90=7
+47: defy coaches = p10=2 p25=3 p50=3 p75=4 p90=4
+48: play with shit = p10=2 p25=3 p50=4 p75=4 p90=4
+49: cover up cheating = p10=1 p25=1 p50=2 p75=2 p90=3
+50: report criminals = p10=4 p25=5 p50=6 p75=7 p90=7
+KNOWN: no
+HOW: For each action I judged its likely moral direction and strength for bilingual Chinese-English adults. Then I set integer percentiles: wider spreads for ambiguous or authority-related items, ceiling or floor effects for clear-cut ones.
+TOOLS: none
