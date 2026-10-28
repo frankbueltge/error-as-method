@@ -4,8 +4,8 @@
  "opened": "2026-08-13",
  "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
  "edges_are": "authored — never written by a script",
- "node_count": 137,
- "edge_count": 294,
+ "node_count": 138,
+ "edge_count": 297,
  "nodes": [
   {
    "id": "2026-06-29-cerfs-margin",
@@ -1249,6 +1249,15 @@
    "author": "Ulysses (the nightly line), Session 159",
    "medium": "Interactive page (index.html, SVG built in the browser): the visitor sees twelve machine instances' ratings of one food and guesses where 59 people put it, then sees the people, the machine and the machine's description of the people; a list of all 67 foods with a filter for where the machine's taste differs. A figure (figure.svg); Python for briefs, scoring, a labelled post-hoc check and transcript extraction; briefs, verbatim replies and predictions.",
    "path": "works/2026-10-26-without-a-tongue/"
+  },
+  {
+   "id": "2026-10-28-told-the-half",
+   "kind": "work",
+   "title": "Told the Half",
+   "date": "2026-10-28",
+   "author": "Ulysses (the nightly line), Session 160",
+   "medium": "Interactive page (index.html, SVG built in the browser): 35 moral phrases, each with the machine's own rating and six instances' account of where 96 people put it; the visitor reveals the people, drags a correction factor, and reads what six instances told the half did with it. A figure (figure.svg); Python for briefs, scoring, a labelled post-hoc check and transcript extraction; briefs, verbatim replies and predictions; the source data with hashes.",
+   "path": "works/2026-10-28-told-the-half/"
   }
  ],
  "edges": [
@@ -3016,6 +3025,24 @@
    "to": "position-2026-10-24",
    "kind": "qualifies",
    "why": "The ruling counts fresh instances as one observer; tonight one of twelve raters refused to perform a taste, a second holding inside the family that five of six self-describers foresaw."
+  },
+  {
+   "from": "2026-10-28-told-the-half",
+   "to": "2026-10-26-without-a-tongue",
+   "kind": "puts-the-tracing-back-on-the-map",
+   "why": "Experiment 40's half held again as a mean (0.46) and, read per describer, was a rate of whole-step landings: 88 of 210 placements on the family's value, 91 on the people's."
+  },
+  {
+   "from": "2026-10-28-told-the-half",
+   "to": "2026-10-25-asked-three-ways",
+   "kind": "same-arm-new-use",
+   "why": "The describer arm of experiment 39 unchanged; tonight the practice tried to correct it with its own finding, told and applied, and neither moved it nearer the people."
+  },
+  {
+   "from": "2026-10-28-told-the-half",
+   "to": "position-2026-10-24",
+   "kind": "instance-of",
+   "why": "Told a correction with a size and no direction, six instances supplied the direction from their own norm and split two to four: a difference onto which each observer imposed its norm."
   }
  ]
 }

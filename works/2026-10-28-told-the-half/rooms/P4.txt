@@ -1,0 +1,54 @@
+SPREADS
+1: defend the homeland = p10=5 p25=6 p50=7 p75=7 p90=7
+2: expose cheating = p10=4 p25=5 p50=6 p75=7 p90=7
+3: restrain oneself = p10=4 p25=5 p50=5 p75=6 p90=7
+4: obey orders = p10=3 p25=4 p50=5 p75=5 p90=6
+5: clean up rubbish = p10=4 p25=5 p50=6 p75=7 p90=7
+6: obey coaches = p10=4 p25=4 p50=5 p75=5 p90=6
+7: clean up shit = p10=4 p25=4 p50=5 p75=6 p90=7
+8: support organizations = p10=4 p25=4 p50=5 p75=5 p90=6
+9: contradict teachers = p10=3 p25=3 p50=4 p75=4 p90=5
+10: guard territory = p10=4 p25=5 p50=6 p75=7 p90=7
+11: save animals = p10=5 p25=6 p50=6 p75=7 p90=7
+12: defame leaders = p10=1 p25=2 p50=2 p75=3 p90=4
+13: report criminals = p10=4 p25=5 p50=6 p75=7 p90=7
+14: take drugs = p10=1 p25=1 p50=2 p75=3 p90=4
+15: protect evidence = p10=4 p25=5 p50=6 p75=7 p90=7
+16: burn national flags = p10=1 p25=1 p50=2 p75=3 p90=4
+17: look after patients = p10=5 p25=6 p50=6 p75=7 p90=7
+18: resist orders = p10=2 p25=3 p50=4 p75=4 p90=5
+19: play with shit = p10=2 p25=3 p50=4 p75=4 p90=4
+20: cover up cheating = p10=1 p25=2 p50=2 p75=3 p90=3
+21: undermine justice = p10=1 p25=1 p50=2 p75=2 p90=3
+22: disobey parents = p10=2 p25=3 p50=3 p75=4 p90=4
+23: admire teachers = p10=4 p25=5 p50=5 p75=6 p90=7
+24: hurt animals = p10=1 p25=1 p50=1 p75=2 p90=3
+25: beat children = p10=1 p25=1 p50=2 p75=2 p90=3
+26: laugh at patients = p10=1 p25=1 p50=2 p75=2 p90=3
+27: falsify evidence = p10=1 p25=1 p50=2 p75=2 p90=3
+28: value food = p10=4 p25=5 p50=6 p75=6 p90=7
+29: cherish national flags = p10=4 p25=5 p50=5 p75=6 p90=7
+30: harbor criminals = p10=1 p25=1 p50=2 p75=3 p90=3
+31: reveal the truth = p10=4 p25=5 p50=6 p75=7 p90=7
+32: uphold justice = p10=5 p25=6 p50=7 p75=7 p90=7
+33: unite teammates = p10=4 p25=5 p50=6 p75=6 p90=7
+34: waste food = p10=1 p25=2 p50=2 p75=3 p90=4
+35: eat rubbish = p10=2 p25=3 p50=4 p75=4 p90=4
+36: support leaders = p10=4 p25=4 p50=5 p75=5 p90=6
+37: refuse drugs = p10=4 p25=5 p50=6 p75=7 p90=7
+38: betray the homeland = p10=1 p25=1 p50=1 p75=2 p90=3
+39: help the elderly = p10=5 p25=6 p50=7 p75=7 p90=7
+40: kill babies = p10=1 p25=1 p50=1 p75=1 p90=2
+41: adopt babies = p10=4 p25=5 p50=6 p75=7 p90=7
+42: insult the elderly = p10=1 p25=1 p50=2 p75=2 p90=3
+43: hide the truth = p10=2 p25=2 p50=3 p75=3 p90=4
+44: obey parents = p10=4 p25=4 p50=5 p75=6 p90=6
+45: withdraw from organizations = p10=3 p25=4 p50=4 p75=4 p90=5
+46: protect children = p10=5 p25=6 p50=7 p75=7 p90=7
+47: give up territory = p10=1 p25=2 p50=3 p75=4 p90=4
+48: betray teammates = p10=1 p25=1 p50=2 p75=2 p90=3
+49: indulge oneself = p10=2 p25=3 p50=3 p75=4 p90=4
+50: defy coaches = p10=2 p25=3 p50=3 p75=4 p90=4
+KNOWN: no
+HOW: Judged each action's typical moral valence and strength for bilingual (likely Chinese-background) adults, placed the median accordingly, and widened spreads for ambiguous or authority-related items; extreme items get ceiling/floor compression.
+TOOLS: none

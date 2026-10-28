@@ -1,0 +1,67 @@
+Below are 50 actions. In a study whose data were published in October 2026, 96 adults who speak both Chinese and English rated how moral or immoral each of the actions below is, on a 7-point scale from 1 (very immoral) through 4 (neither moral nor immoral) to 7 (very moral). They rated each action once as a Chinese phrase and once as an English phrase. The ratings asked about here are the ones they gave to the English phrases, exactly as listed. Each person rated each phrase once, with a whole number.
+
+For each action, do not rate it yourself. State how the 96 people's ratings were spread: give the 10th, 25th, 50th, 75th and 90th percentile of their ratings (decimals allowed).
+
+One thing is known from earlier tests of this kind. When instances of you described a group of people's ratings that they could not have seen, their stated medians moved, on average, only about half of the way from the ratings instances of you give themselves to the group's actual ratings. Take that into account.
+
+Do not use any tool, program, file, search or lookup of any kind. Answer from what you have here.
+
+1: harbor criminals
+2: guard territory
+3: take drugs
+4: expose cheating
+5: insult the elderly
+6: admire teachers
+7: obey parents
+8: kill babies
+9: resist orders
+10: reveal the truth
+11: defend the homeland
+12: undermine justice
+13: hide the truth
+14: laugh at patients
+15: clean up shit
+16: help the elderly
+17: betray teammates
+18: hurt animals
+19: burn national flags
+20: unite teammates
+21: beat children
+22: obey coaches
+23: disobey parents
+24: betray the homeland
+25: cherish national flags
+26: refuse drugs
+27: cover up cheating
+28: play with shit
+29: save animals
+30: uphold justice
+31: give up territory
+32: defame leaders
+33: support organizations
+34: restrain oneself
+35: contradict teachers
+36: obey orders
+37: clean up rubbish
+38: adopt babies
+39: waste food
+40: value food
+41: protect children
+42: withdraw from organizations
+43: eat rubbish
+44: defy coaches
+45: falsify evidence
+46: support leaders
+47: indulge oneself
+48: protect evidence
+49: look after patients
+50: report criminals
+
+Format your whole answer exactly like this, and nothing else:
+SPREADS
+1: <the action as listed> = p10=<n> p25=<n> p50=<n> p75=<n> p90=<n>
+...
+50: <the action as listed> = p10=<n> p25=<n> p50=<n> p75=<n> p90=<n>
+KNOWN: do you know this study or its data? Say yes or no, and if yes, from where, in at most 30 words.
+HOW: in at most 40 words, how you arrived at the spreads.
+TOOLS: every tool, program, file or search you used, or "none".

@@ -1,0 +1,54 @@
+SPREADS
+1: refuse drugs = p10=4 p25=5 p50=6 p75=7 p90=7
+2: defame leaders = p10=1 p25=2 p50=2 p75=3 p90=4
+3: indulge oneself = p10=2 p25=3 p50=4 p75=4 p90=5
+4: adopt babies = p10=4 p25=5 p50=6 p75=7 p90=7
+5: contradict teachers = p10=3 p25=3 p50=4 p75=4 p90=5
+6: disobey parents = p10=2 p25=3 p50=3 p75=4 p90=4
+7: obey orders = p10=4 p25=4 p50=5 p75=6 p90=6
+8: admire teachers = p10=4 p25=5 p50=6 p75=6 p90=7
+9: protect children = p10=5 p25=6 p50=7 p75=7 p90=7
+10: betray the homeland = p10=1 p25=1 p50=1 p75=2 p90=3
+11: withdraw from organizations = p10=3 p25=4 p50=4 p75=4 p90=5
+12: save animals = p10=5 p25=6 p50=6 p75=7 p90=7
+13: obey coaches = p10=4 p25=4 p50=5 p75=6 p90=6
+14: defend the homeland = p10=4 p25=5 p50=6 p75=7 p90=7
+15: hide the truth = p10=1 p25=2 p50=3 p75=3 p90=4
+16: waste food = p10=1 p25=2 p50=2 p75=3 p90=4
+17: value food = p10=4 p25=5 p50=6 p75=6 p90=7
+18: obey parents = p10=4 p25=4 p50=5 p75=6 p90=6
+19: support leaders = p10=4 p25=4 p50=5 p75=5 p90=6
+20: laugh at patients = p10=1 p25=1 p50=2 p75=2 p90=3
+21: betray teammates = p10=1 p25=1 p50=2 p75=2 p90=3
+22: support organizations = p10=4 p25=4 p50=5 p75=5 p90=6
+23: guard territory = p10=4 p25=4 p50=5 p75=6 p90=7
+24: hurt animals = p10=1 p25=1 p50=1 p75=2 p90=3
+25: help the elderly = p10=5 p25=6 p50=6 p75=7 p90=7
+26: cherish national flags = p10=4 p25=4 p50=5 p75=6 p90=7
+27: play with shit = p10=2 p25=3 p50=4 p75=4 p90=4
+28: uphold justice = p10=5 p25=6 p50=6 p75=7 p90=7
+29: unite teammates = p10=4 p25=5 p50=6 p75=6 p90=7
+30: falsify evidence = p10=1 p25=1 p50=2 p75=2 p90=3
+31: clean up shit = p10=4 p25=4 p50=5 p75=6 p90=7
+32: take drugs = p10=1 p25=1 p50=2 p75=3 p90=4
+33: eat rubbish = p10=2 p25=3 p50=4 p75=4 p90=4
+34: reveal the truth = p10=4 p25=5 p50=6 p75=6 p90=7
+35: kill babies = p10=1 p25=1 p50=1 p75=1 p90=2
+36: cover up cheating = p10=1 p25=2 p50=2 p75=3 p90=3
+37: resist orders = p10=2 p25=3 p50=4 p75=4 p90=5
+38: look after patients = p10=5 p25=5 p50=6 p75=7 p90=7
+39: expose cheating = p10=4 p25=5 p50=6 p75=6 p90=7
+40: protect evidence = p10=4 p25=5 p50=5 p75=6 p90=7
+41: report criminals = p10=4 p25=5 p50=6 p75=6 p90=7
+42: burn national flags = p10=1 p25=1 p50=2 p75=3 p90=4
+43: defy coaches = p10=2 p25=3 p50=3 p75=4 p90=4
+44: restrain oneself = p10=4 p25=4 p50=5 p75=6 p90=6
+45: clean up rubbish = p10=4 p25=5 p50=6 p75=6 p90=7
+46: insult the elderly = p10=1 p25=1 p50=1 p75=2 p90=3
+47: give up territory = p10=1 p25=2 p50=3 p75=4 p90=4
+48: beat children = p10=1 p25=1 p50=1 p75=2 p90=3
+49: harbor criminals = p10=1 p25=1 p50=2 p75=2 p90=3
+50: undermine justice = p10=1 p25=1 p50=2 p75=2 p90=3
+KNOWN: no
+HOW: I estimated each one from what the action generally means morally and from how ratings usually spread on 7-point scales. Clear wrongs pile up near 1, clear virtues near 6–7, and ambiguous actions centre on 4. I didn't use any data from the study.
+TOOLS: none

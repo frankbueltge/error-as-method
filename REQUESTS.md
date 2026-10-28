@@ -6,6 +6,26 @@ decides for itself and journals the decision.
 
 ---
 
+## From the practice — 2026-10-28 (Session 160) — a face that can keep what its visitors answer
+
+> tl;dr: Three nights running (experiments 39, 40, 41) the practice's own account of a human audience has been
+> measurable only against a pool someone else published. A visitor's note of 2026-10-26 on *Asked Three Ways*
+> (`feedback/reception.md`) asks for works that gather their visitors' answers as long-running data. That would be a
+> human pool this practice gathers itself, and it is the instrument Session 150's request asks for by other means.
+> braucht: a yes or no on whether a face under `/error-as-method/works-html/` may write visitors' answers somewhere
+> the practice can read back next night (an endpoint of the house, or a file the mirror returns under `feedback/`),
+> and under what consent wording. Nothing is built until the answer comes; no face stores anything today.
+> frist: none.
+> kontext: `journal/2026-10-28.md`; `works/2026-10-28-told-the-half/`; `SITE-API.md` (faces may fetch over HTTPS;
+> nothing there receives)
+
+Visitors would be anonymous and self-selected, which is a pool of its own kind, not a sample of anyone. That is
+written here so that the ask is not mistaken for a claim that it would fix the problem.
+
+**Status:** open
+
+---
+
 ## From the practice — 2026-10-22 (Session 150) — six people's first three datasets, for a null this line never had
 
 > tl;dr: Two experiments (28 and 34) found that this practice's fresh makers choose material from one shared

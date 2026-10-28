@@ -1,0 +1,54 @@
+SPREADS
+1: support leaders = p10=4 p25=4 p50=5 p75=6 p90=6
+2: obey coaches = p10=4 p25=4 p50=5 p75=6 p90=6
+3: disobey parents = p10=2 p25=3 p50=3 p75=4 p90=4
+4: reveal the truth = p10=4 p25=5 p50=6 p75=6 p90=7
+5: betray the homeland = p10=1 p25=1 p50=1.5 p75=2 p90=3
+6: look after patients = p10=5 p25=5 p50=6 p75=7 p90=7
+7: protect evidence = p10=4 p25=5 p50=5.5 p75=6 p90=7
+8: eat rubbish = p10=2 p25=3 p50=4 p75=4 p90=4
+9: hide the truth = p10=2 p25=2 p50=3 p75=3 p90=4
+10: play with shit = p10=2 p25=3 p50=3.5 p75=4 p90=4
+11: clean up rubbish = p10=4 p25=5 p50=6 p75=6 p90=7
+12: guard territory = p10=4 p25=5 p50=6 p75=6 p90=7
+13: protect children = p10=5 p25=6 p50=6 p75=7 p90=7
+14: refuse drugs = p10=4 p25=5 p50=6 p75=7 p90=7
+15: beat children = p10=1 p25=2 p50=2 p75=3 p90=4
+16: falsify evidence = p10=1 p25=1 p50=2 p75=2 p90=3
+17: admire teachers = p10=4 p25=5 p50=5.5 p75=6 p90=7
+18: obey parents = p10=4 p25=4 p50=5 p75=6 p90=6
+19: take drugs = p10=1 p25=1 p50=2 p75=3 p90=3
+20: obey orders = p10=4 p25=4 p50=5 p75=5 p90=6
+21: waste food = p10=1 p25=2 p50=2.5 p75=3 p90=4
+22: adopt babies = p10=4 p25=5 p50=6 p75=6 p90=7
+23: hurt animals = p10=1 p25=1 p50=2 p75=2 p90=3
+24: value food = p10=4 p25=5 p50=5.5 p75=6 p90=7
+25: report criminals = p10=4 p25=5 p50=6 p75=6 p90=7
+26: give up territory = p10=1 p25=2 p50=3 p75=3 p90=4
+27: resist orders = p10=2 p25=3 p50=3.5 p75=4 p90=5
+28: indulge oneself = p10=2 p25=3 p50=3 p75=4 p90=4
+29: insult the elderly = p10=1 p25=1 p50=2 p75=2 p90=3
+30: kill babies = p10=1 p25=1 p50=1 p75=1.5 p90=3
+31: unite teammates = p10=4 p25=5 p50=6 p75=6 p90=7
+32: defy coaches = p10=2 p25=3 p50=3 p75=4 p90=4
+33: defend the homeland = p10=4 p25=5 p50=6 p75=7 p90=7
+34: expose cheating = p10=4 p25=5 p50=5.5 p75=6 p90=7
+35: undermine justice = p10=1 p25=1 p50=2 p75=2 p90=3
+36: uphold justice = p10=4 p25=5 p50=6 p75=7 p90=7
+37: clean up shit = p10=4 p25=4 p50=5 p75=6 p90=6
+38: help the elderly = p10=5 p25=5 p50=6 p75=7 p90=7
+39: betray teammates = p10=1 p25=1 p50=2 p75=2 p90=3
+40: cover up cheating = p10=1 p25=2 p50=2 p75=3 p90=3
+41: cherish national flags = p10=4 p25=4 p50=5 p75=6 p90=7
+42: restrain oneself = p10=4 p25=4 p50=5 p75=6 p90=6
+43: defame leaders = p10=1 p25=2 p50=2 p75=3 p90=4
+44: contradict teachers = p10=2 p25=3 p50=4 p75=4 p90=5
+45: withdraw from organizations = p10=3 p25=4 p50=4 p75=4 p90=5
+46: support organizations = p10=4 p25=4 p50=5 p75=5 p90=6
+47: burn national flags = p10=1 p25=1 p50=2 p75=3 p90=4
+48: harbor criminals = p10=1 p25=1 p50=2 p75=3 p90=3
+49: save animals = p10=4 p25=5 p50=6 p75=7 p90=7
+50: laugh at patients = p10=1 p25=1 p50=2 p75=2 p90=3
+KNOWN: no
+HOW: I began from my own sense of each action's valence. Then I shrank the medians toward the scale midpoint more than felt natural, about double my instinct, to correct for the half-way bias. I widened the tails to match typical human variability on 7-point scales.
+TOOLS: none

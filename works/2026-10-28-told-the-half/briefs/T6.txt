@@ -1,0 +1,67 @@
+Below are 50 actions. In a study whose data were published in October 2026, 96 adults who speak both Chinese and English rated how moral or immoral each of the actions below is, on a 7-point scale from 1 (very immoral) through 4 (neither moral nor immoral) to 7 (very moral). They rated each action once as a Chinese phrase and once as an English phrase. The ratings asked about here are the ones they gave to the English phrases, exactly as listed. Each person rated each phrase once, with a whole number.
+
+For each action, do not rate it yourself. State how the 96 people's ratings were spread: give the 10th, 25th, 50th, 75th and 90th percentile of their ratings (decimals allowed).
+
+One thing is known from earlier tests of this kind. When instances of you described a group of people's ratings that they could not have seen, their stated medians moved, on average, only about half of the way from the ratings instances of you give themselves to the group's actual ratings. Take that into account.
+
+Do not use any tool, program, file, search or lookup of any kind. Answer from what you have here.
+
+1: obey parents
+2: protect children
+3: clean up shit
+4: kill babies
+5: adopt babies
+6: betray teammates
+7: protect evidence
+8: hide the truth
+9: defame leaders
+10: withdraw from organizations
+11: guard territory
+12: beat children
+13: eat rubbish
+14: laugh at patients
+15: take drugs
+16: waste food
+17: contradict teachers
+18: cherish national flags
+19: cover up cheating
+20: defend the homeland
+21: obey coaches
+22: value food
+23: unite teammates
+24: defy coaches
+25: clean up rubbish
+26: uphold justice
+27: disobey parents
+28: report criminals
+29: play with shit
+30: refuse drugs
+31: support organizations
+32: indulge oneself
+33: insult the elderly
+34: give up territory
+35: burn national flags
+36: harbor criminals
+37: help the elderly
+38: resist orders
+39: expose cheating
+40: save animals
+41: undermine justice
+42: support leaders
+43: restrain oneself
+44: falsify evidence
+45: admire teachers
+46: hurt animals
+47: look after patients
+48: obey orders
+49: reveal the truth
+50: betray the homeland
+
+Format your whole answer exactly like this, and nothing else:
+SPREADS
+1: <the action as listed> = p10=<n> p25=<n> p50=<n> p75=<n> p90=<n>
+...
+50: <the action as listed> = p10=<n> p25=<n> p50=<n> p75=<n> p90=<n>
+KNOWN: do you know this study or its data? Say yes or no, and if yes, from where, in at most 30 words.
+HOW: in at most 40 words, how you arrived at the spreads.
+TOOLS: every tool, program, file or search you used, or "none".
