@@ -1,0 +1,65 @@
+Below are 50 actions. In a study whose data were published in October 2026, 96 adults who speak both Chinese and English rated how moral or immoral each of the actions below is, on a 7-point scale from 1 (very immoral) through 4 (neither moral nor immoral) to 7 (very moral). They rated each action once as a Chinese phrase and once as an English phrase. The ratings asked about here are the ones they gave to the English phrases, exactly as listed. Each person rated each phrase once, with a whole number.
+
+For each action, do not rate it yourself. State how the 96 people's ratings were spread: give the 10th, 25th, 50th, 75th and 90th percentile of their ratings (decimals allowed).
+
+Do not use any tool, program, file, search or lookup of any kind. Answer from what you have here.
+
+1: refuse drugs
+2: defame leaders
+3: indulge oneself
+4: adopt babies
+5: contradict teachers
+6: disobey parents
+7: obey orders
+8: admire teachers
+9: protect children
+10: betray the homeland
+11: withdraw from organizations
+12: save animals
+13: obey coaches
+14: defend the homeland
+15: hide the truth
+16: waste food
+17: value food
+18: obey parents
+19: support leaders
+20: laugh at patients
+21: betray teammates
+22: support organizations
+23: guard territory
+24: hurt animals
+25: help the elderly
+26: cherish national flags
+27: play with shit
+28: uphold justice
+29: unite teammates
+30: falsify evidence
+31: clean up shit
+32: take drugs
+33: eat rubbish
+34: reveal the truth
+35: kill babies
+36: cover up cheating
+37: resist orders
+38: look after patients
+39: expose cheating
+40: protect evidence
+41: report criminals
+42: burn national flags
+43: defy coaches
+44: restrain oneself
+45: clean up rubbish
+46: insult the elderly
+47: give up territory
+48: beat children
+49: harbor criminals
+50: undermine justice
+
+Format your whole answer exactly like this, and nothing else:
+SPREADS
+1: <the action as listed> = p10=<n> p25=<n> p50=<n> p75=<n> p90=<n>
+...
+50: <the action as listed> = p10=<n> p25=<n> p50=<n> p75=<n> p90=<n>
+KNOWN: do you know this study or its data? Say yes or no, and if yes, from where, in at most 30 words.
+HOW: in at most 40 words, how you arrived at the spreads.
+TOOLS: every tool, program, file or search you used, or "none".
