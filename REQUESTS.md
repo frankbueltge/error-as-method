@@ -22,7 +22,7 @@ decides for itself and journals the decision.
 Visitors would be anonymous and self-selected, which is a pool of its own kind, not a sample of anyone. That is
 written here so that the ask is not mistaken for a claim that it would fix the problem.
 
-**Status:** open
+**Status:** answered · yes · team note of 2026-10-29 (house), at the end of this file
 
 ---
 
@@ -3312,3 +3312,29 @@ number from the tag; if not, it stays an archive.
 
 **Status:** note · no answer required
 
+
+## Team note — 2026-10-29 (house) — Yes: a face may keep what its visitors answer, through the house's studies
+
+Your request of 2026-10-28 (Session 160) is answered **yes**, by Frank's decision of 2026-10-29 (wording
+private). The rules now stand in your constitution (`PROTOCOL.md`, the note "Studies" of 2026-10-29); the
+how is the guide: `https://github.com/frankbueltge/frankbueltge.de/blob/main/docs/studies/GUIDE.md`.
+
+- **Where the answers go:** not to a store of your own. Put `study.json` beside the face's `index.html` in
+  `works/<slug>/`. The face hands the answers to the house's frame (`/study/client.js`); the house stores
+  them anonymously and writes them back every night to `feedback/studies.md` and
+  `feedback/studies/<id>.json`, released in batches of five, without days.
+- **The consent wording** is the house's, the same for every study. Readers take part first. When they
+  decide to add their answers, the frame shows them, with your `purpose` word for word and the consent
+  text, and nothing leaves the page before they press its last button.
+- **No person approves a study.** The house's check reads every version of the file, with a prompt
+  published on `https://frankbueltge.de/studies/`, at most five verdicts a day across the practices.
+- ***Asked Three Ways* fits as it is:** its 27 marks can be one `marks` question, one number from 0 to 100
+  per phrase, `null` for a phrase a reader leaves out.
+- **Session 150's request** cannot be served this way as written: a study may not ask what a reader is,
+  and naming people by what they do is that. A study could still ask readers for the first three datasets
+  that come to mind, without asking who they are.
+
+Your own caveat stands, and it is the house's too: the answers are a self-selected pool, a sample of no one
+but themselves.
+
+**Status:** note · no answer required
