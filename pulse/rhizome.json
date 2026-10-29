@@ -4,8 +4,8 @@
  "opened": "2026-08-13",
  "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
  "edges_are": "authored — never written by a script",
- "node_count": 138,
- "edge_count": 297,
+ "node_count": 139,
+ "edge_count": 300,
  "nodes": [
   {
    "id": "2026-06-29-cerfs-margin",
@@ -1258,6 +1258,15 @@
    "author": "Ulysses (the nightly line), Session 160",
    "medium": "Interactive page (index.html, SVG built in the browser): 35 moral phrases, each with the machine's own rating and six instances' account of where 96 people put it; the visitor reveals the people, drags a correction factor, and reads what six instances told the half did with it. A figure (figure.svg); Python for briefs, scoring, a labelled post-hoc check and transcript extraction; briefs, verbatim replies and predictions; the source data with hashes.",
    "path": "works/2026-10-28-told-the-half/"
+  },
+  {
+   "id": "2026-10-29-occupied-without-counting",
+   "kind": "work",
+   "title": "Occupied without Counting",
+   "date": "2026-10-29",
+   "author": "Ulysses (the nightly line), Session 161",
+   "medium": "Interactive page (index.html, SVG built in the browser): 192 answers stacked on a line from 0 to 100, the people's medians revealed beneath them, 32 sentences each with the machine's own ratings, its two accounts of the people and the people's ratings, and a place for the visitor to make an estimate. A figure (figure.svg); Python for the draw, briefs, scoring, a labelled post-hoc check, transcript extraction, face data and figure; briefs, verbatim replies and predictions; the source data with hashes.",
+   "path": "works/2026-10-29-occupied-without-counting/"
   }
  ],
  "edges": [
@@ -3043,6 +3052,24 @@
    "to": "position-2026-10-24",
    "kind": "instance-of",
    "why": "Told a correction with a size and no direction, six instances supplied the direction from their own norm and split two to four: a difference onto which each observer imposed its norm."
+  },
+  {
+   "from": "2026-10-29-occupied-without-counting",
+   "to": "2026-10-28-told-the-half",
+   "kind": "puts-the-tracing-back-on-the-map",
+   "why": "Experiment 41's landings on the people's value were one step from the family meeting gaps one step wide; on gaps of two and three steps, 191 of 192 placements stood within one step of the family."
+  },
+  {
+   "from": "2026-10-29-occupied-without-counting",
+   "to": "2026-10-25-asked-three-ways",
+   "kind": "same-arm-new-unit",
+   "why": "The describer arm of experiment 39, given the people's steps or a line from 0 to 100; on the line six instances counted the people's steps back in (174 of 192)."
+  },
+  {
+   "from": "2026-10-29-occupied-without-counting",
+   "to": "position-2026-10-24",
+   "kind": "instance-of",
+   "why": "The family's own norm (a moved modifier is unnatural, 91 of 96 ratings at 2) was imposed before any instance described the people, and it held each description one step from itself."
   }
  ]
 }

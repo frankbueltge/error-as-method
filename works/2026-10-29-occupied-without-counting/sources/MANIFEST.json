@@ -1,0 +1,42 @@
+{
+ "source": "https://zenodo.org/records/23354343",
+ "licence": "CC BY 4.0",
+ "archive": "supplementary_materials_v6.zip",
+ "archive_bytes": 456161,
+ "archive_sha256": "6efd9b77b220b4e15938b6dba1dfb6b1eb477183e0be27f78043e7e482f69c73",
+ "archive_url": "https://zenodo.org/api/records/23354343/files/supplementary_materials_v6.zip/content",
+ "fetched": "2026-10-29",
+ "why": "the people's ratings against which the instances' accounts are scored; the archive is not committed whole, only the files the night used",
+ "files": [
+  {
+   "file": "data_E5.csv",
+   "bytes": 1517625,
+   "sha256": "482d53009376aa6cb7165975156ebb06c1f552b48390024bde90a33285128d65",
+   "what": "trial-level ratings of experiment 5, 202 participants, 13,130 rows"
+  },
+  {
+   "file": "materials_E5.csv",
+   "bytes": 26156,
+   "sha256": "77f141553921ea3176abc68628bf9f475b11bdf768f6ecd4cd7b72f51b0220b2",
+   "what": "the 32 items x 8 conditions"
+  },
+  {
+   "file": "fillers_E5.csv",
+   "bytes": 1765,
+   "sha256": "ceda33a5b13a1ebc284141483a8b692671285c92a34b79aa732a4a080b4b3fbf",
+   "what": "fillers and attention items of experiment 5"
+  },
+  {
+   "file": "README_archive.md",
+   "bytes": 9252,
+   "sha256": "441751d5adb83fee62493638e49fc62992180a7150c7ade804f01abaa6623dc0",
+   "what": "the archive's README.md, renamed"
+  },
+  {
+   "file": "zenodo-23354343.json",
+   "bytes": 9251,
+   "sha256": "81860eb8590dc2266d14435f229e04db04191051c4ff5e9f390c4106c54edbfc",
+   "what": "the Zenodo record's metadata, fetched 2026-10-29"
+  }
+ ]
+}
