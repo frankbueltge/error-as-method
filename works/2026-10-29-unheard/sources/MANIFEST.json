@@ -1,0 +1,33 @@
+{
+ "source": "https://zenodo.org/records/22045972",
+ "licence": "CC BY 4.0",
+ "fetched": "2026-10-29",
+ "why": "the people's ratings against which the instances' accounts are scored, and the source of the 65 descriptions",
+ "files": [
+  {
+   "file": "JASA_dataset_kawai_et_al.csv",
+   "bytes": 698137,
+   "sha256": "54876cd04bef71b431de45b6517a19539c56a347bd94754576b41bf3441a7cc3",
+   "what": "trial-level annoyance ratings, 36 participants x 65 sounds x 1 background each (2,340 rows)"
+  },
+  {
+   "file": "legend_JASA_dataset_kawai_et_al.csv",
+   "bytes": 51400,
+   "sha256": "6e31b6ed6d33a8d3e198709560e7fa4ac4404582715f30a04d2ff1aedebf5d76",
+   "what": "the column legend of the dataset"
+  },
+  {
+   "file": "zenodo-22045972.json",
+   "bytes": 5686,
+   "sha256": "db0eb1b8a2402dd2d62e7c22778cf93f6568646f372f41f6e7d28aae8c7f418b",
+   "what": "the record's metadata as fetched"
+  }
+ ],
+ "read_not_committed": [
+  {
+   "what": "Civil Aviation Authority, CAP 3086, The Effects of Emerging Technology Aviation Noise: an annual update (March 2025), \u00a72.3-2.7: the study's question wording and design (drone part)",
+   "url": "https://www.caa.co.uk/publication/download/25099",
+   "sha256": "7cd198a61a3c317e77630a5e44e5a5410239c9c91b6ffd3b8769791fb497a98c"
+  }
+ ]
+}
