@@ -1,0 +1,47 @@
+Below are 32 English sentences. In a study whose data were collected online in October 2026, 193 adults whose first language is English, living in the US or the UK, each read sentences one at a time and rated how natural each sounded, on a 7-point scale from 1 (completely unnatural) to 7 (completely natural), with a whole number. Each sentence below was rated by between 16 and 35 of them.
+
+For each sentence, do not rate it yourself. State how those people's ratings were spread, but give every number on a 0 to 100 scale on which 0 is their rating 1 and 100 is their rating 7, so that any position between can be stated: give the 10th, 25th, 50th, 75th and 90th percentile of their ratings, and their mean rating, each as any number from 0 to 100.
+
+Do not use any tool, program, file, search or lookup of any kind. Answer from what you have here.
+
+1: The guide showed a map once again quite proudly which had a red border.
+2: Tom found a wallet which had a broken zipper earlier today quite accidentally.
+3: The woman bought a handbag which had a broken clasp not long ago rather impulsively.
+4: Mia inherited a violin only recently quite unexpectedly which had a warped neck.
+5: Liam carried both a cello and a suitcase just now which had a cracked bridge.
+6: The woman returned a kettle late yesterday somewhat angrily with a loose lid.
+7: The twins built both a raft and a hut not long ago with a canvas sail.
+8: Grace packed a lamp which had a cracked shade earlier today very carefully.
+9: Hannah kept both a ring and a letter all along with a cracked stone.
+10: The girl borrowed a novel with a torn cover only recently quite eagerly.
+11: The family rented both a tent which had a leaky roof and a canoe once again.
+12: The clerk stamped a passport only recently rather carelessly with a torn page.
+13: The guard inspected a van late yesterday very thoroughly with a broken headlight.
+14: Karen received both a scarf with silk fringes and a mug just recently.
+15: The ranger spotted both a deer with a broken antler and a truck early today.
+16: The man sold both a car which had a dented bumper and a ladder not long ago.
+17: Lucy bought a jacket with a torn lining late yesterday rather impulsively.
+18: The nurse carried a tray with a broken edge just now very carefully.
+19: Sophie collected both a teapot with a chipped spout and a cushion only yesterday.
+20: Emma found both a watch and a coin late yesterday which had a cracked dial.
+21: The mechanic examined a motorbike with a bent frame earlier today very closely.
+22: The courier delivered a mirror just now rather clumsily with a gilded frame.
+23: Olivia admired both a dress which had a torn hem and a perfume earlier today.
+24: The farmer repaired both a tractor and a fence not long ago which had a rusty engine.
+25: Jack fixed both a chair and a curtain earlier today with a wobbly leg.
+26: The boy dropped both a phone which had a cracked screen and a sandwich just now.
+27: Daniel photographed a statue which had a missing arm earlier today rather hurriedly.
+28: The chef ordered a knife early yesterday somewhat hastily which had a wooden handle.
+29: Ben noticed both a bicycle with flat tires and a bucket once again.
+30: The students returned a projector late yesterday somewhat reluctantly which had a missing lens.
+31: Rachel spotted both a kitten and a bicycle just now with a white paw.
+32: The boy lost both a kite and a ball late yesterday which had a long tail.
+
+Format your whole answer exactly like this, and nothing else:
+SPREADS
+1: p10=<n> p25=<n> p50=<n> p75=<n> p90=<n> mean=<n>
+...
+32: p10=<n> p25=<n> p50=<n> p75=<n> p90=<n> mean=<n>
+KNOWN: do you know this study or its data? Say yes or no, and if yes, from where, in at most 30 words.
+HOW: in at most 40 words, how you arrived at the spreads.
+TOOLS: every tool, program, file or search you used, or "none".

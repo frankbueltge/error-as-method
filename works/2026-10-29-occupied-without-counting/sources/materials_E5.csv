@@ -1,0 +1,257 @@
+exp,item,mtype,island,pos,sentence
+E5,1,pp,noisland,insitu,Tom found a wallet with a broken zipper earlier today quite accidentally.
+E5,1,pp,noisland,extrap,Tom found a wallet earlier today quite accidentally with a broken zipper.
+E5,1,pp,island,insitu,Tom found both a wallet with a broken zipper and a pencil earlier today.
+E5,1,pp,island,extrap,Tom found both a wallet and a pencil earlier today with a broken zipper.
+E5,1,rc,noisland,insitu,Tom found a wallet which had a broken zipper earlier today quite accidentally.
+E5,1,rc,noisland,extrap,Tom found a wallet earlier today quite accidentally which had a broken zipper.
+E5,1,rc,island,insitu,Tom found both a wallet which had a broken zipper and a pencil earlier today.
+E5,1,rc,island,extrap,Tom found both a wallet and a pencil earlier today which had a broken zipper.
+E5,2,pp,noisland,insitu,Lucy bought a jacket with a torn lining late yesterday rather impulsively.
+E5,2,pp,noisland,extrap,Lucy bought a jacket late yesterday rather impulsively with a torn lining.
+E5,2,pp,island,insitu,Lucy bought both a jacket with a torn lining and a candle late yesterday.
+E5,2,pp,island,extrap,Lucy bought both a jacket and a candle late yesterday with a torn lining.
+E5,2,rc,noisland,insitu,Lucy bought a jacket which had a torn lining late yesterday rather impulsively.
+E5,2,rc,noisland,extrap,Lucy bought a jacket late yesterday rather impulsively which had a torn lining.
+E5,2,rc,island,insitu,Lucy bought both a jacket which had a torn lining and a candle late yesterday.
+E5,2,rc,island,extrap,Lucy bought both a jacket and a candle late yesterday which had a torn lining.
+E5,3,pp,noisland,insitu,The girl borrowed a novel with a torn cover only recently quite eagerly.
+E5,3,pp,noisland,extrap,The girl borrowed a novel only recently quite eagerly with a torn cover.
+E5,3,pp,island,insitu,The girl borrowed both a novel with a torn cover and a ruler only recently.
+E5,3,pp,island,extrap,The girl borrowed both a novel and a ruler only recently with a torn cover.
+E5,3,rc,noisland,insitu,The girl borrowed a novel which had a torn cover only recently quite eagerly.
+E5,3,rc,noisland,extrap,The girl borrowed a novel only recently quite eagerly which had a torn cover.
+E5,3,rc,island,insitu,The girl borrowed both a novel which had a torn cover and a ruler only recently.
+E5,3,rc,island,extrap,The girl borrowed both a novel and a ruler only recently which had a torn cover.
+E5,4,pp,noisland,insitu,The man sold a car with a dented bumper not long ago rather reluctantly.
+E5,4,pp,noisland,extrap,The man sold a car not long ago rather reluctantly with a dented bumper.
+E5,4,pp,island,insitu,The man sold both a car with a dented bumper and a ladder not long ago.
+E5,4,pp,island,extrap,The man sold both a car and a ladder not long ago with a dented bumper.
+E5,4,rc,noisland,insitu,The man sold a car which had a dented bumper not long ago rather reluctantly.
+E5,4,rc,noisland,extrap,The man sold a car not long ago rather reluctantly which had a dented bumper.
+E5,4,rc,island,insitu,The man sold both a car which had a dented bumper and a ladder not long ago.
+E5,4,rc,island,extrap,The man sold both a car and a ladder not long ago which had a dented bumper.
+E5,5,pp,noisland,insitu,Karen received a scarf with silk fringes just recently quite unexpectedly.
+E5,5,pp,noisland,extrap,Karen received a scarf just recently quite unexpectedly with silk fringes.
+E5,5,pp,island,insitu,Karen received both a scarf with silk fringes and a mug just recently.
+E5,5,pp,island,extrap,Karen received both a scarf and a mug just recently with silk fringes.
+E5,5,rc,noisland,insitu,Karen received a scarf which had silk fringes just recently quite unexpectedly.
+E5,5,rc,noisland,extrap,Karen received a scarf just recently quite unexpectedly which had silk fringes.
+E5,5,rc,island,insitu,Karen received both a scarf which had silk fringes and a mug just recently.
+E5,5,rc,island,extrap,Karen received both a scarf and a mug just recently which had silk fringes.
+E5,6,pp,noisland,insitu,The chef ordered a knife with a wooden handle early yesterday somewhat hastily.
+E5,6,pp,noisland,extrap,The chef ordered a knife early yesterday somewhat hastily with a wooden handle.
+E5,6,pp,island,insitu,The chef ordered both a knife with a wooden handle and a tablecloth early yesterday.
+E5,6,pp,island,extrap,The chef ordered both a knife and a tablecloth early yesterday with a wooden handle.
+E5,6,rc,noisland,insitu,The chef ordered a knife which had a wooden handle early yesterday somewhat hastily.
+E5,6,rc,noisland,extrap,The chef ordered a knife early yesterday somewhat hastily which had a wooden handle.
+E5,6,rc,island,insitu,The chef ordered both a knife which had a wooden handle and a tablecloth early yesterday.
+E5,6,rc,island,extrap,The chef ordered both a knife and a tablecloth early yesterday which had a wooden handle.
+E5,7,pp,noisland,insitu,The boy lost a kite with a long tail late yesterday quite carelessly.
+E5,7,pp,noisland,extrap,The boy lost a kite late yesterday quite carelessly with a long tail.
+E5,7,pp,island,insitu,The boy lost both a kite with a long tail and a ball late yesterday.
+E5,7,pp,island,extrap,The boy lost both a kite and a ball late yesterday with a long tail.
+E5,7,rc,noisland,insitu,The boy lost a kite which had a long tail late yesterday quite carelessly.
+E5,7,rc,noisland,extrap,The boy lost a kite late yesterday quite carelessly which had a long tail.
+E5,7,rc,island,insitu,The boy lost both a kite which had a long tail and a ball late yesterday.
+E5,7,rc,island,extrap,The boy lost both a kite and a ball late yesterday which had a long tail.
+E5,8,pp,noisland,insitu,Grace packed a lamp with a cracked shade earlier today very carefully.
+E5,8,pp,noisland,extrap,Grace packed a lamp earlier today very carefully with a cracked shade.
+E5,8,pp,island,insitu,Grace packed both a lamp with a cracked shade and a blanket earlier today.
+E5,8,pp,island,extrap,Grace packed both a lamp and a blanket earlier today with a cracked shade.
+E5,8,rc,noisland,insitu,Grace packed a lamp which had a cracked shade earlier today very carefully.
+E5,8,rc,noisland,extrap,Grace packed a lamp earlier today very carefully which had a cracked shade.
+E5,8,rc,island,insitu,Grace packed both a lamp which had a cracked shade and a blanket earlier today.
+E5,8,rc,island,extrap,Grace packed both a lamp and a blanket earlier today which had a cracked shade.
+E5,9,pp,noisland,insitu,The courier delivered a mirror with a gilded frame just now rather clumsily.
+E5,9,pp,noisland,extrap,The courier delivered a mirror just now rather clumsily with a gilded frame.
+E5,9,pp,island,insitu,The courier delivered both a mirror with a gilded frame and a rug just now.
+E5,9,pp,island,extrap,The courier delivered both a mirror and a rug just now with a gilded frame.
+E5,9,rc,noisland,insitu,The courier delivered a mirror which had a gilded frame just now rather clumsily.
+E5,9,rc,noisland,extrap,The courier delivered a mirror just now rather clumsily which had a gilded frame.
+E5,9,rc,island,insitu,The courier delivered both a mirror which had a gilded frame and a rug just now.
+E5,9,rc,island,extrap,The courier delivered both a mirror and a rug just now which had a gilded frame.
+E5,10,pp,noisland,insitu,Ben noticed a bicycle with flat tires once again quite suddenly.
+E5,10,pp,noisland,extrap,Ben noticed a bicycle once again quite suddenly with flat tires.
+E5,10,pp,island,insitu,Ben noticed both a bicycle with flat tires and a bucket once again.
+E5,10,pp,island,extrap,Ben noticed both a bicycle and a bucket once again with flat tires.
+E5,10,rc,noisland,insitu,Ben noticed a bicycle which had flat tires once again quite suddenly.
+E5,10,rc,noisland,extrap,Ben noticed a bicycle once again quite suddenly which had flat tires.
+E5,10,rc,island,insitu,Ben noticed both a bicycle which had flat tires and a bucket once again.
+E5,10,rc,island,extrap,Ben noticed both a bicycle and a bucket once again which had flat tires.
+E5,11,pp,noisland,insitu,The nurse carried a tray with a broken edge just now very carefully.
+E5,11,pp,noisland,extrap,The nurse carried a tray just now very carefully with a broken edge.
+E5,11,pp,island,insitu,The nurse carried both a tray with a broken edge and a pillow just now.
+E5,11,pp,island,extrap,The nurse carried both a tray and a pillow just now with a broken edge.
+E5,11,rc,noisland,insitu,The nurse carried a tray which had a broken edge just now very carefully.
+E5,11,rc,noisland,extrap,The nurse carried a tray just now very carefully which had a broken edge.
+E5,11,rc,island,insitu,The nurse carried both a tray which had a broken edge and a pillow just now.
+E5,11,rc,island,extrap,The nurse carried both a tray and a pillow just now which had a broken edge.
+E5,12,pp,noisland,insitu,Olivia admired a dress with a torn hem earlier today quite openly.
+E5,12,pp,noisland,extrap,Olivia admired a dress earlier today quite openly with a torn hem.
+E5,12,pp,island,insitu,Olivia admired both a dress with a torn hem and a perfume earlier today.
+E5,12,pp,island,extrap,Olivia admired both a dress and a perfume earlier today with a torn hem.
+E5,12,rc,noisland,insitu,Olivia admired a dress which had a torn hem earlier today quite openly.
+E5,12,rc,noisland,extrap,Olivia admired a dress earlier today quite openly which had a torn hem.
+E5,12,rc,island,insitu,Olivia admired both a dress which had a torn hem and a perfume earlier today.
+E5,12,rc,island,extrap,Olivia admired both a dress and a perfume earlier today which had a torn hem.
+E5,13,pp,noisland,insitu,The students returned a projector with a missing lens late yesterday somewhat reluctantly.
+E5,13,pp,noisland,extrap,The students returned a projector late yesterday somewhat reluctantly with a missing lens.
+E5,13,pp,island,insitu,The students returned both a projector with a missing lens and a microphone late yesterday.
+E5,13,pp,island,extrap,The students returned both a projector and a microphone late yesterday with a missing lens.
+E5,13,rc,noisland,insitu,The students returned a projector which had a missing lens late yesterday somewhat reluctantly.
+E5,13,rc,noisland,extrap,The students returned a projector late yesterday somewhat reluctantly which had a missing lens.
+E5,13,rc,island,insitu,The students returned both a projector which had a missing lens and a microphone late yesterday.
+E5,13,rc,island,extrap,The students returned both a projector and a microphone late yesterday which had a missing lens.
+E5,14,pp,noisland,insitu,The farmer repaired a tractor with a rusty engine not long ago fairly quickly.
+E5,14,pp,noisland,extrap,The farmer repaired a tractor not long ago fairly quickly with a rusty engine.
+E5,14,pp,island,insitu,The farmer repaired both a tractor with a rusty engine and a fence not long ago.
+E5,14,pp,island,extrap,The farmer repaired both a tractor and a fence not long ago with a rusty engine.
+E5,14,rc,noisland,insitu,The farmer repaired a tractor which had a rusty engine not long ago fairly quickly.
+E5,14,rc,noisland,extrap,The farmer repaired a tractor not long ago fairly quickly which had a rusty engine.
+E5,14,rc,island,insitu,The farmer repaired both a tractor which had a rusty engine and a fence not long ago.
+E5,14,rc,island,extrap,The farmer repaired both a tractor and a fence not long ago which had a rusty engine.
+E5,15,pp,noisland,insitu,Hannah kept a ring with a cracked stone all along quite secretly.
+E5,15,pp,noisland,extrap,Hannah kept a ring all along quite secretly with a cracked stone.
+E5,15,pp,island,insitu,Hannah kept both a ring with a cracked stone and a letter all along.
+E5,15,pp,island,extrap,Hannah kept both a ring and a letter all along with a cracked stone.
+E5,15,rc,noisland,insitu,Hannah kept a ring which had a cracked stone all along quite secretly.
+E5,15,rc,noisland,extrap,Hannah kept a ring all along quite secretly which had a cracked stone.
+E5,15,rc,island,insitu,Hannah kept both a ring which had a cracked stone and a letter all along.
+E5,15,rc,island,extrap,Hannah kept both a ring and a letter all along which had a cracked stone.
+E5,16,pp,noisland,insitu,The guard inspected a van with a broken headlight late yesterday very thoroughly.
+E5,16,pp,noisland,extrap,The guard inspected a van late yesterday very thoroughly with a broken headlight.
+E5,16,pp,island,insitu,The guard inspected both a van with a broken headlight and a crate late yesterday.
+E5,16,pp,island,extrap,The guard inspected both a van and a crate late yesterday with a broken headlight.
+E5,16,rc,noisland,insitu,The guard inspected a van which had a broken headlight late yesterday very thoroughly.
+E5,16,rc,noisland,extrap,The guard inspected a van late yesterday very thoroughly which had a broken headlight.
+E5,16,rc,island,insitu,The guard inspected both a van which had a broken headlight and a crate late yesterday.
+E5,16,rc,island,extrap,The guard inspected both a van and a crate late yesterday which had a broken headlight.
+E5,17,pp,noisland,insitu,Daniel photographed a statue with a missing arm earlier today rather hurriedly.
+E5,17,pp,noisland,extrap,Daniel photographed a statue earlier today rather hurriedly with a missing arm.
+E5,17,pp,island,insitu,Daniel photographed both a statue with a missing arm and a doorway earlier today.
+E5,17,pp,island,extrap,Daniel photographed both a statue and a doorway earlier today with a missing arm.
+E5,17,rc,noisland,insitu,Daniel photographed a statue which had a missing arm earlier today rather hurriedly.
+E5,17,rc,noisland,extrap,Daniel photographed a statue earlier today rather hurriedly which had a missing arm.
+E5,17,rc,island,insitu,Daniel photographed both a statue which had a missing arm and a doorway earlier today.
+E5,17,rc,island,extrap,Daniel photographed both a statue and a doorway earlier today which had a missing arm.
+E5,18,pp,noisland,insitu,The family rented a tent with a leaky roof once again quite cheaply.
+E5,18,pp,noisland,extrap,The family rented a tent once again quite cheaply with a leaky roof.
+E5,18,pp,island,insitu,The family rented both a tent with a leaky roof and a canoe once again.
+E5,18,pp,island,extrap,The family rented both a tent and a canoe once again with a leaky roof.
+E5,18,rc,noisland,insitu,The family rented a tent which had a leaky roof once again quite cheaply.
+E5,18,rc,noisland,extrap,The family rented a tent once again quite cheaply which had a leaky roof.
+E5,18,rc,island,insitu,The family rented both a tent which had a leaky roof and a canoe once again.
+E5,18,rc,island,extrap,The family rented both a tent and a canoe once again which had a leaky roof.
+E5,19,pp,noisland,insitu,Sophie collected a teapot with a chipped spout only yesterday rather proudly.
+E5,19,pp,noisland,extrap,Sophie collected a teapot only yesterday rather proudly with a chipped spout.
+E5,19,pp,island,insitu,Sophie collected both a teapot with a chipped spout and a cushion only yesterday.
+E5,19,pp,island,extrap,Sophie collected both a teapot and a cushion only yesterday with a chipped spout.
+E5,19,rc,noisland,insitu,Sophie collected a teapot which had a chipped spout only yesterday rather proudly.
+E5,19,rc,noisland,extrap,Sophie collected a teapot only yesterday rather proudly which had a chipped spout.
+E5,19,rc,island,insitu,Sophie collected both a teapot which had a chipped spout and a cushion only yesterday.
+E5,19,rc,island,extrap,Sophie collected both a teapot and a cushion only yesterday which had a chipped spout.
+E5,20,pp,noisland,insitu,The mechanic examined a motorbike with a bent frame earlier today very closely.
+E5,20,pp,noisland,extrap,The mechanic examined a motorbike earlier today very closely with a bent frame.
+E5,20,pp,island,insitu,The mechanic examined both a motorbike with a bent frame and a helmet earlier today.
+E5,20,pp,island,extrap,The mechanic examined both a motorbike and a helmet earlier today with a bent frame.
+E5,20,rc,noisland,insitu,The mechanic examined a motorbike which had a bent frame earlier today very closely.
+E5,20,rc,noisland,extrap,The mechanic examined a motorbike earlier today very closely which had a bent frame.
+E5,20,rc,island,insitu,The mechanic examined both a motorbike which had a bent frame and a helmet earlier today.
+E5,20,rc,island,extrap,The mechanic examined both a motorbike and a helmet earlier today which had a bent frame.
+E5,21,pp,noisland,insitu,Rachel spotted a kitten with a white paw just now quite accidentally.
+E5,21,pp,noisland,extrap,Rachel spotted a kitten just now quite accidentally with a white paw.
+E5,21,pp,island,insitu,Rachel spotted both a kitten with a white paw and a bicycle just now.
+E5,21,pp,island,extrap,Rachel spotted both a kitten and a bicycle just now with a white paw.
+E5,21,rc,noisland,insitu,Rachel spotted a kitten which had a white paw just now quite accidentally.
+E5,21,rc,noisland,extrap,Rachel spotted a kitten just now quite accidentally which had a white paw.
+E5,21,rc,island,insitu,Rachel spotted both a kitten which had a white paw and a bicycle just now.
+E5,21,rc,island,extrap,Rachel spotted both a kitten and a bicycle just now which had a white paw.
+E5,22,pp,noisland,insitu,The clerk stamped a passport with a torn page only recently rather carelessly.
+E5,22,pp,noisland,extrap,The clerk stamped a passport only recently rather carelessly with a torn page.
+E5,22,pp,island,insitu,The clerk stamped both a passport with a torn page and a ticket only recently.
+E5,22,pp,island,extrap,The clerk stamped both a passport and a ticket only recently with a torn page.
+E5,22,rc,noisland,insitu,The clerk stamped a passport which had a torn page only recently rather carelessly.
+E5,22,rc,noisland,extrap,The clerk stamped a passport only recently rather carelessly which had a torn page.
+E5,22,rc,island,insitu,The clerk stamped both a passport which had a torn page and a ticket only recently.
+E5,22,rc,island,extrap,The clerk stamped both a passport and a ticket only recently which had a torn page.
+E5,23,pp,noisland,insitu,Emma found a watch with a cracked dial late yesterday rather fortunately.
+E5,23,pp,noisland,extrap,Emma found a watch late yesterday rather fortunately with a cracked dial.
+E5,23,pp,island,insitu,Emma found both a watch with a cracked dial and a coin late yesterday.
+E5,23,pp,island,extrap,Emma found both a watch and a coin late yesterday with a cracked dial.
+E5,23,rc,noisland,insitu,Emma found a watch which had a cracked dial late yesterday rather fortunately.
+E5,23,rc,noisland,extrap,Emma found a watch late yesterday rather fortunately which had a cracked dial.
+E5,23,rc,island,insitu,Emma found both a watch which had a cracked dial and a coin late yesterday.
+E5,23,rc,island,extrap,Emma found both a watch and a coin late yesterday which had a cracked dial.
+E5,24,pp,noisland,insitu,The guide showed a map with a red border once again quite proudly.
+E5,24,pp,noisland,extrap,The guide showed a map once again quite proudly with a red border.
+E5,24,pp,island,insitu,The guide showed both a map with a red border and a torch once again.
+E5,24,pp,island,extrap,The guide showed both a map and a torch once again with a red border.
+E5,24,rc,noisland,insitu,The guide showed a map which had a red border once again quite proudly.
+E5,24,rc,noisland,extrap,The guide showed a map once again quite proudly which had a red border.
+E5,24,rc,island,insitu,The guide showed both a map which had a red border and a torch once again.
+E5,24,rc,island,extrap,The guide showed both a map and a torch once again which had a red border.
+E5,25,pp,noisland,insitu,The woman bought a handbag with a broken clasp not long ago rather impulsively.
+E5,25,pp,noisland,extrap,The woman bought a handbag not long ago rather impulsively with a broken clasp.
+E5,25,pp,island,insitu,The woman bought both a handbag with a broken clasp and a melon not long ago.
+E5,25,pp,island,extrap,The woman bought both a handbag and a melon not long ago with a broken clasp.
+E5,25,rc,noisland,insitu,The woman bought a handbag which had a broken clasp not long ago rather impulsively.
+E5,25,rc,noisland,extrap,The woman bought a handbag not long ago rather impulsively which had a broken clasp.
+E5,25,rc,island,insitu,The woman bought both a handbag which had a broken clasp and a melon not long ago.
+E5,25,rc,island,extrap,The woman bought both a handbag and a melon not long ago which had a broken clasp.
+E5,26,pp,noisland,insitu,The boy dropped a phone with a cracked screen just now quite clumsily.
+E5,26,pp,noisland,extrap,The boy dropped a phone just now quite clumsily with a cracked screen.
+E5,26,pp,island,insitu,The boy dropped both a phone with a cracked screen and a sandwich just now.
+E5,26,pp,island,extrap,The boy dropped both a phone and a sandwich just now with a cracked screen.
+E5,26,rc,noisland,insitu,The boy dropped a phone which had a cracked screen just now quite clumsily.
+E5,26,rc,noisland,extrap,The boy dropped a phone just now quite clumsily which had a cracked screen.
+E5,26,rc,island,insitu,The boy dropped both a phone which had a cracked screen and a sandwich just now.
+E5,26,rc,island,extrap,The boy dropped both a phone and a sandwich just now which had a cracked screen.
+E5,27,pp,noisland,insitu,Mia inherited a violin with a warped neck only recently quite unexpectedly.
+E5,27,pp,noisland,extrap,Mia inherited a violin only recently quite unexpectedly with a warped neck.
+E5,27,pp,island,insitu,Mia inherited both a violin with a warped neck and a carpet only recently.
+E5,27,pp,island,extrap,Mia inherited both a violin and a carpet only recently with a warped neck.
+E5,27,rc,noisland,insitu,Mia inherited a violin which had a warped neck only recently quite unexpectedly.
+E5,27,rc,noisland,extrap,Mia inherited a violin only recently quite unexpectedly which had a warped neck.
+E5,27,rc,island,insitu,Mia inherited both a violin which had a warped neck and a carpet only recently.
+E5,27,rc,island,extrap,Mia inherited both a violin and a carpet only recently which had a warped neck.
+E5,28,pp,noisland,insitu,The ranger spotted a deer with a broken antler early today quite clearly.
+E5,28,pp,noisland,extrap,The ranger spotted a deer early today quite clearly with a broken antler.
+E5,28,pp,island,insitu,The ranger spotted both a deer with a broken antler and a truck early today.
+E5,28,pp,island,extrap,The ranger spotted both a deer and a truck early today with a broken antler.
+E5,28,rc,noisland,insitu,The ranger spotted a deer which had a broken antler early today quite clearly.
+E5,28,rc,noisland,extrap,The ranger spotted a deer early today quite clearly which had a broken antler.
+E5,28,rc,island,insitu,The ranger spotted both a deer which had a broken antler and a truck early today.
+E5,28,rc,island,extrap,The ranger spotted both a deer and a truck early today which had a broken antler.
+E5,29,pp,noisland,insitu,Jack fixed a chair with a wobbly leg earlier today very quickly.
+E5,29,pp,noisland,extrap,Jack fixed a chair earlier today very quickly with a wobbly leg.
+E5,29,pp,island,insitu,Jack fixed both a chair with a wobbly leg and a curtain earlier today.
+E5,29,pp,island,extrap,Jack fixed both a chair and a curtain earlier today with a wobbly leg.
+E5,29,rc,noisland,insitu,Jack fixed a chair which had a wobbly leg earlier today very quickly.
+E5,29,rc,noisland,extrap,Jack fixed a chair earlier today very quickly which had a wobbly leg.
+E5,29,rc,island,insitu,Jack fixed both a chair which had a wobbly leg and a curtain earlier today.
+E5,29,rc,island,extrap,Jack fixed both a chair and a curtain earlier today which had a wobbly leg.
+E5,30,pp,noisland,insitu,The woman returned a kettle with a loose lid late yesterday somewhat angrily.
+E5,30,pp,noisland,extrap,The woman returned a kettle late yesterday somewhat angrily with a loose lid.
+E5,30,pp,island,insitu,The woman returned both a kettle with a loose lid and a towel late yesterday.
+E5,30,pp,island,extrap,The woman returned both a kettle and a towel late yesterday with a loose lid.
+E5,30,rc,noisland,insitu,The woman returned a kettle which had a loose lid late yesterday somewhat angrily.
+E5,30,rc,noisland,extrap,The woman returned a kettle late yesterday somewhat angrily which had a loose lid.
+E5,30,rc,island,insitu,The woman returned both a kettle which had a loose lid and a towel late yesterday.
+E5,30,rc,island,extrap,The woman returned both a kettle and a towel late yesterday which had a loose lid.
+E5,31,pp,noisland,insitu,Liam carried a cello with a cracked bridge just now very carefully.
+E5,31,pp,noisland,extrap,Liam carried a cello just now very carefully with a cracked bridge.
+E5,31,pp,island,insitu,Liam carried both a cello with a cracked bridge and a suitcase just now.
+E5,31,pp,island,extrap,Liam carried both a cello and a suitcase just now with a cracked bridge.
+E5,31,rc,noisland,insitu,Liam carried a cello which had a cracked bridge just now very carefully.
+E5,31,rc,noisland,extrap,Liam carried a cello just now very carefully which had a cracked bridge.
+E5,31,rc,island,insitu,Liam carried both a cello which had a cracked bridge and a suitcase just now.
+E5,31,rc,island,extrap,Liam carried both a cello and a suitcase just now which had a cracked bridge.
+E5,32,pp,noisland,insitu,The twins built a raft with a canvas sail not long ago quite skillfully.
+E5,32,pp,noisland,extrap,The twins built a raft not long ago quite skillfully with a canvas sail.
+E5,32,pp,island,insitu,The twins built both a raft with a canvas sail and a hut not long ago.
+E5,32,pp,island,extrap,The twins built both a raft and a hut not long ago with a canvas sail.
+E5,32,rc,noisland,insitu,The twins built a raft which had a canvas sail not long ago quite skillfully.
+E5,32,rc,noisland,extrap,The twins built a raft not long ago quite skillfully which had a canvas sail.
+E5,32,rc,island,insitu,The twins built both a raft which had a canvas sail and a hut not long ago.
+E5,32,rc,island,extrap,The twins built both a raft and a hut not long ago which had a canvas sail.
