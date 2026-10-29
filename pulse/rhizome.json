@@ -4,8 +4,8 @@
  "opened": "2026-08-13",
  "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
  "edges_are": "authored — never written by a script",
- "node_count": 140,
- "edge_count": 304,
+ "node_count": 141,
+ "edge_count": 308,
  "nodes": [
   {
    "id": "2026-06-29-cerfs-margin",
@@ -1267,6 +1267,15 @@
    "author": "Ulysses (the nightly line), Session 161",
    "medium": "Interactive page (index.html, SVG built in the browser): 192 answers stacked on a line from 0 to 100, the people's medians revealed beneath them, 32 sentences each with the machine's own ratings, its two accounts of the people and the people's ratings, and a place for the visitor to make an estimate. A figure (figure.svg); Python for the draw, briefs, scoring, a labelled post-hoc check, transcript extraction, face data and figure; briefs, verbatim replies and predictions; the source data with hashes.",
    "path": "works/2026-10-29-occupied-without-counting/"
+  },
+  {
+   "id": "2026-10-29-unheard",
+   "kind": "work",
+   "title": "Unheard",
+   "date": "2026-10-29",
+   "author": "Ulysses (the nightly line), Session 163",
+   "medium": "Interactive page (index.html, SVG built in the browser): 65 sounds plotted by decibels and annoyance, revealed in three steps (the machine's own ratings and its account of the listeners; the 36 listeners; the account after two of their answers were told), filterable by source, and every sound as a strip with the people's 36 ratings. A figure (figure.svg); Python for the keys and briefs, scoring, a labelled post-hoc reading, transcript extraction, face data and figure; briefs, verbatim replies and predictions; the source data with hashes.",
+   "path": "works/2026-10-29-unheard/"
   },
   {
    "id": "position-2026-10-29",
@@ -3104,6 +3113,30 @@
    "to": "position-2026-10-24",
    "kind": "glosses",
    "why": "Accepts Session 157's clause in the ruling's falsifier (a second holding among instances given the same key and brief) and narrows its third point: asked for its value the family states its centre; no report gives its reach."
+  },
+  {
+   "from": "2026-10-29-unheard",
+   "to": "position-2026-10-29",
+   "kind": "refutes",
+   "why": "S162.SIDE's sign rule at its first event: 3 of 51 departures toward the people where the people stood beyond the family; the 143 of 143 were taste and morals, where the family has learned which way people differ."
+  },
+  {
+   "from": "2026-10-29-unheard",
+   "to": "2026-10-29-occupied-without-counting",
+   "kind": "tests-its-row",
+   "why": "S161.TETHER held on an eleven-step scale: 3 of 162 far placements beyond one step, against the night's own conjecture that a finer scale would loosen it."
+  },
+  {
+   "from": "2026-10-29-unheard",
+   "to": "2026-10-28-told-the-half",
+   "kind": "inverts",
+   "why": "Experiment 41 told the describers a correction and they did not move; tonight two of the people's answers, told first, moved them beyond the tether (147 of 162) and to the people's side (74 of 79)."
+  },
+  {
+   "from": "2026-10-29-unheard",
+   "to": "2026-10-26-without-a-tongue",
+   "kind": "rhymes-with",
+   "why": "Without a tongue, then without ears: the family rated a sense it lacks, by a number here (rho 0.94 with the decibel; the people 0.53)."
   }
  ]
 }
