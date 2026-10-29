@@ -1,0 +1,36 @@
+SPREADS
+1: p10=8 p25=25 p50=42 p75=58 p90=75 mean=42
+2: p10=25 p25=42 p50=58 p75=75 p90=88 mean=57
+3: p10=25 p25=42 p50=58 p75=75 p90=88 mean=56
+4: p10=5 p25=17 p50=33 p75=50 p90=67 mean=35
+5: p10=5 p25=17 p50=33 p75=50 p90=67 mean=34
+6: p10=8 p25=17 p50=38 p75=58 p90=75 mean=39
+7: p10=8 p25=25 p50=42 p75=67 p90=83 mean=45
+8: p10=33 p25=50 p50=67 p75=83 p90=92 mean=64
+9: p10=5 p25=17 p50=33 p75=50 p90=67 mean=34
+10: p10=33 p25=50 p50=67 p75=83 p90=92 mean=64
+11: p10=33 p25=50 p50=67 p75=83 p90=100 mean=66
+12: p10=8 p25=17 p50=33 p75=50 p90=67 mean=35
+13: p10=8 p25=25 p50=42 p75=58 p90=75 mean=42
+14: p10=42 p25=58 p50=75 p75=83 p90=100 mean=71
+15: p10=33 p25=50 p50=67 p75=83 p90=100 mean=67
+16: p10=33 p25=50 p50=67 p75=83 p90=100 mean=66
+17: p10=42 p25=58 p50=75 p75=83 p90=100 mean=70
+18: p10=42 p25=58 p50=75 p75=83 p90=100 mean=70
+19: p10=33 p25=50 p50=67 p75=83 p90=100 mean=66
+20: p10=5 p25=17 p50=33 p75=50 p90=67 mean=33
+21: p10=42 p25=58 p50=75 p75=83 p90=100 mean=70
+22: p10=8 p25=17 p50=33 p75=50 p90=67 mean=35
+23: p10=25 p25=42 p50=58 p75=75 p90=92 mean=58
+24: p10=5 p25=17 p50=33 p75=50 p90=67 mean=34
+25: p10=8 p25=25 p50=42 p75=67 p90=83 mean=44
+26: p10=42 p25=58 p50=75 p75=83 p90=100 mean=71
+27: p10=33 p25=50 p50=67 p75=83 p90=92 mean=63
+28: p10=5 p25=17 p50=33 p75=50 p90=67 mean=33
+29: p10=33 p25=50 p50=67 p75=83 p90=100 mean=66
+30: p10=5 p25=17 p50=33 p75=50 p90=67 mean=33
+31: p10=8 p25=17 p50=38 p75=58 p90=75 mean=39
+32: p10=8 p25=25 p50=42 p75=58 p90=75 mean=42
+KNOWN: no
+HOW: I grouped the sentences by structure: modifier next to its noun or separated from it by adverbials, and single object or coordinated "both X and Y". I gave lower spreads to separated modifiers and stacked adverbs, then adjusted for plausibility.
+TOOLS: none

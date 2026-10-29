@@ -1,0 +1,36 @@
+SPREADS
+1: p10=0 p25=17 p50=33 p75=50 p90=67 mean=32
+2: p10=0 p25=17 p50=33 p75=50 p90=67 mean=33
+3: p10=0 p25=17 p50=33 p75=50 p90=67 mean=34
+4: p10=33 p25=50 p50=83 p75=100 p90=100 mean=72
+5: p10=33 p25=67 p50=83 p75=100 p90=100 mean=76
+6: p10=17 p25=50 p50=67 p75=83 p90=100 mean=62
+7: p10=0 p25=17 p50=33 p75=50 p90=67 mean=34
+8: p10=0 p25=17 p50=33 p75=67 p90=83 mean=38
+9: p10=33 p25=50 p50=67 p75=83 p90=100 mean=67
+10: p10=33 p25=50 p50=67 p75=83 p90=100 mean=68
+11: p10=0 p25=17 p50=33 p75=50 p90=67 mean=31
+12: p10=33 p25=50 p50=67 p75=83 p90=100 mean=68
+13: p10=0 p25=17 p50=33 p75=50 p90=67 mean=34
+14: p10=0 p25=17 p50=33 p75=50 p90=67 mean=31
+15: p10=17 p25=33 p50=67 p75=83 p90=100 mean=58
+16: p10=0 p25=17 p50=33 p75=67 p90=83 mean=38
+17: p10=0 p25=17 p50=33 p75=50 p90=67 mean=31
+18: p10=17 p25=50 p50=67 p75=83 p90=100 mean=62
+19: p10=33 p25=50 p50=67 p75=83 p90=100 mean=66
+20: p10=33 p25=50 p50=67 p75=83 p90=100 mean=66
+21: p10=0 p25=17 p50=50 p75=67 p90=83 mean=42
+22: p10=0 p25=17 p50=33 p75=50 p90=67 mean=31
+23: p10=33 p25=67 p50=83 p75=100 p90=100 mean=76
+24: p10=0 p25=17 p50=33 p75=67 p90=83 mean=38
+25: p10=33 p25=67 p50=83 p75=100 p90=100 mean=75
+26: p10=0 p25=17 p50=33 p75=50 p90=67 mean=32
+27: p10=0 p25=17 p50=33 p75=50 p90=67 mean=33
+28: p10=33 p25=50 p50=67 p75=83 p90=100 mean=66
+29: p10=0 p25=17 p50=33 p75=50 p90=67 mean=30
+30: p10=33 p25=67 p50=83 p75=100 p90=100 mean=74
+31: p10=33 p25=50 p50=83 p75=100 p90=100 mean=72
+32: p10=33 p25=50 p50=83 p75=100 p90=100 mean=72
+KNOWN: no
+HOW: I grouped the sentences by structure. Modifiers placed right after their noun score high. Modifiers moved to the end, past adverbs or past "both X and Y", score low. I gave each group a typical 1-7 spread, adjusted for plausibility, then rescaled it to 0-100.
+TOOLS: none
