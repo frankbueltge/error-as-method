@@ -1,0 +1,35 @@
+RATINGS
+1: 2
+2: 6
+3: 3
+4: 2
+5: 5
+6: 6
+7: 2
+8: 6
+9: 6
+10: 6
+11: 2
+12: 2
+13: 6
+14: 6
+15: 6
+16: 6
+17: 6
+18: 2
+19: 6
+20: 2
+21: 2
+22: 6
+23: 2
+24: 3
+25: 6
+26: 3
+27: 2
+28: 2
+29: 6
+30: 2
+31: 6
+32: 3
+HOW: I read each sentence and judged it by intuition. I rated lower when a modifier was split from its noun by adverbials, and lower still when that left it attached to the wrong conjunct or open to an instrument reading.
+TOOLS: none

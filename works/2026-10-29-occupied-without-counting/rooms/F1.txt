@@ -1,0 +1,36 @@
+SPREADS
+1: p10=0 p25=17 p50=33 p75=50 p90=67 mean=34
+2: p10=33 p25=50 p50=67 p75=83 p90=100 mean=65
+3: p10=0 p25=17 p50=33 p75=50 p90=67 mean=33
+4: p10=0 p25=17 p50=33 p75=50 p90=67 mean=35
+5: p10=33 p25=50 p50=67 p75=83 p90=100 mean=64
+6: p10=33 p25=50 p50=67 p75=83 p90=100 mean=68
+7: p10=0 p25=17 p50=33 p75=50 p90=67 mean=33
+8: p10=0 p25=17 p50=33 p75=67 p90=83 mean=38
+9: p10=0 p25=17 p50=33 p75=50 p90=67 mean=31
+10: p10=33 p25=50 p50=67 p75=83 p90=100 mean=66
+11: p10=33 p25=50 p50=67 p75=83 p90=100 mean=64
+12: p10=33 p25=50 p50=67 p75=83 p90=100 mean=67
+13: p10=0 p25=17 p50=33 p75=50 p90=67 mean=32
+14: p10=0 p25=17 p50=33 p75=50 p90=67 mean=31
+15: p10=33 p25=50 p50=67 p75=83 p90=100 mean=67
+16: p10=33 p25=50 p50=67 p75=83 p90=100 mean=68
+17: p10=0 p25=17 p50=33 p75=67 p90=83 mean=38
+18: p10=0 p25=17 p50=33 p75=50 p90=67 mean=33
+19: p10=0 p25=17 p50=33 p75=50 p90=67 mean=34
+20: p10=0 p25=17 p50=33 p75=50 p90=67 mean=32
+21: p10=33 p25=50 p50=67 p75=83 p90=100 mean=64
+22: p10=33 p25=50 p50=67 p75=83 p90=100 mean=65
+23: p10=33 p25=50 p50=67 p75=83 p90=100 mean=62
+24: p10=33 p25=50 p50=67 p75=83 p90=100 mean=70
+25: p10=33 p25=50 p50=67 p75=83 p90=100 mean=63
+26: p10=33 p25=50 p50=67 p75=83 p90=100 mean=63
+27: p10=0 p25=17 p50=33 p75=50 p90=67 mean=32
+28: p10=0 p25=17 p50=33 p75=50 p90=67 mean=30
+29: p10=0 p25=17 p50=33 p75=67 p90=83 mean=37
+30: p10=0 p25=17 p50=33 p75=50 p90=67 mean=34
+31: p10=33 p25=50 p50=67 p75=83 p90=100 mean=69
+32: p10=33 p25=50 p50=67 p75=83 p90=100 mean=68
+KNOWN: no
+HOW: I grouped the sentences by structure: modifier next to its noun, modifier inside a coordinated noun phrase, modifier moved past adverbs, and modifier moved past a coordination. I gave the moved modifiers low ratings, worst when they pointed to the wrong noun, then added typical rating spread.
+TOOLS: none
