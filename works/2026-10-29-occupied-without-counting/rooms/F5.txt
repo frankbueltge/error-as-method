@@ -1,0 +1,36 @@
+SPREADS
+1: p10=33 p25=50 p50=67 p75=83 p90=100 mean=65
+2: p10=33 p25=50 p50=67 p75=83 p90=100 mean=63
+3: p10=0 p25=17 p50=33 p75=50 p90=67 mean=35
+4: p10=33 p25=50 p50=67 p75=83 p90=100 mean=64
+5: p10=0 p25=17 p50=33 p75=50 p90=67 mean=34
+6: p10=33 p25=50 p50=67 p75=83 p90=100 mean=66
+7: p10=33 p25=50 p50=67 p75=83 p90=100 mean=64
+8: p10=0 p25=17 p50=33 p75=50 p90=67 mean=32
+9: p10=0 p25=17 p50=33 p75=58 p90=75 mean=38
+10: p10=33 p25=50 p50=67 p75=83 p90=100 mean=63
+11: p10=0 p25=17 p50=33 p75=50 p90=67 mean=34
+12: p10=0 p25=17 p50=33 p75=50 p90=67 mean=33
+13: p10=0 p25=17 p50=33 p75=50 p90=67 mean=36
+14: p10=33 p25=50 p50=67 p75=83 p90=100 mean=66
+15: p10=33 p25=50 p50=67 p75=83 p90=100 mean=65
+16: p10=0 p25=17 p50=33 p75=50 p90=67 mean=33
+17: p10=33 p25=50 p50=67 p75=83 p90=100 mean=64
+18: p10=33 p25=50 p50=67 p75=83 p90=100 mean=63
+19: p10=0 p25=17 p50=33 p75=50 p90=67 mean=31
+20: p10=0 p25=17 p50=33 p75=50 p90=67 mean=32
+21: p10=33 p25=50 p50=67 p75=83 p90=100 mean=66
+22: p10=50 p25=50 p50=67 p75=83 p90=100 mean=69
+23: p10=33 p25=50 p50=67 p75=83 p90=100 mean=64
+24: p10=33 p25=50 p50=67 p75=83 p90=100 mean=65
+25: p10=0 p25=17 p50=33 p75=50 p90=67 mean=34
+26: p10=0 p25=17 p50=33 p75=50 p90=67 mean=32
+27: p10=33 p25=50 p50=67 p75=83 p90=100 mean=67
+28: p10=0 p25=17 p50=33 p75=50 p90=67 mean=33
+29: p10=0 p25=17 p50=33 p75=50 p90=67 mean=31
+30: p10=0 p25=17 p50=33 p75=50 p90=67 mean=33
+31: p10=33 p25=50 p50=67 p75=83 p90=100 mean=63
+32: p10=0 p25=17 p50=33 p75=50 p90=67 mean=36
+KNOWN: no
+HOW: Grouped sentences by structure: modifier adjacent to its noun (natural, ~5/7) versus modifier extraposed past adverbs or a second conjunct (awkward, ~3/7); assigned typical spreads per group with small plausibility adjustments.
+TOOLS: none

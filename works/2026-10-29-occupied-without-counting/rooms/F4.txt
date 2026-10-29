@@ -1,0 +1,36 @@
+SPREADS
+1: p10=33 p25=50 p50=67 p75=83 p90=100 mean=66
+2: p10=0 p25=17 p50=33 p75=50 p90=67 mean=32
+3: p10=33 p25=50 p50=67 p75=83 p90=100 mean=68
+4: p10=33 p25=50 p50=75 p75=83 p90=100 mean=70
+5: p10=0 p25=17 p50=33 p75=50 p90=67 mean=34
+6: p10=50 p25=67 p50=83 p75=100 p90=100 mean=78
+7: p10=0 p25=17 p50=33 p75=50 p90=67 mean=33
+8: p10=0 p25=17 p50=33 p75=50 p90=67 mean=31
+9: p10=33 p25=50 p50=67 p75=83 p90=100 mean=64
+10: p10=0 p25=17 p50=33 p75=50 p90=67 mean=33
+11: p10=0 p25=17 p50=33 p75=50 p90=67 mean=34
+12: p10=0 p25=17 p50=33 p75=67 p90=83 mean=38
+13: p10=0 p25=17 p50=33 p75=50 p90=67 mean=34
+14: p10=0 p25=17 p50=33 p75=67 p90=83 mean=38
+15: p10=50 p25=67 p50=83 p75=100 p90=100 mean=79
+16: p10=33 p25=50 p50=83 p75=100 p90=100 mean=72
+17: p10=50 p25=67 p50=83 p75=100 p90=100 mean=81
+18: p10=0 p25=17 p50=33 p75=50 p90=67 mean=33
+19: p10=33 p25=50 p50=83 p75=100 p90=100 mean=72
+20: p10=33 p25=50 p50=83 p75=100 p90=100 mean=71
+21: p10=0 p25=17 p50=33 p75=67 p90=83 mean=38
+22: p10=0 p25=17 p50=33 p75=50 p90=67 mean=33
+23: p10=33 p25=50 p50=75 p75=83 p90=100 mean=70
+24: p10=17 p25=50 p50=67 p75=83 p90=100 mean=63
+25: p10=50 p25=67 p50=83 p75=100 p90=100 mean=77
+26: p10=33 p25=67 p50=83 p75=100 p90=100 mean=74
+27: p10=0 p25=17 p50=33 p75=50 p90=67 mean=31
+28: p10=0 p25=17 p50=50 p75=67 p90=83 mean=42
+29: p10=33 p25=50 p50=67 p75=83 p90=100 mean=67
+30: p10=33 p25=50 p50=83 p75=100 p90=100 mean=70
+31: p10=0 p25=17 p50=33 p75=50 p90=67 mean=34
+32: p10=0 p25=17 p50=33 p75=67 p90=83 mean=39
+KNOWN: No, I don't know this study or its data.
+HOW: I sorted the sentences by structure. Modifiers next to their noun, with or without coordination, I put high. Modifiers moved past adverbials, or past a coordination to reach the first conjunct, I put low. I adjusted a little for how plausible each sentence is.
+TOOLS: none

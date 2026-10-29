@@ -1,0 +1,36 @@
+SPREADS
+1: p10=8 p25=17 p50=33 p75=50 p90=67 mean=35
+2: p10=33 p25=50 p50=67 p75=83 p90=100 mean=65
+3: p10=33 p25=50 p50=67 p75=83 p90=100 mean=64
+4: p10=0 p25=17 p50=33 p75=50 p90=67 mean=32
+5: p10=33 p25=50 p50=67 p75=83 p90=100 mean=66
+6: p10=0 p25=17 p50=33 p75=50 p90=67 mean=31
+7: p10=33 p25=50 p50=67 p75=83 p90=100 mean=64
+8: p10=0 p25=17 p50=33 p75=50 p90=67 mean=33
+9: p10=8 p25=17 p50=33 p75=50 p90=67 mean=36
+10: p10=0 p25=17 p50=33 p75=50 p90=67 mean=32
+11: p10=8 p25=17 p50=33 p75=50 p90=67 mean=35
+12: p10=50 p25=67 p50=83 p75=100 p90=100 mean=78
+13: p10=17 p25=25 p50=50 p75=67 p90=83 mean=45
+14: p10=8 p25=17 p50=33 p75=50 p90=67 mean=36
+15: p10=8 p25=17 p50=33 p75=50 p90=67 mean=36
+16: p10=17 p25=25 p50=50 p75=67 p90=83 mean=45
+17: p10=8 p25=17 p50=33 p75=50 p90=67 mean=37
+18: p10=8 p25=17 p50=33 p75=50 p90=67 mean=37
+19: p10=33 p25=50 p50=67 p75=83 p90=100 mean=67
+20: p10=50 p25=67 p50=83 p75=100 p90=100 mean=74
+21: p10=33 p25=50 p50=67 p75=83 p90=100 mean=63
+22: p10=50 p25=67 p50=83 p75=100 p90=100 mean=76
+23: p10=33 p25=50 p50=67 p75=83 p90=100 mean=66
+24: p10=17 p25=33 p50=58 p75=83 p90=100 mean=56
+25: p10=50 p25=67 p50=83 p75=100 p90=100 mean=75
+26: p10=33 p25=50 p50=67 p75=83 p90=100 mean=63
+27: p10=8 p25=17 p50=33 p75=58 p90=83 mean=39
+28: p10=8 p25=17 p50=33 p75=50 p90=67 mean=36
+29: p10=33 p25=50 p50=67 p75=83 p90=100 mean=65
+30: p10=50 p25=67 p50=83 p75=100 p90=100 mean=79
+31: p10=17 p25=25 p50=50 p75=67 p90=83 mean=46
+32: p10=33 p25=50 p50=67 p75=83 p90=100 mean=67
+KNOWN: no
+HOW: I sorted the sentences by construction: modifier kept next to its noun, modifier moved past adverbs, and modifier pushed past a coordinated pair. I gave the moved ones lower, wider spreads, adjusted for plausibility. These are guesses.
+TOOLS: none

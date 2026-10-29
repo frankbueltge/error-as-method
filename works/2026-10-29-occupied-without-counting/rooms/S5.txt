@@ -1,0 +1,36 @@
+SPREADS
+1: p10=3 p25=4 p50=5 p75=6 p90=7 mean=4.9
+2: p10=1 p25=1 p50=2 p75=3 p90=4 mean=2.2
+3: p10=1 p25=2 p50=3 p75=4 p90=5 mean=2.9
+4: p10=3 p25=5 p50=6 p75=7 p90=7 mean=5.6
+5: p10=1 p25=2 p50=3 p75=4 p90=5 mean=3.0
+6: p10=3 p25=4 p50=5 p75=6 p90=7 mean=4.8
+7: p10=1 p25=2 p50=3 p75=4 p90=5 mean=2.9
+8: p10=1 p25=2 p50=3 p75=4 p90=5 mean=3.0
+9: p10=1 p25=2 p50=3 p75=4 p90=5 mean=2.8
+10: p10=1 p25=2 p50=3 p75=4 p90=5 mean=3.0
+11: p10=2 p25=4 p50=5 p75=6 p90=7 mean=4.7
+12: p10=4 p25=5 p50=6 p75=7 p90=7 mean=5.6
+13: p10=1 p25=2 p50=3 p75=4 p90=5 mean=3.0
+14: p10=4 p25=5 p50=6 p75=7 p90=7 mean=6.0
+15: p10=4 p25=5 p50=6 p75=7 p90=7 mean=5.7
+16: p10=3 p25=4 p50=5 p75=6 p90=7 mean=5.0
+17: p10=3 p25=4 p50=5 p75=6 p90=7 mean=5.1
+18: p10=3 p25=4 p50=5 p75=6 p90=7 mean=5.0
+19: p10=1 p25=2 p50=3 p75=4 p90=5 mean=2.9
+20: p10=4 p25=5 p50=6 p75=7 p90=7 mean=5.5
+21: p10=4 p25=5 p50=6 p75=7 p90=7 mean=5.7
+22: p10=4 p25=5 p50=6 p75=7 p90=7 mean=5.6
+23: p10=1 p25=2 p50=3 p75=4 p90=5 mean=3.0
+24: p10=1 p25=2 p50=3 p75=4 p90=5 mean=2.8
+25: p10=1 p25=2 p50=3 p75=4 p90=5 mean=2.9
+26: p10=1 p25=2 p50=3 p75=4 p90=5 mean=2.9
+27: p10=1 p25=2 p50=3 p75=4 p90=5 mean=2.9
+28: p10=4 p25=5 p50=6 p75=7 p90=7 mean=6.0
+29: p10=1 p25=2 p50=3 p75=4 p90=5 mean=3.0
+30: p10=4 p25=5 p50=6 p75=7 p90=7 mean=5.6
+31: p10=3 p25=4 p50=5 p75=6 p90=7 mean=5.0
+32: p10=1 p25=2 p50=3 p75=4 p90=5 mean=2.8
+KNOWN: no
+HOW: I sorted the sentences into ones with the modifier next to its noun (rated high) and ones where it was moved past adverbials or across a coordination (rated low). I then adjusted for awkward stacked adverbs and for misattachments that make no sense.
+TOOLS: none

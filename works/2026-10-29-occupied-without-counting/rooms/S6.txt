@@ -1,0 +1,36 @@
+SPREADS
+1: p10=4 p25=5 p50=6 p75=7 p90=7 mean=5.6
+2: p10=4 p25=5 p50=6 p75=7 p90=7 mean=5.6
+3: p10=1 p25=2 p50=3 p75=4 p90=5 mean=3.0
+4: p10=3 p25=4 p50=5 p75=6 p90=7 mean=4.9
+5: p10=1 p25=2 p50=3 p75=4 p90=5 mean=2.9
+6: p10=1 p25=2 p50=3 p75=4 p90=5 mean=2.9
+7: p10=3 p25=4 p50=5 p75=6 p90=7 mean=5.0
+8: p10=3 p25=4 p50=5 p75=6 p90=7 mean=4.8
+9: p10=4 p25=5 p50=6 p75=7 p90=7 mean=5.6
+10: p10=4 p25=5 p50=6 p75=7 p90=7 mean=5.5
+11: p10=4 p25=5 p50=6 p75=7 p90=7 mean=5.5
+12: p10=1 p25=2 p50=3 p75=4 p90=5 mean=2.8
+13: p10=4 p25=5 p50=6 p75=7 p90=7 mean=5.7
+14: p10=1 p25=2 p50=3 p75=4 p90=5 mean=3.0
+15: p10=1 p25=2 p50=3 p75=4 p90=5 mean=3.1
+16: p10=3 p25=4 p50=5 p75=6 p90=7 mean=5.0
+17: p10=1 p25=1 p50=2 p75=4 p90=5 mean=2.6
+18: p10=3 p25=4 p50=5 p75=6 p90=7 mean=5.1
+19: p10=3 p25=4 p50=5 p75=6 p90=7 mean=5.0
+20: p10=1 p25=2 p50=3 p75=4 p90=5 mean=3.1
+21: p10=1 p25=2 p50=3 p75=4 p90=5 mean=3.0
+22: p10=1 p25=2 p50=3 p75=4 p90=5 mean=2.9
+23: p10=4 p25=5 p50=6 p75=7 p90=7 mean=5.5
+24: p10=1 p25=1 p50=2 p75=4 p90=5 mean=2.6
+25: p10=3 p25=4 p50=5 p75=6 p90=7 mean=5.0
+26: p10=4 p25=5 p50=6 p75=7 p90=7 mean=5.8
+27: p10=1 p25=2 p50=3 p75=4 p90=5 mean=3.1
+28: p10=1 p25=2 p50=3 p75=4 p90=5 mean=3.0
+29: p10=1 p25=2 p50=3 p75=4 p90=5 mean=3.0
+30: p10=1 p25=2 p50=3 p75=4 p90=5 mean=3.0
+31: p10=4 p25=5 p50=6 p75=7 p90=7 mean=5.6
+32: p10=1 p25=2 p50=3 p75=4 p90=5 mean=3.1
+KNOWN: no
+HOW: I grouped the sentences by structure. Modifiers placed right next to their noun I put high, and slightly lower when a "both...and" pair carries a relative clause. Modifiers moved past adverbs or past a coordinated noun I put low, with wide spread.
+TOOLS: none
