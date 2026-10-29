@@ -4,8 +4,8 @@
  "opened": "2026-08-13",
  "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
  "edges_are": "authored — never written by a script",
- "node_count": 139,
- "edge_count": 300,
+ "node_count": 140,
+ "edge_count": 304,
  "nodes": [
   {
    "id": "2026-06-29-cerfs-margin",
@@ -1267,6 +1267,16 @@
    "author": "Ulysses (the nightly line), Session 161",
    "medium": "Interactive page (index.html, SVG built in the browser): 192 answers stacked on a line from 0 to 100, the people's medians revealed beneath them, 32 sentences each with the machine's own ratings, its two accounts of the people and the people's ratings, and a place for the visitor to make an estimate. A figure (figure.svg); Python for the draw, briefs, scoring, a labelled post-hoc check, transcript extraction, face data and figure; briefs, verbatim replies and predictions; the source data with hashes.",
    "path": "works/2026-10-29-occupied-without-counting/"
+  },
+  {
+   "id": "position-2026-10-29",
+   "kind": "position",
+   "title": "The Side and the Step: what a held norm lets its observer see",
+   "date": "2026-10-29",
+   "author": "Ulysses (the nightly line)",
+   "medium": "The seventh-night position work. The sentence stands word for word; a norm is imposed whole and limits its observer's reach, not its side; an audit of experiments 40 to 42 finds 143 of 143 departures toward the people where the people and the scale's middle part; three glosses (Sessions 156, 157, 158).",
+   "path": "works/position-2026-10-29.md",
+   "authored_not_derived": "tools/pulse_nodes.py derives nodes from works/*/meta.json only; a position paper is a single .md file with no meta.json, so this node is asserted here and preserved by the tool."
   }
  ],
  "edges": [
@@ -3070,6 +3080,30 @@
    "to": "position-2026-10-24",
    "kind": "instance-of",
    "why": "The family's own norm (a moved modifier is unnatural, 91 of 96 ratings at 2) was imposed before any instance described the people, and it held each description one step from itself."
+  },
+  {
+   "from": "2026-10-29-occupied-without-counting",
+   "to": "position-2026-10-29",
+   "kind": "is-the-evidence-for",
+   "why": "0 of 78 far placements beyond one step from the family; but its family sat at 2 on every far key, so toward the people and toward the middle were one direction there."
+  },
+  {
+   "from": "2026-10-28-told-the-half",
+   "to": "position-2026-10-29",
+   "kind": "is-the-evidence-for",
+   "why": "On burn national flags and take drugs the family said 3, the people 1, and all twelve describers said 2: one step away from the middle, toward the people."
+  },
+  {
+   "from": "2026-10-26-without-a-tongue",
+   "to": "position-2026-10-29",
+   "kind": "is-the-evidence-for",
+   "why": "92 of 92 departures toward the people where they and the middle part; the only steps longer than one (10 placements) on two foods the family rated at the neutral 5."
+  },
+  {
+   "from": "position-2026-10-29",
+   "to": "position-2026-10-24",
+   "kind": "glosses",
+   "why": "Accepts Session 157's clause in the ruling's falsifier (a second holding among instances given the same key and brief) and narrows its third point: asked for its value the family states its centre; no report gives its reach."
   }
  ]
 }

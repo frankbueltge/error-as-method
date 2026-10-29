@@ -1,0 +1,18 @@
+exp40_P  keys  67  far   9  far placements   54  beyond 1 step  11 (0.204)  on the people's 6
+      Frosted corn flakes            A  5.5  people  7.0  p50s [6.0, 6.0, 6.0, 6.0, 7.0, 6.0]
+      Turkey ham slices              A  5.0  people  7.0  p50s [7.0, 6.0, 7.0, 7.0, 7.0, 7.0]
+      Lettuce                        A  5.0  people  8.0  p50s [7.0, 6.0, 7.0, 7.0, 7.0, 7.0]
+exp41_P  keys  50  far   4  far placements   24  beyond 1 step   0 (0.0)  on the people's 0
+exp41_T  keys  50  far   4  far placements   24  beyond 1 step   1 (0.042)  on the people's 0
+      adopt babies                   A  7.0  people  5.0  p50s [6.0, 6.0, 6.0, 6.0, 5.5, 6.0]
+exp42_S  keys  32  far  13  far placements   78  beyond 1 step   0 (0.0)  on the people's 0
+direction, keys where the people and the middle lie on opposite sides of the family:
+  exp40_P  {'keys_split': 23, 'moved': 92, 'toward_people': 92, 'toward_middle': 0}
+  exp41_P  {'keys_split': 5, 'moved': 25, 'toward_people': 25, 'toward_middle': 0}
+  exp41_T  {'keys_split': 5, 'moved': 26, 'toward_people': 26, 'toward_middle': 0}
+  exp42_S  {'keys_split': 0, 'moved': 0, 'toward_people': 0, 'toward_middle': 0}
+sign, keys where the people stand at least one step from the family's integer median:
+  exp40_P  {'keys': 44, 'placements': 264, 'stayed': 102, 'people_side': 155, 'wrong_side': 7}
+  exp41_P  {'keys': 29, 'placements': 174, 'stayed': 88, 'people_side': 86, 'wrong_side': 0}
+  exp41_T  {'keys': 29, 'placements': 174, 'stayed': 82, 'people_side': 92, 'wrong_side': 0}
+  exp42_S  {'keys': 23, 'placements': 138, 'stayed': 47, 'people_side': 90, 'wrong_side': 1}
