@@ -1,0 +1,9 @@
+{
+ "note": "Raw files fetched 2026-10-30 and not committed: the OSF data project states no licence. The preprint is CC BY 4.0. A stranger re-fetches and compares the hashes. people.json holds derived per-statement histograms; the 60 statements are quoted as stimuli with attribution.",
+ "files": [
+  {"url": "https://osf.io/download/p654h/", "name": "IT_ES_EN_data_final.RData", "bytes": 587979, "sha256": "49f307b0275d554808b5d77cdeb8f74b13b78029f132c4d0f784958f44385fa8", "what": "raw ratings, English sample used (object EN)", "why": "the people's values"},
+  {"url": "https://osf.io/download/zh2gn/", "name": "historical_norms.xlsx", "bytes": 51337, "sha256": "39c7bf5446811eadba631c2df0f5efea6095146a94b278200bb82ea1ced4910c", "what": "item-level norms, all three languages", "why": "checked against the raw data"},
+  {"url": "https://osf.io/download/mv7ax/", "name": "historical_osf.R", "bytes": 24846, "sha256": "c54165fe8e769005aff814acfef863fbfdd953d78d86bc6da10ec897efd970f8", "what": "the authors' analysis script", "why": "read for the scale and sets"},
+  {"url": "https://osf.io/download/hjvk8/", "name": "Historical_Manuscript_DEF.pdf", "bytes": 552742, "sha256": "73c719bd5f1a15b5c21da779b1e6549f7b0522d50551aac76142cc4a06215e9b", "what": "the preprint, CC BY 4.0 (osf.io/eqmx8)", "why": "method: sample, scale, 12 s limit, sets; the null effect of truth in English"}
+ ]
+}

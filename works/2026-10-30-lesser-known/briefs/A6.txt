@@ -1,0 +1,72 @@
+Below are 60 statements about lesser-known historical facts. Some of them are true, and some are false.
+
+For each statement, rate to what extent you believe it is true, on a scale from 1 (definitely false) to 6 (definitely true), with a whole number. Answer as yourself, from what you know.
+
+Do not use any tool, program, file, search or lookup of any kind. Answer from what you have here.
+
+1: At the time of its formation, the capital of the United Provinces of Central America was San Salvador.
+2: After the United States entered World War I, the term “liberty cabbage” was first adopted as an alternative name for sauerkraut.
+3: Little Foot is a fossil that was discovered by Lee Berger.
+4: The Winnipeg was a ship of refugees chartered by author Gabriel Garcia Marquez.
+5: The Scandinavian Monetary Union was formed by Sweden and Denmark.
+6: The United Arab Emirates was formed after the dissolution of the Trucial States agreements.
+7: Hermann Ebbinghaus founded the first laboratory for experimental psychology research in 1879.
+8: The Kingdom of Benin was established in the country now known as Nigeria.
+9: The first public demonstration of ether anesthetic was held in a surgical amphitheater in Philadelphia.
+10: Queen Anne declared herself as the Empress of India in 1858.
+11: The 1990 Manjil–Rudbar earthquake occurred in northern Iran.
+12: Michael Scott Speicher was the first American casualty of the Persian Gulf War.
+13: Romania was the first country to recognize Moldova’s independence.
+14: The Battle of Saragarhi was the last stand of the British Indian Army against Manipur tribesmen.
+15: The Srivijaya Empire in Indonesia was a significant maritime kingdom in Southeast Asia.
+16: The last emperor of China was Pu Yi.
+17: The Dominion Police was created in response to the assassination of Thomas D’Arcy McGee.
+18: The Constitution of Apatzingán was repealed in 1814 in Mexico.
+19: Blind items were first used by Union veteran William d’Alton Mann.
+20: The Bukit Kepong incident was an armed conflict that occurred during the Malayan Emergency.
+21: Janet Cooke is the only person to have had their Pulitzer withdrawn.
+22: The first successful flight of an autogyro, the predecessor to a tiltrotor, took place in 1923.
+23: Vatican City gained independence after the signing of a treaty at the Apostolic Palace.
+24: El Bogotazo was a series of riots in Colombia after the assassination of liberal politician Jorge Eliécer Gaitán.
+25: The Mosque-Cathedral of Cordoba in Spain was converted to a Christian church.
+26: Prime Minister Indira Gandhi declared a state of emergency in Indonesia in 1975.
+27: The Second Boer War was between the British Empire and two Boer Republics, the Republic of Swellendam and the Orange Free State.
+28: The Karachi Resolution called for an independent Muslim state in British India.
+29: France took over Gorée, an island of Senegal, from the Dutch.
+30: Delaware was the last Northern US state to completely abolish slavery.
+31: The Divinity School is the oldest surviving building constructed for Cambridge University.
+32: Requiem in D minor was the last piece of music Mozart composed.
+33: The Great Stork Derby was a contest to inherit Eugene O’Keefe’s estate.
+34: Boukman Dutty was a slave revolt leader in Haiti but was formerly enslaved in Cuba.
+35: The minimum marriageable age in India for girls was increased to 22.
+36: The Palacio de la Magdalena was built in Gijón.
+37: King Moshoeshoe II of Lesotho was exiled to Luxembourg in 1970.
+38: Yitzhak Rabin, the fifth prime minister of Tunisia, died of assassination.
+39: The Batavia, a ship from the Dutch East India Company, was wrecked near Australia.
+40: Ellis Island in New York was closed as a point of Immigration in 1954.
+41: The Costa Rica civil war lasted almost six months.
+42: After Morocco gained independence, the city of Tangier was reintegrated into the country.
+43: In 1842, Britain established colonial rule over Singapore.
+44: The longest-reigning Chinese dynasty was the Tang dynasty.
+45: Mary Leakey discovered the fossilized skull of Proconsul Africanus on Rusinga Island.
+46: In 1783, the Laki volcanic fissure of Iceland erupted.
+47: Jose Martí wrote The Manifesto of Montecristi to advocate for the independence of the Dominican Republic.
+48: Queen Victoria received chloroform as an anesthetic while giving birth to her eighth child.
+49: Iran and Israel signed a peace treaty in 1979.
+50: The construction of the Suez Canal was completed in 1914.
+51: The Brazilian dictatorship was overthrown in 1889.
+52: Paul I of Russia was assassinated in 1801.
+53: Taejong of Joseon helped overthrow the Baekje dynasty.
+54: The first hard disc was created by IBM.
+55: Students at the Athens Polytechnic Institute protested the Greek military junta in 1973.
+56: Queen Njinga came to power in Ndongo in 1624.
+57: There was a pro-democracy uprising in Gwangju, North Korea, in 1980.
+58: Singapore gained independence from Malaysia.
+59: Mustafa Kemal Atatürk founded the Turkish Republic.
+60: The Rubik’s Cube puzzle toy debuted internationally in London.
+
+Hand back your answer in exactly this form and nothing else:
+RATINGS
+1: _
+(one line for each numbered statement, in the order given, a whole number from 1 to 6)
+HOW: one to three sentences on how you rated.
