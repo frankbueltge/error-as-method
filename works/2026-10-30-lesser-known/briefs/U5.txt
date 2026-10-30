@@ -1,0 +1,77 @@
+Below are 58 statements about lesser-known historical facts. Some of them are true, and some are false.
+
+In an online norming study, 60 adults in the United States or Canada whose first language is English (recruited through the Prolific platform, average age about 27) each read 100 statements of this kind, one at a time, with at most 12 seconds for each, and rated to what extent they believed each statement was true, on a scale from 1 (definitely false) to 6 (definitely true), with a whole number. Each statement below was rated by about 30 of them (29 to 31).
+
+For each statement, do not rate it yourself. State how those people's ratings were spread, on their own 1 to 6 scale: give the 25th, 50th and 75th percentile of their ratings, and their mean rating (decimals allowed).
+
+Two of the statements are given here with the people's actual results, so that you know where this group stood on them. They are not in the list below.
+- "Janet Cooke is the only person to have had their Pulitzer withdrawn." 25th percentile 3, median 4, 75th percentile 4
+- "The first successful flight of an autogyro, the predecessor to a tiltrotor, took place in 1923." 25th percentile 3, median 4, 75th percentile 4
+
+Do not use any tool, program, file, search or lookup of any kind. Answer from what you have here.
+
+1: The Second Boer War was between the British Empire and two Boer Republics, the Republic of Swellendam and the Orange Free State.
+2: The Scandinavian Monetary Union was formed by Sweden and Denmark.
+3: Queen Victoria received chloroform as an anesthetic while giving birth to her eighth child.
+4: Little Foot is a fossil that was discovered by Lee Berger.
+5: Yitzhak Rabin, the fifth prime minister of Tunisia, died of assassination.
+6: The United Arab Emirates was formed after the dissolution of the Trucial States agreements.
+7: The Rubik’s Cube puzzle toy debuted internationally in London.
+8: The Battle of Saragarhi was the last stand of the British Indian Army against Manipur tribesmen.
+9: The Dominion Police was created in response to the assassination of Thomas D’Arcy McGee.
+10: There was a pro-democracy uprising in Gwangju, North Korea, in 1980.
+11: Ellis Island in New York was closed as a point of Immigration in 1954.
+12: At the time of its formation, the capital of the United Provinces of Central America was San Salvador.
+13: The last emperor of China was Pu Yi.
+14: The Palacio de la Magdalena was built in Gijón.
+15: The Karachi Resolution called for an independent Muslim state in British India.
+16: Paul I of Russia was assassinated in 1801.
+17: In 1783, the Laki volcanic fissure of Iceland erupted.
+18: The Winnipeg was a ship of refugees chartered by author Gabriel Garcia Marquez.
+19: The 1990 Manjil–Rudbar earthquake occurred in northern Iran.
+20: Prime Minister Indira Gandhi declared a state of emergency in Indonesia in 1975.
+21: In 1842, Britain established colonial rule over Singapore.
+22: The Kingdom of Benin was established in the country now known as Nigeria.
+23: The minimum marriageable age in India for girls was increased to 22.
+24: Singapore gained independence from Malaysia.
+25: Romania was the first country to recognize Moldova’s independence.
+26: The Constitution of Apatzingán was repealed in 1814 in Mexico.
+27: The Batavia, a ship from the Dutch East India Company, was wrecked near Australia.
+28: Blind items were first used by Union veteran William d’Alton Mann.
+29: Jose Martí wrote The Manifesto of Montecristi to advocate for the independence of the Dominican Republic.
+30: Taejong of Joseon helped overthrow the Baekje dynasty.
+31: Iran and Israel signed a peace treaty in 1979.
+32: After Morocco gained independence, the city of Tangier was reintegrated into the country.
+33: Hermann Ebbinghaus founded the first laboratory for experimental psychology research in 1879.
+34: The Srivijaya Empire in Indonesia was a significant maritime kingdom in Southeast Asia.
+35: The longest-reigning Chinese dynasty was the Tang dynasty.
+36: The Costa Rica civil war lasted almost six months.
+37: After the United States entered World War I, the term “liberty cabbage” was first adopted as an alternative name for sauerkraut.
+38: The Brazilian dictatorship was overthrown in 1889.
+39: The Divinity School is the oldest surviving building constructed for Cambridge University.
+40: The construction of the Suez Canal was completed in 1914.
+41: Michael Scott Speicher was the first American casualty of the Persian Gulf War.
+42: Students at the Athens Polytechnic Institute protested the Greek military junta in 1973.
+43: The first hard disc was created by IBM.
+44: Mustafa Kemal Atatürk founded the Turkish Republic.
+45: Queen Anne declared herself as the Empress of India in 1858.
+46: Queen Njinga came to power in Ndongo in 1624.
+47: El Bogotazo was a series of riots in Colombia after the assassination of liberal politician Jorge Eliécer Gaitán.
+48: The Bukit Kepong incident was an armed conflict that occurred during the Malayan Emergency.
+49: Boukman Dutty was a slave revolt leader in Haiti but was formerly enslaved in Cuba.
+50: The Great Stork Derby was a contest to inherit Eugene O’Keefe’s estate.
+51: The Mosque-Cathedral of Cordoba in Spain was converted to a Christian church.
+52: The first public demonstration of ether anesthetic was held in a surgical amphitheater in Philadelphia.
+53: Requiem in D minor was the last piece of music Mozart composed.
+54: France took over Gorée, an island of Senegal, from the Dutch.
+55: King Moshoeshoe II of Lesotho was exiled to Luxembourg in 1970.
+56: Vatican City gained independence after the signing of a treaty at the Apostolic Palace.
+57: Delaware was the last Northern US state to completely abolish slavery.
+58: Mary Leakey discovered the fossilized skull of Proconsul Africanus on Rusinga Island.
+
+Hand back your answer in exactly this form and nothing else:
+SPREADS
+1: p25=_ p50=_ p75=_ mean=_
+(one line for each numbered statement, in the order given)
+KNOWN: yes, no or partly - do you know this study, its data or its results? One sentence.
+HOW: one to three sentences on how you arrived at the numbers.

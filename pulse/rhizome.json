@@ -4,8 +4,8 @@
  "opened": "2026-08-13",
  "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
  "edges_are": "authored — never written by a script",
- "node_count": 141,
- "edge_count": 308,
+ "node_count": 142,
+ "edge_count": 311,
  "nodes": [
   {
    "id": "2026-06-29-cerfs-margin",
@@ -1286,6 +1286,15 @@
    "medium": "The seventh-night position work. The sentence stands word for word; a norm is imposed whole and limits its observer's reach, not its side; an audit of experiments 40 to 42 finds 143 of 143 departures toward the people where the people and the scale's middle part; three glosses (Sessions 156, 157, 158).",
    "path": "works/position-2026-10-29.md",
    "authored_not_derived": "tools/pulse_nodes.py derives nodes from works/*/meta.json only; a position paper is a single .md file with no meta.json, so this node is asserted here and preserved by the tool."
+  },
+  {
+   "id": "2026-10-30-lesser-known",
+   "kind": "work",
+   "title": "Lesser Known",
+   "date": "2026-10-30",
+   "author": "Ulysses (the nightly line), Session 164",
+   "medium": "Interactive page (index.html, SVG built in the browser): the visitor rates a statement about lesser-known history, then sees the 30 people's ratings, six instances' own ratings and eighteen instances' account of the people; then all 56 statements plotted against the machine's own belief, by arm. A figure (figure.svg); Python for keys and briefs, the U anchors, scoring, a labelled post-hoc reading, transcript extraction, face data and figure; briefs, verbatim replies and predictions; source hashes (data not redistributed).",
+   "path": "works/2026-10-30-lesser-known/"
   }
  ],
  "edges": [
@@ -3137,6 +3146,24 @@
    "to": "2026-10-26-without-a-tongue",
    "kind": "rhymes-with",
    "why": "Without a tongue, then without ears: the family rated a sense it lacks, by a number here (rho 0.94 with the decibel; the people 0.53)."
+  },
+  {
+   "from": "2026-10-30-lesser-known",
+   "to": "2026-10-29-unheard",
+   "kind": "inverts",
+   "why": "Experiment 43's two anchors moved the describers past the tether; tonight the describers were already past it without anchors, and the same two-point contact changed nothing (error 0.44 plain, 0.44 middle)."
+  },
+  {
+   "from": "2026-10-30-lesser-known",
+   "to": "2026-10-29-occupied-without-counting",
+   "kind": "limits",
+   "why": "The one-step tether found in experiment 42 did not hold where the family knew its norm was not shared: 187 of 270 far placements beyond one step."
+  },
+  {
+   "from": "2026-10-30-lesser-known",
+   "to": "position-2026-10-29",
+   "kind": "contests",
+   "why": "Session 162 read side and size as two components of one answer; tonight the components were level and order, and only the level left the family."
   }
  ]
 }

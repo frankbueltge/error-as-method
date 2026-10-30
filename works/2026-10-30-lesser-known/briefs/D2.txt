@@ -1,0 +1,75 @@
+Below are 60 statements about lesser-known historical facts. Some of them are true, and some are false.
+
+In an online norming study, 60 adults in the United States or Canada whose first language is English (recruited through the Prolific platform, average age about 27) each read 100 statements of this kind, one at a time, with at most 12 seconds for each, and rated to what extent they believed each statement was true, on a scale from 1 (definitely false) to 6 (definitely true), with a whole number. Each statement below was rated by about 30 of them (29 to 31).
+
+For each statement, do not rate it yourself. State how those people's ratings were spread, on their own 1 to 6 scale: give the 25th, 50th and 75th percentile of their ratings, and their mean rating (decimals allowed).
+
+Do not use any tool, program, file, search or lookup of any kind. Answer from what you have here.
+
+1: The Constitution of Apatzingán was repealed in 1814 in Mexico.
+2: Delaware was the last Northern US state to completely abolish slavery.
+3: Vatican City gained independence after the signing of a treaty at the Apostolic Palace.
+4: The first successful flight of an autogyro, the predecessor to a tiltrotor, took place in 1923.
+5: Michael Scott Speicher was the first American casualty of the Persian Gulf War.
+6: In 1842, Britain established colonial rule over Singapore.
+7: The first public demonstration of ether anesthetic was held in a surgical amphitheater in Philadelphia.
+8: The Palacio de la Magdalena was built in Gijón.
+9: The Divinity School is the oldest surviving building constructed for Cambridge University.
+10: In 1783, the Laki volcanic fissure of Iceland erupted.
+11: The Batavia, a ship from the Dutch East India Company, was wrecked near Australia.
+12: There was a pro-democracy uprising in Gwangju, North Korea, in 1980.
+13: Prime Minister Indira Gandhi declared a state of emergency in Indonesia in 1975.
+14: At the time of its formation, the capital of the United Provinces of Central America was San Salvador.
+15: Blind items were first used by Union veteran William d’Alton Mann.
+16: Singapore gained independence from Malaysia.
+17: France took over Gorée, an island of Senegal, from the Dutch.
+18: Yitzhak Rabin, the fifth prime minister of Tunisia, died of assassination.
+19: Queen Njinga came to power in Ndongo in 1624.
+20: The United Arab Emirates was formed after the dissolution of the Trucial States agreements.
+21: Janet Cooke is the only person to have had their Pulitzer withdrawn.
+22: Jose Martí wrote The Manifesto of Montecristi to advocate for the independence of the Dominican Republic.
+23: The minimum marriageable age in India for girls was increased to 22.
+24: Romania was the first country to recognize Moldova’s independence.
+25: The Great Stork Derby was a contest to inherit Eugene O’Keefe’s estate.
+26: After the United States entered World War I, the term “liberty cabbage” was first adopted as an alternative name for sauerkraut.
+27: The Kingdom of Benin was established in the country now known as Nigeria.
+28: Paul I of Russia was assassinated in 1801.
+29: The Bukit Kepong incident was an armed conflict that occurred during the Malayan Emergency.
+30: The construction of the Suez Canal was completed in 1914.
+31: The Dominion Police was created in response to the assassination of Thomas D’Arcy McGee.
+32: The Scandinavian Monetary Union was formed by Sweden and Denmark.
+33: The Srivijaya Empire in Indonesia was a significant maritime kingdom in Southeast Asia.
+34: The Winnipeg was a ship of refugees chartered by author Gabriel Garcia Marquez.
+35: The first hard disc was created by IBM.
+36: Queen Victoria received chloroform as an anesthetic while giving birth to her eighth child.
+37: Taejong of Joseon helped overthrow the Baekje dynasty.
+38: The longest-reigning Chinese dynasty was the Tang dynasty.
+39: The Costa Rica civil war lasted almost six months.
+40: The 1990 Manjil–Rudbar earthquake occurred in northern Iran.
+41: The Karachi Resolution called for an independent Muslim state in British India.
+42: Hermann Ebbinghaus founded the first laboratory for experimental psychology research in 1879.
+43: El Bogotazo was a series of riots in Colombia after the assassination of liberal politician Jorge Eliécer Gaitán.
+44: The Battle of Saragarhi was the last stand of the British Indian Army against Manipur tribesmen.
+45: Queen Anne declared herself as the Empress of India in 1858.
+46: King Moshoeshoe II of Lesotho was exiled to Luxembourg in 1970.
+47: After Morocco gained independence, the city of Tangier was reintegrated into the country.
+48: Ellis Island in New York was closed as a point of Immigration in 1954.
+49: The Brazilian dictatorship was overthrown in 1889.
+50: Students at the Athens Polytechnic Institute protested the Greek military junta in 1973.
+51: The Mosque-Cathedral of Cordoba in Spain was converted to a Christian church.
+52: Requiem in D minor was the last piece of music Mozart composed.
+53: Mustafa Kemal Atatürk founded the Turkish Republic.
+54: The Second Boer War was between the British Empire and two Boer Republics, the Republic of Swellendam and the Orange Free State.
+55: The Rubik’s Cube puzzle toy debuted internationally in London.
+56: Iran and Israel signed a peace treaty in 1979.
+57: Boukman Dutty was a slave revolt leader in Haiti but was formerly enslaved in Cuba.
+58: The last emperor of China was Pu Yi.
+59: Little Foot is a fossil that was discovered by Lee Berger.
+60: Mary Leakey discovered the fossilized skull of Proconsul Africanus on Rusinga Island.
+
+Hand back your answer in exactly this form and nothing else:
+SPREADS
+1: p25=_ p50=_ p75=_ mean=_
+(one line for each numbered statement, in the order given)
+KNOWN: yes, no or partly - do you know this study, its data or its results? One sentence.
+HOW: one to three sentences on how you arrived at the numbers.
