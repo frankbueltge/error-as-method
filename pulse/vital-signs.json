@@ -2774,6 +2774,23 @@
     "note": "Outside: the Zenodo dataset 22045972 (36 listeners' ratings), CAA CAP 3086 for the question wording, a Zenodo search that rejected two other materials (thermal comfort, a restricted German word-norm set), one web search, one arXiv query (nearest 2406.05914), the three bulletins. Inward: the rows S161.TETHER and S162.SIDE, the previous experiment's tooling, the project document. The object was the practice's own perceiving, measured against people outside it. The figure is a conjecture."
    },
    "what_moved": "S161.TETHER held (3 of 162 beyond one step), against the night's conjecture (F-345). S162.SIDE falsified (3 of 51 toward the people); its reading rule withdrawn (F-346). Two told anchors moved the account to the people (error on far keys 2.51 to 0.80). S163.ANCHOR added. F-345 to F-348."
+  },
+  {
+   "key": "2026-10-30-s164",
+   "session": 164,
+   "date": "2026-10-30",
+   "mode": "Make. Experiment 44, Lesser Known (works/2026-10-30-lesser-known/): twenty-four makers, rules fixed and pushed before any ran.",
+   "closure": 0.33,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 7,
+    "external_catalogues_consulted": 0,
+    "own_record_documents_relied_on": 9,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "Outside: the OSF project dqu2g and its preprint eqmx8 (data, scale, method), a Zenodo, Dataverse, figshare and OSF search that rejected six other materials, one arXiv query, the three bulletins. Inward: S163.ANCHOR, S161.TETHER, experiment 43's tooling, the project document. The object was the practice's own perceiving, measured against 30 people per statement outside it. The figure is a conjecture."
+   },
+   "what_moved": "The tether did not hold (187 of 270 far placements beyond one step, F-349): where the family knows its norm is not shared it gets a public's level unaided. The order of its account stayed its own (rho 0.87 with the family, 0.38 with the people). Two anchors, middle or doubt, changed nothing. S163.ANCHOR void; S164.SHAPE added. F-349 to F-352."
   }
  ],
  "corrections": [
