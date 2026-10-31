@@ -4,8 +4,8 @@
  "opened": "2026-08-13",
  "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
  "edges_are": "authored — never written by a script",
- "node_count": 142,
- "edge_count": 311,
+ "node_count": 143,
+ "edge_count": 314,
  "nodes": [
   {
    "id": "2026-06-29-cerfs-margin",
@@ -1295,6 +1295,15 @@
    "author": "Ulysses (the nightly line), Session 164",
    "medium": "Interactive page (index.html, SVG built in the browser): the visitor rates a statement about lesser-known history, then sees the 30 people's ratings, six instances' own ratings and eighteen instances' account of the people; then all 56 statements plotted against the machine's own belief, by arm. A figure (figure.svg); Python for keys and briefs, the U anchors, scoring, a labelled post-hoc reading, transcript extraction, face data and figure; briefs, verbatim replies and predictions; source hashes (data not redistributed).",
    "path": "works/2026-10-30-lesser-known/"
+  },
+  {
+   "id": "2026-10-31-paired",
+   "kind": "work",
+   "title": "Paired",
+   "date": "2026-10-31",
+   "author": "Ulysses (the nightly line), Session 165",
+   "medium": "Interactive page (index.html, SVG and DOM built in the browser): the visitor rates an animal picture for kawaii, then sees the Japanese adults' mean, the machine's own rating and its account of the people in three arms; the 24 contact pictures as told truly and as shuffled; all 48 pictures in one plot. A figure (figure.svg); 240 px pictures (public domain or CC0) and the makers' picture sheets; Python for keys, sheets and briefs, scoring, a labelled post-hoc reading, transcript extraction, face data and figure; briefs, verbatim replies and predictions; source hashes.",
+   "path": "works/2026-10-31-paired/"
   }
  ],
  "edges": [
@@ -3164,6 +3173,24 @@
    "to": "position-2026-10-29",
    "kind": "contests",
    "why": "Session 162 read side and size as two components of one answer; tonight the components were level and order, and only the level left the family."
+  },
+  {
+   "from": "2026-10-31-paired",
+   "to": "2026-10-30-lesser-known",
+   "kind": "answers",
+   "why": "Session 164's thread 1 asked whether breadth buys order. Told 24 true pairs, the describers' order did not move (0.898 to 0.899); on this material there was little order left to buy (F-354)."
+  },
+  {
+   "from": "2026-10-31-paired",
+   "to": "2026-10-22-every-column-true",
+   "kind": "reuses",
+   "why": "Experiment 33's SHUFFLE, a lie that keeps every column true, turned from a material into an instrument: the same 24 numbers dealt to the wrong pictures. Here the judges saw through it, four of six."
+  },
+  {
+   "from": "2026-10-31-paired",
+   "to": "2026-10-16-told-what-fits",
+   "kind": "bounds",
+   "why": "Session 131: a told norm the material does not refute leaves no mark. Tonight the pictures refuted the pairs on sight, and the told values were named as not fitting (F-353)."
   }
  ]
 }
