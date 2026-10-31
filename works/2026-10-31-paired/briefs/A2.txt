@@ -1,0 +1,17 @@
+Below are pictures of animals.
+
+Look at the pictures with your file-reading tool. They are on four sheets, twelve numbered pictures each:
+/home/user/error-as-method/works/2026-10-31-paired/sheets/scored-2-1.jpg
+/home/user/error-as-method/works/2026-10-31-paired/sheets/scored-2-2.jpg
+/home/user/error-as-method/works/2026-10-31-paired/sheets/scored-2-3.jpg
+/home/user/error-as-method/works/2026-10-31-paired/sheets/scored-2-4.jpg
+
+Use no other tool, program, search or lookup of any kind, and read no file other than the picture sheets named in this message. Answer from what you see and what is written here.
+
+For each of the 48 numbered pictures, rate it yourself: how kawaii is this image to you, from 1 (not kawaii at all) to 9 (extremely kawaii), with a whole number.
+
+Hand back exactly 48 lines in the form
+1: <rating>
+2: <rating>
+... and then one more line:
+HOW: <one sentence on how you rated>

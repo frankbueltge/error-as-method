@@ -1,0 +1,32 @@
+{
+ "retrieved": "2026-10-31",
+ "project": "https://osf.io/3uzrw",
+ "preprint": "https://doi.org/10.31234/osf.io/qmjuk_v1",
+ "licence": "CC BY 4.0 (project); pictures public domain or CC0",
+ "files": [
+  {
+   "name": "AAPS_dataset.xlsx",
+   "url": "https://osf.io/download/6ac496a5180236a04982f09f/",
+   "http_status": 200,
+   "bytes": 2509589,
+   "sha256": "406ba9efa362a4d666f2fa808c0a075f31e26087661fea7bc7f8209be6bfc480",
+   "what": "Mean and per-participant ratings (valence, arousal, motivation, kawaii) of 800 animal pictures by 914 Japanese adults; CC BY 4.0 (OSF project 3uzrw). Not committed: the night needs only derived per-picture values (people.json), and those are committed with attribution."
+  },
+  {
+   "name": "AAPS_images.zip",
+   "url": "https://osf.io/download/4xw7y/",
+   "http_status": 200,
+   "bytes": 82107715,
+   "sha256": "0ebf0b636f6bd8cd36aee6424aaeada2c9fabf39e8e4db343dfcaab80c32972a",
+   "what": "The 800 pictures, 1000 x 1000 px, each in the public domain or CC0 per the release. Not committed whole; 72 are committed as 240 px thumbnails and on the picture sheets."
+  },
+  {
+   "name": "AAPS_analysis.r",
+   "url": "https://osf.io/download/vu6zs/",
+   "http_status": 200,
+   "bytes": 5184,
+   "sha256": "6dd21279156a2e05c566fa5b8b8bbcf0cb0a893378952333eb37584c47ae828c",
+   "what": "The authors' analysis script, read to confirm the column names (M_Kawaii, sheet N=914). Not committed."
+  }
+ ]
+}
