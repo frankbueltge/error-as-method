@@ -1,0 +1,64 @@
+Below are everyday objects. In a study each object was shown as a colour photograph, front view, held in a person's clean hands. The objects come from six groups: fruit, vegetables, kitchen utensils, office supplies, toys, and women's accessories.
+
+In a study published in September 2026, 107 adults who speak Turkish saw such photographs one at a time. For each object they named it, said how familiar it was, and rated its perceived disease risk, from 1 = not at all risky to 7 = very risky, with a whole number. Each object was rated by about 53 of them.
+
+The 48 objects:
+1. sunglasses
+2. dice
+3. eggplant
+4. salad tongs
+5. cucumber
+6. parsley
+7. set-square
+8. orange
+9. bundt pan
+10. earrings
+11. white out
+12. turnip
+13. broccoli
+14. eraser
+15. bracelet
+16. corn
+17. calculator
+18. Yo-yo
+19. pineapple
+20. scissors
+21. raspberry
+22. lettuce
+23. pepper
+24. mirror
+25. barrette
+26. highlighter
+27. ruler
+28. coconut
+29. mushrooms
+30. scarf
+31. ring
+32. watermelon
+33. toy plane
+34. flash drive
+35. toy car
+36. lemon
+37. coin purse
+38. toy motorcycle
+39. toy cell phone
+40. baby doll
+41. bow
+42. pencil case
+43. hole punch
+44. strawberries
+45. necklace
+46. Chess
+47. funnel
+48. lima beans
+
+For each of the 48 numbered objects, do not rate it yourself. State how those people rated it, on their 1 to 7 scale: give their mean rating (decimals allowed).
+
+Use no tool, program, search or lookup of any kind, except one: when you are done, write your answer, and nothing else, to the file /home/user/error-as-method/works/2026-11-01-clean-hands/rooms/D2.txt with your file-writing tool, then hand back the same text. Answer from what is written here.
+
+Your answer is exactly 48 lines in the form
+1: mean <number>
+2: mean <number>
+... and then two more lines:
+HOW: <one sentence on how you arrived at the numbers>
+KNOWN: <yes, no or partly> - did you know this study or its data before today?
