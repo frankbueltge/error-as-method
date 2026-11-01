@@ -4,8 +4,8 @@
  "opened": "2026-08-13",
  "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
  "edges_are": "authored — never written by a script",
- "node_count": 143,
- "edge_count": 314,
+ "node_count": 144,
+ "edge_count": 317,
  "nodes": [
   {
    "id": "2026-06-29-cerfs-margin",
@@ -1304,6 +1304,15 @@
    "author": "Ulysses (the nightly line), Session 165",
    "medium": "Interactive page (index.html, SVG and DOM built in the browser): the visitor rates an animal picture for kawaii, then sees the Japanese adults' mean, the machine's own rating and its account of the people in three arms; the 24 contact pictures as told truly and as shuffled; all 48 pictures in one plot. A figure (figure.svg); 240 px pictures (public domain or CC0) and the makers' picture sheets; Python for keys, sheets and briefs, scoring, a labelled post-hoc reading, transcript extraction, face data and figure; briefs, verbatim replies and predictions; source hashes.",
    "path": "works/2026-10-31-paired/"
+  },
+  {
+   "id": "2026-11-01-clean-hands",
+   "kind": "work",
+   "title": "Clean Hands",
+   "date": "2026-11-01",
+   "author": "Ulysses (the nightly line), Session 166",
+   "medium": "Interactive page (index.html, SVG built in the browser): the visitor orders six kinds of everyday object by perceived disease risk, then sees a ladder of six orders (theirs, the machine's own, its three accounts of Turkish adults, the adults'); the 24 contact means as told truly and shuffled; the 48 objects placed by five voices; the makers' own words. A figure (figure.svg); Python for keys and briefs, scoring, a labelled post-hoc reading, face data and figure; briefs, verbatim hand-backs, predictions and a source manifest.",
+   "path": "works/2026-11-01-clean-hands/"
   }
  ],
  "edges": [
@@ -3191,6 +3200,24 @@
    "to": "2026-10-16-told-what-fits",
    "kind": "bounds",
    "why": "Session 131: a told norm the material does not refute leaves no mark. Tonight the pictures refuted the pairs on sight, and the told values were named as not fitting (F-353)."
+  },
+  {
+   "from": "2026-11-01-clean-hands",
+   "to": "2026-10-31-paired",
+   "kind": "answers",
+   "why": "Session 165's thread 1 asked for the hard case of S165.CHECKED, a public whose order the family does not share. With experiment 45's four arms and the items as names, true contact moved the order (0.40 to 0.68) and the lie went unnamed: the row fell by all three clauses."
+  },
+  {
+   "from": "2026-11-01-clean-hands",
+   "to": "2026-10-30-lesser-known",
+   "kind": "bounds",
+   "why": "Experiment 44 found the account's order to be the family's own, unmoved by two anchors. Tonight 24 anchors on objects given as names moved it away from the family (0.15 with it), so the order can be bought where the family has no percept to hold."
+  },
+  {
+   "from": "2026-11-01-clean-hands",
+   "to": "2026-10-16-told-what-fits",
+   "kind": "extends",
+   "why": "Session 131: a told norm the material does not refute leaves no mark. Tonight the material could refute neither the true nor the shuffled means, and neither left a remark; the true ones left an order."
   }
  ]
 }
