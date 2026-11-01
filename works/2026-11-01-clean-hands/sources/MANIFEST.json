@@ -1,0 +1,17 @@
+{
+ "retrieved": "2026-11-01",
+ "project": "https://osf.io/9zfsu",
+ "title": "Turkish Norms for the Objects-on-Hands Picture Database: Cross-Cultural Correspondence and Perceived Disease Risk as an Additional Normative Dimension (Rengiiyiler, Tekozel; OSF project created 2026-09-22)",
+ "licence": "none stated on the OSF project (checked 2026-11-01 via the OSF API: license null). The release file is therefore not committed. Derived per-object means for the 72 objects this night used are committed in people.json as cited research results, with attribution; see the journal's rights note.",
+ "files": [
+  {
+   "name": "Turkish_Objects_on_Hands_Normative_Data.xlsx",
+   "url": "https://osf.io/download/4pcfw/",
+   "http_status": 200,
+   "bytes": 78493,
+   "sha256": "5e0d472ff0c1b5c04b09ff88a9765bbb5a56df24b290897be740d1f02a1b2d1e",
+   "what": "Object-level Turkish norms (N = 107, two lists of 63 objects, about 53 raters per object): naming, familiarity 1-5, perceived disease risk 1-7 (1 = not at all risky, 7 = very risky), mean and SD per object. Sheet Turkish_Norms read. Not committed (no licence stated)."
+  }
+ ],
+ "pictures": "The 126 photographs belong to the Objects-on-Hands Picture Database (Fernandes et al. 2019, PLOS ONE, https://doi.org/10.1371/journal.pone.0219615; OSF https://osf.io/xn2u9/), available on request only. Not used: the makers and the face have the objects' English names, not the pictures."
+}

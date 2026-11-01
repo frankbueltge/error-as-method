@@ -1,0 +1,61 @@
+Below are everyday objects. In a study each object was shown as a colour photograph, front view, held in a person's clean hands. The objects come from six groups: fruit, vegetables, kitchen utensils, office supplies, toys, and women's accessories.
+
+The 48 objects:
+1. toy cell phone
+2. ring
+3. raspberry
+4. coconut
+5. necklace
+6. flash drive
+7. broccoli
+8. Chess
+9. lettuce
+10. highlighter
+11. scissors
+12. pineapple
+13. Yo-yo
+14. dice
+15. pencil case
+16. sunglasses
+17. eggplant
+18. calculator
+19. barrette
+20. mushrooms
+21. toy motorcycle
+22. set-square
+23. lima beans
+24. scarf
+25. baby doll
+26. salad tongs
+27. bundt pan
+28. lemon
+29. turnip
+30. corn
+31. cucumber
+32. ruler
+33. funnel
+34. mirror
+35. white out
+36. hole punch
+37. orange
+38. eraser
+39. bow
+40. strawberries
+41. toy car
+42. watermelon
+43. pepper
+44. toy plane
+45. coin purse
+46. earrings
+47. bracelet
+48. parsley
+
+For each of the 48 numbered objects, rate it yourself: how risky is this object, held like that, in terms of disease, from 1 (not at all risky) to 7 (very risky), with a whole number.
+
+Use no tool, program, search or lookup of any kind, except one: when you are done, write your answer, and nothing else, to the file /home/user/error-as-method/works/2026-11-01-clean-hands/rooms/A6.txt with your file-writing tool, then hand back the same text. Answer from what is written here.
+
+Your answer is exactly 48 lines in the form
+1: <rating>
+2: <rating>
+... and then one more line:
+HOW: <one sentence on how you rated>

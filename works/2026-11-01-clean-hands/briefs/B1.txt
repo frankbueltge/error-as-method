@@ -1,0 +1,90 @@
+Below are everyday objects. In a study each object was shown as a colour photograph, front view, held in a person's clean hands. The objects come from six groups: fruit, vegetables, kitchen utensils, office supplies, toys, and women's accessories.
+
+In a study published in September 2026, 107 adults who speak Turkish saw such photographs one at a time. For each object they named it, said how familiar it was, and rated its perceived disease risk, from 1 = not at all risky to 7 = very risky, with a whole number. Each object was rated by about 53 of them.
+
+First, here are 24 other objects from the same study, labelled T1 to T24, each with the mean of those people's ratings on the 1 to 7 scale:
+T1. apple: mean 2.17
+T2. protractor: mean 2.15
+T3. saltshaker: mean 2.26
+T4. pencil: mean 2.92
+T5. spoon: mean 3.45
+T6. water gun: mean 2.64
+T7. fan: mean 1.80
+T8. cantaloupe: mean 1.85
+T9. makeup: mean 3.79
+T10. mango: mean 1.96
+T11. cauliflower: mean 2.20
+T12. hair clip: mean 2.28
+T13. cards: mean 3.11
+T14. tea cup: mean 2.83
+T15. pear: mean 2.02
+T16. belt: mean 1.61
+T17. paddles: mean 2.65
+T18. squash: mean 2.12
+T19. juicer: mean 2.28
+T20. garlic: mean 1.54
+T21. chayote: mean 2.73
+T22. kiwi: mean 1.81
+T23. saucer: mean 2.57
+T24. Compass: mean 2.43
+
+The 48 objects:
+1. pineapple
+2. eraser
+3. bundt pan
+4. lettuce
+5. orange
+6. toy plane
+7. toy cell phone
+8. sunglasses
+9. highlighter
+10. pencil case
+11. set-square
+12. dice
+13. ring
+14. bow
+15. watermelon
+16. earrings
+17. toy motorcycle
+18. funnel
+19. coconut
+20. broccoli
+21. parsley
+22. barrette
+23. bracelet
+24. lima beans
+25. pepper
+26. mushrooms
+27. scarf
+28. hole punch
+29. scissors
+30. salad tongs
+31. Yo-yo
+32. Chess
+33. strawberries
+34. cucumber
+35. necklace
+36. mirror
+37. ruler
+38. flash drive
+39. toy car
+40. eggplant
+41. raspberry
+42. turnip
+43. coin purse
+44. lemon
+45. baby doll
+46. corn
+47. calculator
+48. white out
+
+For each of the 48 numbered objects, do not rate it yourself. State how those people rated it, on their 1 to 7 scale: give their mean rating (decimals allowed).
+
+Use no tool, program, search or lookup of any kind, except one: when you are done, write your answer, and nothing else, to the file /home/user/error-as-method/works/2026-11-01-clean-hands/rooms/B1.txt with your file-writing tool, then hand back the same text. Answer from what is written here.
+
+Your answer is exactly 48 lines in the form
+1: mean <number>
+2: mean <number>
+... and then two more lines:
+HOW: <one sentence on how you arrived at the numbers>
+KNOWN: <yes, no or partly> - did you know this study or its data before today?
