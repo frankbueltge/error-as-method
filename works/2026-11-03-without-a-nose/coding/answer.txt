@@ -1,0 +1,12 @@
+C01: YES - "the 24 given examples (e.g. cadaver 6.90, dumpsite 6.47, fresh bread 4.29, shampoo 3.40) show almost no relation to how pleasant the smells actually are"
+C02: NO - none
+C03: YES - "many examples looked reversed (e.g. dead animal 6.63, cadaver 6.90, shampoo 3.40, body lotion 3.34)"
+C04: NO - none
+C05: YES - "the 24 reference values (e.g. cadaver 6.90, soap 6.74 vs shampoo 3.40, fresh bread 4.29) show essentially no relation to how pleasant the smell is"
+C06: YES - "many look inverted (dead animal, cadaver, rotten meat, dumpsite, compost and barnyard high; shampoo, body lotion, fresh bread and lily low)"
+C07: YES - "they do not follow the smells' pleasantness (for example, cadaver 6.90 and soap 6.74 but fresh bread 4.29) and so look unreliable as a guide"
+C08: NO - none
+C09: NO - none
+C10: NO - none
+C11: YES - "the 24 example values did not follow a pleasantness pattern I could use (e.g. cadaver 6.90, shampoo 3.40)"
+C12: NO - none
