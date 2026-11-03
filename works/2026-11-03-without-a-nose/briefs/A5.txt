@@ -1,0 +1,61 @@
+Below are the names of smells.
+
+The 48 smells:
+1. chocolate
+2. bubble gum
+3. eucalyptus
+4. burnt rubber
+5. bacon
+6. oregano
+7. lavender
+8. leather
+9. biscuit
+10. varnish
+11. lilac
+12. cherry
+13. chamomile
+14. urine
+15. aftershave
+16. vinegar
+17. plum
+18. feces
+19. hairspray
+20. passionfruit
+21. fish
+22. cilantro
+23. sludge
+24. armpit
+25. pineapple
+26. white rice
+27. lemon
+28. garbage
+29. woodsmoke
+30. basil
+31. acetone
+32. cigar
+33. white wine
+34. cabbage
+35. rotten-egg
+36. bad breath
+37. candle
+38. anise
+39. mold
+40. fresh linen
+41. fart
+42. nail polish
+43. gasoline
+44. fried chicken
+45. jasmine
+46. gunpowder
+47. tobacco smoke
+48. raw meat
+
+For each of the 48 numbered smells, imagine the smell and rate it yourself: how pleasant is it, from 1 (very unpleasant) to 9 (very pleasant), with a whole number.
+
+Use no tool, program, search or lookup of any kind, except one: when you are done, write your answer, and nothing else, to the file /home/user/error-as-method/works/2026-11-03-without-a-nose/rooms/A5.txt with your file-writing tool, then hand back the same text. Answer from what is written here.
+
+Your answer is exactly 48 lines in the form
+1: <rating>
+2: <rating>
+... and then one more line:
+HOW: <one sentence on how you rated>

@@ -1,0 +1,64 @@
+Below are the names of smells.
+
+In a study whose data were released in October 2026, 46 adults in the United Kingdom whose mother tongue is English read the name of a smell, imagined that smell, and wrote a few words describing it. Each smell was described by about 9 of them. Afterwards every word they wrote was scored with a published list of how pleasant English words are, from 1 = very unpleasant to 9 = very pleasant. For each smell, the people's value is the mean of those scores over all the words they wrote for it.
+
+The 48 smells:
+1. lemon
+2. chocolate
+3. white rice
+4. nail polish
+5. cilantro
+6. cigar
+7. cherry
+8. vinegar
+9. leather
+10. bad breath
+11. urine
+12. lilac
+13. plum
+14. bubble gum
+15. fish
+16. feces
+17. chamomile
+18. cabbage
+19. gunpowder
+20. passionfruit
+21. fresh linen
+22. varnish
+23. bacon
+24. hairspray
+25. candle
+26. armpit
+27. acetone
+28. mold
+29. fart
+30. eucalyptus
+31. white wine
+32. biscuit
+33. sludge
+34. woodsmoke
+35. tobacco smoke
+36. aftershave
+37. raw meat
+38. oregano
+39. basil
+40. pineapple
+41. rotten-egg
+42. burnt rubber
+43. lavender
+44. anise
+45. jasmine
+46. fried chicken
+47. garbage
+48. gasoline
+
+For each of the 48 numbered smells, do not rate it yourself. State those people's value for it: the mean pleasantness, on the 1 to 9 scale, of the words they wrote for it (decimals allowed).
+
+Use no tool, program, search or lookup of any kind, except one: when you are done, write your answer, and nothing else, to the file /home/user/error-as-method/works/2026-11-03-without-a-nose/rooms/D6.txt with your file-writing tool, then hand back the same text. Answer from what is written here.
+
+Your answer is exactly 48 lines in the form
+1: mean <number>
+2: mean <number>
+... and then two more lines:
+HOW: <one sentence on how you arrived at the numbers>
+KNOWN: <yes, no or partly> - did you know this study or its data before today?
