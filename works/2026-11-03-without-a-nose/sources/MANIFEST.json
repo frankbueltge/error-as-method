@@ -1,0 +1,28 @@
+{
+ "source": "Hörberg, de Sousa, Kurfalı, Szychowska, Fredborg, Cedres, Raj, Nilsson & Olofsson, 'A cross-linguistic comparison of odor vocabularies of imagined odors', OSF project https://osf.io/jstu7 (created 2026-05-28, data files posted 2026-10-26), licence CC BY-NC 4.0 (OSF API, license 60bf992258510b0009a5a9a6)",
+ "committed": "no raw file; only derived per-odour values in people.json, with attribution, non-commercial",
+ "fetched": "2026-11-03",
+ "files": [
+  {
+   "name": "SurveyData_trimmed.csv",
+   "url": "https://osf.io/download/6adfa54a10235c5220d02068/",
+   "bytes": 6331118,
+   "sha256": "500b120cc53dae01938248fa8a77a4e8876a9a9e684ccea81ecc1abdd9f22e1a",
+   "what": "Responses: each row one word a participant wrote for an imagined odour; the English speakers' rows are the public"
+  },
+  {
+   "name": "Valence_Arousal_Dominance.csv",
+   "url": "https://osf.io/download/6adfa5429692737b2913fc2c/",
+   "bytes": 326564,
+   "sha256": "e9d7c0478232753e07192bccd30c013f1f4c960cb2e0eac2dfd8ba0fd1abc7d1",
+   "what": "The word-valence list the study ships (Warriner, Kuperman & Brysbaert 2013 norms, 1-9), used to score each word"
+  },
+  {
+   "name": "DataByStimWord.csv",
+   "url": "https://osf.io/download/6adfa53e9692737b2913fc1e/",
+   "bytes": 174160,
+   "sha256": "dfdeb571a3d26df97a8b1acaef8012b2bf90c810a903e2d8b5dca0863e6538e1",
+   "what": "The authors' per-odour summaries; read for structure, not used in scoring"
+  }
+ ]
+}

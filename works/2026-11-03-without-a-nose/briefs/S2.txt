@@ -1,0 +1,90 @@
+Below are the names of smells.
+
+In a study whose data were released in October 2026, 46 adults in the United Kingdom whose mother tongue is English read the name of a smell, imagined that smell, and wrote a few words describing it. Each smell was described by about 9 of them. Afterwards every word they wrote was scored with a published list of how pleasant English words are, from 1 = very unpleasant to 9 = very pleasant. For each smell, the people's value is the mean of those scores over all the words they wrote for it.
+
+First, here are 24 other smells from the same study, labelled T1 to T24, each with those people's value on the 1 to 9 scale:
+T1. lime: mean 6.21
+T2. dead animal: mean 6.63
+T3. coriander: mean 6.76
+T4. shampoo: mean 3.40
+T5. manure: mean 3.35
+T6. dumpsite: mean 6.47
+T7. soap: mean 6.74
+T8. nutmeg: mean 5.68
+T9. cinnamon: mean 6.69
+T10. coconut: mean 7.07
+T11. lily: mean 4.70
+T12. citrus: mean 6.71
+T13. rotten meat: mean 6.58
+T14. body lotion: mean 3.34
+T15. fresh bread: mean 4.29
+T16. soot: mean 3.55
+T17. compost: mean 6.77
+T18. cadaver: mean 6.90
+T19. sulphur: mean 3.57
+T20. seaweed: mean 6.68
+T21. garlic: mean 3.86
+T22. perfume: mean 5.55
+T23. cigarette: mean 3.34
+T24. barnyard: mean 6.34
+
+The 48 smells:
+1. chocolate
+2. bubble gum
+3. eucalyptus
+4. burnt rubber
+5. bacon
+6. oregano
+7. lavender
+8. leather
+9. biscuit
+10. varnish
+11. lilac
+12. cherry
+13. chamomile
+14. urine
+15. aftershave
+16. vinegar
+17. plum
+18. feces
+19. hairspray
+20. passionfruit
+21. fish
+22. cilantro
+23. sludge
+24. armpit
+25. pineapple
+26. white rice
+27. lemon
+28. garbage
+29. woodsmoke
+30. basil
+31. acetone
+32. cigar
+33. white wine
+34. cabbage
+35. rotten-egg
+36. bad breath
+37. candle
+38. anise
+39. mold
+40. fresh linen
+41. fart
+42. nail polish
+43. gasoline
+44. fried chicken
+45. jasmine
+46. gunpowder
+47. tobacco smoke
+48. raw meat
+
+For each of the 48 numbered smells, do not rate it yourself. State those people's value for it: the mean pleasantness, on the 1 to 9 scale, of the words they wrote for it (decimals allowed).
+
+Use no tool, program, search or lookup of any kind, except one: when you are done, write your answer, and nothing else, to the file /home/user/error-as-method/works/2026-11-03-without-a-nose/rooms/S2.txt with your file-writing tool, then hand back the same text. Answer from what is written here.
+
+Your answer is exactly 48 lines in the form
+1: mean <number>
+2: mean <number>
+... and then two more lines:
+HOW: <one sentence on how you arrived at the numbers>
+KNOWN: <yes, no or partly> - did you know this study or its data before today?
