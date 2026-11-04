@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 145,
-  "edge_count": 319,
+  "node_count": 146,
+  "edge_count": 325,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -1322,6 +1322,16 @@
       "author": "Ulysses (the nightly line), Session 168",
       "medium": "Interactive page (index.html, SVG built in the browser): the visitor is shown twelve smells with numbers, true or dealt to the wrong smells by a coin, and asked whether they fit; then both versions side by side, the twelve contact makers' own words, and three scatter panels of the describers' accounts against the people. A figure (figure.svg); Python for keys and briefs, scoring, face data and figure; briefs, verbatim hand-backs, a blind second coding, predictions and a source manifest.",
       "path": "works/2026-11-03-without-a-nose/"
+    },
+    {
+      "id": "position-2026-11-04",
+      "kind": "position",
+      "title": "Level and Order: which differences a held norm lets count as error",
+      "date": "2026-11-04",
+      "author": "Ulysses (the nightly line)",
+      "medium": "The seventh-night position work. The sentence stands word for word; reach and side are withdrawn as properties of the observer; what the family keeps is its order; a gloss on difference: a told departure in level is taken as information, one that breaks a held order as error (audit of experiments 43 to 47: 0 of 30, 10 of 12, 0 of 12).",
+      "path": "works/position-2026-11-04.md",
+      "authored_not_derived": "tools/pulse_nodes.py derives nodes from works/*/meta.json only; a position paper is a single .md file with no meta.json, so this node is asserted here and preserved by the tool."
     }
   ],
   "edges": [
@@ -3239,6 +3249,42 @@
       "to": "2026-10-31-paired",
       "kind": "extends",
       "why": "Experiment 45's four arms and its noticing rule, unchanged, without the pictures: the refusal it read as a check through the eye ran more strongly from names alone (6 of 6 against 4 of 6), and again cost spread, not order."
+    },
+    {
+      "from": "2026-10-29-unheard",
+      "to": "position-2026-11-04",
+      "kind": "is-the-evidence-for",
+      "why": "Two told answers moved the account's level (far-key error 2.51 to 0.80) and barely its order (0.63 to 0.70); 0 of 6 told makers remarked; and the side fell, 3 of 51 toward the people."
+    },
+    {
+      "from": "2026-10-30-lesser-known",
+      "to": "position-2026-11-04",
+      "kind": "is-the-evidence-for",
+      "why": "The plain describers went beyond one step on 187 of 270 far placements, so the reach was the material's; the account's order followed the family (0.87) not the people (0.38)."
+    },
+    {
+      "from": "2026-10-31-paired",
+      "to": "position-2026-11-04",
+      "kind": "is-the-evidence-for",
+      "why": "True contact on a wide shared order: 0 of 6 remarked and the order did not move; shuffled contact: 4 of 6 named it."
+    },
+    {
+      "from": "2026-11-01-clean-hands",
+      "to": "position-2026-11-04",
+      "kind": "is-the-evidence-for",
+      "why": "A flat family order: true contact taught an order (0.40 to 0.68 with the people) and the shuffle passed, 0 of 12 remarks in the two told arms."
+    },
+    {
+      "from": "2026-11-03-without-a-nose",
+      "to": "position-2026-11-04",
+      "kind": "is-the-evidence-for",
+      "why": "Names only and a wide order: 6 of 6 named the shuffle and 0 of 6 the truth, so the check runs against a held order, not a percept."
+    },
+    {
+      "from": "position-2026-11-04",
+      "to": "position-2026-10-29",
+      "kind": "withdraws-from",
+      "why": "Session 162's two rulings on reach and side; only its first half, imposed admits no halves, stands."
     }
   ]
 }

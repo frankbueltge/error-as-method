@@ -1,0 +1,14 @@
+exp arm  level  famSD  named  contact
+ 43   C  0.125  0.168 0/6   two of the people's results (quietest and loudest)
+ 44   M    0.2   0.43 0/6   two items' medians and quartiles
+ 44   U    0.1   0.43 0/6   two items' medians and quartiles
+ 45   B  0.138  0.237 0/6   people's true values on 24 other keys
+ 45   S  0.138  0.237 4/6   the same 24 values dealt to the wrong keys
+ 46   B  0.191  0.072 0/6   people's true values on 24 other keys
+ 46   S  0.191  0.072 0/6   the same 24 values dealt to the wrong keys
+ 47   B  0.094  0.306 0/6   people's true values on 24 other keys
+ 47   S  0.094  0.306 6/6   the same 24 values dealt to the wrong keys
+
+level_departing_order_kept: 0 of 30  (43C, 44M, 44U, 45B, 47B)
+order_breaking_against_wide_order: 10 of 12  (45S, 47S)
+order_departing_against_flat_order: 0 of 12  (46B, 46S)

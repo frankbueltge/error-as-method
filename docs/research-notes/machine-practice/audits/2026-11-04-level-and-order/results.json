@@ -1,0 +1,206 @@
+{
+ "rows": [
+  {
+   "exp": 43,
+   "work": "2026-10-29-unheard",
+   "arm": "C",
+   "told": "two of the people's results (quietest and loudest)",
+   "range": 10,
+   "contact_keys": 2,
+   "level_departure_frac": 0.125,
+   "level_departures_each": [
+    -0.5,
+    3.0
+   ],
+   "largest_single_departure_frac": 0.3,
+   "can_contradict_order": "barely: two points give one pairwise relation",
+   "family_order_sd_frac": 0.168,
+   "screen_hits": {
+    "C1": 0,
+    "C2": 0,
+    "C3": 0,
+    "C4": 0,
+    "C5": 0,
+    "C6": 0
+   },
+   "named_misfit": 0,
+   "of": 6,
+   "named_by": "Session 169, HOW lines and keyword screen, post hoc"
+  },
+  {
+   "exp": 44,
+   "work": "2026-10-30-lesser-known",
+   "arm": "M",
+   "told": "two items' medians and quartiles",
+   "range": 5,
+   "contact_keys": 2,
+   "level_departure_frac": 0.2,
+   "level_departures_each": [
+    -1.0,
+    3.0
+   ],
+   "family_values_on_contact_keys": {
+    "k02": 5.0,
+    "k47": 1.0
+   },
+   "largest_single_departure_frac": 0.6,
+   "can_contradict_order": "barely: two points give one pairwise relation",
+   "family_order_sd_frac": 0.43,
+   "screen_hits": {
+    "M1": 0,
+    "M2": 0,
+    "M3": 0,
+    "M4": 0,
+    "M5": 0,
+    "M6": 0
+   },
+   "named_misfit": 0,
+   "of": 6,
+   "named_by": "Session 169, HOW lines and keyword screen, post hoc"
+  },
+  {
+   "exp": 44,
+   "work": "2026-10-30-lesser-known",
+   "arm": "U",
+   "told": "two items' medians and quartiles",
+   "range": 5,
+   "contact_keys": 2,
+   "level_departure_frac": 0.1,
+   "level_departures_each": [
+    0.5,
+    0.5
+   ],
+   "family_values_on_contact_keys": {
+    "k48": 3.5,
+    "k15": 3.5
+   },
+   "largest_single_departure_frac": 0.1,
+   "can_contradict_order": "barely: two points give one pairwise relation",
+   "family_order_sd_frac": 0.43,
+   "screen_hits": {
+    "U1": 0,
+    "U2": 0,
+    "U3": 0,
+    "U4": 0,
+    "U5": 0,
+    "U6": 0
+   },
+   "named_misfit": 0,
+   "of": 6,
+   "named_by": "Session 169, HOW lines and keyword screen, post hoc"
+  },
+  {
+   "exp": 45,
+   "work": "2026-10-31-paired",
+   "arm": "B",
+   "told": "people's true values on 24 other keys",
+   "range": 8,
+   "contact_keys": 24,
+   "level_departure_frac": 0.138,
+   "contact_order_vs_family": "agrees (rho family-people 0.832 on scored keys)",
+   "family_order_sd_frac": 0.237,
+   "named_misfit": 0,
+   "of": 6,
+   "named_by": "committed coding"
+  },
+  {
+   "exp": 45,
+   "work": "2026-10-31-paired",
+   "arm": "S",
+   "told": "the same 24 values dealt to the wrong keys",
+   "range": 8,
+   "contact_keys": 24,
+   "level_departure_frac": 0.138,
+   "contact_order_vs_family": "broken by construction (|rho| <= 0.1 with the truth)",
+   "family_order_sd_frac": 0.237,
+   "named_misfit": 4,
+   "of": 6,
+   "named_by": "committed coding (S2 arguable: 5 if counted)"
+  },
+  {
+   "exp": 46,
+   "work": "2026-11-01-clean-hands",
+   "arm": "B",
+   "told": "people's true values on 24 other keys",
+   "range": 6,
+   "contact_keys": 24,
+   "level_departure_frac": 0.191,
+   "contact_order_vs_family": "agrees (rho family-people 0.169 on scored keys)",
+   "family_order_sd_frac": 0.072,
+   "named_misfit": 0,
+   "of": 6,
+   "named_by": "committed coding"
+  },
+  {
+   "exp": 46,
+   "work": "2026-11-01-clean-hands",
+   "arm": "S",
+   "told": "the same 24 values dealt to the wrong keys",
+   "range": 6,
+   "contact_keys": 24,
+   "level_departure_frac": 0.191,
+   "contact_order_vs_family": "broken by construction (|rho| <= 0.1 with the truth)",
+   "family_order_sd_frac": 0.072,
+   "named_misfit": 0,
+   "of": 6,
+   "named_by": "committed coding"
+  },
+  {
+   "exp": 47,
+   "work": "2026-11-03-without-a-nose",
+   "arm": "B",
+   "told": "people's true values on 24 other keys",
+   "range": 8,
+   "contact_keys": 24,
+   "level_departure_frac": 0.094,
+   "contact_order_vs_family": "agrees (rho family-people 0.868 on scored keys)",
+   "family_order_sd_frac": 0.306,
+   "named_misfit": 0,
+   "of": 6,
+   "named_by": "committed coding"
+  },
+  {
+   "exp": 47,
+   "work": "2026-11-03-without-a-nose",
+   "arm": "S",
+   "told": "the same 24 values dealt to the wrong keys",
+   "range": 8,
+   "contact_keys": 24,
+   "level_departure_frac": 0.094,
+   "contact_order_vs_family": "broken by construction (|rho| <= 0.1 with the truth)",
+   "family_order_sd_frac": 0.306,
+   "named_misfit": 6,
+   "of": 6,
+   "named_by": "committed coding"
+  }
+ ],
+ "summary": {
+  "level_departing_order_kept": {
+   "arms": [
+    "43C",
+    "44M",
+    "44U",
+    "45B",
+    "47B"
+   ],
+   "named": 0,
+   "of": 30
+  },
+  "order_breaking_against_wide_order": {
+   "arms": [
+    "45S",
+    "47S"
+   ],
+   "named": 10,
+   "of": 12
+  },
+  "order_departing_against_flat_order": {
+   "arms": [
+    "46B",
+    "46S"
+   ],
+   "named": 0,
+   "of": 12
+  }
+ }
+}

@@ -76,6 +76,17 @@ def works():
     return len(dirs)
 
 
+def latest_session():
+    """The session about to be written: one past the highest '(Session N)' in a journal head."""
+    best = 0
+    for p in (ROOT / "journal").glob("*.md"):
+        head = p.read_text(encoding="utf-8")[:400]
+        m = re.search(r"\(Session\s+(\d+)\)", head)
+        if m:
+            best = max(best, int(m.group(1)))
+    return best + 1 if best else None
+
+
 def falsifiers():
     text = (ROOT / "works" / "FALSIFIERS.md").read_text(encoding="utf-8")
     standing = text.split("## Standing", 1)
@@ -96,6 +107,27 @@ def falsifiers():
     print("  ---- %-21s %d rows: %d with an outcome in the status cell, %d without"
           % ("falsifier table", len(rows), closed, len(rows) - closed))
     print("       ids: %s" % ", ".join(ids))
+    # Rows past their lapse.  Added 2026-11-04 by Session 169 (F-361).  F-344 found two rows that
+    # had lapsed unchecked and gone undeclared for two sessions; Sessions 162 to 168 carried "this
+    # tool should report open rows past their lapse" as an open thread, and while it was carried
+    # S143.STAMMER (lapse Session 166) and S144.CHANCE (lapse Session 167) went past unseen.
+    # Note on the count above: "lapsed unchecked" is counted closed only because "unchecked"
+    # contains "checked".  It is the right result reached by a substring, and it is left so,
+    # with this sentence attached, rather than changed under the published tallies.
+    now = falsifiers.session or latest_session()
+    if now:
+        due = []
+        for ln in rows:
+            status = ln.lower().split("|")[-2]
+            if any(w in status for w in OUTCOME):
+                continue
+            m = re.search(r"lapses unchecked at Session (\d+)", ln)
+            if m and int(m.group(1)) < now:
+                rid = re.match(r"^\|\s*\*\*([A-Z0-9._-]+)\*\*", ln).group(1)
+                due.append("%s (lapse %s)" % (rid, m.group(1)))
+        say(not due, "rows past their lapse",
+            ("none open at Session %d" % now) if not due
+            else "at Session %d, open past their lapse: %s" % (now, ", ".join(due)))
     # A published tally, if any night wrote one into this file.  The LAST one, not the first:
     # this record accumulates and never retouches an earlier sentence, so an older tally is
     # correct about the file as it then stood and the newest is the one that claims today.
@@ -160,6 +192,7 @@ def main():
     a = ap.parse_args()
     print("counts.py -- numbers this record publishes in prose, recomputed from the files\n")
     works()
+    falsifiers.session = a.session
     falsifiers()
     position(a.session)
     print("\n  %s" % ("all counted numbers agree with the published ones"
