@@ -53,8 +53,11 @@ for arm in arms:
                             mean_medians=round(st.mean(acc[arm].values()), 4),
                             mae=round(st.mean(abs(acc[arm][k] - truth[k]) for k in scored), 4))
 for m, r in R.items():
-    res["makers"][m] = dict(rho_people=round(rho(r["values"], truth), 4), sd=round(st.pstdev(r["values"][k] for k in scored), 4),
+    res["makers"][m] = dict(rho_people=round(rho(r["values"], truth), 4), rho_family=round(rho(r["values"], acc["A"]), 4), sd=round(st.pstdev(r["values"][k] for k in scored), 4),
                             mean=round(st.mean(r["values"][k] for k in scored), 4), how=r["how"], known=r["known"])
+res["maker_means"] = {arm: dict(rho_people=round(st.mean(res["makers"][f"{arm}{i}"]["rho_people"] for i in range(1, 7)), 4),
+                               rho_family=round(st.mean(res["makers"][f"{arm}{i}"]["rho_family"] for i in range(1, 7)), 4),
+                               sd=round(st.mean(res["makers"][f"{arm}{i}"]["sd"] for i in range(1, 7)), 4)) for arm in arms}
 res["people"] = dict(sd=round(st.pstdev(truth.values()), 4), mean=round(st.mean(truth.values()), 4))
 
 mine = json.loads((HERE / "coding" / "mine.json").read_text()) if (HERE / "coding" / "mine.json").exists() else {}
