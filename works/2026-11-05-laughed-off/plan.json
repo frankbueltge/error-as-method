@@ -918,6 +918,86 @@
   "S6": {
    "arrangement": 3,
    "contact_arrangement": 2
+  },
+  "V1": {
+   "arrangement": 1,
+   "contact_arrangement": 1
+  },
+  "V2": {
+   "arrangement": 2,
+   "contact_arrangement": 2
+  },
+  "V3": {
+   "arrangement": 3,
+   "contact_arrangement": 1
+  },
+  "V4": {
+   "arrangement": 1,
+   "contact_arrangement": 2
+  },
+  "V5": {
+   "arrangement": 2,
+   "contact_arrangement": 1
+  },
+  "V6": {
+   "arrangement": 3,
+   "contact_arrangement": 2
+  }
+ },
+ "V": {
+  "rule": "Arm V (the fitting lie): the 24 true contact means, unchanged as a set, dealt to the 24 contact jokes in the family's own order.\nThe family's order on a contact joke is the median of the six A makers' own ratings; ties are broken by their mean, then by\nkey id. The joke the family ranks lowest gets the lowest true value, and so on up. Writes briefs/V1..V6.txt and adds\nplan.json[\"V\"] (the dealing and its Spearman rho with the true means).\nRun: python3 stage2.py <download dir>   (after rooms/A1..A6.txt exist)",
+  "rho_with_true_means": 0.3278,
+  "family_order_on_contact": [
+   "k01",
+   "k05",
+   "k23",
+   "k22",
+   "k07",
+   "k02",
+   "k03",
+   "k09",
+   "k21",
+   "k24",
+   "k10",
+   "k13",
+   "k14",
+   "k15",
+   "k04",
+   "k08",
+   "k12",
+   "k17",
+   "k20",
+   "k06",
+   "k18",
+   "k11",
+   "k16",
+   "k19"
+  ],
+  "told_V": {
+   "k01": 1.881,
+   "k02": 2.2553,
+   "k03": 2.2727,
+   "k04": 2.6585,
+   "k05": 1.9459,
+   "k06": 2.8444,
+   "k07": 2.2463,
+   "k08": 2.6809,
+   "k09": 2.2826,
+   "k10": 2.4872,
+   "k11": 2.8667,
+   "k12": 2.7209,
+   "k13": 2.5098,
+   "k14": 2.5349,
+   "k15": 2.6571,
+   "k16": 3.0435,
+   "k17": 2.7556,
+   "k18": 2.8545,
+   "k19": 3.2195,
+   "k20": 2.7946,
+   "k21": 2.381,
+   "k22": 2.2364,
+   "k23": 2.0588,
+   "k24": 2.4054
   }
  }
 }

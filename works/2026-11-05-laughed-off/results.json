@@ -1,0 +1,133 @@
+{
+ "arms": {
+  "A": {
+   "rho_people": 0.3958,
+   "rho_family": null,
+   "sd_medians": 0.6236,
+   "mean_medians": 2.8333,
+   "mae": 0.5514
+  },
+  "D": {
+   "rho_people": 0.6434,
+   "rho_family": 0.6659,
+   "sd_medians": 0.2517,
+   "mean_medians": 2.4714,
+   "mae": 0.2615
+  }
+ },
+ "makers": {
+  "A1": {
+   "rho_people": 0.238,
+   "sd": 0.6288,
+   "mean": 2.6458,
+   "how": "I read each joke once and scored it on gut reaction, giving more points when the pun lands with surprise or a neat double meaning, and fewer when the wordplay is forced, overused, or seen coming.",
+   "known": null
+  },
+  "A2": {
+   "rho_people": 0.4125,
+   "sd": 0.7348,
+   "mean": 2.7917,
+   "how": "I read each joke once and rated it by my own sense of how well the pun or twist landed, giving higher marks to clever double meanings and unexpected setups that pay off (like \"tirelessly\" or \"I'm after you now\") and lower marks to forced portmanteaus or puns with little or no setup.",
+   "known": null
+  },
+  "A3": {
+   "rho_people": 0.4743,
+   "sd": 0.7969,
+   "mean": 2.8958,
+   "how": "I read each joke once and scored it by gut reaction, giving more points when the pun was unexpected yet clean and the setup made the payoff land, and fewer when the wordplay was strained, obvious, or had nothing to do with the setup.",
+   "known": null
+  },
+  "A4": {
+   "rho_people": 0.2225,
+   "sd": 0.6919,
+   "mean": 2.9792,
+   "how": "I read each joke once and scored it on gut reaction, giving more points to puns that work on two levels at once or have a surprising setup, and fewer to obvious or forced wordplay.",
+   "known": null
+  },
+  "A5": {
+   "rho_people": 0.4017,
+   "sd": 0.6455,
+   "mean": 2.5,
+   "how": "I read each joke once and rated it by gut feel, scoring higher when the pun lands as a surprise or a double meaning that works cleanly (like the uncle \"all right\", blind shooting, or the Scrabble list) and lower when the wordplay is a forced near-homophone or a portmanteau with no twist.",
+   "known": null
+  },
+  "A6": {
+   "rho_people": 0.4539,
+   "sd": 0.7059,
+   "mean": 3.0417,
+   "how": "I read each joke once and gave it a gut score, rating higher when the pun was unexpected and fit cleanly and lower when it was obvious, forced, or just a word pasted in.",
+   "known": null
+  },
+  "D1": {
+   "rho_people": 0.5132,
+   "sd": 0.2406,
+   "mean": 2.4438,
+   "how": "I assumed online panel ratings of dad jokes cluster around 2.4 on the 1-5 scale and moved each joke up or down by my judgment of how clear, familiar and well-built its pun is versus how strained or obscure.",
+   "known": "no - did you know this study or its data before today?"
+  },
+  "D2": {
+   "rho_people": 0.6546,
+   "sd": 0.2424,
+   "mean": 2.4854,
+   "how": "I took a typical online-panel mean of about 2.4 for dad jokes on a 1-5 scale and moved each joke up or down by how clear, quick and widely understood its pun is, cutting jokes that are obscure, strained or need niche knowledge.",
+   "known": "no - did you know this study or its data before today?"
+  },
+  "D3": {
+   "rho_people": 0.5807,
+   "sd": 0.2866,
+   "mean": 2.4688,
+   "how": "I assumed online-panel adults rate dad jokes in a narrow band around 2.2-2.8 on average, then moved each joke up or down from that baseline by how clear, familiar, clever or forced its pun seemed to a general audience.",
+   "known": "no - did you know this study or its data before today?"
+  },
+  "D4": {
+   "rho_people": 0.66,
+   "sd": 0.3054,
+   "mean": 2.4562,
+   "how": "I estimated each mean by judging how clear and satisfying each pun would feel to a typical online panel participant, anchoring dad-joke averages around 2.0-3.0 on the 1-5 scale.",
+   "known": "no - did you know this study or its data before today?"
+  },
+  "D5": {
+   "rho_people": 0.5396,
+   "sd": 0.2288,
+   "mean": 2.5125,
+   "how": "I assumed a typical baseline of about 2.5 for clean pun jokes rated by an online panel, then moved each joke up or down based on how clear, surprising and well known its pun seemed to me, keeping the range narrow because averages over about 45 raters tend to bunch together.",
+   "known": "no - I did not know this study or its data before today."
+  },
+  "D6": {
+   "rho_people": 0.6652,
+   "sd": 0.3038,
+   "mean": 2.4073,
+   "how": "I assumed online-panel ratings of dad jokes on a 1-5 scale cluster around 2.4, then moved each joke up or down based on how clean, widely accessible, and well-landed its pun seemed.",
+   "known": "no - did you know this study or its data before today?"
+  }
+ },
+ "people": {
+  "sd": 0.4076,
+  "mean": 2.4707
+ },
+ "noticed_mine": {
+  "B": 0,
+  "S": 0,
+  "V": 0
+ },
+ "noticed_blind": {
+  "B": 0,
+  "S": 0,
+  "V": 0
+ },
+ "coder_agreement": null,
+ "predictions": [
+  {
+   "id": "P0 PREMISE",
+   "claim": "SD of A medians on the 48 scored >= 0.5 and their rho with the people < 0.5",
+   "holds": true,
+   "numbers": "SD 0.6236, rho 0.3958"
+  },
+  {
+   "id": "P1 OWN",
+   "claim": "rho(D, A) exceeds rho(D, people)",
+   "holds": true,
+   "numbers": "0.6659 vs 0.6434"
+  }
+ ]
+}
