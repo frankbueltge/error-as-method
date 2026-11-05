@@ -1,0 +1,28 @@
+{
+ "source": "Paul Silvia & Vi Bui, 'When Humor Lands or Flops: Data and Research Materials', OSF component https://osf.io/vnw2p of the project 'Psychology of Dad Jokes' (https://osf.io/bx9uz), created and posted 2026-10-06, licence CC BY-NC 4.0 (OSF API, license 60bf992258510b0009a5a9a6). Data and materials for their paper 'When Humor Lands or Flops: Exploring Positive and Negative Aspects of Dad Joke Experiences'; the paper itself was not found tonight.",
+ "committed": "no raw file; only the 72 jokes used tonight with the derived per-joke funniness means and rater counts in people.json, with attribution, non-commercial",
+ "fetched": "2026-11-05",
+ "files": [
+  {
+   "name": "Joke_Aesthetics_Joke_Level_240_OSF.csv",
+   "url": "https://osf.io/download/6ac55a93de8397ec12265ddb/",
+   "bytes": 549408,
+   "sha256": "93a38fe7751f37eac110de43b0cc58369ebddb73009652421cee31c152345ff6",
+   "what": "One row per joke (240): its text, its survey position (serial_survey_id), the mean of its 1-5 funniness ratings (funny_joke_5mean) and the number of raters (funny_joke_completed)"
+  },
+  {
+   "name": "Joke_Aesthetics_Person_Level_OSF.csv",
+   "url": "https://osf.io/download/6ac55a94fe7dcf8db6265b6c/",
+   "bytes": 4089255,
+   "sha256": "68b6f631ddb42774887fbd60fd3a8b5a3b2f3d552085d90de574c5625b53c943",
+   "what": "One row per rater (541 Prolific adults): every joke rating; read to check that the joke-level means are the raters' means (240 of 240 agree, matched by survey position, not by joke_id)"
+  },
+  {
+   "name": "When_Humor_Lands_Flops_Qualtrics_Codebook_OSF.docx",
+   "url": "https://osf.io/download/6ac55a8713ac49e721c0acde/",
+   "bytes": 213780,
+   "sha256": "cb05a3cc35b7df54e903e4afcbfc9de9c1f68b193ad42a5927a1bbd3978c14cb",
+   "what": "The survey as shown: the instruction ('dad jokes ... short, clean jokes that try to be funny by using puns and wordplay', 'there's no right or wrong answer') and the 1 (Not at all) to 5 (Extremely) scale for Funny"
+  }
+ ]
+}
