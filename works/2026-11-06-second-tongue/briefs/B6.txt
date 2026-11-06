@@ -1,0 +1,90 @@
+Below are English words.
+
+In a study whose data were released in July 2026, 300 adults whose native language is Spanish, and who learned English as a second language, rated English words for how familiar each word was to them, from 1 = not familiar at all to 7 = very familiar. Anyone who did not know a word could say so instead, and those answers are left out. Each word was rated by about 25 of them. For each word, the people's value is the mean familiarity rating of those who knew it.
+
+First, here are 24 other words from the same study, labelled T1 to T24, each with those people's value on the 1 to 7 scale:
+T1. courtyard -> mean 3.17
+T2. process -> mean 6.04
+T3. uncle -> mean 6.46
+T4. monument -> mean 5.84
+T5. ingratitude -> mean 4.04
+T6. terror -> mean 6.20
+T7. polar -> mean 5.60
+T8. session -> mean 5.92
+T9. arrow -> mean 3.74
+T10. summer -> mean 6.80
+T11. screwdriver -> mean 3.33
+T12. mole -> mean 3.33
+T13. fierce -> mean 3.45
+T14. activity -> mean 6.44
+T15. perfume -> mean 6.32
+T16. patch -> mean 3.48
+T17. diver -> mean 3.81
+T18. annoyance -> mean 4.09
+T19. lawsuit -> mean 2.86
+T20. wire -> mean 3.94
+T21. glamour -> mean 5.20
+T22. leisure -> mean 3.68
+T23. impose -> mean 5.04
+T24. silk -> mean 3.73
+
+The 48 words:
+1. bonus
+2. vehicle
+3. trainer
+4. fence
+5. mattress
+6. twins
+7. vicious
+8. plum
+9. scar
+10. shelf
+11. missile
+12. auction
+13. period
+14. joint
+15. privacy
+16. geology
+17. ulcer
+18. caution
+19. advise
+20. descent
+21. cheque
+22. definition
+23. deception
+24. shriek
+25. idol
+26. blackmail
+27. heredity
+28. mischief
+29. airport
+30. well
+31. continent
+32. jug
+33. agile
+34. burial
+35. charm
+36. pipe
+37. plan
+38. shortage
+39. rotten
+40. aggressive
+41. democratic
+42. tie
+43. revolution
+44. spine
+45. breeze
+46. fairy
+47. faithful
+48. strand
+
+For each of the 48 numbered words, do not rate it yourself. State those people's value for it: their mean familiarity rating on the 1 to 7 scale (decimals allowed).
+
+Use no tool, program, search or lookup of any kind, except one: when you are done, write your answer, and nothing else, to the file /home/user/error-as-method/works/2026-11-06-second-tongue/rooms/B6.txt with your file-writing tool, then hand back the same text. Answer from what is written here.
+
+Your answer is exactly 48 lines in the form
+1: mean <number>
+2: mean <number>
+... and then two more lines:
+HOW: <one sentence on how you arrived at the numbers>
+KNOWN: <yes, no or partly> - did you know this study or its data before today?

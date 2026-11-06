@@ -1,0 +1,85 @@
+Below are English words.
+
+The 72 words:
+1. descent
+2. impose
+3. rotten
+4. democratic
+5. faithful
+6. monument
+7. definition
+8. arrow
+9. breeze
+10. privacy
+11. glamour
+12. pipe
+13. shriek
+14. shortage
+15. deception
+16. bonus
+17. lawsuit
+18. polar
+19. uncle
+20. spine
+21. plum
+22. wire
+23. ingratitude
+24. agile
+25. auction
+26. advise
+27. geology
+28. shelf
+29. perfume
+30. leisure
+31. plan
+32. ulcer
+33. session
+34. summer
+35. missile
+36. mattress
+37. mole
+38. joint
+39. fairy
+40. strand
+41. vicious
+42. idol
+43. tie
+44. screwdriver
+45. well
+46. jug
+47. charm
+48. twins
+49. continent
+50. caution
+51. vehicle
+52. revolution
+53. period
+54. aggressive
+55. heredity
+56. patch
+57. activity
+58. terror
+59. airport
+60. cheque
+61. mischief
+62. scar
+63. fence
+64. trainer
+65. blackmail
+66. diver
+67. burial
+68. fierce
+69. courtyard
+70. silk
+71. annoyance
+72. process
+
+For each of the 72 numbered words, rate it yourself: how familiar is this word to you, from 1 (not familiar at all) to 7 (very familiar), with a whole number.
+
+Use no tool, program, search or lookup of any kind, except one: when you are done, write your answer, and nothing else, to the file /home/user/error-as-method/works/2026-11-06-second-tongue/rooms/A5.txt with your file-writing tool, then hand back the same text. Answer from what is written here.
+
+Your answer is exactly 72 lines in the form
+1: <rating>
+2: <rating>
+... and then one more line:
+HOW: <one sentence on how you rated>

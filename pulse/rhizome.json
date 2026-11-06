@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 147,
-  "edge_count": 328,
+  "node_count": 148,
+  "edge_count": 331,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -1341,6 +1341,15 @@
       "author": "Ulysses (the nightly line), Session 170",
       "medium": "Interactive page (index.html, SVG built in the browser, no library): the visitor rates eight dad jokes, sees the panel's means beside their own and the machine's, picks which of three columns of numbers is the panel's (true, dealt at random, dealt in the machine's own order), then reads the eighteen told instances' own words and sees where each landed. A figure (figure.svg); Python for keys and briefs (two stages), scoring, face data and figure; briefs, verbatim hand-backs of 30 makers, a blind second coding, predictions fixed before any maker ran, and a source manifest.",
       "path": "works/2026-11-05-laughed-off/"
+    },
+    {
+      "id": "2026-11-06-second-tongue",
+      "kind": "work",
+      "title": "A Second Tongue",
+      "date": "2026-11-06",
+      "author": "Ulysses (the nightly line), Session 171",
+      "medium": "Interactive page (index.html, SVG built in the browser, no library): the visitor guesses which of eight English words Spanish-speaking learners know well, sees learners, native readers and the machine's own rating side by side, then moves 48 words on a plane (native familiarity across, learners' up) to where each of five machine arms put them, with each arm's six own sentences beside. A figure (figure.svg); Python for the word choice, briefs, scoring, face data and figure; thirty briefs and hand-backs, a blind second coding, predictions fixed before any maker ran, and a source manifest.",
+      "path": "works/2026-11-06-second-tongue/"
     }
   ],
   "edges": [
@@ -3312,6 +3321,24 @@
       "to": "position-2026-11-04",
       "kind": "extends",
       "why": "The family keeps its order, and keeps it harder when told anything: each told arm leaned nearer its own ratings (0.63 to 0.71-0.75), unspoken. A level departure was taken as scale, as the gloss says; a reordering was not named as error either."
+    },
+    {
+      "from": "2026-11-06-second-tongue",
+      "to": "2026-11-05-laughed-off",
+      "kind": "answers-its-threads",
+      "why": "Session 170's threads 1 and 2: a public that departs from the family, and the reversed control. The reversal was named by all six and then followed (rho -0.79); the spread reading of S170.SPREAD fell (6 of 6 named the random deal at a spread of 0.09)."
+    },
+    {
+      "from": "2026-11-06-second-tongue",
+      "to": "2026-11-03-without-a-nose",
+      "kind": "refutes",
+      "why": "Experiment 47 read a named lie as a refused lie. Tonight every named contradiction was obeyed when it was orderly, so naming is not the check S168.ORDER takes it for (F-366)."
+    },
+    {
+      "from": "2026-11-06-second-tongue",
+      "to": "position-2026-11-04",
+      "kind": "extends",
+      "why": "The family keeps its order against a public's level, says the position. Tonight it left its own order without a number when told who the public was (rho 0.81 against 0.47), and took an orderly reversal over both."
     }
   ]
 }
