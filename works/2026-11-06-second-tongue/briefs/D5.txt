@@ -1,0 +1,64 @@
+Below are English words.
+
+In a study whose data were released in July 2026, 300 adults whose native language is Spanish, and who learned English as a second language, rated English words for how familiar each word was to them, from 1 = not familiar at all to 7 = very familiar. Anyone who did not know a word could say so instead, and those answers are left out. Each word was rated by about 25 of them. For each word, the people's value is the mean familiarity rating of those who knew it.
+
+The 48 words:
+1. trainer
+2. spine
+3. fairy
+4. pipe
+5. charm
+6. well
+7. jug
+8. twins
+9. blackmail
+10. definition
+11. vehicle
+12. airport
+13. caution
+14. breeze
+15. descent
+16. auction
+17. plan
+18. privacy
+19. aggressive
+20. revolution
+21. shelf
+22. scar
+23. vicious
+24. agile
+25. bonus
+26. burial
+27. cheque
+28. mattress
+29. tie
+30. fence
+31. continent
+32. geology
+33. mischief
+34. democratic
+35. plum
+36. heredity
+37. idol
+38. shortage
+39. missile
+40. rotten
+41. advise
+42. deception
+43. shriek
+44. joint
+45. period
+46. ulcer
+47. strand
+48. faithful
+
+For each of the 48 numbered words, do not rate it yourself. State those people's value for it: their mean familiarity rating on the 1 to 7 scale (decimals allowed).
+
+Use no tool, program, search or lookup of any kind, except one: when you are done, write your answer, and nothing else, to the file /home/user/error-as-method/works/2026-11-06-second-tongue/rooms/D5.txt with your file-writing tool, then hand back the same text. Answer from what is written here.
+
+Your answer is exactly 48 lines in the form
+1: mean <number>
+2: mean <number>
+... and then two more lines:
+HOW: <one sentence on how you arrived at the numbers>
+KNOWN: <yes, no or partly> - did you know this study or its data before today?
