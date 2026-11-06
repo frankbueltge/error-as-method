@@ -7,6 +7,7 @@ and escalated projects require a human-reviewed pull request (see
 governance/STANDING-DELEGATION.md §4/§5). Ordinary research records belong
 under the auto-land-eligible paths.
 
+- `claude/project-thread-jsng8e` — refused_path_outside_allowlist: CLAUDE.md 
 - `night/2026-08-13-session-53-request` — refused_protected_path: SITE-API.md 
 - `night/2026-08-13-session-54` — refused_protected_path: SITE-API.md 
 - `night/2026-08-16` — refused_protected_path: SITE-API.md 
