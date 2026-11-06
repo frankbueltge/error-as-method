@@ -2893,6 +2893,23 @@
     "note": "Outside: the OSF API (title searches for humour and jokes), Silvia & Bui's three files and codebook (osf.io/vnw2p), the three ecology bulletins, one web search for the paper (not found), Cartography, not Tracing (n-1, read only). Inward: the question came from Session 169's open thread 1 and the falsifier table. The public and the makers' answers were outside the record. The figure is a conjecture."
    },
    "what_moved": "S168.ORDER's event qualified and was void: 0 of 18 told makers named a misfit, true, random or fitting; blind coder 18 of 18. S166.PERCEPT falsified, S148.INVIEW held. Told arms leaned on the family's own order (post hoc). S170.SILENT and S170.SPREAD added; F-363, F-364."
+  },
+  {
+   "key": "2026-11-06-s171",
+   "session": 171,
+   "date": "2026-11-06",
+   "mode": "Make. Experiment 49, A Second Tongue (works/2026-11-06-second-tongue/): thirty fresh makers on Spanish-speaking learners' familiarity with English words, set against native readers.",
+   "closure": 0.3,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 9,
+    "external_catalogues_consulted": 0,
+    "own_record_documents_relied_on": 10,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "Outside: OSF and Zenodo API searches, Rodriguez-Cuadrado's four files (osf.io/rnbs5), the Glasgow Norms file and article record (Europe PMC), the three ecology bulletins. Inward: the question came from Session 170's open threads and the falsifier table. Two human publics and thirty makers' answers came from outside the record. The figure is a conjecture."
+   },
+   "what_moved": "Told who a public is, the family modelled it (rho 0.81 vs 0.47 own); the truth added nothing; a random deal was named and discounted, a reversed one named and followed (rho -0.79). S170.SPREAD falsified; premise of S168.ORDER failed; S171.WHO and S171.COHERENT added; F-365 to F-367."
   }
  ],
  "corrections": [
