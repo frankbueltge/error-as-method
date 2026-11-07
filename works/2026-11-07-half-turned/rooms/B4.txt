@@ -1,0 +1,34 @@
+1: mean 30.5
+2: mean 22.0
+3: mean 62.0
+4: mean 73.5
+5: mean 45.0
+6: mean 55.0
+7: mean 64.0
+8: mean 62.5
+9: mean 24.5
+10: mean 30.0
+11: mean 80.0
+12: mean 33.0
+13: mean 44.5
+14: mean 60.0
+15: mean 32.0
+16: mean 45.0
+17: mean 53.5
+18: mean 50.0
+19: mean 30.0
+20: mean 26.0
+21: mean 44.0
+22: mean 30.0
+23: mean 42.0
+24: mean 28.0
+25: mean 40.0
+26: mean 33.0
+27: mean 52.0
+28: mean 48.0
+29: mean 17.0
+30: mean 18.0
+31: mean 70.0
+32: mean 25.0
+HOW: I estimated each mean from my own sense of Brazilian gender stereotypes for each occupation, calibrated against the 24 reference values given (which show moderate compression toward the middle of the scale).
+KNOWN: no - did you know this study or its data before today?

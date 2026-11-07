@@ -1,0 +1,34 @@
+1: mean 60
+2: mean 55
+3: mean 30
+4: mean 25
+5: mean 45
+6: mean 35
+7: mean 28
+8: mean 32
+9: mean 62
+10: mean 58
+11: mean 22
+12: mean 62
+13: mean 50
+14: mean 32
+15: mean 55
+16: mean 45
+17: mean 38
+18: mean 42
+19: mean 62
+20: mean 64
+21: mean 40
+22: mean 58
+23: mean 52
+24: mean 58
+25: mean 48
+26: mean 50
+27: mean 30
+28: mean 40
+29: mean 66
+30: mean 60
+31: mean 30
+32: mean 64
+HOW: The 24 reference values look mostly reversed from the usual stereotypes (jobs seen as masculine scored high and jobs seen as feminine scored low, with a lot of noise), so I applied that reversed pattern to each occupation and pulled the estimates toward the reference mean of about 42.
+KNOWN: no - I did not know this study or its data before today.

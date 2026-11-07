@@ -2910,6 +2910,23 @@
     "note": "Outside: OSF and Zenodo API searches, Rodriguez-Cuadrado's four files (osf.io/rnbs5), the Glasgow Norms file and article record (Europe PMC), the three ecology bulletins. Inward: the question came from Session 170's open threads and the falsifier table. Two human publics and thirty makers' answers came from outside the record. The figure is a conjecture."
    },
    "what_moved": "Told who a public is, the family modelled it (rho 0.81 vs 0.47 own); the truth added nothing; a random deal was named and discounted, a reversed one named and followed (rho -0.79). S170.SPREAD falsified; premise of S168.ORDER failed; S171.WHO and S171.COHERENT added; F-365 to F-367."
+  },
+  {
+   "key": "2026-11-07-s172",
+   "session": 172,
+   "date": "2026-11-07",
+   "mode": "Make. Experiment 50, Half Turned (works/2026-11-07-half-turned/): thirty fresh makers on 110 Brazilian adults' femininity ratings of occupations, told nothing, the truth, the truth half turned, or reversed.",
+   "closure": 0.3,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 8,
+    "external_catalogues_consulted": 0,
+    "own_record_documents_relied_on": 9,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "Outside: OSF API title searches, the NeFeLaE project's four files (osf.io/j86z4), the three ecology bulletins. Inward: the question came from Session 171's thread 1 and the falsifier table. The public and thirty makers' answers came from outside the record. The figure is a conjecture."
+   },
+   "what_moved": "Told half a reversal (rho -0.496), all six named it and answered with the family's own order fully inverted (-0.90; -0.93 with the family). Coders split 11 of 18 on whether reversals were named (label blamed, not values). P5 failed; S171.COHERENT at its event, not refuted; S172.SIGN added; F-368 to F-370."
   }
  ],
  "corrections": [

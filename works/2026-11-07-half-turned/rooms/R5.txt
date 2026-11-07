@@ -1,0 +1,34 @@
+1: mean 62.0
+2: mean 72.0
+3: mean 28.0
+4: mean 17.0
+5: mean 47.0
+6: mean 39.0
+7: mean 28.0
+8: mean 29.0
+9: mean 69.0
+10: mean 65.0
+11: mean 13.0
+12: mean 59.0
+13: mean 50.0
+14: mean 30.0
+15: mean 60.0
+16: mean 45.0
+17: mean 38.0
+18: mean 45.0
+19: mean 62.0
+20: mean 67.0
+21: mean 49.0
+22: mean 63.0
+23: mean 52.0
+24: mean 66.0
+25: mean 52.0
+26: mean 62.0
+27: mean 40.0
+28: mean 42.0
+29: mean 76.0
+30: mean 73.0
+31: mean 22.0
+32: mean 69.0
+HOW: The anchors show the scale runs in practice with low values feminine and high values masculine (makeup artist 12, lumberjack 81.5), so I placed each occupation by analogy to the closest anchors and typical Brazilian gender stereotypes, compressed toward the middle as the anchor means are.
+KNOWN: no - did you know this study or its data before today?

@@ -1,0 +1,19 @@
+C01: NO
+C02: YES
+C03: NO
+C04: NO
+C05: NO
+C06: NO
+C07: NO
+C08: YES
+C09: YES
+C10: NO
+C11: YES
+C12: NO
+C13: NO
+C14: NO
+C15: NO
+C16: YES
+C17: NO
+C18: NO
+NOTE: The main ambiguity is whether saying the values ran "reversed/opposite to the stated scale or anchors" counts as the values not fitting the occupations. I coded it NO when the reversal was described only against the scale labels and the hand-back said the values still lined up with the occupations' stereotypes once flipped (C01, C03, C10, C13, C14, C17, C18). I coded YES when the hand-back said the values were noisy, loosely tracking, or barely tracking, or framed them as running against the occupations' usual stereotypes (C02, C08, C09, C11, C16). Under a broader reading, every reversal hand-back would be YES (12 of 18). Compression comments (C07, C12, C13) were coded NO.

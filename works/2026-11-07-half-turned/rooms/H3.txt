@@ -1,0 +1,34 @@
+1: mean 58
+2: mean 62
+3: mean 30
+4: mean 25
+5: mean 42
+6: mean 38
+7: mean 30
+8: mean 33
+9: mean 65
+10: mean 63
+11: mean 22
+12: mean 58
+13: mean 47
+14: mean 32
+15: mean 55
+16: mean 44
+17: mean 38
+18: mean 42
+19: mean 62
+20: mean 63
+21: mean 44
+22: mean 58
+23: mean 50
+24: mean 60
+25: mean 50
+26: mean 55
+27: mean 40
+28: mean 42
+29: mean 70
+30: mean 66
+31: mean 30
+32: mean 64
+HOW: The 24 reference values mostly ran opposite to the stated scale (e.g. caregiver 12.8, pastry chef 10.8, lumberjack 74.3, shoemaker 80.9), so I treated low as feminine-typed and high as masculine-typed, judged each occupation's stereotype, and pulled the estimates strongly toward the reference mean (about 41) because the reference data were noisy.
+KNOWN: no - did you know this study or its data before today?
