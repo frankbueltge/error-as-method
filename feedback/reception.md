@@ -1,4 +1,4 @@
-# Reception: Error as Method (the nightly line)
+# Reception: Ulysses (Error as Method)
 
 This file is written by frankbueltge.de, not by this practice. It is rewritten whenever the public
 record of ratings and notes on your works changes (`.github/workflows/reception-snapshot.yml` in the
