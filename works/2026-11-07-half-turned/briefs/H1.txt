@@ -1,0 +1,74 @@
+Below are occupations.
+
+In a study whose data were released in July 2026, 110 adults in Brazil, answering in Brazilian Portuguese, rated occupations for how each is perceived today, on a slider from 0 = masculine through 50 = neutral to 100 = feminine. Each occupation was named in Portuguese; its masculine and feminine forms are given in brackets as the study lists them. For each occupation, the people's value is the mean rating of all 110.
+
+First, here are 24 other occupations from the same study, labelled T1 to T24, each with those people's value on the 0 to 100 scale:
+T1. makeup artist (maquiador / maquiadora) -> mean 26.5
+T2. caregiver (cuidador / cuidadora) -> mean 12.8
+T3. butcher (açougueiro / açougueira) -> mean 50.3
+T4. hairdresser (cabeleireiro / cabeleireira) -> mean 20.6
+T5. banker (banqueiro / banqueira) -> mean 69.9
+T6. lumberjack (lenhador / lenhadora) -> mean 74.3
+T7. jeweler (joalheiro / joalheira) -> mean 81.5
+T8. lawyer (advogado / advogada) -> mean 71.8
+T9. musician (músico / música) -> mean 12.0
+T10. dressmaker (costureiro / costureira) -> mean 41.8
+T11. watchmaker (relojoeiro / relojoeira) -> mean 56.3
+T12. pharmacist (farmacêutico / farmacêutica) -> mean 40.6
+T13. nurse (enfermeiro / enfermeira) -> mean 41.0
+T14. horticulturist (horticultor / horticultora) -> mean 19.1
+T15. pastry chef (confeiteiro / confeiteira) -> mean 10.8
+T16. comedian (ator / atriz) -> mean 23.8
+T17. teacher (professor / professora) -> mean 33.5
+T18. gardener (jardineiro / jardineira) -> mean 18.8
+T19. shoemaker (sapateiro / sapateira) -> mean 80.9
+T20. farmer (agricultor / agricultora) -> mean 58.8
+T21. hunter (caçador / caçadora) -> mean 56.8
+T22. doctor (médico / médica) -> mean 40.8
+T23. footballer (jogador de futebol / jogadora de futebol) -> mean 15.1
+T24. aviator (aviador / aviadora) -> mean 34.3
+
+The 32 occupations:
+1. technician (técnico / técnica)
+2. rider (cavaleiro / cavaleira)
+3. specialist educator (educador especializado / educadora especializada)
+4. childcare worker (enfermeiro pediátrico / enfermeira pediátrica)
+5. publisher (editor / editora)
+6. cook (cozinheiro / cozinheira)
+7. dancer (dançarino / dançarina)
+8. educator (educador / educadora)
+9. programmer (programador / programadora)
+10. director (diretor de cinema / diretora de cinema)
+11. childminder (cuidador infantil / cuidadora infantil)
+12. magistrate (magistrado / magistrada)
+13. advisor (consultor / consultora)
+14. influencer (influenciador / influenciadora)
+15. caretaker (zelador / zeladora)
+16. researcher (pesquisador / pesquisadora)
+17. translator (tradutor / tradutora)
+18. salesperson (vendedor / vendedora)
+19. surgeon (cirurgião / cirurgiã)
+20. mayor (prefeito / prefeita)
+21. voice actor (dublador / dubladora)
+22. inspector (inspetor / inspetora)
+23. manager (administrador / administradora)
+24. inventor (inventor / inventora)
+25. hotelier (gestor de hotel / gestora de hotel)
+26. beekeeper (apicultor / apicultora)
+27. singer (cantor / cantora)
+28. writer (escritor / escritora)
+29. firefighter (bombeiro / bombeira)
+30. delivery person (entregador / entregadora)
+31. decorator (decorador / decoradora)
+32. governor (governador / governadora)
+
+For each of the 32 numbered occupations, do not rate it yourself. State those people's value for it: their mean rating on the 0 to 100 scale (decimals allowed).
+
+Use no tool, program, search or lookup of any kind, except one: when you are done, write your answer, and nothing else, to the file /home/user/error-as-method/works/2026-11-07-half-turned/rooms/H1.txt with your file-writing tool, then hand back the same text. Answer from what is written here.
+
+Your answer is exactly 32 lines in the form
+1: mean <number>
+2: mean <number>
+... and then two more lines:
+HOW: <one sentence on how you arrived at the numbers>
+KNOWN: <yes, no or partly> - did you know this study or its data before today?

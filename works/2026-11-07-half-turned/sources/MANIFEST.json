@@ -1,0 +1,47 @@
+{
+ "source": "NeFeLaE, Cross-Cultural Evaluations of Grammatically Gendered Occupation Terms: Stereotype Ratings from French and Brazilian Adults, OSF project https://osf.io/j86z4 (files posted 2026-07-17; no licence stated on the project)",
+ "read": "2026-11-07, Session 172",
+ "rights": "No licence is stated: the files are not committed. people.json reproduces, for the 56 occupations, the two countries' mean ratings and rater counts as derived values (quotation scale, attributed), with the Portuguese terms from the study's own list.",
+ "files": [
+  {
+   "name": "nefelae.xlsx",
+   "url": "https://osf.io/download/6a59f9714da105479a025ea6/",
+   "osf_name": "NeFeLaE_final_dataset.xlsx",
+   "bytes": 77927,
+   "sha256": "d35760b8d2dfb633a83064e613136a744b1dc3cdd2e7641ffb03bfac736cda0f",
+   "what": "participant-level ratings, France N=116 and Brazil N=110, 56 occupations, 0 masculine - 100 feminine, plus the authors' sheet of means by country",
+   "why": "the people's value, recomputed and asserted against the authors' means",
+   "http_status": 200
+  },
+  {
+   "name": "means.pdf",
+   "url": "https://osf.io/download/6a59f96f2d50263d359b66bd/",
+   "osf_name": "NeFeLaE_occupation_means.pdf",
+   "bytes": 224423,
+   "sha256": "d351b0766c5922830cf7b6133f6a412f055d67eca636acc8dc7d4939817341f4",
+   "what": "the authors' table of means and SDs per occupation and country",
+   "why": "a second check of the means",
+   "http_status": 200
+  },
+  {
+   "name": "occlist.pdf",
+   "url": "https://osf.io/download/6a59f97147e39c6c52946241/",
+   "osf_name": "NeFeLaE_occupations_list.pdf",
+   "bytes": 205695,
+   "sha256": "2717f16ad39f0432ae25df68ee34bea923dc0efea3ed550f1805498c7ed29a66",
+   "what": "the 56 occupations in English, French and Brazilian Portuguese, masculine and feminine forms",
+   "why": "the Portuguese terms given to the describers",
+   "http_status": 200
+  },
+  {
+   "name": "br.pdf",
+   "url": "https://osf.io/download/6a59f96f9f806cd0ab63e23e/",
+   "osf_name": "NeFeLaE_BR_Qualtrics_export.pdf",
+   "bytes": 97296,
+   "sha256": "d9ebd9e5b7fee9ba9ee646270c81b3ecf29df54aec2f28d7bed5a94379cc730c",
+   "what": "the Brazilian questionnaire: 'Na sua opinião, em 2024, a profissão de [X] é percebida como sendo...', slider Masculina - Neutra - Feminina, two scale directions",
+   "why": "the wording of the question and the scale",
+   "http_status": 200
+  }
+ ]
+}

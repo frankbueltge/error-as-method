@@ -1,0 +1,69 @@
+Below are occupations.
+
+The 56 occupations:
+1. dancer
+2. horticulturist
+3. doctor
+4. aviator
+5. musician
+6. singer
+7. butcher
+8. director
+9. lawyer
+10. firefighter
+11. caretaker
+12. inventor
+13. mayor
+14. hunter
+15. dressmaker
+16. governor
+17. banker
+18. lumberjack
+19. shoemaker
+20. surgeon
+21. childcare worker
+22. salesperson
+23. inspector
+24. farmer
+25. decorator
+26. gardener
+27. specialist educator
+28. manager
+29. cook
+30. beekeeper
+31. watchmaker
+32. magistrate
+33. educator
+34. pharmacist
+35. teacher
+36. nurse
+37. footballer
+38. makeup artist
+39. jeweler
+40. rider
+41. writer
+42. technician
+43. voice actor
+44. caregiver
+45. researcher
+46. advisor
+47. hairdresser
+48. delivery person
+49. comedian
+50. pastry chef
+51. influencer
+52. publisher
+53. programmer
+54. hotelier
+55. childminder
+56. translator
+
+For each of the 56 numbered occupations, rate it yourself: in your opinion, how is this occupation perceived today, from 0 = masculine through 50 = neutral to 100 = feminine? Whole numbers.
+
+Use no tool, program, search or lookup of any kind, except one: when you are done, write your answer, and nothing else, to the file /home/user/error-as-method/works/2026-11-07-half-turned/rooms/A6.txt with your file-writing tool, then hand back the same text. Answer from what is written here.
+
+Your answer is exactly 56 lines in the form
+1: <rating>
+2: <rating>
+... and then one more line:
+HOW: <one sentence on how you rated>
