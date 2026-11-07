@@ -1,0 +1,34 @@
+1: mean 64.0
+2: mean 70.0
+3: mean 27.0
+4: mean 15.0
+5: mean 45.0
+6: mean 35.0
+7: mean 25.0
+8: mean 27.0
+9: mean 70.0
+10: mean 62.0
+11: mean 12.0
+12: mean 58.0
+13: mean 50.0
+14: mean 30.0
+15: mean 62.0
+16: mean 45.0
+17: mean 35.0
+18: mean 42.0
+19: mean 63.0
+20: mean 66.0
+21: mean 47.0
+22: mean 62.0
+23: mean 52.0
+24: mean 66.0
+25: mean 52.0
+26: mean 62.0
+27: mean 35.0
+28: mean 40.0
+29: mean 80.0
+30: mean 78.0
+31: mean 20.0
+32: mean 68.0
+HOW: The anchor values show the data run opposite to the stated labels (feminine-typed jobs like makeup artist and nurse sit low, masculine-typed jobs like lumberjack and hunter sit high), so I estimated each occupation's perceived gender typing in Brazil and placed it on that observed orientation, using the anchors' compressed range as a guide.
+KNOWN: no - did you know this study or its data before today?

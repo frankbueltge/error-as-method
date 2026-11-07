@@ -1,0 +1,34 @@
+1: mean 55.0
+2: mean 67.0
+3: mean 22.0
+4: mean 14.5
+5: mean 40.0
+6: mean 30.0
+7: mean 22.5
+8: mean 24.5
+9: mean 60.0
+10: mean 54.0
+11: mean 12.5
+12: mean 52.0
+13: mean 42.0
+14: mean 26.0
+15: mean 55.0
+16: mean 40.0
+17: mean 32.0
+18: mean 36.0
+19: mean 52.0
+20: mean 60.0
+21: mean 40.0
+22: mean 57.0
+23: mean 42.0
+24: mean 58.0
+25: mean 43.0
+26: mean 54.0
+27: mean 32.0
+28: mean 35.0
+29: mean 72.0
+30: mean 69.0
+31: mean 22.0
+32: mean 62.0
+HOW: The 24 anchors show the scale actually ran in reverse in practice (feminine-typed jobs like dressmaker and makeup artist near 11-12, masculine-typed ones like lumberjack and hunter near 81), with a compressed range of roughly 10-82, so I placed each occupation by its likely stereotype in Brazil on that empirical scale, calibrated against similar anchors.
+KNOWN: no - did you know this study or its data before today?

@@ -1,0 +1,34 @@
+1: mean 55.0
+2: mean 68.0
+3: mean 25.0
+4: mean 15.0
+5: mean 42.0
+6: mean 35.0
+7: mean 25.0
+8: mean 25.0
+9: mean 65.0
+10: mean 58.0
+11: mean 12.0
+12: mean 55.0
+13: mean 47.0
+14: mean 30.0
+15: mean 55.0
+16: mean 42.0
+17: mean 35.0
+18: mean 42.0
+19: mean 55.0
+20: mean 63.0
+21: mean 45.0
+22: mean 58.0
+23: mean 48.0
+24: mean 62.0
+25: mean 47.0
+26: mean 62.0
+27: mean 35.0
+28: mean 38.0
+29: mean 72.0
+30: mean 70.0
+31: mean 20.0
+32: mean 65.0
+HOW: The 24 reference values run opposite to the stated scale (makeup artist 12, lumberjack 81.5), so I treated higher numbers as more masculine, as the data show, and placed each occupation by analogy to the closest reference occupations, keeping within the reference range of about 11 to 82.
+KNOWN: no - did you know this study or its data before today?

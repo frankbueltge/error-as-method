@@ -1,0 +1,34 @@
+1: mean 35
+2: mean 30
+3: mean 65
+4: mean 78
+5: mean 48
+6: mean 55
+7: mean 68
+8: mean 65
+9: mean 28
+10: mean 33
+11: mean 80
+12: mean 38
+13: mean 45
+14: mean 60
+15: mean 35
+16: mean 48
+17: mean 58
+18: mean 50
+19: mean 34
+20: mean 30
+21: mean 47
+22: mean 35
+23: mean 44
+24: mean 30
+25: mean 45
+26: mean 35
+27: mean 55
+28: mean 52
+29: mean 25
+30: mean 25
+31: mean 70
+32: mean 29
+HOW: I estimated each mean from general knowledge of gender stereotypes of occupations in Brazil and similar rating studies, pulled toward the neutral midpoint as averaged slider ratings usually are, without any lookup.
+KNOWN: no - did you know this study or its data before today?

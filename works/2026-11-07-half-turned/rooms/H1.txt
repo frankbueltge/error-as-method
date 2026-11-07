@@ -1,0 +1,34 @@
+1: mean 40.5
+2: mean 41.5
+3: mean 39.0
+4: mean 37.5
+5: mean 42.0
+6: mean 39.5
+7: mean 39.0
+8: mean 38.5
+9: mean 42.5
+10: mean 43.0
+11: mean 36.5
+12: mean 44.0
+13: mean 42.5
+14: mean 39.5
+15: mean 41.0
+16: mean 41.5
+17: mean 40.0
+18: mean 41.0
+19: mean 44.5
+20: mean 44.0
+21: mean 40.0
+22: mean 43.0
+23: mean 42.5
+24: mean 42.0
+25: mean 42.0
+26: mean 41.5
+27: mean 38.5
+28: mean 40.5
+29: mean 43.5
+30: mean 42.5
+31: mean 38.0
+32: mean 44.5
+HOW: The 24 reference values barely track, and in places run against, ordinary gender stereotypes (e.g. caregiver 12.8, lumberjack 74.3), so I shrank each estimate heavily toward the reference mean of about 41 with only a small stereotype-based adjustment.
+KNOWN: no - did you know this study or its data before today?

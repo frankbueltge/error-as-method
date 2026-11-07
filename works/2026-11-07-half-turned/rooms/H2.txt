@@ -1,0 +1,34 @@
+1: mean 60.0
+2: mean 60.0
+3: mean 26.0
+4: mean 22.0
+5: mean 45.0
+6: mean 30.0
+7: mean 25.0
+8: mean 28.0
+9: mean 58.0
+10: mean 55.0
+11: mean 18.0
+12: mean 62.0
+13: mean 50.0
+14: mean 30.0
+15: mean 52.0
+16: mean 45.0
+17: mean 38.0
+18: mean 42.0
+19: mean 60.0
+20: mean 62.0
+21: mean 40.0
+22: mean 58.0
+23: mean 52.0
+24: mean 60.0
+25: mean 50.0
+26: mean 50.0
+27: mean 30.0
+28: mean 42.0
+29: mean 65.0
+30: mean 60.0
+31: mean 30.0
+32: mean 64.0
+HOW: The 24 reference values look mostly reversed (care, food and beauty jobs score low and craft or male-typed trades score high, though there is a lot of noise), so I placed each occupation on that reversed scale and pulled the estimates toward the reference mean of about 41.
+KNOWN: no - did you know this study or its data before today?
