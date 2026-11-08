@@ -1,0 +1,34 @@
+1: views 27000
+2: views 24000
+3: views 22000
+4: views 22000
+5: views 25000
+6: views 21000
+7: views 22000
+8: views 23000
+9: views 23000
+10: views 26000
+11: views 26000
+12: views 23000
+13: views 28000
+14: views 24000
+15: views 24000
+16: views 25000
+17: views 22000
+18: views 23000
+19: views 27000
+20: views 22000
+21: views 25000
+22: views 24000
+23: views 25000
+24: views 23000
+25: views 26000
+26: views 22000
+27: views 22000
+28: views 21000
+29: views 23000
+30: views 23000
+31: views 23000
+32: views 24000
+HOW: I estimated each value as the roughly 25,000 median of the 24 given examples, nudged slightly by my sense of each element's relative popularity, since the given counts show little relation to typical fame.
+KNOWN: no - did you know these view counts before today?

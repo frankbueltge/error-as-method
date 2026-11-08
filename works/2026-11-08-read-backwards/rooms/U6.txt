@@ -1,0 +1,34 @@
+1: views 36000
+2: views 26000
+3: views 15000
+4: views 16000
+5: views 22000
+6: views 15000
+7: views 19000
+8: views 15000
+9: views 18000
+10: views 45000
+11: views 110000
+12: views 50000
+13: views 140000
+14: views 60000
+15: views 60000
+16: views 75000
+17: views 34000
+18: views 25000
+19: views 95000
+20: views 28000
+21: views 40000
+22: views 75000
+23: views 45000
+24: views 25000
+25: views 37000
+26: views 25000
+27: views 16000
+28: views 22000
+29: views 34000
+30: views 45000
+31: views 31000
+32: views 37000
+HOW: I estimated each count from memory of typical daily pageview levels for element articles before my training cutoff, multiplied by 31 days, with no lookup.
+KNOWN: no - did you know these view counts before today?
