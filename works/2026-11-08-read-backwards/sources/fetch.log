@@ -1,0 +1,163 @@
+429/err Cobalt 0 curl: (22) The requested URL returned error: 429
+
+ok 27 Cobalt
+ok 28 Nickel
+429/err Copper 0 curl: (22) The requested URL returned error: 429
+
+ok 29 Copper
+ok 30 Zinc
+ok 31 Gallium
+ok 32 Germanium
+429/err Arsenic 0 curl: (22) The requested URL returned error: 429
+
+ok 33 Arsenic
+429/err Selenium 0 curl: (22) The requested URL returned error: 429
+
+ok 34 Selenium
+429/err Bromine 0 curl: (22) The requested URL returned error: 429
+
+ok 35 Bromine
+ok 36 Krypton
+429/err Rubidium 0 curl: (22) The requested URL returned error: 429
+
+429/err Rubidium 1 curl: (22) The requested URL returned error: 429
+
+ok 37 Rubidium
+ok 38 Strontium
+ok 39 Yttrium
+429/err Zirconium 0 curl: (22) The requested URL returned error: 429
+
+429/err Zirconium 1 curl: (22) The requested URL returned error: 429
+
+429/err Zirconium 2 curl: (22) The requested URL returned error: 429
+
+ok 40 Zirconium
+429/err Niobium 0 curl: (22) The requested URL returned error: 429
+
+429/err Niobium 1 curl: (22) The requested URL returned error: 429
+
+429/err Niobium 2 curl: (22) The requested URL returned error: 429
+
+429/err Niobium 3 curl: (22) The requested URL returned error: 429
+
+429/err Niobium 4 curl: (22) The requested URL returned error: 429
+
+429/err Niobium 5 curl: (22) The requested URL returned error: 429
+
+ok 41 Niobium
+429/err Molybdenum 0 curl: (22) The requested URL returned error: 429
+
+ok 42 Molybdenum
+ok 43 Technetium
+429/err Ruthenium 0 curl: (22) The requested URL returned error: 429
+
+ok 44 Ruthenium
+429/err Rhodium 0 curl: (22) The requested URL returned error: 429
+
+ok 45 Rhodium
+ok 46 Palladium
+429/err Silver 0 curl: (22) The requested URL returned error: 429
+
+ok 47 Silver
+ok 48 Cadmium
+429/err Indium 0 curl: (22) The requested URL returned error: 429
+
+429/err Indium 1 curl: (22) The requested URL returned error: 429
+
+429/err Indium 2 curl: (22) The requested URL returned error: 429
+
+ok 49 Indium
+429/err Tin 0 curl: (22) The requested URL returned error: 429
+
+429/err Tin 1 curl: (22) The requested URL returned error: 429
+
+429/err Tin 2 curl: (22) The requested URL returned error: 429
+
+429/err Tin 3 curl: (22) The requested URL returned error: 429
+
+429/err Tin 4 curl: (22) The requested URL returned error: 429
+
+429/err Tin 5 curl: (22) The requested URL returned error: 429
+
+ok 50 Tin
+429/err Antimony 0 curl: (22) The requested URL returned error: 429
+
+429/err Antimony 1 curl: (22) The requested URL returned error: 429
+
+ok 51 Antimony
+429/err Tellurium 0 curl: (22) The requested URL returned error: 429
+
+ok 52 Tellurium
+429/err Iodine 0 curl: (22) The requested URL returned error: 429
+
+429/err Iodine 1 curl: (22) The requested URL returned error: 429
+
+429/err Iodine 2 curl: (22) The requested URL returned error: 429
+
+429/err Iodine 3 curl: (22) The requested URL returned error: 429
+
+429/err Iodine 4 curl: (22) The requested URL returned error: 429
+
+ok 53 Iodine
+ok 54 Xenon
+ok 55 Caesium
+429/err Barium 0 curl: (22) The requested URL returned error: 429
+
+ok 56 Barium
+d346e78e8a6259a385e85b65d787694b3129db1ea5967d53101c70e4c1a00102
+1 Hydrogen 48862
+2 Helium 36570
+3 Lithium 30841
+4 Beryllium 19735
+5 Boron 39804
+6 Carbon 39372
+7 Nitrogen 32551
+8 Oxygen 42620
+9 Fluorine 17480
+10 Neon 19648
+11 Sodium 32168
+12 Magnesium 25241
+13 Aluminium 51636
+14 Silicon 31758
+15 Phosphorus 27026
+16 Sulfur 39336
+17 Chlorine 27340
+18 Argon 24197
+19 Potassium 30368
+20 Calcium 19053
+21 Scandium 9331
+22 Titanium 29149
+23 Vanadium 16270
+24 Chromium 23674
+25 Manganese 21326
+26 Iron 41950
+27 Cobalt 30841
+28 Nickel 22381
+29 Copper 46257
+30 Zinc 26227
+31 Gallium 18661
+32 Germanium 12759
+33 Arsenic 27542
+34 Selenium 21062
+35 Bromine 22747
+36 Krypton 13789
+37 Rubidium 10182
+38 Strontium 10778
+39 Yttrium 14155
+40 Zirconium 12421
+41 Niobium 13683
+42 Molybdenum 20834
+43 Technetium 15650
+44 Ruthenium 8770
+45 Rhodium 13436
+46 Palladium 20951
+47 Silver 47137
+48 Cadmium 16372
+49 Indium 9698
+50 Tin 30327
+51 Antimony 29295
+52 Tellurium 11207
+53 Iodine 25472
+54 Xenon 20436
+55 Caesium 17130
+56 Barium 10154

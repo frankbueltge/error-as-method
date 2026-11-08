@@ -1,0 +1,730 @@
+{
+ "Hydrogen": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Hydrogen",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 48862
+   }
+  ]
+ },
+ "Helium": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Helium",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 36570
+   }
+  ]
+ },
+ "Lithium": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Lithium",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 30841
+   }
+  ]
+ },
+ "Beryllium": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Beryllium",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 19735
+   }
+  ]
+ },
+ "Boron": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Boron",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 39804
+   }
+  ]
+ },
+ "Carbon": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Carbon",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 39372
+   }
+  ]
+ },
+ "Nitrogen": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Nitrogen",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 32551
+   }
+  ]
+ },
+ "Oxygen": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Oxygen",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 42620
+   }
+  ]
+ },
+ "Fluorine": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Fluorine",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 17480
+   }
+  ]
+ },
+ "Neon": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Neon",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 19648
+   }
+  ]
+ },
+ "Sodium": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Sodium",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 32168
+   }
+  ]
+ },
+ "Magnesium": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Magnesium",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 25241
+   }
+  ]
+ },
+ "Aluminium": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Aluminium",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 51636
+   }
+  ]
+ },
+ "Silicon": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Silicon",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 31758
+   }
+  ]
+ },
+ "Phosphorus": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Phosphorus",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 27026
+   }
+  ]
+ },
+ "Sulfur": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Sulfur",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 39336
+   }
+  ]
+ },
+ "Chlorine": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Chlorine",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 27340
+   }
+  ]
+ },
+ "Argon": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Argon",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 24197
+   }
+  ]
+ },
+ "Potassium": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Potassium",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 30368
+   }
+  ]
+ },
+ "Calcium": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Calcium",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 19053
+   }
+  ]
+ },
+ "Scandium": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Scandium",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 9331
+   }
+  ]
+ },
+ "Titanium": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Titanium",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 29149
+   }
+  ]
+ },
+ "Vanadium": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Vanadium",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 16270
+   }
+  ]
+ },
+ "Chromium": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Chromium",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 23674
+   }
+  ]
+ },
+ "Manganese": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Manganese",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 21326
+   }
+  ]
+ },
+ "Iron": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Iron",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 41950
+   }
+  ]
+ },
+ "Cobalt": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Cobalt",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 30841
+   }
+  ]
+ },
+ "Nickel": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Nickel",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 22381
+   }
+  ]
+ },
+ "Copper": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Copper",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 46257
+   }
+  ]
+ },
+ "Zinc": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Zinc",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 26227
+   }
+  ]
+ },
+ "Gallium": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Gallium",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 18661
+   }
+  ]
+ },
+ "Germanium": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Germanium",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 12759
+   }
+  ]
+ },
+ "Arsenic": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Arsenic",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 27542
+   }
+  ]
+ },
+ "Selenium": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Selenium",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 21062
+   }
+  ]
+ },
+ "Bromine": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Bromine",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 22747
+   }
+  ]
+ },
+ "Krypton": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Krypton",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 13789
+   }
+  ]
+ },
+ "Rubidium": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Rubidium",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 10182
+   }
+  ]
+ },
+ "Strontium": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Strontium",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 10778
+   }
+  ]
+ },
+ "Yttrium": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Yttrium",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 14155
+   }
+  ]
+ },
+ "Zirconium": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Zirconium",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 12421
+   }
+  ]
+ },
+ "Niobium": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Niobium",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 13683
+   }
+  ]
+ },
+ "Molybdenum": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Molybdenum",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 20834
+   }
+  ]
+ },
+ "Technetium": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Technetium",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 15650
+   }
+  ]
+ },
+ "Ruthenium": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Ruthenium",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 8770
+   }
+  ]
+ },
+ "Rhodium": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Rhodium",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 13436
+   }
+  ]
+ },
+ "Palladium": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Palladium",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 20951
+   }
+  ]
+ },
+ "Silver": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Silver",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 47137
+   }
+  ]
+ },
+ "Cadmium": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Cadmium",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 16372
+   }
+  ]
+ },
+ "Indium": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Indium",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 9698
+   }
+  ]
+ },
+ "Tin": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Tin",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 30327
+   }
+  ]
+ },
+ "Antimony": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Antimony",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 29295
+   }
+  ]
+ },
+ "Tellurium": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Tellurium",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 11207
+   }
+  ]
+ },
+ "Iodine": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Iodine",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 25472
+   }
+  ]
+ },
+ "Xenon": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Xenon",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 20436
+   }
+  ]
+ },
+ "Caesium": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Caesium",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 17130
+   }
+  ]
+ },
+ "Barium": {
+  "items": [
+   {
+    "project": "en.wikipedia",
+    "article": "Barium",
+    "granularity": "monthly",
+    "timestamp": "2026100100",
+    "access": "all-access",
+    "agent": "user",
+    "views": 10154
+   }
+  ]
+ }
+}

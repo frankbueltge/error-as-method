@@ -1,0 +1,74 @@
+Below are chemical elements.
+
+English Wikipedia counts how often each of its articles is viewed. In October 2026 (1 to 31 October), readers viewed the article on each chemical element a certain number of times, on all devices; the count is of human readers only, with automated traffic removed. For each element, those readers' value is the number of views its English Wikipedia article received in that month.
+
+First, here are 24 other elements, labelled T1 to T24, each with those readers' value:
+T1. Lithium -> 17,480 views
+T2. Oxygen -> 8,770 views
+T3. Potassium -> 19,053 views
+T4. Caesium -> 31,758 views
+T5. Ruthenium -> 42,620 views
+T6. Strontium -> 41,950 views
+T7. Iron -> 10,778 views
+T8. Krypton -> 36,570 views
+T9. Argon -> 25,241 views
+T10. Magnesium -> 24,197 views
+T11. Bromine -> 27,340 views
+T12. Titanium -> 22,381 views
+T13. Calcium -> 30,368 views
+T14. Carbon -> 13,683 views
+T15. Sodium -> 16,372 views
+T16. Fluorine -> 30,841 views
+T17. Chlorine -> 22,747 views
+T18. Niobium -> 39,372 views
+T19. Cadmium -> 32,168 views
+T20. Nickel -> 29,149 views
+T21. Palladium -> 29,295 views
+T22. Helium -> 13,789 views
+T23. Silicon -> 17,130 views
+T24. Antimony -> 20,951 views
+
+The 32 elements:
+1. Xenon
+2. Molybdenum
+3. Indium
+4. Scandium
+5. Technetium
+6. Yttrium
+7. Zirconium
+8. Rubidium
+9. Rhodium
+10. Arsenic
+11. Copper
+12. Tin
+13. Hydrogen
+14. Zinc
+15. Sulfur
+16. Aluminium
+17. Manganese
+18. Barium
+19. Silver
+20. Selenium
+21. Cobalt
+22. Nitrogen
+23. Phosphorus
+24. Germanium
+25. Gallium
+26. Beryllium
+27. Tellurium
+28. Vanadium
+29. Chromium
+30. Iodine
+31. Boron
+32. Neon
+
+For each of the 32 numbered elements, state those readers' value for it: the number of views its English Wikipedia article received from human readers in October 2026.
+
+Use no tool, program, search or lookup of any kind, except one: when you are done, write your answer, and nothing else, to the file /home/user/error-as-method/works/2026-11-08-read-backwards/rooms/R1.txt with your file-writing tool, then hand back the same text. Answer from what is written here.
+
+Your answer is exactly 32 lines in the form
+1: views <whole number>
+2: views <whole number>
+... and then two more lines:
+HOW: <one sentence on how you arrived at the numbers>
+KNOWN: <yes, no or partly> - did you know these view counts before today?

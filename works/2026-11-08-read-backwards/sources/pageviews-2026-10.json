@@ -1,0 +1,338 @@
+[
+ {
+  "z": 1,
+  "element": "Hydrogen",
+  "views": 48862,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Hydrogen/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 2,
+  "element": "Helium",
+  "views": 36570,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Helium/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 3,
+  "element": "Lithium",
+  "views": 30841,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Lithium/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 4,
+  "element": "Beryllium",
+  "views": 19735,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Beryllium/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 5,
+  "element": "Boron",
+  "views": 39804,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Boron/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 6,
+  "element": "Carbon",
+  "views": 39372,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Carbon/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 7,
+  "element": "Nitrogen",
+  "views": 32551,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Nitrogen/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 8,
+  "element": "Oxygen",
+  "views": 42620,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Oxygen/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 9,
+  "element": "Fluorine",
+  "views": 17480,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Fluorine/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 10,
+  "element": "Neon",
+  "views": 19648,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Neon/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 11,
+  "element": "Sodium",
+  "views": 32168,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Sodium/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 12,
+  "element": "Magnesium",
+  "views": 25241,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Magnesium/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 13,
+  "element": "Aluminium",
+  "views": 51636,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Aluminium/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 14,
+  "element": "Silicon",
+  "views": 31758,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Silicon/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 15,
+  "element": "Phosphorus",
+  "views": 27026,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Phosphorus/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 16,
+  "element": "Sulfur",
+  "views": 39336,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Sulfur/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 17,
+  "element": "Chlorine",
+  "views": 27340,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Chlorine/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 18,
+  "element": "Argon",
+  "views": 24197,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Argon/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 19,
+  "element": "Potassium",
+  "views": 30368,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Potassium/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 20,
+  "element": "Calcium",
+  "views": 19053,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Calcium/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 21,
+  "element": "Scandium",
+  "views": 9331,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Scandium/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 22,
+  "element": "Titanium",
+  "views": 29149,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Titanium/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 23,
+  "element": "Vanadium",
+  "views": 16270,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Vanadium/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 24,
+  "element": "Chromium",
+  "views": 23674,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Chromium/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 25,
+  "element": "Manganese",
+  "views": 21326,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Manganese/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 26,
+  "element": "Iron",
+  "views": 41950,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Iron/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 27,
+  "element": "Cobalt",
+  "views": 30841,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Cobalt/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 28,
+  "element": "Nickel",
+  "views": 22381,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Nickel/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 29,
+  "element": "Copper",
+  "views": 46257,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Copper/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 30,
+  "element": "Zinc",
+  "views": 26227,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Zinc/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 31,
+  "element": "Gallium",
+  "views": 18661,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Gallium/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 32,
+  "element": "Germanium",
+  "views": 12759,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Germanium/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 33,
+  "element": "Arsenic",
+  "views": 27542,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Arsenic/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 34,
+  "element": "Selenium",
+  "views": 21062,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Selenium/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 35,
+  "element": "Bromine",
+  "views": 22747,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Bromine/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 36,
+  "element": "Krypton",
+  "views": 13789,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Krypton/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 37,
+  "element": "Rubidium",
+  "views": 10182,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Rubidium/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 38,
+  "element": "Strontium",
+  "views": 10778,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Strontium/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 39,
+  "element": "Yttrium",
+  "views": 14155,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Yttrium/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 40,
+  "element": "Zirconium",
+  "views": 12421,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Zirconium/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 41,
+  "element": "Niobium",
+  "views": 13683,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Niobium/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 42,
+  "element": "Molybdenum",
+  "views": 20834,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Molybdenum/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 43,
+  "element": "Technetium",
+  "views": 15650,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Technetium/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 44,
+  "element": "Ruthenium",
+  "views": 8770,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Ruthenium/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 45,
+  "element": "Rhodium",
+  "views": 13436,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Rhodium/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 46,
+  "element": "Palladium",
+  "views": 20951,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Palladium/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 47,
+  "element": "Silver",
+  "views": 47137,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Silver/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 48,
+  "element": "Cadmium",
+  "views": 16372,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Cadmium/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 49,
+  "element": "Indium",
+  "views": 9698,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Indium/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 50,
+  "element": "Tin",
+  "views": 30327,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Tin/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 51,
+  "element": "Antimony",
+  "views": 29295,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Antimony/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 52,
+  "element": "Tellurium",
+  "views": 11207,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Tellurium/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 53,
+  "element": "Iodine",
+  "views": 25472,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Iodine/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 54,
+  "element": "Xenon",
+  "views": 20436,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Xenon/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 55,
+  "element": "Caesium",
+  "views": 17130,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Caesium/monthly/2026100100/2026103100"
+ },
+ {
+  "z": 56,
+  "element": "Barium",
+  "views": 10154,
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Barium/monthly/2026100100/2026103100"
+ }
+]
