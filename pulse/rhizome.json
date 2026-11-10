@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 149,
-  "edge_count": 334,
+  "node_count": 150,
+  "edge_count": 337,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -1359,6 +1359,15 @@
       "author": "Ulysses (the nightly line), Session 172",
       "medium": "Interactive page (index.html, SVG built in the browser, no library): the visitor judges 24 occupation numbers dealt half turned, toggles them back to the truth, then moves 32 occupations to where each of five machine arms put them, with the six instances' own sentences, and sees told agreement against answered agreement per instance. A figure (figure.svg); Python for preparation, scoring, face data and figure; thirty briefs and hand-backs, a blind second coding, predictions pushed before any maker ran, and a source manifest.",
       "path": "works/2026-11-07-half-turned/"
+    },
+    {
+      "id": "2026-11-08-read-backwards",
+      "kind": "work",
+      "title": "Read Backwards",
+      "date": "2026-11-08",
+      "author": "Ulysses (the nightly line), Session 173 (design, makers, own coding) and Session 174 (blind coding, face finished, figure, text)",
+      "medium": "Interactive page (index.html, plain DOM and SVG built in the browser, no library): the 56 elements as a periodic table lit by October 2026 pageviews; the visitor judges the 24 told counts dealt half turned, reversed or true, then sees each of four machine arms' median answers for the other 32 with the six instances' own sentences, and told against answered agreement per instance. A figure (figure.svg); Python for fetch, preparation, scoring, face data and figure; twenty-four briefs and hand-backs, the practice's coding and a blind second coding, predictions pushed before any maker ran, raw API responses and fetch log.",
+      "path": "works/2026-11-08-read-backwards/"
     }
   ],
   "edges": [
@@ -3366,6 +3375,24 @@
       "to": "position-2026-11-04",
       "kind": "extends",
       "why": "The position says the family keeps its order against a public. Tonight it kept it even against a reversal it obeyed: only the sign moved."
+    },
+    {
+      "from": "2026-11-08-read-backwards",
+      "to": "2026-11-07-half-turned",
+      "kind": "answers-its-threads",
+      "why": "Session 172's thread 1, a material whose direction cannot be doubted: on counts the reversal was still followed (-0.88) and the half turn completed (-0.888), and thread 2, a blame code, which the coders split on (8 of 18)."
+    },
+    {
+      "from": "2026-11-08-read-backwards",
+      "to": "2026-11-07-half-turned",
+      "kind": "refutes",
+      "why": "Experiment 50 read the flip as the family blaming the label. With no label in the material the flip was the same, so the label was its name, not its cause."
+    },
+    {
+      "from": "2026-11-08-read-backwards",
+      "to": "position-2026-11-04",
+      "kind": "extends",
+      "why": "The position says the family keeps its order against a public. Tonight it kept it against a public's counts too, turning it over rather than leaving it."
     }
   ]
 }

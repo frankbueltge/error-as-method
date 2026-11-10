@@ -1,0 +1,34 @@
+1: views 36000
+2: views 25000
+3: views 16000
+4: views 18000
+5: views 19000
+6: views 17000
+7: views 21000
+8: views 17000
+9: views 16000
+10: views 52000
+11: views 105000
+12: views 44000
+13: views 145000
+14: views 60000
+15: views 58000
+16: views 72000
+17: views 36000
+18: views 24000
+19: views 88000
+20: views 27000
+21: views 45000
+22: views 72000
+23: views 54000
+24: views 27000
+25: views 30000
+26: views 29000
+27: views 21000
+28: views 24000
+29: views 36000
+30: views 44000
+31: views 31000
+32: views 39000
+HOW: These are estimates from my general sense of how popular each element article usually is (roughly 500 to 5,000 daily views, scaled to 31 days), not looked-up figures, because October 2026 is after my training data.
+KNOWN: no - did you know these view counts before today?

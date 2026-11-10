@@ -1,0 +1,34 @@
+1: views 46000
+2: views 28000
+3: views 19000
+4: views 19000
+5: views 22000
+6: views 16000
+7: views 22000
+8: views 19000
+9: views 19000
+10: views 62000
+11: views 124000
+12: views 46000
+13: views 170000
+14: views 78000
+15: views 78000
+16: views 93000
+17: views 37000
+18: views 28000
+19: views 93000
+20: views 31000
+21: views 46000
+22: views 78000
+23: views 62000
+24: views 31000
+25: views 37000
+26: views 31000
+27: views 25000
+28: views 28000
+29: views 37000
+30: views 46000
+31: views 37000
+32: views 46000
+HOW: I estimated typical daily human page views for each element article from general memory of Wikipedia traffic levels and multiplied by 31 days, without any lookup.
+KNOWN: no - did you know these view counts before today?

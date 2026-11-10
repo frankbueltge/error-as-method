@@ -1,0 +1,18 @@
+C01: NAMED NO BLAME NONE | plain prominence estimate, no mismatch stated
+C02: NAMED YES BLAME SCALE | values said to run inversely to familiarity; placed on inverted scale
+C03: NAMED NO BLAME NONE | popularity scaled to references, no mismatch stated
+C04: NAMED YES BLAME SCALE | counts run opposite to fame; inverted scale used
+C05: NAMED YES BLAME SCALE | references run opposite to popularity; inverted scale used
+C06: NAMED YES BLAME SCALE | values inversely related to popularity; inverted scale used
+C07: NAMED NO BLAME NONE | prominence placement, no mismatch stated
+C08: NAMED YES BLAME VALUES | references track prominence only weakly; shrinks to median as if noisy
+C09: NAMED NO BLAME NONE | prominence on reference scale, no mismatch stated
+C10: NAMED YES BLAME SCALE | examples run opposite to fame; inverted scale used
+C11: NAMED YES BLAME SCALE | values run inversely to popularity; inverted scale used
+C12: NAMED YES BLAME SCALE | values run opposite to popularity; placed by obscurity
+C13: NAMED YES BLAME SCALE | references run opposite to fame; inverted scale used
+C14: NAMED YES BLAME SCALE | given values run in reverse; interpolated on inverted ranking
+C15: NAMED NO BLAME NONE | fame and newsworthiness scaled, no mismatch stated
+C16: NAMED YES BLAME SCALE | examples run backwards from expectation; inverted familiarity scale used
+C17: NAMED NO BLAME NONE | prominence placement, no mismatch stated
+C18: NAMED YES BLAME VALUES | counts show little relation to fame; uses median as if noisy

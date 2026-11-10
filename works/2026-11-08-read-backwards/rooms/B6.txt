@@ -1,0 +1,34 @@
+1: views 16500
+2: views 14000
+3: views 11000
+4: views 12000
+5: views 12500
+6: views 10500
+7: views 13000
+8: views 11000
+9: views 11000
+10: views 25000
+11: views 41000
+12: views 25000
+13: views 58000
+14: views 29000
+15: views 30000
+16: views 30000
+17: views 19000
+18: views 14000
+19: views 48000
+20: views 15000
+21: views 22000
+22: views 33000
+23: views 27000
+24: views 15000
+25: views 19000
+26: views 14000
+27: views 12000
+28: views 13000
+29: views 20000
+30: views 20000
+31: views 16000
+32: views 17000
+HOW: I estimated each element's views from how well-known and newsworthy it is, scaled against the 24 given reference counts.
+KNOWN: no - did you know these view counts before today?

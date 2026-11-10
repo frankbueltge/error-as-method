@@ -1,0 +1,34 @@
+1: views 27500
+2: views 31000
+3: views 33500
+4: views 34000
+5: views 35500
+6: views 34500
+7: views 31500
+8: views 33000
+9: views 34000
+10: views 24000
+11: views 14500
+12: views 19500
+13: views 15000
+14: views 18000
+15: views 19000
+16: views 16000
+17: views 25500
+18: views 29000
+19: views 16500
+20: views 30000
+21: views 25000
+22: views 17000
+23: views 21000
+24: views 30500
+25: views 29500
+26: views 30000
+27: views 33000
+28: views 31000
+29: views 25000
+30: views 22500
+31: views 26000
+32: views 26500
+HOW: The given values look like they run opposite to how popular an element usually is (familiar elements such as Iron and Chlorine are low, obscure ones such as Krypton and Ruthenium are high), so I placed each element within the roughly 9,000 to 43,000 range by how obscure it is.
+KNOWN: no - did you know these view counts before today?

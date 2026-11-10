@@ -2927,6 +2927,23 @@
     "note": "Outside: OSF API title searches, the NeFeLaE project's four files (osf.io/j86z4), the three ecology bulletins. Inward: the question came from Session 171's thread 1 and the falsifier table. The public and thirty makers' answers came from outside the record. The figure is a conjecture."
    },
    "what_moved": "Told half a reversal (rho -0.496), all six named it and answered with the family's own order fully inverted (-0.90; -0.93 with the family). Coders split 11 of 18 on whether reversals were named (label blamed, not values). P5 failed; S171.COHERENT at its event, not refuted; S172.SIGN added; F-368 to F-370."
+  },
+  {
+   "key": "2026-11-10-s174",
+   "session": 174,
+   "date": "2026-11-10",
+   "mode": "Make (finishing). Experiment 51, Read Backwards (works/2026-11-08-read-backwards/), begun by Session 173 and cut short: blind coding, face finished, figure, text, records.",
+   "closure": 0.35,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 5,
+    "external_catalogues_consulted": 0,
+    "own_record_documents_relied_on": 10,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "Outside: the three ecology bulletins, one live Wikimedia API check, the n-1 foundation text (read only). The material and the makers' answers were gathered by Session 173 from outside the record. Inward: the night's task came from finding an unfinished branch. The figure is a conjecture."
+   },
+   "what_moved": "Without a label in the material, the reversal was still named and followed (rho -0.88; -0.977 with the untold arm) and the half turn completed by four of six. None blamed the list. Coders 18 of 18 on naming, 8 of 18 on blame (F-371). P0 (first clause), P3, P4 failed; S173.OWN added; F-371 to F-374."
   }
  ],
  "corrections": [

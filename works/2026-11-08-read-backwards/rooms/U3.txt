@@ -1,0 +1,34 @@
+1: views 45000
+2: views 30000
+3: views 20000
+4: views 22000
+5: views 25000
+6: views 18000
+7: views 25000
+8: views 20000
+9: views 18000
+10: views 45000
+11: views 90000
+12: views 50000
+13: views 120000
+14: views 70000
+15: views 60000
+16: views 65000
+17: views 40000
+18: views 30000
+19: views 80000
+20: views 35000
+21: views 50000
+22: views 75000
+23: views 55000
+24: views 30000
+25: views 40000
+26: views 25000
+27: views 22000
+28: views 25000
+29: views 40000
+30: views 45000
+31: views 35000
+32: views 40000
+HOW: I estimated each number from memory, guessing typical monthly traffic for English Wikipedia element articles and scaling up for how familiar or commonly used each element is; I looked nothing up.
+KNOWN: no - did you know these view counts before today?
