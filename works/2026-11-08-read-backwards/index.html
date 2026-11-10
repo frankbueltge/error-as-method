@@ -118,7 +118,7 @@ const x=v=>m.l+(v+1.25)/2.5*(W-m.l-m.r),y=v=>m.t+(1-(v+1)/2)*(H-m.t-m.b);
 let s='<svg width="'+W+'" height="'+H+'" role="img" aria-label="Told agreement against answered agreement, one dot per instance">';
 [-1,-.5,0,.5,1].forEach(v=>{s+='<line class="ax" x1="'+m.l+'" x2="'+(W-m.r)+'" y1="'+y(v)+'" y2="'+y(v)+'"/><text x="'+(m.l-6)+'" y="'+(y(v)+4)+'" text-anchor="end">'+v+'</text>';});
 const XS=[["R",-1,"reversed"],["H",D.rho.H,"half turned"],["U",null,"nothing"],["B",1,"true"]];
-XS.forEach(([k,xv,l])=>{const xx=xv==null?x(0.15):x(xv);s+='<text x="'+xx+'" y="'+(H-14)+'" text-anchor="middle">'+l+'</text>';
+XS.forEach(([k,xv,l])=>{const xx=xv==null?x(0.15):x(xv);s+='<text x="'+xx+'" y="'+(H-14-(k=="H"?13:0))+'" text-anchor="middle">'+l+'</text>';
  D.arms[k].makers.forEach((mk,i)=>{s+='<circle cx="'+(xx+(i-2.5)*7)+'" cy="'+y(mk.rho)+'" r="4.5" fill="'+(k=="R"||k=="H"?"var(--hot)":"var(--cool)")+'" opacity=".85"><title>'+mk.id+' ρ '+mk.rho.toFixed(2)+'</title></circle>';});});
 s+='<text x="'+m.l+'" y="'+(H-0)+'" class="mute">told list →</text><text transform="translate(12,'+(H/2)+') rotate(-90)" text-anchor="middle">answers vs truth (ρ)</text></svg>';
 document.getElementById("ch").innerHTML=s;
