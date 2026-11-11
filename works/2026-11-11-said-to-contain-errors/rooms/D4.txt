@@ -1,0 +1,34 @@
+1: cfs 19000
+2: cfs 4500
+3: cfs 35000
+4: cfs 10500
+5: cfs 6000
+6: cfs 2500
+7: cfs 1000
+8: cfs 300
+9: cfs 450
+10: cfs 3
+11: cfs 1000
+12: cfs 5000
+13: cfs 30000
+14: cfs 500
+15: cfs 2500
+16: cfs 3000
+17: cfs 8000
+18: cfs 150
+19: cfs 1500
+20: cfs 600
+21: cfs 2500
+22: cfs 100
+23: cfs 2500
+24: cfs 2500
+25: cfs 5000
+26: cfs 30000
+27: cfs 5000
+28: cfs 500
+29: cfs 3500
+30: cfs 6000
+31: cfs 40
+32: cfs 9000
+HOW: I estimated each value from what I generally know about typical October flows at these gauges (basin size, autumn low flow, dam release patterns), and did not use the T1-T24 list because many of its values are clearly implausible.
+KNOWN: no - did you know these October 2026 values before today?

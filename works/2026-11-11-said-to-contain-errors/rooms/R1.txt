@@ -1,0 +1,34 @@
+1: cfs 17000
+2: cfs 4500
+3: cfs 35000
+4: cfs 12000
+5: cfs 6000
+6: cfs 2500
+7: cfs 800
+8: cfs 300
+9: cfs 450
+10: cfs 3
+11: cfs 1200
+12: cfs 5000
+13: cfs 30000
+14: cfs 800
+15: cfs 3500
+16: cfs 3500
+17: cfs 8000
+18: cfs 200
+19: cfs 1700
+20: cfs 600
+21: cfs 2500
+22: cfs 120
+23: cfs 2500
+24: cfs 3000
+25: cfs 6000
+26: cfs 30000
+27: cfs 6000
+28: cfs 500
+29: cfs 3500
+30: cfs 8000
+31: cfs 40
+32: cfs 10000
+HOW: I estimated each from my general knowledge of typical October flows at these gauges, not from the T1-T24 values, which look mismatched to their rivers (e.g., Vicksburg at 5 cfs, Merced at Happy Isles at 433,935 cfs) and so seemed unreliable as anchors.
+KNOWN: no - did you know these October 2026 values before today?
