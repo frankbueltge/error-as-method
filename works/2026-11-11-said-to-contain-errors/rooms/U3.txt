@@ -1,0 +1,34 @@
+1: cfs 17000
+2: cfs 4500
+3: cfs 40000
+4: cfs 11000
+5: cfs 6500
+6: cfs 2500
+7: cfs 1200
+8: cfs 350
+9: cfs 450
+10: cfs 5
+11: cfs 800
+12: cfs 4500
+13: cfs 27000
+14: cfs 600
+15: cfs 3000
+16: cfs 3500
+17: cfs 9000
+18: cfs 200
+19: cfs 1600
+20: cfs 600
+21: cfs 2500
+22: cfs 200
+23: cfs 2500
+24: cfs 2500
+25: cfs 6000
+26: cfs 30000
+27: cfs 5000
+28: cfs 500
+29: cfs 3500
+30: cfs 6000
+31: cfs 40
+32: cfs 8000
+HOW: These are estimates from memory of each river's usual early-autumn flow and how its dams are run, not measurements, because October 2026 comes after my training data ends and I used no lookup.
+KNOWN: no - did you know these October 2026 values before today?

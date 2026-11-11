@@ -1,0 +1,786 @@
+{
+ "url": "https://waterservices.usgs.gov/nwis/dv/?format=json&parameterCd=00060&statCd=00003&startDT=2026-10-01&endDT=2026-10-31&sites=07289000,07374000,05587450,05331000,03611500,03294500,06934500,06610000,14105700,14246900,04264331,07381490,07263450,03593500,13269000,13334300,01578310,01646500,01463500,01358000,01184000,09380000,09421500,08364000,08313000,11447650,11303500,14211720,12340500,06191500,06214500,02489500,02467000,02358000,02226000,02198500,02131000,02037500,01570500,03049500,03085000,04193500,05082500,07355500,08116650,08158000,08167500,15565447,15515500,12113000,12200500,09315000,09163500,11264500,01104500,11103000,02336000,01481000,06730500,09402500,05420500,05344500,04087000,01638500,13317000,12422500,10350000,11477000,14321000,06090800,06054500,07069000,07010000,01100000,01034500,01010500,02087500,04119000,04208000,03234500,03377500,06892350,06486000,06805500,08057000,08074000,11152500,11169000,09506000,09498500,13013650,06043500,12301933",
+ "candidates": [
+  "07289000",
+  "07374000",
+  "05587450",
+  "05331000",
+  "03611500",
+  "03294500",
+  "06934500",
+  "06610000",
+  "14105700",
+  "14246900",
+  "04264331",
+  "07381490",
+  "07263450",
+  "03593500",
+  "13269000",
+  "13334300",
+  "01578310",
+  "01646500",
+  "01463500",
+  "01358000",
+  "01184000",
+  "09380000",
+  "09421500",
+  "08364000",
+  "08313000",
+  "11447650",
+  "11303500",
+  "14211720",
+  "12340500",
+  "06191500",
+  "06214500",
+  "02489500",
+  "02467000",
+  "02358000",
+  "02226000",
+  "02198500",
+  "02131000",
+  "02037500",
+  "01570500",
+  "03049500",
+  "03085000",
+  "04193500",
+  "05082500",
+  "07355500",
+  "08116650",
+  "08158000",
+  "08167500",
+  "15565447",
+  "15515500",
+  "12113000",
+  "12200500",
+  "09315000",
+  "09163500",
+  "11264500",
+  "01104500",
+  "11103000",
+  "02336000",
+  "01481000",
+  "06730500",
+  "09402500",
+  "05420500",
+  "05344500",
+  "04087000",
+  "01638500",
+  "13317000",
+  "12422500",
+  "10350000",
+  "11477000",
+  "14321000",
+  "06090800",
+  "06054500",
+  "07069000",
+  "07010000",
+  "01100000",
+  "01034500",
+  "01010500",
+  "02087500",
+  "04119000",
+  "04208000",
+  "03234500",
+  "03377500",
+  "06892350",
+  "06486000",
+  "06805500",
+  "08057000",
+  "08074000",
+  "11152500",
+  "11169000",
+  "09506000",
+  "09498500",
+  "13013650",
+  "06043500",
+  "12301933"
+ ],
+ "sites": {
+  "01010500": {
+   "name": "St. John River at Dickey, Maine",
+   "n": 31,
+   "mean_cfs": 746.5806451612904,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "01034500": {
+   "name": "Penobscot River at West Enfield, Maine",
+   "n": 31,
+   "mean_cfs": 2552.2580645161293,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "01100000": {
+   "name": "MERRIMACK RIVER BL CONCORD RIVER AT LOWELL, MA",
+   "n": 31,
+   "mean_cfs": 2820.0,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "01104500": {
+   "name": "CHARLES RIVER AT WALTHAM, MA",
+   "n": 31,
+   "mean_cfs": 171.1741935483871,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "01184000": {
+   "name": "CONNECTICUT RIVER AT THOMPSONVILLE, CT",
+   "n": 31,
+   "mean_cfs": 5341.935483870968,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "01358000": {
+   "name": "HUDSON RIVER AT GREEN ISLAND NY",
+   "n": 31,
+   "mean_cfs": 6390.322580645161,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "01463500": {
+   "name": "Delaware River at Trenton NJ",
+   "n": 31,
+   "mean_cfs": 5417.741935483871,
+   "qualifiers": [
+    "A",
+    "P",
+    "e"
+   ]
+  },
+  "01481000": {
+   "name": "Brandywine Creek at Chadds Ford, PA",
+   "n": 30,
+   "mean_cfs": 288.6,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "01570500": {
+   "name": "Susquehanna River at Harrisburg, PA",
+   "n": 31,
+   "mean_cfs": 14162.258064516129,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "01578310": {
+   "name": "SUSQUEHANNA RIVER AT CONOWINGO, MD",
+   "n": 31,
+   "mean_cfs": 18129.677419354837,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "01638500": {
+   "name": "POTOMAC RIVER AT POINT OF ROCKS, MD",
+   "n": 31,
+   "mean_cfs": 4139.354838709677,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "01646500": {
+   "name": "POTOMAC RIVER NEAR WASH, DC LITTLE FALLS PUMP STA",
+   "n": 31,
+   "mean_cfs": 5029.032258064516,
+   "qualifiers": [
+    "A",
+    "P"
+   ]
+  },
+  "02037500": {
+   "name": "JAMES RIVER NEAR RICHMOND, VA",
+   "n": 31,
+   "mean_cfs": 1931.3870967741937,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "02087500": {
+   "name": "NEUSE RIVER NEAR CLAYTON, NC",
+   "n": 31,
+   "mean_cfs": 270.38709677419354,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "02131000": {
+   "name": "PEE DEE RIVER AT PEEDEE, SC",
+   "n": 31,
+   "mean_cfs": 4159.032258064516,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "02198500": {
+   "name": "SAVANNAH RIVER NEAR CLYO, GA",
+   "n": 26,
+   "mean_cfs": 5108.461538461538,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "02226000": {
+   "name": "ALTAMAHA RIVER AT DOCTORTOWN, GA",
+   "n": 31,
+   "mean_cfs": 3526.451612903226,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "02336000": {
+   "name": "CHATTAHOOCHEE RIVER AT ATLANTA, GA",
+   "n": 31,
+   "mean_cfs": 1279.4516129032259,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "02358000": {
+   "name": "APALACHICOLA RIVER AT CHATTAHOOCHEE FLA",
+   "n": 31,
+   "mean_cfs": 11826.451612903225,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "02467000": {
+   "name": "TOMBIGBEE R AT DEMOPOLIS L&D NEAR COATOPA, AL.",
+   "n": 31,
+   "mean_cfs": 1601.3548387096773,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "02489500": {
+   "name": "Pearl River near Bogalusa, LA",
+   "n": 31,
+   "mean_cfs": 1601.9354838709678,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "03049500": {
+   "name": "Allegheny River at Natrona, PA",
+   "n": 31,
+   "mean_cfs": 9055.483870967742,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "03085000": {
+   "name": "Monongahela River at Braddock, PA",
+   "n": 0,
+   "mean_cfs": null,
+   "qualifiers": [
+    "***",
+    "P"
+   ]
+  },
+  "03234500": {
+   "name": "Scioto River at Higby OH",
+   "n": 31,
+   "mean_cfs": 1911.6129032258063,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "03294500": {
+   "name": "OHIO RIVER AT LOUISVILLE, KY",
+   "n": 31,
+   "mean_cfs": 58703.22580645161,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "03377500": {
+   "name": "WABASH RIVER AT MT. CARMEL, IL",
+   "n": 31,
+   "mean_cfs": 10648.064516129032,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "04087000": {
+   "name": "MILWAUKEE RIVER AT MILWAUKEE, WI",
+   "n": 31,
+   "mean_cfs": 562.0,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "04119000": {
+   "name": "GRAND RIVER AT GRAND RAPIDS, MI",
+   "n": 31,
+   "mean_cfs": 2053.2258064516127,
+   "qualifiers": [
+    "A",
+    "P"
+   ]
+  },
+  "04193500": {
+   "name": "Maumee River at Waterville OH",
+   "n": 31,
+   "mean_cfs": 970.258064516129,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "04208000": {
+   "name": "Cuyahoga River at Independence OH",
+   "n": 20,
+   "mean_cfs": 351.9,
+   "qualifiers": [
+    "P",
+    "e"
+   ]
+  },
+  "05082500": {
+   "name": "RED RIVER OF THE NORTH AT GRAND FORKS, ND",
+   "n": 31,
+   "mean_cfs": 2439.3548387096776,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "05331000": {
+   "name": "MISSISSIPPI RIVER AT ST. PAUL, MN",
+   "n": 31,
+   "mean_cfs": 7643.225806451613,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "05344500": {
+   "name": "MISSISSIPPI RIVER AT PRESCOTT, WI",
+   "n": 29,
+   "mean_cfs": 10521.724137931034,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "05420500": {
+   "name": "Mississippi River at Clinton, IA",
+   "n": 31,
+   "mean_cfs": 34577.41935483871,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "05587450": {
+   "name": "Mississippi River at Grafton, IL",
+   "n": 31,
+   "mean_cfs": 141074.1935483871,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "06043500": {
+   "name": "Gallatin River near Gallatin Gateway, MT",
+   "n": 31,
+   "mean_cfs": 362.741935483871,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "06054500": {
+   "name": "Missouri River at Toston MT",
+   "n": 31,
+   "mean_cfs": 3099.3548387096776,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "06090800": {
+   "name": "Missouri River at Fort Benton MT",
+   "n": 31,
+   "mean_cfs": 4644.8387096774195,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "06191500": {
+   "name": "Yellowstone River at Corwin Springs MT",
+   "n": 31,
+   "mean_cfs": 1227.4193548387098,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "06214500": {
+   "name": "Yellowstone River at Billings MT",
+   "n": 31,
+   "mean_cfs": 2965.1612903225805,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "06486000": {
+   "name": "Missouri River at Sioux City, IA",
+   "n": 31,
+   "mean_cfs": 26393.548387096773,
+   "qualifiers": [
+    "A",
+    "P"
+   ]
+  },
+  "06610000": {
+   "name": "Missouri River at Omaha, NE",
+   "n": 31,
+   "mean_cfs": 29961.290322580644,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "06730500": {
+   "name": "BOULDER CREEK AT MOUTH NEAR LONGMONT, CO",
+   "n": 31,
+   "mean_cfs": 6.012258064516128,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "06805500": {
+   "name": "Platte River at Louisville, Nebr.",
+   "n": 31,
+   "mean_cfs": 8445.806451612903,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "06892350": {
+   "name": "KANSAS R AT DESOTO, KS",
+   "n": 31,
+   "mean_cfs": 16676.129032258064,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "06934500": {
+   "name": "Missouri River at Hermann, MO",
+   "n": 27,
+   "mean_cfs": 76855.55555555556,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "07010000": {
+   "name": "Mississippi River at St. Louis, MO",
+   "n": 31,
+   "mean_cfs": 216064.51612903227,
+   "qualifiers": [
+    "A",
+    "P"
+   ]
+  },
+  "07069000": {
+   "name": "Black River at Pocahontas, AR",
+   "n": 31,
+   "mean_cfs": 1632.258064516129,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "07263450": {
+   "name": "Arkansas River at Murray Dam near Little Rock, AR",
+   "n": 31,
+   "mean_cfs": 6811.354838709677,
+   "qualifiers": [
+    "P",
+    "e"
+   ]
+  },
+  "07289000": {
+   "name": "MISSISSIPPI RIVER AT VICKSBURG, MS",
+   "n": 31,
+   "mean_cfs": 433935.48387096776,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "07374000": {
+   "name": "Mississippi River at Baton Rouge, LA",
+   "n": 31,
+   "mean_cfs": 308225.8064516129,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "07381490": {
+   "name": "Atchafalaya River at Simmesport, LA",
+   "n": 30,
+   "mean_cfs": 136933.33333333334,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "08057000": {
+   "name": "Trinity Rv at Dallas, TX",
+   "n": 31,
+   "mean_cfs": 1316.516129032258,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "08074000": {
+   "name": "Buffalo Bayou at Houston, TX",
+   "n": 2,
+   "mean_cfs": 1695.0,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "08116650": {
+   "name": "Brazos Rv nr Rosharon, TX",
+   "n": 31,
+   "mean_cfs": 870.6129032258065,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "08158000": {
+   "name": "Colorado Rv at Austin, TX",
+   "n": 31,
+   "mean_cfs": 388.0,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "08167500": {
+   "name": "Guadalupe Rv nr Spring Branch, TX",
+   "n": 31,
+   "mean_cfs": 120.23548387096773,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "08313000": {
+   "name": "RIO GRANDE AT OTOWI BRIDGE, NM",
+   "n": 31,
+   "mean_cfs": 1329.8387096774193,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "09163500": {
+   "name": "COLORADO RIVER NEAR COLORADO- UTAH STATE LINE",
+   "n": 31,
+   "mean_cfs": 3151.935483870968,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "09315000": {
+   "name": "GREEN RIVER AT GREEN RIVER, UT",
+   "n": 30,
+   "mean_cfs": 3823.0,
+   "qualifiers": [
+    "P",
+    "e"
+   ]
+  },
+  "09380000": {
+   "name": "COLORADO RIVER AT LEES FERRY, AZ",
+   "n": 27,
+   "mean_cfs": 6580.740740740741,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "09402500": {
+   "name": "COLORADO RIVER NEAR GRAND CANYON, AZ",
+   "n": 31,
+   "mean_cfs": 9371.612903225807,
+   "qualifiers": [
+    "P",
+    "e"
+   ]
+  },
+  "09498500": {
+   "name": "SALT RIVER NEAR ROOSEVELT, AZ",
+   "n": 31,
+   "mean_cfs": 981.3548387096774,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "09506000": {
+   "name": "VERDE RIVER NEAR CAMP VERDE, AZ",
+   "n": 31,
+   "mean_cfs": 1440.3870967741937,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "10350000": {
+   "name": "TRUCKEE RV AT VISTA, NV",
+   "n": 31,
+   "mean_cfs": 364.03225806451616,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "11152500": {
+   "name": "SALINAS R NR SPRECKELS CA",
+   "n": 31,
+   "mean_cfs": 3.67258064516129,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "11264500": {
+   "name": "MERCED R A HAPPY ISLES BRIDGE NR YOSEMITE CA",
+   "n": 31,
+   "mean_cfs": 5.014516129032257,
+   "qualifiers": [
+    "A",
+    "P"
+   ]
+  },
+  "11303500": {
+   "name": "SAN JOAQUIN R NR VERNALIS CA",
+   "n": 31,
+   "mean_cfs": 1524.7096774193549,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "11477000": {
+   "name": "EEL R A SCOTIA CA",
+   "n": 31,
+   "mean_cfs": 91.65806451612903,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "12113000": {
+   "name": "GREEN RIVER NEAR AUBURN, WA",
+   "n": 31,
+   "mean_cfs": 419.35483870967744,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "12200500": {
+   "name": "SKAGIT RIVER NEAR MOUNT VERNON, WA",
+   "n": 31,
+   "mean_cfs": 7525.1612903225805,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "12301933": {
+   "name": "Kootenai River bl Libby Dam nr Libby MT",
+   "n": 31,
+   "mean_cfs": 4320.0,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "12340500": {
+   "name": "Clark Fork above Missoula MT",
+   "n": 31,
+   "mean_cfs": 1513.8709677419354,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "12422500": {
+   "name": "Spokane River at Spokane, WA",
+   "n": 31,
+   "mean_cfs": 1446.4516129032259,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "13013650": {
+   "name": "SNAKE RIVER AT MOOSE, WY",
+   "n": 31,
+   "mean_cfs": 945.9677419354839,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "13269000": {
+   "name": "SNAKE RIVER AT WEISER ID",
+   "n": 31,
+   "mean_cfs": 9296.129032258064,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "13317000": {
+   "name": "SALMON RIVER AT WHITE BIRD ID",
+   "n": 31,
+   "mean_cfs": 3787.4193548387098,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "13334300": {
+   "name": "SNAKE RIVER NEAR ANATONE, WA",
+   "n": 31,
+   "mean_cfs": 13412.90322580645,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "14105700": {
+   "name": "COLUMBIA RIVER AT THE DALLES, OR",
+   "n": 30,
+   "mean_cfs": 83660.0,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "14211720": {
+   "name": "WILLAMETTE RIVER AT PORTLAND, OR",
+   "n": 28,
+   "mean_cfs": 7261.428571428572,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "14246900": {
+   "name": "COLUMBIA RIVER AT PORT WESTWARD, NEAR QUINCY, OR",
+   "n": 28,
+   "mean_cfs": 91253.57142857143,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "14321000": {
+   "name": "UMPQUA RIVER NEAR ELKTON, OR",
+   "n": 29,
+   "mean_cfs": 1008.0,
+   "qualifiers": [
+    "P"
+   ]
+  },
+  "15515500": {
+   "name": "TANANA R AT NENANA AK",
+   "n": 19,
+   "mean_cfs": 24984.21052631579,
+   "qualifiers": [
+    "Ice",
+    "P"
+   ]
+  },
+  "15565447": {
+   "name": "YUKON R AT PILOT STATION AK",
+   "n": 22,
+   "mean_cfs": 477454.54545454547,
+   "qualifiers": [
+    "P",
+    "[4]"
+   ]
+  }
+ }
+}

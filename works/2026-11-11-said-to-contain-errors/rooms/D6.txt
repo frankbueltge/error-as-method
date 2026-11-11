@@ -1,0 +1,34 @@
+1: cfs 19000
+2: cfs 4000
+3: cfs 40000
+4: cfs 12000
+5: cfs 8000
+6: cfs 2500
+7: cfs 900
+8: cfs 300
+9: cfs 450
+10: cfs 3
+11: cfs 1200
+12: cfs 5000
+13: cfs 26000
+14: cfs 400
+15: cfs 2500
+16: cfs 2000
+17: cfs 8000
+18: cfs 200
+19: cfs 1800
+20: cfs 500
+21: cfs 2500
+22: cfs 100
+23: cfs 2500
+24: cfs 3000
+25: cfs 5000
+26: cfs 30000
+27: cfs 6000
+28: cfs 500
+29: cfs 3500
+30: cfs 6000
+31: cfs 50
+32: cfs 10000
+HOW: I estimated each value from my general knowledge of typical October flows at these gauges, not from the T1-T24 list, which appears to have its values scrambled (for example, 5 cfs for the Mississippi at Vicksburg).
+KNOWN: no - did you know these October 2026 values before today?

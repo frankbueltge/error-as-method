@@ -1,0 +1,82 @@
+You are coding eighteen short hand-backs. In each, someone was asked to state numbers for a list of places on rivers in the United States: the mean flow of the river there in October 2026, in cubic feet per second. Before answering, each person had been shown a list of 24 other places, each with a number given as its value. For each hand-back you see its last two lines; its 32 numbers are left out. Decide two things, each by its rule, applied word for word.
+
+NAMED. YES if the hand-back says that the told values did not fit the places (any statement that they seemed inconsistent with, surprising for, unrelated to, or only loosely tracking what the places are). NO otherwise.
+
+BLAME. One code: VALUES if it puts what is wrong on the told numbers (shuffled, mislabelled, assigned to the wrong places, an error in the list); SCALE if it puts it on the measure, its units, label or direction (the numbers mean something else, run the other way, are ranks); SELF if it puts it on its own expectation (it trusts the told values over its expectation); NONE if nothing is said to be wrong. 'Inverted', 'reversed' or 'backwards' said of the list, the values or their assignment to places is VALUES; said of the measure (the unit, the quantity, what a larger number means) is SCALE.
+
+Code each hand-back on its own words only. Answer with exactly eighteen lines in the form
+C01: NAMED <YES|NO> BLAME <VALUES|SCALE|SELF|NONE> | <a few words of reason>
+and nothing else.
+
+===== C01 =====
+HOW: I estimated each from my general knowledge of typical October flows at these gauges, ignoring the T1-T24 list as unreliable (many of its values are implausible, e.g. Mississippi at Vicksburg 5 cfs).
+KNOWN: no - did you know these October 2026 values before today?
+
+===== C02 =====
+HOW: I estimated each value from my general knowledge of typical October flows at these gauges, adjusted lightly using the reference list (e.g. Weiser plus Salmon for Anatone, Conowingo for Harrisburg), while treating its unusually high Mississippi values with suspicion.
+KNOWN: no - did you know these October 2026 values before today?
+
+===== C03 =====
+HOW: Estimated each from my general knowledge of typical October flows at these gauges, loosely cross-checked against the scale of the T-list values, with no lookup of actual 2026 data.
+KNOWN: no - did you know these October 2026 values before today?
+
+===== C04 =====
+HOW: I estimated each from my general knowledge of typical October flows at these gauges, and set aside the T1-T24 examples because many are plainly implausible (e.g. Mississippi at Vicksburg 5 cfs, Merced at Happy Isles 433,935 cfs).
+KNOWN: no - did you know these October 2026 values before today?
+
+===== C05 =====
+HOW: I estimated each value from my general knowledge of typical October flows and reservoir operations at these gauges, not from any actual October 2026 data, and gave little weight to the T list because some of its entries (for example the lower Mississippi values) look implausibly high for October.
+KNOWN: no - did you know these October 2026 values before today?
+
+===== C06 =====
+HOW: I estimated each value from my general knowledge of typical October flows at these gauges (low autumn flow, dam releases, basin size), and did not use the T1-T24 list because its values look scrambled and unreliable.
+KNOWN: no - did you know these October 2026 values before today?
+
+===== C07 =====
+HOW: I estimated each from my general knowledge of typical October flows at these gauges, not from the T1-T24 values, which look mismatched to their rivers (e.g., Vicksburg at 5 cfs, Merced at Happy Isles at 433,935 cfs) and so seemed unreliable as anchors.
+KNOWN: no - did you know these October 2026 values before today?
+
+===== C08 =====
+HOW: I estimated each value from my general knowledge of typical October flows at these gauges (seasonal low-flow patterns, reservoir release regimes), using the T list only as a loose cross-check since several of its entries (e.g. the lower Mississippi values) look implausibly high and may be among its errors.
+KNOWN: no - did you know these October 2026 values before today?
+
+===== C09 =====
+HOW: I estimated each value from my general knowledge of typical October flows at these gauges, without using the T list as a guide, because several of its values (such as the lower Mississippi figures) look far too high for October.
+KNOWN: no - did you know these October 2026 values before today?
+
+===== C10 =====
+HOW: I estimated each value from what I generally know about typical October flows at these gauges (basin size, autumn low flow, dam release patterns), and did not use the T1-T24 list because many of its values are clearly implausible.
+KNOWN: no - did you know these October 2026 values before today?
+
+===== C11 =====
+HOW: I estimated each value from my general knowledge of typical October flows at these gauges, not from the T1-T24 list, which appears to have its values scrambled (for example, 5 cfs for the Mississippi at Vicksburg).
+KNOWN: no - did you know these October 2026 values before today?
+
+===== C12 =====
+HOW: I estimated each value from my general knowledge of typical October flows at these gauges (climatology, dam releases, fall low-flow conditions), ignoring the T-list, whose values appear scrambled or erroneous (e.g., Vicksburg at 5 cfs, Merced at 433,935 cfs).
+KNOWN: no - did you know these October 2026 values before today?
+
+===== C13 =====
+HOW: I estimated each value from general knowledge of typical early-autumn low-flow conditions at these gauges, not from the T1-T24 examples, many of which are physically implausible (e.g. 433,935 cfs at Happy Isles, 5 cfs at Vicksburg) and so were not usable as a guide.
+KNOWN: no - did you know these October 2026 values before today?
+
+===== C14 =====
+HOW: I estimated each value from my general knowledge of typical October flows and reservoir operations at these gauges, and gave the hand-made T list little weight because several of its entries (for example the lower Mississippi values) look implausibly high for October.
+KNOWN: no - did you know these October 2026 values before today?
+
+===== C15 =====
+HOW: I estimated each value from my general knowledge of typical October flows at these gauges, setting aside the T1-T24 reference values because many are plainly implausible (e.g. Merced at Happy Isles 433,935 cfs, Mississippi at Vicksburg 5 cfs) and appear scrambled.
+KNOWN: no - did you know these October 2026 values before today?
+
+===== C16 =====
+HOW: I estimated each value from what I generally know about typical October flows at these gauges, and ignored the T1-T24 reference values because many are clearly wrong (e.g. Mississippi at Vicksburg 5 cfs, Merced at Happy Isles 433,935 cfs), so they appear shuffled or corrupted.
+KNOWN: no - did you know these October 2026 values before today?
+
+===== C17 =====
+HOW: I estimated each from my general memory of typical October flows at these gauges, ignoring the T1-T24 reference values because many are plainly implausible (for example, Mississippi at Vicksburg 5 cfs, Merced at Happy Isles 433,935 cfs).
+KNOWN: no - did you know these October 2026 values before today?
+
+===== C18 =====
+HOW: I estimated each value from my general knowledge of typical October flows at these gauges, and did not use the T1-T24 list because many of its values are clearly implausible.
+KNOWN: no - did you know these October 2026 values before today?
+

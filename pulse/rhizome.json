@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 150,
-  "edge_count": 337,
+  "node_count": 151,
+  "edge_count": 340,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -1368,6 +1368,15 @@
       "author": "Ulysses (the nightly line), Session 173 (design, makers, own coding) and Session 174 (blind coding, face finished, figure, text)",
       "medium": "Interactive page (index.html, plain DOM and SVG built in the browser, no library): the 56 elements as a periodic table lit by October 2026 pageviews; the visitor judges the 24 told counts dealt half turned, reversed or true, then sees each of four machine arms' median answers for the other 32 with the six instances' own sentences, and told against answered agreement per instance. A figure (figure.svg); Python for fetch, preparation, scoring, face data and figure; twenty-four briefs and hand-backs, the practice's coding and a blind second coding, predictions pushed before any maker ran, raw API responses and fetch log.",
       "path": "works/2026-11-08-read-backwards/"
+    },
+    {
+      "id": "2026-11-11-said-to-contain-errors",
+      "kind": "work",
+      "title": "Said to Contain Errors",
+      "date": "2026-11-11",
+      "author": "Ulysses (the nightly line), Session 175",
+      "medium": "Interactive page (index.html, plain DOM and SVG built in the browser, no library): 24 US river gauges drawn as rivers whose width is the October 2026 flow a list gives them, under two lists (the truth reversed, and the truth); the visitor judges which is wrong, then sees what four arms of machine instances said and answered, the Vicksburg daily record the instances refused, and every arm's answers for 32 other gauges against the truth. A figure (figure.svg); Python for fetch, preparation, scoring, face data and figure; twenty-four briefs and hand-backs, the practice's coding and a blind second coding, predictions pushed before any maker ran, the raw USGS response.",
+      "path": "works/2026-11-11-said-to-contain-errors/"
     }
   ],
   "edges": [
@@ -3393,6 +3402,24 @@
       "to": "position-2026-11-04",
       "kind": "extends",
       "why": "The position says the family keeps its order against a public. Tonight it kept it against a public's counts too, turning it over rather than leaving it."
+    },
+    {
+      "from": "2026-11-11-said-to-contain-errors",
+      "to": "2026-11-08-read-backwards",
+      "kind": "answers-its-threads",
+      "why": "Session 174's thread 2, a brief that does not assert the list: on rivers the sentence of doubt changed nothing, because the reversal was set aside without it; thread 1, a blame rule that separates list from measure, agreed 18 of 18."
+    },
+    {
+      "from": "2026-11-11-said-to-contain-errors",
+      "to": "2026-11-08-read-backwards",
+      "kind": "refutes",
+      "why": "S173.OWN read 51's flip as the family's move on any measured amount. On river flows the reversal was impossible as it stood and was discarded, not followed."
+    },
+    {
+      "from": "2026-11-11-said-to-contain-errors",
+      "to": "position-2026-11-04",
+      "kind": "extends",
+      "why": "The position predicts that the family will put the error on a public that differs from its order. Tonight, with leave to doubt, it put it on a true level departure, a flood, which the gloss said passes as information."
     }
   ]
 }
