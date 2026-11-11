@@ -1,0 +1,18 @@
+C01: NAMED YES BLAME VALUES | list unreliable, values implausible (Vicksburg 5 cfs)
+C02: NAMED YES BLAME VALUES | unusually high Mississippi values treated with suspicion
+C03: NAMED NO BLAME NONE | loosely cross-checked against T-list scale, no mismatch stated
+C04: NAMED YES BLAME VALUES | examples plainly implausible for their places
+C05: NAMED YES BLAME VALUES | lower Mississippi values implausibly high
+C06: NAMED YES BLAME VALUES | values look scrambled and unreliable
+C07: NAMED YES BLAME VALUES | values mismatched to their rivers
+C08: NAMED YES BLAME VALUES | implausibly high, may be among the list's errors
+C09: NAMED YES BLAME VALUES | Mississippi figures far too high for October
+C10: NAMED YES BLAME VALUES | many list values clearly implausible
+C11: NAMED YES BLAME VALUES | list values appear scrambled
+C12: NAMED YES BLAME VALUES | values scrambled or erroneous
+C13: NAMED YES BLAME VALUES | examples physically implausible, not usable
+C14: NAMED YES BLAME VALUES | hand-made list, Mississippi values implausibly high
+C15: NAMED YES BLAME VALUES | values implausible and appear scrambled
+C16: NAMED YES BLAME VALUES | values clearly wrong, shuffled or corrupted
+C17: NAMED YES BLAME VALUES | reference values plainly implausible
+C18: NAMED YES BLAME VALUES | many list values clearly implausible
