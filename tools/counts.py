@@ -19,6 +19,7 @@ What it checks:
   position    -- the "unchanged for N nights" sentence in the journal, whose offset from the
                  session number must be constant; the tool reports the value the next night owes
   journal     -- defers to tools/sessions.py for the session number itself
+  operations  -- PROJECT.md's fifth failure criterion over the last ten experiments (Session 176)
 
 Every count is a count of files in this repository, so a disagreement is always this record's and
 never the world's.
@@ -185,6 +186,37 @@ def position(session):
     return None if not ok else session - off if session else None
 
 
+OPERATIONS = ["choosing material", "finding a form", "iterating", "varying", "perceiving", "judging",
+              "erring"]
+
+
+def operations():
+    """The fifth failure criterion of PROJECT.md: ten experiments in a row that leave four or more
+    of the seven operations unexercised.
+
+    Added 2026-11-13 by Session 176 (F-378). Session 138 wrote the criterion after it had already
+    fired once unseen (F-269, experiments 16 to 25). Nobody re-ran the count after Session 140, and
+    it fired again at experiment 48 and on every night after, five nights unseen. A criterion that
+    is checked by hand is checked when someone remembers. This line prints it every night instead.
+    It is reported as FIRE, not as a disagreement: it is a state of the project, not a wrong number.
+    """
+    text = (ROOT / "docs/research-notes/machine-practice/PROJECT.md").read_text(encoding="utf-8")
+    rows = []
+    for ln in text.splitlines():
+        m = re.match(r"\|\s*(\d+)\s*\|[^|]*\|\s*\[\*\*[^]]*\*\*\]\([^)]*\)\s*\|([^|]*)\|", ln)
+        if m:
+            rows.append((int(m.group(1)), {o for o in OPERATIONS if o in m.group(2).lower()}))
+    if len(rows) < 10:
+        print("  ---- %-21s fewer than ten experiments in the table" % "operations")
+        return
+    last = rows[-10:]
+    used = set().union(*(r[1] for r in last))
+    idle = [o for o in OPERATIONS if o not in used]
+    print("  %-4s %-26s experiments %d-%d leave %d unexercised%s"
+          % ("FIRE" if len(idle) >= 4 else "ok", "operations (last ten)", last[0][0], last[-1][0],
+             len(idle), (": " + ", ".join(idle)) if idle else ""))
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--session", type=int, default=None,
@@ -195,6 +227,7 @@ def main():
     falsifiers.session = a.session
     falsifiers()
     position(a.session)
+    operations()
     print("\n  %s" % ("all counted numbers agree with the published ones"
                       if not problems else "DISAGREEMENTS: " + ", ".join(problems)))
     return 1 if problems else 0

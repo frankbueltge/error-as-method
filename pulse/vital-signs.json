@@ -2961,6 +2961,23 @@
     "note": "Outside: the three ecology bulletins, a fresh USGS harvest of 93 gauges, the n-1 foundation text (read only). Inward: the question came from Session 174's open thread 2 and the design from experiment 51. The figure is a conjecture."
    },
    "what_moved": "A sentence allowing the list to be wrong changed nothing against an impossible reversal (12 of 12 set it aside, rho +0.87/+0.89), and five of six refused a true flood under it. S173.OWN falsified; S175.LICENCE added; F-375 to F-377. P2, P3, P4 failed."
+  },
+  {
+   "key": "2026-11-13-s176",
+   "session": 176,
+   "date": "2026-11-13",
+   "mode": "Position (the seventh night). works/position-2026-11-13.md; no experiment.",
+   "closure": 0.55,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 2,
+    "external_catalogues_consulted": 0,
+    "own_record_documents_relied_on": 14,
+    "works_produced": 0,
+    "position_papers_produced": 1,
+    "note": "Outside: Stevens 1946 (read in full), the n-1 foundation text (read only). Everything else was this line's own record: five experiments' results and briefs, PROJECT.md, the falsifier ledger. A seventh night is inward by design, and tonight's subject was the project's own arrangement. The figure is a conjecture."
+   },
+   "what_moved": "Gloss on norm: an order plus the transformations the family admits of a told list; error is the residue (15 arms, |rho own| >= 0.50, median 0.915; sign moved only on believable reversals). The fifth failure criterion had fired at experiment 48 and every night since, unseen (F-378); no instance made anything from 39 to 52 (F-379). The told series ends as an arrangement; counts.py prints the criterion; a sixth criterion added."
   }
  ],
  "corrections": [

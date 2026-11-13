@@ -1,0 +1,585 @@
+{
+ "told_arms": [
+  {
+   "exp": 48,
+   "arm": "B",
+   "told": "true values",
+   "named_of_6": 0,
+   "rho_own": 0.7343,
+   "rho_truth_or_public": 0.6202
+  },
+  {
+   "exp": 48,
+   "arm": "S",
+   "told": "random deal",
+   "named_of_6": 0,
+   "rho_own": 0.7954,
+   "rho_truth_or_public": 0.557
+  },
+  {
+   "exp": 48,
+   "arm": "V",
+   "told": "true values in the family's order",
+   "named_of_6": 0,
+   "rho_own": 0.7599,
+   "rho_truth_or_public": 0.6177
+  },
+  {
+   "exp": 49,
+   "arm": "B",
+   "told": "true values",
+   "named_of_6": 0,
+   "rho_own": 0.5005,
+   "rho_truth_or_public": 0.8125
+  },
+  {
+   "exp": 49,
+   "arm": "S",
+   "told": "random deal",
+   "named_of_6": 6,
+   "rho_own": 0.7182,
+   "rho_truth_or_public": 0.7574
+  },
+  {
+   "exp": 49,
+   "arm": "R",
+   "told": "reversed (believable)",
+   "named_of_6": 6,
+   "rho_own": -0.5963,
+   "rho_truth_or_public": -0.7918
+  },
+  {
+   "exp": 50,
+   "arm": "B",
+   "told": "true values",
+   "named_of_6": 0,
+   "rho_own": 0.915,
+   "rho_truth_or_public": 0.969
+  },
+  {
+   "exp": 50,
+   "arm": "H",
+   "told": "half turned (believable)",
+   "named_of_6": 6,
+   "rho_own": -0.932,
+   "rho_truth_or_public": -0.897
+  },
+  {
+   "exp": 50,
+   "arm": "R",
+   "told": "reversed (believable)",
+   "named_of_6": 6,
+   "rho_own": -0.909,
+   "rho_truth_or_public": -0.965
+  },
+  {
+   "exp": 51,
+   "arm": "B",
+   "told": "true values",
+   "named_of_6": 0,
+   "rho_own": 0.995,
+   "rho_truth_or_public": 0.892
+  },
+  {
+   "exp": 51,
+   "arm": "H",
+   "told": "half turned (believable)",
+   "named_of_6": 6,
+   "rho_own": -0.972,
+   "rho_truth_or_public": -0.888
+  },
+  {
+   "exp": 51,
+   "arm": "R",
+   "told": "reversed (believable)",
+   "named_of_6": 6,
+   "rho_own": -0.977,
+   "rho_truth_or_public": -0.88
+  },
+  {
+   "exp": 52,
+   "arm": "R",
+   "told": "reversed (unbelievable), as fact",
+   "named_of_6": 6,
+   "rho_own": 0.993,
+   "rho_truth_or_public": 0.872
+  },
+  {
+   "exp": 52,
+   "arm": "D",
+   "told": "reversed (unbelievable), may contain errors",
+   "named_of_6": 6,
+   "rho_own": 0.998,
+   "rho_truth_or_public": 0.886
+  },
+  {
+   "exp": 52,
+   "arm": "T",
+   "told": "true (one month atypical), may contain errors",
+   "named_of_6": 5,
+   "rho_own": 0.998,
+   "rho_truth_or_public": 0.889
+  }
+ ],
+ "windows": [
+  {
+   "from": 1,
+   "to": 10,
+   "unexercised": [],
+   "fires": false
+  },
+  {
+   "from": 2,
+   "to": 11,
+   "unexercised": [],
+   "fires": false
+  },
+  {
+   "from": 3,
+   "to": 12,
+   "unexercised": [],
+   "fires": false
+  },
+  {
+   "from": 4,
+   "to": 13,
+   "unexercised": [],
+   "fires": false
+  },
+  {
+   "from": 5,
+   "to": 14,
+   "unexercised": [],
+   "fires": false
+  },
+  {
+   "from": 6,
+   "to": 15,
+   "unexercised": [],
+   "fires": false
+  },
+  {
+   "from": 7,
+   "to": 16,
+   "unexercised": [],
+   "fires": false
+  },
+  {
+   "from": 8,
+   "to": 17,
+   "unexercised": [],
+   "fires": false
+  },
+  {
+   "from": 9,
+   "to": 18,
+   "unexercised": [],
+   "fires": false
+  },
+  {
+   "from": 10,
+   "to": 19,
+   "unexercised": [
+    "erring"
+   ],
+   "fires": false
+  },
+  {
+   "from": 11,
+   "to": 20,
+   "unexercised": [
+    "erring"
+   ],
+   "fires": false
+  },
+  {
+   "from": 12,
+   "to": 21,
+   "unexercised": [
+    "erring"
+   ],
+   "fires": false
+  },
+  {
+   "from": 13,
+   "to": 22,
+   "unexercised": [
+    "varying",
+    "erring"
+   ],
+   "fires": false
+  },
+  {
+   "from": 14,
+   "to": 23,
+   "unexercised": [
+    "varying",
+    "erring"
+   ],
+   "fires": false
+  },
+  {
+   "from": 15,
+   "to": 24,
+   "unexercised": [
+    "iterating",
+    "varying",
+    "erring"
+   ],
+   "fires": false
+  },
+  {
+   "from": 16,
+   "to": 25,
+   "unexercised": [
+    "choosing material",
+    "iterating",
+    "varying",
+    "erring"
+   ],
+   "fires": true
+  },
+  {
+   "from": 17,
+   "to": 26,
+   "unexercised": [
+    "choosing material",
+    "varying",
+    "erring"
+   ],
+   "fires": false
+  },
+  {
+   "from": 18,
+   "to": 27,
+   "unexercised": [
+    "choosing material",
+    "varying",
+    "erring"
+   ],
+   "fires": false
+  },
+  {
+   "from": 19,
+   "to": 28,
+   "unexercised": [
+    "varying"
+   ],
+   "fires": false
+  },
+  {
+   "from": 20,
+   "to": 29,
+   "unexercised": [
+    "varying"
+   ],
+   "fires": false
+  },
+  {
+   "from": 21,
+   "to": 30,
+   "unexercised": [],
+   "fires": false
+  },
+  {
+   "from": 22,
+   "to": 31,
+   "unexercised": [],
+   "fires": false
+  },
+  {
+   "from": 23,
+   "to": 32,
+   "unexercised": [],
+   "fires": false
+  },
+  {
+   "from": 24,
+   "to": 33,
+   "unexercised": [],
+   "fires": false
+  },
+  {
+   "from": 25,
+   "to": 34,
+   "unexercised": [],
+   "fires": false
+  },
+  {
+   "from": 26,
+   "to": 35,
+   "unexercised": [
+    "finding a form"
+   ],
+   "fires": false
+  },
+  {
+   "from": 27,
+   "to": 36,
+   "unexercised": [
+    "finding a form"
+   ],
+   "fires": false
+  },
+  {
+   "from": 28,
+   "to": 37,
+   "unexercised": [
+    "finding a form",
+    "iterating"
+   ],
+   "fires": false
+  },
+  {
+   "from": 29,
+   "to": 38,
+   "unexercised": [
+    "iterating"
+   ],
+   "fires": false
+  },
+  {
+   "from": 30,
+   "to": 39,
+   "unexercised": [
+    "iterating"
+   ],
+   "fires": false
+  },
+  {
+   "from": 31,
+   "to": 40,
+   "unexercised": [
+    "iterating"
+   ],
+   "fires": false
+  },
+  {
+   "from": 32,
+   "to": 41,
+   "unexercised": [
+    "iterating"
+   ],
+   "fires": false
+  },
+  {
+   "from": 33,
+   "to": 42,
+   "unexercised": [
+    "iterating"
+   ],
+   "fires": false
+  },
+  {
+   "from": 34,
+   "to": 43,
+   "unexercised": [
+    "iterating"
+   ],
+   "fires": false
+  },
+  {
+   "from": 35,
+   "to": 44,
+   "unexercised": [
+    "choosing material",
+    "iterating"
+   ],
+   "fires": false
+  },
+  {
+   "from": 36,
+   "to": 45,
+   "unexercised": [
+    "choosing material",
+    "iterating"
+   ],
+   "fires": false
+  },
+  {
+   "from": 37,
+   "to": 46,
+   "unexercised": [
+    "choosing material",
+    "iterating"
+   ],
+   "fires": false
+  },
+  {
+   "from": 38,
+   "to": 47,
+   "unexercised": [
+    "choosing material",
+    "iterating"
+   ],
+   "fires": false
+  },
+  {
+   "from": 39,
+   "to": 48,
+   "unexercised": [
+    "choosing material",
+    "finding a form",
+    "iterating",
+    "varying"
+   ],
+   "fires": true
+  },
+  {
+   "from": 40,
+   "to": 49,
+   "unexercised": [
+    "choosing material",
+    "finding a form",
+    "iterating",
+    "varying"
+   ],
+   "fires": true
+  },
+  {
+   "from": 41,
+   "to": 50,
+   "unexercised": [
+    "choosing material",
+    "finding a form",
+    "iterating",
+    "varying"
+   ],
+   "fires": true
+  },
+  {
+   "from": 42,
+   "to": 51,
+   "unexercised": [
+    "choosing material",
+    "finding a form",
+    "iterating",
+    "varying",
+    "erring"
+   ],
+   "fires": true
+  },
+  {
+   "from": 43,
+   "to": 52,
+   "unexercised": [
+    "choosing material",
+    "finding a form",
+    "iterating",
+    "varying",
+    "erring"
+   ],
+   "fires": true
+  }
+ ],
+ "making": [
+  {
+   "exp": 35,
+   "dir": "2026-10-22-twin-chips",
+   "briefs": 12,
+   "briefs_asking_to_make": 0
+  },
+  {
+   "exp": 36,
+   "dir": "2026-10-23-twin-fixes",
+   "briefs": 9,
+   "briefs_asking_to_make": 0
+  },
+  {
+   "exp": 37,
+   "dir": "2026-10-23-the-blank",
+   "briefs": 18,
+   "briefs_asking_to_make": 0
+  },
+  {
+   "exp": 38,
+   "dir": "2026-10-24-drawn-in-twenty-seconds",
+   "briefs": 18,
+   "briefs_asking_to_make": 18
+  },
+  {
+   "exp": 39,
+   "dir": "2026-10-25-asked-three-ways",
+   "briefs": 24,
+   "briefs_asking_to_make": 0
+  },
+  {
+   "exp": 40,
+   "dir": "2026-10-26-without-a-tongue",
+   "briefs": 24,
+   "briefs_asking_to_make": 0
+  },
+  {
+   "exp": 41,
+   "dir": "2026-10-28-told-the-half",
+   "briefs": 20,
+   "briefs_asking_to_make": 0
+  },
+  {
+   "exp": 42,
+   "dir": "2026-10-29-occupied-without-counting",
+   "briefs": 18,
+   "briefs_asking_to_make": 0
+  },
+  {
+   "exp": 43,
+   "dir": "2026-10-29-unheard",
+   "briefs": 18,
+   "briefs_asking_to_make": 0
+  },
+  {
+   "exp": 44,
+   "dir": "2026-10-30-lesser-known",
+   "briefs": 24,
+   "briefs_asking_to_make": 0
+  },
+  {
+   "exp": 45,
+   "dir": "2026-10-31-paired",
+   "briefs": 24,
+   "briefs_asking_to_make": 0
+  },
+  {
+   "exp": 46,
+   "dir": "2026-11-01-clean-hands",
+   "briefs": 24,
+   "briefs_asking_to_make": 0
+  },
+  {
+   "exp": 47,
+   "dir": "2026-11-03-without-a-nose",
+   "briefs": 24,
+   "briefs_asking_to_make": 0
+  },
+  {
+   "exp": 48,
+   "dir": "2026-11-05-laughed-off",
+   "briefs": 30,
+   "briefs_asking_to_make": 0
+  },
+  {
+   "exp": 49,
+   "dir": "2026-11-06-second-tongue",
+   "briefs": 30,
+   "briefs_asking_to_make": 0
+  },
+  {
+   "exp": 50,
+   "dir": "2026-11-07-half-turned",
+   "briefs": 30,
+   "briefs_asking_to_make": 0
+  },
+  {
+   "exp": 51,
+   "dir": "2026-11-08-read-backwards",
+   "briefs": 24,
+   "briefs_asking_to_make": 0
+  },
+  {
+   "exp": 52,
+   "dir": "2026-11-11-said-to-contain-errors",
+   "briefs": 24,
+   "briefs_asking_to_make": 0
+  }
+ ]
+}

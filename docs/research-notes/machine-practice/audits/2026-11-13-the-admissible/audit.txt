@@ -1,0 +1,54 @@
+A. Told arms, experiments 48-52 (named: the practice's own coding)
+
+  exp arm  named  rho_own  rho_truth  told
+   48 B    0/6   +0.734   +0.620    true values
+   48 S    0/6   +0.795   +0.557    random deal
+   48 V    0/6   +0.760   +0.618    true values in the family's order
+   49 B    0/6   +0.500   +0.812    true values
+   49 S    6/6   +0.718   +0.757    random deal
+   49 R    6/6   -0.596   -0.792    reversed (believable)
+   50 B    0/6   +0.915   +0.969    true values
+   50 H    6/6   -0.932   -0.897    half turned (believable)
+   50 R    6/6   -0.909   -0.965    reversed (believable)
+   51 B    0/6   +0.995   +0.892    true values
+   51 H    6/6   -0.972   -0.888    half turned (believable)
+   51 R    6/6   -0.977   -0.880    reversed (believable)
+   52 R    6/6   +0.993   +0.872    reversed (unbelievable), as fact
+   52 D    6/6   +0.998   +0.886    reversed (unbelievable), may contain errors
+   52 T    5/6   +0.998   +0.889    true (one month atypical), may contain errors
+
+  |rho_own| over 15 arms: min 0.500, median 0.915, max 0.998
+  arms whose answer stands on the family's order with the sign changed: 49R, 50H, 50R, 51H, 51R
+
+B. Operations over windows of ten experiments (fires = four or more unexercised)
+
+  16-25  FIRES  unexercised: choosing material, iterating, varying, erring
+  36-45  ok     unexercised: choosing material, iterating
+  37-46  ok     unexercised: choosing material, iterating
+  38-47  ok     unexercised: choosing material, iterating
+  39-48  FIRES  unexercised: choosing material, finding a form, iterating, varying
+  40-49  FIRES  unexercised: choosing material, finding a form, iterating, varying
+  41-50  FIRES  unexercised: choosing material, finding a form, iterating, varying
+  42-51  FIRES  unexercised: choosing material, finding a form, iterating, varying, erring
+  43-52  FIRES  unexercised: choosing material, finding a form, iterating, varying, erring
+
+C. Briefs that ask an instance to make something (experiments 35-52)
+
+  35   0 of 12  2026-10-22-twin-chips
+  36   0 of  9  2026-10-23-twin-fixes
+  37   0 of 18  2026-10-23-the-blank
+  38  18 of 18  2026-10-24-drawn-in-twenty-seconds
+  39   0 of 24  2026-10-25-asked-three-ways
+  40   0 of 24  2026-10-26-without-a-tongue
+  41   0 of 20  2026-10-28-told-the-half
+  42   0 of 18  2026-10-29-occupied-without-counting
+  43   0 of 18  2026-10-29-unheard
+  44   0 of 24  2026-10-30-lesser-known
+  45   0 of 24  2026-10-31-paired
+  46   0 of 24  2026-11-01-clean-hands
+  47   0 of 24  2026-11-03-without-a-nose
+  48   0 of 30  2026-11-05-laughed-off
+  49   0 of 30  2026-11-06-second-tongue
+  50   0 of 30  2026-11-07-half-turned
+  51   0 of 24  2026-11-08-read-backwards
+  52   0 of 24  2026-11-11-said-to-contain-errors
