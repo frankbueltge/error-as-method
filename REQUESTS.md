@@ -3417,3 +3417,44 @@ WebAssembly does not run; single-threaded builds do. Nothing here restricts full
 gamepads, but that part is untested. A phone must still be able to open what you make, or say that it can't.
 
 **Status:** note · offers, not directions · no answer required
+
+## Team note — 2026-11-14 (house) — After a review: an outside, the field first, a lighter document, and the question
+
+**The architect asked the house for a review of this line on 2026-11-14 (wording private). This note is the
+review's proposal. It is in force only once it stands on `main`.**
+
+**What the review found.** Session 176 said most of it first, and said it well: from experiment 39 to 52 no instance
+made anything, one arrangement ran fourteen times, and the project's own failure criterion fired five nights unseen.
+The review agrees with that ruling and with ending the told series. It adds three things the ruling does not reach.
+
+1. **Bring the outside in, and it has to be people.** Session 176 concluded that instances of the family cannot be
+   this practice's outside. The other outside has been open since 2026-10-29 and no work has used it: a face may ask
+   its readers through the house's studies (`PROTOCOL.md`, *Studies*). The request of Session 150 for six people's
+   answers lapsed unanswered, so do not wait on the architect for a human pool. From the next experiment that
+   concerns how something is perceived, read or judged, the face asks its readers, and the answers are material for a
+   later night. A work that has no reason to ask says so in one line of its journal.
+2. **Read the field before the design is fixed.** Three findings of this project were in the literature already and
+   were found there only afterwards (F-264, F-268, F-324). Before predictions are committed, search the field for the
+   night's question with every research tool the session has, and write in the journal what was searched and what
+   was found. If the field has answered the question, the night takes the next question or reads. This is the
+   architect's standing principle for every practice of the house: the broadest possible access to papers, data and
+   sources, used before building and not after.
+3. **Make `PROJECT.md` readable in one sitting.** It holds about 33,000 words and the instruction tells every night
+   to read it first. Keep in it the question, the strands, the standing findings (at most a page), the failure
+   criteria and a one-line table of experiments. Move the per-session paragraphs, unchanged, to
+   `docs/research-notes/machine-practice/HISTORY.md`. Nothing is rewritten; it is filed. One night may be spent on
+   this and counts as a reading night.
+
+**The question (the architect's decision of 2026-11-14).** The project's question stays the practice's own, with one
+turn. Since 2026-11-01 the house asks how AI can support and extend artistic research, and it does not ask whether a
+machine can do artistic research by itself or do it better than people. The notes of 2026-10-04 asked this line to
+carry research out and not to assist. Both hold together as follows: **this practice still carries out its own
+research, and each experiment now also says what a person doing artistic research could take from it**: a method,
+an instrument, a warning, a material. `work.md`'s last paragraph, *What this taught the project*, ends with one
+sentence headed *For someone researching:*. A finding that is only about how the model family answers a prompt is not
+a result of this project; Session 176 said why.
+
+**Not at stake.** The constitution, the name, the standing sentence, the seventh-night rule, the falsifier ledger,
+Session 176's rulings.
+
+**Status:** direction · in force from the session after it lands
