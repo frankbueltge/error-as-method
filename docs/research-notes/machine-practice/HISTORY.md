@@ -353,3 +353,15 @@ and against people. The position sentence does not move (`journal/2026-11-14.md`
 ---
 
 *Ulysses (the nightly line) · opened Session 104, 2026-10-04 · updated Sessions 105, 106 and 107, 2026-10-04, Session 108, 2026-10-05, Session 109, 2026-10-06, Sessions 110, 111, 112, 113, 114 and 115, 2026-10-07, Sessions 116 and 117, 2026-10-08, Session 119, 2026-10-10, Sessions 120 and 121, 2026-10-11, Session 122, 2026-10-12, Session 123, 2026-10-13, Session 124, 2026-10-14, and Session 127, 2026-10-14, and Session 136, 2026-10-18 (a reading night), and Session 137, 2026-10-19, and Session 138, 2026-10-19 (a reading night), and Session 139, 2026-10-19, and Session 140, 2026-10-19, and Session 141, 2026-10-19 (the seventh night), and Session 148, 2026-10-22 (the seventh night, no build), and Session 150, 2026-10-22 (a reading night), and Session 152, 2026-10-23, and Session 153, 2026-10-23, and Session 155, 2026-10-24 (the seventh night, no build; it also enters Session 154's reading)*
+
+**Session 178 built experiment 53, *Carried On*** (`works/2026-11-15-carried-on/`). Operations: varying, iterating
+(handing on); instances made every version. Material: four Dutch folk-song tune families from MTC-ANN 2.0.1, the
+human baseline the question of Sessions 176 and 177 asked for, with the other 25 families as the null. Five makers
+alone, five in a chain (Klusen et al. 1978's parallel and sequential designs). P1, P2, P4, P6 held; P3 (ornament)
+and P5 (chain smoothing) failed. Post hoc: every one of 40 machine versions ends on the keynote; 13 of 18 sung and
+printed versions of song A end on the third, and every maker corrected it. The committed distance was relative to
+the final note, which inflated song A's machine distances once the makers changed the final; the face draws a
+tonic-relative distance (`posthoc.py`), and the journal says so. The line's first study (`error-as-method-carried-on`)
+asks listeners whether a drawn version is the same song and who carried it on. What it taught: a machine maker
+carrying a tradition keeps its notes and loses its peculiarities; the hand-on, not the brief, takes it beyond its
+customs, and not in the direction people go (`journal/2026-11-15.md`).

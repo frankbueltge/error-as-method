@@ -93,3 +93,24 @@ def distance(m1, m2, wp=0.5, wr=0.5):
 
 def dist3(m1, m2):
     return {'all': distance(m1, m2), 'pitch': distance(m1, m2, 1, 0), 'rhythm': distance(m1, m2, 0, 1)}
+
+
+def norm_tonic(notes, tonic_pc):
+    """Post hoc (Session 178): pitch relative to the tonic pitch class at or below the final,
+    so a changed last note does not shift the whole melody."""
+    fin = notes[-1][0]
+    ref = fin - ((fin - tonic_pc) % 12)
+    med = statistics.median(d for _, d, _ in notes) or 1.0
+    return [(p - ref, d / med) for p, d, _ in notes]
+
+
+def distance_tonic(m1, t1, m2, t2, wp=0.5, wr=0.5):
+    a, b = norm_tonic(m1, t1), norm_tonic(m2, t2)
+    n, m = len(a), len(b)
+    prev = [j * 1.0 for j in range(m + 1)]
+    for i in range(1, n + 1):
+        cur = [i * 1.0] + [0.0] * m
+        for j in range(1, m + 1):
+            cur[j] = min(prev[j - 1] + _cost(a[i - 1], b[j - 1], wp, wr), prev[j] + 1, cur[j - 1] + 1)
+        prev = cur
+    return prev[m] / max(n, m)

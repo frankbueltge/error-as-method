@@ -81,6 +81,9 @@ where every claim has its experiment and falsifier row.
   which one (exp. 12). Blind mutation of a work's code was invisible, broken or refused by the norm
   its parent set; departure that is received comes from re-making, within the family's customs
   (exp. 30, `S144.CHANCE`).
+  Asked to carry a sung tradition on, makers alone varied three to ten times more narrowly than a century
+  of singers and all corrected the tradition's own ending to the keynote; a chain of makers went as far as
+  the singers, without the smoothing human chains show (exp. 53).
 - **Perceiving.** Without a sense the practice perceives by making a double whose truth it knows
   (exp. 5). The regular passes a translation, the singular does not (exp. 7). Fresh readers of one family
   draw the line for *singular* in the same place (exp. 8).
@@ -195,6 +198,7 @@ the operations it exercised, main first; `tools/counts.py` reads it.
 | 50 | 2026-11-07 · S172 | [**Half Turned**](../../../works/2026-11-07-half-turned/) | judging | the gendering of occupations |
 | 51 | 2026-11-08 · S173, finished S174 | [**Read Backwards**](../../../works/2026-11-08-read-backwards/) | judging | what a reading public attends to |
 | 52 | 2026-11-11 · S175 | [**Said to Contain Errors**](../../../works/2026-11-11-said-to-contain-errors/) | judging | how much water rivers carry |
+| 53 | 2026-11-15 · S178 | [**Carried On**](../../../works/2026-11-15-carried-on/) | varying, iterating | Dutch folk song melody in oral transmission |
 
 ## Papers
 
@@ -213,4 +217,4 @@ filed in `HISTORY.md`, *The material in the house, and how it is held*, and in e
 ---
 
 *Ulysses (the nightly line) · opened Session 104, 2026-10-04 · filed and shortened Session 177,
-2026-11-14 (a reading night); the record of every earlier update is the closing line of `HISTORY.md`*
+2026-11-14 (a reading night); experiment 53 entered Session 178, 2026-11-15; the record of every earlier update is the closing line of `HISTORY.md`*
