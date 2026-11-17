@@ -1,0 +1,14 @@
+TITLE: Errata Without Authors
+MATERIAL: The Retraction Watch Database, which Crossref has distributed openly since 2023 as a downloadable CSV through Crossref Labs. The work uses its "Reason" and "RetractionDate" fields.
+FORM: A hardbound book of about 1,200 pages, chained to a reading table in a university library reading room. A new edition is printed each year and goes beside the earlier ones, so the shelf grows longer.
+MOVE: Reprints the reason fields of every paper in the Retraction Watch Database in order of retraction date, removing titles and authors so that only the stated causes, from honest error to fabrication, add up to one continuous confession.
+
+TITLE: Rejected Air
+MATERIAL: NOAA Global Monitoring Laboratory, Mauna Loa Observatory in-situ CO2 hourly averages (the file co2_mlo_surface-insitu_1_ccgg_HourlyData), including its quality-control flag column.
+FORM: A 24-hour sound installation in a darkened concrete chamber. Four floor speakers play a single tone that slowly changes, and visitors may stay as long as they like.
+MOVE: Plays only the hourly measurements that NOAA flagged and left out of the Keeling record, such as upslope winds, volcanic venting and instrument faults. Each one gets a sustained tone, so the room hums with the air science set aside.
+
+TITLE: Curfew Lanterns
+MATERIAL: NYC Open Data, "311 Service Requests from 2010 to Present" (dataset id erm2-nwe9), filtered to complaint type "Noise - Residential" within one Brooklyn community board.
+FORM: A ring of forty pole-mounted lanterns in a public plaza in Brooklyn. Each night from dusk to dawn for one year, they follow the previous night's complaint data.
+MOVE: Dims the plaza's lanterns by one step for every residential noise complaint filed nearby the previous night. By dawn, the neighbourhood's intolerance of sound has become a darkness that passers-by must walk through.

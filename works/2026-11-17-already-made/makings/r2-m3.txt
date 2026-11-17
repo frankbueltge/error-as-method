@@ -1,0 +1,20 @@
+TITLE: The Long Stand
+MATERIAL: The Retraction Watch Database of retracted scholarly papers, openly distributed through Crossref since 2023 (retractionwatch.com; Crossref Labs download).
+FORM: A reading room in a university library or kunsthalle, with a print-on-demand press binding new volumes onto open shelving throughout the exhibition. Visitors may sit and read.
+MOVE: Prints the title of every paper in the Retraction Watch Database followed by one blank page for each month it stood before retraction, so long-lived errors swell into the thickest volumes.
+CHANGED: kept
+WHY: Martinat's printed floor piles up the volume of news, while this work gives paper only to the time an error went uncorrected, so the move is different even though the material looks alike.
+
+TITLE: Station Silence
+MATERIAL: NOAA National Data Buoy Center real-time standard meteorological data, significant wave height field (WVHT), from ndbc.noaa.gov.
+FORM: A dim concrete hall or disused harbour shed with about forty bronze bells hung at head height, one for each buoy, each struck by a solenoid. It runs live for the whole exhibition.
+MOVE: Strikes a room of suspended bells with force set by the wave heights NDBC buoys report each hour, and lets each bell fall silent while its station is offline, sounding the ocean only where instruments survive.
+CHANGED: kept
+WHY: None of the nearest works makes the instrument's failure audible as silence, and that silence, not the sonification itself, is the move this work rests on.
+
+TITLE: Seconds Standing
+MATERIAL: Wikimedia EventStreams "recentchange" feed for English Wikipedia (stream.wikimedia.org), matched against edits that later carry the "mw-reverted" tag.
+FORM: A single-line LED text band across an outward-facing building facade or transit concourse, showing one edit at a time, day and night, for a year.
+MOVE: Displays one reverted English Wikipedia edit at a time, for exactly as long as it stood live, so a vandal's ten-second joke flickers past while a months-old error holds the facade and the queue backs up behind it.
+CHANGED: changed
+WHY: The Search Wall already makes public text fleeting, so I made the work about how long an error persists, and one long-lived mistake can now take over a public wall and hold back everything behind it.

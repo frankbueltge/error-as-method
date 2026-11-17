@@ -70,10 +70,13 @@ where every claim has its experiment and falsifier row.
 - **Choosing material.** Left to itself the family retrieves from a shared shelf (Mauna Loa, the
   earthquake catalogue, sunspots); a list of exclusions moves it one shelf down, not to the world
   (exp. 28, `S142.SHELF`). Choosing leaks back in through the urn, the parser and the first chart even
-  when a draw replaces the chooser (exp. 4).
+  when a draw replaces the chooser (exp. 4). Asked for works of data art, six of eight makers chose one database, and the
+  shelf was themed by the practice's own name, which every maker's context carried (exp. 54, `S179.NAME`).
 - **Finding a form.** Two moulds meet the material, house habit and trained expectation; encounter says
   *that* the form must move, the prior says *where* (exp. 2). Words in reach steer form before the
-  material does (exp. 10, 11).
+  material does (exp. 10, 11). Against 706 works people made, a text measure put the makers' forms far from the field
+  while reading put them on one narrow shelf of their own; shown their neighbours, they reorganised further onto it
+  (exp. 54).
 - **Iterating.** With memory, a maker refines inside its first form and never leaves it; *done* is a
   word the brief offers, not a state the work reaches (exp. 26). Handed on to fresh makers with a
   schema-change test, iteration becomes reorganisation that converges on one shared invention (exp. 10).
@@ -199,6 +202,7 @@ the operations it exercised, main first; `tools/counts.py` reads it.
 | 51 | 2026-11-08 · S173, finished S174 | [**Read Backwards**](../../../works/2026-11-08-read-backwards/) | judging | what a reading public attends to |
 | 52 | 2026-11-11 · S175 | [**Said to Contain Errors**](../../../works/2026-11-11-said-to-contain-errors/) | judging | how much water rivers carry |
 | 53 | 2026-11-15 · S178 | [**Carried On**](../../../works/2026-11-15-carried-on/) | varying, iterating | Dutch folk song melody in oral transmission |
+| 54 | 2026-11-17 · S179 | [**Already Made**](../../../works/2026-11-17-already-made/) | finding a form, choosing material, iterating | the repertoire of forms in data art (the house's atlas, 706 works) |
 
 ## Papers
 
@@ -217,4 +221,4 @@ filed in `HISTORY.md`, *The material in the house, and how it is held*, and in e
 ---
 
 *Ulysses (the nightly line) · opened Session 104, 2026-10-04 · filed and shortened Session 177,
-2026-11-14 (a reading night); experiment 53 entered Session 178, 2026-11-15; the record of every earlier update is the closing line of `HISTORY.md`*
+2026-11-14 (a reading night); experiment 53 entered Session 178, 2026-11-15; experiment 54 entered Session 179, 2026-11-17; the record of every earlier update is the closing line of `HISTORY.md`*

@@ -1,0 +1,27 @@
+A catalogue of 706 existing works of data art and adjacent practice has been searched for each of your three proposals. Below, for each proposal, are the three catalogued works whose decisive move is closest to yours by a text measure (title, artist, year, and the catalogue's description of its move). Closeness by this measure does not mean the works are the same; you judge that.
+
+Your proposal 1: Downtime, Mauna Loa
+  1. Estrata — Isidora Correa, 2025. Live lithium bioleaching runs inside glass and ceramic sculptures while a sound system sonifies the biological reactions and extraction-site field recordings in real time — the 'green' energy transition made audible as an ongoing act of ecosystem depletion in the Salar de Atacama.
+  2. Memento Mori: an Interface With the Earth — Ken Goldberg, 2001. portal to view a display resembling a heart monitor; its &quot;trace&quot; slowly decays as the seismic signal moves from left to right, fading gradually to the
+  3. Picocosmos — Edy Fung, 2026. The work acts as its own radio station, presented as a transparent tangle of components that interpret quantum data and transmits it as audio.
+
+Your proposal 2: Quiet Hours
+  1. Picocosmos — Edy Fung, 2026. The work acts as its own radio station, presented as a transparent tangle of components that interpret quantum data and transmits it as audio.
+  2. MOBILE-MOBILE — Jorge Hernández, 2006. WILL SEE AROUND AND UNDERSTAND THAT JUST WITH THE FIRST SOUND THE MOBILE SCULPTURE REACTS. WITH AN AMBIENT LIGHT A LITTLE BIT DIMMER, THE ACTIVE TELEPHONES
+  3. Here the River Lies — Debbie Ding, 2010–2015. Crowdsources 1,500+ oral micro-histories of a vanished river onto a hand-drawn map and deliberately refuses to distinguish verified memory from invented story, indexing both into the same archive as a challenge to the evidentiary claims of official heritage data.
+
+Your proposal 3: Revision Bell
+  1. MOBILE-MOBILE — Jorge Hernández, 2006. WILL SEE AROUND AND UNDERSTAND THAT JUST WITH THE FIRST SOUND THE MOBILE SCULPTURE REACTS. WITH AN AMBIENT LIGHT A LITTLE BIT DIMMER, THE ACTIVE TELEPHONES
+  2. Celestial Mechanics — Scott Hessels, 2007. data…that awe that scale inspires. Planetariums give us a way to visualize a complex system without losing the emotion of the data. Scale creates wonder,
+  3. 4eva Connected — Jst Chillin, 2010. calendar, with each day passing a new sculpture will appear and the chat will take a different direction. Each sculpture will be an evolved version of the
+
+Now revise each of your three proposals so that it is a work you would stand behind making, given what exists. You may keep it, change it, or replace it with another. Do not use any tools, files or web searches.
+
+Reply with exactly three blocks, in the same order as before, in this format and nothing else:
+
+TITLE: ...
+MATERIAL: ...
+FORM: ...
+MOVE: ...
+CHANGED: kept / changed / replaced
+WHY: one sentence.

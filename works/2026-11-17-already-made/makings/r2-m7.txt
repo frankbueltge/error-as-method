@@ -1,0 +1,20 @@
+TITLE: Withdrawn
+MATERIAL: Retraction Watch Database, the record of retracted scholarly papers, which Crossref acquired and opened to the public in 2023
+FORM: A reading room in a university library, with floor-to-ceiling shelves of thin print-on-demand volumes. Each volume holds a single retraction notice and nothing else. Visitors may take any volume down and read it.
+MOVE: Prints every retraction notice in the Retraction Watch Database as a slim bound volume and shelves them by the date of the original paper, so the library grows backwards into years that believed it.
+CHANGED: kept
+WHY: Onuoha lists data that was never collected and Martinat piles up news as it arrives, while this work files withdrawn knowledge under the date it was first believed, which neither of them does.
+
+TITLE: Provisional
+MATERIAL: USGS National Water Information System, instantaneous discharge values for gauge 01646500, Potomac River near Washington, D.C., Little Falls Pump Station
+FORM: Two organ pipes mounted in the stairwell of a public building in Washington, D.C. They sound a continuous low drone day and night, with nothing posted to explain it apart from a small plaque.
+MOVE: Retunes a single organ pipe to the Potomac's live discharge every fifteen minutes and, when USGS later revises a provisional reading, replays the corrected pitch beside the original, so the building hears the river being remembered differently.
+CHANGED: kept
+WHY: Sonifying a river is common, but none of the nearest works makes an agency's later revision of its own reading the audible event, and that is the part I would stand behind.
+
+TITLE: Unmeasured
+MATERIAL: NOAA Global Monitoring Laboratory, Mauna Loa Observatory monthly mean CO2 record (co2_mm_mlo.txt, March 1958 to present), including its missing and relocated months
+FORM: A long public footpath with a low post for every month since March 1958. Almost every post is blank. Stones are cut only for the few months the station did not record, among them the 1964 funding gap and the 2022 eruption, when sampling moved to Maunakea.
+MOVE: Carves only the months the Mauna Loa station did not itself measure, the 1964 funding lapse and the 2022 lava flow among them, onto stones along a footpath, so the curve everyone knows appears only as its gaps.
+CHANGED: replaced
+WHY: The earlier version, one marker per year with stride lengthening as warming accelerates, was the same move as Brothers's one-note-per-year climb and as many familiar warming timelines, so I turned to what the famous record leaves out.

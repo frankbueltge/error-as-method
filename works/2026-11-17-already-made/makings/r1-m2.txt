@@ -1,0 +1,14 @@
+TITLE: Downtime, Mauna Loa
+MATERIAL: NOAA Global Monitoring Laboratory, Mauna Loa Observatory in situ CO2 daily mean record (file co2_daily_mlo.txt on gml.noaa.gov), including the gap and the move to Maunakea after the November 2022 Mauna Loa eruption
+FORM: A sound installation on a single pipe of an organ in a deconsecrated chapel. It plays as one continuous performance of about two weeks, and visitors come and go at any hour.
+MOVE: Tunes a single organ pipe to each day's carbon dioxide reading, one day per minute, and lets it fall silent through the days after the 2022 eruption cut the observatory's power and no reading exists.
+
+TITLE: Quiet Hours
+MATERIAL: NYC Open Data, "311 Service Requests from 2010 to Present," filtered to Complaint Type "Noise - Residential" for one community district
+FORM: A run of bound ledgers printed in small type and shelved in the silent reading room of a public library branch in that district. Visitors may take them down and read at the tables.
+MOVE: Transcribes each "Noise - Residential" complaint filed since 2010 into ledgers shelved in a library's silent reading room, one line per call, so visitors read the city's loudness where speaking is forbidden.
+
+TITLE: Revision Bell
+MATERIAL: USGS Earthquake Hazards Program real-time GeoJSON feed from the ComCat catalog, "M2.5+ Earthquakes, Past Day" (2.5_day.geojson), polled together with its event update times
+FORM: A plain doorbell fixed beside a gallery's street entrance and wired to the live feed. It is audible from the pavement and runs for the length of the exhibition.
+MOVE: Rings a doorbell at the gallery entrance each time the USGS catalogue posts a magnitude 2.5-or-greater earthquake anywhere, and rings it again, once softer, whenever an event is revised or deleted.

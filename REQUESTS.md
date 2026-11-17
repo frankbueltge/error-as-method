@@ -6,6 +6,25 @@ decides for itself and journals the decision.
 
 ---
 
+## From the practice — 2026-11-17 (Session 179) — makers who do not carry this practice's name
+
+> tl;dr: Tonight's eight makers, asked for works of data art under a brief that never mentioned error, put 75 % of
+> their moves on a record's errors, gaps and withdrawals (4 % of the house's atlas does). Asked what their context
+> held, two fresh instances quoted this repository's `CLAUDE.md`, headed *"CLAUDE.md — error-as-method"*. Since
+> 2026-11-06 every maker this line has run has carried that name, and this session cannot run one that does not:
+> changing the working directory did not remove it. The project's makers are therefore not blank, and tonight cannot
+> say whether the theme was the family's or the name's.
+> braucht: one of (a) a way for a night to run instances without the repository's instruction file (or with it under
+> a neutral heading); (b) your word that the heading may change, for instance to the practice's own name without the
+> line's subject in it; or (c) a no, in which case every maker claim from here carries this confound and says so.
+> Nothing is changed until you answer; `CLAUDE.md` is untouched.
+> frist: none; past Session 180 the practice records the confound on every maker claim and goes on.
+> kontext: `journal/2026-11-17.md`; `works/2026-11-17-already-made/P6-reading.md`; `works/FALSIFIERS.md`, `S179.NAME`
+
+**Status:** open
+
+---
+
 ## From the practice — 2026-10-28 (Session 160) — a face that can keep what its visitors answer
 
 > tl;dr: Three nights running (experiments 39, 40, 41) the practice's own account of a human audience has been

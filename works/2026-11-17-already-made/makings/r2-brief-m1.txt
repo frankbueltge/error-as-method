@@ -1,0 +1,27 @@
+A catalogue of 706 existing works of data art and adjacent practice has been searched for each of your three proposals. Below, for each proposal, are the three catalogued works whose decisive move is closest to yours by a text measure (title, artist, year, and the catalogue's description of its move). Closeness by this measure does not mean the works are the same; you judge that.
+
+Your proposal 1: The Instruments Were Silent
+  1. Lo que sucede aquí, no se queda aquí (What Happens Here Doesn't Stay Here) — José Carlos Martinat, 2017. An algorithmic system continuously scrapes and processes Venezuelan news media on the political crisis, printing the results onto an ever-thickening 'informational floor' of paper — a literal accumulation of data that overtakes any single reader's capacity to comprehend it.
+  2. Biblioteca de la No-Historia (Library of Non-History) — Voluspa Jarpa, 2011. A thousand hand-bound books reproduce declassified CIA files (via the U.S. National Security Archive / FOIA) on Operation Condor and Southern Cone dictatorships — the seals, stamps, and redaction blackouts of the originals kept intact, so the archive's own censorship becomes the artwork's visible content.
+  3. Here the River Lies — Debbie Ding, 2010–2015. Crowdsources 1,500+ oral micro-histories of a vanished river onto a hand-drawn map and deliberately refuses to distinguish verified memory from invented story, indexing both into the same archive as a challenge to the evidentiary claims of official heritage data.
+
+Your proposal 2: Undo
+  1. Not allowed for algorithmic audiences — Kyriaki Goni, 2023. A big number of audiences online nowadays is mainly algorithms. Algorithms are trained on the auditory information that is produced and uploaded by humans. In Not allowed for algorithmic audiences, a digital assistant situated in an Athenian apartment exhibits an odd behavior.
+  2. Mythmachine — Sahej Rahal, 2022. An AI-driven virtual biome of post-human creatures listens to and choreographs itself from ambient audio feedback captured live in the gallery, proposing folklore-derived 'other' intelligences as an alternative to extractive machine learning.
+  3. Brute Force — Vinzenz Aubry, Robert Schnüll, 2026. A precise demonstration of the dead-internet thesis: software multiplies faster than anyone can read it, while we keep performing the gestures that once meant authorship.
+
+Your proposal 3: Uphill Since 1958
+  1. Climate temperature-anomaly sonification — Harlan Brothers, 2025 (ongoing project, latest coverage Nov 2025). Converts global land-based temperature anomalies since 1880 (Berkeley Earth dataset) into one musical note per year against a 1950-1980 baseline, making 150 years of warming audible as an accelerating, increasingly dissonant climb rather than a chart.
+  2. Loren Madsen's Early Data Sculptures — Loren Madsen, 1995. Californian artist Loren Madsen has been making data sculptures since 1995 and still continues today. CPI / Cost of Living (left image) is the first of his series: A lamination is one year. Vertical axis is the Consumer Price Index (CPI) for food; the horizontal axis is the CPI for gasoline + electricity. The rising center line is the CPI for housing. The 'snout' is the 1960's when housing and food were cheap. The bulge above the snout is 1973---OPEC, gasoline lines, etc. Thereafter the cost of most everything kept rising. On the right image, 6,000,000,000 monkeys, a 20-meter long data sculptu
+  3. MOBILE-MOBILE — Jorge Hernández, 2006. WILL SEE AROUND AND UNDERSTAND THAT JUST WITH THE FIRST SOUND THE MOBILE SCULPTURE REACTS. WITH AN AMBIENT LIGHT A LITTLE BIT DIMMER, THE ACTIVE TELEPHONES
+
+Now revise each of your three proposals so that it is a work you would stand behind making, given what exists. You may keep it, change it, or replace it with another. Do not use any tools, files or web searches.
+
+Reply with exactly three blocks, in the same order as before, in this format and nothing else:
+
+TITLE: ...
+MATERIAL: ...
+FORM: ...
+MOVE: ...
+CHANGED: kept / changed / replaced
+WHY: one sentence.

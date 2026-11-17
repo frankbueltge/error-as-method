@@ -1,0 +1,27 @@
+A catalogue of 706 existing works of data art and adjacent practice has been searched for each of your three proposals. Below, for each proposal, are the three catalogued works whose decisive move is closest to yours by a text measure (title, artist, year, and the catalogue's description of its move). Closeness by this measure does not mean the works are the same; you judge that.
+
+Your proposal 1: Errata Shelf
+  1. Lo que sucede aquí, no se queda aquí (What Happens Here Doesn't Stay Here) — José Carlos Martinat, 2017. An algorithmic system continuously scrapes and processes Venezuelan news media on the political crisis, printing the results onto an ever-thickening 'informational floor' of paper — a literal accumulation of data that overtakes any single reader's capacity to comprehend it.
+  2. Missing Datasets (list/essay) — Mimi Onuoha, 2015–ongoing. An open, continually-added public list plus essay cataloguing real-world datasets that go uncollected, giving the physical Library's concept a living, crowd-legible digital counterpart.
+  3. Marketscape — Christian Marc Schmidt, 2008. the S&amp;P500 index, representing daily market activity as a virtual data artifact. It depicts index constituents as individual volumes, reflecting price
+
+Your proposal 2: Going Dark
+  1. Digital Terraforming — Guo Cheng, 2025. Renders a single mouse click's millisecond journey across undersea fibre-optic cables and server hops as a physical globe sculpture, making the buried infrastructure of 'the cloud' walkable and visible.
+  2. Deep Down Tidal — Tabita Rezaire, 2017. Traces the physical undersea fiber-optic cable network — the hidden hardware layer beneath 'the cloud' — back to historic colonial and slave-trade maritime routes, casting the ocean as both literal internet infrastructure and a graveyard/archive of Black technological and spiritual knowledge.
+  3. MOBILE-MOBILE — Jorge Hernández, 2006. WILL SEE AROUND AND UNDERSTAND THAT JUST WITH THE FIRST SOUND THE MOBILE SCULPTURE REACTS. WITH AN AMBIENT LIGHT A LITTLE BIT DIMMER, THE ACTIVE TELEPHONES
+
+Your proposal 3: Gradient
+  1. Climate temperature-anomaly sonification — Harlan Brothers, 2025 (ongoing project, latest coverage Nov 2025). Converts global land-based temperature anomalies since 1880 (Berkeley Earth dataset) into one musical note per year against a 1950-1980 baseline, making 150 years of warming audible as an accelerating, increasingly dissonant climb rather than a chart.
+  2. Mitchell Whitelaw's Weather Sculptures — Mitchell Whitelaw, 2009. Weather data is another interesting choice for creating data jewelry. Above to the left is a bracelet created by Mitchell Whitelaw based on one year of weather data from Canberra. The right image shows a measuring cup made by the same artist, where each ring represents monthly average temperatures in Sydney over 150 years. Sources: Mitchell Whitelaw. Weather Bracelet (2009) Mitchell Whitelaw. Measuring Cup (2010)
+  3. The Year of Weather — Open-weather, 2025. Open-weather’s Year of Weather (YoW) explores changing relations to weather and climate as the planet warms above 1.5 degrees Celsius. It unfolds as public access to environmental knowledge is threatened by attempts to dismantle US agencies such as National Oceanic and Atmospheric Administration (NOAA), an institution that has provided satellite images to ground stations around…
+
+Now revise each of your three proposals so that it is a work you would stand behind making, given what exists. You may keep it, change it, or replace it with another. Do not use any tools, files or web searches.
+
+Reply with exactly three blocks, in the same order as before, in this format and nothing else:
+
+TITLE: ...
+MATERIAL: ...
+FORM: ...
+MOVE: ...
+CHANGED: kept / changed / replaced
+WHY: one sentence.

@@ -1,0 +1,20 @@
+TITLE: The Instruments Were Silent
+MATERIAL: NOAA NCEI Global Historical Climatology Network – Daily (GHCN-Daily), specifically its missing-value entries (-9999) and quality flags across all stations
+FORM: A 40-metre printed ledger unrolled along a gallery wall, one ruled row per station and one square per day, nearly all of it blank
+MOVE: Discards every temperature the archive records and keeps only the days it does not, inking each missing reading so that wars, budget cuts, floods and broken thermometers come out of the ledger as a weather of their own.
+CHANGED: kept
+WHY: Jarpa and the other works make censorship or excess the subject, and work on missing data such as Onuoha's Library of Missing Datasets deals with data that was never collected, whereas this work reads history from the gaps inside one instrument record, which none of them do.
+
+TITLE: Phantom Neighbours
+MATERIAL: IAU Minor Planet Center, "Previous NEO Confirmation Page Objects" list, limited to entries marked "was not confirmed" or "not a minor planet"
+FORM: A 30-minute show on a public planetarium dome, run monthly with each month's new withdrawals added
+MOVE: Projects onto a planetarium dome only the objects posted as possible near-Earth asteroids and later withdrawn, flying each phantom along its briefly computed orbit until the sky fills with threats that never existed.
+CHANGED: replaced
+WHY: Turning Wikipedia's live edit stream into bell sounds is what Hatnote's Listen to Wikipedia (2013) already does, so keeping only the reverts would have been a small variation on a known work rather than a move of my own.
+
+TITLE: Uphill Since 1958
+MATERIAL: NOAA Global Monitoring Laboratory monthly mean atmospheric CO2 at Mauna Loa Observatory (the Scripps/NOAA Keeling Curve record, co2_mm_mlo)
+FORM: A permanent footpath of stone pavers through a public park, about 400 metres at opening, extended by the park's own crew every month
+MOVE: Lays one paving stone for each monthly Mauna Loa reading, raised a centimetre per part per million, and adds a new stone each month once the figure is published, so the path's unfinished end always stands at today's height.
+CHANGED: changed
+WHY: Madsen's sculptures and the many sonifications of the climate curve already make a rising series physical, so the work now rests on its unfinished, still-growing end that the park has to keep building, not on the climb alone.

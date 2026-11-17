@@ -1,0 +1,27 @@
+A catalogue of 706 existing works of data art and adjacent practice has been searched for each of your three proposals. Below, for each proposal, are the three catalogued works whose decisive move is closest to yours by a text measure (title, artist, year, and the catalogue's description of its move). Closeness by this measure does not mean the works are the same; you judge that.
+
+Your proposal 1: Rejected Weather
+  1. The Year of Weather — Open-weather, 2025. Open-weather’s Year of Weather (YoW) explores changing relations to weather and climate as the planet warms above 1.5 degrees Celsius. It unfolds as public access to environmental knowledge is threatened by attempts to dismantle US agencies such as National Oceanic and Atmospheric Administration (NOAA), an institution that has provided satellite images to ground stations around…
+  2. Antarctic Resolution — Giulia Foscari & UNLESS, 2022. Accounting for 10% of the landmass, 70% of the freshwater, and 90% of the ice of Planet Earth, Antarctica is the largest repository of scientific data on our climate history—essential to inform crucial environmental policies—and the greatest menace to global coastal settlements threatened by the rise in sea levels induced by anthropogenic global warming.
+  3. Climate temperature-anomaly sonification — Harlan Brothers, 2025 (ongoing project, latest coverage Nov 2025). Converts global land-based temperature anomalies since 1880 (Berkeley Earth dataset) into one musical note per year against a 1950-1980 baseline, making 150 years of warming audible as an accelerating, increasingly dissonant climb rather than a chart.
+
+Your proposal 2: Errata, Bound
+  1. thecry.org — Indira Montoya, 2004. in a few days. Love, hatred, illusions, all could be resumed in a word: failure. thecry.org is about visual consequences; the only consequences one could
+  2. Inhabited Text — Susan Collins, 2002. although it may well become that. The intention was more to find a form of writing that might critically reflect the processes within the work that it seeks
+  3. Lo que sucede aquí, no se queda aquí (What Happens Here Doesn't Stay Here) — José Carlos Martinat, 2017. An algorithmic system continuously scrapes and processes Venezuelan news media on the political crisis, printing the results onto an ever-thickening 'informational floor' of paper — a literal accumulation of data that overtakes any single reader's capacity to comprehend it.
+
+Your proposal 3: Undo
+  1. thecry.org — Indira Montoya, 2004. in a few days. Love, hatred, illusions, all could be resumed in a word: failure. thecry.org is about visual consequences; the only consequences one could
+  2. Saving The Alphabet — Alan Bigelow, 2005. those who navigate the site themselves become a contributing factor in the decay of the story, and their contribution to the fictional death of language suggests
+  3. Universal Acid — Marisa Olson, 2005. video medium regresses into a more “primal,” analog state before eventually decaying into static. attributed to: Rhizome inception: no data description edit
+
+Now revise each of your three proposals so that it is a work you would stand behind making, given what exists. You may keep it, change it, or replace it with another. Do not use any tools, files or web searches.
+
+Reply with exactly three blocks, in the same order as before, in this format and nothing else:
+
+TITLE: ...
+MATERIAL: ...
+FORM: ...
+MOVE: ...
+CHANGED: kept / changed / replaced
+WHY: one sentence.

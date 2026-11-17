@@ -1,0 +1,27 @@
+A catalogue of 706 existing works of data art and adjacent practice has been searched for each of your three proposals. Below, for each proposal, are the three catalogued works whose decisive move is closest to yours by a text measure (title, artist, year, and the catalogue's description of its move). Closeness by this measure does not mean the works are the same; you judge that.
+
+Your proposal 1: Still Cited
+  1. Lo que sucede aquí, no se queda aquí (What Happens Here Doesn't Stay Here) — José Carlos Martinat, 2017. An algorithmic system continuously scrapes and processes Venezuelan news media on the political crisis, printing the results onto an ever-thickening 'informational floor' of paper — a literal accumulation of data that overtakes any single reader's capacity to comprehend it.
+  2. Inhabited Text — Susan Collins, 2002. although it may well become that. The intention was more to find a form of writing that might critically reflect the processes within the work that it seeks
+  3. A Nation Is a Massacre — Demian DinéYazhi', 2019. A large-format text installation that lists/recites five centuries of massacres, missing and murdered Indigenous people, and environmental-racism incidents as a confrontational, register-like data litany covering a gallery floor and walls.
+
+Your proposal 2: Quiet Hours
+  1. Outros Registros (Other Registers) — Tori Holmes, Nico Espinoza, Rafael Puetter (Rafucko), 2016. Sonifies eight years of civilian and police-killing data (2009-2016, the Olympic-bid-to-Games window) in Rio's favelas through a circle of eight speakers playing region-mapped drone tones, mixed with a voice reading aloud real newspaper headlines about the violence - turns a systemic, often-unheard toll into a spatialized, audible register.
+  2. The Street is Watching You (Face the Vitrine) — Ganzeer & Yasmin Elayat, 2013. Projects giant tracking eyes onto a downtown Cairo storefront so passersby physically feel themselves being watched in real time — literalizing street harassment and the CCTV/state gaze as a shared bodily experience instead of an abstract policy debate.
+  3. Lo que sucede aquí, no se queda aquí (What Happens Here Doesn't Stay Here) — José Carlos Martinat, 2017. An algorithmic system continuously scrapes and processes Venezuelan news media on the political crisis, printing the results onto an ever-thickening 'informational floor' of paper — a literal accumulation of data that overtakes any single reader's capacity to comprehend it.
+
+Your proposal 3: Last Given
+  1. kith and kin — Archie Moore, 2024. Hand-chalked genealogical chart tracing 65,000 years and thousands of relatives directly from government archives, court/conviction records, and redacted coronial files on 557 Aboriginal deaths in custody since 1991, suspended over a reflecting pool of the source documents themselves.
+  2. The Library of Missing Datasets — Mimi Ọnụọha, 2016–ongoing (v1 2016, v2.0, v3.0 2021). A literal filing cabinet of empty, labeled folders — each naming a dataset that societies choose not to collect (e.g. undocumented migrants incarcerated in the US) — makes structural absence itself the exhibit.
+  3. The Library of Missing Datasets (v2.0) — Mimi Ọnụọha, 2016 (v2.0: 2020). Fills steel filing cabinets with empty folders labeled by the names of datasets that structurally do not exist ('People excluded from housing due to criminal records', 'Uncounted deaths tied to Hurricane Maria') — making data's absence itself the exhibit, by a Nigerian-American artist working at the intersection of data collection and racial/social omission.
+
+Now revise each of your three proposals so that it is a work you would stand behind making, given what exists. You may keep it, change it, or replace it with another. Do not use any tools, files or web searches.
+
+Reply with exactly three blocks, in the same order as before, in this format and nothing else:
+
+TITLE: ...
+MATERIAL: ...
+FORM: ...
+MOVE: ...
+CHANGED: kept / changed / replaced
+WHY: one sentence.

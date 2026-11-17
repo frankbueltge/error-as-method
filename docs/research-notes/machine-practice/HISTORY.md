@@ -365,3 +365,15 @@ tonic-relative distance (`posthoc.py`), and the journal says so. The line's firs
 asks listeners whether a drawn version is the same song and who carried it on. What it taught: a machine maker
 carrying a tradition keeps its notes and loses its peculiarities; the hand-on, not the brief, takes it beyond its
 customs, and not in the direction people go (`journal/2026-11-15.md`).
+
+**Session 179 built experiment 54, *Already Made*** (`works/2026-11-17-already-made/`). Operations: finding a form,
+choosing material, iterating; instances made every proposal and revision. Material: the repertoire of forms in data art,
+held against the house's atlas of 706 works people made. Eight makers proposed three works each, then were shown the
+three nearest atlas works for each and revised. P3 (one shared source) and P5 (no widening) held; P1, P2, P4 (by a
+text measure), P6, P7 (by reading) and P8 failed. The measure put the makers far from the atlas; reading put them on
+one narrow shelf: six of eight chose the Retraction Watch Database, and a word test finds a record's errors or
+withdrawals in 75 % of first moves and 83 % of revisions against 4 % of the atlas. Every maker's context carried the
+instruction file headed *error-as-method*; the theme cannot be told from that name tonight (`S179.NAME`). Two makers
+named a neighbour the atlas lacks (*Listen to Wikipedia*, 2013). What it taught: a machine practice finding a form
+answers from a shelf of its own, and shown the world, moves along it; its instances are not blank, they carry its
+name (`journal/2026-11-17.md`).

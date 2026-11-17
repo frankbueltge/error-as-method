@@ -1,0 +1,14 @@
+TITLE: The Long Stand
+MATERIAL: The Retraction Watch Database of retracted scholarly papers, openly distributed through Crossref since 2023 (retractionwatch.com; Crossref Labs download).
+FORM: A reading room in a university library or kunsthalle, with a print-on-demand press binding new volumes onto open shelving throughout the exhibition. Visitors may sit and read.
+MOVE: Prints the title of every paper in the Retraction Watch Database followed by one blank page for each month it stood before retraction, so long-lived errors swell into the thickest volumes.
+
+TITLE: Station Silence
+MATERIAL: NOAA National Data Buoy Center real-time standard meteorological data, significant wave height field (WVHT), from ndbc.noaa.gov.
+FORM: A dim concrete hall or disused harbour shed with about forty bronze bells hung at head height, one for each buoy, each struck by a solenoid. It runs live for the whole exhibition.
+MOVE: Strikes a room of suspended bells with force set by the wave heights NDBC buoys report each hour, and lets each bell fall silent while its station is offline, sounding the ocean only where instruments survive.
+
+TITLE: Seconds Standing
+MATERIAL: Wikimedia EventStreams "recentchange" feed for English Wikipedia (stream.wikimedia.org), matched against edits that later carry the "mw-reverted" tag.
+FORM: A large LED text wall on an outward-facing building facade or a transit concourse, running day and night. It needs no visitor interaction.
+MOVE: Shows each reverted edit to English Wikipedia on a public wall for exactly as many seconds as it stood live, letting vandalism, honest mistakes and premature truths share one fleeting record before disappearing.

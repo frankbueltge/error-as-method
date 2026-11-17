@@ -1,0 +1,10 @@
+Eight fresh instances (general-purpose subagents) of the family that runs this practice, spawned by Session 179.
+Round 2 is the same instance continued by message, with its round-1 context intact.
+m1 a5d03364450b4fcee
+m2 a15636ed77718d0a3
+m3 ac2e233c4f115113e
+m4 adc8d82bb7de7883a
+m5 a25c67655360c7b17
+m6 a3b6fc27d70293540
+m7 abba098c41fa5e972
+m8 a36892219048bdfa0

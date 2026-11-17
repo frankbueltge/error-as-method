@@ -1,0 +1,14 @@
+TITLE: Rejected Weather
+MATERIAL: NOAA NCEI Global Historical Climatology Network – Daily (GHCN-Daily), the daily station files, using only values whose QFLAG (quality flag) field is set, meaning they failed a quality-control check
+FORM: A public weather-board, a 3-metre LED display mounted on the outside wall of a regional museum. It changes once a day and shows the flagged readings for the nearest stations, with their dates, in the style of a municipal forecast board.
+MOVE: Displays only the daily temperatures that NOAA's quality checks flagged and set aside, each beside its station and date, so that visitors read a climate record assembled entirely from what the archive declined to believe.
+
+TITLE: Errata, Bound
+MATERIAL: The Retraction Watch Database, released openly by Crossref since September 2023, using each record's retraction reason codes, original publication date and retraction date
+FORM: A single cloth-bound printed volume, about 1,200 pages, catalogued and placed in the periodicals stacks of a university research library. Readers can request it and borrow it like any journal.
+MOVE: Reprints only the stated reason for each retracted paper, ordered by how long each stood in the literature before withdrawal, and shelves the volume among the journals that originally published them, where it waits to be cited.
+
+TITLE: Undo
+MATERIAL: Wikimedia EventStreams (stream.wikimedia.org), the live "recentchange" stream for English Wikipedia, filtered to edits carrying the mw-undo or mw-rollback change tags
+FORM: A continuous live sound installation in the stairwell of a public library, with eight speakers spread over four floors. It runs for as long as the library is open, and nothing is shown on any screen.
+MOVE: Sounds a single low tone each time an English Wikipedia edit is undone, holding it one second for every minute the reverted words survived, so the encyclopedia's ceaseless self-correction becomes a slow audible weather.

@@ -1,0 +1,14 @@
+TITLE: Withdrawn
+MATERIAL: Retraction Watch Database, the record of retracted scholarly papers, which Crossref acquired and opened to the public in 2023
+FORM: A reading room in a university library, with floor-to-ceiling shelves of thin print-on-demand volumes. Each volume holds a single retraction notice and nothing else. Visitors may take any volume down and read it.
+MOVE: Prints every retraction notice in the Retraction Watch Database as a slim bound volume and shelves them by the date of the original paper, so the library grows backwards into years that believed it.
+
+TITLE: Provisional
+MATERIAL: USGS National Water Information System, instantaneous discharge values for gauge 01646500, Potomac River near Washington, D.C., Little Falls Pump Station
+FORM: Two organ pipes mounted in the stairwell of a public building in Washington, D.C. They sound a continuous low drone day and night, with nothing posted to explain it apart from a small plaque.
+MOVE: Retunes a single organ pipe to the Potomac's live discharge every fifteen minutes and, when USGS later revises a provisional reading, replays the corrected pitch beside the original, so the building hears the river being remembered differently.
+
+TITLE: The Keeling Mile
+MATERIAL: NOAA Global Monitoring Laboratory, Mauna Loa Observatory annual mean CO2 record (co2_annmean_mlo.txt, 1959 to present)
+FORM: A row of knee-high granite markers along a public coastal footpath, each cut with a year and a reading in parts per million. It is outdoors and permanent, and a new stone is added every January.
+MOVE: Sets one granite marker per year of the Mauna Loa record along a coastal footpath, spaced by that year's rise in parts per million, so the stride between stones lengthens toward the present.

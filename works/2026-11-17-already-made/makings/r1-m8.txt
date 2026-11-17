@@ -1,0 +1,14 @@
+TITLE: Still Cited
+MATERIAL: Retraction Watch Database, published openly by Crossref since 2023 (also downloadable as a CSV from Crossref's Labs/GitLab)
+FORM: A reading room in a university library holding print-on-demand volumes, one per retracted paper. The volumes are reprinted and grow thicker as new citations appear.
+MOVE: Binds each retracted paper together with every later paper that cited it after the retraction notice, so the shelf thickens year by year with work built, knowingly or not, on withdrawn ground.
+
+TITLE: Quiet Hours
+MATERIAL: NYC Open Data, "311 Service Requests from 2010 to Present", filtered to complaint type "Noise - Residential"
+FORM: A 24-hour sound installation in a Manhattan pedestrian underpass. Live street microphones feed speakers along the tunnel walls, played back with a one-day delay.
+MOVE: Turns each noise complaint filed within 500 metres of the site into seconds of silence cut from the live street feed, so the hours with the most complaints become the quietest the passage ever sounds.
+
+TITLE: Last Given
+MATERIAL: US Social Security Administration, national baby-name data files (names.zip, 1880 to present, every name given to at least five babies of one sex in a year)
+FORM: Granite paving stones laid along a public park path. One new stone is added each spring after the SSA releases the year's data, so the path lengthens over decades.
+MOVE: Carves every name that appeared in one year's file and vanished from the next, recording not deaths but the quiet moment a name stopped being given to children.

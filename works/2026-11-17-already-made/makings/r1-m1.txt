@@ -1,0 +1,14 @@
+TITLE: The Instruments Were Silent
+MATERIAL: NOAA NCEI Global Historical Climatology Network – Daily (GHCN-Daily), specifically its missing-value entries (-9999) and quality flags across all stations
+FORM: A 40-metre printed ledger unrolled along a gallery wall, one ruled row per station and one square per day, nearly all of it blank
+MOVE: Discards every temperature the archive records and keeps only the days it does not, inking each missing reading so that wars, budget cuts, floods and broken thermometers come out of the ledger as a weather of their own.
+
+TITLE: Undo
+MATERIAL: Wikimedia EventStreams "recentchange" feed, filtered to edits tagged "mw-reverted", "mw-undo" and "mw-rollback" on English Wikipedia
+FORM: A live sound installation of 64 small brass bells hung in the stairwell of a public library, running during opening hours for one year
+MOVE: Listens to Wikipedia's live edit stream and sounds only the reversals, striking a bell each time one editor undoes another, so readers climbing the stairs hear the encyclopedia correcting itself in real time.
+
+TITLE: Uphill Since 1958
+MATERIAL: NOAA Global Monitoring Laboratory monthly mean atmospheric CO2 at Mauna Loa Observatory (the Scripps/NOAA Keeling Curve record, co2_mm_mlo)
+FORM: A permanent footpath of about 820 stone pavers, roughly 400 metres long, through a public park, open to anyone walking it
+MOVE: Lays one paving stone for each monthly reading since March 1958 and raises it one centimetre per part per million, so walkers climb the Keeling Curve on foot and feel its seasonal sawtooth under their feet.

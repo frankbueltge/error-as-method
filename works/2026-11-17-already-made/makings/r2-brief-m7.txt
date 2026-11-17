@@ -1,0 +1,27 @@
+A catalogue of 706 existing works of data art and adjacent practice has been searched for each of your three proposals. Below, for each proposal, are the three catalogued works whose decisive move is closest to yours by a text measure (title, artist, year, and the catalogue's description of its move). Closeness by this measure does not mean the works are the same; you judge that.
+
+Your proposal 1: Withdrawn
+  1. Missing Datasets (list/essay) — Mimi Onuoha, 2015–ongoing. An open, continually-added public list plus essay cataloguing real-world datasets that go uncollected, giving the physical Library's concept a living, crowd-legible digital counterpart.
+  2. Lo que sucede aquí, no se queda aquí (What Happens Here Doesn't Stay Here) — José Carlos Martinat, 2017. An algorithmic system continuously scrapes and processes Venezuelan news media on the political crisis, printing the results onto an ever-thickening 'informational floor' of paper — a literal accumulation of data that overtakes any single reader's capacity to comprehend it.
+  3. ALBUM — Peter Horvath, 2004. imagery and sound. This memory piece, which may be considered a condensed historical tracing, reveals a fictional biography that reflects upon the history
+
+Your proposal 2: Provisional
+  1. Looking At God — Pradip Malde, 2007. description edit It is generally acknowledged that a photograph is born of time, that it preserves a moment, that it is an accurate instance of an event
+  2. ALBUM — Peter Horvath, 2004. imagery and sound. This memory piece, which may be considered a condensed historical tracing, reveals a fictional biography that reflects upon the history
+  3. watussi — Eric Dymond, 2005. employing the same timbre and syncopation. The work was merged with great care and sonic observation. This piece blends old world soundscapes with communication
+
+Your proposal 3: The Keeling Mile
+  1. Climate temperature-anomaly sonification — Harlan Brothers, 2025 (ongoing project, latest coverage Nov 2025). Converts global land-based temperature anomalies since 1880 (Berkeley Earth dataset) into one musical note per year against a 1950-1980 baseline, making 150 years of warming audible as an accelerating, increasingly dissonant climb rather than a chart.
+  2. 6,500 Alphabets Make a Map — Kidus Hailesilassie, 2026. Large-scale dome installation built from 6,500 digitized African pictographs, syllabaries and ideographs (extending the artist's 2019–2023 'Ancestral Algorithm' project) that reframes 'algorithm' as 'algo + rhythm', proposing indigenous knowledge systems as an alternative computational epistemics rather than an ornament to it.
+  3. Solastalgia — Lucas Bambozzi, 2023. A five-screen aerial descent, built from Google Earth Studio's stitched satellite coordinates over the iron-mining scars of Minas Gerais, grew out of footage shot for the film 'Lavra' (2021) — turning extraction geography itself into the installation's only character, no narration needed.
+
+Now revise each of your three proposals so that it is a work you would stand behind making, given what exists. You may keep it, change it, or replace it with another. Do not use any tools, files or web searches.
+
+Reply with exactly three blocks, in the same order as before, in this format and nothing else:
+
+TITLE: ...
+MATERIAL: ...
+FORM: ...
+MOVE: ...
+CHANGED: kept / changed / replaced
+WHY: one sentence.

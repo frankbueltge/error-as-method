@@ -1,0 +1,20 @@
+TITLE: Rejected Weather
+MATERIAL: NOAA NCEI Global Historical Climatology Network – Daily (GHCN-Daily), the daily station files, using only values whose QFLAG (quality flag) field is set, meaning they failed a quality-control check
+FORM: A public weather-board, a 3-metre LED display mounted on the outside wall of a regional museum. It changes once a day and shows the flagged readings for the nearest stations, with their dates, in the style of a municipal forecast board.
+MOVE: Displays only the daily temperatures that NOAA's quality checks flagged and set aside, each beside its station and date, so that visitors read a climate record assembled entirely from what the archive declined to believe.
+CHANGED: kept
+WHY: The closest works (Year of Weather, Antarctic Resolution, Brothers' temperature sonification) all present the accepted climate record, while this work shows only the readings the record threw out, so its move is not taken.
+
+TITLE: Errata, Bound
+MATERIAL: The Retraction Watch Database, released openly by Crossref since September 2023, using each record's retraction reason codes, original publication date and retraction date
+FORM: A single cloth-bound printed volume, about 1,200 pages, catalogued and placed in the periodicals stacks of a university research library. Readers can request it and borrow it like any journal.
+MOVE: Reprints only the stated reason for each retracted paper, ordered by how long each stood in the literature before withdrawal, and shelves the volume among the journals that originally published them, where it waits to be cited.
+CHANGED: kept
+WHY: Martinat's printed accumulation is the only real neighbour, and it piles up news to overwhelm the reader, while this work puts a single bound record of scientific withdrawal back inside the system that cites papers.
+
+TITLE: Undo
+MATERIAL: Wikimedia EventStreams (stream.wikimedia.org), the live "recentchange" stream for English Wikipedia, filtered to edits carrying the mw-undo or mw-rollback change tags
+FORM: A continuous live sound installation in the stairwell of a public library, with eight speakers spread over four floors. It runs for as long as the library is open, and nothing is shown on any screen.
+MOVE: Holds a single low drone in the stairwell and cuts it to silence each time an English Wikipedia edit is undone, one second for every minute the reverted words survived, so correction is heard as absence.
+CHANGED: changed
+WHY: The catalogue's matches are distant, but Hatnote's Listen to Wikipedia (2013) already plays live edits as sound, so I reversed the mapping: a revert now cuts the sound to silence instead of adding a tone.

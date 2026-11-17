@@ -1,0 +1,14 @@
+TITLE: Errata Shelf
+MATERIAL: Retraction Watch Database, released openly through Crossref (crossref.org, "Retraction Watch data")
+FORM: A library reading room with a steel shelf that grows each year, holding bound volumes that visitors may take down and read at a carrel. It is shown in a university library.
+MOVE: Reprints the title page of every retracted paper at its journal's original size and binds the pages by year of retraction, so that a growing shelf measures science's self-correction in metres of paper.
+
+TITLE: Going Dark
+MATERIAL: Global Fishing Watch, "AIS Disabling Events" dataset (Welch et al., Science Advances, 2022), downloadable from globalfishingwatch.org
+FORM: A multichannel sound installation in a disused harbour warehouse. Visitors walk among about forty speakers in near darkness. It runs continuously from live and archival data.
+MOVE: Gives every vessel that switches off its transponder a sustained tone that lasts exactly as long as the ship stays dark, so that hiding at sea becomes a chord whose ending the visitor never hears.
+
+TITLE: Gradient
+MATERIAL: Met Office Hadley Centre Central England Temperature series (HadCET), annual mean temperatures from 1659 (metoffice.gov.uk/hadobs/hadcet)
+FORM: A permanent outdoor path of granite setts, about 370 stones long, laid through a public park in the English Midlands. It is free to walk at any hour.
+MOVE: Lays one granite sett for each year of the record since 1659 and sets each stone's height by that year's mean temperature, so that walkers feel three and a half centuries of warming as an uneven climb underfoot.

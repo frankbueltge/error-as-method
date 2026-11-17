@@ -1,0 +1,27 @@
+A catalogue of 706 existing works of data art and adjacent practice has been searched for each of your three proposals. Below, for each proposal, are the three catalogued works whose decisive move is closest to yours by a text measure (title, artist, year, and the catalogue's description of its move). Closeness by this measure does not mean the works are the same; you judge that.
+
+Your proposal 1: The Long Stand
+  1. Lo que sucede aquí, no se queda aquí (What Happens Here Doesn't Stay Here) — José Carlos Martinat, 2017. An algorithmic system continuously scrapes and processes Venezuelan news media on the political crisis, printing the results onto an ever-thickening 'informational floor' of paper — a literal accumulation of data that overtakes any single reader's capacity to comprehend it.
+  2. thecry.org — Indira Montoya, 2004. in a few days. Love, hatred, illusions, all could be resumed in a word: failure. thecry.org is about visual consequences; the only consequences one could
+  3. Anatomy of an AI System — Kate Crawford & Vladan Joler, 2018. Traces the full extractive supply chain of a single Amazon Echo — minerals, ghost labor, data, disposal — into one exploded-view diagram/essay, converting AI's invisible material costs into a legible map, published online and printed as a large-format poster.
+
+Your proposal 2: Station Silence
+  1. Atom — Christopher Bauder, 2007. for a matrix of 64 gas balloons, lights, and sound A room is filled with deep, evolving noises from a four-channel sound system. An eight-by-eight array
+  2. The Open Boat — Lamin Fofana, 2024. A sound/performance piece built from postcolonial theory and the non-linear, cyclical temporalities of oceanic space, staging Black Atlantic migration and diaspora as a counter-epistemology to Western linear data and archival logic.
+  3. Picocosmos — Edy Fung, 2026. The work acts as its own radio station, presented as a transparent tangle of components that interpret quantum data and transmits it as audio.
+
+Your proposal 3: Seconds Standing
+  1. thecry.org — Indira Montoya, 2004. in a few days. Love, hatred, illusions, all could be resumed in a word: failure. thecry.org is about visual consequences; the only consequences one could
+  2. The Search Wall — Mladen Zagorac, 2007. search engines. Contrary to the usual strong stance on archiving and preservation, The Search Wall ephemerizes users’ searches; after their subtle appearance
+  3. Brute Force — Vinzenz Aubry, Robert Schnüll, 2026. A precise demonstration of the dead-internet thesis: software multiplies faster than anyone can read it, while we keep performing the gestures that once meant authorship.
+
+Now revise each of your three proposals so that it is a work you would stand behind making, given what exists. You may keep it, change it, or replace it with another. Do not use any tools, files or web searches.
+
+Reply with exactly three blocks, in the same order as before, in this format and nothing else:
+
+TITLE: ...
+MATERIAL: ...
+FORM: ...
+MOVE: ...
+CHANGED: kept / changed / replaced
+WHY: one sentence.

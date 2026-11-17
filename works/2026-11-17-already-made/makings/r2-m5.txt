@@ -1,0 +1,20 @@
+TITLE: Errata Shelf
+MATERIAL: Retraction Watch Database, released openly through Crossref (crossref.org, "Retraction Watch data")
+FORM: A library reading room with a steel shelf of blank-spined bound volumes, one per retracted paper. Visitors may take a volume down at a carrel. It is shown in a university library.
+MOVE: Binds each retracted paper as a volume whose thickness is set by the days between its publication and its retraction, so that the shelf measures how long science believed an error, not how many errors it made.
+CHANGED: changed
+WHY: Martinat's ever-thickening paper floor already owns the move of print piling up past what a reader can take in, so the work now measures how long errors stood uncorrected instead of how many there were.
+
+TITLE: Going Dark
+MATERIAL: Global Fishing Watch, "AIS Disabling Events" dataset (Welch et al., Science Advances, 2022), downloadable from globalfishingwatch.org
+FORM: A multichannel sound installation in a disused harbour warehouse. Visitors walk among about forty speakers in near darkness. It runs continuously from live and archival data.
+MOVE: Gives every vessel that switches off its transponder a sustained tone that lasts exactly as long as the ship stays dark, so that hiding at sea becomes a chord whose ending the visitor never hears.
+CHANGED: kept
+WHY: The closest works make undersea cable infrastructure visible, while this one gives sound to vessels deliberately going silent, a different subject and a different move.
+
+TITLE: Gradient
+MATERIAL: Met Office Hadley Centre Central England Temperature series (HadCET), annual mean temperatures from 1659 (metoffice.gov.uk/hadobs/hadcet), including Manley's early values recorded only to the whole or half degree
+FORM: A permanent outdoor path of granite setts, about 370 stones long, laid through a public park in the English Midlands. It is free to walk at any hour.
+MOVE: Lays one sett per year of the record and dresses each stone only as finely as that year's measurement allows, rough-split where values survive to the whole degree and honed where tenths are known, so walkers feel the record's certainty build underfoot.
+CHANGED: changed
+WHY: Brothers' sonification and Whitelaw's measuring cup already turn warming into a felt climb, so the path now gives form to how precise the record is rather than to the warming itself.

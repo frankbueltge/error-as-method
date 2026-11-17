@@ -1,0 +1,20 @@
+TITLE: Still Cited
+MATERIAL: Retraction Watch Database, published openly by Crossref since 2023 (also downloadable as a CSV from Crossref's Labs/GitLab)
+FORM: A reading room in a university library. Each retracted paper has a single slim reprint, and loose cards are tucked inside it, one for each paper that cited it after the retraction notice. Readers can take the cards away.
+MOVE: Pairs each retracted paper with every later paper that cited it after its retraction notice, and invites readers to carry those citing papers' cards out of the library the way the error itself travelled.
+CHANGED: changed
+WHY: Martinat's ever-thickening paper floor already owns accumulation as spectacle, so I dropped the growing shelf and kept only what is mine: the link between a retraction and the citations that ignored it, and the error spreading outward.
+
+TITLE: Quiet Hours
+MATERIAL: NYC Open Data, "311 Service Requests from 2010 to Present", filtered to complaint type "Noise - Residential"
+FORM: A 24-hour sound installation in a Manhattan pedestrian underpass. Live street microphones feed speakers along the tunnel walls, played back with a one-day delay.
+MOVE: Turns each noise complaint filed within 500 metres of the site into seconds of silence cut from the live street feed, so the hours with the most complaints become the quietest the passage ever sounds.
+CHANGED: kept
+WHY: The nearest works either play data as sound (Outros Registros) or watch the street (Ganzeer and Elayat), and none removes sound, so subtraction is still my own move.
+
+TITLE: Below Five
+MATERIAL: US Social Security Administration, national baby-name data files (names.zip, 1880 to present, which for privacy leave out any name given to fewer than five babies of one sex in a year)
+FORM: Granite paving stones laid along a public park path. One stone is added each spring after the SSA releases the year's data. Each name is carved in full, followed by the words "fewer than five".
+MOVE: Carves every name that dropped out of the previous year's file. It records not that a name stopped being given but that the record stopped counting it, so the stone marks the reporting threshold rather than the name's absence.
+CHANGED: changed
+WHY: Ọnụọha's Library of Missing Datasets already makes absence the exhibit, so I moved the work onto something particular to this data: its suppression threshold, which turns "vanished" into "fell below the count".
