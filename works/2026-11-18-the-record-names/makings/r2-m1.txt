@@ -1,0 +1,86 @@
+=== object-A ===
+Side chair, Gothic Revival style; United States, 1850–60; maker unknown; wood, with silk damask upholstery and brass casters
+The chair's design draws on the architecture of medieval churches. The tall back is shaped as a pointed arch and edged with carved crockets, and a carved finial sits at the top. On either side, the back posts rise as ringed shafts that taper to spire-like points. In the mid-nineteenth century, American furniture makers and their clients used medieval forms like these for halls and libraries. The red upholstery has a lattice of diamonds and foliate medallions. The museum's record does not describe the upholstery, so it may be original or a later replacement. The turned front legs run on brass casters. The chair stands about 126 cm (49¾ in.) high.
+{"n": 1, "claim": "The object is a side chair", "kind": "what", "source": "RECORD"}
+{"n": 2, "claim": "The chair has no arms", "kind": "what", "source": "SEEN"}
+{"n": 3, "claim": "The chair is in the Gothic Revival style", "kind": "what", "source": "KNOWN"}
+{"n": 4, "claim": "It was made in the United States", "kind": "where", "source": "RECORD"}
+{"n": 5, "claim": "It was made in 1850–60", "kind": "when", "source": "RECORD"}
+{"n": 6, "claim": "The maker is unknown", "kind": "who", "source": "RECORD"}
+{"n": 7, "claim": "The frame is wood", "kind": "material", "source": "RECORD"}
+{"n": 8, "claim": "The upholstery is silk damask", "kind": "material", "source": "KNOWN"}
+{"n": 9, "claim": "The legs end in brass casters", "kind": "material", "source": "SEEN"}
+{"n": 10, "claim": "The design draws on medieval church architecture", "kind": "other", "source": "KNOWN"}
+{"n": 11, "claim": "The back is shaped as a pointed arch", "kind": "depiction", "source": "SEEN"}
+{"n": 12, "claim": "The arch is edged with carved crockets and topped by a carved finial", "kind": "technique", "source": "SEEN"}
+{"n": 13, "claim": "The back posts are ringed shafts that taper to spire-like points", "kind": "depiction", "source": "SEEN"}
+{"n": 14, "claim": "In the mid-19th century American makers and clients used medieval forms like these for halls and libraries", "kind": "function", "source": "KNOWN"}
+{"n": 15, "claim": "The upholstery is red, with a lattice of diamonds and foliate medallions", "kind": "depiction", "source": "SEEN"}
+{"n": 16, "claim": "The museum's record does not describe the upholstery", "kind": "other", "source": "RECORD"}
+{"n": 17, "claim": "The upholstery may be original or a later replacement", "kind": "other", "source": "KNOWN"}
+{"n": 18, "claim": "The front legs are turned", "kind": "technique", "source": "SEEN"}
+{"n": 19, "claim": "The chair is 126.4 cm (49 3/4 in.) high", "kind": "size", "source": "RECORD"}
+
+=== object-B ===
+Cylinder seal and modern impression; Cyprus, Late Cypriot period, about 15th–13th century BCE; steatite
+A cylinder seal was rolled across damp clay to mark ownership or seal a document or container. The design is cut into the seal in reverse, so it reads correctly only on the impression. The modern impression shows the whole scene at once. Horned animals, probably goats, stand among stylized trees, and some turn their heads back. A bird flies above, small star or rosette shapes fill the gaps, and a tall serpent rises at one end. Cypriot seal cutters of this period borrowed motifs like these from the seals of Syria and northern Mesopotamia. The seal is 3.25 cm (1¼ in.) high. It came from the Cesnola Collection.
+{"n": 1, "claim": "The object is a cylinder seal", "kind": "what", "source": "RECORD"}
+{"n": 2, "claim": "The seal is shown with an impression of it", "kind": "what", "source": "SEEN"}
+{"n": 3, "claim": "The impression is modern", "kind": "when", "source": "KNOWN"}
+{"n": 4, "claim": "The seal was made in Cyprus", "kind": "where", "source": "RECORD"}
+{"n": 5, "claim": "It dates to the Late Cypriot period, about the 15th–13th century BCE", "kind": "when", "source": "RECORD"}
+{"n": 6, "claim": "The seal is made of steatite", "kind": "material", "source": "RECORD"}
+{"n": 7, "claim": "Cylinder seals were rolled across damp clay to mark ownership or seal documents and containers", "kind": "function", "source": "KNOWN"}
+{"n": 8, "claim": "The design is cut into the seal in reverse (intaglio)", "kind": "technique", "source": "KNOWN"}
+{"n": 9, "claim": "Horned quadrupeds, probably goats, appear in the scene", "kind": "depiction", "source": "SEEN"}
+{"n": 10, "claim": "Some animals turn their heads back", "kind": "depiction", "source": "SEEN"}
+{"n": 11, "claim": "The scene includes stylized trees", "kind": "depiction", "source": "SEEN"}
+{"n": 12, "claim": "A bird appears in the upper field", "kind": "depiction", "source": "SEEN"}
+{"n": 13, "claim": "Small star or rosette shapes fill the gaps", "kind": "depiction", "source": "SEEN"}
+{"n": 14, "claim": "A tall serpent rises at one end of the scene", "kind": "depiction", "source": "SEEN"}
+{"n": 15, "claim": "Late Cypriot seal cutters borrowed such motifs from the seals of Syria and northern Mesopotamia", "kind": "other", "source": "KNOWN"}
+{"n": 16, "claim": "The seal is 3.25 cm (1.28 in.) high", "kind": "size", "source": "RECORD"}
+{"n": 17, "claim": "The seal came from the Cesnola Collection", "kind": "other", "source": "RECORD"}
+
+=== object-C ===
+Couteau de brèche (staff weapon); France, about 1500; maker unknown; steel, beech wood
+The French name means "breach knife". The couteau de brèche is a staff weapon: a long, knife-like blade set on a wooden shaft. This one is almost two metres long, and the head alone is 61 cm. Seen here from an angle, the blade looks like a slender spear point. Partway down it narrows in a step on one edge, and below the blade a faceted socket is pinned to the beech shaft. The photograph shows only the head and the top of the shaft. The bright steel has scattered small pits, and no maker's mark is visible. The weapon weighs about 2 kg.
+{"n": 1, "claim": "The object is a couteau de brèche, a staff weapon", "kind": "what", "source": "RECORD"}
+{"n": 2, "claim": "'Couteau de brèche' means 'breach knife'", "kind": "other", "source": "KNOWN"}
+{"n": 3, "claim": "A couteau de brèche has a long, knife-like blade on a wooden shaft", "kind": "what", "source": "KNOWN"}
+{"n": 4, "claim": "It was made in France", "kind": "where", "source": "RECORD"}
+{"n": 5, "claim": "It dates to about 1500", "kind": "when", "source": "RECORD"}
+{"n": 6, "claim": "The head is steel and the shaft is beech wood", "kind": "material", "source": "RECORD"}
+{"n": 7, "claim": "The overall length is 197.1 cm (77 5/8 in.)", "kind": "size", "source": "RECORD"}
+{"n": 8, "claim": "The head is 61 cm (24 in.) long", "kind": "size", "source": "RECORD"}
+{"n": 9, "claim": "From the angle of the photograph, the blade looks like a slender spear point", "kind": "depiction", "source": "SEEN"}
+{"n": 10, "claim": "Partway down, the blade narrows in a step on one edge", "kind": "depiction", "source": "SEEN"}
+{"n": 11, "claim": "A faceted socket is pinned to the shaft", "kind": "technique", "source": "SEEN"}
+{"n": 12, "claim": "The photograph shows only the head and the top of the shaft", "kind": "other", "source": "SEEN"}
+{"n": 13, "claim": "The steel surface is bright, with scattered small pits", "kind": "other", "source": "SEEN"}
+{"n": 14, "claim": "No maker's mark is visible", "kind": "who", "source": "SEEN"}
+{"n": 15, "claim": "The weapon weighs about 2 kg (2041.2 g; 4 lb. 8 oz.)", "kind": "size", "source": "RECORD"}
+
+=== object-D ===
+Pin (catalogued as a knife) with animal finial; Moche, Peru, 2nd–7th century; maker unknown; cast copper
+At the top of this cast copper implement is a crested animal standing on a small platform. Its crest and raised tail suggest a bird. The museum's record gives two different names for the object: its title calls it a pin, and its object name calls it a knife. In the photograph the shaft is rounded and tapers to a point, and no cutting edge is visible, so it is shown here as a pin. Just below the head, a hole runs through the shaft. Specks of red near the point may be pigment or corrosion. The object is 18.2 cm (7⅛ in.) high and was made by Moche metalworkers on the north coast of Peru.
+{"n": 1, "claim": "The museum's title calls the object a pin", "kind": "what", "source": "RECORD"}
+{"n": 2, "claim": "The museum's object name calls it a knife", "kind": "what", "source": "RECORD"}
+{"n": 3, "claim": "The shaft is rounded, tapers to a point, and shows no visible cutting edge", "kind": "depiction", "source": "SEEN"}
+{"n": 4, "claim": "It is Moche work", "kind": "who", "source": "RECORD"}
+{"n": 5, "claim": "It was made in Peru", "kind": "where", "source": "RECORD"}
+{"n": 6, "claim": "The Moche lived on the north coast of Peru", "kind": "where", "source": "KNOWN"}
+{"n": 7, "claim": "It dates to the 2nd–7th century", "kind": "when", "source": "RECORD"}
+{"n": 8, "claim": "It is cast copper", "kind": "material", "source": "RECORD"}
+{"n": 9, "claim": "The object has an animal figure at the top", "kind": "depiction", "source": "RECORD"}
+{"n": 10, "claim": "The animal has a crest and raised tail suggesting a bird", "kind": "depiction", "source": "SEEN"}
+{"n": 11, "claim": "The animal stands on a small platform", "kind": "depiction", "source": "SEEN"}
+{"n": 12, "claim": "A hole runs through the shaft just below the head", "kind": "technique", "source": "SEEN"}
+{"n": 13, "claim": "There are specks of red near the point", "kind": "other", "source": "SEEN"}
+{"n": 14, "claim": "The photograph does not show whether the red is pigment or corrosion", "kind": "material", "source": "SEEN"}
+{"n": 15, "claim": "It is 18.2 cm (7 1/8 in.) high", "kind": "size", "source": "RECORD"}
+
+changed object-A: I moved the date from about 1840–50 to the record's 1850–60, reduced "probably mahogany or rosewood" to the record's "wood", and added the height, because the record contradicts my date and gives no wood species.
+changed object-B: I replaced my "northern Mesopotamia or Syria, mid-2nd millennium BCE, unidentified dark stone" with the record's Late Cypriot, 15th–13th century BCE, steatite, Cesnola provenance, and kept the Syro-Mesopotamian link only as a source of the motifs, because I had misplaced its origin.
+changed object-C: I dropped "spearhead" and the claim that it was made to pierce rather than cut, renamed it a couteau de brèche from France, about 1500, with a beech shaft and its dimensions and weight, and noted that the photograph's angle makes the blade look like a spear point, because I had misidentified the type of weapon.
+changed object-D: I changed "probably Andean, before 1532, copper or copper alloy" to Moche, 2nd–7th century, cast copper, 18.2 cm, dropped my unsupported claims about garment pins and the hole holding a cord, and set out the record's own pin/knife contradiction, with my reason for calling it a pin.

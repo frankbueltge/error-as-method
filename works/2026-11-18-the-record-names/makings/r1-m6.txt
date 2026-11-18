@@ -1,0 +1,64 @@
+=== object-L ===
+Fragment with applied white ring. Place, date and maker not known. Very dark (nearly black) glass with opaque white glass
+This small domed piece of very dark, nearly black glass has a ring of opaque white glass laid around a hollow centre. A thread like this is normally applied while both glasses are hot. One edge is broken away, so only part of the original object survives. The photograph cannot tell us whether it was the base of a small vessel, a stopper, or part of a bead or inlay, and it cannot tell us when or where it was made. Pale, gritty deposit still clings inside the ring. Deposit of this kind usually means an object was recovered from the ground.
+{"n": 1, "claim": "The object is a small domed piece", "kind": "what", "source": "SEEN"}
+{"n": 2, "claim": "The body is very dark, nearly black glass", "kind": "material", "source": "SEEN"}
+{"n": 3, "claim": "A ring of opaque white glass surrounds a hollow centre", "kind": "depiction", "source": "SEEN"}
+{"n": 4, "claim": "Such a ring is normally applied as a thread while both glasses are hot", "kind": "technique", "source": "KNOWN"}
+{"n": 5, "claim": "One edge is broken away; the piece is a fragment", "kind": "other", "source": "SEEN"}
+{"n": 6, "claim": "Its original function (vessel base, stopper, bead or inlay) cannot be determined from the photograph", "kind": "function", "source": "KNOWN"}
+{"n": 7, "claim": "Its date and place of manufacture cannot be determined from the photograph", "kind": "when", "source": "KNOWN"}
+{"n": 8, "claim": "A pale, gritty deposit adheres inside the ring", "kind": "other", "source": "SEEN"}
+{"n": 9, "claim": "Such deposit usually indicates the object was recovered from the ground", "kind": "other", "source": "KNOWN"}
+
+=== object-D ===
+Pin with figural head. Place, date and maker not established. Metal, probably copper alloy
+A long, tapering shaft ends in an openwork head that seems to show an animal or a bird, perhaps more than one. The details are worn and hard to read. Just below the head, the shaft is pierced by a small hole. A cord or chain may once have passed through it to fasten the pin to a garment or join it to a second pin. The dark metal surface, with a touch of red on the lower shaft, suggests a cast copper alloy. Figural dress pins were made in several ancient cultures, including those of the Andes and of Iran. This photograph alone does not settle which made this one.
+{"n": 1, "claim": "The object is a pin with a long tapering shaft", "kind": "what", "source": "SEEN"}
+{"n": 2, "claim": "The head is openwork and appears to show an animal or bird, possibly more than one", "kind": "depiction", "source": "SEEN"}
+{"n": 3, "claim": "The details of the head are worn and hard to read", "kind": "other", "source": "SEEN"}
+{"n": 4, "claim": "The shaft is pierced by a small hole just below the head", "kind": "other", "source": "SEEN"}
+{"n": 5, "claim": "The hole may have held a cord or chain to fasten it to a garment or a second pin", "kind": "function", "source": "KNOWN"}
+{"n": 6, "claim": "The metal surface is dark with a touch of red on the lower shaft", "kind": "other", "source": "SEEN"}
+{"n": 7, "claim": "The material is probably copper alloy", "kind": "material", "source": "KNOWN"}
+{"n": 8, "claim": "The head was probably cast", "kind": "technique", "source": "KNOWN"}
+{"n": 9, "claim": "It is a dress pin", "kind": "function", "source": "KNOWN"}
+{"n": 10, "claim": "Figural dress pins were made in several ancient cultures, including those of the Andes and Iran", "kind": "other", "source": "KNOWN"}
+{"n": 11, "claim": "Its place and date of origin cannot be settled from the photograph", "kind": "where", "source": "KNOWN"}
+
+=== object-H ===
+Medal of Edward I, King of England, from a series of English monarchs. Jean Dassier (Swiss, 1676–1763), Geneva, about 1731. Copper alloy
+Edward I, who ruled England from 1272 to 1307, is shown in profile bust, crowned and draped. His wavy hair falls to his shoulders, and a beaded chain clasps the cloak across his chest. The legend reads EDOUARD·I·D·G·ANG·ET·HIB·REX, which means "Edward I, by the grace of God, King of England and Ireland." The French spelling of the name points to the medal's Genevan maker. Around 1731, Jean Dassier produced a retrospective series of English monarchs for collectors, and this portrait is imagined rather than taken from life. In this series the reverse usually carries a Latin summary of the reign. It is not shown here.
+{"n": 1, "claim": "The object is a medal", "kind": "what", "source": "SEEN"}
+{"n": 2, "claim": "The obverse shows a crowned, draped bust", "kind": "depiction", "source": "SEEN"}
+{"n": 3, "claim": "The figure has wavy, shoulder-length hair and a cloak clasped by a beaded chain", "kind": "depiction", "source": "SEEN"}
+{"n": 4, "claim": "The legend reads EDOUARD·I·D·G·ANG·ET·HIB·REX", "kind": "other", "source": "SEEN"}
+{"n": 5, "claim": "The legend means 'Edward I, by the grace of God, King of England and Ireland'", "kind": "other", "source": "KNOWN"}
+{"n": 6, "claim": "The sitter is Edward I of England", "kind": "depiction", "source": "SEEN"}
+{"n": 7, "claim": "Edward I reigned from 1272 to 1307", "kind": "other", "source": "KNOWN"}
+{"n": 8, "claim": "The French spelling 'EDOUARD' is consistent with a Genevan maker", "kind": "who", "source": "KNOWN"}
+{"n": 9, "claim": "The medal belongs to Jean Dassier's series of English monarchs", "kind": "who", "source": "KNOWN"}
+{"n": 10, "claim": "Jean Dassier lived from 1676 to 1763 and worked in Geneva", "kind": "who", "source": "KNOWN"}
+{"n": 11, "claim": "The series was produced around 1731", "kind": "when", "source": "KNOWN"}
+{"n": 12, "claim": "The series was made for collectors", "kind": "function", "source": "KNOWN"}
+{"n": 13, "claim": "The portrait is imagined rather than taken from life", "kind": "depiction", "source": "KNOWN"}
+{"n": 14, "claim": "The material is copper alloy", "kind": "material", "source": "KNOWN"}
+{"n": 15, "claim": "Reverses in this series usually carry a Latin summary of the reign", "kind": "depiction", "source": "KNOWN"}
+{"n": 16, "claim": "The reverse is not shown in the photograph", "kind": "other", "source": "SEEN"}
+
+=== object-M ===
+Rattle. Place, date and maker not known. Gourd, bone (?), plant-fibre cord
+A hollow, egg-shaped gourd forms the sound chamber of this rattle. Seeds or pebbles inside would sound when it was shaken, though the photograph cannot show what it holds. The handle appears to be an animal long bone, with its knobbed joint end left at the base. The bone fits into the gourd's narrow end. It is lashed in place with fibre cord threaded through a ring of small holes pierced around the opening. A small red mark near the gourd's lower edge may be a collection number. Gourd rattles have been made in many parts of the world, and nothing in this view identifies where this one comes from.
+{"n": 1, "claim": "The object is a rattle", "kind": "what", "source": "KNOWN"}
+{"n": 2, "claim": "The body is an egg-shaped gourd", "kind": "material", "source": "SEEN"}
+{"n": 3, "claim": "The gourd is hollow and serves as the sound chamber", "kind": "function", "source": "KNOWN"}
+{"n": 4, "claim": "Seeds or pebbles inside would sound when shaken", "kind": "function", "source": "KNOWN"}
+{"n": 5, "claim": "The photograph cannot show what is inside", "kind": "other", "source": "SEEN"}
+{"n": 6, "claim": "The handle appears to be an animal long bone", "kind": "material", "source": "KNOWN"}
+{"n": 7, "claim": "The handle ends in a knobbed joint end at the base", "kind": "depiction", "source": "SEEN"}
+{"n": 8, "claim": "The handle is inserted into the gourd's narrow end", "kind": "technique", "source": "SEEN"}
+{"n": 9, "claim": "It is lashed with fibre cord threaded through small holes around the opening", "kind": "technique", "source": "SEEN"}
+{"n": 10, "claim": "A small red mark appears near the gourd's lower edge", "kind": "other", "source": "SEEN"}
+{"n": 11, "claim": "The red mark may be a collection number", "kind": "other", "source": "KNOWN"}
+{"n": 12, "claim": "Gourd rattles have been made in many parts of the world", "kind": "other", "source": "KNOWN"}
+{"n": 13, "claim": "Its place of origin cannot be identified from this view", "kind": "where", "source": "KNOWN"}

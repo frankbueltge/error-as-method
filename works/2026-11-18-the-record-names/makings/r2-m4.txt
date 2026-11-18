@@ -1,0 +1,89 @@
+=== object-A ===
+Side chair, Gothic Revival style. United States, 1850–60. Maker unidentified. Wood, with silk damask upholstery and brass casters.
+
+The chair applies the architecture of a Gothic church to a piece of furniture. Its upholstered back rises to a pointed arch that stands more than four feet tall. The arch carries carved crockets and ends in a fleur-de-lis finial. Ring-turned posts, cut like stalks of bamboo, stand at either side and end in slender pinnacles. Pieces like this were made for the Gothic villas and libraries that were fashionable in mid-century America, and they were meant to look picturesque more than to be practical. The red damask, a pattern of lozenges and medallions, is probably a later replacement. The casters let the heavy chair be moved across the room.
+
+{"n": 1, "claim": "The object is a side chair", "kind": "what", "source": "RECORD"}
+{"n": 2, "claim": "It is in the Gothic Revival style", "kind": "what", "source": "KNOWN"}
+{"n": 3, "claim": "It was made in the United States", "kind": "where", "source": "RECORD"}
+{"n": 4, "claim": "It was made in 1850–60", "kind": "when", "source": "RECORD"}
+{"n": 5, "claim": "The maker is unidentified", "kind": "who", "source": "RECORD"}
+{"n": 6, "claim": "It is made of wood", "kind": "material", "source": "RECORD"}
+{"n": 7, "claim": "It is upholstered in red silk damask", "kind": "material", "source": "SEEN"}
+{"n": 8, "claim": "It has brass casters", "kind": "material", "source": "SEEN"}
+{"n": 9, "claim": "The back rises to a pointed arch", "kind": "depiction", "source": "SEEN"}
+{"n": 10, "claim": "The chair is more than four feet tall (126.4 cm)", "kind": "size", "source": "RECORD"}
+{"n": 11, "claim": "The arch has carved crockets and a fleur-de-lis finial", "kind": "technique", "source": "SEEN"}
+{"n": 12, "claim": "The side posts are ring-turned like bamboo and end in pinnacles", "kind": "technique", "source": "SEEN"}
+{"n": 13, "claim": "Such furniture was made for Gothic villas and libraries fashionable in mid-century America", "kind": "function", "source": "KNOWN"}
+{"n": 14, "claim": "The damask has a pattern of lozenges and medallions", "kind": "depiction", "source": "SEEN"}
+{"n": 15, "claim": "The damask is probably a later replacement", "kind": "material", "source": "KNOWN"}
+{"n": 16, "claim": "The casters allowed the chair to be moved", "kind": "function", "source": "KNOWN"}
+
+=== object-E ===
+A Distant View of Yokohama from the Mountain Pass at Noge Village. Japan, Edo period, 3rd month, 1860. Utagawa (Gountei) Sadahide. Woodblock print; ink and color on paper.
+
+Travelers climb the steep cutting through the hill at Noge. Two men walk ahead, and behind them come women and children. Between the cliff walls, which are framed by pines, the view opens onto Yokohama: the town, its licensed district and its bridges, with a harbor full of ships beyond. The port had been opened to foreign trade only the year before, in 1859, and Sadahide became one of the most prolific artists to record it. Prints like this one sold to a public curious about the new port. A red cartouche at the top holds a descriptive inscription. The red cartouche at lower right holds the artist's signature, and seals sit beside it.
+
+{"n": 1, "claim": "The object is a woodblock print", "kind": "what", "source": "RECORD"}
+{"n": 2, "claim": "It is ink and color on paper", "kind": "material", "source": "RECORD"}
+{"n": 3, "claim": "It was made in Japan in the Edo period", "kind": "where", "source": "RECORD"}
+{"n": 4, "claim": "It is dated the 3rd month of 1860", "kind": "when", "source": "RECORD"}
+{"n": 5, "claim": "The artist is Utagawa (Gountei) Sadahide", "kind": "who", "source": "RECORD"}
+{"n": 6, "claim": "The title is A Distant View of Yokohama from the Mountain Pass at Noge Village (shortened from the record's title)", "kind": "what", "source": "RECORD"}
+{"n": 7, "claim": "Travelers climb a path cut through a hill, framed by cliff walls and pines", "kind": "depiction", "source": "SEEN"}
+{"n": 8, "claim": "Two men walk ahead, and women and children follow behind", "kind": "depiction", "source": "SEEN"}
+{"n": 9, "claim": "The view shows Yokohama, its licensed district and its bridges", "kind": "depiction", "source": "RECORD"}
+{"n": 10, "claim": "A harbor full of ships lies beyond", "kind": "depiction", "source": "SEEN"}
+{"n": 11, "claim": "Yokohama was opened to foreign trade in 1859", "kind": "other", "source": "KNOWN"}
+{"n": 12, "claim": "Sadahide was one of the most prolific artists of Yokohama subjects", "kind": "who", "source": "KNOWN"}
+{"n": 13, "claim": "Such prints were sold to a public curious about the new port", "kind": "function", "source": "KNOWN"}
+{"n": 14, "claim": "A red cartouche at the top contains an inscription", "kind": "other", "source": "SEEN"}
+{"n": 15, "claim": "A red cartouche at lower right contains the artist's signature, with seals beside it", "kind": "other", "source": "SEEN"}
+
+=== object-J ===
+Fragment of a kylix (drinking cup). Greek, Attic, Late Archaic period, 490–480 B.C. Painter unknown. Terracotta with black gloss.
+
+This sherd, about 2 centimeters long, comes from a kylix, the broad, shallow wine cup used at the Greek symposium, or drinking party. It was made in Athens in the decade when red-figure cup painting was at its height. On the orange clay surface, a band of lustrous black gloss is broken by a thin strip of bare clay. To one side are tapering black strokes, which may belong to a figure, a garment or a plant. The fragment is too small to show the scene. Fragments like this one are studied because they keep the painter's brushwork and the quality of the gloss.
+
+{"n": 1, "claim": "The object is a fragment of a kylix (drinking cup)", "kind": "what", "source": "RECORD"}
+{"n": 2, "claim": "It is Greek, Attic", "kind": "where", "source": "RECORD"}
+{"n": 3, "claim": "It is Late Archaic, 490–480 B.C.", "kind": "when", "source": "RECORD"}
+{"n": 4, "claim": "The painter cannot be identified", "kind": "who", "source": "KNOWN"}
+{"n": 5, "claim": "It is terracotta", "kind": "material", "source": "RECORD"}
+{"n": 6, "claim": "It is decorated with black gloss", "kind": "material", "source": "SEEN"}
+{"n": 7, "claim": "It is about 2 cm long", "kind": "size", "source": "SEEN"}
+{"n": 8, "claim": "A kylix is a broad, shallow wine cup used at the symposium", "kind": "function", "source": "KNOWN"}
+{"n": 9, "claim": "Attic means it was made in Athens", "kind": "where", "source": "KNOWN"}
+{"n": 10, "claim": "Red-figure cup painting was at its height in 490–480 B.C.", "kind": "other", "source": "KNOWN"}
+{"n": 11, "claim": "A band of black gloss is broken by a thin strip of bare clay", "kind": "depiction", "source": "SEEN"}
+{"n": 12, "claim": "Tapering black strokes may belong to a figure, garment or plant", "kind": "depiction", "source": "SEEN"}
+{"n": 13, "claim": "The scene cannot be determined from the fragment", "kind": "other", "source": "SEEN"}
+{"n": 14, "claim": "Such fragments are studied for brushwork and gloss quality", "kind": "function", "source": "KNOWN"}
+
+=== object-B ===
+Cylinder seal with animals, serpent and tree, shown with a modern impression. Cyprus, Late Cypriot period, ca. 15th–13th century B.C. Carver unknown. Steatite.
+
+A cylinder seal was rolled across wet clay to leave its owner's mark, and it was usually pierced lengthwise so that it could be worn on a cord. This seal is just over 3 centimeters tall. The impression beside it shows the full design. Horned animals, probably goats or gazelles, stand in a row. Among them are a rearing serpent, a long-necked bird, a branching tree and small star-shaped motifs. The figures are cut in the soft stone with simple drilled and linear strokes. Cypriot carvers took both the seal form and its animal imagery from the Near East and adapted them in their own way.
+
+{"n": 1, "claim": "The object is a cylinder seal", "kind": "what", "source": "RECORD"}
+{"n": 2, "claim": "It is shown with an impression", "kind": "what", "source": "SEEN"}
+{"n": 3, "claim": "The impression is modern", "kind": "when", "source": "KNOWN"}
+{"n": 4, "claim": "It was made in Cyprus", "kind": "where", "source": "RECORD"}
+{"n": 5, "claim": "It dates to the Late Cypriot period, ca. 15th–13th century B.C.", "kind": "when", "source": "RECORD"}
+{"n": 6, "claim": "The carver is unknown", "kind": "who", "source": "KNOWN"}
+{"n": 7, "claim": "It is made of steatite", "kind": "material", "source": "RECORD"}
+{"n": 8, "claim": "Steatite is a soft stone", "kind": "material", "source": "KNOWN"}
+{"n": 9, "claim": "Cylinder seals were rolled on clay to leave an owner's mark", "kind": "function", "source": "KNOWN"}
+{"n": 10, "claim": "Such seals were usually pierced lengthwise to be worn on a cord", "kind": "function", "source": "KNOWN"}
+{"n": 11, "claim": "The seal is just over 3 cm tall (3.25 cm)", "kind": "size", "source": "RECORD"}
+{"n": 12, "claim": "Horned animals stand in a row", "kind": "depiction", "source": "SEEN"}
+{"n": 13, "claim": "The animals are probably goats or gazelles", "kind": "depiction", "source": "KNOWN"}
+{"n": 14, "claim": "The design includes a rearing serpent, a long-necked bird, a branching tree and star-shaped motifs", "kind": "depiction", "source": "SEEN"}
+{"n": 15, "claim": "The figures are cut with simple drilled and linear strokes", "kind": "technique", "source": "SEEN"}
+{"n": 16, "claim": "Cypriot carvers adopted the seal form and animal imagery from the Near East and adapted them", "kind": "other", "source": "KNOWN"}
+
+changed object-A: I moved the date from ca. 1845–55 to the record's 1850–60, replaced my guess of rosewood or mahogany with the record's plain "wood", and added the height from the record.
+changed object-E: I added the record's title, its exact date (3rd month, 1860) and its naming of the licensed district and bridges, and I dropped the artist's life dates because my 1879 conflicts with the record's 1873 and I cannot settle which is right without a source.
+changed object-J: I replaced "painted vase, 6th–5th century" with the record's kylix, 490–480 B.C. and Late Archaic, and I added what a kylix is and what was happening in Athenian cup painting at that date.
+changed object-B: I had attributed the seal to Mitanni-period northern Mesopotamia or Syria, which was wrong, so I changed it to the record's Late Cypriot Cyprus and steatite, added its 3.25 cm size, and reframed the Near Eastern link as Cypriot adaptation.

@@ -1,0 +1,87 @@
+=== object-E ===
+A Distant View of Yokohama Honmura, the Licensed District, Noge Bridge, and Yoshida Bridge, from the Entrance to Yokohama near the Mountain Pass at Noge Village. Japan, Edo period, 3rd month, 1860. Utagawa (Gountei) Sadahide (Japanese, 1807–1873). Woodblock print; ink and color on paper.
+
+Framed by the steep walls of the cutting at Noge and by leaning pines, a small party of travelers pauses above the new port of Yokohama. Two men walk ahead. One wears a green jacket with a white crest and the other carries a bundle on his back. Two women follow below, and a fan lies at the lower left. Beyond the bridges and the licensed quarter, square-rigged foreign ships crowd the bay. Yokohama had opened to foreign trade only the year before, in 1859, and Sadahide pictured it many times for buyers eager to see it. The signature at lower right reads Gountei Sadahide.
+
+{"n": 1, "claim": "The title is A Distant View of Yokohama Honmura, the Licensed District, Noge Bridge, and Yoshida Bridge, from the Entrance to Yokohama near the Mountain Pass at Noge Village", "kind": "what", "source": "RECORD"}
+{"n": 2, "claim": "It is a woodblock print in ink and color on paper", "kind": "technique", "source": "RECORD"}
+{"n": 3, "claim": "It was made in Japan", "kind": "where", "source": "RECORD"}
+{"n": 4, "claim": "It dates to the 3rd month of 1860, in the Edo period", "kind": "when", "source": "RECORD"}
+{"n": 5, "claim": "The artist is Utagawa (Gountei) Sadahide, Japanese, 1807–1873", "kind": "who", "source": "RECORD"}
+{"n": 6, "claim": "The signature at lower right reads Gountei Sadahide", "kind": "who", "source": "SEEN"}
+{"n": 7, "claim": "The view is framed by the steep walls of a cutting and by leaning pines", "kind": "depiction", "source": "SEEN"}
+{"n": 8, "claim": "The cutting is at Noge", "kind": "where", "source": "RECORD"}
+{"n": 9, "claim": "Two men walk ahead, one in a green jacket with a white crest and one carrying a bundle on his back", "kind": "depiction", "source": "SEEN"}
+{"n": 10, "claim": "Two women follow below the men", "kind": "depiction", "source": "SEEN"}
+{"n": 11, "claim": "A fan lies at the lower left", "kind": "depiction", "source": "SEEN"}
+{"n": 12, "claim": "The view includes bridges and the licensed quarter of Yokohama", "kind": "depiction", "source": "RECORD"}
+{"n": 13, "claim": "Square-rigged ships crowd the bay", "kind": "depiction", "source": "SEEN"}
+{"n": 14, "claim": "The ships are foreign (Western) vessels", "kind": "depiction", "source": "KNOWN"}
+{"n": 15, "claim": "Yokohama was opened to foreign trade in 1859", "kind": "other", "source": "KNOWN"}
+{"n": 16, "claim": "Sadahide depicted Yokohama many times for a market eager to see the new port", "kind": "other", "source": "KNOWN"}
+
+=== object-F ===
+Cuirassier. France, 1872. Edouard Detaille (French, Paris 1848–1912 Paris). Watercolor on paper.
+
+A cuirassier, one of the heavy cavalrymen of the French army, stands at ease in full dress. His gloved hand rests on his sword hilt and his black horse waits behind him. Detaille painted the helmet with its red plume and horsehair mane, the gold aiguillettes, the red sash and the tall boots with the near-documentary care that made his name as a painter of soldiers. He signed and dated the sheet at lower left. It is small, under 26 centimeters high, yet the figure has a portrait's presence. Only a cast shadow interrupts the bare brown ground, which keeps attention on the uniform.
+
+{"n": 1, "claim": "The subject is a cuirassier", "kind": "depiction", "source": "RECORD"}
+{"n": 2, "claim": "Cuirassiers were heavy cavalry of the French army", "kind": "other", "source": "KNOWN"}
+{"n": 3, "claim": "The work is watercolor on paper", "kind": "material", "source": "RECORD"}
+{"n": 4, "claim": "It was made in France", "kind": "where", "source": "RECORD"}
+{"n": 5, "claim": "It is dated 1872", "kind": "when", "source": "RECORD"}
+{"n": 6, "claim": "The artist is Edouard Detaille, French, born Paris 1848, died Paris 1912", "kind": "who", "source": "RECORD"}
+{"n": 7, "claim": "The sheet is signed and dated at lower left", "kind": "who", "source": "SEEN"}
+{"n": 8, "claim": "The soldier stands at ease with his gloved hand on his sword hilt", "kind": "depiction", "source": "SEEN"}
+{"n": 9, "claim": "A black horse stands behind him", "kind": "depiction", "source": "SEEN"}
+{"n": 10, "claim": "He wears a helmet with a red plume and horsehair mane, gold aiguillettes, a red sash and tall boots", "kind": "depiction", "source": "SEEN"}
+{"n": 11, "claim": "Detaille made his name painting soldiers with near-documentary care", "kind": "other", "source": "KNOWN"}
+{"n": 12, "claim": "The sheet is under 26 cm high (25.7 x 17.8 cm)", "kind": "size", "source": "RECORD"}
+{"n": 13, "claim": "The background is a bare brown ground with only a cast shadow", "kind": "depiction", "source": "SEEN"}
+
+=== object-G ===
+Worker Shabti of Henettawy (C), Daughter of Isetemkheb. Egypt, Thebes, Deir el-Bahri, Tomb MMA 60. Third Intermediate Period, Dynasty 21, about 990–970 B.C. Faience.
+
+Shabtis were placed in Egyptian tombs to do, in the deceased's place, any labor demanded of them in the afterlife. This "worker" figure, under 12 centimeters tall, was made for a woman named Henettawy, daughter of Isetemkheb. It comes from a family tomb at Deir el-Bahri in western Thebes. It has the mummiform shape: a wrapped body with feet on a low base, arms crossed on the chest, and a long wig falling over the shoulders. The bright turquoise glaze has worn through in pale patches, and dark traces near the hands may be remains of painted hoes. Burials of this period often held hundreds of such figures.
+
+{"n": 1, "claim": "The object is a worker shabti", "kind": "what", "source": "RECORD"}
+{"n": 2, "claim": "Shabtis were placed in tombs to do labor for the deceased in the afterlife", "kind": "function", "source": "KNOWN"}
+{"n": 3, "claim": "It was made for Henettawy (C), daughter of Isetemkheb", "kind": "who", "source": "RECORD"}
+{"n": 4, "claim": "It comes from Tomb MMA 60 at Deir el-Bahri, Thebes, Upper Egypt", "kind": "where", "source": "RECORD"}
+{"n": 5, "claim": "Tomb MMA 60 is a family tomb", "kind": "where", "source": "KNOWN"}
+{"n": 6, "claim": "Deir el-Bahri is in western Thebes", "kind": "where", "source": "KNOWN"}
+{"n": 7, "claim": "It dates to the Third Intermediate Period, Dynasty 21, about 990–970 B.C.", "kind": "when", "source": "RECORD"}
+{"n": 8, "claim": "It is made of faience", "kind": "material", "source": "RECORD"}
+{"n": 9, "claim": "It is under 12 cm tall (h. 11.9 cm)", "kind": "size", "source": "RECORD"}
+{"n": 10, "claim": "The figure is mummiform, with a wrapped body and feet on a low base", "kind": "depiction", "source": "SEEN"}
+{"n": 11, "claim": "The arms are crossed on the chest", "kind": "depiction", "source": "SEEN"}
+{"n": 12, "claim": "A long wig falls over the shoulders", "kind": "depiction", "source": "SEEN"}
+{"n": 13, "claim": "The glaze is bright turquoise and has worn through in pale patches", "kind": "material", "source": "SEEN"}
+{"n": 14, "claim": "Dark traces near the hands may be remains of painted hoes", "kind": "depiction", "source": "KNOWN"}
+{"n": 15, "claim": "Burials of this period often held hundreds of shabtis", "kind": "other", "source": "KNOWN"}
+
+=== object-H ===
+Edward I, from the English Monarchs series. Geneva, 1731–32. Jean Dassier (Geneva 1676–1763 Geneva). Bronze.
+
+The legend around this crowned bust reads, in part, EDOUARD I D G ANG ET HIB REX, which means "Edward I, by the grace of God, King of England and Ireland." The portrait is not a true likeness. Edward died in 1307, and this idealized face, with long curled hair, a jeweled crown and a mantle fastened with a jeweled clasp, is an eighteenth-century invention. The medal belongs to the Geneva medalist Jean Dassier's series of English monarchs, which was sold as sets to collectors. It is only 41 millimeters across. The photograph shows the obverse only. In this series the reverse carries a historical inscription.
+
+{"n": 1, "claim": "The object is a medal", "kind": "what", "source": "RECORD"}
+{"n": 2, "claim": "It belongs to the English Monarchs series", "kind": "what", "source": "RECORD"}
+{"n": 3, "claim": "It is bronze", "kind": "material", "source": "RECORD"}
+{"n": 4, "claim": "The maker is Jean Dassier, Geneva 1676–1763 Geneva", "kind": "who", "source": "RECORD"}
+{"n": 5, "claim": "It was made in Geneva", "kind": "where", "source": "KNOWN"}
+{"n": 6, "claim": "It dates to 1731–32", "kind": "when", "source": "RECORD"}
+{"n": 7, "claim": "The legend reads, in part, EDOUARD I D G ANG ET HIB REX", "kind": "other", "source": "SEEN"}
+{"n": 8, "claim": "The legend means 'Edward I, by the grace of God, King of England and Ireland'", "kind": "other", "source": "KNOWN"}
+{"n": 9, "claim": "The obverse shows a crowned bust with long curled hair, a jeweled crown and a mantle fastened with a jeweled clasp", "kind": "depiction", "source": "SEEN"}
+{"n": 10, "claim": "Edward I died in 1307", "kind": "other", "source": "KNOWN"}
+{"n": 11, "claim": "The portrait is an idealized eighteenth-century invention, not a true likeness", "kind": "depiction", "source": "KNOWN"}
+{"n": 12, "claim": "The series was sold as sets to collectors", "kind": "function", "source": "KNOWN"}
+{"n": 13, "claim": "It is 41 mm in diameter", "kind": "size", "source": "RECORD"}
+{"n": 14, "claim": "Only the obverse is shown in the photograph", "kind": "other", "source": "SEEN"}
+{"n": 15, "claim": "In this series the reverse carries a historical inscription", "kind": "other", "source": "KNOWN"}
+
+changed object-E: I adopted the record's title, exact date (3rd month, 1860) and the artist's dates 1807–1873, which replace my 1878/79 (I remembered a later death date, but I defer to the museum here). I named Noge and the bridges and licensed quarter, which I could not read in the cartouche, and dropped my note that the cartouche was illegible because the record now supplies its content.
+changed object-F: I dropped my Cent-gardes identification and the inference about a "vanished corps", because the record calls the subject simply a cuirassier and I could not support the narrower reading. I changed "watercolor and gouache" to the record's "watercolor on paper", confirmed 1872 as the date instead of a tentative reading, and added the sheet's size.
+changed object-G: I replaced my style-based dating with the record's Dynasty 21, about 990–970 B.C. I added the owner (Henettawy, daughter of Isetemkheb), the findspot (Tomb MMA 60, Deir el-Bahri) and the height, and removed "no inscription is visible", since the record names an owner I cannot see on the photograph.
+changed object-H: I firmed up the Dassier attribution from "appears to come from" to a statement, set the date to the record's 1731–32 in place of my "about 1731", and added the 41 mm diameter. The identification itself did not change.

@@ -1,0 +1,78 @@
+=== object-A ===
+Side chair, Gothic Revival style; probably American, about 1840–50; maker unknown; reddish-brown wood (probably mahogany or rosewood), silk damask upholstery, brass casters
+The chair's design draws on the architecture of medieval churches. The tall back is shaped as a pointed arch and edged with carved crockets, and a carved finial sits at the top. On either side, the back posts rise as ringed shafts that taper to points like small spires. Gothic Revival furniture of this kind was made for halls and libraries in the 1840s, when architects and furniture makers took up medieval forms. The red upholstery has a lattice of diamonds and foliate medallions. From the photograph alone it is not possible to tell whether the upholstery is original or a later replacement. The turned front legs run on brass casters.
+{"n": 1, "claim": "The object is a side chair (no arms)", "kind": "what", "source": "SEEN"}
+{"n": 2, "claim": "The chair is in the Gothic Revival style", "kind": "what", "source": "KNOWN"}
+{"n": 3, "claim": "It was probably made in America", "kind": "where", "source": "KNOWN"}
+{"n": 4, "claim": "It was made about 1840–50", "kind": "when", "source": "KNOWN"}
+{"n": 5, "claim": "The maker cannot be named", "kind": "who", "source": "KNOWN"}
+{"n": 6, "claim": "The frame is a reddish-brown wood, probably mahogany or rosewood", "kind": "material", "source": "KNOWN"}
+{"n": 7, "claim": "The upholstery is silk damask", "kind": "material", "source": "KNOWN"}
+{"n": 8, "claim": "The legs end in brass casters", "kind": "material", "source": "SEEN"}
+{"n": 9, "claim": "The design draws on medieval church architecture", "kind": "other", "source": "KNOWN"}
+{"n": 10, "claim": "The back is shaped as a pointed arch", "kind": "depiction", "source": "SEEN"}
+{"n": 11, "claim": "The arch is edged with carved crockets and topped by a carved finial", "kind": "technique", "source": "SEEN"}
+{"n": 12, "claim": "The back posts are ringed shafts that taper to spire-like points", "kind": "depiction", "source": "SEEN"}
+{"n": 13, "claim": "Gothic Revival furniture of this kind was made for halls and libraries in the 1840s", "kind": "function", "source": "KNOWN"}
+{"n": 14, "claim": "In the 1840s architects and furniture makers took up medieval forms", "kind": "other", "source": "KNOWN"}
+{"n": 15, "claim": "The upholstery is red, with a lattice of diamonds and foliate medallions", "kind": "depiction", "source": "SEEN"}
+{"n": 16, "claim": "The photograph does not show whether the upholstery is original", "kind": "other", "source": "SEEN"}
+{"n": 17, "claim": "The front legs are turned", "kind": "technique", "source": "SEEN"}
+
+=== object-B ===
+Cylinder seal and modern impression; probably northern Mesopotamia or Syria, probably mid-2nd millennium BCE; dark stone
+A cylinder seal was rolled across damp clay to mark ownership or seal a document or container. The design is cut into the seal in reverse, so it reads correctly only on the impression. The modern impression shown here lets the whole scene be seen at once. Horned animals, probably goats, stand among stylized trees, and some of them turn their heads back. A bird flies above, small star or rosette shapes fill the gaps, and a tall serpent rises at one end. Two lines run along the top and bottom as borders. The style suggests a seal from the Syro-Mesopotamian region in the second millennium BCE. The stone has not been identified.
+{"n": 1, "claim": "The object is a cylinder seal shown with an impression of it", "kind": "what", "source": "SEEN"}
+{"n": 2, "claim": "The impression is modern", "kind": "when", "source": "KNOWN"}
+{"n": 3, "claim": "The seal was probably made in northern Mesopotamia or Syria", "kind": "where", "source": "KNOWN"}
+{"n": 4, "claim": "The seal probably dates to the mid-2nd millennium BCE", "kind": "when", "source": "KNOWN"}
+{"n": 5, "claim": "The seal is made of a dark stone", "kind": "material", "source": "SEEN"}
+{"n": 6, "claim": "The type of stone has not been identified", "kind": "material", "source": "SEEN"}
+{"n": 7, "claim": "Cylinder seals were rolled across damp clay to mark ownership or seal documents and containers", "kind": "function", "source": "KNOWN"}
+{"n": 8, "claim": "The design is cut into the seal in reverse (intaglio)", "kind": "technique", "source": "KNOWN"}
+{"n": 9, "claim": "Horned quadrupeds, probably goats, appear in the scene", "kind": "depiction", "source": "SEEN"}
+{"n": 10, "claim": "Some animals turn their heads back", "kind": "depiction", "source": "SEEN"}
+{"n": 11, "claim": "The scene includes stylized trees", "kind": "depiction", "source": "SEEN"}
+{"n": 12, "claim": "A bird appears in the upper field", "kind": "depiction", "source": "SEEN"}
+{"n": 13, "claim": "Small star or rosette shapes fill the gaps in the scene", "kind": "depiction", "source": "SEEN"}
+{"n": 14, "claim": "A tall serpent rises at one end of the scene", "kind": "depiction", "source": "SEEN"}
+{"n": 15, "claim": "Two lines border the scene at the top and bottom", "kind": "depiction", "source": "SEEN"}
+{"n": 16, "claim": "The style suggests the Syro-Mesopotamian region in the second millennium BCE", "kind": "other", "source": "KNOWN"}
+
+=== object-C ===
+Spearhead; probably European, probably 16th–17th century; maker unknown; steel, wood
+The spearhead has a long, narrow blade that tapers to a sharp point. Partway down, the blade narrows in a small step on one edge. Below the blade, a faceted socket fits over a wooden shaft and is fixed to it with a pin or rivet. A head this slender was made to pierce armour or padding rather than to cut. The surface is bright, with scattered small pits. The photograph shows only the head and the top of the shaft, and it gives no scale, so the weapon's full length cannot be stated here. No maker's mark is visible.
+{"n": 1, "claim": "The object is a spearhead mounted on a shaft", "kind": "what", "source": "SEEN"}
+{"n": 2, "claim": "It was probably made in Europe", "kind": "where", "source": "KNOWN"}
+{"n": 3, "claim": "It probably dates to the 16th–17th century", "kind": "when", "source": "KNOWN"}
+{"n": 4, "claim": "The head is made of steel", "kind": "material", "source": "KNOWN"}
+{"n": 5, "claim": "The shaft is wood", "kind": "material", "source": "SEEN"}
+{"n": 6, "claim": "The blade is long and narrow and tapers to a sharp point", "kind": "depiction", "source": "SEEN"}
+{"n": 7, "claim": "Partway down, the blade narrows in a step on one edge", "kind": "depiction", "source": "SEEN"}
+{"n": 8, "claim": "Below the blade is a faceted socket", "kind": "technique", "source": "SEEN"}
+{"n": 9, "claim": "The socket is fixed to the shaft with a pin or rivet", "kind": "technique", "source": "SEEN"}
+{"n": 10, "claim": "A head this slender was made to pierce armour or padding rather than to cut", "kind": "function", "source": "KNOWN"}
+{"n": 11, "claim": "The surface is bright, with scattered small pits", "kind": "other", "source": "SEEN"}
+{"n": 12, "claim": "The photograph shows only the head and the top of the shaft", "kind": "other", "source": "SEEN"}
+{"n": 13, "claim": "The photograph gives no scale, so the full length cannot be stated", "kind": "size", "source": "SEEN"}
+{"n": 14, "claim": "No maker's mark is visible", "kind": "who", "source": "SEEN"}
+
+=== object-D ===
+Pin with bird finial; probably Andean, Peru, before 1532; maker unknown; copper or copper alloy
+At the top of this long, tapering pin is a bird with a crest and a raised tail, standing on a small platform. Just below the head, a hole runs through the shaft, perhaps for a cord or chain. In the Andes, long metal pins held garments closed, and pins with figures on their heads were made as well as plain ones. The metal is dark, with a worn, uneven surface. Specks of red near the point may be pigment or corrosion; the photograph does not settle which. Where it was found, and its exact date, are not known from the photograph.
+{"n": 1, "claim": "The object is a long pin with a figure at the top", "kind": "what", "source": "SEEN"}
+{"n": 2, "claim": "It was probably made in the Andes, in Peru", "kind": "where", "source": "KNOWN"}
+{"n": 3, "claim": "It was made before 1532", "kind": "when", "source": "KNOWN"}
+{"n": 4, "claim": "The maker is unknown", "kind": "who", "source": "KNOWN"}
+{"n": 5, "claim": "The pin is copper or copper alloy", "kind": "material", "source": "KNOWN"}
+{"n": 6, "claim": "The shaft tapers to a point", "kind": "depiction", "source": "SEEN"}
+{"n": 7, "claim": "The figure is a bird with a crest and a raised tail", "kind": "depiction", "source": "SEEN"}
+{"n": 8, "claim": "The bird stands on a small platform", "kind": "depiction", "source": "SEEN"}
+{"n": 9, "claim": "A hole runs through the shaft just below the head", "kind": "technique", "source": "SEEN"}
+{"n": 10, "claim": "The hole may have held a cord or chain", "kind": "function", "source": "KNOWN"}
+{"n": 11, "claim": "In the Andes, long metal pins held garments closed", "kind": "function", "source": "KNOWN"}
+{"n": 12, "claim": "Andean pins were made with figures on their heads as well as plain", "kind": "other", "source": "KNOWN"}
+{"n": 13, "claim": "The metal is dark, with a worn, uneven surface", "kind": "other", "source": "SEEN"}
+{"n": 14, "claim": "There are specks of red near the point", "kind": "other", "source": "SEEN"}
+{"n": 15, "claim": "The photograph does not show whether the red is pigment or corrosion", "kind": "material", "source": "SEEN"}
+{"n": 16, "claim": "The photograph shows neither where it was found nor its exact date", "kind": "other", "source": "SEEN"}

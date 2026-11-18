@@ -1,0 +1,90 @@
+=== object-J ===
+Fragment of a kylix (drinking cup), Greek, Attic, Late Archaic, 490–480 BCE; terracotta
+
+This sherd, about 2 cm long, was broken from an Athenian kylix, a shallow two-handled cup used for wine. The orange areas are bare clay. The dark areas were painted in a glossy black slip that turned black in firing. The tongue-shaped reserved areas set against the black suggest the red-figure technique. Red-figure was then the leading style in Athenian workshops, during the generation of the great cup painters. The fragment is too small to show what the scene was or who painted it. It was given to the Museum in 2011 by Dietrich von Bothmer, a curator who built a large study collection of such fragments.
+
+{"n": 1, "claim": "The object is a fragment of a kylix (drinking cup)", "kind": "what", "source": "RECORD"}
+{"n": 2, "claim": "It is Greek, Attic (Athenian)", "kind": "where", "source": "RECORD"}
+{"n": 3, "claim": "It dates to the Late Archaic period, 490–480 BCE", "kind": "when", "source": "RECORD"}
+{"n": 4, "claim": "The material is terracotta", "kind": "material", "source": "RECORD"}
+{"n": 5, "claim": "The sherd is about 2 cm long (read against the photographed mm scale)", "kind": "size", "source": "SEEN"}
+{"n": 6, "claim": "A kylix is a shallow two-handled cup used for wine", "kind": "function", "source": "KNOWN"}
+{"n": 7, "claim": "Orange areas are bare clay", "kind": "material", "source": "SEEN"}
+{"n": 8, "claim": "The dark areas are a glossy black slip that turned black in firing", "kind": "technique", "source": "KNOWN"}
+{"n": 9, "claim": "Tongue-shaped reserved areas show against the black", "kind": "depiction", "source": "SEEN"}
+{"n": 10, "claim": "The technique is probably red-figure", "kind": "technique", "source": "KNOWN"}
+{"n": 11, "claim": "Red-figure was the leading style in Athenian workshops in 490–480 BCE, the generation of the great cup painters", "kind": "other", "source": "KNOWN"}
+{"n": 12, "claim": "The scene and the painter cannot be identified from the fragment", "kind": "who", "source": "SEEN"}
+{"n": 13, "claim": "It was given to the Museum in 2011 by Dietrich von Bothmer", "kind": "other", "source": "RECORD"}
+{"n": 14, "claim": "Von Bothmer was a curator of Greek and Roman art", "kind": "other", "source": "RECORD"}
+{"n": 15, "claim": "Von Bothmer built a large study collection of such fragments", "kind": "other", "source": "KNOWN"}
+
+=== object-K ===
+Twelve-pointed star tile, attributed to Khargird, Iran, dated 846 AH/1442–43 CE; stonepaste, polychrome glaze within black wax-resist outlines (cuerda seca)
+
+This tile, about 40 cm across, is dated to the reign of the Timurid ruler Shah Rukh. It is attributed to Khargird in eastern Iran, where a madrasa was completed for him in these years. Tiles like it were set into walls together with complementary shapes. Its design has six-fold symmetry. White strapwork forms pointed lobed medallions on a cobalt-blue ground, and in each one sits a red-and-yellow blossom around a central rosette. A turquoise band runs along the edge. The black wax-resist lines kept the coloured glazes apart during firing, the cuerda seca technique. The glaze is crazed, and the body shows at the chipped points.
+
+{"n": 1, "claim": "The object is a twelve-pointed star-shaped tile", "kind": "what", "source": "RECORD"}
+{"n": 2, "claim": "It is attributed to Khargird, Iran", "kind": "where", "source": "RECORD"}
+{"n": 3, "claim": "It is dated 846 AH/1442–43 CE", "kind": "when", "source": "RECORD"}
+{"n": 4, "claim": "The material is stonepaste with polychrome glaze", "kind": "material", "source": "RECORD"}
+{"n": 5, "claim": "The technique is cuerda seca, with black wax-resist outlines", "kind": "technique", "source": "RECORD"}
+{"n": 6, "claim": "It measures 40.3 cm high and 40.3 cm wide", "kind": "size", "source": "RECORD"}
+{"n": 7, "claim": "1442–43 falls in the reign of the Timurid ruler Shah Rukh", "kind": "when", "source": "KNOWN"}
+{"n": 8, "claim": "Khargird is in eastern Iran", "kind": "where", "source": "KNOWN"}
+{"n": 9, "claim": "A madrasa was completed for Shah Rukh at Khargird in these years", "kind": "other", "source": "KNOWN"}
+{"n": 10, "claim": "Tiles like this were set into walls together with complementary shapes", "kind": "function", "source": "KNOWN"}
+{"n": 11, "claim": "The design has six-fold symmetry", "kind": "depiction", "source": "SEEN"}
+{"n": 12, "claim": "White strapwork forms pointed lobed medallions on a cobalt-blue ground", "kind": "depiction", "source": "SEEN"}
+{"n": 13, "claim": "Red-and-yellow blossoms sit around a central rosette", "kind": "depiction", "source": "SEEN"}
+{"n": 14, "claim": "A turquoise band runs along the edge", "kind": "depiction", "source": "SEEN"}
+{"n": 15, "claim": "The wax-resist lines kept the coloured glazes apart during firing", "kind": "technique", "source": "KNOWN"}
+{"n": 16, "claim": "The glaze is crazed", "kind": "other", "source": "SEEN"}
+{"n": 17, "claim": "The body shows at the chipped points", "kind": "other", "source": "SEEN"}
+
+=== object-L ===
+Bottom of a vessel with foot, Coptic, made in Kharga Oasis, Byzantine Egypt, 4th–early 5th century; glass
+
+This tiny fragment, only 2.3 cm across, is the base of a small glass vessel. The dark glass rises into a pushed-in dome at the centre. Around it, an opaque white trail was laid on while the glass was hot, forming a ring foot for the vessel to stand on. Soil is still caught in its hollows. The piece was made in the Kharga Oasis in Egypt's Western Desert. It was acquired in 1908, the year the Museum began excavating there. Small, everyday glass vessels with contrasting applied trails were common in late Roman and early Byzantine Egypt.
+
+{"n": 1, "claim": "The object is the bottom of a vessel with a foot", "kind": "what", "source": "RECORD"}
+{"n": 2, "claim": "It is Coptic", "kind": "other", "source": "RECORD"}
+{"n": 3, "claim": "It dates to the 4th–early 5th century", "kind": "when", "source": "RECORD"}
+{"n": 4, "claim": "It was made in the Kharga Oasis, Byzantine Egypt", "kind": "where", "source": "RECORD"}
+{"n": 5, "claim": "The material is glass", "kind": "material", "source": "RECORD"}
+{"n": 6, "claim": "It measures 1.1 x 2.3 cm", "kind": "size", "source": "RECORD"}
+{"n": 7, "claim": "The glass appears dark", "kind": "material", "source": "SEEN"}
+{"n": 8, "claim": "The centre forms a pushed-in dome", "kind": "depiction", "source": "SEEN"}
+{"n": 9, "claim": "An opaque white trail forms a ring around it", "kind": "depiction", "source": "SEEN"}
+{"n": 10, "claim": "The white trail was applied while the glass was hot", "kind": "technique", "source": "KNOWN"}
+{"n": 11, "claim": "The white ring served as the vessel's foot", "kind": "function", "source": "KNOWN"}
+{"n": 12, "claim": "Soil remains in the hollows", "kind": "other", "source": "SEEN"}
+{"n": 13, "claim": "The Kharga Oasis is in Egypt's Western Desert", "kind": "where", "source": "KNOWN"}
+{"n": 14, "claim": "It was acquired in 1908 (Rogers Fund)", "kind": "other", "source": "RECORD"}
+{"n": 15, "claim": "The Museum began excavating at Kharga in 1908", "kind": "other", "source": "KNOWN"}
+{"n": 16, "claim": "Small glass vessels with contrasting applied trails were common in late Roman and early Byzantine Egypt", "kind": "other", "source": "KNOWN"}
+
+=== object-M ===
+Rattle, probably Bribri, Talamanca, Costa Rica, ca. 1873; gourd, bone, cord
+
+This shaken rattle is 18.5 cm long and weighs only 41 grams. Its head is a dried gourd, and the seeds or pebbles inside sound when it is moved. Cord threaded through a row of holes pierced around the gourd's narrow end binds the head tightly to a bone handle, which still has its joint at the end. The rattle was probably made by a Bribri maker in the Talamanca region of southern Costa Rica. Among the Bribri, rattles are associated with the chants of ritual healers. It came to the Museum in 1889 with the Crosby Brown Collection of Musical Instruments.
+
+{"n": 1, "claim": "The object is a rattle", "kind": "what", "source": "RECORD"}
+{"n": 2, "claim": "It is a shaken rattle (idiophone)", "kind": "function", "source": "RECORD"}
+{"n": 3, "claim": "It is 18.5 cm long", "kind": "size", "source": "RECORD"}
+{"n": 4, "claim": "It weighs 41 grams", "kind": "size", "source": "RECORD"}
+{"n": 5, "claim": "The materials are gourd, bone and cord", "kind": "material", "source": "RECORD"}
+{"n": 6, "claim": "Seeds or pebbles inside make the sound", "kind": "function", "source": "KNOWN"}
+{"n": 7, "claim": "Cord passes through a row of holes around the gourd's narrow end and binds it to the handle", "kind": "technique", "source": "SEEN"}
+{"n": 8, "claim": "The bone handle still has its joint at the end", "kind": "depiction", "source": "SEEN"}
+{"n": 9, "claim": "It was probably made by a Bribri maker", "kind": "who", "source": "RECORD"}
+{"n": 10, "claim": "It comes from Talamanca, Costa Rica", "kind": "where", "source": "RECORD"}
+{"n": 11, "claim": "Talamanca is in southern Costa Rica", "kind": "where", "source": "KNOWN"}
+{"n": 12, "claim": "It dates to about 1873", "kind": "when", "source": "RECORD"}
+{"n": 13, "claim": "Among the Bribri, rattles are associated with the chants of ritual healers", "kind": "function", "source": "KNOWN"}
+{"n": 14, "claim": "It came to the Museum in 1889 with the Crosby Brown Collection of Musical Instruments", "kind": "other", "source": "RECORD"}
+
+changed object-J: I narrowed the date from "probably 5th century BC" to the record's 490–480 BCE and named the shape as a kylix, because the record supplies both. I kept "probably red-figure" as my own reading and added the Bothmer gift.
+changed object-K: I replaced "glazed earthenware" with stonepaste and dropped my "reddish body" reading, because the record gives a different body. I also replaced the vague Timurid date and place with the dated 1442–43 attribution to Khargird and confirmed the twelve points, the cuerda seca technique and the 40 cm size.
+changed object-L: I dropped the alternative that it might be a bead and the statement that place and date were unknowable. The record identifies it as the bottom of a vessel with a foot, a Coptic piece from 4th–early 5th century Kharga Oasis, only 2.3 cm across, so I now read the white ring as the foot.
+changed object-M: I dropped the guess that the handle might be a bird bone, the "maker, place and date unknown" line and the speculation about the red mark. In their place I give the record's probable Bribri, Talamanca (Costa Rica), ca. 1873 attribution, its size and weight, and the Crosby Brown provenance.
