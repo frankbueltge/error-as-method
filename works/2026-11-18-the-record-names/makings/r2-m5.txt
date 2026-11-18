@@ -1,0 +1,75 @@
+=== object-F ===
+Cuirassier. France, 1872. Edouard Detaille (French, Paris 1848–1912 Paris). Watercolor on paper
+Detaille was twenty-four when he painted this cavalryman, and he would go on to become France's leading painter of military life. The trooper has dismounted and stands at ease beside a dark horse, one gloved hand resting on his sword. He wears a brass helmet with a red plume and a long horsehair mane, a blue coat with red facings, a red sash, white breeches and tall jackboots. There is no setting, only a plain brown ground, so every piece of equipment reads clearly. The sheet is signed lower left and dated 1872, the year after the Franco-Prussian War, in which Detaille served.
+{"n": 1, "claim": "The subject is a cuirassier", "kind": "what", "source": "RECORD"}
+{"n": 2, "claim": "The object is a drawing in watercolor on paper", "kind": "material", "source": "RECORD"}
+{"n": 3, "claim": "The artist is Edouard Detaille, French, born and died in Paris, 1848–1912", "kind": "who", "source": "RECORD"}
+{"n": 4, "claim": "It was made in France", "kind": "where", "source": "RECORD"}
+{"n": 5, "claim": "It is dated 1872", "kind": "when", "source": "RECORD"}
+{"n": 6, "claim": "Detaille was twenty-four when he painted it", "kind": "who", "source": "KNOWN"}
+{"n": 7, "claim": "Detaille went on to become France's leading painter of military life", "kind": "other", "source": "KNOWN"}
+{"n": 8, "claim": "The trooper has dismounted and stands beside a dark horse, one gloved hand resting on his sword", "kind": "depiction", "source": "SEEN"}
+{"n": 9, "claim": "He wears a brass helmet with a red plume and a long horsehair mane", "kind": "depiction", "source": "SEEN"}
+{"n": 10, "claim": "He wears a blue coat with red facings, a red sash, white breeches and tall jackboots", "kind": "depiction", "source": "SEEN"}
+{"n": 11, "claim": "There is no setting, only a plain brown ground", "kind": "depiction", "source": "SEEN"}
+{"n": 12, "claim": "The sheet is signed and dated at lower left (the date is only partly legible in the photograph)", "kind": "other", "source": "SEEN"}
+{"n": 13, "claim": "1872 was the year after the Franco-Prussian War ended", "kind": "when", "source": "KNOWN"}
+{"n": 14, "claim": "Detaille served in the Franco-Prussian War", "kind": "who", "source": "KNOWN"}
+
+=== object-K ===
+Twelve-Pointed Star-Shaped Tile. Iran, attributed to Khargird, dated 846 AH/1442–43 CE. Stonepaste; polychrome glaze within black wax resist outlines (cuerda seca technique)
+This star tile is dated 846 AH (1442–43 CE). It is attributed to Khargird in northeastern Iran, where the Ghiyathiyya madrasa was being completed in those years for a vizier of the Timurid ruler Shah Rukh. A white strapwork rosette lies over a cobalt ground framed in turquoise, with red-brown and yellow blossoms and white buds in its twelve points. Each colour was fired in its own field, kept apart by lines of wax resist. This is the cuerda seca ("dry cord") technique. The tile, about 40 cm across, would have been set into a wall among other tiles. The glaze is crazed and the edges are chipped.
+{"n": 1, "claim": "The tile is shaped as a twelve-pointed star", "kind": "what", "source": "RECORD"}
+{"n": 2, "claim": "The tile has twelve points (counted in the photograph)", "kind": "what", "source": "SEEN"}
+{"n": 3, "claim": "It is dated 846 AH / 1442–43 CE", "kind": "when", "source": "RECORD"}
+{"n": 4, "claim": "It is attributed to Khargird, Iran", "kind": "where", "source": "RECORD"}
+{"n": 5, "claim": "Khargird is in northeastern Iran", "kind": "where", "source": "KNOWN"}
+{"n": 6, "claim": "The Ghiyathiyya madrasa at Khargird was being completed in those years for a vizier of the Timurid ruler Shah Rukh", "kind": "other", "source": "KNOWN"}
+{"n": 7, "claim": "The design is a white strapwork rosette on a cobalt ground framed in turquoise", "kind": "depiction", "source": "SEEN"}
+{"n": 8, "claim": "There are red-brown and yellow blossoms and white buds in the points", "kind": "depiction", "source": "SEEN"}
+{"n": 9, "claim": "The body is stonepaste", "kind": "material", "source": "RECORD"}
+{"n": 10, "claim": "The colours are separated by lines of wax resist, in the cuerda seca technique", "kind": "technique", "source": "RECORD"}
+{"n": 11, "claim": "Each colour was fired in its own field, kept apart by the resist lines", "kind": "technique", "source": "KNOWN"}
+{"n": 12, "claim": "The tile measures about 40 cm across (40.3 x 40.3 cm)", "kind": "size", "source": "RECORD"}
+{"n": 13, "claim": "It would have been set into a wall among other tiles", "kind": "function", "source": "KNOWN"}
+{"n": 14, "claim": "The glaze is crazed and the edges are chipped", "kind": "other", "source": "SEEN"}
+
+=== object-C ===
+Couteau de Brèche (staff weapon). France, ca. 1500. Steel, wood (beech)
+A couteau de brèche is a staff weapon with a long, knife-like blade mounted on a pole. Infantry carried it in France around 1500, and guards carried it later. This example has a slender steel head 61 cm long. One edge of the blade steps in sharply about a third of the way up, and from there the head narrows to a long, sharp point for thrusting. A faceted socket fixes the head to a beech shaft, of which only the top shows here. The complete weapon is nearly two metres long, so it could cut and thrust from well beyond the reach of a sword.
+{"n": 1, "claim": "The object is a couteau de brèche, a staff weapon", "kind": "what", "source": "RECORD"}
+{"n": 2, "claim": "A couteau de brèche has a long, knife-like blade mounted on a pole", "kind": "what", "source": "KNOWN"}
+{"n": 3, "claim": "It is French, made around 1500", "kind": "where", "source": "RECORD"}
+{"n": 4, "claim": "Such weapons were carried by infantry around 1500 and later by guards", "kind": "function", "source": "KNOWN"}
+{"n": 5, "claim": "The head is steel", "kind": "material", "source": "RECORD"}
+{"n": 6, "claim": "The head is 61 cm long", "kind": "size", "source": "RECORD"}
+{"n": 7, "claim": "One edge of the blade steps in sharply about a third of the way up, and the head then narrows to a long point", "kind": "depiction", "source": "SEEN"}
+{"n": 8, "claim": "The narrow upper section is made for thrusting", "kind": "function", "source": "KNOWN"}
+{"n": 9, "claim": "A faceted socket fixes the head to the shaft", "kind": "technique", "source": "SEEN"}
+{"n": 10, "claim": "The shaft is beech", "kind": "material", "source": "RECORD"}
+{"n": 11, "claim": "Only the top of the shaft shows in the photograph", "kind": "other", "source": "SEEN"}
+{"n": 12, "claim": "The complete weapon is nearly two metres long (197.1 cm)", "kind": "size", "source": "RECORD"}
+{"n": 13, "claim": "It could cut and thrust from well beyond the reach of a sword", "kind": "function", "source": "KNOWN"}
+
+=== object-G ===
+Worker Shabti of Henettawy (C), Daughter of Isetemkheb. Egypt, Thebes, Deir el-Bahri, Tomb MMA 60; Third Intermediate Period, Dynasty 21, ca. 990–970 BCE. Faience
+This worker shabti, 11.9 cm high, was made for Henettawy (C), daughter of Isetemkheb. It dates to Dynasty 21, about 990–970 BCE, and comes from Tomb MMA 60 at Deir el-Bahri in Thebes, where she was buried. The figure is mummiform, with arms crossed over the chest and a long tripartite wig. The bright turquoise-blue faience is typical of the period and is now spotted with dark patches. At this time a single burial could hold hundreds of such figures, ready to stand in for the dead when work was demanded in the fields of the afterlife. No tools or inscription can be seen from this side.
+{"n": 1, "claim": "The object is a worker shabti", "kind": "what", "source": "RECORD"}
+{"n": 2, "claim": "It was made for Henettawy (C), daughter of Isetemkheb", "kind": "who", "source": "RECORD"}
+{"n": 3, "claim": "It is 11.9 cm high", "kind": "size", "source": "RECORD"}
+{"n": 4, "claim": "It dates to the Third Intermediate Period, Dynasty 21, ca. 990–970 BCE", "kind": "when", "source": "RECORD"}
+{"n": 5, "claim": "It comes from Tomb MMA 60 at Deir el-Bahri, Thebes, Upper Egypt", "kind": "where", "source": "RECORD"}
+{"n": 6, "claim": "Henettawy was buried in that tomb", "kind": "other", "source": "KNOWN"}
+{"n": 7, "claim": "The figure is mummiform, with arms crossed over the chest", "kind": "depiction", "source": "SEEN"}
+{"n": 8, "claim": "It wears a long tripartite wig", "kind": "depiction", "source": "SEEN"}
+{"n": 9, "claim": "The material is faience", "kind": "material", "source": "RECORD"}
+{"n": 10, "claim": "The glaze is bright turquoise-blue and spotted with dark patches", "kind": "material", "source": "SEEN"}
+{"n": 11, "claim": "Bright blue faience is typical of the period", "kind": "when", "source": "KNOWN"}
+{"n": 12, "claim": "A single burial of this time could hold hundreds of shabtis", "kind": "function", "source": "KNOWN"}
+{"n": 13, "claim": "Shabtis were meant to stand in for the dead when work was demanded in the fields of the afterlife", "kind": "function", "source": "KNOWN"}
+{"n": 14, "claim": "No tools or inscription can be seen from this side", "kind": "other", "source": "SEEN"}
+
+changed object-F: I took the date 1872, the title "Cuirassier" and the medium "watercolor on paper" from the record, dropped "gouache" because I could not see it for sure, and added the artist's age and his service in the war that had just ended.
+changed object-K: I had miscounted the points as ten, and a fresh look at the photograph confirms the record's twelve; I also replaced my guessed "Central Asia or Iran, 15th century" with the dated 1442–43 attribution to Khargird, which let me name the madrasa being finished there.
+changed object-C: I had called it a spearhead for a pike, 16th–17th century, and I rewrote it as a French couteau de brèche of about 1500 with the record's beech shaft and measurements, because the record names a type I had not recognised.
+changed object-G: My guess of Third Intermediate Period held, and I replaced my general description with the record's owner (Henettawy C), its exact Dynasty 21 date, the tomb it came from (Tomb MMA 60) and its height.

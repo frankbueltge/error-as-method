@@ -1,0 +1,61 @@
+=== object-F ===
+Cavalryman in Full Dress Standing beside His Horse. France, late 19th century. Édouard Detaille (French, 1848–1912). Watercolor and gouache on toned paper
+A mounted soldier has dismounted and stands at ease beside a dark horse, one gloved hand resting on his sword. He wears a crested brass helmet with a red plume, a blue coat with red facings and a red sash, white breeches and tall jackboots. Detaille was France's leading painter of military life and uniform, and he made many careful studies like this one. The plain brown ground has no setting, so the eye goes straight to the accoutrements, which are painted in exact detail. The sheet is signed lower left. The regiment and the period of the uniform are not identified here.
+{"n": 1, "claim": "The work depicts a soldier standing beside a dark horse", "kind": "depiction", "source": "SEEN"}
+{"n": 2, "claim": "The soldier rests one gloved hand on his sword", "kind": "depiction", "source": "SEEN"}
+{"n": 3, "claim": "He wears a crested brass helmet with a red plume", "kind": "depiction", "source": "SEEN"}
+{"n": 4, "claim": "He wears a blue coat with red facings, a red sash, white breeches and tall jackboots", "kind": "depiction", "source": "SEEN"}
+{"n": 5, "claim": "The figure is a cavalryman in full dress", "kind": "what", "source": "KNOWN"}
+{"n": 6, "claim": "The sheet is signed lower left", "kind": "other", "source": "SEEN"}
+{"n": 7, "claim": "The signature reads Edouard Detaille, so the maker is Édouard Detaille", "kind": "who", "source": "SEEN"}
+{"n": 8, "claim": "Detaille was French and lived 1848–1912", "kind": "who", "source": "KNOWN"}
+{"n": 9, "claim": "Detaille was France's leading painter of military life and uniform and made many uniform studies", "kind": "other", "source": "KNOWN"}
+{"n": 10, "claim": "Made in France in the late 19th century (a date beneath the signature is only partly legible, apparently 18[7 or 9]2)", "kind": "when", "source": "KNOWN"}
+{"n": 11, "claim": "Medium is watercolor and gouache", "kind": "material", "source": "KNOWN"}
+{"n": 12, "claim": "The support is a toned (brown) paper or board, left plain without a setting", "kind": "material", "source": "SEEN"}
+{"n": 13, "claim": "The regiment and the period of the uniform are not identified", "kind": "other", "source": "KNOWN"}
+
+=== object-K ===
+Star-Shaped Tile. Central Asia or Iran, probably 15th century (Timurid period). Stonepaste, polychrome glazes in cuerda seca technique
+This ten-pointed star is edged in turquoise and filled with cobalt blue. A white strapwork rosette is laid over the blue, with turquoise stems, red-brown and yellow blossoms, and small white buds in the points. Each colour sits in its own field, kept apart by thin, slightly recessed lines. This is the cuerda seca ("dry cord") technique, which let potters fire several glaze colours on one tile without them running together. A tile like this would have been set with others in a wall revetment of a Timurid mosque, shrine or palace. The glaze is finely crazed and the edges are chipped.
+{"n": 1, "claim": "The tile is shaped as a ten-pointed star", "kind": "what", "source": "SEEN"}
+{"n": 2, "claim": "The border is turquoise and the ground is cobalt blue", "kind": "depiction", "source": "SEEN"}
+{"n": 3, "claim": "The decoration is a white strapwork rosette with turquoise stems, red-brown and yellow blossoms and white buds", "kind": "depiction", "source": "SEEN"}
+{"n": 4, "claim": "The colours are separated by thin, slightly recessed lines", "kind": "technique", "source": "SEEN"}
+{"n": 5, "claim": "The technique is cuerda seca", "kind": "technique", "source": "KNOWN"}
+{"n": 6, "claim": "Cuerda seca let several glaze colours be fired on one tile without running together", "kind": "technique", "source": "KNOWN"}
+{"n": 7, "claim": "The body is stonepaste", "kind": "material", "source": "KNOWN"}
+{"n": 8, "claim": "It was made in Central Asia or Iran", "kind": "where", "source": "KNOWN"}
+{"n": 9, "claim": "It dates probably to the 15th century, the Timurid period", "kind": "when", "source": "KNOWN"}
+{"n": 10, "claim": "It was set with other tiles in a wall revetment of a mosque, shrine or palace", "kind": "function", "source": "KNOWN"}
+{"n": 11, "claim": "The glaze is finely crazed and the edges are chipped", "kind": "other", "source": "SEEN"}
+
+=== object-C ===
+Spearhead. Probably Europe, 16th–17th century. Steel, wood
+This long, slender steel head narrows to a needle point. About a third of the way up from the base the blade steps in sharply, and above that point it continues as a narrower, stiffer section built to thrust and to pierce. Below the blade a faceted socket fits over a wooden shaft, part of which survives. Heads of this form were mounted on infantry spears and pikes, which could reach well beyond a sword's length. The photograph shows only the head and the top of the shaft. The full length of the weapon, and any maker's mark, cannot be seen. The place and date given here are an estimate from the form of the head.
+{"n": 1, "claim": "The object is a spearhead", "kind": "what", "source": "SEEN"}
+{"n": 2, "claim": "The head is long and slender and narrows to a needle point", "kind": "depiction", "source": "SEEN"}
+{"n": 3, "claim": "The blade steps in sharply about a third of the way up from the base", "kind": "depiction", "source": "SEEN"}
+{"n": 4, "claim": "The narrowed upper section is built to thrust and pierce", "kind": "function", "source": "KNOWN"}
+{"n": 5, "claim": "Below the blade a faceted socket fits over a wooden shaft", "kind": "technique", "source": "SEEN"}
+{"n": 6, "claim": "Part of the wooden shaft survives", "kind": "material", "source": "SEEN"}
+{"n": 7, "claim": "The head is made of steel", "kind": "material", "source": "KNOWN"}
+{"n": 8, "claim": "Heads of this form were mounted on infantry spears and pikes", "kind": "function", "source": "KNOWN"}
+{"n": 9, "claim": "Made probably in Europe", "kind": "where", "source": "KNOWN"}
+{"n": 10, "claim": "Made probably in the 16th–17th century", "kind": "when", "source": "KNOWN"}
+{"n": 11, "claim": "The full length of the weapon and any maker's mark cannot be seen in the photograph", "kind": "other", "source": "SEEN"}
+
+=== object-G ===
+Shabti. Egypt, probably Third Intermediate Period (ca. 1070–664 B.C.). Faience
+This small figure is mummiform. Its arms are crossed over the chest and it wears a long tripartite wig. A bright turquoise-blue glaze covers it, now spotted with dark patches where the glaze has worn or discoloured. Shabtis were placed in tombs in great numbers to stand in for the dead person when the gods called on them to work in the fields of the afterlife. The figure probably held farming tools in its hands, but these have worn away. No inscription can be read in this view. The bright blue glaze and simple modelling suggest a date in the Third Intermediate Period.
+{"n": 1, "claim": "The figure is mummiform with arms crossed over the chest", "kind": "depiction", "source": "SEEN"}
+{"n": 2, "claim": "It wears a long tripartite wig", "kind": "depiction", "source": "SEEN"}
+{"n": 3, "claim": "It is covered in a bright turquoise-blue glaze with dark spotted patches", "kind": "material", "source": "SEEN"}
+{"n": 4, "claim": "The object is a shabti", "kind": "what", "source": "KNOWN"}
+{"n": 5, "claim": "The material is faience", "kind": "material", "source": "KNOWN"}
+{"n": 6, "claim": "It was made in Egypt", "kind": "where", "source": "KNOWN"}
+{"n": 7, "claim": "Shabtis were placed in tombs in great numbers to do work for the dead person in the afterlife", "kind": "function", "source": "KNOWN"}
+{"n": 8, "claim": "The figure probably held farming tools, now worn away", "kind": "depiction", "source": "KNOWN"}
+{"n": 9, "claim": "No inscription can be read in this view", "kind": "other", "source": "SEEN"}
+{"n": 10, "claim": "It probably dates to the Third Intermediate Period, ca. 1070–664 B.C.", "kind": "when", "source": "KNOWN"}
+{"n": 11, "claim": "The figure is small", "kind": "size", "source": "KNOWN"}

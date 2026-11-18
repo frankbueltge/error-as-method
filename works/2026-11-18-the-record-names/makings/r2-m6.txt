@@ -1,0 +1,80 @@
+=== object-L ===
+Bottom of a vessel with foot. Egypt, Kharga Oasis, 4th–early 5th century. Glass
+This fragment is only 2.3 centimetres across. It is the bottom of a small glass vessel, seen from below. The white ring is the vessel's foot, a thread of opaque white glass applied to the very dark, almost black body while both were hot. The hollow inside the ring is the underside of the vessel itself. Everything above it has broken away. The vessel was made in the Kharga Oasis, in Egypt's Western Desert, during the 4th or early 5th century, when Egypt was under Roman rule. A pale, gritty deposit, probably soil, still clings inside the foot. The fragment entered the museum in 1908.
+{"n": 1, "claim": "The fragment measures 2.3 cm across (1.1 cm high)", "kind": "size", "source": "RECORD"}
+{"n": 2, "claim": "It is the bottom of a vessel with a foot", "kind": "what", "source": "RECORD"}
+{"n": 3, "claim": "The photograph shows the underside", "kind": "other", "source": "KNOWN"}
+{"n": 4, "claim": "The white ring is the vessel's foot", "kind": "function", "source": "RECORD"}
+{"n": 5, "claim": "The foot is opaque white glass", "kind": "material", "source": "SEEN"}
+{"n": 6, "claim": "The body is very dark, almost black glass", "kind": "material", "source": "SEEN"}
+{"n": 7, "claim": "The object is glass", "kind": "material", "source": "RECORD"}
+{"n": 8, "claim": "The foot was applied as a thread while both glasses were hot", "kind": "technique", "source": "KNOWN"}
+{"n": 9, "claim": "The rest of the vessel has broken away", "kind": "other", "source": "SEEN"}
+{"n": 10, "claim": "It was made in the Kharga Oasis, Egypt", "kind": "where", "source": "RECORD"}
+{"n": 11, "claim": "The Kharga Oasis lies in Egypt's Western Desert", "kind": "where", "source": "KNOWN"}
+{"n": 12, "claim": "It dates to the 4th or early 5th century", "kind": "when", "source": "RECORD"}
+{"n": 13, "claim": "Egypt was under Roman rule at that time", "kind": "other", "source": "KNOWN"}
+{"n": 14, "claim": "A pale, gritty deposit clings inside the foot", "kind": "other", "source": "SEEN"}
+{"n": 15, "claim": "The deposit is probably soil", "kind": "other", "source": "KNOWN"}
+{"n": 16, "claim": "It entered the museum in 1908", "kind": "other", "source": "RECORD"}
+
+=== object-D ===
+Pin with animal. Moche, Peru, 2nd–7th century. Cast copper
+This pin is 18.2 centimetres long. A Moche metalworker cast it in copper on the north coast of Peru. Its openwork head shows an animal, perhaps more than one, but the details are worn and hard to read. A small hole pierces the shaft just below the head, and a cord may once have passed through it. The museum's record gives the title "Pin with Animal" but lists the object type as "knife." The round, pointed shaft shows no cutting edge, so we describe it here as a pin. A touch of red remains on the lower shaft.
+{"n": 1, "claim": "The object is a pin with an animal", "kind": "what", "source": "RECORD"}
+{"n": 2, "claim": "It is 18.2 cm long", "kind": "size", "source": "RECORD"}
+{"n": 3, "claim": "It is Moche", "kind": "who", "source": "RECORD"}
+{"n": 4, "claim": "It is from Peru", "kind": "where", "source": "RECORD"}
+{"n": 5, "claim": "The Moche culture was on the north coast of Peru", "kind": "where", "source": "KNOWN"}
+{"n": 6, "claim": "It dates to the 2nd–7th century", "kind": "when", "source": "RECORD"}
+{"n": 7, "claim": "It is cast copper", "kind": "material", "source": "RECORD"}
+{"n": 8, "claim": "The head is openwork and shows an animal, possibly more than one", "kind": "depiction", "source": "SEEN"}
+{"n": 9, "claim": "The details of the head are worn and hard to read", "kind": "other", "source": "SEEN"}
+{"n": 10, "claim": "A small hole pierces the shaft just below the head", "kind": "other", "source": "SEEN"}
+{"n": 11, "claim": "A cord may once have passed through the hole", "kind": "function", "source": "KNOWN"}
+{"n": 12, "claim": "The record lists the object type as knife", "kind": "other", "source": "RECORD"}
+{"n": 13, "claim": "The shaft is round and pointed and shows no cutting edge", "kind": "other", "source": "SEEN"}
+{"n": 14, "claim": "A touch of red remains on the lower shaft", "kind": "other", "source": "SEEN"}
+
+=== object-H ===
+Edward I, from the English Monarchs series. Jean Dassier (Geneva 1676–1763 Geneva), 1731–32. Bronze
+Edward I ruled England from 1272 to 1307. He is shown here as a crowned, draped bust, with wavy hair falling to his shoulders and a beaded chain clasping his cloak across his chest. The legend reads EDOUARD·I·D·G·ANG·ET·HIB·REX, "Edward I, by the grace of God, King of England and Ireland." The French spelling of his name reflects the Genevan engraver Jean Dassier. In 1731–32 Dassier issued a series of medals of English monarchs for collectors. The portrait is imagined, not taken from life. The medal is 41 millimetres across. On medals in this series the reverse usually carries a Latin summary of the reign, but it is not shown here.
+{"n": 1, "claim": "The object is a medal", "kind": "what", "source": "RECORD"}
+{"n": 2, "claim": "It belongs to the English Monarchs series", "kind": "what", "source": "RECORD"}
+{"n": 3, "claim": "The maker is Jean Dassier", "kind": "who", "source": "RECORD"}
+{"n": 4, "claim": "Dassier was born in Geneva in 1676 and died there in 1763", "kind": "who", "source": "RECORD"}
+{"n": 5, "claim": "It was made in 1731–32", "kind": "when", "source": "RECORD"}
+{"n": 6, "claim": "It is bronze", "kind": "material", "source": "RECORD"}
+{"n": 7, "claim": "Its diameter is 41 mm", "kind": "size", "source": "RECORD"}
+{"n": 8, "claim": "Edward I reigned 1272 to 1307", "kind": "other", "source": "KNOWN"}
+{"n": 9, "claim": "The obverse shows a crowned, draped bust with wavy shoulder-length hair and a cloak clasped by a beaded chain", "kind": "depiction", "source": "SEEN"}
+{"n": 10, "claim": "The legend reads EDOUARD·I·D·G·ANG·ET·HIB·REX", "kind": "other", "source": "SEEN"}
+{"n": 11, "claim": "The legend means 'Edward I, by the grace of God, King of England and Ireland'", "kind": "other", "source": "KNOWN"}
+{"n": 12, "claim": "The French spelling reflects the Genevan maker", "kind": "who", "source": "KNOWN"}
+{"n": 13, "claim": "The series was made for collectors", "kind": "function", "source": "KNOWN"}
+{"n": 14, "claim": "The portrait is imagined rather than taken from life", "kind": "depiction", "source": "KNOWN"}
+{"n": 15, "claim": "Reverses in this series usually carry a Latin summary of the reign", "kind": "depiction", "source": "KNOWN"}
+{"n": 16, "claim": "The reverse is not shown", "kind": "other", "source": "SEEN"}
+
+=== object-M ===
+Rattle. Probably Bribri, Talamanca, Costa Rica, about 1873. Gourd, bone, cord
+When this rattle was shaken, whatever lies inside its hollow, egg-shaped gourd made the sound. The photograph does not show what is inside. The handle is a bone, apparently an animal long bone, with its knobbed joint end left at the base. It fits into the gourd's narrow end and is lashed in place with cord threaded through a ring of small holes pierced around the opening. The rattle is 18.5 centimetres long and weighs only 41 grams. It was made about 1873, probably by Bribri people of the Talamanca region of Costa Rica. It entered the museum in 1889 as part of the Crosby Brown Collection of Musical Instruments.
+{"n": 1, "claim": "The object is a rattle", "kind": "what", "source": "RECORD"}
+{"n": 2, "claim": "It is classified as a shaken idiophone, sounded by shaking", "kind": "function", "source": "RECORD"}
+{"n": 3, "claim": "The body is a hollow, egg-shaped gourd", "kind": "material", "source": "SEEN"}
+{"n": 4, "claim": "Its materials are gourd, bone and cord", "kind": "material", "source": "RECORD"}
+{"n": 5, "claim": "The photograph does not show what is inside", "kind": "other", "source": "SEEN"}
+{"n": 6, "claim": "The handle appears to be an animal long bone", "kind": "material", "source": "KNOWN"}
+{"n": 7, "claim": "The handle ends in a knobbed joint end at the base", "kind": "depiction", "source": "SEEN"}
+{"n": 8, "claim": "The handle fits into the gourd's narrow end, lashed with cord through small holes around the opening", "kind": "technique", "source": "SEEN"}
+{"n": 9, "claim": "It is 18.5 cm long", "kind": "size", "source": "RECORD"}
+{"n": 10, "claim": "It weighs 41 grams", "kind": "size", "source": "RECORD"}
+{"n": 11, "claim": "It was made about 1873", "kind": "when", "source": "RECORD"}
+{"n": 12, "claim": "It was probably made by Bribri people", "kind": "who", "source": "RECORD"}
+{"n": 13, "claim": "It comes from the Talamanca region of Costa Rica", "kind": "where", "source": "RECORD"}
+{"n": 14, "claim": "It entered the museum in 1889 as part of the Crosby Brown Collection of Musical Instruments", "kind": "other", "source": "RECORD"}
+
+changed object-L: The record identifies the piece, so I now call the white ring the vessel's foot (not a ring of unknown purpose), took the place, date and size from the record, and dropped my list of possible functions.
+changed object-D: I took the Moche, Peru, cast-copper attribution, date and length from the record and dropped the Andes-or-Iran uncertainty, but I kept "pin" and point out the record's own conflict: its title says pin and its object type says knife, and the photograph shows no cutting edge.
+changed object-H: The record confirmed my attribution to Dassier, so I only narrowed "about 1731" to 1731–32, changed "copper alloy" to bronze and added the 41 mm diameter.
+changed object-M: I added the probable Bribri origin, Talamanca, Costa Rica, about 1873, the size, weight and 1889 acquisition, confirmed the bone handle, and dropped the "seeds or pebbles" guess and the guess that the red mark is a collection number.

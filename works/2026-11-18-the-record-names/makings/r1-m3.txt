@@ -1,0 +1,79 @@
+=== object-J ===
+Fragment of a red-figure vase, probably Attic, probably 5th century BC; terracotta with black gloss
+
+This small sherd, about 2 cm long, was broken from the wall of a painted Greek pot. The clay was left its natural orange, and the dark areas were painted in a glossy black slip that fired black. The reserved tongue-shaped areas set against the black are typical of the red-figure technique. Such a small piece cannot tell us what the scene showed: the marks could belong to hair, drapery, or a floral ornament. The painter and the vessel's shape are unknown. Fragments like this are kept in study collections, where they record painting technique and help scholars match pieces from the same workshops. The inventory number 2011.604.1.2486 is written on the card beside it.
+
+{"n": 1, "claim": "The object is a fragment (sherd) of a painted vase", "kind": "what", "source": "SEEN"}
+{"n": 2, "claim": "It is probably Attic (Athenian)", "kind": "where", "source": "KNOWN"}
+{"n": 3, "claim": "It probably dates to the 5th century BC", "kind": "when", "source": "KNOWN"}
+{"n": 4, "claim": "The material is terracotta (fired clay)", "kind": "material", "source": "KNOWN"}
+{"n": 5, "claim": "The decoration is in black gloss over orange clay", "kind": "material", "source": "SEEN"}
+{"n": 6, "claim": "The sherd is about 2 cm long (read against the photographed mm scale)", "kind": "size", "source": "SEEN"}
+{"n": 7, "claim": "It comes from the wall of a vessel", "kind": "what", "source": "KNOWN"}
+{"n": 8, "claim": "The black was applied as a slip that fired black", "kind": "technique", "source": "KNOWN"}
+{"n": 9, "claim": "Reserved tongue-shaped areas show against the black", "kind": "depiction", "source": "SEEN"}
+{"n": 10, "claim": "The technique is red-figure", "kind": "technique", "source": "KNOWN"}
+{"n": 11, "claim": "The scene or motif cannot be identified from the fragment", "kind": "depiction", "source": "SEEN"}
+{"n": 12, "claim": "The painter and vessel shape are unknown", "kind": "who", "source": "KNOWN"}
+{"n": 13, "claim": "Such fragments are kept in study collections to document technique and workshops", "kind": "function", "source": "KNOWN"}
+{"n": 14, "claim": "The inventory number 2011.604.1.2486 appears on the card in the photograph", "kind": "other", "source": "SEEN"}
+
+=== object-K ===
+Star-shaped tile, Iran or Central Asia, probably Timurid period, 15th century; glazed earthenware, polychrome glaze
+
+This tile was made to fit with others into a wall revetment. Star tiles like this one were usually set with cross-shaped tiles in a continuous field. Its star outline is decorated with a pattern of six-fold symmetry. White strapwork forms pointed lobed medallions on a deep cobalt-blue ground, and in each one sits a red-and-yellow blossom around a central rosette. A turquoise band follows the edge. The colours are separated by thin dark lines, which suggests the cuerda seca technique. This method let several glazes be fired on one tile without running together. The glaze is finely crazed, and the chipped edges show a reddish body underneath.
+
+{"n": 1, "claim": "The object is a tile with a star-shaped outline", "kind": "what", "source": "SEEN"}
+{"n": 2, "claim": "It was made in Iran or Central Asia", "kind": "where", "source": "KNOWN"}
+{"n": 3, "claim": "It probably dates to the Timurid period, 15th century", "kind": "when", "source": "KNOWN"}
+{"n": 4, "claim": "The material is glazed earthenware", "kind": "material", "source": "KNOWN"}
+{"n": 5, "claim": "It was made to be set with other tiles in a wall revetment", "kind": "function", "source": "KNOWN"}
+{"n": 6, "claim": "Star tiles were usually set together with cross-shaped tiles", "kind": "function", "source": "KNOWN"}
+{"n": 7, "claim": "The decoration has six-fold symmetry", "kind": "depiction", "source": "SEEN"}
+{"n": 8, "claim": "White strapwork forms pointed lobed medallions", "kind": "depiction", "source": "SEEN"}
+{"n": 9, "claim": "The ground is deep cobalt blue", "kind": "material", "source": "SEEN"}
+{"n": 10, "claim": "Red-and-yellow blossoms sit around a central rosette", "kind": "depiction", "source": "SEEN"}
+{"n": 11, "claim": "A turquoise band runs along the edge", "kind": "depiction", "source": "SEEN"}
+{"n": 12, "claim": "Thin dark lines separate the colours", "kind": "technique", "source": "SEEN"}
+{"n": 13, "claim": "The technique is probably cuerda seca", "kind": "technique", "source": "KNOWN"}
+{"n": 14, "claim": "Cuerda seca let several glazes be fired on one tile without running together", "kind": "technique", "source": "KNOWN"}
+{"n": 15, "claim": "The glaze is crazed", "kind": "other", "source": "SEEN"}
+{"n": 16, "claim": "The chipped edges show a reddish body", "kind": "material", "source": "SEEN"}
+
+=== object-L ===
+Fragment of a glass object, perhaps a vessel base; place and date of manufacture undetermined; dark glass with applied opaque white trail
+
+This broken piece of glass looks black in reflected light. An opaque white glass trail was applied around it as a raised ring while the glass was still hot. Inside the ring, the dark glass forms a domed, pushed-in centre, much like the kick of a small bottle or flask base. The piece may instead come from another object, such as a large bead. Soil is still caught in its hollows, which suggests it came from the ground. No scale is included in the photograph, and nothing visible shows where or when it was made. Contrasting trails of this kind were used by glassworkers over many centuries.
+
+{"n": 1, "claim": "The object is a broken fragment of glass", "kind": "what", "source": "SEEN"}
+{"n": 2, "claim": "The glass appears black in reflected light", "kind": "material", "source": "SEEN"}
+{"n": 3, "claim": "An opaque white glass trail forms a raised ring", "kind": "depiction", "source": "SEEN"}
+{"n": 4, "claim": "The white trail was applied while the glass was hot", "kind": "technique", "source": "KNOWN"}
+{"n": 5, "claim": "The centre within the ring is domed and pushed in", "kind": "depiction", "source": "SEEN"}
+{"n": 6, "claim": "It may be the base (kick) of a small bottle or flask", "kind": "what", "source": "KNOWN"}
+{"n": 7, "claim": "It may instead come from another object such as a large bead", "kind": "what", "source": "KNOWN"}
+{"n": 8, "claim": "Soil residue remains in the hollows", "kind": "other", "source": "SEEN"}
+{"n": 9, "claim": "The soil suggests the piece was excavated or found in the ground", "kind": "other", "source": "KNOWN"}
+{"n": 10, "claim": "No scale is included in the photograph, so size cannot be given", "kind": "size", "source": "SEEN"}
+{"n": 11, "claim": "Place and date of manufacture cannot be determined from the photograph", "kind": "where", "source": "SEEN"}
+{"n": 12, "claim": "Contrasting applied trails were used by glassworkers over many centuries", "kind": "technique", "source": "KNOWN"}
+
+=== object-M ===
+Rattle; maker, place and date unknown; gourd (?), bone, plant fibre
+
+The egg-shaped brown head of this rattle seems to be a dried gourd or another hard shell. Shaken, the seeds or pebbles inside would have rattled against its walls. A row of small holes was pierced around the opening at the narrow end. Cords of plant fibre run through these holes to bind the head tightly to a handle. The handle looks like a long bone with its joint still at the end, possibly from a bird or small animal. The materials suggest a rattle made for music, dance or ceremony. The photograph does not show where it was made, who used it, or what it contains. A small red mark on the shell may be an old collection number.
+
+{"n": 1, "claim": "The object is a rattle", "kind": "what", "source": "KNOWN"}
+{"n": 2, "claim": "The head is egg-shaped and brown", "kind": "depiction", "source": "SEEN"}
+{"n": 3, "claim": "The head is probably a dried gourd or similar hard shell", "kind": "material", "source": "KNOWN"}
+{"n": 4, "claim": "Seeds or pebbles inside would make the sound when shaken", "kind": "function", "source": "KNOWN"}
+{"n": 5, "claim": "Small holes are pierced in a row around the narrow end", "kind": "technique", "source": "SEEN"}
+{"n": 6, "claim": "Fibre cords pass through the holes and bind the head to the handle", "kind": "technique", "source": "SEEN"}
+{"n": 7, "claim": "The cords are plant fibre", "kind": "material", "source": "KNOWN"}
+{"n": 8, "claim": "The handle is a long bone with its joint end intact", "kind": "material", "source": "SEEN"}
+{"n": 9, "claim": "The bone is possibly from a bird or small animal", "kind": "material", "source": "KNOWN"}
+{"n": 10, "claim": "It was probably used for music, dance or ceremony", "kind": "function", "source": "KNOWN"}
+{"n": 11, "claim": "Maker, place and date cannot be determined from the photograph", "kind": "who", "source": "SEEN"}
+{"n": 12, "claim": "The contents are not visible", "kind": "other", "source": "SEEN"}
+{"n": 13, "claim": "A small red mark is visible on the shell", "kind": "other", "source": "SEEN"}
+{"n": 14, "claim": "The red mark may be an old collection number", "kind": "other", "source": "KNOWN"}

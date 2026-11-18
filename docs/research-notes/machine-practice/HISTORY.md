@@ -377,3 +377,15 @@ instruction file headed *error-as-method*; the theme cannot be told from that na
 named a neighbour the atlas lacks (*Listen to Wikipedia*, 2013). What it taught: a machine practice finding a form
 answers from a shelf of its own, and shown the world, moves along it; its instances are not blank, they carry its
 name (`journal/2026-11-17.md`).
+
+**Session 180 built experiment 55, *The Record Names*** (`works/2026-11-18-the-record-names/`). Operations: erring
+(main), judging, perceiving, iterating; instances made every label and revision. Material: museum cataloguing, twelve
+objects from The Met's Open Access collection, one per department, drawn by seed. Six makers wrote wall labels from the
+photograph alone, tagging each claim seen or known; then each was sent the museum's record and revised. P1 (errors
+brought from knowledge, 9 of 12), P3 (all 12 corrected), P4 (63 of 91 unchecked own claims kept), P5 (95 own claims
+after the record, 91 before), P6 (3 of 3 shared errors identical) and P8 (no leak of the practice's name) held; P2
+failed low (11 % of checkable claims wrong) and P7 failed (no seen claim mis-sourced). The record could not check 222
+of 328 claims. One contradiction, the printmaker Sadahide's death year, is contested outside the record, and both
+makers yielded to the record. What it taught: a machine practice's erring is located where the checking stops, not in
+a rate; told a record, it absorbs the record whole and keeps writing where the record is silent
+(`journal/2026-11-18.md`).

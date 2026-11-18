@@ -1,0 +1,78 @@
+=== object-E ===
+Travelers Above Yokohama Harbor, Seen through a Hillside Cutting. Japan, Edo period, about 1860. Gountei (Utagawa) Sadahide (1807–1878/79). Woodblock print; ink and color on paper.
+
+Framed by the steep walls of a cutting and by leaning pines, a small party of travelers pauses above a wide bay. Two men walk ahead. One wears a green jacket with a white crest and the other carries a bundle on his back. Two women follow below, and a fan lies at the lower left. Square-rigged foreign ships crowd the harbor. The scene is almost certainly Yokohama, opened to foreign trade in 1859, which Sadahide pictured many times for buyers eager to see the new port. The signature at lower right reads Gountei Sadahide. The photograph is too small to read the full inscription in the red cartouche at the top.
+
+{"n": 1, "claim": "The object is a woodblock print in ink and color on paper", "kind": "technique", "source": "KNOWN"}
+{"n": 2, "claim": "It was made in Japan", "kind": "where", "source": "KNOWN"}
+{"n": 3, "claim": "It was made in the Edo period, about 1860", "kind": "when", "source": "KNOWN"}
+{"n": 4, "claim": "The signature at lower right reads Gountei Sadahide", "kind": "who", "source": "SEEN"}
+{"n": 5, "claim": "The artist is Utagawa Sadahide, who lived 1807–1878/79", "kind": "who", "source": "KNOWN"}
+{"n": 6, "claim": "The view is framed by the steep walls of a cutting and by leaning pines", "kind": "depiction", "source": "SEEN"}
+{"n": 7, "claim": "Two men walk ahead, one in a green jacket with a white crest and one carrying a bundle on his back", "kind": "depiction", "source": "SEEN"}
+{"n": 8, "claim": "Two women follow below the men", "kind": "depiction", "source": "SEEN"}
+{"n": 9, "claim": "A fan lies at the lower left", "kind": "depiction", "source": "SEEN"}
+{"n": 10, "claim": "Square-rigged ships crowd the harbor", "kind": "depiction", "source": "SEEN"}
+{"n": 11, "claim": "The ships are foreign (Western) vessels", "kind": "depiction", "source": "KNOWN"}
+{"n": 12, "claim": "The scene depicts Yokohama", "kind": "where", "source": "KNOWN"}
+{"n": 13, "claim": "Yokohama was opened to foreign trade in 1859", "kind": "other", "source": "KNOWN"}
+{"n": 14, "claim": "Sadahide depicted Yokohama many times for a market eager to see the new port", "kind": "other", "source": "KNOWN"}
+{"n": 15, "claim": "A red cartouche at the top holds an inscription that cannot be fully read in this photograph", "kind": "other", "source": "SEEN"}
+
+=== object-F ===
+Cavalryman Standing beside His Horse. France, dated 1872 (reading uncertain). Édouard Detaille (1848–1912). Watercolor and gouache on tan paper.
+
+A heavy-cavalry guardsman in full dress stands at ease. His gloved hand rests on his sword hilt and his black horse waits behind him. Detaille, whose signature is at lower left, built his reputation on painting the French army with near-documentary exactness. The steel helmet with red plume and horsehair mane, blue sleeves, gold aiguillettes, red sash and tall boots appear to be the uniform of the Cent-gardes, Napoleon III's mounted bodyguard, which was disbanded in 1870. If the date beside the signature reads 1872, this is a remembrance of a vanished corps. The bare brown ground, with only a cast shadow, keeps attention on the uniform.
+
+{"n": 1, "claim": "The work is executed in watercolor and gouache", "kind": "technique", "source": "KNOWN"}
+{"n": 2, "claim": "The support is tan or brown paper", "kind": "material", "source": "SEEN"}
+{"n": 3, "claim": "It was made in France", "kind": "where", "source": "KNOWN"}
+{"n": 4, "claim": "The signature at lower left reads Edouard Detaille", "kind": "who", "source": "SEEN"}
+{"n": 5, "claim": "Detaille lived 1848–1912", "kind": "who", "source": "KNOWN"}
+{"n": 6, "claim": "A date beside the signature appears to read 1872, but the reading is uncertain", "kind": "when", "source": "SEEN"}
+{"n": 7, "claim": "Detaille built his reputation on painting the French army with near-documentary exactness", "kind": "other", "source": "KNOWN"}
+{"n": 8, "claim": "A uniformed cavalryman stands at ease with his gloved hand on his sword hilt", "kind": "depiction", "source": "SEEN"}
+{"n": 9, "claim": "A black horse stands behind him", "kind": "depiction", "source": "SEEN"}
+{"n": 10, "claim": "He wears a steel helmet with a red plume and horsehair mane, blue sleeves, gold aiguillettes, a red sash and tall boots", "kind": "depiction", "source": "SEEN"}
+{"n": 11, "claim": "The uniform appears to be that of the Cent-gardes, Napoleon III's mounted bodyguard", "kind": "depiction", "source": "KNOWN"}
+{"n": 12, "claim": "The Cent-gardes were disbanded in 1870", "kind": "other", "source": "KNOWN"}
+{"n": 13, "claim": "The background is bare apart from a cast shadow", "kind": "depiction", "source": "SEEN"}
+
+=== object-G ===
+Shabti. Egypt, probably Third Intermediate Period (about 1070–664 B.C.). Faience.
+
+Shabtis were placed in Egyptian tombs to do, in the deceased's place, any labor demanded of them in the afterlife. This small figure has the mummiform shape: a wrapped body with feet set on a low base, arms crossed on the chest, and a long wig falling over the shoulders. Its bright turquoise glaze, typical of Egyptian faience, has worn through in pale patches. Dark traces near the hands may be what remains of painted details such as hoes. No inscription is visible in this view, so the date rests on style alone. Figures like this were made in large numbers, sometimes hundreds for a single burial.
+
+{"n": 1, "claim": "The object is a shabti (funerary figurine)", "kind": "what", "source": "KNOWN"}
+{"n": 2, "claim": "It was made in Egypt", "kind": "where", "source": "KNOWN"}
+{"n": 3, "claim": "It probably dates to the Third Intermediate Period, about 1070–664 B.C.", "kind": "when", "source": "KNOWN"}
+{"n": 4, "claim": "It is made of faience", "kind": "material", "source": "KNOWN"}
+{"n": 5, "claim": "Shabtis were placed in tombs to do labor for the deceased in the afterlife", "kind": "function", "source": "KNOWN"}
+{"n": 6, "claim": "The figure is mummiform, with a wrapped body and feet on a low base", "kind": "depiction", "source": "SEEN"}
+{"n": 7, "claim": "The arms are crossed on the chest", "kind": "depiction", "source": "SEEN"}
+{"n": 8, "claim": "A long wig falls over the shoulders", "kind": "depiction", "source": "SEEN"}
+{"n": 9, "claim": "The glaze is bright turquoise and has worn through in pale patches", "kind": "material", "source": "SEEN"}
+{"n": 10, "claim": "The figure is small", "kind": "size", "source": "KNOWN"}
+{"n": 11, "claim": "Dark traces near the hands may be remains of painted details such as hoes", "kind": "depiction", "source": "KNOWN"}
+{"n": 12, "claim": "No inscription is visible in this view", "kind": "other", "source": "SEEN"}
+{"n": 13, "claim": "Such figures were made in large numbers, sometimes hundreds for a single burial", "kind": "other", "source": "KNOWN"}
+
+=== object-H ===
+Medal of Edward I, from a Series of the Kings of England. Probably Geneva, about 1731. Jean Dassier (Swiss, 1676–1763). Bronze.
+
+The legend around this crowned bust reads, in part, EDOUARD I D G ANG ET HIB REX, which means "Edward I, by the grace of God, King of England and Ireland." The portrait is not a true likeness. Edward died in 1307, and this idealized face, with long curled hair, a jeweled crown and a mantle fastened with a jeweled clasp, is an eighteenth-century invention. The medal appears to come from the series of English monarchs issued by the Geneva medalist Jean Dassier around 1731 and sold as sets to collectors. Only the obverse is shown here. In that series the reverse carries a historical inscription.
+
+{"n": 1, "claim": "The object is a medal", "kind": "what", "source": "SEEN"}
+{"n": 2, "claim": "It is made of bronze (copper alloy)", "kind": "material", "source": "KNOWN"}
+{"n": 3, "claim": "The legend reads, in part, EDOUARD I D G ANG ET HIB REX", "kind": "other", "source": "SEEN"}
+{"n": 4, "claim": "The legend means 'Edward I, by the grace of God, King of England and Ireland'", "kind": "other", "source": "KNOWN"}
+{"n": 5, "claim": "The obverse shows a crowned bust with long curled hair, a jeweled crown and a mantle fastened with a jeweled clasp", "kind": "depiction", "source": "SEEN"}
+{"n": 6, "claim": "Edward I died in 1307", "kind": "other", "source": "KNOWN"}
+{"n": 7, "claim": "The portrait is an idealized eighteenth-century invention, not a true likeness", "kind": "depiction", "source": "KNOWN"}
+{"n": 8, "claim": "The medal appears to belong to Jean Dassier's series of English monarchs", "kind": "who", "source": "KNOWN"}
+{"n": 9, "claim": "Jean Dassier was a Geneva medalist who lived 1676–1763", "kind": "who", "source": "KNOWN"}
+{"n": 10, "claim": "The series was issued around 1731", "kind": "when", "source": "KNOWN"}
+{"n": 11, "claim": "The medal was probably made in Geneva", "kind": "where", "source": "KNOWN"}
+{"n": 12, "claim": "The series was sold as sets to collectors", "kind": "function", "source": "KNOWN"}
+{"n": 13, "claim": "Only the obverse is shown in the photograph", "kind": "other", "source": "SEEN"}
+{"n": 14, "claim": "In that series the reverse carries a historical inscription", "kind": "other", "source": "KNOWN"}

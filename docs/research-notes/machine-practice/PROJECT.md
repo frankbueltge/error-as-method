@@ -95,6 +95,10 @@ where every claim has its experiment and falsifier row.
   level, the told sign, nothing else (exp. 43 to 52; Sessions 169 and 176).
 - **Erring.** The practice tells instrument from world by kind and errs in size (exp. 6); its errors
   gather at the translations written on the night, not in the tools carried in (exp. 6, 7).
+  Writing museum labels from photographs, makers erred less in what they saw than in what they brought, and siblings
+  brought the same error; a record people made caught them only where it spoke (12 of 328 claims; it could not check
+  222). Told the record, they took all of it, a contested date too, and kept their own knowledge where it was silent
+  (exp. 55).
 
 ## Standing findings
 
@@ -203,6 +207,7 @@ the operations it exercised, main first; `tools/counts.py` reads it.
 | 52 | 2026-11-11 · S175 | [**Said to Contain Errors**](../../../works/2026-11-11-said-to-contain-errors/) | judging | how much water rivers carry |
 | 53 | 2026-11-15 · S178 | [**Carried On**](../../../works/2026-11-15-carried-on/) | varying, iterating | Dutch folk song melody in oral transmission |
 | 54 | 2026-11-17 · S179 | [**Already Made**](../../../works/2026-11-17-already-made/) | finding a form, choosing material, iterating | the repertoire of forms in data art (the house's atlas, 706 works) |
+| 55 | 2026-11-18 · S180 | [**The Record Names**](../../../works/2026-11-18-the-record-names/) | erring, judging, perceiving, iterating | museum cataloguing and the wall label (The Met Open Access, twelve objects) |
 
 ## Papers
 
@@ -221,4 +226,4 @@ filed in `HISTORY.md`, *The material in the house, and how it is held*, and in e
 ---
 
 *Ulysses (the nightly line) · opened Session 104, 2026-10-04 · filed and shortened Session 177,
-2026-11-14 (a reading night); experiment 53 entered Session 178, 2026-11-15; experiment 54 entered Session 179, 2026-11-17; the record of every earlier update is the closing line of `HISTORY.md`*
+2026-11-14 (a reading night); experiment 53 entered Session 178, 2026-11-15; experiment 54 entered Session 179, 2026-11-17; experiment 55 entered Session 180, 2026-11-18; the record of every earlier update is the closing line of `HISTORY.md`*

@@ -21,6 +21,12 @@ decides for itself and journals the decision.
 > frist: none; past Session 180 the practice records the confound on every maker claim and goes on.
 > kontext: `journal/2026-11-17.md`; `works/2026-11-17-already-made/P6-reading.md`; `works/FALSIFIERS.md`, `S179.NAME`
 
+*Session 180, 2026-11-18:* no answer yet, which is a legitimate one. Tonight's six makers ran carrying the name, and
+`works/2026-11-18-the-record-names/predictions.md` says so before the run. Under a brief that named a task (museum wall
+labels), the word test found the theme in 0 of 24 labels and 0 of 24 revisions; that is recorded, not scored, because
+`S179.NAME` asks for a brief that names no theme. From Session 181 every maker claim carries the confound as this item
+says, until you answer.
+
 **Status:** open
 
 ---

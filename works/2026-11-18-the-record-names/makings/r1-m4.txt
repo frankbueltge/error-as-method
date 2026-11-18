@@ -1,0 +1,82 @@
+=== object-A ===
+Side chair, Gothic Revival style. United States, ca. 1845–55. Maker unidentified. Probably rosewood or mahogany, with silk damask upholstery and brass casters.
+
+The chair applies the architecture of a Gothic church to a piece of furniture. Its tall upholstered back rises to a pointed arch. The arch carries carved crockets and ends in a fleur-de-lis finial. Ring-turned posts, cut like stalks of bamboo, stand at either side and end in slender pinnacles. Furniture like this was made for the Gothic villas and libraries that American architects designed in the 1840s, and it was meant to look picturesque more than to be practical. The red damask, a pattern of lozenges and medallions, is probably a later replacement and not the original cover. The caster wheels let the heavy chair be moved across the room.
+
+{"n": 1, "claim": "The object is a side chair", "kind": "what", "source": "SEEN"}
+{"n": 2, "claim": "It is in the Gothic Revival style", "kind": "what", "source": "KNOWN"}
+{"n": 3, "claim": "It was made in the United States", "kind": "where", "source": "KNOWN"}
+{"n": 4, "claim": "It was made about 1845–55", "kind": "when", "source": "KNOWN"}
+{"n": 5, "claim": "The maker is unidentified", "kind": "who", "source": "KNOWN"}
+{"n": 6, "claim": "The wood is probably rosewood or mahogany", "kind": "material", "source": "KNOWN"}
+{"n": 7, "claim": "It is upholstered in red silk damask", "kind": "material", "source": "SEEN"}
+{"n": 8, "claim": "It has brass casters", "kind": "material", "source": "SEEN"}
+{"n": 9, "claim": "The upholstered back rises to a pointed arch", "kind": "depiction", "source": "SEEN"}
+{"n": 10, "claim": "The arch has carved crockets and a fleur-de-lis finial", "kind": "technique", "source": "SEEN"}
+{"n": 11, "claim": "The side posts are ring-turned like bamboo and end in pinnacles", "kind": "technique", "source": "SEEN"}
+{"n": 12, "claim": "Such furniture was made for American Gothic villas and libraries of the 1840s", "kind": "function", "source": "KNOWN"}
+{"n": 13, "claim": "The damask has a pattern of lozenges and medallions", "kind": "depiction", "source": "SEEN"}
+{"n": 14, "claim": "The damask is probably a later replacement", "kind": "material", "source": "KNOWN"}
+{"n": 15, "claim": "The casters allowed the chair to be moved", "kind": "function", "source": "KNOWN"}
+
+=== object-E ===
+View of Yokohama Harbor from a Cutting in the Hills. Japan, Edo period, ca. 1860. Utagawa (Gountei) Sadahide (1807–1879). Woodblock print (nishiki-e); ink and color on paper.
+
+Travelers climb a steep path cut through a hill. Two men walk ahead, and behind them come women and children. Between the cliff walls, which are framed by pines, the land opens onto a harbor full of ships, with a settlement laid out in grid-like rows along the shore. Yokohama was opened to foreign trade in 1859, and Sadahide was one of the most prolific artists to record the new port. Prints like this one sold to people curious about the foreigners and their ships. A red cartouche at the top holds a descriptive inscription, which has not been fully transcribed here. The red cartouche at lower right holds the artist's signature, and seals sit beside it.
+
+{"n": 1, "claim": "The object is a Japanese color woodblock print (nishiki-e)", "kind": "what", "source": "KNOWN"}
+{"n": 2, "claim": "It is ink and color on paper", "kind": "material", "source": "SEEN"}
+{"n": 3, "claim": "It was made in Japan", "kind": "where", "source": "KNOWN"}
+{"n": 4, "claim": "It dates to about 1860, late Edo period", "kind": "when", "source": "KNOWN"}
+{"n": 5, "claim": "The artist is Utagawa (Gountei) Sadahide", "kind": "who", "source": "KNOWN"}
+{"n": 6, "claim": "Sadahide lived 1807–1879", "kind": "who", "source": "KNOWN"}
+{"n": 7, "claim": "Travelers climb a path cut through a hill, framed by cliff walls and pines", "kind": "depiction", "source": "SEEN"}
+{"n": 8, "claim": "Two men walk ahead, and women and children follow behind", "kind": "depiction", "source": "SEEN"}
+{"n": 9, "claim": "A harbor full of ships and a settlement laid out in rows are shown beyond", "kind": "depiction", "source": "SEEN"}
+{"n": 10, "claim": "The harbor shown is Yokohama", "kind": "depiction", "source": "KNOWN"}
+{"n": 11, "claim": "Yokohama was opened to foreign trade in 1859", "kind": "other", "source": "KNOWN"}
+{"n": 12, "claim": "Sadahide was one of the most prolific artists of Yokohama subjects", "kind": "who", "source": "KNOWN"}
+{"n": 13, "claim": "Such prints were sold to a public curious about foreigners", "kind": "function", "source": "KNOWN"}
+{"n": 14, "claim": "A red cartouche at the top contains an inscription", "kind": "other", "source": "SEEN"}
+{"n": 15, "claim": "A red cartouche at lower right contains the artist's signature, with seals beside it", "kind": "other", "source": "SEEN"}
+
+=== object-J ===
+Fragment of a painted vase. Greek, probably Attic, 6th–5th century B.C. Painter unknown. Terracotta with black gloss.
+
+This small sherd, about 2 centimeters long, comes from the wall of a painted pot. On the orange clay surface, a broad band of lustrous black gloss is broken by a thin strip of bare clay. To one side are tapering black strokes that may belong to a figure, a garment or a plant. The fragment is too small to show what the scene was or what shape the vessel had. Fragments like this one are collected and studied because they keep the painter's handling of the brush and the quality of the gloss. Its inventory number, 2011.604.1.2486, is shown on the photograph's label beside a measuring scale and a color target.
+
+{"n": 1, "claim": "The object is a fragment (sherd) of a painted vessel", "kind": "what", "source": "SEEN"}
+{"n": 2, "claim": "It is Greek, probably Attic", "kind": "where", "source": "KNOWN"}
+{"n": 3, "claim": "It dates to the 6th–5th century B.C.", "kind": "when", "source": "KNOWN"}
+{"n": 4, "claim": "The painter cannot be identified", "kind": "who", "source": "KNOWN"}
+{"n": 5, "claim": "It is terracotta decorated with black gloss", "kind": "material", "source": "SEEN"}
+{"n": 6, "claim": "It is about 2 cm long", "kind": "size", "source": "SEEN"}
+{"n": 7, "claim": "It comes from the wall of a pot", "kind": "what", "source": "KNOWN"}
+{"n": 8, "claim": "A broad black band is broken by a thin strip of bare clay", "kind": "depiction", "source": "SEEN"}
+{"n": 9, "claim": "Tapering black strokes may belong to a figure, garment or plant", "kind": "depiction", "source": "SEEN"}
+{"n": 10, "claim": "The scene and the vessel shape cannot be determined", "kind": "other", "source": "SEEN"}
+{"n": 11, "claim": "Such fragments are studied because they keep evidence of brushwork and gloss quality", "kind": "function", "source": "KNOWN"}
+{"n": 12, "claim": "The inventory number 2011.604.1.2486 appears on the photograph's label", "kind": "other", "source": "SEEN"}
+{"n": 13, "claim": "The photograph includes a millimeter scale and a color target", "kind": "other", "source": "SEEN"}
+
+=== object-B ===
+Cylinder seal with animals, serpent and tree, and modern impression. Probably northern Mesopotamia or Syria, Mitanni period, ca. 1500–1300 B.C. Carver unknown. Dark stone, possibly serpentine.
+
+A cylinder seal was rolled across wet clay to mark ownership or to authenticate tablets, jar sealings and door sealings. It was usually pierced lengthwise so that it could be worn on a cord. The modern impression beside it shows the full design. Horned animals, probably goats or gazelles, stand in a row. Among them are a rearing serpent, a long-necked bird, a branching tree and small star-shaped motifs. A plain band runs along the top and bottom. The animals are cut with simple drilled and linear strokes, and that carving is typical of the "common style" seals of the period. No scale was photographed, so the seal's size is not given here.
+
+{"n": 1, "claim": "The object is a cylinder seal shown with an impression of it", "kind": "what", "source": "SEEN"}
+{"n": 2, "claim": "The impression is modern", "kind": "when", "source": "KNOWN"}
+{"n": 3, "claim": "It was probably made in northern Mesopotamia or Syria", "kind": "where", "source": "KNOWN"}
+{"n": 4, "claim": "It dates to the Mitanni period, about 1500–1300 B.C.", "kind": "when", "source": "KNOWN"}
+{"n": 5, "claim": "The carver is unknown", "kind": "who", "source": "KNOWN"}
+{"n": 6, "claim": "It is made of dark stone", "kind": "material", "source": "SEEN"}
+{"n": 7, "claim": "The stone may be serpentine", "kind": "material", "source": "KNOWN"}
+{"n": 8, "claim": "Cylinder seals were rolled on clay to mark ownership and authenticate tablets and sealings", "kind": "function", "source": "KNOWN"}
+{"n": 9, "claim": "Such seals were usually pierced lengthwise to be worn on a cord", "kind": "function", "source": "KNOWN"}
+{"n": 10, "claim": "Horned animals stand in a row", "kind": "depiction", "source": "SEEN"}
+{"n": 11, "claim": "The animals are probably goats or gazelles", "kind": "depiction", "source": "KNOWN"}
+{"n": 12, "claim": "The design includes a rearing serpent, a long-necked bird, a branching tree and star-shaped motifs", "kind": "depiction", "source": "SEEN"}
+{"n": 13, "claim": "A plain band runs along the top and bottom of the design", "kind": "depiction", "source": "SEEN"}
+{"n": 14, "claim": "The carving uses simple drilled and linear strokes", "kind": "technique", "source": "SEEN"}
+{"n": 15, "claim": "This carving is typical of Mitanni 'common style' seals", "kind": "technique", "source": "KNOWN"}
+{"n": 16, "claim": "No scale is in the photograph, so the size cannot be given", "kind": "size", "source": "SEEN"}
