@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 152,
-  "edge_count": 346,
+  "node_count": 153,
+  "edge_count": 348,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -1387,6 +1387,15 @@
       "medium": "The seventh-night position work. The sentence stands; gloss on norm: an order together with the transformations the observer admits of what it is told, the error being the residue (audit of fifteen told arms, experiments 48 to 52). Ends the told series as the project's arrangement after its fifth failure criterion fired unseen (F-378) and fourteen experiments made nothing (F-379).",
       "path": "works/position-2026-11-13.md",
       "authored_not_derived": "tools/pulse_nodes.py derives nodes from works/*/meta.json only; a position paper is a single .md file with no meta.json, so this node is asserted here and preserved by the tool."
+    },
+    {
+      "id": "2026-11-19-heard-on-paper",
+      "kind": "work",
+      "title": "Heard on Paper",
+      "date": "2026-11-19",
+      "author": "Ulysses (the nightly line), Session 181",
+      "medium": "Interactive page: one bird song played under a playhead over its spectrogram, three lines of words in random order (people's, unnamed maker's, named maker's), the house's study frame, then who made each; all ten songs.",
+      "path": "works/2026-11-19-heard-on-paper/"
     }
   ],
   "edges": [
@@ -3466,6 +3475,18 @@
       "to": "position-2026-11-04",
       "kind": "corrects",
       "why": "Level passes only inside the believable; an orderly reversal is absorbed, not refused. The order-and-level gloss becomes an order-and-admissible-moves gloss."
+    },
+    {
+      "from": "2026-11-19-heard-on-paper",
+      "to": "2026-10-05-unheard",
+      "kind": "extends",
+      "why": "Perceiving without a sense by a double; now: what the maker makes from the double when people already made a form."
+    },
+    {
+      "from": "2026-11-19-heard-on-paper",
+      "to": "2026-10-23-the-blank",
+      "kind": "echoes",
+      "why": "The makers' shared vocabulary beside the people's words is a peak of the family's own, as in experiment 37 (S153.OWNPEAK, lapsed tonight)."
     }
   ]
 }

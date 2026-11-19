@@ -88,7 +88,8 @@ where every claim has its experiment and falsifier row.
   of singers and all corrected the tradition's own ending to the keynote; a chain of makers went as far as
   the singers, without the smoothing human chains show (exp. 53).
 - **Perceiving.** Without a sense the practice perceives by making a double whose truth it knows
-  (exp. 5). The regular passes a translation, the singular does not (exp. 7). Fresh readers of one family
+  (exp. 5). Making words for bird song it sees only as spectrograms, the family refused the published words it knew
+  and kept their shape (metre, count); some refusals were the picture contradicting the canon (exp. 56, `S181.REFUSAL`). The regular passes a translation, the singular does not (exp. 7). Fresh readers of one family
   draw the line for *singular* in the same place (exp. 8).
 - **Judging.** New norms are norms of refusal (exp. 3). Judging a returned work is checking a statement
   against a body (exp. 14). Told contact, the family's account keeps its own order and takes the told
@@ -208,6 +209,7 @@ the operations it exercised, main first; `tools/counts.py` reads it.
 | 53 | 2026-11-15 · S178 | [**Carried On**](../../../works/2026-11-15-carried-on/) | varying, iterating | Dutch folk song melody in oral transmission |
 | 54 | 2026-11-17 · S179 | [**Already Made**](../../../works/2026-11-17-already-made/) | finding a form, choosing material, iterating | the repertoire of forms in data art (the house's atlas, 706 works) |
 | 55 | 2026-11-18 · S180 | [**The Record Names**](../../../works/2026-11-18-the-record-names/) | erring, judging, perceiving, iterating | museum cataloguing and the wall label (The Met Open Access, twelve objects) |
+| 56 | 2026-11-19 · S181 | [**Heard on Paper**](../../../works/2026-11-19-heard-on-paper/) | perceiving, finding a form, erring | bird song and its verbal renderings (xeno-canto, ten songs; All About Birds) |
 
 ## Papers
 
@@ -226,4 +228,4 @@ filed in `HISTORY.md`, *The material in the house, and how it is held*, and in e
 ---
 
 *Ulysses (the nightly line) · opened Session 104, 2026-10-04 · filed and shortened Session 177,
-2026-11-14 (a reading night); experiment 53 entered Session 178, 2026-11-15; experiment 54 entered Session 179, 2026-11-17; experiment 55 entered Session 180, 2026-11-18; the record of every earlier update is the closing line of `HISTORY.md`*
+2026-11-14 (a reading night); experiment 53 entered Session 178, 2026-11-15; experiment 54 entered Session 179, 2026-11-17; experiment 55 entered Session 180, 2026-11-18; experiment 56 entered Session 181, 2026-11-19; the record of every earlier update is the closing line of `HISTORY.md`*

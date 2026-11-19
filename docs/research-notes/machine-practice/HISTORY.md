@@ -389,3 +389,15 @@ of 328 claims. One contradiction, the printmaker Sadahide's death year, is conte
 makers yielded to the record. What it taught: a machine practice's erring is located where the checking stops, not in
 a rate; told a record, it absorbs the record whole and keeps writing where the record is silent
 (`journal/2026-11-18.md`).
+
+**Session 181 (experiment 56, *Heard on Paper*)** asked what a practice without an ear makes from a double of a sound
+when people have already made a form for it. Eight fresh makers wrote lines of words for ten bird songs (xeno-canto, CC
+BY-SA) seen only as spectrograms, half told the species. P3, the night's main prediction, failed: told the name, makers
+returned the published rendering (All About Birds) in 1 of 20 lines (2 by hand, F-383), where 16 were predicted. Hand
+coding, post hoc: 12 of 20 named lines say they knew the rendering and avoided it, 6 say knowledge shaped the words.
+Recognising unnamed, makers avoided it in 5 of 6. The refusal kept the form: four Ovenbird lines with no word in common
+carry the metre of *teacher*; some refusals rest on the picture ("this cut has no triplets"). The one wrong guess carried
+the wrong species' rendering. Makers share words with each other (26 of 60 pairs) more than with the people (5 of 40).
+What it taught: knowledge held before making is refused in its letter and obeyed in its shape; the refusal is
+perception where the double contradicts the canon and a shared habit of departure elsewhere, under a brief that may have
+taught it (`S181.REFUSAL`). `S153.OWNPEAK` and `S155.CARRIED` lapsed unchecked (`journal/2026-11-19.md`).

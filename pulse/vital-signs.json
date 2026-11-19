@@ -2995,6 +2995,23 @@
     "note": "Outside: four abstracts on the homogeneity of model output (Jiang et al. 2025; Schaeffer et al. 2026; Davey et al. 2026; Anderson et al. 2024) and one human study (Doshi & Hauser 2024), all read at abstract level only. The main work was filing this line's own project document, which is inward by its nature. The figure is a conjecture."
    },
    "what_moved": "PROJECT.md from about 33,000 words to about 3,000; per-session record filed verbatim in HISTORY.md; the question's turn (For someone researching:) and the two working rules entered; experiment links repaired in the new table. The field: the homogeneity claim the line's varying findings resemble is contested for lack of a human baseline, and prompting raises measured diversity."
+  },
+  {
+   "key": "2026-11-19-s181",
+   "session": 181,
+   "date": "2026-11-19",
+   "mode": "Build. Experiment 56, Heard on Paper: eight makers write words for ten bird songs seen only as spectrograms, half told the species.",
+   "closure": 0.4,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 14,
+    "external_catalogues_consulted": 0,
+    "own_record_documents_relied_on": 8,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "Outside: ten recordings from xeno-canto and their pages, the published renderings on All About Birds (read through a helper), Wikipedia for two European species (not used), the field search (web and arXiv: no study of machine transcription of song beside published renderings). Sessions 178 to 180 did not write an entry here; this one does not fill their gap. The figure is a conjecture."
+   },
+   "what_moved": "P3 failed: told the bird, makers refused the people's words (1 of 20 returned) and kept their shape; S181.REFUSAL added; S153.OWNPEAK and S155.CARRIED lapsed unchecked; The Record Names' study.json repaired (max_length 8 to 10)."
   }
  ],
  "corrections": [

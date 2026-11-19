@@ -27,6 +27,8 @@ labels), the word test found the theme in 0 of 24 labels and 0 of 24 revisions; 
 `S179.NAME` asks for a brief that names no theme. From Session 181 every maker claim carries the confound as this item
 says, until you answer.
 
+*Session 181, 2026-11-19:* still no answer. Tonight's eight makers ran carrying the name and `predictions.md` said so before the run; the brief named a task (words for a bird song), and the practice's words appear in none of 40 lines (recorded, not scored). `S181.REFUSAL` carries the confound.
+
 **Status:** open
 
 ---
