@@ -1,0 +1,92 @@
+[
+ {
+  "key": "a",
+  "url": "https://xeno-canto.org/81298/download",
+  "page": "https://xeno-canto.org/81298",
+  "bytes": 395692,
+  "sha256": "1802610671e962b53e8b2adb8b050c120719789208183eb43ce19c5a98bce1f8",
+  "licence": "CC BY-SA 3.0",
+  "recordist": "Jonathon Jongsma"
+ },
+ {
+  "key": "b",
+  "url": "https://xeno-canto.org/715195/download",
+  "page": "https://xeno-canto.org/715195",
+  "bytes": 1163207,
+  "sha256": "4ab529dffdc00478ae63d05b50de28bd2a89e5b292a26143a57fba50bc7ffeee",
+  "licence": "CC BY-SA 4.0",
+  "recordist": "Doug Hynes"
+ },
+ {
+  "key": "c",
+  "url": "https://xeno-canto.org/993033/download",
+  "page": "https://xeno-canto.org/993033",
+  "bytes": 8959924,
+  "sha256": "805f736a6012a05b25637cfde2f47c3c487147ee82150ff4d0a8dfc91146ff42",
+  "licence": "CC BY-SA 4.0",
+  "recordist": "Doug Hynes"
+ },
+ {
+  "key": "d",
+  "url": "https://xeno-canto.org/77882/download",
+  "page": "https://xeno-canto.org/77882",
+  "bytes": 948430,
+  "sha256": "2ca36f3e488f82b19fa3e1cb2eda2014c11fba23eb207fca64f292cf7587fb35",
+  "licence": "CC BY-SA 3.0",
+  "recordist": "Jonathon Jongsma"
+ },
+ {
+  "key": "e",
+  "url": "https://xeno-canto.org/101584/download",
+  "page": "https://xeno-canto.org/101584",
+  "bytes": 1536236,
+  "sha256": "b43b761ea5048f9438872a11ce1335214449195f1c8c734c8b8074b48c0d8e30",
+  "licence": "CC BY-SA 3.0",
+  "recordist": "Jonathon Jongsma"
+ },
+ {
+  "key": "f",
+  "url": "https://xeno-canto.org/70185/download",
+  "page": "https://xeno-canto.org/70185",
+  "bytes": 759585,
+  "sha256": "71f47d2c6ae503151a06af5e6bcf242b0235c19f1cc35d0a15d392b7f320e38f",
+  "licence": "CC BY-SA 3.0",
+  "recordist": "Jonathon Jongsma"
+ },
+ {
+  "key": "g",
+  "url": "https://xeno-canto.org/139577/download",
+  "page": "https://xeno-canto.org/139577",
+  "bytes": 6475691,
+  "sha256": "e993d8d9f968d2d7979c4d3368bf17e03c9fe875196ce4ed638f1b14d3f93e48",
+  "licence": "CC BY-SA 3.0",
+  "recordist": "Jonathon Jongsma"
+ },
+ {
+  "key": "h",
+  "url": "https://xeno-canto.org/81302/download",
+  "page": "https://xeno-canto.org/81302",
+  "bytes": 726672,
+  "sha256": "8fbc937d030a0d809a21704e6413a414877296285337297d6670b9425c66edde",
+  "licence": "CC BY-SA 3.0",
+  "recordist": "Jonathon Jongsma"
+ },
+ {
+  "key": "i",
+  "url": "https://xeno-canto.org/75501/download",
+  "page": "https://xeno-canto.org/75501",
+  "bytes": 569015,
+  "sha256": "3fda8bc458a734466cf7fa682bda887ad7518816faea4ef2df05f1feef59580b",
+  "licence": "CC BY-SA 3.0",
+  "recordist": "Jonathon Jongsma"
+ },
+ {
+  "key": "j",
+  "url": "https://xeno-canto.org/799650/download",
+  "page": "https://xeno-canto.org/799650",
+  "bytes": 2463306,
+  "sha256": "311f3321c3d0cecb4d9907cc5cea6b57e753fbb53ca64c5fc54536b501fef18d",
+  "licence": "CC BY-SA 4.0",
+  "recordist": "steve (xeno-canto user)"
+ }
+]
