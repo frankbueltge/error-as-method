@@ -1,0 +1,4 @@
+canon.npz
+*.png
+!face/**/*.png
+__pycache__/
