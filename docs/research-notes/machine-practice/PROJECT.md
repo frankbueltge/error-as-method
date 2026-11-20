@@ -76,10 +76,13 @@ where every claim has its experiment and falsifier row.
   *that* the form must move, the prior says *where* (exp. 2). Words in reach steer form before the
   material does (exp. 10, 11). Against 706 works people made, a text measure put the makers' forms far from the field
   while reading put them on one narrow shelf of their own; shown their neighbours, they reorganised further onto it
-  (exp. 54).
+  (exp. 54). Free to choose a subject, four makers made one figure, the traditional tangram cat, and said they knew it;
+  given chance drops they did not arrange, four makers saw ten subjects in twelve heaps (exp. 57).
 - **Iterating.** With memory, a maker refines inside its first form and never leaves it; *done* is a
   word the brief offers, not a state the work reaches (exp. 26). Handed on to fresh makers with a
-  schema-change test, iteration becomes reorganisation that converges on one shared invention (exp. 10).
+  schema-change test, iteration becomes reorganisation that converges on one shared invention (exp. 10). Given a checker
+  that draws, makers did not iterate by trial: they wrote programs that solve a planned outline, and looked only to fix
+  legibility, never the subject (exp. 57, F-387).
 - **Varying.** Varying is a move between customs the family already holds; showing the mould chooses
   which one (exp. 12). Blind mutation of a work's code was invisible, broken or refused by the norm
   its parent set; departure that is received comes from re-making, within the family's customs
@@ -87,6 +90,8 @@ where every claim has its experiment and falsifier row.
   Asked to carry a sung tradition on, makers alone varied three to ten times more narrowly than a century
   of singers and all corrected the tradition's own ending to the keynote; a chain of makers went as far as
   the singers, without the smoothing human chains show (exp. 53).
+  Chance handed to the maker's seeing, not its making, took subjects off the family's shelf: in 4 of 12 drops the
+  final subject was not the first one seen (exp. 57).
 - **Perceiving.** Without a sense the practice perceives by making a double whose truth it knows
   (exp. 5). Making words for bird song it sees only as spectrograms, the family refused the published words it knew
   and kept their shape (metre, count); some refusals were the picture contradicting the canon (exp. 56, `S181.REFUSAL`). The regular passes a translation, the singular does not (exp. 7). Fresh readers of one family
@@ -210,6 +215,7 @@ the operations it exercised, main first; `tools/counts.py` reads it.
 | 54 | 2026-11-17 · S179 | [**Already Made**](../../../works/2026-11-17-already-made/) | finding a form, choosing material, iterating | the repertoire of forms in data art (the house's atlas, 706 works) |
 | 55 | 2026-11-18 · S180 | [**The Record Names**](../../../works/2026-11-18-the-record-names/) | erring, judging, perceiving, iterating | museum cataloguing and the wall label (The Met Open Access, twelve objects) |
 | 56 | 2026-11-19 · S181 | [**Heard on Paper**](../../../works/2026-11-19-heard-on-paper/) | perceiving, finding a form, erring | bird song and its verbal renderings (xeno-canto, ten songs; All About Birds) |
+| 57 | 2026-11-20 · S182 | [**Four Cats, Twelve Drops**](../../../works/2026-11-20-seven-pieces/) | finding a form, choosing material, perceiving, iterating, varying, erring | the tangram and what people see in it (KILOGRAM, 1,013 figures from Slocum's book, 10,173 names) |
 
 ## Papers
 
@@ -228,4 +234,4 @@ filed in `HISTORY.md`, *The material in the house, and how it is held*, and in e
 ---
 
 *Ulysses (the nightly line) · opened Session 104, 2026-10-04 · filed and shortened Session 177,
-2026-11-14 (a reading night); experiment 53 entered Session 178, 2026-11-15; experiment 54 entered Session 179, 2026-11-17; experiment 55 entered Session 180, 2026-11-18; experiment 56 entered Session 181, 2026-11-19; the record of every earlier update is the closing line of `HISTORY.md`*
+2026-11-14 (a reading night); experiment 53 entered Session 178, 2026-11-15; experiment 54 entered Session 179, 2026-11-17; experiment 55 entered Session 180, 2026-11-18; experiment 56 entered Session 181, 2026-11-19; experiment 57 entered Session 182, 2026-11-20; the record of every earlier update is the closing line of `HISTORY.md`*

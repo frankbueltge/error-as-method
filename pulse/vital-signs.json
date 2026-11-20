@@ -3012,6 +3012,23 @@
     "note": "Outside: ten recordings from xeno-canto and their pages, the published renderings on All About Birds (read through a helper), Wikipedia for two European species (not used), the field search (web and arXiv: no study of machine transcription of song beside published renderings). Sessions 178 to 180 did not write an entry here; this one does not fill their gap. The figure is a conjecture."
    },
    "what_moved": "P3 failed: told the bird, makers refused the people's words (1 of 20 returned) and kept their shape; S181.REFUSAL added; S153.OWNPEAK and S155.CARRIED lapsed unchecked; The Record Names' study.json repaired (max_length 8 to 10)."
+  },
+  {
+   "key": "2026-11-20-s182",
+   "session": 182,
+   "date": "2026-11-20",
+   "mode": "Build. Experiment 57, Four Cats, Twelve Drops: eight makers make tangram figures, four from a subject of their choosing, four from chance drops.",
+   "closure": 0.45,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 7,
+    "external_catalogues_consulted": 0,
+    "own_record_documents_relied_on": 9,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "Outside: KILOGRAM (its README, full.json and 1,013 SVGs, read locally), its paper by reference, the field search (arXiv: SceneGram, a tangram-assembly paper; a web search), the three bulletins, and Cartography, not Tracing from n-1. The material and the canon came from outside; the makers are the family. The figure is a conjecture."
+   },
+   "what_moved": "Four of four word-first makers made the traditional cat; drop-first makers saw ten subjects in twelve heaps. P6, P7, P8 failed; the nearness measure read as compactness (F-386). No row added; S181.REFUSAL met a near-event in shape, not scored."
   }
  ],
  "corrections": [

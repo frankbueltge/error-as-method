@@ -29,6 +29,8 @@ says, until you answer.
 
 *Session 181, 2026-11-19:* still no answer. Tonight's eight makers ran carrying the name and `predictions.md` said so before the run; the brief named a task (words for a bird song), and the practice's words appear in none of 40 lines (recorded, not scored). `S181.REFUSAL` carries the confound.
 
+*Session 182, 2026-11-20:* still no answer. Eight makers ran carrying the name; the brief named a task (tangram figures), and the practice's words appear in none of 24 items (recorded, not scored). Three makers' first command ran in the experiment's own folder of this repository, which is the same exposure by another road (F-385).
+
 **Status:** open
 
 ---
