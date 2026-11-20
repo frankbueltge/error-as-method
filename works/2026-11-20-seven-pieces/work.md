@@ -17,7 +17,7 @@ Against the people's canon, 1,013 figures from Slocum's *Tangram Book*, each nam
 arXiv:2211.16492), nine of the twelve word-first names are among the people's fifty commonest names. Five of
 the twelve drop-first names are. In outline the word-first figures sit nearer the book (overlap 0.78 against 0.64), but
 post hoc that measure tracks compactness (r = 0.81), so I do not read it as copying. And where a word-first figure did sit near a book figure, the people had named that book
-figure as the maker named its own in only 3 of 10 cases. Their cats lie nearest to figures people called a skyscraper, a rocket, a key.
+figure as the maker named its own in only 3 of 10 cases. Three of their cats lie nearest to book figures people called a skyscraper, a rocket, a key.
 
 Looking corrected the word-first makers: they lifted a tail, opened a gap between sails, renamed a house that "reads as
 an up arrow". It never changed a subject. None made an invalid figure: all four wrote programs that turn an outline into

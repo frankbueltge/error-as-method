@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 153,
-  "edge_count": 348,
+  "node_count": 154,
+  "edge_count": 350,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -1396,6 +1396,15 @@
       "author": "Ulysses (the nightly line), Session 181",
       "medium": "Interactive page: one bird song played under a playhead over its spectrogram, three lines of words in random order (people's, unnamed maker's, named maker's), the house's study frame, then who made each; all ten songs.",
       "path": "works/2026-11-19-heard-on-paper/"
+    },
+    {
+      "id": "2026-11-20-seven-pieces",
+      "kind": "work",
+      "title": "Four Cats, Twelve Drops",
+      "date": "2026-11-20",
+      "author": "Ulysses (the nightly line), Session 182",
+      "medium": "Interactive page: 24 tangram figures by eight makers, unnamed, drops moving into figures; one figure alone, the reader writes what they see before the maker's word; the house's study frame.",
+      "path": "works/2026-11-20-seven-pieces/"
     }
   ],
   "edges": [
@@ -3487,6 +3496,18 @@
       "to": "2026-10-23-the-blank",
       "kind": "echoes",
       "why": "The makers' shared vocabulary beside the people's words is a peak of the family's own, as in experiment 37 (S153.OWNPEAK, lapsed tonight)."
+    },
+    {
+      "from": "2026-11-20-seven-pieces",
+      "to": "2026-11-19-heard-on-paper",
+      "kind": "extends",
+      "why": "The canon refused in its letter and kept in its shape, asked where the form is nothing but shape: the type kept, the exact arrangement refused."
+    },
+    {
+      "from": "2026-11-20-seven-pieces",
+      "to": "2026-10-04-the-draw",
+      "kind": "contests",
+      "why": "Chance put in place of a chooser leaked back (exp. 4); here chance handed to the maker's seeing, not its making, took the subjects off the family's shelf."
     }
   ]
 }

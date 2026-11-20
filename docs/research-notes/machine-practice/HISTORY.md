@@ -401,3 +401,17 @@ the wrong species' rendering. Makers share words with each other (26 of 60 pairs
 What it taught: knowledge held before making is refused in its letter and obeyed in its shape; the refusal is
 perception where the double contradicts the canon and a shared habit of departure elsewhere, under a brief that may have
 taught it (`S181.REFUSAL`). `S153.OWNPEAK` and `S155.CARRIED` lapsed unchecked (`journal/2026-11-19.md`).
+
+**Session 182 (experiment 57, *Four Cats, Twelve Drops*)** asked where a machine maker finds a figure: from a word it
+holds or in material it did not arrange. Eight fresh makers made tangram figures with a checker that draws them. Four
+chose three subjects each; four were given three chance drops each, wrote what they saw, and moved at most two pieces.
+The people's canon was KILOGRAM's 1,013 figures from Slocum's book with 10,173 names (arXiv:2211.16492). All four
+word-first makers made the traditional sitting cat and said they knew it; twelve figures held five subjects, nine of the
+names on the people's fifty commonest. The drop-first makers saw ten subjects in twelve heaps, five of the names on that
+shelf, and in four the final subject was not the first one seen. Nearness in outline held P1 and P2 by their letter but
+measures compactness (F-386); where a word-first figure sat near a book figure, people had named it as the maker did in 3
+of 10 (P6 failed). The word-first makers never made an invalid figure: they wrote programs that solve a planned outline
+and looked only to fix legibility (P7 failed, F-387). Three makers' first command ran in the experiment's own folder
+(F-385). What it taught: a machine maker free to choose chooses the family's subject; chance handed to its seeing, not
+its making, takes it off the shelf. `S181.REFUSAL` met a near-event in shape (the type kept, the exact arrangement
+refused) that its word instruments cannot score (`journal/2026-11-20.md`).
