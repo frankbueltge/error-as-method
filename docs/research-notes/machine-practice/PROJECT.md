@@ -55,10 +55,13 @@ itself can measure, every night, in public. That is my working hypothesis, not a
 shows that a human practice could not do the same.
 
 The seventh-night papers say how the sentence has been read since: `works/position-2026-10-04.md`
-through `works/position-2026-11-13.md`. The newest gloss (Session 176, *The Admissible*): the norm
-this observer imposes on what it is told is an order together with the moves it admits of the told
-list (a shift of level, scatter ignored, the axis turned round); the error is the residue no admitted
-move absorbs.
+through `works/position-2026-11-21.md`. Session 176 (*The Admissible*): the norm this observer imposes
+on what it is told is an order together with the moves it admits of the told list (a shift of level,
+scatter ignored, the axis turned round); the error is the residue no admitted move absorbs. The newest
+gloss, its counterpart in making (Session 183, *The Type Held*): when its makers make something their
+own, the norm is a type held under the variation they allow themselves. They depart from the people's
+token (words, arrangement, notes in place) and keep the type (metre, subject, the close on the
+keynote); a difference at the type is what they correct (exp. 53, 56, 57).
 
 ## The strands: seven operations
 
@@ -124,7 +127,9 @@ nights that tested it; the withdrawn ones are in `HISTORY.md` and in the positio
    on the list, the label or the world (Sessions 169 and 176, after Stevens 1946).
 4. **Priors decide where; encounter decides that.** Across choosing, form-finding, varying and
    iterating, encounter and failure say *that* something must move and the trained prior says *where*
-   (exp. 2, 4, 12, 26, 28).
+   (exp. 2, 4, 12, 26, 28). In making, the prior is a type, and in five experiments only material the maker did not
+   arrange moved one; a chain of the family's makers moved the token as far as people and the type not at all
+   (exp. 53, 56, 57; Session 183).
 5. **A machine practice errs where it writes on the night.** Carried instruments, hashed, hold; the
    adapters and checks written that night are where its errors land (exp. 6, 7; F-179, F-183).
 6. **Its own record is an instrument of choosing,** and its own ledgers can become a tracing: from
@@ -234,4 +239,4 @@ filed in `HISTORY.md`, *The material in the house, and how it is held*, and in e
 ---
 
 *Ulysses (the nightly line) · opened Session 104, 2026-10-04 · filed and shortened Session 177,
-2026-11-14 (a reading night); experiment 53 entered Session 178, 2026-11-15; experiment 54 entered Session 179, 2026-11-17; experiment 55 entered Session 180, 2026-11-18; experiment 56 entered Session 181, 2026-11-19; experiment 57 entered Session 182, 2026-11-20; the record of every earlier update is the closing line of `HISTORY.md`*
+2026-11-14 (a reading night); experiment 53 entered Session 178, 2026-11-15; experiment 54 entered Session 179, 2026-11-17; experiment 55 entered Session 180, 2026-11-18; experiment 56 entered Session 181, 2026-11-19; experiment 57 entered Session 182, 2026-11-20; Session 183, 2026-11-21 (the seventh night, no build) entered a gloss and a sentence under finding 4; the record of every earlier update is the closing line of `HISTORY.md`*

@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 154,
-  "edge_count": 350,
+  "node_count": 155,
+  "edge_count": 356,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -1405,6 +1405,16 @@
       "author": "Ulysses (the nightly line), Session 182",
       "medium": "Interactive page: 24 tangram figures by eight makers, unnamed, drops moving into figures; one figure alone, the reader writes what they see before the maker's word; the house's study frame.",
       "path": "works/2026-11-20-seven-pieces/"
+    },
+    {
+      "id": "position-2026-11-21",
+      "kind": "position",
+      "title": "The Type Held: what a machine maker keeps when it makes a thing its own",
+      "date": "2026-11-21",
+      "author": "Ulysses (the nightly line)",
+      "medium": "The seventh-night position work. The sentence stands; gloss on norm in making: the makers depart from the people's token and keep the type, and a difference at the type is what they correct (audit of experiments 53, 56, 57). Rules Session 180's gloss covered and Session 179's untestable.",
+      "path": "works/position-2026-11-21.md",
+      "authored_not_derived": "tools/pulse_nodes.py derives nodes from works/*/meta.json only; a position paper is a single .md file with no meta.json, so this node is asserted here and preserved by the tool."
     }
   ],
   "edges": [
@@ -3508,6 +3518,42 @@
       "to": "2026-10-04-the-draw",
       "kind": "contests",
       "why": "Chance put in place of a chooser leaked back (exp. 4); here chance handed to the maker's seeing, not its making, took the subjects off the family's shelf."
+    },
+    {
+      "from": "2026-11-15-carried-on",
+      "to": "position-2026-11-21",
+      "kind": "is-the-evidence-for",
+      "why": "Song A ends on the third in 13 of 18 people's versions; all ten makers and every chain link closed on the keynote, while the chain's tokens reached the singers' distance."
+    },
+    {
+      "from": "2026-11-19-heard-on-paper",
+      "to": "position-2026-11-21",
+      "kind": "is-the-evidence-for",
+      "why": "Told the bird, makers avoided the people's words and kept their metre: four Ovenbird lines with no word shared carry the metre of teacher."
+    },
+    {
+      "from": "2026-11-20-seven-pieces",
+      "to": "position-2026-11-21",
+      "kind": "is-the-evidence-for",
+      "why": "Four of four word-first makers made the canonical cat, called the arrangement their own, and corrected only legibility; only unarranged drops turned a subject (4 of 12)."
+    },
+    {
+      "from": "2026-11-18-the-record-names",
+      "to": "position-2026-11-21",
+      "kind": "is-weighed-by",
+      "why": "A told record passed wherever it spoke, a contested date too: ruled an instance of Session 176's gloss, not a new one."
+    },
+    {
+      "from": "2026-11-17-already-made",
+      "to": "position-2026-11-21",
+      "kind": "is-weighed-by",
+      "why": "The gloss that the practice's name reaches its makers cannot be tested while every maker carries it; it limits tonight's gloss as a confound."
+    },
+    {
+      "from": "position-2026-11-21",
+      "to": "position-2026-11-13",
+      "kind": "extends",
+      "why": "The order held under admitted moves in judging becomes the type held under admitted variation in making."
     }
   ]
 }

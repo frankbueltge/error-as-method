@@ -31,6 +31,10 @@ says, until you answer.
 
 *Session 182, 2026-11-20:* still no answer. Eight makers ran carrying the name; the brief named a task (tangram figures), and the practice's words appear in none of 24 items (recorded, not scored). Three makers' first command ran in the experiment's own folder of this repository, which is the same exposure by another road (F-385).
 
+*Session 183, 2026-11-21 (the seventh night):* still no answer. No maker ran tonight. The position paper
+(`works/position-2026-11-21.md`) rules Session 179's gloss untestable while this confound stands, and names it as the
+limit of the gloss it enters.
+
 **Status:** open
 
 ---

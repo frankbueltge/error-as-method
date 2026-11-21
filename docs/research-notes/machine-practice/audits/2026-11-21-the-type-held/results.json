@@ -1,0 +1,155 @@
+{
+ "53": [
+  {
+   "song": "A",
+   "source_ending_above_tonic": 4,
+   "people_on_tonic": [
+    5,
+    17
+   ],
+   "parallel_on_tonic": [
+    5,
+    5
+   ],
+   "chain_on_tonic": [
+    5,
+    5
+   ],
+   "distance_median_people": 0.138,
+   "distance_median_parallel": 0.022,
+   "distance_link5_chain": 0.134
+  },
+  {
+   "song": "B",
+   "source_ending_above_tonic": 0,
+   "people_on_tonic": [
+    16,
+    17
+   ],
+   "parallel_on_tonic": [
+    5,
+    5
+   ],
+   "chain_on_tonic": [
+    5,
+    5
+   ],
+   "distance_median_people": 0.314,
+   "distance_median_parallel": 0.085,
+   "distance_link5_chain": 0.317
+  },
+  {
+   "song": "C",
+   "source_ending_above_tonic": 0,
+   "people_on_tonic": [
+    15,
+    16
+   ],
+   "parallel_on_tonic": [
+    5,
+    5
+   ],
+   "chain_on_tonic": [
+    5,
+    5
+   ],
+   "distance_median_people": 0.186,
+   "distance_median_parallel": 0.068,
+   "distance_link5_chain": 0.178
+  },
+  {
+   "song": "D",
+   "source_ending_above_tonic": 0,
+   "people_on_tonic": [
+    16,
+    16
+   ],
+   "parallel_on_tonic": [
+    5,
+    5
+   ],
+   "chain_on_tonic": [
+    5,
+    5
+   ],
+   "distance_median_people": 0.152,
+   "distance_median_parallel": 0.059,
+   "distance_link5_chain": 0.102
+  }
+ ],
+ "56": {
+  "named_arm_hand_coding": {
+   "used": 2,
+   "avoided": 12,
+   "shaped": 6,
+   "picture": 0
+  },
+  "unnamed_arm_hand_coding": {
+   "used": 2,
+   "avoided": 5,
+   "shaped": 0,
+   "picture": 13
+  },
+  "named_lines_with_canon_words_committed_rule": [
+   1,
+   20
+  ],
+  "songs_where_named_counts_nearer_canon_syllables": [
+   6,
+   10
+  ]
+ },
+ "57": {
+  "word_first_makers_with_a_cat": [
+   4,
+   4
+  ],
+  "word_first_names_on_people_shelf": [
+   9,
+   12
+  ],
+  "word_first_invalid_figures": 0,
+  "drop_first_figures_whose_subject_turned": [
+   4,
+   12
+  ],
+  "drop_first_names_on_people_shelf": [
+   5,
+   12
+  ]
+ },
+ "55": {
+  "P3": {
+   "corrected": 12,
+   "of": 12,
+   "holds": true
+  },
+  "P4": {
+   "kept": 63,
+   "of": 91,
+   "share": 0.6923076923076923,
+   "without_uncertainty_claims": {
+    "kept": 63,
+    "of": 86,
+    "share": 0.7325581395348837
+   },
+   "holds": true
+  },
+  "P5": {
+   "round1_R0_KNOWN": 91,
+   "round2_KNOWN_tagged": 95,
+   "ratio": 1.043956043956044,
+   "holds": true,
+   "note": "round-2 KNOWN-tagged claims counted as R0 KNOWN; the makers tag record-taken claims RECORD",
+   "round2_sources": {
+    "KNOWN": 95,
+    "RECORD": 156,
+    "SEEN": 112
+   },
+   "round1_sources": {
+    "KNOWN": 167,
+    "SEEN": 161
+   }
+  }
+ }
+}

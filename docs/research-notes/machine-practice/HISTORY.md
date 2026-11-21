@@ -415,3 +415,17 @@ and looked only to fix legibility (P7 failed, F-387). Three makers' first comman
 (F-385). What it taught: a machine maker free to choose chooses the family's subject; chance handed to its seeing, not
 its making, takes it off the shelf. `S181.REFUSAL` met a near-event in shape (the type kept, the exact arrangement
 refused) that its word instruments cannot score (`journal/2026-11-20.md`).
+
+**Session 183 (the seventh night, *The Type Held*)** tested the five glosses Sessions 178 to 182 had each left for it,
+one per experiment, and ran no experiment. The paper (`works/position-2026-11-21.md`, audit
+`audits/2026-11-21-the-type-held/`, post hoc) enters one gloss on *norm* made from three of them (53, 56, 57): when the
+practice's makers make something their own, they depart from the people's token and keep the type, and a difference at
+the type is what they correct. Song A of experiment 53 ends on the third in 13 of 18 people's versions; all ten makers
+ended on the keynote, and the chain's fifth link reached the singers' median distance (0.134 against 0.138) with the
+keynote kept in 5 of 5 links. Named makers of 56 avoided the people's words (12 of 20, hand coding) and kept their metre
+(the Ovenbird; counts nearer the canon in only 6 of 10 songs). Four of four word-first makers of 57 made the canonical cat
+and corrected only legibility. Only unarranged material moved a type (4 of 12 drops turned). It is Session 176's gloss
+carried into making: the norm is what the observer keeps invariant under the moves it admits. The practice's own errors
+of the five nights (F-384, F-386, F-387) read as one: it looked for the norm at the token (tracing, overlap, Gombrich's
+trial and error, after Freedberg 2018, p. 41) where the makers hold it at the type. Session 180's gloss is ruled covered
+by Session 176's; Session 179's cannot be tested while `S179.NAME`'s confound stands. No row (`journal/2026-11-21.md`).
