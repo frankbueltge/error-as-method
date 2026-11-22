@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 155,
-  "edge_count": 356,
+  "node_count": 159,
+  "edge_count": 360,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -1389,12 +1389,39 @@
       "authored_not_derived": "tools/pulse_nodes.py derives nodes from works/*/meta.json only; a position paper is a single .md file with no meta.json, so this node is asserted here and preserved by the tool."
     },
     {
+      "id": "2026-11-15-carried-on",
+      "kind": "work",
+      "title": "Carried On",
+      "date": "2026-11-15",
+      "author": "Ulysses (the nightly line), Session 178",
+      "medium": "Interactive page (index.html, plain DOM, SVG and Web Audio built in the browser, no library): a song and one version of it drawn at random and played, two questions handed to the house's study frame, then a map of every version of four Dutch folk songs by distance from the song, each mark playable as sound and shown as a piano roll against the song. A figure (figure.svg); Python for preparation, briefs, scoring, post hoc measure and figure; ten makers' hand-backs; predictions committed before any maker ran.",
+      "path": "works/2026-11-15-carried-on/"
+    },
+    {
+      "id": "2026-11-17-already-made",
+      "kind": "work",
+      "title": "Already Made",
+      "date": "2026-11-17",
+      "author": "Ulysses (the nightly line), Session 179",
+      "medium": "Interactive page (index.html, plain DOM and SVG, no library): one description of a work of data art drawn blind (a work people made, read live from the house's atlas, or a machine maker's first or revised proposal), three questions handed to the house's study frame, then a map of 706 atlas works with 24 proposals and their revisions, and every proposal before and after. A figure (figure.svg); Python for the shelf baseline, neighbour search, scoring, post hoc check and figure; eight makers' hand-backs in two rounds; predictions committed before any maker ran.",
+      "path": "works/2026-11-17-already-made/"
+    },
+    {
+      "id": "2026-11-18-the-record-names",
+      "kind": "work",
+      "title": "The Record Names",
+      "date": "2026-11-18",
+      "author": "Ulysses (the nightly line), Session 180",
+      "medium": "Interactive page (index.html, plain DOM, no library): one museum object and one machine-written wall label drawn at random, two questions handed to the house's study frame, then the museum's record laid beside the label claim by claim and the same maker's revision; bars of what the record could and could not check; all twelve objects with both makers' labels before and after. A figure (figure.svg); Python for the draw, the parsing, the scoring and the figure; six makers' hand-backs in two rounds with their tool logs; predictions and coding rules committed before any maker ran.",
+      "path": "works/2026-11-18-the-record-names/"
+    },
+    {
       "id": "2026-11-19-heard-on-paper",
       "kind": "work",
       "title": "Heard on Paper",
       "date": "2026-11-19",
       "author": "Ulysses (the nightly line), Session 181",
-      "medium": "Interactive page: one bird song played under a playhead over its spectrogram, three lines of words in random order (people's, unnamed maker's, named maker's), the house's study frame, then who made each; all ten songs.",
+      "medium": "Interactive page (index.html, plain DOM and the browser's audio element, no library): one bird song drawn at random and played with a playhead over its spectrogram, three lines of words for it in random order, two questions handed to the house's study frame, then who made each line and what each maker said about where its words came from; all ten songs with every line, playable. Ten audio clips and twenty spectrograms cut from CC BY-SA recordings by fixed rules; a figure (figure.svg); Python for the cut, the pictures, the scoring and the post-hoc readings; eight makers' hand-backs; predictions and coding rules committed before any maker ran.",
       "path": "works/2026-11-19-heard-on-paper/"
     },
     {
@@ -1403,7 +1430,7 @@
       "title": "Four Cats, Twelve Drops",
       "date": "2026-11-20",
       "author": "Ulysses (the nightly line), Session 182",
-      "medium": "Interactive page: 24 tangram figures by eight makers, unnamed, drops moving into figures; one figure alone, the reader writes what they see before the maker's word; the house's study frame.",
+      "medium": "Interactive page (index.html, plain DOM and inline SVG, no library): the 24 figures eight machine makers made from the seven tangram pieces, unnamed, the drop-first ones moving from their chance drop into the figure; one figure alone, the reader writes what they see before the maker's word, its first sighting, its account and the people's names for the nearest book figure are shown, a question handed to the house's study frame; a strip of nearness to the people's canon against two reference bands; the predictions. A figure (figure.svg); Python for the pieces, the drops, the canon measure, the scoring and the post-hoc readings; eight makers' hand-backs with their check logs and the programs they wrote; predictions committed before any maker ran.",
       "path": "works/2026-11-20-seven-pieces/"
     },
     {
@@ -1415,6 +1442,15 @@
       "medium": "The seventh-night position work. The sentence stands; gloss on norm in making: the makers depart from the people's token and keep the type, and a difference at the type is what they correct (audit of experiments 53, 56, 57). Rules Session 180's gloss covered and Session 179's untestable.",
       "path": "works/position-2026-11-21.md",
       "authored_not_derived": "tools/pulse_nodes.py derives nodes from works/*/meta.json only; a position paper is a single .md file with no meta.json, so this node is asserted here and preserved by the tool."
+    },
+    {
+      "id": "2026-11-22-bedsheet",
+      "kind": "work",
+      "title": "Bedsheet",
+      "date": "2026-11-22",
+      "author": "Ulysses (the nightly line), Session 184",
+      "medium": "Interactive page (index.html, plain DOM, no library): a wall of 66 flags, the fifty US state flags and sixteen made by eight machine makers, mixed; the reader picks the machine's, then sorts them into the people's two kinds and the makers' two arms; the four makers' own words on what they saw in the fifty; one maker flag alone with two questions handed to the house's study frame; the predictions and their results. A figure (figure.svg). Node and Python for rendering, raster measures, coding and scoring; every version of every flag with the makers' notes in makings/.",
+      "path": "works/2026-11-22-bedsheet/"
     }
   ],
   "edges": [
@@ -3554,6 +3590,30 @@
       "to": "position-2026-11-13",
       "kind": "extends",
       "why": "The order held under admitted moves in judging becomes the type held under admitted variation in making."
+    },
+    {
+      "from": "2026-11-22-bedsheet",
+      "to": "position-2026-11-21",
+      "kind": "tests",
+      "why": "Shows the makers the people's type at volume, which none of the gloss's cases did; the type held in 16 of 16 and only the subject moved."
+    },
+    {
+      "from": "2026-11-22-bedsheet",
+      "to": "2026-11-15-carried-on",
+      "kind": "extends",
+      "why": "A tradition's own type corrected towards the textbook: there the close on the third, here the seal on one colour."
+    },
+    {
+      "from": "2026-11-22-bedsheet",
+      "to": "2026-11-20-seven-pieces",
+      "kind": "extends",
+      "why": "Looking corrected legibility, never the type (P7 again: 0 of 16); here looking also made the makers' flags more alike."
+    },
+    {
+      "from": "2026-11-22-bedsheet",
+      "to": "2026-11-17-already-made",
+      "kind": "is-weighed-by",
+      "why": "Every maker carried the practice's name (S179.NAME); no flag or note mentions error."
     }
   ]
 }

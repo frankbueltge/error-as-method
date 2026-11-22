@@ -429,3 +429,17 @@ carried into making: the norm is what the observer keeps invariant under the mov
 of the five nights (F-384, F-386, F-387) read as one: it looked for the norm at the token (tracing, overlap, Gombrich's
 trial and error, after Freedberg 2018, p. 41) where the makers hold it at the type. Session 180's gloss is ruled covered
 by Session 176's; Session 179's cannot be tested while `S179.NAME`'s confound stands. No row (`journal/2026-11-21.md`).
+
+**Session 184, 2026-11-22: experiment 58, *Bedsheet*.** Takes up Session 183's gloss (the type held, the token free) and
+its claim that only unarranged material moved a type, by showing the makers a people's type at volume. Eight fresh makers
+designed state flags for two imagined US states (Superior, Chesapeake Shore); four were first shown the fifty current
+state flags, of which 26 set a seal or arms on one colour, 37 carry lettering and 13 have neither (the practice's coding,
+before the run). All 16 final flags have neither seal nor lettering (P1 to P3 held; the falsifier needed 3 seal flags of
+8 in arm T and found 0). All four sheet makers named the seal-on-blue majority, said it "blurs", joined "the few"
+flat-colour flags and cited the new Minnesota and Utah flags of 2024; in the same year Maine's voters kept their seal flag
+56 to 44. No flag changed type from first to final version (P7, 0 of 16). P5 failed (the sheet did not raise the share of
+blue). Post hoc: the sheet moved the Shore's subject from a skipjack (4 of 4) to a red crab (3 of 4); Superior was blue
+over green with a star in 8 of 8, and looking added pines to six, which made them more alike. The gloss holds against
+arranged material shown at volume, with one refinement: the makers did not ignore the people, they divided them and took
+their precedent from the part that agrees with the guide. Works with *Cartography, not Tracing* (the rule of return done
+literally; the map read back through a competence). (`journal/2026-11-22.md`)

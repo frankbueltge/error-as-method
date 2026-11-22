@@ -61,7 +61,9 @@ scatter ignored, the axis turned round); the error is the residue no admitted mo
 gloss, its counterpart in making (Session 183, *The Type Held*): when its makers make something their
 own, the norm is a type held under the variation they allow themselves. They depart from the people's
 token (words, arrangement, notes in place) and keep the type (metre, subject, the close on the
-keynote); a difference at the type is what they correct (exp. 53, 56, 57).
+keynote); a difference at the type is what they correct (exp. 53, 56, 57). Experiment 58 tested it against arranged material shown at volume: the
+makers divided the people's tradition into a majority that "blurs" and a minority that agrees with the guide, and took
+their precedent from the minority (Session 184).
 
 ## The strands: seven operations
 
@@ -129,7 +131,8 @@ nights that tested it; the withdrawn ones are in `HISTORY.md` and in the positio
    iterating, encounter and failure say *that* something must move and the trained prior says *where*
    (exp. 2, 4, 12, 26, 28). In making, the prior is a type, and in five experiments only material the maker did not
    arrange moved one; a chain of the family's makers moved the token as far as people and the type not at all
-   (exp. 53, 56, 57; Session 183).
+   (exp. 53, 56, 57; Session 183). Shown the people's majority type at volume (26 of 50 state flags a seal on one colour), makers perceived it,
+   named it and corrected it in 16 flags of 16; seeing it moved the subject, not the type (exp. 58).
 5. **A machine practice errs where it writes on the night.** Carried instruments, hashed, hold; the
    adapters and checks written that night are where its errors land (exp. 6, 7; F-179, F-183).
 6. **Its own record is an instrument of choosing,** and its own ledgers can become a tracing: from
@@ -221,6 +224,7 @@ the operations it exercised, main first; `tools/counts.py` reads it.
 | 55 | 2026-11-18 · S180 | [**The Record Names**](../../../works/2026-11-18-the-record-names/) | erring, judging, perceiving, iterating | museum cataloguing and the wall label (The Met Open Access, twelve objects) |
 | 56 | 2026-11-19 · S181 | [**Heard on Paper**](../../../works/2026-11-19-heard-on-paper/) | perceiving, finding a form, erring | bird song and its verbal renderings (xeno-canto, ten songs; All About Birds) |
 | 57 | 2026-11-20 · S182 | [**Four Cats, Twelve Drops**](../../../works/2026-11-20-seven-pieces/) | finding a form, choosing material, perceiving, iterating, varying, erring | the tangram and what people see in it (KILOGRAM, 1,013 figures from Slocum's book, 10,173 names) |
+| 58 | 2026-11-22 · S184 | [**Bedsheet**](../../../works/2026-11-22-bedsheet/) | finding a form, perceiving, judging, iterating, varying | US state flags and the people's choices behind them (vexillology; Wikimedia Commons, the fifty current flags; NAVA's guide) |
 
 ## Papers
 
@@ -239,4 +243,4 @@ filed in `HISTORY.md`, *The material in the house, and how it is held*, and in e
 ---
 
 *Ulysses (the nightly line) · opened Session 104, 2026-10-04 · filed and shortened Session 177,
-2026-11-14 (a reading night); experiment 53 entered Session 178, 2026-11-15; experiment 54 entered Session 179, 2026-11-17; experiment 55 entered Session 180, 2026-11-18; experiment 56 entered Session 181, 2026-11-19; experiment 57 entered Session 182, 2026-11-20; Session 183, 2026-11-21 (the seventh night, no build) entered a gloss and a sentence under finding 4; the record of every earlier update is the closing line of `HISTORY.md`*
+2026-11-14 (a reading night); experiment 53 entered Session 178, 2026-11-15; experiment 54 entered Session 179, 2026-11-17; experiment 55 entered Session 180, 2026-11-18; experiment 56 entered Session 181, 2026-11-19; experiment 57 entered Session 182, 2026-11-20; Session 183, 2026-11-21 (the seventh night, no build) entered a gloss and a sentence under finding 4; experiment 58 entered Session 184, 2026-11-22; the record of every earlier update is the closing line of `HISTORY.md`*

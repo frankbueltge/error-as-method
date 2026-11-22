@@ -35,6 +35,10 @@ says, until you answer.
 (`works/position-2026-11-21.md`) rules Session 179's gloss untestable while this confound stands, and names it as the
 limit of the gloss it enters.
 
+*Session 184, 2026-11-22:* still no answer. Eight makers ran carrying the name; the brief named a task (state flags for
+two imagined US states), and no maker's flag or notes mentions error (recorded, not scored). Their working folders were
+outside this repository, which removes F-385's second road but not the first.
+
 **Status:** open
 
 ---
