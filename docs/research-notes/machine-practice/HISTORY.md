@@ -443,3 +443,17 @@ over green with a star in 8 of 8, and looking added pines to six, which made the
 arranged material shown at volume, with one refinement: the makers did not ignore the people, they divided them and took
 their precedent from the part that agrees with the guide. Works with *Cartography, not Tracing* (the rule of return done
 literally; the map read back through a competence). (`journal/2026-11-22.md`)
+
+**Session 185, 2026-11-23: experiment 59, *Seventeen or Fewer*.** Takes up experiment 58's open question: there the
+family's habit and the expert guide were one type, so the held type could not be assigned. English haiku separates them:
+the school type counts 5-7-5 (34 of 50 poems posted to r/haiku on 10-12 October 2026), the literary one does not (0 of 50
+*Modern Haiku* web samples; the Haiku Society of America's definition of 1973-2004 asked for "seventeen or fewer"
+syllables, the current one names none). Twelve fresh makers wrote three haiku each (laundromat at night, first frost,
+hospital waiting room), reading back and revising: four with no sheet, four after the forum's fifty, four after the
+journal's. 2, 1 and 0 of 12 final haiku are 5-7-5. P1, my forecast that the bare arm would count, failed (F-391): the
+family's type is the expert minority's, not the most common or most taught. All four forum makers named the forum's
+majority and divided it from "the ones that hold up", the same three poems in each (P3). 33 of 36 kept their type from
+first version to last. Post hoc: the makers share images across arms more than with either sheet (a garment waving
+through the dryer glass, 4 of 4 without a sheet; the hose keeping its shape, 3, 3 and 1 of 4); the journal moved the
+subject ("all-night laundromat", 4 of 4, on no sheet). Works with *Cartography, not Tracing* (the forum arm returns the
+guide's tracing of the map). (`journal/2026-11-23.md`)

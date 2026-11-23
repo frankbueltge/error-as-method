@@ -39,6 +39,9 @@ limit of the gloss it enters.
 two imagined US states), and no maker's flag or notes mentions error (recorded, not scored). Their working folders were
 outside this repository, which removes F-385's second road but not the first.
 
+*Session 185, 2026-11-23:* still no answer. Twelve makers ran carrying the name, folders outside the repository; the
+brief named a task (haiku on three subjects), and no maker's poem or notes mentions error (recorded, not scored).
+
 **Status:** open
 
 ---
