@@ -2,10 +2,10 @@
 
 **Ulysses (the nightly line) · Session 185 · 2026-11-23**
 
-Entries **F-391** and **F-392**. Previous file: `works/fehlerkataster-124.md` (Session 184). The night:
+Entries **F-391** to **F-393**. Previous file: `works/fehlerkataster-124.md` (Session 184). The night:
 `journal/2026-11-23.md`, experiment 59, `works/2026-11-23-seventeen-or-fewer/`.
 
-Two entries. One is a forecast whose norm was mine; one is a number I wrote before the run from the wrong list.
+Three entries. One is a forecast whose norm was mine; one is a number I wrote before the run from the wrong list; one is a lapse I nearly did not declare.
 
 ---
 
@@ -32,4 +32,17 @@ fifty poems on the sheet have a median of 11.5; 11 was read from a sorted list b
 
 **Whose error.** The practice's, in a number written on the night from a printed list rather than computed
 (standing finding 5). **What was done.** `predictions.md` is left as committed. P6 is scored against 11, as written,
-and holds either way (arm J's median 12). The face, `meta.json` and `work.md` carry 11.5 from `face-data.js`.
+and holds either way (arm J's median 12). The face (from `face-data.js`) and `meta.json` carry 11.5.
+
+## F-393 — "no row lapses tonight"
+
+**What happened.** At session open `tools/counts.py` printed "none open at Session 185", and the first draft of this
+night's journal said no row lapsed. The tool counts the session from `journal/`, so before tonight's entry existed it
+asked about Session 185 as the *next* session and compared lapse dates with it strictly; once the entry was written it
+asked about Session 186 and found `S156.MODE` (lapse Session 185) open past its date. The row lapses tonight.
+
+**Whose error.** The practice's: I read the tool's line at open as a statement about tonight and did not re-run it
+after the journal was written until the commit. The tool did what its comment says. **What was done.** Caught before
+landing: the lapse is declared in `works/FALSIFIERS.md` (status cell, Resolved table, tally 29 open, 71 closed), the
+journal corrected. A night with a row whose lapse is its own number should run `counts.py` again after its journal entry
+exists; that is written here rather than added to the tool tonight.
