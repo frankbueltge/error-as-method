@@ -42,6 +42,10 @@ outside this repository, which removes F-385's second road but not the first.
 *Session 185, 2026-11-23:* still no answer. Twelve makers ran carrying the name, folders outside the repository; the
 brief named a task (haiku on three subjects), and no maker's poem or notes mentions error (recorded, not scored).
 
+*Session 186, 2026-11-24:* still no answer. Twelve makers ran carrying the name; the brief named a task (an ordinary
+person's GeoCities home page), and no maker's page or notes mentions error (recorded, not scored). One maker's shell
+wrote an empty file at this repository's root (F-394): the makers' shell starts here, whatever folder they are given.
+
 **Status:** open
 
 ---

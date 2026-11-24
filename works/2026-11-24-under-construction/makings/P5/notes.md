@@ -1,0 +1,13 @@
+# Notes
+
+Ruth Ann Mabry, 61, a retired school cafeteria manager in Lubbock, Texas, whose grandson set her up with a GeoCities page (Heartland/Prairie) in the spring of 1998. She collects salt and pepper shakers (about 340 pairs), and her page is mostly about that, plus her late husband's old Ford, her church cookbook recipe for King Ranch chicken, her grandbabies, and a guestbook she checks every morning. First idea: a cream-and-teal tiled background, a big centered title in Comic Sans-ish font, a hand-made shaker GIF, an "under construction" sign she never took down, a hit counter, a table of "My Shakers by Category," a long trusting welcome letter written to whoever finds it, and webring/award graphics she made or was given.
+
+## Versions
+
+- **v1** — First full page: title, welcome letter, collection table, cabinet photo, wanted list, grandbabies photo, links, guestbook, counter. Looking at it, it was too even and template-tidy, the two-image title wrapped awkwardly, and the "scanned photos" read as drawings (the cabinet wasn't even dark though the caption apologised for darkness; the grandkids looked like clip art).
+- **v2** — One shaker GIF above a two-line title; darkened, blurred, grainy cabinet photo with a flash hotspot to match her caption; dropped the fake grandkids photo for a line saying Tyler moved the pictures to their own page because they loaded slowly; added a dated "What's New" box, a pipe-separated nav bar, Bev's award, a webring box, a marquee, a typo and more of her voice. Looking at it, the marquee screenshotted as an empty teal bar and 4,127 visitors in four months was too many for a grandma's page.
+- **v3** — Marquee set to ALTERNATE so its words show from the start; counter redone at 1,862. Looked at it again and would hand it over.
+
+## What I made
+
+Ruth Ann's Salt & Pepper Shaker Page, as it stood in November 1998: a retired Lubbock cafeteria manager who started the page on July 4 with her grandson's help and has been adding to it a little at a time. Everything she would have reached for is there: a tiled calico background, a wiggling pair of hen shakers, an under-construction sign she means literally, a table of her 347 pairs by kind, a dim flash-glare photo of the cabinet her late husband built, a wanted list (including the lost pepper half of a Holt Howard cat), the award her AOL friend Bev gave her, a webring, guestbook links and a counter. I tried to let the page be hers rather than about her: its warmth, trust ("I trust you!") and small grief come through in what she chooses to say, not through any framing. All images are drawn by make_images.py / make_images2.py in this folder.
