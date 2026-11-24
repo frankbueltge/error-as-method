@@ -1,0 +1,13 @@
+# notes
+
+Gary Lindqvist, 52, rural mail carrier (Route 3 out of Mora, Minnesota), married to Jan, one daughter away at college in Duluth, an old black Lab named Duchess. In the fall of 1998 he took the "Internet for Beginners" night class at the library and built his page in the GeoCities editor and then by hand from a book. First idea: a long single page with a too-big welcome, a background tile, a picture of Duchess and the ice house he drew himself, his rain gauge numbers for the year, a "Route 3 facts" list, a guestbook-by-e-mail plea, a hit counter, under construction sign, and a small piece for his dad, who carried the same route before him.
+
+## versions
+
+- v1: First full page: title, nav box, About Me, Route 3 facts, Duchess, Paint drawing of the ice house, rain-gauge table, Dad, links, guestbook-by-e-mail, construction sign, counter. Looking at it, it was too tidy and too evenly paced, with a neat table of contents and matching sections like a designed site, and the jokes read as written for an audience.
+- v2: Took out the anchor nav and put in a dated "What's New" box. Centered things the way a beginner does, cut the jokes down to plain statements, set Dad's part as short centered lines, and added a marquee. In the screenshot the marquee was an empty blue bar because the text starts off the right edge.
+- v3: Made the marquee bounce (BEHAVIOR=ALTERNATE) with a short ice warning so it shows text when it stands still. Dropped the counter to 000213, which fits a one-month-old page better than 1437. Added the "tell your friends, my address is" GeoCities line at the bottom. I stopped here because this is the version I would hand over.
+
+## what I made
+
+This is the home page of Gary Lindqvist, a 52-year-old rural mail carrier in Mora, Minnesota, built in the fall of 1998 as homework from a library night class and then kept going. It is written in his voice and laid out the way a beginner's page was: FONT tags, CENTER, a tiled pale-blue background, an animated mailbox, a blinking NEW!, a construction sign, a hit counter, and links he hasn't figured out how to make clickable. All of the images were drawn by a script, and the ice house is meant to look like an MS Paint picture he spent a Sunday on. I tried to make the page about the things he actually spends his days on: his route and his patrons' snowbanks, the rain gauge he writes down every night, the dog he can't scan yet, and his father, who carried the same route before him. That kept it a page he made for himself and not a joke about the period. Version 2 was mostly about taking out polish, because the first draft looked designed.

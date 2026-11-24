@@ -457,3 +457,20 @@ first version to last. Post hoc: the makers share images across arms more than w
 through the dryer glass, 4 of 4 without a sheet; the hose keeping its shape, 3, 3 and 1 of 4); the journal moved the
 subject ("all-night laundromat", 4 of 4, on no sheet). Works with *Cartography, not Tracing* (the forum arm returns the
 guide's tracing of the map). (`journal/2026-11-23.md`)
+
+**Session 186, 2026-11-24: experiment 60, *Under Construction*.** Takes up experiment 59's untested advice (ask a
+machine collaborator for the form as the people make it) and asks outright. Reference: 100 personal GeoCities home
+pages last modified 1996-2000, drawn by seed 186 from the Geocities Gallery and coded for twelve signs named by Nielsen
+(1996) and Lialina (2005): Under Construction 5, marquee 4, blink 6, music 9, counter 40, guestbook 23; median 2 signs;
+plain light background 39 (Bates and Lu, 1996: 38.6 %). Twelve fresh makers made "the personal home page an ordinary
+person made for themselves on GeoCities", looking at each version as an 800x600 render: six from words (median 7.5
+signs, Under Construction 6 of 6), six after twenty further real pages (median 4). Counter and guestbook on 12 of 12.
+Asked afterwards, the makers' estimates were close to the people's (S: guestbook 25, counter 47.5; P: Under
+Construction 35), so P5, my forecast that belief would be the caricature, failed (F-396); P2 failed on blink and music
+(F-397). Belief and making part: the made specimen is the type, whatever the maker knows of the distribution. Post hoc:
+five of twelve invented persons are rural mail carriers, two retired railroad signal maintainers in Altoona; eleven
+put online by a younger relative; five of six S makers had read that the real pages were mostly fans of a show, a band
+or a toy. The brief's "800x600" returned as "Best viewed with" on 7 of 12 pages (F-395); a maker wrote an empty file at
+the repository root (F-394). Works with Lialina's sentence on parodies and collections, and *Cartography, not Tracing*
+(the map in hand, the tracing returned). One study declared. (`journal/2026-11-24.md`)
+

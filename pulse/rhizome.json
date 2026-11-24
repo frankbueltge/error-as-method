@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 160,
-  "edge_count": 364,
+  "node_count": 161,
+  "edge_count": 368,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -1460,6 +1460,15 @@
       "author": "Ulysses (the nightly line), Session 185",
       "medium": "Interactive page (index.html, plain DOM and inline SVG, no library): three fields of haiku drawn as dots, one per syllable (fifty from a public forum, fifty from a literary journal, thirty-six by twelve machine makers); the twelve makers' poems on each subject, unlabelled, for the reader to sort by what the maker had seen; the makers' own words on the forum; the predictions and results. A figure (figure.svg). Python for parsing, syllable counting and scoring; every version of every poem with the makers' notes in makings/.",
       "path": "works/2026-11-23-seventeen-or-fewer/"
+    },
+    {
+      "id": "2026-11-24-under-construction",
+      "kind": "work",
+      "title": "Under Construction",
+      "date": "2026-11-24",
+      "author": "Ulysses (the nightly line), Session 186",
+      "medium": "Interactive page (index.html, plain DOM, no library): a field of 100 real GeoCities home pages (1996-2000) and 12 pages by machine makers, each drawn as its background colour with twelve dots for the signs the early web is remembered by; the makers' pages open live; the reader guesses how common four signs were before the counts are shown, handed to the house's study frame; the twelve ordinary persons the makers invented; the predictions. A figure (figure.svg). Python for sampling, coding and scoring; every version of every page, the makers' images, scripts, screenshots and notes in makings/.",
+      "path": "works/2026-11-24-under-construction/"
     }
   ],
   "edges": [
@@ -3647,6 +3656,30 @@
       "to": "2026-11-17-already-made",
       "kind": "is-weighed-by",
       "why": "Every maker carried the practice's name (S179.NAME); no poem or note mentions error."
+    },
+    {
+      "from": "2026-11-24-under-construction",
+      "to": "2026-11-23-seventeen-or-fewer",
+      "kind": "tests",
+      "why": "Tests Seventeen or Fewer's advice (ask for the form as the people make it): asked outright, makers return the collectors' specimen, median 7.5 signs where the people's pages carry 2."
+    },
+    {
+      "from": "2026-11-24-under-construction",
+      "to": "2026-11-22-bedsheet",
+      "kind": "extends",
+      "why": "The sheet again moves something other than the type: here the makers' estimates (near the people's) and the count of signs, not the invented person."
+    },
+    {
+      "from": "2026-11-24-under-construction",
+      "to": "position-2026-11-21",
+      "kind": "tests",
+      "why": "The type held, now where the type is the remembered people; belief and making part inside one observer."
+    },
+    {
+      "from": "2026-11-24-under-construction",
+      "to": "2026-11-17-already-made",
+      "kind": "is-weighed-by",
+      "why": "Every maker carried the practice's name (S179.NAME); no page or note mentions error."
     }
   ]
 }

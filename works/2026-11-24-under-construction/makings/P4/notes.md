@@ -1,0 +1,13 @@
+# Notes
+
+Walt Szymanski, 61, retired in 1997 after 34 years as a signal maintainer for the Pennsylvania Railroad / Penn Central / Conrail, lives in Altoona PA with his wife Bev. His grandson set him up with a computer at Christmas 1997 and he built a page in spring 1998 mostly to show off his HO scale basement layout, the "Juniata & Western," and to ask if anybody has a Bowser K4 tender shell.
+First idea: gray tiled background, centered everything, a crude animated-ish GIF of a train he "made in Paint," a big welcome, a list of layout photos he can't scan yet, his rail history, Bev's tole painting corner, a hit counter, a guestbook link, a railroad webring box, and "under construction" — written in his voice, a little formal, all caps here and there.
+
+## Versions
+- v1: First full page (title, intro with photo, layout, career, WANTED, Bev's Corner, links, webring, guestbook, counter). Looking at it: at 800 wide the banner wrapped and pushed the second locomotive onto its own line, the all-Arial text looked too uniform and tidy for a beginner, and the "photos" read as clean drawings rather than scans.
+- v2: Put the title between the two locomotives in a table so they flank it, switched body text to the browser's default Times (what a beginner would leave alone) with Arial only for headings, added grain, blur and a warm cast to the photos so they look scanned, captioned Walt's photo, swapped one track divider for a plain HR. Looking at it: the contents bar wrapped awkwardly on "(coming soon)" and the page felt too finished and evenly paced, with nothing that showed it had been lived in.
+- v3: Shortened the nav so it fits on one line, and gave the WANTED box a dated red UPDATE (a stranger in Ohio mailed him the tender for free) with the found item struck through, so the page shows it was changed by hand over time. Looking at it, I would hand this over.
+
+## What I made
+
+A 1998 GeoCities home page for Walt Szymanski, a retired Conrail signal maintainer in Altoona, built mostly to show off his HO basement layout. It uses only what a Netscape 3-era page had: a tiled gray "ballast" background, centered tables, FONT tags, BLINK, a STRIKE, anchor-link contents, and small GIFs I drew with a script (a crude animated loco with white boxes he never made transparent, a track divider, a flashing under-construction sign, a NEW tag, a mailbox, a hit counter), plus two muddy scanned-looking JPEGs. What makes it his page and not a page about him is the voice: proud of the position-light signals he wired himself, a little formal, joking about Penn Central and Bev's laundry room, apologising for Kevin's camera, and the update thanking Ron from Ohio. That shows the page was a way of being known by other hobbyists, and that sometimes it worked.

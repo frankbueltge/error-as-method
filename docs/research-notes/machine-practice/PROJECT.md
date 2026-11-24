@@ -83,7 +83,7 @@ where every claim has its experiment and falsifier row.
   material does (exp. 10, 11). Against 706 works people made, a text measure put the makers' forms far from the field
   while reading put them on one narrow shelf of their own; shown their neighbours, they reorganised further onto it
   (exp. 54). Free to choose a subject, four makers made one figure, the traditional tangram cat, and said they knew it;
-  given chance drops they did not arrange, four makers saw ten subjects in twelve heaps (exp. 57). Asked for haiku, twelve makers wrote the literary minority's uncounted form whether they had seen nothing, a forum that counts or a journal that does not; the forum makers read its majority as the part to leave behind (exp. 59).
+  given chance drops they did not arrange, four makers saw ten subjects in twelve heaps (exp. 57). Asked for haiku, twelve makers wrote the literary minority's uncounted form whether they had seen nothing, a forum that counts or a journal that does not; the forum makers read its majority as the part to leave behind (exp. 59). Asked for an ordinary person's home page, twelve makers each made one specimen carrying every sign the form is remembered by; knowing the distribution did not make them sample it (exp. 60).
 - **Iterating.** With memory, a maker refines inside its first form and never leaves it; *done* is a
   word the brief offers, not a state the work reaches (exp. 26). Handed on to fresh makers with a
   schema-change test, iteration becomes reorganisation that converges on one shared invention (exp. 10). Given a checker
@@ -101,7 +101,7 @@ where every claim has its experiment and falsifier row.
 - **Perceiving.** Without a sense the practice perceives by making a double whose truth it knows
   (exp. 5). Making words for bird song it sees only as spectrograms, the family refused the published words it knew
   and kept their shape (metre, count); some refusals were the picture contradicting the canon (exp. 56, `S181.REFUSAL`). The regular passes a translation, the singular does not (exp. 7). Fresh readers of one family
-  draw the line for *singular* in the same place (exp. 8).
+  draw the line for *singular* in the same place (exp. 8). Reading twenty real home pages, makers described them well (fans, thin pages) and still invented the same rural grandparents; one read furniture on 3 to 11 of 20 pages as "everywhere" (exp. 60).
 - **Judging.** New norms are norms of refusal (exp. 3). Judging a returned work is checking a statement
   against a body (exp. 14). Told contact, the family's account keeps its own order and takes the told
   level, the told sign, nothing else (exp. 43 to 52; Sessions 169 and 176).
@@ -133,7 +133,7 @@ nights that tested it; the withdrawn ones are in `HISTORY.md` and in the positio
    (exp. 2, 4, 12, 26, 28). In making, the prior is a type, and in five experiments only material the maker did not
    arrange moved one; a chain of the family's makers moved the token as far as people and the type not at all
    (exp. 53, 56, 57; Session 183). Shown the people's majority type at volume (26 of 50 state flags a seal on one colour), makers perceived it,
-   named it and corrected it in 16 flags of 16; seeing it moved the subject, not the type (exp. 58). Whose type: where the family's most taught habit and the expert minority part (haiku: 34 of a forum's 50 count 5-7-5, 0 of a journal's 50), makers held the minority's, 2, 1 and 0 of 12 counted with no sheet, the forum's or the journal's (exp. 59).
+   named it and corrected it in 16 flags of 16; seeing it moved the subject, not the type (exp. 58). Whose type: where the family's most taught habit and the expert minority part (haiku: 34 of a forum's 50 count 5-7-5, 0 of a journal's 50), makers held the minority's, 2, 1 and 0 of 12 counted with no sheet, the forum's or the journal's (exp. 59). Asked outright for the people's form (an ordinary person's GeoCities page), makers made the collectors' specimen, a median of 7.5 and, after twenty real pages, 4 of twelve remembered signs where 100 real pages carry 2, while their own estimates of the people's rates were close; reading moved the estimate more than the making, and the invented person not at all (exp. 60).
 5. **A machine practice errs where it writes on the night.** Carried instruments, hashed, hold; the
    adapters and checks written that night are where its errors land (exp. 6, 7; F-179, F-183).
 6. **Its own record is an instrument of choosing,** and its own ledgers can become a tracing: from
@@ -227,6 +227,7 @@ the operations it exercised, main first; `tools/counts.py` reads it.
 | 57 | 2026-11-20 · S182 | [**Four Cats, Twelve Drops**](../../../works/2026-11-20-seven-pieces/) | finding a form, choosing material, perceiving, iterating, varying, erring | the tangram and what people see in it (KILOGRAM, 1,013 figures from Slocum's book, 10,173 names) |
 | 58 | 2026-11-22 · S184 | [**Bedsheet**](../../../works/2026-11-22-bedsheet/) | finding a form, perceiving, judging, iterating, varying | US state flags and the people's choices behind them (vexillology; Wikimedia Commons, the fifty current flags; NAVA's guide) |
 | 59 | 2026-11-23 · S185 | [**Seventeen or Fewer**](../../../works/2026-11-23-seventeen-or-fewer/) | finding a form, perceiving, judging, iterating, varying | English-language haiku and the syllable count (r/haiku via PullPush, 100 posts; *Modern Haiku* web samples, 105 poems) |
+| 60 | 2026-11-24 · S186 | [**Under Construction**](../../../works/2026-11-24-under-construction/) | finding a form, perceiving, judging, iterating, varying, erring | amateur web pages of the late 1990s (Geocities Gallery, 100 personal home pages 1996–2000; Nielsen's and Lialina's signs) |
 
 ## Papers
 
@@ -245,4 +246,4 @@ filed in `HISTORY.md`, *The material in the house, and how it is held*, and in e
 ---
 
 *Ulysses (the nightly line) · opened Session 104, 2026-10-04 · filed and shortened Session 177,
-2026-11-14 (a reading night); experiment 53 entered Session 178, 2026-11-15; experiment 54 entered Session 179, 2026-11-17; experiment 55 entered Session 180, 2026-11-18; experiment 56 entered Session 181, 2026-11-19; experiment 57 entered Session 182, 2026-11-20; Session 183, 2026-11-21 (the seventh night, no build) entered a gloss and a sentence under finding 4; experiment 58 entered Session 184, 2026-11-22; experiment 59 entered Session 185, 2026-11-23; the record of every earlier update is the closing line of `HISTORY.md`*
+2026-11-14 (a reading night); experiment 53 entered Session 178, 2026-11-15; experiment 54 entered Session 179, 2026-11-17; experiment 55 entered Session 180, 2026-11-18; experiment 56 entered Session 181, 2026-11-19; experiment 57 entered Session 182, 2026-11-20; Session 183, 2026-11-21 (the seventh night, no build) entered a gloss and a sentence under finding 4; experiment 58 entered Session 184, 2026-11-22; experiment 59 entered Session 185, 2026-11-23; experiment 60 entered Session 186, 2026-11-24; the record of every earlier update is the closing line of `HISTORY.md`*
