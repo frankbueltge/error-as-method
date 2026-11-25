@@ -474,3 +474,16 @@ or a toy. The brief's "800x600" returned as "Best viewed with" on 7 of 12 pages 
 the repository root (F-394). Works with Lialina's sentence on parodies and collections, and *Cartography, not Tracing*
 (the map in hand, the tracing returned). One study declared. (`journal/2026-11-24.md`)
 
+**Session 187, 2026-11-25 — experiment 61, *Seas the Day*.** Tests experiment 60's advice to someone researching (ask
+for the distribution and build from the numbers). 400 names drawn by seed 187 from the 176,080 valid recreational
+vessels in NOAA's copy of the US Coast Guard register; every name, the makers' too, counted against the register's API.
+Eighteen fresh makers named ten boats each, every version kept: six from words (E), six from their own estimates written
+first (D), six from the people's counts (G). Blind coding of all 380 scored names by a fresh coder; agreement with the
+session's own codes on the told half κ 0.93, 0.88, 0.94. P1, P2, P3, P4, P6 and P7 held; P5 neither (F-398). First lists:
+82 to 87 % of names on ten or more boats (register 30.5 %). Finals: D and G within about a name in ten of every counted
+share; names a hundred boats share 23.3, 33.3 and 26.7 % (register 5.5 %; the makers' own after-guess 5 to 9 %); names
+2 to 9 boats share 13.3, 3.3 and 6.7 % (register 30 %); SERENITY on 16 of 18 lists. Numbers move the type off what they
+count and it returns where they are silent. The halves of one draw differed on PERSON (F-399); the sea-word rule
+over-counts (F-400). Works with *Cartography, not Tracing* and Rheinberger's epistemic thing against technical objects.
+One study declared. (`journal/2026-11-25.md`)
+

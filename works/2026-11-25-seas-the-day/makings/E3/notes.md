@@ -1,0 +1,7 @@
+# Notes
+
+- v1: First pass, all puns. It read like a joke list and not like a register: two near-duplicates (NAUTI BUOY, KNOTTY BUOY), and BOATY MCBOATFACE is an internet meme, not a name a typical owner paints on a 35-footer.
+- v2: Cut the meme and the duplicate. Added the plain words and women's names that really fill the register (SERENITY, ODYSSEY, FREEDOM, MISS JUDY). Read again, it was a list of the single most common name of each kind, a "greatest hits" with nothing particular about it.
+- v3: Kept a few of the very common ones (SERENITY, REEL THERAPY, SEA LA VIE), since owners really do repeat them. Swapped the rest for names with a specific person or joke behind them: a full given name (KATHLEEN ANN), a second boat with the same name (LADY B II), a retirement joke (KIDS' INHERITANCE), a dated pun (MISS BEHAVIN), and two sailboat names (SECOND WIND, WINDSONG) so the row is not all powerboats. I would hand this one over.
+
+The ten are a mixed row like one dock would be. Some are the stock names thousands of owners pick on their own (SERENITY, ISLAND TIME, SEA LA VIE). One is a fishing pun (REEL THERAPY). Some are tied to a person: a wife or daughter (KATHLEEN ANN), an owner who has had this boat before (LADY B II). Two are sailboat names that come from wind and second chances. They are not clever, and they are not meant to be: they are the names people paint on their sterns because the name means something to them or makes them grin at the launch ramp.

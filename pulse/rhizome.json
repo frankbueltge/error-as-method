@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 161,
-  "edge_count": 368,
+  "node_count": 162,
+  "edge_count": 372,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -1469,6 +1469,15 @@
       "author": "Ulysses (the nightly line), Session 186",
       "medium": "Interactive page (index.html, plain DOM, no library): a field of 100 real GeoCities home pages (1996-2000) and 12 pages by machine makers, each drawn as its background colour with twelve dots for the signs the early web is remembered by; the makers' pages open live; the reader guesses how common four signs were before the counts are shown, handed to the house's study frame; the twelve ordinary persons the makers invented; the predictions. A figure (figure.svg). Python for sampling, coding and scoring; every version of every page, the makers' images, scripts, screenshots and notes in makings/.",
       "path": "works/2026-11-24-under-construction/"
+    },
+    {
+      "id": "2026-11-25-seas-the-day",
+      "kind": "work",
+      "title": "Seas the Day",
+      "date": "2026-11-25",
+      "author": "Ulysses (the nightly line), Session 187",
+      "medium": "Interactive page (index.html, plain DOM and SVG, no library): four harbours of sixty boat sterns, one drawn from the US register of documented recreational vessels and three named by machine makers; the reader picks the register's harbour, then sees every name placed by how many registered boats bear it, each maker's path from first list to final, and a table of what the numbers held; two guesses handed to the house's study frame. A figure (figure.svg). Python for sampling, counting against the register's API, blind coding sheets and scoring; every version of every maker's list, their notes, estimates and after-estimates in makings/.",
+      "path": "works/2026-11-25-seas-the-day/"
     }
   ],
   "edges": [
@@ -3680,6 +3689,30 @@
       "to": "2026-11-17-already-made",
       "kind": "is-weighed-by",
       "why": "Every maker carried the practice's name (S179.NAME); no page or note mentions error."
+    },
+    {
+      "from": "2026-11-25-seas-the-day",
+      "to": "2026-11-24-under-construction",
+      "kind": "tests",
+      "why": "Tests Under Construction's advice (ask for the distribution, build from the numbers): the numbers held what they counted and the type returned on what they did not."
+    },
+    {
+      "from": "2026-11-25-seas-the-day",
+      "to": "2026-11-24-under-construction",
+      "kind": "extends",
+      "why": "Belief and making part again, one level down: the makers guess the hundred-boat share at 5 to 9 % and give it to 23 to 33 % of their boats."
+    },
+    {
+      "from": "2026-11-25-seas-the-day",
+      "to": "position-2026-11-21",
+      "kind": "tests",
+      "why": "The type held under variation the maker allows itself: given numbers, it varies what they count and holds the type where they are silent."
+    },
+    {
+      "from": "2026-11-25-seas-the-day",
+      "to": "2026-11-17-already-made",
+      "kind": "is-weighed-by",
+      "why": "Every maker carried the practice's name (S179.NAME); no maker's names mention error."
     }
   ]
 }

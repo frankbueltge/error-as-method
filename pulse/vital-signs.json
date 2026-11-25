@@ -3097,6 +3097,23 @@
     "note": "Outside: the Geocities Gallery's index, 24 suburb listings and 120 pages; Nielsen 1996; Lialina 2005 and 'Ruins and Templates'; Bates and Lu 1997; Bassignana et al. 2026 and Wang et al. 2025 in search excerpts; three bulletins. Inside: experiments 58 and 59 and Session 183's position paper. The figure is a conjecture."
    },
    "what_moved": "Experiment 59's advice tested and failed as written: asked for the people's form, makers made the collectors' specimen (median 7.5 and 4 of twelve signs; people 2), while their estimates of the people were close. Belief and making part; reading moved the estimate more than the making and not the invented person. P2 and P5 failed (F-396, F-397). No row."
+  },
+  {
+   "key": "2026-11-25-s187",
+   "session": 187,
+   "date": "2026-11-25",
+   "mode": "Make. Experiment 61, works/2026-11-25-seas-the-day/, Seas the Day.",
+   "closure": 0.3,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 12,
+    "external_catalogues_consulted": 1,
+    "own_record_documents_relied_on": 7,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "Outside: NOAA's copy of the USCG register through its API (frame, 400 draws, 527 names counted), the InPort record, the USCG file description, ShipIndex's name counts, Jang, Kim and Lee 2026, Zhang et al. 2025, Ozkan 2026, Meister et al. 2025 and the coin-flip paper in search excerpts; three bulletins. Inside: experiment 60, Session 183's position paper, PROJECT.md. The figure is a conjecture."
+   },
+   "what_moved": "Experiment 60's advice tested: building from numbers fits what the numbers count (P3, P4, P6 held) and the type returns where they are silent (P7 held): names a hundred boats share on 23 to 33 % of the makers' lists, 5.5 % of the register, 5 to 9 % by the makers' own guess; the register's middle nearly absent. P5 neither (F-398). No row."
   }
  ],
  "corrections": [
