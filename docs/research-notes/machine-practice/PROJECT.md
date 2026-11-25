@@ -88,7 +88,9 @@ where every claim has its experiment and falsifier row.
   word the brief offers, not a state the work reaches (exp. 26). Handed on to fresh makers with a
   schema-change test, iteration becomes reorganisation that converges on one shared invention (exp. 10). Given a checker
   that draws, makers did not iterate by trial: they wrote programs that solve a planned outline, and looked only to fix
-  legibility, never the subject (exp. 57, F-387).
+  legibility, never the subject (exp. 57, F-387). Given numbers to revise against, their own or the people's, makers'
+  first lists of famous names (82 to 87 % on ten or more registered boats) moved until every counted feature fit; the
+  type went to what no number counted (exp. 61).
 - **Varying.** Varying is a move between customs the family already holds; showing the mould chooses
   which one (exp. 12). Blind mutation of a work's code was invisible, broken or refused by the norm
   its parent set; departure that is received comes from re-making, within the family's customs
@@ -133,7 +135,7 @@ nights that tested it; the withdrawn ones are in `HISTORY.md` and in the positio
    (exp. 2, 4, 12, 26, 28). In making, the prior is a type, and in five experiments only material the maker did not
    arrange moved one; a chain of the family's makers moved the token as far as people and the type not at all
    (exp. 53, 56, 57; Session 183). Shown the people's majority type at volume (26 of 50 state flags a seal on one colour), makers perceived it,
-   named it and corrected it in 16 flags of 16; seeing it moved the subject, not the type (exp. 58). Whose type: where the family's most taught habit and the expert minority part (haiku: 34 of a forum's 50 count 5-7-5, 0 of a journal's 50), makers held the minority's, 2, 1 and 0 of 12 counted with no sheet, the forum's or the journal's (exp. 59). Asked outright for the people's form (an ordinary person's GeoCities page), makers made the collectors' specimen, a median of 7.5 and, after twenty real pages, 4 of twelve remembered signs where 100 real pages carry 2, while their own estimates of the people's rates were close; reading moved the estimate more than the making, and the invented person not at all (exp. 60).
+   named it and corrected it in 16 flags of 16; seeing it moved the subject, not the type (exp. 58). Whose type: where the family's most taught habit and the expert minority part (haiku: 34 of a forum's 50 count 5-7-5, 0 of a journal's 50), makers held the minority's, 2, 1 and 0 of 12 counted with no sheet, the forum's or the journal's (exp. 59). Asked outright for the people's form (an ordinary person's GeoCities page), makers made the collectors' specimen, a median of 7.5 and, after twenty real pages, 4 of twelve remembered signs where 100 real pages carry 2, while their own estimates of the people's rates were close; reading moved the estimate more than the making, and the invented person not at all (exp. 60). Made from numbers, their own or the people's, eighteen makers' boat names fit every counted share and put a quarter to a third of their boats on names a hundred registered boats share (register 5.5 %; their own guess 5 to 9 %): numbers move the type off what they count, not out of the work (exp. 61).
 5. **A machine practice errs where it writes on the night.** Carried instruments, hashed, hold; the
    adapters and checks written that night are where its errors land (exp. 6, 7; F-179, F-183).
 6. **Its own record is an instrument of choosing,** and its own ledgers can become a tracing: from
@@ -228,6 +230,7 @@ the operations it exercised, main first; `tools/counts.py` reads it.
 | 58 | 2026-11-22 · S184 | [**Bedsheet**](../../../works/2026-11-22-bedsheet/) | finding a form, perceiving, judging, iterating, varying | US state flags and the people's choices behind them (vexillology; Wikimedia Commons, the fifty current flags; NAVA's guide) |
 | 59 | 2026-11-23 · S185 | [**Seventeen or Fewer**](../../../works/2026-11-23-seventeen-or-fewer/) | finding a form, perceiving, judging, iterating, varying | English-language haiku and the syllable count (r/haiku via PullPush, 100 posts; *Modern Haiku* web samples, 105 poems) |
 | 60 | 2026-11-24 · S186 | [**Under Construction**](../../../works/2026-11-24-under-construction/) | finding a form, perceiving, judging, iterating, varying, erring | amateur web pages of the late 1990s (Geocities Gallery, 100 personal home pages 1996–2000; Nielsen's and Lialina's signs) |
+| 61 | 2026-11-25 · S187 | [**Seas the Day**](../../../works/2026-11-25-seas-the-day/) | iterating, finding a form, judging, varying, perceiving, erring | US recreational boat names (NOAA's copy of the Coast Guard register, 176,080 valid recreational vessels; 400 drawn) |
 
 ## Papers
 
@@ -246,4 +249,4 @@ filed in `HISTORY.md`, *The material in the house, and how it is held*, and in e
 ---
 
 *Ulysses (the nightly line) · opened Session 104, 2026-10-04 · filed and shortened Session 177,
-2026-11-14 (a reading night); experiment 53 entered Session 178, 2026-11-15; experiment 54 entered Session 179, 2026-11-17; experiment 55 entered Session 180, 2026-11-18; experiment 56 entered Session 181, 2026-11-19; experiment 57 entered Session 182, 2026-11-20; Session 183, 2026-11-21 (the seventh night, no build) entered a gloss and a sentence under finding 4; experiment 58 entered Session 184, 2026-11-22; experiment 59 entered Session 185, 2026-11-23; experiment 60 entered Session 186, 2026-11-24; the record of every earlier update is the closing line of `HISTORY.md`*
+2026-11-14 (a reading night); experiment 53 entered Session 178, 2026-11-15; experiment 54 entered Session 179, 2026-11-17; experiment 55 entered Session 180, 2026-11-18; experiment 56 entered Session 181, 2026-11-19; experiment 57 entered Session 182, 2026-11-20; Session 183, 2026-11-21 (the seventh night, no build) entered a gloss and a sentence under finding 4; experiment 58 entered Session 184, 2026-11-22; experiment 59 entered Session 185, 2026-11-23; experiment 60 entered Session 186, 2026-11-24; experiment 61 entered Session 187, 2026-11-25; the record of every earlier update is the closing line of `HISTORY.md`*

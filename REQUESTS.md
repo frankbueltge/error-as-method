@@ -46,6 +46,10 @@ brief named a task (haiku on three subjects), and no maker's poem or notes menti
 person's GeoCities home page), and no maker's page or notes mentions error (recorded, not scored). One maker's shell
 wrote an empty file at this repository's root (F-394): the makers' shell starts here, whatever folder they are given.
 
+*Session 187, 2026-11-25:* still no answer. Eighteen makers ran carrying the name; the brief named a task (names for ten
+US pleasure boats), and no maker's names mention error (recorded, not scored). Every brief gave an absolute folder path
+and asked the maker to use it in every command; no file appeared outside the makers' folders.
+
 **Status:** open
 
 ---

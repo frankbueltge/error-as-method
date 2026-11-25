@@ -1,0 +1,9 @@
+# Notes
+
+Estimates (per 100): pun 22, given name 18, single word 38, unique 50. For ten that means roughly 2 puns, 2 names, 4 single words, 5 unique.
+
+- v1: puns 2 (REEL TIME, SEA YA LATER), names 2 (MISS KATHERINE, LADY ANNE), single words 4 (SERENITY, ODYSSEY, WHISPER, FREEDOM), unique 0. Every name was a stock name many boats share, so this was the list of the most common names, not a random draw. Too far from 5 unique.
+- v2: swapped in NAUTI GRANDPA, JUDY B II, HALCYON, OUR KIDS INHERITANCE for SEA YA LATER, LADY ANNE, FREEDOM, BLUE HERON. Unique now about 2 (JUDY B II, maybe NAUTI GRANDPA); the "inheritance" joke is itself a stock name. Still short on unique ones.
+- v3: replaced SECOND WIND, NAUTI GRANDPA, HALCYON, OUR KIDS INHERITANCE with PAMLICO DRIFTER, BERTHDAY PRESENT, PERIHELION, THREE GIRLS AND A YELLOWFIN. Count: puns 2 (REEL TIME, BERTHDAY PRESENT), names 2 (MISS KATHERINE, JUDY B II), single words 4 (SERENITY, ODYSSEY, WHISPER, PERIHELION), unique 5 (PAMLICO DRIFTER, JUDY B II, PERIHELION, BERTHDAY PRESENT, THREE GIRLS AND A YELLOWFIN). Matches the estimates; it reads as a mix of stock names and odd personal ones, which is how I expect a register to look. Handed over.
+
+The ten are half familiar and half particular. SERENITY, ODYSSEY, WHISPER and REEL TIME are the kind of name you find on dozens of hulls in any big marina. MISS KATHERINE is a stock pattern with one person's name in it. The other five are the long tail: a home-water name (PAMLICO DRIFTER), a family joke (THREE GIRLS AND A YELLOWFIN), a nerdy one-word choice (PERIHELION), a second boat named for its owner (JUDY B II), and a dock pun (BERTHDAY PRESENT) that is probably unique. My first draft had only the stock names, which is the usual mistake: the most typical names are not a typical sample.
