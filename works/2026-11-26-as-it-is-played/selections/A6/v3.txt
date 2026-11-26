@@ -1,0 +1,8 @@
+06 - blitz, ~1080 pair, messy 41 moves, lost on time
+02 - blitz, ~1675, 9-move knight fork, early resignation
+38 - blitz, ~1780, ends in checkmate
+46 - blitz, ~1980, Blackmar-Diemer gambit, 50 moves, resignation
+11 - bullet, ~1250, 50 moves, won on time with a pawn running
+53 - bullet, ~1680, flagged in a lost position
+36 - bullet, ~2240, attack ending in mate
+19 - rapid, 1120 vs 1447 mismatched pairing, queen trapped, resignation

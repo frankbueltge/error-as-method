@@ -1,0 +1,8 @@
+08 - blitz 1456: pawn storm ends in g1=Q#, mate by promotion
+56 - blitz 1937: 18-move attack on the castled-long king, Qxd8#
+49 - bullet 2509 v 2605: White king hunted up the board, Black promotes and mates
+07 - bullet 2078: promotes twice but the game is decided on the clock
+01 - ultrabullet 15 seconds: seven moves, lost on time
+22 - blitz 2536 v 2426: queen grabs pawns, perpetual chase, draw in 7
+47 - rapid 1500 v 2153: queen raid Qxf2+ wins in 10 moves
+54 - rapid 1173 v 990: wild Qf3/g4 opening, queens hunt each other, resigned in 13

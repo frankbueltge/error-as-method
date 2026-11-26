@@ -487,3 +487,17 @@ count and it returns where they are silent. The halves of one draw differed on P
 over-counts (F-400). Works with *Cartography, not Tracing* and Rheinberger's epistemic thing against technical objects.
 One study declared. (`journal/2026-11-25.md`)
 
+
+**Session 188, 2026-11-26 — experiment 62, *As It Is Played*.** Moves the question from making to choosing: does the
+type return when a machine collaborator selects from the people's own material? Lichess open database (CC0), 128,323
+complete rated games of 1 October 2026, 00:00 to 01:46 UTC; 400 drawn by seed 188, sixty the pool. Eighteen fresh
+selectors chose eight of the sixty, every version kept: six "as it is" (A), six given the sixty's counts of endings and
+speeds (B, experiment 61's arm G moved to choosing), six "most worth showing" (C). Features computed by replaying the
+moves; no coder. P1, P2, P3 and P6 failed (F-401), P4 neither, P5, P7 and P8 held. A's checkmates 27.1 % (pool 26.7 %);
+four A selectors counted the pool in their first version, two began with a "highlight reel" and corrected it on
+re-reading. Post hoc: all twelve A and B eights within 1.73 games of the pool's ending mix (random eights 16.4 %), draws
+in 0, 1 and 6 of 6 eights in A, B and C (random 35.5 %); C 50 % checkmates and a median overlap of five games. The
+type moved from the mean to the variance. An engine count of blunders was refused by the session's guard and not
+attempted another way (F-402); the frame is 106 minutes (F-403). Works against *Cartography, not Tracing*: the
+selectors' eights as tracings at small scale, the chance draw as the map. One study declared.
+(`journal/2026-11-26.md`)

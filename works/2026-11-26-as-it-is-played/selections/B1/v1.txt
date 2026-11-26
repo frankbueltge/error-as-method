@@ -1,0 +1,8 @@
+12 - blitz 5+0, 1612 v 1612, resignation after 26: ordinary Caro-Kann, queen raid, Black wins material and White gives up
+57 - blitz 5+0, ~950 v ~935, checkmate on move 30: beginner-level Englund-ish game, kings walk, mate
+09 - blitz 3+0, ~1370 pair, lost on time after 35: Black is winning and White's clock runs out
+60 - blitz 5+0, ~1900 pair, lost on time after 46: long middlegame, Black flags in a lost position
+45 - bullet 1+0, ~1245 pair, lost on time after 50: White up material but flags while pushing pawns
+20 - bullet 1+0, ~1300 pair, checkmate on move 34: Pirc, queen and knight mate on g7
+31 - bullet 1+0, 1535 pair, resignation after 20: Nimzo-Larsen, a knight fork wins the exchange and White resigns
+13 - rapid 10+0, ~1425 pair, resignation after 46: Bishop's Opening, long endgame, Black queens and White resigns

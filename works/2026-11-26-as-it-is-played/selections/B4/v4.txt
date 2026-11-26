@@ -1,0 +1,8 @@
+04  blitz 3+0, 1440 vs 1438, English, black loses the exchange and resigns at move 20 (1-0)
+60  blitz 5+0, 1944 vs 1888, Closed Sicilian, white pressing and black's flag falls at move 46 (1-0)
+57  blitz 5+0, 952 vs 935, Englund Gambit, a scrappy game between beginners ending in mate (0-1)
+03  blitz 3+0, 1922 vs 1957, Four Knights, sharp middlegame, black saves it by perpetual check - the draw
+31  bullet 1+0, 1535 vs 1534, Nimzo-Larsen, white loses the exchange and resigns at move 20 (0-1)
+07  bullet 1+0, 2079 vs 2078, Caro-Kann queenless middlegame, white queens twice and black's clock runs out (1-0)
+20  bullet 1+0, 1323 vs 1275, Pirc, queen-and-knight mate (1-0)
+47  rapid 10+0, 1500 vs 2153, Ruy Lopez, mismatched pairing, white's queen is trapped and resigns at move 10 (0-1)

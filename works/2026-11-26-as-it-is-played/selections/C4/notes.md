@@ -1,0 +1,8 @@
+# Notes
+
+- v1: first pass by drama alone: eight checkmates or near-checkmates, mostly 1900+ and mostly bullet, plus the ultrabullet game.
+- v2: read as a whole, v1 was a highlight reel of mates, not a picture of online chess, where most games end on time or by resignation and most players are nowhere near 2500. Dropped 50 (a second long high-rated bullet promotion race, too like 49) and 16; added 45 (a won game lost on the clock, the most online-chess thing in the pool) and 03 (a queen sacrifice into perpetual, the only kind of draw worth showing).
+- v3: v2 still had five mates and no resignation, the most common way games end. Swapped 10 for 47: still rapid and still a big rating mismatch, but a 10-move queen trap that ends in resignation and reads at once on a small board.
+- v4: the ratings still leaned high, with two games above 2500 (49 and 59) that did the same job of showing the top of the site. Dropped 59 and added 57, two sub-1000 players and a king walked into mate, so the eight run from about 900 to 2600.
+
+The eight cover every speed in the pool (one ultrabullet, two bullet, four blitz, one rapid), ratings from about 920 to 2605, and every kind of ending: four mates, two losses on time, one resignation and one draw. Each one has a moment that reads on a small board: a flag after seven moves, a pawn queening with mate, a queen trapped by a check, a won position thrown away on the clock, a queen sacrifice into perpetual check, a knight-check mate, and a king hunt with a new queen at the top level. Together they show the range of online chess more than its best play: fast, often decided by the clock, and played by beginners and masters alike.

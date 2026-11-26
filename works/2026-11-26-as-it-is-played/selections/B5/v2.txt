@@ -1,0 +1,8 @@
+47 - rapid, resignation, 1500 v 2153; mismatched pairing, white falls into an early trap and resigns on move 10
+12 - blitz, resignation, 1612 v 1612; middle-of-the-pool rating and length, Caro-Kann, exchange sac wins
+28 - blitz, resignation, 1382 v 1358; Wayward Queen (2.Qh5) game, a staple of club-level online play
+57 - blitz, checkmate, 952 v 935; Englund Gambit between beginners, black mates the wandering king
+60 - blitz, time, 1944 v 1888; Closed Sicilian, black flags in a lost position
+45 - bullet, time, 1239 v 1251; white is clearly winning but runs out of time
+29 - bullet, time, 1816 v 1716; King's Indian, white flags with material roughly level
+36 - bullet, checkmate, 2230 v 2249; strong bullet players, attack ending in Rxh6 mate

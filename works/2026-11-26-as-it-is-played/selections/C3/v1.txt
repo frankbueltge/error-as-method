@@ -1,0 +1,8 @@
+01 - the only ultrabullet game: 15 seconds each, seven moves, lost on time; a format only online chess has
+08 - club blitz (1460) ending with a pawn promoting to queen with mate, 23...g1=Q#
+45 - bullet, White is a knight and pawns up against a lone king and a pawn and still loses on time
+47 - rapid, 1500 vs 2153: White grabs a pawn and loses the queen in ten moves
+49 - bullet between 2500s: White's king is chased to h3, Black promotes and mates
+56 - blitz near 1940: 18-move attack against the queenside king, ends Qxd8#
+57 - blitz below 1000: Black hunts White's king up the board to c4 and mates
+03 - blitz near 1950: a real fight that ends in a perpetual check draw

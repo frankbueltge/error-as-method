@@ -1,0 +1,8 @@
+12 - blitz 5+0, resignation, 1612 v 1612, Caro-Kann; an even mid-rated game (rating band ~1610-1680)
+44 - blitz 5+0, resignation, ~1300, Latvian Gambit; early-blunder resignation (band ~1300-1410)
+27 - rapid 10+0, time, 1700 v 1348, Mikenas; the one rating mismatch, decided by the clock (band ~1430-1530)
+41 - blitz 3+0, checkmate, ~1050, Sicilian; lowest band, wild, ends in mate
+36 - bullet 1+0, checkmate, ~2240, Bishop's Opening; top band, bullet attack ending in mate
+45 - bullet 1+0, time, ~1245, Modern; side with extra material flags (band ~1090-1280)
+60 - blitz 5+0, time, ~1915, Closed Sicilian; lost position, clock runs out (band ~1840-1950)
+24 - bullet 1+0, resignation, 1691 v 1742, Smith-Morra; bullet resignation after losing the queen (band ~1720-1830)

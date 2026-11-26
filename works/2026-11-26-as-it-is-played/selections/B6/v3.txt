@@ -1,0 +1,8 @@
+12 - blitz, evenly matched 1612s, Caro-Kann, resigned after losing material
+14 - blitz ~1820, offbeat 1.d3 opening, ends in mate
+09 - blitz ~1370, 1.d4 game, white flags while ahead
+60 - blitz ~1915, Closed Sicilian, long game lost on time
+58 - bullet ~1370, resigned after 5 moves, the quick-quit reality
+36 - bullet ~2240, Bishop's Opening, ends in checkmate
+21 - bullet ~1435, Nimzo-Indian, white flags in a lost position
+37 - rapid ~1630, Scotch, resignation

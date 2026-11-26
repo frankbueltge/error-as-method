@@ -1,0 +1,8 @@
+47 - rapid, resignation, 1500 v 2153; mismatched pairing, white walks into an early trap and resigns on move 10
+04 - blitz, resignation, 1440 v 1438; English Opening (1.c4), white wins the exchange and the queen trade, 20 moves
+28 - blitz, resignation, 1382 v 1358; Wayward Queen (2.Qh5), a staple of club-level online play
+57 - blitz, checkmate, 952 v 935; Englund Gambit between beginners, black mates the wandering king
+60 - blitz, time, 1944 v 1888; Closed Sicilian, black flags in a lost position
+53 - bullet, time, 1679 v 1676; Sicilian, sacrifice on h5, black's clock runs out after losing the queen
+29 - bullet, time, 1816 v 1716; King's Indian, white's clock runs out first
+36 - bullet, checkmate, 2230 v 2249; strong bullet players, attack ending in Rxh6 mate

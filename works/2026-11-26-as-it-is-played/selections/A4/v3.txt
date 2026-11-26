@@ -1,0 +1,8 @@
+41 - blitz 3+0, ~1050 players, queen grabs a rook, ends in mate: typical low-rated blitz
+12 - blitz 5+0, 1612 v 1612, Caro-Kann, tactical swing, resignation: mid-pool blitz
+18 - blitz 3+0, ~1850, 102 moves, drawn rook ending decided on the clock
+02 - blitz 3+0, ~1670, French, knight fork on move 9, instant resignation: the short-game share
+45 - bullet 1+0, ~1245, White way ahead but loses on time: typical low bullet
+24 - bullet 1+0, ~1715, Smith-Morra, resignation after 19 moves
+50 - bullet 1+0, ~2240, the pool's 2000+ share; played on to mate with two new queens instead of resigning
+27 - rapid 10+0, 1700 v 1348, uneven pairing (as most rapid games in the pool are), won on time

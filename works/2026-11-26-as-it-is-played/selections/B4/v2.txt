@@ -1,0 +1,8 @@
+12  blitz 5+0, 1612 vs 1612, Caro-Kann Advance, black wins the exchange and white resigns at move 26
+60  blitz 5+0, 1944 vs 1888, Closed Sicilian, white pressing and black's flag falls at move 46
+57  blitz 5+0, 952 vs 935, Englund Gambit, a scrappy game between beginners ending in mate (0-1)
+55  blitz 5+0, 1841 vs 1843, Pirc, long ending traded down to bare kings - the draw
+24  bullet 1+0, 1691 vs 1742, Smith-Morra, white drops the queen and resigns at move 19
+07  bullet 1+0, 2079 vs 2078, Caro-Kann queenless middlegame, white queens twice and black's clock runs out
+20  bullet 1+0, 1323 vs 1275, Pirc, queen-and-knight mate (1-0)
+37  rapid 10+0, 1677 vs 1576, Scotch, tactical middlegame, black resigns at move 30

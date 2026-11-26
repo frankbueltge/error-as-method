@@ -1,0 +1,8 @@
+49 - 30-second bullet between 2500s; Black's king walk ends with a fresh queen mating on g3
+59 - top-rated game in the pool (2764); rook and pawn mating net, Rb1#
+08 - even 1460 blitz; kingside pawn storm crowned by g1=Q#
+47 - rapid, 1500 vs 2153; queen raid on f2/g2 wins in 10 moves
+56 - even 1940 blitz; knight checks Nxa7+, Ndc6+ and Qxd8# in 18 moves
+18 - 102-move blitz; bare rook vs rook, decided on time
+57 - two players rated ~940; king hunted up the board to c4, Qc7#
+03 - wild Four Knights between 1900s ends in perpetual check

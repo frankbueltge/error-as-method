@@ -1,0 +1,8 @@
+57 - blitz, ~950, Englund Gambit (common in the pool), ends in mate
+45 - bullet, ~1240, a piece up and still loses on time
+42 - blitz, 1407 vs 1294, Scotch, a blunder and a resignation
+47 - rapid, 1500 vs 2153, mismatched pairing (typical of rapid here), resigns after 10 moves
+12 - blitz, 1612 vs 1612, Caro-Kann, a loose sequence and a resignation
+53 - bullet, ~1680, plain Sicilian, speculative sac, flag on move 27
+18 - blitz, 1850s, 102-move rook endgame decided on the clock
+49 - 30-second bullet, 2500-2600, ends in mate

@@ -1,0 +1,8 @@
+45 - bullet 1239 v 1251: White is totally winning and loses on time anyway
+52 - bullet, Polish Opening 1.b4, ends in a back-rank mate
+59 - bullet at the top (2594 v 2764), clean endgame finished with a mate
+08 - blitz 1460s, Alekhine, mutual king attacks, mate by a new queen
+18 - blitz 1850s, 102 moves, rook endgame decided on the clock
+41 - blitz at 1000s, queen goes pawn-grabbing, wild king hunt to mate
+57 - blitz at 950, Englund Gambit (very common in the pool), mate
+13 - rapid 1430s, Bishop's Opening, long fight, pawn promotes

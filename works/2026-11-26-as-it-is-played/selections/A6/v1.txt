@@ -1,0 +1,8 @@
+06 - blitz, ~1080 pair, messy 41 moves, lost on time
+12 - blitz, 1612 vs 1612, tactical skirmish, resignation
+38 - blitz, ~1780, ends in checkmate
+44 - blitz, ~1300, 8-move Latvian Gambit collapse
+11 - bullet, ~1250, 50 moves, won on time with a pawn running
+53 - bullet, ~1680, flagged in a lost position
+36 - bullet, ~2240, attack ending in mate
+13 - rapid, ~1430, long endgame, resignation

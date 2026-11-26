@@ -1,0 +1,8 @@
+12 - blitz 5+0, even 1612 pair, Caro-Kann, resignation after a tactical collapse
+40 - blitz 3+2, ~1810 pair, Queen's Pawn, checkmate
+9 - blitz 3+0, ~1370 pair, messy middlegame, decided on time
+44 - blitz 5+0, ~1300 pair, Latvian Gambit, over in 8 moves
+11 - bullet 1+0, ~1250 pair, long scramble, decided on time
+7 - bullet 1+0, ~2080 pair, endgame race to promote, flag fall
+36 - bullet 1+0, ~2240 pair, Vienna-type opening, checkmate (adds the strong end of the pool)
+19 - rapid 20+0, 1120 vs 1447 mismatch, resignation

@@ -1,0 +1,8 @@
+01 - ultrabullet, 15 seconds a side: seven moves and someone runs out of time
+08 - blitz, 1460s: black's pawn storm ends with g1=Q mate
+56 - blitz, 1940s: black's king trapped, short game finished by Qxd8 mate
+49 - bullet, 2500-2600: king hunt across the board, then promotion and Qg3 mate
+41 - blitz, 1070 v 1018: a wild queen raid and a king hunt from the players who make up most of the site
+22 - blitz, 2500s: queen grabs pawns, repetition draw in seven moves
+47 - rapid, 1500 v 2153: white's queen trapped by Bg4+, over in ten moves
+07 - bullet, 2079s: white has two queens and still wins only on the clock

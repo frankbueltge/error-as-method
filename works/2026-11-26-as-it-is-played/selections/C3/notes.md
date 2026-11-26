@@ -1,0 +1,6 @@
+# Notes
+
+- v1: First pick, chosen for spread of speed (ultrabullet to rapid), rating (about 930 to 2600) and ending (time, mate, resignation, draw), and for finishes that read on a small board.
+- v2: Read as a set, v1 had four checkmates out of eight, while resignation, the most common ending in the pool, had only one game. 56 also overlapped with 08 (mid-level blitz, quick mate). I swapped 56 for 35, a blitz game near 2000 that ends with a knight fork and a resignation. That fills the gap between the 1500s and the 2500s too.
+
+The eight show online chess as the pool shows it, not only its best moments. There is the one ultrabullet game, which is over almost before the boards settle (01). There is a game where the side with an extra knight loses on the clock to a lone king (45), and a 650-point mismatch over in ten moves (47). The finishes are clear even on small boards: a promotion mate at club level (08), a king hunt between players under 1000 (57), a king chased across the board in 2500-rated bullet (49), and a fork that ends a sharp 2000-level game (35). Rounding it out is a hard-fought blitz game that ends in perpetual check (03). Every speed in the pool is here. The ratings run from about 920 to 2600, and the set has all four ways a game ends: on time, by mate, by resignation and drawn.

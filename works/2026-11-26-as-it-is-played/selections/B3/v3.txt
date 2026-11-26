@@ -1,0 +1,8 @@
+02 - blitz 3+0, resignation, 1655 v 1693, French (1.e4); resigns after a knight fork on move 9, the short-game resignation
+41 - blitz 3+0, checkmate, 1070 v 1018, Sicilian (1.e4); lowest rating band, chaotic, ends in mate
+45 - bullet 1+0, time, 1239 v 1251, Modern (1.e4); player a knight up still loses on the clock
+52 - bullet 1+0, checkmate, 1381 v 1435, Polish 1.b4; the offbeat first move, ends in back-rank mate
+27 - rapid 10+0, time, 1700 v 1348, Mikenas (1.d4); the rating mismatch, finished by the clock
+24 - bullet 1+0, resignation, 1691 v 1742, Smith-Morra (1.d4 c5 2.e4); resignation after the queen falls
+60 - blitz 5+0, time, 1944 v 1888, Closed Sicilian (1.e4); lost position, flag falls
+35 - blitz 3+2, resignation, 1996 v 2024, Caro-Kann Advance (1.d4); top rating band, increment game, resignation
