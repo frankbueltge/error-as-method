@@ -1,0 +1,8 @@
+12 - blitz 5+0, resignation, 1612 v 1612, Caro-Kann; an even mid-rated game decided by a middlegame tactic
+44 - blitz 5+0, resignation, ~1300, Latvian Gambit; one of the early-blunder resignations (8 moves)
+37 - rapid 10+0, resignation, 1677 v 1576, Scotch; ordinary rapid game
+41 - blitz 3+0, checkmate, ~1050, Sicilian; low-rated, wild, ends in mate
+36 - bullet 1+0, checkmate, ~2240, Bishop's Opening; strong bullet attack ending in mate
+45 - bullet 1+0, time, ~1245, Modern; the player with extra material flags
+60 - blitz 5+0, time, ~1915, Closed Sicilian; lost position, clock runs out
+29 - bullet 1+0, time, 1816 v 1716, King's Indian; bullet game ended by the clock

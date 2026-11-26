@@ -1,0 +1,8 @@
+49 - 2500s bullet: white king hunted up the board, pawn queens, mate on g3
+59 - 2764-rated bullet: rook-and-pawn grind ending in Rb1 mate
+08 - 1460 blitz: pawn storm, g1=Q is mate
+56 - 18-move blitz mate, Nxa7+, Ndc6+, Qxd8#
+10 - rapid, 1872 vs 992: Qxh7 mate in 16
+50 - 2200s bullet: both sides race pawns, white makes two queens and mates
+16 - 2462 crushes 1969: Rxg4 mate after king walk
+01 - ultrabullet (15 seconds): 7 moves then flag

@@ -1,0 +1,8 @@
+12 - blitz, evenly matched 1612s, Caro-Kann, resigned after losing material
+14 - blitz ~1820, offbeat opening, ends in mate
+09 - blitz ~1370, black flags white while ahead
+33 - blitz ~1090, beginner-level play, lost on time
+58 - bullet, resigned after 5 moves, the abandoned-game reality
+20 - bullet ~1300, ends in checkmate
+45 - bullet ~1245, side with lone king wins on time, typical bullet
+37 - rapid ~1630, Scotch, resignation

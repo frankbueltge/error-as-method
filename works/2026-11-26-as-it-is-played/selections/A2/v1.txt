@@ -1,0 +1,8 @@
+41 - blitz, ~1050s, wild queen raid and mate: chaos at club level
+18 - blitz, 1850s, 102-move rook endgame decided on the clock
+45 - bullet, ~1240, a piece up and still loses on time
+47 - rapid, 1500 vs 2153, queen trap in 10 moves
+56 - blitz, ~1940, mate on move 18 after a queen grab
+49 - 30-second bullet, 2500-2600, mate with seconds left
+44 - blitz, ~1300, Latvian Gambit falls apart in 8 moves
+03 - blitz, ~1940, perpetual-check draw

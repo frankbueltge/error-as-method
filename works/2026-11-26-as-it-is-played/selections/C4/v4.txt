@@ -1,0 +1,8 @@
+01 - ultrabullet, 15 seconds a side: 7 moves then flag
+57 - sub-1000 blitz Englund Gambit: white king walks to c4 and is mated
+08 - 1460 blitz: pawn storm, g1=Q is mate
+47 - rapid, 2153 vs 1500: queen raid, Bg4+ wins the queen, resigns move 10
+45 - 1240s bullet: white wins everything, then loses on time with only a pawn left against him
+03 - 1900s blitz: queen sacrifice Qxe8, then perpetual check draw
+56 - 1940s blitz: 18-move mate, Nxa7+, Ndc6+, Qxd8#
+49 - 2500-2600 bullet: white king hunted up the board, pawn queens, mate on g3

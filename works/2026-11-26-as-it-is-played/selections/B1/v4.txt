@@ -1,0 +1,8 @@
+35 - blitz 3+2, ~2010 pair, resignation after 38: Caro-Kann Advance with g4/h4, sharp, Black resigns to a knight fork
+08 - blitz 5+0, ~1458 pair, checkmate on move 23: Alekhine, opposite castling, Black's pawn storm queens with mate
+51 - blitz 5+0, 1210 v 1244, lost on time after 37: 1.d4 e5 (Englund), Black ahead in material, White flags
+60 - blitz 5+0, ~1915 pair, lost on time after 46: long Closed Sicilian, Black flags in a lost position
+15 - bullet 1+0, 1748 v 1917, lost on time after 67: messy scramble, Black queens, White flags
+36 - bullet 1+0, ~2240 pair, checkmate on move 28: strong bullet players, opposite castling, mate on h6
+31 - bullet 1+0, 1535 pair, resignation after 20: Nimzo-Larsen, knight fork wins the exchange, White resigns
+54 - rapid 10+0, 1173 v 990, resignation after 13: early queen sortie, Black loses the queen and resigns at once

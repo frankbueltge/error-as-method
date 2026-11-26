@@ -1,0 +1,8 @@
+13 - rapid, resignation, 1435 v 1418; long fight, black queens a pawn
+02 - blitz, resignation, 1655 v 1693; resigns after a knight fork on move 9
+46 - blitz, resignation, 1983 v 1974; Blackmar-Diemer gambit, ground out to move 50
+38 - blitz, checkmate, 1792 v 1770; sacrifices around the king, Qxh7 mate
+18 - blitz, time, 1849 v 1850; 102-move rook endgame decided by the clock
+45 - bullet, time, 1239 v 1251; white is winning but flags
+07 - bullet, time, 2079 v 2078; promotes twice while black's clock runs out
+36 - bullet, checkmate, 2230 v 2249; Bishop's Opening attack ending in Rxh6 mate

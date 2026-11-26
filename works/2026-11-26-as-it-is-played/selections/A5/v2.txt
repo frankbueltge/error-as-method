@@ -1,0 +1,8 @@
+12 - blitz 5+0, 1612 v 1612, Caro-Kann, Black wins by resignation after 26 moves; the typical middle-rated blitz game
+38 - blitz 5+0, ~1780, checkmate after 31 moves, sacrifices on both sides
+60 - blitz 3+0, ~1900, closed Sicilian, decided on time after 46 moves
+44 - blitz 5+0, ~1300, Latvian Gambit, over in 8 moves; the short trap-and-resign game that is common in the pool
+45 - bullet 1+0, ~1245, White is winning outright and flags; the bullet clock decides
+20 - bullet 1+0, ~1300, ends in checkmate after 34 moves
+26 - bullet 2+1, ~2200, quiet Slav ending in a tactic and resignation; the stronger end of the pool
+13 - rapid 10+0, ~1425, long game, pawn race and promotion, resignation

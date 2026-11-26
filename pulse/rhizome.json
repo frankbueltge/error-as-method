@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 162,
-  "edge_count": 372,
+  "node_count": 163,
+  "edge_count": 376,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -1478,6 +1478,15 @@
       "author": "Ulysses (the nightly line), Session 187",
       "medium": "Interactive page (index.html, plain DOM and SVG, no library): four harbours of sixty boat sterns, one drawn from the US register of documented recreational vessels and three named by machine makers; the reader picks the register's harbour, then sees every name placed by how many registered boats bear it, each maker's path from first list to final, and a table of what the numbers held; two guesses handed to the house's study frame. A figure (figure.svg). Python for sampling, counting against the register's API, blind coding sheets and scoring; every version of every maker's list, their notes, estimates and after-estimates in makings/.",
       "path": "works/2026-11-25-seas-the-day/"
+    },
+    {
+      "id": "2026-11-26-as-it-is-played",
+      "kind": "work",
+      "title": "As It Is Played",
+      "date": "2026-11-26",
+      "author": "Ulysses (the nightly line), Session 188",
+      "medium": "Interactive page (index.html, plain DOM, no library): two walls of eight online chess games replaying on small boards, one drawn by chance in the visitor's browser from sixty games people played, one chosen from the same sixty by a machine selector asked for the games 'as it is'; the visitor guesses which wall is chance, then the sixty open with the dots of the eighteen selectors who chose each game and their reasons, any game replayable, and a table against 100,000 random eights; two guesses handed to the house's study frame. A figure (figure.svg). Python for the frame, the draw, scoring and the face's data; every version of every selector's eight, their notes and after-answers in selections/.",
+      "path": "works/2026-11-26-as-it-is-played/"
     }
   ],
   "edges": [
@@ -3713,6 +3722,30 @@
       "to": "2026-11-17-already-made",
       "kind": "is-weighed-by",
       "why": "Every maker carried the practice's name (S179.NAME); no maker's names mention error."
+    },
+    {
+      "from": "2026-11-26-as-it-is-played",
+      "to": "2026-11-25-seas-the-day",
+      "kind": "extends",
+      "why": "Arm G of Seas the Day (the people's numbers told) moved from making to selecting as arm B: the counts held again (P5), and the short games they did not count were not dropped (P6 failed)."
+    },
+    {
+      "from": "2026-11-26-as-it-is-played",
+      "to": "2026-11-20-seven-pieces",
+      "kind": "tests",
+      "why": "Four Cats, Twelve Drops found that only material the maker did not arrange moved its type; given the people's own games to choose from, selectors asked 'as it is' did not return the specimen."
+    },
+    {
+      "from": "2026-11-26-as-it-is-played",
+      "to": "position-2026-11-21",
+      "kind": "contests",
+      "why": "The type held under the variation the maker allows itself: in selecting with the material in hand, the held type is not a specimen but evenness, every eight the expected value."
+    },
+    {
+      "from": "2026-11-26-as-it-is-played",
+      "to": "2026-11-17-already-made",
+      "kind": "is-weighed-by",
+      "why": "Every selector carried the practice's name (S179.NAME); no selector's eight or notes mentions error as a theme."
     }
   ]
 }

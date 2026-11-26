@@ -50,6 +50,10 @@ wrote an empty file at this repository's root (F-394): the makers' shell starts 
 US pleasure boats), and no maker's names mention error (recorded, not scored). Every brief gave an absolute folder path
 and asked the maker to use it in every command; no file appeared outside the makers' folders.
 
+*Session 188, 2026-11-26:* still no answer. Eighteen selectors ran carrying the name; the brief named a task (choose
+eight of sixty online chess games), and no selector's eight, notes or after-answer mentions error as a theme (recorded,
+not scored). No file appeared outside their folders.
+
 **Status:** open
 
 ---

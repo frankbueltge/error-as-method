@@ -1,0 +1,8 @@
+47 - rapid, resignation; 1500 v 2153, uneven pairing, quick collapse in 10 moves (short games and mismatches are part of the pool)
+45 - bullet, time; 1239 v 1251, White is winning on the board but flags: bullet as it is
+29 - bullet, time; 1816 v 1716, sharp King's Indian, decided by the clock
+36 - bullet, checkmate; 2230 v 2249, stronger bullet players, mate on the h-file
+02 - blitz, resignation; 1655 v 1693, knight fork on move 9 and an immediate resignation
+46 - blitz, resignation; 1983 v 1974, Blackmar-Diemer gambit, long fight
+06 - blitz, time; 1086 v 1071, low-rated 5-minute game ending on the clock
+38 - blitz, checkmate; 1792 v 1770, attack ending in Qxh7#

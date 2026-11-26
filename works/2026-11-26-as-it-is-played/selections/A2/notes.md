@@ -1,0 +1,9 @@
+# Notes
+
+- v1: First pass, picking games that stood out on reading. Reread as a set, it was a highlight reel: three miniatures (44, 47, 56), three mates, five blitz games and only two bullet games, and no sign of the Englund Gambit, which turns up again and again in the pool.
+- v2: Dropped 44 (a second miniature) and 56 (a mate), and added 57 (Englund Gambit, rated around 950) and 53 (an ordinary bullet game lost on time). The speed mix now matches the pool (4 blitz, 3 bullet, 1 rapid). Reread, it had only one resignation, although resignation is the most common ending in the pool (23 of 60). It also had a draw, although only 3 of the 60 games are drawn.
+- v3: Dropped 41 (a third game rated under 1100 that ends in mate) and 03 (the draw). Added 42 and 12, two ordinary blitz games rated 1300-1600 that end in resignation. Checked the set against the pool: speeds 4 blitz, 3 bullet, 1 rapid; endings 3 resignations, 3 losses on time, 2 mates (the pool has 23, 18 and 16); median length about 29 moves, close to the pool's. Kept it.
+
+## The eight
+
+The eight are 57, 45, 42, 47, 12, 53, 18 and 49. They follow the pool's own proportions, not its best moments. Most are blitz and bullet. The ratings run from about 950 to 2600, with most of the games between 1200 and 1900. Three games are lost on time; in 45 the player who flagged was a knight up, and 18 is a 102-move endgame that ends when the clock runs out. Three end in resignation after an ordinary blunder. Two end in mate: one between beginners, and one in a 30-second game between players rated around 2550. 47 is the one mismatched pairing; in the pool, most rapid games pair players far apart in rating, so it stands for that. The openings are mixed and include the Englund Gambit, which comes up often in the pool. There is no draw, because only 3 of the 60 games were drawn.

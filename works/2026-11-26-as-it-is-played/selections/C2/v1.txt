@@ -1,0 +1,8 @@
+08 - blitz 1460s: Black's pawn storm ends with g1=Q mate, a promotion that mates
+56 - blitz 1940s: 18-move miniature, two knight jumps and Qxd8 mate on the castled king
+16 - blitz 1969 vs 2462: the stronger player sacrifices and mates with rooks on the g-file
+49 - bullet 2509 vs 2605: White's king is hunted from e1 to h3 and mated by a new queen
+59 - bullet 2594 vs 2764: highest-rated game in the pool, a clean rook-endgame mate
+50 - bullet 2250s: both sides race pawns, White makes two queens and mates
+36 - bullet 2230s: Black's queen grab backfires, Rxh6 mate down the h-file
+01 - ultrabullet, 15 seconds each: seven moves and a flag, a format only online chess has

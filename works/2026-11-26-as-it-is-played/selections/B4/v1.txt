@@ -1,0 +1,8 @@
+12  blitz 5+0, ~1612 vs 1612, resignation after a rook-for-bishop collapse, 26 moves - an ordinary blitz game
+09  blitz 3+0, ~1370, white flags after a wild queen-and-rook ending - time loss in blitz
+08  blitz 5+0, ~1460, Alekhine, kings castled opposite, mate by underpromotion-race g1=Q# - checkmate
+55  blitz 5+0, ~1840, Pirc, long ending traded down to bare kings - the draw
+31  bullet 1+0, ~1535, resigns after losing the exchange at move 20 - quick bullet resignation
+11  bullet 1+0, ~1250, French Exchange, white runs out of time as black's a-pawn arrives - bullet flag
+20  bullet 1+0, ~1300, Pirc, queen-and-knight mate - bullet checkmate
+13  rapid 10+0, ~1430, Bishop's Opening, long fight, resigns as black queens - the rapid game

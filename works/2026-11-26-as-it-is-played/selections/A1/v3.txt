@@ -1,0 +1,8 @@
+12 - blitz 5+0, even 1612 pair, Caro-Kann, resignation after a tactical collapse
+40 - blitz 3+2, ~1810 pair, Queen's Pawn, checkmate
+60 - blitz 5+0, ~1915 pair, Closed Sicilian, decided on time
+44 - blitz 5+0, ~1300 pair, Latvian Gambit, over in 8 moves
+53 - bullet 1+0, ~1680 pair, Sicilian, decided on time
+7 - bullet 1+0, ~2080 pair, endgame race to promote, flag fall
+36 - bullet 1+0, ~2240 pair, Vienna-type opening, checkmate
+19 - rapid 20+0, 1120 vs 1447 mismatch, resignation

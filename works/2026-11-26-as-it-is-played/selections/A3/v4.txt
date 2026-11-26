@@ -1,0 +1,8 @@
+45 - bullet 1239 v 1251: White is totally winning and loses on time anyway
+23 - bullet 1650s, Slav, queen grabs pawns and Black resigns at move 7 (one of the many very short games)
+59 - bullet at the top (2594 v 2764), clean endgame finished with a mate
+08 - blitz 1460s, Alekhine, mutual king attacks, mate by a new queen
+30 - blitz 1660s, Dutch, slow manoeuvring game ground out to a resignation
+38 - blitz 1780s, d4 system with g6, tactics around the king, mate
+60 - blitz 1940 v 1888, Closed Sicilian, White ahead and Black flags
+19 - rapid 1120 v 1447, Philidor, the weaker player loses and resigns

@@ -1,0 +1,8 @@
+45 - bullet 1239 v 1251: White is totally winning and loses on time anyway
+23 - bullet 1650s, Slav, queen grabs pawns and Black resigns at move 7 (one of the many very short games)
+59 - bullet at the top (2594 v 2764), clean endgame finished with a mate
+08 - blitz 1460s, Alekhine, mutual king attacks, mate by a new queen
+12 - blitz 1612 v 1612, Caro-Kann Advance, White castles long and gets taken apart, resigns
+18 - blitz 1850s, 102 moves, rook endgame decided on the clock
+46 - blitz 1980s, Blackmar-Diemer Gambit, long middlegame, resignation
+19 - rapid 1120 v 1447, Philidor, the weaker player loses and resigns

@@ -3114,6 +3114,23 @@
     "note": "Outside: NOAA's copy of the USCG register through its API (frame, 400 draws, 527 names counted), the InPort record, the USCG file description, ShipIndex's name counts, Jang, Kim and Lee 2026, Zhang et al. 2025, Ozkan 2026, Meister et al. 2025 and the coin-flip paper in search excerpts; three bulletins. Inside: experiment 60, Session 183's position paper, PROJECT.md. The figure is a conjecture."
    },
    "what_moved": "Experiment 60's advice tested: building from numbers fits what the numbers count (P3, P4, P6 held) and the type returns where they are silent (P7 held): names a hundred boats share on 23 to 33 % of the makers' lists, 5.5 % of the register, 5 to 9 % by the makers' own guess; the register's middle nearly absent. P5 neither (F-398). No row."
+  },
+  {
+   "key": "2026-11-26-s188",
+   "session": 188,
+   "date": "2026-11-26",
+   "mode": "Make. Experiment 62, works/2026-11-26-as-it-is-played/, As It Is Played.",
+   "closure": 0.35,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 8,
+    "external_catalogues_consulted": 1,
+    "own_record_documents_relied_on": 6,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "Outside: the Lichess open database (first 40 MiB of October 2026, 128,323 games), its index page, search excerpts on online game endings (Chess.com 2017 and 2025, a Lichess count of 91.9 million games, a resignation-timing page), Eicher and Irgolic on list-selection bias, data-selection surveys in search excerpts; three bulletins. Inside: experiments 57 and 61, PROJECT.md, the position paper of 2026-11-21. The figure is a conjecture."
+   },
+   "what_moved": "With the people's material in hand and asked for 'as it is', machine selectors did not choose the specimen (P1-P3 failed): they counted and built a quota copy. All twelve A and B eights within 1.73 games of the pool's ending mix (random 16.4 %); one draw in twelve eights (random 35.5 % each). Asked for the most worth showing, they chose the specimen (C: 50 % mates). The type moved from the mean to the variance. F-401 to F-403. No row."
   }
  ],
  "corrections": [

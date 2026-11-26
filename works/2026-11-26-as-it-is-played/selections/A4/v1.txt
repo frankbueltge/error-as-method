@@ -1,0 +1,8 @@
+41 - blitz 3+0, ~1050 players, queen grabs a rook, ends in mate: typical low-rated blitz
+12 - blitz 5+0, 1612 v 1612, Caro-Kann, tactical swing, resignation: mid-pool blitz
+18 - blitz 3+0, ~1850, 102 moves, drawn rook ending decided on the clock
+02 - blitz 3+0, ~1670, French, knight fork on move 9, instant resignation: the short-game share
+45 - bullet 1+0, ~1245, White way ahead but loses on time: typical low bullet
+29 - bullet 1+0, ~1770, King's Indian, ends on time
+49 - bullet 30+0, ~2550, high-rated scramble ending in mate
+13 - rapid 10+0, ~1425, long Bishop's Opening game, resignation after promotion

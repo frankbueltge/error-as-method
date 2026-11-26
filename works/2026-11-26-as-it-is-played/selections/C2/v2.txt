@@ -1,0 +1,8 @@
+01 - ultrabullet, 15 seconds each: seven moves and a flag, a format only online chess has
+08 - blitz 1460s: Black's pawn storm ends with g1=Q mate, a promotion that mates
+56 - blitz 1940s: 18-move miniature, two knight jumps and Qxd8 mate on the castled king
+16 - blitz 1969 vs 2462: the stronger player sacrifices and mates with rooks on the g-file
+49 - bullet 2509 vs 2605: White's king is hunted from e1 to h3 and mated by a new queen
+45 - bullet 1240s: White is a knight and five pawns up, Black has king and one pawn, and wins on time
+10 - rapid 1872 vs 992: a big rating mismatch, Qxh7 mate in 16 moves
+57 - blitz 950s: club-level king hunt, the White king walks to c4 and is mated
