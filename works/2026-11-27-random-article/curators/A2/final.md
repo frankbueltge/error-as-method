@@ -1,0 +1,42 @@
+# Wikipedia as it is — v4
+
+## Wall text
+
+Nobody chose these twelve articles. A computer drew them at random from the 6.4 million in English Wikipedia as it stood in November 2023.
+
+Most are short: seven of the twelve run under 200 words, one is a single sentence. Four are about people, mostly little known. The rest are places, a football season, an election, a film, a school, a technical code list and a set of ancient inscriptions.
+
+They hang from shortest to longest. The famous, much-read articles are rare in a blind draw; this is the encyclopedia's ordinary body, one small subject at a time.
+
+Gaps in some texts come from the copy we drew, not from Wikipedia.
+
+## Captions and tags
+
+| | Article | Caption | Tag |
+|---|---|---|---|
+| a | Kamarupa inscriptions (178 words) | Sanskrit inscriptions on rock, copper plate and clay from an early kingdom in present-day Assam, 5th to 13th century. A large subject, briefly told. | typical |
+| b | Xavier Ramonède (605 words) | A French animator who worked on The Illusionist. A working professional rather than a star, documented in some detail. | typical |
+| c | 1974 Virginia Cavaliers football team (63 words) | One college football season in 63 words. Wikipedia keeps a page for many teams' seasons, often no longer than this. | typical |
+| d | Langlee Island (189 words) | A small puddingstone island in Boston Harbor. Places, natural and inhabited, are among the most common subjects on Wikipedia. | typical |
+| e | Jonas Pate (424 words) | An American screenwriter and director. People from film and television are one of Wikipedia's largest groups of biographies. | typical |
+| f | 2016 United States Senate election in North Dakota (177 words) | One state's Senate race. Wikipedia covers elections race by race, state by state, year by year. | typical |
+| g | Masaichi Kondō (127 words) | A Japanese naval fighter ace of the Second World War. Military history is a large, carefully tended corner of Wikipedia. | typical |
+| h | Gerald Murnane (1349 words) | An Australian novelist with an international critical reputation. Most people with Wikipedia biographies are far less prominent. | unusual |
+| i | ISO 3166-2:JP (156 words) | The international codes for Japan's prefectures: one page in a series covering every country. Reference and list pages are common. | typical |
+| j | Røyken Upper Secondary School (1102 words) | A Norwegian upper secondary school. Schools are a frequent subject; their articles range from a line to many pages. | typical |
+| k | Wallern an der Trattnach (40 words) | An Austrian municipality in one sentence. Many thousands of places have articles about this size. | typical |
+| l | Swings or Roundabouts (390 words) | A 1953 East German comedy film. Wikipedia keeps entries for films that few of its readers will have seen. | typical |
+
+Tags: "typical" means both the kind of subject and the depth of treatment are common on English Wikipedia. Only h falls outside that, by the prominence of its subject. In a random draw, most articles should look typical.
+
+## Showing order
+
+k, c, g, i, f, a, d, l, e, b, j, h
+
+By length, shortest first (40 to 1349 words), so the wall itself shows how much of Wikipedia is brief.
+
+## Judgements
+
+**Representativeness: 3 / 5.** The draw is random, so it carries no curator's bias, and its mix (people, places, sport, politics, film) looks like English Wikipedia. But twelve is very few: any share read off this wall, such as "a third are biographies", could easily be far off, and whole kinds of article (science, for instance) are simply not here.
+
+**Replacements: none.** Swapping in articles I chose would put my picture of Wikipedia in place of the draw, and the draw is the point. A missing kind of article is better answered by drawing more, at random, than by picking.

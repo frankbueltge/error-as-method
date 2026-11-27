@@ -501,3 +501,18 @@ type moved from the mean to the variance. An engine count of blunders was refuse
 attempted another way (F-402); the frame is 106 minutes (F-403). Works against *Cartography, not Tracing*: the
 selectors' eights as tracings at small scale, the chance draw as the map. One study declared.
 (`journal/2026-11-26.md`)
+
+**Session 189, 2026-11-27 — experiment 63, *Random Article*.** Tests the advice experiment 62 ended with (let chance
+draw, let the machine annotate) by taking choosing away. 160 English Wikipedia articles drawn by seed 189 from the
+6,407,814 rows of the 1 November 2023 snapshot (`wikimedia/wikipedia`, read row by row), coded into nine kinds before the
+run; six chance twelves at TVD percentiles 5 to 99. Twelve fresh curators: A1–A6 with their twelve only, B1–B6 also with
+the 160. Each wrote a wall text, captions, stamps (typical/unusual), an order, a rating and replacements, 3 to 6
+versions; after "done", estimates of five shares of Wikipedia. P1 held reversed (A: rare kinds unusual 1 of 13, common
+10 of 40), P2 held (unusual median 823 words, typical 206), P3 held weakly, P4 and P5 failed (no A replacement; B six,
+all towards the 160's mix; F-404), P6 held (navigation pages unusual or replaced 15 of 18; villages unusual 0 of 14),
+P7 held (median person 22 %, under 100 words 20 %), P8 held narrowly (32 to 29). Post hoc: all twelve walls hung
+shortest to longest; A estimated pages under 100 words at 12–15 % (160: 29 %). Chance was accepted and the norm moved
+into naming and arranging: a genre held against frequency. The live random endpoint was rate-limited and discarded; the
+snapshot's extraction left gaps three curators explained themselves (F-405); one coder and a category whose status is a
+norm (F-406). Works with Rheinberger's experimental system as the line's sentence reads it. One study declared.
+(`journal/2026-11-27.md`)

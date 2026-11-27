@@ -1,0 +1,63 @@
+# Wikipedia as it is — v5
+
+## Wall text
+
+Twelve articles, drawn by computer at random from 6.4 million. Nobody chose them. This is what most of English Wikipedia looks like: a village in Iran, a monorail stop in Japan, a frog from one mountain range, an Olympian in a hundred words. Of the 160 random articles these twelve came from, half had under 210 words and a quarter under 80. People, places, species and sport fill much of it. The wall runs from the shortest article to the longest. *Typical*: the kind of article and its length are both common among those 160. *Unusual*: one of the two is rare there. Even a random dozen holds rarities; the tail is long.
+
+## Captions
+
+(Rule used for the tags: a length counts as rare if it falls in the longest tenth of the 160 (very short articles are the crowded end, not the rare one); a kind counts as rare if no other article of the same broad kind appears among the other 159.)
+
+**a. Oscar C. Badger II** (890 words) — `typical`
+A US admiral and Medal of Honor winner. Military biographies are common. Long, but not rare: one in nine sampled articles is this long.
+
+**b. Thomas Hinds** (1371 words) — `unusual`
+An early Mississippi soldier and congressman. The subject is ordinary for Wikipedia; the length is not. Only one sampled article in eighteen is this long.
+
+**c. Southern pastel frog** (388 words) — `typical`
+A frog found only on Hispaniola. Species are one of Wikipedia's largest families of articles: moths, snails and frogs recur throughout the sample.
+
+**d. Lao Krang** (268 words) — `unusual`
+A sub-group of the Lao people, with its own dialect. Wikipedia covers many peoples, but no other article on one appeared in the sample.
+
+**e. Donovan Wilson (American football)** (722 words) — `typical`
+A current NFL safety. Athletes are among Wikipedia's most common subjects; the bracketed title shows the name was already taken by another article.
+
+**f. Rudbari Konar** (48 words) — `typical`
+An Iranian village of 234 people, in two sentences built from a 2006 census. Short village articles like this fill a large part of Wikipedia.
+
+**g. Katano Station** (40 words) — `typical`
+A monorail station, in one sentence. The shortest here; places and buildings recur throughout the sample, and one sampled article in eight is no longer.
+
+**h. Kaja Kallas's second cabinet** (293 words) — `typical`
+Estonia's government for nine months in 2022–23, written up while it was news. Politics recurs in the sample: elections, constituencies, councils.
+
+**i. 300-win club** (746 words) — `typical`
+The baseball pitchers who have won 300 games: essentially a list. Sport and lists are both large parts of Wikipedia, and here they meet.
+
+**j. Kelly Stephens-Tysland** (109 words) — `typical`
+An ice hockey player with a 2006 Olympic bronze. Short biographies of Olympians and other athletes are among the most common articles there are.
+
+**k. Chlormadinone caproate** (84 words) — `unusual`
+A contraceptive drug that was tested but never sold. Specialist pharmacology written for experts; no other drug or chemical appears in the sample.
+
+**l. Tambuco** (181 words) — `typical`
+A Mexican percussion ensemble founded in 1993. Short articles on musicians and bands, from all over the world, turn up constantly.
+
+## Showing order
+
+g – f – k – j – l – d – h – c – e – i – a – b
+(shortest to longest; the visitor walks from one-sentence stub to the long article)
+
+## Judgements
+
+**How well these twelve represent English Wikipedia:** 3 of 5.
+
+The lengths match the 160 well: three of the twelve have under 100 words (about three and a half expected), and the middle of the twelve sits near 280 words against about 210 for the 160. The subjects match less well. Four of the twelve are individual people, all of them American (about one in five of the 160 is a person, so two or three would be expected), and five of the twelve have American subjects. Nothing here is a film, album, song, book or TV show, though such articles are about one in eight of the 160; and there is no disambiguation page ("X may refer to…"), about one in eleven of the 160. Both gaps are what chance does with twelve, but a visitor cannot see them.
+
+**What I would replace, if allowed:**
+
+- **a. Oscar C. Badger II** → a **disambiguation page**. These navigation pages are a real share of Wikipedia and the wall has none; Badger is one of four American biographies.
+- **e. Donovan Wilson** → a **short article on an album or a film**. Popular culture is a large share of Wikipedia and absent here; Wilson is the third sports item and another American person.
+
+The long tail stays represented by Thomas Hinds.

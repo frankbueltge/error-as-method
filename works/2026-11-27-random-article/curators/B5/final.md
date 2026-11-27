@@ -1,0 +1,61 @@
+# Wikipedia as it is
+
+## Wall text
+
+These twelve articles were drawn at random from English Wikipedia. Nobody chose them.
+
+Most of the encyclopedia is small. Half of these run under 160 words: a Polish village, a monorail station, a Mongolian mine, a 1945 crime film. They are not the famous pages people read, but the bulk of what is there: places, people, songs, films, each recorded in a few lines. Some are long, and one is vast: a list of manga characters over four times as long as the other eleven combined.
+
+The four people here are all men, as most of Wikipedia's biographies are. Missing by chance: plants and animals, and the pages that only point to other articles sharing a name.
+
+## Captions
+
+Tags: *typical* means the kind and size of article you would most likely land on at random; *unusual* means it is not.
+
+**a. Zimna Wódka** — typical
+A village in south-western Poland, in 65 words: a name, a district, and the way to the nearest towns. Villages are among Wikipedia's commonest subjects.
+
+**b. Katano Station** — typical
+A monorail station in Kitakyushu, Japan, in one sentence. Roughly one English Wikipedia article in four is shorter than 80 words.
+
+**c. I Am Love (The Jackson 5 song)** — typical
+A single song with its own article: the Jackson 5's last Top 20 hit, in 1975. Songs and albums are everywhere on Wikipedia.
+
+**d. Arson Squad** — typical
+A 1945 American crime film, in 150 words. Films are catalogued title by title, minor ones included.
+
+**e. Ongilog Lake mine** — typical
+A phosphate mine in Mongolia, in 39 words: where it is and how much ore it holds. The classic stub.
+
+**f. Croaker, Virginia** — typical
+An unincorporated community on the York River. Small American places commonly have articles; at 461 words, this one sits at the long end of ordinary.
+
+**g. Masaichi Kondō** — typical
+A Japanese naval fighter ace of the Second World War. Military lives, especially from the world wars, are a well-stocked corner of Wikipedia.
+
+**h. Thomas Hinds** — unusual
+A Mississippi soldier and congressman, 1780–1840. The subject is ordinary for Wikipedia; the length, 1,371 words, is not. About one article in twenty is longer.
+
+**i. List of Monster Musume characters** — unusual
+13,359 words on the characters of one manga series: four times the length of the next-longest of the 160 articles these twelve came from.
+
+**j. Exiles Bookshop** — typical
+A Sydney bookshop and poetry venue, open 1979 to 1982. Wikipedia keeps many small, local institutions long after they have closed.
+
+**k. Johannes Flum** — typical
+A German footballer, born 1987, in 148 words. Professional athletes are one of the largest groups of people on Wikipedia.
+
+**l. W. Wangyuh** — typical
+W. Wangyuh Konyak, a member of India's 14th Lok Sabha. Politicians, like athletes, appear in large numbers and often briefly.
+
+## Showing order
+
+e, b, a, g, k, d, j, l, c, f, h, i
+
+Shortest to longest, left to right. The wall itself becomes the chart: a visitor walks past a long run of short articles before reaching the two long ones, and the last is out of all proportion.
+
+## Judgements
+
+**How well these twelve represent English Wikipedia:** 4 out of 5. Lengths and the mix of subjects match the 160 closely (the middle length here is about 165 words; in the 160, about 210). What is missing is what twelve random draws can be expected to miss: no disambiguation pages (about one in eleven of the 160) and no species (about one in twenty).
+
+**What I would replace:** None. Any swap would turn a random wall into a chosen one, and the exhibition's claim rests on nobody choosing. The gaps are better named in the wall text than filled.

@@ -1,0 +1,4 @@
+v1: first draft of wall text, captions, tags, order and judgements.
+v2: dropped both replacements (swapping chosen articles for drawn ones would undo the random draw; answer is now None); lowered score 4->3 because twelve is too few to fix any share; made the order strictly by length; untagged i and j as unusual (judged against wall neighbours, not Wikipedia); fixed 'half under 190 words' to 'seven under 200'; replaced the Langlee caption blaming Wikipedia for gaps with a wall-text note that gaps come from the copy.
+v3: j's caption still called its length unusual while tagged typical, so removed that; rewrote h's caption so its unusual tag rests on subject prominence rather than being longest on this wall.
+v4: replaced an unsupported claim about who writes school articles; added a line stating the tag criterion and why nearly all are typical.
