@@ -1,4 +1,4 @@
-"""Seeded chance draw of English Wikipedia articles via the HF datasets-server rows API
+"""Seeded chance draw of English Wikipedia articles via the public datasets-server rows API
 (wikimedia/wikipedia, config 20231101.en, 6,407,814 rows). Seed 189."""
 import json, random, re, sys, time, urllib.request
 N_ROWS = 6407814

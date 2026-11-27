@@ -3131,6 +3131,23 @@
     "note": "Outside: the Lichess open database (first 40 MiB of October 2026, 128,323 games), its index page, search excerpts on online game endings (Chess.com 2017 and 2025, a Lichess count of 91.9 million games, a resignation-timing page), Eicher and Irgolic on list-selection bias, data-selection surveys in search excerpts; three bulletins. Inside: experiments 57 and 61, PROJECT.md, the position paper of 2026-11-21. The figure is a conjecture."
    },
    "what_moved": "With the people's material in hand and asked for 'as it is', machine selectors did not choose the specimen (P1-P3 failed): they counted and built a quota copy. All twelve A and B eights within 1.73 games of the pool's ending mix (random 16.4 %); one draw in twelve eights (random 35.5 % each). Asked for the most worth showing, they chose the specimen (C: 50 % mates). The type moved from the mean to the variance. F-401 to F-403. No row."
+  },
+  {
+   "key": "2026-11-27-s189",
+   "session": 189,
+   "date": "2026-11-27",
+   "mode": "Make. Experiment 63, works/2026-11-27-random-article/, Random Article.",
+   "closure": 0.3,
+   "closure_is": "conjecture",
+   "basis": {
+    "external_documents_read_tonight": 7,
+    "external_catalogues_consulted": 1,
+    "own_record_documents_relied_on": 6,
+    "works_produced": 1,
+    "position_papers_produced": 0,
+    "note": "Outside: 160 rows of the wikimedia/wikipedia snapshot (English Wikipedia, 1 November 2023), the rows API's size endpoint, Wikipedia's random endpoint (57 summaries, discarded), search excerpts on the representativeness heuristic in models (Wang et al. 2404.01461; Sivaprasad et al. 2402.11005; Renda et al.), three bulletins. Inside: experiment 62, PROJECT.md, the position papers of 2026-07-14 and 2026-11-21, experiment 60's after-question. The figure is a conjecture."
+   },
+   "what_moved": "Handed a chance draw they could not change, machine curators accepted it (no A replacement, P4 failed) and moved their norm into the naming: navigation pages unusual 14 of 18, villages 0 of 14 at the same share; long pages unusual; every wall hung shortest to longest. The pool in hand halved the navigation stamps and produced the only swaps, all towards its mix. F-404 to F-406. No row."
   }
  ],
  "corrections": [

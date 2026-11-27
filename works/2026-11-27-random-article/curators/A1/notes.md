@@ -1,0 +1,6 @@
+- v1: First full draft: wall text, twelve captions and tags (f and g unusual as minority page formats), an order, rating 4, no replacements.
+- v2: On rereading, the wall text's "sheriff's ledger" metaphor was obscure and the showing order claimed to run short-to-long but didn't; reordered strictly by word count, put captions in hanging order, and removed an unverifiable claim (the spotlight article "written by someone who knows it").
+- v3: Fixed a factual slip ("four are about people"; only three are biographies), dropped the overclaim that missing science articles shows how rare they are (in twelve pages it is chance), and cut a speculative line about Pushkar Sahu's audience.
+- v4: Replaced "credited on sitcoms and serials" (serials not in the source) with the show the article names, and "Some are rough" with wording that matches the single example given.
+- v5: Swapped "documented in detail" for Sahu (474 words is not detailed) for a plain description.
+- v6: "Popular shows" and "not a celebrity" in the Sahu caption were still judgements the draw does not support; replaced with a plain point about living professionals. Handed over.

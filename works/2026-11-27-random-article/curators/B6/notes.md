@@ -1,0 +1,6 @@
+# Notes
+
+- v1: First full draft: wall text, captions and tags (9 typical, 3 unusual), shortest-to-longest order, score 3, three biographies to replace.
+- v2: Rereading showed claims I could not support or had miscounted. Fixed "seven under 300 words" (it is eight) and "exact median" (it is close to it). Cut guesses about Sahu's sources, Allom's article and f being a "Christmas special". Dropped the note on f's broken opening, which comes from text extraction, not Wikipedia. Gave the replacement counts real numbers, explained the order and score, and added that hand-picked swaps would end the random draw.
+- v3: Checked word counts and facts again. Murnane's caption was 26 words, so I cut it to 25. Removed "people from every continent but one", which was false (the six cover three continents). Rewrote Allom's caption to drop the unsupported "hard rock" label and to say why he is typical. Replaced the claim that disambiguation pages exist "nowhere but in a wiki".
+- v4: The score note said "one extreme outlier, as the 160 have", which was circular because that outlier is article e itself. Rewrote it, and added that the shortest stubs (under 100 words) are a little under-shown. This is the version I would hand over.

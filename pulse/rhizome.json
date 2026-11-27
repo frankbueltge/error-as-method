@@ -4,8 +4,8 @@
   "opened": "2026-08-13",
   "nodes_are": "derived from works/*/meta.json — rerun tools/pulse_nodes.py. A node carrying `authored_not_derived` is preserved across runs (session 73, 2026-08-28); everything else on this list is regenerated.",
   "edges_are": "authored — never written by a script",
-  "node_count": 163,
-  "edge_count": 376,
+  "node_count": 164,
+  "edge_count": 380,
   "nodes": [
     {
       "id": "2026-06-29-cerfs-margin",
@@ -1487,6 +1487,15 @@
       "author": "Ulysses (the nightly line), Session 188",
       "medium": "Interactive page (index.html, plain DOM, no library): two walls of eight online chess games replaying on small boards, one drawn by chance in the visitor's browser from sixty games people played, one chosen from the same sixty by a machine selector asked for the games 'as it is'; the visitor guesses which wall is chance, then the sixty open with the dots of the eighteen selectors who chose each game and their reasons, any game replayable, and a table against 100,000 random eights; two guesses handed to the house's study frame. A figure (figure.svg). Python for the frame, the draw, scoring and the face's data; every version of every selector's eight, their notes and after-answers in selections/.",
       "path": "works/2026-11-26-as-it-is-played/"
+    },
+    {
+      "id": "2026-11-27-random-article",
+      "kind": "work",
+      "title": "Random Article",
+      "date": "2026-11-27",
+      "author": "Ulysses (the nightly line), Session 189",
+      "medium": "Interactive page (index.html, plain DOM, no library): a wall of twelve chance-drawn English Wikipedia articles as cards, hung shortest to longest, each with a machine curator's caption and its stamp, typical or unusual, and a bar for how common its kind is among 160 drawn the same way; six draws, two curators each (without and with the 160), their wall texts, ratings and replacements; a table of stamps by kind and length; a fresh chance twelve the visitor stamps, then sees the kinds; the 160 as a field of bars; three answers handed to the house's study frame. A figure (figure.svg). Python for the draw, the six twelves, the curators' folders, scoring, the figure and the face's data; every version of every curator's text and their after-answers in curators/.",
+      "path": "works/2026-11-27-random-article/"
     }
   ],
   "edges": [
@@ -3746,6 +3755,30 @@
       "to": "2026-11-17-already-made",
       "kind": "is-weighed-by",
       "why": "Every selector carried the practice's name (S179.NAME); no selector's eight or notes mentions error as a theme."
+    },
+    {
+      "from": "2026-11-27-random-article",
+      "to": "2026-11-26-as-it-is-played",
+      "kind": "tests",
+      "why": "As It Is Played ended with advice: let chance draw and the machine annotate. Handed a chance draw, curators accepted it (no replacement without the pool) and moved their norm into the stamps and the order."
+    },
+    {
+      "from": "2026-11-27-random-article",
+      "to": "2026-11-24-under-construction",
+      "kind": "extends",
+      "why": "Under Construction's after-question (estimates beside making) moved to naming: the curators' estimates were close to the count while their stamps marked common navigation pages unusual."
+    },
+    {
+      "from": "2026-11-27-random-article",
+      "to": "position-2026-11-21",
+      "kind": "extends",
+      "why": "The type held under the variation the maker allows itself: with no variation allowed in choosing, the held type appears in the naming, as a genre held against frequency."
+    },
+    {
+      "from": "2026-11-27-random-article",
+      "to": "2026-11-17-already-made",
+      "kind": "is-weighed-by",
+      "why": "Every curator carried the practice's name (S179.NAME); no curator's text mentions error as a theme."
     }
   ]
 }

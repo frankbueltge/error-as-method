@@ -1,0 +1,43 @@
+# Wikipedia as it is — v5
+
+## Wall text
+
+Nobody chose these twelve. A computer drew them at random from the 6.4 million articles of English Wikipedia as it stood in November 2023. So this is not a parade of famous topics. Instead: a Spanish village of 61 people, a page that only points to other pages, an American football safety, a Navy admiral, a novel, a list of pioneering lawyers. Most articles concern one person, place, work or team, and many are brief. They hang from shortest (31 words) to longest (890). Twelve is a small sample: these run longer than usual, and tiny place pages, very common, appear only once. Read them as a core sample, not a portrait.
+
+## Captions
+
+Tags compare each article's kind with the 160 articles the twelve were drawn from: `typical` if that kind is at least one in twelve of them. Length is left to the showing order.
+
+a. **Spotlight operator** (826 words) — The technician who steers a followspot through a performance. Articles about a job or general idea are few: about one in sixteen. — `unusual`
+
+b. **One World Media** (368 words) — A non-profit charitable trust based in London. Organisations, clubs and companies make up roughly one page in eleven. — `typical`
+
+c. **Border poll** (139 words) — Referendums that decide where, or whether, a border lies. A broad idea given only 139 words, a grammatical slip left in. — `unusual`
+
+d. **Oscar C. Badger II** (890 words) — US Navy admiral of both World Wars and Medal of Honor recipient. About one article in five is a biography. — `typical`
+
+e. **Venus Envy (novel)** (588 words) — A 1993 novel by Rita Mae Brown. Novels, films, albums, songs and shows: roughly one article in eight. — `typical`
+
+f. **List of first minority male lawyers and judges in North Carolina** (823 words) — Lists are uncommon, about one in twenty-five, and this one asks an unusually precise question. — `unusual`
+
+g. **Elizabeth Stevenson** (31 words) — Not about anyone: a disambiguation page sorting people who share a name. Pages like this are about one in eleven. — `typical`
+
+h. **Donovan Wilson (American football)** (722 words) — Dallas Cowboys safety, born 1995, who played college football at Texas A&M. Athletes are a large share of the biographies. — `typical`
+
+i. **Villar del Pozo** (58 words) — A Spanish municipality of 61 inhabitants, in two sentences. Villages and towns: about one article in seven, most as short. — `typical`
+
+j. **Pushkar Sahu** (474 words) — Indian television writer of the sitcom Saat Phero Ki Hera Pherie. A biography of someone known within one industry. — `typical`
+
+k. **Pelé (2021 film)** (224 words) — Netflix documentary about the Brazilian footballer. A world-famous subject, met through a modest film page. — `typical`
+
+l. **Faroe Islands at the 1996 Summer Paralympics** (50 words) — The whole delegation was one swimmer, Ester Høj. Sports seasons, events and results: only about one page in sixteen. — `unusual`
+
+## Showing order
+
+g, l, i, c, k, b, j, e, h, f, a, d — shortest to longest, so the wall itself shows how unequal articles are.
+
+## Judgements
+
+**How well these twelve represent English Wikipedia:** 4 out of 5. The spread of kinds matches the 160 well: biographies, a place, media, an organisation, a disambiguation page, sport, a list, general topics. But the twelve run long (median about 420 words against about 210 for the 160; four of the twelve fall in the longest sixth), and two-line place stubs, frequent in the 160, appear once.
+
+**Replace:** None. The exhibition's claim is that nobody chose these; any swap I made to look more representative would replace chance with my picture of Wikipedia. The wall text names the skew instead.
